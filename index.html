@@ -1,0 +1,45 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<h1>Lehrveranstaltungen im WS 2013/2014</h1>
+<ul>
+<li><a href="ws2013/info1">Informatik 1</a></li>
+<li><a href="ws2013/info3">Informatik 3</a></li>
+<li>Praxisprojekt</li>
+</ul>
+
+
+<h1>Aktuelles</h1>
+<!-- This loops through the paginated posts -->
+
+{% for post in paginator.posts %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="author">
+    <span class="date">{{ post.date | date: "%d. %B %Y" }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
+
+<h1>Vergangene Lehrveranstaltungen und alte Posts</h1>
+<a href="archiv.html">... sind im Archiv</a>
+{% comment %}
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+{% endcomment %}
+
