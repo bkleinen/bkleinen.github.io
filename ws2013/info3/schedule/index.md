@@ -1,14 +1,14 @@
 ---
-title: Info3 SS2013 - Schedule
+title: Info3 SS2013 | Schedule
 author: kleinen
 layout: schedule
 ---
 ||Day|Date|Topic|Lecture|Ass.|Lab (Friday)|
 |:------|:------|:------|:------|:------|:------|:------|
 |1|Thu|10-Oct-13|SE|Introduction to Info 3 and Software Engineering|||
-|2|Fri|11-Oct-13|SE|No Lecture/Lab: E-Learning||Setup your Development Environment|
+|2|Fri|11-Oct-13|SE|No Lecture/Lab: [E-Learning](../labs/lab-00.html)||[Setup your Development Environment](../labs/lab-00.html)|
 |3|Thu|17-Oct-13|SE|Source Code Management|||
-|4|Fri|18-Oct-13|SE|Software Development Processes|1|Development Environment & GIT, Markdown||
+|4|Fri|18-Oct-13|SE|Software Development Processes|1|Development Environment & GIT, Markdown |
 |5|Thu|24-Oct-13|SE|System Modeling and Architectural Design|||
 |6|Fri|25-Oct-13|SE|Requirements Engineering|2|UML Part I: Use Cases|
 |7|Thu|31-Oct-13|SE|Requirements Engineering|||
