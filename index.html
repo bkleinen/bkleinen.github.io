@@ -15,9 +15,9 @@ title: Kleinen | HTW Berlin
 <!-- This loops through the paginated posts -->
 
 {% for post in paginator.posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p class="author">
+  <h3 class ="post-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <span class="date">{{ post.date | date: "%d. %B %Y" }}</span>
+  <p class="author">
   </p>
   <div class="content">
     {{ post.content }}

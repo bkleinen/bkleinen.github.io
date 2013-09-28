@@ -1,14 +1,16 @@
 ---
-title: Informatik 1 (WS2012/2013)
+title: Info1 WS2013
 author: kleinen
 layout: page
 ---
 
-[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) | [Github](https://github.com/info1)
+[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) | [Github](http://github.com/htw-imi-info1)
 
 # Welcome!
 
 Info 1 is an introduction to object oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing programs, designing simple algorithms, about control structures, data types and structures, objects and classes.
+
+## Meetings
 
 The class consists of 2x2h of lectures and 2h of lab:
 
