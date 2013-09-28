@@ -60,7 +60,7 @@ Nevertheless, your colleagues from the previous semesters preferred UML tools. W
 The programming examples will be in Ruby, and at the end of the semester we will dip into the Ruby on Rails Web Development framework and have a look at how Enterprise Application Patterns and agile best practices are incorporated there. As Ruby installation tends to be a pain on Windows, better start now.
 For MacOs and Linux, I recommend using rvm (ruby version manager) - all [options are explained and linked from the ruby download page](https://www.ruby-lang.org/en/downloads/).
 
-I will be using the newest versions of ruby and rails in my examples - that is, ruby 2.0 and rails 4.0 as of now. You should be able to get away with ruby 1.8.7 and rails 3.2 for everything were going to do, but avoiding understanding and navigating around the subtle differences may be worth the effort of getting rid of ruby 1.8.7 on your mac. Honestly.
+I will be using the newest versions of ruby and rails in my examples - that is, ruby 2.0 and rails 4.0 as of now. You should be able to get away with ruby 1.8.7 and rails 3.2 for everything we're going to do, but avoiding understanding and navigating around the subtle differences may be worth the effort of getting rid of ruby 1.8.7 on your mac. Honestly.
 
 After installing Ruby, install rails with
 
