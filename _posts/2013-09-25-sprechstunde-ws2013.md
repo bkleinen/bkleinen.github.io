@@ -8,6 +8,9 @@ categories:
 
 ---
 
-Dienstag, 16-17 Uhr im WH-C 645 und nach Vereinbarung.
+(Ab 8.10.) Dienstag, 16-17 Uhr im WH-C 645 und nach Vereinbarung.
 
+weitere Termine in den Semesterferien:
+
+ * Di, 1.10. 14-15 Uhr
 
