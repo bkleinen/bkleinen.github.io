@@ -1,4 +1,4 @@
-name: Prof. Kleinen / Lehrveranstaltungen
+name: Prof. Dr. B. Kleinen
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

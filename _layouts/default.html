@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
     {% include head.md%}
+
+
+    <div class="wrapper">
+        <header>
+            {% include headline.md %}
+        </header>
+    </div>
     <body>
+        <section>
         <div class="container">
           <div class="site">
-             {% include headline.md %}
+
              {{ content }}
              {% include footer.md %}
           </div>
         </div> <!-- /container -->
-
+        </section>
     </body>
 </html>
