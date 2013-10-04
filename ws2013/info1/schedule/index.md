@@ -1,5 +1,5 @@
 ---
-title: Info1 WS2013 - Schedule
+title: Schedule
 author: kleinen
 layout: schedule
 ---
@@ -38,3 +38,4 @@ layout: schedule
 |30||Application Design|Chapter 13||
 |31|11-Feb-2014|Exam|||
 |32|||Thursday: Klausureinsicht||
+

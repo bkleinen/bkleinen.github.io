@@ -1,7 +1,14 @@
 
-            <div class="header">
-            <a href="http://www.htw-berlin.de/"><img src="{{site.baseurl}}images/htw_logo_green.gif" alt="HTW Berlin" title="HTW Berlin"></a>
-<p>&nbsp;</p>
-              <p class="title"><a href="{{site.baseurl}}">{{ site.name }}</a></p>
+<div class="header">
+<p class="title">
+<div class = "htw-logo">
+<a href="{{site.baseurl}}"><img src="{{site.baseurl}}images/htw_logo_green.gif" alt="HTW Berlin" title="HTW Berlin"></a>
+</div>
+</p>
 
-            </div>
+<p><a href="{{site.baseurl}}">{{ site.name }}</a> <span class = "header-divider">|</span>
+<p><a href="http://www.htw-berlin.de">HTW Berlin</a><span class = "header-divider">|</span></p>
+<p><a href="http://www.f4.htw-berlin.de/">FB4</a><span class = "header-divider">|</span></p>
+<p><a href="http://imi-bachelor.htw-berlin.de/">International Media and Computing</</p>
+
+</div

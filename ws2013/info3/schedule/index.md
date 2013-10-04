@@ -1,5 +1,5 @@
 ---
-title: Info3 SS2013 | Schedule
+title: Schedule
 author: kleinen
 layout: schedule
 ---
