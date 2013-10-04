@@ -8,7 +8,6 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
 
 {% assign seperator ="&#187;" %}
-{% assign seperator ="|" %}
 
 {% assign previous="" %}
 <div class = "breadcrumbs">
@@ -20,9 +19,10 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
   {% for unused in site.breadcrumb_list limit:num_parts %}
    {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
-   {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
+  {% capture previous %}{{ previous }}{{ first_word }}/{% endcapture %}
 
-   <a href="{{previous}}">{{ first_word }}</a>
+
+   <a href="{{site.baseurl}}{{previous}}">{{ first_word }}</a>
 
    {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
    {% capture remaining %}{{ url_parts | number_of_words}}{% endcapture%}
