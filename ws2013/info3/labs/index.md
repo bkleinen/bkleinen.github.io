@@ -28,7 +28,7 @@ There are 12 exercises to be done. For each week you must write a report. The re
 I will be giving "stars" to let you know how well you are doing on each graded exercise. No stars does not mean no points - it means you handed in a report on time, but it was nothing to write home about.
 Late work will not be accepted and will be treated as missing work. Always turn in what you have completed on time rather than delaying in the hope that you will be able to do more.
 
-[Last semesters, I found it necessary to clarify some more things about the reports.](/general/guideline.html)
+[Last semesters, I found it necessary to clarify some more things about the reports.](({{site.baseurl}}general/guideline.html)
 
 # Star Gradings for Exercises
 

@@ -1,3 +1,4 @@
+
 <div class = "breadcrumbs">
-  <a href="/">home</a>
+  <a href="{{site.baseurl}}">home</a>
 </div>

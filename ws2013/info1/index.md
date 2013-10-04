@@ -21,7 +21,7 @@ The class consists of 2x2h of lectures and 2h of lab:
 
 ## Grades
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale](/general/grading-scale.html):
+Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale](({{site.baseurl}}general/grading-scale.html):
 
 * Lecture summaries: 10%
 * Lab reports: 50%
@@ -57,7 +57,7 @@ There are tons of Java Tutorials out there on the web, my recommendation are the
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages](/index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale](/general/grading-scale.html)
+* [These pages](({{site.baseurl}}index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale](({{site.baseurl}}general/grading-scale.html)
 * [Github](https://github.com/info1) for publicly accessible code examples for the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=85525),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86064) for official course information.

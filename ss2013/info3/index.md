@@ -10,7 +10,7 @@ layout: page
 
 *   [Moodle2][1] (no longer active)
 *   [Github][2]
-*   [Grading Scale](/general/grading-scale.html)
+*   [Grading Scale](({{site.baseurl}}general/grading-scale.html)
 *   [EclEmma][4] Code Coverage for Eclipse
 
 &nbsp;

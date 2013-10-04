@@ -1,0 +1,6 @@
+
+destination: _site_htw
+encoding: UTF8-MAC
+baseurl: /~kleinen/
+
+# jekyll build --config _config.yml, _htwconfig.yml
