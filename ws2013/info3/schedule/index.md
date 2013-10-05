@@ -1,7 +1,8 @@
 ---
 title: Schedule
 author: kleinen
-layout: schedule
+layout: page
+wide_layout: true
 ---
 |No.|Day|Date|Topic|Lecture|Ass.|Lab (Friday)|
 |:------|:------|:------|:------|:------|:------|:------|

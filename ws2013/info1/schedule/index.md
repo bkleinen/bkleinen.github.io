@@ -1,7 +1,8 @@
 ---
 title: Schedule
 author: kleinen
-layout: schedule
+layout: page
+wide_layout: true
 ---
 
 |Lecture|Date (Tue)|Lecture (2 on Tue)|Chapter (Barnes/Kölling)|Lab (Tue/Thu)|
