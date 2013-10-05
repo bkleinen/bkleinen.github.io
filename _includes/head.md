@@ -8,6 +8,6 @@
         <link rel="stylesheet" href="{{site.baseurl}}css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{site.baseurl}}css/main.css">
+        <link rel="stylesheet" href="{{site.baseurl}}css/generated.css">
 
     </head>

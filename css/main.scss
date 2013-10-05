@@ -88,8 +88,12 @@ header {
 header .header-divider {
   display: none; }
 
-header p {
-  margin: 0 0 7px; }
+header p{
+   margin: 0 0 0px; }
+.htw-logo {
+   margin: 0 0 14px;
+}
+
 
 header ul {
   list-style: none;
@@ -163,10 +167,9 @@ footer {
   float: left;
   position: fixed;
   bottom: 50px; }
-
-h1 {
-  color: purple; }
-
+.float-right {
+  float:right;
+}
 @media print, screen and (max-width: 960px) {
   @include layout-wide;
 }
