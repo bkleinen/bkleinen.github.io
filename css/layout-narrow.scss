@@ -1,0 +1,15 @@
+@mixin layout-narrow {
+  h1 {
+    color: red; }
+
+  body {
+    padding: 15px; }
+
+  header ul {
+    display: none; } }
+@media print {
+  body {
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444; }
+  }

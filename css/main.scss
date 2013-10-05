@@ -1,9 +1,8 @@
+
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-@media print {
-  body {
-    padding: 0.4in;
-    font-size: 12pt;
-    color: #444; } }
+@import "layout-wide";
+@import "layout-middle";
+@import "layout-narrow";
 body {
   padding: 50px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -169,59 +168,11 @@ h1 {
   color: purple; }
 
 @media print, screen and (max-width: 960px) {
-  h1 {
-    color: green; }
-
-  div.wrapper {
-    width: auto;
-    margin: 0; }
-
-  header, section, footer {
-    float: none;
-    position: static;
-    width: auto; }
-
-  header .header-divider {
-    display: inline; }
-
-  section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px; }
-
-  header a small {
-    display: inline; }
-
-  header p {
-    display: inline; }
-
-  header ul {
-    position: absolute;
-    right: 50px;
-    top: 52px; } }
+  @include layout-wide;
+}
 @media print, screen and (max-width: 720px) {
-  h1 {
-    color: blue; }
-
-  body {
-    word-wrap: break-word; }
-
-  header {
-    padding: 0; }
-
-  header ul, header p.view {
-    position: static; }
-
-  pre, code {
-    word-wrap: normal; } }
+  @include layout-middle;
+}
 @media print, screen and (max-width: 480px) {
-  h1 {
-    color: red; }
-
-  body {
-    padding: 15px; }
-
-  header ul {
-    display: none; }
+  @include layout-narrow;
   }
