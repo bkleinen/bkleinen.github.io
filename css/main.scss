@@ -3,6 +3,23 @@
 @import "layout-wide";
 @import "layout-middle";
 @import "layout-narrow";
+
+/* htw colors */
+/* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
+$main-color: #ce4dd6;
+
+$htw-green20: #e4f1cc;
+$htw-green40: #c8e399;
+$htw-green60: #add566;
+$htw-green80: #91c733;
+$htw-green100: #76b900;
+
+$htw-black20: #5e9400;
+$htw-black35: #4d7800;
+$htw-black50: #3b5c00;
+$htw-black65: #294100;
+$htw-black80: #182500;
+$htw-header: $htw-black20;
 body {
   padding: 50px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12,6 +29,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 0 0 20px; }
+h1 {
+    color: $htw-header; }
 
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px; }
@@ -162,6 +181,7 @@ hr {
   height: 1px;
   margin: 0 0 20px; }
 
+img[alt=Barbara_Kleinen]{float:right;}
 footer {
   width: 270px;
   float: left;
