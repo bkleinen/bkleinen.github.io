@@ -1,8 +1,8 @@
 @mixin layout-general {
 
-/* htw colors */
+/* sass variables for htw colors */
 /* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
-$main-color: #ce4dd6;
+
 
 $htw-green20: #e4f1cc;
 $htw-green40: #c8e399;
@@ -16,15 +16,21 @@ $htw-black50: #3b5c00;
 $htw-black65: #294100;
 $htw-black80: #182500;
 
+/* http://www.htw-berlin.de/hochschulstruktur/zentrale-referate/presse-und-oeffentlichkeitsarbeit/corporate-design/farbklima-schriften/ */
 $htw-blue: #0082D1;
+$htw-orange: #FF5F00;
+$htw-grau: #AFAFAF;
 
 $htw-header: $htw-black20;
 
+/* more color constants */
+
+$main-color: #777;
 
 body {
   padding: 50px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #777;
+  color: $main-color;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,9 +59,13 @@ a {
   font-weight: 400;
   text-decoration: none; }
 
+footer a {
+  color: $main-color;
+}
+
 a small {
   font-size: 11px;
-  color: #777;
+  color: $main-color;
   margin-top: -0.6em;
   display: block; }
 

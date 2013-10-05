@@ -4,12 +4,14 @@
     padding: 0.4in;
     font-size: 12pt;
     color: #444; } }
-/* htw colors */
+/* sass variables for htw colors */
 /* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
+/* http://www.htw-berlin.de/hochschulstruktur/zentrale-referate/presse-und-oeffentlichkeitsarbeit/corporate-design/farbklima-schriften/ */
+/* more color constants */
 body {
   padding: 50px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #777;
+  color: #777777;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,9 +41,12 @@ a {
   font-weight: 400;
   text-decoration: none; }
 
+footer a {
+  color: #777777; }
+
 a small {
   font-size: 11px;
-  color: #777;
+  color: #777777;
   margin-top: -0.6em;
   display: block; }
 

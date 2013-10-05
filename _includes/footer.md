@@ -1,16 +1,15 @@
-        <hr />
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Prof. Dr. Barbara Kleinen<br />
-                  HTW Berlin<br />
-                  barbara.kleinen@htw-berlin.de
+       <footer>
+                 <p>
+                <a href="{{site.baseurl}}about/me.html">Prof. Dr. Barbara Kleinen</a><br />
+                <a href="http://www.htw-berlin.de">HTW Berlin</a>,
+                <a href="http://www.f4.htw-berlin.de/">FB4</a>, <a href="http://imi-bachelor.htw-berlin.de/">International Media and Computing</a>
+<br />
+ barbara.kleinen@htw-berlin.de
                 </p>
-              </div>
-              <div class="contact">
+
                 <p>
                   <a href="http://github.com/bkleinen/">github.com/bkleinen</a><br />
                   <a href="http://twitter.com/drblinken/">twitter.com/drblinken</a><br />
                 </p>
-              </div>
             </div>
+</footer>
