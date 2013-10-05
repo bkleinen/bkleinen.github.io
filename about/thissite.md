@@ -22,7 +22,7 @@ This site is also deployed to [http://people.f4.htw-berlin.de/~kleinen/](http://
 http://sass-lang.com/tutorial.html
 
     cd css
-    sass --watch main.scss:generated.css --trace
+    sass --watch main.scss:generated.css main-schedule.scss:generated-schedule.css
 
 * http://de.selfhtml.org for css basics
 
@@ -34,13 +34,18 @@ http://sass-lang.com/tutorial.html
 
 ### Deployment to HTW FB4 server
 
- Build for HTW with additional config file:
-
+These are just some notes for me; will be followed with an automatic deployment.
+Build for HTW with additional config file:
 
       jekyll build --config _config.yml,_htwconfig.yml
 
+Copy the _site_htw to public_html on
+
+     uranus.f4.htw-berlin.de
+
 ## Automated Testing
 
+This is not yet implemented -
 This site is automatically tested using Capybara and Minitest.
 
 https://github.com/jnicklas/capybara

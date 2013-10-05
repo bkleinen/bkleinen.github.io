@@ -15,7 +15,11 @@ $htw-black35: #4d7800;
 $htw-black50: #3b5c00;
 $htw-black65: #294100;
 $htw-black80: #182500;
+
+$htw-blue: #0082D1;
+
 $htw-header: $htw-black20;
+
 
 body {
   padding: 50px;
@@ -45,7 +49,7 @@ h3, h4, h5, h6 {
   color: #494949; }
 
 a {
-  color: #39c;
+  color: $htw-blue;
   font-weight: 400;
   text-decoration: none; }
 
