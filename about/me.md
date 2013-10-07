@@ -12,6 +12,10 @@ layout: page
 
 Email: barbara.kleinen@htw-berlin.de
 
+Homepage: [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/)
+
+Mirror on github: [http://bkleinen.github.io/](http://bkleinen.github.io/)
+
 Office: WH C 645
 
 Office Hours in WS2013: Tuesday, 16-17
