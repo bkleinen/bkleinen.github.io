@@ -13,14 +13,14 @@ Info 3 is the roundup of the Info 1-3 cyclus. In Info1, you learned programming,
 The Modulbeschreibung states the following goals for Info3:
 
 *  Die Studierenden haben gelernt, wie man ein komplexes Softwarebasiertes
-   System analysiert, modelliert und eine Lösung entwirft.
-*  Die Studierende können sicher mit Entwurfsmustern umgehen und sie in einer
+   System analysiert, modelliert und eine L&ouml;sung entwirft.
+*  Die Studierende k&ouml;nnen sicher mit Entwurfsmustern umgehen und sie in einer
    aktuellen Programmiersprachen praktisch umsetzen.
 *  Die Studierenden haben Modellierungs-Notationen wie UML sicher anzuwenden
    gelernt.
 *  Sie haben verstanden, wie sie die Methoden des Software- Engineerings auf der
-   Entwicklung von Mediensysteme anwenden können.
-*  Sie können Algorithmen der Lokalisierung und Internationalisierung von
+   Entwicklung von Mediensysteme anwenden k&ouml;nnen.
+*  Sie k&ouml;nnen Algorithmen der Lokalisierung und Internationalisierung von
    Software umsetzen.
 
 Thus, Software Engineering, Software System Design, the UML and Software Design Patterns are set as topics.
