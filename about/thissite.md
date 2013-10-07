@@ -41,7 +41,7 @@ Build for HTW with additional config file:
 
 Copy the _site_htw to public_html on
 
-     uranus.f4.htw-berlin.de
+     scp -r _site_htw/* kleinen@uranus.f4.htw-berlin.de:~/public_html
 
 ## Automated Testing
 

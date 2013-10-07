@@ -57,6 +57,15 @@ Nevertheless, your colleagues from the previous semesters preferred UML tools. W
 
 ## Ruby and Ruby on Rails Installation
 
+Update 07/Oct/2013: You can either install Ruby and Rails locally or within a virtual box running linux, which should make the installation much easier
+
+### Running Ruby and Rails in a Virtual Box
+
+With this option, you run rails within a virtualized linux box on your computer. Works like a charm on my 2 year old MacBook Pro, not sure about smaller machines.
+
+Follow  installation instructions [here](https://github.com/info3/rails-starter-box).
+
+### Local Installation on your machine
 The programming examples will be in Ruby, and at the end of the semester we will dip into the Ruby on Rails Web Development framework and have a look at how Enterprise Application Patterns and agile best practices are incorporated there. As Ruby installation tends to be a pain on Windows, better start now.
 For MacOs and Linux, I recommend using rvm (ruby version manager) - all [options are explained and linked from the ruby download page](https://www.ruby-lang.org/en/downloads/).
 
