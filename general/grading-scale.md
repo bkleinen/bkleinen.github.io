@@ -5,7 +5,7 @@ layout: page
 ---
 
 
-This is the official grading scale according to the [RPO](http://www.htw-berlin.de/bewerben/rahmenordnungen/) ([Lesefassung](http://www.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/Rahmenordnungen/RPO_Lese_6.pdf)). There are 110-120 percent possible on all courses I teach.
+This is the official grading scale according to the [RPO](http://www.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2013/04_13.pdf). There are 110-120 percent possible on all courses I teach.
 
 | Percent           | Grade | Percent | Grade |
 | --- | --- | --- | --- |
