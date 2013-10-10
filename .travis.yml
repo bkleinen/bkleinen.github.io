@@ -1,0 +1,28 @@
+---
+language: ruby
+rvm:
+- 2.0.0
+script:
+- _bin/deploy-htw.sh
+env:
+  global:
+  - secure: |-
+      PtDVAB1RgyhjGyD7UF9IDMnNaDFENUUrFuEeaJRDueW9rg6rxQaEs1R6Yi9u
+      j5pF52keey8ohVYCxBPMp8bQMfPUStFjBldtbHMhJowc2+e8c3lwP3Dzeyy0
+      mCm4aYO8dS5QESW3PgPMEol+MbE1AdJdfI8K50qrzi4MasgzUz0=
+  - secure: |-
+      etp8I/KrSNHIZyhCCHcBQZ+/7CkoEiFkTJuZlTAZGSK7NW2CgudLypLHX00C
+      RrJGCxiqm2XLzbOYMpSiVZ7jWR1rzT3rvCImlzSS0IrJfIQPFEs3eHbLOBWh
+      hs9pHEJ4XLRxzBRuL1vNIxJ4JOlfGgK776JxzjP4KPyVmyUs3Ag=
+  - secure: |-
+      CBLasdiYRkPJZNkS574ruIZrsiMxfPXgXRIh47bUMIgW2cfLDVOkJt4bWKZI
+      qU8CvOiNJmG3MvCy0WRg8rxGtNFJJjATPtQhrlB1FreGU7Uoyev6c1J0AcI2
+      kpgNcm6c8sJdxqn/I+Peq/4Ed2mDR93jV6xHzldR6db07OyxSUA=
+  - secure: |-
+      qQUXilyyZUQq0h1x6P2ywf6ZN2fveT6YJv91I4B2CPQM9bHFniAiMfsSPHsn
+      IVfZ5EVJqlWnwlvJX54ypUebzGU+N+/WXMitb9o3iPUzFItsuAb4I6dEiQZ/
+      huiHhR2eyHWn+WgCFDA3kyNo3mVffAncYP+g9X6nICihh81HVd4=
+  - secure: |-
+      P0Ro1I60B19IWWtT0fN3pj9CHwS3bh3SSkEeOSPfVIcKThshEpSUHemgM1Bx
+      2nIBIyWk/OA6a/t8IFPNTN5PxMNnGaCB8g0fanDEc6UoEtZZbbq8PxktDBu4
+      5KYjoX9pW9GjTJYzeEIGJ1gZKzRE1sI99THSC0+WKKBrVdYShNI=

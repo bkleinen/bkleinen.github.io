@@ -56,7 +56,7 @@ There will be a 2-hour online examination on or about Feb 7. We will have 2 shif
 
 ## Course Literature
 
-There is no textbook for this class. Here are the main books this class is based on. You'll don't need to buy them for this class - there's plenty of information online. Some of them can be found in the library. You might want to buy them, though, as these are books that will not be outdated next year. One of them is even the same age as some of you.
+There is no textbook for this class. Here are the main books this class is based upon. You'll don't need to buy them for this class - there's plenty of information online. Some of them can be found in the library. You might want to buy them, though, as these are books that will not be outdated next year. One of them is even the same age as some of you.
 
 | Reference | Link|
 | :---------| :---|
