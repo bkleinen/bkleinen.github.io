@@ -1,0 +1,1 @@
+Ich bräuchte gerade ein leichtgewichtiges Tool, mit dem man einen Scrum Backlog idealerweise auf Basis von Github Issues erstellen, priorisieren und veröffentlichen kann - eigentlich sowas wie gissues, aber da hat man nur eine Ansicht und nicht öffentlich.

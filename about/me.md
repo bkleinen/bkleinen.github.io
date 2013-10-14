@@ -12,6 +12,8 @@ layout: page
 
 Email: barbara.kleinen@htw-berlin.de
 
+Moodle: Please **don't** send me messages in moodle instead of emails!
+
 Homepage: [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/)
 
 Mirror on github: [http://bkleinen.github.io/](http://bkleinen.github.io/)

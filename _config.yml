@@ -8,3 +8,4 @@ permalink: none
 paginate: 2
 paginate_path: "/page:num"
 baseurl: /
+exclude: ['./_site_htw','_site_htw','/_site_htw/','./_site_htw/','_site_htw/','/_site_htw/']
