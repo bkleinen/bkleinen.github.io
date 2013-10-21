@@ -8,13 +8,13 @@ wide_layout: true
 |:------|:------|:------|:------|:------|:------|:------|
 |1|Thu|10-Oct-13|SE|Introduction to Info 3 and Software Engineering|||
 |2|Fri|11-Oct-13|SE|No Lecture/Lab: [E-Learning](../labs/lab-00.html)||[Setup your Development Environment](../labs/lab-00.html)|
-|3|Thu|17-Oct-13|SE|Source Code Management|||
-|4|Fri|18-Oct-13|SE|Software Development Processes|1|[Development Environment & GIT, Markdown](../labs/lab-01.html)|
-|5|Thu|24-Oct-13|SE|System Modeling and Architectural Design|||
+|3|Thu|17-Oct-13|SE|Software Configuration Management|||
+|4|Fri|18-Oct-13|SE|Software Configuration Management|1|[Development Environment & GIT, Markdown](../labs/lab-01.html)|
+|5|Thu|24-Oct-13|SE|Software Development Processes, Rest of Intro to SE|||
 |6|Fri|25-Oct-13|SE|Requirements Engineering|2|UML Part I: Use Cases|
-|7|Thu|31-Oct-13|SE|Requirements Engineering|||
-|8|Fri|1-Nov-13|SE|Agile Manifesto, Scrum|3|UML Part II: Class Diagrams|
-|9|Thu|7-Nov-13|SE|Scrum Ceremonies and Sprints|||
+|7|Thu|31-Oct-13|SE|System Modeling and Architectural Design|||
+|8|Fri|1-Nov-13|SE|Agile Manifesto, Scrum (Scrum Ceremonies and Sprints) |3|UML Part II: Class Diagrams|
+|9|Thu|7-Nov-13|SE|Probelehrveranstaltung im Rahmen eines Berufungsverfahrens|||
 |10|Fri|8-Nov-13|Clean Code|Clean Code|4|UML Part III: State Diagrams|
 |11|Thu|14-Nov-13|Clean Code|SOLID Principles|||
 |12|Fri|15-Nov-13|Clean Code|SOLID Principles II|5|UML Part IV: Sequence Diagrams|
@@ -40,3 +40,7 @@ wide_layout: true
 |32|Fri|7-Feb-14||Klausur||Klausur|
 |33|Thu|13-Feb-14||Klausureinsicht|||
 |34|Fri|14-Feb-14||Probably Showtime|||
+
+
+
+
