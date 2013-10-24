@@ -29,7 +29,7 @@ Skype&Twitter: drblinken
 Phone: +49 30 5019-3499
 
 Postal address:
-[Treskowallee 8, 10318 Berlin](http://www.htw-berlin.de/htw/standorte/campus-treskowallee/)
+HTW Berlin, Fachbereich 4, 10313 Berlin
 
 Visiting address:
 [Wilhelminenhofstr. 75a, 12459 Berlin](http://www.htw-berlin.de/htw/standorte/campus-wilhelminenhof/) - Gebäude C
