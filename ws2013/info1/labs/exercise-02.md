@@ -4,7 +4,7 @@ author: kleinen
 layout: lab
 ---
 
-This week’s lab work is intended to acquaint you with the BlueJ environment.
+This week's lab work is intended to acquaint you with the BlueJ environment.
 
 ## Pre-lab
 
@@ -26,13 +26,13 @@ Please bring these exercises printed out or written out with you to lab. Please 
   - '3'
   - 3.1415
 
-**P3.** Pick up a book – you should have at least one at home. Is it an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.
+**P3.** Pick up a book - you should have at least one at home. Is it an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.
 
 **P4.** What class does the following constructor belong to? How many formal parameters does it have? What are their types?
 
     public Book (String title, double price){ }
 
-If you will be using your own laptop in the lab, please install BlueJ before you come to lab. [Downloads](http://www.bluej.org/download/download.html) are available for all platforms – it’s Java!
+If you will be using your own laptop in the lab, please install BlueJ before you come to lab. [Downloads](http://www.bluej.org/download/download.html) are available for all platforms - it's Java!
 
 ## Post-Lab, AKA What To Turn In
 
@@ -66,8 +66,8 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
         }
 
 6. Open the **TicketMachine project** in BlueJ. Replace the constructor with the constructor from 5 and try it out. Were you right? Record your results in your report.
-7. Kara: Go back to the Greenfoot Scenario from last exercise. Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? (“super” calls the super class constructor).
-8. (For the bored) Okay, so you’ve been programming since before you could talk and this is child’s play. Explore a little deeper – can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
+7. Kara: Go back to the Greenfoot Scenario from last exercise. Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? ("super" calls the super class constructor).
+8. (For the bored) Okay, so you've been programming since before you could talk and this is child's play. Explore a little deeper - can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
 9. (For the really bored) Can you make the better-ticket-machine give proper change using Euro coins?
 
 ## Writeup - what to put in the Lab Report
@@ -79,7 +79,7 @@ You will be doing your writeup at home or in the lab if time permits. Use the no
 
 * * *
 
-Adapted from [http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml](http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
+Adapted from [http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml](http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
 
 [1]: https://github.com/htw-imi-info1/exercise02
 [2]: https://github.com/htw-imi-info1/exercise02/zipball/master
