@@ -6,7 +6,7 @@ layout: page
 
 This week and in Exercise 2, we will start working on the web applications. Please use the time till Friday to gather some ideas about which web application you might want to develop! We will have a topic collection, discussion and decision in class on friday. Here are my current ideas, just for inspiration:
 
- *  DailyTasks: An application where a user can make a list of daily tasks (e.g. study English, cleaning kitchen, exercise) and check them off every day. Next step would be making the app “social” with friends, an activity feed and some means to help motivate each other keeping on track.
+ *  DailyTasks: An application where a user can make a list of daily tasks (e.g. study English, cleaning kitchen, exercise) and check them off every day. Next step would be making the app "social" with friends, an activity feed and some means to help motivate each other keeping on track.
  *  Learn Student Names: An application that helps me a professor learn student names based on pictures in some index-card-learning style, e.g. with a certain number of repetitions that decreases as names are memorized etc.
  *  Classroom Ballot: a tool for anonymous ballots during class.
 

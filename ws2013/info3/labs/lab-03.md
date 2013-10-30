@@ -1,11 +1,18 @@
 ---
-title: 'Assignment 02 – Use Cases and Class Diagrams'
+title: 'Exercise 03 – Class Diagrams'
 author: kleinen
 layout: page
 ---
 
 
-In this exercise you will create a description, develop a detailed Scenario for a Use Case, and draw a Class Diagram for your Web Application. First, write a detailed description what your application should do (in English or German, as you like) as the[one for the HorseTravelWorld in the old exercise][1]. Then, pick the most important (or interesting) use case. For HTW, that might be the Use Case of a User booking a trip, or of a user browsing for trips, or of a user contributing a review. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different scenario for each person such that you get a couple covered (that is, everyone has to write an own scenario!) Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As last fortnight, include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. If you feel you need to, you can also use an UML Tool for that. We will discuss UML Tools in the Lab. — about Use Cases — Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
+In this exercise you will create a Class Diagram for the HTW Application.
+
+Based on the system description in the last exercise and the use cases you've developed,
+
+Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes.
+
+
+ First, write a detailed description what your application should do (in English or German, as you like) as the[one for the HorseTravelWorld in the old exercise][1]. Then, pick the most important (or interesting) use case. For HTW, that might be the Use Case of a User booking a trip, or of a user browsing for trips, or of a user contributing a review. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different scenario for each person such that you get a couple covered (that is, everyone has to write an own scenario!) Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As last fortnight, include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. If you feel you need to, you can also use an UML Tool for that. We will discuss UML Tools in the Lab. — about Use Cases — Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
 
 In a scenario you describe a concrete use of the proposed system, using the names of a proposed user. In the use case we abstract away from the concrete situations in the scenarios and try and describe the general case. We have **user roles** and system **functionality** , which are depicted in diagrams as little stick figures and circles, respectively:
 
