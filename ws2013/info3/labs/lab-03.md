@@ -7,6 +7,10 @@ layout: page
 
 In this exercise you will create a Class Diagram for the HTW Application.
 
+Based on the system description in the last exercise and the use cases you've developed,
+
+Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes.
+
 
  First, write a detailed description what your application should do (in English or German, as you like) as the[one for the HorseTravelWorld in the old exercise][1]. Then, pick the most important (or interesting) use case. For HTW, that might be the Use Case of a User booking a trip, or of a user browsing for trips, or of a user contributing a review. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different scenario for each person such that you get a couple covered (that is, everyone has to write an own scenario!) Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As last fortnight, include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. If you feel you need to, you can also use an UML Tool for that. We will discuss UML Tools in the Lab. — about Use Cases — Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
 
@@ -21,10 +25,10 @@ A [use case][2] is an instance of how an actor would use a software system or a 
 | Name | ATM Cash Withdrawal |
 | ---- | -------------------  |
 | Precondition | Emmy has an EC card with a readable magnetic stripe & the EC card is valid & the EC card is linked to an account with this bank |
-| Sequence of steps | 1. Emmy puts her card in the magnetic card reader.<br/>2. A screen appears asking the user what she wants to do.<br/>3. She points to “display balance” on the screen.<br/>4. The machine displays the balance and a continuing menu.<br/>5. Emmy selects “other actions”.<br/>6. Emmy selects “withdrawal”.<br/>7. The machine asks for the PIN number.<br/>8. Emmy enters her PIN and presses the green button.<br/>9. The machine asks how much money she wants.<br/>10. Emmy selects the button labelled 150 Euros.<br/>11. If (Emmy has enough money in her account) then Money is prepared for dispensing<br/>12. Else (Error screen is displayed)<br/>13. The machine returns her EC card.<br/>14. If (Money ready for dispensing) then Money is dispensed. |
+| Sequence of steps | 1. Emmy puts her card in the magnetic card reader.<br/>2. A screen appears asking the user what she wants to do.<br/>3. She points to "display balance" on the screen.<br/>4. The machine displays the balance and a continuing menu.<br/>5. Emmy selects "other actions".<br/>6. Emmy selects "withdrawal".<br/>7. The machine asks for the PIN number.<br/>8. Emmy enters her PIN and presses the green button.<br/>9. The machine asks how much money she wants.<br/>10. Emmy selects the button labelled 150 Euros.<br/>11. If (Emmy has enough money in her account) then Money is prepared for dispensing<br/>12. Else (Error screen is displayed)<br/>13. The machine returns her EC card.<br/>14. If (Money ready for dispensing) then Money is dispensed. |
 | Postcondition | Emmy is in possession of her card and 150 Euros & the bank account linked to this card has had 150 Euros deducted & the card is now marked as having been used today. |
 
-There are also scenarios sometimes referred to as “secondary scenarios” which describe alternate paths. They have their own name, the name of the scenario to which they are referring, and a description of the problem or alternative faced.
+There are also scenarios sometimes referred to as "secondary scenarios" which describe alternate paths. They have their own name, the name of the scenario to which they are referring, and a description of the problem or alternative faced.
 
 | Name | Invalid PIN |
 | -     | -          |

@@ -66,7 +66,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
         }
 
 6. Open the **TicketMachine project** in BlueJ. Replace the constructor with the constructor from 5 and try it out. Were you right? Record your results in your report.
-7. Kara: Go back to the Greenfoot Scenario from last exercise. Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? (“super” calls the super class constructor).
+7. Kara: Go back to the Greenfoot Scenario from last exercise. Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? ("super" calls the super class constructor).
 8. (For the bored) Okay, so you’ve been programming since before you could talk and this is child’s play. Explore a little deeper – can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
 9. (For the really bored) Can you make the better-ticket-machine give proper change using Euro coins?
 

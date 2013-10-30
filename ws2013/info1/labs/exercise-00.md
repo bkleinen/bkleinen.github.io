@@ -10,7 +10,7 @@ We have lots of rules for the labs, as they are used by many different people du
 Two really important rules are:
 
 - **No food. **We don’t like crumbs in the keyboards. Drinks are okay if they are in a container with a screw-on lid and the lid is screwed on. No coffee cups! They get knocked over and we have to get new machines.
-- **Don’t change the configuration. **We don’t care if you have spent half your life “optimizing” computers. We have them set up this way because that is the way we do it. Most especially, don’t take out the Ethernet cable!
+- **Don’t change the configuration. **We don’t care if you have spent half your life "optimizing" computers. We have them set up this way because that is the way we do it. Most especially, don’t take out the Ethernet cable!
 
 If something goes wrong, don’t panic. Speak with the lab leader or the lab engineer.
 
@@ -37,16 +37,16 @@ After you have logged in, look around – where do you find a browser? How many 
  *  first chose a location for Greenfoot and the Scenarios: On the lab pcs, use your home directory, on your own laptop it’s up to you. Think of a useful folder structure – maybe
  *  …/info1/greenfoot/greenfoot – for the greenfoot installation …/info1/greenfoot/scenarios – for the greenfoot scenarios.
  *  The scenarios will hold the files you might want to save/backup or turn in as part of your exercise.
- *  if you install it on the lab pc, use the “Pure Java” version, as it does not require any modifications to the machine configuration and java is already installed on the machine.
- *  if you want to install it on your own computer, you also need java. If you don’t have it yet, follow the “Download JDK” button on the greenfoot download page, then install Greenfoot.
+ *  if you install it on the lab pc, use the "Pure Java" version, as it does not require any modifications to the machine configuration and java is already installed on the machine.
+ *  if you want to install it on your own computer, you also need java. If you don’t have it yet, follow the "Download JDK" button on the greenfoot download page, then install Greenfoot.
  *  The download page can be found at: [http://www.greenfoot.org/download](http://www.greenfoot.org/download)
- *  Then download the first kara scenario from [github][1] (there is a “ZIP” Button!) and unpack it in your scenarios folder. Then open Greenfoot and open the scenario – now you can play around with Kara!
+ *  Then download the first kara scenario from [github][1] (there is a "ZIP" Button!) and unpack it in your scenarios folder. Then open Greenfoot and open the scenario – now you can play around with Kara!
 
 ### 4. Logging Out
 When it comes time to log out, _be very careful. _Computers can be very fussy about this.
 Think of it as a friend who will be insulted if you do not properly say goodbye.
-The proper way is to click on the icon that looks like a power button and select “Benutzer
-abmelden” or to click on the Start button (yes, Windows is a bit strange). You might be asked if you want to remember what you were doing, you can choose to do this, or not. Try out both sometime. This is also a choice “herunterfahren”. Selecting this is the one and only way to safely prepare the machine for powering down.
+The proper way is to click on the icon that looks like a power button and select "Benutzer
+abmelden" or to click on the Start button (yes, Windows is a bit strange). You might be asked if you want to remember what you were doing, you can choose to do this, or not. Try out both sometime. This is also a choice "herunterfahren". Selecting this is the one and only way to safely prepare the machine for powering down.
  ** Never** power down the machine
  without doing this first. Once you have logged out, please turn the machine and screen off if they didn’t shut off automatically, **put your chair back under the table, and clean up any garbage that may have accumulated.**
 
