@@ -43,12 +43,12 @@ After you have logged in, look around - where do you find a browser? How many br
  *  Then download the first kara scenario from [github][1] (there is a "ZIP" Button!) and unpack it in your scenarios folder. Then open Greenfoot and open the scenario – now you can play around with Kara!
 
 ### 4. Logging Out
-When it comes time to log out, _be very careful. _Computers can be very fussy about this.
+When it comes time to log out, _be very careful._ Computers can be very fussy about this.
 Think of it as a friend who will be insulted if you do not properly say goodbye.
 The proper way is to click on the icon that looks like a power button and select "Benutzer
 abmelden" or to click on the Start button (yes, Windows is a bit strange). You might be asked if you want to remember what you were doing, you can choose to do this, or not. Try out both sometime. This is also a choice "herunterfahren". Selecting this is the one and only way to safely prepare the machine for powering down.
- ** Never** power down the machine
- without doing this first. Once you have logged out, please turn the machine and screen off if they didn’t shut off automatically, **put your chair back under the table, and clean up any garbage that may have accumulated.**
+**Never** power down the machine without doing this first. Once you have logged out, please turn the machine and screen off if they didn’t shut off automatically, **put your chair back under the table, and clean up any garbage that may have accumulated.**
+
 
 ## Writeup
 
