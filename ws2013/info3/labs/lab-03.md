@@ -4,57 +4,44 @@ author: kleinen
 layout: page
 ---
 
+ ![LED Pumpkin](../images/led-pumpkin.jpg "pumpkins")
 
 In this exercise you will create a Class Diagram for the HTW Application.
+You should work on this exercise in a team of 2-4 people.
 
-Based on the system description in the last exercise and the use cases you've developed,
+Based on the system description in the [last exercise](lab-02.html) and the use
+cases you've developed,
+draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.
 
-Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes.
+I will briefly introduce class diagrams in the Lab, and you find a thorough
+description here: [UML2 Class Diagrams at Agile Modeling](http://www.agilemodeling.com/artifacts/classDiagram.htm).
 
+A simple method to discover candidates for classes, introduced by Abbott (1983),
+and later popularized by Booch (e.g. Booch 2004, P 136), but critized for not beeing a rigourous approach and only be useful for simple problems, is the following:
 
- First, write a detailed description what your application should do (in English or German, as you like) as the[one for the HorseTravelWorld in the old exercise][1]. Then, pick the most important (or interesting) use case. For HTW, that might be the Use Case of a User booking a trip, or of a user browsing for trips, or of a user contributing a review. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different scenario for each person such that you get a couple covered (that is, everyone has to write an own scenario!) Last, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As last fortnight, include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. If you feel you need to, you can also use an UML Tool for that. We will discuss UML Tools in the Lab. — about Use Cases — Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
+  * Underline all the nouns (in an English language text) in one color, such as blue
+  * Underline all the verbs in another color, such as red
+  * Underline all the adjectives in a third color, such as green.
 
-In a scenario you describe a concrete use of the proposed system, using the names of a proposed user. In the use case we abstract away from the concrete situations in the scenarios and try and describe the general case. We have **user roles** and system **functionality** , which are depicted in diagrams as little stick figures and circles, respectively:
+The nouns are candidates for classes, the verbs for methods and the adjectives
+for attributes/fields. Then use the CRC Method (Beck & Cunningham, 1989) to sort
+all these and produce the design:
 
-  ![Example use case diagram](http://www.f4.fhtw-berlin.de/~weberwu/se/media/Stickfigures.png)
+Take a lot of pieces of paper, and write each noun at the top of one of the pieces of paper and draw a line all across the paper underneath the word. The red words make good methods – they just need to be assigned to classes. Divide the rest of the paper in two pieces – write the verbs on the bottom part. Decorate with attributes as deemed necessary, which get written on the top piece. The green words can be attributes or relationships – distribute them accordingly. Does your diagram make sense? Resort the cards and the methods, making new cards and ripping up the old ones, until finally your diagram seems to be consistent.
 
-| An [actor](http://en.wikipedia.org/wiki/Actor_%28UML%29) is something or someone that interacts with the target system to produce an observable result. There are active and passive actors. They are usually drawn with a stick figure. | ![Stickwoman picture](http://www.f4.fhtw-berlin.de/~weberwu/se/media/Stickwoman.gif) |
+You need to find the right level of abstraction - level of detail - in your diagram. You don't need to put everything in there!
+After your design is finished, draw it using a class diagram drawing tool or simply on paper and scan or fotograph it to include it in the report.
 
-A [use case][2] is an instance of how an actor would use a software system or a service offered by the system. More than one actor can participate in a use case. We draw use case diagrams to visualize the use cases and write out the use cases using templates, such as the one given in [Wikipedia][2]. Use case diagrams are decorated with the name given to the use case. A scenario will typically describe the sequence of concrete activities that happen when a user is interacting with the proposed system. It is a detailed, step-by-step description of observable behaviors – that is, it does not describe the internal workings of the machine, but what a user can observe from the outside. We are not worried about how it will be done on the inside, but instead just want to see if the use of the system makes sense. We can branch inside a scenario using an **if** statement and can repeat steps using a **while** statement. A scenario will not have exceptional conditions. If it is describing one such exceptional interaction, then it explains each step of what happens. A scenario also does not extend another scenario – it just describes what happens in this concrete instance. We give **names** to scenarios, so that we can talk about them. The name should somehow be connected to the use case it is describing. Then we describe any **precondition** that must hold before the scenario can commence. For example: The user has a valid EC card. Then the sequence of steps is listed, followed by a **postcondition** describing what must hold at the end of the scenario. For example, the account linked to the EC card has been debited by 100 Euros and the user now has 100 Euros cash in her hands and the card is now marked as having been used on the current day.
+## Lab Report
 
-| Name | ATM Cash Withdrawal |
-| ---- | -------------------  |
-| Precondition | Emmy has an EC card with a readable magnetic stripe & the EC card is valid & the EC card is linked to an account with this bank |
-| Sequence of steps | 1. Emmy puts her card in the magnetic card reader.<br/>2. A screen appears asking the user what she wants to do.<br/>3. She points to "display balance" on the screen.<br/>4. The machine displays the balance and a continuing menu.<br/>5. Emmy selects "other actions".<br/>6. Emmy selects "withdrawal".<br/>7. The machine asks for the PIN number.<br/>8. Emmy enters her PIN and presses the green button.<br/>9. The machine asks how much money she wants.<br/>10. Emmy selects the button labelled 150 Euros.<br/>11. If (Emmy has enough money in her account) then Money is prepared for dispensing<br/>12. Else (Error screen is displayed)<br/>13. The machine returns her EC card.<br/>14. If (Money ready for dispensing) then Money is dispensed. |
-| Postcondition | Emmy is in possession of her card and 150 Euros & the bank account linked to this card has had 150 Euros deducted & the card is now marked as having been used today. |
+Turn in a Lab Report including the names of all people involved, and note the mayor points of discussion while working on the class design. Include the class design itself.
 
-There are also scenarios sometimes referred to as "secondary scenarios" which describe alternate paths. They have their own name, the name of the scenario to which they are referring, and a description of the problem or alternative faced.
+### References
 
-| Name | Invalid PIN |
-| -     | -          |
-| Scenario based on | ATM Cash Withdrawal |
-| Exception | Repeat steps 7 and 8 twice if the user enters in an invalid PIN. If the third time still does not give the correct PIN, then retain the card. |
+Russell J. Abbott. 1983. Program design by informal English descriptions. Commun. ACM 26, 11 (November 1983), 882-894. http://doi.acm.org/10.1145/182.358441
 
-A number of scenarios are usually collected and abstrated into a Use Case and expressed graphically by a Use Case Diagram. The elements of a Use Case often include:
+K. Beck and W. Cunningham. 1989. A laboratory for teaching object oriented thinking. SIGPLAN Not. 24, 10 (September 1989), 1-6. [Available Online](http://c2.com/doc/oopsla89/paper.html)
 
-1. Name of the use case
-2. Summary
-3. Actors involved
-4. Basic sequence of steps
-5. Alternate sequence
-6. Exceptions that can occur
-7. Extension points
-8. Trigger
-9. Assumptions
-10. Preconditions
-11. Postconditions
-12. Author and Date
+Grady Booch. 2004. Object-Oriented Analysis and Design with Applications (3rd Edition). Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA.
 
-You should realize that every author and every company have their own ways of describing Use Cases, but usually each of these aspects are addressed.We will be using the structure given here.  
-
-Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
-
-[1]: preparation-for-week-3.html
-[2]: http://en.wikipedia.org/wiki/Use\_case
-[3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex1.shtml
-[4]: http://www.f4.htw-berlin.de/~weberwu/
+LED Pumpkin by [Windell Oskay](http://www.flickr.com/photos/oskay/283388408/)

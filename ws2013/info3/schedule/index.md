@@ -15,7 +15,7 @@ wide_layout: true
 | 7|Thu|31-Oct-13|SE            |Software Development Processes, Rest of Intro to SE|||
 | 8|Fri|1-Nov-13 |SE            |Software Development Processes,Requirements Engineering                               |2|[UML Part I: Use Cases](../labs/lab-02.html)|
 | 9|Thu|7-Nov-13 |SE            |Probelehrveranstaltung im Rahmen eines Berufungsverfahrens|||
-|10|Fri|8-Nov-13 |SE             |System Modeling and Architectural Design |3|UML Part II: Class Diagrams|
+|10|Fri|8-Nov-13 |SE             |System Modeling and Architectural Design |3|[UML Part II: Class Diagrams](../labs/lab-03.html)|
 |11|Thu|14-Nov-13|SE             |Agile Manifesto, Scrum (Scrum Ceremonies and Sprints)   |||
 |12|Fri|15-Nov-13|Clean Code     |Clean Code                                            |4|UML Part III: State Diagrams|
 |13|Thu|21-Nov-13|Clean Code    |SOLID Principles|||
