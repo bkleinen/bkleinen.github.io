@@ -12,9 +12,11 @@ You should work on this exercise in a team of 2-4 people.
 Based on the system description in the [last exercise](lab-02.html) and the use
 cases you've developed,
 draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.
+## Prelab
+Please do read this Introduction to class diagrams before coming to lab!
+[UML2 Class Diagrams at Agile Modeling](http://www.agilemodeling.com/artifacts/classDiagram.htm) - I will only give a brief intro/Q&A to class diagrams in the lab.
 
-I will briefly introduce class diagrams in the Lab, and you find a thorough
-description here: [UML2 Class Diagrams at Agile Modeling](http://www.agilemodeling.com/artifacts/classDiagram.htm).
+## Assignment
 
 A simple method to discover candidates for classes, introduced by Abbott (1983),
 and later popularized by Booch (e.g. Booch 2004, P 136), but critized for not beeing a rigourous approach and only be useful for simple problems, is the following:
@@ -34,7 +36,7 @@ After your design is finished, draw it using a class diagram drawing tool or sim
 
 ## Lab Report
 
-Turn in a Lab Report including the names of all people involved, and note the mayor points of discussion while working on the class design. Include the class design itself.
+Turn in a Lab Report including the names of all people involved, time needed for completion and reflecting the mayor points of discussion while working on the class design. Last not least include the class design itself.
 
 ### References
 
