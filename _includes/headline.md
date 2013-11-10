@@ -12,10 +12,8 @@
   <a href="{{site.baseurl}}ws2013">Lectures</a>
   <span class = "header-divider">|</span></p>
 <p><a href="{{site.baseurl}}general">General Info</a>
-  {% comment %}
   <span class = "header-divider">|</span></p>
 <p><a href="{{site.baseurl}}about/thissite.html">About this Site</a>
-{% endcomment %}
 </p>
 
 </div
