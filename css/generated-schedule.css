@@ -4,6 +4,8 @@
     padding: 0.4in;
     font-size: 12pt;
     color: #444; } }
+/* generated and generated-schedule.css are: generated! */
+/* refer to main.scss and main-schedule.scss to make any changes. */
 /* sass variables for htw colors */
 /* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
 /* http://www.htw-berlin.de/hochschulstruktur/zentrale-referate/presse-und-oeffentlichkeitsarbeit/corporate-design/farbklima-schriften/ */
@@ -49,6 +51,11 @@ a small {
   color: black;
   margin-top: -0.6em;
   display: block; }
+
+.attention {
+  color: #ff5f00;
+  font-weight: bold;
+  font-style: italic; }
 
 .wrapper {
   width: 860px;

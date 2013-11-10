@@ -1,5 +1,9 @@
 @mixin layout-general {
 
+/* generated and generated-schedule.css are: generated! */
+/* refer to main.scss and main-schedule.scss to make any changes. */
+
+
 /* sass variables for htw colors */
 /* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
 
@@ -26,6 +30,7 @@ $htw-header: $htw-black20;
 /* more color constants */
 
 $main-color: #000;
+$attention-color: $htw-orange;
 
 body {
   padding: 50px;
@@ -69,6 +74,12 @@ a small {
   margin-top: -0.6em;
   display: block; }
 
+.attention
+{
+  color:$attention-color;
+  font-weight:bold;
+  font-style: italic;
+}
 .wrapper {
   width: 860px;
   margin: 0 auto; }
