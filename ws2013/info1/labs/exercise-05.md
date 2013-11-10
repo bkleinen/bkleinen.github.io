@@ -4,11 +4,27 @@ author: kleinen
 layout: lab
 ---
 
-##Not yet released
-{% comment %}
+
+![Notebook](../images/notebook-6783298985.jpg)
+<small class = "float-right">Foto by [waferboard](http://www.flickr.com/photos/waferboard/6783298985)</small>
+
 This week’s lab work is intended help you practice using loops.
 
-#### What to Bring to Lab
+
+##Prelab
+
+
+<span class = "attention">
+As last week: **Do** prepare your Pre-Lab **before** the lab, in hand-writing, on paper.
+There is no need to print out the whole exercise if you don't want to,
+you can just use a plain sheet and write down your answers to P1-P4 on it.
+</span>
+
+<span class = "attention">
+I will ask you to show your pre-lab to me at the beginning of the lab.
+</span>
+
+### What to Bring to Lab
 
 Please prepare these Exercises \*before\* coming to lab!
 
@@ -18,20 +34,20 @@ Please prepare these Exercises \*before\* coming to lab!
 
 **P3.** Assume you have a collection of students called imi1. The Student class has a method getFirstName and a method getSurname. Write a loop that prints out all students in the collection with the last name first, then a comma, then a blank, and then the first name, each on a line by itself.
 
-**P4. **Write a method isPrime that uses a while loop to test if a number given in a parameter is prime or not. A number is prime when it is divisible with a remainder of 0 only by 1 and itself.
+**P4.** Write a method isPrime that uses a while loop to test if a number given in a parameter is prime or not. A number is prime when it is divisible with a remainder of 0 only by 1 and itself.
 
-# Post-Lab, AKA  What To Turn In
+## Post-Lab, AKA  What To Turn In
 Your completed assignment, submitted in Moodle as a pdf + zipped sources,
 should include:
+
 - A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
 - A copy of the final version of your Notebook code (as ZIP file)
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned
-in earlier.
+Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier.
 
-# Assignment
+## Assignment
 
 **A Better Notebook**
 
@@ -42,7 +58,7 @@ in earlier.
 1. Modify removeNote to print out an error message if no notes were removed.
 1. Within a single execution of the remove method, the notes collection is asked repeatedly how many notes it is currently storing. Does the value returned by size vary from one check to the next? Rewrite your search method so that the size is not checked unnecessarily, perhaps using a local variable. Check that your version gives the same results! What cases will you have to test?
 1. Create a collection primes and use your prelab 4 to fill it with the prime numbers between 1 and 1000. Oops, this won’t work directly, because collections don’t take ints. You can use something called autoboxing to solve this. Look up Integer in the API and use this. How many prime numbers are there between 1 and 1000?
+1. KaraSpecial: Use the kara-copy project in the [provided source code](https://github.com/htw-imi-info1/exercise05). Make Kara copy the leaf rows on the left to the right, this time not using a second Kara as in the last exercise, but by storing the information about a row in an ArrayList of Booleans. You'll find some more instructions in the source code.
 1. (For the bored) Implement a search with ‘?’ as a joker standing for any character, and ‘\*’ standing for any number of characters.
 1. (For the really bored) Implement full regular expression search for the notebook.
 
-{% endcomment %}
