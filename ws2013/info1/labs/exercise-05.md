@@ -10,6 +10,12 @@ layout: lab
 
 This week’s lab work is intended help you practice using loops.
 
+**Note: (19.11.2013) The Kara Special exercise is obligatory!**
+
+**In Exercise 4, you are asked to write the remove with an Iterator. As we haven't yet reached Iterators in class, you can either:**
+
+* implement a removeFirstNote method with the for-each loop as seen in class **or**
+* look up iterators and use the Iterator remove method
 
 ##Prelab
 
@@ -41,7 +47,8 @@ Your completed assignment, submitted in Moodle as a pdf + zipped sources,
 should include:
 
 - A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
-- A copy of the final version of your Notebook code (as ZIP file)
+- A copy of the final version of your Notebook code
+- **a copy of the greenfoot project**  (both, notebook + kara, within a single as ZIP file)
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 
