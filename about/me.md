@@ -20,7 +20,7 @@ Mirror on github: [http://bkleinen.github.io/](http://bkleinen.github.io/)
 
 Office: WH C 645
 
-Office Hours in WS2013: Tuesday, 16-17
+Office Hours in WS2013: Thursday, 14-15 **new!**
 
 Schedule for [WS2013](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=DDozent&pool=DDozent&show=plan&P.vx=kurz&personal.pid=3545)
 
