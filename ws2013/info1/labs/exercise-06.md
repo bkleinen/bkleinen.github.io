@@ -52,11 +52,12 @@ As always, you may work on the assignment in groups; but each of you has to uplo
 # **Club Membership**
 
 1. Use the club project at [https://github.com/htw-imi-info1/exercise06/](https://github.com/htw-imi-info1/exercise06/) to complete the following exercises. There is an outline in the project, but it doesn't do anything useful. The club class is intended to store Membership objects in a collection. Define a field for an ArrayList for keeping track of club members. Make sure this compiles before moving on.
-2. Complete the numberOfMembers method to return the current size of the collection. Since you can't add anyone yet, this will, of course, at the moment always return 0.
-3. A complete version of Membership is supplied for you. It stores members names and the month and year that they joined the club. Complete the join method. Add some members and see if the numberOfMembers still works. What do you have to do in order to test this?
+2. Complete the `numberOfMembers` method to return the current size of the collection. Since you can't add anyone yet, this will, of course, at the moment always return 0.
+3. A complete version of Membership is supplied for you. It stores members names and the month and year that they joined the club. Complete the `join` method. Add some members and see if the `numberOfMembers` still works. What do you have to do in order to test this?
 4. Implement a method `numberJoinedInMonth` that takes a month number and a year number as parameters and returns the number of persons who joined in that particular month of that year.
 5. Implement a method `listJoinedInMonth` that takes a month number and a year number as parameters and prints out the names of those who joined in this month. The bored can sort the list by name.
-6. Implement a method search that looks for members with a particular name.
+6. Implement a method `search` that looks for members with a particular name.
+6. Implement a method `remove` that removes the member with a particular name, using an iterator.
 7. Adapt the join method so that no two people with the same name can join the club. We don't care about capitalization, so "John" is the same as "john". Write an appropriate error message, if a name is entered in again.
 8. (For the bored) Define a method to remove all members in the club's collection who joined in a particular month and year, returning the ones removed in a separate collection object.
 9. (For the bored) Define a method to list all members of the club sorted first by year joined, then by month joined, and finally by name.
