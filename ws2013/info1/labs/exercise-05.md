@@ -17,6 +17,8 @@ This week’s lab work is intended help you practice using loops.
 * implement a removeFirstNote method with the for-each loop as seen in class **or**
 * look up iterators and use the Iterator remove method
 
+The while/index-variant however, should delete **all** Notes meeting the criteria!
+
 ##Prelab
 
 
