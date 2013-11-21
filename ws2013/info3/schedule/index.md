@@ -19,7 +19,7 @@ wide_layout: true
 |11|Thu|14-Nov-13|SE             |Agile Manifesto, Scrum (Scrum Ceremonies and Sprints)   |||
 |12|Fri|15-Nov-13|Clean Code     |Clean Code                                            |4|[UML Part III: State Machine Diagrams](../labs/lab-04.html)|
 |13|Thu|21-Nov-13|Clean Code    |SOLID Principles|||
-|14|Fri|22-Nov-13|Clean Code    |SOLID Principles II                                     |5|UML Part IV: Sequence Diagrams|
+|14|Fri|22-Nov-13|Clean Code    |SOLID Principles II                                     |5|[UML Part IV: Sequence Diagrams](../labs/lab-05.html)|
 |15|Thu|28-Nov-13|Best Practices|Ruby Intro|||
 |16|Fri|29-Nov-13|Clean Code    |Pair Programming and Code Review|6|Ruby Exercise|
 |17|Thu| 5-Dec-13|Best Practices|Software Testing|||
