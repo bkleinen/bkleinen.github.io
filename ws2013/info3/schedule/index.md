@@ -21,7 +21,7 @@ wide_layout: true
 |13|Thu|21-Nov-13|Clean Code    |SOLID Principles|||
 |14|Fri|22-Nov-13|Clean Code    |SOLID Principles II                                     |5|[UML Part IV: Sequence Diagrams](../labs/lab-05.html)|
 |15|Thu|28-Nov-13|Best Practices|Ruby Intro|||
-|16|Fri|29-Nov-13|Clean Code    |Pair Programming and Code Review|6|Ruby Exercise|
+|16|Fri|29-Nov-13|Clean Code    |Pair Programming and Code Review|6|[Ruby Exercise](../labs/lab-06.html)|
 |17|Thu| 5-Dec-13|Best Practices|Software Testing|||
 |18|Fri| 6-Dec-13|Clean Code    |Working with Legacy Code                                |7|Testing 1: Test Driven Design|
 |19|Thu|12-Dec-13|Adv. OOD       |Object Relations: Composition and Inheritance          |||
