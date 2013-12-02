@@ -23,9 +23,9 @@ wide_layout: true
 |15|Thu|28-Nov-13|Best Practices|Ruby Intro|||
 |16|Fri|29-Nov-13|Clean Code    |Pair Programming and Code Review|6|[Ruby Exercise](../labs/lab-06.html)|
 |17|Thu| 5-Dec-13|Best Practices|Software Testing|||
-|18|Fri| 6-Dec-13|Clean Code    |Working with Legacy Code                                |7|Testing 1: Test Driven Design|
+|18|Fri| 6-Dec-13|Clean Code    |Working with Legacy Code                                |7|[Testing 1: Test Driven Design](../labs/lab-07.html)|
 |19|Thu|12-Dec-13|Adv. OOD       |Object Relations: Composition and Inheritance          |||
-|20|Fri|13-Dec-13|Adv. OOD      |Dependency Management and Working with APIs             |8|Testing 2: Black-/Whiteboxtests|
+|20|Fri|13-Dec-13|Adv. OOD      |Dependency Management and Working with APIs             |8|[Testing 2: Black-/Whiteboxtests](../labs/lab-08.html)|
 |21|Thu|19-Dec-13|Adv. OOD      |Introduction to Ruby Dynamic Typing, Duck Typing        |||
 |22|Fri|20-Dec-13|Patterns      |Software Design Patterns                                |9|Legacy Code Kata I|
 |23|Thu| 9-Jan-14|Patterns      |Application Architectures                               |||

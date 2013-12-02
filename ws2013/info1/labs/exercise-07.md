@@ -48,7 +48,7 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 
 ###Technical Support
 1. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
-2. Now use the method `split` from `String` and a `HashMap to give appropriate answers. Make up lots of cool responses.
+2. Now use the method `split` from `String` and a `HashMap` to give appropriate answers. Make up lots of cool responses.
 3. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 4. Document your code with javadoc!
 5. (For the bored) There are often synonyms that should provoke the same response. Can you figure out how to store only one response even if there are a number of different words that trigger this response?
