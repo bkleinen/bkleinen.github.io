@@ -3,8 +3,7 @@ title: 'Exercise 08: Bouncing Balls'
 author: kleinen
 layout: lab
 ---
-##Not yet released
-{% comment %}
+
 
 This week’s lab work is intended give you practice working with the basic concepts of programming.
 
@@ -52,4 +51,3 @@ Lab assignments are due before your next lab at 23.00. They may, of course, be t
 #Writeup
 Submit your writeup as your post-lab to the Moodle area.  
 
-{% endcomment %}
