@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 05 – UML Part IV: Sequence Diagrams'
+title: 'Exercise 05 - UML Part IV: Sequence Diagrams'
 author: kleinen
 layout: page
 ---

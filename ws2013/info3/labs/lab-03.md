@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 03 – Class Diagrams'
+title: 'Exercise 03 - Class Diagrams'
 author: kleinen
 layout: page
 ---
@@ -29,7 +29,7 @@ The nouns are candidates for classes, the verbs for methods and the adjectives
 for attributes/fields. Then use the CRC Method (Beck & Cunningham, 1989) to sort
 all these and produce the design:
 
-Take a lot of pieces of paper, and write each noun at the top of one of the pieces of paper and draw a line all across the paper underneath the word. The red words make good methods – they just need to be assigned to classes. Divide the rest of the paper in two pieces – write the verbs on the bottom part. Decorate with attributes as deemed necessary, which get written on the top piece. The green words can be attributes or relationships – distribute them accordingly. Does your diagram make sense? Resort the cards and the methods, making new cards and ripping up the old ones, until finally your diagram seems to be consistent.
+Take a lot of pieces of paper, and write each noun at the top of one of the pieces of paper and draw a line all across the paper underneath the word. The red words make good methods - they just need to be assigned to classes. Divide the rest of the paper in two pieces - write the verbs on the bottom part. Decorate with attributes as deemed necessary, which get written on the top piece. The green words can be attributes or relationships - distribute them accordingly. Does your diagram make sense? Resort the cards and the methods, making new cards and ripping up the old ones, until finally your diagram seems to be consistent.
 
 You need to find the right level of abstraction - level of detail - in your diagram. You don't need to put everything in there!
 After your design is finished, draw it using a class diagram drawing tool or simply on paper and scan or fotograph it to include it in the report.

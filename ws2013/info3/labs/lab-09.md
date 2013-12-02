@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 10 – Legacy Code - Refactoring to Patterns'
+title: 'Exercise 10 - Legacy Code - Refactoring to Patterns'
 author: kleinen
 layout: page
 ---

@@ -25,12 +25,12 @@ Be creative! Give your game a name.
 
 **P2**. What is the goal of your game, that is, when does the player win?
 
-**P3.** What could you add to the game to make it interesting? Trap doors, treasure, monsters, &#8230;..
+**P3.** What could you add to the game to make it interesting? Trap doors, treasure, monsters, &#8230;..
 
-**P4.** Draw a map of your game layout.
+**P4.** Draw a map of your game layout.
 
 # Post-Lab,
-AKA  What To Turn In
+AKA  What To Turn In
 
 Your completed assignment, submitted in Moodle as a pdf,
 should include:
@@ -49,7 +49,7 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 
 **World of You**
 
-1.  Start with the bad Zuul game with tests - [zuul-withtests][1] -  and refactor it as discussed in the lectures.
+1.  Start with the bad Zuul game with tests - [zuul-withtests][1] -  and refactor it as discussed in the lectures.
     If you are doing mole burrows instead of rooms, you can change the variable names as needed.
     The bored can prepare a multi-lingual version and use enums.
 2.  Draw an object diagram showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?

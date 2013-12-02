@@ -38,16 +38,16 @@ There will be a 2-hour online examination on or about Feb 11. We will have 2 shi
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](http://www.htw-berlin.de/studien-und-weiterbildungsangebot/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
-* [Alexander Becker](http://bobafett2000.de), Time and Place TBA
+* [Alexander Becker](http://bobafett2000.de), Time and Place TBA
 
 ## Java-Tutorials and Book
 
-Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition. 
+Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
 German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](http://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
 
 
-There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7];** especially the [Trail &#8220;Learning the Java Language&#8221;][8]. **
+There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7];** especially the [Trail &#8220;Learning the Java Language&#8221;][8]. **
 
 
  [7]: http://download.oracle.com/javase/tutorial/

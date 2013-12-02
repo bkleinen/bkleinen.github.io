@@ -18,10 +18,10 @@ A [use case][2] is an instance of how an actor would use a software system or a 
 | Name | ATM Cash Withdrawal |
 | ---- | -------------------  |
 | Precondition | Emmy has an EC card with a readable magnetic stripe & the EC card is valid & the EC card is linked to an account with this bank |
-| Sequence of steps | 1. Emmy puts her card in the magnetic card reader.<br/>2. A screen appears asking the user what she wants to do.<br/>3. She points to “display balance” on the screen.<br/>4. The machine displays the balance and a continuing menu.<br/>5. Emmy selects “other actions”.<br/>6. Emmy selects “withdrawal”.<br/>7. The machine asks for the PIN number.<br/>8. Emmy enters her PIN and presses the green button.<br/>9. The machine asks how much money she wants.<br/>10. Emmy selects the button labelled 150 Euros.<br/>11. If (Emmy has enough money in her account) then Money is prepared for dispensing<br/>12. Else (Error screen is displayed)<br/>13. The machine returns her EC card.<br/>14. If (Money ready for dispensing) then Money is dispensed. |
+| Sequence of steps | 1. Emmy puts her card in the magnetic card reader.<br/>2. A screen appears asking the user what she wants to do.<br/>3. She points to “display balance" on the screen.<br/>4. The machine displays the balance and a continuing menu.<br/>5. Emmy selects “other actions".<br/>6. Emmy selects “withdrawal".<br/>7. The machine asks for the PIN number.<br/>8. Emmy enters her PIN and presses the green button.<br/>9. The machine asks how much money she wants.<br/>10. Emmy selects the button labelled 150 Euros.<br/>11. If (Emmy has enough money in her account) then Money is prepared for dispensing<br/>12. Else (Error screen is displayed)<br/>13. The machine returns her EC card.<br/>14. If (Money ready for dispensing) then Money is dispensed. |
 | Postcondition | Emmy is in possession of her card and 150 Euros & the bank account linked to this card has had 150 Euros deducted & the card is now marked as having been used today. |
 
-There are also scenarios sometimes referred to as “secondary scenarios” which describe alternate paths. They have their own name, the name of the scenario to which they are referring, and a description of the problem or alternative faced.
+There are also scenarios sometimes referred to as “secondary scenarios" which describe alternate paths. They have their own name, the name of the scenario to which they are referring, and a description of the problem or alternative faced.
 
 | Name | Invalid PIN |
 | -     | -          |

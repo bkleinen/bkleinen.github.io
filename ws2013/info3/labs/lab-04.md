@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 04 – UML Part III: State Machine Diagrams'
+title: 'Exercise 04 - UML Part III: State Machine Diagrams'
 author: kleinen
 layout: page
 ---
@@ -30,7 +30,7 @@ Your Lab Report should include reflections on the process of producing the diagr
 
 ***
 
-Based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
+Based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
 [3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex4.shtml
 [4]: http://www.f4.htw-berlin.de/~weberwu/

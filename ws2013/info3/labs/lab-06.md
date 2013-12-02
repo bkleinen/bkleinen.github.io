@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 05 – Ruby Exercise'
+title: 'Exercise 06 - Ruby Exercise'
 author: kleinen
 layout: page
 ---
@@ -35,11 +35,11 @@ You'll already find some prepared specs for this in spec/person_hobbies_spec.rb
 You'll see later that models in Rails (ActiveRecords) can be initialized like
 that:
 
-    Person.new(:name => “Donald”,:hobbies => “Money, Bathing”)
+    Person.new(:name => "Donald",:hobbies => "Money, Bathing")
 
 or, in the new fancy hash syntax:
 
-    Person.new(name: “Donald”, hobbies: “Money, Bathing”)
+    Person.new(name: "Donald", hobbies: "Money, Bathing")
 
 With the fields - name and hobbies in this case - set to the values in the Hash.
 

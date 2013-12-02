@@ -77,11 +77,11 @@ Your completed assignment, submitted in Moodle as a pdf, and a separate zip of t
 
 **You can work on this exercise in groups of up to 3 people. Put all your names on the head of the report and in the author's comment of the Source Code and all hand in the same files.**
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and Source Code as zipped Bluej-Projekt and submitting it to Moodle.
+Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and Source Code as zipped Bluej-Projekt and submitting it to Moodle.
 * * *
 
 # Assignment
-Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](https://github.com/htw-imi-info1/exercise04)
+Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](https://github.com/htw-imi-info1/exercise04)
 
 **Clock time**
 

@@ -7,7 +7,7 @@ layout: lab
 ![Lotto](../images/lotto.jpg)
 <small class = "float-right">German Lotto Slip, [Foto by ReneS](http://www.flickr.com/photos/rene-germany/98668296)</small>
 
-This week’s lab work is intended give you practice using the Random class and HashMaps.
+This week's lab work is intended give you practice using the Random class and HashMaps.
 
 #### What to Bring to Lab
 
@@ -15,19 +15,19 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 **P1**. How do you generate random numbers between 1 and 10 with Java? In what package is the library?
 
-**P2.** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
+**P2.** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
 
-**P3.** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
+**P3.** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
 
-**P4. **Where can you find information about javadoc on the Internet?
+**P4.** Where can you find information about javadoc on the Internet?
 
-# Post-Lab, AKA  What To Turn In
+# Post-Lab, AKA  What To Turn In
 Your completed assignment, submitted in Moodle as a pdf,
 should include:
 
 - A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
 - A table with your frequencies for the Lotto numbers picked.
-- A copy of the final version of your TechSupport code, properly and thoroughly documented with javadoc.
+- A copy of the final version of your TechSupport code, properly and thoroughly documented with javadoc.
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 
@@ -48,7 +48,7 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 
 ###Technical Support
 1. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
-2. Now use the method `split` from `String` and a `HashMap to give appropriate answers. Make up lots of cool responses.
+2. Now use the method `split` from `String` and a `HashMap to give appropriate answers. Make up lots of cool responses.
 3. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 4. Document your code with javadoc!
 5. (For the bored) There are often synonyms that should provoke the same response. Can you figure out how to store only one response even if there are a number of different words that trigger this response?
