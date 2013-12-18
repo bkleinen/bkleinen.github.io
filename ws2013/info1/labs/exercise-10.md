@@ -5,6 +5,8 @@ layout: lab
 ---
 ##Not yet released
 {% comment %}
+git@github.com:htw-imi-info1/exercise10.git
+
 # Pre-lab
 
 This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester.
