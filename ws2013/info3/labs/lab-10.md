@@ -1,7 +1,9 @@
 ---
-title: 'Exercise 10 - Legacy Code - Refactoring to Patterns'
+title: 'Exercise 10 - Rails first steps'
 author: kleinen
 layout: page
 ---
 
-## nothing here yet
+TBD
+
+

@@ -27,11 +27,11 @@ wide_layout: true
 |19|Thu|12-Dec-13|Adv. OOD       |Object Relations: Composition and Inheritance          |||
 |20|Fri|13-Dec-13|Adv. OOD      |Dependency Management and Working with APIs             |8|[Testing 2: Black-/Whiteboxtests](../labs/lab-08.html)|
 |21|Thu|19-Dec-13|Adv. OOD      |Introduction to Ruby Dynamic Typing, Duck Typing        |||
-|22|Fri|20-Dec-13|Patterns      |Software Design Patterns                                |9|Legacy Code Kata I|
-|23|Thu| 9-Jan-14|Patterns      |Application Architectures                               |||
-|24|Fri|10-Jan-14|Patterns      |Patterns of Enterprise Application Architecture(POEAA)  |10|Legacy Code Kata II|
-|25|Thu|16-Jan-14|Patterns      |Introduction to Rails, POEAA Revisited                  |||
-|26|Fri|17-Jan-14|Patterns      |OOD revisited, Model View Controller                    |11|Rails Start|
+|22|Fri|20-Dec-13|Patterns      |                                |9||
+|23|Thu| 9-Jan-14|Patterns      |Working with Legacy Code                              |||
+|24|Fri|10-Jan-14|Patterns      |Software Design Patterns                                |10|[Legacy Code Kata](../labs/lab-09.html)|
+|25|Thu|16-Jan-14|Patterns      | Patterns of Enterprise Application Architecture(POEAA)                   |||
+|26|Fri|17-Jan-14|Patterns      |Introduction to Rails, POEAA Revisited, Model View Controller                    |11|Rails Start|
 |27|Thu|23-Jan-14|Best Practices|Internationalisierung und Lokalisierung von Software    |||
 |28|Fri|24-Jan-14|Best Practices|SCM, Build Management, Continuous Deployment            |12|Rails Feature & Internationalisation (2weeks)|
 |29|Thu|30-Jan-14|Best Practices|Lean Software Development                               |||
@@ -41,6 +41,6 @@ wide_layout: true
 |33|Thu|13-Feb-14||Klausureinsicht|||
 |34|Fri|14-Feb-14||Probably Showtime|||
 
-
+Application Architectures
 
 
