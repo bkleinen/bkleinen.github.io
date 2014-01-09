@@ -1,6 +1,9 @@
 
 destination: _site_htw
-encoding: UTF-8-MAC
+encoding: UTF-8
 baseurl: /~kleinen/
 
 # jekyll build --config _config.yml, _htwconfig.yml
+# encoding
+# see http://jekyllrb.com/docs/configuration/
+# ruby -e 'puts Encoding::list.join("\n")'
