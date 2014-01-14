@@ -3,7 +3,7 @@ title: 'Exercise 10: The World of You'
 author: kleinen
 layout: lab
 ---
-##Not yet released
+not yet published
 {% comment %}
 git@github.com:htw-imi-info1/exercise10.git
 
@@ -66,4 +66,5 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 Submit your writeup as your post-lab to the Moodle area by 23.00 the night before your next lab.
 
  [1]: http://blog.infrastructure.de/wp-content/uploads/2011/12/zuul-withtests1.zip
+
 {% endcomment %}
