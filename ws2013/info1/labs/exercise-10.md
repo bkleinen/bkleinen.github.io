@@ -3,9 +3,6 @@ title: 'Exercise 10: The World of You'
 author: kleinen
 layout: lab
 ---
-not yet published
-{% comment %}
-git@github.com:htw-imi-info1/exercise10.git
 
 # Pre-lab
 
@@ -51,20 +48,17 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 
 **World of You**
 
-1.  Start with the bad Zuul game with tests - [zuul-withtests][1] -  and refactor it as discussed in the lectures.
+1.  Start with the bad Zuul game with tests - [zuul-withtests](https://github.com/htw-imi-info1/exercise10) -  and refactor it as discussed in the lectures.
     If you are doing mole burrows instead of rooms, you can change the variable names as needed.
     The bored can prepare a multi-lingual version and use enums.
 2.  Draw an object diagram showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?
 3.  Add a &#8220;look&#8221; command to your game.
 4.  Add an additional command (such as &#8220;eat&#8221;, which for now just prints out &#8220;You have eaten now and are not hungry any more&#8221;. In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
-5.  <del>Implement an improved version of printing out the command words. </del>Relates to a refactoring not done yet &#8211; will be moved to exercise 11.
+5.  Implement an improved version of printing out the command words.
 6.  Add another command &#8211; did you have to change the Game class? Why or Why not?
-7.  (For the bored) What is the model-view-controller pattern? Adapt your code to follow this pattern.
+7.  (For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
 
 # Writeup
 
 Submit your writeup as your post-lab to the Moodle area by 23.00 the night before your next lab.
 
- [1]: http://blog.infrastructure.de/wp-content/uploads/2011/12/zuul-withtests1.zip
-
-{% endcomment %}
