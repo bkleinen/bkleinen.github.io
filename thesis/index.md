@@ -38,6 +38,9 @@ A former colleague founded [Museotainment](http://www.museotainment.de/) and the
 
 It would be great to have an online platform for building learning networks, e.g. finding like-minded people interested in learning the same (tech) topic, for taking an online class together or doing some other form of self-study together. This would be more on the conceptual side.
 
+# Further Information and Links
+
+* [Info on HTW Page](http://www.htw-berlin.de/studieren/pruefungen-praktikum-absolvieren/abschlussarbeiten/)
 
 
 
