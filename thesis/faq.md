@@ -4,7 +4,10 @@ author: kleinen
 layout: page
 ---
 
-Ich fang mal an, ein paar tatsächlich häufig gestellte Fragen hier zu beantworten:
+
+## Wie wird der Termin festgelegt?
+
+I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, an dem der oder die Kandidatin und alle Betreuer Zeit haben, an die FB-Verwaltung. Dort wird der Notenzettel in der Prüfungsverwaltung angefordert (d.h. Sie sollten vorher sicherstellen, dass alle Ihre Noten im LSF eingetragen sind, und ggfs. die Dozenten oder die Betreuer darauf ansprechen - ohne Abschluß aller anderen Veranstaltung kann das Kolloquium nicht durchgeführt werden!) und dann der Termin offiziell festgelegt, und Sie bekommen ein offizielles Schreiben, in dem auch der Raum steht - in der Regel ist das der WH-C 603.
 
 ## BA Kolloquium, wie läuft das ab, was muss ich wissen?
 
@@ -15,7 +18,7 @@ In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](http://imi-
 einen komplexen Sachverhalt in kurzer Zeit darzustellen und seine/ihre Argumentation gegen
 Kritik zu verteidigen. In einer öffentlichen Präsentation werden hierbei die bearbeiteten Bachelorarbeiten vorgestellt."
 
-d.h. Sie müssen Ihre Arbeit vorstellen (15min, absolutes Maximum: 20min) und werden dann danach ca. eine gute halbe Stunde zu der Arbeit befragt.
+D.h. Sie müssen Ihre Arbeit vorstellen (15min, absolutes Maximum: 20min) und werden dann danach ca. eine halbe Stunde zu der Arbeit befragt.
 
 Es ist dabei üblich, einen Powerpoint/Keynote-Vortrag am Beamer zu zeigen und ggfs.auch eine Live-Demo der erstellten Software. In den meisten Räumen, in denen Kolloquien stattfinden, ist ein VGA und HDMI-Anschluß vorhanden.
 
