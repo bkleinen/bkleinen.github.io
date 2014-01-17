@@ -12,6 +12,9 @@ We will do the steps together in the lab, this semester's example app  will be
 
 [https://github.com/htw-imi-info3/songbook](https://github.com/htw-imi-info3/songbook)
 
+update 17.1.2014: had to move the rep to owner bkleinen to register it on travis.
+[https://github.com/bkleinen/songbook](https://github.com/bkleinen/songbook)
+
 
 1.  Create a rails application
 1.  set up rspec and capybara for testing
