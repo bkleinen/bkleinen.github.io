@@ -31,9 +31,9 @@ wide_layout: true
 |23|Thu| 9-Jan-14|Patterns      |Working with Legacy Code                              |||
 |24|Fri|10-Jan-14|Patterns      |Software Design Patterns                                |10|[Legacy Code Kata](../labs/lab-09.html)|
 |25|Thu|16-Jan-14|Patterns      | Patterns of Enterprise Application Architecture(POEAA)                   |||
-|26|Fri|17-Jan-14|Patterns      |Introduction to Rails, POEAA Revisited, Model View Controller                    |11|Rails Start|
-|27|Thu|23-Jan-14|Best Practices|Internationalisierung und Lokalisierung von Software    |||
-|28|Fri|24-Jan-14|Best Practices|SCM, Build Management, Continuous Deployment            |12|Rails Feature & Internationalisation (2weeks)|
+|26|Fri|17-Jan-14|Patterns      |Introduction to Rails, POEAA Revisited, Model View Controller                    |11|[Rails Start](../labs/lab-10.html)|
+|27|Thu|23-Jan-14|Best Practices|Associations in Rails, Internationalisierung und Lokalisierung von Software    |||
+|28|Fri|24-Jan-14|Best Practices|SCM, Build Management, Continuous Deployment            |12|[Rails Associations and Internationalization (2weeks)](../labs/lab-11.html)|
 |29|Thu|30-Jan-14|Best Practices|Lean Software Development                               |||
 |30|Fri|31-Jan-14||Klausurvorbereitung||Probeklausur|
 |31|Thu| 6-Feb-14||Retrospektive|||

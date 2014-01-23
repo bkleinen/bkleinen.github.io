@@ -25,6 +25,7 @@ There will be 12 graded exercises (No 00 won't be graded). The graded exercises 
 * [Exercise 08](lab-08.html)
 * [Exercise 09](lab-09.html)
 * [Exercise 10](lab-10.html)
+* [Exercise 11](lab-11.html)
 
 ### Lecture summaries (10%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. It is due at 23.00 Thursday nights - to just have one due date for everything. You can, of course, hand them in earlier.
