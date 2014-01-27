@@ -18,18 +18,14 @@ Please bring these exercises printed out or written out with you to lab.
 
 # Post-Lab, AKA  What To Turn In
 
-Your completed assignment, submitted in Moodle as a pdf, should include:
+Your completed assignment, submitted in Moodle as a pdf,
+should include:
 
 *   A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions asked in the pre-lab. The focus is on the process!
+*   Include a description of the game you are now working on. Were there any problems you encountered reading someone else&#8217;s code?
 *   Include the current version of your source code.
 *   The names and roles of any collaborators in any parts of the exercise.
 *   A record of how long you needed for this lab and what you learned.
-
-I have been asked to skip the report for those last two exercises to spare you the time; I've decided against it:
-
-* reflecting about what you did and learned is an important part of the learning process. It's not just about getting the code to run!
-
-* ***But:*** The lab report can be rather short. Is is mainly for yourself, to reflect and track your learning process. You don't have to note down every single step. Just take a couple of minutes to reflect on your learnings, and things you struggled with. And your co-workers :)
 
 * * *
 
@@ -37,7 +33,8 @@ I have been asked to skip the report for those last two exercises to spare you t
 
 **Adding Items**
 
-2.  Extend your project so that a room can contain a single item. Items have descriptions and weights. When creating rooms and setting their exits, items for this game should also be created. When a player enters a room, information about an item present in this room should be displayed.
+1.  Implement an improved version of printing out the command words. (Moved from Exercise 10).<del> (Start with your game by exchanging your game from the last exercise with someone else. This will be done on Wednesday, 14.12.2011 in class! If groups from Exercise 09 aren&#8217;t there, they will be assigned a random other project, you can&#8217;t start working on this exercise before you have received a different project. Read through the code and documentation and see if you can understand what the game is about. Write a short description in your report.)</del>
+2.  Extend that project so that a room can contain a single item. Items have descriptions and weights. When creating rooms and setting their exits, items for this game should also be created. When a player enters a room, information about an item present in this room should be displayed.
 3.  How should the information about an item present in a room be produced? Which class should produce the string describing the item? Which class should print it? Why? If answering this exercise makes you feel you should change your implementation, go ahead and do so &#8211; and explain in your report why.
 4.  Modify the project so that a room can hold any number of items. Use a collection to do this! Make sure the room has an iddItem method that places an item into the room. Make sure all items get shown when a player enters a room. Set up a fixture to thoroughly test this!
 5.  Implement a &#8220;back&#8221; command that does not have a second word and takes the player back into the previous location. Test this! What happens if a second word is given?
