@@ -34,7 +34,7 @@ wide_layout: true
 |26|Fri|17-Jan-14|Patterns      |Introduction to Rails, POEAA Revisited, Model View Controller                    |11|[Rails Start](../labs/lab-10.html)|
 |27|Thu|23-Jan-14|Best Practices|Associations in Rails, Internationalisierung und Lokalisierung von Software    |||
 |28|Fri|24-Jan-14|Best Practices|SCM, Build Management, Continuous Deployment            |12|[Rails Associations and Internationalization (2weeks)](../labs/lab-11.html)|
-|29|Thu|30-Jan-14|Best Practices|Lean Software Development                               |||
+|29|Thu|30-Jan-14|Architecture|Distributed Systems and SOA                               |||
 |30|Fri|31-Jan-14||Klausurvorbereitung||Probeklausur|
 |31|Thu| 6-Feb-14||Retrospektive|||
 |32|Fri| 7-Feb-14||Klausur||Klausur|
