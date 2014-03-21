@@ -6,6 +6,15 @@ layout: default
 
 # Archiv
 
+<h1>Lectures WS 2013/2014</h1>
+<ul>
+<li><a href="{{site.baseurl}}ws2013/info1">Informatik 1</a></li>
+<li><a href="{{site.baseurl}}ws2013/info3">Informatik 3</a></li>
+<li><a href="{{site.baseurl}}ws2013/project">Praxisprojekt</a></li>
+</ul>
+
+<h1>Older Lectures</h1>
+
   * [SS 2013](ss2013/index.html)
   * [WS 2012](ws2012/index.html)
 

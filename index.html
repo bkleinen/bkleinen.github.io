@@ -3,11 +3,17 @@ layout: default
 title: Kleinen | HTW Berlin
 ---
 
-<h1>Lectures WS 2013/2014</h1>
+<h1>Lectures SS 2014</h1>
 <ul>
-<li><a href="{{site.baseurl}}ws2013/info1">Informatik 1</a></li>
-<li><a href="{{site.baseurl}}ws2013/info3">Informatik 3</a></li>
-<li><a href="{{site.baseurl}}ws2013/project">Praxisprojekt</a></li>
+<!--<li><a href="{{site.baseurl}}ws2014/info2">Informatik 2</a></li>
+<li><a href="{{site.baseurl}}ws2014/info3">Informatik 3</a></li>
+<li><a href="{{site.baseurl}}ws2014/project">Praxisprojekt</a></li>-->
+
+<li>Informatik 2 </li>
+<li>Informatik 3 </li>
+<li>Praxisprojekt</li>
+
+
 </ul>
 
 
@@ -16,7 +22,7 @@ title: Kleinen | HTW Berlin
 
 {% for post in paginator.posts %}
   <h3 class ="post-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <span class="date">{{ post.date | date: "%d. %B %Y" }}</span>
+    <p class="date">Created at {{ post.date | date: "%d. %B %Y" }}</p>
   <p class="author">
   </p>
   <div class="content">

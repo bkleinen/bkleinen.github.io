@@ -191,6 +191,10 @@ footer {
 .float-right {
   float: right; }
 
+.date {
+  text-align: right;
+  font-size: small; }
+
 @media print, screen and (max-width: 960px) {
   div.wrapper {
     width: auto;

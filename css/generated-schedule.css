@@ -191,6 +191,10 @@ footer {
 .float-right {
   float: right; }
 
+.date {
+  text-align: right;
+  font-size: small; }
+
 div.wrapper {
   width: auto;
   margin: 0; }
