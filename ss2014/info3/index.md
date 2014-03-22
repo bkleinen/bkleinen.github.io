@@ -1,10 +1,10 @@
 ---
-title: Info3 WS2013
+title: Info3 SS2014
 author: kleinen
 layout: page
 ---
 
-[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) | [Github](https://github.com/htw-imi-info3)
+[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2786) | [Github](https://github.com/htw-imi-info3)
 
 # Welcome!
 
@@ -75,6 +75,6 @@ Information about this course is dispersed in various places on the web - welcom
 * [These pages](({{site.baseurl}}index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
 * [Github](https://github.com/htw-imi-info3) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
-*  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86086),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86087) for official course information.
+*  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92267),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92268) for official course information.
 
 
