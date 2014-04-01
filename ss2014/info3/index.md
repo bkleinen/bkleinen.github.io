@@ -32,20 +32,21 @@ Have a look at how this breaks down to this (tentative) [Schedule](schedule).
 
 The class consists of 2x2h of lectures and 2h of lab:
 
-* Lecture: Thursdays, 12:15 - 13:45, WH C 353
-* Lecture: Fridays, 12:15 - 13:45, WH C 348
+* Lecture: Tuesday, 8:00-9:30, WH C 355
+* Lecture: Fridays, 15:45 - 17:15, WH C 355
 * [Labs:](labs)
-  * Group1: Fridays, 09:45 - 11:15, WH C 537
-  * Group2: Fridays, 14:00 - 15:30, WH C 537
+  * Group1&2: alternating Tuesdays 9:45-12:45
+  (LSF states 9:45-13:45, which would include
+  the 1h lunch break from 11:15-12:15 - we will have
+  all 3hrs of lab first and then the lunch break) WH C 537
 
-**Friday first week will be e-Learning!!** (Due to Exams and Neuberufenen-Didaktikfortbildung). This gives you time to set up your tools as described in [Lab Startup](labs/lab-00.html) - you don't need to hand in anything, but you need to have things set up for the next lab!
 
 ## Grades
 
 Your grade in Info3 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale](({{site.baseurl}}general/grading-scale.html):
 
-* Lecture summaries: 10%
-* Lab reports: 50%
+* Lecture summaries: 15%
+* Lab reports: 40%
 * Exam: 50%
 
 More info about the Lecture Summaries and the Lab Reports can be found on the [Labs](labs) page.
@@ -72,9 +73,9 @@ There is no textbook for this class. Here are the main books this class is based
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages](({{site.baseurl}}index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
+* [These pages]({{site.baseurl}}index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
 * [Github](https://github.com/htw-imi-info3) for publicly accessible code examples for the lecture and the assignments
-* [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
+* [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2786) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92267),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92268) for official course information.
 
 
