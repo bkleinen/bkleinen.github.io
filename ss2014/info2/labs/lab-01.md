@@ -61,7 +61,7 @@ Choose another scenario and play this through. If you have time, do more! You wi
 
 ## Lab Report / What to turn in
 
-Your report is due by 10.00 am on Monday after the lab.
+Your report is due by 10.00 am on Monday after the lab (for Groups 1&2.)
 
 As in Informatics 1, I am more interested in process than in product,
 although we are now getting more interested in products as well.

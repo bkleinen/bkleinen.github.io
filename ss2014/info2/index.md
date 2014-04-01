@@ -20,31 +20,42 @@ Have a look at how this breaks down to this (tentative) [Schedule](schedule).
 
 The class consists of 2x2h of lectures and 2h of lab:
 
-* Labs & Lecture Notes Due: Mondays, 10:00 a.m. (for both groups)
+* Labs & Lecture Notes Due: Mondays, 10:00 a.m. (for Group 1 & 2, Group 3 tba)
   * Thus, there is time before the lab for doing the pre-lab.
 * [Labs:](labs)
-  * Group1: Tuesdays,   14:00  -  15:30 , WH C 537
-  * Group2: Wednesdays, 12:15  -  13:45, WH C 537
+  * Group1: Tuesdays,   14:00  -  15:30 , WH C 537 (B. Kleinen)
+  * Group2: Wednesdays, 12:15  -  13:45, WH C 537 (B. Kleinen)
+  * Group3: Fridays, 15:45 - 17:15, WH C 537 (Michele Krüger)
 * Lectures:
   * 1: Wednesdays,  17:30  -  19:00, WH C 355
   * 2: Fridays,     14:00  -  15:30,  WH C 355
+* Tutorial:
+  * Donnerstags, 15:45-17:15 in WHC 576 - Alexander Becker
+  * [Alexander.Becker@student.HTW-Berlin.de](Alexander.Becker@student.HTW-Berlin.de)
+  * [http://home.htw-berlin.de/~s0533351/](http://home.htw-berlin.de/~s0533351/)
 
 ## Grades
 
-Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale](({{site.baseurl}}general/grading-scale.html):
+Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
 
-TBD!!!!
-* Lecture summaries: 10%
-* Lab reports: 50%
+* Lecture summaries: 15%
+* Lab reports: 40%
 * Exam: 50%
 
-More info about the Lecture Summaries and the Lab Reports can be found on the [Labs](labs) page.
+### Labs
+There will be a new grading schema for the lab reports!
+
+More info about the Lab Reports can be found on the [Labs](labs) page.
+
+### Lecture summaries (15%)
+In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. They are due Mondays 10:00 a.m. You can, of course, hand them in earlier.
+
+If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28 lectures altogether, I expect you to write summaries for 24 of them to get the whole 15% - they are either done or not done, and not graded on content.
+They can be in txt, pdf or markdown format.
 
 ## Exam
 
 There will be a 2-hour online examination on or about July 23. We will have 2 shifts of exams, Group 1 and Group 2.  The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part.
-
-
 
 ## Important Links and further Information
 
