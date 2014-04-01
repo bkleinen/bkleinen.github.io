@@ -1,0 +1,58 @@
+---
+title: Info2 SS2014 - Labs and Exercises
+author: kleinen
+layout: page
+---
+
+After having a look into designing an object oriented application in lab 1 and 2, we will do a lot of small-scale programming in Java during this term. As in Info1, each lab has a pre-lab part, that you are expected to do before coming to the lab, an assignment that you work on during the lab. Usually, you're expected to turn in a report on what you did during the lab.
+
+There are a couple of important changes for the labs compared with Info1:
+
+1. You are required to work on the exercises and turn them in in pairs (2 people). Submissions are done in Moodle, **no late submissions** this term. Always hand in what you have on time.
+
+1. You are required to be able to present/explain your work **in the following lab** ("review"). How this is done will change from lab to lab, depending on the topic of the lab: one of you might be randomly chosen to present the work, I might talk to each of you individually, or it might even be a little quizz in moodle which should be easy to solve if you did the lab exercise.
+
+1. Grading: there will be 14 Exercises alltogether. Grades are determined simply by counting how many reports you've submitted ***on time*** and how many reviews you've attended with an "ok".
+
+
+|Submitted >= |Reviewed "OK" >=|Grade|
+|:--|:--|:--|:--|:--|:--|
+|13|11| 1.0|
+|12|10| 1.3|
+|11|09| 1.7|
+|10|08| 2.0|
+|09|07| 2.3|
+|08|06| 2.7|
+|07|05| 3.0|
+
+Please note that this scheme already allows for you to forget one submission, be on your grandpa's wedding one week, having the flu on another and opting to go surfing on a third and still earn an 1.0. These things are normal during a semester. If you become seriously ill or something other happens that keeps you from coming to classes for more
+than a week in a row, it is a good idea to inform me (and other people involved) via email as soon as you know/can and come talk to me as soon as possible, too.
+
+### What is "OK"?
+
+The aim of this is to encourage all of you to work on the exercises regularly. To earn an "ok" in the review, you have to show me that you understood the core concepts of the topic tackled in the assignment and solved the main challenges. It does not have to be a "perfect" solution.
+
+
+## Exercises
+* [Exercise 01](lab-01.html)
+* [Exercise 02](lab-02.html)
+* [Exercise 03](lab-03.html)
+* [Exercise 04](lab-04.html)
+* [Exercise 05](lab-05.html)
+{% comment %}
+* [Exercise 06](lab-06.html)
+* [Exercise 07](lab-07.html)
+* [Exercise 08](lab-08.html)
+* [Exercise 09](lab-09.html)
+* [Exercise 10](lab-10.html)
+* [Exercise 11](lab-11.html)
+
+{% endcomment %}
+
+
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline.html)
+
+
+
+
+
