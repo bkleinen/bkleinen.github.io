@@ -24,6 +24,8 @@ There are a couple of important changes for the labs compared with Info1:
 |09|07| 2.3|
 |08|06| 2.7|
 |07|05| 3.0|
+|06|04| 4.0|
+|less||5.0|
 
 Please note that this scheme already allows for you to forget one submission, be on your grandpa's wedding one week, having the flu on another and opting to go surfing on a third and still earn an 1.0. These things are normal during a semester. If you become seriously ill or something other happens that keeps you from coming to classes for more
 than a week in a row, it is a good idea to inform me (and other people involved) via email as soon as you know/can and come talk to me as soon as possible, too.
