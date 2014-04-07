@@ -1,35 +1,25 @@
 ---
-title: 'Exercise 05 - UML Part IV: Sequence Diagrams'
+title: 'Assignment 05: Functionality and Libraries'
 author: kleinen
 layout: page
 ---
+asdf
+In this assignment, you will add some functionality to your rails app and try out a couple of the principles and practices we covered in the lectures. For this, you need to add some functionality that you can choose yourself. Read through the whole assignment and decide on the functionality you want to add before starting to implement it. It does not have to be the most important functionality of your app &#8211; the goal here is to try out the different aspects of rails.
 
+*   add (at least) 2 associations to your application and cover them in the view as we discussed in class.
+*   add a little functionality (as the first example with the +1 button) that has to be implemented within the model, called from an appropriate controller action and shown in the view. (if you can&#8217;t think of something, sorting the table in an index by a column or implementing a simple search tends to be useful in many applications).
+*   find some functionality that you can implement using a gem (ruby library). Choose an appropriate gem, write some tests to try out it&#8217;s interface and have tests against the library as recommended by Rob Martin, and integrate it into your application.
+*   Choose a single site of your application and add Internationalization for it. Make sure to use the translation in the test cases as well.
+*   (optional) deploy your app to heroku.
 
-![Launch Sequence](../images/sequence.jpg)
-<small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](http://www.flickr.com/photos/69214385@N04/9172233502)</small>
+<div>
+  The resulting app should be workable, but you do not need to spend time on the layout!
+</div>
 
-## Prelab
+<div>
+  Hand in two files: a pdf documenting what you&#8217;ve implemented &#8211; rather pointers to the part in the source code than complete descriptions, and a zip containing the source code.
+</div>
 
-
-Martin Fowler's Chapter about Sequence Diagrams from the book "UML Distilled" [is available as a sample chapter online.](http://www.informit.com/articles/article.aspx?p=169507)
-
-Read it as a preparation for the lab.
-
-## Assignment
-
-1. As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:
-    * The [Clock Display](https://github.com/htw-imi-info1/chapter03/tree/master/clock-display-with-GUI) / Use case:         timeTick() is called
-    * [Auction](https://github.com/htw-imi-info1/chapter04/tree/master/auction) / Use case: makeABid() is called
-    * [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is         entered (start() method in SupportSystem)
-    * The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /         Use case: user enters command (method: play() in Game.java)
-
-2. Now take your scenarios from [the second exercise](lab-02.html)  and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
-    * Ordering a Pumpkin/Treat
-    * one other use case of your choosing
-
-If you feel like it, you can continue with a sequence diagram for additional use cases.
-
-## Report - what to hand in
-
-Your report is due at 23.00 the day before the next lab and should include all materials (including copies of the scenarios used), properly marked with the authors of these scenarios. Don't forget to include your own names on your report, and post the materials in the Moodle area for each team member.
-
+<div>
+  There will be no lab report this time, as the lab will be dedicated to working on this assignment.
+</div>

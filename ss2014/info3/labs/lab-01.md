@@ -1,58 +1,49 @@
 ---
-title: 'Exercise 01: Git and Markdown with a Practical Application'
+title: 'Assignment 1: Testing'
 author: kleinen
-layout: lab
+layout: page
 ---
-## Pre-Lab
-* Sign up on [GitHub](https://github.com/) if you haven't already done so.
-* Github translates markdown files automatically to HTML - That's how the README.md files you see in most repositories work. Read through the [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) documentation.
 
-This exercise is for getting aquaintained with git and github (and markdown) with the practical application of creating online notes collaboratively. This gives you the opportunity to practice using git and github collaboration features with a bunch of plain text files before moving on to managing heaps of source code.
+## A. Test Driven Development
 
-## Assignment
+Create a new Java Project in Eclipse (or your preferred IDE).
 
-### Create a Note Repository
+Source Code for this Assignment: [https://github.com/info3/assignment_1](https://github.com/info3/assignment_1)
 
-Last week, you collected a lot of information and learned to use a couple of new tools. The assignment is to build up a git repository containing a compilation of your notes.
+Create a Class Node as in Node.java as Head of a linked list and develop a method for deleting Nodes in a List test driven, that is, develop the Unit Tests first, as we did in class. Choose one of the two methods we discussed in class to help the assertions - creating a test helper method as in assert.java or creating a toString method as in toString.java.
 
-Possible subjects are
+Then, do the same for reversing the list, that is, develop a method reverse() **test driven**.
 
- * text editor review with link list (which one do you use and why)
- * UML drawing tools review
- * List of important Command Line Commands
- * Ruby and Rails Installation Experiences and Tipps
- * important git commands
- * (optional: most important Markdown syntax)
+Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did.
 
-Build Teams, create a repository within each team and add the team members as collaborators on github. The team size is up to you - it has to be at least two, the more you are the less documentation each of you has to write, but the cooperation overhead increases, too. To pass this exercise, a reasonable number of commits has to be from your account.
+For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for both methods.
 
-### First Round of Notes
+##B. Black and White Box Tests
 
-Divide the topics above between you and start writing notes each. Usually it's not a great idea if two people work on the same file at the same time.
+After exploring Unit Testing in the first part, we will be looking at [black-box][1] and [white-box][2] testing in this second part.
 
-If you have notes from last week that you can just copy/use, that's great. Feel also free to copy parts of my instructions - the licence allows that, if you state the source.
+1. **Getting started:**  Give the equivalence classes for testing a method that determines the absolute value of an integer using the black-box methodology. Don't peek at the code yet! Now check out `absolute.java` in the repository and give the equivalence classes for a white-box test. Develop one test case for each equivalence class using JUnit.
+2. **Black-box test**: Look at this grading scale at the bottom of the page (Which is not the [grading scale for this course]({{site.baseurl}}general/grading-scale.html)). Give the   equivalence classes for a program that loops until a -1 is entered, asking for the number   of points on this scale, prints the appropriate letter grade (A-F), and then prints the   average number of points when -1 has been entered. Develop one test case for each   equivalence class. Test your test cases with GradingScale.class. No fair decompiling the   class! Report on the results. Did you find any errors?
+3. **White-box test** / path coverage:Examine the code for TaxTime.java. Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
+4. **Reflection** Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?
 
-### Second Round
 
-Start exchanging the files using git and github. That is, commit your changes locally and then push them to the github repository, after pulling changes from the others.
+### Grading Scale (Points = Procent)
 
-### Merge Conflicts
-
-If you feel confident exchanging files with git and github, deliberately create a merge conflict and resolve it. Each one of you should have resolved a merge conflict - you'll be happy that you've done that before if you happen to get huge merge conflicts the night before the deadline of a project.
-
-### Pull Requests
-
-Last, exchange the repository urls with another team. You can just swap them, or exchange them in circles.
-
-Review the notes of the other team (by looking at the repository online, then forking and cloning it). Each of you should send the other team at least one pull request. Always create a new branch for a pull request. Send the other team enough pull request such that each team member can merge a pull request.
-
-## Lab Report / What to turn in
-
-Write up a report describing your experiences sharing files with git and github. If you've created a note page in your repository listing the git commands you used you can refer to that.
-
-**List the names of all people on the team together with their github handles** and include the link to your github repository.
-
-You can do your writeup as PDF or markdown file, one for each team is sufficient. If you choose a markdown file, you can copy it or its url in "Texteingabe online" in Moodle.
+| Points | Grade | ECTS | Points | Grade | ECTS |
+| ---    | ---   | ---  | ---    | ---   | ---  |
+| 95-100 | 1,0   | A    | 65-69  | 3,0   | C    |
+| 90-94  | 1,3   | A    | 60-64  | 3,3   | C    |
+| 85-89  | 1,7   | B    | 55-59  | 3,7   | D    |
+| 80-84  | 2,0   | B    | 50-54  | 4,0   | D    |
+| 75-79  | 2,3   | B    | 0-49   | 5,0   | F    |
+| 70-74  | 2,7   | C    |        |       |      |
 
 
 
+## C. Lab Writeup
+
+Submit your Report as PDF to moodle. If you want to, you can include all source code in a single zip file. You can upload up to two files to moodle - the pdf and the source code zip file.
+
+[1]: http://en.wikipedia.org/wiki/Black\_box\_testing
+[2]: http://en.wikipedia.org/wiki/White\_box\_testing

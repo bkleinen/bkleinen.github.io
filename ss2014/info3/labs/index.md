@@ -4,6 +4,19 @@ author: kleinen
 layout: page
 ---
 
+## Exercises
+
+* [Exercise 01](lab-01.html)
+{% comment %}
+* [Exercise 02](lab-02.html)
+* [Exercise 03](lab-03.html)
+* [Exercise 04](lab-04.html)
+* [Exercise 05](lab-05.html)
+
+{% endcomment %}
+
+
+
 In the Info3 lab, we will do quite different things:
 
  * Design a Software System with the UML
@@ -32,25 +45,6 @@ There will be 7 exercises. The exercises will either be written reports - lab re
 |4|3| 3.3|
 |4|2| 3.7|
 |less||5.0|
-
-## Exercises
-
-- will be posted here -
-
-{% comment %}
-* [Lab Startup](lab-00.html)
-* [Exercise 01](lab-01.html)
-* [Exercise 02](lab-02.html)
-* [Exercise 03](lab-03.html)
-* [Exercise 04](lab-04.html)
-* [Exercise 05](lab-05.html)
-* [Exercise 06](lab-06.html)
-* [Exercise 07](lab-07.html)
-* [Exercise 08](lab-08.html)
-* [Exercise 09](lab-09.html)
-* [Exercise 10](lab-10.html)
-* [Exercise 11](lab-11.html)
-{% endcomment %}
 
 
 ### What is "OK"?

@@ -1,49 +1,76 @@
 ---
-title: 'Exercise 03 - Class Diagrams'
+title: 'Assignment 03 - Gilded Rose Patterns and Sequence Diagrams'
 author: kleinen
 layout: page
 ---
 
- ![LED Pumpkin](../images/led-pumpkin.jpg "pumpkins")
+# Reading Assignment for Friday, May 3rd 2013:
 
-In this exercise you will create a Class Diagram for the HTW Application.
-You should work on this exercise in a team of 2-4 people.
+For this week's lecture and especially the exercise, you will need some knowledge about sequence diagrams, and the Patterns Strategy, Factory, Factory method, Abstract Factory and Template Method.
 
-Based on the system description in the [last exercise](lab-02.html) and the use
-cases you've developed,
-draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.
-## Prelab
-Please do read this Introduction to class diagrams before coming to lab!
-[UML2 Class Diagrams at Agile Modeling](http://www.agilemodeling.com/artifacts/classDiagram.htm) - I will only give a brief intro/Q&A to class diagrams in the lab.
+Here are some good sources:
 
-## Assignment
+ *  Sequence Diagrams: Sample Chapter from Fowler's UML distilled: [http://www.informit.com/articles/article.aspx?p=169507&seqNum=2 ][1]- Please read the full chapter.
+ *  Strategy Pattern:  - make sure you understand the pattern.
+ *  Template Method: we talked about that in class (Sandy Metz Ruby example!), but you can look it up here:
+ *  Factory Patterns: You don't need to read all of the following web pages, but make sure you understand the idea of Factories (german wikipedia might also be helpful with this) and the distinction between the different factory patterns.
+ *  Factory, ,
+ *  Factory Method[ http://www.oodesign.com/factory-method-pattern.html][2]
+ *  Optional:
+ *  Abstract Factory[ http://www.oodesign.com/abstract-factory-pattern.html][3]
+ *  Abstract Factory from the GoF-Book
 
-A simple method to discover candidates for classes, introduced by Abbott (1983),
-and later popularized by Booch (e.g. Booch 2004, P 136), but critized for not beeing a rigourous approach and only be useful for simple problems, is the following:
+Please read them before coming to class on Friday, as we will work with these topics in class.
 
-  * Underline all the nouns (in an English language text) in one color, such as blue
-  * Underline all the verbs in another color, such as red
-  * Underline all the adjectives in a third color, such as green.
+# Assignment: Gilded Rose Refactoring and enhancement
 
-The nouns are candidates for classes, the verbs for methods and the adjectives
-for attributes/fields. Then use the CRC Method (Beck & Cunningham, 1989) to sort
-all these and produce the design:
+Download and Install the source code for this exercise:
 
-Take a lot of pieces of paper, and write each noun at the top of one of the pieces of paper and draw a line all across the paper underneath the word. The red words make good methods - they just need to be assigned to classes. Divide the rest of the paper in two pieces - write the verbs on the bottom part. Decorate with attributes as deemed necessary, which get written on the top piece. The green words can be attributes or relationships - distribute them accordingly. Does your diagram make sense? Resort the cards and the methods, making new cards and ripping up the old ones, until finally your diagram seems to be consistent.
+[https://github.com/info3/assignment_3](https://github.com/info3/assignment_3)
 
-You need to find the right level of abstraction - level of detail - in your diagram. You don't need to put everything in there!
-After your design is finished, draw it using a class diagram drawing tool or simply on paper and scan or fotograph it to include it in the report.
+you can import it as a new project into your Eclipse Workspace, either as Java Project or as a Maven Project.
 
-## Lab Report
+It contains:
 
-Turn in a Lab Report including the names of all people involved, time needed for completion and reflecting the mayor points of discussion while working on the class design. Last not least include the class design itself.
+ *  the [original GildedRose implementation][4]
+ *  [a stub for a GildedRose version with Inheritance][5]
+ *  [a stub for a GildedRose version using the strategy pattern][6]
+ *  [an abstract parameterized test class with subclasses for all three implementations][7]
 
-### References
 
-Russell J. Abbott. 1983. Program design by informal English descriptions. Commun. ACM 26, 11 (November 1983), 882-894. http://doi.acm.org/10.1145/182.358441
+Have a look at the provided classes and run the tests. The [GildedRoseTestOriginal][8] should pass, the others will fail as the stubs only implement a basic updateQuality.
 
-K. Beck and W. Cunningham. 1989. A laboratory for teaching object oriented thinking. SIGPLAN Not. 24, 10 (September 1989), 1-6. [Available Online](http://c2.com/doc/oopsla89/paper.html)
+## 1. Sequence Diagram
 
-Grady Booch. 2004. Object-Oriented Analysis and Design with Applications (3rd Edition). Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA.
+Draw a sequence diagram for GildedRoseTestOriginal starting with the test() method in GildedRoseTest.
 
-LED Pumpkin by [Windell Oskay](http://www.flickr.com/photos/oskay/283388408/)
+## 2. Complete the Inheritance and Strategy Implementations
+
+ Complete the inheritance and strategy implementation stubs **test driven**. That is, run the tests and implement the first failing test, until all tests pass.
+
+## 3. Implement the Conjured Requirement in all three implementations
+
+First, switch on the testing for conjured items by setting INCLUDE\\_CONJURED\\_TEST\_CASES to true in [GildedRoseTest][7] which adds three test cases for conjured items. Then implement the failing tests.
+
+## 4. Reflection on implementations
+
+ Draw sequence diagrams for both the inheritance and the strategy implementation starting at the call to GildedRose.updateQuality().
+
+ Write a short reflection (3-4 sentences) on what you needed to do to implement the new requirement in the different implementations.
+
+## 5. Patterns in the Gilded Rose
+
+Apart from the Strategy Pattern in the Strategy Pattern implementation/refactoring, which patterns can you identify in the completed GildedRose implementations? There are at least 2 patterns, one of them in more than one place, in the source code provided, plus patterns you might have used.
+
+# Submission
+
+Upload a PDF with your answers to the questions and the sequence diagrams. There is no need to upload your source code.
+
+[1]: http://www.informit.com/articles/article.aspx?p=169507&seqNum=2
+[2]: http://www.oodesign.com/factory-method-pattern.html
+[3]: http://www.oodesign.com/abstract-factory-pattern.html
+[4]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/main/java/gildedrose/original/GildedRose.java
+[5]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/inheritance
+[6]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/strategy
+[7]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/test/java/gildedrose/GildedRoseTest.java
+[8]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/test/java/gildedrose/GildedRoseTestOriginal.java
