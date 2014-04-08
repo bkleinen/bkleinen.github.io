@@ -12,8 +12,8 @@ Stand: 1.4.2014
 |1|14||04/02/2014|||"Welcome Back, Overview, Toolbox: Java, Eclipse, GIT"||
 |||||04/04/2014||"Designing Applications"||
 |2|15|04/08/2014|||||1|"Designing an Application, CRC Cards & Toolbox"
-||||04/09/2014|||"Networking in Java. File I/O. Eclipse."||
-|||||04/11/2014||"Error Handling and Exceptions"||
+||||04/09/2014|||"Error Handling and Exceptions"||
+|||||04/11/2014||"Networking in Java. File I/O. Eclipse."||
 |3|16|04/15/2014|||||2|"Implementing CRC cards (Pre-Lab!)"
 ||||04/16/2014|||"Java 8 - Lambdas"||
 |||||04/18/2014||"Properties of Algorithms"||
