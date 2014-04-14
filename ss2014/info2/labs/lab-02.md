@@ -7,9 +7,11 @@ layout: lab
 
 Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.
 
-1.This exercise builds on the design you did last week using CRC cards.
+
+1. This exercise builds on the design you did last week using CRC cards.
 2. What properties should a data structure have that can model movie theater seats?
 3. Given an n x m matrix and a cell c in (r, c). How do I reference the neighboring cells in the same row? In the same column? How do I reference the diagonal cells?
+
 
 ## Assignment
 These are the required exercises for this week. We are going to see if we can get our minds back into Java-Mode. Work in groups of two, ***each*** of you hands in the same report. Remember to put both of your names on the report. Groups of three are only possible if one of the three is new, i.e. did not take Info 1 last semester. You can continue to use BlueJ, or move to Eclipse, if you wish.
@@ -24,7 +26,7 @@ These are the required exercises for this week. We are going to see if we can ge
 
 ## Lab Report / What to turn in
 
-Your report is due by 10.00 am on Monday after the lab (for Groups 1&2.)
+Your report is due by 10.00 am on Monday after the lab.
 
 As in Informatics 1, I am more interested in process than in product,
 although we are now getting more interested in products as well.
