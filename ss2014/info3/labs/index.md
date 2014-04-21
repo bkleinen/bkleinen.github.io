@@ -7,8 +7,10 @@ layout: page
 ## Exercises
 
 * [Exercise 01](lab-01.html)
-{% comment %}
 * [Exercise 02](lab-02.html)
+
+{% comment %}
+
 * [Exercise 03](lab-03.html)
 * [Exercise 04](lab-04.html)
 * [Exercise 05](lab-05.html)
