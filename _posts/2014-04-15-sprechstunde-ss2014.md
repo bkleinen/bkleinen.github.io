@@ -8,9 +8,6 @@ categories:
 
 ---
 
-* immer Mittwochs, 14-15 Uhr
-
-**aber am 16.4. wegen eines Kolloquiums erst
-um 15:00!**
+* immer Mittwochs, 15-16 Uhr
 
 Bitte bei längeren Anliegen per email anmelden!
