@@ -15,7 +15,6 @@ I will only give a brief intro/Q&A to State Machine Diagrams in the lab.
 
 ## Assignment
 
-
 Your job in this exercise is to model all of the following systems (2 points per system for 1-3, 4 points for system 4):
 
 1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling a solution to this problem.

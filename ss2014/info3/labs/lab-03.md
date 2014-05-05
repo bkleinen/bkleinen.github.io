@@ -1,76 +1,90 @@
 ---
-title: 'Assignment 03 - Gilded Rose Patterns and Sequence Diagrams'
+title: 'Assignment 03 - GIT and State Machine Diagrams'
 author: kleinen
 layout: page
 ---
-
-# Reading Assignment for Friday, May 3rd 2013:
-
-For this week's lecture and especially the exercise, you will need some knowledge about sequence diagrams, and the Patterns Strategy, Factory, Factory method, Abstract Factory and Template Method.
-
-Here are some good sources:
-
- *  Sequence Diagrams: Sample Chapter from Fowler's UML distilled: [http://www.informit.com/articles/article.aspx?p=169507&seqNum=2 ][1]- Please read the full chapter.
- *  Strategy Pattern:  - make sure you understand the pattern.
- *  Template Method: we talked about that in class (Sandy Metz Ruby example!), but you can look it up here:
- *  Factory Patterns: You don't need to read all of the following web pages, but make sure you understand the idea of Factories (german wikipedia might also be helpful with this) and the distinction between the different factory patterns.
- *  Factory, ,
- *  Factory Method[ http://www.oodesign.com/factory-method-pattern.html][2]
- *  Optional:
- *  Abstract Factory[ http://www.oodesign.com/abstract-factory-pattern.html][3]
- *  Abstract Factory from the GoF-Book
-
-Please read them before coming to class on Friday, as we will work with these topics in class.
-
-# Assignment: Gilded Rose Refactoring and enhancement
-
-Download and Install the source code for this exercise:
-
-[https://github.com/info3/assignment_3](https://github.com/info3/assignment_3)
-
-you can import it as a new project into your Eclipse Workspace, either as Java Project or as a Maven Project.
-
-It contains:
-
- *  the [original GildedRose implementation][4]
- *  [a stub for a GildedRose version with Inheritance][5]
- *  [a stub for a GildedRose version using the strategy pattern][6]
- *  [an abstract parameterized test class with subclasses for all three implementations][7]
+----------------
 
 
-Have a look at the provided classes and run the tests. The [GildedRoseTestOriginal][8] should pass, the others will fail as the stubs only implement a basic updateQuality.
+![Machine](../images/machine.jpg "machine")
+Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)
 
-## 1. Sequence Diagram
 
-Draw a sequence diagram for GildedRoseTestOriginal starting with the test() method in GildedRoseTest.
+# Pre-Lab
+## Git & GitHub
 
-## 2. Complete the Inheritance and Strategy Implementations
+* [Git](http://git-scm.com/) is the state-of-the-art Source Code Management Tool. Install the command line client for your platform, and maybe also a GUI Client, [which can all be found here](http://git-scm.com/download/).
+* Sign up on [GitHub](https://github.com/) if you haven't already done so. See also
+[Setting up Git](https://help.github.com/articles/set-up-git) from GitHub for a comprehensive documentation.
+* For other projects, you might want to use the HTW [Projekteserver](https://studi.f4.htw-berlin.de/www/) which offers you private repositorys, or any other service offering
+central repositories. Github also offers free private repositories for students.
+* Github translates markdown files automatically to HTML - That's how the README.md files you see in most repositories work. Read through the [Markdown](https://help.github.com/articles/markdown-basics) and maybe also the [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) documentation.
 
- Complete the inheritance and strategy implementation stubs **test driven**. That is, run the tests and implement the first failing test, until all tests pass.
+## State Machines
 
-## 3. Implement the Conjured Requirement in all three implementations
+Please read through this intro to state machines.
 
-First, switch on the testing for conjured items by setting INCLUDE\\_CONJURED\\_TEST\_CASES to true in [GildedRoseTest][7] which adds three test cases for conjured items. Then implement the failing tests.
+* [UML 2 State Machine Diagramming Guidelines](http://www.agilemodeling.com/style/stateChartDiagram.htm)
 
-## 4. Reflection on implementations
+I will only give a brief intro/Q&A to State Machine Diagrams in the lab.
 
- Draw sequence diagrams for both the inheritance and the strategy implementation starting at the call to GildedRose.updateQuality().
 
- Write a short reflection (3-4 sentences) on what you needed to do to implement the new requirement in the different implementations.
+# Assignment
+## Git
 
-## 5. Patterns in the Gilded Rose
+This exercise is for getting aquaintained with git and github (and markdown) with the practical application of creating online notes collaboratively. This gives you the opportunity to practice using git and github collaboration features with a bunch of plain text files before moving on to managing heaps of source code.
+### Create a Note Repository
 
-Apart from the Strategy Pattern in the Strategy Pattern implementation/refactoring, which patterns can you identify in the completed GildedRose implementations? There are at least 2 patterns, one of them in more than one place, in the source code provided, plus patterns you might have used.
+Choose a subject you want to compile notes on. This might be git and github itself
+while you're trying it out, or anything else.
 
-# Submission
+Build Teams, create a central repository within each team and add the team members as collaborators on github. The team size is up to you - it has to be at least two, the more you are the less documentation each of you has to write, but the cooperation overhead increases, too. To pass this exercise, each teammember must have more than one commit in the repository.
 
-Upload a PDF with your answers to the questions and the sequence diagrams. There is no need to upload your source code.
+### First Round of Notes
 
-[1]: http://www.informit.com/articles/article.aspx?p=169507&seqNum=2
-[2]: http://www.oodesign.com/factory-method-pattern.html
-[3]: http://www.oodesign.com/abstract-factory-pattern.html
-[4]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/main/java/gildedrose/original/GildedRose.java
-[5]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/inheritance
-[6]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/strategy
-[7]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/test/java/gildedrose/GildedRoseTest.java
-[8]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/test/java/gildedrose/GildedRoseTestOriginal.java
+Divide the topic(s) between you and start writing notes each. Usually it's not a great idea if two people work on the same file at the same time.
+
+### Second Round
+
+Start exchanging the files using git and github. That is, commit your changes locally and then push them to the github repository, after pulling changes from the others.
+
+### Merge Conflicts
+
+If you feel confident exchanging files with git and github, deliberately create a merge conflict and resolve it. Each one of you should have resolved a merge conflict - you'll be happy that you've done that before if you happen to get huge merge conflicts the night before the deadline of a project.
+
+### Pull Requests
+
+Last, exchange the repository urls with another team. You can just swap them, or exchange them in circles.
+
+Review the notes of the other team (by looking at the repository online, then forking and cloning it). Each of you should send the other team at least one pull request. Always create a new branch for a pull request. Send the other team enough pull request such that each team member can merge a pull request.
+
+
+
+## State Machine Diagrams
+
+Your job in this exercise is to model all of the following systems (2 points per system for 1-3, 4 points for system 4):
+
+1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling a solution to this problem.
+2. Model the states an IMI student passes through from the first until the sixth semester. (Special prize for the most humorous model that is not offensive.)
+3. Model an algorithm that determines if a given string is a proper floating-point number, i.e.
+
+        [sign] integerpart dot fractional part [E exponent]
+4. Model the states in an Pumpkin order in the HTW system can be in.
+
+
+## Lab Report / What to turn in
+
+Write up a report describing your experiences sharing files with git and github. If you've created a note page in your repository listing the git commands you used you can refer to that.
+
+The State Machine Diagram part should include reflections on the process of producing the diagrams and.
+
+**List the names of all people on the team together with their github handles** and include the link to your github repository.
+
+You can do your writeup as PDF or markdown file, one for each team is sufficient.
+
+***
+
+State Machine Part based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
+
+[3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex4.shtml
+[4]: http://www.f4.htw-berlin.de/~weberwu/
