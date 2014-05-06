@@ -3,11 +3,12 @@ title: 'Info2: Exercise 05: Execution times'
 author: kleinen
 layout: lab
 ---
+
 ## Pre-Lab
 
 Please have these completed before coming to the lab. BTW, I like questions like this on the exam...
 
-1. Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N2 , respectively. Answer the following questions, if possible:
+1. Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup> , respectively. Answer the following questions, if possible:
 
   1. Which program has the better guarantee on the running time for large values of N (N > 10 000)?
   2. Which program has the better guarantee on the running time for small values of N (N < 100)?
@@ -29,7 +30,7 @@ Please have these completed before coming to the lab. BTW, I like questions like
   4. cubic
 
 4. Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
-N, square root of N, N1.5, N2 , N log N, N log log N, N log2 N, N log (N2), 2/N, 2N, 2N/2, 37,N3, N2 log N
+N, square root of N, N<sup>1.5</sup>, N<sup>2</sup> , N log N, N log log N, N log2 N, N log (N<sup>2</sup>), 2/N, 2N, 2N/2, 37,N<sup>3</sup>, N<sup>2</sup> log N
 
 
 
