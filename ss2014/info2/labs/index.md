@@ -11,8 +11,8 @@ layout: page
 * [Exercise 03](lab-03.html)
 * [Exercise 04](lab-04.html)
 * [Exercise 05](lab-05.html)
-{% comment %}
 * [Exercise 06](lab-06.html)
+{% comment %}
 * [Exercise 07](lab-07.html)
 * [Exercise 08](lab-08.html)
 * [Exercise 09](lab-09.html)
