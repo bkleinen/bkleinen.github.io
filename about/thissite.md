@@ -33,6 +33,8 @@ http://bkleinen.github.io
         jekyll serve -w
   to have the site served on localhost:4000 and automatically rebuilt on every file save.
 
+* redcarpet: For Markdown Processing, [redcarpet](https://github.com/vmg/redcarpet) is used.
+
 ## Sass preprocessing
 
 To ease working on the css stylesheets, I also use [Sass](http://sass-lang.com/) preprocessing.
