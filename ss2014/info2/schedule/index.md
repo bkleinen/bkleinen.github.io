@@ -4,6 +4,7 @@ author: kleinen
 layout: page
 wide_layout: true
 ---
+{% include ss2014/info2.md %}
 
 Stand: 1.4.2014
 

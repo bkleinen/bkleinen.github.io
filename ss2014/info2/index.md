@@ -4,8 +4,7 @@ author: kleinen
 layout: page
 ---
 
-[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2785) | [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92253) | [Github](https://github.com/htw-imi-info2)
-
+{% include ss2014/info2.md %}
 # Welcome!
 
 This course is an introduction to *algorithms and data structures*. It will be taught in German with all written material in English and with the Java programming language.It will be taught using Java, but it is not about the language. Mastery of basic Java syntax as taught in Informatik I is assumed. We learned primitive data types, statements and rules, interfaces and classes in Informatik I. We will now be looking at more complex data structures and algorithms which work on these data structures.
