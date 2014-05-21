@@ -29,14 +29,19 @@ $htw-header: $htw-black20;
 
 /* more color constants */
 
-$main-color: #000;
+$main-color: #444;
 $attention-color: $htw-orange;
 
 body {
   padding: 50px;
-  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: $main-color;
-  font-weight: 300; }
+  font: {
+    family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size: 18px;
+    weight: normal;
+    weight: 300;
+  }
+  line-height: 1.5em;
+  color: $main-color; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -76,8 +81,8 @@ a small {
 
 .attention
 {
-  color:$attention-color;
-  font-weight:bold;
+  color: $attention-color;
+  font-weight: bold;
   font-style: italic;
 }
 .wrapper {

@@ -12,9 +12,12 @@
 /* more color constants */
 body {
   padding: 50px;
-  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: black;
-  font-weight: 300; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #444444; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -44,11 +47,11 @@ a {
   text-decoration: none; }
 
 footer a {
-  color: black; }
+  color: #444444; }
 
 a small {
   font-size: 11px;
-  color: black;
+  color: #444444;
   margin-top: -0.6em;
   display: block; }
 
