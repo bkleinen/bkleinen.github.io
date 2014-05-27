@@ -13,8 +13,8 @@ layout: page
 * [Exercise 05](lab-05.html)
 * [Exercise 06](lab-06.html)
 * [Exercise 07](lab-07.html)
-{% comment %}
 * [Exercise 08](lab-08.html)
+{% comment %}
 * [Exercise 09](lab-09.html)
 * [Exercise 10](lab-10.html)
 * [Exercise 11](lab-11.html)
