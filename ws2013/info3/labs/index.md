@@ -14,18 +14,18 @@ In the Info3 lab, we will do quite different things:
 There will be 12 graded exercises (No 00 won't be graded). The graded exercises will either be written reports - lab reports - or the documents you produce in your design with UML, usually not the source code itself. I might, however, ask to turn it in as well.
 
 ## Exercises
-* [Lab Startup](lab-00.html)
-* [Exercise 01](lab-01.html)
-* [Exercise 02](lab-02.html)
-* [Exercise 03](lab-03.html)
-* [Exercise 04](lab-04.html)
-* [Exercise 05](lab-05.html)
-* [Exercise 06](lab-06.html)
-* [Exercise 07](lab-07.html)
-* [Exercise 08](lab-08.html)
-* [Exercise 09](lab-09.html)
-* [Exercise 10](lab-10.html)
-* [Exercise 11](lab-11.html)
+* [Lab Startup: Set up your development environment](lab-00.html)
+* [Exercise 01: Git and Markdown with a Practical Application](lab-01.html)
+* [Exercise 02 - Use Cases and Scenarios](lab-02.html)
+* [Exercise 03 - Class Diagrams](lab-03.html)
+* [Exercise 04 - UML Part III: State Machine Diagrams](lab-04.html)
+* [Exercise 05 - UML Part IV: Sequence Diagrams](lab-05.html)
+* [Exercise 06 - Ruby Exercise](lab-06.html)
+* [Exercise 07 - Test Driven Development](lab-07.html)
+* [Exercise 08 - Black and White Box Tests](lab-08.html)
+* [Exercise 09 - Legacy Code - Refactoring to Patterns](lab-09.html)
+* [Exercise 10 - Rails first steps](lab-10.html)
+* [Exercise 11 -  Associations and Internationalization](lab-11.html)
 
 ### Lecture summaries (10%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. It is due at 23.00 Thursday nights - to just have one due date for everything. You can, of course, hand them in earlier.

@@ -6,15 +6,16 @@ layout: page
 
 ## Exercises
 
-* [Exercise 01](lab-01.html)
-* [Exercise 02](lab-02.html)
-* [Exercise 03](lab-03.html)
-* [Exercise 04](lab-04.html)
-
+* [Exercise 01 - Testing](lab-01.html)
+* [Exercise 02 - Use Cases and Class Diagrams](lab-02.html)
+* [Exercise 03 - GIT and State Machine Diagrams](lab-03.html)
+* [Exercise 04 - Legacy Code - Refactoring to Patterns](lab-04.html)
+* [Exercise 05 - Sequence Diagrams and Ruby Finger exercises](lab-05.html)
+* Exercise 06 - Rails First Steps
+* Exercise 07 - Rails Associations and Internationalization
 {% comment %}
-* [Exercise 05](lab-05.html)
-* [Exercise 06](lab-06.html)
-* [Exercise 07](lab-07.html)
+* [Exercise 06 - Rails First Steps](lab-06.html)
+* [Exercise 07 - Rails Associations and Internationalization](lab-07.html)
 
 {% endcomment %}
 
