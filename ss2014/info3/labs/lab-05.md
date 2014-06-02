@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 05 - Sequence Diagrams and Ruby Finger exercises'
+title: 'Exercise 05 - Sequence Diagrams and Ruby Finger Exercises'
 author: kleinen
 layout: page
 ---
