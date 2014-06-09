@@ -6,19 +6,21 @@ layout: page
 {% include ss2014/info2.md %}
 
 ## Exercises
-* [Exercise 01](lab-01.html)
-* [Exercise 02](lab-02.html)
-* [Exercise 03](lab-03.html)
-* [Exercise 04](lab-04.html)
-* [Exercise 05](lab-05.html)
-* [Exercise 06](lab-06.html)
+* [Exercise 01 - Dealing with Objects and Toolbox](lab-01.html)
+* [Exercise 02 - Implementing CRC Cards](lab-02.html)
+* [Exercise 03 - Chatterbox](lab-03.html)
+* [Exercise 04 - Histogram](lab-04.html)
+* [Exercise 05 - Execution times](lab-05.html)
+* [Exercise 06 - Reverse Polish Notation](lab-06.html)
 * [Exercise 07 - Recursive Triangles](lab-07.html)
 * [Exercise 08 - Multi-Threaded Chat Application](lab-08.html)
 * [Exercise 09 - Eight Queens](lab-09.html)
+* [Exercise 10 - Probabilistic Algorithms](lab-10.html)
+* Exercise 11 - Getting from A to B (Pre-Lab!)
+* Exercise 12 - Scrabble Cheater Basic Edition (Pre-Lab!)
+* Exercise 13 - Scrabble Cheater Deluxe (Pre-Lab!)
+* Exercise 14 - Ladders (please read before lab, and maybe download the data)
 {% comment %}
-* [Exercise 10](lab-10.html)
-* [Exercise 11](lab-11.html)
-
 {% endcomment %}
 
 

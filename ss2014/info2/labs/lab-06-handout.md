@@ -13,7 +13,6 @@ layout: lab
 
 **Postfix:** The operator is placed after the two operands: 3 5 +
 
- 
 
 ##Calculator algorithm
 
