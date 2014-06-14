@@ -16,7 +16,7 @@ layout: page
 * [Exercise 08 - Multi-Threaded Chat Application](lab-08.html)
 * [Exercise 09 - Eight Queens](lab-09.html)
 * [Exercise 10 - Probabilistic Algorithms](lab-10.html)
-* Exercise 11 - Getting from A to B (Pre-Lab!)
+* [Exercise 11 - Getting from A to B](lab-11.html) (Pre-Lab!)
 * Exercise 12 - Scrabble Cheater Basic Edition (Pre-Lab!)
 * Exercise 13 - Scrabble Cheater Deluxe (Pre-Lab!)
 * Exercise 14 - Ladders (please read before lab, and maybe download the data)
