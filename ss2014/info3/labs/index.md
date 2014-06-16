@@ -11,10 +11,8 @@ layout: page
 * [Exercise 03 - GIT and State Machine Diagrams](lab-03.html)
 * [Exercise 04 - Legacy Code - Refactoring to Patterns](lab-04.html)
 * [Exercise 05 - Sequence Diagrams and Ruby Finger exercises](lab-05.html)
-* Exercise 06 - Rails First Steps
-* Exercise 07 - Rails Associations and Internationalization
-{% comment %}
 * [Exercise 06 - Rails First Steps](lab-06.html)
+{% comment %}
 * [Exercise 07 - Rails Associations and Internationalization](lab-07.html)
 
 {% endcomment %}
