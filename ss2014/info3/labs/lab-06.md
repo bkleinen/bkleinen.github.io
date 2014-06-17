@@ -14,6 +14,11 @@ Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
 
 # Assignment
 
+## Part 0:
+
+In the Order show, show the Associated Customer with its name rather than the ID -
+Test driven!
+
 ## Part 1: Creating Testdata
 
 You should never be attached to manually created test data living in your development or test database. Instead, you should have scripts that generate and re-generate this test data on demand.
