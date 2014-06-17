@@ -16,8 +16,10 @@ Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
 
 ## Part 0:
 
-In the Order show, show the Associated Customer with its name rather than the ID -
-Test driven!
+On the order#show page, show the associated customer with its name rather than the ID -
+Test driven! You can use the :order1 factory for
+this, see Part 1 for more info on FactoryGirl test
+data.
 
 ## Part 1: Creating Testdata
 
@@ -63,15 +65,6 @@ After you've created a failing test case, you can proceed to implement the featu
 Note that there is a factory for a user with several orders, you can use that for testing:
 
     Customer.where(name: "Dagobert").first.orders
-
-## Part 2: Show all orders for a customer
-
-Add a list of all Orders places by the customer on the page that shows a single customer. Develop this feature test-driven by first creating a new feature test in spec/features. The two provided feature tests should give you plenty of hints, see https://github.com/htw-imi-info3/HTW/tree/master/spec/features - for further documentation see
-
-* [Capybara Doc](http://rubydoc.info/github/jnicklas/capybara/master) on how to navigate web pages automatically with capybara and
-* [RSpec Matchers](https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) if you need more specific assertions (expectations)
-
-After you've created a failing test case, you can proceed to implement the feature.
 
 ## Part 3: Add a price to the order and sum them up.
 
