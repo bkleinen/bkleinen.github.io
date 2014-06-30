@@ -19,8 +19,8 @@ layout: page
 * [Exercise 11 - Getting from A to B](lab-11.html) (Pre-Lab!)
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12.html) (Pre-Lab!)
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13.html) (Pre-Lab!)
-* Exercise 14 - Ladders (please read before lab, and maybe download the data)
 {% comment %}
+* Exercise 14 - Ladders (please read before lab, and maybe download the data)
 {% endcomment %}
 
 
