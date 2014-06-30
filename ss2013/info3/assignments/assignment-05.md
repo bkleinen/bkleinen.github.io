@@ -3,7 +3,7 @@ title: 'Assignment 05: Functionality and Libraries'
 author: kleinen
 layout: page
 ---
-asdf
+
 In this assignment, you will add some functionality to your rails app and try out a couple of the principles and practices we covered in the lectures. For this, you need to add some functionality that you can choose yourself. Read through the whole assignment and decide on the functionality you want to add before starting to implement it. It does not have to be the most important functionality of your app &#8211; the goal here is to try out the different aspects of rails.
 
 *   add (at least) 2 associations to your application and cover them in the view as we discussed in class.
@@ -17,9 +17,9 @@ In this assignment, you will add some functionality to your rails app and try ou
 </div>
 
 <div>
-  Hand in two files: a pdf documenting what you&#8217;ve implemented &#8211; rather pointers to the part in the source code than complete descriptions, and a zip containing the source code.
+  Hand in two files: a pdf documenting what you&#8217;ve implemented &#8211;
+  rather pointers to the part in the source code than complete descriptions,
+   and a zip containing the source code.
 </div>
 
-<div>
-  There will be no lab report this time, as the lab will be dedicated to working on this assignment.
-</div>
+
