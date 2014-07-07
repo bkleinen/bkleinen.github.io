@@ -34,7 +34,21 @@ There are a couple of important changes for the labs compared with Info1:
 
 1. Grading: there will be 14 Exercises alltogether. Grades are determined simply by counting how many reports you've submitted ***on time*** and how many reviews you've attended with an "ok".
 
+Scheme updated on 7/7/2014 to 13 Exercises altogether (instead of 14)
 
+|Submitted >= |Reviewed "OK" >=|Grade|
+|:--|:--|:--|:--|:--|:--|
+|12|11| 1.0|
+|11|10| 1.3|
+|10|09| 1.7|
+|09|08| 2.0|
+|08|07| 2.3|
+|07|06| 2.7|
+|06|05| 3.0|
+|05|04| 4.0|
+|less||5.0|
+
+{% comment %}
 |Submitted >= |Reviewed "OK" >=|Grade|
 |:--|:--|:--|:--|:--|:--|
 |13|11| 1.0|
@@ -46,6 +60,8 @@ There are a couple of important changes for the labs compared with Info1:
 |07|05| 3.0|
 |06|04| 4.0|
 |less||5.0|
+
+{% endcomment %}
 
 Please note that this scheme already allows for you to forget one submission, be on your grandpa's wedding one week, having the flu on another and opting to go surfing on a third and still earn an 1.0. These things are normal during a semester. If you become seriously ill or something other happens that keeps you from coming to classes for more
 than a week in a row, it is a good idea to inform me (and other people involved) via email as soon as you know/can and come talk to me as soon as possible, too.
