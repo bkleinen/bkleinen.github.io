@@ -15,6 +15,13 @@ the @pumpkins variable. [http://guides.rubyonrails.org/active_record_querying.ht
 (http://guides.rubyonrails.org/active_record_querying.html) contains all necessary
 information on how to query Pumpkins.
 
+*** remember to make use of all the great pumpkins all of you added with their
+pull request you can use to populate your database! ***
+
+    rake db:populate
+
+(after updating from the main/upstream repository, see https://help.github.com/articles/fork-a-repo)
+
 ### Order has many Pumpkins through LineItems.
 An order consists of many line items stating the amount and pumpkin ordered.
 Create a database migration for Line Items and set up the has_many :through

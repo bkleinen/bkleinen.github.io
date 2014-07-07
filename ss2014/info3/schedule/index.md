@@ -33,7 +33,7 @@ wide_layout: true
 |13     |26     |06/24/2014|          |f&auml;llt aus                                                       |6      |2. Gruppe                         |
 |       |       |          |06/27/2014|Maven e-learning                                                     |       |                                  |
 |14     |27     |07/01/2014|          |Internationalisierung und Lokalisierung von Software                 |7      |1. Gruppe                         |
-|       |       |          |07/04/2014|F&auml;llt wegen Bombenentschärfung aus                              |       |                                  |
+|       |       |          |07/04/2014|F&auml;llt wegen Bombenentschärfung aus - SOLID e-learning           |       |                                  |
 |15     |28     |07/08/2014|          |Probeklausur & Klausurvorbereitung                                   |7      |2. Gruppe                         |
 |       |       |          |07/11/2014|SOLID (e-learning!)                                                  |       |                                  |
 |16     |29     |07/15/2014|          |Klausur                                                              |       |                                  |
