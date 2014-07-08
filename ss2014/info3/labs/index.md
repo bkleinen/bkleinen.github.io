@@ -62,7 +62,16 @@ They can be in txt, pdf or markdown format.
 
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline.html)
 
+### Using Ruby & Rails on the iMacs
 
+edit/create a ~/.profile file 
 
+    PATH=/usr/local/ruby/bin:$PATH
+    PATH=/usr/local/ruby/lib/ruby/gems/1.9.1/bin/:$PATH
+    export PATH 
+    export GEM_HOME=/data/gems
+    mkdir -p /data/gems
+
+do have bundler store new gems in /data/gems.
 
 
