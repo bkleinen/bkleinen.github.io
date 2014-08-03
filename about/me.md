@@ -6,7 +6,7 @@ layout: page
 
  ![Barbara_Kleinen]({{site.baseurl}}images/bkleinen.jpg)
 
-## Prof. Dr. Barbara Kleinen
+## Prof. Dr. Barbara "Béla" Kleinen
 ## Contact Information
 
 

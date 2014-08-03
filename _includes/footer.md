@@ -1,6 +1,6 @@
        <footer>
                  <p>
-                <a href="{{site.baseurl}}about/me.html">Prof. Dr. Barbara Kleinen</a><br />
+                <a href="{{site.baseurl}}about/me.html">Prof. Dr. Barbara Béla Kleinen</a><br />
                 <a href="http://www.htw-berlin.de">HTW Berlin</a>,
                 <a href="http://www.f4.htw-berlin.de/">FB4</a>, <a href="http://imi-bachelor.htw-berlin.de/">International Media and Computing</a>
 <br />
