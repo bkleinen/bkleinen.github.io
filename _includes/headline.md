@@ -9,7 +9,7 @@
 <p><a href="{{site.baseurl}}about/me.html">{{ site.name }}</a>
   <span class = "header-divider">|</span>
 <p>
-  <a href="{{site.baseurl}}ss2014">Lectures</a>
+  <a href="{{site.baseurl}}">Lectures</a>
   <span class = "header-divider">|</span></p>
 <p>
   <a href="{{site.baseurl}}thesis">Thesis</a>

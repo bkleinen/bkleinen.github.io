@@ -6,6 +6,15 @@ layout: default
 
 # Archiv
 
+
+<h1>Lectures SS 2014</h1>
+<ul>
+<li><a href="{{site.baseurl}}ss2014/info2">Informatik 2</a></li>
+<li><a href="{{site.baseurl}}ss2014/info3">Informatik 3</a></li>
+<li><a href="{{site.baseurl}}ss2014/projekt">Praxisprojekt</a></li>
+</ul>
+
+
 <h1>Lectures WS 2013/2014</h1>
 <ul>
 <li><a href="{{site.baseurl}}ws2013/info1">Informatik 1</a></li>
@@ -19,7 +28,7 @@ layout: default
   * [WS 2012](ws2012/index.html)
 
 <div id="home">
-  <h1>Aktuelles</h1>
+  <h1>All Anouncements</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

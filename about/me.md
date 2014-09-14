@@ -6,13 +6,13 @@ layout: page
 
  ![Barbara_Kleinen]({{site.baseurl}}images/bkleinen.jpg)
 
-## Prof. Dr. Barbara "B&eacute;la" Kleinen
+# Prof. Dr. Barbara Kleinen
 ## Contact Information
 
 
 Email: barbara.kleinen@htw-berlin.de
 
-Moodle: Please **don't** send me messages in moodle instead of emails!
+My preferred means of communication is email; try others at your own risk.
 
 Homepage: [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/)
 
@@ -20,9 +20,9 @@ Mirror on github: [http://bkleinen.github.io/](http://bkleinen.github.io/)
 
 Office: WH C 645
 
-Office Hours: Are announced on the [official page](http://imi-bachelor.htw-berlin.de/organisation/?typo3state=persons&lsfid=3545).
+Office Hours: Are now on the [main page]({{site.baseurl}})
 
-Schedule for [WS2013](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=DDozent&pool=DDozent&show=plan&P.vx=kurz&personal.pid=3545)
+[My Schedule in LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=DDozent&pool=DDozent&show=plan&P.vx=kurz&personal.pid=3545)
 
 Skype&Twitter: drblinken
 

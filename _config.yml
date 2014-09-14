@@ -2,10 +2,8 @@ name: Prof. Dr. B. Kleinen
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-pygments: true
+highlighter: pygments
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 permalink: none
-paginate: 2
-paginate_path: "/page:num"
 baseurl: /
 exclude: ['./_site_htw','_site_htw','/_site_htw/','./_site_htw/','_site_htw/','/_site_htw/']
