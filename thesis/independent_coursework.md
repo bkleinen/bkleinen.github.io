@@ -6,25 +6,33 @@ layout: page
 
 Ich betreue gerne auch selbst definierte Themen im Bereich Webentwicklung als Independent Coursework.
 
-Die [Studienordnung](http://imi-master.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2008/48_08.pdf) beschreibt die Anforderungen:
 
+Die [Studienordnung in der Änderung im Mitteilungsblatt 10/11](http://imi-master.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2011/10_11.pdf) sieht folgendes für ICs vor:
 
-    (7) Im zweiten und dritten Semester müssen sich die Studierenden selbständig im Modul
-    Independent Coursework 1 bzw. 2 jeweils einem Themengebiet vertiefend zuwenden. „Independent
-    Coursework” wird entweder als Independent Study, Independent Production oder Supervised
-    Research durchgeführt. Zwei verschiedene aus den drei Angeboten sind zu wählen.
+    § 6 Inhalt und Gliederung des Masterstudiums/Regelstudienzeit
+    Absatz 7 wird wie folgt neu gefasst:
 
-    a. Bei Independent Study wird den Studierenden am Anfang des Semesters eine Leseliste und
-    ggf. Aufgaben zum Selbststudium übergeben, bzw. Zugang zu einem E-Learning-Angebot
+     (7) Im zweiten und dritten Semester müssen sich die Studierenden selbständig im Modul
+    Independent Coursework 1 bzw. 2 jeweils einem Themengebiet vertiefend zuwenden.
+    „Independent Coursework” wird entweder als Individual Study, Individual Production,
+    Supervised Research oder Interdisciplinary Project durchgeführt, die Entscheidung trifft
+    der Prüfer/die Prüferin.
+
+    a. Bei Individual Study wird den Studierenden am Anfang des Semesters eine Leseliste und
+    ggf. Aufgaben zum Selbststudium übergeben, bzw. Zugang zu einem E- Learning-Angebot
     organisiert.
 
-    b. Der Bereich Independent Production umfasst praxisorientierte Projekte, bei denen die
+    b. Der Bereich Individual Production umfasst praxisorientierte Projekte, bei denen die
     Erstellung von Anwendungen im Vordergrund steht.
 
     c. Bei Supervised Research – der angeleiteten Forschung – wird den Studierenden von der
-    Lehrkraft ein selbständig zu untersuchendes Forschungsthema vorgegeben, bzw. beteiligt
-    sich der Studierende mit eigenständigen Leistungen an einem Forschungsprojekt eines
-    Professors des Internationalen Studiengangs Medieninformatik (Master).
+    Lehrkraft ein selbständig zu untersuchendes Forschungsthema vorgegeben, bzw. beteiligt sich
+    der Studierende mit eigenständigen Leistungen an einem Forschungsprojekt eines Professors des
+    Internationalen Studiengangs Medieninformatik (Master).
+
+    d) Bei Interdisciplinary Project erhalten die Studierenden die Möglichkeit, an
+    Forschungs- oder Entwicklungsprojekten anderer Studiengänge der HTW aktiv
+    teilzunehmen.“
 
 
 Für ein IC gibt es 6 ECTS, d.h. der Arbeitsaufwand sollte mit 25-30h/LP insgesamt zwischen 150 und 180 Stunden liegen. Bitte führen Sie einen Stundenzettel, um das für mich (und Sie selbst) nachvollziehbar zu machen.
