@@ -26,3 +26,7 @@ Es ist dabei üblich, einen Powerpoint/Keynote-Vortrag am Beamer zu zeigen und g
 ### Wirklich nur 15-20 min?
 
 Ja, es ist eine Herausforderung die Arbeit einer so langen Zeit in einer so kurzen Zeit gut darzustellen, und das ist Teil der Prüfung. Denken Sie daran, dass es nichts schadet, Folien "in der Hinterhand" zu haben und sie bei passenden Fragen hervorzuziehen, das erleichtert vielleicht das Kürzen des Vortrags.
+
+## Muss ich mich zurückmelden?
+
+Besonderheiten bzgl. Rückmeldung im Abschlusssemester [stehen hier](http://www.htw-berlin.de/studieren/immatrikuliert-bleiben/rueckmeldung/besondere-faelle/#c17448).
