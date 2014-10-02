@@ -11,9 +11,9 @@ layout: default
 ## Lectures WS 2014/15
 
 - [Info1](info1/index.html)
-- Info3
+- [Info3](info3/index.html)
 - Web Technology
-<li><a href="{{site.baseurl}}ss2014/projekt">Praxisprojekt</a></li>
+- [Praxisprojekt](ss2014/projekt)
 
 
 ## Office Hours in WS 2014/15

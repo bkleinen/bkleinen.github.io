@@ -3,15 +3,18 @@ title: 'Assignment 02 - Use Cases and Class Diagrams'
 author: kleinen
 layout: page
 ---
+{% include ws2014/info3.md %}
 
+![Diagram](images/effective-diagrams.jpg "pumpkins")
+<small class = "float-right">The Art and Science of Diagramming. Foto by [Gary Barber](https://www.flickr.com/photos/cannedtuna/8115853847)</small>
 
-In this exercise you will create a description, develop a detailed Scenario for a Use Case, and draw a Class Diagram for an application called "HTW" - Halloween Treats Worldwide.
+In this exercise you will develop a **detailed Scenario for a Use Case**, and **draw a Class Diagram** for an application called "HTW" - Halloween Treats Worldwide.
 
 First, have a look at the description of the system:
 ***
 ## Halloween Treats Worldwide
- ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
-Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
+ ![Pumpkins](images/pumpkins-wide.jpg "pumpkins")
+<small class = "float-right">Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)</small>
 
 Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats. The product manager has asked you to design and develop the platform for their business.
 
@@ -51,7 +54,7 @@ Use-cases are a szenario-based technique for requirements elicitation. They were
 
 In a scenario you describe a concrete use of the proposed system, using the names of a proposed user. In the use case we abstract away from the concrete situations in the scenarios and try and describe the general case. We have **user roles** and system **functionality** , which are depicted in diagrams as little stick figures and circles, respectively:
 
-  ![Example use case diagram](../images/usecase.png)
+  ![Example use case diagram](images/usecase.png)
 
 An [actor](http://en.wikipedia.org/wiki/Actor_%28UML%29) is something or someone that interacts with the target system to produce an observable result. There are active and passive actors. They are usually drawn with a stick figure.
 

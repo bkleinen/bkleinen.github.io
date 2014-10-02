@@ -1,11 +1,11 @@
 ---
-title: 'Lab 04 - Legacy Code - Refactoring to Patterns'
+title: 'Assignment 05 - Legacy Code - Refactoring to Patterns'
 author: kleinen
 layout: page
 ---
+{% include ws2014/info3.md %}
 
-
-![The Gilded Rose](../images/The_Gilded_Rose.jpg)
+![The Gilded Rose](images/The_Gilded_Rose.jpg)
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](http://www.wowwiki.com/Gilded_Rose)</small>
 
 ## Assignment: Gilded Rose Kata
@@ -14,10 +14,9 @@ Source Code: There are three versions. Choose one. Have brief look at the
 readme and the GuildedRose class.
 
 
-* Ruby Version: [https://github.com/htw-imi-info3/gilded-rose-kata](https://github.com/htw-imi-info3/gilded-rose-kata)
-* Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3/GildedRoseJavaEclipse](https://github.com/htw-imi-info3/GildedRoseJavaEclipse)
-* Original Version using Maven: [https://github.com/htw-imi-info3/GildedRose](https://github.com/htw-imi-info3/GildedRose)
-
+* Ruby Version: [https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
+* Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
+* Original Version using Maven: [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose) 
 
 ### Write Characterization Tests
 
@@ -32,7 +31,6 @@ First, you need to install the Software and run the tests.
 Download and Install the source code for this exercise. Upon request, you can do this exercise either in Ruby or in Java. (Or both).
 In any case, you should have a look at the provided tests in both versions:
 
-* the Ruby spec uses as Test DSL by Jim Weirich called [rspec-given](https://github.com/jimweirich/rspec-given)
 * the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
 
 In both cases, you'll need to use a code coverage tool to make sure you have all
@@ -40,7 +38,7 @@ branches covered with your tests.
 
 #### Ruby Version
 
-* see instructions in the repo readme: [https://github.com/htw-imi-info3/gilded-rose-kata](https://github.com/htw-imi-info3/gilded-rose-kata)
+* see instructions in the repo readme:  [https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
 
 Bundler will install simplecov. After running rspec, you'll find the html coverage report in
 
@@ -58,7 +56,8 @@ If you prefer to use another ide & code coverage tool, you can of course do so.
 
 Get the repository from
 
- * [https://github.com/htw-imi-info3/GildedRoseJavaEclipse](https://github.com/htw-imi-info3/GildedRoseJavaEclipse)
+ * [https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
+
 
 and import it (Import->General->Existing Projects into Workspace) to Eclipse.
 
@@ -67,7 +66,7 @@ look at it in the lab.
 
 If you want to use Maven, you might want to use the original version:
 
-* [https://github.com/htw-imi-info3/GildedRose](https://github.com/htw-imi-info3/GildedRose)
+* [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose)
 
 ### Write Characterization Tests
 In both the Ruby & Java Version I've already provided a stub for the tests.

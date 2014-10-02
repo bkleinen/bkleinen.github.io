@@ -1,14 +1,19 @@
+---
+title: 'Exercise 01 - Installation Instructions'
+author: kleinen
+layout: page
+---
+{% include ws2014/info3.md %}
 
-
-
+(These are detailled instructions for the installation part of the [Info 3 Startup Lab](lab-01-startup.html)).
+## Note on Eclipse, 06/Oct/2014
+[startup bug on Mavericks](http://imi-bachelor.htw-berlin.de/labore/hinweise/#c36938)
 
 ## Which Computer to use?
 
-As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://people.f4.htw-berlin.de/labore/imi/web-technology.html) and rather unfolded their old, dirty little subnotebooks in front of the 27'' screens (which even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
+As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://imi-bachelor.htw-berlin.de/labore/web-technology/) and rather unfolded tiny notebooks in front of the 27'' screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
 
 If you become more proficient with standard tools like the command line and git, you will find it easier to switch between different computers and end up using the Macs at some point, anyway.
-
-If you don't have or usually don't bring a laptop computer to the HTW, you may choose to install the software described here on your computer at home instead. If you don't have a computer at all, you can use the Macs in the Lab WH C 537 on 11-Oct - you can pick up a key at the Pförtner, the room should be free from 11:30 on.
 
 
 ## Text Editor
@@ -53,13 +58,14 @@ Nevertheless, your colleagues from the previous semesters preferred UML tools. W
 
 ## Ruby and Ruby on Rails Installation
 
-Update 07/Oct/2013: You can either install Ruby and Rails locally or within a virtual box running linux, which should make the installation much easier
+Installing Ruby and Ruby on Rails has proven to be not as straightforward as one might wish for. I'll give you some hints here; but as I hardly saw the same issue twice there's no much point in trying to collect every possible issue here. On Linux and MacOS, I recommend using RVM. 
 
-### Running Ruby and Rails in a Virtual Box
+A lot of issues come from the fact that you'll need a C compiler on your machine. 
 
-With this option, you run rails within a virtualized linux box on your computer. Works like a charm on my 2 year old MacBook Pro, not sure about smaller machines.
+### Versions
 
-Follow  installation instructions [here](https://github.com/info3/rails-starter-box).
+I usually try to work with the latest versions - the ruby and especially the rails world is evolving quickly. As of today (Oct 5th, 2014) this would be Ruby 2.1.3 and Rails 4.1. - so try to install these versions. 
+The Windows Ruby Installer usually gives you an older version - use it at your own risk - but Ruby 2.0.0 should be ok.
 
 ### Local Installation on your machine
 The programming examples will be in Ruby, and at the end of the semester we will dip into the Ruby on Rails Web Development framework and have a look at how Enterprise Application Patterns and agile best practices are incorporated there. As Ruby installation tends to be a pain on Windows, better start now.

@@ -1,11 +1,16 @@
 ---
-title: Info3 SS2014
+title: Informatics 3
 author: kleinen
 layout: page
 ---
 
-[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2786) | [Github](https://github.com/htw-imi-info3)
-
+{% include ws2014/info3.md %}
+{% comment %}
+Info3 todo:
+- LSF, Moodle Links
+- Grading
+- class meetings
+{% endcomment %}
 # Welcome!
 
 Info 3 is the roundup of the Info 1-3 cyclus. In Info1, you learned programming, and the basics of object orientated design of software. Info2 dived into advanced programming with data structures and algorithms. Info3 rounds that up by giving you insights into how actually design and develop software at a bigger picture.
@@ -28,28 +33,45 @@ As one example of media system applications, we will look deeper into Web Applic
 
 Have a look at how this breaks down to this (tentative) [Schedule](schedule).
 
-## Meetings
+## Meetings and Due Dates
 
-The class consists of 2x2h of lectures and 2h of lab:
+The class consists of 2x2h of lectures (Thursday and Friday @ 12:15) and 4h of lab every fortnight (alternating group 1 & group 2).
+Due dates:
 
-* Lecture: Tuesday, 8:00-9:30, WH C 355
-* Lecture: Fridays, 15:45 - 17:15, WH C 355
-* [Labs:](labs)
-  * Group1&2: alternating Tuesdays 9:45-12:45
-  (LSF states 9:45-13:45, which would include
-  the 1h lunch break from 11:15-12:15 - we will have
-  all 3hrs of lab first and then the lunch break) WH C 537
+* Lecture Notes of last week: Thursday 23:00
+* Lab Reports: Thursday 23:00 before your next lab.
 
 
 ## Grades
 
-Your grade in Info3 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
+Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course (Lecture summaries, optionally tests on lab subjects and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
 
-* Lecture summaries: 15%
-* Lab reports: 40%
-* Exam: 50%
+### Option 1: without lab grades
+* Lecture summaries: 10%
+* Exam: 100%
+* Lab Reports: 0% - but all (n) have to be submitted and n-1 have to be ok to be admitted to the exam!
 
-More info about the Lecture Summaries and the Lab Reports can be found on the [Labs](labs) page.
+### Option 2: with lab grades
+* Lecture summaries: 10%
+* Lab Quizzes: 40%
+* Exam: 60%
+* Lab Reports: 0% - but all (n) have to be submitted and n-1 have to be ok to be admitted to the exam!
+
+If you pass the Lab Quiz (a small Moodle Quiz about the Lab contents at the beginning of the following lab) you automatically get an "ok" for that lab. If you don't have enough points or do not take part in the quiz, I might ask you to present your solution to me.
+
+I will let excel automatically choose the most favourable option for you if you took part in at least 6 of the 7 quizzes. However, if you want to choose yourself, you can of course do so - just send me an email **before the exam**.
+
+### Lecture summaries
+In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. 
+If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the whole 10% - they are either done or not done, and not graded on content.
+They can be in txt, pdf or markdown format.
+
+## Lab Reports
+The labs themselves will not be graded this term. Instead, I will issue little moodle quizzes for them. If you pass them (get >= 50% of the points) to get an ok for the lab. You don't need to take part in the quizzes to get an ok, however, but be able to present the lab contents to me on request.
+
+ **You need to get an "ok" for each issued exercise but one to be allowed to take part in the exam.**
+
+More info about  the Lab Reports can be found on the [Labs](labs) page.
 
 ## Exam
 
@@ -68,14 +90,5 @@ There is no textbook for this class. Here are the main books this class is based
 |Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002. | [EAA Website](http://martinfowler.com/eaaCatalog/)|
 |Armando Fox, David Patterson: Engineering Software as a Service: An Agile Approach Using Cloud Computing (2nd Beta Edition). | [Book Website](http://beta.saasbook.info/)|
 
-
-## Important Links and further Information
-
-Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
-
-* [These pages]({{site.baseurl}}index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
-* [Github](https://github.com/htw-imi-info3) for publicly accessible code examples for the lecture and the assignments
-* [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2786) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
-*  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92267),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92268) for official course information.
 
 

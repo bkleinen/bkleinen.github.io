@@ -1,9 +1,10 @@
 ---
-title: 'Exercise 07 - Internationalization, n:m Associations and a Bit of Functionality'
+title: 'Assignment 07 - Internationalization, n:m Associations and a Bit of Functionality'
 author: kleinen
 layout: page
 ---
 
+{% include ws2014/info3.md %}
 Assignment
 ==================
 
