@@ -13,8 +13,8 @@ wide_layout: true
 |-      |--     |----------|----------|**Part 1: Intro, Tools & Ruby**                                |                                                                                      |         |
 |1      |41     |09/10/2014|          |Intro to Info3                                                 |                                                                                      |         |
 |       |       |          |10/10/2014|Ruby Intro                                                     |Installation Party 14:00-15:30 WH-C 537 for both groups!                              |both     |
-|2      |42     |16/10/2014|          |Introduction to Ruby Dynamic Typing, Duck Typing               |                                                                                      |         |
-|       |       |          |17/10/2014|Pair Programming and Code Review                               |[1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup.html)              |1. Gruppe|
+|2      |42     |16/10/2014|          |Source Code Management and Continuous Integration              |                                                                                      |         |
+|       |       |          |17/10/2014|More Ruby, Pair Programming and Code Review                    |[1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup.html)              |1. Gruppe|
 |-      |--     |----------|----------|**Part 2: Software Engineering, Processes and Software Design**|                                                                                      |         |
 |3      |43     |23/10/2014|          |Software Engineering and Software Development Processes        |                                                                                      |         |
 |       |       |          |24/10/2014|Requirements Engineering                                       |[1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup.html)              |2. Gruppe|
@@ -30,15 +30,15 @@ wide_layout: true
 |8      |48     |27/11/2014|          |Working with Legacy Code                                       |                                                                                      |         |
 |       |       |          |28/11/2014|Clean Code                                                     |[4 - Testing](../labs/lab-04-testing.html)                                            |1. Gruppe|
 |9      |49     |04/12/2014|          |SOLID Principles                                               |                                                                                      |         |
-|       |       |          |05/12/2014|OO In Depth 1                                                  |[4 - Testing](../labs/lab-04-testing.html)                                            |2. Gruppe|
+|       |       |          |05/12/2014|OO In Depth 1: Ruby Dynamic Typing, Duck Typing                |[4 - Testing](../labs/lab-04-testing.html)                                            |2. Gruppe|
 |10     |50     |11/12/2014|          |OO In Depth 2: Composition and Inheritance                     |                                                                                      |         |
 |       |       |          |12/12/2014|Refactoring to Patterns                                        |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |1. Gruppe|
-|11     |51     |18/12/2015|          |Introduction to Rails, POEAA Revisited, Model View Controller  |                                                                                      |         |
-|       |       |          |19/12/2014|ORM and Associations in Rails                                  |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |2. Gruppe|
-|12     |02     |08/01/2015|          |Internationalization and Localization                          |                                                                                      |         |
-|       |       |          |09/20/2015|SCM, Build Management, Continuous Deployment                   |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |1. Gruppe|
+|11     |51     |18/12/2015|          |Rails Dash and Preparation for the Rails Project               |                                                                                      |         |
+|       |       |          |19/12/2014|Introduction to Rails, POEAA Revisited, Model View Controller  |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |2. Gruppe|
+|12     |02     |08/01/2015|          |ORM and Associations in Rails                                  |                                                                                      |         |
+|       |       |          |09/20/2015|Internationalization and Localization                          |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |1. Gruppe|
 |13     |03     |15/01/2015|          |Dependency Management and Working with APIs                    |                                                                                      |         |
-|       |       |          |16/01/2015|TBD                                                            |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |2. Gruppe|
+|       |       |          |16/01/2015|Build Management, Continuous Deployment                        |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |2. Gruppe|
 |14     |04     |22/01/2015|          |TBD                                                            |                                                                                      |         |
 |       |       |          |23/01/2015|TBD                                                            |[7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)        |1. Gruppe|
 |15     |05     |29/01/2015|          |TBD                                                            |                                                                                      |         |
@@ -48,7 +48,7 @@ wide_layout: true
 |17     |07     |12/02/2015|          |Klausureinsicht                                                |                                                                                      |         |
 |       |       |          |13/02/2015|Showtime ?                                                     |                                                                                      |         |
 
-Rails Dash and Preparation for the Rails Project
+
 
 
 
