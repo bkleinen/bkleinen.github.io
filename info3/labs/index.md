@@ -6,8 +6,6 @@ layout: page
 
 {% include ws2014/info3.md %}
 
-GIT???
-
 ## Exercises
 * [Exercise 01 - Lab Startup and Ruby Finger Exercises](lab-01-startup.html)
 * [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class.html)
