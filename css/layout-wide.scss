@@ -1,13 +1,24 @@
 @mixin layout-wide {
 
-  div.wrapper {
-    width: auto;
+ main {
+    width: 100%;
     margin: 0; }
 
-  header, section, footer {
-    float: none;
-    position: static;
-    width: auto; }
+  header, main, footer {
+       float: none;
+       position: static;
+
+   }
+  header { width: auto;}
+  footer { width: 600px;}
+  section{
+      width: 653px;
+   }
+
+   main {
+    width: auto;
+   }
+
 
   header .header-divider {
     display: inline; }

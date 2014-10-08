@@ -10,6 +10,45 @@
 /* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
 /* http://www.htw-berlin.de/hochschulstruktur/zentrale-referate/presse-und-oeffentlichkeitsarbeit/corporate-design/farbklima-schriften/ */
 /* more color constants */
+/* section, header, footer, aside,*/
+header, footer, main {
+  border-style: dotted;
+  border-width: thin;
+  border-color: #98bf21; }
+
+main {
+  float: right;
+  width: 100%; }
+
+section {
+  width: 652px;
+  display: inline-block;
+  padding-bottom: 50px; }
+
+aside {
+  width: 20%;
+  display: inline-block; }
+
+section .schedule {
+  float: none;
+  position: static;
+  width: auto; }
+
+header {
+  width: auto;
+  float: left;
+  position: fixed; }
+
+header .header-divider {
+  display: none; }
+
+footer {
+  width: 200px;
+  float: left;
+  position: fixed;
+  bottom: 50px; }
+
+/* general stuff applicable for all layouts */
 body {
   padding: 50px;
   font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -57,10 +96,6 @@ a small {
   font-weight: bold;
   font-style: italic; }
 
-.wrapper {
-  width: 860px;
-  margin: 0 auto; }
-
 blockquote {
   border-left: 1px solid #e5e5e5;
   margin: 0;
@@ -97,14 +132,6 @@ th {
 
 img {
   max-width: 100%; }
-
-header {
-  width: 270px;
-  float: left;
-  position: fixed; }
-
-header .header-divider {
-  display: none; }
 
 header p {
   margin: 0 0 0px; }
@@ -160,16 +187,6 @@ header ul a strong {
   display: block;
   color: #222; }
 
-section {
-  width: 650px;
-  float: right;
-  padding-bottom: 50px; }
-
-section .schedule {
-  float: none;
-  position: static;
-  width: auto; }
-
 small {
   font-size: 11px; }
 
@@ -182,12 +199,6 @@ hr {
 img[alt=Barbara_Kleinen] {
   float: right; }
 
-footer {
-  width: 200px;
-  float: left;
-  position: fixed;
-  bottom: 50px; }
-
 .float-right {
   float: right; }
 
@@ -196,13 +207,24 @@ footer {
   font-size: small; }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width: auto;
+  main {
+    width: 100%;
     margin: 0; }
 
-  header, section, footer {
+  header, main, footer {
     float: none;
-    position: static;
+    position: static; }
+
+  header {
+    width: auto; }
+
+  footer {
+    width: 600px; }
+
+  section {
+    width: 653px; }
+
+  main {
     width: auto; }
 
   header .header-divider {

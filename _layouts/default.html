@@ -2,21 +2,21 @@
 <html>
     {% assign css-filename=generated.css %}
     {% include head.md%}
-    <div class="wrapper">
         <header>
             {% include headline.md %}
         </header>
-    </div>
-    <body>
+      <body>
+      <main>
+        <aside class = "left">
+        </aside>
         <section>
-        <div class="container">
-          <div class="site">
-
              {{ content }}
-          </div>
-        </div> <!-- /container -->
         </section>
-            {% include footer.md %}
+        <aside class = "right">
+        &nbsp;
+        </aside>
+        </main>
+        {% include footer.md %}
 
     </body>
 </html>
