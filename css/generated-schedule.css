@@ -10,12 +10,15 @@
 /* http://www.htw-berlin.de/fileadmin/HTW/Zentral/DE/HTW/ZR1_Presse/Corporate_Design/Farben_Hexadezimal.pdf */
 /* http://www.htw-berlin.de/hochschulstruktur/zentrale-referate/presse-und-oeffentlichkeitsarbeit/corporate-design/farbklima-schriften/ */
 /* more color constants */
+/* debug borders */
 /* section, header, footer, aside,*/
-header, footer, main {
-  border-style: dotted;
-  border-width: thin;
-  border-color: #98bf21; }
-
+/*
+ header, footer, main {
+    border-style: dotted;
+    border-width: thin;
+    border-color: #98bf21;
+} 
+*/
 main {
   float: right;
   width: 100%; }
