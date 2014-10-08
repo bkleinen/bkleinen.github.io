@@ -18,16 +18,16 @@ layout: default
 
 ## Office Hours in WS 2014/15
 
-will be announced soon, the first one will be:
+Wednesday, 12:45-13:45  WH-C 645
 
-Mi, 8.10. 12:30-13:30 WH-C 645
-
-(if you have questions regarding BAFöG, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all)
+(if you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all)
 
 
 ## Various
 
+{% comment %}
 I'm the Bafög-Beauftragte for IMI. I've started to <a href = "bafoeg/index.html">compile some information/things</a> I've learned.
+{% endcomment %}
 
 There is also some info here if you consider writing your [Thesis](thesis/index.html) or [Independent Coursework](thesis/independent_coursework.html) with me.
 
