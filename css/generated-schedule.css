@@ -13,7 +13,7 @@
 /* debug borders */
 /* section, header, footer, aside,*/
 /*
- header, footer, main {
+ header, footer, main, section {
     border-style: dotted;
     border-width: thin;
     border-color: #98bf21;
@@ -248,3 +248,8 @@ header ul {
   position: absolute;
   right: 50px;
   top: 52px; }
+
+section.schedule {
+  width: 100%;
+  display: static;
+  padding-bottom: 50px; }

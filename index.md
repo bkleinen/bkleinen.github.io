@@ -12,7 +12,7 @@ layout: default
 
 - [Info1](info1/index.html)
 - [Info3](info3/index.html)
-- Web Technology
+- [WT1 Web Technology](webapplications/index.html)
 - [Praxisprojekt](ss2014/projekt)
 
 

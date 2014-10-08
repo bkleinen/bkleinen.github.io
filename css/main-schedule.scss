@@ -6,5 +6,9 @@
 @import "layout-general";
 @include layout-general;
 
-
 @include layout-wide;
+
+section.schedule {
+  width: 100%;
+  display: static;
+  padding-bottom: 50px; }

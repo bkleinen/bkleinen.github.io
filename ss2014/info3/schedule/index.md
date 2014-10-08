@@ -1,7 +1,7 @@
 ---
 title: Tentative Schedule
 author: kleinen
-layout: page
+layout: schedule
 wide_layout: true
 ---
 |Week   |KW     |Tuesday   |Friday    |Lecture Topic                                                        |Lab    |Group                             |
