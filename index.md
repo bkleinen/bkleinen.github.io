@@ -18,7 +18,10 @@ layout: default
 
 ## Office Hours in WS 2014/15
 
-Wednesday, 12:45-13:45  WH-C 645
+**Week 42** needs to be postponed due to bachelor colloquia and the final date needs to wait for the first bachelor/master meeting which is currently scheduled over doodle - I will post a time here asap. 
+
+**starting 22.Oct 2014** Wednesday, 12:45-13:45  WH-C 645  
+
 
 (if you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all)
 
