@@ -26,6 +26,15 @@ Here are some suggestions:
 
 If you work on multiple platforms, you should choose one that is available on all of them.
 
+## Git & GitHub
+
+* [Git](http://git-scm.com/) is the state-of-the-art Source Code Management Tool. Install the command line client for your platform, and maybe also a GUI Client, [which can all be found here](http://git-scm.com/download/).
+* Sign up on [GitHub](https://github.com/) if you haven't already done so. See also
+[Setting up Git](https://help.github.com/articles/set-up-git) from GitHub for a comprehensive documentation.
+* For other projects, you might want to use the HTW [Projekteserver](https://studi.f4.htw-berlin.de/www/) which offers you private repositorys, or any other service offering
+central repositories. Github also offers free private repositories for students.
+* Github translates markdown files automatically to HTML - That's how the README.md files you see in most repositories work. Read through the [Markdown](https://help.github.com/articles/markdown-basics) and maybe also the [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) documentation.
+
 ## Command Line
 As a software developer, you need to know the basics of the command line - preferably in linux flavor!
 
