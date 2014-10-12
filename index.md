@@ -18,7 +18,7 @@ layout: default
 
 ## Office Hours in WS 2014/15
 
-**Week 42** needs to be postponed due to bachelor colloquia and the final date needs to wait for the first bachelor/master meeting which is currently scheduled over doodle - I will post a time here asap. 
+**Week 42** Thursday, 16.10.: 14:00-15:00
 
 **starting 22.Oct 2014** Wednesday, 12:45-13:45  WH-C 645  
 
