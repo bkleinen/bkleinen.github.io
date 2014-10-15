@@ -41,8 +41,8 @@ This schedule is tentative and subject to change!
 |      |26     |           |An Example: The Image Viewer                                                                               |                                              |
 |    14|27     |27-Jan-2015|Errors, Exceptions, Assertions                                                                             |[Exercise 12](../labs/exercise-12.html)       |
 |      |28     |           |File-based IO, Files                                                                                       |                                              |
-|    15|29     |04-Feb-2015|File, Switch, Exceptions Again                                                                             |Reflexion Ex. 12, Trial Exam                  |
-|      |30     |           |Exam (Date TBD), Exam Preparation, Klausureinsicht                                                         |                                              |
-|    16|31     |11-Feb-2014|Exam (Date TBD), Exam Preparation, Klausureinsicht                                                         |Exam (TBD)                                    |
-|      |32     |           |Exam (Date TBD), Exam Preparation, Klausureinsicht                                                         |                                              |
+|    15|29     |03-Feb-2015|File, Switch, Exceptions Again                                                                             |Reflexion Ex. 12, Trial Exam                  |
+|      |30     |           |Exam Preparation                                                                                           |                                              |
+|    16|31     |10-Feb-2015|Exam                                                                                                       |Exam                                          |
+|      |32     |           |Klausureinsicht                                                                                            |                                              |
 
