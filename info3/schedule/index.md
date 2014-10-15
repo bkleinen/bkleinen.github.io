@@ -18,8 +18,8 @@ wide_layout: true
 |-      |--     |----------|----------|**Part 2: Software Engineering, Processes and Software Design**|                                                                                      |         |
 |3      |43     |23/10/2014|          |Software Engineering and Software Development Processes        |                                                                                      |         |
 |       |       |          |24/10/2014|Requirements Engineering                                       |[1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup.html)              |2. Gruppe|
-|4      |44     |30/10/2014|          |System Modelling and Architectural Design                      |                                                                                      |         |
-|       |       |          |31/10/2014|Agile Manifesto, Scrum (Scrum Ceremonies and Sprints)          |[2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                |1. Gruppe|
+|4      |44     |30/10/2014|          |Agile Manifesto, Scrum (Scrum Ceremonies and Sprints)          |                                                                                      |         |
+|       |       |          |31/10/2014|System Modelling and Architectural Design                      |[2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                |1. Gruppe|
 |5      |45     |06/11/2014|          |Software Design Patterns                                       |                                                                                      |         |
 |       |       |          |07/11/2014|Application Architectures                                      |[2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                |2. Gruppe|
 |6      |46     |13/11/2014|          |Patterns of Enterprise Application Architecture(POEAA)         |                                                                                      |         |
