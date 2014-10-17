@@ -71,6 +71,22 @@ Installing Ruby and Ruby on Rails has proven to be not as straightforward as one
 
 A lot of issues come from the fact that you'll need a C compiler on your machine. 
 
+### Ruby in the Labs:
+
+#### MacOs: 
+
+Als  User Pfad der gems in ~/.profile setzen und ein neues Terminal öffnen:
+
+    export GEM_HOME=$HOME/data
+    export GEM_PATH=$HOME/data/path
+    export GEM_SPEC_CACHE=$HOME/data/spec
+
+Als User Rails installieren:
+
+    $ gem update
+    $ gem install rails
+
+
 ### Versions
 
 I usually try to work with the latest versions - the ruby and especially the rails world is evolving quickly. As of today (Oct 5th, 2014) this would be Ruby 2.1.3 and Rails 4.1. - so try to install these versions. 

@@ -5,7 +5,7 @@ layout: page
 ---
 {% include ws2014/info3.md %}
 
-All code examples can be found on the github organization [htw-imi-info3](https://github.com/htw-imi-info3) - please note that there's also stuff form former semesters, this is the list of repositories "releases" for this Term WS2014/15:
+All code examples can be found on the github organization [htw-imi-info3](https://github.com/htw-imi-info3) - please note that there's also stuff form former semesters, this is the list of repositories "released" for this term WS2014/15:
 
 ## Lectures
 * 01: Ruby Learning [https://github.com/htw-imi-info3/rubylearning](https://github.com/htw-imi-info3/rubylearning)

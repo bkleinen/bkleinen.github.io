@@ -31,7 +31,7 @@ Make sure that you have
 
 This is to be done in the lab, or, alternatively, with all people sitting next to each other. The objective is to practice exchanging  text files via git and github.
 
-Build Teams, create a central repository within each team and add the team members as collaborators on github (you may use another provider for git repositories, e.g. the FB4 Projekteserver - see [the git part in the installation instructions](lab-01-startup-installation.html). The team size is up to you - it has to be at least two, the more you are the more complicated it gests. Make sure each one of you has successfully committed at least one change to the repository. You can set up a repository for the Ruby Finger Exercise right away.
+Build Teams, create a central repository within each team and add the team members as collaborators on github (you may use another provider for git repositories, e.g. the FB4 Projekteserver - see [the git part in the installation instructions](lab-01-startup-installation.html). The team size is up to you - it has to be at least two, the more you are the more complicated it gets. Make sure each one of you has successfully committed at least one change to the repository. You can set up a repository for the Ruby Finger Exercise right away.
 
 # Part 3: Ruby Finger Exercises
 
