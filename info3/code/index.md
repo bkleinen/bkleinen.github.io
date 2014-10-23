@@ -9,7 +9,7 @@ All code examples can be found on the github organization [htw-imi-info3](https:
 
 ## Lectures
 * 01: Ruby Learning [https://github.com/htw-imi-info3/rubylearning](https://github.com/htw-imi-info3/rubylearning)
-
+* 02: Git Demo [https://github.com/htw-imi-info3/su-03-gitdemo](https://github.com/htw-imi-info3/su-03-gitdemo)
 ## Labs
 * [Lab 01 Ruby Exercise](https://github.com/htw-imi-info3/lab-01-ruby-exercise)
 * [Lab 04 Testing](https://github.com/htw-imi-info3/lab-04-testing)
