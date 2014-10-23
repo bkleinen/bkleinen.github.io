@@ -24,13 +24,15 @@ You need to get used to keeping a logbook in the lab. It can be analog (i.e. on 
 
 ### 2. Logging in and getting ready for the exercises
 
-Now that you have your FB 4 username, you also have a home directory. This is where all your files can be placed. You can access it both from Mac OS, Windows and from Ubuntu. Since BlueJ is installed under MacOA, we will be using it here, although there are also versions for Ubuntu and Windows.
+Now that you have your FB 4 username, you also have a home directory. This is where all your files can be placed. You can access it both from Mac OS, Windows and from Ubuntu. Since BlueJ is installed under MacOS, we will be using it here, although there are also versions for Ubuntu and Windows.
 
 After you have logged in, look around - where do you find a browser? How many browsers are there? Is there any way to print from the lab? How do you make a screen shot? How can you make a pdf file? Where is the Java JDK installed? Note down the path. Open up a command line and find out the active java version by typing
 
     > java -version
 
-### 3. Download and install Greenfoot:
+### 3. Download and install Greenfoot: 
+
+***Update 21.20.2014: Greenfoot is already installed in 567, 579 and on MacOS in 537***
 
  *  first chose a location for Greenfoot and the Scenarios: On the lab pcs, use your home directory, on your own laptop it's up to you. Think of a useful folder structure - maybe
  *  …/info1/greenfoot/greenfoot - for the greenfoot installation …/info1/greenfoot/scenarios - for the greenfoot scenarios.

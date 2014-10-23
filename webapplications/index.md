@@ -24,10 +24,15 @@ This leaves us a lot of freedom. Rather than setting the topics beforehand, we w
 
 The class is a practical class; we only meet once a week for 2hrs: 
 
-Thursdays, 9:45-11:15 in WH 537
+Group 1: Thursdays, 9:45-11:15 in WH C 537
+Group 2: Thursdays, 14:00-15:30 WH C 352
+
 
 but it has 5 ECTS Points, which means that you will have to devote 125-150 h altogether for this class - with 17 weeks in the semester this is something about 7.5 - 9 hrs or roughly one day each week!
 
+## Schedule 
+
+The schedule is in the [Wiki](https://github.com/htw-imi-webapplications/bentobox/wiki/).
 
 ## Grades
 
