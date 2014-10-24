@@ -75,11 +75,12 @@ A lot of issues come from the fact that you'll need a C compiler on your machine
 
 #### MacOs: 
 
-Als  User Pfad der gems in ~/.profile setzen und ein neues Terminal öffnen:
+Als  User Pfad der gems in ~/.bash_profile setzen und ein neues Terminal öffnen:
 
     export GEM_HOME=$HOME/data
     export GEM_PATH=$HOME/data/path
     export GEM_SPEC_CACHE=$HOME/data/spec
+    export PATH=$PATH:$HOME/data/bin
 
 Als User Rails installieren:
 
