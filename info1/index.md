@@ -6,6 +6,16 @@ layout: page
 
 {% include ws2014/info1.md %}
 
+## Moodle
+
+There are different Moodle Courses for this course this semester: 
+
+* One for the Lecture - [Moodle SU](https://moodle.htw-berlin.de/course/view.php?id=3994) - where you'll find the slides, additional material and the place to upload the lecture notes.
+* One for your Lab where you'll upload your lab reports:
+    * [Moodle Lab Group 1](https://moodle.htw-berlin.de/course/view.php?id=4070) 
+    * [Moodle Lab Group 2](https://moodle.htw-berlin.de/course/view.php?id=4069)
+
+This was necessary because it was the only way to get the groups from LSF into Moodle and automatically create subgroups. Sorry for the confusion, but then you'll see only the lab uploads that are relevant for you.
 
 ## Welcome!
 
