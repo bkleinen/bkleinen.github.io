@@ -41,13 +41,18 @@ Identify the use cases in this description and draw a use case diagram.
 
 Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different scenario for each person such that you get a couple covered (that is, everyone has to write a different scenario!)
 
+See the section "About Use Cases" below for a detailed instruction.
+
 ### Class Diagram
 
-Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes.
+Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](http://www.agilemodeling.com/artifacts/classDiagram.htm).
 
-As last fortnight, include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. I don't really recommend using an UML tool, because it will probably slow you down considerably if you are using it for the first time. Using CRC Cards on the other hand may be an advantage.
 
-Include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. If you want to, you can also use an UML Tool for that.
+### What to turn in 
+
+Include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. I don't really recommend using an UML tool, because it will probably slow you down considerably if you are using it for the first time. Using CRC Cards on the other hand may be an advantage.
+
+---- 
 
 ## About Use Cases
 Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
@@ -90,6 +95,11 @@ A number of scenarios are usually collected and abstracted into a Use Case and e
 
 You should realize that every author and every company have their own ways of describing Use Cases, but usually each of these aspects are addressed. We will be using the structure given here.
 
+------
+
+And remember, there are two parts to this exercise - Use Cases and a Class Diagram!
+
+------
 Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
 
