@@ -18,9 +18,9 @@ This schedule is tentative and subject to change!
 |     2|3      |20-Oct-2014|Kara Programming: Instructions, Methods, Variables, Loops, Conditionals                                    |[Lab Startup](../labs/exercise-00.html)       |
 |      |4      |           |Kara Programming: Instructions, Methods, Variables, Loops, Conditionals                                    |                                              |
 |     3|5      |28-Oct-2014|Kara Roundup, Kara and its World as Objects                                                                |[Exercise 01](../labs/exercise-01.html)       |
-|      |6      |           |Objects, Classes, Methods, BlueJ, Parameters,  Compiler                                                    |                                              |
-|     4|7      |04-Nov-2014|Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Accessor methods, Mutator Methods|[Exercise 02](../labs/exercise-02.html)       |
-|      |8      |           |Printing with BlueJ, Conditional, Local Variables                                                          |                                              |
+|      |6      |           |Objects, Classes, Methods, BlueJ, Parameters,  Compiler  (Chapter 1)                                       |                                              |
+|     4|7      |04-Nov-2014|Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setters (Chapter 2)  |[Exercise 02](../labs/exercise-02.html)       |
+|      |8      |           |Printing to the command line, Conditional, Local Variables (Chapter 2)                                     |                                              |
 |     5|9      |11-Nov-2014|Expressions, Abstraction, Modularization, Object Interaction                                               |[Exercise 03](../labs/exercise-03.html)       |
 |      |10     |           |Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger |                                              |
 |     6|11     |18-Nov-2014|Collections, Generics, for-each, While Loops                                                               |[Exercise 04](../labs/exercise-04.html)       |
@@ -33,7 +33,7 @@ This schedule is tentative and subject to change!
 |      |18     |           |Designing Classes, Coupling, Cohesion, Refactoring                                                         |                                              |
 |    10|19     |16-Dec-2014|Refactoring                                                                                                |[Exercise 08](../labs/exercise-08.html)       |
 |      |20     |           |Using the main, Inheritance, Subtyping, Polymorphism, Protected                                            |                                              |
-|    11|21     |06-Jan-2015 Welcome to the new year: Repetition                                                                        |[Exercise 09](../labs/exercise-09.html)       |
+|    11|21     |06-Jan-2015|Welcome to the new year: Repetition                                                                        |[Exercise 09](../labs/exercise-09.html)       |
 |      |22     |           |Casting, Polymorphism, Static vs. dynamic typing, Overriding, Object equality                              |                                              |
 |    12|23     |13-Jan-2015|Abstract Classes, Abstract Methods                                                                         |[Exercise 10](../labs/exercise-10.html)       |
 |      |24     |           |A word about the Exam                                                                                      |                                              |
