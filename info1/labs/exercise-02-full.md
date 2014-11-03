@@ -49,27 +49,14 @@ Lab assignments are due the night before your next lab at 23.00, I want you to g
 
 ## Assignment
 
-Download the [exercise source code from GitHub][1] (you can download the whole [exercise02 repository as a zip here][2]).
-
-
-{% comment %}
- and 
+Download the [exercise source code from GitHub][1] (you can download the whole [exercise02 repository as a zip here][2]) and open up the **Figures project**.
 
 1. What do circles, triangles, and squares have in common? Do they have any differences?
-{% endcomment %}
 
-2. Open up the **Figures project**. Create a circle, a triangle, and two squares. Oops, where is the second square? How can you make both visible on the screen?
+2. Create a circle, a triangle, and two squares. Oops, where is the second square? How can you make both visible on the screen?
 
 3. Make all four figures have the same color. What did you have to do? Did you make any mistakes doing this?
-
-4. Inspect your objects. What do they have in common, where do circles, triangles and squares differ? How do the two squares differ? 
-
-{% comment %}
 4. Now make an interesting picture using these three shapes! Use at least 5 objects. Record what you had to do to get this scene set up. Take a screenshot for your report.
-
-
-{% endcomment %}
-
 5. What is wrong with the following constructor?
 
         public TicketMachine (int ticketCost) {
@@ -79,17 +66,16 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
         }
 
 6. Open the **TicketMachine project** in BlueJ. Replace the constructor with the constructor from 5 and try it out. Were you right? Record your results in your report.
-7. Kara: Go back to the [first Scenario of last Exercise](https://github.com/htw-imi-info1/exercise01-kara/tree/master/lab01_kara01).  Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? ("super" calls the super class constructor).
-
-{% comment %}
+7. Kara: Go back to the Greenfoot Scenario from last exercise. Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? ("super" calls the super class constructor).
 8. (For the bored) Okay, so you've been programming since before you could talk and this is child's play. Explore a little deeper - can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
-{% endcomment %}
-
-9. (For the  bored) Can you make the better-ticket-machine give proper change using Euro coins?
+9. (For the really bored) Can you make the better-ticket-machine give proper change using Euro coins?
 
 ## Writeup - what to put in the Lab Report
 
 You will be doing your writeup at home or in the lab if time permits. Use the notes that you took in your logbook. Submit your writeup as your post-lab to the Moodle area.
+
+
+
 
 * * *
 
