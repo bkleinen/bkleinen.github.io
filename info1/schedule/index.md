@@ -28,7 +28,7 @@ This schedule is tentative and subject to change!
 |     7|13     |25-Nov-2014|For Loops, Library Classes, Reading Class Documentation                                                    |[Exercise 05](../labs/exercise-05.html)       |
 |      |14     |           |Random, Packages, Maps                                                                                     |                                              |
 |     8|15     |02-Dec-2014|Public vs. Private, Interfaces, Class Variables                                                            |[Exercise 06](../labs/exercise-06.html)       |
-|      |16     |           ||Writing Class Documentation, Unit Testing, Test Automation                                                |                                              |
+|      |16     |           |Writing Class Documentation, Unit Testing, Test Automation                                                 |                                              |
 |     9|17     |09-Dec-2014|Modularization, Interfaces, Debugging, Walkthroughs                                                        |[Exercise 07](../labs/exercise-07.html)       |
 |      |18     |           |Designing Classes, Coupling, Cohesion, Refactoring                                                         |                                              |
 |    10|19     |16-Dec-2014|Refactoring                                                                                                |[Exercise 08](../labs/exercise-08.html)       |
