@@ -22,12 +22,11 @@ wide_layout: true
 |       |       |          |31/10/2014|The Rational Unified Process, Requirements Engineering         |[2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                |1. Gruppe|
 |5      |45     |06/11/2014|          |System Modelling and Architectural Design                      |                                                                                      |         |
 |       |       |          |07/11/2014|Software Design Patterns                                       |[2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                |2. Gruppe|
-|6      |46     |13/11/2014|          |Application Architectures                                      |                                                                                      |         |
-|       |       |          |14/11/2014|Patterns of Enterprise Application Architecture(POEAA)         |[3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html)|1. Gruppe|
-|7      |47     |20/11/2014|          |Distributed Systems and SOA                                    |                                                                                      |         |
-|-      |--     |----------|----------|**Part 3: Software Development Practices and OOD in Practice** |                                                                                      |         |
-|       |       |          |21/11/2014|Software Testing                                               |[3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html)|2. Gruppe|
-|8      |48     |27/11/2014|          |Software Configuration Management, Maven                       |                                                                                      |         |
+|6      |46     |13/11/2014|          |e-learning: [Refactoring](../material/refactoring.html)        |                                                                                      |         |
+|       |       |          |14/11/2014|Application Architectures                                      |[3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html)|1. Gruppe|
+|7      |47     |20/11/2014|          |Patterns of Enterprise Application Architecture(POEAA)         |                                                                                      |         |
+|       |       |          |21/11/2014|Distributed Systems and SOA                                    |[3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html)|2. Gruppe|
+|8      |48     |27/11/2014|          |Software Testing                                               |                                                                                      |         |
 |       |       |          |28/11/2014|Working with Legacy Code                                       |[4 - Testing](../labs/lab-04-testing.html)                                            |1. Gruppe|
 |9      |49     |04/12/2014|          |Clean Code                                                     |                                                                                      |         |
 |       |       |          |05/12/2014|SOLID Principles                                               |[4 - Testing](../labs/lab-04-testing.html)                                            |2. Gruppe|
@@ -48,8 +47,13 @@ wide_layout: true
 |17     |07     |12/02/2015|          |Klausureinsicht                                                |                                                                                      |         |
 |       |       |          |13/02/2015|Showtime ?                                                     |                                                                                      |         |
 
+{% comment %}
+TODO:
+|-      |--     |----------|----------|**Part 3: Software Development Practices and OOD in Practice** |                                                                                      |         |
+evtl Application Architectures insgesamt weiter nach hinten stellen
+und das vor Legacy unterbringen: Software Configuration Management, Maven
 
-
+{% endcomment %}
 
 
 

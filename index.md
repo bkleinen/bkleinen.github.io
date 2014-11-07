@@ -20,6 +20,8 @@ layout: default
 
 Wednesday, 12:45-13:45  WH-C 645  
 
+<emph>19.11.: 15:45 - 16:30</emph>
+
 
 (if you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all)
 
