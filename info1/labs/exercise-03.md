@@ -5,7 +5,7 @@ layout: lab
 ---
 
 ![Book](../images/books-8314929977.jpg)
-
+<small class = "float-right">Books. [Abhi Sharma](http://www.flickr.com/photos/abee5/8314929977/)</small>
 
 This week's lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.
 
@@ -92,7 +92,5 @@ You will be doing your writeup at home. If you do not have a computer at home, y
 Submit your writeup as your post-lab to the Moodle area.
 
 * * *
-
-Foto by [Abhi Sharma](http://www.flickr.com/photos/abee5/8314929977/)
 
 Exercise Adapted from http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab1.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009

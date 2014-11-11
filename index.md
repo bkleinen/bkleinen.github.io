@@ -20,11 +20,11 @@ layout: default
 
 Wednesday, 12:45-13:45  WH-C 645  
 
-<emph>19.11.: 15:45 - 16:30</emph>
+<bold><font color = "red">19.11.: 15:45 - 16:30</font></bold>
 
+If you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all.
 
-(if you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all)
-
+Usually there's time for longer consultations for theses during the office hours. Please [put your name in the wiki if you want more of my time](https://github.com/bkleinen/bkleinen.github.io/wiki). If you just have a quick question, just stop by.
 
 ## Various
 
