@@ -79,7 +79,6 @@ Lab assignments are due the night before your next lab at 23.00. They may, of co
 5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string in the constructor. Define a mutator(setter) for it with the following signature:
 
         public void setRefNumber (String ref)
-
  The body of this method should assign the value of the parameter to the refNumber field. Add the corresponding accessor getRefNumber.
 6. Modify your printDetails method to include printing the reference number. However, the method should print the reference number only if it has been set. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your setRefNumber mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
