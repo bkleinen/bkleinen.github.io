@@ -35,7 +35,7 @@ wide_layout: true
 |11     |51     |18/12/2015|          |Refactoring to Patterns                                        |                                                                                      |         |
 |       |       |          |19/12/2014|Rails Dash and Preparation for the Rails Project               |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |2. Gruppe|
 |12     |02     |08/01/2015|          |Introduction to Rails, POEAA Revisited, Model View Controller  |                                                                                      |         |
-|       |       |          |09/20/2015|ORM and Associations in Rails                                  |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |1. Gruppe|
+|       |       |          |09/01/2015|ORM and Associations in Rails                                  |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |1. Gruppe|
 |13     |03     |15/01/2015|          |Internationalization and Localization                          |                                                                                      |         |
 |       |       |          |16/01/2015|Dependency Management and Working with APIs                    |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |2. Gruppe|
 |14     |04     |22/01/2015|          |Build Management, Continuous Deployment                        |                                                                                      |         |
