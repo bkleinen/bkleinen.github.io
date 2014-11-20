@@ -14,6 +14,7 @@ layout: page
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter01/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2014.zip)
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter02/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2014.zip)
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter03/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2014.zip)
+* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter04/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2014.zip) - 18.11.2014: in music organizer v3
 
 ## How to work with code examples
 

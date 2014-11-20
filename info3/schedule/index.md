@@ -43,7 +43,7 @@ wide_layout: true
 |15     |05     |29/01/2015|          |TBD                                                            |                                                                                      |         |
 |       |       |          |30/01/2015|Klausurvorbereitung                                            |[7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)        |2. Gruppe|
 |16     |06     |05/02/2015|          |No Lecture (Prüfungszeit)                                      |                                                                                      |         |
-|       |       |          |06/02/2015|Klausur(vorraussichtlich)                                      |                                                                                      |         |
+|       |       |          |06/02/2015|Klausur 14:00 - 17:15 (vor. 2 Gruppen; genaue Zeit wird kurzfristig festgelegt)                                      |                                                                                      |         |
 |17     |07     |12/02/2015|          |Klausureinsicht                                                |                                                                                      |         |
 |       |       |          |13/02/2015|Showtime ?                                                     |                                                                                      |         |
 
