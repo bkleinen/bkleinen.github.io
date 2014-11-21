@@ -36,10 +36,11 @@ If you feel like it, you can continue with a sequence diagram for additional use
 ![Machine](images/machine.jpg "machine")
 <small class = "float-right">Machine. Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)</small>
 
+For an introduction to state machine diagrams, see [http://www.agilemodeling.com/artifacts/stateMachineDiagram.htm](http://www.agilemodeling.com/artifacts/stateMachineDiagram.htm).
 
 Your job in this exercise is to model all of the following systems (2 points per system for 1-3, 4 points for system 4):
 
-1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling a solution to this problem.
+1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.
 2. Model the states an IMI student passes through from the first until the sixth semester. (Special prize for the most humorous model that is not offensive.)
 3. Model an algorithm that determines if a given string is a proper floating-point number, i.e.
 
