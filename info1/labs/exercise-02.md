@@ -78,7 +78,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
           total = 0;
         }
 
-6. Open the **TicketMachine project** in BlueJ. Replace the constructor with the constructor from 5 and try it out. Were you right? Record your results in your report.
+6. Open the **TicketMachine project** in BlueJ. Replace the constructor with the constructor above and try it out. Were you right? Record your results in your report.
 7. Kara: Go back to the [first Scenario of last Exercise](https://github.com/htw-imi-info1/exercise01-kara/tree/master/lab01_kara01).  Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? ("super" calls the super class constructor).
 
 {% comment %}

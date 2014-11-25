@@ -26,7 +26,7 @@ This schedule is tentative and subject to change!
 |6     |11     |18-Nov-2014|Object Types, Multiple Constructors, Debugger                                                            |Ch. 4|[Exercise 04](../labs/exercise-04.html)|
 |      |12     |           |Collections, Generics, for-each, While Loops                                                             |     |                                       |
 |7     |13     |25-Nov-2014|More Loops, Iterators, Arrays, For Loops,                                                                |     |[Exercise 05](../labs/exercise-05.html)|
-|      |14     |           |Library Classes, Reading Class Documentation, Random, Packages, Maps                                     |Ch. 5|                                       |
+|      |14     |           |Library Classes, Reading Class Documentation, Random, Packages, Maps                                     |     |                                       |
 |8     |15     |02-Dec-2014|Public vs. Private, Interfaces, Class Variables                                                          |     |[Exercise 06](../labs/exercise-06.html)|
 |      |16     |           |Writing Class Documentation, Unit Testing, Test Automation                                               |     |                                       |
 |9     |17     |09-Dec-2014|Modularization, Interfaces, Debugging, Walkthroughs                                                      |     |[Exercise 07](../labs/exercise-07.html)|
