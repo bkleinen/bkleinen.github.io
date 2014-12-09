@@ -15,8 +15,8 @@ layout: page
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter02/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2014.zip)
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter03/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2014.zip)
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter04/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2014.zip) - 18.11.2014: in music organizer v3
-
-## How to work with code examples
+* [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter05/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2014.zip) 
+* [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in WS2014](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2014) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2014.zip) 
 
 * You can download the whole archives by using the ZIP Button present on the repository sites. 
 * You can also look at single files online on github.
