@@ -29,18 +29,18 @@ wide_layout: true
 |8      |48     |27/11/2014|          |Software Testing                                               |                                                                                      |         |
 |       |       |          |28/11/2014|Working with Legacy Code                                       |[4 - Testing](../labs/lab-04-testing.html)                                            |1. Gruppe|
 |9      |49     |04/12/2014|          |Clean Code                                                     |                                                                                      |         |
-|       |       |          |05/12/2014|SOLID Principles                                               |[4 - Testing](../labs/lab-04-testing.html)                                            |2. Gruppe|
-|10     |50     |11/12/2014|          |OO In Depth 1: Ruby Dynamic Typing, Duck Typing                |                                                                                      |         |
-|       |       |          |12/12/2014|OO In Depth 2: Composition and Inheritance                     |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |1. Gruppe|
-|11     |51     |18/12/2015|          |Refactoring to Patterns                                        |                                                                                      |         |
-|       |       |          |19/12/2014|Rails Dash and Preparation for the Rails Project               |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |2. Gruppe|
-|12     |02     |08/01/2015|          |Introduction to Rails, POEAA Revisited, Model View Controller  |                                                                                      |         |
-|       |       |          |09/01/2015|ORM and Associations in Rails                                  |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |1. Gruppe|
-|13     |03     |15/01/2015|          |Internationalization and Localization                          |                                                                                      |         |
-|       |       |          |16/01/2015|Dependency Management and Working with APIs                    |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |2. Gruppe|
-|14     |04     |22/01/2015|          |Build Management, Continuous Deployment                        |                                                                                      |         |
-|       |       |          |23/01/2015|TBD                                                            |[7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)        |1. Gruppe|
-|15     |05     |29/01/2015|          |TBD                                                            |                                                                                      |         |
+|       |       |          |05/12/2014|Clean Code                                                    |[4 - Testing](../labs/lab-04-testing.html)                                            |2. Gruppe|
+|10     |50     |11/12/2014|          |SOLID Principles, Refactoring to Patterns                      |                                                                                      |         |
+|       |       |          |12/12/2014| OO In Depth 1: Composition and Inheritance                    |[5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)               |1. Gruppe|
+|11     |51     |18/12/2015|          |fällt aus                                                      |                                                  |         |
+|       |       |          |19/12/2014|fällt aus                                                      | fällt aus - bitte am 12.12. oder 9.1. in die Übung kommen [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)              |2. Gruppe|
+|12     |02     |08/01/2015|          |OO In Depth 2: Ruby Dynamic Typing, Duck Typing|                                                                                      |         |
+|       |       |          |09/01/2015|Rails Dash and Preparation for the Rails Project               |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |1. Gruppe|
+|13     |03     |15/01/2015|          |Introduction to Rails, POEAA Revisited, Model View Controller  |                                                                                      |         |
+|       |       |          |16/01/2015|ORM and Associations in Rails                                  |[6 - Rails First Steps](../labs/lab-06-rails-1.html)                                  |2. Gruppe|
+|14     |04     |22/01/2015|          |Internationalization and Localization                          |                                                                                      |         |
+|       |       |          |23/01/2015|Dependency Management and Working with APIs                    |[7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)        |1. Gruppe|
+|15     |05     |29/01/2015|          |Build Management, Continuous Deployment                        |                                                                                      |         |
 |       |       |          |30/01/2015|Klausurvorbereitung                                            |[7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)        |2. Gruppe|
 |16     |06     |05/02/2015|          |No Lecture (Prüfungszeit)                                      |                                                                                      |         |
 |       |       |          |06/02/2015|Klausur 14:00 - 17:15 (vor. 2 Gruppen; genaue Zeit wird kurzfristig festgelegt)                                      |                                                                                      |         |
