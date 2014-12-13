@@ -1,4 +1,4 @@
-b---
+---
 title: Schedule
 author: kleinen
 layout: schedule
