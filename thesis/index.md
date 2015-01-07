@@ -10,7 +10,7 @@ My main areas of interest are
 * web engineering
 * web development and software engineering
 * devops (e.g. provisioning of web applications)
-* learning
+* learning support
 
 Thus, if you have a thesis topic idea in these areas you might want to talk to me.
 
@@ -23,20 +23,38 @@ see me personally, e.g. during my office hours.
 * [Info on FB4-Page](http://www.f4.htw-berlin.de/fuer-studierende/abschlussarbeit-kolloquium/)
 * [Info on HTW Page](http://www.htw-berlin.de/studieren/pruefungen-praktikum-absolvieren/abschlussarbeiten/)
 
-# Some Possible Thesis Topic Ideas
+# Some Thesis Topic Ideas
 
-# Old Topics
+## Programming Exercises Feedback
 
-## Coding Feedback
+Create a tool that provides automated feedback for programming exercises for Info1-Info3, where features/key aspects might include one or more of
 
-I'm working on automated Feedback for Coding Exercises connected to and independent to Moodle. There are two theses in this area running this semester; it would be great if someone would build on this work. This offers a variety of technical or conceptual topics.
+* feedback for practicing
+* Integration with BlueJ
+* Automated Grading
+* Integration into Moodle
+* Ruby or Java 
+* Integration of Code Quality Metrics
+* Highly Interactive Tools
+* Actual (Programming) Exercises
 
 ## Online Platform for Learning Networks
 
 It would be great to have an online platform for building learning networks, e.g. finding like-minded people interested in learning the same (tech) topic, for taking an online class together or doing some other form of self-study together. This would be more on the conceptual side.
 
+## Scrum Tools
 
+The best setting for an agile team is to be collocated. However, using Scrum within university projects means that this is not always the case. Although there are a couple of commercial options available, there are no or little 
+lightweight open source solutions for supporting the scrum ceremonies out there.
 
+* Web-based Scrum-Board 
+* Backlog and Project Planning Tool
+* Tools for Agile Retrospectives (probably already taken)
 
+Again, different focus points (Infrastructure, interoperabilty with mobile devices, User Interface, Data Exchange) are possible for these topics.
+
+## Industry Itches
+
+I'm always happy to supervise topics that scratch an actual itch found in the wild in cooperation with a company.
 
 
