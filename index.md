@@ -17,14 +17,19 @@ layout: default
 
 
 ## Office Hours in WS 2014/15
+<font color = "red" style="font-weight:bold">Please check in here regularly/in the morning in case they are changes!</font>
 
-Wednesday, 12:45-13:45  WH-C 645  
+<font color = "red" style="font-weight:bold">No Office Hours on Wednesday 14.1.2015</font>
 
-<bold><font color = "red">17.12. fällt wegen Krankheit aus.</font></bold>
+<span style="font-weight:bold">Wednesday, 12:45-13:45  WH-C 645</span>  
+
+
+If you just have a quick question or need something signed for Baf&ouml;g just stop by during the office hours.
+
+If you want to discuss your thesis topic or work, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours. 
 
 If you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all.
 
-Usually there's time for longer consultations for theses during the office hours. Please [put your name in the wiki if you want more of my time](https://github.com/bkleinen/bkleinen.github.io/wiki). If you just have a quick question, just stop by.
 
 ## Various
 
