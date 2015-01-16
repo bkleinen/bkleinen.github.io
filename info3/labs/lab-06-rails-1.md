@@ -16,7 +16,7 @@ Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
 
 ## Part 0: Show the Customer with it's Name
 
-On the order#show page, show the associated customer with its name rather than the ID -
+On the orders#show page, show the associated customer with its name rather than the ID -
 Test driven! You can use the :order1 factory for
 this, see Part 1 for more info on FactoryGirl test
 data.
