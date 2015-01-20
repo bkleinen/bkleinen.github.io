@@ -32,18 +32,22 @@ This schedule is tentative and subject to change!
 |9     |17     |09-Dec-2014|Modularization, Interfaces, Debugging, Walkthroughs                                                      |     |[Exercise 07](../labs/exercise-07.html)|
 |      |18     |           |Designing Classes, Coupling, Cohesion, Refactoring                                                       |     |                                       |
 |10    |19     |16-Dec-2014|Refactoring                                                                                              |     |[Exercise 08](../labs/exercise-08.html)|
-|      |20     |           |Using the main, Inheritance, Subtyping, Polymorphism, Protected                                          |     |                                       |
+|      |20     |           |(ausgefallen)                                                                                            |     |                                       |
 |11    |21     |06-Jan-2015|Welcome to the new year: Repetition                                                                      |     |[Exercise 09](../labs/exercise-09.html)|
-|      |22     |           |Casting, Polymorphism, Static vs. dynamic typing, Overriding, Object equality                            |     |                                       |
-|12    |23     |13-Jan-2015|Abstract Classes, Abstract Methods                                                                       |     |[Exercise 10](../labs/exercise-10.html)|
-|      |24     |           |A word about the Exam                                                                                    |     |                                       |
-|13    |25     |20-Jan-2015|Multiple Inheritance vs. Java Interfaces,  GUIs, AWT and Swing, Event handler                            |     |[Exercise 11](../labs/exercise-11.html)|
-|      |26     |           |An Example: The Image Viewer                                                                             |     |                                       |
-|14    |27     |27-Jan-2015|Errors, Exceptions, Assertions                                                                           |     |[Exercise 12](../labs/exercise-12.html)|
-|      |28     |           |File-based IO, Files                                                                                     |     |                                       |
-|15    |29     |03-Feb-2015|File, Switch, Exceptions Again                                                                           |     |Reflexion Ex. 12, Trial Exam           |
+|      |22     |           |Refactoring                                                                                              |     |                                       |
+|12    |23     |13-Jan-2015|Refactoring                                                                                              |     |[Exercise 10](../labs/exercise-10.html)|
+|      |24     |           |Using the main, Inheritance, Subtyping, Polymorphism, Protected                                          |     |                                       |
+|13    |25     |20-Jan-2015|Casting, Polymorphism, Static vs. dynamic typing, Overriding, Object equality                            |     |[Exercise 11](../labs/exercise-11.html)|
+|      |26     |           |Abstract Classes, Abstract Methods, A word about the Exam                                                |     |                                       |
+|14    |27     |27-Jan-2015|Multiple Inheritance vs. Java Interfaces,  GUIs, AWT and Swing, Event handler                            |     |[Exercise 12](../labs/exercise-12.html)|
+|      |28     |           |An Example: The Image Viewer                                                                             |     |                                       |
+|15    |29     |03-Feb-2015|Errors, Exceptions, Assertions                                                                           |     |Reflexion Ex. 12, Trial Exam           |
 |      |30     |           |Exam Preparation                                                                                         |     |                                       |
 |16    |31     |10-Feb-2015|Exam                                                                                                     |     |Exam                                   |
 |      |32     |           |Klausureinsicht                                                                                          |     |                                       |
 
 
+{% comment %}                                               
+File-based IO, Files                                                            
+File, Switch, Exceptions Again   
+{% endcomment %} 
