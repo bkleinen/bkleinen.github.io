@@ -19,8 +19,6 @@ layout: default
 ## Office Hours in WS 2014/15
 <font color = "red" style="font-weight:bold">Please check in here regularly/in the morning in case they are changes!</font>
 
-<font color = "red" style="font-weight:bold">No Office Hours on Wednesday 14.1.2015</font>
-
 <span style="font-weight:bold">Wednesday, 12:45-13:45  WH-C 645</span>  
 
 
