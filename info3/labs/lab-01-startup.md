@@ -21,7 +21,7 @@ Make sure that you have
 - git, 
 - a decent text editor
 
- installed on the computer you intent to use (or know how to run all these on the lab machines).
+ installed on the computer you intend to use (or know how to run all these on the lab machines).
 
 **[Here are detailled instructions](lab-01-startup-installation.html)**.
 
