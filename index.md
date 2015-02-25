@@ -19,7 +19,10 @@ layout: default
 ## Office Hours in WS 2014/15
 <font color = "red" style="font-weight:bold">Please check in here regularly/in the morning in case they are changes!</font>
 
-<span style="font-weight:bold">Wednesday, 12:45-13:45  WH-C 645</span>  
+<span style="font-weight:bold">Office Hours during the spring break</span>  
+
+|Mo, 16.02.  11:20-11:40 | | Office Hours |
+|Fr, 6.3.    17:00-18:00 | | Office Hours |
 
 
 If you just have a quick question or need something signed for Baf&ouml;g just stop by during the office hours.
