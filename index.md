@@ -8,28 +8,24 @@ layout: default
 
 [Detailed Contact Information](about/me.html)
 
-## Lectures WS 2014/15
 
-- [Info1](info1/index.html)
-- [Info3](info3/index.html)
-- [WT1 Web Technology](webapplications/index.html)
-- [Praxisprojekt](ss2014/projekt)
-
-
-## Office Hours in WS 2014/15
-<font color = "red" style="font-weight:bold">Please check in here regularly/in the morning in case they are changes!</font>
+## Office Hours
 
 <span style="font-weight:bold">Office Hours during the spring break</span>  
 
-|Mo, 16.02.  11:20-11:40 | | Office Hours |
-|Fr, 6.3.    17:00-18:00 | | Office Hours |
 
+| Weekday |   Date   | Time|
+|:------|:------|:------      |
+|Mon      | 16.02.    | 11:20-11:40 |
+|Fri      | 6.3.      | 17:00-18:00 |
+|Thu      | 26.3.     | 16:30-17:00 |
+|Wed      | 1.4.      | 14:00-15:00 |
 
-If you just have a quick question or need something signed for Baf&ouml;g just stop by during the office hours.
+If you just have a quick question or need something signed for Baf&ouml;g just stop by during the office hours. 
+If you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html)first and discover that you don't need to come to see me at all.
 
 If you want to discuss your thesis topic or work, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours. 
 
-If you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html) first and discover that you don't need to come to see me at all.
 
 
 ## Various
