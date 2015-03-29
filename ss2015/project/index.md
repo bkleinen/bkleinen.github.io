@@ -82,7 +82,7 @@ Similar or possibly useful projects
 
 ### Some Related Projects/Sites
 
-* [Komoot](https://www.komoot.de/), [Vodafone Blog Article about Komoot(german)](http://blog.vodafone.de/lifestyle/komoot-outoor-touren-fuer-abenteurer/) supports planning tours and has user generated "Highlights". Users can follow each other, and share their "adventures" with other users. Sharing some ideas with the "Treasure Map" project idea, it focusses on outdoor hiking and cycling and does not allow to import location data from other sources.
+* [Komoot](https://www.komoot.de/), [Vodafone Blog Article about Komoot(german)](http://blog.vodafone.de/lifestyle/komoot-outoor-touren-fuer-abenteurer/) supports planning tours and has user generated "Highlights". Users can follow each other, and share their "adventures" with other users. Sharing some ideas with the "Treasure Map" project idea, it focuses on outdoor hiking and cycling and does not allow to import location data from other sources.
 
 * [GPSies](http://www.gpsies.com) - a site and mobile apps to share hiking, running and cycling routes
 
