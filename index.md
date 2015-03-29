@@ -22,7 +22,7 @@ layout: default
 |Mon      | 16.02.    | 11:20-11:40 |
 |Fri      | 6.3.      | 17:00-18:00 |
 |Thu      | 26.3.     | 16:30-17:00 |
-|Wed      | 1.4.      | 14:00-14:30 |
+|Tue      | 31.3.     | 13:00-14:00 |
 
 If you just have a quick question or need something signed for Baf&ouml;g just stop by during the office hours. 
 If you have questions regarding BAF&ouml;G, you might want to read [this](bafoeg/index.html)first and discover that you don't need to come to see me at all.
