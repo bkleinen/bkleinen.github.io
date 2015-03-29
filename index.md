@@ -8,6 +8,9 @@ layout: default
 
 [Detailed Contact Information](about/me.html)
 
+## Lectures in SoSe 2015
+
+{% include ss2015/lectures.md %}
 
 ## Office Hours
 

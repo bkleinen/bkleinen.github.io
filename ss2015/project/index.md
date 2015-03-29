@@ -4,8 +4,9 @@ author: kleinen
 layout: page
 ---
 
+
 ![Austin Map with Locations](./austin-map-5539886849_8ea012c5e7_z.jpg)
-<small class = "float-right">Foto by [RachelC](https://www.flickr.com/photos/rachelc/5539886849)</small>
+<br/><small class = "float-left">Foto by [RachelC](https://www.flickr.com/photos/rachelc/5539886849)</small>
 
 <span style="font-weight: bold">Projekt Goal:</span> Develop a Web & Mobile App to plan little explorations either 
 by foot, bike or car including pre-selected locations or locations suggested by peers.
@@ -76,7 +77,7 @@ Similar or possibly useful projects
 
 * [WIWOSM on Wikimedia Tool Labs](http://wiki.openstreetmap.org/wiki/WIWOSM) "WIWOSM (Wikipedia where in OSM) is a project to show for a Wikipedia article geometric objects from OpenStreetMap. These objects have a matching wikipedia=* tag. The usage of WIWOSM will be primarily at maps inside Wikipedia (OSM-Gadget and WikiMiniAtlas). (Still moving from Toolserver.)"
 
-* [Geocaching](http://en.wikipedia.org/wiki/Geocaching) - one of the first [location based games](http://de.wikipedia.org/wiki/Location-based_Game); Geocaches could be a place to visit by themselves but also point themselves to interesting places to visit, e.g. [Lost Places](http://de.wikipedia.org/wiki/Lost_Place).
+* [Geocaching](http://en.wikipedia.org/wiki/Geocaching) - one of the first [location based games](http://de.wikipedia.org/wiki/Location-based_Game); Geocaches could be a place to visit by themselves but also point to interesting places to visit, e.g. [Lost Places](http://de.wikipedia.org/wiki/Lost_Place).
 
 * [Wikitravel](http://wikitravel.org/en/Main_Page) - a crowdsourced worldwide travel guide that seems to lack maps.
 
