@@ -6,12 +6,12 @@ wide_layout: true
 ---
 {% include ss2015/info2.md %}
 
-## Tentative Schedule
+## Tentative Schedule - Lab Topics are subject to change!
 
 |Week   |Lecture         | Lecture Topic                                                        |Lab|Lab Topic                                    |
 |:------|:------         | :------                                                              |:------|:------                                  |
 |1/15   |Fri, 10 Apr 2015| Welcome Back, Overview, Designing Applications                       |       |                                         |
-|2/16   |Tue, 14 Apr 2015| Toolbox: Java, Eclipse, GIT                                          |1      |Designing an Application, CRC Cards &    |
+|2/16   |Tue, 14 Apr 2015| Toolbox: Java, Eclipse, GIT                                          |1      |Designing an Application, CRC Cards  (Pre-Lab!)   |
 |       |Fri, 17 Apr 2015| Error Handling and Exceptions reviewed, Networking in Java. File I/O.|       |                                         |
 |3/17   |Tue, 21 Apr 2015| Properties of Algorithms                                             |2      |Implementing CRC cards (Pre-Lab!)        |
 |       |Fri, 24 Apr 2015| Maximum Contiguous Subsequence Sum                                   |       |                                         |
