@@ -6,6 +6,13 @@ layout: default
 
 # Archiv
 
+# Lectures WS 2014/15
+
+- [Info1]({{site.baseurl}}ws2014/info1/index.html)
+- [Info3]({{site.baseurl}}ws2014/info3/index.html)
+- [WT1 Web Technology]({{site.baseurl}}ws2014/webapplications/index.html)
+- [Praxisprojekt](ss2014/projekt)
+
 
 <h1>Lectures SS 2014</h1>
 <ul>
