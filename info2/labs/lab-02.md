@@ -21,7 +21,7 @@ These are the required exercises for this week. We are going to see if we can ge
 3. Did you end up using all of the classes you specified? Did you miss any classes? Discuss in your report! How did you test your system?
 
 ## For the bored:
-4. Sometimes people want special kinds of seats. The last two rows have loveseats, that is, two seats are connected with no armrest between them. Now offer you customers the possibility of reserving a loveseat, or a seat near an aisle or one in the middle. How will you define these conditions?
+4. Sometimes people want special kinds of seats. The last two rows have loveseats, that is, two seats are connected with no armrest between them. Now offer your customers the possibility of reserving a loveseat, or a seat near an aisle or one in the middle. How will you define these conditions?
 5. Assume your theater is very large and is divided into sections, each accessable by an aisle. How do you have to adjust your seating plan and your conditions - is this hard or easy to do?
 
 ## Lab Report / What to turn in
