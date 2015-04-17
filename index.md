@@ -17,7 +17,7 @@ layout: default
 (held in my office WH-C 645)
 
 <span style="font-weight:bold;color:red">Please check here regularly as I might have to reschedule my office hours quite often this term and read the notes below.</span>  
-### KW 16: Fri, 17.4. 10-11
+### KW 16: Fri, 17.4. 10-11 <span style="font-weight:bold;color:red">fällt wegen Krankheit aus</span>
 and after that every
 ### Wednesday, 12:30-13:30
 
