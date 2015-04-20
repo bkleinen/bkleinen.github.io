@@ -41,7 +41,7 @@ From [http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](http://dis
 
 ## Lab Report / What to turn in
 
-Your report is due by 23:00 pm the night before your next lab.
+Your report is due the day before your next lab (for exact times, please refer to moodle).
 
 As in Informatics 1, I am more interested in process than in product,
 although we are now getting more interested in products as well.

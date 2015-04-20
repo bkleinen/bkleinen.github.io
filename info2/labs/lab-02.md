@@ -26,7 +26,7 @@ These are the required exercises for this week. We are going to see if we can ge
 
 ## Lab Report / What to turn in
 
-Your report is due by 10.00 am on Monday after the lab.
+Your report is due the day before your next lab (for exact times, please refer to moodle).
 
 As in Informatics 1, I am more interested in process than in product,
 although we are now getting more interested in products as well.

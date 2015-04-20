@@ -25,7 +25,8 @@ Our goal is to write a program to determine how to get from A to B, either fast 
 
 ## Lab Report / What to turn in
 
-Your report is due by 23:00 am the night before your next lab.
+Your report is due the day before your next lab (for exact times, please refer to moodle).
+
 Submit a Report in PDF Format and the Source Code as Zipped file.
 
 As in Informatics 1, I am more interested in process than in product,
