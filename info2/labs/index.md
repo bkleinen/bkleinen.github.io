@@ -8,9 +8,9 @@ layout: page
 ## Exercises
 * [Exercise 01 - Dealing with Objects and Toolbox](lab-01.html)
 * [Exercise 02 - Implementing CRC Cards](lab-02.html)
+* [Exercise 03 - Chatterbox](lab-03.html)
 
 {% comment %}
-* [Exercise 03 - Chatterbox](lab-03.html)
 * [Exercise 04 - Histogram](lab-04.html)
 * [Exercise 05 - Execution times](lab-05.html)
 * [Exercise 06 - Reverse Polish Notation](lab-06.html)
