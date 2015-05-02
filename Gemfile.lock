@@ -67,7 +67,7 @@ GEM
     reverse_markdown (0.5.1)
       nokogiri
     robotex (1.0.0)
-    safe_yaml (1.0.3)
+    safe_yaml (1.0.4)
     sass (3.3.3)
     timers (1.1.0)
     toml (0.1.1)
