@@ -18,6 +18,7 @@ layout: default
 
 <span style="font-weight:bold;color:red">Please check here regularly as I might have to reschedule my office hours quite often this term and read the notes below.</span>  
 ### KW 19: Mon, 4.5.15 12:00-12:30 - no Office Hours on Wed, 6.5.!
+### KW 20: Wed 13.5. Office Hours: 14-15
 and after that every
 ### Wednesday, 12:30-13:30
 
