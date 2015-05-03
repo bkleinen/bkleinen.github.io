@@ -6,11 +6,11 @@ layout: lab
 ## Pre-Lab
 Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.
 
-1. In some programming languages, such as Ada, you can define an array of characters with any discrete type as the index:
+1.  In some programming languages, such as Ada, you can 
+    define an array of characters with any discrete type as the index:
 
         someArray : ARRAY ['A' .. 'Z'] of INTEGER;
-
-  You can then access the array, for example, using a value of character type: someArray['T']. Java does not have this feature. How would you go about making an array in Java for representing counters for the letters 'A' to 'Z'?
+    You can then access the array, for example, using a value of character type: someArray['T']. Java does not have this feature. How would you go about making an array in Java for representing counters for the letters 'A' to 'Z'?
 
 2. Normalization of Strings means transforming all Strings to either uppercase or lowercase before comparing them. Write a method that takes a character as a parameter and returns a normalized version of the character without using the methods available in the Java String class.
 3. What is a "carriage return"? Where does the name come from?

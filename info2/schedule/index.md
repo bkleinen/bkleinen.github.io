@@ -17,11 +17,11 @@ wide_layout: true
 |       |Fri, 24 Apr 2015| Double Lecture: Concurrency; Binary Search, Complexity               |       |                                         |
 |4/18   |Tue, 28 Apr 2015| Properties of Algorithms, Maximum Contiguous Subsequence Sum         |3      |Networking Exercise (Pre-Lab!            |
 |       |Fri, 01 May 2015| --- NO LECTURE - 1. Mai - Bank Holiday ---                           |       |                                         |
-|5/19   |Tue, 05 May 2015| Sorting                                                              |4      |Histogram (Pre-Lab!)                     |
-|       |Fri, 08 May 2015| Recursion                                                            |       |                                         |
-|6/20   |Tue, 12 May 2015| Sorting                                                              |5      |Execution Times (Pre-Lab!)               |
+|5/19   |Tue, 05 May 2015| Arrays, Lists and Stacks                                             |4      |Histogram (Pre-Lab!)                     |
+|       |Fri, 08 May 2015| Sorting                                                              |       |                                         |
+|6/20   |Tue, 12 May 2015| Recursion                                                            |5      |Execution Times (Pre-Lab!)               |
 |       |Fri, 15 May 2015| Sorting e-learning                                                   |       |                                         |
-|7/21   |Tue, 19 May 2015| Arrays, Lists and Stacks                                             |6      |Abstract Data Types (Pre-Lab!)           |
+|7/21   |Tue, 19 May 2015| Sorting                                                              |6      |Abstract Data Types (Pre-Lab!)           |
 |       |Fri, 22 May 2015| Abstraction: Abstract Data Types and Design Patterns                 |       |                                         |
 |8/22   |Tue, 26 May 2015| Collections: Sets, Bags, Maps.                                       |7      |Fun with Calculators - I (Pre-Lab!)      |
 |       |Fri, 29 May 2015| Enumerations - Collections - Iterators                               |       |                                         |
@@ -40,8 +40,8 @@ wide_layout: true
 |15/29  |Tue, 14 Jul 2015| Ruby                                                                 |14     |Eight Queens (Pre-Lab!)                  |
 |       |Fri, 17 Jul 2015| Repetition                                                           |       |                                         |
 |16/30  |Tue, 21 Jul 2015| Exam ?                                                               |       |                                         |
-|       |Fri, 24 Jul 2015| ---                                                                     |       |                                         |
-|17/31  |Tue, 28 Jul 2015| Exam ?                                                                    |       |                                         |
+|       |Fri, 24 Jul 2015| ---                                                                  |       |                                         |
+|17/31  |Tue, 28 Jul 2015| Exam ?                                                               |       |                                         |
 |       |Fri, 31 Jul 2015| IMI Showtime                                                         |       |                                         |
 
 
