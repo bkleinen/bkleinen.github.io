@@ -8,7 +8,7 @@ layout: lab
 
 Please have these completed before coming to the lab. BTW, I like questions like this on the exam...
 
-1. Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup> , respectively. Answer the following questions, if possible:
+1. Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
 
   1. Which program has the better guarantee on the running time for large values of N (N > 10 000)?
   2. Which program has the better guarantee on the running time for small values of N (N < 100)?

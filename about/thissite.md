@@ -12,7 +12,7 @@ First, I decided I wanted to use [markdown](http://daringfireball.net/projects/m
 
 [Github Pages](http://pages.github.com/) offer a great solution to what I wanted - just pushing to the repository triggers a site build.
 
-* [Source for this Site](https://github.com/htw-bk/htw-bk.github.io) - if you find a typo and want to let me know the cool way, [send me a pull request](https://help.github.com/articles/using-pull-requests). But be beware, you might find content there that is not yet meant to be published - especially the exercises from former semesters. Don't start working on them, I might decide to change them and they don't become official before I link them from the classes' page!
+* [Source for this Site](https://github.com/bkleinen/bkleinen.github.io) - if you find a typo and want to let me know the cool way, [send me a pull request](https://help.github.com/articles/using-pull-requests). But be beware, you might find content there that is not yet meant to be published - especially the exercises from former semesters. Don't start working on them, I might decide to change them and they don't become official before I link them from the classes' page!
 
 
 This site is also deployed to [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/).
