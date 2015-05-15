@@ -26,9 +26,9 @@ layout: lab
   4. Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.
 
 ##Assignment
-Read through **all** of the exercises before starting! Oh dear,this is a lot of work. I guess we can't play one-person-types-while-the-other-looks-on this week.... I would **strongly** suggest that one person get exercise 1 to work while the other one starts exercise 2. Then you exchange code,and voilà, it works! Now you can get back together to do the third exercise. The bored are, of course, done in half an hour, so they go on to do other interesting things.
+Read through **all** of the exercises before starting! Oh dear, this is a lot of work. I guess we can't play one-person-types-while-the-other-looks-on this week.... I would **strongly** suggest that one person get exercise 1 to work while the other one starts exercise 2. Then you exchange code,and voilà, it works! Now you can get back together to do the third exercise. The bored are, of course, done in half an hour, so they go on to do other interesting things.
 
-  1. Implement a class <tt>Stack.java</tt> as discussed in the lecture, usinga **linked list** of objects that you implement yourself!Don't use the Stack or LinkedList that is available by default in Java. Try and type it in yourself, not just copy the handout. How will you test this? Your class should include both an exception on stack underflow as well as stack overflow. Will you really need both exceptions? Why or why not? Override the <tt>toString()</tt> method to provide a useful way of printing a stack. Now make it generic, so it can take values of any type. Coordinate your interface with your partner.
+  1. Implement a class <tt>Stack.java</tt> as discussed in the lecture, using a **linked list** of objects that you implement yourself! Don't use the Stack or LinkedList that is available in the Java Collections Library. Try and type it in yourself, not just copy the handout. How will you test this? Your class should include both an exception on stack underflow as well as stack overflow. Will you really need both exceptions? Why or why not? Override the <tt>toString()</tt> method to provide a useful way of printing a stack. Now make it generic, so it can take values of any type. Coordinate your interface with your partner.
 
 
   2. Implement a class <tt>Postfix.java</tt> that has a method
@@ -53,6 +53,8 @@ Do not go on before you are sure that this is working right!<br>
 
 
   6. (For the really bored) How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?
+
+You can use this eclipse project (https://github.com/htw-imi-info2/Lab06_ReversePolishNotation)[https://github.com/htw-imi-info2/Lab06_ReversePolishNotation] as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.
 
 Work in groups of two, each of you submitting the same report, detailing who did what part of the work.
 

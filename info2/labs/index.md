@@ -11,10 +11,10 @@ layout: page
 * [Exercise 03 - Chatterbox](lab-03.html)
 * [Exercise 04 - Histogram](lab-04.html)
 * [Exercise 05 - Execution times](lab-05.html)
+* [Exercise 06 - Reverse Polish Notation](lab-06.html)
 
 {% comment %}
 
-* [Exercise 06 - Reverse Polish Notation](lab-06.html)
 * [Exercise 07 - Recursive Triangles](lab-07.html)
 * [Exercise 08 - Multi-Threaded Chat Application](lab-08.html)
 * [Exercise 09 - Eight Queens](lab-09.html)
