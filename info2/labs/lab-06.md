@@ -54,7 +54,7 @@ Do not go on before you are sure that this is working right!<br>
 
   6. (For the really bored) How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?
 
-You can use this eclipse project (https://github.com/htw-imi-info2/Lab06_ReversePolishNotation)[https://github.com/htw-imi-info2/Lab06_ReversePolishNotation] as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.
+You can use this eclipse project [Lab06_ReversePolishNotation](https://github.com/htw-imi-info2/Lab06_ReversePolishNotation) as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.
 
 Work in groups of two, each of you submitting the same report, detailing who did what part of the work.
 
