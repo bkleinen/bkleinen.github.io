@@ -17,15 +17,14 @@ layout: default
 (held in my office WH-C 645)
 
 <span style="font-weight:bold;color:red">Please check here regularly as I might have to reschedule my office hours quite often this term and read the notes below.</span>  
-### KW 19: Mon, 4.5.15 12:00-12:30 - no Office Hours on Wed, 6.5.!
-### KW 20: Wed 13.5. Office Hours: 14-15
+### KW 14:  no Office Hours on Wed, 10.6.!
 and after that every
-### Wednesday, 12:30-13:30
+### Wednesday, 12:30-13:30 - see below:
 
+If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours. 
 
 I've put together some Information regarding [Baf&ouml;g](bafoeg/index.html) - please read them, maybe you don't need to come to see me at all.
 
-If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours. 
 
 ## Various
 
