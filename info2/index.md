@@ -5,6 +5,18 @@ layout: page
 ---
 
 {% include ss2015/info2.md %}
+# News: Development of an Info1/2 Q&A Application
+
+Felix Brix has taken on the project of developing an gamified Q&A application for Info1 and Info2.
+
+Currently, he is collecting Questions to have material for his concept.
+You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/](http://ba-thesis.herokuapp.com/),
+and I'll answer them around Saturday at noon latest for the current week.
+You find a list of questions here [http://ba-thesis.herokuapp.com/questions](http://ba-thesis.herokuapp.com/questions) and
+their answers there: [QUAME](quame.html)
+
+
+
 # Welcome!
 
 This course is an introduction to *algorithms and data structures*. It will be taught in German with all written material in English and with the Java programming language. It will be taught using Java, but it is not about the language. Mastery of basic Java syntax as taught in Informatik I is assumed. We learned primitive data types, statements and rules, interfaces and classes in Informatik I. We will now be looking at more complex data structures and algorithms which work on these data structures.
@@ -52,7 +64,3 @@ They can be in txt, pdf or markdown format.
 ## Exam
 
 There will be a 2-hour online examination on or about July 21st or 28th.  The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part.
-
-
-
-
