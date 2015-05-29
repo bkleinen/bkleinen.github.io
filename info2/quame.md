@@ -64,6 +64,67 @@ Eine gute Lösung dafür ist, direkt in den Kontext einer Instanz zu wechseln, z
 Siehe auch [Understanding Class Members](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html) im Java-Tutorial
 oder entsprechende Abschnitte über den Unterschied zwischen Klassen und Objekten und Klassenvariablen in anderen Quellen.
 
+
+## Question #6
+
+This question was asked on May 28, 2015 07:44.
+
+Wie schafft man es, dass ein 'Canvas' darauf reagiert, dass man das umgebene Fenster durch Ziehen vergrößert bzw. verkleinert. Es würde mir auch schon reichen zu wissen, welche Methode welcher Klasse man dafür nutzen kann sich die Maße des größer gezogenen Fensters ausgeben zu lassen. Zudem würde mich interessieren, ob man das Canvas darauf coden muss, dass es auf eine Größenänderung des Fensters reagiert, oder ob es das bei einer bestimmten Methode von selbst macht.
+
+### Answer:
+
+Sie finden ein Beispiel hier: [https://github.com/htw-imi-info2/SierpinskyTriangleStart](https://github.com/htw-imi-info2/SierpinskyTriangleStart) - das funktioniert über das Observer/Listener-Pattern:
+
+Zunächst wird Hauptpanel die paint() Methode überschrieben und durch den Aufruf von paintSierpinskiTriangle() ergänzt:
+
+    panel = new JPanel() {
+      @Override
+      public void paint(Graphics g) {
+        super.paint(g);
+        paintSierpinskiTriangle(g, getSize());
+      }
+    };
+
+Dann wird über addComponentListener() ein Listener hinzugefügt, der "benachrichtigt" wird, wenn das Panel resized wurde. Dieser ruft repaint() auf ()
+
+    panel.addComponentListener(new ComponentAdapter() {
+      @Override
+      public void componentResized(ComponentEvent e) {
+        panel.repaint();
+      }
+    });
+
+Siehe auch [Panel#repaint](https://docs.oracle.com/javase/8/docs/api/java/awt/Component.html#repaint--)
+
+# Question #7
+
+This question was asked on May 28, 2015 08:15.
+
+Vorab etwas off-topic: Ich habe versucht die seite über den rechner abzurufen (firefox). Jedoch kommt dort die meldung: "Application Offline for Maintenance - This application is undergoing maintenance right now. Please check back later." Woran auch immer das liegt.
+
+Welche Seite? Funktioniert es jetzt wieder?
+
+### Und zurück zu info2:
+
+Mein sierpinksy dreieck wird mir bis stufe x angezeigt. Doch habe ich das problem, dass es "schräg" verläuft. Ausgangspunkt für die obere spitze ist 0/0 auf dem bildschirm. Wie schaffe ich es, dass es "normal" aussieht?!
+
+### Answer
+
+Sie müssen sich einen Punkt als Ausgangspunkt nehmen und die jeweils zwei anderen Punkte daraus berechnen. Das geht mit Hilfe des [Satz des Phytagoras](http://de.wikipedia.org/wiki/Satz_des_Pythagoras), wenn Sie sich die Eigenschaften eines [gleichseitigen Dreiecks](http://de.wikipedia.org/wiki/Gleichseitiges_Dreieck) in Erinnerung rufen und die Abstände der Punkte auf der x- und y-Achse berechnen.
+Zeichnen Sie sich das Dreieck auf und notieren sie dort, wo welcher Punkt ist und nennen Sie ihre Variablen genau so wie auf Ihrer Zeichnung.
+
+
+# Question #8
+This question was asked on May 28, 2015 08:18.
+
+Mein dreieck wird mit lines gezeichnet. Ich kann auch jede neue line mit einer anderen farbe versehen (randomized r/g/b). Gemäß aufgabenstellung sollen die dreiecke aber jeweils einfarbig und von stufe zu stufe andersfarbig sein. Sollen die dreiecke gefüllt sein und wie kann ich die einfarbigkeit bewerkstelligen?!
+
+### Answer
+
+Bei der Farbgebung können Sie gerne experimentieren, Sie können auch selbst entscheiden, ob Sie die Dreiecke füllen wollen oder nicht.
+Ihre Frage ist schwierig zu beantworten ohne den Sourcecode zu sehen, weil es ja eigentlich erstmal einfacher sein müsste, drei Linien in derselben Farbe zu zeichnen
+als in jeweils einer anderen, insofern kann ich hier nur sagen: indem Sie die selbe Farbe verwenden bzw. zwischen dem Zeichnen nicht ändern.
+
 # About
 
 Felix Brix has taken on the project of developing an gamified Q&A application for Info1 and Info2.
