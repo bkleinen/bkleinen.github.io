@@ -14,6 +14,27 @@ Ask new questions here: [http://ba-thesis.herokuapp.com/questions](http://ba-the
 
 # Answers
 
+
+##Question #11
+This question was asked on May 29, 2015 22:29.
+
+Ich habe ein Problem mit der Anpassung des Dreiecks an die Fenstergröße, dies soll entweder abhängig von der Höhe oder der Breite von Dreieck und Fenster geschehen. Das Problem ist nun, dass sich das Dreieck entweder nicht wirklich proportional der Fenstergröße anpasst, oder sich die Seitenverhältnisse ändern, sodass die Grundseite kürzer erscheint als die zum oberen Punkt führenden Seiten. Wie könnte man dafür sorgen, dass die Seiten wirklich immer gleichlang bleiben ?
+
+### Answer
+
+Indem sie zunächst ausrechnen, ob die Höhe oder die Breite die Größe Ihres Dreiecks limitiert: die Höhe ist (Wurzel 3) halbe der Grundseitenlänge; (Siehe [Wikipedia zu gleichseitigem Dreieck](http://de.wikipedia.org/wiki/Gleichseitiges_Dreieck)) - d.h. wenn Ihr Fenster höher ist als das, beschränkt die Breite die Größe, ist es niedriger, müssen Sie sich nach der maximalen Höhe richten. Das Dreieck bleibt immer gleichseitig, indem sie einen Punkt (z.B. links unten) festlegen und die zwei anderen Punkte daran orientieren, nicht an der Fenstergröße.
+
+##Question #10
+
+This question was asked on May 29, 2015 21:00.
+
+Wenn ich Ihre Klasse als Grundlage nehme und bei paintSierpinskiTriangle eine Linie zeichne (g.drawLine), passiert nichts, also wird keine Linie gezeichnet und wenn ich dann das Fenster durch Ziehen vergrößere, ist alles was dazugekommen ist an Fläche schwarz. Woran kann das liegen ?
+
+
+### Answer
+
+Ist ohne Ihren Source Code zu sehen für mich nicht nachzuvollziehen - ich habe im [Branch line](https://github.com/htw-imi-info2/SierpinskyTriangleStart/blob/line/src/triangle/SierpinskiTriangle.java) eine Linie und ein Dreieck hinzugefügt und beide resizen mit. (das Dreieck das hier gezeichnet wird ist <font face = "bold">nicht</font> gleichseitig!)
+
 ## Question 3 .:  how can I draw a Rectangle on the screen?
 
 This question was asked on May 26, 2015 10:57.
