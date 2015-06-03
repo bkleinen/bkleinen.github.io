@@ -11,6 +11,7 @@ My main areas of interest are
 * web development and software engineering
 * devops (e.g. provisioning of web applications)
 * learning support
+* automatic testing
 
 Thus, if you have a thesis topic idea in these areas you might want to talk to me.
 
@@ -25,6 +26,8 @@ see me personally, e.g. during my office hours.
 
 # Some Thesis Topic Ideas
 
+<font color="red">update 3/6/2015: These are old topics that are currently being worked on. Will post new things shortly!</font>
+
 ## Programming Exercises Feedback
 
 Create a tool that provides automated feedback for programming exercises for Info1-Info3, where features/key aspects might include one or more of
@@ -33,7 +36,7 @@ Create a tool that provides automated feedback for programming exercises for Inf
 * Integration with BlueJ
 * Automated Grading
 * Integration into Moodle
-* Ruby or Java 
+* Ruby or Java
 * Integration of Code Quality Metrics
 * Highly Interactive Tools
 * Actual (Programming) Exercises
@@ -44,10 +47,10 @@ It would be great to have an online platform for building learning networks, e.g
 
 ## Scrum Tools
 
-The best setting for an agile team is to be collocated. However, using Scrum within university projects means that this is not always the case. Although there are a couple of commercial options available, there are no or little 
+The best setting for an agile team is to be collocated. However, using Scrum within university projects means that this is not always the case. Although there are a couple of commercial options available, there are no or little
 lightweight open source solutions for supporting the scrum ceremonies out there.
 
-* Web-based Scrum-Board 
+* Web-based Scrum-Board
 * Backlog and Project Planning Tool
 * Tools for Agile Retrospectives (probably already taken)
 
@@ -56,5 +59,3 @@ Again, different focus points (Infrastructure, interoperabilty with mobile devic
 ## Industry Itches
 
 I'm always happy to supervise topics that scratch an actual itch found in the wild in cooperation with a company.
-
-
