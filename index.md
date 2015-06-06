@@ -18,10 +18,11 @@ layout: default
 
 <span style="font-weight:bold;color:red">Please check here regularly as I might have to reschedule my office hours quite often this term and read the notes below.</span>  
 ### KW 14:  no Office Hours on Wed, 10.6.!
+### KW 15: Informatiktag, meet me in the Strandbar between 14:30-15:30
 and after that every
 ### Wednesday, 12:30-13:30 - see below:
 
-If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours. 
+If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours.
 
 I've put together some Information regarding [Baf&ouml;g](bafoeg/index.html) - please read them, maybe you don't need to come to see me at all.
 
@@ -42,6 +43,3 @@ There is also some info here if you consider writing your [Thesis](thesis/index.
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-
-

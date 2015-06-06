@@ -1,55 +1,29 @@
 ---
-title: 'Info2: Exercise 10: Probabilistic Algorithms'
+title: 'Info2: Exercise 11: Getting from A to B'
 author: kleinen
 layout: lab
 ---
 ## Pre-Lab
-1. How do you compute the area of a circle and a rectangle?
-2. Draw an circle that matches exactly into a square. How do the areas of the
-circle and the square relate to each other?
-3. How can you represent points in a plane?
-4. Prepare a sketch with formulas about the ratio of the areas and how to determine
-if a given point in the square is as well within the circle.
 
+1. Define an abstract data type for a weighted graph. What methods does your ADT need? What are the signatures for the operators?
+2. Find algorithms for determining the minimum path and the cheapest path between two nodes in a directed graph. I strongly suggest visiting a library (that is one of these places that keeps ancient books around). There are Algorithm and Data Structure books available in many languages. There is also an example in the Wikipedia, but it is not really easy to understand.
+3. Your algorithm will probably need an adjacency matrix oder an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?
+4. Briefly review generating random numbers.
 
 ## Assignment
 
-### Computation of Pi
-Use an probabilistic algorithm to approximate the Number Pi:
+Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.
 
-1. create a method computePi that takes an integer parameter for the number of
-random points to consider.
-2. create a method that creates a random point within the square bounds.
-3. for each point, determine wether it is also within the circle - create a third
-method for that.
-4. the ratio of points within the circle to the whole number of points within the
-square approximates the ratio of the areas. Use it to approximate Pi.
-5. make a statistic about how many accurate digits of Pi you get for how many
-random points.
+1. Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix. How are you going to store the weights?
+2. While one partner is doing this, the other one should write a class that generates a random weighted graph. You will need a constructor that takes the number of vertices for your graph and the number of edges. For example, you might want to have RandomGraph (20, 45) generate a graph with 20 vertices and 40 edges which randomly connect those vertices. You should give your vertices names, either really boring ones like "A", "B", "C" or make up random names for example by choosing random words in Wikipedia articles. Generate the edges by choosing 2 vertices at random, and then assigning them a random weight. Use the WeightedGraph your partner is constructing.
+3. Now write a method that will take a graph, pick two vertices at random, and find the ***shortest*** path between the vertices. Make a method to print out the path in a readable format. What class will these methods belong to?
+4. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the ***cheapest*** path between the two.
 
-### Dining Philosophers
-1. Using threads, create a simple Simulation for the Dining Philosophers Problem.
-2. For each Philosopher, create a Thread within this Philosopher dines. The implementation
-should just create some outputs like:
-
-        Philosopher 1 takes his right fork.
-        Philosopher 1 takes his left fork.
-        Philosopher 1 eats.
-        Philosopher 1 puts down his right fork.
-        Philosopher 1 puts down his left fork.
-
-  or
-
-        Philosopher 1 takes his right fork.
-        Philosopher 1 waits for left fork.
-
-3. Provide several implementations with a sensible way to switch between them;
-at least one blocking one and one using a probabilistic solution to avoid the
-deadlock.
+5.(For the Bored) Are there multiple minimal paths? Print them all (this is *very* tricky!).
+6. (For the Bored) Use your data structure to print out all the vertices n steps from a given vertex.
 
 
 ## Lab Report / What to turn in
-
 
 Your report is due the day before your next lab (for exact times, please refer to moodle).
 
