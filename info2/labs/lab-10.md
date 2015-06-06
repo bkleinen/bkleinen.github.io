@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 11: Getting from A to B'
+title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
 ---
@@ -19,7 +19,7 @@ Our goal is to write a program to determine how to get from A to B, either fast 
 3. Now write a method that will take a graph, pick two vertices at random, and find the ***shortest*** path between the vertices. Make a method to print out the path in a readable format. What class will these methods belong to?
 4. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the ***cheapest*** path between the two.
 
-5.(For the Bored) Are there multiple minimal paths? Print them all (this is *very* tricky!).
+5. (For the Bored) Are there multiple minimal paths? Print them all (this is *very* tricky!).
 6. (For the Bored) Use your data structure to print out all the vertices n steps from a given vertex.
 
 
