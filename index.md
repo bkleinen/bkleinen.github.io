@@ -17,12 +17,10 @@ layout: default
 (held in my office WH-C 645)
 
 <span style="font-weight:bold;color:red">Please check here regularly as I might have to reschedule my office hours quite often this term and read the notes below.</span>  
-### KW 14:  no Office Hours on Wed, 10.6.!
-### KW 15: Informatiktag, no office hours!
-instead: Fri, 12.6. 12:00-12:30
 
-and after that more or less every
+more or less every
 ### Wednesday, 12:30-13:30
+(check in here regularly, as I might have to postpone.)
 
 If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours.
 

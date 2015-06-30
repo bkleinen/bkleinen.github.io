@@ -16,8 +16,8 @@ layout: page
 * [Exercise 08 - Eight Queens](lab-08.html)
 * [Exercise 09 - Probabilistic Algorithms](lab-09.html) (Pre-Lab!)
 * [Exercise 10 - Getting from A to B](lab-10.html) (Pre-Lab!)
+* [Exercise 11 - Finite Automata and Sorting](lab-11.html) (Pre-Lab!)
 {% comment %}
-* [Exercise 11 - Final Automata and Sorting](lab-11.html) (Pre-Lab!)
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12.html) (Pre-Lab!)
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13.html) (Pre-Lab!)
 * [Exercise 14 - Ladders](lab-14.html) (please read before lab, and maybe download the data)
