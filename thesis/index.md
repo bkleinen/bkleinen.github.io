@@ -18,13 +18,21 @@ Thus, if you have a thesis topic idea in these areas you might want to talk to m
 This usually works best if you send an email with a brief description of the topic (a couple of sentences) and come to
 see me personally, e.g. during my office hours.
 
+# Topics for WS 2015
+
+I'm already pretty booked for the coming winter term. If you have an idea in the above areas, come talk to me.
+
+## Industry Itches
+
+I'm always happy to supervise topics that scratch an actual itch found in the wild in cooperation with a company.
+
 
 # Further Information and Links
 * [Antworten auf Fragen, die mir häufig gestellt wurden (Deutsch)](faq.html)
 * [Info on FB4-Page](http://www.f4.htw-berlin.de/fuer-studierende/abschlussarbeit-kolloquium/)
 * [Info on HTW Page](http://www.htw-berlin.de/studieren/pruefungen-praktikum-absolvieren/abschlussarbeiten/)
 
-# Some Thesis Topic Ideas
+# Theses currently in Progress
 
 <font color="red">update 3/6/2015: These are old topics that are currently being worked on. Will post new things shortly!</font>
 
@@ -55,7 +63,3 @@ lightweight open source solutions for supporting the scrum ceremonies out there.
 * Tools for Agile Retrospectives (probably already taken)
 
 Again, different focus points (Infrastructure, interoperabilty with mobile devices, User Interface, Data Exchange) are possible for these topics.
-
-## Industry Itches
-
-I'm always happy to supervise topics that scratch an actual itch found in the wild in cooperation with a company.
