@@ -56,7 +56,7 @@ Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/L
 Generate an array containing 10 random integers between 1 and 100 and perform manual walkthroughs for 3 out of the 5 given sorting algorithms per person.
 Try to cover as many sorting algorithms as possible within your teams.
 
-Use the exact algorithms from this repository: [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting)
+Use the exact algorithms git sfrom this repository: [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting)
 Each of them has a location marked with //step. Note down the state of the array at this location for each time the algorithm passes this line.
 
 
