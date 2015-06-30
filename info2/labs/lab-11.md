@@ -66,3 +66,5 @@ Each of them has a location marked with //step. Note down the state of the array
 Your report is due the day before your next lab (for exact times, please refer to moodle).
 
 Submit a Report in PDF Format and the Source Code (of the FA Simulations) as a zipped file.
+
+Please report in your report how long you worked on each exercise.
