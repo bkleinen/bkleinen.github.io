@@ -22,6 +22,9 @@ more or less every
 ### Wednesday, 12:30-13:30
 (check in here regularly, as I might have to postpone.)
 
+<span style="font-weight:bold;color:red">1.7. fällt wegen Krankheit aus!</span>  
+
+
 If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours.
 
 I've put together some Information regarding [Baf&ouml;g](bafoeg/index.html) - please read them, maybe you don't need to come to see me at all.
