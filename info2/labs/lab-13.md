@@ -17,8 +17,8 @@ Foto by [Piotr](https://www.flickr.com/photos/derbeth/331161309/)
 This week we will improve the Scrabble Cheater by storing the Words in a Hash Map,
 making the lookup of permutations way more efficient.
 
-1.   Get out your solution to Exercise 11 - or borrow a working one from someone. Remember to give them credit.
-1. create a new Implementation of the WordList interface - maybe call it HashWordList - that creates a hash table for storing the words. Use chaining of collisions. How many entries does your table have? How many collisions were there? What is the longest chain in your hash table? Some statistical methods might be nice. Can you fix your hash function to have chains of 16 or less?
+1. Get out your solution to Exercise 12 (The basic edition of the scrabble cheater) - or borrow a working one from someone. Remember to give them credit.
+1. create a new implementation of the WordList interface - maybe call it HashWordList - that creates a hash table for storing the words. Use chaining of collisions. How many entries does your table have? How many collisions were there? What is the longest chain in your hash table? Some statistical methods might be nice. Can you fix your hash function to have chains of 16 or less?
 1.   Implement the permutations() method in your HashWordList.
 1. Implement words() in both your SimpleWordList as well as the HashWordList:
 based on the tile rack with 7 letters, split them into collections of 7-, then 6-, then 5-, ... words contained in the input bag of letters using the subset function you implemented last week. Look up each word in each collection add it to the result.
