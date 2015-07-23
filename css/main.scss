@@ -9,13 +9,28 @@
 
 @include layout-general;
 
-
 @media print, screen and (max-width: 960px) {
-  @include layout-wide;
+   @include layout-wide;
+   {% if site.debugcss %}
+   body:before{content:"WIDE"}
+   {% endif %}
 }
 @media print, screen and (max-width: 720px) {
+  {% assign layoutfile = "layout-middle" %}
   @include layout-middle;
+  {% if site.debugcss %}
+  body:before{content:"MIDDLE"}
+  {% endif %}
 }
 @media print, screen and (max-width: 480px) {
+    {% assign layoutfile = "layout-narrow" %}
   @include layout-narrow;
+  {% if site.debugcss %}
+  body:before{content:"NARROW"}
+  {% endif %}
   }
+
+  {% if site.debugcss %}
+    @import "debug";
+    @include debug;
+  {% endif %}

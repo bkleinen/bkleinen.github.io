@@ -18,8 +18,9 @@ Apart from that, feel free to browse and also send me pull requests if you encou
 
 [A bit more about how this site is made and edited.](http://bkleinen.github.io/about/thissite.html)
 
-## Todo
+## Todos
 
+- set up Continuous Integration: http://jekyllrb.com/docs/continuous-integration/
 - have just recent announcements on main page
 - settle character encoding on HTW server
 

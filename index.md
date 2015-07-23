@@ -1,7 +1,5 @@
 ---
 title: B. Kleinen
-author: kleinen
-layout: default
 ---
 
 # Prof. Dr. Barbara Kleinen

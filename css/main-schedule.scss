@@ -1,11 +1,11 @@
 ---
 ---
-
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 @import "layout-wide";
 @import "layout-middle";
 @import "layout-narrow";
 @import "layout-general";
+
 @include layout-general;
 
 @include layout-wide;
@@ -13,4 +13,11 @@
 section.schedule {
   width: 100%;
   display: static;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+
+}
+{% if site.debugcss %}
+  body:before{content:"layout-schedule"}
+  @import "debug";
+  @include debug;
+{% endif %}

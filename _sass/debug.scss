@@ -1,0 +1,33 @@
+@mixin debug {
+
+  section:before {
+     content: "section";
+     background-color: #F0F0F0;
+   }
+   section{
+     padding: 10;
+     border-color: red;
+     border-width: 5;
+     background-color: #F0FFF0;
+  }
+  aside{
+    background-color: #FFFFF0;
+    border-color: red;
+    border-width: 5;
+ }
+  .left:before {
+     content: "aside left";
+   }
+
+  .right:before {
+     content: "aside right";
+  }
+  nav:before{content:"nav";}
+  nav {
+    background-color: #F0FFFF;
+  }
+  footer:before{content:"footer"}
+  footer {
+    background-color: #F0F0FF;
+  }
+}
