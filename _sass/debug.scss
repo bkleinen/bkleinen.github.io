@@ -1,15 +1,24 @@
 @mixin debug {
-
+  main:before{content:"main"}
+  main{
+    padding: 10;
+    margin: 5;
+    border-color: green;
+    border-width: 5;
+    background-color: #AAFFAA;
+ }
   section:before {
      content: "section";
      background-color: #F0F0F0;
    }
+
    section{
      padding: 10;
      border-color: red;
      border-width: 5;
      background-color: #F0FFF0;
   }
+
   aside{
     background-color: #FFFFF0;
     border-color: red;
