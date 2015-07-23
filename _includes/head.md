@@ -9,8 +9,8 @@
 
         <!-- Custom CSS -->
         {% if page.wide_layout %}
-        <link rel="stylesheet" href="{{site.baseurl}}css/generated-schedule.css">
+        <link rel="stylesheet" href="{{site.baseurl}}css/main-schedule.css">
         {% else %}
-        <link rel="stylesheet" href="{{site.baseurl}}css/generated.css">
+        <link rel="stylesheet" href="{{site.baseurl}}css/main.css">
         {% endif %}
     </head>

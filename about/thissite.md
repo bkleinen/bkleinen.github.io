@@ -38,47 +38,14 @@ http://bkleinen.github.io
 ## Sass preprocessing
 
 To ease working on the css stylesheets, I also use [Sass](http://sass-lang.com/) preprocessing.
-While working on the sass files, I do
 
-    cd css
-    sass --watch main.scss:generated.css main-schedule.scss:generated-schedule.css
+As of Jekyll 2.2.0, this is part of jekyll. So I updated my site to use the build in Sass support. To do so, only the sass/scss files go into /css and need add this to trigger the files beeing handled by jekyll:
 
-to have the css files automatically re-generated while I'm working on them.
-They are then just committed as generated files, as github wouldn't regenerate
-them, as their site generator doesn't allow unsafe plugins.
+    ---
+    ---
 
+all included files needed to be moved to the \_sass subdirectory.
+
+* http://jekyllrb.com/docs/assets/
 * http://sass-lang.com/tutorial.html
 * http://de.selfhtml.org for css basics
-
-{% comment %}
-## Commands for copying
-
-These are just some notes for myself!
-
-### Deployment to HTW FB4 server
-
-will be followed with an automatic deployment.
-Build for HTW with additional config file:
-
-      jekyll build --config _config.yml,_htwconfig.yml
-
-Copy the _site_htw to public_html on
-
-     scp -r _site_htw/* kleinen@uranus.f4.htw-berlin.de:~/public_html
-
-## Automated Testing
-
-This is not yet implemented -
-This site is automatically tested using Capybara and Minitest.
-
-https://github.com/jnicklas/capybara
-
-class CapybaraTestCase < Test::Unit::TestCase
-  include Capybara::DSL
-
-  def teardown
-    Capybara.reset_sessions!
-    Capybara.use_default_driver
-  end
-end
-{% endcomment %}
