@@ -1,6 +1,8 @@
 bkleinen.github.io
 ==================
 
+https://travis-ci.org/bkleinen/bkleinen.github.io.svg?branch=master
+
 Information for HTW Students
 
 This is the repository behind my web page,
@@ -17,11 +19,3 @@ be aware that I haven't released them yet for the current term, so they might an
 Apart from that, feel free to browse and also send me pull requests if you encounter an error.
 
 [A bit more about how this site is made and edited.](http://bkleinen.github.io/about/thissite.html)
-
-## Todos
-
-- set up Continuous Integration: http://jekyllrb.com/docs/continuous-integration/
-- have just recent announcements on main page
-- settle character encoding on HTW server
-
-  "Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.""
