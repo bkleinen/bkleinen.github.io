@@ -1,10 +1,9 @@
 ---
-title: Dr. Blinken's Notes
+title: Debug Site
 ---
 
-A little debug site.
+# A little debug site.
 
 * site.baseurl {{ site.baseurl }}
-* site.baseurl {{ site.baseurl }}
 * href="{{site.baseurl}}stylesheets/styles.css"
-* site.debugcss: {{ site.debugcss }}
+* site.encoding: {{ site.encoding }}

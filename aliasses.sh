@@ -5,5 +5,4 @@ alias wt='open http://localhost:4000/webapplications'
 alias htw='open http://people.f4.htw-berlin.de/people/kleinen/'
 alias gh='open http://bkleinen.github.io'
 alias rj='jekyll serve'
-alias debugcss='jekyll serve --config _config.yml,_debugcss.yml'
 cat aliasses.sh
