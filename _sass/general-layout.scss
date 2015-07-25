@@ -9,11 +9,10 @@ body{
 headers
 */
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
+  color: $htw-header;
   margin: 0 0 20px;
 }
-h1 {
-    color: $htw-header; }
+
     h1, h2, h3 {
       line-height: 1.1; }
 
@@ -21,11 +20,9 @@ h1 {
       font-size: 28px; }
 
     h2 {
-      color: $htw-header;
     font-weight: 700; }
 
-    h3, h4, h5, h6 {
-      color: #494949; }
+  
       strong {
         color: #222;
         font-weight: 700; }
@@ -113,7 +110,7 @@ small {
 
 hr {
   border: 0;
-  background: #e5e5e5;
+  background: $htw-ruler;
   height: 1px;
   margin: 0 0 20px; }
 
