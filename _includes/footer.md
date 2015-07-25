@@ -1,4 +1,5 @@
 
+              <hr/>
                  <p>
                 <a href="{{site.baseurl}}about/me.html">Prof. Dr. Barbara B&eacute;la Kleinen</a><br />
                 <a href="http://www.htw-berlin.de">HTW Berlin</a>,

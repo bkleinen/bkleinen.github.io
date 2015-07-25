@@ -1,0 +1,40 @@
+
+/* move navigation to the left starting at certain width */
+
+
+@media screen and (min-width:720px) {
+  nav {
+    float: left;
+    width: 150px;
+    clear: right;
+  }
+  main, footer {
+    margin-left: 150px;
+    max-width: 600px;
+  }
+
+  nav p {margin: 0; display: block;}
+  nav .nav-divider {
+    display: none;
+  }
+  nav hr {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  section {
+    margin-left: 0px;
+    max-width: 500px;
+  }
+  section.left {float: left}
+  section.right {float: right}
+  main {
+    margin-left: 150px;
+    max-width: 1600px;
+  }
+  nav { clear: right;}
+  footer {
+    clear: both;
+  }
+}

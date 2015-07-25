@@ -7,8 +7,6 @@
 
 body{
   font-family: 'Lato2',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin-left: 2em;
-  margin-right: 2em;
   color: $main-color;
 }
 /*
@@ -31,9 +29,9 @@ h1 {
 
     h3, h4, h5, h6 {
       color: #494949; }
-
-
-
+      strong {
+        color: #222;
+        font-weight: 700; }
 
 /*
 problematic?
@@ -128,4 +126,11 @@ img[alt=Barbara_Kleinen]{float:right;}
 .date {
   text-align: right;
   font-size: small;
+}
+main {
+  clear: right;
+}
+
+section, footer {
+  margin-right: 20px;
 }

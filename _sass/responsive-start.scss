@@ -1,0 +1,14 @@
+
+/* start margins only above a certain width */
+ @media (min-width: 481px) {
+   body {
+     margin-left: 2em;
+     margin-right: 2em;
+   }
+ }
+
+ nav .nav-divider {
+   display: inline; }
+ nav p {
+   display: inline; }
+ nav {padding-top: 50px;}
