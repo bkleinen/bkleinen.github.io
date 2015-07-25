@@ -19,9 +19,17 @@ $htw-blue: #0082D1;
 $htw-orange: #FF5F00;
 $htw-grau: #AFAFAF;
 
-$htw-header: $htw-black20;
-
+$htw-header:  $htw-black20;
+$htw-link:  $htw-green100;
 /* more color constants */
 
 $main-color: #000;
 $attention-color: $htw-orange;
+
+.htw-green20 {color: $htw-green20;}
+.htw-green40 {color: $htw-green40;}
+.htw-green60 {color: $htw-green60;}
+.htw-green80 {
+  color: $htw-green80;
+ font-weight: 700;}
+.htw-green100 {color: $htw-green100;}

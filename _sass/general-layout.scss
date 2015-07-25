@@ -1,12 +1,8 @@
-@font-face {
-  font-family: "Lato2";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url("https://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2") format("woff2"), url("https://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff") format("woff");
-}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:700,300);
 
 body{
-  font-family: 'Lato2',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: $main-color;
 }
 /*
@@ -25,7 +21,8 @@ h1 {
       font-size: 28px; }
 
     h2 {
-      color: #393939; }
+      color: $htw-header;
+    font-weight: 700; }
 
     h3, h4, h5, h6 {
       color: #494949; }
@@ -46,7 +43,7 @@ old stuff to be sorted
 
 
 a {
-  color: $htw-blue;
+  color: $htw-link;
   font-weight: 400;
   text-decoration: none; }
 
@@ -136,4 +133,15 @@ section, footer {
 }
 footer{
   font-size: 12px;
+}
+header {
+  padding: 10px;
+  float: right;
+  font-size: small;
+  font-weight: bold;
+  color: #AFAFAF;
+}
+header a {
+  text-decoration: none;
+  color: #AFAFAF;
 }
