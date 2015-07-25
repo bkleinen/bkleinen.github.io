@@ -38,6 +38,7 @@ The nouns are candidates for classes, the verbs for methods and the adjectives f
 
 Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible ***candidates*** for classes and methods - not every noun will be a class name in your Application!
 
+</section><section class ="right">
 
 ### 2. CRC Cards
 
@@ -61,7 +62,7 @@ Choose another scenario and play this through. If you have time, do more! You wi
 
 ## Lab Report / What to turn in
 
-Your report is due the night before your next lab; refer to moodle for 
+Your report is due the night before your next lab; refer to moodle for
 exact times.
 
 As in Informatics 1, I am more interested in process than in product,

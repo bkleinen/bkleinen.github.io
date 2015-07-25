@@ -4,8 +4,7 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 {% endcomment %}
 
 {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
-{% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
-
+{% capture num_parts %}{{ url_parts | number_of_words }}{% endcapture %}
 
 {% assign seperator ="&#187;" %}
 
@@ -21,13 +20,15 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
    {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
   {% capture previous %}{{ previous }}{{ first_word }}/{% endcapture %}
 
+  {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
+  {% capture remaining %}{{ url_parts | number_of_words}}{% endcapture%}
 
-   <a href="{{site.baseurl}}{{previous}}">{{ first_word }}</a>
+   
 
-   {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
-   {% capture remaining %}{{ url_parts | number_of_words}}{% endcapture%}
-   {% if remaining != "1" %}
-     {{seperator}}
+   {% if remaining != "0" %}
+     <a href="{{site.baseurl}}{{previous}}">{{ first_word }}</a> {{seperator}}
+   {% else %}
+     {{ first_word }}
    {% endif  %}
 
 

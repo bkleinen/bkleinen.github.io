@@ -4,6 +4,7 @@
 @import "general-layout";
 @import "responsive-layout";
 @import "header";
+@import "schedule";
 
 
 ul {
@@ -24,7 +25,7 @@ section, footer {
 
  {% else %}
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:481px) {
   nav {
     float: left;
     width: 150px;
@@ -36,9 +37,6 @@ section, footer {
 
 }
 
-@media screen and (max-width: 1280px) {
-   @include layout-wide-2column;
-}
 
 @media screen and (max-width: 960px) {
    @include layout-wide;
@@ -50,5 +48,8 @@ section, footer {
 
 @media screen and (max-width: 480px) {
   @include layout-narrow;
+}
+@media screen and (max-width: 1280px) {
+   @include layout-wide-2column;
 }
 {% endif %}
