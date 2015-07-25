@@ -30,12 +30,12 @@ After you have logged in, look around - where do you find a browser? How many br
 
     > java -version
 
-### 3. Download and install Greenfoot: 
+### 3. Download and install Greenfoot:
 
 ***Update 21.20.2014: Greenfoot is already installed in 567, 579 and on MacOS in 537***
 
  *  first chose a location for Greenfoot and the Scenarios: On the lab pcs, use your home directory, on your own laptop it's up to you. Think of a useful folder structure - maybe
- *  …/info1/greenfoot/greenfoot - for the greenfoot installation …/info1/greenfoot/scenarios - for the greenfoot scenarios.
+ *  .../info1/greenfoot/greenfoot - for the greenfoot installation .../info1/greenfoot/scenarios - for the greenfoot scenarios.
  *  The scenarios will hold the files you might want to save/backup or turn in as part of your exercise.
  *  if you install it on the lab pc, use the "Pure Java" version, as it does not require any modifications to the machine configuration and java is already installed on the machine.
  *  if you want to install it on your own computer, you also need Java in case you haven't installed it yet. Follow the "Download JDK" button on the greenfoot download page, then install Greenfoot.
@@ -44,7 +44,7 @@ After you have logged in, look around - where do you find a browser? How many br
 
 ### 4. Take a Photo and Write Something about you Team members
 
-* In your groups, take a photo of each one of you to include in the report(s). 
+* In your groups, take a photo of each one of you to include in the report(s).
 * Briefly introduce each one to me in the report: the two others should interview and write something about each person. Ask him or her what brought you here, and something that helps me remember his or her name.
 
 
@@ -69,4 +69,3 @@ Make sure to include your name and a photo at the top of your report.
 This first lab is really about getting started, getting to know the infrastructure and make sure that you are able to run Kara programs in Greenfoot yourself during the next week. If you feel bored, you might start off right away with working on the the [prelab of next week lab](exercise-01.html).
 
 [1]: https://github.com/htw-imi-info1/kara-scenario1
-

@@ -1,6 +1,6 @@
 destination: _site_htw
 encoding: UTF-8
-serverencoding: UTF-8
+serverencoding: ISO-8859-1
 baseurl: /people/kleinen/
 
 # jekyll build --config _config.yml, _htwconfig.yml

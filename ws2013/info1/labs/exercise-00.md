@@ -35,7 +35,7 @@ After you have logged in, look around - where do you find a browser? How many br
 
 
  *  first chose a location for Greenfoot and the Scenarios: On the lab pcs, use your home directory, on your own laptop it's up to you. Think of a useful folder structure - maybe
- *  …/info1/greenfoot/greenfoot - for the greenfoot installation …/info1/greenfoot/scenarios - for the greenfoot scenarios.
+ *  .../info1/greenfoot/greenfoot - for the greenfoot installation .../info1/greenfoot/scenarios - for the greenfoot scenarios.
  *  The scenarios will hold the files you might want to save/backup or turn in as part of your exercise.
  *  if you install it on the lab pc, use the "Pure Java" version, as it does not require any modifications to the machine configuration and java is already installed on the machine.
  *  if you want to install it on your own computer, you also need java. If you don't have it yet, follow the "Download JDK" button on the greenfoot download page, then install Greenfoot.
@@ -57,4 +57,3 @@ You will be doing your writeup at home. If you do not have a computer at home, y
 Submit your writeup, explaining what you did and what you learned, as your post-lab to the Moodle area, as a practice - it will not be graded.
 
 [1]: https://github.com/htw-imi-info1/kara-scenario1
-
