@@ -3,7 +3,6 @@
 @import "colors";
 @import "general-layout";
 @import "responsive-layout";
-
 @import "header";
 
 
@@ -22,7 +21,7 @@ section, footer {
     padding-bottom: 50px;
   }
    @include layout-wide;
- 
+
  {% else %}
 
 @media screen and (min-width:600px) {

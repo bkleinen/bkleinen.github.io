@@ -1,10 +1,75 @@
 @mixin layout-narrow {
-}
-@mixin layout-middle {
-}
-@mixin layout-wide {
 
+  body {
+    padding: 15px; }
+
+  header ul {
+    display: none; } }
+@media print {
+  body {
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444; }
 }
+
+@mixin layout-middle {
+
+  body {
+    word-wrap: break-word; }
+
+  header {
+    padding: 0; }
+
+  header ul, header p.view {
+    position: static; }
+
+  pre, code {
+    word-wrap: normal; }
+  }
+
+  @mixin layout-wide {
+
+   main {
+      width: 100%;
+      margin: 0; }
+
+    header, main, footer {
+         float: none;
+         position: static;
+
+     }
+    header { width: auto;}
+    footer { width: 600px;}
+    section{
+        width: 653px;
+     }
+
+     main {
+      width: auto;
+     }
+
+
+    header .header-divider {
+      display: inline; }
+
+    section {
+      border: 1px solid #e5e5e5;
+      border-width: 1px 0;
+      padding: 20px 0;
+      margin: 0 0 20px; }
+
+    header a small {
+      display: inline; }
+
+    header p {
+      display: inline; }
+
+    header ul {
+      position: absolute;
+      right: 50px;
+      top: 52px; }
+    }
+
 @mixin layout-wide-2column{
   section {
     margin-left: 0px;
