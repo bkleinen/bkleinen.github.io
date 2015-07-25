@@ -2,7 +2,6 @@
 title:  Info2 SS2015 Schedule
 author: kleinen
 layout: schedule
-wide_layout: true
 ---
 {% include ss2015/info2.md %}
 
