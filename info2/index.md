@@ -1,7 +1,7 @@
 ---
 title: Info2 Sommersemester 2015
 author: kleinen
-layout: page
+layout: default
 ---
 
 {% include ss2015/info2.md %}

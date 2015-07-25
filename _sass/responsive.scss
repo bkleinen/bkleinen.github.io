@@ -20,6 +20,14 @@
     width: 140px;
     border-right: 1px solid #e5e5e5;
   }
+  div.outer{
+      min-height: 91px;
+      position: relative;
+    }
+  h1.title {
+      position:absolute;
+      bottom:0;
+  }
   main, footer {
     margin-left: 150px;
     max-width: 600px;
