@@ -1,36 +1,55 @@
 ---
 ---
+@import "colors";
+@import "general-layout";
+@import "responsive-layout";
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-@import "layout-wide";
-@import "layout-middle";
-@import "layout-narrow";
-@import "layout-general";
+@import "header";
 
-@include layout-general;
 
-@media print, screen and (max-width: 960px) {
+ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+section, footer {
+  margin-right: 20px;
+}
+
+{% if page.wide_layout %}
+  section.schedule {
+    width: 100%;
+    display: static;
+    padding-bottom: 50px;
+  }
    @include layout-wide;
-   {% if site.debugcss %}
-   body:before{content:"WIDE"}
-   {% endif %}
-}
-@media print, screen and (max-width: 720px) {
-  {% assign layoutfile = "layout-middle" %}
-  @include layout-middle;
-  {% if site.debugcss %}
-  body:before{content:"MIDDLE"}
-  {% endif %}
-}
-@media print, screen and (max-width: 480px) {
-    {% assign layoutfile = "layout-narrow" %}
-  @include layout-narrow;
-  {% if site.debugcss %}
-  body:before{content:"NARROW"}
-  {% endif %}
+ 
+ {% else %}
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 150px;
+  }
+  main {
+    margin-left: 150px;
+    max-width: 600px;
   }
 
-  {% if site.debugcss %}
-    @import "debug";
-    @include debug;
-  {% endif %}
+}
+
+@media screen and (max-width: 1280px) {
+   @include layout-wide-2column;
+}
+
+@media screen and (max-width: 960px) {
+   @include layout-wide;
+}
+
+@media screen and (max-width: 720px) {
+  @include layout-middle;
+}
+
+@media screen and (max-width: 480px) {
+  @include layout-narrow;
+}
+{% endif %}

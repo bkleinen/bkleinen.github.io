@@ -1,14 +1,22 @@
-@mixin layout-general {
-
-/* debug borders */
-/* section, header, footer, aside,*/
-/*
- header, footer, main, section {
-    border-style: dotted;
-    border-width: thin;
-    border-color: #98bf21;
+@font-face {
+  font-family: "Lato2";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url("https://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2") format("woff2"), url("https://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff") format("woff");
 }
+
+body{
+  font-family: 'Lato2',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/*
+
+old stuff to be sorted
+
 */
+
 main{
   float: right;
   width: 100%;
@@ -199,7 +207,7 @@ img[alt=Barbara_Kleinen]{float:right;}
   text-align: right;
   font-size: small;
 }
-  }
+  
 
   main{
     float: right;
@@ -391,4 +399,3 @@ img[alt=Barbara_Kleinen]{float:right;}
     text-align: right;
     font-size: small;
   }
-    }
