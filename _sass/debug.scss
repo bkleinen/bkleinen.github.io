@@ -1,42 +1,26 @@
 @mixin debug {
   main:before{content:"main"}
-  main{
-    padding: 10;
-    margin: 5;
-    border-color: green;
-    border-width: 5;
-    background-color: #AAFFAA;
- }
-  section:before {
-     content: "section";
-     background-color: #F0F0F0;
-   }
+  main{ background-color: #AAFFAA; }
+  section:before {content: "section";}
+  section{ background-color: #F0FFF0;}
 
-   section{
-     padding: 10;
-     border-color: red;
-     border-width: 5;
-     background-color: #F0FFF0;
-  }
 
-  aside{
-    background-color: #FFFFF0;
-    border-color: red;
-    border-width: 5;
- }
-  .left:before {
-     content: "aside left";
-   }
-
-  .right:before {
-     content: "aside right";
-  }
   nav:before{content:"nav";}
-  nav {
-    background-color: #F0FFFF;
-  }
+  nav {background-color: #F0FFFF;}
   footer:before{content:"footer"}
-  footer {
-    background-color: #F0F0FF;
-  }
+  footer { background-color: #F0F0FF }
 }
+/*
+  main{
+    margin: 5;
+    padding: 10;
+
+    border-width: 5;
+    border-color: green;
+  }
+  section{
+    padding: 10;
+
+    border-width: 5;
+    border-color: red;}
+*/
