@@ -6,9 +6,9 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{site.baseurl}}css/syntax.css">
-        {% if page.wide_layout%}
+        {% if page.wide_layout %}
               <link rel="stylesheet" href="{{site.baseurl}}css/wide.css">
-              {% else %}
+        {% else %}
         <link rel="stylesheet" href="{{site.baseurl}}css/responsive.css">
         {% endif %}
     </head>
