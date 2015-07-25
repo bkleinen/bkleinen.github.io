@@ -37,15 +37,15 @@ public int refundBalance() {
 **P4.** What do you expect the the following expressions to evaluate to? Do not use a compiler or the codepad, only your head!
 
 
-| Expression     | Value         | Type |
-| ---            | ------------------ | ------------- |
-| 99 + 3 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| "cat" + "fish" | | |
-| "cat" + 9 | | |
-| 9 + 3 + "cat" | | |
-| "cat" + 3 + 9 + "fish" | | |
-| "catfish".substring(3,4) | | |
-| "catfish".substring(3,8) | | |
+| Expression               | Value                                                                                                                                                                                                        | Type                                                                                                                                                                                                         |
+|:-------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 99 + 3                   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| "cat" + "fish"           |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
+| "cat" + 9                |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
+| 9 + 3 + "cat"            |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
+| "cat" + 3 + 9 + "fish"   |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
+| "catfish".substring(3,4) |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
+| "catfish".substring(3,8) |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
 
 # Post-Lab, AKA What To Turn In
 
@@ -65,7 +65,7 @@ Lab assignments are due the night before your next lab at 23.00. They may, of co
 1. Open BlueJ and find the CodePad. Use it to test your predictions for P4 and record where you were correct and where you made mistakes.
 
 ## Making a Book
-1. Open the [BookExercise project](https://github.com/htw-imi-info1/exercise03). Add two accessor methods to the class — getAuthor and getTitle — that return the author and title fields as their respective results. Test your class by creating some instances and calling the methods.
+1. Open the [BookExercise project](https://github.com/htw-imi-info1/exercise03). Add two accessor methods to the class - getAuthor and getTitle - that return the author and title fields as their respective results. Test your class by creating some instances and calling the methods.
 2. Add two methods, printAuthor and printTitle, to the Book class. These should print the author and title fields, respectively, to the terminal window.
 3. Add a further field, pages, to the Book class to store the number of pages. This should be of type int, and its initial value should be passed to the single constructor, along with the author and title strings. Include an appropriate getPages accessor method for this field.
 4. Add a method, printDetails, to the Book class. This should print details of the author, title, and pages to the terminal window. It is your choice how the details are formatted. You might want to include some explanatory text.

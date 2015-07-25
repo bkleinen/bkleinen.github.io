@@ -31,7 +31,7 @@ After exploring Unit Testing in the first part, we will be looking at [black-box
 ### Grading Scale (Points = Procent)
 
 | Points | Grade | ECTS | Points | Grade | ECTS |
-| ---    | ---   | ---  | ---    | ---   | ---  |
+|:-------|:------|:-----|:-------|:------|:-----|
 | 95-100 | 1,0   | A    | 65-69  | 3,0   | C    |
 | 90-94  | 1,3   | A    | 60-64  | 3,3   | C    |
 | 85-89  | 1,7   | B    | 55-59  | 3,7   | D    |

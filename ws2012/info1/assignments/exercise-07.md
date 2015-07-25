@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-This week’s lab work is intended give you practice using the Random class and HashMaps.
+This week's lab work is intended give you practice using the Random class and HashMaps.
 
 #### What to Bring to Lab
 

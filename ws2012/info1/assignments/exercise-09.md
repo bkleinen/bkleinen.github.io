@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-This week’s lab work is intended give you practice testing and writing assertions.
+This week's lab work is intended give you practice testing and writing assertions.
 
 #### What to Bring to Lab
 
@@ -19,8 +19,8 @@ Your completed assignment, submitted in Moodle as a pdf,
 should include:
 
 - A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions asked in P1 and P2. The focus is on the process!
-- Include the final version of the source code – either the whole bluej project zipped together or – preferably, if you just worked on two classes these two classes as separate files. You can upload up to three files altogether.
-- For the tests you need to record what worked, what didn’t, and perhaps make an occasional screenshot.
+- Include the final version of the source code - either the whole bluej project zipped together or - preferably, if you just worked on two classes these two classes as separate files. You can upload up to three files altogether.
+- For the tests you need to record what worked, what didn't, and perhaps make an occasional screenshot.
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 

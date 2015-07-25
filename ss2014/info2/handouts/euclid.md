@@ -4,10 +4,11 @@ author: kleinen
 layout: page
 ---
 
-Euclid of Alexandria (Greek : Εὐκλείδης, Eukleides) (* circa 365; † 275 BC) was a Greek mathematician, now known as "the father of geometry". His most famous work is Elements, widely considered to be history's most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1
+Euclid of Alexandria (Greek : &#917;&#8016;&#954;&#955;&#949;&#8055;&#948;&#951;&#962;, Eukleides) (* circa 365; &#8224; 275 BC) was a Greek mathematician, now known as "the father of geometry". His most famous work is Elements, widely considered to be history's most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1
 
 Elements: Book VII, Proposition 2:
 ----
+
 To find the greatest common measure of two given numbers not relatively prime.
 
 Let AB and CD be the two given numbers not relatively prime. It is required to find the greatest common measure of AB and CD.

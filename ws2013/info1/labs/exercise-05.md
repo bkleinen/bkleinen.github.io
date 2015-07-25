@@ -68,6 +68,5 @@ Lab assignments are due before your next lab at 23.00. They may, of course, be t
 1. Within a single execution of the remove method, the notes collection is asked repeatedly how many notes it is currently storing. Does the value returned by size vary from one check to the next? Rewrite your search method so that the size is not checked unnecessarily, perhaps using a local variable. Check that your version gives the same results! What cases will you have to test?
 1. Create a collection primes and use your prelab 4 to fill it with the prime numbers between 1 and 1000. Oops, this won't work directly, because collections don't take ints. You can use something called autoboxing to solve this. Look up Integer in the API and use this. How many prime numbers are there between 1 and 1000?
 1. KaraSpecial: Use the kara-copy project in the [provided source code](https://github.com/htw-imi-info1/exercise05). Make Kara copy the leaf rows on the left to the right, this time not using a second Kara as in the last exercise, but by storing the information about a row in an ArrayList of Booleans. You'll find some more instructions in the source code.
-1. (For the bored) Implement a search with ‘?' as a joker standing for any character, and ‘\*' standing for any number of characters.
+1. (For the bored) Implement a search with '?' as a joker standing for any character, and '\*' standing for any number of characters.
 1. (For the really bored) Implement full regular expression search for the notebook.
-

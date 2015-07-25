@@ -1,19 +1,19 @@
 ---
-title: 'Assignment 03 – Gilded Rose Patterns and Sequence Diagrams'
+title: 'Assignment 03 - Gilded Rose Patterns and Sequence Diagrams'
 author: kleinen
 layout: page
 ---
 
 # Reading Assignment for Friday, May 3rd 2013:
 
-For this week’s lecture and especially the exercise, you will need some knowledge about sequence diagrams, and the Patterns Strategy, Factory, Factory method, Abstract Factory and Template Method.
+For this week's lecture and especially the exercise, you will need some knowledge about sequence diagrams, and the Patterns Strategy, Factory, Factory method, Abstract Factory and Template Method.
 
 Here are some good sources:
 
- *  Sequence Diagrams: Sample Chapter from Fowler’s UML distilled: [http://www.informit.com/articles/article.aspx?p=169507&seqNum=2 ][1]- Please read the full chapter.
+ *  Sequence Diagrams: Sample Chapter from Fowler's UML distilled: [http://www.informit.com/articles/article.aspx?p=169507&seqNum=2 ][1]- Please read the full chapter.
  *  Strategy Pattern:  - make sure you understand the pattern.
  *  Template Method: we talked about that in class (Sandy Metz Ruby example!), but you can look it up here: 
- *  Factory Patterns: You don’t need to read all of the following web pages, but make sure you understand the idea of Factories (german wikipedia might also be helpful with this) and the distinction between the different factory patterns.
+ *  Factory Patterns: You don't need to read all of the following web pages, but make sure you understand the idea of Factories (german wikipedia might also be helpful with this) and the distinction between the different factory patterns.
  *  Factory, ,
  *  Factory Method[ http://www.oodesign.com/factory-method-pattern.html][2]
  *  Optional:

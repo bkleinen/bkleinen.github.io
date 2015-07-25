@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-This week’s lab work is intended help you practice using loops.
+This week's lab work is intended help you practice using loops.
 
 #### What to Bring to Lab
 
@@ -39,6 +39,6 @@ in earlier.
 1. Implement a Method removeNote that removes all notes containing a certain string (as seen in class) in two ways: by using an iterator and by using a while loop with an index (without an iterator). Did you run into problems? If not, what may be the possible problems with this compared to the solution using an iterator?
 1. Modify removeNote to print out an error message if no notes were removed.
 1. Within a single execution of the remove method, the notes collection is asked repeatedly how many notes it is currently storing. Does the value returned by size vary from one check to the next? Rewrite your search method so that the size is not checked unnecessarily, perhaps using a local variable. Check that your version gives the same results! What cases will you have to test?
-1. Create a collection primes and use your prelab 4 to fill it with the prime numbers between 1 and 1000. Oops, this won’t work directly, because collections don’t take ints. You can use something called autoboxing to solve this. Look up Integer in the API and use this. How many prime numbers are there between 1 and 1000?
-1. (For the bored) Implement a search with ‘?’ as a joker standing for any character, and ‘\*’ standing for any number of characters.
+1. Create a collection primes and use your prelab 4 to fill it with the prime numbers between 1 and 1000. Oops, this won't work directly, because collections don't take ints. You can use something called autoboxing to solve this. Look up Integer in the API and use this. How many prime numbers are there between 1 and 1000?
+1. (For the bored) Implement a search with '?' as a joker standing for any character, and '\*' standing for any number of characters.
 1. (For the really bored) Implement full regular expression search for the notebook.
