@@ -36,8 +36,7 @@ Bundler will install simplecov. You'll find the html coverage report in
 http://update.eclemma.org/
 
 
-
-[https://github.com/info3/assignment_3](https://github.com/info3/assignment_3)
+(removed)
 
 you can import it as a new project into your Eclipse Workspace, either as Java Project or as a Maven Project.
 

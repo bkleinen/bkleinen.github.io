@@ -8,7 +8,7 @@ layout: page
 ![Austin Map with Locations](./austin-map-5539886849_8ea012c5e7_z.jpg)
 <br/><small class = "float-left">Foto by [RachelC](https://www.flickr.com/photos/rachelc/5539886849)</small>
 
-<span style="font-weight: bold">Projekt Goal:</span> Develop a Web & Mobile App to plan little explorations either 
+<span style="font-weight: bold">Projekt Goal:</span> Develop a Web & Mobile App to plan little explorations either
 by foot, bike or car including pre-selected locations or locations suggested by peers.
 
 Offered as a (Praxisprojekt for IMI Bachelors)[http://imi-bachelor.htw-berlin.de/studieren/projekte/projekte-im-sommersemester-2015/]. See the scenarios and
@@ -28,13 +28,13 @@ alternate route to include one or more places to visit in their ride home. The b
 ### Scenario 2
 
 Kaj wants to visit Hamburg. They have never been there, so they use Treasure Map at home on their desktop computer to browse sights, geocaches and locations marked by their treasure map buddies as interesting to plan their visit to Hamburg.
-Later, they can easily create routes for walking or cycling that include several of these locations and are supported en route by their smartphone, which they can also use to take 
+Later, they can easily create routes for walking or cycling that include several of these locations and are supported en route by their smartphone, which they can also use to take
 photos en route and attach to the visited locations on Treasure Map.
 
 
 Possible Backlog / User Stories
 -----------------------------------------------------------------
-- a user can browse locations from several selected sources 
+- a user can browse locations from several selected sources
   (e.g. Wikipedia or entered/marked by friends) and mark them as "want to visit"
 - a user can use their phone to quickly find nearby locations they want to visit
 - a user can see actions of friends on the start pages, e.g. places they want to visit or have visited
@@ -42,7 +42,7 @@ Possible Backlog / User Stories
 - the user can comment on places visited
 - a user can upload pictures for places visited
 - the user can find locations within a detour of a route
-- the user can mark visited places to visit again 
+- the user can mark visited places to visit again
 - sites can be filtered to show content provided by all users, friends or just the user themselves
 - users can enter information about places they want to visit and choose to keep them private or just share them with friends
 - ....
@@ -51,8 +51,8 @@ Possible Backlog / User Stories
 System Design / Technology
 -----------------------------------------------------------------
 
-The application should be a combined web and mobile app 
-allowing routing on the mobile device. This leaves several options for 
+The application should be a combined web and mobile app
+allowing routing on the mobile device. This leaves several options for
 the actual design, but will most probably involve a HTML 5 Website, an
 restful API in front of some sort of data storage and maybe a
 dedicated mobile app or even two, or an HTML5 site that is suitable for mobile use.
@@ -73,7 +73,7 @@ Similar or possibly useful projects
 -----------------------------------------------------------------
 
 ### Some Possible Data Sources
-* [Wikipedia](https://wikipedia.de) contains articels about many locations, including countries, [cities](http://de.wikipedia.org/wiki/Berlin), villages, sights or special buildings. 
+* [Wikipedia](https://wikipedia.de) contains articels about many locations, including countries, [cities](http://de.wikipedia.org/wiki/Berlin), villages, sights or special buildings.
 
 * [WIWOSM on Wikimedia Tool Labs](http://wiki.openstreetmap.org/wiki/WIWOSM) "WIWOSM (Wikipedia where in OSM) is a project to show for a Wikipedia article geometric objects from OpenStreetMap. These objects have a matching wikipedia=* tag. The usage of WIWOSM will be primarily at maps inside Wikipedia (OSM-Gadget and WikiMiniAtlas). (Still moving from Toolserver.)"
 
@@ -91,5 +91,5 @@ Similar or possibly useful projects
 
 * [Tripadvisor](http://www.tripadvisor.de), is a plattform containing user-generated trip reviews, but also information about "Attractions"
 
-### Not related 
+### Not related
 * [NSA Treasuremap](http://www.spiegel.de/netzwelt/netzpolitik/nsa-wie-der-geheimdienst-mit-dem-system-treasuremap-daten-sammelt-a-991496.html#)

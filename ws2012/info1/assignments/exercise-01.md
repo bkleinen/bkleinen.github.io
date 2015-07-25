@@ -23,9 +23,10 @@ layout: page
 2.  Kara in the Tunnel: (KaraWorld02 and Kara02): Kara is afraid of Tunnels. When entering the tunnel, Kara is scared and drops a leaf; and she immediately stops after leaving the tunnel. Note that &#8220;in the tunnel&#8221; means that there is a tree on both sides, not just on one.
 3.  Leaves in the forest I: (KaraWorld03 and Kara03): Building on Exercise 7 of Worksheet 1, where Kara looks for a leaf in front of him, modify the algorithm to make him able to walk around 2 or more trees in a row.
 4.  Leaves in the forest II (KaraWorld04 and Kara04): In this forest, each field has exactly two free fields, one of them behind Kara, and the other one either to the left, in front or on the right. Make Kara move through the forest and find the leaf.
-5.  Picture Inversion: (KaraWorld05, Kara05) Program Kara such that it will create an &#8220;inverse picture&#8221; within a tree rectangle. E.g. starting as in KaraWorld05, the picture should look like this after the program has run: [<img class="size-full wp-image-700 alignnone" title="kara-exercise01-inverted" src="http://blog.infrastructure.de/wp-content/uploads/2012/10/kara-exercise01-inverted.jpg" alt="" width="255" height="254" />][2]
+5.  Picture Inversion: (KaraWorld05, Kara05) Program Kara such that it will create an &#8220;inverse picture&#8221; within a tree rectangle. E.g. starting as in KaraWorld05, the picture should look like this after the program has run:
+
 6.  Draw a Spiral: (KaraWorld06, Kara06) Like this:  
-    [<img class="alignnone size-medium wp-image-702" title="kara-exercise01-spiral" src="http://blog.infrastructure.de/wp-content/uploads/2012/10/kara-exercise01-spiral-300x289.jpg" alt="" width="300" height="289" />][3]
+
 
 # Post-Lab, AKA What to Turn In
 
@@ -37,5 +38,3 @@ Please upload 2 Files to Moodle2:
 &nbsp;
 
  [1]: https://github.com/htw-imi-info1/kara-exercise01
- [2]: http://blog.infrastructure.de/wp-content/uploads/2012/10/kara-exercise01-inverted.jpg
- [3]: http://blog.infrastructure.de/wp-content/uploads/2012/10/kara-exercise01-spiral.jpg

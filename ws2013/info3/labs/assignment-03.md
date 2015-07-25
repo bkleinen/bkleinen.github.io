@@ -26,7 +26,7 @@ Please read them before coming to class on Friday, as we will work with these to
 
 Download and Install the source code for this exercise:
 
-[https://github.com/info3/assignment_3](https://github.com/info3/assignment_3)
+(removed)
 
 you can import it as a new project into your Eclipse Workspace, either as Java Project or as a Maven Project.
 

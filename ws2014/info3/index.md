@@ -62,7 +62,7 @@ If you pass the Lab Quiz (a small Moodle Quiz about the Lab contents at the begi
 I will let excel automatically choose the most favourable option for you if you took part in at least 6 of the 7 quizzes. However, if you want to choose yourself, you can of course do so - just send me an email **before the exam**.
 
 ### Lecture summaries
-In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. 
+In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
 If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the whole 10% - they are either done or not done, and not graded on content.
 They can be in txt, pdf or markdown format.
 
@@ -81,14 +81,11 @@ There will be a 2-hour online examination on or about Feb 7. We will have 2 shif
 
 There is no textbook for this class. Here are the main books this class is based upon. You'll don't need to buy them for this class - there's plenty of information online. Some of them can be found in the library. You might want to buy them, though, as these are books that will not be outdated next year. One of them is even the same age as some of you.
 
-| Reference | Link|
-| :---------| :---|
-| Sandi Metz: _Practical Object Oriented Design in Ruby: An Agile Primer._ Addison Wesley, 2012. | [Book Website](http://www.poodr.com/) |
-| Robert C. Martin: _Clean Code: A Handbook of Agile Software Craftsmanship_. Prentice Hall, 2008. | [Homepage der Clean-Code Initiative](http://www.clean-code-developer.de/) (german)|
-|Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006 | [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles|
-| Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: _Design Patterns. Elements of Reusable Object-Oriented Software._ Addison-Wesley, 1994.| [Wikipedia](http://en.wikipedia.org/wiki/Software_design_pattern) is pretty good for them.|
-|Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002. | [EAA Website](http://martinfowler.com/eaaCatalog/)|
-|Armando Fox, David Patterson: Engineering Software as a Service: An Agile Approach Using Cloud Computing (2nd Beta Edition). | [Book Website](http://beta.saasbook.info/)|
-
-
-
+| Reference                                                                                                                                         | Link                                                                                       |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
+| Sandi Metz: _Practical Object Oriented Design in Ruby: An Agile Primer._ Addison Wesley, 2012.                                                    | [Book Website](http://www.poodr.com/)                                                      |
+| Robert C. Martin: _Clean Code: A Handbook of Agile Software Craftsmanship_. Prentice Hall, 2008.                                                  | [Homepage der Clean-Code Initiative](http://www.clean-code-developer.de/) (german)         |
+| Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006                                         | [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles               |
+| Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: _Design Patterns. Elements of Reusable Object-Oriented Software._ Addison-Wesley, 1994. | [Wikipedia](http://en.wikipedia.org/wiki/Software_design_pattern) is pretty good for them. |
+| Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002.                                                           | [EAA Website](http://martinfowler.com/eaaCatalog/)                                         |
+| Armando Fox, David Patterson: Engineering Software as a Service: An Agile Approach Using Cloud Computing (2nd Beta Edition).                      |                                                                                            |

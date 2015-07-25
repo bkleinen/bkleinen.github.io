@@ -24,7 +24,7 @@ In addition to what we've covered in class, please have a look at [black-box][1]
 ### Grading Scale (Points = Procent)
 
 | Points | Grade | ECTS | Points | Grade | ECTS |
-| ---    | ---   | ---  | ---    | ---   | ---  |
+|:-------|:------|:-----|:-------|:------|:-----|
 | 95-100 | 1,0   | A    | 65-69  | 3,0   | C    |
 | 90-94  | 1,3   | A    | 60-64  | 3,3   | C    |
 | 85-89  | 1,7   | B    | 55-59  | 3,7   | D    |
@@ -37,7 +37,7 @@ In addition to what we've covered in class, please have a look at [black-box][1]
 
 Your task is to develop deletion and reversion of a simple linked list test driven. You can do this either in Java or in Ruby. You find stubs in both languages on [github](https://github.com/htw-imi-info3/lab-04-testing/tree/master/b_test_driven).
 
-Create a Class Node as Head of a Linked List and develop a method for deleting Nodes in it test driven, that is, develop the Unit Tests first, as we did in class. 
+Create a Class Node as Head of a Linked List and develop a method for deleting Nodes in it test driven, that is, develop the Unit Tests first, as we did in class.
 
 Choose one of the two methods we discussed in class to help with the assertions/expectations - by either creating a helper (e.g. assert.java) or a toString method as in toString.java.
 
@@ -52,5 +52,5 @@ For the bored: Refactor your Code after the Tests are running, and experiment wi
 
 Submit your Report as PDF to moodle. If you want to, you can include all source code in a single zip file. You can upload up to two files to moodle - the pdf and the source code zip file.
 
-[1]: http://en.wikipedia.org/wiki/Black\_box\_testing
-[2]: http://en.wikipedia.org/wiki/White\_box\_testing
+[1]: http://en.wikipedia.org/wiki/Black_box_testing
+[2]: http://en.wikipedia.org/wiki/White_box_testing

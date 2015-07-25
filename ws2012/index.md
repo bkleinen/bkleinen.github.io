@@ -7,6 +7,6 @@ layout: page
 
 *   [Informatik 1](info1)
 *   [Informatik 1 (alter Blog)][1]
-*   [Informatik 3](info3)
+*   Informatik 3
 *   Aktuelle Themen II: Agile Entwicklung mit Ruby on Rails
 *   Praxisprojekt

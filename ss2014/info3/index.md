@@ -59,14 +59,14 @@ There will be a 2-hour online examination on or about Feb 7. We will have 2 shif
 
 There is no textbook for this class. Here are the main books this class is based upon. You'll don't need to buy them for this class - there's plenty of information online. Some of them can be found in the library. You might want to buy them, though, as these are books that will not be outdated next year. One of them is even the same age as some of you.
 
-| Reference | Link|
-| :---------| :---|
-| Sandi Metz: _Practical Object Oriented Design in Ruby: An Agile Primer._ Addison Wesley, 2012. | [Book Website](http://www.poodr.com/) |
-| Robert C. Martin: _Clean Code: A Handbook of Agile Software Craftsmanship_. Prentice Hall, 2008. | [Homepage der Clean-Code Initiative](http://www.clean-code-developer.de/) (german)|
-|Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006 | [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles|
-| Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: _Design Patterns. Elements of Reusable Object-Oriented Software._ Addison-Wesley, 1994.| [Wikipedia](http://en.wikipedia.org/wiki/Software_design_pattern) is pretty good for them.|
-|Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002. | [EAA Website](http://martinfowler.com/eaaCatalog/)|
-|Armando Fox, David Patterson: Engineering Software as a Service: An Agile Approach Using Cloud Computing (2nd Beta Edition). | [Book Website](http://beta.saasbook.info/)|
+| Reference                                                                                                                                         | Link                                                                                       |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
+| Sandi Metz: _Practical Object Oriented Design in Ruby: An Agile Primer._ Addison Wesley, 2012.                                                    | [Book Website](http://www.poodr.com/)                                                      |
+| Robert C. Martin: _Clean Code: A Handbook of Agile Software Craftsmanship_. Prentice Hall, 2008.                                                  | [Homepage der Clean-Code Initiative](http://www.clean-code-developer.de/) (german)         |
+| Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006                                         | [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles               |
+| Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: _Design Patterns. Elements of Reusable Object-Oriented Software._ Addison-Wesley, 1994. | [Wikipedia](http://en.wikipedia.org/wiki/Software_design_pattern) is pretty good for them. |
+| Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002.                                                           | [EAA Website](http://martinfowler.com/eaaCatalog/)                                         |
+| Armando Fox, David Patterson: Engineering Software as a Service: An Agile Approach Using Cloud Computing (2nd Beta Edition).                      |                                                                                            |
 
 
 ## Important Links and further Information
@@ -77,5 +77,3 @@ Information about this course is dispersed in various places on the web - welcom
 * [Github](https://github.com/htw-imi-info3) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2786) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92267),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92268) for official course information.
-
-

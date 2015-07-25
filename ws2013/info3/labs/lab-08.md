@@ -19,7 +19,7 @@ Source code for this exercise: [https://github.com/htw-imi-info3/lab-08-blackwhi
 ### Grading Scale (Points = Procent)
 
 | Points | Grade | ECTS | Points | Grade | ECTS |
-| ---    | ---   | ---  | ---    | ---   | ---  |
+|:-------|:------|:-----|:-------|:------|:-----|
 | 95-100 | 1,0   | A    | 65-69  | 3,0   | C    |
 | 90-94  | 1,3   | A    | 60-64  | 3,3   | C    |
 | 85-89  | 1,7   | B    | 55-59  | 3,7   | D    |
@@ -33,7 +33,6 @@ Source code for this exercise: [https://github.com/htw-imi-info3/lab-08-blackwhi
 
 Submit your Report as PDF to moodle.
 
-[1]: http://en.wikipedia.org/wiki/Black\_box\_testing
-[2]: http://en.wikipedia.org/wiki/White\_box\_testing
 
-
+[1]: http://en.wikipedia.org/wiki/Black_box_testing
+[2]: http://en.wikipedia.org/wiki/White_box_testing

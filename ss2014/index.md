@@ -6,4 +6,4 @@ layout: page
 
 *   [Informatik 2](info2)
 *   [Informatik 3](info3)
-*   [Praxisprojekt](projekt)
+*   [Praxisprojekt](project)

@@ -8,7 +8,7 @@ layout: page
 
 Create a new Java Project in Eclipse (or your preferred IDE).
 
-Source Code for this Assignment: [https://github.com/info3/assignment_1](https://github.com/info3/assignment_1)
+Source Code for this Assignment: (removed)
 
 Create a Class Node as in Node.java as Head of a linked list and develop a method for deleting Nodes in a List test driven, that is, develop the Unit Tests first, as we did in class. Choose one of the two methods we discussed in class to help the assertions - creating a test helper method as in assert.java or creating a toString method as in toString.java.
 
@@ -45,5 +45,6 @@ After exploring Unit Testing in the first part, we will be looking at [black-box
 
 Submit your Report as PDF to moodle. If you want to, you can include all source code in a single zip file. You can upload up to two files to moodle - the pdf and the source code zip file.
 
-[1]: http://en.wikipedia.org/wiki/Black\_box\_testing
-[2]: http://en.wikipedia.org/wiki/White\_box\_testing
+
+[1]: http://en.wikipedia.org/wiki/Black_box_testing
+[2]: http://en.wikipedia.org/wiki/White_box_testing

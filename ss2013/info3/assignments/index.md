@@ -12,7 +12,7 @@ layout: page
 
 ## Other Material
 
-* [Preparation for Week 3](preparation-for-week-3.html)
+* Preparation for Week 3
 
 ## Guideline to Assignments
 

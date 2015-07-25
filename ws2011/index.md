@@ -14,7 +14,7 @@ link_category:
 *   Bluej-Projekte: [Book Projects (zip file, 1.7Mb)][3]
 *   [Grading Scale][4]
 
-Informatik 1 ist eine Einführung in die (Objektorientierte) Programmierung, mit Java und BlueJ. Ich orientiere ich mich am Info1-Konzept von Prof. Dr. Weber-Wulff, dessen Webseite Sie [hier finden können][5], aber nicht ansehen müssen. Die für unseren Kurs relevanten Informationen werden Sie jeweils hier bzw. in [Moodle ][6]finden.
+Informatik 1 ist eine Einführung in die (Objektorientierte) Programmierung, mit Java und BlueJ. Ich orientiere ich mich am Info1-Konzept von Prof. Dr. Weber-Wulff, dessen Webseite Sie [hier finden können][5], aber nicht ansehen müssen. Die für unseren Kurs relevanten Informationen werden Sie jeweils hier bzw. in Moodle finden.
 
 Die Kurstermine finden Sie im LSF:[ B1.1 Informatik 1][7] : 2x die Woche &#8220;Seminaristischer Unterricht&#8221; (SU) und am Freitag nachmittag [für jede Gruppe jeweils 2h Labor][8].
 
@@ -59,32 +59,34 @@ Buch: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009,
 
 &nbsp;
 
- [1]: http://moodle.htw-berlin.de/moodle/course/view.php?id=709
- [2]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64966
- [3]: http://www.bluej.org/objects-first/resources/projects.zip
- [4]: http://blog.infrastructure.de/grading-scale/ "Grading Scale"
- [5]: http://www.f4.htw-berlin.de/%7Eweberwu/info1 "Link: Info1 von Debbie"
- [6]: http://moodle.htw-berlin.de/moodle/course/view.php?id=709 "Info 1 Moodle"
- [7]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64966 "Info 1 SU"
- [8]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64871 "Info 1 Labor"
- [9]: mailto:j.schmolling@student.HTW-Berlin.de
- [10]: http://www.f4.htw-berlin.de/~weberwu/info1/links.shtml
- [11]: http://download.oracle.com/javase/tutorial/
- [12]: http://download.oracle.com/javase/tutorial/java/index.html
- [13]: http://blog.infrastructure.de/wp-content/uploads/2011/10/exercises-chapter-04.pdf
- [14]: http://blog.infrastructure.de/wp-content/uploads/2011/10/ticketmachine-exercises.pdf
- [15]: http://blog.infrastructure.de/info1-labinfo/ "Info1 Additional Lab Notes"
- [16]: http://blog.infrastructure.de/ws2011-info-1/info-1-exercise-startup/ "Info 1: Exercise-Startup"
- [17]: http://blog.infrastructure.de/ws2011-info-1/info-1-exercise-01/ "Info 1: Exercise-01"
- [18]: http://blog.infrastructure.de/ws2011-info-1/exercise-02/ "Exercise 02"
- [19]: http://blog.infrastructure.de/ws2011-info-1/exercise-03/ "Info 1: Exercise 03"
- [20]: http://blog.infrastructure.de/ws2011-info-1/exercise-04/ "Exercise 04: A Better Notebook"
- [21]: http://blog.infrastructure.de/ws2011-info-1/exercise-05/ "Exercise 05: Club Membership"
- [22]: http://blog.infrastructure.de/ws2011-info-1/exercise-06/ "Exercise 06: Lotto and Technical Support"
- [23]: http://blog.infrastructure.de/ws2011-info-1/exercise-07/ "Exercise 07: Bouncing Balls"
- [24]: http://blog.infrastructure.de/ws2011-info-1/exercise-08-junit/ "Exercise 08: JUnit"
- [25]: http://blog.infrastructure.de/ws2011-info-1/exercise-09/ "Exercise 09: The World of You"
- [26]: http://blog.infrastructure.de/ws2011-info-1/ws2011-info-1exercise-09/ "Exercise 09: Dealing with Objects"
- [27]: http://blog.infrastructure.de/ws2011-info-1/exercise-10/ "Exercise 10: Keeping Track of Stuff"
- [28]: http://blog.infrastructure.de/ws2011-info-1/exercise-1/ "Exercise 11: Pick up and Carry"
- [29]: http://blog.infrastructure.de/ws2011-info-1/exercise-12/ "Exercise 12: Dealing with Objects"
+
+ <br/>[2]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64966
+ <br/>[3]: http://www.bluej.org/objects-first/resources/projects.zip
+ <br/>[4]: # "Grading Scale"
+ <br/>[5]: http://www.f4.htw-berlin.de/%7Eweberwu/info1 "Link: Info1 von Debbie"
+ <br/>[7]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64966 "Info 1 <br/>SU"
+ <br/>[8]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64871 "Info 1 <br/>Labor"
+ <br/>[9]: #
+ <br/>[10]: http://www.f4.htw-berlin.de/~weberwu/info1/links.shtml
+ <br/>[11]: http://download.oracle.com/javase/tutorial/
+ <br/>[12]: http://download.oracle.com/javase/tutorial/java/index.html
+ <br/>[13]:
+ <br/>[14]:
+ <br/>[15]: "Info1 Additional Lab Notes"
+ <br/>[16]: "Info 1: Exercise-Startup"
+ <br/>[17]: "Info 1: Exercise-01"
+ <br/>[18]: "Exercise 02"
+ <br/>[19]: "Info 1: Exercise 03"
+ <br/>[20]: "Exercise 04: A Better Notebook"
+ <br/>[21]: "Exercise 05: Club Membership"
+ <br/>[22]: "Exercise 06: Lotto and Technical SupportThoseLinksDoNoLongerExist"
+ <br/>[23]: "Exercise 07: Bouncing Balls"
+ <br/>[24]: "Exercise 08: JUnit"
+ <br/>[25]: "Exercise 09: The World of You"
+ <br/>[26]: "Exercise 09: Dealing with Objects"
+ <br/>[27]: "Exercise 10: Keeping Track of Stuff"
+ <br/>[28]: "Exercise 11: Pick up and Carry"
+ <br/>[29]: "Exercise 12: Dealing with Objects"
+
+#ThoseLinksDoNoLongerExist
+This is an archived page which was originally on an older blog. Most of the links here don't exist anymore.

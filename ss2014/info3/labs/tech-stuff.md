@@ -4,7 +4,7 @@
 
 ## Which Computer to use?
 
-As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://people.f4.htw-berlin.de/labore/imi/web-technology.html) and rather unfolded their old, dirty little subnotebooks in front of the 27'' screens (which even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
+As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://imi-bachelor.htw-berlin.de/labore/web-technology/) and rather unfolded their old, dirty little subnotebooks in front of the 27'' screens (which even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
 
 If you become more proficient with standard tools like the command line and git, you will find it easier to switch between different computers and end up using the Macs at some point, anyway.
 
@@ -98,4 +98,3 @@ There is nothing to turn in for this e-Learning session or lab. If you get serio
 I won't, however, be particularly patient with your questions if I find that you start the first UML lab by researching an UML drawing tool for an hour, installing ruby instead of getting your head around the ruby syntax, and spend the rails lab with downloading XCode instead of creating your first web app, or in general seem to be unable to find and look at a file from the command line.
 
 We will also use most of the tools (except ruby and rails) next week for practicing git. So get started!
-

@@ -47,7 +47,7 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 
 **World of You**
 
-1.  Start with the bad Zuul game with tests - [zuul-withtests][1] -  and refactor it as discussed in the lectures.  
+1.  Start with the bad Zuul game with tests - zuul-withtests -  and refactor it as discussed in the lectures.  
     If you are doing mole burrows instead of rooms, you can change the variable names as needed.  
     The bored can prepare a multi-lingual version and use enums.
 2.  Draw an object diagram showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?
@@ -60,5 +60,3 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 # Writeup
 
 Submit your writeup as your post-lab to the Moodle area by 23.00 the night before your next lab.
-
- [1]: http://blog.infrastructure.de/wp-content/uploads/2011/12/zuul-withtests1.zip

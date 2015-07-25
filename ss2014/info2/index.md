@@ -30,7 +30,7 @@ The class consists of 2x2h of lectures and 2h of lab:
   * 2: Fridays,     14:00  -  15:30,  WH C 355
 * Tutorial:
   * Donnerstags, 15:45-17:15 in WHC 576 - Alexander Becker
-  * [Alexander.Becker@student.HTW-Berlin.de](Alexander.Becker@student.HTW-Berlin.de)
+  * Alexander.Becker@student.HTW-Berlin.de
   * [http://home.htw-berlin.de/~s0533351/](http://home.htw-berlin.de/~s0533351/)
 
 ## Grades
@@ -68,5 +68,3 @@ Information about this course is dispersed in various places on the web - welcom
 * [Github](https://github.com/htw-imi-info2) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2785) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92253),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92254) for official course information.
-
-

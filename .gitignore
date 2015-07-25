@@ -2,3 +2,4 @@ _site
 _site_htw
 .sass-cache
 *.out
+link-checker-crawled-pages.pstore

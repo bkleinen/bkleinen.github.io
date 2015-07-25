@@ -1,14 +1,14 @@
 name: Prof. Dr. B. Kleinen
 encoding: UTF-8
 serverencoding: UTF-8
+permalink: /blog/:title/
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: pygments
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-permalink: none
 baseurl: /
-exclude: ['Gemfile', 'Gemfile.lock', 'link-checker-crawled-pages.pstore','README.md','./_site_htw','_site_htw','/_site_htw/','./_site_htw/','_site_htw/','/_site_htw/']
+exclude: ['Rakefile','Gemfile', 'Gemfile.lock', 'link-checker-crawled-pages.pstore','README.md','./_site_htw','_site_htw','/_site_htw/','./_site_htw/','_site_htw/','/_site_htw/']
 defaults:
   -
     scope:

@@ -1,8 +1,6 @@
 ---
-title: B. Kleinen
+title: Prof. Dr. B. Kleinen
 ---
-
-# Prof. Dr. Barbara Kleinen
 
 [Detailed Contact Information](about/me.html)
 
@@ -36,8 +34,4 @@ There is also some info here if you consider writing your [Thesis](thesis/index.
 
 ## Announcements
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% include posts.html %}

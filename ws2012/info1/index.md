@@ -17,7 +17,7 @@ Programming is something you can&#8217;t learn out of a book &#8211; you have tr
 
 *   [Moodle][3]
 *   Veranstaltung in LSF: [SU][1], [Übungen][2]
-*   [Grading Scale][4]
+*   Grading Scale
 *   Code Examples: [GitHub][5], [inclass examples][6]
 
 **Tutorial:**
@@ -37,9 +37,6 @@ Book: D. Barnes; M. Kölling: *Objects first with Java. A Practical Introductio
 
  [1]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=78436
  [2]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=78437
- [3]: http://moodle2.htw-berlin.de/moodle/course/view.php?id=228
- [4]: http://blog.infrastructure.de/grading-scale/ "Grading Scale"
  [5]: https://github.com/htw-imi-info1/
- [6]: https://github.com/htw-imi-info1/inclass
  [7]: http://download.oracle.com/javase/tutorial/
  [8]: http://download.oracle.com/javase/tutorial/java/index.html
