@@ -5,3 +5,10 @@
 @import "general-layout";
 @import "responsive-start";
 @import "responsive";
+@import "boxes";
+
+{% if page.widesection %}
+section {
+  max-width:1300px;
+}
+{% endif %}

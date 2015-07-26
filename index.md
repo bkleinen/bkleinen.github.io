@@ -1,37 +1,56 @@
 ---
 title: Prof. Dr. B. Kleinen
+nobreadcrumbs: true
+layout: widesection
 ---
 
-[Detailed Contact Information](about/me.html)
+<p>Welcome to my homepage. It mainly contains information for my students.</p>
 
-## Lectures in SoSe 2015
+<div class = "box">
+<h4>Office Hours</h4>
+Last Office Hour Summer Term:
+Wed, 29/7/2015 12:30 WH-C 645
+<br/>
 
-{% include ss2015/lectures.md %}
-
-## Office Hours SoSe 2015
-
-(held in my office WH-C 645)
-
-<span style="font-weight:bold;color:red">Please check here regularly as I might have to reschedule my office hours quite often this term and read the notes below.</span>  
-
-more or less every
-### Wednesday, 12:30-13:30
-(check in here regularly, as I might have to postpone.)
-
-If you want to discuss your thesis or IC, please [make an appointment by putting your name in the wiki](https://github.com/bkleinen/bkleinen.github.io/wiki) to avoid long lines during office hours.
-
-I've put together some Information regarding [Baf&ouml;g](bafoeg/index.html) - please read them, maybe you don't need to come to see me at all.
+<small>
+If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a> to avoid long lines during office hours.
+<span class="attention">Please check back here shortly before in case I needed to reschedule.</span> </small>
+</div>
 
 
-## Various
+<div class = "box">
+<h4>Baf&ouml;g</h4>
+I'm the IMI-Baf&ouml;g-Beauftragte.<br/>
+I've put together some Information regarding <a href="bafoeg/index.html">Baf&ouml;g</a> - please read them, maybe you don't need to come to see me at all.
+</div>
 
-{% comment %}
-I'm the Bafög-Beauftragte for IMI. I've started to <a href = "bafoeg/index.html">compile some information/things</a> I've learned.
-{% endcomment %}
+<div class = "box">
+<h4>Classes Summer Term 2015</h4>
+<ul>
+<li>  <a href="/ss2015/info2">Informatik 2</a></li>
+<li>  <a href="/ss2015/project/index.html">Praxisprojekt Little Explorations/Treasure Map</a></li>
+</ul>
+</div>
+<div class = "box">
+<h4>Classes Winter Term 2015/2016</h4>
+... soon to come
+<ul>
+<li>Info1</li>
+<li>Info3</li>
+</ul>
+</div>
 
-There is also some info here if you consider writing your [Thesis](thesis/index.html) or [Independent Coursework](thesis/independent_coursework.html) with me.
+<div class = "box">
+<h4>Contact Information</h4>
+The best way to contact me is via email: <a href="mailto:barbara.kleinen@htw-berlin.de">barbara.kleinen@htw-berlin.de</a>.<br/>
+<a href="about/me.html">Here's the detailed Contact Information.</a>
+</div>
 
-
-## Announcements
+<div class = "box">
+<h4>Thesis</h4>
+<p>There is also some info here if you consider writing your <a href="thesis/index.html">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
+</div>
+<div class = "below">
+<h4>Announcements and News</h4>
 
 {% include posts.html %}
