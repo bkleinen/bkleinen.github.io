@@ -8,13 +8,16 @@ layout: widesection
 
 <div class = "box">
 <h4>Office Hours</h4>
-Last Office Hour Summer Term:
-Wed, 29/7/2015 12:30 WH-C 645
-<br/>
+Summer Break! - In August, I will
+schedule Skype-Appointments upon request - please send me an email.
+<br/>I will announce office hours for September soon.
 
+<br/>
+{% comment %}
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a> to avoid long lines during office hours.
 <span class="attention">Please check back here shortly before in case I needed to reschedule.</span> </small>
+{% endcomment %}
 </div>
 
 
