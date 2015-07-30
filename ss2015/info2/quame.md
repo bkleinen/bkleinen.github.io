@@ -125,7 +125,7 @@ Vorab etwas off-topic: Ich habe versucht die seite über den rechner abzurufen (
 
 Welche Seite? Funktioniert es jetzt wieder?
 
-### Und zurück zu info2:
+### Und zur&uuml;ck zu info2:
 
 Mein sierpinksy dreieck wird mir bis stufe x angezeigt. Doch habe ich das problem, dass es "schräg" verläuft. Ausgangspunkt für die obere spitze ist 0/0 auf dem bildschirm. Wie schaffe ich es, dass es "normal" aussieht?!
 

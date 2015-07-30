@@ -9,7 +9,7 @@ Seit dem SoSe 2014 bin ich Baf&ouml;-Beauftragte.
 FAQ:
 ===============
 
-Leistungsbescheinigung nach §48 Baf&ouml; (Formblatt 5)
+Leistungsbescheinigung nach &sect;48 Baf&ouml; (Formblatt 5)
 -----------------
 
 - wenn es in Ihrem Studium keine nennenswerten Verzögerungen gab, d.h. Sie so gut wie alle Kurse des 4. Semesters haben und vorraussichtlich in der Regelstudienzeit abschliessen, können Sie beim Studentenwerk Berlin/Brandenburg direkt den vom Studierendenservice gestempelten LSF- Leistungsnachweis über die erreichten ECTS einreichen. Da gibt es eine Vereinbarung. Falls das nicht akzeptiert wird, bitten Sie bitte die Mitarbeiter/in sich mit mir in Verbindung zu setzen bzw. teilen mir das einfach per email mit, und ich hake nochmal nach.

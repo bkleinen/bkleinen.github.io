@@ -18,7 +18,7 @@ Please prepare these Exercises \*before\* coming to lab!
 
 **P4. **Write a method isPrime that uses a while loop to test if a number given in a parameter is prime or not. A number is prime when it is divisible with a remainder of 0 only by 1 and itself.
 
-# Post-Lab, AKA  What To Turn In
+# Post-Lab - AKA  What To Turn In
 Your completed assignment, submitted in Moodle as a pdf + zipped sources,
 should include:
 - A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.

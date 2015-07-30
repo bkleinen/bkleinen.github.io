@@ -6,11 +6,11 @@ layout: page
 
 # Kolloquium
 
-## Wie wird der Termin für das Kolloquium festgelegt?
+## Wie wird der Termin f&uuml;r das Kolloquium festgelegt?
 
 I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, an dem der oder die Kandidatin und alle Betreuer Zeit haben, an die FB-Verwaltung. Dort wird der Notenzettel in der Prüfungsverwaltung angefordert (d.h. Sie sollten vorher sicherstellen, dass alle Ihre Noten im LSF eingetragen sind, und ggfs. die Dozenten oder die Betreuer darauf ansprechen - ohne Abschluß aller anderen Veranstaltung kann das Kolloquium nicht durchgeführt werden!) und dann der Termin offiziell festgelegt, und Sie bekommen ein offizielles Schreiben, in dem auch der Raum steht - in der Regel ist das der WH-C 603.
 
-## BA Kolloquium, wie läuft das ab, was muss ich wissen?
+## BA Kolloquium, wie l&auml;uft das ab, was muss ich wissen?
 
 In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
 

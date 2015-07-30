@@ -18,7 +18,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 **P3.** What sort of a data structure are you going to use to keep track of all the items a player has? Why?
 
-# Post-Lab, AKA  What To Turn In
+# Post-Lab - AKA  What To Turn In
 
 Your completed assignment, submitted in Moodle as a pdf, should include:
 

@@ -21,7 +21,7 @@ Please bring these exercises printed out or written out with you to lab.
   5. What is the difference between draw and fill?
   6. What does wait do?
 
-# Post-Lab, AKA  What To Turn In
+# Post-Lab - AKA  What To Turn In
 
 Your completed assignment, submitted in Moodle as a pdf, should include:
 

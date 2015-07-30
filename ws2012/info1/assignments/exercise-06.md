@@ -20,7 +20,7 @@ Please prepare these exercise before coming to the lab.
 
 **P4. ** How can you compare two names, stored as Strings, to see if they are the same?
 
-# Post-Lab, AKA  What To Turn In
+# Post-Lab - AKA  What To Turn In
 
 Your completed assignment, submitted in Moodle as a pdf, Source as Zip, should include:
 
