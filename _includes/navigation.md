@@ -1,6 +1,8 @@
 
-<p><a href="{{site.baseurl}}about/me.html">{{ site.name }}</a>
-  <span class = "nav-divider">|</span>
+<p><a href="{{site.baseurl}}">{{ site.name }}</a>
+  <span class = "nav-divider">|</span></p>
+  <p><a href="{{site.baseurl}}about/me.html">Contact Info</a>
+    <span class = "nav-divider">|</span></p>
 <p>
   <a href="{{site.baseurl}}">Lectures</a>
   <span class = "nav-divider">|</span></p>
