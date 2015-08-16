@@ -10,9 +10,14 @@ layout: widesection
 <h4>Office Hours</h4>
 Summer Break! - In August, I will
 schedule Skype-Appointments upon request - please send me an email.
-<br/>I will announce office hours for September soon.
-
 <br/>
+1/9/15, 14:00-15:00
+<br/>
+9/9/15, 17:30-18:00
+<br/>
+<span class="attention">I might leave earlier if no-one's there.</span>
+
+
 {% comment %}
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a> to avoid long lines during office hours.
@@ -44,15 +49,17 @@ I've put together some Information regarding <a href="bafoeg/index.html">Baf&oum
 </div>
 
 <div class = "box">
+<h4>Thesis</h4>
+<p>There is also some info here if you consider writing your <a href="thesis/index.html">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
+</div>
+
+<div class = "box">
 <h4>Contact Information</h4>
 The best way to contact me is via email: <a href="mailto:barbara.kleinen@htw-berlin.de">barbara.kleinen@htw-berlin.de</a>.<br/>
 <a href="about/me.html">Here's the detailed Contact Information.</a>
 </div>
 
-<div class = "box">
-<h4>Thesis</h4>
-<p>There is also some info here if you consider writing your <a href="thesis/index.html">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
-</div>
+
 <div class = "below">
 <h4>Announcements and News</h4>
 
