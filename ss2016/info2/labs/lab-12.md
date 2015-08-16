@@ -34,12 +34,10 @@ words in a suitable Collection of the Java Collections Framework.
 2. Implement the getNormalized() and equals() methods in [Permutation](https://github.com/htw-imi-info2/ScrabbleCheater/blob/master/src/scrabble/util/Permutation.java). Two Permutations should be equal if one is a permutation of the other - regardless of the actual words they represent. Having a look at the provided test cases and making them run might help with the implementation.
 3. To make the tests for Permutation work, also implement the methods that create Permutations in [PermutationUtilities](https://github.com/htw-imi-info2/ScrabbleCheater/blob/master/src/scrabble/util/PermutationUtilities.java)
 4. now implement the permutations() method in SimpleWordList that returns a Set of
-all the Words that are permutations of a given tile rack. That is, all words of the
-same length of the tile rack that can be build with it and that are in the word list,
-thus valid scrabble words.
+all the Words that are permutations of a given tile rack.
 5. How can you use the Permutation class to make looking up the permutations more efficient? (Hint: how often will normalize() be called a) for initialisation and
 b) for a lookup in your WordList?)
-1. In preparation of the final ScrabbleCheater, which will also find shorter words that can be built with the tile rack, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
+1. In preparation of the final ScrabbleCheater, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
 3. you might want to add a main method or some sort of interface to input words that should be looked up by your scrabble cheater. (e.g. taking a parameter or reading in tile racks from standard in)
 
 
