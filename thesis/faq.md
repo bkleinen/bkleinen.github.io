@@ -10,6 +10,11 @@ layout: page
 
 I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, an dem der oder die Kandidatin und alle Betreuer Zeit haben, an die FB-Verwaltung. Dort wird der Notenzettel in der Prüfungsverwaltung angefordert (d.h. Sie sollten vorher sicherstellen, dass alle Ihre Noten im LSF eingetragen sind, und ggfs. die Dozenten oder die Betreuer darauf ansprechen - ohne Abschluß aller anderen Veranstaltung kann das Kolloquium nicht durchgeführt werden!) und dann der Termin offiziell festgelegt, und Sie bekommen ein offizielles Schreiben, in dem auch der Raum steht - in der Regel ist das der WH-C 603.
 
+## In welchem Raum ist das Kolloquium?
+
+Wenn der Kolloquiumstermin mit genügend Vorlauf geplant wird, werden Sie normalerweise angeschrieben und darin über den Raum (der fast immer der WH-C 603 oder WH-C 273 ist) informiert. In diesen beiden Räumen gibt es Beamer mit HDMI- und VGA-Anschluss, davon können Sie auch sonst immer ausgehen. Falls das aus irgendwelchen Gründen nicht klappt, finden Sie eine Liste der aktuellen Kolloqiumstermine auf dieser Seite verlinkt:
+[http://www.f4.htw-berlin.de/fuer-studierende/abschlussarbeit-kolloquium/](http://www.f4.htw-berlin.de/fuer-studierende/abschlussarbeit-kolloquium/) - es ist übrigens auch möglich, die Kolloquien Ihrer Kommilitonen zu besuchen - der oder die Prüfling kann darüber entscheiden, wer beim Vortrag dabei sein soll, die Notenverkündung ist auch dann vertraulich (wir hatten schon Eltern und sogar einen Opa!).
+
 ## BA Kolloquium, wie l&auml;uft das ab, was muss ich wissen?
 
 In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
