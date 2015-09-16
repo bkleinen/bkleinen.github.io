@@ -3,53 +3,46 @@ title: Tentative Schedule
 author: kleinen
 layout: schedule
 ---
-
-{% include ws2014/info3.md %}
-
-
-| Week | KW | Tuesday    | Friday     | Lecture Topic                                                                   | Lab                                                                                                                               | Group     |
-|:-----|:---|:-----------|:-----------|:--------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:----------|
-| -    | -- | ---------- | ---------- | **Part 1: Intro, Tools & Ruby**                                                 |                                                                                                                                   |           |
-| 1    | 41 | 09/10/2014 |            | Intro to Info3                                                                  |                                                                                                                                   |           |
-|      |    |            | 10/10/2014 | Ruby Intro                                                                      | Installation Party 14:00-15:30 WH-C 537 for both groups!                                                                          | both      |
-| 2    | 42 | 16/10/2014 |            | Source Code Management and Continuous Integration                               |                                                                                                                                   |           |
-|      |    |            | 17/10/2014 | More Ruby, Pair Programming and Code Review                                     | [1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup.html)                                                          | 1. Gruppe |
-| -    | -- | ---------- | ---------- | **Part 2: Software Engineering, Processes and Software Design**                 |                                                                                                                                   |           |
-| 3    | 43 | 23/10/2014 |            | Practical Git                                                                   |                                                                                                                                   |           |
-|      |    |            | 24/10/2014 | Software Engineering and Software Development Processes                         | [1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup.html)                                                          | 2. Gruppe |
-| 4    | 44 | 30/10/2014 |            | Agile Manifesto, Scrum (Scrum Ceremonies and Sprints)                           |                                                                                                                                   |           |
-|      |    |            | 31/10/2014 | The Rational Unified Process, Requirements Engineering                          | [2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                                                            | 1. Gruppe |
-| 5    | 45 | 06/11/2014 |            | System Modelling and Architectural Design                                       |                                                                                                                                   |           |
-|      |    |            | 07/11/2014 | Software Design Patterns                                                        | [2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                                                            | 2. Gruppe |
-| 6    | 46 | 13/11/2014 |            | e-learning: [Refactoring](../material/refactoring.html)                         |                                                                                                                                   |           |
-|      |    |            | 14/11/2014 | Application Architectures                                                       | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html)                                            | 1. Gruppe |
-| 7    | 47 | 20/11/2014 |            | Patterns of Enterprise Application Architecture(POEAA)                          |                                                                                                                                   |           |
-|      |    |            | 21/11/2014 | Distributed Systems and SOA                                                     | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html)                                            | 2. Gruppe |
-| 8    | 48 | 27/11/2014 |            | Software Testing                                                                |                                                                                                                                   |           |
-|      |    |            | 28/11/2014 | Working with Legacy Code                                                        | [4 - Testing](../labs/lab-04-testing.html)                                                                                        | 1. Gruppe |
-| 9    | 49 | 04/12/2014 |            | Clean Code                                                                      |                                                                                                                                   |           |
-|      |    |            | 05/12/2014 | Clean Code                                                                      | [4 - Testing](../labs/lab-04-testing.html)                                                                                        | 2. Gruppe |
-| 10   | 50 | 11/12/2014 |            | SOLID Principles, Refactoring to Patterns                                       |                                                                                                                                   |           |
-|      |    |            | 12/12/2014 | OO In Depth 1: Composition and Inheritance                                      | [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)                                                           | 1. Gruppe |
-| 11   | 51 | 18/12/2015 |            | fällt aus                                                                       |                                                                                                                                   |           |
-|      |    |            | 19/12/2014 | fällt aus                                                                       | fällt aus - bitte am 12.12. oder 9.1. in die Übung kommen [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html) | 2. Gruppe |
-| 12   | 02 | 08/01/2015 |            | OO In Depth 2: Ruby Dynamic Typing, Duck Typing                                 |                                                                                                                                   |           |
-|      |    |            | 09/01/2015 | Rails Dash and Preparation for the Rails Project                                | [6 - Rails First Steps](../labs/lab-06-rails-1.html)                                                                              | 1. Gruppe |
-| 13   | 03 | 15/01/2015 |            | Introduction to Rails, POEAA Revisited, Model View Controller                   |                                                                                                                                   |           |
-|      |    |            | 16/01/2015 | ORM and Associations in Rails                                                   | [6 - Rails First Steps](../labs/lab-06-rails-1.html)                                                                              | 2. Gruppe |
-| 14   | 04 | 22/01/2015 |            | Internationalization and Localization                                           |                                                                                                                                   |           |
-|      |    |            | 23/01/2015 | Dependency Management and Working with APIs                                     | [7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)                                                    | 1. Gruppe |
-| 15   | 05 | 29/01/2015 |            | Build Management, Continuous Deployment                                         |                                                                                                                                   |           |
-|      |    |            | 30/01/2015 | Klausurvorbereitung                                                             | [7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)                                                    | 2. Gruppe |
-| 16   | 06 | 05/02/2015 |            | No Lecture (Prüfungszeit)                                                       |                                                                                                                                   |           |
-|      |    |            | 06/02/2015 | Klausur 14:00 - 17:15 (vor. 2 Gruppen; genaue Zeit wird kurzfristig festgelegt) |                                                                                                                                   |           |
-| 17   | 07 | 12/02/2015 |            | Klausureinsicht                                                                 |                                                                                                                                   |           |
-|      |    |            | 13/02/2015 | Showtime ?                                                                      |                                                                                                                                   |           |
-
 {% comment %}
-TODO:
-|-      |--     |----------|----------|**Part 3: Software Development Practices and OOD in Practice** |                                                                                      |         |
-evtl Application Architectures insgesamt weiter nach hinten stellen
-und das vor Legacy unterbringen: Software Configuration Management, Maven
-
+{% include ws2014/info3.md %}
+d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} | #{i+40} | %a, %Y-%m-%d |"),(d+(7*(i-1))+1).strftime("|   |    | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}
+https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
 {% endcomment %}
+
+
+| Week | KW | Date            | Lecturer | Lecture Topic                                            | Lab | Topic                                                                              |
+|:-----|:---|:----------------|:---------|:---------------------------------------------------------|:----|:-----------------------------------------------------------------------------------|
+| 1    | 41 | Thu, 2015-10-08 | DWW      | Intro to Software Engineering                            |     |                                                                                    |
+|      |    | Fri, 2015-10-09 | DWW      | Socio-technical Systems and Ethics                       | 1   | Ethische Fallbeispiele                                                             |
+| 2    | 42 | Thu, 2015-10-15 | DWW      | Software Processes                                       |     |                                                                                    |
+|      |    | Fri, 2015-10-16 | ---      | no class                                                 | 1   | no lab! whole day for all on 2015-10-08                                            |
+| 3    | 43 | Thu, 2015-10-22 | DWW      | Requirements Engineering                                 |     |                                                                                    |
+|      |    | Fri, 2015-10-23 | BK       | A Requirements Example                                   | 2   | [Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                 |
+| 4    | 44 | Thu, 2015-10-29 | DWW      | Requirements Elicitation                                 |     |                                                                                    |
+|      |    | Fri, 2015-10-30 | BK       | Agile Development                                        | 2   | [Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                 |
+| 5    | 45 | Thu, 2015-11-05 | DWW      | System Models (Ch. 5 ISSE)                               |     |                                                                                    |
+|      |    | Fri, 2015-11-06 | BK       | Architectural Design                                     | 3   | [Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html) |
+| 6    | 46 | Thu, 2015-11-12 | DWW      | Design Patterns (GoF)                                    |     |                                                                                    |
+|      |    | Fri, 2015-11-13 | BK       | Patterns of Enterprise Application Architectures         | 3   | [Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state.html) |
+| 7    | 47 | Thu, 2015-11-19 | DWW      | Software Testing                                         |     |                                                                                    |
+|      |    | Fri, 2015-11-20 | BK       | Software Testing im Entwicklungsprozess (CI, CD)         | 4   | [Testing](../labs/lab-04-testing.html)                                             |
+| 8    | 48 | Thu, 2015-11-26 | DWW      | Legacy Code                                              |     |                                                                                    |
+|      |    | Fri, 2015-11-27 | BK       | Source Code Management, Software Development Tools       | 4   | [Testing](../labs/lab-04-testing.html)                                             |
+| 9    | 49 | Thu, 2015-12-03 | BK       | Refactoring                                              |     |                                                                                    |
+|      |    | Fri, 2015-12-04 | BK       | SOLID                                                    | 5   | [Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)                |
+| 10   | 50 | Thu, 2015-12-10 | BK       | Ruby Intro                                               |     |                                                                                    |
+|      |    | Fri, 2015-12-11 | BK       | Rails I                                                  | 5   | [Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)                |
+| 11   | 51 | Thu, 2015-12-17 | DWW      | Project Management                                       |     |                                                                                    |
+|      |    | Fri, 2015-12-18 | DWW      | Measurement and Metrics                                  | 6   | [6 - Rails First Steps](../labs/lab-06-rails-1.html)                               |
+| 12   | 1  | Thu, 2016-01-07 | DWW      | Software Cost Estimation                                 |     |                                                                                    |
+|      |    | Fri, 2016-01-08 | BK       | Rails II (Models, Internationalization and Localization) | 6   | [6 - Rails First Steps](../labs/lab-06-rails-1.html)                               |
+| 13   | 2  | Thu, 2016-01-14 | DWW      | Quality Management                                       |     |                                                                                    |
+|      |    | Fri, 2016-01-15 | BK       | Clean Code - Preparation                                 | 7   | [7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)     |
+| 14   | 3  | Thu, 2016-01-21 | DWW      | Clean Code - Presentation                                |     |                                                                                    |
+|      |    | Fri, 2016-01-22 | BK       | Object Orientation In Depth, Duck Typing                 | 7   | [7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)     |
+| 15   | 4  | Thu, 2016-01-28 | DWW      | Software as a Service                                    |     |                                                                                    |
+|      |    | Fri, 2016-01-29 | BK       | Dependency Management and Working with APIs              |     |                                                                                    |
+| 16   | 5  | Thu, 2016-02-04 | BK       | Klausurvorbereitung                                      |     |                                                                                    |
+|      |    | Fri, 2016-02-05 | DWW+BK   | EXAM                                                     |     |                                                                                    |
+| 17   | 6  | Thu, 2016-02-11 | DWW+BK   | Klausureinsicht                                          |     |                                                                                    |
+|      |    | Fri, 2016-02-12 |          | Showtime                                                 |     |                                                                                    |

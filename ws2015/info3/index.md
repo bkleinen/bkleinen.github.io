@@ -4,13 +4,15 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2014/info3.md %}
+... soon to come! the tentative joint schedule is here: [Schedule](schedule/index.html)
 {% comment %}
+{% include ws2014/info3.md %}
+
 Info3 todo:
 - LSF, Moodle Links
 - Grading
 - class meetings
-{% endcomment %}
+
 # Welcome!
 
 Info 3 is the roundup of the Info 1-3 cyclus. In Info1, you learned programming, and the basics of object orientated design of software. Info2 dived into advanced programming with data structures and algorithms. Info3 rounds that up by giving you insights into how actually design and develop software at a bigger picture.
@@ -89,3 +91,4 @@ There is no textbook for this class. Here are the main books this class is based
 | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: _Design Patterns. Elements of Reusable Object-Oriented Software._ Addison-Wesley, 1994. | [Wikipedia](http://en.wikipedia.org/wiki/Software_design_pattern) is pretty good for them. |
 | Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002.                                                           | [EAA Website](http://martinfowler.com/eaaCatalog/)                                         |
 | Armando Fox, David Patterson: Engineering Software as a Service: An Agile Approach Using Cloud Computing (2nd Beta Edition).                      |                                                                                            |
+{% endcomment %}
