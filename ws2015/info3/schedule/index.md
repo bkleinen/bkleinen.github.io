@@ -15,7 +15,7 @@ https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P
 | 1    | 41 | Thu, 2015-10-08 | DWW      | Intro to Software Engineering                            |     |                                                                                    |
 |      |    | Fri, 2015-10-09 | DWW      | Socio-technical Systems and Ethics                       | 1   | Ethische Fallbeispiele                                                             |
 | 2    | 42 | Thu, 2015-10-15 | DWW      | Software Processes                                       |     |                                                                                    |
-|      |    | Fri, 2015-10-16 | ---      | no class                                                 | 1   | no lab! whole day for all on 2015-10-08                                            |
+|      |    | Fri, 2015-10-16 | ---      | no class                                                 | 1   | no lab! whole day for all on 2015-10-09                                            |
 | 3    | 43 | Thu, 2015-10-22 | DWW      | Requirements Engineering                                 |     |                                                                                    |
 |      |    | Fri, 2015-10-23 | BK       | A Requirements Example                                   | 2   | [Use Cases and Class Diagrams](../labs/lab-02-usecases-class.html)                 |
 | 4    | 44 | Thu, 2015-10-29 | DWW      | Requirements Elicitation                                 |     |                                                                                    |
