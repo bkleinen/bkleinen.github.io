@@ -3,7 +3,7 @@ title: Exercise Startup
 author: kleinen
 layout: lab
 ---
-{% include ws2015/info1.md %}
+
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems. For this lab, you can work with Mac OS or Windows.
 

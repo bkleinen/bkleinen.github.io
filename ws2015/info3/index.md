@@ -4,8 +4,6 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2015/info3.md %}
-
 # Welcome!
 
 Info 3 is the roundup of the Info 1-3 cyclus. In Info1, you learned programming, and the basics of object oriented design of software. Info2 dived into advanced programming with data structures and algorithms. Info3 rounds that up by giving you insights into how to actually design and develop software at a bigger picture.

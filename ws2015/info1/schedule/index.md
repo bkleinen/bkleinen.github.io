@@ -4,7 +4,7 @@ author: kleinen
 layout: schedule
 ---
 
-{% include ws2015/info1.md %}
+
 
 Please note that there will be no Info1 classes in the first week due to introductionary things. In the second week, there will be no lecture and lab on Tuesday due to a conference - I found no sensible time slot to move our first lab to, so we'll be starting off in the third week.
 

@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2015/info1.md %}
+
 
 ## Moodle
 

@@ -3,7 +3,7 @@ title: Info3 Schedule (tentative)
 author: kleinen
 layout: schedule
 ---
-{% include ws2015/info3.md %}
+
 {% comment %}
 d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} | #{i+40} | %a, %Y-%m-%d |"),(d+(7*(i-1))+1).strftime("|   |    | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}
 {% endcomment %}

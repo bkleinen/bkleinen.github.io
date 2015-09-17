@@ -2,9 +2,7 @@
 title: Info3 - Labs and Exercises
 author: kleinen
 layout: page
-coursenav: ws2015/info3.md
 ---
-{% include ws2015/info3.md %}
 
 ## Exercises
 * [Exercise 01 - Case Studies of Ethical Questions](#)
