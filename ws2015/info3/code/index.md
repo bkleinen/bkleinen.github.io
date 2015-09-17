@@ -5,8 +5,11 @@ layout: page
 ---
 
 
-All code examples can be found on the github organization [htw-imi-info3](https://github.com/htw-imi-info3) - please note that there's also stuff form former semesters, this is the list of repositories "released" for this term WS2014/15:
+All code examples can be found on the github organization [htw-imi-info3](https://github.com/htw-imi-info3) - please note that there's also stuff form former semesters, this is the list of repositories "released" for this term WS2015/16:
 
+None so far.
+
+{% comment %}
 ## Lectures
 * 01: Ruby Learning [https://github.com/htw-imi-info3/rubylearning](https://github.com/htw-imi-info3/rubylearning)
 * 02: Git Demo [https://github.com/htw-imi-info3/su-03-gitdemo](https://github.com/htw-imi-info3/su-03-gitdemo)
@@ -17,3 +20,4 @@ All code examples can be found on the github organization [htw-imi-info3](https:
 * [Lab 05 Legacy Code: Java Eclipse Version](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
 * [Lab 05 Legacy Code: Java Maven Version](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose)
 * [Lab 06 Rails 1: HTW](https://github.com/htw-imi-info3/lab-06-railsapp-HTW)
+{% endcomment %}

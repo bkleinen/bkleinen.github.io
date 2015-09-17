@@ -1,21 +1,8 @@
 ---
-title: Informatics 1 WS 2014/15
+title: Informatics 1 WS 2015/16
 author: kleinen
 layout: page
 ---
-
-
-
-## Moodle
-
-There are different Moodle Courses for this course this semester: 
-
-* One for the Lecture - [Moodle SU](https://moodle.htw-berlin.de/course/view.php?id=3994) - where you'll find the slides, additional material and the place to upload the lecture notes.
-* One for your Lab where you'll upload your lab reports:
-    * [Moodle Lab Group 1](https://moodle.htw-berlin.de/course/view.php?id=4070) 
-    * [Moodle Lab Group 2](https://moodle.htw-berlin.de/course/view.php?id=4069)
-
-This was necessary because it was the only way to get the groups from LSF into Moodle and automatically create subgroups. Sorry for the confusion, but then you'll see only the lab uploads that are relevant for you.
 
 ## Welcome!
 
@@ -30,13 +17,8 @@ adhere to the grammar and spelling rules of the respective language.
 
 ## Meetings
 
-The class consists of 2x2h of lectures and 2h of lab:
-
-* Lecture: Tuesdays, 9:45 -11:15 and 12:15-13:45 and Wed 14:00-15:30 in WH-C 335
-* [Labs:](labs)
-  * Group1: Tuesday, 12:15-13:45 in WH C 537 (B. Kleinen) [Moodle Lab Group 1](https://moodle.htw-berlin.de/course/view.php?id=4070)
-  * Group2: Thursday, 12:15-13:45 in WH-C 576 (M. Krüger) [Moodle Lab Group 2](https://moodle.htw-berlin.de/course/view.php?id=4069)
-
+The class consists of 2x2h of lectures and 2h of lab per week. Find the details in
+LSF.
 
 ## Grades
 
@@ -63,16 +45,16 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](http://www.htw-berlin.de/studien-und-weiterbildungsangebot/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 Labor WHC 576
-
+{% comment %}
 * [Alexander Becker](http://bobafett2000.de), Thurdays 15:45-17:15 WH-C 576
-
+{% endcomment %}
 ## Java-Tutorials and Book
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
 German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](http://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
 
-You can also obtain an older editions - example and chapter order vary, but the general information is the same.
+You can also obtain an older edition - examples and chapter order vary, but the general content is the same.
 
 There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8], as they are very concise and comprehensive.
 
@@ -80,13 +62,14 @@ There are tons of Java Tutorials out there on the web, my recommendation are the
  [7]: http://download.oracle.com/javase/tutorial/
  [8]: http://download.oracle.com/javase/tutorial/java/index.html
 
-## Important Links and further Information
+## Important Links and Further Information
 
-Information and resources of this course are dispersed in various places/applications on the web - welcome to the web 2.0. These are:
+On the top of the page you find a couple of links you'll find you'll be using a lot during the term:
 
-* These pages for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
-* [Github](https://github.com/htw-imi-info1) for publicly accessible code examples for the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
-* [Stundenplan](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231) des 1. Semesters 
-* [Moodle](https://moodle.htw-berlin.de/course/view.php?id=3994) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports 
-*  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=95889),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=96280) for official course information. 
+{% include ws2015/info1.md %}
+Information on this class is dispersed depending on the nature of the information and wether it should be public or not.
 
+* These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{site.baseurl}}general/grading-scale.html)
+* Moodle (link above) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
+* [Github](https://github.com/htw-imi-info1) for publicly accessible code examples used in the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
+*  last not least [LSF System](https://lsf.htw-berlin.de), where you can find class times and rooms. Note that is possible to see the general schedule for your Semester (Term Schedule above) and also Schedules for all people teaching ([Dozentenpläne](https://lsf.htw-berlin.de/qisserver/rds?state=change&type=5&moduleParameter=personDPlanSearch&nextdir=change&next=search.vm&subdir=person)) - this is often the fastest way to find out the room for your next class.

@@ -1,5 +1,5 @@
 ---
-title: Web Applications WS2014/2015 -  Schedule
+title: Web Applications WS2015/2016 -  Schedule
 author: kleinen
 layout: schedule
 ---
