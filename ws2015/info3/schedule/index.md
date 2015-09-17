@@ -1,12 +1,11 @@
 ---
-title: Tentative Schedule
+title: Info3 Schedule (tentative)
 author: kleinen
 layout: schedule
 ---
-{% comment %}
 {% include ws2015/info3.md %}
+{% comment %}
 d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} | #{i+40} | %a, %Y-%m-%d |"),(d+(7*(i-1))+1).strftime("|   |    | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}
-https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
 {% endcomment %}
 
 
