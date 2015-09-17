@@ -1,7 +1,7 @@
 bkleinen.github.io
 ==================
 
-https://travis-ci.org/bkleinen/bkleinen.github.io.svg?branch=master
+[![Build Status](https://travis-ci.org/bkleinen/bkleinen.github.io.svg)](https://travis-ci.org/bkleinen/bkleinen.github.io)
 
 Information for HTW Students
 
