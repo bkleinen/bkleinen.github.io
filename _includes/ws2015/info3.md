@@ -1,5 +1,4 @@
-
-[Schedule]({{site.baseurl}}ws2015/info3/schedule/index.html)
+Info3: [Schedule]({{site.baseurl}}ws2015/info3/schedule/index.html)
 | [Labs]({{site.baseurl}}ws2015/info3/labs/index.html)
 | [Code Examples]({{site.baseurl}}ws2015/info3/code/index.html)
 | [Moodle](https://moodle.htw-berlin.de)

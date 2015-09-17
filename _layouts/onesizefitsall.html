@@ -12,9 +12,12 @@
         </nav>
         <main>
           <div class = "outer">
+            {% unless page.nobreadcrumbs %}
+            {% include breadcrumbs.md %}
+            {% endunless %}
             <h1 class = "title">{{ page.title}}</h1>
-              {% include coursenav.md %}
           </div>
+          <div class = "coursenav">{% include coursenav.md %}</div>
             {{ content }}
         </main>
 
