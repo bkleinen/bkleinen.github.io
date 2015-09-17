@@ -4,7 +4,7 @@ author: kleinen
 layout: schedule
 ---
 {% comment %}
-{% include ws2014/info3.md %}
+{% include ws2015/info3.md %}
 d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} | #{i+40} | %a, %Y-%m-%d |"),(d+(7*(i-1))+1).strftime("|   |    | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}
 https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
 {% endcomment %}
@@ -33,13 +33,13 @@ https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P
 | 10   | 50 | Thu, 2015-12-10 | BK       | Ruby Intro                                               |     |                                                                                    |
 |      |    | Fri, 2015-12-11 | BK       | Rails I                                                  | 5   | [Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy.html)                |
 | 11   | 51 | Thu, 2015-12-17 | DWW      | Project Management                                       |     |                                                                                    |
-|      |    | Fri, 2015-12-18 | DWW      | Measurement and Metrics                                  | 6   | [6 - Rails First Steps](../labs/lab-06-rails-1.html)                               |
+|      |    | Fri, 2015-12-18 | DWW      | Measurement and Metrics                                  | 6   | [Rails First Steps](../labs/lab-06-rails-1.html)                                   |
 | 12   | 1  | Thu, 2016-01-07 | DWW      | Software Cost Estimation                                 |     |                                                                                    |
-|      |    | Fri, 2016-01-08 | BK       | Rails II (Models, Internationalization and Localization) | 6   | [6 - Rails First Steps](../labs/lab-06-rails-1.html)                               |
+|      |    | Fri, 2016-01-08 | BK       | Rails II (Models, Internationalization and Localization) | 6   | [Rails First Steps](../labs/lab-06-rails-1.html)                                   |
 | 13   | 2  | Thu, 2016-01-14 | DWW      | Quality Management                                       |     |                                                                                    |
-|      |    | Fri, 2016-01-15 | BK       | Clean Code - Preparation                                 | 7   | [7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)     |
+|      |    | Fri, 2016-01-15 | BK       | Clean Code - Preparation                                 | 7   | [Rails Associations and Internationalization](../labs/lab-07-rails-2.html)         |
 | 14   | 3  | Thu, 2016-01-21 | DWW      | Clean Code - Presentation                                |     |                                                                                    |
-|      |    | Fri, 2016-01-22 | BK       | Object Orientation In Depth, Duck Typing                 | 7   | [7 - Rails Associations and Internationalization](../labs/lab-07-rails-2.html)     |
+|      |    | Fri, 2016-01-22 | BK       | Object Orientation In Depth, Duck Typing                 | 7   | [Rails Associations and Internationalization](../labs/lab-07-rails-2.html)         |
 | 15   | 4  | Thu, 2016-01-28 | DWW      | Software as a Service                                    |     |                                                                                    |
 |      |    | Fri, 2016-01-29 | BK       | Dependency Management and Working with APIs              |     |                                                                                    |
 | 16   | 5  | Thu, 2016-02-04 | BK       | Klausurvorbereitung                                      |     |                                                                                    |

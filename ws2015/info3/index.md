@@ -6,7 +6,7 @@ layout: page
 
 ... soon to come! the tentative joint schedule is here: [Schedule](schedule/index.html)
 {% comment %}
-{% include ws2014/info3.md %}
+{% include ws2015/info3.md %}
 
 Info3 todo:
 - LSF, Moodle Links

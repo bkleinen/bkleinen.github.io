@@ -3,7 +3,7 @@ title: 'Exercise 01 - Lab Startup and Ruby Finger Exercises'
 author: kleinen
 layout: page
 ---
-{% include ws2014/info3.md %}
+{% include ws2015/info3.md %}
 
 ![Workplace](images/workplace.jpg "pumpkins")
 <small class = "float-right">Nerd Workplace. Foto by [slworking2](https://www.flickr.com/photos/slworking/8539204081/)</small>
