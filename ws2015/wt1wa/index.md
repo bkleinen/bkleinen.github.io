@@ -4,11 +4,9 @@ author: kleinen
 layout: page
 ---
 
-
-
 ## Welcome!
 
-WT1 Web Application is the introductionary class for the Web Technology focus. The Pr&uuml;fungsordnung states
+WT1 Web Applications is the introductory class for the Web Technology focus. The Pr&uuml;fungsordnung states
 
 ### Lernergebnis und Kompetenzen
 
@@ -18,25 +16,21 @@ WT1 Web Application is the introductionary class for the Web Technology focus. T
 * Sie wissen, wie sie die Usability von Web-Anwendungen messen k&ouml;nnen
 * Sie sind dazu in der Lage, die Sicherheitsrisiken f&uuml;r Web- Anwendungen abzusch&auml;tzen und k&ouml;nnen geeignete Maßnahmen ergreifen, um eine Web-Anwendung abzusichern.
 
-This leaves us a lot of freedom. Rather than setting the topics beforehand, we will decide on them during first session.
 
-## Meetings and Time 
+## Meetings and Time
 
-The class is a practical class; we only meet once a week for 2hrs: 
+The class is a practical class; we only meet once a week for 2hrs (see LSF) -
+but it has **5 ECTS Points**, which means that you will have to devote 125-150 h altogether for this class - with 17 weeks in the semester this is something about 7.5 - 9 hrs or roughly one day each week!
 
-Group 1: Thursdays, 9:45-11:15 in WH C 537
-Group 2: Thursdays, 14:00-15:30 WH C 352
+## Schedule
 
-
-but it has 5 ECTS Points, which means that you will have to devote 125-150 h altogether for this class - with 17 weeks in the semester this is something about 7.5 - 9 hrs or roughly one day each week!
-
-## Schedule 
-
+TBD
+{% comment %}
 The schedule is in the [Wiki](https://github.com/htw-imi-webapplications/bentobox/wiki/).
-
+{% endcomment%}
 ## Grades
 
-This is a practical course. You will be required to create a web application for a topic and with the technology you choose, and have to prepare one presentation on one of the topics. 
+This is a practical course. You will be required to create a web application for a topic and with the technology you choose, and have to prepare one presentation on one of the topics.
 
 ## Language
 
@@ -51,5 +45,3 @@ adhere to the grammar and spelling rules of the respective language.
 [Berners-Lee, Tim (March 1989). "Information Management: A Proposal". World Wide Web Consortium. ](http://www.w3.org/History/1989/proposal.html)
 
 ... and more to come
-
-

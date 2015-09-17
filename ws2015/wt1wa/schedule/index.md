@@ -3,10 +3,10 @@ title: Web Applications WS2015/2016 -  Schedule
 author: kleinen
 layout: schedule
 ---
-|||
-|a|b|
 
+Soon to come!
 
+{% comment%}
 
 
 Topics - general Thoughts
@@ -41,3 +41,4 @@ General Topics
 | 15   | 05 | 29/01/2015 |                              |                           |            |                                                                 |
 | 16   | 06 | 06/02/2015 | Review                       |                           |            |                                                                 |
 | 17   | 07 | 12/02/2015 | Tre                          |                           |            |                                                                 |
+{% endcomment%}
