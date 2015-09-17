@@ -14,7 +14,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 **P2**. What assertions do you need in order to be able to automate the tests?
 
-# Post-Lab - AKA  What To Turn In
+# Post-Lab, AKA What To Turn In
 Your completed assignment, submitted in Moodle as a pdf,
 should include:
 

@@ -18,7 +18,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 **P4. **Where can you find information about javadoc on the Internet?
 
-# Post-Lab - AKA  What To Turn In
+# Post-Lab, AKA What To Turn In
 Your completed assignment, submitted in Moodle as a pdf,
 should include:
 - A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
