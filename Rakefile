@@ -15,17 +15,14 @@ namespace "test" do
   task :internal_links => :run_jekyll do
     HTML::Proofer.new("./_site",url_ignore: $ignore, disable_external: true).run
   end
-  task :failer do
-    puts "SOMETHING HAPPENED!!!!"
-    sh "false"
-  end
+
   task :travis do
     begin
       result = Rake::Task["test:links"].invoke
     rescue => e
         $stderr.puts "Checking the links failed!"
         $stderr.puts "Failed with a #{e.class}, Message: #{e.message}"
-        $stderr.puts "re-running for just the external links."
+        $stderr.puts "Re-Running for just the Internal Links."
         Rake::Task["test:internal_links"]
     end
   end
