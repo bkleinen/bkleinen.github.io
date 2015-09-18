@@ -25,8 +25,8 @@ LSF.
 Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
 
 * Lecture summaries: 10%
-* Lab reports: 50%
-* Exam: 50%
+* Lab reports: 40%
+* Exam: 60%
 
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
