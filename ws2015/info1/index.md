@@ -6,7 +6,7 @@ layout: page
 
 ## Welcome!
 
-Informatics 1 is an introduction to object oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing programs, designing simple algorithms, about control structures, data types and structures, objects and classes. We will start off in Greenfoot, though, teaching a little lady bug to complete simple tasks by programming our first algorithms.
+Informatics 1 is an introduction to object-oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing programs, designing simple algorithms, about control structures, data types and structures, objects and classes. We will start off in Greenfoot, though, teaching a little lady bug to complete simple tasks by programming our first algorithms.
 
 ## Language
 

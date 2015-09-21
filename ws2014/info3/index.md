@@ -29,9 +29,9 @@ The Modulbeschreibung states the following goals for Info3:
    Software umsetzen.
 
 Thus, Software Engineering, Software System Design, the UML and Software Design Patterns are set as topics.
-As one example of media system applications, we will look deeper into Web Application Development. Web Application Development has two main characteristics: it is a fast-changing environment, and agile development practices are pivotal. Furthermore, if web applications are successful they become long-running software, thus the ability to maintain an old codebasis is also important. Therefore, we will also look into best practices to support agile software development ("Best Practices") as well as designing for ease of change ("Clean Code" and "Advanced Object Oriented Design").
+As one example of media system applications, we will look deeper into Web Application Development. Web Application Development has two main characteristics: it is a fast-changing environment, and agile development practices are pivotal. Furthermore, if web applications are successful, they become long-running software, thus the ability to maintain an old codebasis is also important. Therefore, we will also look into best practices to support agile software development ("Best Practices") as well as designing for ease of change ("Clean Code" and "Advanced Object Oriented Design").
 
-Have a look at how this breaks down to this (tentative) [Schedule](schedule).
+Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
 ## Meetings and Due Dates
 
@@ -63,7 +63,7 @@ I will let excel automatically choose the most favourable option for you if you 
 
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
-If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the whole 10% - they are either done or not done, and not graded on content.
+If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the entire 10% - they are either done or not done, and not graded on content.
 They can be in txt, pdf or markdown format.
 
 ## Lab Reports

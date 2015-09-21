@@ -24,9 +24,9 @@ The Modulbeschreibung states the following goals for Info3:
    Software umsetzen.
 
 Thus, Software Engineering, Software System Design, the UML and Software Design Patterns are set as topics.
-As one example of media system applications, we will look deeper into Web Application Development. Web Application Development has two main characteristics: it is a fast-changing environment, and agile development practices are pivotal. Furthermore, if web applications are successful they become long-running software, thus the ability to maintain an old codebasis is also important. Therefore, we will also look into best practices to support agile software development ("Best Practices") as well as designing for ease of change ("Clean Code" and "Advanced Object Oriented Design").
+As one example of media system applications, we will look deeper into Web Application Development. Web Application Development has two main characteristics: it is a fast-changing environment, and agile development practices are pivotal. Furthermore, if web applications are successful, they become long-running software, thus the ability to maintain an old codebasis is also important. Therefore, we will also look into best practices to support agile software development ("Best Practices") as well as designing for ease of change ("Clean Code" and "Advanced Object Oriented Design").
 
-Have a look at how this breaks down to this (tentative) [Schedule](schedule).
+Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
 ## Meetings
 

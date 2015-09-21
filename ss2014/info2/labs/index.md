@@ -24,7 +24,7 @@ layout: page
 {% endcomment %}
 
 
-After having a look into designing an object oriented application in lab 1 and 2, we will do a lot of small-scale programming in Java during this term. As in Info1, each lab has a pre-lab part, that you are expected to do before coming to the lab, an assignment that you work on during the lab. Usually, you're expected to turn in a report on what you did during the lab.
+After having a look into designing an object-oriented application in lab 1 and 2, we will do a lot of small-scale programming in Java during this term. As in Info1, each lab has a pre-lab part, that you are expected to do before coming to the lab, an assignment that you work on during the lab. Usually, you're expected to turn in a report on what you did during the lab.
 
 There are a couple of important changes for the labs compared with Info1:
 

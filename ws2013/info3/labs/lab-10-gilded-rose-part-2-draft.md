@@ -13,7 +13,7 @@ layout: page
 
 Refactor the Gilded Rose and add the requested new functionality.
 
-Last week, you've developed characterization tests for the guilded rose. Secured by that, you're now safe to refactor the given implementation to a good object oriented design - but don't forget the goblin in the corner!
+Last week, you've developed characterization tests for the guilded rose. Secured by that, you're now safe to refactor the given implementation to a good object-oriented design - but don't forget the goblin in the corner!
 
 That is, you can't simply create an Item-Hierarchy where each item knows how to update it's quality. You have to find another solution without touching the Item-Class.
 

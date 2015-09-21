@@ -8,7 +8,7 @@ layout: page
 
 # Welcome!
 
-Info 1 is an introduction to object oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing programs, designing simple algorithms, about control structures, data types and structures, objects and classes.
+Info 1 is an introduction to object-oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing programs, designing simple algorithms, about control structures, data types and structures, objects and classes.
 
 ## Meetings
 

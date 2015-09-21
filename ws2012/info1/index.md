@@ -5,7 +5,7 @@ layout: page
 ---
 # Welcome!
 
-Info 1 is an introduction to object oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing little programs, designing simple algorithms, about control structures, data types and structures, objects and classes. The class consists of 2x2h of lectures and 2h of lab, all happening on Thursdays. You&#8217;ll find all information about the when & where in LSF:  [SU][1], [Lab][2].
+Info 1 is an introduction to object-oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing little programs, designing simple algorithms, about control structures, data types and structures, objects and classes. The class consists of 2x2h of lectures and 2h of lab, all happening on Thursdays. You&#8217;ll find all information about the when & where in LSF:  [SU][1], [Lab][2].
 
 **Exercises**
 

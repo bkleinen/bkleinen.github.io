@@ -29,7 +29,7 @@ There will be 12 graded exercises (No 00 won't be graded). The graded exercises 
 
 ### Lecture summaries (10%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. It is due at 23.00 Thursday nights - to just have one due date for everything. You can, of course, hand them in earlier.
-If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the whole 10% - they are either done or not done, and not graded on content.
+If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the entire 10% - they are either done or not done, and not graded on content.
 They can be in txt, pdf or markdown format.
 
 

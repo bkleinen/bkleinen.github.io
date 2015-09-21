@@ -13,7 +13,7 @@ In particular we will be concentrating on how to solve (small) problems using a 
 Ruby so that you get a feel for the language and learn something about differences
 in programming languages.
 
-Have a look at how this breaks down to this (tentative) [Schedule](schedule).
+Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
 ## Meetings/Weekly Schedule
 
@@ -53,7 +53,7 @@ More info about the Lab Reports can be found on the [Labs](labs) page.
 ### Lecture summaries (15%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. They are due Mondays 10:00 a.m. You can, of course, hand them in earlier.
 
-If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28 lectures altogether, I expect you to write summaries for 24 of them to get the whole 15% - they are either done or not done, and not graded on content.
+If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28 lectures altogether, I expect you to write summaries for 24 of them to get the entire 15% - they are either done or not done, and not graded on content.
 They can be in txt, pdf or markdown format.
 
 ## Exam

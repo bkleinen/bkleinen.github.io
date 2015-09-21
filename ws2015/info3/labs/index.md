@@ -5,7 +5,7 @@ layout: page
 ---
 
 ## Exercises
-* Exercise 01 - Case Studies of Ethical Questions
+* [Exercise 01 - Case Studies of Ethical Questions](lab-01-casestudies.html)
 * [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class.html)
 * [Exercise 03 - Sequence Diagrams and State Machine Diagrams](lab-03-sequence-state.html)
 * [Exercise 04 - Testing](lab-04-testing.html)
