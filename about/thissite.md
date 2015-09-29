@@ -39,7 +39,7 @@ http://bkleinen.github.io
 
 To ease working on the css stylesheets, I also use [Sass](http://sass-lang.com/) preprocessing.
 
-As of Jekyll 2.2.0, this is part of jekyll. So I updated my site to use the build in Sass support. To do so, only the sass/scss files go into /css and need add this to trigger the files beeing handled by jekyll:
+As of Jekyll 2.2.0, this is part of jekyll. So I updated my site to use the built-in Sass support. To do so, only the sass/scss files go into /css and need to start with the following lines to trigger the files beeing handled by jekyll:
 
     ---
     ---
