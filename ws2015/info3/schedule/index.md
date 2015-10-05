@@ -12,7 +12,7 @@ d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} 
 | Week | KW | Date            | Lecturer | Lecture Topic                                            | Lab | Topic                                                                              |
 |:-----|:---|:----------------|:---------|:---------------------------------------------------------|:----|:-----------------------------------------------------------------------------------|
 | 1    | 41 | Thu, 2015-10-08 | DWW      | Intro to Software Engineering                            |     |                                                                                    |
-|      |    | Fri, 2015-10-09 | DWW      | Socio-technical Systems and Ethics                       | 1   | Ethische Fallbeispiele                                                             |
+|      |    | Fri, 2015-10-09 | DWW      | Socio-technical Systems and Ethics                       | 1   | [Case Studies of Ethical Questions](../labs/lab-01-casestudies.html)               |
 | 2    | 42 | Thu, 2015-10-15 | DWW      | Software Processes                                       |     |                                                                                    |
 |      |    | Fri, 2015-10-16 | ---      | no class                                                 | 1   | no lab! whole day for all on 2015-10-09                                            |
 | 3    | 43 | Thu, 2015-10-22 | DWW      | Requirements Engineering                                 |     |                                                                                    |
