@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 01: Programming Kara'
+title: 'Exercise 01: Programming Kara - Advanced'
 author: kleinen
 layout: lab
 ---

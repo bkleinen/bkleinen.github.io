@@ -12,7 +12,8 @@ Starting with [Exercise 01](exercise-01.html), you'll find a section **Pre-Lab**
 
 ## Exercises
 * [Exercise 00 - Exercise Startup](exercise-00.html)
-* [Exercise 01 - Programming Kara](exercise-01.html)
+* [Exercise 01 a - Programming Kara First Steps](exercise-01-a.html)
+* [Exercise 01 b - Programming Kara Advanced](exercise-01-b.html)
 * [Exercise 02 - Shapes and Ticket Machine](exercise-02.html)
 * [Exercise 03 - Book Exercise](exercise-03.html)
 * [Exercise 04 - Rock Around the Clock](exercise-04.html)
