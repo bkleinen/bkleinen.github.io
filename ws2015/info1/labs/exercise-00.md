@@ -5,7 +5,7 @@ layout: lab
 ---
 
 
-Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems. For this lab, you can work with Mac OS or Windows.
+Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 576 and WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems. For this lab, you can work with Mac OS or Windows.
 
 We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find [an overview here](http://imi-bachelor.htw-berlin.de/labore/) as well as the [Laborordnung](http://imi-bachelor.htw-berlin.de/labore/laborordnung/).
 
@@ -24,7 +24,7 @@ It is usually a good idea to save your work at regular intervals. We sometimes h
 
 You need to get used to keeping a logbook in the lab. It can be analog (i.e. on paper) or digital. Make sure that you label and date your logbook. Keep track of everything you do in the logbook - even if you are really excited and want to keep playing. You will save time later if you can easily retrace your steps. Your lab leader will show you how to set up an online logbook. Make a logbook for today and take notes on what we do. This will be turned in as a lab report this week. Don't forget your name!
 
-### 2. Logging in and getting ready for the exercises
+### 2. Logging in and Getting Ready for the Exercises
 
 Now that you have your FB 4 username, you also have a home directory. This is where all your files can be placed. You can access it both from Mac OS, Windows and from Ubuntu. Since BlueJ is installed under MacOS, we will be using it here, although there are also versions for Ubuntu and Windows.
 
@@ -32,9 +32,9 @@ After you have logged in, look around - where do you find a browser? How many br
 
     > java -version
 
-### 3. Download and install Greenfoot:
+### 3. Download and Install Greenfoot:
 
-***Update 21.20.2014: Greenfoot is already installed in 567, 579 and on MacOS in 537***
+***Update 21.20.2014: Greenfoot is already installed in 576, 579 and on MacOS in 537***
 
  *  first chose a location for Greenfoot and the Scenarios: On the lab pcs, use your home directory, on your own laptop it's up to you. Think of a useful folder structure - maybe
  *  .../info1/greenfoot/greenfoot - for the greenfoot installation .../info1/greenfoot/scenarios - for the greenfoot scenarios.
@@ -44,13 +44,14 @@ After you have logged in, look around - where do you find a browser? How many br
  *  The download page can be found at: [http://www.greenfoot.org/download](http://www.greenfoot.org/download)
  *  Then download the first kara scenario from [github][1] (there is a "ZIP" Button!) and unpack it in your scenarios folder. Then open Greenfoot and open the scenario - now you can play around with Kara! For this first exercise, there is no special programming assignment. But you could create a second Kara, try to make it permanent by finding the "save the world" menu item or even modify the act() method within MyKara.
 
-### 4. Take a Photo and Write Something about you Team members
+### 4. Take a Photo and Write Something about Your Team Members
 
 * In your groups, take a photo of each one of you to include in the report(s).
 * Briefly introduce each one to me in the report: the two others should interview and write something about each person. Ask him or her what brought you here, and something that helps me remember his or her name.
 
 
 ### 5. Logging Out
+
 When it comes time to log out, _be very careful._ Computers can be very fussy about this.
 Think of it as a friend who will be insulted if you do not properly say goodbye.
 The proper way is to click on the icon that looks like a power button and select "Benutzer
@@ -66,7 +67,7 @@ Submit your writeup, explaining what you did and what you learned, as your post-
 
 Make sure to include your name and a photo at the top of your report.
 
-## For the bored
+## For the Bored
 
 This first lab is really about getting started, getting to know the infrastructure and make sure that you are able to run Kara programs in Greenfoot yourself during the next week. If you feel bored, you might start off right away with working on the the [prelab of next week lab](exercise-01.html).
 
