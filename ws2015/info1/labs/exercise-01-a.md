@@ -5,7 +5,7 @@ layout: lab
 ---
 ## Pre-Lab
 
-1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2015.zip)
+1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2015.zip). You will use the scenarios 01-01 through 01-08 for this lab.
 2.   Read through [Worksheet 1](material/info1-02-worksheet-kara1.pdf)
 
 ## Assignment
@@ -22,48 +22,51 @@ an older version of the tutorial.
    classes on the right hand side. How can you call the Kara actions and sensors directly? What happens if you
    call a sensor directly? How do you find out the actual state of Kara apart from looking at the screen?
    How are the directions stored, e.g. if Kara faces upwards?
-2. How do you change the World and save the changed World such that your changes are still there after a click
+2. How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click
     on the reset or compile buttons?   
-3. Solve every Exercise on the Worksheet.
+3. Solve every exercise on the worksheet.
    How can the task be decomposed into single steps (calls to the act-method)?
    That is, make use of the run-loop in Greenfoot -
    think carefully about what should be achieved by each step.
    For example, the walk-in-a-square exercise can be solved
    by four times walking an edge, thus, each call to the act()-method should make Kara walk only one edge. In
-   which direction should Kara be turned after each step? Make use of an counter to determine when to call Greenfoot.stop(),e.g.:
+   which direction should Kara face after each step? Make use of ```Greenfoot.stop()``` or the method ```stopAfterStep(n)``` if you simply
+   want the act-method execute 4 times if you press "run", for example:
 
-```java
-    public class MyKara extends Kara
-    {
-        int i = 0;
-        public void act()
-        {   
-            move();
-            i++;
-            if (i == 4){
-                Greenfoot.stop();
-            }
-        }  
-    }
-```
+   ```java
+   public void act()
+       {  
+           move();
+           stopAfterStep(4);
+       }
+   ```
+
+For example, to simply move until you encounter a leaf:
+
+   ```java
+   public void act()
+       {  
+           // you might want to do something else in each step ...
+           move();
+           if (onLeaf()){
+              Greenfoot.stop();
+           }  
+       }
+   ```
+
 ### For the bored
 Some of you will already have some programming experience, and be a bit bored by the assignment above. Thus, most assignments will contain
 one or more exercises "for the bored". These are optional; you don't have to do them to get all stars! If you decide to do them, however,
 you can skim your report on the other parts as seems appropriate and concentrate on the parts that you hopefully found less boring.
 
-5. For the bored: The logic for calling Greenfoot.stop() after the forth call clutters the act() method. Can you write
-   a method ```stopAfterStep(int steps)``` that can be used as in the example below? This makes it much easier to assess what the
-   act method actually does: each step (call to ```act()``` ) moves Kara one step; and this is done 4 times.
+5. For the bored: Can you make sure that the act() method is only called n times by "run" without using the provided ```stopAfterStep(n)``` method?
+   Can you write your own ```stopAfterStep(n)``` method?
 
-```java
-public void act()
-    {  
-        move();
-        stopAfterStep(4);
-    }
-```
+5. For the bored: Try to find more elegant/readable solutions for the tasks above, by declaring methods that make the act method more readable,
+   as we did by defining a method for walking around a tree.
+5. You could also just start working on next week's exercise (which should be documented in next weeks report).
 
-5. For the bored: Try to find more elegant/readable solutions for the tasks above, by declaring methods that make the act method more readable.
+
 
 ## Post-Lab, AKA What to Turn In
 
