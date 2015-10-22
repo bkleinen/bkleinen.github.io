@@ -32,5 +32,4 @@ Postal address:
 HTW Berlin, Fachbereich 4, 10313 Berlin
 
 Visiting address:
-[Wilhelminenhofstr. 75a, 12459 Berlin](http://www.htw-berlin.de/htw/standorte/campus-wilhelminenhof/) - Gebäude C
-
+[Wilhelminenhofstr. 75a, 12459 Berlin](https://www.htw-berlin.de/campus/campus-wilhelminenhof/) - Gebäude C

@@ -9,7 +9,17 @@ end
 
 namespace "test" do
   task :links => :run_jekyll do
-    HTML::Proofer.new("./_site",url_ignore: $ignore).run
+    HTML::Proofer.new("./_site",url_ignore: $ignore,
+     :typhoeus => {
+        :ssl_verifypeer => 0, ssl_verifyhost: 0, verbose: false
+      }).run
+  end
+
+  task :links_verbose => :run_jekyll do
+    HTML::Proofer.new("./_site",url_ignore: $ignore,
+     :typhoeus => {
+        :ssl_verifypeer => 0, ssl_verifyhost: 0, verbose: true
+      }).run
   end
 
   task :internal_links => :run_jekyll do
