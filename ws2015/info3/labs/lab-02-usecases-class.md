@@ -18,11 +18,11 @@ First, have a look at the description of the system:
 
 Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats. The product manager has asked you to design and develop the platform for their business.
 
-Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats. For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight, and of course it's price and wether it has been carved already.
+Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats. For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight, and of course it's price and whether it has been carved already.
 
-Users should be able to buy a pumpkin online and have it delivered to an address of their choice. They can pay via various payment methods, at least money transfer, credit card and a popular online payment service called money pal.
+Users should be able to buy a pumpkin online and have it delivered to an address of their choice. They can pay via various payment methods, at least money transfer, credit card and a popular online payment service called MoneyPal.
 
-As this is an international service, treat/product descriptions should be available in various languages, for the first phase english and german should be made available.
+As this is an international service, treat/product descriptions should be available in various languages, for the first phase English and German should be made available.
 
 Users should also be able to rate the treats and post reviews and fotos. Administrators can edit and delete those reviews as needed.
 
@@ -48,11 +48,11 @@ See the section "About Use Cases" below for a detailed instruction.
 Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](http://www.agilemodeling.com/artifacts/classDiagram.htm).
 
 
-### What to turn in 
+### What to turn in
 
 Include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. I don't really recommend using an UML tool, because it will probably slow you down considerably if you are using it for the first time. Using CRC Cards on the other hand may be an advantage.
 
----- 
+----
 
 ## About Use Cases
 Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
@@ -65,18 +65,18 @@ An [actor](http://en.wikipedia.org/wiki/Actor_%28UML%29) is something or someone
 
 A [use case][2] is an instance of how an actor would use a software system or a service offered by the system. More than one actor can participate in a use case. We draw use case diagrams to visualize the use cases and write out the use cases using templates, such as the one given in [Wikipedia][2]. Use case diagrams are decorated with the name given to the use case. A scenario will typically describe the sequence of concrete activities that happen when a user is interacting with the proposed system. It is a detailed, step-by-step description of observable behaviors - that is, it does not describe the internal workings of the machine, but what a user can observe from the outside. We are not worried about how it will be done on the inside, but instead just want to see if the use of the system makes sense. We can branch inside a scenario using an **if** statement and can repeat steps using a **while** statement. A scenario will not have exceptional conditions. If it is describing one such exceptional interaction, then it explains each step of what happens. A scenario also does not extend another scenario - it just describes what happens in this concrete instance. We give **names** to scenarios, so that we can talk about them. The name should somehow be connected to the use case it is describing. Then we describe any **precondition** that must hold before the scenario can commence. For example: The user has a valid EC card. Then the sequence of steps is listed, followed by a **postcondition** describing what must hold at the end of the scenario. For example, the account linked to the EC card has been debited by 100 Euros and the user now has 100 Euros cash in her hands and the card is now marked as having been used on the current day.
 
-| Name | ATM Cash Withdrawal |
-| ---- | -------------------  |
-| Precondition | Emmy has an EC card with a readable magnetic stripe & the EC card is valid & the EC card is linked to an account with this bank |
+| Name              | ATM Cash Withdrawal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Precondition      | Emmy has an EC card with a readable magnetic stripe & the EC card is valid & the EC card is linked to an account with this bank                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Sequence of steps | 1. Emmy puts her card in the magnetic card reader.<br/>2. A screen appears asking the user what she wants to do.<br/>3. She points to "display balance" on the screen.<br/>4. The machine displays the balance and a continuing menu.<br/>5. Emmy selects "other actions".<br/>6. Emmy selects "withdrawal".<br/>7. The machine asks for the PIN number.<br/>8. Emmy enters her PIN and presses the green button.<br/>9. The machine asks how much money she wants.<br/>10. Emmy selects the button labelled 150 Euros.<br/>11. If (Emmy has enough money in her account) then Money is prepared for dispensing<br/>12. Else (Error screen is displayed)<br/>13. The machine returns her EC card.<br/>14. If (Money ready for dispensing) then Money is dispensed. |
-| Postcondition | Emmy is in possession of her card and 150 Euros & the bank account linked to this card has had 150 Euros deducted & the card is now marked as having been used today. |
+| Postcondition     | Emmy is in possession of her card and 150 Euros & the bank account linked to this card has had 150 Euros deducted & the card is now marked as having been used today.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 There are also scenarios sometimes referred to as "secondary scenarios" which describe alternate paths. They have their own name, the name of the scenario to which they are referring, and a description of the problem or alternative faced.
 
-| Name | Invalid PIN |
-| ----- | -----------|
-| Scenario based on | ATM Cash Withdrawal |
-| Exception | Repeat steps 7 and 8 twice if the user enters in an invalid PIN. If the third time still does not give the correct PIN, then retain the card. |
+| Name              | Invalid PIN                                                                                                                                   |
+|:------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
+| Scenario based on | ATM Cash Withdrawal                                                                                                                           |
+| Exception         | Repeat steps 7 and 8 twice if the user enters in an invalid PIN. If the third time still does not give the correct PIN, then retain the card. |
 
 A number of scenarios are usually collected and abstracted into a Use Case and expressed graphically by a Use Case Diagram. The elements of a Use Case often include:
 
