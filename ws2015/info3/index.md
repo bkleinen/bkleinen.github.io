@@ -40,8 +40,8 @@ Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 The class consists of 2x2h of lectures  and 4h of lab every fortnight (alternating group 1 & group 2).
 Due dates:
 
-* Lecture Notes of last week: Thursday 23:00
-* Lab Reports: Thursday 23:00 before your next lab.
+* Lecture Notes of last week: Wednesday 22:00
+* Lab Reports: Thursday 22:00 before your next lab.
 
 
 ## Grades
