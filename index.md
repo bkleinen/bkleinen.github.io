@@ -18,7 +18,7 @@ layout: widesection
 
 <div class = "box">
 <h4>Office Hours in WS2015/16</h4>
-Tuesdays, 14:00-14:30 in my office.
+Tuesdays, 13:00-14:00 in my office.
 
 <br>
 <small>
