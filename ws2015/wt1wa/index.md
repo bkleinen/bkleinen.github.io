@@ -68,4 +68,7 @@ adhere to the grammar and spelling rules of the respective language.
 * [Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html)
 * [Ruby Language](https://www.ruby-lang.org/en/)
 
+## Some more links
+
+* [Students Groups Admin Link in Github](https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/collaboration)
 ... and more to come
