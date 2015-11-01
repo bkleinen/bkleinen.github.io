@@ -8,7 +8,7 @@ layout: widesection
 
 <div class = "below">
 <h4>Announcements and News</h4>
-{% include posts.html %}
+{% include posts/posts.html %}
 </div>
 
 

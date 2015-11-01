@@ -1,7 +1,7 @@
 name: Prof. Dr. B. Kleinen
 encoding: UTF-8
 serverencoding: UTF-8
-permalink: /blog/:title/
+permalink: /news/:title/
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
