@@ -4,9 +4,8 @@ nobreadcrumbs: true
 layout: widesection
 ---
 
-<p>Welcome to my homepage. It mainly contains information for my students.</p>
 
-<div class = "below">
+<div class = "above">
 <h4>Announcements and News</h4>
 {% include posts/posts.html %}
 </div>

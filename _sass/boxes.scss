@@ -7,7 +7,12 @@
   padding: 3px;
   border: 1px solid $htw-grau;
 }
-
+.above {
+  max-width:518px;
+  margin: 0.3em;
+  padding: 0.2em;
+  border: 1px solid $htw-grau;
+}
 .below {
   max-width:518px;
   clear: left;
