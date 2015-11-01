@@ -6,6 +6,11 @@ layout: widesection
 
 <p>Welcome to my homepage. It mainly contains information for my students.</p>
 
+<div class = "below">
+<h4>Announcements and News</h4>
+{% include posts.html %}
+</div>
+
 
 <div class = "box">
 <h4>Classes Winter Term 2015/2016</h4>
@@ -40,8 +45,9 @@ I've put together some Information regarding <a href="bafoeg/index.html">Baf&oum
 <p>There is also some info here if you consider writing your <a href="thesis/index.html">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
 </div>
 
-
 <div class = "below">
-<h4>Announcements and News</h4>
-
-{% include posts.html %}
+&nbsp;
+{% comment%}
+- this is a hack to keep the footer below, needs to be fixed.
+{% endcomment%}
+</div>

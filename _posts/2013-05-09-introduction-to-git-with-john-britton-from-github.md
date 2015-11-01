@@ -5,6 +5,7 @@ layout: post
 # permalink: /2013/05/introduction-to-git-with-john-britton-from-github/
 categories:
   - veranstaltungen
+  - old
 ---
 John Britton from GitHub offered to teach an introduction to Git at the HTW &#8211; so I happily invited him to our Info3-Class!
 

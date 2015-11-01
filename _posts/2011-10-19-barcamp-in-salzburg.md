@@ -5,6 +5,7 @@ layout: post
 # permalink: /2011/10/barcamp-in-salzburg/
 categories:
   - Uncategorized
+  - old
 ---
 Am 28./29. Oktober gibt es von der FH Salzburg organisiert ein BarCamp zu den Themen Web Design und Web Development:
 
