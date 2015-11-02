@@ -4,12 +4,10 @@ nobreadcrumbs: true
 layout: widesection
 ---
 
-
 <div class = "above">
 <h4>Announcements and News</h4>
 {% include posts/posts.html %}
 </div>
-
 
 <div class = "box">
 <h4>Classes Winter Term 2015/2016</h4>
@@ -23,21 +21,18 @@ layout: widesection
 <div class = "box">
 <h4>Office Hours in WS2015/16</h4>
 Tuesdays, 13:00-14:00 in my office.
-
+<span class = "highlight">KW 36: No Office Hours Tuesday, Wed  11.11 15:00-15:20 instead!</span>
 <br>
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a> to avoid long lines during office hours.
 </small>
-
 </div>
-
 
 <div class = "box">
 <h4>Baf&ouml;g</h4>
 I'm the IMI-Baf&ouml;g-Beauftragte.<br/>
 I've put together some Information regarding <a href="bafoeg/index.html">Baf&ouml;g</a> - please read them, maybe you don't need to come to see me at all.
 </div>
-
 
 <div class = "box">
 <h4>Thesis</h4>
