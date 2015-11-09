@@ -82,7 +82,7 @@ Lab assignments are due the night before your next lab at 23.00. They may, of co
  The body of this method should assign the value of the parameter to the refNumber field. Add the corresponding accessor getRefNumber.
 6. Modify your printDetails method to include printing the reference number. However, the method should print the reference number only if it has been set. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your setRefNumber mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
-8. (for the bored, or interested:) Kara-Special: Recall Exercise 1 of Worksheet 2 (which can be found in Moodle) where Kara had to count leaves. Create a Kara that has a countedLeaves instance variable and a suitable getter (accessor) method (and does count as in this exercise, of course). Would you say that it makes sense to add a mutator method as well? Why or why not? Experiment with this Kara a bit and examine how the countedLeaves Instance Variable is changed.
+8. (for the bored, or interested:) Kara-Special: Recall Exercise 1 of Worksheet 2 (which can be found in Moodle) where Kara had to count leaves. Create a Kara that has a countedLeaves instance variable and a suitable getter (accessor) method (and does count as in this exercise, of course). Would you say that it makes sense to add a mutator method as well? Why or why not? Experiment with this Kara a bit and examine how the countedLeaves instance variable is changed.
 
 **Writeup**
 
