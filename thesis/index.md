@@ -18,13 +18,18 @@ Thus, if you have a thesis topic idea in these areas you might want to talk to m
 This usually works best if you send an email with a brief description of the topic (a couple of sentences) and come to
 see me personally, e.g. during my office hours.
 
-# Topics for WS 2015
-
-I'm already pretty booked for the coming winter term. If you have an idea in the above areas, come talk to me.
-
 ## Industry Itches
 
 I'm always happy to supervise topics that scratch an actual itch found in the wild in cooperation with a company.
+
+# Topics for SS 2016
+
+Will be presented on 16/December.
+
+{% comment %}
+
+I'm already pretty booked for the coming winter term. If you have an idea in the above areas, come talk to me.
+
 
 
 # Further Information and Links
@@ -63,3 +68,5 @@ lightweight open source solutions for supporting the scrum ceremonies out there.
 * Tools for Agile Retrospectives (probably already taken)
 
 Again, different focus points (Infrastructure, interoperabilty with mobile devices, User Interface, Data Exchange) are possible for these topics.
+
+{% endcomment %}

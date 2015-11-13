@@ -5,6 +5,7 @@ layout: post
 categories:
   - Women
   - Events
+  - old
 ---
 Am kommenden Sonntag, 8.11. findet die nächste Schreibwerkstatt des Projekts "Women.Wikipedia.Design"
  mit dem Ziel statt, mehr Autorinnen für die Wikipedia zu gewinnen.
