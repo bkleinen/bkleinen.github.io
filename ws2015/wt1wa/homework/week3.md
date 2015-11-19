@@ -10,7 +10,7 @@ layout: default
      - implement a search
      - implement a sort on a field
      - create forms editing more than one object
-3. If you're more than 2 people in the group, pick another view to work on.
+3. If you're more than 2 people in the group, pick a second view to work on.
 4. Add rspec and basic test cases as discussed in class.
 5. Set up Continuous Integration with Travis (or another service)
 4. Deploy your project to heroku.
