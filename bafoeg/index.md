@@ -9,6 +9,7 @@ Seit dem SoSe 2014 bin ich Baf&ouml;g-Beauftragte des Studiengangs IMI. Auch wen
 - http://www.refrat.de/beratung.bafoeg.html?1401814142
 - http://www.bafoeg-rechner.de
 - https://www.htw-berlin.de/studieninteressierte/finanzierung/bafoeg-bildungskredit/
+- [Arbeiterkind](http://www.arbeiterkind.de/)
 
 Leistungsbescheinigung nach &sect;48 Baf&ouml;g (Formblatt 5)
 -----------------
