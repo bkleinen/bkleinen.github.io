@@ -21,7 +21,7 @@ layout: widesection
 <div class = "box">
 <h4>Office Hours in WS2015/16</h4>
 Tuesdays, 11:30-12:30 in my office.
-<span class = "highlight">KW 48: No Office Hours Tuesday 24.Nov! </span>
+<span class = "highlight">22.12. : Office Hours 15-16 </span>
 <br>
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a> to avoid long lines during office hours.
@@ -37,7 +37,7 @@ I've put together some Information regarding <a href="bafoeg/index.html">Baf&oum
 <div class = "box">
 <h4>Thesis</h4>
 <p>There is also some info here if you consider writing your <a href="thesis/index.html">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
-</div>
+</div>  
 
 <div class = "below">
 &nbsp;
