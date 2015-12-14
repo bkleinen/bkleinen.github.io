@@ -33,10 +33,10 @@ This schedule is tentative and subject to change!
 | 8    | 48 | Tue, 2015-12-01 | Public vs. Private, Interfaces, Class Variables                                              | [Exercise 06](../labs/exercise-06.html)     |
 |      |    | Thu, 2015-12-03 | Writing Class Documentation, Unit Testing, Test Automation                                   |                                             |
 | 9    | 49 | Tue, 2015-12-08 | Modularization, Interfaces, Debugging, Walkthroughs                                          | [Exercise 07](../labs/exercise-07.html)     |
-|      |    | Thu, 2015-12-10 | Designing Classes, Coupling, Cohesion, Refactoring                                           |                                             |
-| 10   | 50 | Tue, 2015-12-15 | Refactoring                                                                                  | [Exercise 08](../labs/exercise-08.html)     |
+|      |    | Thu, 2015-12-10 | Testing and Interfaces                                                                       |                                             |
+| 10   | 50 | Tue, 2015-12-15 | Designing Classes, Coupling, Cohesion, Refactoring                                           | [Exercise 08](../labs/exercise-08.html)     |
 |      |    | Thu, 2015-12-17 | Refactoring                                                                                  |                                             |
-| 11   | 51 | Tue, 2015-12-22 | Using the main, Inheritance, Subtyping, Polymorphism, Protected                              | [Exercise 09](../labs/exercise-09.html)     |
+| 11   | 51 | Tue, 2015-12-22 | Refactoring                                                                                  | [Exercise 09](../labs/exercise-09.html)     |
 | ---  | -- | Thu, 2016-12-24 | --------------------------- CHRISTMAS!   ---------------------------------                   | ------------------------                    |
 | 12   | 1  | Tue, 2016-01-05 | Welcome to the new year: Repetition                                                          | [Exercise 10](../labs/exercise-10.html)     |
 |      |    | Thu, 2016-01-07 | Using the main, Inheritance, Subtyping, Polymorphism, Protected                              |                                             |
