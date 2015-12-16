@@ -8,6 +8,7 @@ task :run_jekyll do
 end
 
 namespace "test" do
+  desc "Check All Links Contained in Site"
   task :links => :run_jekyll do
     HTML::Proofer.new("./_site",url_ignore: $ignore,
      :typhoeus => {
@@ -15,6 +16,7 @@ namespace "test" do
       }).run
   end
 
+  desc "Check Links, Verbose"
   task :links_verbose => :run_jekyll do
     HTML::Proofer.new("./_site",url_ignore: $ignore,
      :typhoeus => {
@@ -22,10 +24,12 @@ namespace "test" do
       }).run
   end
 
+  desc "Check Only Internal Links"
   task :internal_links => :run_jekyll do
     HTML::Proofer.new("./_site",url_ignore: $ignore, disable_external: true).run
   end
 
+  desc "Test Suite for Travis CI"
   task :travis do
     begin
       result = Rake::Task["test:links"].invoke
@@ -33,7 +37,7 @@ namespace "test" do
         $stderr.puts "Checking the links failed!"
         $stderr.puts "Failed with a #{e.class}, Message: #{e.message}"
         $stderr.puts "Re-Running for just the Internal Links."
-        Rake::Task["test:internal_links"]
+        result = Rake::Task["test:internal_links"].invoke
     end
   end
 end
