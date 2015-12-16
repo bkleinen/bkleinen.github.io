@@ -8,7 +8,7 @@ layout: page
 
 ## Structure of the Exercises
 
-Starting with [Exercise 01](exercise-01.html), you'll find a section **Pre-Lab** for each exercise. These are exercises or preperatory work that you are expected to **complete** - together with reading through the whole exercise - **before coming to lab**.
+Starting with [Exercise 01](exercise-01-a.html), you'll find a section **Pre-Lab** for each exercise. These are exercises or preperatory work that you are expected to **complete** - together with reading through the whole exercise - **before coming to lab**.
 
 ## Exercises
 * [Exercise 00 - Exercise Startup](exercise-00.html)
