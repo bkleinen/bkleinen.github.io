@@ -1,14 +1,16 @@
 ---
-title: Web Applications WS2015/2016 - Homework 7
+title: Web Applications WS2015/2016 - Homework 8
 author: kleinen
 layout: default
 ---
 
-# Homework for Week 7 / Sprint 3
+# Homework for Week 8 / Sprint 4
 
 
-0. Review and groom your Backlog. That is, if you're created a click-dummy for one or more stories, you should defined new stories for actually implementing the functionality. Don't forget to estimate them.
-1. Perform a Sprint Planning in your Team. Make sure you understand and write down the acceptance criteria for each story!
+0. If you haven't done that yet, start testing your application.
+
+
+1. Perform a Sprint Planning ian your Team.
 2. Document the Tasks you identified for each of your stories.
 3. Decide on which stories you want to commit - that is, you are pretty sure you can complete till the next deadline.
 4. It's ok to plan another story (or two) that you don't yet commit on. Make sure to mark the stories clearly - which do you promise to deliver, which are an option?
