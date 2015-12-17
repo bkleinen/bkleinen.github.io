@@ -8,7 +8,7 @@ layout: default
 
 1. Prioritize your backlog.
 2. Estimate a couple of stories.
-4. Create a screen flow for the next or next few stories. Mark these stories as beeing part of SPRINT2.
+4. Create a screen flow for the next or next few stories. Mark these stories as being part of SPRINT2.
 3. Using an HTML templating engine / HTML generator library that can be used with your framework to create a click-dummy for the user stories.
 4. Make sure to mark the basic installation as your "initial commit" and document each step with a commit reading something like "Story 4711: did this and that"
 5. Use the simple git workflow described in the links below to generate merges per story.
