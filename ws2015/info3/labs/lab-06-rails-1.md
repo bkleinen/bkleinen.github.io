@@ -39,7 +39,7 @@ which automatically creates all models defined in spec/factories to populate you
  - it is ok to publish your solution there. The "OK"-Test for this exercise will be a brief moodle quiz. Also, group 2 will get a slightly different assignment(will be posted here by next week)!
 2. decide on the pumpkins you want to add (http://www.allaboutpumpkins.com/perfect.html might be an inspiration) and add an issue to the original repository. e.g. open a new issue with the topic "add Blue Hubbard to Test Data"
     so that everyone else knows you're working on that particular pumpkin and we don't have 50 blue hubbards in the end.
-3. create a branch in your fork - this will be necessary for the pull request.
+3. create a branch in your fork - this will be necessary for the pull request. Everything in that branch will be added to the pull request! Make sure to do everything else in your master branch. You can merge or rebase the pumpkins branch into your master to have your testdata availabe.
 4. add the pumpkin factories by adding **a new file**  to spec/factories/
 - remember you should have two pumpkin types each! - if you run into trouble or are just curious about FactoryGirl, you'll find info here:  https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
 5. if you're done and the specs are running (run
@@ -71,18 +71,15 @@ Note that there is a factory for a user with several orders, you can use that fo
 Now, add a new field "price" to the Order model by creating a new migration,
 and show the total of all Orders on the customer page. Testdriven, of course.
 
+See the rails guides on migrations for examples of migrations.
 
 # Report - what to hand in
 
-There is no report due this time. **However, I need the pull request before 23:00 the night before your next lab.** (just for the new pumpkins, Parts 2&3 will only be in your fork)
-The assessment will be a moodle quiz this time, which you will need to take in the lab very similar to a moodle exam. (it would be too easy to just have someone help you fill it out if I allowed that to be done from home!). Please prepare the following things for that:
+ **I need the pull request before 23:00 the night before your next lab.**
+(just for the new pumpkins, Parts 2&3 will only be in your fork! Remember that you have to
+  have the pull request in a separate branch for that, otherwise everything that you'll
+  commit will be added to the pull request!)
 
-- a link to your fork, preferably the clone url.
-- a link to the pumpkin file you've provided. This should point to my repository.
-- be prepared to know where you had to apply which changes for the exercises above. You will not need to remember the exact syntax; but if the assigment would have been "create a 1:n association between Order and Customer" you should know that this would need a field in one table for the foreign key, and the addition of certain lines in both models.
-- it's ok if everyone else can see your solution. there will be a moodle quiz
-  about this exercise checking if you have an understanding which changes where made where in this exercise. The best way to learn this is to make the changes
-  yourself, with at most two people working on the same repository/computer.
-- if you're absolutely not able to attend the lab for taking the quiz, you may ask me at another time to quiz you personally on similar questions - obviously it would not be fair to have you take the same quiz after you could have known the exact questions.
-
-
+In your PDF report, describe what worked and what didn't work, problems you ran into, etc.
+Give a link to your fork and your pull request, as well as the name of the pumpkin file
+you've provided.
