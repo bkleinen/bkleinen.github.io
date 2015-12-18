@@ -36,7 +36,7 @@ which automatically creates all models defined in spec/factories to populate you
 ### Your task is to add two pumpkins each to the factories:
 
 1. Fork the Repository: https://github.com/htw-imi-info3/lab-06-railsapp-HTW
- - it is ok to publish your solution there. The "OK"-Test for this exercise will be a brief moodle quiz. Also, group 2 will get a slightly different assignment(will be posted here by next week)!
+ - it is ok to publish your solution there. 
 2. decide on the pumpkins you want to add (http://www.allaboutpumpkins.com/perfect.html might be an inspiration) and add an issue to the original repository. e.g. open a new issue with the topic "add Blue Hubbard to Test Data"
     so that everyone else knows you're working on that particular pumpkin and we don't have 50 blue hubbards in the end.
 3. create a branch in your fork - this will be necessary for the pull request. Everything in that branch will be added to the pull request! Make sure to do everything else in your master branch. You can merge or rebase the pumpkins branch into your master to have your testdata availabe.
