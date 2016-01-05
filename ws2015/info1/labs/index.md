@@ -25,6 +25,7 @@ Starting with [Exercise 01](exercise-01-a.html), you'll find a section **Pre-Lab
 * [Exercise 10 - The World of You](exercise-10.html)
 * [Exercise 11 - Keeping Track of Stuff](exercise-11.html)
 * [Exercise 12 - Pick up and Carry](exercise-12.html)
+* [Exercise 13 - CRC Cards](exercise-13.html)
 
 During the term, there will be 11-12 graded exercises (Nr. 00 is just a warm-up that won't be graded). The graded exercises will be written reports on programming experimentation - your Lab Reports (that is, not the source code you produce).s
 

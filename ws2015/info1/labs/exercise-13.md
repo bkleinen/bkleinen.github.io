@@ -1,13 +1,8 @@
 ---
-title: 'Info2: Exercise 01: Dealing with Objects and Toolbox'
+title: 'Exercise 13: CRC Cards'
 author: kleinen
 layout: lab
 ---
-
-
-# TODO: Rearrange Labs!!!
-
-
 ## Pre-Lab
 
 Please bring these exercises P1 and P2 printed out or written out with you to lab.
@@ -43,8 +38,6 @@ The nouns are candidates for classes, the verbs for methods and the adjectives f
 
 Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible ***candidates*** for classes and methods - not every noun will be a class name in your Application!
 
-</section><section class ="right">
-
 ### 2. CRC Cards
 
 Make CRC cards for each of your candidate classes. Only put down the class names for now.
@@ -52,7 +45,7 @@ Make CRC cards for each of your candidate classes. Only put down the class names
 #### Scenario 1: Making a reservation
 The first scenario that we will be doing is a reservation:
 Jane Doe goes to the Cinema Site and wants to make a reservation for two seats to watch Inglorious Basterds at 8 pm.
-Jane is interacting with the booking system, which may or may not be represented by a class such as CinemaBookingSystem. Using the CRC cards, play through the scenario. How does the system find the show? As you discover responsibilites and collaborators, write them down on the cards. Assume there are plenty of free seats. Jane will choose seats 13 and 14 from row 12.
+Jane is interacting with the booking system. Using the CRC cards, play through the scenario. How does the system find the show? As you discover responsibilities and collaborators, write them down on the cards. Assume there are plenty of free seats. Jane will choose seats 13 and 14 from row 12.
 
 The reservation is now made. How is this done, exactly? What data is going to have to be stored? Where? If you feel the need to create a new class, feel free to do so! If you discover that a class needs to be split in two - make two new cards and rip up the old one. If two need to be merged, do so. Keep a list of things you want to keep track of on a separate piece of paper.
 
@@ -67,16 +60,7 @@ Choose another scenario and play this through. If you have time, do more! You wi
 
 ## Lab Report / What to turn in
 
-Your report is due the night before your next lab; refer to moodle for
+Your report is due the night before your next lab; refer to Moodle for
 exact times.
 
-As in Informatics 1, I am more interested in process than in product,
-although we are now getting more interested in products as well.
-Your report should include any collaborators on top of the first page,
-summarize what you learned,
-and note the time you invested in this exercise.
-Both of you need to upload the same report in PDF format to Moodle before the
-deadline.
-
-### Special Questions for your report
-How many lines of code did you write for each class? Record this statistic in your report.
+Include the Classes, Responsibilities and Collaborators you've found, as well as a report of your process.

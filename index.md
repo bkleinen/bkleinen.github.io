@@ -21,7 +21,7 @@ layout: widesection
 <div class = "box">
 <h4>Office Hours in WS2015/16</h4>
 Tuesdays, 11:30-12:30 in my office.
-<span class = "highlight">22.12. : Office Hours 15-16 </span>
+<span class = "highlight"> </span>
 <br><small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a> to avoid long lines during office hours.
 </small>
