@@ -7,5 +7,6 @@ alias wt='open http://localhost:4000/ws2015/wt1wa'
 alias htw='open http://people.f4.htw-berlin.de/people/kleinen/'
 alias gh='open http://bkleinen.github.io'
 # see http://jekyllrb.com/docs/drafts/
+# see http://jekyllrb.com/docs/drafts/
 alias rj='jekyll serve --drafts'
 cat aliasses.sh

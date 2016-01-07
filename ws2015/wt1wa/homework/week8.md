@@ -7,7 +7,7 @@ layout: default
 # Homework for Week 8 / Sprint 4
 
 0. If you haven't done that yet, start testing your application.
-1. Define your level of done.
+1. Define your level of done. [see this article, for example.](https://www.scrumalliance.org/community/articles/2008/september/what-is-definition-of-done-(dod))
 1. Perform a Sprint Planning in your Team.
 2. Document the Tasks you identified for each of your stories.
 3. Decide on which stories you want to commit - that is, you are pretty sure you can complete till the next deadline.
