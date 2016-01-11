@@ -51,6 +51,7 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 1.  Start with the bad Zuul game with tests - [zuul-withtests](https://github.com/htw-imi-info1/exercise10) -  and refactor it as discussed in the lectures.
     If you are doing mole burrows instead of rooms, you can change the variable names as needed.
     The bored can prepare a multi-lingual version and use enums. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [CommandWordsAfterRefactoring](https://github.com/htw-imi-info1/exercise10/tree/master/CommandWordsAfterRefactoring).
+    There is also a version using an inheritance hierarchy for the Commands in the branch [commandhierarchy](https://github.com/htw-imi-info1/exercise10/tree/commandhierarchy) - you can use that if you like. It doesn't have any other refactorings.
 2.  Draw an object diagram showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?
 3.  Add a &#8220;look&#8221; command to your game.
 4.  Add an additional command (such as &#8220;eat&#8221;, which for now just prints out &#8220;You have eaten now and are not hungry any more&#8221;. In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
@@ -61,4 +62,3 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 # Writeup
 
 Submit your writeup as your post-lab to the Moodle area by 23.00 the night before your next lab.
-
