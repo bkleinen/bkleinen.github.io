@@ -13,11 +13,11 @@ I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, 
 ## In welchem Raum ist das Kolloquium?
 
 Wenn der Kolloquiumstermin mit genügend Vorlauf geplant wird, werden Sie normalerweise angeschrieben und darin über den Raum (der fast immer der WH-C 603 oder WH-C 273 ist) informiert. In diesen beiden Räumen gibt es Beamer mit HDMI- und VGA-Anschluss, davon können Sie auch sonst immer ausgehen. Falls das aus irgendwelchen Gründen nicht klappt, finden Sie eine Liste der aktuellen Kolloqiumstermine auf dieser Seite verlinkt:
-[http://www.f4.htw-berlin.de/fuer-studierende/abschlussarbeit-kolloquium/](http://www.f4.htw-berlin.de/fuer-studierende/abschlussarbeit-kolloquium/) - es ist übrigens auch möglich, die Kolloquien Ihrer Kommilitonen zu besuchen - der oder die Prüfling kann darüber entscheiden, wer beim Vortrag dabei sein soll, die Notenverkündung ist auch dann vertraulich (wir hatten schon Eltern und sogar einen Opa!).
+[http://wi-bachelor.htw-berlin.de/studieren/faq/abschlussarbeiten/](http://wi-bachelor.htw-berlin.de/studieren/faq/abschlussarbeiten/) - es ist übrigens auch möglich, die Kolloquien Ihrer Kommilitonen zu besuchen - der oder die Prüfling kann darüber entscheiden, wer beim Vortrag dabei sein soll, die Notenverkündung ist auch dann vertraulich (wir hatten schon Eltern und sogar einen Opa!).
 
 ## BA Kolloquium, wie l&auml;uft das ab, was muss ich wissen?
 
-In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
+In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
 
 "Die Modulprüfung zum Bachelorseminar bezieht sich auf den Gegenstand der Bachelorarbeit und ordnet diesen in den Kontext des Internationalen Studienganges Medieninformatik
 (Bachelor) ein. In dieser Prüfung soll der/die Studierende zeigen, dass er/sie in der Lage ist,
@@ -34,4 +34,4 @@ Ja, es ist eine Herausforderung die Arbeit einer so langen Zeit in einer so kurz
 
 ## Muss ich mich zur&uuml;ckmelden?
 
-Besonderheiten bzgl. Rückmeldung im Abschlusssemester [stehen hier](http://www.htw-berlin.de/studieren/immatrikuliert-bleiben/rueckmeldung/besondere-faelle/#c17448).
+Besonderheiten bzgl. Rückmeldung im Abschlusssemester [stehen hier](https://www.htw-berlin.de/studium/studienorganisation/immatrikulation-rueckmeldung/rueckmeldung/#c12981).

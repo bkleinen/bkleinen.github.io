@@ -6,7 +6,7 @@ layout: page
 
 ## Collaborating with Peers
 
-I strongly encourage working on the exercises in pairs or small groups up to three people. You have to find out what works best for you. I also encourage getting help from other people, be it other groups in your semester or the [Lernzentrum Informatik](http://www.htw-berlin.de/studien-und-weiterbildungsangebot/lernzentren/lernzentrum-informatik/) if you get stuck with the exercises. And I also encourage helping other people - it's a great way to learn and deepen the understanding of a subject.
+I strongly encourage working on the exercises in pairs or small groups up to three people. You have to find out what works best for you. I also encourage getting help from other people, be it other groups in your semester or the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/) if you get stuck with the exercises. And I also encourage helping other people - it's a great way to learn and deepen the understanding of a subject.
 
 Depending on the class and exercises you may also turn in group work, and especially in the first semester but also in other classes I like to draw groups by lot to give you the opportunity to work with different people and get to know more people in your semester.
 

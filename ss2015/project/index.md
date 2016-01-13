@@ -11,7 +11,7 @@ layout: page
 <span style="font-weight: bold">Projekt Goal:</span> Develop a Web & Mobile App to plan little explorations either
 by foot, bike or car including pre-selected locations or locations suggested by peers.
 
-Offered as a (Praxisprojekt for IMI Bachelors)[http://imi-bachelor.htw-berlin.de/studieren/projekte/projekte-im-sommersemester-2015/]. See the scenarios and
+Offered as a (Praxisprojekt for IMI Bachelors)[http://imi-bachelor.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2015//]. See the scenarios and
 user stories below for a rough idea what the apps should support.
 
 Scenarios

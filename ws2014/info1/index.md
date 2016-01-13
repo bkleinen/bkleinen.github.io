@@ -61,7 +61,7 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 ## Tutorial and Lernzentrum
 
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
-There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](http://www.htw-berlin.de/studien-und-weiterbildungsangebot/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
+There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 Labor WHC 576
 
 * [Alexander Becker](http://bobafett2000.de), Thurdays 15:45-17:15 WH-C 576

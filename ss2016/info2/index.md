@@ -33,7 +33,7 @@ The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF fo
 
 ## Tutorial
 * Wednesday, 17:45. Room  576 (Radek Mackowiak)
-* and, as part of the [Lernzentrum Informatik](http://www.htw-berlin.de/studien-und-weiterbildungsangebot/lernzentren/lernzentrum-informatik/tutorien/) (Dominic Auerbach):
+* and, as part of the [Lernzentrum Informatik](tutorien/) (Dominic Auerbach):
     * Dienstags 8:00 Uhr - 09:30 Uhr WH C 259
     * Mittwochs 17:30 Uhr - 19:00 Uhr WH C 259
 

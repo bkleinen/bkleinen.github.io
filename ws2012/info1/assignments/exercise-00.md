@@ -8,7 +8,7 @@ layout: page
 </p>
 
 <p class="fhtw-black-type">
-  We have lots of rules for the labs, as they are used by many different people during the week. This term we will be in the <a href="http://imi-bachelor.htw-berlin.de/labore/game-technology-interactive-systems/">Game Technology & Interactive Systems Lab</a> &#8211; please read the <a href="http://ai-bachelor.htw-berlin.de/labore/laborordnung/">Laborordnung</a>.
+  We have lots of rules for the labs, as they are used by many different people during the week. This term we will be in the <a href="http://imi-bachelor.htw-berlin.de/studium/labore/game-technology-interactive-systems/">Game Technology & Interactive Systems Lab</a> &#8211; please read the <a href="http://ai-bachelor.htw-berlin.de/labore/laborordnung/">Laborordnung</a>.
 </p>
 
 <p class="fhtw-black-type">

@@ -5,7 +5,7 @@ layout: lab
 ---
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems. For this lab, you can work with Mac OS or Windows.
 
-We have lots of rules for the labs, as they are used by many different people during the week. This term we will be in the [Web Technology Lab](http://imi-bachelor.htw-berlin.de/labore/web-technology/) on Tuesdays and in the [Game Technology & Interactive Systems Lab](http://imi-bachelor.htw-berlin.de/labore/game-technology-interactive-systems/) on Thursdays - please read the  [Laborordnung](http://imi-bachelor.htw-berlin.de/labore/web-technology/laborordnung/).
+We have lots of rules for the labs, as they are used by many different people during the week. This term we will be in the [Web Technology Lab](http://imi-bachelor.htw-berlin.de/studium/labore/web-technology/) on Tuesdays and in the [Game Technology & Interactive Systems Lab](http://imi-bachelor.htw-berlin.de/studium/labore/game-technology-interactive-systems/) on Thursdays - please read the  [Laborordnung](http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/FB/FB4/FB4_Rahmenlaborordnung.pdf).
 
 Two really important rules are:
 

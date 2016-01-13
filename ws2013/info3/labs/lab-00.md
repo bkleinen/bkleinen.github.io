@@ -8,7 +8,7 @@ layout: lab
 
 ## Which Computer to use?
 
-As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://imi-bachelor.htw-berlin.de/labore/web-technology/) and rather unfolded their old, dirty little subnotebooks in front of the 27'' screens (which even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
+As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://imi-bachelor.htw-berlin.de/studium/labore/web-technology/) and rather unfolded their old, dirty little subnotebooks in front of the 27'' screens (which even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
 
 If you become more proficient with standard tools like the command line and git, you will find it easier to switch between different computers and end up using the Macs at some point, anyway.
 

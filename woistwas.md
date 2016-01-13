@@ -6,7 +6,7 @@ layout: default
 
 # Wo ist was?
 
-http://www.htw-berlin.de/einstiegseiten/htw-beschaeftigte/
+https://www.htw-berlin.de/beschaeftigte/
 
 https://wiki.rz.htw-berlin.de/
 

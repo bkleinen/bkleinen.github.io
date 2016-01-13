@@ -70,5 +70,5 @@ adhere to the grammar and spelling rules of the respective language.
 
 ## Some more links
 
-* [Students Groups Admin Link in Github](https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/collaboration)
+* [Students Groups Admin Link in Github](https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/collaboration) (you need to be logged in to github)
 ... and more to come

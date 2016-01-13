@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 ---
 
-Seit dem SoSe 2014 bin ich Baf&ouml;g-Beauftragte des Studiengangs IMI. Auch wenn [auf der HTW-Baf&ouml;g-Infoseite](http://www.htw-berlin.de/studieren/finanzieren-wohnen/bafoeg-bildungskredit/) steht, meine Aufgabe sei, Sie bei der Beantragung von Baf&ouml;g zu unterstützen: das stimmt nur insofern, dass ich Ihnen Bescheinigungen der Hochschule ausstelle, die Sie zur Beantragung brauchen. Bei einem normalen Studienverlauf wird das eine Bescheinigung für das Auslandsbaf&ouml;g sein. Wenn Sie weitere Unterstützung bei der Beantragung brauchen, kann ich Ihnen diese Beratungs/Informationsstellen empfehlen:
+Seit dem SoSe 2014 bin ich Baf&ouml;g-Beauftragte des Studiengangs IMI. Auch wenn [auf der HTW-Baf&ouml;g-Infoseite](https://www.htw-berlin.de/studium/studienorganisation/finanzierung/bafoeg-bildungskredit/) steht, meine Aufgabe sei, Sie bei der Beantragung von Baf&ouml;g zu unterstützen: das stimmt nur insofern, dass ich Ihnen Bescheinigungen der Hochschule ausstelle, die Sie zur Beantragung brauchen. Bei einem normalen Studienverlauf wird das eine Bescheinigung für das Auslandsbaf&ouml;g sein. Wenn Sie weitere Unterstützung bei der Beantragung brauchen, kann ich Ihnen diese Beratungs/Informationsstellen empfehlen:
 
 - http://www.refrat.de/beratung.bafoeg.html?1401814142
 - http://www.bafoeg-rechner.de
@@ -43,4 +43,4 @@ Weiter bietet die private Seite http://www.auslandsbafoeg.de  ganz gute Informat
 Weitere Infos
 ------------------------
 
-- [Baf&ouml;g-Infoseite der HTW](http://www.htw-berlin.de/studieren/finanzieren-wohnen/bafoeg-bildungskredit/)
+- [Baf&ouml;g-Infoseite der HTW](https://www.htw-berlin.de/studium/studienorganisation/finanzierung/bafoeg-bildungskredit/)

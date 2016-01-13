@@ -2,6 +2,10 @@ require 'html/proofer'
 
 $ignore = ['http://localhost:3000']
 $ignore << 'http://update.eclemma.org/' # site is correct, but cannot be loaded from browser
+$ignore << 'https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/collaboration' #needs credentials
+
+desc "default task: check all links"
+task :default => ["test:links"]
 
 task :run_jekyll do
     sh "bundle exec jekyll build"

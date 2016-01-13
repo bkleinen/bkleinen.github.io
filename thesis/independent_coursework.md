@@ -7,7 +7,7 @@ layout: page
 Ich betreue gerne auch selbst definierte Themen im Bereich Webentwicklung als Independent Coursework.
 
 
-Die [Studienordnung in der &#196;nderung im Mitteilungsblatt 10/11](http://imi-master.htw-berlin.de/fileadmin/HTW/Alle/Amtliche_Mitteilungsblaetter/2011/10_11.pdf) sieht folgendes f&#252;r ICs vor:
+Die [Studienordnung in der &#196;nderung im Mitteilungsblatt 10/11](https://www.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2011/10_11.pdf) sieht folgendes f&#252;r ICs vor:
 
     &#167; 6 Inhalt und Gliederung des Masterstudiums/Regelstudienzeit
     Absatz 7 wird wie folgt neu gefasst:

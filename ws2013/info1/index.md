@@ -36,7 +36,7 @@ There will be a 2-hour online examination on or about Feb 11. We will have 2 shi
 ## Tutorial and Lernzentrum
 
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
-There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](http://www.htw-berlin.de/studien-und-weiterbildungsangebot/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
+There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
 * [Alexander Becker](http://bobafett2000.de), Time and Place TBA
 
