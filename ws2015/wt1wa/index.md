@@ -16,7 +16,6 @@ WT1 Web Applications is the introductory class for the Web Technology focus. The
 * Sie wissen, wie sie die Usability von Web-Anwendungen messen k&ouml;nnen
 * Sie sind dazu in der Lage, die Sicherheitsrisiken f&uuml;r Web- Anwendungen abzusch&auml;tzen und k&ouml;nnen geeignete Maßnahmen ergreifen, um eine Web-Anwendung abzusichern.
 
-
 ## Meetings and Time
 
 The class is a practical class; we only meet once a week for 2hrs (see LSF) -
@@ -60,7 +59,6 @@ This class will be held in german, but all (or almost all) written material will
 be in English. You are free to choose either language for your written assignments;
 as long as you don't switch languages within one sentence and do your best to
 adhere to the grammar and spelling rules of the respective language.
-
 
 ## Course Literature
 
