@@ -41,12 +41,12 @@ This schedule is tentative and subject to change!
 | 12   | 1  | Tue, 2016-01-05 | Welcome to the new year: Repetition                                                             | [Exercise 10](../labs/exercise-10.html)     |
 |      |    | Thu, 2016-01-07 | Using the main, Inheritance, Subtyping, Polymorphism, Protected                                 |                                             |
 | 13   | 2  | Tue, 2016-01-12 | Casting, Polymorphism, Static vs. dynamic typing, Overriding, Object equality                   | [Exercise 11](../labs/exercise-11.html)     |
-|      |    | Thu, 2016-01-14 | Abstract Classes, Abstract Methods, A word about the Exam                                       |                                             |
-| 14   | 3  | Tue, 2016-01-19 | Application Design: A case Study                                                                | [Exercise 12](../labs/exercise-12.html)     |
+|      |    | Thu, 2016-01-14 | - no lecture -                                                                                  |                                             |
+| 14   | 3  | Tue, 2016-01-19 | Abstract Classes, Abstract Methods, A word about the Exam                                       | [Exercise 12](../labs/exercise-12.html)     |
 |      |    | Thu, 2016-01-21 | Multiple Inheritance vs. Java Interfaces,  GUIs, AWT and Swing, Event handler, The Image Viewer |                                             |
-| 15   | 4  | Tue, 2016-01-26 | Errors, Exceptions, Assertions                                                                  | [Exercise 13](../labs/exercise-13.html)     |
-|      |    | Thu, 2016-01-28 | File-based IO, Files, Command Line                                                              |                                             |
-| 16   | 5  | Tue, 2016-02-02 | Exam Preparation                                                                                |                                             |
+| 15   | 4  | Tue, 2016-01-26 | Application Design: A case Study                                                                | [Exercise 13](../labs/exercise-13.html)     |
+|      |    | Thu, 2016-01-28 | Errors, Exceptions, Assertions                                                                  |                                             |
+| 16   | 5  | Tue, 2016-02-02 | File-based IO, Files, Command Line                                                              | TBD                                         |
 |      |    | Thu, 2016-02-04 | Exam Preparation                                                                                |                                             |
 | 17   | 6  | Tue, 2016-02-09 | No Lecture                                                                                      | Trial Exam                                  |
 |      |    | Thu, 2016-02-11 | No Lecture                                                                                      |                                             |
