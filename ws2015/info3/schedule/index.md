@@ -40,7 +40,7 @@ d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} 
 | 14   | 3  | Thu, 2016-01-21 | DWW      | Clean Code - Presentation                                |     |                                                                                    |
 |      |    | Fri, 2016-01-22 | BK       | Object Orientation In Depth, Duck Typing                 | 7   | [Rails Associations and Internationalization](../labs/lab-07-rails-2.html)         |
 | 15   | 4  | Thu, 2016-01-28 | DWW      | Software as a Service                                    |     |                                                                                    |
-|      |    | Fri, 2016-01-29 | BK       | Dependency Management and Working with APIs              |     |                                                                                    |
+|      |    | Fri, 2016-01-29 | BK       | Dependency Management and Working with APIs              |     | No Lab, 11:30 Trial Exam                                                           |
 | 16   | 5  | Thu, 2016-02-04 | BK       | Klausurvorbereitung                                      |     |                                                                                    |
 |      |    | Fri, 2016-02-05 | DWW+BK   | EXAM                                                     |     |                                                                                    |
 | 17   | 6  | Thu, 2016-02-11 | DWW+BK   | Klausureinsicht                                          |     |                                                                                    |
