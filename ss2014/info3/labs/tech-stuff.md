@@ -71,7 +71,7 @@ After installing Ruby, install rails with
 
     gem install rails
 
--- see [Rails download](http://rubyonrails.org/download) for further information.
+-- see [Rails installation](http://guides.rubyonrails.org/getting_started.html#installing-rails) for further information.
 
 You should then be able to run
 

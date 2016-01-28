@@ -58,7 +58,7 @@ As others will be doing the same, you might want to pull in the pumpkins of the 
 Add a list of all Orders placed by the customer on the page that shows a single customer. Develop this feature test-driven by first creating a new feature test in spec/features. The two provided feature tests should give you plenty of hints, see https://github.com/htw-imi-info3/HTW/tree/master/spec/features - for further documentation see
 
 * [Capybara Doc](http://rubydoc.info/github/jnicklas/capybara/master) on how to navigate web pages automatically with capybara and
-* [RSpec Matchers](https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) if you need more specific assertions (expectations)
+* [RSpec Matchers](http://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) if you need more specific assertions (expectations)
 
 After you've created a failing test case, you can proceed to implement the feature.
 
@@ -84,5 +84,3 @@ The assessment will be a moodle quiz this time, which you will need to take in t
   about this exercise checking if you have an understanding which changes where made where in this exercise. The best way to learn this is to make the changes
   yourself, with at most two people working on the same repository/computer.
 - if you're absolutely not able to attend the lab for taking the quiz, you may ask me at another time to quiz you personally on similar questions - obviously it would not be fair to have you take the same quiz after you could have known the exact questions.
-
-

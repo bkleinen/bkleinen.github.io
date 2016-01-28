@@ -20,4 +20,4 @@ created last week.
 * [Example in diversity-poll](https://github.com/htw-imi-wt1wa-ws2015/diversity-poll)
 * [Capybara](https://github.com/jnicklas/capybara)
 * [Capybara DSL](https://github.com/jnicklas/capybara#the-dsl)
-* [RSpec Matchers](https://www.relishapp.com/rspec/rspec-expectations/v/2-2/docs/matchers)
+* [RSpec Matchers](http://www.relishapp.com/rspec/rspec-expectations/v/2-2/docs/matchers)
