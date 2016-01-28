@@ -8,7 +8,7 @@ layout: null
 <title>{{ site.name | xml_escape }}</title>
 <description>Information mainly for Students</description>
 <link>{{ site.production_url }}</link>
-<atom:link href="{{ site.production_url }}/atom.xml" rel="self" type="application/rss+xml" />
+<atom:link href="{{ site.production_url }}/{{ site.rss_path }}" rel="self" type="application/rss+xml" />
 {% for post in site.posts limit:10 %}
 <item>
 <title>{{ post.title | xml_escape }}</title>
