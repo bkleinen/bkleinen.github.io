@@ -4,11 +4,11 @@ author: kleinen
 layout: page
 ---
 ## Assignments
-* [Assignment 1](assignment-01.html)
-* [Assignment 2](assignment-02.html)
-* [Assignment 3](assignment-03.html)
-* [Assignment 4](assignment-04.html)
-* [Assignment 5](assignment-05.html)
+* [Assignment 1](assignment-01)
+* [Assignment 2](assignment-02)
+* [Assignment 3](assignment-03)
+* [Assignment 4](assignment-04)
+* [Assignment 5](assignment-05)
 
 ## Other Material
 

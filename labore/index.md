@@ -4,4 +4,4 @@ author: kleinen
 layout: page
 ---
 
-* [Ruby on Rails](rubygems.html) - in Arbeit
+* [Ruby on Rails](rubygems) - in Arbeit

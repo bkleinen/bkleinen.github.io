@@ -35,7 +35,7 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 
 <div class = "box">
 <h4>Thesis</h4>
-<p>There is also some info here if you consider writing your <a href="thesis/">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
+<p>There is also some info here if you consider writing your <a href="thesis/">Thesis</a> or <a href="thesis/independent_coursework">Independent Coursework</a> with me.</p>
 </div>  
 
 <div class = "below">

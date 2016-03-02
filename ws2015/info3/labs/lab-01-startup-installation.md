@@ -5,7 +5,7 @@ layout: page
 ---
 
 
-(These are detailled instructions for the installation part of the [Info 3 Startup Lab](lab-01-startup.html)).
+(These are detailled instructions for the installation part of the [Info 3 Startup Lab](lab-01-startup)).
 ## Note on Eclipse, 06/Oct/2014
 [startup bug on Mavericks](http://imi-bachelor.htw-berlin.de/studium/labore/hinweise//#c36938)
 

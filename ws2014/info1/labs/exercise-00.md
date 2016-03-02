@@ -66,6 +66,6 @@ Make sure to include your name and a photo at the top of your report.
 
 ## For the bored
 
-This first lab is really about getting started, getting to know the infrastructure and make sure that you are able to run Kara programs in Greenfoot yourself during the next week. If you feel bored, you might start off right away with working on the the [prelab of next week lab](exercise-01.html).
+This first lab is really about getting started, getting to know the infrastructure and make sure that you are able to run Kara programs in Greenfoot yourself during the next week. If you feel bored, you might start off right away with working on the the [prelab of next week lab](exercise-01).
 
 [1]: https://github.com/htw-imi-info1/kara-scenario1

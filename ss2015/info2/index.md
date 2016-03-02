@@ -13,7 +13,7 @@ Currently, he is collecting Questions to have material for his concept.
 You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/](http://ba-thesis.herokuapp.com/),
 and I'll answer them around Saturday at noon latest for the current week.
 You find a list of questions here [http://ba-thesis.herokuapp.com/questions](http://ba-thesis.herokuapp.com/questions) and
-their answers there: [QUAME](quame.html)
+their answers there: [QUAME](quame)
 
 
 
@@ -40,7 +40,7 @@ The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF fo
 
 ## Grades
 
-Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
+Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
 
 * Lecture summaries: 15%
 * Lab reports: 40%
@@ -53,7 +53,7 @@ More info about the Lab Reports can be found on the [Labs](labs) page.
 
 ### Handouts
 
-* [Euclid](handouts/euclid.html)
+* [Euclid](handouts/euclid)
 
 ### Lecture summaries (15%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. They are due the following Monday @ 20:00. You can, of course, hand them in earlier.

@@ -24,7 +24,7 @@ Read it as a preparation for the lab.
     * [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is         entered (start() method in SupportSystem)
     * The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /         Use case: user enters command (method: play() in Game.java)
 
-2. Now take your scenarios from [the second exercise](lab-02.html)  and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
+2. Now take your scenarios from [the second exercise](lab-02)  and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
     * Ordering a Pumpkin/Treat
     * one other use case of your choosing
 

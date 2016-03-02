@@ -6,19 +6,19 @@ layout: page
 {% include ss2014/info2.md %}
 
 ## Exercises
-* [Exercise 01 - Dealing with Objects and Toolbox](lab-01.html)
-* [Exercise 02 - Implementing CRC Cards](lab-02.html)
-* [Exercise 03 - Chatterbox](lab-03.html)
-* [Exercise 04 - Histogram](lab-04.html)
-* [Exercise 05 - Execution times](lab-05.html)
-* [Exercise 06 - Reverse Polish Notation](lab-06.html)
-* [Exercise 07 - Recursive Triangles](lab-07.html)
-* [Exercise 08 - Multi-Threaded Chat Application](lab-08.html)
-* [Exercise 09 - Eight Queens](lab-09.html)
-* [Exercise 10 - Probabilistic Algorithms](lab-10.html)
-* [Exercise 11 - Getting from A to B](lab-11.html) (Pre-Lab!)
-* [Exercise 12 - Scrabble Cheater Basic Edition](lab-12.html) (Pre-Lab!)
-* [Exercise 13 - Scrabble Cheater Deluxe](lab-13.html) (Pre-Lab!)
+* [Exercise 01 - Dealing with Objects and Toolbox](lab-01)
+* [Exercise 02 - Implementing CRC Cards](lab-02)
+* [Exercise 03 - Chatterbox](lab-03)
+* [Exercise 04 - Histogram](lab-04)
+* [Exercise 05 - Execution times](lab-05)
+* [Exercise 06 - Reverse Polish Notation](lab-06)
+* [Exercise 07 - Recursive Triangles](lab-07)
+* [Exercise 08 - Multi-Threaded Chat Application](lab-08)
+* [Exercise 09 - Eight Queens](lab-09)
+* [Exercise 10 - Probabilistic Algorithms](lab-10)
+* [Exercise 11 - Getting from A to B](lab-11) (Pre-Lab!)
+* [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
+* [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
 {% comment %}
 * Exercise 14 - Ladders (please read before lab, and maybe download the data)
 {% endcomment %}
@@ -73,7 +73,7 @@ The aim of this is to encourage all of you to work on the exercises regularly. T
 
 
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline.html)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline)
 
 
 

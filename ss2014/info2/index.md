@@ -35,7 +35,7 @@ The class consists of 2x2h of lectures and 2h of lab:
 
 ## Grades
 
-Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
+Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
 
 * Lecture summaries: 15%
 * Lab reports: 40%
@@ -48,7 +48,7 @@ More info about the Lab Reports can be found on the [Labs](labs) page.
 
 ### Handouts
 
-* [Euclid](handouts/euclid.html)
+* [Euclid](handouts/euclid)
 
 ### Lecture summaries (15%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. They are due Mondays 10:00 a.m. You can, of course, hand them in earlier.
@@ -64,7 +64,7 @@ There will be a 2-hour online examination on or about July 23. We will have 2 sh
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages](({{site.baseurl}}) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
+* [These pages](({{site.baseurl}}) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale)
 * [Github](https://github.com/htw-imi-info2) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2785) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92253),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92254) for official course information.

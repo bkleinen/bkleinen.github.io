@@ -5,10 +5,10 @@ layout: default
 ---
 ## Homeworks
 
-* [Week1](week1.html)
-* [Week2](week2.html)
-* [Week3](week3.html)
-* [Week4](week4.html)
-* [Week5](week5.html)
-* [Week6](week6.html)
-* [Week7](week7.html)
+* [Week1](week1)
+* [Week2](week2)
+* [Week3](week3)
+* [Week4](week4)
+* [Week5](week5)
+* [Week6](week6)
+* [Week7](week7)

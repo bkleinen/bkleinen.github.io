@@ -38,11 +38,11 @@ The class consists of 2x2h of lectures and 2h of lab:
   * Group1: Fridays, 09:45 - 11:15, WH C 537
   * Group2: Fridays, 14:00 - 15:30, WH C 537
 
-**Friday first week will be e-Learning!!** (Due to Exams and Neuberufenen-Didaktikfortbildung). This gives you time to set up your tools as described in [Lab Startup](labs/lab-00.html) - you don't need to hand in anything, but you need to have things set up for the next lab!
+**Friday first week will be e-Learning!!** (Due to Exams and Neuberufenen-Didaktikfortbildung). This gives you time to set up your tools as described in [Lab Startup](labs/lab-00) - you don't need to hand in anything, but you need to have things set up for the next lab!
 
 ## Grades
 
-Your grade in Info3 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale](({{site.baseurl}}general/grading-scale.html):
+Your grade in Info3 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale](({{site.baseurl}}general/grading-scale):
 
 * Lecture summaries: 10%
 * Lab reports: 50%
@@ -72,7 +72,7 @@ There is no textbook for this class. Here are the main books this class is based
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages](({{site.baseurl}}) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
+* [These pages](({{site.baseurl}}) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale)
 * [Github](https://github.com/htw-imi-info3) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86086),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86087) for official course information.

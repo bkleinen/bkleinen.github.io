@@ -5,13 +5,13 @@ layout: page
 ---
 
 ## Exercises
-* [Exercise 01 - Case Studies of Ethical Questions](lab-01-casestudies.html)
-* [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class.html)
-* [Exercise 03 - Sequence Diagrams and State Machine Diagrams](lab-03-sequence-state.html)
-* [Exercise 04 - Testing](lab-04-testing.html)
-* [Exercise 05 - Legacy Code - Refactoring to Patterns](lab-05-legacy.html)
-* [Exercise 06 - Rails First Steps](lab-06-rails-1.html)
-* [Exercise 07 - Rails Associations and Internationalization](lab-07-rails-2.html)
+* [Exercise 01 - Case Studies of Ethical Questions](lab-01-casestudies)
+* [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class)
+* [Exercise 03 - Sequence Diagrams and State Machine Diagrams](lab-03-sequence-state)
+* [Exercise 04 - Testing](lab-04-testing)
+* [Exercise 05 - Legacy Code - Refactoring to Patterns](lab-05-legacy)
+* [Exercise 06 - Rails First Steps](lab-06-rails-1)
+* [Exercise 07 - Rails Associations and Internationalization](lab-07-rails-2)
 
 In the Info3 lab, we will do quite different things:
 

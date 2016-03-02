@@ -6,13 +6,13 @@ layout: page
 
 ## Exercises
 
-* [Exercise 01 - Testing](lab-01.html)
-* [Exercise 02 - Use Cases and Class Diagrams](lab-02.html)
-* [Exercise 03 - GIT and State Machine Diagrams](lab-03.html)
-* [Exercise 04 - Legacy Code - Refactoring to Patterns](lab-04.html)
-* [Exercise 05 - Sequence Diagrams and Ruby Finger exercises](lab-05.html)
-* [Exercise 06 - Rails First Steps](lab-06.html)
-* [Exercise 07 - Rails Associations and Internationalization](lab-07.html)
+* [Exercise 01 - Testing](lab-01)
+* [Exercise 02 - Use Cases and Class Diagrams](lab-02)
+* [Exercise 03 - GIT and State Machine Diagrams](lab-03)
+* [Exercise 04 - Legacy Code - Refactoring to Patterns](lab-04)
+* [Exercise 05 - Sequence Diagrams and Ruby Finger exercises](lab-05)
+* [Exercise 06 - Rails First Steps](lab-06)
+* [Exercise 07 - Rails Associations and Internationalization](lab-07)
 {% comment %}
 
 
@@ -60,7 +60,7 @@ If I find plagiarisms of lecture summaries (especially from the Wikipedia), you 
 They can be in txt, pdf or markdown format.
 
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline.html)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline)
 
 ### Using Ruby & Rails on the iMacs
 

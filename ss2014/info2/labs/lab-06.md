@@ -5,7 +5,7 @@ layout: lab
 ---
 ## Pre-Lab
 
-  1. Make sure that you understand [postfix evaluation](lab-06-handout.html).
+  1. Make sure that you understand [postfix evaluation](lab-06-handout).
 
   2. [ 	&#321;ukasiewicz](http://www-gap.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Lukasiewicz.daswarmalhtmlundsollswiederwerden) was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
 

@@ -22,7 +22,7 @@ LSF.
 
 ## Grades
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale.html):
+Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
 
 * Lecture summaries: 10%
 * Lab reports: 40%
@@ -68,7 +68,7 @@ On the top of the page you find a couple of links you'll find you'll be using a 
 {% include ws2015/info1.md %}
 Information on this class is dispersed depending on the nature of the information and wether it should be public or not.
 
-* These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{site.baseurl}}general/grading-scale.html)
+* These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{site.baseurl}}general/grading-scale)
 * Moodle (link above) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 * [Github](https://github.com/htw-imi-info1) for publicly accessible code examples used in the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
 *  last not least [LSF System](https://lsf.htw-berlin.de), where you can find class times and rooms. Note that is possible to see the general schedule for your Semester (Term Schedule above) and also Schedules for all people teaching ([Dozentenpläne](https://lsf.htw-berlin.de/qisserver/rds?state=change&type=5&moduleParameter=personDPlanSearch&nextdir=change&next=search.vm&subdir=person)) - this is often the fastest way to find out the room for your next class.

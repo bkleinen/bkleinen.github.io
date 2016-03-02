@@ -27,6 +27,6 @@ I'm always happy to supervise topics that scratch an actual itch found in the wi
 [Presentation show on Dec/16 2015](topics-ss2016.pdf)
 
 # Further Information and Links
-* [Antworten auf Fragen, die mir häufig gestellt wurden (Deutsch)](faq.html)
+* [Antworten auf Fragen, die mir häufig gestellt wurden (Deutsch)](faq)
 * [Info on FB4-Page](http://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)
 * [Info on HTW Page](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/)

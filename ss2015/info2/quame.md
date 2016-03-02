@@ -159,4 +159,4 @@ for the course if they provided useful answers to their peers.
 You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/](http://ba-thesis.herokuapp.com/),
 and I'll answer them around Saturday at noon latest for the current week.
 You find a list of questions here [http://ba-thesis.herokuapp.com/questions](http://ba-thesis.herokuapp.com/questions) and
-their answers there: [QUAME](quame.html)
+their answers there: [QUAME](quame)
