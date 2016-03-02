@@ -48,6 +48,6 @@ You should realize that every author and every company have their own ways of de
 Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
 
-[2]: http://en.wikipedia.org/wiki/Use\_case
+[2]: http://en.wikipedia.org/wiki/Use_case
 [3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex1.shtml
 [4]: http://www.f4.htw-berlin.de/~weberwu/

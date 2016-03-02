@@ -37,6 +37,7 @@ It contains:
  *  [a stub for a GildedRose version using the strategy pattern][6]
  *  [an abstract parameterized test class with subclasses for all three implementations][7]
 
+(note: the source code has been updated and moved to https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
 
 Have a look at the provided classes and run the tests. The [GildedRoseTestOriginal][8] should pass, the others will fail as the stubs only implement a basic updateQuality.
 
@@ -69,8 +70,3 @@ Upload a PDF with your answers to the questions and the sequence diagrams. There
 [1]: http://www.informit.com/articles/article.aspx?p=169507&seqNum=2
 [2]: http://www.oodesign.com/factory-method-pattern.html
 [3]: http://www.oodesign.com/abstract-factory-pattern.html
-[4]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/main/java/gildedrose/original/GildedRose.java
-[5]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/inheritance
-[6]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/strategy
-[7]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/test/java/gildedrose/GildedRoseTest.java
-[8]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/test/java/gildedrose/GildedRoseTestOriginal.java
