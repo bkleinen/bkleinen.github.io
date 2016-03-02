@@ -9,8 +9,8 @@ categories:
 ---
 
 Das von Eva-Maria Rolfes im Rahmen ihres Independent Coursworks erstellte Projekt
-"Risiko Freiheit" &dash;
+"Risiko Freiheit" --
 eine Online-Ausstellung der Stiftung Berliner Mauer über Fluchthilfe für
-DDR-Bürger &dash; ist online:
+DDR-Bürger -- ist online:
 
 http://www.risiko-freiheit.de/
