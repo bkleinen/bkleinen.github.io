@@ -34,9 +34,8 @@ Then have a look at last semester's Class Diagram exercise below. Booch's method
 
  The Fat Horse Travel World agency has asked you to provide a web-based system for their products, which consist of guided horse trips in Iceland. Users need to be able to search the trips offered and find information about when, how long, and where the trips will be, how expensive they are, and what kind of horses are used.
 
- ![Icelandic Horses](../images/horses.gif "horses")
+ ![Icelandic Horses](../../images/horses.gif "horses")
 
-  
 
  There are short daily rides, longer wilderness tours, sightseeing tours, and riding instruction camps.
 

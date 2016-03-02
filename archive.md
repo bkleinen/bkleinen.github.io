@@ -11,7 +11,7 @@ layout: default
 - [Info1]({{site.baseurl}}ws2014/info1/)
 - [Info3]({{site.baseurl}}ws2014/info3/)
 - [WT1 Web Technology]({{site.baseurl}}ws2014/webapplications/)
-- [Praxisprojekt](ss2014/project)
+- [Praxisprojekt]({{site.baseurl}}ss2014/project)
 
 
 <h1>Lectures SS 2014</h1>
@@ -31,8 +31,8 @@ layout: default
 
 <h1>Older Lectures</h1>
 
-  * [SS 2013](ss2013/)
-  * [WS 2012](ws2012/)
+  * [SS 2013]({{site.baseurl}}ss2013/)
+  * [WS 2012]({{site.baseurl}}ws2012/)
 
 <div id="home">
   <h1>All Anouncements</h1>

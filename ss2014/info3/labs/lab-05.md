@@ -24,7 +24,7 @@ Read it as a preparation for the lab.
     * [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is         entered (start() method in SupportSystem)
     * The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /         Use case: user enters command (method: play() in Game.java)
 
-2. Now take your scenarios from [the second exercise](lab-02)  and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
+2. Now take your scenarios from [the second exercise](../lab-02)  and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
     * Ordering a Pumpkin/Treat
     * one other use case of your choosing
 
@@ -87,4 +87,3 @@ it in a generic way using reflection on the method names.
 # Report - what to hand in
 
 Your report is due at 23.00 the day before the next lab and should include all materials (including copies of the scenarios used), properly marked with the authors of these scenarios. Don't forget to include your own names on your report, and post the materials in the Moodle area for each team member.
-
