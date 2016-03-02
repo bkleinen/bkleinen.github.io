@@ -24,4 +24,4 @@ You just keep working on your Project, one Story in your Backlog at a time:
 And yes, this is the same as last week. Would be great if more than 50% of the reports would adhere to this requirements!
 And this is why I don't want links to google docs etc in the reports:
 
-![Link](images/whynolinks.jpg)
+![Link](../../images/whynolinks.jpg)

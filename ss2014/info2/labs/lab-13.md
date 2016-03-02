@@ -5,7 +5,7 @@ layout: lab
 ---
 ## Pre-Lab
 
- ![Scrabble](../images/scrabble_331161309_a8e6c6c3fd_o.jpg "scrabble 1")
+ ![Scrabble](../../images/scrabble_331161309_a8e6c6c3fd_o.jpg "scrabble 1")
 Foto by [Piotr](https://www.flickr.com/photos/derbeth/331161309/)
 
 

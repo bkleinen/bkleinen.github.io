@@ -4,7 +4,7 @@ author: kleinen
 layout: lab
 ---
 
- ![Scrabble](./images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
+ ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
 Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
 
 

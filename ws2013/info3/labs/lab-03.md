@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
- ![LED Pumpkin](../images/led-pumpkin.jpg "pumpkins")
+ ![LED Pumpkin](../../images/led-pumpkin.jpg "pumpkins")
 
 In this exercise you will create a Class Diagram for the HTW Application.
 You should work on this exercise in a team of 2-4 people.

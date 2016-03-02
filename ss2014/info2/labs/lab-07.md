@@ -4,7 +4,7 @@ author: kleinen
 layout: lab
 ---
 
-![Machine](images/SierpinskiTriangle.png "Sierpinski Triangle")
+![Machine](../images/SierpinskiTriangle.png "Sierpinski Triangle")
 
 ## Pre-Lab
 

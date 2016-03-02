@@ -6,7 +6,7 @@ layout: page
 
 # Part 1: Sequence Diagrams
 
-![Launch Sequence](../images/sequence.jpg)
+![Launch Sequence](../../images/sequence.jpg)
 <small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](http://www.flickr.com/photos/69214385@N04/9172233502)</small>
 
 ## Prelab

@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
- ![Barbara_Kleinen]({{site.baseurl}}images/bkleinen.jpg)
+ ![Barbara_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
 
 # Prof. Dr. Barbara Kleinen
 ## Contact Information

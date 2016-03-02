@@ -4,7 +4,7 @@ author: kleinen
 layout: lab
 ---
 
-![Book](../images/books-8314929977.jpg)
+![Book](../../images/books-8314929977.jpg)
 
 
 This week's lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.

@@ -5,7 +5,7 @@ layout: page
 ---
 {% include ws2014/info3.md %}
 
-![Test Button](images/test-button.jpg)
+![Test Button](../images/test-button.jpg)
 <small class = "float-right">Test Button in Car. [Foto by Mike Roberts](https://www.flickr.com/photos/cosmic_spanner/3766667411)</small>
 
 ## Download the source code snippets for this assignment.

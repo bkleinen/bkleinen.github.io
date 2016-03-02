@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
- ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
+ ![Pumpkins](../../images/pumpkins-wide.jpg "pumpkins")
 Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
 # Prelab
 

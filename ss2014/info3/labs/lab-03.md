@@ -6,7 +6,7 @@ layout: page
 ----------------
 
 
-![Machine](../images/machine.jpg "machine")
+![Machine](../../images/machine.jpg "machine")
 Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)
 
 

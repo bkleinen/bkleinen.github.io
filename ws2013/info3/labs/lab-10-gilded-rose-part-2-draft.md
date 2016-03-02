@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-![The Gilded Rose](../images/gilded-rose-2696723066.jpg)
+![The Gilded Rose](../../images/gilded-rose-2696723066.jpg)
 <small class = "float-right">A Gilded Rose, Foto by [Kelton](http://www.flickr.com/photos/94464132@N00/2696723066)</small>
 
 

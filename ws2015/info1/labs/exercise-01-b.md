@@ -23,10 +23,10 @@ layout: lab
 3.  Leaves in the forest I: (lab01_kara03): Building on Exercise 7 of Worksheet 1, where Kara looks for a leaf in front of him, modify the algorithm to make him able to walk around 2 or more trees in a row.
 4.  Leaves in the forest II (lab01_kara04): In this forest, each field has exactly two free fields, one of them behind Kara, and the other one either to the left, in front or on the right. Make Kara move through the forest and find the leaf.
 5.  Picture Inversion: (lab01_kara05) Program Kara such that it will create an &#8220;inverse picture&#8221; within a tree rectangle. E.g. starting as in KaraWorld05, the picture should look like this after the program has run:
-![kara inverted](images/kara-exercise01-inverted.jpg)
+![kara inverted](../images/kara-exercise01-inverted.jpg)
 6.  Draw a Spiral: (lab01_kara06) Like this:
 
-![spiral](images/kara-exercise01-spiral.jpg)
+![spiral](../images/kara-exercise01-spiral.jpg)
 
 ## Post-Lab, AKA What to Turn In
 

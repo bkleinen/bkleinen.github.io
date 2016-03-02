@@ -6,7 +6,7 @@ layout: page
 
 # Part 1: Sequence Diagrams
 
-![Launch Sequence](images/sequence.jpg)
+![Launch Sequence](../images/sequence.jpg)
 <small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](http://www.flickr.com/photos/69214385@N04/9172233502)</small>
 
 ## Prelab
@@ -33,7 +33,7 @@ If you feel like it, you can continue with a sequence diagram for additional use
 
 #Part 2:  State Machine Diagrams
 
-![Machine](images/machine.jpg "machine")
+![Machine](../images/machine.jpg "machine")
 <small class = "float-right">Machine. Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)</small>
 
 For an introduction to state machine diagrams, see [http://www.agilemodeling.com/artifacts/stateMachineDiagram.htm](http://www.agilemodeling.com/artifacts/stateMachineDiagram.htm).
