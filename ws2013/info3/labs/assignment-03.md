@@ -15,9 +15,9 @@ Here are some good sources:
  *  Template Method: we talked about that in class (Sandy Metz Ruby example!), but you can look it up here:
  *  Factory Patterns: You don't need to read all of the following web pages, but make sure you understand the idea of Factories (german wikipedia might also be helpful with this) and the distinction between the different factory patterns.
  *  Factory, ,
- *  Factory Method[ http://www.oodesign.com/factory-method-pattern.daswarmalhtmlundsollswiederwerden][2]
+ *  Factory Method[ http://www.oodesign.com/factory-method-pattern.html][2]
  *  Optional:
- *  Abstract Factory[ http://www.oodesign.com/abstract-factory-pattern.daswarmalhtmlundsollswiederwerden][3]
+ *  Abstract Factory[ http://www.oodesign.com/abstract-factory-pattern.html][3]
  *  Abstract Factory from the GoF-Book
 
 Please read them before coming to class on Friday, as we will work with these topics in class.
@@ -67,8 +67,8 @@ Apart from the Strategy Pattern in the Strategy Pattern implementation/refactori
 Upload a PDF with your answers to the questions and the sequence diagrams. There is no need to upload your source code.
 
 [1]: http://www.informit.com/articles/article.aspx?p=169507&seqNum=2
-[2]: http://www.oodesign.com/factory-method-pattern.daswarmalhtmlundsollswiederwerden
-[3]: http://www.oodesign.com/abstract-factory-pattern.daswarmalhtmlundsollswiederwerden
+[2]: http://www.oodesign.com/factory-method-pattern.html
+[3]: http://www.oodesign.com/abstract-factory-pattern.html
 [4]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/main/java/gildedrose/original/GildedRose.java
 [5]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/inheritance
 [6]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/strategy

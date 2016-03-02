@@ -11,11 +11,11 @@ This e-learning is about exploring and understanding refactoring in more depth.
 The resource on refactoring:
 
 
-[Fowler, Martin: Refactoring: Improving the Design of Existing Code, Addison Wesley Object Technology Series, 1999.](http://martinfowler.com/books/refactoring.daswarmalhtmlundsollswiederwerden)
+[Fowler, Martin: Refactoring: Improving the Design of Existing Code, Addison Wesley Object Technology Series, 1999.](http://martinfowler.com/books/refactoring.html)
 
 Ruby edition:
 
-[Jay Fields, Shane Harvie, and Martin Fowler: Refactoring Ruby Edition. Addison Wesley, 2009.](http://martinfowler.com/books/refactoringRubyEd.daswarmalhtmlundsollswiederwerden)
+[Jay Fields, Shane Harvie, and Martin Fowler: Refactoring Ruby Edition. Addison Wesley, 2009.](http://martinfowler.com/books/refactoringRubyEd.html)
 
 
 The latter is discussed in the [Ruby Rouges Podcast #178](http://devchat.tv/ruby-rogues/178-rr-book-club-refactoring-ruby-with-martin-fowler).

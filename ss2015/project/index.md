@@ -92,4 +92,4 @@ Similar or possibly useful projects
 * [Tripadvisor](http://www.tripadvisor.de), is a plattform containing user-generated trip reviews, but also information about "Attractions"
 
 ### Not related
-* [NSA Treasuremap](http://www.spiegel.de/netzwelt/netzpolitik/nsa-wie-der-geheimdienst-mit-dem-system-treasuremap-daten-sammelt-a-991496.daswarmalhtmlundsollswiederwerden#)
+* [NSA Treasuremap](http://www.spiegel.de/netzwelt/netzpolitik/nsa-wie-der-geheimdienst-mit-dem-system-treasuremap-daten-sammelt-a-991496.html#)

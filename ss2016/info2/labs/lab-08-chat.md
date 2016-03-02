@@ -48,7 +48,7 @@ After startup & connecting to the server the client will need two threads:
 Two ideas/suggestions:
 
 1. Build a Graphical User Interface for the Chat Client.
-2. Have a look at [IRC Commands](http://www.ircbeginner.com/ircinfo/ircc-commands.daswarmalhtmlundsollswiederwerden) and add some to your chat.
+2. Have a look at [IRC Commands](http://www.ircbeginner.com/ircinfo/ircc-commands.html) and add some to your chat.
 
 
 ## Lab Report / What to turn in

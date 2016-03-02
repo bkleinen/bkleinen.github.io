@@ -47,7 +47,7 @@ As of Jekyll 2.2.0, this is part of jekyll. So I updated my site to use the buil
 all included files needed to be moved to the \_sass subdirectory.
 
 * http://jekyllrb.com/docs/assets/
-* http://sass-lang.com/tutorial.daswarmalhtmlundsollswiederwerden
+* http://sass-lang.com/tutorial.html
 * http://de.selfhtml.org for css basics
 
 ## redcarpet---

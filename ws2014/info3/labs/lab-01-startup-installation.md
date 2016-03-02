@@ -50,7 +50,7 @@ I have installed Cygwin and added the cygwin bin directory to the Windows path, 
 
 ### The Path
 
-Speaking of that, you should understand the [PATH](http://www.linfo.org/path_env_var.daswarmalhtmlundsollswiederwerden) - basically a list of directories the shell (the program that reads your commands in the command line) searches for the command.
+Speaking of that, you should understand the [PATH](http://www.linfo.org/path_env_var.html) - basically a list of directories the shell (the program that reads your commands in the command line) searches for the command.
 
 Also, be aware that if you use Windows, programs like git, graphical git clients, cygwin and cmd have different opinions on where your 'home directory' is.
 
@@ -103,7 +103,7 @@ After installing Ruby, install rails with
 
     gem install rails
 
--- see [Rails installation](http://guides.rubyonrails.org/getting_started.daswarmalhtmlundsollswiederwerden#installing-rails) for further information.
+-- see [Rails installation](http://guides.rubyonrails.org/getting_started.html#installing-rails) for further information.
 
 You should then be able to run
 

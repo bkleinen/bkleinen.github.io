@@ -19,7 +19,7 @@ Download and Install the source code for this exercise. Upon request, you can do
 In any case, you should have a look at the provided tests in both versions:
 
 * the Ruby spec uses as Test DSL by Jim Weirich called [rspec-given](https://github.com/jimweirich/rspec-given)
-* the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.daswarmalhtmlundsollswiederwerden) that makes the individual test cases very compact.
+* the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
 
 
 ### Ruby Version
@@ -77,8 +77,8 @@ Apart from the Strategy Pattern in the Strategy Pattern implementation/refactori
 Upload a PDF with your answers to the questions and the sequence diagrams. There is no need to upload your source code.
 
 [1]: http://www.informit.com/articles/article.aspx?p=169507&seqNum=2
-[2]: http://www.oodesign.com/factory-method-pattern.daswarmalhtmlundsollswiederwerden
-[3]: http://www.oodesign.com/abstract-factory-pattern.daswarmalhtmlundsollswiederwerden
+[2]: http://www.oodesign.com/factory-method-pattern.html
+[3]: http://www.oodesign.com/abstract-factory-pattern.html
 [4]: https://github.com/info3/assignment\_3/blob/master/GildedRoseWithTest/src/main/java/gildedrose/original/GildedRose.java
 [5]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/inheritance
 [6]: https://github.com/info3/assignment\_3/tree/master/GildedRoseWithTest/src/main/java/gildedrose/strategy

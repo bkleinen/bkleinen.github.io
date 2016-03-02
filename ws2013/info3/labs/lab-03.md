@@ -42,7 +42,7 @@ Turn in a Lab Report including the names of all people involved, time needed for
 
 Russell J. Abbott. 1983. Program design by informal English descriptions. Commun. ACM 26, 11 (November 1983), 882-894. http://doi.acm.org/10.1145/182.358441
 
-K. Beck and W. Cunningham. 1989. A laboratory for teaching object-oriented thinking. SIGPLAN Not. 24, 10 (September 1989), 1-6. [Available Online](http://c2.com/doc/oopsla89/paper.daswarmalhtmlundsollswiederwerden)
+K. Beck and W. Cunningham. 1989. A laboratory for teaching object-oriented thinking. SIGPLAN Not. 24, 10 (September 1989), 1-6. [Available Online](http://c2.com/doc/oopsla89/paper.html)
 
 Grady Booch. 2004. Object-Oriented Analysis and Design with Applications (3rd Edition). Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA.
 

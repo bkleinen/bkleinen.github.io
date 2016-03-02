@@ -9,8 +9,8 @@ Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
 # Prelab
 
 1. Read through two Rails Guides:
-    1. http://guides.rubyonrails.org/active_record_basics.daswarmalhtmlundsollswiederwerden
-    2. http://guides.rubyonrails.org/association_basics.daswarmalhtmlundsollswiederwerden
+    1. http://guides.rubyonrails.org/active_record_basics.html
+    2. http://guides.rubyonrails.org/association_basics.html
 
 # Assignment
 
@@ -37,7 +37,7 @@ which automatically creates all models defined in spec/factories to populate you
 
 1. Fork the Repository: https://github.com/htw-imi-info3/lab-06-railsapp-HTW
  - it is ok to publish your solution there.
-2. decide on the pumpkins you want to add (http://www.allaboutpumpkins.com/perfect.daswarmalhtmlundsollswiederwerden might be an inspiration) and add an issue to the original repository. e.g. open a new issue with the topic "add Blue Hubbard to Test Data"
+2. decide on the pumpkins you want to add (http://www.allaboutpumpkins.com/perfect.html might be an inspiration) and add an issue to the original repository. e.g. open a new issue with the topic "add Blue Hubbard to Test Data"
     so that everyone else knows you're working on that particular pumpkin and we don't have 50 blue hubbards in the end.
 3. create a branch in your fork - this will be necessary for the pull request. Everything in that branch will be added to the pull request! Make sure to do everything else in your master branch. You can merge or rebase the pumpkins branch into your master to have your testdata availabe.
 4. add the pumpkin factories by adding **a new file**  to spec/factories/

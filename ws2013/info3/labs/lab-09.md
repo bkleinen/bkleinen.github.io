@@ -33,7 +33,7 @@ Download and Install the source code for this exercise. Upon request, you can do
 In any case, you should have a look at the provided tests in both versions:
 
 * the Ruby spec uses as Test DSL by Jim Weirich called [rspec-given](https://github.com/jimweirich/rspec-given)
-* the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.daswarmalhtmlundsollswiederwerden) that makes the individual test cases very compact.
+* the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
 
 In both cases, you'll need to use a code coverage tool to make sure you have all
 branches covered with your tests.

@@ -45,7 +45,7 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studieninteressierte/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
-* Tutorial:  Thurdays 15:45-17:15 WH-C 576 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/informatik.daswarmalhtmlundsollswiederwerden)
+* Tutorial:  Thurdays 15:45-17:15 WH-C 576 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/informatik.html)
 
 ## Java-Tutorials and Book
 
