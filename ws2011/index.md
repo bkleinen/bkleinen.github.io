@@ -71,7 +71,7 @@ Buch: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009,
  <br/>[9]: #
  <br/>[10]: http://www.f4.htw-berlin.de/~weberwu/info1/links.shtml
  <br/>[11]: http://download.oracle.com/javase/tutorial/
- <br/>[12]: http://download.oracle.com/javase/tutorial/java/index.html
+ <br/>[12]: http://download.oracle.com/javase/tutorial/java/
  <br/>[13]:
  <br/>[14]:
  <br/>[15]: "Info1 Additional Lab Notes"

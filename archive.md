@@ -8,9 +8,9 @@ layout: default
 
 # Lectures WS 2014/15
 
-- [Info1]({{site.baseurl}}ws2014/info1/index.html)
-- [Info3]({{site.baseurl}}ws2014/info3/index.html)
-- [WT1 Web Technology]({{site.baseurl}}ws2014/webapplications/index.html)
+- [Info1]({{site.baseurl}}ws2014/info1/)
+- [Info3]({{site.baseurl}}ws2014/info3/)
+- [WT1 Web Technology]({{site.baseurl}}ws2014/webapplications/)
 - [Praxisprojekt](ss2014/project)
 
 
@@ -31,8 +31,8 @@ layout: default
 
 <h1>Older Lectures</h1>
 
-  * [SS 2013](ss2013/index.html)
-  * [WS 2012](ws2012/index.html)
+  * [SS 2013](ss2013/)
+  * [WS 2012](ws2012/)
 
 <div id="home">
   <h1>All Anouncements</h1>

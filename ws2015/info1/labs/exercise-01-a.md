@@ -82,6 +82,6 @@ Please upload 2 Files to Moodle:
 2.  A Zip file containing the Scenarios you've worked on.
 
 
-Read the info on the [Lab Index](index.html) page again if you're unsure about the nature of the lab reports - or simply ask!
+Read the info on the [Lab Index]() page again if you're unsure about the nature of the lab reports - or simply ask!
 
  [1]: https://github.com/htw-imi-info1/kara

@@ -34,7 +34,7 @@ In the Moodle collaboration room you can find a section called "Lecture summarie
 It is due at 23.00 the Monday for both lectures of the past week. It is either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 10% If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
 
 ### Lab Reports
-You find detailled information about them on the [Lab Page](labs/index.html)
+You find detailled information about them on the [Lab Page](labs/)
 
 ### Exam
 
@@ -59,7 +59,7 @@ There are tons of Java Tutorials out there on the web, my recommendation are the
 
 
  [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/index.html
+ [8]: http://download.oracle.com/javase/tutorial/java/
 
 ## Important Links and Further Information
 

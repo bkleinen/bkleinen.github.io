@@ -34,6 +34,6 @@ Please upload 2 Files to Moodle:
     combine the algorithm sketched in the prelab with the algorithm that actually worked in the lab rather than having a section "prelab" and "lab report".
 2.  The Scenario with your solutions in each Kara&#8217;s act method as a ZIP file.
 
-Read the info on the [Lab Index](index.html) page again if you're unsure about the nature of the lab reports - or simply ask!
+Read the info on the [Lab Index]() page again if you're unsure about the nature of the lab reports - or simply ask!
 
  [1]: https://github.com/htw-imi-info1/kara-exercise01

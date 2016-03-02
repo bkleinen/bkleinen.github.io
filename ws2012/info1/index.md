@@ -39,4 +39,4 @@ Book: D. Barnes; M. Kölling: *Objects first with Java. A Practical Introductio
  [2]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=78437
  [5]: https://github.com/htw-imi-info1/
  [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/index.html
+ [8]: http://download.oracle.com/javase/tutorial/java/

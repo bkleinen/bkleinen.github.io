@@ -23,7 +23,7 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
   {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
   {% capture remaining %}{{ url_parts | number_of_words}}{% endcapture%}
 
-   
+
 
    {% if remaining != "0" %}
      <a href="{{site.baseurl}}{{previous}}">{{ first_word }}</a> {{seperator}}

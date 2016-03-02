@@ -1,5 +1,5 @@
 
-[Schedule]({{site.baseurl}}ws2014/info1/schedule/index.html) | [Labs]({{site.baseurl}}ws2014/info1/labs/index.html)
+[Schedule]({{site.baseurl}}ws2014/info1/schedule/) | [Labs]({{site.baseurl}}ws2014/info1/labs/)
 | [Code Examples]({{site.baseurl}}ws2014/info1/code/)
 | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=3994)
 | [Moodle Lab Group 1](https://moodle.htw-berlin.de/course/view.php?id=4070)

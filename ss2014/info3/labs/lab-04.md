@@ -44,7 +44,7 @@ branches covered with your tests.
 
 Bundler will install simplecov. After running rspec, you'll find the html coverage report in
 
-    coverage/index.html
+    coverage/
 
 #### Java Version
 

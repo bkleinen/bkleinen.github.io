@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-[Assignments](assignments/index.html)
+[Assignments](assignments/)
 
 # Important Links
 

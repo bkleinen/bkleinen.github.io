@@ -51,13 +51,13 @@ There are tons of Java Tutorials out there on the web, my recommendation are the
 
 
  [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/index.html
+ [8]: http://download.oracle.com/javase/tutorial/java/
 
 ## Important Links and further Information
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages]({{site.baseurl}}index.html) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
+* [These pages]({{site.baseurl}}) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{site.baseurl}}general/grading-scale.html)
 * [Github](https://github.com/htw-imi-info1) for publicly accessible code examples for the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
 * [Stundenplan](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112) des 1. Semesters
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports

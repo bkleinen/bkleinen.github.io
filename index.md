@@ -12,9 +12,9 @@ layout: widesection
 <div class = "box">
 <h4>Classes Winter Term 2015/2016</h4>
 <ul>
-<li><a href = "ws2015/info1/index.html">Info1</a></li>
-<li><a href = "ws2015/info3/index.html">Info3</a></li>
-<li><a href = "ws2015/wt1wa/index.html">WT1: Web Applications</a></li>
+<li><a href = "ws2015/info1/">Info1</a></li>
+<li><a href = "ws2015/info3/">Info3</a></li>
+<li><a href = "ws2015/wt1wa/">WT1: Web Applications</a></li>
 </ul>
 </div>
 
@@ -30,12 +30,12 @@ If you want to discuss your thesis or IC, please <a href="https://github.com/bkl
 <div class = "box">
 <h4>Baf&ouml;g</h4>
 I'm the IMI-Baf&ouml;g-Beauftragte.<br/>
-I've put together some Information regarding <a href="bafoeg/index.html">Baf&ouml;g</a> - please read them, maybe you don't need to come to see me at all.
+I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - please read them, maybe you don't need to come to see me at all.
 </div>
 
 <div class = "box">
 <h4>Thesis</h4>
-<p>There is also some info here if you consider writing your <a href="thesis/index.html">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
+<p>There is also some info here if you consider writing your <a href="thesis/">Thesis</a> or <a href="thesis/independent_coursework.html">Independent Coursework</a> with me.</p>
 </div>  
 
 <div class = "below">

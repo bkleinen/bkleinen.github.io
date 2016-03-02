@@ -9,7 +9,7 @@ layout: page
 Info 3 is the final module of the Info 1-3 series. In Info1, you learned programming, and the basics of object-oriented design of software. Info2 introduced you to advanced programming with data structures and algorithms. Info3 rounds that out by giving you insights into how to actually design and develop software with an eye for the overall picture.
 
 This term, [Prof. Weber-Wulff](http://www.f4.fhtw-berlin.de/~weberwu/) and I will team-teach this class together for the first time. Mostly, DWW will be doing the Thursday lectures and I will be teaching on Fridays including the labs. The details can be found in
-the [Schedule](schedule/index.html).
+the [Schedule](schedule/).
 
 # Contents
 

@@ -28,7 +28,7 @@ In any case, you should have a look at the provided tests in both versions:
 
 Bundler will install simplecov. You'll find the html coverage report in
 
-    coverage/index.html
+    coverage/
 
 ### Java Version
 
