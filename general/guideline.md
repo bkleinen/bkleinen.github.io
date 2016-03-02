@@ -33,12 +33,15 @@ Additionally to the Grading of the Exercises I will ask you to explain some key 
 
 ### Star Gradings for Exercises
 
-| Stars         | Meaning                                                                                                                                                                                                                                      |
-|:--------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **\*\*\*\*+** | Exceptional: above and beyond the call of duty. Very seldom. Additional red star.                                                                                                                                                            |
-| **\*\*\*\*-** | Excellent: All of the exercises completed and an excellent report.                                                                                                                                                                           |
-| **\*\*\*--**  | Very good: All of the exercises completed, and a good report that may have some minor problems.                                                                                                                                              |
-| **\*\*---**   | Good: Something is missing, although the report is good, or the report has major problems.                                                                                                                                                   |
-| **\*----**    | Satisfactory: Nothing worked, but you had a good report.                                                                                                                                                                                     |
-| **-----**     | Nothing worked, but you managed to scrape together a report. Or you did a million bells and whistles, but turned in a half-page report using bullet lists of misspelled sentence fragements that are, however, technically a report on time. |
-| X             | Late work, not handed in                                                                                                                                                                                                                     |
+| Stars         | Meaning                                                                                                                                                                                                                                          |
+|:--------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **\*\*\*\*+** | Exceptional: above and beyond the call of duty. Very seldom. Additional red star.                                                                                                                                                            |os |
+| **\*\*\*\*-** | Excellent: All of the exercises completed and an excellent report.                                                                                                                                                                               |
+| **\*\*\*--**  | Very good: All of the exercises completed, and a good report that may have some minor problems.                                                                                                                                                  |
+| **\*\*---**   | Good: Something is missing, although the report is good, or the report has major problems.                                                                                                                                                       |
+| **\*----**    | Satisfactory: Nothing worked, but you had a good report.                                                                                                                                                                                         |
+| **-----**     | Nothing worked, but you managed to scrape together a report. Or you did a million bells and whistles, but turned in a half-page report using bullet lists of misspelled sentence fragements that are, however, technically a report on time.     |
+| X             | Late work, not handed in                                                                                                                                                                                                                         |
+{% comment %}
+non-change to trigger github pages rebuild
+{% endcomment %}

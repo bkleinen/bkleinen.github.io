@@ -15,3 +15,7 @@ This is the official grading scale according to the [RPO](https://www.htw-berlin
 | 80 &le; p &lt; 85 | 2,0   | 50 &le; p &lt; 55 | 4,0   |
 | 75 &le; p &lt; 80 | 2,3   | 0  &le; p &lt; 50 | 5,0   |
 | 70 &le; p &lt; 75 | 2,7   |                   |       |
+
+{% comment %}
+non-change to trigger github pages rebuild
+{% endcomment %}
