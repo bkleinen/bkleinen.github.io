@@ -5,7 +5,7 @@ layout: page
 ---
 {% include ws2014/info3.md %}
 
-(These are detailled instructions for the installation part of the [Info 3 Startup Lab](lab-01-startup)).
+(These are detailled instructions for the installation part of the [Info 3 Startup Lab](../lab-01-startup) ).
 ## Note on Eclipse, 06/Oct/2014
 [startup bug on Mavericks](http://imi-bachelor.htw-berlin.de/studium/labore/hinweise//#c36938)
 
@@ -67,13 +67,13 @@ Nevertheless, your colleagues from the previous semesters preferred UML tools. W
 
 ## Ruby and Ruby on Rails Installation
 
-Installing Ruby and Ruby on Rails has proven to be not as straightforward as one might wish for. I'll give you some hints here; but as I hardly saw the same issue twice there's no much point in trying to collect every possible issue here. On Linux and MacOS, I recommend using RVM. 
+Installing Ruby and Ruby on Rails has proven to be not as straightforward as one might wish for. I'll give you some hints here; but as I hardly saw the same issue twice there's no much point in trying to collect every possible issue here. On Linux and MacOS, I recommend using RVM.
 
-A lot of issues come from the fact that you'll need a C compiler on your machine. 
+A lot of issues come from the fact that you'll need a C compiler on your machine.
 
 ### Ruby in the Labs:
 
-#### MacOs: 
+#### MacOs:
 
 Als  User Pfad der gems in ~/.bash_profile setzen und ein neues Terminal öffnen:
 
@@ -90,7 +90,7 @@ Als User Rails installieren:
 
 ### Versions
 
-I usually try to work with the latest versions - the ruby and especially the rails world is evolving quickly. As of today (Oct 5th, 2014) this would be Ruby 2.1.3 and Rails 4.1. - so try to install these versions. 
+I usually try to work with the latest versions - the ruby and especially the rails world is evolving quickly. As of today (Oct 5th, 2014) this would be Ruby 2.1.3 and Rails 4.1. - so try to install these versions.
 The Windows Ruby Installer usually gives you an older version - use it at your own risk - but Ruby 2.0.0 should be ok.
 
 ### Local Installation on your machine
@@ -130,4 +130,3 @@ There is nothing to turn in for this e-Learning session or lab. If you get serio
 I won't, however, be particularly patient with your questions if I find that you start the first UML lab by researching an UML drawing tool for an hour, installing ruby instead of getting your head around the ruby syntax, and spend the rails lab with downloading XCode instead of creating your first web app, or in general seem to be unable to find and look at a file from the command line.
 
 We will also use most of the tools (except ruby and rails) next week for practicing git. So get started!
-
