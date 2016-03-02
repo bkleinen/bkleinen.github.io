@@ -14,16 +14,16 @@ layout: page
 
 # Part 1: Setting up your environment
 
-Make sure that you have 
+Make sure that you have
 
-- ruby, 
-- rails, 
-- git, 
+- ruby,
+- rails,
+- git,
 - a decent text editor
 
  installed on the computer you intend to use (or know how to run all these on the lab machines).
 
-**[Here are detailled instructions](lab-01-startup-installation)**.
+**[Here are detailled instructions](../lab-01-startup-installation)**.
 
 # Part 2: Git(added Oct 10, 2014)
 

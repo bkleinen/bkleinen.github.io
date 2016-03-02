@@ -6,7 +6,7 @@ layout: lab
 ## Pre-Lab
 
 1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2015.zip). You will use the scenarios 01-01 through 01-08 for this lab.
-2.   Read through [Worksheet 1](material/info1-02-worksheet-kara1.pdf)
+2.   Read through [Worksheet 1](../material/info1-02-worksheet-kara1.pdf)
 
 ## Assignment
 
@@ -82,6 +82,6 @@ Please upload 2 Files to Moodle:
 2.  A Zip file containing the Scenarios you've worked on.
 
 
-Read the info on the [Lab Index]() page again if you're unsure about the nature of the lab reports - or simply ask!
+Read the info on the [Lab Index](../) page again if you're unsure about the nature of the lab reports - or simply ask!
 
  [1]: https://github.com/htw-imi-info1/kara

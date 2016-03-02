@@ -9,7 +9,7 @@ layout: page
 In this exercise you will create a Class Diagram for the HTW Application.
 You should work on this exercise in a team of 2-4 people.
 
-Based on the system description in the [last exercise](lab-02) and the use
+Based on the system description in the [last exercise](../lab-02) and the use
 cases you've developed,
 draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.
 ## Prelab

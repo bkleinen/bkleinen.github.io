@@ -12,7 +12,7 @@ layout: lab
 
 ## Assignment: Multi-Threaded Chat
 
-This builds on [Assignment 3, Chatterbox](lab-03), where you built a little Chat Application that was only able to handle one connection from one client. Now you are required to build a full Chat Application with a Server that allows multiple clients to connect, and sends chat messages to all connected clients. To do this simultaneously, e.g. accept user input in the client and receive messages from the server, you will need multiple threads both in the client and the server.
+This builds on [Assignment 3, Chatterbox](../lab-03), where you built a little Chat Application that was only able to handle one connection from one client. Now you are required to build a full Chat Application with a Server that allows multiple clients to connect, and sends chat messages to all connected clients. To do this simultaneously, e.g. accept user input in the client and receive messages from the server, you will need multiple threads both in the client and the server.
 
 Add an command /nick such that a client can set its nickname:
 
