@@ -45,4 +45,4 @@ should include:
 
 Submit your writeup as your post-lab to the Moodle area by 23.00 the day before the next lab.
 
- [1]: http://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
+ [1]: http://docs.oracle.com/javase/7/docs/api/java/util/Stack.daswarmalhtmlundsollswiederwerden

@@ -7,7 +7,7 @@ layout: lab
 
   1. Make sure that you understand [postfix evaluation](lab-06-handout.html).
 
-  2. [ 	&#321;ukasiewicz](http://www-gap.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Lukasiewicz.html) was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
+  2. [ 	&#321;ukasiewicz](http://www-gap.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Lukasiewicz.daswarmalhtmlundsollswiederwerden) was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
 
     1. <tt>1 * 2 + 3 </tt>
     2. <tt>1 + 2 * 3 </tt>

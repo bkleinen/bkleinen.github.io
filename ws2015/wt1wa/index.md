@@ -26,7 +26,7 @@ but it has **5 ECTS Points**, which means that you will have to devote 125-150 h
 As I'll be away from Berlin for the first two weeks of this term, our first actual meeting will be on Thursday, Oct. 22. Thus, the first two weeks will be e-learning:
 
 - Install Ruby & Rails on the Machine you'll be working on during this semester (for most of you this will be your personal laptop; you can of course work in the Lab as well)
-- Work through the Getting Started with Rails Guide: http://guides.rubyonrails.org/getting_started.html (that is, type in the examples, get them to work!)
+- Work through the Getting Started with Rails Guide: http://guides.rubyonrails.org/getting_started.daswarmalhtmlundsollswiederwerden (that is, type in the examples, get them to work!)
 - If you've never seen Ruby before, read up on it: https://www.ruby-lang.org/en/ , e.g. by going through [Ruby in 20 min](https://www.ruby-lang.org/en/documentation/quickstart/)
 - Think of a project idea that you want to be working on.
 Anything that is something about entering, storing and retrieving some data on a web application will be fine.
@@ -62,8 +62,8 @@ adhere to the grammar and spelling rules of the respective language.
 
 ## Course Literature
 
-* [Berners-Lee, Tim (March 1989). "Information Management: A Proposal". World Wide Web Consortium. ](http://www.w3.org/History/1989/proposal.html)
-* [Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html)
+* [Berners-Lee, Tim (March 1989). "Information Management: A Proposal". World Wide Web Consortium. ](http://www.w3.org/History/1989/proposal.daswarmalhtmlundsollswiederwerden)
+* [Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.daswarmalhtmlundsollswiederwerden)
 * [Ruby Language](https://www.ruby-lang.org/en/)
 
 ## Some more links

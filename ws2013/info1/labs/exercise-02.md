@@ -32,7 +32,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
     public Book (String title, double price){ }
 
-If you will be using your own laptop in the lab, please install BlueJ before you come to lab. [Downloads](http://www.bluej.org/download/download.html) are available for all platforms - it's Java!
+If you will be using your own laptop in the lab, please install BlueJ before you come to lab. [Downloads](http://www.bluej.org/download/download.daswarmalhtmlundsollswiederwerden) are available for all platforms - it's Java!
 
 ## Post-Lab, AKA What To Turn In
 

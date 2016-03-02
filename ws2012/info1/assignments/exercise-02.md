@@ -72,7 +72,7 @@ layout: page
   </blockquote>
   
   <p>
-    If you will be using your own laptop in the lab, please install BlueJ before you come to lab. <a href="http://www.bluej.org/download/download.html">Downloads</a> are available for all platforms &#8211; it&#8217;s Java!
+    If you will be using your own laptop in the lab, please install BlueJ before you come to lab. <a href="http://www.bluej.org/download/download.daswarmalhtmlundsollswiederwerden">Downloads</a> are available for all platforms &#8211; it&#8217;s Java!
   </p>
 </div>
 

@@ -18,7 +18,7 @@ be aware that I haven't released them yet for the current term, so they might an
 
 Apart from that, feel free to browse and also send me pull requests if you encounter an error.
 
-[A bit more about how this site is made and edited.](http://bkleinen.github.io/about/thissite.html)
+[A bit more about how this site is made and edited.](http://bkleinen.github.io/about/thissite.daswarmalhtmlundsollswiederwerden)
 
 # Feeds
 

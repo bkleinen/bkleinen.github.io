@@ -6,7 +6,7 @@ layout: default
 
 Seit dem SoSe 2014 bin ich Baf&ouml;g-Beauftragte des Studiengangs IMI. Auch wenn [auf der HTW-Baf&ouml;g-Infoseite](https://www.htw-berlin.de/studium/studienorganisation/finanzierung/bafoeg-bildungskredit/) steht, meine Aufgabe sei, Sie bei der Beantragung von Baf&ouml;g zu unterstützen: das stimmt nur insofern, dass ich Ihnen Bescheinigungen der Hochschule ausstelle, die Sie zur Beantragung brauchen. Bei einem normalen Studienverlauf wird das eine Bescheinigung für das Auslandsbaf&ouml;g sein. Wenn Sie weitere Unterstützung bei der Beantragung brauchen, kann ich Ihnen diese Beratungs/Informationsstellen empfehlen:
 
-- http://www.refrat.de/beratung.bafoeg.html?1401814142
+- http://www.refrat.de/beratung.bafoeg.daswarmalhtmlundsollswiederwerden?1401814142
 - http://www.bafoeg-rechner.de
 - https://www.htw-berlin.de/studieninteressierte/finanzierung/bafoeg-bildungskredit/
 - [Arbeiterkind](http://www.arbeiterkind.de/)
@@ -17,7 +17,7 @@ Leistungsbescheinigung nach &sect;48 Baf&ouml;g (Formblatt 5)
 
 - falls es größere Verzögerungen in Ihrem Studium gab, sollten Sie sich beraten lassen / selbst nachlesen, da es falls Sie Verlängerungsgründe haben, besser ist, diese schon jetzt und nicht erst später geltend zu machen -
 hierzu finden Sie Informationen z.B. unter
-    - http://www.refrat.de/beratung.bafoeg.html?1401814142
+    - http://www.refrat.de/beratung.bafoeg.daswarmalhtmlundsollswiederwerden?1401814142
     - http://www.bafoeg-rechner.de
 
 - wenn Sie Auslandsbaf&ouml;g beantragen, brauchen Sie das Formblatt, da die Beantragung je nach Land, in das Sie reisen, über ein anderes Studentenwerk läuft, Lesen Sie bitte auch die weiteren Hinweise zum Auslandspraktikum.

@@ -82,7 +82,7 @@ Eine gute Lösung dafür ist, direkt in den Kontext einer Instanz zu wechseln, z
 
     }
 
-Siehe auch [Understanding Class Members](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html) im Java-Tutorial
+Siehe auch [Understanding Class Members](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.daswarmalhtmlundsollswiederwerden) im Java-Tutorial
 oder entsprechende Abschnitte über den Unterschied zwischen Klassen und Objekten und Klassenvariablen in anderen Quellen.
 
 
@@ -115,7 +115,7 @@ Dann wird über addComponentListener() ein Listener hinzugefügt, der "benachric
       }
     });
 
-Siehe auch [Panel#repaint](https://docs.oracle.com/javase/8/docs/api/java/awt/Component.html#repaint--)
+Siehe auch [Panel#repaint](https://docs.oracle.com/javase/8/docs/api/java/awt/Component.daswarmalhtmlundsollswiederwerden#repaint--)
 
 # Question #7
 
