@@ -5,9 +5,12 @@ if [ $? -ne 0 ]; then
     exit $?
 fi
 jekyll build --config _config.yml,_htwconfig.yml
+jekyll build --config _config.yml,_htwconfigrz.yml
 if [ $? -eq 0 ]; then
     for f in $(find _site_htw -name "*.html"); do iconv -f utf-8 -t ISO-8859-1 $f > temp.html && mv -f temp.html $f; done
     scp -r _site_htw/* kleinenweb@uranus.f4.htw-berlin.de:/home/kleinen/public_html
+    for f in $(find _site_htw_rz -name "*.html"); do iconv -f utf-8 -t ISO-8859-1 $f > temp.html && mv -f temp.html $f; done
+    scp -r _site_htw_rz/* remserv.rz.htw-berlin.de:/home/user/K/kleinen/public_html
 else
     echo SITE BUILD FAILED, NOT COPYING TO HTW
 fi

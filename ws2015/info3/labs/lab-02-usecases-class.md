@@ -11,7 +11,9 @@ layout: page
 In this exercise you will develop a **detailed Scenario for a Use Case**, and **draw a Class Diagram** for an application called "HTW" - Halloween Treats Worldwide.
 
 First, have a look at the description of the system:
+
 ***
+
 ## Halloween Treats Worldwide
  ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
 <small class = "float-right">Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)</small>

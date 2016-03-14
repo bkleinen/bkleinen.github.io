@@ -1,0 +1,11 @@
+destination: _site_htw_rz
+encoding: UTF-8
+serverencoding: ISO-8859-1
+baseurl: /~kleinen/
+production_url : http://home.htw-berlin.de/~kleinen
+
+
+# jekyll build --config _config.yml, _htwconfig.yml
+# encoding
+# see http://jekyllrb.com/docs/configuration/
+# ruby -e 'puts Encoding::list.join("\n")'
