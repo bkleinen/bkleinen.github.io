@@ -14,7 +14,7 @@ Email: barbara.kleinen@htw-berlin.de
 
 My preferred means of communication is email; try others at your own risk.
 
-Homepage: [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/)
+Homepage: [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/)
 
 Mirror on github: [http://bkleinen.github.io/](http://bkleinen.github.io/)
 

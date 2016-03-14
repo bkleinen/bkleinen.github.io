@@ -15,7 +15,7 @@ First, I decided I wanted to use [markdown](http://daringfireball.net/projects/m
 * [Source for this Site](https://github.com/bkleinen/bkleinen.github.io) - if you find a typo and want to let me know the cool way, [send me a pull request](https://help.github.com/articles/using-pull-requests). But be beware, you might find content there that is not yet meant to be published - especially the exercises from former semesters. Don't start working on them, I might decide to change them and they don't become official before I link them from the classes' page!
 
 
-This site is also deployed to [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/).
+This site is also deployed to [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/).
 
 ## Jekyll
 
@@ -27,7 +27,7 @@ and layout templates.
 * On Github, Jekyll is triggered automatically on each push to the repository
 http://github.com/bkleinen/bkleinen.github.io and publishes the page to
 http://bkleinen.github.io
-* for publishing to [http://people.f4.htw-berlin.de/~kleinen/](http://people.f4.htw-berlin.de/~kleinen/) I use this script: [_bin/deploy-htw.sh](https://github.com/bkleinen/bkleinen.github.io/blob/master/_bin/deploy-htw.sh)
+* for publishing to [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/)I use this script: [_bin/deploy-htw.sh](https://github.com/bkleinen/bkleinen.github.io/blob/master/_bin/deploy-htw.sh)
 * locally, I run
 
         jekyll serve -w
