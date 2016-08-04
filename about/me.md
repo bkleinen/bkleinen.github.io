@@ -7,9 +7,8 @@ layout: page
  ![Barbara_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
 
 # Prof. Dr. Barbara Kleinen
+
 ## Contact Information
-
-
 Email: barbara.kleinen@htw-berlin.de
 
 My preferred means of communication is email; try others at your own risk.
