@@ -1,5 +1,5 @@
 ---
-title: Prof. Dr. B. Kleinen
+title: Prof. Dr. Barne Kleinen
 nobreadcrumbs: true
 layout: widesection
 ---

@@ -7,7 +7,8 @@ layout: page
 ![Barne_Kleinen]({{site.baseurl}}images/bkleinen.jpg)
 </span>
 
-# Prof. Dr. B. Kleinen
+
+# Prof. Dr. Barne Kleinen
 
 ## Contact Information
 Email: kleinen@htw-berlin.de
