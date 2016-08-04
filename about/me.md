@@ -3,8 +3,9 @@ title:
 author: kleinen
 layout: page
 ---
-
- ![Barbara_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
+<span class = "float-right">
+![Barbara_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
+</span>
 
 # Prof. Dr. Barbara Kleinen
 
