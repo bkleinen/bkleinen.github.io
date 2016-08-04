@@ -1,4 +1,4 @@
-name: Prof. Dr. B. Kleinen
+name: Prof. Dr. Barne Kleinen
 encoding: UTF-8
 serverencoding: UTF-8
 permalink: /news/:title/
@@ -11,9 +11,9 @@ excerpt_separator: ""
 production_url : http://bkleinen.github.io
 rss_path : rss.xml
 atom_path : atom.xml
-title: B. Kleinen
+title: Barne Kleinen
 author:
-  name: B. Kleinen
+  name: Barne Kleinen
   email: kleinen@htw-berlin.de
 defaults:
   -
