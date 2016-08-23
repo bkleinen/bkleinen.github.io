@@ -7,7 +7,7 @@ layout: page
 ![Barbara_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
 </span>
 
-# Prof. Dr. Barbara Kleinen
+# Prof. Dr. B. Kleinen
 
 ## Contact Information
 Email: barbara.kleinen@htw-berlin.de

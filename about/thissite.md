@@ -10,7 +10,7 @@ Although this site is nothing special, I made it in a way that eases maintenance
 
 First, I decided I wanted to use [markdown](http://daringfireball.net/projects/markdown/) rather than editing HTML directly, or using a CMS which stores the information/text in some obscure way making it hard to backup, version or reuse content.
 
-[Github Pages](http://pages.github.com/) offer a great solution to what I wanted - just pushing to the repository triggers a site build.
+[Github Pages](http://pages.github.com/) offer a great solution to what I wanted based on Markdown and Jekyll. Also, just pushing to the repository to github triggers a site build and deployment to the github servers.
 
 * [Source for this Site](https://github.com/bkleinen/bkleinen.github.io) - if you find a typo and want to let me know the cool way, [send me a pull request](https://help.github.com/articles/using-pull-requests). But be beware, you might find content there that is not yet meant to be published - especially the exercises from former semesters. Don't start working on them, I might decide to change them and they don't become official before I link them from the classes' page!
 
@@ -35,6 +35,12 @@ http://bkleinen.github.io
 
 * redcarpet: For Markdown Processing, [redcarpet](https://github.com/vmg/redcarpet) is used.
 
+## HTML Proofing
+
+I use the HTML proofer gem to check for broken links. HTML::Proofer is called via
+rake, and a travis configuration performes the tests automatically if pushed to
+github. See the Rakefile and the travis config file .travis.yml for specifics.
+
 ## Sass preprocessing
 
 To ease working on the css stylesheets, I also use [Sass](http://sass-lang.com/) preprocessing.
@@ -49,20 +55,3 @@ all included files needed to be moved to the \_sass subdirectory.
 * http://jekyllrb.com/docs/assets/
 * http://sass-lang.com/tutorial.html
 * http://de.selfhtml.org for css basics
-
-## redcarpet---
-
-
-Some notes about Redcarpet Markdown - see
-https://github.com/vmg/redcarpet
-
-## lists
-1. eins
-2. zwei
-  1. zwei a
-  2. zwei b
-3. drei
-4. vier
-  1. vier a
-  2. vier b
-5. fuenf

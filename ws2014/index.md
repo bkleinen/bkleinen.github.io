@@ -4,7 +4,4 @@ author: kleinen
 layout: default
 ---
 
-*   [Informatik 1](info1)
-*   [Informatik 3](info3)
-*   [WT1WA](webapplications)
-*   [Praxisprojekt](../ss2014/project)
+{% include ws2014/lectures.md %}

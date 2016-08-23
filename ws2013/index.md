@@ -4,6 +4,4 @@ author: kleinen
 layout: page
 ---
 
-*   [Informatik 1](info1)
-*   [Informatik 3](info3)
-*   [Praxisprojekt](project)
+{% include ws2013/lectures.md %}
