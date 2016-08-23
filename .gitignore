@@ -4,3 +4,4 @@ _site_htw_rz
 .sass-cache
 *.out
 link-checker-crawled-pages.pstore
+*.log

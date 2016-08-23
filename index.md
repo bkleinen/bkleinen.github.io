@@ -4,24 +4,24 @@ nobreadcrumbs: true
 layout: widesection
 ---
 
+{% comment%}
 <div class = "above">
 <h4>Announcements and News</h4>
 {% include posts/posts.html %}
 </div>
-{% comment%}
+{% endcomment%}
 <div class = "box">
-<h4>Classes Winter Term 2015/2016</h4>
+<h4>Classes Winter Term 2016/2017</h4>
 <ul>
-<li><a href = "ws2015/info1/">Info1</a></li>
-<li><a href = "ws2015/info3/">Info3</a></li>
-<li><a href = "ws2015/wt1wa/">WT1: Web Applications</a></li>
+<li><a href = "ws2016/info1/">Info1</a></li>
+<li><a href = "ws2016/media-programming-ruby/">Ruby-Block in Media Programming</a></li>
 </ul>
 </div>
-{% endcomment%}
+
 
 <div class = "box">
 <h4>Office Hours</h4>
-No Office Hours this Summer Term. Please send me an email.
+Will be announched after the Schedule is determined.
 {% comment%}
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a>. If there's no slot available, or for anything else, email me.
@@ -40,7 +40,8 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 <h4>Thesis</h4>
 <p>There is also some info here if you consider writing your <a href="thesis/">Thesis</a> or <a href="thesis/independent_coursework">Independent Coursework</a> with me.</p>
 </div>  
-
+<div class = "box">&nbsp;
+</div>
 <div class = "below">
 &nbsp;
 {% comment%}
