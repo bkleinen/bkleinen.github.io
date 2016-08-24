@@ -7,6 +7,7 @@ $ignore << 'https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/colla
 desc "default task: check all links"
 task :default => ["test:links"]
 
+desc "Run Jekyll"
 task :run_jekyll do
     sh "bundle exec jekyll build"
 end
@@ -28,9 +29,14 @@ namespace "test" do
       }).run
   end
 
-  desc "Check Only Internal Links"
+  desc "Check Only Internal Links, Verbosely"
   task :internal_links => :run_jekyll do
     HTML::Proofer.new("./_site",url_ignore: $ignore, disable_external: true).run
+  end
+
+  desc "Check Only Internal Links"
+  task :internal_links_verbose => :run_jekyll do
+    HTML::Proofer.new("./_site",url_ignore: $ignore, disable_external: true, verbose: true).run
   end
 
   desc "Test Suite for Travis CI"
