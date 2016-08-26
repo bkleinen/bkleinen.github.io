@@ -10,9 +10,9 @@ layout: default
 Felix Brix has taken on the project of developing an gamified Q&A application for Info1 and Info2.
 
 Currently, he is collecting Questions to have material for his concept.
-You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/](http://ba-thesis.herokuapp.com/),
+You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/]({{site.baseurl}}miscellany/grasp/),
 and I'll answer them around Saturday at noon latest for the current week.
-You find a list of questions here [http://ba-thesis.herokuapp.com/questions](http://ba-thesis.herokuapp.com/questions) and
+You find a list of questions here [http://ba-thesis.herokuapp.com/questions]({{site.baseurl}}miscellany/grasp/questions) and
 their answers there: [QUAME](quame)
 
 
