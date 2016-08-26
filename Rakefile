@@ -50,4 +50,16 @@ namespace "test" do
         result = Rake::Task["test:internal_links"].invoke
     end
   end
+
+  desc "Verbose Test Suite for Travis CI"
+  task :travis_verbose do
+    begin
+      result = Rake::Task["test:links_verbose"].invoke
+    rescue => e
+        $stderr.puts "Checking the links failed!"
+        $stderr.puts "Failed with a #{e.class}, Message: #{e.message}"
+        $stderr.puts "Re-Running for just the Internal Links."
+        result = Rake::Task["test:internal_links_verbose"].invoke
+    end
+  end
 end
