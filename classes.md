@@ -1,5 +1,5 @@
 ---
-title: Lectures
+title: Classes
 author: kleinen
 layout: default
 ---
@@ -8,7 +8,7 @@ layout: default
 
 **TBA**
 
-## Former Lectures
+## Former Classes
 
 ### Summer Term 2016
 

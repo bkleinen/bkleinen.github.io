@@ -4,7 +4,7 @@
   <p><a href="{{site.baseurl}}about/me">Contact Info</a>
     <span class = "nav-divider">|</span></p>
 <p>
-  <a href="{{site.baseurl}}lectures">Lectures</a>
+  <a href="{{site.baseurl}}classes">Classes</a>
   <span class = "nav-divider">|</span></p>
 <p>
   <a href="{{site.baseurl}}thesis">Thesis</a>
