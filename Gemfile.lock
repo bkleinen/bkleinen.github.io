@@ -54,6 +54,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     pkg-config (1.1.7)
+    rake (10.4.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -73,6 +74,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll
+  rake
 
 BUNDLED WITH
-   1.11.2
+   1.12.5

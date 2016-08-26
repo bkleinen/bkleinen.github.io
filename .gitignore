@@ -6,3 +6,4 @@ _site_htw_rz
 link-checker-crawled-pages.pstore
 *.log
 kramdown.diff
+temp.html
