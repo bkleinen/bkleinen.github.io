@@ -12,8 +12,9 @@ I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, 
 
 ## In welchem Raum ist das Kolloquium?
 
-Wenn der Kolloquiumstermin mit genügend Vorlauf geplant wird, werden Sie normalerweise angeschrieben und darin über den Raum (der fast immer der WH-C 603 oder WH-C 273 ist) informiert. In diesen beiden Räumen gibt es Beamer mit HDMI- und VGA-Anschluss, davon können Sie auch sonst immer ausgehen. Falls das aus irgendwelchen Gründen nicht klappt, finden Sie eine Liste der aktuellen Kolloqiumstermine auf dieser Seite verlinkt:
-[http://wi-bachelor.htw-berlin.de/studieren/faq/abschlussarbeiten/](http://wi-bachelor.htw-berlin.de/studieren/faq/abschlussarbeiten/) - es ist übrigens auch möglich, die Kolloquien Ihrer Kommilitonen zu besuchen - der oder die Prüfling kann darüber entscheiden, wer beim Vortrag dabei sein soll, die Notenverkündung ist auch dann vertraulich (wir hatten schon Eltern und sogar einen Opa!).
+Wenn der Kolloquiumstermin mit genügend Vorlauf geplant wird, werden Sie normalerweise angeschrieben und darin über den Raum (der fast immer der WH-C 603 oder WH-C 273 ist) informiert. In diesen beiden Räumen gibt es Beamer mit HDMI- und VGA-Anschluss, davon können Sie auch sonst immer ausgehen.
+
+ - es ist übrigens auch möglich, die Kolloquien Ihrer Kommilitonen zu besuchen - der oder die Prüfling kann darüber entscheiden, wer beim Vortrag dabei sein soll, die Notenverkündung ist auch dann vertraulich.
 
 ## BA Kolloquium, wie l&auml;uft das ab, was muss ich wissen?
 

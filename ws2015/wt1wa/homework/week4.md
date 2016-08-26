@@ -10,7 +10,7 @@ layout: default
 created last week.
 2. Create a test for exercise 2 of last week (search, sort, etc, whatever you've created)
 3. create more feature tests if you want to.
-4. create a hand-rolled login-procedure following [Chapter 8](https://www.railstutorial.org/book/log_in_log_out) of Michael Hartl's Tutorial. (note: this is to do it once yourself, you wouldn't create your own in a real project, but rather use a library)
+4. create a hand-rolled login-procedure following Chapter 8 of [Michael Hartl's Tutorial](https://www.railstutorial.org/). (note: this is to do it once yourself, you wouldn't create your own in a real project, but rather use a library)
 5. Do this either test-driven or add feature tests for the successful login.
 3. Tag your project: "WEEK04" and push it to github.
 9. Upload your PDF-Report to moodle. Your Report should describe what you did, problems you've encountered and how you solved them.
