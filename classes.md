@@ -6,7 +6,7 @@ layout: default
 
 ##  Winter Term WS2016/17
 
-**TBA**
+{% include ws2016/lectures.md %}
 
 ## Former Classes
 

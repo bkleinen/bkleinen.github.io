@@ -4,4 +4,4 @@ author: kleinen
 layout: default
 ---
 
-*   [Informatik 1](info1)
+{% include ws2016/lectures.md %}

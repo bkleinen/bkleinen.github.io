@@ -10,6 +10,8 @@ layout: widesection
 {% include posts/posts.html %}
 </div>
 {% endcomment%}
+
+
 <div class = "box">
 <h4>Classes Winter Term 2016/2017</h4>
 <ul>
