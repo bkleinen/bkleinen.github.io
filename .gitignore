@@ -5,3 +5,4 @@ _site_htw_rz
 *.out
 link-checker-crawled-pages.pstore
 *.log
+kramdown.diff

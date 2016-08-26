@@ -21,7 +21,7 @@ layout: widesection
 
 <div class = "box">
 <h4>Office Hours</h4>
-Will be announched after the Schedule is determined.
+Will be announced after the Schedule is determined.
 {% comment%}
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a>. If there's no slot available, or for anything else, email me.
