@@ -106,5 +106,5 @@ Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
 
 [2]: https://msdn.microsoft.com/en-us/library/dd409427.aspx
-[3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex1.shtml
+[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
 [4]: http://www.f4.htw-berlin.de/~weberwu/

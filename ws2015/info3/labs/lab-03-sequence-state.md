@@ -56,5 +56,5 @@ As always, reflect on your process, point out who did what and of course include
 
 State Machine Part based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
-[3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex4.shtml
+[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
 [4]: http://www.f4.htw-berlin.de/~weberwu/

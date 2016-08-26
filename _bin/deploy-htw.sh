@@ -14,6 +14,8 @@ if [ $? -eq 0 ]; then
 else
     echo SITE BUILD FAILED, NOT COPYING TO HTW
 fi
+# if iconv fails, or gsub in HTMLProofer fails, check for invalid UTF-8
+# with grep -axv '.*' *
 
 # note: for the scp to work, there need to be ssh keys in place for kleinenweb
 # and /home/kleinen/public_html and all files in it must belong to group kleinenweb

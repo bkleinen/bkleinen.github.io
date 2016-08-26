@@ -31,5 +31,5 @@ Your Lab Report should include reflections on the process of producing the diagr
 
 Based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
-[3]: http://www.f4.fhtw-berlin.de/~weberwu/se/Labs/Ex4.shtml
+[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
 [4]: http://www.f4.htw-berlin.de/~weberwu/

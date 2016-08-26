@@ -12,7 +12,7 @@ First, I decided I wanted to use [markdown](http://daringfireball.net/projects/m
 
 [Github Pages](http://pages.github.com/) offer a great solution to what I wanted based on Markdown and Jekyll. Also, just pushing to the repository to github triggers a site build and deployment to the github servers.
 
-* [Source for this Site](https://github.com/bkleinen/bkleinen.github.io) - if you find a typo and want to let me know the cool way, [send me a pull request](https://help.github.com/articles/using-pull-requests). But be beware, you might find content there that is not yet meant to be published - especially the exercises from former semesters. Don't start working on them, I might decide to change them and they don't become official before I link them from the classes' page!
+* [Source for this Site](https://github.com/bkleinen/bkleinen.github.io) - if you find a typo and want to let me know the cool way, [send me a pull request](https://help.github.com/articles/creating-a-pull-request/). But be beware, you might find content there that is not yet meant to be published - especially the exercises from former semesters. Don't start working on them, I might decide to change them and they don't become official before I link them from the classes' page!
 
 
 This site is also deployed to [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/).
