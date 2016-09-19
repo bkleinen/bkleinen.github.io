@@ -11,10 +11,10 @@ excerpt_separator: ""
 production_url : http://bkleinen.github.io
 rss_path : rss.xml
 atom_path : atom.xml
-title: B Kleinen
+title: B. Kleinen
 author:
-  name: B Kleinen
-  email: barbara.kleinen@htw-berlin.de
+  name: B. Kleinen
+  email: kleinen@htw-berlin.de
 defaults:
   -
     scope:
