@@ -16,7 +16,7 @@ layout: widesection
 <h4>Classes Winter Term 2016/2017</h4>
 <ul>
 <li><a href = "ws2016/info1/">Info1</a></li>
-<li><a href = "ws2016/media-programming-ruby/">Ruby-Block in Media Programming</a></li>
+<li><a href = "ws2016/media-programming-rails/">Rails-Block in Media Programming</a></li>
 </ul>
 </div>
 
