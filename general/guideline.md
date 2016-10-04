@@ -27,11 +27,14 @@ The assignments will clearly state wether you need to hand in a PDF, source code
 *   **Submit your complete work on time**. There is no point in emailing me if you didn&#8217;t. Everybody has a cold now and then, but if you miss just one week (and your group wasn&#8217;t able to upload it for you&#8230;) you still have the chance of getting enough points for a 1.0 as there is enough slack in the grading. If you become seriously ill and miss more than one week, make sure you collect medical certificates (ärztliche Atteste) immediately and email me/talk to me asap and we will find a solution.
 *   **Submissions not adhering to these guidelines will not be graded.**
 
-## Grading of Lab Reports and Exercises
+### Language
+You can use both German and English in your reports,
+as long as you don't switch languages within one sentence and do your best to
+adhere to the grammar and spelling rules of the respective language.
 
-Additionally to the Grading of the Exercises I will ask you to explain some key points to me in the following lab. I won't have time to talk to each one of you each time, but will try to talk to each of you at least two or three times during the semester. You will need to be able to explain your solution to me, for the obvious reason to make sure that if you haven't done all of it yourself, you at least understand the solution you've put together with help of others. (Which might, depending on the work )
+## Star Gradings for Exercises
 
-### Star Gradings for Exercises
+- where applicable -
 
 | Stars         | Meaning                                                                                                                                                                                                                                          |
 |:--------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -12,7 +12,7 @@ Thus, the "Changes in ws2016" links will only work after I've uploaded those cha
 Note that it might also be quite convenient to look at the code on the github page online,
 the commit history shows you exactly the changes I made. Click on "commits" and then one
 individual commit, and you see something like [this](https://github.com/htw-imi-info1/kara/commits/ws2016).
-
+{% comment %}
 * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 * [Kara Scenarios for Worksheet](https://github.com/htw-imi-info1/kara/tree/master) - [ws2016](https://github.com/htw-imi-info1/kara/tree/ws2016)
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter01/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2016.zip)
@@ -21,7 +21,7 @@ individual commit, and you see something like [this](https://github.com/htw-imi-
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter04/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2016.zip) - 18.11.2014: in music organizer v3
 * [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter05/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2016.zip)
 * [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2016.zip)
-
+{% endcomment %}
 ## Further Hints
 * You can download the complete examples/repositories by using the ZIP Button present on the repository sites.
 * You can also look at single files online on github.

@@ -6,14 +6,16 @@ layout: page
 
 ## Welcome!
 
-Informatics 1 is an introduction to object-oriented programming using the Java language. In this class we will be using BlueJ as the main development environment and learn about writing programs, designing simple algorithms, about control structures, data types and structures, objects and classes. We will start off in Greenfoot, though, teaching a little lady bug to complete simple tasks by programming our first algorithms.
+Informatics 1 is an introduction to object-oriented programming using the Java
+language. In this class we will be using [Greenfoot](http://www.greenfoot.org)
+and [BlueJ](http://bluej.org/) as development environments.
+You will learn about writing programs, designing simple algorithms, about
+control structures, data types and structures, objects and classes.
 
 ## Language
 
 This class will be held in german, but all (or almost all) written material will
-be in English. You are free to choose either language for your written assignments;
-as long as you don't switch languages within one sentence and do your best to
-adhere to the grammar and spelling rules of the respective language.
+be in English. You are free to choose either language for your written assignments.
 
 ## Meetings
 
@@ -25,13 +27,17 @@ LSF.
 Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
 
 * Lecture summaries: 10%
-* Lab reports: 40%
-* Exam: 60%
+* Lab reports:
+    * 13 "ok": 5% extra points
+    * You need an "ok" on more than 10 out of 13 to be admitted to
+the exam
+* Exam: 95%
 
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
 
-It is due at 23.00 the Monday for both lectures of the past week. It is either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 10% If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
+Lecture summaries are due at 23.00 the Monday for both lectures of the past week. They are either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 10%.
+ If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
 
 ### Lab Reports
 You find detailled information about them on the [Lab Page](labs/)
@@ -42,10 +48,10 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 
 ## Tutorial and Lernzentrum
 
-If you struggle with this class, need more support with the exercises or simply don't like studying alone:
+If you struggle with this class, need more support with the exercises or simply don't like studying alone (or my lectures):
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studieninteressierte/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
-* Tutorial:  Thurdays 15:45-17:15 WH-C 576 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/informatik.html)
+* Tutorial:  Tuesdays 15:45-17:15 WH-C 537 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/termine.html)
 
 ## Java-Tutorials and Book
 
