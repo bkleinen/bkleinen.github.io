@@ -4,13 +4,13 @@ author: kleinen
 layout: page
 ---
 <span class = "float-right">
-![Barbara_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
+![Barne_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
 </span>
 
 # Prof. Dr. B. Kleinen
 
 ## Contact Information
-Email: barbara.kleinen@htw-berlin.de
+Email: kleinen@htw-berlin.de
 
 My preferred means of communication is email; try others at your own risk.
 
