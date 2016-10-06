@@ -26,12 +26,14 @@ LSF.
 
 Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
 
+* Exam: 90%
 * Lecture summaries: 10%
 * Lab reports:
-    * 13 "ok": 5% extra points
-    * You need an "ok" on more than 10 out of 13 to be admitted to
+    * * You need an "ok" on more than 10 out of 13 to be admitted to
 the exam
-* Exam: 95%
+    * 13 "ok": 5% extra
+* Q&A in Grasp: up to 5% extra
+
 
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
@@ -51,7 +53,7 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 If you struggle with this class, need more support with the exercises or simply don't like studying alone (or my lectures):
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studieninteressierte/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
-* Tutorial:  Tuesdays 15:45-17:15 WH-C 537 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/termine.html)
+* Tutorial:  Tuesdays  08:00-09:30 in WH-C 576 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/termine.html)
 
 ## Java-Tutorials and Book
 
