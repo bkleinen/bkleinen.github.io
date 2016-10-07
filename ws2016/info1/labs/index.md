@@ -12,9 +12,9 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 
 ## Exercises
 
-Will be published soon!
-{% comment %}
 * [Exercise 00 - Exercise Startup](exercise-00)
+
+{% comment %}
 * [Exercise 01 a - Programming Kara First Steps](exercise-01-a)
 * [Exercise 01 b - Programming Kara Advanced](exercise-01-b)
 * [Exercise 02 - Shapes and Ticket Machine](exercise-02)

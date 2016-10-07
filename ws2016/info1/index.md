@@ -29,7 +29,7 @@ Your grade in Info1 will be a weighted mixture of the evaluated elements of the 
 * Exam: 90%
 * Lecture summaries: 10%
 * Lab reports:
-    * * You need an "ok" on more than 10 out of 13 to be admitted to
+    * You need an "ok" on more than 10 out of 13 to be admitted to
 the exam
     * 13 "ok": 5% extra
 * Q&A in Grasp: up to 5% extra
