@@ -25,10 +25,6 @@ Your completed assignment, submitted in Moodle as a pdf, should include:
 *   The names and roles of any collaborators in any parts of the exercise.
 *   A record of how long you needed for this lab and what you learned.
 
-I have been asked to skip the report for those last two exercises to spare you the time; I've decided against it:
-
-* reflecting about what you did and learned is an important part of the learning process. It's not just about getting the code to run!
-
 * ***But:*** The lab report can be rather short. Is is mainly for yourself, to reflect and track your learning process. You don't have to note down every single step. Just take a couple of minutes to reflect on your learnings, and things you struggled with. And your co-workers :)
 
 * * *
@@ -49,4 +45,3 @@ I have been asked to skip the report for those last two exercises to spare you t
 Submit your writeup as your post-lab to the Moodle area by 23.00 the day before the next lab.
 
  [1]: http://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
-

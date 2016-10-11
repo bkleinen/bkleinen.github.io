@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 01: Programming Kara - Advanced'
+title: 'Exercise 01: Programming Kara'
 author: kleinen
 layout: lab
 ---
@@ -25,8 +25,11 @@ layout: lab
 5.  Picture Inversion: (lab01_kara05) Program Kara such that it will create an &#8220;inverse picture&#8221; within a tree rectangle. E.g. starting as in KaraWorld05, the picture should look like this after the program has run:
 ![kara inverted](../images/kara-exercise01-inverted.jpg)
 6.  Draw a Spiral: (lab01_kara06) Like this:
-
 ![spiral](../images/kara-exercise01-spiral.jpg)
+
+### For the bored
+
+1. Make Kara add two numbers in binary format. In lab01_kara07 the world creates two random 8-bit binary numbers, a leaf means 1, no leaf means 0. Make Kara add them up using place value and carrying, which is basically the same as [adding up decimal numbers using place value and carrying](https://www.khanacademy.org/math/4th-engage-ny/engage-4th-module-1/4th-module-1-topic-d/v/carrying-when-adding-three-digit-numbers). [Here's an explanation how to do it for binary numbers.](http://www.wikihow.com/Add-Binary-Numbers#Adding_Binary_Numbers_Using_Place_Value_sub)
 
 ## Post-Lab, AKA What to Turn In
 

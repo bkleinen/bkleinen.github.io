@@ -5,7 +5,10 @@ layout: schedule
 ---
 
 
-This schedule is tentative and subject to change!
+This schedule is tentative and subject to change.
+
+__All exercises are linked from this page. Feel free to peek, but be aware
+that the ones released for this class are only those linked from the [lab overview page](../labs)__
 
 
 

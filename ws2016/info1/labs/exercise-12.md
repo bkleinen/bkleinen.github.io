@@ -27,11 +27,6 @@ Your completed assignment, submitted in Moodle as a pdf, should include:
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 
-* ***and again:*** The lab report can be rather short. Is is mainly for yourself, to reflect and track your learning process. You don't have to note down every single step. Just take a couple of minutes to reflect on your learnings, and things you struggled with. And your co-workers :)
-
-Lab assignments are due Sundays at 23.00, I want you to get some sleep the night before Monday class. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
-* * *
-
 # Assignment
 
 ## Picking up Items
