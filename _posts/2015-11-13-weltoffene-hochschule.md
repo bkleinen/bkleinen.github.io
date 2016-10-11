@@ -4,6 +4,7 @@ author: kleinen
 layout: post
 categories:
   - news
+  - old
 ---
 
 Am 9. November hat der Akademische Senat der HTW beschlossen, die bundesweite Aktion der Hochschulrektorenkonferenz „Weltoffene Hochschule – Gegen Fremdenfeindlichkeit“ zu unterstützen:

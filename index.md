@@ -4,12 +4,12 @@ nobreadcrumbs: true
 layout: widesection
 ---
 
-{% comment%}
+
 <div class = "above">
 <h4>Announcements and News</h4>
 {% include posts/posts.html %}
 </div>
-{% endcomment%}
+
 
 
 <div class = "box">
@@ -44,7 +44,14 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 <h4>Thesis</h4>
 <p>There is also some info here if you consider writing your <a href="thesis/">Thesis</a> or <a href="thesis/independent_coursework">Independent Coursework</a> with me.</p>
 </div>  
-<div class = "box">&nbsp;
+
+<div class = "box">
+<h4>Praktikumsbeauftragter</h4>
+<small>Bitte lesen Sie die <a href="http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10774/">Informationen auf der IMI-Seite</a>
+ durch, und kommen Sie mit den vollständigen
+Unterlagen in meine Sprechstunde. Bitte sehen Sie von Anfragen über email ab; Sie können mich während der Sprechstundenzeit auch anrufen.
+Wenn Sie Auslandsbafög beantragen wollen, können Sie das Formblatt V gleich mitbringen.
+</small>
 </div>
 <div class = "below">
 &nbsp;
