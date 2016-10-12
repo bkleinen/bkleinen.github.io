@@ -1,5 +1,5 @@
 ---
-title: Media Programming: Web Technology
+title: "Media Programming: Web Technology"
 author: kleinen
 layout: page
 ---
