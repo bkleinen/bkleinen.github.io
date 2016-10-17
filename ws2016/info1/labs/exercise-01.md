@@ -95,7 +95,7 @@ Read the info on the [Lab Index](../) page again if you're unsure about the natu
 
  [1]: https://github.com/htw-imi-info1/exercise01-kara
 
- ## Links to the Worksheets
+## Links to the Worksheets
 
  * [Worksheet 1](../material/info1-02-worksheet-kara1.pdf)
  * [Worksheet 2](../material/info1-04-worksheet-kara2.pdf)
