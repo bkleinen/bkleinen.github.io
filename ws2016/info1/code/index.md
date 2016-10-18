@@ -14,9 +14,9 @@ the commit history shows you exactly the changes I made. Click on "commits" and 
 individual commit, and you see something like [this](https://github.com/htw-imi-info1/kara/commits/ws2016).
 
 
-* [Kara Scenarios for Worksheet 1](https://github.com/htw-imi-info1/kara/tree/master) - [ws2016](https://github.com/htw-imi-info1/kara/tree/ws2016)
-{% comment %}
+* [Kara Scenarios for Worksheet 1+2](https://github.com/htw-imi-info1/kara/tree/master) - [ws2016](https://github.com/htw-imi-info1/kara/tree/ws2016)
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter01/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2016.zip)
+* {% comment %}
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter02/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2016.zip)
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter03/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2016.zip)
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter04/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2016.zip) - 18.11.2014: in music organizer v3

@@ -14,10 +14,8 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 
 * [Exercise 00 - Exercise Startup](exercise-00)
 * [Exercise 01 - Programming Kara](exercise-01) 
-
-{% comment %}
-
 * [Exercise 02 - Shapes and Ticket Machine](exercise-02)
+* {% comment %}
 * [Exercise 03 - Book Exercise](exercise-03)
 * [Exercise 04 - Rock Around the Clock](exercise-04)
 * [Exercise 05 - A Better Notebook](exercise-05)

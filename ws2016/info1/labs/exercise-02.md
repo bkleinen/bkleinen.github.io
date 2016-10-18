@@ -15,7 +15,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 **P1.** In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.
 
 **P2.** What are the types of the following values (constants)?
-
+<pre>
   - 0
   - "hello"
   - 101
@@ -25,7 +25,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
   - "33"
   - '3'
   - 3.1415
-
+</pre>
 **P3.** Pick up a book - you should have at least one at home. Is it an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.
 
 **P4.** What class does the following constructor belong to? How many formal parameters does it have? What are their types?
@@ -53,7 +53,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 
 
 {% comment %}
- and 
+ and
 
 1. What do circles, triangles, and squares have in common? Do they have any differences?
 {% endcomment %}
@@ -62,7 +62,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 
 3. Make all four figures have the same color. What did you have to do? Did you make any mistakes doing this?
 
-4. Inspect your objects. What do they have in common, where do circles, triangles and squares differ? How do the two squares differ? 
+4. Inspect your objects. What do they have in common, where do circles, triangles and squares differ? How do the two squares differ?
 
 {% comment %}
 4. Now make an interesting picture using these three shapes! Use at least 5 objects. Record what you had to do to get this scene set up. Take a screenshot for your report.
@@ -79,8 +79,9 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
         }
 
 6. Open the **TicketMachine project** in BlueJ. Replace the constructor with the constructor above and try it out. Were you right? Record your results in your report.
+{% comment %}
 7. Kara: Go back to the [first Scenario of last Exercise](https://github.com/htw-imi-info1/exercise01-kara/tree/master/lab01_kara01).  Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? ("super" calls the super class constructor).
-
+{% endcomment %}
 {% comment %}
 8. (For the bored) Okay, so you've been programming since before you could talk and this is child's play. Explore a little deeper - can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
 {% endcomment %}
