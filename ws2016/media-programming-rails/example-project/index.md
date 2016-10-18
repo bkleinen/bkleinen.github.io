@@ -33,7 +33,7 @@ See lecture
 See lecture
 ## 6. Create a new rails application., 7. Generate your first model/view/controller using `rails generate scaffold`
 see the README in https://github.com/media-programming-rails/example-app - have a look at the commits!
-## 8. Have a look at the generated html templates (find dem in app/views). Change and document one thing that makes sense within your application.
+## 8. Have a look at the generated html templates (find them in app/views). Change and document one thing that makes sense within your application.
 By default, a last done date is set by the tempate. Simply removed it from the template.
 
 ## 9. Next, pick a user story that requires to add a little bit of functionality to your app.

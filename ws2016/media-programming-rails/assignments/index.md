@@ -4,9 +4,8 @@ author: kleinen
 layout: page
 ---
 
-# Assignments
-
-## Week 1 - Getting started
+# Week 1
+## Getting started
 
 ### Working on your project
 1. Write down your project vision.
@@ -32,7 +31,8 @@ it will help you understand what you need to do for this exercise as well as for
 the next.
 
 
-# Week 2 - Active Record Associations, Migrations and Views
+# Week 2
+## Active Record Associations, Migrations and Views
 
 ### Working on your project
 
@@ -68,7 +68,7 @@ Guide and have a look at the Capybara DSL which we will use to write end-to-end 
 tests.
 * [A Guide to Testing Rails Applications](http://guides.rubyonrails.org/testing.html)
 * [Capybara's DSL](https://github.com/jnicklas/capybara#the-dsl)
-* collect the Ruby idioms you've encountered so far.
+* Collect the Ruby idioms you've encountered so far. You can also start making your own notes/examples by cloning [https://github.com/media-programming-rails/ruby-learning/](https://github.com/media-programming-rails/ruby-learning/)
 * Read through [From Java to Ruby](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
 (or, if you're coming from another language, the appropriate guide)
 * optional: have a look at further documentation on [https://www.ruby-lang.org](https://www.ruby-lang.org)
