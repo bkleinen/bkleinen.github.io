@@ -6,7 +6,7 @@ layout: page
 
 # Assignments
 
-## Week 1
+## Week 1 - Getting started
 
 ### Working on your project
 1. Write down your project vision.
@@ -30,3 +30,45 @@ For preparation, please read through
 Note that you don't need to implement everything that's described there, but
 it will help you understand what you need to do for this exercise as well as for
 the next.
+
+
+# Week 2 - Active Record Associations, Migrations and Views
+
+### Working on your project
+
+again, see the [example project](../example-project) for clarification on what to do.
+
+1. Pick a story that requires you to introduce at least one new Resource to your Project.
+2. Update your sketch of the data model, if needed.
+3. Update your view sketches to integrate the new resource.
+4. Create the new resource.
+5. Declare the Association in the other Model class
+6. Adapt/Extend the migrations as needed.
+7. Adapt Model/Views/Controllers to new model
+8. Implement some more
+
+Document your work in your Report, you can use the example project as an
+example. Maybe you also want to add new storys to your backlog. In any case,
+include the backlog in your report marking the completed storys. Include either
+a link to a repository or an zip with the source code.
+
+### Reading and preparation
+
+You'll find further information about Active Record Migrations, Associations and
+Querying in the respective Rails Guides:
+* [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
+* [Active Record Migrations](http://guides.rubyonrails.org/active_record_migrations.html)
+* [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
+
+You don't need to read them in full, but it's useful to have a look at the contents
+and use them to look up the things you need.
+
+In week 3, we'll work on Ruby, and Rails Testing. Please read through the Rails Testing
+Guide and have a look at the Capybara DSL which we will use to write end-to-end feature
+tests.
+* [A Guide to Testing Rails Applications](http://guides.rubyonrails.org/testing.html)
+* [Capybara's DSL](https://github.com/jnicklas/capybara#the-dsl)
+* collect the Ruby idioms you've encountered so far.
+* Read through [From Java to Ruby](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
+(or, if you're coming from another language, the appropriate guide)
+* optional: have a look at further documentation on [https://www.ruby-lang.org](https://www.ruby-lang.org)
