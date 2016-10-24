@@ -5,4 +5,4 @@
   | [Example Project]({{site.baseurl}}ws2016/media-programming-rails/example-project)
 | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=11772)
 | [Github](https://github.com/media-programming-rails)
-| [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=120088)
+| [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=119640)

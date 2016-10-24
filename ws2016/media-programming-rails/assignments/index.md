@@ -5,6 +5,7 @@ layout: page
 ---
 
 # Week 1
+
 ## Getting started
 
 ### Working on your project
@@ -32,6 +33,7 @@ the next.
 
 
 # Week 2
+
 ## Active Record Associations, Migrations and Views
 
 ### Working on your project
@@ -72,3 +74,26 @@ tests.
 * Read through [From Java to Ruby](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
 (or, if you're coming from another language, the appropriate guide)
 * optional: have a look at further documentation on [https://www.ruby-lang.org](https://www.ruby-lang.org)
+
+
+# Week 3
+
+## Testing, Setting up a Deployment Workflow, and some Ruby
+
+### Working on your project
+
+again, see the [example project](../example-project/week-3) for clarification on what to do.
+
+1. Create at least one happy-path feature test for each person on your team. Use Capybara.
+2. Test cleanup
+3. Create test data for the tests using fixtures.
+4. Create a model test.
+5. Create seed data for playing around in development mode, and also some if you need/want seed data in production.
+6. Set up automated integration tests on travis ci for your project. Include a "build passing" button in your readme.
+7. Set up an Automated Deployment to Heroku for your project.
+8. For the bored: set up a build matrix testing both against postgres and sqlite on travis
+9. Automatically Deploy every successful Build from Travis.
+
+### Reading
+For next week, read about rolling your own authentication in rails:
+* [Michael Hartl's Rails Tutorial Chapter 8](https://www.railstutorial.org/book/basic_login)
