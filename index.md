@@ -23,9 +23,11 @@ layout: widesection
 
 <div class = "box">
 <h4>Office Hours</h4>
-Tuesday, 11.Oct 13-14
-<br>
-Wednesday, 19. Oct. 14-15
+<br /> Wednesday, 26. Oct 14-15
+<br /> Thursday, 3. Nov 15:45-16:30
+<br /> Wednesday, 9. Nov 14-15
+<br /> Thursday, 17. Nov 15:45-16:30
+<br /> Wednesday, 30. Nov 14-15
 {% comment%}
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a>. If there's no slot available, or for anything else, email me.

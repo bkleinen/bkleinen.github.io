@@ -25,6 +25,7 @@ Starting next week, You will work on your project within the lab.
 I will publish the next assignment by monday, enabling you to
 start working on it and have your questions ready in the lab.
 For preparation, please read through
+
 * [Getting started with Rails](http://guides.rubyonrails.org/getting_started.html)
 
 Note that you don't need to implement everything that's described there, but
@@ -53,6 +54,18 @@ Document your work in your Report, you can use the example project as an
 example. Maybe you also want to add new storys to your backlog. In any case,
 include the backlog in your report marking the completed storys. Include either
 a link to a repository or an zip with the source code.
+
+If you include a link to a repository you're still working on, make sure to tag the version corresponding to your report with "week1", "week2" and so on:
+
+    git tag week2
+
+or, if you already have newer commits:
+
+    git tag week2 <hash-of-commit>
+
+And make sure that the tags are visible in the shared repository, pushing them explicitely if necessary, e.g. with:
+
+    git push --tags origin master
 
 ### Reading and preparation
 
