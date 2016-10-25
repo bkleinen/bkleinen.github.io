@@ -13,4 +13,3 @@ Tentative. Aka subject to possible change.
 | 3    | 43 | Wed, 2016-10-26 | Testing, Deployment Workflow, Ruby        | [Week3](../assignments/#week-3) |
 | 4    | 44 | Wed, 2016-11-02 | User Authentication and Templates         |                                 |
 | 5    | 45 | Wed, 2016-11-09 | AJAX, SPA and APIs                        |                                 |
-rj
