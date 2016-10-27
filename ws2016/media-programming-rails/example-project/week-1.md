@@ -6,6 +6,8 @@ layout: page
 
 # Week 1 - First Steps in Rails
 
+* [Example Project on GitHub](https://github.com/media-programming-rails/example-app)
+
 ##  1. Write down your project vision.
 
  Example Project: Habits -
@@ -29,10 +31,13 @@ Here's the backlog of the project "Habits:"
 
 ## 4. Draw a scribble for the screens involved.
 See lecture
+
 ## 5. Draw a first sketch of the data model that is suffient for this story.
 See lecture
+
 ## 6. Create a new rails application., 7. Generate your first model/view/controller using `rails generate scaffold`
 see the README in https://github.com/media-programming-rails/example-app - have a look at the commits!
+
 ## 8. Have a look at the generated html templates (find them in app/views). Change and document one thing that makes sense within your application.
 By default, a last done date is set by the tempate. Simply removed it from the template.
 

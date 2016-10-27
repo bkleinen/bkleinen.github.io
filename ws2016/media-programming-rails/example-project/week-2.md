@@ -6,6 +6,9 @@ layout: page
 
 # Week 2 - Active Record Associations, Migrations and Views
 
+* [Example Project on GitHub](https://github.com/media-programming-rails/example-app)
+
+
 ## 1. Pick a story that requires you to introduce at least one new Resource to your Project.
 
 I pick:

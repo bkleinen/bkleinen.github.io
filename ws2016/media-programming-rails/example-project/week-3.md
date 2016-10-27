@@ -5,6 +5,9 @@ layout: page
 ---
 # Week 3
 
+* [Example Project on GitHub](https://github.com/media-programming-rails/example-app)
+
+
 ## Testing, Setting up a Deployment Workflow, and some Ruby
 
 
