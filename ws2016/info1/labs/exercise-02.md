@@ -86,7 +86,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 8. (For the bored) Okay, so you've been programming since before you could talk and this is child's play. Explore a little deeper - can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
 {% endcomment %}
 
-9. (For the  bored) Can you make the TicketMachine (you'll need one that already gives a refund - e.g. the[ better-ticket-machine](https://github.com/htw-imi-info1/chapter02/tree/master/better-ticket-machine)) give proper change using Euro coins?
+9. (For the  bored) Can you make the TicketMachine (you'll need one that already gives a refund - e.g. the one improved in class [ticket-machine](https://github.com/htw-imi-info1/chapter02/tree/master/ticket-machine) -  give proper change using Euro coins?
 
 ## Writeup - what to put in the Lab Report
 
