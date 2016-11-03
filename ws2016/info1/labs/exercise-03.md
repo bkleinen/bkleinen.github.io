@@ -74,7 +74,7 @@ Lab assignments are due the night before your next lab at 23.00. They may, of co
 ## Making a Book
 1. Open the [BookExercise project](https://github.com/htw-imi-info1/exercise03). Add two accessor methods to the class - getAuthor and getTitle - that return the author and title fields as their respective results. Test your class by creating some instances and calling the methods.
 2. Add two methods, printAuthor and printTitle, to the Book class. These should print the author and title fields, respectively, to the terminal window.
-3. Add a further field, pages, to the Book class to store the number of pages. This should be of type int, and its initial value should be passed to the single constructor, along with the author and title strings. Include an appropriate getPages accessor method for this field.
+3. Add a further field, pages, to the Book class to store the number of pages. This should be of type int, and its initial value should be passed to the single constructor, along with the author and title strings __as the third parameter__. Include an appropriate getPages accessor method for this field.
 4. Add a method, printDetails, to the Book class. This should print details of the author, title, and pages to the terminal window. It is your choice how the details are formatted. You might want to include some explanatory text.
 5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string in the constructor. Define a mutator(setter) for it with the following signature:
 
