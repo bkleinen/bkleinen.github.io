@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 <span class = "float-right">
-![Barne_Kleinen]({{site.baseurl}}../images/bkleinen.jpg)
+![Barne_Kleinen]({{site.baseurl}} images/bkleinen.jpg)
 </span>
 
 # Prof. Dr. B. Kleinen
