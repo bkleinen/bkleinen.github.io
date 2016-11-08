@@ -113,6 +113,7 @@ For next week, read about rolling your own authentication in rails:
 
 
 # Week 4
+
 ## Authentication /Login & Logout
 
   1. Add a user model and set it up with encrypted password
@@ -127,3 +128,12 @@ application you should use one of the available frameworks, like devise.
 ## Reading for next week
 
 * [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html)
+
+# Week 5
+
+## AJAX
+
+Find a place where a little bit of JavaScript is useful in your Application. You find a couple
+of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
+
+See my [example project](../example-project/week-5).
