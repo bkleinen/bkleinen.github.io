@@ -17,11 +17,10 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 02 - Shapes and Ticket Machine](exercise-02)
 * [Exercise 03 - Book Exercise](exercise-03)
 * [Exercise 04 - Rock Around the Clock](exercise-04)
+* [Exercise 05 - A Better Notebook](exercise-05)
 
 {% comment %}
 
-
-* [Exercise 05 - A Better Notebook](exercise-05)
 * [Exercise 06 - Club Membership](exercise-06)
 * [Exercise 07 - Lotto and Technical Support](exercise-07)
 * [Exercise 08 - Bouncing Balls  ](exercise-08)
