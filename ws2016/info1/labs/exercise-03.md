@@ -76,12 +76,13 @@ Lab assignments are due the night before your next lab at 23.00. They may, of co
 2. Add two methods, printAuthor and printTitle, to the Book class. These should print the author and title fields, respectively, to the terminal window.
 3. Add a further field, pages, to the Book class to store the number of pages. This should be of type int, and its initial value should be passed to the single constructor, along with the author and title strings __as the third parameter__. Include an appropriate getPages accessor method for this field.
 4. Add a method, printDetails, to the Book class. This should print details of the author, title, and pages to the terminal window. It is your choice how the details are formatted. You might want to include some explanatory text.
-5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string in the constructor. Define a mutator(setter) for it with the signature below. The body of this method should assign the value of the parameter to the refNumber field. Add the corresponding accessor getRefNumber.
+5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string in the constructor. Add the corresponding accessor(getter) and the setter with the signatures below. The body of this method should assign the value of the parameter to the refNumber field.
+
+        public String getRefNumber()
 
         public void setRefNumber (String ref)
 
-
-6. Modify your printDetails method to include printing the reference number. However, the method should print the reference number only if it has been set. Hint: use a conditional! Note that Strings have a length method.
+6. Modify your printDetails method to include printing the reference number. However, the method should print the reference number only if it has been set, and the exact string "no reference number" otherwise. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your setRefNumber mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
 8. (for the bored, or interested:) Kara-Special: Recall Exercise 1 of Worksheet 2 (which can be found in Moodle) where Kara had to count leaves. Create a Kara that has a countedLeaves instance variable and a suitable getter (accessor) method (and does count as in this exercise, of course). Would you say that it makes sense to add a mutator method as well? Why or why not? Experiment with this Kara a bit and examine how the countedLeaves instance variable is changed.
 

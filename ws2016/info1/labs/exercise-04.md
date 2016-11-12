@@ -43,21 +43,26 @@ Prepare your prelab before coming to class! We will talk about it briefly.
 
 ## Post-Lab, AKA What To Turn In
 
-Your completed assignment, submitted in Moodle as a pdf, and a separate zip of the BlueJ project should include:
+You need to upload 2 Files to Moodle:
+
+- your Lab Report as PDF with the extension .pdf
+- the source code folder containing the two BlueJ projects compressed with ZIP and the extension .zip
+
+<span class = "attention">
+"Not ok" for any submissions not containing these two files.
+</span>
+
+Your Lab Report should include:
+
+- the names and roles of any collaborators in any parts of the exercise.
 
 - a description of what you did during the lab, including a record of what worked, what problems you encountered.
 
 - The discussion of which version was better, 1 or 2.
 
-- the names and roles of any collaborators in any parts of the exercise.
-
 - A brief summary of what you learned
 
 - A record of how long you needed for this lab
-
-- a copy of the final version of your ClockDisplay code (not in the pdf, in a separate zip file)
-
-****
 
 <span class = "attention">
 You should work on this exercise in groups of 2-3 people.
@@ -65,7 +70,8 @@ Put all your names on the head of the report and in the author's comment of
 the Source Code and all hand in the same files.
 </span>
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and Source Code as zipped Bluej-Projekt and submitting it to Moodle.
+Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier.
+
 * * *
 
 # Assignment
