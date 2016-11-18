@@ -23,13 +23,18 @@ layout: widesection
 
 <div class = "box">
 <h4>Office Hours</h4>
-<br /> Thursday, 17. Nov 15:45-16:20
-<br /> Wednesday, 23. Nov 10-11
-<br /> Wednesday, 30. Nov 14-15
-<br /> Wednesday, 07. Dec 10-11
-<br /> Wednesday, 14. Dec 14-15
-<br /> Wednesday, 21. Dec 10-11
+Wednesday, 23. Nov 10-11
 <br />
+Wednesday, 30. Nov 14-15
+<br />
+Wednesday, 07. Dec 10-11
+<br />
+Wednesday, 14. Dec 14-15
+<br />
+Wednesday, 21. Dec 10-11  <br />
+
+
+
 {% comment%}
 <small>
 If you want to discuss your thesis or IC, please <a href="https://github.com/bkleinen/bkleinen.github.io/wiki">make an appointment by putting your name in the wiki</a>. If there's no slot available, or for anything else, email me.
@@ -51,11 +56,7 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 
 <div class = "box">
 <h4>Praktikumsbeauftragter</h4>
-<small>Bitte lesen Sie die <a href="http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10774/">Informationen auf der IMI-Seite</a>
- durch, und kommen Sie mit den vollständigen
-Unterlagen in meine Sprechstunde. Bitte sehen Sie von Anfragen über email ab; Sie können mich während der Sprechstundenzeit auch anrufen.
-Wenn Sie Auslandsbafög beantragen wollen, können Sie das Formblatt V gleich mitbringen.
-</small>
+<a href="praktikum/">Bitte beachten Sie diese Hinweise.</a>
 </div>
 <div class = "below">
 &nbsp;
