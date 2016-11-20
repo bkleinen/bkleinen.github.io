@@ -7,3 +7,4 @@ link-checker-crawled-pages.pstore
 *.log
 kramdown.diff
 temp.html
+*.swp
