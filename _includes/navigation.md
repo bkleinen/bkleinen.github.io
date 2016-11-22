@@ -6,6 +6,12 @@
 <p>
   <a href="{{site.baseurl}}classes">Classes</a>
   <span class = "nav-divider">|</span></p>
+  <p>
+    <a href="{{site.baseurl}}praktikum">Praktikum</a>
+    <span class = "nav-divider">|</span></p>
+    <p>
+      <a href="{{site.baseurl}}bafoeg">Baf&ouml;g</a>
+      <span class = "nav-divider">|</span></p>
 <p>
   <a href="{{site.baseurl}}thesis">Thesis</a>
   <span class = "nav-divider">|</span></p>

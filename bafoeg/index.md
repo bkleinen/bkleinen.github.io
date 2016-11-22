@@ -1,14 +1,21 @@
 ---
-title: Baf&ouml;g-Beauftragte
+title: Baf&ouml;g-Beauftragter
 author: kleinen
 layout: default
 ---
 
-Seit dem SoSe 2014 bin ich Baf&ouml;g-Beauftragte des Studiengangs IMI. Auch wenn [auf der HTW-Baf&ouml;g-Infoseite](https://www.htw-berlin.de/studium/studienorganisation/finanzierung/bafoeg-bildungskredit/) steht, meine Aufgabe sei, Sie bei der Beantragung von Baf&ouml;g zu unterstützen: das stimmt nur insofern, dass ich Ihnen Bescheinigungen der Hochschule ausstelle, die Sie zur Beantragung brauchen. Bei einem normalen Studienverlauf wird das eine Bescheinigung für das Auslandsbaf&ouml;g sein. Wenn Sie weitere Unterstützung bei der Beantragung brauchen, kann ich Ihnen diese Beratungs/Informationsstellen empfehlen:
+Vom SoSe 2014-WS 2015 war ich Baf&ouml;g-Beauftragter des Studiengangs IMI.
 
-- http://www.refrat.de/beratung.bafoeg.html?1401814142
-- http://www.bafoeg-rechner.de
-- https://www.htw-berlin.de/studieninteressierte/finanzierung/bafoeg-bildungskredit/
+__Das bin ich nicht mehr, aktuell macht das Prof. Carsten Busch.__
+
+Da ich damals einige Informationen zusammengetragen habe, lasse ich diese hier stehen, Stand 2014:
+
+[Auf der HTW-Baf&ouml;g-Infoseite](https://www.htw-berlin.de/studium/studienorganisation/finanzierung/bafoeg-bildungskredit/) steht, dass der Bafög-Beauftragte Ihnen Bescheinigungen der Hochschule ausstellen, die Sie zur Beantragung brauchen. Bei einem normalen Studienverlauf wird das eine Bescheinigung für das Auslandsbaf&ouml;g sein. Wenn Sie weitere Unterstützung bei der Beantragung brauchen, kann ich Ihnen diese Beratungs/Informationsstellen empfehlen:
+
+
+- [RefRat der HU](http://www.refrat.de/beratung.bafoeg.html?1401814142)
+- [Bafög-Rechner](http://www.bafoeg-rechner.de) (enthält viele gute Informationen)
+- [Bafög-Info-Seite der HTW](https://www.htw-berlin.de/studieninteressierte/finanzierung/bafoeg-bildungskredit/)
 - [Arbeiterkind](http://www.arbeiterkind.de/)
 
 Leistungsbescheinigung nach &sect;48 Baf&ouml;g (Formblatt 5)
