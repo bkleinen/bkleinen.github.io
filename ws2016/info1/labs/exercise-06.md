@@ -9,8 +9,7 @@ layout: lab
 
 This week's lab work is intended give you more practice using collections.
 
-
-##Prelab
+## Prelab
 
 <span class = "attention">
 As last week: **Do** prepare your Pre-Lab **before** the lab, in hand-writing, on paper.
