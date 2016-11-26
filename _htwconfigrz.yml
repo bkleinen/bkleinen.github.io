@@ -2,6 +2,7 @@ destination: _site_htw_rz
 encoding: UTF-8
 serverencoding: ISO-8859-1
 baseurl: /~kleinen/
+baseurlwoslash: /~kleinen
 production_url : http://home.htw-berlin.de/~kleinen
 
 
