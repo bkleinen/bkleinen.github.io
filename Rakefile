@@ -14,7 +14,20 @@ task :run_jekyll do
     sh "bundle exec jekyll build"
 end
 
+desc "Build HTW Version"
+task :run_jekyll_htw do
+    sh "bundle exec jekyll build --config _config.yml,_htwconfigrz.yml"
+end
+
 namespace "test" do
+  desc "Check All Links in HTW Site"
+  task :htw_links => :run_jekyll do
+    HTMLProofer.check_directory("./_site_htw_rz",url_ignore: $ignore,
+     :typhoeus => {
+        :ssl_verifypeer => 0, ssl_verifyhost: 0, verbose: false
+      }).run
+  end
+
   desc "Check All Links Contained in Site"
   task :links => :run_jekyll do
     HTMLProofer.check_directory("./_site",url_ignore: $ignore,
