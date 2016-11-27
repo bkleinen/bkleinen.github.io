@@ -19,13 +19,10 @@ individual commit, and you see something like [this](https://github.com/htw-imi-
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter01/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2016.zip)
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter02/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2016.zip)
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter03/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2016.zip)
-
-
-* {% comment %}
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter04/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2016.zip) - 18.11.2014: in music organizer v3
 * [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter05/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2016.zip)
+* {% comment %}
 * [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2016.zip)
-
 old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 {% endcomment %}
 
@@ -35,8 +32,9 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 * Lab 02: [TicketMachine and Figures](https://github.com/htw-imi-info1/exercise02)
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
-
-
+* Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
+* Lab 06: [Club Membership](https://github.com/htw-imi-info1/exercise06)
+* Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)
 
 
 
