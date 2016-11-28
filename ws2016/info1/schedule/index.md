@@ -29,9 +29,9 @@ that the ones released for this class are only those linked from the [lab overvi
 | 7    | 46 | Wed, 2016-11-16 | More Loops, Iterators, Arrays, For Loops,                                                                | [Exercise 05](../labs/exercise-05) |
 |      |    | Thu, 2016-11-17 | Library Classes, Reading Class Documentation, Random, Packages, Maps (Chapter 5)                         |                                    |
 | 8    | 47 | Wed, 2016-11-23 | Public vs. Private, Interfaces, Class Variables                                                          | [Exercise 06](../labs/exercise-06) |
-|      |    | Thu, 2016-11-24 | Writing Class Documentation, Unit Testing, Test Automation (Chapter 7)                                   |                                    |
-| 9    | 48 | Wed, 2016-11-30 | Modularization, Interfaces, Debugging, Walkthroughs                                                      | [Exercise 07](../labs/exercise-07) |
-|      |    | Thu, 2016-12-01 | Testing and Interfaces                                                                                   |                                    |
+|      |    | Thu, 2016-11-24 | - ausgefallen -                                                                                          |                                    |
+| 9    | 48 | Wed, 2016-11-30 | Writing Class Documentation, Unit Testing, Test Automation (Chapter 7)                                   | [Exercise 07](../labs/exercise-07) |
+|      |    | Thu, 2016-12-01 | Modularization, Interfaces, Debugging, Walkthroughs,  Testing and Interfaces                             |                                    |
 | 10   | 49 | Wed, 2016-12-07 | Designing Classes, Coupling, Cohesion, Refactoring (Chapter 6)                                           | [Exercise 08](../labs/exercise-08) |
 |      |    | Thu, 2016-12-08 | Refactoring                                                                                              |                                    |
 | 11   | 50 | Wed, 2016-12-14 | Refactoring, Using the main method                                                                       | [Exercise 09](../labs/exercise-09) |
