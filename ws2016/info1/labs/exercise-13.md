@@ -63,4 +63,5 @@ Choose another scenario and play this through. If you have time, do more! You wi
 Your report is due the night before your next lab; refer to Moodle for
 exact times.
 
-Include the Classes, Responsibilities and Collaborators you've found, as well as a report of your process.
+Include the Classes, Responsibilities and Collaborators you've found, as well as
+ a report of your process.

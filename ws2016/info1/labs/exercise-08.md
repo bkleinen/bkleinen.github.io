@@ -26,11 +26,12 @@ Please bring these exercises printed out or written out with you to lab.
 
 Your completed assignment, submitted in Moodle as a pdf, should include:
 
-- A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions asked in P1 and P2. The focus is on the process!
-- Include the final version of the source code.** (As a zip)
-**
+- answers to the questions asked in P1 and P2.
+- A description of what you did during the lab, including a record of what worked, what problems you encountered.
+- Relevant screenshots of your solved exercises. The focus is on the process!
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
+- Include the final version of the source code. **(As a zip)**
 
 Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and Zipping the source code and submitting it to Moodle.
 
@@ -49,6 +50,3 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 5. Change the method bounce to place the balls randomly anywhere in the top half of the screen.
 6. (For the bored) Write a new method named boxBounce. This method draws a rectangle (the 'box') on the canvas, and one or more balls inside the box. For the balls, do not use BouncingBall, but create a new class BoxBall that moves around inside the box, bouncing off the walls of the box so that it always stays inside. The initial position and speed of the ball should be random. The boxBounce method should have a parameter that specifies how many balls are in the box.
 7. (For the really bored) Give the balls in boxBounce random colors. Include a method to change the size. Make balls that get larger and smaller. Make exploding balls that produce new ones when they disappear. Or whatever catches your fancy.
-
-#Writeup
-Submit your writeup as your post-lab to the Moodle area.

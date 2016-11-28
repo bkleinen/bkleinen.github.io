@@ -20,14 +20,13 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 05 - A Better Notebook](exercise-05)
 * [Exercise 06 - Club Membership](exercise-06)
 * [Exercise 07 - Lotto and Technical Support](exercise-07)
-{% comment %}
 * [Exercise 08 - Bouncing Balls  ](exercise-08)
 * [Exercise 09 - Testing with JUnit](exercise-09)
 * [Exercise 10 - The World of You](exercise-10)
 * [Exercise 11 - Keeping Track of Stuff](exercise-11)
 * [Exercise 12 - Pick up and Carry](exercise-12)
 * [Exercise 13 - CRC Cards](exercise-13)
-
+{% comment %}
 {% endcomment %}
 
 ## Grading

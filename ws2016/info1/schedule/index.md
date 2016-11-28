@@ -50,9 +50,10 @@ that the ones released for this class are only those linked from the [lab overvi
 | 17   | 4  | Wed, 2017-01-25 | Handling Errors, Exceptions, Assertions, File-based IO, Files, Command Line (Chapter 12)                 | TBD                                |
 |      |    | Thu, 2017-01-26 |                                                                                                          |                                    |
 | 18   | 5  | Wed, 2017-02-01 | --------------------------- Start of the exam period    ---------------------------                      | ------------------------           |
-|      |    | Thu, 2017-02-02 |                                                                                                          |                                    |
+|      |    | Thu, 2017-02-02 | EXAM                                                                                                     |                                    |
 | 19   | 6  | Wed, 2017-02-08 |                                                                                                          |                                    |
-|      |    | Thu, 2017-02-09 |                                                                                                          |                                    |
+|      |    | Thu, 2017-02-09 | Exam Review? (TBD)                                                                                       |                                    |
+
 
 
 

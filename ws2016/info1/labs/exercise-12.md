@@ -18,15 +18,24 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 **P3.** What sort of a data structure are you going to use to keep track of all the items a player has? Why?
 
+
 # Post-Lab, AKA  What To Turn In
 
-Your completed assignment, submitted in Moodle as a pdf, should include:
+Your completed lab report, submitted in Moodle as a pdf,
+should include:
 
-- A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions asked in the pre-lab. The focus is on the process!
-- Include the final version of your source code.
-- The names and roles of any collaborators in any parts of the exercise.
-- A record of how long you needed for this lab and what you learned.
+*   A description of what you did during the lab, including a record of
+    * what worked, what problems you encountered, and
+    * answers to the questions asked in P1 &#8211; P4.
+    * Answers to questions in the assignment
+    * the object diagram.
+*   The names and roles of any collaborators in any parts of the exercise.
+*   A record of how long you needed for this lab and what you learned.
 
+Upload the source code in a ZIP Archive.
+
+Lab assignments are due the night before the next lab at 23.00, I want you to get some sleep the night before the next class. They may, of course, be turned
+in earlier.
 # Assignment
 
 ## Picking up Items
@@ -39,7 +48,7 @@ Your completed assignment, submitted in Moodle as a pdf, should include:
 1. Implement the field to store the items currently carried by the player. How is the maximum weight determined? Does "take" know how to deal with this? You will probably need a method to ask if the current item can be taken by the player.
 2. Implement an "items" command that prints out all items currently carried with their weights, and the total weight.
 
-##For the Bored
+## For the Bored
 
 1. (For the bored) Add a magic cookie item to a room. Add an "eat cookie" command. If a player finds and eats the magic cookie, it increases the weight that the player can carry. You may adapt this to your game scenario
 2. (For the bored) Add some form of time limit to your game. If a certain task is not completed in a specified time (or number of steps through the rooms), the player loses.
