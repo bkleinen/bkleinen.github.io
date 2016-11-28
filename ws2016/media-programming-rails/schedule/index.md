@@ -1,7 +1,8 @@
 ---
 title: Web Technology Schedule
 author: kleinen
-layout: schedule
+layout: default
+wide_layout: true
 ---
 
 Tentative. Aka subject to possible change.

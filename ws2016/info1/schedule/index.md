@@ -1,7 +1,8 @@
 ---
 title: Schedule
 author: kleinen
-layout: schedule
+layout: default
+wide_layout: true
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 title:  Info2 SS2014 Schedule
 author: kleinen
-layout: schedule
+layout: default
+wide_layout: true
 ---
 {% include ss2014/info2.md %}
 

@@ -1,7 +1,8 @@
 ---
 title: Web Applications WS2015/2016 -  Tentative Schedule
 author: kleinen
-layout: schedule
+layout: default
+wide_layout: true
 ---
 
 Tentative - this will still be changed and adapted.

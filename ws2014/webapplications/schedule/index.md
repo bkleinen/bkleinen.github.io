@@ -1,7 +1,8 @@
 ---
 title: Web Applications WS2014/2015 -  Schedule
 author: kleinen
-layout: schedule
+layout: default
+wide_layout: true
 ---
 |||
 |a|b|
