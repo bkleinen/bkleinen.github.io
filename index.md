@@ -23,17 +23,7 @@ layout: widesection
 
 <div class = "box">
 <h4>Office Hours</h4>
-Wednesday, 23. Nov 10-11
-<br />
-Wednesday, 30. Nov 14-15
-<br />
-Wednesday, 07. Dec 10-11
-<br />
-Wednesday, 14. Dec 14-15
-<br />
-Wednesday, 21. Dec 10-11  <br />
-
-
+  {% include officehours.md %}
 
 {% comment%}
 <small>

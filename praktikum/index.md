@@ -13,6 +13,8 @@ vorbei kommen. Dies ist eine Ergänzung zu der
 * Ich habe gehört/gelesen/gesagt bekommen daß sie in diesem Semester Praktikumsbeauftragter sind.
 Heisst das, dass ich meinen Praktikumsbericht/Praktikumsantrag/etc bei Ihnen abgeben muß?
   * Ja, genau dass heisst das.
+* Mir ist da etwas unklar.
+  * Bitte kommen Sie in meine Sprechstunde oder rufen mich während der Sprechzeit an. Die meisten Fragen rund um das Praktikum lassen sich im direkten Gespräch viel schneller und besser klären als per mail.
 
 # Beantragung des Praktikums
 Zur Beantragung des Praktikums kommen Sie bitte mit den vollständigen Unterlagen - siehe -
@@ -29,7 +31,10 @@ keinen Stempel zur Verfügung hatte, bitten Sie bitte Ihre_n Betreuer_in gleich,
 mir eine email zu schicken, in der er oder sie nochmal bestätigt, dass Sie das
 Praktikum in der Firma absolviert haben.
 
-# Sonderfälle, Regelungen
+# Ordnungen, nicht nur für Sonderfälle und weitere Regelungen:
 Zusätzlich zur [Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
-lohnt sich bei der Gelegenheit auch ein Blick in die Studienordnung, Anlage 4a:
-[http://imi-bachelor.htw-berlin.de/studium/ordnungen-module/](http://imi-bachelor.htw-berlin.de/studium/ordnungen-module/)
+lohnt sich auch ein Blick in die
+
+* Studienordnung, Anlage 4a:
+[http://imi-bachelor.htw-berlin.de/studium/ordnungen-module/](http://imi-bachelor.htw-berlin.de/studium/ordnungen-module/) sowie die
+* [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072)
