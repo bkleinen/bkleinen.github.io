@@ -41,7 +41,7 @@ I identify male-of-center, but [prefer gender neutral titles](http://nonbinary.o
 is to use Prof. Kleinen or Barne Kleinen.
 I've recently changed my name  to Barne, in case you
 find the old name somewhere. As the name change is not legal yet, just use B. when
-in doubt if that might be a problem.
+in doubt if that's a problem.
 
 Homepage: [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/)
 
