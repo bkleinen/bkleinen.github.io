@@ -10,10 +10,26 @@ vorbei kommen. Dies ist eine Ergänzung zu der
 [__Praktikumsseite auf der Studiengangswebseite__](http://imi-bachelor.htw-berlin.de/studium/praktikum/).
 
 # FAQ
+
+## Abgabe des Praktikumsberichts
+* In welcher Form muss der Praktikumsbericht verfasst / gebunden / abgegeben werden?
+
+Hierzu enthält die [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072) Angaben.
+
+* Wie muss der Praktikumsbericht abgegeben werden?
+
+Fertige Berichte können Sie einfach vorbeibringen bzw. einfacher in mein Postfach gegenüber vom
+Dekanat im 2. Stock werfen. Falls die Firma, bei der sie das Praktikum absolviert haben,
+keinen Stempel zur Verfügung hatte, bitten Sie bitte Ihre_n Betreuer_in gleich,
+mir eine email zu schicken, in der er oder sie nochmal bestätigt, dass Sie das
+Praktikum in der Firma absolviert haben.
+
+## Verschiedenes
+
 * Ich habe gehört/gelesen/gesagt bekommen daß sie in diesem Semester Praktikumsbeauftragter sind.
 Heisst das, dass ich meinen Praktikumsbericht/Praktikumsantrag/etc bei Ihnen abgeben muß?
   * Ja, genau dass heisst das.
-* Mir ist da etwas unklar.
+* Mir ist .... unklar.
   * Bitte kommen Sie in meine Sprechstunde oder rufen mich während der Sprechzeit an. Die meisten Fragen rund um das Praktikum lassen sich im direkten Gespräch viel schneller und besser klären als per mail.
 
 # Beantragung des Praktikums
@@ -23,13 +39,6 @@ vorbei. Die aktuellen Zeiten finden Sie auf [meiner Homepage]({{site.baseurl}}).
 
 Bitte beachten Sie, dass wir keine Kapazitäten haben, Ihnen Formulare auszudrucken, einzuscannen, oder hinterherzuschicken.
 Falls Sie nicht persönlich vorbei kommen können, beauftragen Sie bitte eine andere Person.
-
-# Fertige Berichte
-Fertige Berichte können Sie einfach vorbeibringen bzw. einfacher in mein Postfach gegenüber vom
-Dekanat im 2. Stock werfen. Falls die Firma, bei der sie das Praktikum absolviert haben,
-keinen Stempel zur Verfügung hatte, bitten Sie bitte Ihre_n Betreuer_in gleich,
-mir eine email zu schicken, in der er oder sie nochmal bestätigt, dass Sie das
-Praktikum in der Firma absolviert haben.
 
 # Ordnungen, nicht nur für Sonderfälle und weitere Regelungen:
 Zusätzlich zur [Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
