@@ -16,6 +16,11 @@ vorbei kommen. Dies ist eine Ergänzung zu der
 
 Hierzu enthält die [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072) Angaben.
 
+
+* Sprachen?
+
+Der Bericht kann in Englisch oder Deutsch geschrieben werden.
+
 * Wie muss der Praktikumsbericht abgegeben werden?
 
 Fertige Berichte können Sie einfach vorbeibringen bzw. einfacher in mein Postfach gegenüber vom
