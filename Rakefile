@@ -44,18 +44,21 @@ namespace "test" do
       }).run
   end
 
-  desc "Check Only Internal Links, Verbosely"
+  desc "Check Only Internal Link"
   task :internal_links => :run_jekyll do
     HTMLProofer.check_directory("./_site",url_ignore: $ignore, disable_external: true).run
   end
 
-  desc "Check Only Internal Links"
+  desc "Check Only Internal Links, Verbosely"
   task :internal_links_verbose => :run_jekyll do
     HTMLProofer.check_directory("./_site",url_ignore: $ignore, disable_external: true, verbose: true).run
   end
 
-  desc "Test Suite for Travis CI"
-  task :travis do
+  desc "Test Suite for Travis C"
+  task :travis => :internal_links
+
+  desc "Test Suite for Travis CI with external links"
+  task :travis_ext do
     begin
       result = Rake::Task["test:links"].invoke
     rescue => e
@@ -66,8 +69,8 @@ namespace "test" do
     end
   end
 
-  desc "Verbose Test Suite for Travis CI"
-  task :travis_verbose do
+  desc "Verbose Test Suite for Travis CI with external links"
+  task :travis_verbose_ext do
     begin
       result = Rake::Task["test:links_verbose"].invoke
     rescue => e
