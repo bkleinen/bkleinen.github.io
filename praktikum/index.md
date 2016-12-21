@@ -11,11 +11,18 @@ vorbei kommen. Dies ist eine Ergänzung zu der
 
 # FAQ
 
+## Wie ist Ihre Adresse? / Oder: ich habe Sie nicht angetroffen, wann kann ich XY vorbeibringen?
+
+Den Praktikumsantrag bitte persönlich bei mir in meiner Sprechstunde vorbeibringen, so lässt sich am schnellsten alles klären und Sie können sich gleich alle benötigten Kopien machen
+und unterschreiben und stempeln lassen.
+
+Alles andere - Praktikumsbericht, nachgereichte Zertifikate, etc - können Sie per Post oder
+Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{site.baseurl}}about/me) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen.
+
 ## Abgabe des Praktikumsberichts
 * In welcher Form muss der Praktikumsbericht verfasst / gebunden / abgegeben werden?
 
 Hierzu enthält die [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072) Angaben.
-
 
 * Sprachen?
 
@@ -26,7 +33,7 @@ Der Bericht kann in Englisch oder Deutsch geschrieben werden.
 Fertige Berichte können Sie einfach vorbeibringen bzw. einfacher in mein Postfach gegenüber vom
 Dekanat im 2. Stock werfen. Falls die Firma, bei der sie das Praktikum absolviert haben,
 keinen Stempel zur Verfügung hatte, bitten Sie bitte Ihre_n Betreuer_in gleich,
-mir eine email zu schicken, in der er oder sie nochmal bestätigt, dass Sie das
+mir eine email zu schicken, in der er oder sie bestätigt, dass Sie das
 Praktikum in der Firma absolviert haben.
 
 ## Verschiedenes
