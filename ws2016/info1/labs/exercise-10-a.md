@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 10: The World of You'
+title: 'Exercise 10 a: The World of You'
 author: kleinen
 layout: lab
 ---
@@ -33,7 +33,7 @@ Be creative! Give your game a name.
 Your completed lab report, submitted in Moodle as a pdf,
 should include:
 
-* Your game description done in the PreLab.
+*   Your game description done in the PreLab.
 *   A description of what you did during the lab, including a record of
     * what worked, what problems you encountered, and
     * answers to the questions asked in P1 &#8211; P4.
@@ -53,13 +53,12 @@ in earlier.
 
 **World of You**
 
-1.  Start with the bad Zuul game with tests - [your-zuul](https://github.com/htw-imi-info1/exercise10) -  and refactor it as discussed in the lectures.
-    If you are doing mole burrows instead of rooms, you can change the variable names as needed.
-    The bored can prepare a multi-lingual version and use enums. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [command-words-after-refactoring](https://github.com/htw-imi-info1/exercise10/tree/master/command-words-after-refactoring).
-    There is also a version using an inheritance hierarchy for the Commands in the branch [inheritance](https://github.com/htw-imi-info1/exercise10/tree/inheritance) - you can use that if you like. It doesn't have any other refactorings. I might add a better tests before we start with this exercise, so look out for that.
-2.  Draw an object diagram showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?
-3.  Add a &#8220;look&#8221; command to your game.
-4.  Add an additional command (such as &#8220;eat&#8221;, which for now just prints out &#8220;You have eaten now and are not hungry any more&#8221;. In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
-5.  Implement an improved version of printing out the command words.
-6.  Add another command &#8211; did you have to change the Game class? Why or Why not?
-7.  (For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
+1.  Start with the bad Zuul game with tests - [your-zuul](https://github.com/htw-imi-info1/exercise10) .
+2.  Change the `private void createRooms()` method in Game to create your own world. If your game design includes new direction, leave them out for now. If you are doing mole burrows instead of rooms, you can change the variable names as needed.
+3.  Draw an object diagram showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?
+4.  Adapt the tests in GameSystemTest to work with and test your world. You can
+throw tests away, but you must have a complete walkthrough of your world in some way.
+5.  Refactor the program to localize the information about possible directions in Room. Hint: set the field `northExit` in Room to private, let the compiler find all 3 spots where Game lists the four directions and move the code to Room. Then refactor Room to store arbitrary directions in a `HashMap<String,Room>`.
+6. Add at least one new direction to your world: as a first step, add one or more new test cases to GameSystemTest to test that this direction/passage between rooms is available. This test will fail.
+Them implement the new connection. If you did the refactoring right, you should only need to adapt the
+`createRooms()` method in Game.
