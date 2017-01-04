@@ -4,6 +4,11 @@ author: kleinen
 layout: lab
 ---
 
+
+<span class = "attention">This exercise has been split up in parts A & B and is not valid in WS2016/17!</span>
+<span class = "attention">See the [Schedule]({{site.baseurl}}ws2016/info1/schedule/)
+or [Lab Index]({{site.baseurl}}ws2016/info1/labs/) for the correct exercises.</span>
+
 # Pre-lab
 
 This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester.
@@ -24,7 +29,7 @@ Be creative! Give your game a name.
 
 **P2**. What is the goal of your game, that is, when does the player win?
 
-**P3.** What could you add to the game to make it interesting? Trap doors, treasure, monsters, &#8230;..
+**P3.** What could you add to the game to make it interesting? Trap doors, treasure, monsters, &#8230;
 
 **P4.** Draw a map of your game layout.
 

@@ -1,8 +1,11 @@
 
 
 
-<span class = "attention">fällt aus!</span>
-<strike>Wednesday, 21. Dec 10-11</strike>
+
  <br />
 Wednesday, 4. Jan 17 10-11
+<br />
+Monday, 9. Jan 17 15:45-16:30
+<br />
+Wednesday, 18. Jan 17 10-11
 <br />
