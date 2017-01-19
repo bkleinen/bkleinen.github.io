@@ -26,9 +26,8 @@ should include:
 
 *   A description of what you did during the lab, including a record of
     * what worked, what problems you encountered, and
-    * answers to the questions asked in P1 &#8211; P4.
+    * answers to the questions asked in P1 &#8211; P3.
     * Answers to questions in the assignment
-    * the object diagram.
 *   The names and roles of any collaborators in any parts of the exercise.
 *   A record of how long you needed for this lab and what you learned.
 
