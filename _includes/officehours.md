@@ -1,10 +1,16 @@
-<small><span class = "attention">
-Verschoben!</span>
-<span class = "linethrough">Thursday, 26. Jan 17 16-17</span> Ersatztermine:
-Wednesday, 25. Jan 17 11:20-11:45,<br/>
-Thursday, 26. Jan 17 11:20-11:45,<br/>
-Friday, 27. Jan 17 12-13 <span class = "attention">Betahaus</span>
-Sprechstunde im <a href="https://www.betahaus.com/berlin/spaces/cafe/">Betahaus-Cafe</a>
-<br />
-Wednesday, 1. Feb 17 14-15
+<small>
+Wednesday, 1. Feb 17 14-15<br />
+Thursday, 9. Feb 17 11:30-12:30<br />
+In den <strong>Semesterferien</strong> : Wenn Sie Bedarf an
+einer Sprechstunde haben, und hier noch keine
+geplant ist, schicken Sie mir bitte
+eine Mail mit 3-4 Terminvorschlägen, dann plane
+ich kurzfristig eine, entweder an der HTW oder
+in Kreuzberg.
 <br /></small>
+
+{% comment %}
+
+<span class = "attention">Betahaus</span>
+Sprechstunde im <a href="https://www.betahaus.com/berlin/spaces/cafe/">Betahaus-Cafe</a>
+{% endcomment %}
