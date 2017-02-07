@@ -7,7 +7,6 @@ layout: page
 ![Barne_Kleinen]({{site.baseurl}}images/bkleinen.jpg)
 </span>
 
-
 # Prof. Dr. Barne Kleinen
 
 ## Contact Information
@@ -16,7 +15,9 @@ My preferred means of communication is email:
 
 kleinen@htw-berlin.de
 
-**Except** for questions regarding the **Auslandspraktikum:** please make use of the office hours. [See the special info page.]({{site.baseurl}}praktikum)
+If you have questions regarding the **Auslandspraktikum:**
+Check if they are answered on [the info page.]({{site.baseurl}}praktikum) - if
+not, please make use of the office hours.
 
 Skype&Twitter: drblinken
 
