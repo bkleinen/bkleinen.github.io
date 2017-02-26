@@ -3,7 +3,7 @@ Monday, 13. Feb 17 10-11<br />
 Thursday, 16. Feb 17 14-15 - nur mit Voranmeldung!<br />
 KW 8: Keine Sprechstunde.<br />
 KW 9: Mon 27.2. 16:30-17:30<br />
-KW 10: Tue 27.2. 15:00-16:00<br />
+KW 10: Tue 7.3. 15:00-16:00<br />
 {% comment %}
 <small>
 In den <strong>Semesterferien</strong> : Wenn Sie Bedarf an
