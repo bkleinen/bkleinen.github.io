@@ -3,12 +3,16 @@ title: Classes
 author: kleinen
 layout: default
 ---
+## Summer Term 2017
 
-##  Winter Term WS2016/17
+{% include ss2017/lectures.md %}
+
+## Former Classes
+
+###  Winter Term WS2016/17
 
 {% include ws2016/lectures.md %}
 
-## Former Classes
 
 ### Summer Term 2016
 
