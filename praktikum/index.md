@@ -28,6 +28,14 @@ Zur Beantragung des Praktikums kommen Sie bitte mit den vollständigen Unterlage
 [http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 )  persönlich in meiner Sprechstunde
 vorbei. Die aktuellen Zeiten finden Sie auf [meiner Homepage]({{site.baseurl}}).
 
+## Ausländische Hochschulzugangsberechtigung
+Wenn Sie nicht in Deutschland zur Schule gegangen sind, und Ihre Hochschulzugangsberechtigung
+auf einer Schule ausserhalb Deutschlands erworben haben, können Sie Ihr Praktikum
+in Deutschland machen.
+Bringen Sie bitte einfach sowohl das Original als auch eine Kopie Ihrer
+Hochschulzugangsberechtigung - bzw. das Original der Übersetzung nebst Kopie - zur Beantragung mit.
+Die Kopie verbleibt dann in unseren Akten.
+
 ## Abgabe des Praktikumsberichts
 * In welcher Form muss der Praktikumsbericht verfasst / gebunden / abgegeben werden?
 
@@ -63,5 +71,5 @@ lohnt sich auch ein Blick in die
 Den Praktikumsantrag bitte persönlich bei mir in meiner Sprechstunde vorbeibringen, so lässt sich am schnellsten alles klären und Sie können sich gleich alle benötigten Kopien machen
 und unterschreiben und stempeln lassen.
 
-Alles andere - Praktikumsbericht, nachgereichte Zertifikate, Originalverträge etc - können Sie per Post oder
-Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{site.baseurl}}about/me) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen.
+Alles andere - Praktikumsbericht, nachgereichte Zertifikate, Originalverträge etc - können Sie per Post oder Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{site.baseurl}}about/me) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen. Bitte vermerken Sie ggfs. "Praktikumsunterlagen" auf dem Umschlag, dann kann
+Frau On ihn öffnen und die Bearbeitung geht schneller.
