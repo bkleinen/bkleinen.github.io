@@ -35,8 +35,15 @@ in Deutschland machen.
 Bringen Sie bitte einfach sowohl das Original als auch eine Kopie Ihrer
 Hochschulzugangsberechtigung - bzw. das Original der Übersetzung nebst Kopie - zur Beantragung mit.
 Die Kopie verbleibt dann in unseren Akten.
+## Arbeitsvertrag
+Für den Arbeitsvertrag/Ausbildungsvertrag gibt es Muster in der Rahmenpraktikumsordnung und auf der [Studiengangsseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 ).
 
-## Abgabe des Praktikumsberichts
+Bei Beantragung bringen Sie bitte ein 3. Original des Arbeitsvertrages mit, das in unseren Unterlagen bleibt.
+
+Ich lasse derzeit überprüfen, ob es notwendig ist, dass der Arbeitsvertrag handschriftlich unterschrieben ist.
+Wenn Sie nur ausgedruckte Kopien haben, sehen Sie bitte hier nach, was diese Überprüfung ergeben hat. Solange es unsicher ist, empfehle ich, spätestens nach Praktikumsbeginn die Unterschrift einzuholen und das Original per Post an mich zu schicken.
+
+# Abgabe des Praktikumsberichts
 * In welcher Form muss der Praktikumsbericht verfasst / gebunden / abgegeben werden?
 
 Hierzu enthält die [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072) Angaben.
