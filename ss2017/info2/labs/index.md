@@ -1,12 +1,12 @@
 ---
-title: Info2 SS2015 - Labs and Exercises
+title: Info2 SS2017 - Labs and Exercises
 author: kleinen
 layout: page
 ---
-{% include ss2015/info2.md %}
+{% include ss2017/info2.md %}
 
 ## Exercises
-* [Exercise 01 - Dealing with Objects and Toolbox](lab-01)
+* [Exercise 01 - CRC Cards](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Chatterbox](lab-03)
 * [Exercise 04 - Histogram](lab-04)

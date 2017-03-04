@@ -1,29 +1,17 @@
 ---
-title: Info2 Sommersemester 2015
+title: Info2 Sommersemester 2017
 author: kleinen
 layout: default
 ---
 
-{% include ss2015/info2.md %}
-# News: Development of an Info1/2 Q&A Application
-
-Felix Brix has taken on the project of developing an gamified Q&A application for Info1 and Info2.
-
-Currently, he is collecting Questions to have material for his concept.
-You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/]({{site.baseurl}}miscellany/grasp/),
-and I'll answer them around Saturday at noon latest for the current week.
-You find a list of questions here [http://ba-thesis.herokuapp.com/questions]({{site.baseurl}}miscellany/grasp/questions) and
-their answers there: [QUAME](quame)
-
-
+{% include ss2017/info2.md %}
 
 # Welcome!
 
-This course is an introduction to *algorithms and data structures*. It will be taught in German with all written material in English and with the Java programming language. It will be taught using Java, but it is not about the language. Mastery of basic Java syntax as taught in Informatik I is assumed. We learned primitive data types, statements and rules, interfaces and classes in Informatik I. We will now be looking at more complex data structures and algorithms which work on these data structures.
+This course is an introduction to *algorithms and data structures*. It will be taught in German with all written material in English. It will be taught using the Java programming language, but it is not about the language. Mastery of basic Java syntax as taught in Informatik I is assumed. We learned primitive data types, statements and rules, interfaces and classes in Informatik I. We will now be looking at more complex data structures and algorithms which work on these data structures.
 
 In particular we will be concentrating on how to solve (small) problems using a programming language. At the end of the semester there will be an introduction to
-Ruby so that you get a feel for the language and learn something about differences
-in programming languages.
+Ruby so that you get a feel for the language and learn something about differences in programming languages.
 
 Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
@@ -32,19 +20,26 @@ Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF for time and location information (link above).
 
 ## Tutorial
+
+TBD
+
+{% comment %}
 * Wednesday, 17:45. Room  576 (Radek Mackowiak)
 * and, as part of the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/tutorien/) (Dominic Auerbach):
     * Dienstags 8:00 Uhr - 09:30 Uhr WH C 259
     * Mittwochs 17:30 Uhr - 19:00 Uhr WH C 259
-
+{% endcomment %}
 
 ## Grades
 
+TBD
+{% comment %}
 Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
 
 * Lecture summaries: 15%
 * Lab reports: 40%
 * Exam: 50%
+{% endcomment %}
 
 ### Labs
 There will be a new grading schema for the lab reports!
