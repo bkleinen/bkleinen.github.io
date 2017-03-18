@@ -6,6 +6,7 @@ categories:
   - frauen*
   - htw
   - gender
+  - old
 ---
 Melanie Ebenfeld bietet regelmässig Gender- und Diversity-Trainings für Studierende
 an. Das nächste ist am 9.12.16:
