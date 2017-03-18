@@ -1,5 +1,5 @@
 require 'date'
-first_day=d=Date.new(2017,04,21)
+first_day=d=Date.new(2017,04,20)
 
 def twodays(first_day)
   d = first_day
