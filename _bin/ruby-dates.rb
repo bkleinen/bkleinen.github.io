@@ -1,10 +1,10 @@
 require 'date'
-<<<<<<< HEAD
+
 first_day=d=Date.new(2017,04,20)
-=======
+
 first_day=d=Date.new(2017,4,4)
 day_diff=3
->>>>>>> info2 schedule in progress
+
 
 def twodays(first_day,day_diff=1)
   d = first_day
