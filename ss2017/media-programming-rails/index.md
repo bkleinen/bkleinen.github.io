@@ -4,7 +4,8 @@ author: kleinen
 layout: page
 ---
 
-# M1 Media Programming: Web Technology
+
+{% include ss2017/media-programming-rails.md %}
 
 Welcome!
 

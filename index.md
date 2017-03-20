@@ -10,20 +10,15 @@ layout: widesection
 {% include posts/posts.html %}
 </div>
 
-
-
 <div class = "box">
 <h4>Classes Summer Term 2017</h4>
-{% include ss2017/lectures.md %}
-
-<h4>Classes Winter Term 2016/2017</h4>
 <ul>
-<li><a href = "ws2016/info1/">Info1</a></li>
-<li><a href = "ws2016/media-programming-rails/">Web Technology in M1 Media Programming</a></li>
+  <li><a href="/ss2017/info2">Informatik 2</a></li>
+  <li><a href="/ss2017/media-programming-rails">Web Technology in M1 Media Programming</a></li>
+  <li><a href="/ss2017/user-centered-web-technology">User-Centered Web Technology (WT4)</a></li>
+  <li><a href="/ss2017/project/">Praxisprojekt IMI-Map Reloaded</a></li>
 </ul>
-
 </div>
-
 
 <div class = "box">
 <h4>Office Hours</h4>

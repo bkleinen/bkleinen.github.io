@@ -13,7 +13,6 @@ layout: default
 
 {% include ws2016/lectures.md %}
 
-
 ### Summer Term 2016
 
 {% include ss2016/lectures.md %}
