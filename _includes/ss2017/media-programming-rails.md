@@ -3,6 +3,6 @@
  | [Overall Schedule]({{site.baseurl}}ss2017/media-programming-rails/overall-schedule/)
  | [Assignments]({{site.baseurl}}ss2017/media-programming-rails/assignments)
   | [Example Project]({{site.baseurl}}ss2017/media-programming-rails/example-project)
-| [Moodle](#)
+| [Moodle](https://moodle.htw-berlin.de/course/view.php?id=12516)
 | [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=125771)
 | [Github](https://github.com/media-programming-rails)
