@@ -1,0 +1,8 @@
+[M1 Media Programming: Web Technology]({{site.baseurl}}ss2017/media-programming-rails)
+ | [Schedule]({{site.baseurl}}ss2017/media-programming-rails/schedule/)
+ | [Overall Schedule]({{site.baseurl}}ss2017/media-programming-rails/overall-schedule/)
+ | [Assignments]({{site.baseurl}}ss2017/media-programming-rails/assignments)
+  | [Example Project]({{site.baseurl}}ss2017/media-programming-rails/example-project)
+| [Moodle](#)
+| [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=125771)
+| [Github](https://github.com/media-programming-rails)
