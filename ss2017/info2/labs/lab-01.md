@@ -1,12 +1,8 @@
 ---
-title: 'Info2: Exercise 01: Dealing with Objects and Toolbox'
+title: 'Info2: Exercise 01: Application Design'
 author: kleinen
 layout: lab
 ---
-
-
-# TODO: Rearrange Labs!!!
-
 
 ## Pre-Lab
 
@@ -43,7 +39,6 @@ The nouns are candidates for classes, the verbs for methods and the adjectives f
 
 Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible ***candidates*** for classes and methods - not every noun will be a class name in your Application!
 
-</section><section class ="right">
 
 ### 2. CRC Cards
 

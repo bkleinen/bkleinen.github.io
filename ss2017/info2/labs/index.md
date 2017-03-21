@@ -6,8 +6,11 @@ layout: page
 {% include ss2017/info2.md %}
 
 ## Exercises
-* [Exercise 01 - CRC Cards](lab-01)
+* [Exercise 01 - Application Design]c
 * [Exercise 02 - Implementing CRC Cards](lab-02)
+*
+{% comment %}
+
 * [Exercise 03 - Chatterbox](lab-03)
 * [Exercise 04 - Histogram](lab-04)
 * [Exercise 05 - Execution times](lab-05)
@@ -19,7 +22,6 @@ layout: page
 * [Exercise 11 - Finite Automata and Sorting](lab-11) (Pre-Lab!)
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
-{% comment %}
 
 
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
