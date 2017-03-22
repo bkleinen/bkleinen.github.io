@@ -10,7 +10,7 @@ layout: page
 
 ##  1. Write down your project vision.
 
- Example Project: Habits -
+Example Project: Habits -
 An application that supports their user building habits. They can enter habits
 they want to build, together with a frequency how often they want to do this
 new habit. The App then supports user in keeping track of their performance as

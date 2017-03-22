@@ -3,10 +3,16 @@ title: Assignments for Web Technology
 author: kleinen
 layout: page
 ---
+{% include ss2017/media-programming-rails.md %}
 
+Will be published here soon.
+{% comment %}
 # Week 1
 
 ## Getting started
+
+
+
 
 ### Working on your project
 1. Write down your project vision.
@@ -144,3 +150,5 @@ complete repository.)
 make sure you have tagged all versions with the corresponding week, e.g.
 
     git tag week5
+
+{% endcomment %}

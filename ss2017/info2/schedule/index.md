@@ -7,7 +7,8 @@ wide_layout: true
 {% include ss2017/info2.md %}
 
 ## Tentative Schedule - Lab Topics are subject to change!
-
+Lab Assignments not linked here have not released for this term yet and
+might be changed.
 
 | Week | KW | Lecture         | Lecture Topic                                                       | Group   | Lab | Lab Topic                                                         |
 |:-----|:---|:----------------|:--------------------------------------------------------------------|:--------|:----|:------------------------------------------------------------------|

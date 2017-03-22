@@ -6,9 +6,11 @@ layout: page
 {% include ss2017/info2.md %}
 
 ## Exercises
-* [Exercise 01 - Application Design]c
+Lab Assignments not linked here have not released for this term yet and
+might be changed.
+* [Exercise 01 - Application Design](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
-*
+
 {% comment %}
 
 * [Exercise 03 - Chatterbox](lab-03)

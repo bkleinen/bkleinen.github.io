@@ -14,4 +14,4 @@ Tentative. Aka subject to possible change.
 | 2    | 16 | Wed, 2017-04-19 | Active Record Associations and Migrations | [Week2](../assignments/#week-2) |
 | 3    | 17 | Wed, 2017-04-26 | Testing, Deployment Workflow, Ruby        | [Week3](../assignments/#week-3) |
 | 4    | 18 | Wed, 2017-05-03 | User Authentication and Templates         | [Week4](../assignments/#week-4) |
-| 5    | 19 | Wed, 2017-05-10 | AJAX, SPA and APIs                        |                                 |
+| 5    | 19 | Wed, 2017-05-10 | AJAX, SPA and APIs                        | [Week5](../assignments/#week-5) |

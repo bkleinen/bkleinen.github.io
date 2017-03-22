@@ -4,7 +4,6 @@ author: kleinen
 layout: page
 ---
 
-
 {% include ss2017/media-programming-rails.md %}
 
 Welcome!
