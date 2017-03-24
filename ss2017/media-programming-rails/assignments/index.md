@@ -6,6 +6,11 @@ layout: page
 {% include ss2017/media-programming-rails.md %}
 
 Will be published here soon.
+# Week 1
+# Week 2
+# Week 3
+# Week 4
+# Week 5
 {% comment %}
 # Week 1
 
