@@ -1,6 +1,6 @@
 require 'date'
 
-first_day=d=Date.new(2017,04,20)
+first_day=d=Date.new(2017,04,12)
 day_diff=3
 
 
