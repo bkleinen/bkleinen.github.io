@@ -30,10 +30,10 @@ http://bkleinen.github.io
 * for publishing to [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/)I use this script: [_bin/deploy-htw.sh](https://github.com/bkleinen/bkleinen.github.io/blob/master/_bin/deploy-htw.sh)
 * locally, I run
 
-        jekyll serve -w
+        jekyll serve --drafts
   to have the site served on localhost:4000 and automatically rebuilt on every file save.
 
-* redcarpet: For Markdown Processing, [redcarpet](https://github.com/vmg/redcarpet) is used.
+* kramdown: For Markdown Processing, [kramdown](https://kramdown.gettalong.org/) is used.
 
 ## HTML Proofing
 
