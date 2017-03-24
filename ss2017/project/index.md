@@ -19,11 +19,16 @@ Praktikumsbeauftragten und einer studentischen Hilfskraft zur Erfassung und
 Nachverfolgung von Praktikumsanträgen und Bearbeitung der Berichte und Zertifikate genutzt.
 
 Im Projekt soll die IMI-Map aktualisiert, repariert und um neue Features erweitert werden.
-Damit ist "IMI-Map Reloaded" für die Praxisprojekte insofern untypisch, als daß sie nicht eine
-neue Projektidee auf der grünen Wiese entwerfen und umsetzen werden. Vielmehr
-werden Sie sich in vorhandenen Code einarbeiten, diesen zunächst für Sie bearbeitbar machen müssen
-und zunächst vorhandene Fehler beseitigen - was wohl eher für die meisten Arbeitssituationen
-typisch ist.
+Damit ist "IMI-Map Reloaded" für die Praxisprojekte insofern untypisch, als daß nicht eine
+neue Projektidee auf der grünen Wiese entworfen und umgesetzt wird. Vielmehr
+werden Sie sich in vorhandenen Code einarbeiten, diesen zunächst für Sie bearbeitbar machen
+und vorhandene Fehler beseitigen - was wohl eher für die meisten realen Projekte
+typisch ist. Dafür arbeiten Sie an einem Projekt, das auch nach Semesterende weiter existieren und eingesetzt werden wird.
+
+Je nach Interessenslage und Teamgröße können Sie Erweiterungen
+und neue Features insbesondere im Bereich für die Student_innen - rund um Praktikumssuche und Vorbereitung -
+entwerfen und umsetzen.
+
 
 Projektverlauf
 - Einarbeitung in Ruby on Rails, automatisches Testen und Deployment
