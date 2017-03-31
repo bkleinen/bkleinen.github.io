@@ -1,7 +1,7 @@
 
 <p><a href="{{site.baseurl}}">Home</a>
   <span class = "nav-divider">|</span></p>
-  <p><a href="{{site.baseurl}}about/me">Contact Info</a>
+  <p><a href="{{site.baseurl}}contact">Contact Info</a>
     <span class = "nav-divider">|</span></p>
 <p>
   <a href="{{site.baseurl}}classes">Classes</a>
