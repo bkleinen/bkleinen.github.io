@@ -17,12 +17,12 @@ might be changed.
 | 2    | 15 | Tue, 2017-04-11 | Error Handling and Exceptions reviewed                              | Group 2 | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
 |      |    | Fri, 2017-04-14 | ---- Feiertag: Karfreitag -----                                     |         |     | - no lab -                                                        |
 | 3    | 16 | Tue, 2017-04-18 | Networking in Java. File I/O.                                       |         |     | - no lab -                                                        |
-|      |    | Fri, 2017-04-21 | Double Lecture: Concurrency; Binary Search, Complexity              | Group 1 | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
-| 4    | 17 | Tue, 2017-04-25 | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | Group 2 | 3   | Networking Exercise (Pre-Lab!)                                    |
-|      |    | Fri, 2017-04-28 | Arrays and Lists                                                    | Group 1 | 3   | Networking Exercise (Pre-Lab!)                                    |
-| 5    | 18 | Tue, 2017-05-02 | Stacks                                                              |         | 4   | Histogram (Pre-Lab!)                                              |
-|      |    | Fri, 2017-05-05 | Recursion                                                           |         |     |                                                                   |
-| 6    | 19 | Tue, 2017-05-09 | e-learning (find the exercise in moodle)                            |         | 5   | Execution Times (Pre-Lab!)                                        |
+|      |    | Fri, 2017-04-21 | Concurrency                                                         | Group 1 | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
+| 4    | 17 | Tue, 2017-04-25 | Complexity of Algorithms, Binary Search                             | Group 2 | 3   | Networking Exercise (Pre-Lab!)                                    |
+|      |    | Fri, 2017-04-28 | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | Group 1 | 3   | Networking Exercise (Pre-Lab!)                                    |
+| 5    | 18 | Tue, 2017-05-02 | Arrays and Lists                                                    |         | 4   | Histogram (Pre-Lab!)                                              |
+|      |    | Fri, 2017-05-05 | Stacks                                                              |         |     |                                                                   |
+| 6    | 19 | Tue, 2017-05-09 | Recursion                                                           |         | 5   | Execution Times (Pre-Lab!)                                        |
 |      |    | Fri, 2017-05-12 | Queues, Priority Queues, Collections: Sets, Bags, Maps.             |         |     |                                                                   |
 | 7    | 20 | Tue, 2017-05-16 | Recursion                                                           |         | 6   | Reverse Polish Notation (Pre-Lab!)                                |
 |      |    | Fri, 2017-05-19 | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |         |     |                                                                   |
