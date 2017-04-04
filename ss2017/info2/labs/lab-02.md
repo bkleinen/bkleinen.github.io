@@ -19,6 +19,9 @@ These are the required exercises for this week. We are going to see if we can ge
 1. If you didn't do Lab 01 together, decide which of your cinema booking systems you are going to use. If necessary, flip a coin. Why did you choose the one you did?
 2. Implement a prototype of your cinema booking system. You should be able to reserve n neighboring seats, calculate the total price for this reservation, delete a booking, and print out a seating plan that shows which seats are available. Don't worry about making it beautiful - it is enough for it to work. We are just making prototypes!
 3. Did you end up using all of the classes you specified? Did you miss any classes? Discuss in your report! How did you test your system?
+4. Tooling: Using Packages in Eclipse
+If you have used Eclipse, make sure that all your code is within one or two or more neatly named packages, and you have at least one unit test.
+If you haven't used Eclipse, introduce at least one package either to last week's project or a new project.
 
 ## For the bored:
 4. Sometimes people want special kinds of seats. The last two rows have loveseats, that is, two seats are connected with no armrest between them. Now offer your customers the possibility of reserving a loveseat, or a seat near an aisle or one in the middle. How will you define these conditions?
