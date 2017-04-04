@@ -21,41 +21,46 @@ The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF fo
 
 ## Tutorial
 
-TBD
+There will be a tutorial held by Alexander Becker. This is not obligatory and mainly an additional opportunity to get help on the exercises or with exam preparation.
 
-{% comment %}
-* Wednesday, 17:45. Room  576 (Radek Mackowiak)
-* and, as part of the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/tutorien/) (Dominic Auerbach):
-    * Dienstags 8:00 Uhr - 09:30 Uhr WH C 259
-    * Mittwochs 17:30 Uhr - 19:00 Uhr WH C 259
-{% endcomment %}
+## Assignments and Grades
 
-## Grades
+For passing Info2, you need to pass two parts:
 
-TBD
-{% comment %}
-Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
-
-* Lecture summaries: 15%
-* Lab reports: 40%
-* Exam: 50%
-{% endcomment %}
+- the Lab ("Programmierübungen mit Rücksprache")
+- the Exam ("Klausur")
 
 ### Labs
 There will be a new grading schema for the lab reports!
 
-More info about the Lab Reports can be found on the [Labs](labs) page.
+You need to turn Lab Reports for n-1 and get an ok on n-2 of the n issued lab assignments. In the current planning, n == 13.
 
-### Handouts
+More info about the Lab Reports and their assessment can be found on the [Labs](labs) page.
+
+### Exam
+
+There will be a 2-hour online examination. The exam will be an on-line exam with three parts, a multiple-choice part, an essay part, and a programming part.
+
+### Grades
+
+As the lab reports are not graded, you need to pass them with an "ok" to pass the class altogether.
+
+The Grade is determined by the grade of your exam.
+
+No Lecture Notes this term!
+
+Note that as both, Lab Reports and the Exam are parts of the "Modulprüfung", cheating on them will result in a 5,0 (nicht bestanden) for the whole module and use up one of the three possible tries for this module.
+
+### Examinations for Students who already took Info2
+
+If you already took an Info2 class (with Prof. Zhang or Prof. Weber-Wulff) and completed the lab reports/exercise part there, you can skip the lab reports. To do so, you have to
+- send an email to the other Professor asking them to send your lab grades to me
+- send me an email asking me to accept them (you can do both in one email).
+
+You have to decide wether you want to participate in my labs or not at the beginning of the semester, though. As soon as you turn in one lab report with me, you are participating and have to do all of them to pass.
+
+Whether you attend the lectures or not, is your own decision, but note that the content might differ. It's your responsibilty to inform yourself about the topics covered.
+
+# Handouts
 
 * [Euclid](handouts/euclid)
-
-### Lecture summaries (15%)
-In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. They are due the following Monday @ 20:00. You can, of course, hand them in earlier.
-
-If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28 lectures altogether, I expect you to write summaries for 24 of them to get the entire 15% - they are either done or not done, and not graded on content.
-They can be in txt, pdf or markdown format.
-
-## Exam
-
-There will be a 2-hour online examination on or about July 21st or 28th.  The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part.
