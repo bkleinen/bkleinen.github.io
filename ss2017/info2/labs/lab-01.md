@@ -60,6 +60,10 @@ Choose another scenario and play this through. If you have time, do more! You wi
 3. Joseph wants to book, but there are no seats available.
 4. Otto has a booking he wants to cancel.
 
+### 3. Tooling: Dip a toe into Eclipse
+
+Install Eclipse (if on your own computer), choose a workspace location and create a first project with one class that prints out "Hello <something you fancy>" on the command line, or does something else. Add a main() method. Add an unit test class and a test, and make sure you know how to run both the main() method as well as the unit test in eclipse.
+
 ## Lab Report / What to turn in
 
 Your report is due the night before your next lab; refer to moodle for
