@@ -19,4 +19,7 @@
   <span class = "nav-divider">|</span></p>
 <p><a href="{{site.baseurl}}about/thissite">About this Site</a>
 </p>
+<span class = "nav-divider">|</span></p>
+<p><a href="{{site.baseurl}}links">Links</a>
+</p>
 <hr/>
