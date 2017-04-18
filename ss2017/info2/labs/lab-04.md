@@ -6,7 +6,7 @@ layout: lab
 ## Pre-Lab
 Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.
 
-1.  In some programming languages, such as Ada, you can 
+1.  In some programming languages, such as Ada, you can
     define an array of characters with any discrete type as the index:
 
         someArray : ARRAY ['A' .. 'Z'] of INTEGER;
