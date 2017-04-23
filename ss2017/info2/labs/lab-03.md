@@ -1,32 +1,41 @@
 ---
-title: 'Info2: Exercise 03: Chatterbox'
+title: 'Info2: Exercise 03: Histogram '
 author: kleinen
 layout: lab
 ---
 ## Pre-Lab
-Please research the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in. There are many sites that will show you the code for this.
+Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.
 
-1. How do you set up a connection between two computers in Java?
-2. Write a method to read from a connection in Java.
-3. Write a method to write to a connection in Java.
-4. How do you create concurrent threads?
+1.  In some programming languages, such as Ada, you can
+    define an array of characters with any discrete type as the index:
+
+        someArray : ARRAY ['A' .. 'Z'] of INTEGER;
+    You can then access the array, for example, using a value of character type: someArray['T']. Java does not have this feature. How would you go about making an array in Java for representing counters for the letters 'A' to 'Z'?
+
+2. Normalization of Strings means transforming all Strings to either uppercase or lowercase before comparing them. Write a method that takes a character as a parameter and returns a normalized version of the character without using the methods available in the Java String class.
+3. What is a "carriage return"? Where does the name come from?
 
 ## Assignment
 
-These are the required exercises for this week. Work in groups of two, each of you hands in the same report. Remember to put both your names on the report. You can continue to use BlueJ, or move to Eclipse, if you wish. We will be practicing much programming in the small this semester.
+These are the required exercises for this week. Work in groups of two, each of you hands in the same report. Remember to put your names on the report. You can continue to use BlueJ, or move to Eclipse, if you wish. We will be practicing much programming in the small this semester.
 
-1. Start your chatterbox by writing a method that listens on a port. This is your chatterbox server.
-2. Now write a client that writes to a port.
-3. Test your methods on your own machine. For now, just echo what you have read to the console to see it working. Now publish your computer name and port number on the board in the lab.
-4. Start chatting with a few of your neighbors! Describe what works and does not work
-5. Now extend your Chatterbox such that it can simultaneously receive and send messages using Java Threads.
+1. How do you go about reading in characters from a file? Write and test a method that returns the next character in a file. Note that you have to do something with the carriage returns - such as ignoring them - and that you have to decide what to do when there are no characters to be returned. Make sure that you will be able to read large files, as well.
+2. How do you write a String to a file? How do you write an Integer to a file? An int? How do you create a file, anyway?
+3. Now the fun begins! Write a Java application to read in a file character by character, counting the frequencies with which each character occurs. When there are no more characters, create a file frequency.txt and output the frequencies for each character. Note that you should only count the ASCII characters between 'A' and 'Z' and 'a' and 'z', using the char type.
+1. Write a test method to see if your program counts correctly. For this, you should be able to let your program read from an InputStream that comes from a test-String provided by the test. Hint: have a look at [StringBufferInputStream](https://docs.oracle.com/javase/8/docs/api/java/io/StringBufferInputStream.html).
+4. Output a histogram of the character frequencies. One simple kind of histogram has horizontal lines proportional to the magnitude of the number it represents. For example:
 
-## For the bored:
+        A : **********
+        B : *****
+        C : ******
 
-1. Remember that support desk application we had? Well, can you set it up so that your server listens for someone to type something, feeds it into the support desk, gets the support desk answer back and returns that to the person asking?
-2. Read up on Eliza and see if you can make a chatterbox "shrink" (psychiatrist).
-3. Create a Chat Server that can handle connections from more than one client using one Thread for each connected client.
 
+5. Try out your program with a big file, eg. the 3M english news file from the [Leipzig Corpora Collection](http://wortschatz.uni-leipzig.de/en/download): look for eng_news_2015_3M.tar.gz and read the file eng_news_2015_3M/eng_news_2015_3M-sentences.txt. How many 'a's are in this file, how many 'z's?
+6. What is the complexity of your program?
+
+## For the bored
+
+2. Extend your program such that it either takes input and output file names as parameters, or use stdin and stout if no parameters were given.
 ## Lab Report / What to turn in
 
 Your report is due the day before your next lab (for exact times, please refer to moodle).

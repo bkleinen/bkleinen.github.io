@@ -18,12 +18,12 @@ might be changed.
 |      |    | Fri, 2017-04-14 | ---- Feiertag: Karfreitag -----                                     |         |     | - no lab -                                                        |
 | 3    | 16 | Tue, 2017-04-18 | Networking in Java. File I/O.                                       |         |     | - no lab -                                                        |
 |      |    | Fri, 2017-04-21 | Concurrency                                                         | Group 1 | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
-| 4    | 17 | Tue, 2017-04-25 | Complexity of Algorithms, Binary Search                             | Group 2 | 3   | Networking Exercise (Pre-Lab!)                                    |
-|      |    | Fri, 2017-04-28 | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | Group 1 | 3   | Networking Exercise (Pre-Lab!)                                    |
-| 5    | 18 | Tue, 2017-05-02 | Arrays and Lists                                                    |         | 4   | Histogram (Pre-Lab!)                                              |
-|      |    | Fri, 2017-05-05 | Stacks                                                              |         |     |                                                                   |
-| 6    | 19 | Tue, 2017-05-09 | Recursion                                                           |         | 5   | Execution Times (Pre-Lab!)                                        |
-|      |    | Fri, 2017-05-12 | Queues, Priority Queues, Collections: Sets, Bags, Maps.             |         |     |                                                                   |
+| 4    | 17 | Tue, 2017-04-25 | Complexity of Algorithms, Binary Search                             | Group 2 | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
+|      |    | Fri, 2017-04-28 | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | Group 1 | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
+| 5    | 18 | Tue, 2017-05-02 | Arrays and Lists                                                    | Group 2 | 4   | [Networking Exercise](../labs/lab-04)  (Pre-Lab!)                 |
+|      |    | Fri, 2017-05-05 | Stacks                                                              | Group 1 |     | [Networking Exercise](../labs/lab-04)  (Pre-Lab!)                 |
+| 6    | 19 | Tue, 2017-05-09 | Recursion                                                           | Group 2 | 5   | Execution Times (Pre-Lab!)                                        |
+|      |    | Fri, 2017-05-12 | Queues, Priority Queues, Collections: Sets, Bags, Maps.             | Group 1 |     |                                                                   |
 | 7    | 20 | Tue, 2017-05-16 | Recursion                                                           |         | 6   | Reverse Polish Notation (Pre-Lab!)                                |
 |      |    | Fri, 2017-05-19 | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |         |     |                                                                   |
 | 8    | 21 | Tue, 2017-05-23 | Quicksort, Radix Sort                                               |         |     | - no lab -                                                        |
