@@ -23,6 +23,7 @@ These are the required exercises for this week. Work in groups of two, each of y
 2. How do you write a String to a file? How do you write an Integer to a file? An int? How do you create a file, anyway?
 3. Now the fun begins! Write a Java application to read in a file character by character, counting the frequencies with which each character occurs. When there are no more characters, create a file frequency.txt and output the frequencies for each character. Note that you should only count the ASCII characters between 'A' and 'Z' and 'a' and 'z', using the char type.
 1. Write a test method to see if your program counts correctly. For this, you should be able to let your program read from an InputStream that comes from a test-String provided by the test. Hint: have a look at [StringBufferInputStream](https://docs.oracle.com/javase/8/docs/api/java/io/StringBufferInputStream.html).
+1. Which character is the most frequent? Write a method that returns the most frequent character, include a test for it.
 4. Output a histogram of the character frequencies. One simple kind of histogram has horizontal lines proportional to the magnitude of the number it represents. For example:
 
         A : **********
