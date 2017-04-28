@@ -2,6 +2,7 @@
 title: "Media Programming: Web Technology"
 author: kleinen
 layout: page
+permalink: m1
 ---
 
 {% include ss2017/media-programming-rails.md %}
