@@ -2,7 +2,6 @@
 title: Info2 Sommersemester 2017
 author: kleinen
 layout: default
-permalink: info2
 ---
 
 {% include ss2017/info2.md %}

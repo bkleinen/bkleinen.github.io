@@ -1,7 +1,7 @@
 alias os='open http://localhost:4000'
 alias i2='open http://localhost:4000/ss2017/info2'
 alias is2='open http://localhost:4000/ss2017/info2/schedule'
-alias uc='open http://localhost:4000/ss2017/user-centered-web-technology'
+alias uc='open http://localhost:4000/ss2017/user-centered-web'
 alias wm='open http://localhost:4000/ss2017/media-programming-rails'
 alias htw='open http://home.htw-berlin.de/~kleinen/'
 alias gh='open http://bkleinen.github.io'
