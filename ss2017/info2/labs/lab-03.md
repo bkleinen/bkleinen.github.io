@@ -36,7 +36,8 @@ These are the required exercises for this week. Work in groups of two, each of y
 
 ## For the bored
 
-2. Extend your program such that it either takes input and output file names as parameters, or use stdin and stout if no parameters were given.
+2. Extend your program such that it either takes input and output file names as
+parameters, or use standard in  and standard out if no parameters were given.
 ## Lab Report / What to turn in
 
 Your report is due the day before your next lab (for exact times, please refer to moodle).
@@ -46,7 +47,7 @@ although we are now getting more interested in products as well.
 Your report should include any collaborators on top of the first page,
 summarize what you learned,
 and note the time you invested in this exercise.
-Both of you need to upload the same report in PDF format to Moodle before the
+Both of you need to upload the same report in PDF and zipped source format to Moodle before the
 deadline.
 
 ### Special Questions for your report
