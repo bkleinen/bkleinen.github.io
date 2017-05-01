@@ -109,6 +109,5 @@ although we are now getting more interested in products as well.
 Your report should include any collaborators on top of the first page,
 summarize what you learned,
 and note the time you invested in this exercise. How many lines of code did you write for each exercise? Record this in your report.
-Both of you need to upload the same report in PDF format to Moodle before the deadline.
-
-
+Both of you need to upload the same report in PDF and zipped source format to Moodle before the
+deadline.

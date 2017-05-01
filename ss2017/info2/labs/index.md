@@ -12,7 +12,7 @@ Lab Reports are due @ 23.00 the night before your next lab.
 * [Exercise 01 - Application Design](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Histogram](lab-03)
-*
+
 {% comment %}
 
 * [Exercise 04 - Chatterbox](lab-04)
