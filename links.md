@@ -8,8 +8,8 @@ layout: default
 * [Speiseplan der Mensa](http://www.studentenwerk-berlin.de/mensen/speiseplan/htw_wilhelminenhof/index.html)
 * [Bibliothek](http://bibliothek.htw-berlin.de)
 * [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
-* [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do;jsessionid=0FE2AE49796A0D03E273CEFE099F3B49?methodToCall=showLogin)
-
+* [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do)
+* [Anschaffungsvorschlag]()
 
 ## "Intranet"
 https://wiki.rz.htw-berlin.de/
