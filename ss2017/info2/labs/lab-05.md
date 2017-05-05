@@ -8,29 +8,46 @@ layout: lab
 
 Please have these completed before coming to the lab. BTW, I like questions like this on the exam...
 
-1. Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
+### Part 1
+Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
 
   1. Which program has the better guarantee on the running time for large values of N (N > 10 000)?
   2. Which program has the better guarantee on the running time for small values of N (N < 100)?
   3. Which program will run faster on average for N = 1000?
-  4.  Is it possible that program B will run faster than program A on all possible inputs?
+  4. Is it possible that program B will run faster than program A on all possible inputs?
 
-2. An algorithm takes 0.5 ms for input size 100. How long will it take for input size 500 if the running time is the following:
-
-  1. linear
-  2. O (N log N)
-  3. quadratic
-  4. cubic
-
-3. An algorithm takes 0.5 ms for input size 100. How large a problem can be solved in 1 min if the running time is the following:
+### Part 2
+An algorithm takes 0.5 ms for input size 100. How long will it take for input size 500 if the running time is the following:
 
   1. linear
   2. O (N log N)
   3. quadratic
   4. cubic
 
-4. Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
-N, square root of N, N<sup>1.5</sup>, N<sup>2</sup> , N log N, N log log N, N log2 N, N log (N<sup>2</sup>), 2/N, 2N, 2N/2, 37,N<sup>3</sup>, N<sup>2</sup> log N
+### Part 3
+An algorithm takes 0.5 ms for input size 100. How large a problem can be solved in 1 min if the running time is the following:
+
+  1. linear
+  2. O (N log N)
+  3. quadratic
+  4. cubic
+
+### Part 3
+Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
+- N
+- square root of N
+- N<sup>1.5</sup>
+- N<sup>2</sup>
+- N log N
+- N log log N
+- N log2 N
+- N log (N<sup>2</sup>)
+- 2/N
+- 2N
+- 2N/2
+- 37
+- N<sup>3</sup>
+- N<sup>2</sup> log N
 
 
 
@@ -97,7 +114,7 @@ A  ***prime number*** has no factors besides 1 and itself. Do the following:
 ### For the bored:
 
 The Sieve of Eratosthenes is a method used to compute all primes less than N. Begin by making a table of integers 2 to N.
-Find the smallest integer i that is not crossed out. Print i (it is prime!) and cross out i , 2i , 3i , ....
+Find the smallest integer i that is not crossed out - i is prime! (you might want to print it here to see the progress, but really you shouln't mix output within the algorithm) - and cross out all multiples of i (i , 2i , 3i , ....)
 Terminate when i is greater than the square root of N. The running time has been shown to be O (N log log N). Write a program to implement the Sieve and verify that the running time is as claimed. If you are ***really*** bored, animate this with a GUI like on the Wikipedia!
 
 ## Lab Report / What to turn in

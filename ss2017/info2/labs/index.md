@@ -13,11 +13,12 @@ Lab Reports are due @ 23.00 the night before your next lab.
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Histogram](lab-03)
 * [Exercise 04 - Chatterbox](lab-04)
-* 
+* [Exercise 05 - Execution times](lab-05)
+
 {% comment %}
 
 
-* [Exercise 05 - Execution times](lab-05)
+
 * [Exercise 06 - Reverse Polish Notation](lab-06)
 * [Exercise 07 - Recursive Triangles](lab-07)
 * [Exercise 08 - Eight Queens](lab-08)
