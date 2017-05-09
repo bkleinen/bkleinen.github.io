@@ -32,7 +32,7 @@ An algorithm takes 0.5 ms for input size 100. How large a problem can be solved 
   3. quadratic
   4. cubic
 
-### Part 3
+### Part 4
 Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
 - N
 - square root of N
@@ -48,7 +48,6 @@ Order the following functions by growth rate, and indicate which, if any, grow a
 - 37
 - N<sup>3</sup>
 - N<sup>2</sup> log N
-
 
 
 ## Lab exercise:
