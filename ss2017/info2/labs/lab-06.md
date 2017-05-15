@@ -9,48 +9,38 @@ layout: lab
 
   2. [ 	&#321;ukasiewicz](http://www-gap.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Lukasiewicz.html) was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
 
-    1. <tt>1 * 2 + 3 </tt>
-    2. <tt>1 + 2 * 3 </tt>
-    3. <tt>1 + 2 - 3 ^ 4</tt>
-    4. <tt>1 ^ 2 - 3 * 4</tt>
-    5. <tt>1 + 2 * 3 - 4 ^ 5 + 6</tt>
-    6. <tt>( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )</tt>
-    7. <tt>1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )</tt>
-    8. <tt>9 - 1 - 2 - 3 * 2 - 1</tt>
+    1. 1 * 2 + 3
+    2. 1 + 2 * 3
+    3. 1 + 2 - 3 ^ 4
+    4. 1 ^ 2 - 3 * 4
+    5. 1 + 2 * 3 - 4 ^ 5 + 6
+    6. ( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )
+    7. 1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )
+    8. 9 - 1 - 2 - 3 * 2 - 1
   
 
-  3. For the infix expression <tt>a + b ^ c * d ^ e ^ f - g - h / ( i + j ),</tt>do the following:
+  3. For the infix expression `a + b ^ c * d ^ e ^ f - g - h / ( i + j )`, do the following:
 
     1. Show how to generate the corresponding postfix expression.
     2. Show how to evaluate the resulting postfix expression.
   4. Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.
 
-##Assignment
-Read through **all** of the exercises before starting! Oh dear, this is a lot of work. I guess we can't play one-person-types-while-the-other-looks-on this week.... I would **strongly** suggest that one person get exercise 1 to work while the other one starts exercise 2. Then you exchange code,and voilà, it works! Now you can get back together to do the third exercise. The bored are, of course, done in half an hour, so they go on to do other interesting things.
+## Assignment
+Read through **all** of the exercises before starting! Oh dear, this is a lot of work. I guess we can't play one-person-types-while-the-other-looks-on this week.... I would **strongly** suggest that one person get exercise 1 to work while the other one starts exercise 2. Then you exchange code,and voilà, it works! Now you can get back together to do the third exercise.
 
-  1. Implement a class <tt>Stack.java</tt> as discussed in the lecture, using a **linked list** of objects that you implement yourself! Don't use the Stack or LinkedList that is available in the Java Collections Library. Try and type it in yourself, not just copy the handout. How will you test this? Your class should include both an exception on stack underflow as well as stack overflow. Will you really need both exceptions? Why or why not? Override the <tt>toString()</tt> method to provide a useful way of printing a stack. Now make it generic, so it can take values of any type. Coordinate your interface with your partner.
+  1. Implement a class Stack.java as discussed in the lecture, using a **linked list** of objects that you implement yourself! Don't use the Stack or LinkedList that is available in the Java Collections Library. Try and type it in yourself, not just copy the handout. How will you test this? Your class should include both an exception on stack underflow as well as stack overflow. Will you really need both exceptions? Why or why not? Override the ```toString()```method to provide a useful way of printing a stack. Now make it generic, so it can take values of any type. Coordinate your interface with your partner.
 
 
-  2. Implement a class <tt>Postfix.java</tt> that has a method
+  2. Implement a class ```Postfix.java```that has a method public int evaluate (String pfx){...}
+     that takes a `String` representing a postfix expression and determines the value represented by that expression. You will need to access the individual characters of the string and store them in a stack. This is necessary for the evaluation, luckily your partner is currently in the process of making one. Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both. <font color="#FF0000"><br>
 
-          public int evaluate (String pfx){...}
+***Do not go on before you are sure that this is working correctly!***
 
-    that takes a `String` representing a postfix expression and determines the value represented by that expression. You will need to access the individual characters of the string and store them in a stack. This is necessary for the evaluation, luckily your partner is currently in the process of making one. Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both. <font color="#FF0000"><br>
-<br>
-Do not go on before you are sure that this is working right!<br>
-<br>
-</font>
-  3. Now add another method to the <tt>Postfix.java</tt> class
-
-           public String infixToPostfix (String ifx){...}
-
-  that converts an infix expression which is presented as a <tt>String</tt> to a<tt> String</tt> representing a postfix expression! Throw an exception if your input is not well-formed.
+  3. Now add another method to the ```Postfix.java```class: ```public String infixToPostfix (String ifx){...}``` that converts an infix expression which is presented as a ```String```to a``` String```representing a postfix expression! Throw an exception if your input is not well-formed.
 
   4. Now add another method that reads a string from the console, evaluates the result and prints the result to the console.
 
-
-  5. (For the bored) Once this works for digits, go on and parse multidigit <tt>Integers</tt> out of the <tt>String</tt>. Can you do it for <tt>double</tt> values as well? If you are still bored, parse mixed expressions (<tt>doubles</tt> and <tt>ints</tt> in the same expression).
-
+  5. (For the bored) Once this works for digits, go on and parse multidigit ```Integers``` out of the ```String```. Can you do it for ```double```  values as well? If you are still bored, parse mixed expressions (```doubles```  and ```ints```  in the same expression).
 
   6. (For the really bored) How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?
 

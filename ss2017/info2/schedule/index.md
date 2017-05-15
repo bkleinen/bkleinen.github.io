@@ -24,8 +24,8 @@ might be changed.
 |      |    | Fri, 2017-05-05 | Stacks                                                              | Group 1 |     | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
 | 6    | 19 | Tue, 2017-05-09 | Recursion                                                           | Group 2 | 5   | [Execution Times](../labs/lab-05) (Pre-Lab!)                      |
 |      |    | Fri, 2017-05-12 | Queues, Priority Queues, Collections: Sets, Bags, Maps.             | Group 1 |     | [Execution Times](../labs/lab-05)   (Pre-Lab!)                    |
-| 7    | 20 | Tue, 2017-05-16 | Recursion                                                           |         | 6   | Reverse Polish Notation (Pre-Lab!)   (Pre-Lab!)                   |
-|      |    | Fri, 2017-05-19 | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |         |     |                                                                   |
+| 7    | 20 | Tue, 2017-05-16 | Recursion                                                           |         | 6   | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
+|      |    | Fri, 2017-05-19 | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |         |     | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
 | 8    | 21 | Tue, 2017-05-23 | Quicksort, Radix Sort                                               |         |     | - no lab -                                                        |
 |      |    | Fri, 2017-05-26 | ---- Frei: Freitag nach Himmelfahrt ----                            |         |     | - no lab -                                                        |
 | 9    | 22 | Tue, 2017-05-30 | Random numbers, Probabilistic Algorithms                            |         | 7   | Recursive Triangles (Pre-Lab!)                                    |
