@@ -4,7 +4,8 @@ serverencoding: ISO-8859-1
 baseurl: /~kleinen/
 baseurlwoslash: /~kleinen
 production_url : http://home.htw-berlin.de/~kleinen
-
+whitelist:
+  - jekyll-redirect-from
 
 # jekyll build --config _config.yml, _htwconfig.yml
 # encoding

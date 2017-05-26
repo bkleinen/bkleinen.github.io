@@ -16,6 +16,8 @@ title: Barne Kleinen
 author:
   name: Barne Kleinen
   email: kleinen@htw-berlin.de
+whitelist:
+  - jekyll-redirect-from
 defaults:
   -
     scope:
