@@ -5,6 +5,7 @@ title: Debug Site
 # A little debug site.
 
 * site.baseurl {{ site.baseurl }}
+* site.url {{ site.url }}
 * href="{{site.baseurl}}stylesheets/styles.css"
 * site.encoding: {{ site.encoding }}
 * site.serverencoding: {{ site.serverencoding }}
