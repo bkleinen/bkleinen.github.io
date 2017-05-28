@@ -3,7 +3,7 @@ title: Info2 Sommersemester 2017
 author: kleinen
 layout: default
 redirect_from:
-  - info2
+  - info2/
 
 ---
 
