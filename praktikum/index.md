@@ -3,19 +3,26 @@ title: Auslandspraktikum
 author: kleinen
 layout: default
 ---
-Ich bin der IMI-Praktikumsbeauftragte. Bitte lesen Sie sich
-diese Hinweise und die FAQs durch bevor Sie mir eine email
-schreiben oder gar vorbei kommen. Dies ist eine Ergänzung zu der
 
-[__Praktikumsseite auf der Studiengangswebseite__](http://imi-bachelor.htw-berlin.de/studium/praktikum/).
+Ich bin der IMI-Praktikumsbeauftragte.
 
-<span class = "attention">Hinweis</span>
+Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
+kommen Sie bitte in meine Sprechstunde, da lassen sich die meisten Dinge viel schneller
+und vor allem umfassender klären als in einem Email-Wechsel.
+
+<span class = "attention">Hinweis:</span>&nbsp;&nbsp;
 Bitte beachten Sie, dass wir keine Kapazitäten haben, Ihnen Formulare
 auszudrucken, einzuscannen, oder per Post irgendwo hin zu schicken.
-Daher ist es gut, zur Beantragung gleich weitere Formulare, die ich
-unterschreiben muss, mitzubringen - z.B. Bafög, Semesterticketbefreiung, Erasmus etc.
+Daher sollten Sie zur Beantragung gleich weitere Formulare, die Sie von
+mir unterschreiben lassen müssen, mitbringen  - z.B. für Bafög,
+Semesterticketbefreiung, Erasmus etc.
 
 Falls Sie nicht persönlich vorbei kommen können, beauftragen Sie bitte eine andere Person.
+
+# Allgemeine Informationen
+Diese Seite ergänzt die
+[Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/) um praktische
+Hinweise.
 
 # Übersicht
 - [Beantragung des Praktikums](#beantragung-des-praktikums)

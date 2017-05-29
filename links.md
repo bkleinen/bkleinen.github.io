@@ -27,5 +27,10 @@ https://portal.rz.htw-berlin.de/account/Typo3/
 Anleitungen (inkl. Link zum CMS:)
 [https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin](https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin)
 
-VPN
-[https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index](https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index)
+###VPN
+* Anleitung: [https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index](https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index)
+
+* Wenn Client schon installiert ist: Cisco AnyConnect Secure Mobility Client starten, mit https://vpn.htw-berlin.de verbinden
+
+## Rechenzentrum
+### Gastzugänge https://anleitungen.rz.htw-berlin.de/portal/gast/

@@ -45,7 +45,10 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 
 <div class = "box">
 <h4>Praktikumsbeauftragter</h4>
-<a href="praktikum/">Bitte beachten Sie diese Hinweise.</a>
+
+<a href="praktikum/">Info-Seite Praktikum .</a><br />
+Bei Fragen kommen Sie bitte in meine Sprechstunde.<br />
+<a href="{{site.baseurl}}news/infoveranstaltung-praktikum/">Info-Veranstaltung am 1.6.17</a>
 </div>
 <div class = "below">
 &nbsp;
