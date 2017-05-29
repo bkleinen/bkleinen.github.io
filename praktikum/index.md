@@ -4,7 +4,10 @@ author: kleinen
 layout: default
 ---
 
-Ich bin der IMI-Praktikumsbeauftragte.
+Ich bin der IMI-Praktikumsbeauftragte, d.h. für alle Fragen rund ums Praktikum
+zuständig, insbesondere aber für die Praktikumsbeantragung - in der ich prüfen muss, ob
+der Praktikumsplatz geeignet ist und alle notwendigen Vorraussetzungen erfüllt sind -
+sowie die Anerkennung des Praktikums nach Abgabe von Bericht und Bestätigung der Firma.
 
 Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
 kommen Sie bitte in meine Sprechstunde, da lassen sich die meisten Dinge viel schneller
