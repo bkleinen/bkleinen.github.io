@@ -25,4 +25,4 @@ This workshop will be held in English, and German if needed.
 
 Bitte anmelden unter: kleinen@htw-berlin.de
 
-Eine Kooperation der Heart of Code und der Frauenbeauftragten des FB 4.
+Eine Kooperation der [Heart of Code](http://heartofcode.org) und der [Frauenbeauftragten des FB 4](http://www.f4.htw-berlin.de/kontakt/frauenbeauftragte/).
