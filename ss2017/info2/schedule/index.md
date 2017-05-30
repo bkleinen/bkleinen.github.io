@@ -28,10 +28,10 @@ might be changed.
 |      |    | Fri, 2017-05-19 | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |         |     | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
 | 8    | 21 | Tue, 2017-05-23 | Quicksort, Radix Sort                                               |         |     | - no lab -                                                        |
 |      |    | Fri, 2017-05-26 | ---- Frei: Freitag nach Himmelfahrt ----                            |         |     | - no lab -                                                        |
-| 9    | 22 | Tue, 2017-05-30 | Random numbers, Probabilistic Algorithms                            |         | 7   | Recursive Triangles (Pre-Lab!)                                    |
-|      |    | Fri, 2017-06-02 | Graphs, Graph Algorithms                                            |         |     |                                                                   |
-| 10   | 23 | Tue, 2017-06-06 | Searching, Nearest Neighbor, Branch and Bound                       |         | 8   | Eight Queens (Pre-Lab!)                                           |
-|      |    | Fri, 2017-06-09 | Trees, Heapsort, Sorting Algorithms Conclusion                      |         |     |                                                                   |
+| 9    | 22 | Tue, 2017-05-30 | Random numbers, Probabilistic Algorithms                            |         | 7   | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                  |
+|      |    | Fri, 2017-06-02 | Graphs, Graph Algorithms                                            |         |     | [Recursive Triangles](../labs/lab-07)   (Pre-Lab!)                |
+| 10   | 23 | Tue, 2017-06-06 | Searching, Nearest Neighbor, Branch and Bound                       |         | 8   | [Eight Queens](../labs/lab-06) (Pre-Lab!)                         |
+|      |    | Fri, 2017-06-09 | Trees, Heapsort, Sorting Algorithms Conclusion                      |         |     | [Eight Queens](../labs/lab-06)  (Pre-Lab!)                        |
 | 11   | 24 | Tue, 2017-06-13 | Finite State Automata                                               |         | 9   | Probablistic Algorithms  (Pre-Lab!)                               |
 |      |    | Fri, 2017-06-16 | Finite State Automata + AVL Trees                                   |         |     |                                                                   |
 | 12   | 25 | Tue, 2017-06-20 | Hashs  /  String Searching and Pattern Matching                     |         | 10  | Getting from A to B                                               |

@@ -19,7 +19,7 @@ layout: lab
 ## Assignment
 
 
-1. First set up a Window that can handle drawing. Can you get the Window to draw an equilateral triangle? What is the largest one you can get on the screen?
+1. First set up a Window that can handle drawing. Can you get the Window to draw an equilateral triangle? What is the largest one you can get on the screen? You can use this scaffold: [https://github.com/htw-imi-info2/SierpinskyTriangleStart](https://github.com/htw-imi-info2/SierpinskyTriangleStart)
 2. Once you can draw the triangle, now draw a triangle that connects the midpoints of each of the lines. You now have 4 triangles. For each of the three outer triangles, recursively draw a triangle that connects the midpoints. What is your termination condition, what is the measure?
 3. Expand your triangle drawing algorithm to draw in a specific color. Choose a different color for every level of the algorithm.
 4. Fill the middle triangle on each step with an appropriate color. Choose the size of the first triangle depending on what size the window is. Redraw the triangle when the window is resized.
@@ -31,13 +31,13 @@ layout: lab
 
 From [http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27)
 
-> Q. Do you know what iteration means?
-> A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and over...
->
-> Q. Do you know what's recursion?
-> A. It's recursion.
-> ByTeEaTeR
-> Tuesday, May 09, 2006
+    > Q. Do you know what iteration means?
+    > A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and     over...
+    >
+    > Q. Do you know what's recursion?
+    > A. It's recursion.
+    > ByTeEaTeR
+    > Tuesday, May 09, 2006
 
 ## Lab Report / What to turn in
 

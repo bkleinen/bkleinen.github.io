@@ -6,6 +6,7 @@ categories:
   - frauen*
   - conferences
   - gender
+  - old
 ---
 
 [AlterConf](https://alterconf.com/conferences/berlin-germany) - a travelling conference
