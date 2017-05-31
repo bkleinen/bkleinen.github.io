@@ -9,7 +9,9 @@ zuständig, insbesondere aber für die Praktikumsbeantragung - in der ich prüfe
 der Praktikumsplatz geeignet ist und alle notwendigen Vorraussetzungen erfüllt sind -
 sowie die Anerkennung des Praktikums nach Abgabe von Bericht und Bestätigung der Firma.
 
-Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
+Diese Seite ergänzt die
+[Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/) um praktische
+Hinweise. Lesen Sie diese bitte zuerst. Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
 kommen Sie bitte in meine Sprechstunde, da lassen sich die meisten Dinge viel schneller
 und vor allem umfassender klären als in einem Email-Wechsel.
 
@@ -22,31 +24,26 @@ Semesterticketbefreiung, Erasmus etc.
 
 Falls Sie nicht persönlich vorbei kommen können, beauftragen Sie bitte eine andere Person.
 
-# Allgemeine Informationen
-Diese Seite ergänzt die
-[Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/) um praktische
-Hinweise.
-
 # Übersicht
 - [Beantragung des Praktikums](#beantragung-des-praktikums)
-- [Abgabe des Praktikumsberichts](#abgabe-des-praktikumsberichts)
-- [Ordnungen](#ordnungen)
-- [FAQ](#faq)
+- [Anerkennung des Praktikums](#anerkennung-des-praktikums)
+- [Weitere Informationen](#weitere-informationen)
 
-# Beantragung des Praktikums
+## Beantragung des Praktikums
 Zur Beantragung des Praktikums kommen Sie bitte mit den vollständigen Unterlagen - siehe -
 [http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 )  persönlich in meiner Sprechstunde
 vorbei. Die aktuellen Zeiten finden Sie auf [meiner Homepage]({{site.baseurl}}).
 
-## Ausländische Hochschulzugangsberechtigung
+### Ausländische Hochschulzugangsberechtigung
 Wenn Sie nicht in Deutschland zur Schule gegangen sind, und Ihre Hochschulzugangsberechtigung
 auf einer Schule ausserhalb Deutschlands erworben haben, können Sie Ihr Praktikum
 in Deutschland machen.
 Bringen Sie bitte einfach sowohl das Original als auch eine Kopie Ihrer
 Hochschulzugangsberechtigung - bzw. das Original der Übersetzung nebst Kopie - zur Beantragung mit.
 Die Kopie verbleibt dann in unseren Akten.
-## Arbeitsvertrag
-Für den Arbeitsvertrag/Ausbildungsvertrag gibt es Muster in der Rahmenpraktikumsordnung und auf der [Studiengangsseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 ).
+
+### Arbeitsvertrag
+Für den Arbeitsvertrag/Ausbildungsvertrag gibt es Muster in der Rahmenpraktikumsordnung und auf der [Studiengangsseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 ). Dieses können, müssen Sie aber nicht verwenden.
 
 Bei Beantragung bringen Sie bitte ein 3. Original des Arbeits/Ausbildungsvertrages mit, das in unseren Unterlagen bleibt.
 
@@ -54,7 +51,10 @@ Sollten Sie zum Zeitpunkt der Beantragung noch kein handschriftlich unterzeichne
 haben, können Sie dennoch das Praktikum bei mir beantragen. Die weitere Bearbeitung erfolgt dann erst, wenn
 Sie ein handschriftlich unterzeichnetes Original des Ausbildungsvertrages nachgereicht haben.
 
-# Abgabe des Praktikumsberichts
+## Anerkennung des Praktikums
+Als Ergänzung zu [http://imi-bachelor.htw-berlin.de/studium/praktikum/](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
+
+### Abgabe des Praktikumsberichts
 * In welcher Form muss der Praktikumsbericht verfasst / gebunden / abgegeben werden?
 
 Hierzu enthält die [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072) Angaben.
@@ -65,14 +65,17 @@ Der Bericht kann in Englisch oder Deutsch geschrieben werden.
 
 * Wie muss der Praktikumsbericht abgegeben werden?
 
-Fertige Berichte können Sie einfach vorbeibringen bzw. einfacher in mein Postfach gegenüber vom
+Fertige Berichte können Sie einfach vorbeibringen bzw. in mein Postfach gegenüber vom
 Dekanat im 2. Stock werfen. Falls die Firma, bei der sie das Praktikum absolviert haben,
 keinen Stempel zur Verfügung hatte, bitten Sie bitte Ihre_n Betreuer_in gleich,
 mir eine email zu schicken, in der er oder sie bestätigt, dass Sie das
 Praktikum in der Firma absolviert haben.
 
 
-# Ordnungen
+# Weitere Informationen
+
+## Ordnungen
+
 nicht nur für Sonderfälle und weitere Regelungen:
 Zusätzlich zur [Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
 lohnt sich auch ein Blick in die
@@ -82,7 +85,7 @@ lohnt sich auch ein Blick in die
 * [Rahmenpraktikumsordnung](http://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6072)
 
 
-# FAQ
+## FAQ
 
 ## Wie ist Ihre Adresse? / Oder: ich habe Sie nicht angetroffen, wann kann ich XY vorbeibringen?
 
