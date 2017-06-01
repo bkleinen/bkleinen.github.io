@@ -18,11 +18,14 @@ Vorlagen für MA:
 https://wiki.rz.htw-berlin.de/confluence/pages/viewpage.action?title=Kommunikation&spaceKey=htwintranet
 
 ## Lehrplanung
+
 * [https://lehrprofil.f4.htw-berlin.de](https://lehrprofil.f4.htw-berlin.de)
 
 ## Lehrabrechnung
 
 * [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
+
+
 ## Webseite der HTW Bearbeiten
 
 Zugriff auf diverse Webseiten der HTW:
@@ -39,5 +42,3 @@ Anleitungen (inkl. Link zum CMS:)
 
 ## Rechenzentrum
 ### Gastzugänge https://anleitungen.rz.htw-berlin.de/portal/gast/
-
-##
