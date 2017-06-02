@@ -31,18 +31,16 @@ random points.
 1. Using threads, create a simple Simulation for the Dining Philosophers Problem.
 2. For each Philosopher, create a Thread within this Philosopher dines. The implementation
 should just create some outputs like:
-
+    ```
         Philosopher 1 takes his right fork.
         Philosopher 1 takes his left fork.
         Philosopher 1 eats.
         Philosopher 1 puts down his right fork.
         Philosopher 1 puts down his left fork.
-
-  or
-
+              ...or...
         Philosopher 1 takes his right fork.
         Philosopher 1 waits for left fork.
-
+    ```
 3. Provide several implementations with a sensible way to switch between them;
 at least one blocking one and one using a probabilistic solution to avoid the
 deadlock.
