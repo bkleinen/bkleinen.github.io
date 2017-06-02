@@ -1,4 +1,4 @@
-x---
+---
 title: Sorting Algorithms
 author: kleinen
 layout: page
