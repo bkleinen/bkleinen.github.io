@@ -92,5 +92,4 @@ lohnt sich auch ein Blick in die
 Den Praktikumsantrag bitte persönlich bei mir in meiner Sprechstunde vorbeibringen, so lässt sich am schnellsten alles klären und Sie können sich gleich alle benötigten Kopien machen
 und unterschreiben und stempeln lassen.
 
-Alles andere - Praktikumsbericht, nachgereichte Zertifikate, Originalverträge etc - können Sie per Post oder Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{site.baseurl}}contact) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen. Bitte vermerken Sie ggfs. "Praktikumsunterlagen" auf dem Umschlag, dann kann
-Frau On ihn öffnen und die Bearbeitung geht schneller.
+Alles andere - Praktikumsbericht, nachgereichte Zertifikate, Originalverträge etc - können Sie per Post oder Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{site.baseurl}}contact) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen. 
