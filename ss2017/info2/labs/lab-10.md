@@ -3,25 +3,72 @@ title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
 ---
+
+[![S-Bahn-Ring]({{ site.baseurl }}images/s-bahn.jpg)
+<small class = "float-right">S-Bahn Ring generated with https://github.com/bkleinen/bvg-graph based on OpenStreetMap</small>
+
+
+
 ## Pre-Lab
 
-1. Define an abstract data type for a weighted graph. What methods does your ADT need? What are the signatures for the operators?
-2. Find algorithms for determining the minimum path and the cheapest path between two nodes in a directed graph. I strongly suggest visiting a library (that is one of these places that keeps ancient books around). There are Algorithm and Data Structure books available in many languages. There is also an example in the Wikipedia, but it is not really easy to understand.
+1. Define an interface data type for a weighted graph. What methods does it need? What are the signatures?
+2. Read on Depth-First-Search and Dijkstra Algorithm to compute the shortest and cheapest path in a given graph. We've covered them in class, also.
 3. Your algorithm will probably need an adjacency matrix oder an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?
-4. Briefly review generating random numbers.
 
 ## Assignment
 
 Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.
 
 1. Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix. How are you going to store the weights?
-2. While one partner is doing this, the other one should write a class that generates a random weighted graph. You will need a constructor that takes the number of vertices for your graph and the number of edges. For example, you might want to have RandomGraph (20, 45) generate a graph with 20 vertices and 40 edges which randomly connect those vertices. You should give your vertices names, either really boring ones like "A", "B", "C" or make up random names for example by choosing random words in Wikipedia articles. Generate the edges by choosing 2 vertices at random, and then assigning them a random weight. Use the WeightedGraph your partner is constructing.
-3. Now write a method that will take a graph, pick two vertices at random, and find the ***shortest*** path between the vertices. Make a method to print out the path in a readable format. What class will these methods belong to?
+2. While one partner is doing this, the other one should write a class that reads a graph from a file. See notes on the file format and the example file below!
+3. Now write a method that will take a graph and two vertices and find the ***shortest*** path between the vertices. Make a method to print out the path in a readable format. What class will these methods belong to?
 4. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the ***cheapest*** path between the two.
+5. Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.
+<pre>
 
-5. (For the Bored) Are there multiple minimal paths? Print them all (this is *very* tricky!).
-6. (For the Bored) Use your data structure to print out all the vertices n steps from a given vertex.
+    060192001006, S Schöneweide Bhf (Berlin)
 
+    060068201511, S+U Tempelhof (Berlin) (15 min Fahrtzeit laut BVG)
+    060066102852, S Botanischer Garten (Berlin) 33 min
+    060053301433, S Wannsee Bhf (Berlin) 43 min
+    060120003653, S Ostkreuz Bhf (Berlin) 9 min
+
+    060068201511, 060066102852, 060053301433, 060120003653
+</pre>
+
+Your Dijkstra implementations should yield the following travel times:
+<pre>
+    [[60068201511, 660], [60066102852, 1224], [60053301433, 1950], [60120003653, 504]]
+</pre>
+
+(Which is a plausible result given that the Algorithm/Graph doesn't consider Time spent in Stations.)
+
+5. (For the Bored) Use your data structure to print out all the vertices n steps from a given vertex.
+6. (For the Bored) List the travel times to all stations from S Schöneweide.
+7. (For the Bored) Are there multiple minimal paths? Print them all (this is *very* tricky!).
+
+
+## Graph Example and Test Data
+### Test Data
+[graph1.txt](../lab-10-data/graph1.txt) contains a small example graph to test both algorithms. For the Dijkstra Algorithm, [result1.txt](../lab-10-data/result1.txt) contains the cheapest path costs if you start at vertex 1.
+
+### BVG U+S Bahn
+
+The graph data in [bvg.txt](../lab-10-data/bvg.txt) contains a simple extract of the Berlin U+S Map and has the following format:
+
+    <from-vertex> <to-vertex2>,<weight2> <to-vertex2>,<weight2>
+
+That is, each line represents a vertex with all its outgoing edges, e.g.
+
+    060049202852 060049201862,90 060066101852,108
+
+means that there is an edge from 060049202852 to 060049201862 with weight 90, that is, the travel time from
+
+060049202852, S Sundgauer Str. (Berlin) to 060049201862, S Zehlendorf (Berlin) is 90 sec.
+
+You find the station names in [stations.txt](../lab-10-data/stations.txt)
+
+The graph data was extracted from the GTFS-Data provided at [http://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html](http://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html) using the rails app [https://github.com/bkleinen/bvg-graph](https://github.com/bkleinen/bvg-graph)
 
 ## Lab Report / What to turn in
 
