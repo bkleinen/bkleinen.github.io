@@ -1,30 +1,67 @@
 ---
-title: B. Kleinen | Thesis Topics
+title: Barne Kleinen | Thesis Topics
 author: kleinen
 layout: page
 ---
 
 My main areas of interest are
 
-* web engineering
-* agile development
-* web development and software engineering
-* devops (e.g. provisioning of web applications)
-* learning support
-* automatic testing
+* Web Engineering
+* Continuous Deployment and DevOps
+* Agile Development
+* Learning Support
+* Automatic Testing
 
-Thus, if you have a thesis topic idea in these areas you might want to talk to me.
+And especially all intersections of these areas.
 
-This usually works best if you send an email with a brief description of the topic (a couple of sentences) and come to
-see me personally, e.g. during my office hours.
+If you have an idea for a topic that fits into these areas, come and talk to me.
 
-## Industry Itches
+I'm also happy to supervise topics that are based within a company, but I don't
+usually sign NDAs.
 
-I'm always happy to supervise topics that scratch an actual itch found in the wild in cooperation with a company.
+The following is a Collection of Ideas for Topics and things that I would like
+to see and use.
 
-# Topics for SS 2016
+## Thesis Topics in the area of DevOps
 
-[Presentation show on Dec/16 2015](topics-ss2016.pdf)
+### Visualize the Deployment Pipeline (B/M)
+The trend in devops seems to move away from monolithic tools towards a service based
+infrastructure. We've recently set up a deployment pipeline for [IMI-Maps](https://github.com/imimaps/imimaps)
+using travis, docker, docker hub, ansible, ansible vault and local vms -
+a quite complex infrastructure consisting of tools, services and scripts.
+While monolitic tools have the possibility to nicely visualize the deployment pipeline,
+with a setup like this that's no longer the case. The thesis should try to
+find solutions and build a prototype for visualizing a deployment pipeline.
+The IMI-Map Deployment can be used as an example.
+
+## IMI and Supporting Learning
+
+### IMI-Dashboard
+
+Identify relevant and important information for IMI-Students and find ways to present it
+to them - that might be a dashboard, but also include other forms of hardware.
+
+### Reducing the number of drop-outs
+Currently, Master students of the Class WT4 / User Centered Web Design develop
+Product Concepts mainly around the goal of reducing the number of drop-outs.
+There will be a final presentation of the results on Thursday, 20/7/17, 8:45-12:00 which is
+late, but not too late to pick up ideas presented there and turn them into thesis topics.
+
+###  Using Automated Testing for Teaching and Learning: Programming Exercise Feedback
+Design a way to provide Feedback for Programming exercises in Informatics 1 and 2.
+
+## Supporting Agile Development
+
+### Open Backlog
+Within Scrum, Backlog grooming or Estimation is an important part of the
+communication between product owner and team. Backlogs need to be navigated and
+prioritized, Storys are annotated and estimated. The goal of this thesis would
+be to design and implement a backlog visualization tool that integrates with
+other tools to collect tasks/issues, like especially github issues.
+
+
+
+
 
 # Further Information and Links
 * [Antworten auf Fragen, die mir häufig gestellt wurden (Deutsch)](faq)
