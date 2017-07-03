@@ -19,11 +19,12 @@ Lab Reports are due @ 23.00 the night before your next lab.
 * [Exercise 08 - Eight Queens](lab-08)
 * [Exercise 09 - Probabilistic Algorithms](lab-09) (Pre-Lab!)
 * [Exercise 10 - Getting from A to B](lab-10) (Pre-Lab!)
-* 
+* [Exercise 11 - Scrabble Cheater Basic Edition](lab-11) (Pre-Lab!)
+*
 {% comment %}
 
 * [Exercise 11 - Finite Automata and Sorting](lab-11) (Pre-Lab!)
-* [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
+
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
 *
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)

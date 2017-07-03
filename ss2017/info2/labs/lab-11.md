@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 12: Scrabble Cheater - Basic Edition '
+title: 'Info2: Exercise 11: Scrabble Cheater - Basic Edition '
 author: kleinen
 layout: lab
 ---
@@ -54,8 +54,13 @@ same length of the tile rack that can be build with it and that are in the word 
 thus valid scrabble words.
 5. How can you use the Permutation class to make looking up the validWordsUsingAllTiles() more efficient? (Hint: how often will normalize() be called a) for initialisation and
 b) for a lookup in your WordList?)
+6. Now, provide a second implementation of WordList using a HashMap as the underlying collection for storing the words. Note that you need to make sure that equals() and hashCode() work correctly on permutations in order to store Permutations at the same place in the HashMap.
+{% comment %}
 1. In preparation of the final ScrabbleCheater, which will also find shorter words that can be built with the tile rack, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
+{% endcomment %}
 3. you might want to add a main method or some sort of interface to input words that should be looked up by your scrabble cheater. (e.g. taking a parameter or reading in tile racks from standard in)
+4. (for the bored) measure the time improvement introduced by the HashMap implementation.
+5. (for the very bored) implement an own hashmap and hash function for storing the Permutations.
 
 
 ## Lab Report / What to turn in

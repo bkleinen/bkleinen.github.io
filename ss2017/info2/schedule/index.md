@@ -34,15 +34,15 @@ might be changed.
 |      |    | Fri, 2017-06-09 | Graphs, Graph Algorithms                                                  |         |     | [Eight Queens](../labs/lab-08)  (Pre-Lab!)                        |
 | 11   | 24 | Tue, 2017-06-13 | Searching, Nearest Neighbor, Branch and Bound                             |         | 9   | [Probablistic Algorithms](../labs/lab-09)  (Pre-Lab!)             |
 |      |    | Fri, 2017-06-16 | Trees, Heapsort, Sorting Algorithms Conclusion                            |         |     | [Probablistic Algorithms](../labs/lab-09)                         |
-| 12   | 25 | Tue, 2017-06-20 | Finite State Automata                                                     |         | 10  | Getting from A to B                                               |
+| 12   | 25 | Tue, 2017-06-20 | Finite State Automata                                                     |         | 10  | [Getting from A to B](../labs/lab-10)                             |
 |      |    | Fri, 2017-06-23 | Finite State Automata                                                     |         |     |                                                                   |
-| 13   | 26 | Tue, 2017-06-27 | AVL Trees                                                                 |         | 11  | Finite State Automata and Sorting                                 |
-|      |    | Fri, 2017-06-30 | Hashs  /  String Searching and Pattern Matching                           |         |     |                                                                   |
-| 14   | 27 | Tue, 2017-07-04 | Scanning and Parsing Algorithms                                           |         | 12  | Scrabble Cheater Basic Edition (Pre-Lab!)                         |
-|      |    | Fri, 2017-07-07 | Ruby                                                                      |         |     |                                                                   |
-| 15   | 28 | Tue, 2017-07-11 | Ruby                                                                      |         |     | Trial Exam                                                        |
-|      |    | Fri, 2017-07-14 | Ruby                                                                      |         |     | Trial Exam                                                        |
+| 13   | 26 | Tue, 2017-06-27 |                                                                           |         | 11  | [Getting from A to B](../labs/lab-10)                             |
+|      |    | Fri, 2017-06-30 |                                                                           |         |     |                                                                   |
+| 14   | 27 | Tue, 2017-07-04 | Hashs                                                                     |         | 12  | [Scrabble Cheater](../labs/lab-11)                                |
+|      |    | Fri, 2017-07-07 | String Searching and Pattern Matching                                     |         |     | [Scrabble Cheater](../labs/lab-11)                                |
+| 15   | 28 | Tue, 2017-07-11 | Searching,Scanning and Parsing Algorithms                                 |         |     | Trial Exam                                                        |
+|      |    | Fri, 2017-07-14 | AVL Trees                                                                 |         |     | Trial Exam                                                        |
 | 16   | 29 | Tue, 2017-07-18 | Repetition / Trial Exam Review                                            |         |     |                                                                   |
 |      |    | Fri, 2017-07-21 | Exam                                                                      |         |     |                                                                   |
-| 17   | 30 | Tue, 2017-07-25 | Exam Review (During Lab Time Group 2)                                     |         |     |                                                                   |
+| 17   | 30 | Tue, 2017-07-25 | Exam Review <span class="attention"> 14:00-15:30</span>                   |         |     |                                                                   |
 |      |    | Fri, 2017-07-28 | IMI Showtime                                                              |         |     |                                                                   |
