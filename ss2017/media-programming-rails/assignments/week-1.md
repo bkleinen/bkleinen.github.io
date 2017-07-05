@@ -1,10 +1,9 @@
 ---
-title: Example Project for Web Technology - Week 1
+title: Week 1 - First Steps in Ruby and Ruby on Rails
 author: kleinen
 layout: page
 ---
-
-# Week 1 - First Steps in Ruby and Ruby on Rails
+{% include ss2017/media-programming-rails.md %}
 
 ## Overview
 
@@ -18,8 +17,7 @@ There are hints for installtation in the Getting Started with Rails Guide linked
 
 ## 1. contribute to the ruby-learning project
 In class, we will / did start a project to learn about ruby:
-[https://github.com/htw-imi-m1-ss2017/ruby-learning](In class, we will / did start a project to learn about ruby:
-https://github.com/htw-imi-m1-ss2017/ruby-learning)
+[https://github.com/htw-imi-m1-ss2017/ruby-learning](https://github.com/htw-imi-m1-ss2017/ruby-learning)
 
 Finish one topic per person.
 
@@ -42,7 +40,9 @@ Here's the backlog of the project "Habits:"
 - When the user clicks on a habit, it can be edited. A log of dates when the habit was performed is shown.
 - a habit log is shown for each week.
 
-## 4. work through the "getting started with rails"-guide
+## 3. work through the "getting started with rails"-guide
 At least read through the Getting Started Guide. You can and should, however, try to start
 to develop your application following the guide.
 * [Getting started with Rails](http://guides.rubyonrails.org/getting_started.html)
+
+There is nothing to turn in this week. 

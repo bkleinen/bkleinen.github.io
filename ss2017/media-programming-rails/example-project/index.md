@@ -6,15 +6,13 @@ layout: page
 
 {% include ss2017/media-programming-rails.md %}
 
-Will be published here soon.
-{% comment %}
-[Example Project on GitHub](https://github.com/media-programming-rails/example-app)
 
-[Example Project for Week 4 on GitHub](https://github.com/media-programming-rails/poller)
+[Example Project on GitHub](https://github.com/htw-imi-m1-ss2017/example-app)
+
+[Example Project for Week 4 on GitHub](https://github.com/htw-imi-m1-ss2017/poller)
 
 * [Week 1](week-1)
 * [Week 2](week-2)
 * [Week 3](week-3)
 * [Week 4](week-4)
 * [Week 5](week-5)
-{% endcomment %}
