@@ -1,5 +1,5 @@
 ---
-title: Example Project for Web Technology - Week 3
+title: Week 3 - Testing, CI and CD
 author: kleinen
 layout: page
 ---
@@ -38,3 +38,6 @@ again, see the [example project](../../example-project/week-3) for clarification
 7. Set up an Automated Deployment to Heroku for your project.
 8. For the bored: set up a build matrix testing both against postgres and sqlite on travis
 9. Automatically Deploy every successful Build from Travis.
+
+
+Don't forget to tag your sources with week-3 after completing theses steps.

@@ -1,5 +1,5 @@
 ---
-title: Example Project for Web Technology - Week 2
+title: Week 2 - Active Record Associations, Migrations and Views
 author: kleinen
 layout: page
 ---
