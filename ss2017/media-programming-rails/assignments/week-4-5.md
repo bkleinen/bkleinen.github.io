@@ -21,7 +21,7 @@ authentication:
   2. Add Sessions, Login and Logout to your application
   3. Restrict Access to Some Pages
 
-Again, see the [example project](../example-project/week-4) for clarification on what to do.
+Again, see the [example project](../../example-project/week-4) for clarification on what to do.
 Note that this is not a complete thing, as you don't need to implement signup. It's just about
 getting an idea about how session management and login in rails might work. For a real life web
 application you should use one of the available frameworks, like devise.
@@ -39,7 +39,7 @@ Find a place where a little bit of JavaScript is useful in your Application. It 
 send an asynchronous request to the server which should be handled appropriately and the
 result shown on the page. You find a couple of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
 
-Also, see my [example project](../example-project/week-5).
+Also, see my [example project](../../example-project/week-5).
 
 Upload a PDF Report describing what you did (I don't want to have to figure out what
 you did from your source code) including a link to the git repository (or, the
