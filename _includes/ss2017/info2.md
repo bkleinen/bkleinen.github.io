@@ -7,3 +7,4 @@
 | <a href="https://github.com/htw-imi-info2">Github</a>
 | <a href="{{site.baseurl}}ss2017/info2/handouts">Handouts</a>
 | <a href="{{site.baseurl}}ss2017/info2/worksheets">Worksheets</a>
+| <a href="{{site.baseurl}}ss2017/info2/klausurfragen">Klausurfragen</a>
