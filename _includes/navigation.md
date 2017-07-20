@@ -1,4 +1,7 @@
 
+<p><span class = "attention">The github mirror is broken, please use <a href="http://home.htw-berlin.de/~kleinen/"> http://home.htw-berlin.de/~kleinen/</a> !</span>
+  <span class = "nav-divider">|</span></p>
+  <p />
 <p><a href="{{site.baseurl}}">Home</a>
   <span class = "nav-divider">|</span></p>
   <p><a href="{{site.baseurl}}contact">Contact Info</a>
