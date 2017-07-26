@@ -34,6 +34,6 @@ Report II - Due Sun July <span class="linethrough">2nd</span> 9th, 23:00 - Visio
 
 Slides - after presentation 20.07. 23:00
 
-Report III  - Due Wed August 2nd 23:00  - Evaluation of Paper Prototypes, Prototype and Metrics,
+Report III  - Due Wed August 2nd 23:00  - see [special page for report 3](../labs/report-3/)
 
  Prototype and  Metrics: Research Web Analytics and A/B-Testing tools/strategies for the technology you plan to develop your prototype with. (This could be anything from plain html to any web-framework or protyping tool)
