@@ -1,8 +1,8 @@
+{% comment %}
 <span class ="attention">Sprechstundenzeit verändert!</span>
-
-KW 30: Mittwoch, 26.7. 12:30-13:30<br />
-KW 31: Di 1.8. - 9:00-10:00 <br />
-KW 32: Mi 9.8.  10:00-11:00<br />
-September: nach Vereinbarung.
-
+{% endcomment %}
+September: Mo, 4.9. 15-16 Uhr<br />
+sowie vorraussichtlich am 11. oder 12.
+sowie 18. oder 19.9. und dann wieder in
+der 1. Semesterwoche.<br />
 Please check back here for changes!
