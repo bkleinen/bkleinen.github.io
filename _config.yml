@@ -5,9 +5,7 @@ permalink: /news/:title/
 markdown: kramdown
 highlighter: rouge
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-baseurl: /
-myownbaseurl: /
-baseurlwoslash:
+baseurl:
 exclude: ['_bin','aliasses.sh','vendor','Rakefile','Gemfile', 'Gemfile.lock', 'link-checker-crawled-pages.pstore','README.md','./_site_htw','_site_htw','/_site_htw/','./_site_htw/','_site_htw/','/_site_htw/']
 excerpt_separator: ""
 production_url : http://bkleinen.github.io
