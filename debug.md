@@ -4,10 +4,10 @@ title: Debug Site
 
 # A little debug site.
 
-* site.baseurl {{ site.baseurl }}
+* site.baseurl {{ site.baseurl }}/
 * site.url {{ site.url }}
 * site.myownbaseurl {{ site.myownbaseurl }}
-* href="{{site.baseurl}}stylesheets/styles.css"
+* href="{{ site.baseurl }}/stylesheets/styles.css"
 * site.encoding: {{ site.encoding }}
 * site.serverencoding: {{ site.serverencoding }}
 * &auml;: ä

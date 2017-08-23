@@ -6,8 +6,8 @@ layout: lab
 
 
 <span class = "attention">This exercise has been split up in parts A & B and is not valid in WS2016/17!</span>
-<span class = "attention">See the [Schedule]({{site.baseurl}}ws2016/info1/schedule/)
-or [Lab Index]({{site.baseurl}}ws2016/info1/labs/) for the correct exercises.</span>
+<span class = "attention">See the [Schedule]({{ site.baseurl }}/ws2016/info1/schedule/)
+or [Lab Index]({{ site.baseurl }}/ws2016/info1/labs/) for the correct exercises.</span>
 
 # Pre-lab
 

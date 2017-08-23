@@ -1,6 +1,6 @@
 
-[Schedule]({{site.baseurl}}ws2014/info1/schedule/) | [Labs]({{site.baseurl}}ws2014/info1/labs/)
-| [Code Examples]({{site.baseurl}}ws2014/info1/code/)
+[Schedule]({{ site.baseurl }}/ws2014/info1/schedule/) | [Labs]({{ site.baseurl }}/ws2014/info1/labs/)
+| [Code Examples]({{ site.baseurl }}/ws2014/info1/code/)
 | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=3994)
 | [Moodle Lab Group 1](https://moodle.htw-berlin.de/course/view.php?id=4070)
 | [Moodle Lab Group 2](https://moodle.htw-berlin.de/course/view.php?id=4069)

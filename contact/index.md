@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 <span class = "float-right">
-![Barne_Kleinen]({{site.baseurl}}images/bkleinen.jpg)
+![Barne_Kleinen]({{ site.baseurl }}/images/bkleinen.jpg)
 </span>
 
 # Prof. Dr. Barne Kleinen
@@ -16,7 +16,7 @@ My preferred means of communication is email:
 Barne.Kleinen@htw-berlin.de
 
 If you have questions regarding the **Auslandspraktikum:**
-Check if they are answered on [the info page.]({{site.baseurl}}praktikum) - if
+Check if they are answered on [the info page.]({{ site.baseurl }}/praktikum) - if
 not, please make use of the [office hours](#office-hours).
 
 Office: WH C 645

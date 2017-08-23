@@ -66,4 +66,4 @@ It must include a reflection on what you learned during the session, if anything
 They must be submitted to the Moodle area by 23.00 the night before your next lab.
 
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/general/guideline)

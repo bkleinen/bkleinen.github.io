@@ -60,7 +60,7 @@ If I find plagiarisms of lecture summaries (especially from the Wikipedia), you 
 They can be in txt, pdf or markdown format.
 
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/general/guideline)
 
 ### Using Ruby & Rails on the iMacs
 

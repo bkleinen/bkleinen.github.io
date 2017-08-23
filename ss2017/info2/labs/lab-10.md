@@ -4,7 +4,7 @@ author: kleinen
 layout: lab
 ---
 
-[![S-Bahn-Ring]({{ site.baseurl }}images/s-bahn.jpg)
+[![S-Bahn-Ring]({{ site.baseurl }}/images/s-bahn.jpg)
 <small class = "float-right">S-Bahn Ring generated with https://github.com/bkleinen/bvg-graph based on OpenStreetMap</small>
 
 

@@ -13,10 +13,10 @@ layout: widesection
 <div class = "box">
 <h4>Classes Summer Term 2017</h4>
 <ul>
-  <li><a href="{{site.baseurl}}ss2017/info2">Informatik 2</a></li>
-  <li><a href="{{site.baseurl}}ss2017/media-programming-rails">Web Technology in M1 Media Programming</a></li>
-  <li><a href="{{site.baseurl}}ss2017/user-centered-web-technology">User-Centered Web Technology (WT4)</a></li>
-  <li><a href="{{site.baseurl}}ss2017/project/">Praxisprojekt IMI-Map Reloaded</a></li>
+  <li><a href="{{ site.baseurl }}/ss2017/info2">Informatik 2</a></li>
+  <li><a href="{{ site.baseurl }}/ss2017/media-programming-rails">Web Technology in M1 Media Programming</a></li>
+  <li><a href="{{ site.baseurl }}/ss2017/user-centered-web-technology">User-Centered Web Technology (WT4)</a></li>
+  <li><a href="{{ site.baseurl }}/ss2017/project/">Praxisprojekt IMI-Map Reloaded</a></li>
 </ul>
 </div>
 
@@ -48,7 +48,7 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 
 <a href="praktikum/">Info-Seite Praktikum .</a><br />
 Bei Fragen kommen Sie bitte in meine Sprechstunde.<br />
-<a href="{{site.baseurl}}news/infoveranstaltung-praktikum/">Info-Veranstaltung am 1.6.17</a>
+<a href="{{ site.baseurl }}/news/infoveranstaltung-praktikum/">Info-Veranstaltung am 1.6.17</a>
 </div>
 <div class = "below">
 &nbsp;

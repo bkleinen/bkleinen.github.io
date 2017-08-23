@@ -10,7 +10,7 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
 {% assign previous="" %}
 <div class = "breadcrumbs">
-  <a href="{{site.baseurl}}">home</a>
+  <a href="{{ site.baseurl }}/">home</a>
  {% if num_parts == "0" or num_parts == "-1" %}
   &nbsp;
  {% else %}
@@ -26,7 +26,7 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
 
    {% if remaining != "0" %}
-     <a href="{{site.baseurl}}{{previous}}">{{ first_word }}</a> {{seperator}}
+     <a href="{{ site.baseurl }}/{{previous}}">{{ first_word }}</a> {{seperator}}
    {% else %}
      {{ first_word }}
    {% endif  %}

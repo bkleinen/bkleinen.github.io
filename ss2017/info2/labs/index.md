@@ -45,4 +45,4 @@ Note that this is a (possibly) different thing than plagiarism. Plagiarism - cop
 
 If you become ill, it's ok to skip one lab report (remember, only n-1 need to be turned in.). If you're having trouble keeping up for longer than a week, come talk to me or send me an email and we'll figure something out.
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{site.baseurl}}general/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/general/guideline)

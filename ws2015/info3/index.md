@@ -46,7 +46,7 @@ Due dates:
 
 ## Grades
 
-Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course (Lecture summaries, optionally tests on lab subjects and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{site.baseurl}}general/grading-scale):
+Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course (Lecture summaries, optionally tests on lab subjects and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/general/grading-scale):
 
 * Lecture summaries: 10%
 * Exam: 65%
