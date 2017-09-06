@@ -20,7 +20,7 @@ Also, we'll set up continuous integration and continuous deployment using the se
 * [Rails 5 on Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails5)
 
 ### Background
-* [Martin Fowler: Continuous Integeration](https://martinfowler.com/articles/continuousIntegration.html)
+* [Martin Fowler: Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
 * [Continuous Integration - The digest on the Thoughtworks Page](https://www.thoughtworks.com/continuous-integration)
 
 ## Testing, Setting up a Deployment Workflow, and some Ruby
