@@ -11,13 +11,15 @@ layout: widesection
 </div>
 
 <div class = "box">
-<h4>Classes Summer Term 2017</h4>
+<h4>Classes Winter Term 2017</h4>
+
 <ul>
-  <li><a href="{{ site.baseurl }}/ss2017/info2">Informatik 2</a></li>
-  <li><a href="{{ site.baseurl }}/ss2017/media-programming-rails">Web Technology in M1 Media Programming</a></li>
-  <li><a href="{{ site.baseurl }}/ss2017/user-centered-web-technology">User-Centered Web Technology (WT4)</a></li>
-  <li><a href="{{ site.baseurl }}/ss2017/project/">Praxisprojekt IMI-Map Reloaded</a></li>
+  <li><a href="{{ site.baseurl }}/ws2017/info3">Informatik 3</a></li>
+  <li><a href="{{ site.baseurl }}/ws2017/media-programming-rails">Web Technology in M1 Media Programming</a></li>
+  <li><a href="{{ site.baseurl }}/ws2017/agile-web">Agile Web Development (WT-AT1)</a></li>
+  <li><a href="{{ site.baseurl }}/ws2017/project/">Praxisprojekt</a></li>
 </ul>
+
 </div>
 
 <div class = "box">
