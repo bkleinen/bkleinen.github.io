@@ -52,6 +52,9 @@ haben, können Sie dennoch das Praktikum bei mir beantragen. Die weitere Bearbei
 Sie ein handschriftlich unterzeichnetes Original des Ausbildungsvertrages nachgereicht haben.
 
 ## Anerkennung des Praktikums
+
+Für die Anerkennung des Praktikums müssen Sie Ihren Praktikumsbericht sowie das
+Zertifikat
 Als Ergänzung zu [http://imi-bachelor.htw-berlin.de/studium/praktikum/](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
 
 ### Abgabe des Praktikumsberichts
@@ -92,4 +95,4 @@ lohnt sich auch ein Blick in die
 Den Praktikumsantrag bitte persönlich bei mir in meiner Sprechstunde vorbeibringen, so lässt sich am schnellsten alles klären und Sie können sich gleich alle benötigten Kopien machen
 und unterschreiben und stempeln lassen.
 
-Alles andere - Praktikumsbericht, nachgereichte Zertifikate, Originalverträge etc - können Sie per Post oder Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{ site.baseurl }}/contact) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen. 
+Alles andere - Praktikumsbericht, nachgereichte Zertifikate, Originalverträge etc - können Sie per Post oder Hauspost an mich schicken (Adresse finden Sie unter [Contact Info]({{ site.baseurl }}/contact) ), oder auch in meinen Briefkasten gegenüber dem Dekanat des FB4 im 2. Stock einwerfen.
