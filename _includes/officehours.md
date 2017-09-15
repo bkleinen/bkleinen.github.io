@@ -1,9 +1,6 @@
-September: Mo, 4.9. 15-16 Uhr<br />
-Di, 12.9. 11-12<br />
-Mi, 20.9. gegen Mittag (wartet noch auf 2 Prüfungstermine)<br />
-Und dann wieder in
-der 1. Semesterwoche, Zeit wird festgelegt sobald der Stundenplan da ist.<br />
-Please check back here for changes!
+
+Mi, 20.9.17 12:00-13:00<br />
+WS 2017: every Thursday, 14:15-15:15<br />
 {% comment %}
 <span class ="attention">Sprechstundenzeit verändert!</span>
 {% endcomment %}
