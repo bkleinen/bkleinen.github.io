@@ -16,6 +16,8 @@
   <span class = "nav-divider">|</span></p>
 <p><a href="{{ site.baseurl }}/general">General Info</a>
   <span class = "nav-divider">|</span></p>
+  <p><a href="{{ site.baseurl }}/trans">Trans*</a>
+    <span class = "nav-divider">|</span></p>
 <p><a href="{{ site.baseurl }}/about/thissite">About this Site</a>
 </p>
 <span class = "nav-divider">|</span></p>
