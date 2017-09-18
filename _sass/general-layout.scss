@@ -107,9 +107,17 @@ img {
   max-width: 100%; }
 small {
     font-size: 11px; }
-    .float-right {
+
+.float-right {
       float:right;
     }
+
+.citation {
+    font-size: 11px;
+    float:right;
+    font-family: serif;
+    margin-left: 60px
+  }
 
 
 hr {
