@@ -31,7 +31,7 @@ Der Studierendenservice ist bemüht, dies umzusetzen, bislang ist die einzige te
 die hierzu gefunden wurde, über einen "Künstlernamen". Damit sollte Ihr gewählter Name
 in LSF und Moodle erscheinen.
 
-Wenn Sie von dieser Möglichkeit Gebrauch machen möchten, schreiben Sie bitte eine Mail an  studierendenservice@htw-berlin.de .
+Wenn Sie von dieser Möglichkeit Gebrauch machen möchten, wenden Sie sich bitte an den [Studierendenservice](https://www.htw-berlin.de/studium/studierendenservice/studierenden-service-center/) via Mail an das Ticketsystem: [studierendenservice@htw-berlin.de](mailto:studierendenservice@htw-berlin.de) .
 
 Melden Sie mir Erfahrungen damit gerne zurück.
 
@@ -52,7 +52,7 @@ Persönlichkeit nicht entspricht.
 
 Der Prozess einer amtlichen Namensänderung beruht auf dem veralteten Transsexuellengesetz,
 das bereits in Teilen als verfassungswidrig eingestuft wurde. Er ist
-Kosten- und Zeitaufwendig und psychisch belastend - nicht zuletzt weil er eine
+kosten-, zeitaufwendig und psychisch belastend - nicht zuletzt weil er eine
 Begutachtung durch zwei Psychologen voraussetzt.
 
 Daher ist es im Sinne einer diskriminierungsarmen Hochschule wichtig,
@@ -64,7 +64,7 @@ an die Berliner Hochschulen ergangen.
 Das Immatrikulationsbüro hat hierfür als Übergang eine Lösung über den im HIS vorgesehen
 "Künstlernamen" gefunden. Bitte verwenden Sie den gewählten Namen und die
 gewünschte Anrede auch darüber hinaus gegenüber dem/der Studierenden sowie
-insbesondere auch dort, wo Namen und möglicherweise sogar Pronomen Mitstudierenden
+insbesondere auch dort, wo Namen oder Pronomen Mitstudierenden
 gegenüber öffentlich gemacht werden.
 
 Bei Fragen, Anregungen und Erfahrungen gerne bei mir melden.
@@ -72,10 +72,10 @@ Bei Fragen, Anregungen und Erfahrungen gerne bei mir melden.
 Berlin, 18.9.2017 Barne Kleinen
 
 ## Informationsmaterialien
-  * Anschreiben der Senatsverwaltung ()
+  * Anschreiben der Senatsverwaltung (auf Anfrage bei mir)
   * Antidiskriminierungsstelle des Bundes: "Verwendung des gewählten Namens von trans*Studierenden
-  an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung"
-  * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016
+  an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung" im Netz verfügbar u.a. bei [Queer Leben](https://queer-leben.de/material/)
+  * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](http://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
 
 
 
