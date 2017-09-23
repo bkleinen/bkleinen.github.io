@@ -4,6 +4,7 @@ author: kleinen
 layout: page
 ---
 
+{% include ws2017/info3.md %}
 
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](http://www.wowwiki.com/Gilded_Rose)</small>
@@ -16,7 +17,7 @@ readme and the GuildedRose class.
 
 * Ruby Version: [https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
 * Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
-* Original Version using Maven: [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose) 
+* Original Version using Maven: [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose)
 
 ### Write Characterization Tests
 

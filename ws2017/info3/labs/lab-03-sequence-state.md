@@ -4,6 +4,8 @@ author: kleinen
 layout: page
 ---
 
+{% include ws2017/info3.md %}
+
 # Part 1: Sequence Diagrams
 
 ![Launch Sequence](../images/sequence.jpg)

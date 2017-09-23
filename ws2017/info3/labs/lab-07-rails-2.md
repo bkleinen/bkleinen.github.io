@@ -4,6 +4,7 @@ author: kleinen
 layout: page
 ---
 
+{% include ws2017/info3.md %}
 
 Assignment
 ==================
@@ -47,5 +48,3 @@ The resulting app should be workable, but you do not need to spend time on the l
 Hand in two files: a pdf documenting what you&#8217;ve implemented &#8211;
 rather pointers to the part in the source code than complete descriptions,
 and a zip containing the source code.
-
-

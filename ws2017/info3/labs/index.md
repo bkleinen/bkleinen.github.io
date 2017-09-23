@@ -3,9 +3,10 @@ title: Info3 - Labs and Exercises
 author: kleinen
 layout: page
 ---
+{% include ws2017/info3.md %}
 
 ## Exercises
-* [Exercise 01 - Case Studies of Ethical Questions](lab-01-casestudies)
+* [Exercise 01 - Startup and Installation](lab-01-startup)
 * [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class)
 * [Exercise 03 - Sequence Diagrams and State Machine Diagrams](lab-03-sequence-state)
 * [Exercise 04 - Testing](lab-04-testing)
@@ -24,4 +25,3 @@ There will be 7 exercises. The exercises will either be written reports - lab re
 
 
 You are required to work on the exercises and turn them in **groups of  3 people**. Submissions are done in Moodle, **no late submissions** are allowed this term. Always hand in what you have on time.
-s
