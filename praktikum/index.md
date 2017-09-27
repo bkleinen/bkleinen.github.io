@@ -11,7 +11,8 @@ sowie die Anerkennung des Praktikums nach Abgabe von Bericht und Bestätigung de
 
 Diese Seite ergänzt die
 [Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/) um praktische
-Hinweise. Lesen Sie diese bitte zuerst. Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
+Hinweise. Lesen Sie die [Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/)  
+bitte zuerst. Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
 kommen Sie bitte in meine Sprechstunde, da lassen sich die meisten Dinge viel schneller
 und vor allem umfassender klären als in einem Email-Wechsel.
 
@@ -29,10 +30,6 @@ Falls Sie nicht persönlich vorbei kommen können, beauftragen Sie bitte eine an
 - [Anerkennung des Praktikums](#anerkennung-des-praktikums)
 - [Weitere Informationen](#weitere-informationen)
 
-## Beantragung des Praktikums
-Zur Beantragung des Praktikums kommen Sie bitte mit den vollständigen Unterlagen - siehe -
-[http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 )  persönlich in meiner Sprechstunde
-vorbei. Die aktuellen Zeiten finden Sie auf [meiner Homepage]({{ site.baseurl }}/).
 
 ### Ausländische Hochschulzugangsberechtigung
 Wenn Sie nicht in Deutschland zur Schule gegangen sind, und Ihre Hochschulzugangsberechtigung
@@ -42,20 +39,8 @@ Bringen Sie bitte einfach sowohl das Original als auch eine Kopie Ihrer
 Hochschulzugangsberechtigung - bzw. das Original der Übersetzung nebst Kopie - zur Beantragung mit.
 Die Kopie verbleibt dann in unseren Akten.
 
-### Arbeitsvertrag
-Für den Arbeitsvertrag/Ausbildungsvertrag gibt es Muster in der Rahmenpraktikumsordnung und auf der [Studiengangsseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/#c10769 ). Dieses können, müssen Sie aber nicht verwenden.
 
-Bei Beantragung bringen Sie bitte ein 3. Original des Arbeits/Ausbildungsvertrages mit, das in unseren Unterlagen bleibt.
 
-Sollten Sie zum Zeitpunkt der Beantragung noch kein handschriftlich unterzeichnetes Original vorliegen
-haben, können Sie dennoch das Praktikum bei mir beantragen. Die weitere Bearbeitung erfolgt dann erst, wenn
-Sie ein handschriftlich unterzeichnetes Original des Ausbildungsvertrages nachgereicht haben.
-
-## Anerkennung des Praktikums
-
-Für die Anerkennung des Praktikums müssen Sie Ihren Praktikumsbericht sowie das
-Zertifikat
-Als Ergänzung zu [http://imi-bachelor.htw-berlin.de/studium/praktikum/](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
 
 ### Abgabe des Praktikumsberichts
 * In welcher Form muss der Praktikumsbericht verfasst / gebunden / abgegeben werden?
