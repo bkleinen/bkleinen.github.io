@@ -11,6 +11,9 @@ d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} 
 day_diff=1;d = Date.new(2015,10,8);(1..18).to_a.collect{|i| [(d+(7*(i-1))).strftime("|#{i} | #{i+40} | %a, %Y-%m-%d |"),(d+(7*(i-1))+day_diff).strftime("|   |    | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}
 
 
+x = 12;d = Date.new(2017,10,11);(1..16).to_a.collect{|i| a = i<x ? (7*(i-1)) :7*i ; dw = d+a; dw.strftime("|#{i} | #{dw.cweek} | %a, %Y-%m-%d |")  }.flatten.each{|x| puts x}
+
+
 {% endcomment %}
 
 

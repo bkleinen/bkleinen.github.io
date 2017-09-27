@@ -10,14 +10,10 @@ layout: page
 
 Info 3 is the final module of the Info 1-3 series. In Info1, you learned programming, and the basics of object-oriented design of software. Info2 introduced you to advanced programming with data structures and algorithms. Info3 rounds that out by giving you insights into how to actually design and develop software with an eye for the overall picture.
 
-This term, [Prof. Weber-Wulff](http://people.f4.htw-berlin.de/~weberwu/) and I will team-teach this class together for the first time. Mostly, DWW will be doing the Thursday lectures and I will be teaching on Fridays including the labs. The details can be found in
-the [Schedule](schedule/).
-
 # Contents
 
-
-The Modulbeschreibung states the following goals for Info3:
-<blockquote>
+The Studienordnung states the following goals for Info3:
+<pre>
 
 *  Die Studierenden haben gelernt, wie man ein komplexes Softwarebasiertes
    System analysiert, modelliert und eine L&ouml;sung entwirft.
@@ -30,7 +26,8 @@ The Modulbeschreibung states the following goals for Info3:
 *  Sie k&ouml;nnen Algorithmen der Lokalisierung und Internationalisierung von
    Software umsetzen.
 
-</blockquote>
+</pre>
+
 
 Thus, Software Engineering, Software System Design, the UML and Software Design Patterns are set as topics.
 As one example of media system applications, we will look deeper into Web Application Development. Web Application Development has two main characteristics: it is a fast-changing environment, and agile development practices are pivotal. Furthermore, if web applications are successful, they become long-running software, thus the ability to maintain an old codebasis is also important. Therefore, we will also look into best practices to support agile software development ("Best Practices") as well as designing for ease of change ("Clean Code" and "Advanced Object Oriented Design").

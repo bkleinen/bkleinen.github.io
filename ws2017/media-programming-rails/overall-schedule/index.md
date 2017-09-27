@@ -6,6 +6,7 @@ wide_layout: true
 ---
 {% comment %}
 x = 12;d = Date.new(2017,10,11);(1..16).to_a.collect{|i| a = i<x ? (7*(i-1)) :7*i ; dw = d+a; dw.strftime("|#{i} | #{dw.cweek} | %a, %Y-%m-%d |")  }.flatten.each{|x| puts x}
+
 {% endcomment %}
 
 
