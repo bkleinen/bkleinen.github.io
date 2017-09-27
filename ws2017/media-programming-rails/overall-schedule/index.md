@@ -4,25 +4,28 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
+{% comment %}
+x = 12;d = Date.new(2017,10,11);(1..16).to_a.collect{|i| a = i<x ? (7*(i-1)) :7*i ; dw = d+a; dw.strftime("|#{i} | #{dw.cweek} | %a, %Y-%m-%d |")  }.flatten.each{|x| puts x}
+{% endcomment %}
+
 
 Tentative. Aka subject to possible change.
 
-| Week | KW  | Date | Topic Area                              | Lecturer                |
-|:-----|:----|:-----|:----------------------------------------|:------------------------|
-| 1    | TBD | TBD  | Web Technology                          | Barne Kleinen           |
-| 2    | TBD | TBD  | Web Technology                          | Barne Kleinen           |
-| 3    | TBD | TBD  | Web Technology                          | Barne Kleinen           |
-| 4    | TBD | TBD  | Web Technology                          | Barne Kleinen           |
-| 5    | TBD | TBD  | Web Technology                          | Barne Kleinen           |
-| 6    | TBD | TBD  | Visual Computing                        | Klaus Jung & Nico Hezel |
-| 7    | TBD | TBD  | Visual Computing                        | Klaus Jung & Nico Hezel |
-| 8    | TBD | TBD  | Visual Computing                        | Klaus Jung & Nico Hezel |
-| 9    | TBD | TBD  | Visual Computing                        | Klaus Jung & Nico Hezel |
-| 10   | TBD | TBD  | Visual Computing                        | Klaus Jung & Nico Hezel |
-| 11   | TBD | TBD  | Game Technology and Interactive Systems | David Strippgen         |
-| 13   | TBD | TBD  | Game Technology and Interactive Systems | David Strippgen         |
-| 14   | TBD | TBD  | Game Technology and Interactive Systems | David Strippgen         |
-| 15   | TBD | TBD  | Game Technology and Interactive Systems | David Strippgen         |
-| 16   | TBD | TBD  | Game Technology and Interactive Systems | David Strippgen         |
-| 17   | TBD | TBD  | TBD                                     |                         |
-| 18   | TBD | TBD  | TBD                                     |                         |
+| Week | KW | Date            | Topic Area                              | Lecturer                |
+|:-----|:---|:----------------|:----------------------------------------|:------------------------|
+| 1    | 41 | Wed, 2017-10-11 | Visual Computing                        | Klaus Jung & Nico Hezel |
+| 2    | 42 | Wed, 2017-10-18 | Visual Computing                        | Klaus Jung & Nico Hezel |
+| 3    | 43 | Wed, 2017-10-25 | Visual Computing                        | Klaus Jung & Nico Hezel |
+| 4    | 44 | Wed, 2017-11-01 | Visual Computing                        | Klaus Jung & Nico Hezel |
+| 5    | 45 | Wed, 2017-11-08 | Visual Computing                        | Klaus Jung & Nico Hezel |
+| 6    | 46 | Wed, 2017-11-15 | Web Technology                          | Barne Kleinen           |
+| 7    | 47 | Wed, 2017-11-22 | Web Technology                          | Barne Kleinen           |
+| 8    | 48 | Wed, 2017-11-29 | Web Technology                          | Barne Kleinen           |
+| 9    | 49 | Wed, 2017-12-06 | Web Technology                          | Barne Kleinen           |
+| 10   | 50 | Wed, 2017-12-13 | Web Technology                          | Barne Kleinen           |
+| 11   | 51 | Wed, 2017-12-20 | Game Technology and Interactive Systems | David Strippgen         |
+| 12   | 1  | Wed, 2018-01-03 | Game Technology and Interactive Systems | David Strippgen         |
+| 13   | 2  | Wed, 2018-01-10 | Game Technology and Interactive Systems | David Strippgen         |
+| 14   | 3  | Wed, 2018-01-17 | Game Technology and Interactive Systems | David Strippgen         |
+| 15   | 4  | Wed, 2018-01-24 | Game Technology and Interactive Systems | David Strippgen         |
+| 16   | 5  | Wed, 2018-01-31 | TBD                                     |                         |
