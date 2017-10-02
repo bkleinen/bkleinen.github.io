@@ -33,7 +33,7 @@ Read it as a preparation for the lab.
 If you feel like it, you can continue with a sequence diagram for additional use cases.
 
 
-#Part 2:  State Machine Diagrams
+# Part 2:  State Machine Diagrams
 
 ![Machine](../images/machine.jpg "machine")
 <small class = "float-right">Machine. Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)</small>

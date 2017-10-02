@@ -4,6 +4,7 @@ author: kleinen
 layout: page
 ---
 
+{% include ws2017/info3.md %}
 
 (These are detailled instructions for the installation part of the [Info 3 Startup Lab](../lab-01-startup)).
 ## Note on Eclipse, 06/Oct/2014
