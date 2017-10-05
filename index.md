@@ -13,13 +13,23 @@ layout: widesection
 <div class = "box">
 <h4>Classes Winter Term 2017</h4>
 
+
+<ul>
+  <li><a href="#">Informatik 3</a></li>
+  <li><a href="{{ site.baseurl }}/ws2017/wtat2">WT AT2: Agile Web Development</a></li>
+  <li><a href="#">M1 Lab: Web Technology</a></li>
+  <li><a href="#">Praxisprojekt</a></li>
+</ul>
+
+
+{% comment%}
 <ul>
   <li><a href="{{ site.baseurl }}/ws2017/info3">Informatik 3</a></li>
   <li><a href="{{ site.baseurl }}/ws2017/media-programming-rails">Web Technology in M1 Media Programming</a></li>
-  <li><a href="{{ site.baseurl }}/ws2017/agile-web">Agile Web Development (WT-AT1)</a></li>
   <li><a href="{{ site.baseurl }}/ws2017/project/">Praxisprojekt</a></li>
 </ul>
 
+{% endcomment%}
 </div>
 
 <div class = "box">
