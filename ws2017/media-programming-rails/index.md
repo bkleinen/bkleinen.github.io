@@ -16,6 +16,7 @@ The Epochenunterricht consists of 3 x 5 laboratory sessions for the three study 
 Visual Computing and Game Technology respectively. Have a look at the [tentative overall schedule](overall-schedule) to
 see how this breaks down.
 
+ {% comment %}
 ## What we will do
 
 Within the five weeks of Web Technology, you will work on your own Web Application Project in a more or less
@@ -33,3 +34,4 @@ For Web Technology, you will have to prepare and hand in 5 project reports toget
 your projects. The project reports have to be prepared as PDF and describe what you did, what you learned, what worked and
 what didn't work. You'll find detailled instructions for each week in the [assignments](assignments). The project reports are due at 23:00
 on the night before the next meeting and need to be uploaded to Moodle.
+ {% endcomment %}

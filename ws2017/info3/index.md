@@ -36,39 +36,61 @@ Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
 ## Meetings and Due Dates
 
-The class consists of 2x2h of lectures  and 4h of lab every fortnight (alternating group 1 & group 2).
+The class consists of 2x2h of lectures  and 2h of lab every week.
+Lab exercises run for 2 weeks - there are two labs for each assignment.
+This allows you to start within the first lab, get most of the work done during the
+week and come back with your questions in the second lab.
+There will be quizzes about the lab topics in the lab.
+
 Due dates:
 
-* Lecture Notes of last week: Wednesday 22:00
-* Lab Reports: Thursday 22:00 before your next lab.
+* Lab Reports: Monday 22:00 before the next lab with a new assignment.
 
 
 ## Grades
 
-Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course (Lecture summaries, optionally tests on lab subjects and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/general/grading-scale):
+Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course (optionally) tests on lab subjects and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/general/grading-scale):
 
-* Lecture summaries: 10%
-* Exam: 65%
-* Lab Reports: 35% - all (n) have to be submitted to get these points!
+Option 1: only Exam
+* Exam 100%
+* all 7 lab reports need to be turned in before the exam
 
+Option 2: Lab Quizzes & Exam
+* Exam 50%
+* Lab Quizzes: 50%
+* all 7 lab reports need to be turned in before the exam
 
-### Lecture summaries
-In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
-If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for any lecture summary at all. Of the 28-30 lectures altogether, I expect you to write summaries for 24 of them to get the entire 10% - they are either done or not done, and not graded on content.
-They can be in txt, pdf or markdown format.
+In each lab with a new assignment, which happens to be the same as the lab after the
+report deadline, there will be a short moodle quizz about the subjects of
+the lab. If you worked on the lab report it should be fairly easy to
+answer.
+
+You don't have to participate in the quizzes, but they are a chance to
+earn points ahead of the exam just as you could formerly with graded
+lab reports.
+
+You don't have to decide which Option you choose, I will automatically
+pick the one that results in the better grade for you at the end of the
+semester.
 
 ## Lab Reports
 
-As in Info1 and Info2, you need to write Lab Reports which will be graded.
+As in Info1 and Info2, you need to write Lab Reports.
 More info about the Lab Reports can be found on the [Labs](labs) page.
 
 ## Exam
 
-There will be a 2-hour online examination at the end of the semester.  The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part.
+There will be a 2-hour online examination at the end of the semester.  
+The exam will be an on-line exam with two parts, a multiple-choice part
+and an essay / programming part.
 
 ## Course Literature
 
-There is no textbook for this class. Here are the main books this class is based upon. You'll don't need to buy them for this class - there's plenty of information online. Some of them can be found in the library. You might want to buy them, though, as these are books that will not be outdated next year. One of them is even the same age as some of you.
+There is no textbook for this class. Here are the main books this class
+is based upon. You'll don't need to buy them for this class - there's pl
+enty of information online. Some of them can be found in the library.
+You might want to buy them, though, as these are books that will not be
+outdated next year. One of them is even the same age as some of you.
 
 | Reference                                                                                                                                         | Link                                                                                                                                                                                             |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

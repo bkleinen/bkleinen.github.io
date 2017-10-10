@@ -11,7 +11,7 @@ layout: page
 
 ## PreLab
 
-* if you plan on using your own computer in the lab, make sure that you do the installation of at least ruby and a decent editor **before coming to lab**.
+* if you plan on using your own computer in the lab, you should do the software installation of at least ruby and a decent editor **before coming to lab**.
 
 # Part 1: Setting up your environment
 
@@ -26,13 +26,15 @@ Make sure that you have
 
 **[Here are detailled instructions](../lab-01-startup-installation)**.
 
-# Part 2: Git(added Oct 10, 2014)
+# Part 2: Git
 
 ## Git
 
 This is to be done in the lab, or, alternatively, with all people sitting next to each other. The objective is to practice exchanging  text files via git and github.
 
 Build Teams, create a central repository within each team and add the team members as collaborators on github (you may use another provider for git repositories, e.g. the FB4 Projekteserver - see [the git part in the installation instructions](../lab-01-startup-installation). The team size is up to you - it has to be at least two, the more you are the more complicated it gets. Make sure each one of you has successfully committed at least one change to the repository. You can set up a repository for the Ruby Finger Exercise right away.
+
+
 
 # Part 3: Ruby Finger Exercises
 
@@ -87,4 +89,4 @@ it in a generic way using reflection on the method names.
 
 # Report - what to hand in
 
-Your lab report is due at 23.00 the day before the next lab and should include a written report on what you've tried, what worked and what didn't - for both parts: the installation and the ruby finger exercises. Don't forget to include your own names on your report, and that each member of the team has to post the report.
+Your lab report is due at 22.00 the day before the next lab and should include a written report on what you've tried, what worked and what didn't - for both parts: the installation and the ruby finger exercises. Don't forget to include your own names on your report, and that each member of the team has to post the report.

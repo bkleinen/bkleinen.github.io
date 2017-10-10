@@ -14,22 +14,21 @@ x = 12;day_diff=1;d = Date.new(2017,10,10);(1..16).to_a.collect{|i|  a = i<x ? (
 {% endcomment %}
 
 
-
 | Week | KW | Date            | Lecture Topic                                           | Lab                                                                               |
 |:-----|:---|:----------------|:--------------------------------------------------------|:----------------------------------------------------------------------------------|
-| 1    | 41 | Tue, 2017-10-10 | Intro to Info3                                          | [1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup)               |
-|      |    | Wed, 2017-10-11 | Ruby Intro                                              |                                                                                   |
-| 2    | 42 | Tue, 2017-10-17 | Source Code Management and Continuous Integration       | [1 - Lab Startup and Ruby Finger Exercises](../labs/lab-01-startup)               |
+| 1    | 41 | Tue, 2017-10-10 | Ruby Intro                                              | [1 - Installation, Git and Ruby](../labs/lab-01-startup)                          |
+|      |    | Wed, 2017-10-11 | Source Code Management                                  |                                                                                   |
+| 2    | 42 | Tue, 2017-10-17 | Intro to Info3                                          | [1 - Installation, Git and Ruby](../labs/lab-01-startup)                          |
 |      |    | Wed, 2017-10-18 | More Ruby, Pair Programming and Code Review             |                                                                                   |
 | 3    | 43 | Tue, 2017-10-24 | Practical Git                                           | [2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class)                 |
 |      |    | Wed, 2017-10-25 | Software Engineering and Software Development Processes |                                                                                   |
-| 4    | 44 | Tue, 2017-10-31 | Agile Development, Agile Manifesto, Scrum               | [2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class)                 |
-|      |    | Wed, 2017-11-01 | Requirements Engineering                                |                                                                                   |
-| 5    | 45 | Tue, 2017-11-07 | System Modelling and Architectural Design               | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state) |
-|      |    | Wed, 2017-11-08 | Software Design Patterns                                |                                                                                   |
-| 6    | 46 | Tue, 2017-11-14 | Refactoring                                             | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state) |
-|      |    | Wed, 2017-11-15 | Rails I                                                 |                                                                                   |
-| 7    | 47 | Tue, 2017-11-21 |                                                         |                                                                                   |
+| 4    | 44 | Tue, 2017-10-31 | ***Reformationstag***                                   |                                                                                   |
+|      |    | Wed, 2017-11-01 | Agile Development, Agile Manifesto, Scrum               |                                                                                   |
+| 5    | 45 | Tue, 2017-11-07 | Requirements Engineering                                | [2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class)                 |
+|      |    | Wed, 2017-11-08 | System Modelling and Architectural Design               |                                                                                   |
+| 6    | 46 | Tue, 2017-11-14 | Software Design Patterns                                | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state) |
+|      |    | Wed, 2017-11-15 | Refactoring                                             |                                                                                   |
+| 7    | 47 | Tue, 2017-11-21 | Rails I                                                 | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state) |
 |      |    | Wed, 2017-11-22 | Application Architectures                               |                                                                                   |
 | 8    | 48 | Tue, 2017-11-28 | Patterns of Enterprise Application Architecture (POEAA) | [4 - Testing](../labs/lab-04-testing)                                             |
 |      |    | Wed, 2017-11-29 | Distributed Systems and SOA                             |                                                                                   |
@@ -50,3 +49,8 @@ x = 12;day_diff=1;d = Date.new(2017,10,10);(1..16).to_a.collect{|i|  a = i<x ? (
 | 16   | 5  | Tue, 2018-01-30 | Exam                                                    | Exam                                                                              |
 |      |    | Wed, 2018-01-31 | No Lecture (Prüfungszeit)                               |                                                                                   |
 |      |    | Fri, 2018-02-02 | Showtime !                                              |                                                                                   |
+
+
+{% comment %}
+Continuous Integration 
+{% endcomment %}

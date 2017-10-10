@@ -6,7 +6,7 @@ layout: page
 {% include ws2017/info3.md %}
 
 ## Exercises
-* [Exercise 01 - Startup and Installation](lab-01-startup)
+* [Exercise 01 - Installation, Git and Ruby](lab-01-startup)
 * [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class)
 * [Exercise 03 - Sequence Diagrams and State Machine Diagrams](lab-03-sequence-state)
 * [Exercise 04 - Testing](lab-04-testing)
@@ -22,6 +22,5 @@ In the Info3 lab, we will do quite different things:
  * Get our feet wet with Ruby and Ruby on Rails and marvel at the patterns we find in there
 
 There will be 7 exercises. The exercises will either be written reports - lab reports - or the documents you produce in your design with UML, usually not the source code itself. I might, however, ask to turn it in as well.
-
 
 You are required to work on the exercises and turn them in **groups of  3 people**. Submissions are done in Moodle, **no late submissions** are allowed this term. Always hand in what you have on time.
