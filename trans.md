@@ -27,13 +27,16 @@ Gemäss einer Empfehlung der Senatskanzlei vom 9.2.17 sind die Berliner Hochschu
 trans* Studierende auf Wunsch auch vor einer gerichtlich festgestellten Namensänderung mit dem gewählten Vornamen
 in interner Kommunikation (emails, persönlicher Kommunikation, Hochschulregistern) anzusprechen.
 
-Der Studierendenservice ist bemüht, dies umzusetzen, bislang ist die einzige technische Möglichkeit,
+Der Studierendenservice ist bemüht, dies umzusetzen, ~~bislang ist die einzige technische Möglichkeit,
 die hierzu gefunden wurde, über einen "Künstlernamen". Damit sollte Ihr gewählter Name
-in LSF und Moodle erscheinen.
+in LSF und Moodle erscheinen.~~ Leider funktioniert dies wohl doch nicht. Es wird aber
+an verschiedenen Stellen nach Lösungen und Möglichkeiten gesucht.
 
-Wenn Sie von dieser Möglichkeit Gebrauch machen möchten, wenden Sie sich bitte an den [Studierendenservice](https://www.htw-berlin.de/studium/studierendenservice/studierenden-service-center/) via Mail an das Ticketsystem: [studierendenservice@htw-berlin.de](mailto:studierendenservice@htw-berlin.de) .
+Daher empfehle ich dennoch, sich an den  [Studierendenservice](https://www.htw-berlin.de/studium/studierendenservice/studierenden-service-center/) via Mail an das Ticketsystem [studierendenservice@htw-berlin.de](mailto:studierendenservice@htw-berlin.de) zu wenden und
+um die Verwendung eines gewählten Namens für die interne Kommunikation zu bitten.  
 
-Melden Sie mir Erfahrungen damit gerne zurück.
+Melden Sie mir Erfahrungen damit gerne zurück. Je mehr Anfragen es gibt, um so mehr wird
+der Bedarf deutlich.
 
 Weiter kann es notwendig sein, eine email an die Lehrpersonen zu verschicken -
 z.B. wenn Sie den Namen während des Studiums ändern, oder Ihr alter Name
@@ -95,5 +98,5 @@ Nicht Transpersonen müssen begründen, warum sie anerkannt werden wollen wie an
 <br />
 Emcke, Carolin. Gegen den Hass (German Edition) (Kindle Locations 1674-1679). FISCHER E-Books. Kindle Edition.
 </div>
-
+<br />
 <hr />

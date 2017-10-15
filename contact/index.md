@@ -40,11 +40,11 @@ Visiting address:
 
 ## Pronoun and Name
 
-My [pronoun is \"they\"](http://pronoun.is/they) or [\"he\"](http://pronoun.is/he).
-I identify male-of-center, but [prefer gender neutral titles](http://nonbinary.org/wiki/Gender_neutral_titles). My practical suggestion
-is to use Prof. Kleinen or Barne Kleinen.
-I've recently changed my name  to Barne, and you will
-find the old name in some places, as the name change is not legal yet.
+My [pronoun is \"he\"](http://pronoun.is/he) or [\"they\"](http://pronoun.is/they).
+I identify male-of-center, but also like [gender neutral titles](http://nonbinary.org/wiki/Gender_neutral_titles). My practical suggestion
+is to use Prof. Kleinen or Barne Kleinen, or Herr Kleinen if you prefer.
+I've recently changed my first name to Barne, and you might still
+find my old first name in some places - that's probably also me, as my last name is quite rare.
 
 ## Miscellany
 
