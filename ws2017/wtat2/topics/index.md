@@ -5,9 +5,14 @@ layout: default
 ---
 {% include ws2017/wtat2.md %}
 
-# Topic 0: Rails and Active Record                   
-# Topic 1: Authentication                            
-# Topic 2: Search Functionality & Bootstrap          
-# Topic 3: Dynamic UI & Testing & Angular            
-# Topic 4: Improving the UI                          
-# Topic 5: choose one yourself                       
+* Topic 1: [Rails and Active Record - Assignment](a1-activerecord/) / [Example](a1-activerecord-example)
+
+
+
+##Further Topics - might still be adapted                  
+* Topic 2: Authentication                            
+* Topic 3: Search Functionality & Bootstrap          
+* Topic 4: Dynamic UI & Testing & Angular  
+* Topic 5: Dynamic UI & Testing & Angular          
+* Topic 6: Improving the UI                          
+* Topic 7: choose one yourself                       
