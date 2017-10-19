@@ -8,8 +8,8 @@ layout: default
 * Topic 1: [Rails and Active Record - Assignment](a1-activerecord/) / [Example](a1-activerecord-example)
 
 
+### Planned Topics - might still be adapted
 
-##Further Topics - might still be adapted                  
 * Topic 2: Authentication                            
 * Topic 3: Search Functionality & Bootstrap          
 * Topic 4: Dynamic UI & Testing & Angular  

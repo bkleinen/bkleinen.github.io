@@ -50,9 +50,22 @@ Sketch out a database design and the associations between the models.
 
 Finally, identify the stories in your backlog that you will implement with CRUD operations on these first resources.
 
+### Create Sketches / Paper Prototypes for your Stories
+
+Create simple Paper Prototypes for your Stories. For the this first Assignment, a few simple Screen sketches should be sufficient. They will guide your implementation.
+
+* [Video: Google Rapid Prototyping 1 of 3: Sketching & Paper Prototyping](https://www.youtube.com/watch?v=JMjozqJS44M)
+* [Video: Web Application - Paper Prototype](https://www.youtube.com/watch?v=mH2IlUwWT3w)
+* [Design Thinking - Paper Prototypes](https://www.youtube.com/watch?v=85muhAaySps) - including a paper prototype for a service
+
+[See the example.](../a1-activerecord-example/index.html#sketch--paper-prototype)
+
+
 ### Implementation.
 
 Finally, implement the selected stories by creating the resources - Model, Views and Controllers
-and modifying the views.
+and modifying the views. Don't get into the fine-tuning of the apperance yet, as we will do that later on with bootstrap. For the same reason, you don't need to implement/detail out more than three views.
+
+Create some test data using seeds.
 
 [See the example.](../a1-activerecord-example/index.html#implementation)
