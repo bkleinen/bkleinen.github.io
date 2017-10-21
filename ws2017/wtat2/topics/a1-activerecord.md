@@ -1,5 +1,5 @@
 ---
-title:  A1: Rails, ActiveRecord and Associations
+title:  A1 - Rails, ActiveRecord and Associations
 author: kleinen
 layout: default
 ---

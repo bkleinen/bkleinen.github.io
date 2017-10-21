@@ -10,7 +10,7 @@ layout: default
 
 ### Planned Topics - might still be adapted
 
-* Topic 2: Authentication                            
+* Topic 2: Authentication and Code Styling                           
 * Topic 3: Search Functionality & Bootstrap          
 * Topic 4: Dynamic UI & Testing & Angular  
 * Topic 5: Dynamic UI & Testing & Angular          

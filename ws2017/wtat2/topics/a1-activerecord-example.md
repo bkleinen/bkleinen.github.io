@@ -1,5 +1,5 @@
 ---
-title:  A1: Rails, ActiveRecord and Associations
+title:  A1 -  Rails, ActiveRecord and Associations
 author: kleinen
 layout: default
 ---
@@ -42,20 +42,17 @@ as an atom feed.
 
 ### Find and define 2 or 3 model classes for your project. Identify stories which you can implement with CRUD operations on these resources.
 
-For the calendar, the central resource clearly is an `Event`. For the second resource, I decide to implement the stories around event planning first. Thus, the second resource to implement will be `PlanningState`. With the search in mind, I also sketch out `Relevance`:
-
-
-| Event         |  | PlanningState       |  | Relevance                    |
-|:--------------|:-|:--------------------|:-|:-----------------------------|
-| - title       |  | - date_set          |  | - bachelor: boolean          |
-| - start date  |  | - room_booked       |  | - master: boolean            |
-| - end date    |  | - announced         |  | -semester                    |
-| - location    |  | - notes             |  | -students without Internship |
-| - description |  | - belongs_to: event |  |                              |
-
-
-There is a 1:n association between Event and PlanningState: Each Event has_a PlanningState
+For the calendar, the central resource clearly is an `Event`. For the second resource, I decide to implement the stories around event planning first. Thus, the second resource to implement will be `PlanningState`. There is a 1:n association between Event and PlanningState: Each Event has_a PlanningState
 and each PlanningState belongs_to an Event.
+
+
+![Model](./../images/simple-model.jpg)
+<br>
+<small >Very Simple First Domain Model</small>
+
+
+
+
 
 
 | Nr   | Story                                                                                                                                         | Assignment | Sprint   |
@@ -109,10 +106,23 @@ See commit [S003: adapted event index for students](https://github.com/htw-imi-w
 The paper sketch reveals that when an event is created, the corresponding planning state should also be created. The Values should be shown and editable on the event page.
 
 Thus, the form on the new event page needs to send both attributes for the new event as for the new
-planning_state. This is documented in [http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html).
+planning_state. This is documented in [http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) and
+[https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for](https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for).
 
-See commit
+See commit [S001: planning state can be edited and is shown on the event page](https://github.com/htw-imi-wtat2/IMICalendar/commit/003f62fb43a8794f7b4c4baf17970a800ce26308)
 
 #### S004: As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.
 
-See commit
+The Sketches for this story and S003 imply that the roles of 'Student' and 'SGS' will need different views for the Event list (event#index). As we don't have authentication yet,
+I simply introduced a toggle to switch between these views. The toggle can later be replaced to work depending of the role of the logged in user.
+
+See commit [S004: Overview of Planning Statuses in event index for SGS](https://github.com/htw-imi-wtat2/IMICalendar/commit/8cc4db93e70ba70c0e4c42ce6eb250088b87de8d)
+
+
+## Roundup and Report
+
+Write a report that may be a bit more detailed than mine. Also, write about
+problems you've encountered. What worked, what didn't work?
+Please label each commit with the story it belongs to.
+<span class = "attention">Also, tag the final version of this sprint with A1-Complete</span>
+You submit your report to moodle as pdf and include the url of your git repository in your report.
