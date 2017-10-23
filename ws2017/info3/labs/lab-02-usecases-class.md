@@ -41,9 +41,13 @@ For the first phase, it will be sufficient if packers can print out order inform
 
 Identify the use cases in this description and draw a use case diagram.
 
-Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different scenario for each person such that you get a couple covered (that is, everyone has to write a different scenario!)
+Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different use case for each person such that you get a couple covered (that is, everyone has to write a different use case scenario!)
 
-See the section "About Use Cases" below for a detailed instruction.
+See the section "About Use Cases" below for a detailed instruction on how to write the Use Case Scenarios. In addition to the use case scenarios, it might help if you draw a quick sketch (low fidelity, black and white) of the screen layout, as it is not as straightforward as with the ATM in the example.
+
+![ATM](../images/atm_12698012964_429981292c_z.jpg)
+https://www.flickr.com/photos/smemon/12698012964/
+
 
 ### Class Diagram
 
