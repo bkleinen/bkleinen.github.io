@@ -5,14 +5,14 @@ layout: default
 ---
 {% include ws2017/wtat2.md %}
 
+[IMICalendar Example Application](https://github.com/htw-imi-wtat2/IMICalendar)
+
 * Topic 1: [Rails and Active Record - Assignment](a1-activerecord/) / [Example](a1-activerecord-example)
+* Topic 2: [Authentication, Bootstrap, Testing and Code Styling](a2-authentication/)
 
+### Planned Topics - might still be adapted                    
 
-### Planned Topics - might still be adapted
-
-* Topic 2: Authentication and Code Styling                           
-* Topic 3: Search Functionality & Bootstrap          
-* Topic 4: Dynamic UI & Testing & Angular  
-* Topic 5: Dynamic UI & Testing & Angular          
-* Topic 6: Improving the UI                          
-* Topic 7: choose one yourself                       
+* Topic 3: Search Functionality & Bootstrap  
+* Topic 4: Rails Security & Deployment       
+* Topic 5: External APIs                     
+* Topic 6: choose one yourself               
