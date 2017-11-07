@@ -1,5 +1,5 @@
 ---
-title: Infoveranstaltung zum Auslandspraktikum
+title: verschoben! - Infoveranstaltung zum Auslandspraktikum
 author: kleinen
 layout: post
 categories:
@@ -10,7 +10,9 @@ categories:
 
 Informationen zum Auslandspraktikum Studiengang IMI-B
 
-__Mittwoch, 8. November 2017 9:45 Raum WH C 446__
+~~__Mittwoch, 8. November 2017 9:45 Raum WH C 446__~~
+
+Muss verschoben werden!
 
 (im Rahmen der LV English for International Media and Computing)
 
