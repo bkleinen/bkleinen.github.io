@@ -4,17 +4,17 @@
     <body>
         <div class = "container-fluid">
 
-        <header class = "row">
+        <header class = "row p-0" >
           <div class = "col-md-2 c2">
             &nbsp;
           </div>
           <div class = "col-md-10 c1 p-2">
-          {% include headline.html %}
+            {% include headline.html %}
           </div>
         </header>
 
-        <main class = "row ">
 
+        <main class = "row p-0">
         <nav class = "col-md-2 c2">
           <div class = "nav">
             {% include navigation.md %}
@@ -22,19 +22,22 @@
         </nav>
         <div class = "col-md-10 c3">
           <div class = "outer">
-            {% unless page.nobreadcrumbs %}
             {% include breadcrumbs.md %}
-            {% endunless %}
-
           </div>
           <div class = "coursenav">{% include coursenav.md %}</div>
+
+
+
             {{ content }}
           </div>
         </div>
         </main>
 
-        <footer class = "row">
-          <div class = "col-md-12 c4">
+        <footer class = "row p-0">
+          <div class = "col-md-2 c2">
+            &nbsp;
+          </div>
+          <div class = "col-md-10 c4">
         {% include footer.md %}
           </div>
         </footer>

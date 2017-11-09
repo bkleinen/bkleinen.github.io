@@ -1,12 +1,12 @@
 ---
-title: WT AT 2 - Agile Webentwicklung
+title: WTAT 2 
 author: kleinen
 layout: page
 ---
 
 
-
-# Welcome!
+# WTAT 2 - Agile Webentwicklung
+## Welcome!
 
 WTAT2 - Agile Web Development is a class that combines learning web development with
 Rails, Postgres, Bootstrap and Angular with an Agile Project.

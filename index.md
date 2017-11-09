@@ -1,7 +1,6 @@
 ---
 title: Prof. Dr. Barne Kleinen
-nobreadcrumbs: true
-layout: widesection
+layout: default
 ---
 
 

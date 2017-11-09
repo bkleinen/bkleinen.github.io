@@ -10,6 +10,16 @@ $color-areas: false;
 
  h1.title {margin-bottom: 0;}
 
+ header {
+   padding: 10px;
+   font-size: small;
+   color: #AFAFAF;
+ }
+ header a {
+   text-decoration: none;
+   color: #AFAFAF;
+ }
+
 @if $color-areas == true {
   .c1 { background-color: lightgray; }
   .c2 { background-color: LightSteelBlue ; }
