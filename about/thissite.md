@@ -63,3 +63,12 @@ I've followed this tutorial to integrate Bootstrap with this site:
 [https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-right-way/](https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-right-way/)
 The basic steps are:
 * bootstrap css should be compiled from sass to enable theming, and the sass integration of jekyll should be used for that.
+
+Adjustments:
+* as [github pages runs jekyll in safe mode](https://jekyllrb.com/docs/github-pages/), the extra load path for sass will not work.
+* I've copied the sass files to the \_sass subdirectory, see \_bin/copy-sass.sh
+
+### Resources
+
+* [Bootstrap 4 Jekyll the right way](https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-right-way/)
+* [Official Jekyll Github Pages Documentation](https://jekyllrb.com/docs/github-pages/)

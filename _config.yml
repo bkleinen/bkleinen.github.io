@@ -26,3 +26,4 @@ defaults:
     values:
       author: kleinen
       layout: "default"
+exclude: [] # probably doesn't work, giving it a try
