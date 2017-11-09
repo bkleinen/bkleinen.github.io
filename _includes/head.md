@@ -13,13 +13,4 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
-        <style>
-        .lightcyan { background-color: lightcyan; }
-        .lightgray { background-color: lightgray; }
-        .green { background-color: green; }
-        .blue { background-color: blue; }
-        .grey { background-color: grey; }
-        </style>
-
-
     </head>
