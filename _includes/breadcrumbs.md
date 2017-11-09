@@ -8,13 +8,15 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
 {% assign seperator ="&#187;" %}
 
+
+
 {% assign previous="" %}
-<div class = "breadcrumbs">
-  <a href="{{ site.baseurl }}/">home</a>
+<nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+   <li class="breadcrumb-item"><a href="{{ site.baseurl }}">Home</a></li>
  {% if num_parts == "0" or num_parts == "-1" %}
   &nbsp;
  {% else %}
-  {{seperator}}
 
   {% for unused in site.breadcrumb_list limit:num_parts %}
    {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
@@ -26,12 +28,14 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
 
    {% if remaining != "0" %}
-     <a href="{{ site.baseurl }}/{{previous}}">{{ first_word }}</a> {{seperator}}
+     <li class="breadcrumb-item"><a href="{{ site.baseurl }}/{{previous}}">{{ first_word }}</a></li>
    {% else %}
-     {{ first_word }}
+     <li class="breadcrumb-item active" aria-current="page">{{ first_word }}</li>
    {% endif  %}
 
 
   {% endfor %}
+    </ol>
+
  {% endif %}
-</div>
+</nav>
