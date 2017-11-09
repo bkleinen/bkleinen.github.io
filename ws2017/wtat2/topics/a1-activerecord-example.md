@@ -3,7 +3,7 @@ title:  A1 -  Rails, ActiveRecord and Associations
 author: kleinen
 layout: default
 ---
-{% include ws2017/wtat2.md %}
+
 
 ## Assignment 1 Example: IMI-Calendar
 

@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2017/info3.md %}
+
 
 ![Workplace](../images/workplace.jpg "pumpkins")
 <small class = "float-right">Nerd Workplace. Foto by [slworking2](https://www.flickr.com/photos/slworking/8539204081/)</small>

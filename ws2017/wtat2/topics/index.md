@@ -3,7 +3,7 @@ title: WTAT2 Topics
 author: kleinen
 layout: default
 ---
-{% include ws2017/wtat2.md %}
+
 
 [IMICalendar Example Application](https://github.com/htw-imi-wtat2/IMICalendar)
 

@@ -3,7 +3,7 @@ title:  Assignment 2 -  Authentication and Code Style
 author: kleinen
 layout: default
 ---
-{% include ws2017/wtat2.md %}
+
 
 
 The second assignment is to implement an authentication for your application.

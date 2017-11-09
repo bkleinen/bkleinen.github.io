@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2017/wtat2.md %}
+
 
 # Welcome!
 

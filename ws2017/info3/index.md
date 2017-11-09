@@ -4,8 +4,6 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2017/info3.md %}
-
 # Welcome!
 
 Info 3 is the final module of the Info 1-3 series. In Info1, you learned programming, and the basics of object-oriented design of software. Info2 introduced you to advanced programming with data structures and algorithms. Info3 rounds that out by giving you insights into how to actually design and develop software with an eye for the overall picture.

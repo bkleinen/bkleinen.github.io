@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2017/info3.md %}
+
 
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](http://www.wowwiki.com/Gilded_Rose)</small>

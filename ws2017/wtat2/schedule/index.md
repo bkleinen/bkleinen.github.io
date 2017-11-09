@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include ws2017/wtat2.md %}
+
 
 {% comment %}
 x = 13;d = Date.new(2017,10,5);(1..17).to_a.collect{|i|  a = i<x ? (7*(i-1)) : (7*i) ; dw = d+a; [dw.strftime("|#{i} | #{dw.cweek} | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}

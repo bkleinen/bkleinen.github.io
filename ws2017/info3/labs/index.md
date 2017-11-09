@@ -3,7 +3,7 @@ title: Info3 - Labs and Exercises
 author: kleinen
 layout: page
 ---
-{% include ws2017/info3.md %}
+
 
 ## Exercises
 * [Exercise 01 - Installation, Git and Ruby](lab-01-startup)
