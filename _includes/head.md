@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS
         <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/bootstrap.min.css" >-->
         <!-- site css including Bootstrap via sass-->
-        <link rel="stylesheet" href="/assets/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
