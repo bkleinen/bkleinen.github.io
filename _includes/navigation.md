@@ -1,7 +1,19 @@
 
 <ul class="nav flex-md-column">
+
   <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/classes">Classes</a>
+    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Classes
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="{{ site.baseurl }}/ws2017/info3">Info3</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/ws2017/wtat2">WTAT2</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/ws2017/media-programming-rails">M1 Mediaprogramming</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/ws2017/project">Projekt</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/classes">All Classes</a>
+    </div>
   </li>
 
   <li class="nav-item">
@@ -9,36 +21,30 @@
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/praktikum">Praktikum</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/bafoeg">Baf&ouml;g</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/thesis">Thesis</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/general">General Info</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/trans">Trans*</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/about/thissite">About this Site</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="{{ site.baseurl }}/links">Links</a>
+    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Studies
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="{{ site.baseurl }}/praktikum">Praktikum</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/bafoeg">Baf&ouml;g</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/thesis">Thesis</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/general">General Info</a>
+    </div>
   </li>
 
-  <li class="nav-item">
-  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown link
-  </a>
 
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
+  <li class="nav-item">
+    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Misc
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="{{ site.baseurl }}/trans">Trans*</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/about/thissite">About this Site</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/links">Links</a>
+    </div>
   </li>
 <ul>
