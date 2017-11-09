@@ -1,4 +1,4 @@
-- [Info1]({{ site.baseurl }}/ws2014/info1/)
-- [Info3]({{ site.baseurl }}/ws2014/info3/)
-- [WT1 Web Technology]({{ site.baseurl }}/ws2014/webapplications/)
-- [Praxisprojekt]({{ site.baseurl }}/ss2014/project)
+- [Info1]({{ site.baseurl }}/classes/ws2014/info1/)
+- [Info3]({{ site.baseurl }}/classes/ws2014/info3/)
+- [WT1 Web Technology]({{ site.baseurl }}/classes/ws2014/webapplications/)
+- [Praxisprojekt]({{ site.baseurl }}/classes/ss2014/project)
