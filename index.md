@@ -14,16 +14,16 @@ layout: default
 
 
 <ul>
-  <li><a href="{{ site.baseurl }}/ws2017/info3">Informatik 3</a></li>
-  <li><a href="{{ site.baseurl }}/ws2017/wtat2">WT AT2: Agile Web Development</a></li>
-  <li><a href="{{ site.baseurl }}/ws2017/media-programming-rails">M1 Lab: Web Technology</a></li>
+  <li><a href="{{ site.baseurl }}/classes/ws2017/info3">Informatik 3</a></li>
+  <li><a href="{{ site.baseurl }}/classes/ws2017/wtat2">WT AT2: Agile Web Development</a></li>
+  <li><a href="{{ site.baseurl }}/classes/ws2017/media-programming-rails">M1 Lab: Web Technology</a></li>
   <li><a href="#">Praxisprojekt</a></li>
 </ul>
 
 
 {% comment%}
 
-  <li><a href="{{ site.baseurl }}/ws2017/project/">Praxisprojekt</a></li>
+  <li><a href="{{ site.baseurl }}/classes/ws2017/project/">Praxisprojekt</a></li>
 
 {% endcomment%}
 
