@@ -50,13 +50,13 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 {% endcomment%}
 <div class = "box">
 <h4>Thesis</h4>
-<p>There is also some info here if you consider writing your <a href="thesis/">Thesis</a> or <a href="thesis/independent_coursework">Independent Coursework</a> with me.</p>
+<p>There is also some info here if you consider writing your <a href="studies/thesis/">Thesis</a> or <a href="studies/thesis/independent_coursework">Independent Coursework</a> with me.</p>
 </div>  
 
 <div class = "box">
 <h4>Praktikumsbeauftragter</h4>
 
-<a href="praktikum/">Info-Seite Praktikum .</a><br />
+<a href="studies/auslandspraktikum/">Info-Seite Praktikum .</a><br />
 Bei Fragen kommen Sie bitte in meine Sprechstunde.<br />
 <a href="{{ site.baseurl }}/news/infoveranstaltung-praktikum/">Info-Veranstaltung am 1.6.17</a>
 </div>
