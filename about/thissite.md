@@ -55,3 +55,11 @@ all included files needed to be moved to the \_sass subdirectory.
 * http://jekyllrb.com/docs/assets/
 * http://sass-lang.com/tutorial.html
 * http://de.selfhtml.org for css basics
+
+
+## Bootstrap
+
+I've followed this tutorial to integrate Bootstrap with this site:
+[https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-right-way/](https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-right-way/)
+The basic steps are:
+* bootstrap css should be compiled from sass to enable theming, and the sass integration of jekyll should be used for that.
