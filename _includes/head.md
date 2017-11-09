@@ -10,9 +10,14 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-        {% if page.wide_layout %}
-              <link rel="stylesheet" href="{{ site.baseurl }}/css/wide.css">
-        {% else %}
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css">
-        {% endif %}
+
+        <style>
+        .lightcyan { background-color: lightcyan; }
+        .lightgray { background-color: lightgray; }
+        .green { background-color: green; }
+        .blue { background-color: blue; }
+        .grey { background-color: grey; }
+        </style>
+
+
     </head>

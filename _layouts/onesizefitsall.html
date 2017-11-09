@@ -2,15 +2,22 @@
 <html>
     {% include head.md %}
     <body>
-        <header>
+        <div class = "container-fluid">
+
+        <header class = "row">
+          <div class = "col-md-12">
           {% include headline.md %}
+          </div>
         </header>
-        <nav>
+
+        <main class = "row ">
+
+        <nav class = "col-md-2 lightcyan">
           <div class = "nav">
             {% include navigation.md %}
           </div>
         </nav>
-        <main>
+        <div class = "col-md-12 lightcyan">
           <div class = "outer">
             {% unless page.nobreadcrumbs %}
             {% include breadcrumbs.md %}
@@ -19,10 +26,14 @@
           </div>
           <div class = "coursenav">{% include coursenav.md %}</div>
             {{ content }}
+          </div>
+        </div>
         </main>
 
-        <footer>
+        <footer class = "row">
+          <div class = "col-md-12">
         {% include footer.md %}
+          </div>
         </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
