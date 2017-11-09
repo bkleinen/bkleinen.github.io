@@ -3,6 +3,7 @@ title: Trans@HTW
 author: kleinen
 layout: default
 ---
+ 
 <div class="citation">
     Artikel 2 des Grundgesetzes garantiert das Recht auf freie Entfaltung der Persönlichkeit, auf Leben, auf körperliche     Unversehrtheit und schützt die Freiheit der Person. Da steht nicht: garantiert »die halb-freie Entfaltung der     Persönlichkeit«, da steht auch nicht: »die freie Entfaltung nur jener Persönlichkeiten, die sich an ihre bei der Geburt
     festgestellte Geschlechtszugehörigkeit halten«, da steht nicht: »die Freiheit nur jener Personen, die den traditionellen     Vorstellungen von ›natürlicher‹ Männlichkeit und Weiblichkeit entsprechen«. Da steht: »das Recht auf freie Entfaltung der     Persönlichkeit«.

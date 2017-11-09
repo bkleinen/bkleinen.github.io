@@ -42,9 +42,9 @@
     </a>
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="{{ site.baseurl }}/trans">Trans*</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/about/thissite">About this Site</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/links">Links</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/misc/trans">Trans*</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/misc/about-this-site">About this Site</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/misc/links">Links</a>
     </div>
   </li>
 <ul>

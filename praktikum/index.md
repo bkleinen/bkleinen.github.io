@@ -25,12 +25,6 @@ Semesterticketbefreiung, Erasmus etc.
 
 Falls Sie nicht persönlich vorbei kommen können, beauftragen Sie bitte eine andere Person.
 
-# Übersicht
-- [Beantragung des Praktikums](#beantragung-des-praktikums)
-- [Anerkennung des Praktikums](#anerkennung-des-praktikums)
-- [Weitere Informationen](#weitere-informationen)
-
-
 ### Ausländische Hochschulzugangsberechtigung
 Wenn Sie nicht in Deutschland zur Schule gegangen sind, und Ihre Hochschulzugangsberechtigung
 auf einer Schule ausserhalb Deutschlands erworben haben, können Sie Ihr Praktikum
