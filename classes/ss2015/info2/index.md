@@ -40,7 +40,7 @@ The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF fo
 
 ## Grades
 
-Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/general/grading-scale):
+Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
 
 * Lecture summaries: 15%
 * Lab reports: 40%

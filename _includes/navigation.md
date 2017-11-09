@@ -27,10 +27,10 @@
     </a>
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="{{ site.baseurl }}/praktikum">Praktikum</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/bafoeg">Baf&ouml;g</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/thesis">Thesis</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/general">General Info</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/studies/auslandspraktikum/">Praktikum</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/studies/bafoeg">Baf&ouml;g</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/studies/thesis">Thesis</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/studies/grading">General Grading Info</a>
     </div>
   </li>
 

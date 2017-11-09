@@ -16,7 +16,7 @@ My preferred means of communication is email:
 Barne.Kleinen@htw-berlin.de
 
 If you have questions regarding the **Auslandspraktikum:**
-Check if they are answered on [the info page.]({{ site.baseurl }}/praktikum) - if
+Check if they are answered on [the info page.]({{ site.baseurl }}/studies/auslandspraktikum/) - if
 not, please make use of the [office hours](#office-hours).
 
 Office: WH C 645

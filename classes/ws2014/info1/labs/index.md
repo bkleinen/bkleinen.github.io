@@ -39,10 +39,10 @@ accept assignments that are not prepared in those random groups.***
 ### Lab reports 
 There are 12 exercises to be done. For each week you must write a report. The report must be in English or German, spell-checked and using complete sentences, explaining what you did in the exercise session, that is, the process. Screenshots are welcome. Each report should not be more than 5 pages and in PDF format and must have your name on it. It must include a reflection on what you learned during the session, if anything. They must be submitted to the Moodle area by 23.00 the night before your next lab.
 
-We will be giving "[stars]({{ site.baseurl }}/general/guideline)" to let you know how well you are doing on each graded exercise. You will also need to be able to explain your solution to me in person in one of the following labs. No stars does not mean no points - it means you handed in a report on time, but it was nothing to write home about.
+We will be giving "[stars]({{ site.baseurl }}/studies/grading/guideline)" to let you know how well you are doing on each graded exercise. You will also need to be able to explain your solution to me in person in one of the following labs. No stars does not mean no points - it means you handed in a report on time, but it was nothing to write home about.
 Late work will not be accepted and will be treated as missing work. Always turn in what you have completed on time rather than delaying in the hope that you will be able to do more.
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/general/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
 
 
 
