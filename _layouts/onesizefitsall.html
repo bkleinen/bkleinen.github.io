@@ -5,8 +5,11 @@
         <div class = "container-fluid">
 
         <header class = "row">
-          <div class = "col-md-12 c1">
-          {% include headline.md %}
+          <div class = "col-md-2 c2">
+            &nbsp;
+          </div>
+          <div class = "col-md-10 c1 p-2">
+          {% include headline.html %}
           </div>
         </header>
 
@@ -22,7 +25,7 @@
             {% unless page.nobreadcrumbs %}
             {% include breadcrumbs.md %}
             {% endunless %}
-            <h1 class = "title">{{ page.title}}</h1>
+
           </div>
           <div class = "coursenav">{% include coursenav.md %}</div>
             {{ content }}

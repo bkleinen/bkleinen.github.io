@@ -1,5 +1,5 @@
 ---
-title:
+title: Barne Kleinen | Contact Info
 author: kleinen
 layout: page
 ---

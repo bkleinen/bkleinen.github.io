@@ -6,8 +6,18 @@ $custom-font-size: 20px;
 $headings-color: $htw-green100;
 $link-color: $htw-green100;
 
+$color-areas: false;
 
-.c1 { background-color: lightgray; }
-.c2 { background-color: LightSteelBlue ; }
-.c3 { background-color: linen; }
-.c4 { background-color: honeydew; }
+ h1.title {margin-bottom: 0;}
+
+@if $color-areas == true {
+  .c1 { background-color: lightgray; }
+  .c2 { background-color: LightSteelBlue ; }
+  .c3 { background-color: linen; }
+  .c4 { background-color: honeydew; }
+  .c5 { background-color: LavenderBlush; }
+  .c6 { background-color: LemonChiffon; }
+  .c7 { background-color: MintCream; }
+} else {
+  .c1 .c2 .c3 .c4 .c5 .c6 .c7 { background-color: white; }
+}
