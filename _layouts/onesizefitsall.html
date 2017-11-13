@@ -24,9 +24,8 @@
           <div class = "outer">
             {% include breadcrumbs.md %}
           </div>
-          <div class = "coursenav">{% include coursenav.md %}</div>
 
-
+          <div class = "coursenav"> {% include coursenav.md %} </div>
 
             {{ content }}
           </div>
@@ -47,7 +46,12 @@
         <script src="{{ site.baseurl }}/bootstrap/jquery.slim.min.js" ></script>
         <script src="{{ site.baseurl }}/bootstrap/popper.min.js" ></script>
         <script src="{{ site.baseurl }}/bootstrap/bootstrap.min.js"></script>
-
+        <script>
+            var tables = document.getElementsByTagName("table");
+            for (i = 0; i < tables.length; i++) {
+              tables[i].classList.add("table");
+            }
+        </script>
     </body>
 
 </html>

@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 ---
 
-{% include ss2015/info2.md %}
+{% include classes/ss2015/info2.md %}
 # News: Development of an Info1/2 Q&A Application
 
 Felix Brix has taken on the project of developing an gamified Q&A application for Info1 and Info2.

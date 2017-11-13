@@ -7,7 +7,7 @@ redirect_from:
 
 ---
 
-{% include ss2017/media-programming-rails.md %}
+{% include classes/ss2017/media-programming-rails.md %}
 
 Welcome!
 

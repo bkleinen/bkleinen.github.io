@@ -7,7 +7,7 @@ wide_layout: true
 |||
 |a|b|
 
-{% include ws2014/wt1wa.md %}
+{% include classes/ws2014/wt1wa.md %}
 
 
 Topics - general Thoughts

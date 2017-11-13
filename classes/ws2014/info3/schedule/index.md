@@ -5,7 +5,7 @@ layout: default
 wide_layout: true
 ---
 
-{% include ws2014/info3.md %}
+{% include classes/ws2014/info3.md %}
 
 
 | Week | KW | Tuesday    | Friday     | Lecture Topic                                                                   | Lab                                                                                                                          | Group     |

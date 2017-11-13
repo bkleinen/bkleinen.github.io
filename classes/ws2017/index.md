@@ -5,4 +5,4 @@ layout: page
 redirect_from: user-centered-web-technology/
 ---
 
-{% include ws2017/lectures.md %}
+{% include classes/ws2017/lectures.md %}

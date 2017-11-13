@@ -3,7 +3,7 @@ title: Week 3 - Testing, CI and CD
 author: kleinen
 layout: page
 ---
-{% include ss2017/media-programming-rails.md %}
+{% include classes/ss2017/media-programming-rails.md %}
 
 # Week 3
 

@@ -3,7 +3,7 @@ title: Week 4&5 -  Login and AJAX
 author: kleinen
 layout: page
 ---
-{% include ss2017/media-programming-rails.md %}
+{% include classes/ss2017/media-programming-rails.md %}
 
 In the last two weeks, you will add a simple login-mechanism and add a bit of JavaScript.
 

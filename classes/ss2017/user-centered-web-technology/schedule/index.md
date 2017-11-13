@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include ss2017/ucd.md %}
+{% include classes/ss2017/ucd.md %}
 
 ## Tentative Schedule - Lab Topics are subject to change!
 

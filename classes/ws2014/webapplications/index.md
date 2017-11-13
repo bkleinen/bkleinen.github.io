@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2014/wt1wa.md %}
+{% include classes/ws2014/wt1wa.md %}
 
 ## Welcome!
 

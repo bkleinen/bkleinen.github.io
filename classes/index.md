@@ -5,49 +5,49 @@ layout: default
 ---
 ###  Winter Term WS2017/18
 
-{% include ws2017/lectures.md %}
+{% include classes/ws2017/lectures.md %}
 
 ## Former Classes
 
 ### Summer Term 2017
 
-{% include ss2017/lectures.md %}
+{% include classes/ss2017/lectures.md %}
 
 ###  Winter Term WS2016/17
 
-{% include ws2016/lectures.md %}
+{% include classes/ws2016/lectures.md %}
 
 ### Summer Term 2016
 
-{% include ss2016/lectures.md %}
+{% include classes/ss2016/lectures.md %}
 
 ### Winter Term WS2015/16
 
-{% include ws2015/lectures.md %}
+{% include classes/ws2015/lectures.md %}
 
 ### Summer Term 2015
 
-{% include ss2015/lectures.md %}
+{% include classes/ss2015/lectures.md %}
 
 ### Winter Term 2014/15
 
-{% include ws2014/lectures.md %}
+{% include classes/ws2014/lectures.md %}
 
 ### Summer Term 2014
 
-{% include ss2014/lectures.md %}
+{% include classes/ss2014/lectures.md %}
 
 ### Winter Term 2013/14
 
-{% include ws2013/lectures.md %}
+{% include classes/ws2013/lectures.md %}
 
 ### Summer Term 2013
 
-{% include ss2013/lectures.md %}
+{% include classes/ss2013/lectures.md %}
 
 ### Winter Term 2012/13
 
-{% include ws2012/lectures.md %}
+{% include classes/ws2012/lectures.md %}
 
 ### Summer Term 2012
 

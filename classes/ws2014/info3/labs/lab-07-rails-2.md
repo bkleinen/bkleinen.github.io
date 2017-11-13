@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2014/info3.md %}
+{% include classes/ws2014/info3.md %}
 Assignment
 ==================
 

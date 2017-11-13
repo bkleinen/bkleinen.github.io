@@ -3,7 +3,7 @@ title: Week 1 - First Steps in Ruby and Ruby on Rails
 author: kleinen
 layout: page
 ---
-{% include ss2017/media-programming-rails.md %}
+{% include classes/ss2017/media-programming-rails.md %}
 
 ## Overview
 

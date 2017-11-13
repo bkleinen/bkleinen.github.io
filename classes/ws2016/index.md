@@ -4,4 +4,4 @@ author: kleinen
 layout: default
 ---
 
-{% include ws2016/lectures.md %}
+{% include classes/ws2016/lectures.md %}

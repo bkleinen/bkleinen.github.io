@@ -3,7 +3,7 @@ title: Info2 SS2017 - Labs and Exercises
 author: kleinen
 layout: page
 ---
-{% include ss2017/info2.md %}
+{% include classes/ss2017/info2.md %}
 
 ## Exercises
 Lab Assignments not linked here have not released for this term yet and might be changed.

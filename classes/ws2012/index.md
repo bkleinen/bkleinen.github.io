@@ -4,4 +4,4 @@ author: kleinen
 layout: page
 ---
 
-{% include ws2012/lectures.md %}
+{% include classes/ws2012/lectures.md %}

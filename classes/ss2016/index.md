@@ -4,4 +4,4 @@ author: kleinen
 layout: page
 ---
 
-{% include ss2017/lectures.md %}
+{% include classes/ss2017/lectures.md %}

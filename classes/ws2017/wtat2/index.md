@@ -1,11 +1,11 @@
 ---
-title: WTAT 2 
+title: WTAT 2
 author: kleinen
 layout: page
 ---
 
 
-# WTAT 2 - Agile Webentwicklung
+# WTAT 2 - Agile Web Development
 ## Welcome!
 
 WTAT2 - Agile Web Development is a class that combines learning web development with

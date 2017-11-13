@@ -7,7 +7,7 @@ redirect_from:
 
 ---
 
-{% include ss2017/info2.md %}
+{% include classes/ss2017/info2.md %}
 
 # Welcome!
 
