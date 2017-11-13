@@ -71,6 +71,18 @@ You don't have to decide which Option you choose, I will automatically
 pick the one that results in the better grade for you at the end of the
 semester.
 
+### If you miss a quizz
+
+It's not possible to do the quizz later or from home - for the simple reason
+that you would have an advantage as you could either use other material if at
+home or have the opportunity to gain information about the quizz contents if
+doing it at a later time.
+
+If you miss a quizz, you have the opportunity to attend an extra quizz at the
+end of the semester. This way you have a chance to get all the points
+even though you / your kid / your grandma catched the flu for a week.
+
+
 ## Lab Reports
 
 As in Info1 and Info2, you need to write Lab Reports.
