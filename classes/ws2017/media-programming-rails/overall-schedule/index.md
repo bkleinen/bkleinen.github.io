@@ -1,5 +1,5 @@
 ---
-title: Media Programming Schedule
+title: M1 Overall Schedule
 author: kleinen
 layout: default
 wide_layout: true
@@ -9,8 +9,7 @@ x = 12;d = Date.new(2017,10,11);(1..16).to_a.collect{|i| a = i<x ? (7*(i-1)) :7*
 
 {% endcomment %}
 
-
-Tentative. Aka subject to possible change.
+<br/>
 
 | Week | KW | Date            | Topic Area                              | Lecturer                |
 |:-----|:---|:----------------|:----------------------------------------|:------------------------|

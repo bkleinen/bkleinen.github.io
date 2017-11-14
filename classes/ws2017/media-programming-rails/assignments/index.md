@@ -1,24 +1,21 @@
 ---
-title: Assignments for Web Technology
+title: M1 Assignments
 author: kleinen
 layout: page
 ---
 
 # Week 1
 
-## Getting started
+## Project Start, The Rails World
 
 ### Working on your project
 1. Write down your project vision.
-2. Write down your product backlog. Roughly prioritize it for business value. Don't hesitate to write down as many stories as you want, you don't have to implement them all.
+2. Write down your product backlog.
+3. Roughly prioritize it for business value. Don't hesitate to write down as many stories as you want, you don't have to implement them all.
 3. Pick a user story that you can implement with simple CRUD operations.
 4. Draw a scribble for the screens involved.
 5. Draw a first sketch of the data model that is suffient for this story.
-6. Create a new rails application.
-7. Generate your first model/view/controller using `rails generate scaffold`
-8. Have a look at the generated html templates (find dem in app/views). Change and document one thing that makes sense within your application.
-9. Next, pick a user story that requires to add a little bit of functionality to your app.
-10. Implement it by at least creating a new controller action and route by hand.
+6. Install Ruby and Ruby on Rails on your computer. See [the rails guides](http://guides.rubyonrails.org/getting_started.html#installing-rails) and the [Ruby Homepage](https://www.ruby-lang.org/en/documentation/installation/) for instructions.
 
 ### Reading and preparation
 Starting next week, You will work on your project within the lab.
@@ -28,9 +25,20 @@ For preparation, please read through
 
 * [Getting started with Rails](http://guides.rubyonrails.org/getting_started.html)
 
-Note that you don't need to implement everything that's described there, but
+Note that you don't need to implement everything that's described there, or in your backlog, but
 it will help you understand what you need to do for this exercise as well as for
 the next.
+
+# Week 2
+# Week 3
+# Week 4
+# Week 5
+{% comment %}
+| 1    | 46 | Wed, 2017-11-15 | Project Start, The Rails World           | [Week1](../assignments/#week-1) |
+| 2    | 47 | Wed, 2017-11-22 | Rails Dash, Active Record and Migrations | [Week2](../assignments/#week-2) |
+| 3    | 48 | Wed, 2017-11-29 | Acceptance Testing and Ruby              | [Week3](../assignments/#week-3) |
+| 4    | 49 | Wed, 2017-12-06 | Continuous Integration and Deployment    | [Week4](../assignments/#week-4) |
+| 5    | 50 | Wed, 2017-12-13 | 3rd Party Libraries and APIs             | [Week5](../assignments/#week-5) |
 
 
 # Week 2
@@ -39,7 +47,13 @@ the next.
 
 ### Working on your project
 
-again, see the [example project](../example-project) for clarification on what to do.
+6. Create a new rails application.
+7. Generate your first model/view/controller using `rails generate scaffold`
+8. Have a look at the generated html templates (find dem in app/views). Change and document one thing that makes sense within your application.
+9. Next, pick a user story that requires to add a little bit of functionality to your app.
+10. Implement it by at least creating a new controller action and route by hand.
+
+
 
 1. Pick a story that requires you to introduce at least one new Resource to your Project.
 2. Update your sketch of the data model, if needed.
@@ -144,3 +158,4 @@ complete repository.)
 make sure you have tagged all versions with the corresponding week, e.g.
 
     git tag week5
+{% endcomment %}
