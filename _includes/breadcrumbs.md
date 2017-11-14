@@ -8,11 +8,9 @@ http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-
 
 {% assign seperator ="&#187;" %}
 
-
-
 {% assign previous="" %}
-<nav aria-label="breadcrumb" role="navigation">
-  <ol class="breadcrumb">
+<nav aria-label="breadcrumb" role="navigation"">
+  <ol class="breadcrumb breadcrumb-thin">
 
  {% if num_parts == "0" or num_parts == "-1" %}
   <li class="breadcrumb-item active" aria-current="page">Home</li>
