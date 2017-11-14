@@ -44,10 +44,10 @@ Your job in this exercise is to model all of the following systems (2 points per
 
 1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.
 2. Model the states an IMI student passes through from the first until the sixth semester. (Special prize for the most humorous model that is not offensive.)
-3. Model an algorithm that determines if a given string is a proper floating-point number, i.e.
+3. Model the states of a parser that determines if a given string is a proper floating-point number, i.e.
 
         [sign] integerpart dot fractional part [E exponent]
-4. Model the states in an Pumpkin order in the HTW system can be in.
+4. Model the states a Pumpkin order in the HTW system can be in.
 
 
 ## Lab Report / What to turn in
