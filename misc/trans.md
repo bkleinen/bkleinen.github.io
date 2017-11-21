@@ -3,10 +3,10 @@ title: Trans@HTW
 author: kleinen
 layout: default
 ---
- 
+
 <div class="citation">
-    Artikel 2 des Grundgesetzes garantiert das Recht auf freie Entfaltung der Persönlichkeit, auf Leben, auf körperliche     Unversehrtheit und schützt die Freiheit der Person. Da steht nicht: garantiert »die halb-freie Entfaltung der     Persönlichkeit«, da steht auch nicht: »die freie Entfaltung nur jener Persönlichkeiten, die sich an ihre bei der Geburt
-    festgestellte Geschlechtszugehörigkeit halten«, da steht nicht: »die Freiheit nur jener Personen, die den traditionellen     Vorstellungen von ›natürlicher‹ Männlichkeit und Weiblichkeit entsprechen«. Da steht: »das Recht auf freie Entfaltung der     Persönlichkeit«.
+    "Artikel 2 des Grundgesetzes garantiert das Recht auf freie Entfaltung der Persönlichkeit, auf Leben, auf körperliche     Unversehrtheit und schützt die Freiheit der Person. Da steht nicht: garantiert »die halb-freie Entfaltung der     Persönlichkeit«, da steht auch nicht: »die freie Entfaltung nur jener Persönlichkeiten, die sich an ihre bei der Geburt
+    festgestellte Geschlechtszugehörigkeit halten«, da steht nicht: »die Freiheit nur jener Personen, die den traditionellen     Vorstellungen von ›natürlicher‹ Männlichkeit und Weiblichkeit entsprechen«. Da steht: »das Recht auf freie Entfaltung der     Persönlichkeit«."
 
     {% comment %}
     Es steht nirgends geschrieben, dass ein Mensch sich nicht ändern oder entwickeln darf. Im Gegenteil: Das     Grundgesetz schützt eben genau die Handlungsfreiheit des Individuums – solange darin nicht die Freiheiten anderer     verletzt werden. Das Grundgesetz gehört allen, nicht nur der Mehrheit. Und es ist allen verpflichtet – auch denen, die     ganz gleich in welcher Hinsicht von einer Mehrheit abweichen.<br />
@@ -28,16 +28,12 @@ Gemäss einer Empfehlung der Senatskanzlei vom 9.2.17 sind die Berliner Hochschu
 trans* Studierende auf Wunsch auch vor einer gerichtlich festgestellten Namensänderung mit dem gewählten Vornamen
 in interner Kommunikation (emails, persönlicher Kommunikation, Hochschulregistern) anzusprechen.
 
-Der Studierendenservice ist bemüht, dies umzusetzen, ~~bislang ist die einzige technische Möglichkeit,
-die hierzu gefunden wurde, über einen "Künstlernamen". Damit sollte Ihr gewählter Name
-in LSF und Moodle erscheinen.~~ Leider funktioniert dies wohl doch nicht. Es wird aber
-an verschiedenen Stellen nach Lösungen und Möglichkeiten gesucht.
-
-Daher empfehle ich dennoch, sich an den  [Studierendenservice](https://www.htw-berlin.de/studium/studierendenservice/studierenden-service-center/) via Mail an das Ticketsystem [studierendenservice@htw-berlin.de](mailto:studierendenservice@htw-berlin.de) zu wenden und
-um die Verwendung eines gewählten Namens für die interne Kommunikation zu bitten.  
-
-Melden Sie mir Erfahrungen damit gerne zurück. Je mehr Anfragen es gibt, um so mehr wird
-der Bedarf deutlich.
+Die IT-Infrastruktur der HTW erlaubt nicht, für interne und externe Kommunikation
+unterschiedliche Namen zu verwenden. Daher hat sich die Hochschulleitung
+entschlossen, den Namen im HIS-System - aus dem alle anderen Systeme gespeist werden -
+auch schon auf der Grundlage des [DGTI-Ergänzungsausweises](http://www.dgti.org)
+vor (bzw. unabhängig von) einer amtlichen Namensänderung vorzunehmen.
+Hierzu wenden Sie sich an den  [Studierendenservice](https://www.htw-berlin.de/studium/studierendenservice/studierenden-service-center/) via Mail an das Ticketsystem [studierendenservice@htw-berlin.de](mailto:studierendenservice@htw-berlin.de).
 
 Weiter kann es notwendig sein, eine email an die Lehrpersonen zu verschicken -
 z.B. wenn Sie den Namen während des Studiums ändern, oder Ihr alter Name
@@ -83,19 +79,12 @@ Berlin, 18.9.2017 Barne Kleinen
 
 
 
-
-
-
-
-
-
-
 <hr />
 
 
 <div class="citation">
 
-Nicht Transpersonen müssen begründen, warum sie anerkannt werden wollen wie andere Menschen auch. Nicht Transpersonen müssen erklären, dass ihnen dieselben subjektiven Rechte, derselbe Schutz des Gesetzgebers, derselbe öffentliche Zugang zusteht wie anderen Personen auch. Nicht Transpersonen müssen rechtfertigen, wie sie leben wollen. Nicht Transpersonen müssen begründen, warum ihnen das Recht auf freie Entfaltung der Persönlichkeit zusteht, sondern alle, die ihnen dieses Recht absprechen wollen. Es wird Zeit, dass das »Transsexuellengesetz« so reformiert wird, dass das Selbstbestimmungsrecht von Transpersonen auch dann gilt, wenn sie nicht vorher begutachtet werden.
+"Nicht Transpersonen müssen begründen, warum sie anerkannt werden wollen wie andere Menschen auch. Nicht Transpersonen müssen erklären, dass ihnen dieselben subjektiven Rechte, derselbe Schutz des Gesetzgebers, derselbe öffentliche Zugang zusteht wie anderen Personen auch. Nicht Transpersonen müssen rechtfertigen, wie sie leben wollen. Nicht Transpersonen müssen begründen, warum ihnen das Recht auf freie Entfaltung der Persönlichkeit zusteht, sondern alle, die ihnen dieses Recht absprechen wollen. Es wird Zeit, dass das »Transsexuellengesetz« so reformiert wird, dass das Selbstbestimmungsrecht von Transpersonen auch dann gilt, wenn sie nicht vorher begutachtet werden."
 <br />
 Emcke, Carolin. Gegen den Hass (German Edition) (Kindle Locations 1674-1679). FISCHER E-Books. Kindle Edition.
 </div>

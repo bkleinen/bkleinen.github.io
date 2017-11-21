@@ -1,11 +1,9 @@
 alias os='open http://localhost:4000'
-alias i2='open http://localhost:4000/classes/ss2017/info2'
-alias is2='open http://localhost:4000/classes/ss2017/info2/schedule'
-alias uc='open http://localhost:4000/classes/ss2017/user-centered-web-technology'
-alias wm='open http://localhost:4000/classes/ss2017/media-programming-rails'
+alias i3='open http://localhost:4000/classes/ws2017/info3'
+alias i3s='open http://localhost:4000/classes/ws2017/info3/schedule'
+alias wt='open http://bkleinen.github.io/classes/ws2017/wtat2/schedule/'
 alias htw='open http://home.htw-berlin.de/~kleinen/'
 alias gh='open http://bkleinen.github.io'
-alias op='open http://localhost:4000/studies/auslandspraktikum/'
 # see http://jekyllrb.com/docs/drafts/
 alias rj='jekyll serve --drafts'
 cat aliasses.sh

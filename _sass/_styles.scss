@@ -1,0 +1,35 @@
+$color-areas: false;
+
+ h1.title {margin-bottom: 0;}
+
+ header {
+   padding: 10px;
+   font-size: small;
+   color: #AFAFAF;
+ }
+ header a {
+   text-decoration: none;
+   color: #AFAFAF;
+ }
+
+@if $color-areas == true {
+  .c1 { background-color: lightgray; }
+  .c2 { background-color: LightSteelBlue ; }
+  .c3 { background-color: linen; }
+  .c4 { background-color: honeydew; }
+  .c5 { background-color: LavenderBlush; }
+  .c6 { background-color: LemonChiffon; }
+  .c7 { background-color: MintCream; }
+} else {
+  .c1 .c2 .c3 .c4 .c5 .c6 .c7 { background-color: white; }
+}
+
+.breadcrumb-thin {
+    padding: 2px 15px !important;
+}
+
+.citation {
+  font-size: small;
+  padding-left: 20px;
+  padding-right: 40px;
+}
