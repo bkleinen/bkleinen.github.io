@@ -45,8 +45,20 @@ the next.
 
 ### Reading and preparation for next week
 
-Reading for next week: 
+Reading for next week:
+
+* Chapter "Introduction to Ruby" (in Moodle)
+* [RSpec Expectations](https://relishapp.com/rspec/rspec-expectations/docs)
+* [Capybara - The DSL](https://github.com/teamcapybara/capybara#the-dsl)
+
 # Week 3
+
+Testing Docs
+
+* [RSpec Rails Doc](https://relishapp.com/rspec/rspec-rails/v/3-6/docs/feature-specs/feature-spec)
+* [Capybara](https://github.com/teamcapybara/capybara)
+* [Using Capybara with RSpec](https://github.com/teamcapybara/capybara#using-capybara-with-rspec)
+
 # Week 4
 # Week 5
 {% comment %}
