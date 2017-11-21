@@ -30,6 +30,22 @@ it will help you understand what you need to do for this exercise as well as for
 the next.
 
 # Week 2
+
+## Rails Dash, Active Record and Migrations
+
+### Working on your project
+
+1. Implement your first User story from week 1 with Rails.
+2. Find one or more user storys that gives you the opportunity to implement an association
+    between two model classes.
+3. Draw Screen Mocks / a simple paper prototype for these storys.
+4. Draw a Class diagram showing the relevant model classes (and, if you want to, some more)
+5. Implement the user story
+6. make sure that you use a migration to create the table for the new model and possibly adding foreign keys (or more new columns) to the existing table(s)
+
+### Reading and preparation for next week
+
+Reading for next week: 
 # Week 3
 # Week 4
 # Week 5
