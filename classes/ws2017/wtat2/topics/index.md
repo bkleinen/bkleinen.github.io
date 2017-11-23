@@ -9,10 +9,10 @@ layout: default
 
 * Topic 1: [Rails and Active Record - Assignment](a1-activerecord/) / [Example](a1-activerecord-example)
 * Topic 2: [Authentication, Bootstrap, Testing and Code Styling](a2-authentication/)
+* Topic 3: [Search, Database, Docker](a3-search-database-docker/)
 
 ### Planned Topics - might still be adapted                    
 
-* Topic 3: Search Functionality & Bootstrap  
 * Topic 4: Rails Security & Deployment       
 * Topic 5: External APIs                     
 * Topic 6: choose one yourself               
