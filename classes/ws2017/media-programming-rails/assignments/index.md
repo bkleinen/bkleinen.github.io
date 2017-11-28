@@ -53,11 +53,25 @@ Reading for next week:
 
 # Week 3
 
-Testing Docs
+If you haven't already done so, publish your work on github (or an equivalent service).
+Before you begin, tag the state of your work until now with "week_2".
+
+## Assignment:
+
+1. Write at least one Happy Path feature test for every story you've implemented.
+2. Implement one other story test driven.
+3. Set up Travis CI for your project as shown in class.
+
+Briefly describe what you've done, include all names of your team and a link to the github repository in your Report and submit to moodle in PDF format.
+
+Tag your work with 'week_3'
+
+## Testing Docs
 
 * [RSpec Rails Doc](https://relishapp.com/rspec/rspec-rails/v/3-6/docs/feature-specs/feature-spec)
 * [Capybara](https://github.com/teamcapybara/capybara)
 * [Using Capybara with RSpec](https://github.com/teamcapybara/capybara#using-capybara-with-rspec)
+* [Building a Ruby Project with Travis](https://docs.travis-ci.com/user/languages/ruby/)
 
 # Week 4
 # Week 5
