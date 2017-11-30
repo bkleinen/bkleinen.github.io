@@ -34,3 +34,5 @@ to check the coverage of your test suite.
 ## Upload
 As always, upload a PDF report containing your updated Backlog, the names
 of all collaborators and a link to your repository to moodle.
+* updated Backlog: clearly marked completed storys and the stories you worked on/completed this week.
+* report on how you worked on the stories. This may be brief, but this week it should contain some text on which kind of search you implemented, what went well and where you've encountered problems, and what you've learned.
