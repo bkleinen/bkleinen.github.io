@@ -64,6 +64,8 @@ Before you begin, tag the state of your work until now with "week_2".
 
 Briefly describe what you've done, include all names of your team and a link to the github repository in your Report and submit to moodle in PDF format.
 
+<span class = "attention">Every Team member has to upload themselves - ideally the exact same file</span>
+
 Tag your work with 'week_3'
 
 ## Testing Docs
@@ -74,6 +76,23 @@ Tag your work with 'week_3'
 * [Building a Ruby Project with Travis](https://docs.travis-ci.com/user/languages/ruby/)
 
 # Week 4
+
+## Assignment: Add continuous Deployment for your app.
+
+1. Choose a deployment option from the list of supported Providers on the
+   [Travis Deployment Page](https://docs.travis-ci.com/user/deployment)
+2. and follow the instructions there to set up an automated deployment after
+   a successful build
+3. Describe the steps you did, what worked and what you've learned what didn't
+   work in your report.
+4. Implement one (ore more) additional stories and enjoy the automatic test and
+   deployment. Include the updated backlog with the story clearly marked in your
+   report.
+5. Tag your finished work with 'week_4' and make sure the url of your git repo
+   is included in the report.
+
+   <span class = "attention">Every Team member has to upload themselves - ideally the exact same file</span>
+
 # Week 5
 {% comment %}
 | 1    | 46 | Wed, 2017-11-15 | Project Start, The Rails World           | [Week1](../assignments/#week-1) |
