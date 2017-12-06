@@ -82,7 +82,7 @@ Tag your work with 'week_3'
 1. Choose a deployment option from the list of supported Providers on the
    [Travis Deployment Page](https://docs.travis-ci.com/user/deployment)
 2. and follow the instructions there to set up an automated deployment after
-   a successful build
+   a successful buildt
 3. Describe the steps you did, what worked and what you've learned what didn't
    work in your report.
 4. Implement one (ore more) additional stories and enjoy the automatic test and
@@ -90,8 +90,10 @@ Tag your work with 'week_3'
    report.
 5. Tag your finished work with 'week_4' and make sure the url of your git repo
    is included in the report.
+6. Include the link to the deployed app in your report.
+6. Upload the report as PDF to Moodle.
 
-   <span class = "attention">Every Team member has to upload themselves - ideally the exact same file</span>
+   <span class = "attention">Every Team member has to upload the report - ideally the exact same file</span>
 
 # Week 5
 {% comment %}
