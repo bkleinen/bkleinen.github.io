@@ -1,5 +1,5 @@
 ---
-title:  Assignment 4 -  Search Functionality, Postgres and Docker (and some more Bootstrap)
+title:  Assignment 3 -  Search Functionality, Postgres and Docker (and some more Bootstrap)
 author: kleinen
 layout: default
 ---
