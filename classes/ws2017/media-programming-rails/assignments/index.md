@@ -96,6 +96,33 @@ Tag your work with 'week_3'
    <span class = "attention">Every Team member has to upload the report - ideally the exact same file</span>
 
 # Week 5
+
+## 3rd Party APIs *or* Javascript
+
+This week is about enhancing your app a bit - either by using some JavaScript
+on the site or by using a third party API. (You can, however, do both if you want
+to, but one topic is sufficient)
+
+### Option a: 3rd Party API
+
+Find a third party API that you can use in your application and use it. We will
+talk about good ways to work with external APIs in class.
+
+### Option b: Add a bit of Javascript
+
+Find a place where a little bit of JavaScript is useful in your Application. You find a couple
+of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
+
+## Writeup and Report
+
+Upload a PDF Report describing what you did (I don't want to have to figure out what
+you did from your source code) including a link to the git repository (or, the
+complete repository.)
+make sure you have tagged all versions with the corresponding week, e.g.
+
+    git tag week_5
+
+    
 {% comment %}
 | 1    | 46 | Wed, 2017-11-15 | Project Start, The Rails World           | [Week1](../assignments/#week-1) |
 | 2    | 47 | Wed, 2017-11-22 | Rails Dash, Active Record and Migrations | [Week2](../assignments/#week-2) |
