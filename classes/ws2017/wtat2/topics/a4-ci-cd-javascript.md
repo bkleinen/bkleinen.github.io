@@ -11,6 +11,11 @@ See [https://docs.travis-ci.com/user/docker/](https://docs.travis-ci.com/user/do
 
 Setup an Automatated Deployment after a successful build. See [https://docs.travis-ci.com/user/deployment](https://docs.travis-ci.com/user/deployment)
 
+I've created two examples:
+
+* direct deployment of rails on heroku in [https://github.com/htw-imi-rails-examples/notes-deploy](https://github.com/htw-imi-rails-examples/notes-deploy)
+* deployment on heroku with docker in [https://github.com/htw-imi-rails-examples/notes-deploy-docker](https://github.com/htw-imi-rails-examples/notes-deploy-docker)
+
 ## AJAX
 
 Find a place - find or create a story - where a little bit of JavaScript is useful in your Application. You find a couple
