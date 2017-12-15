@@ -32,7 +32,7 @@ First, you need to install the Software and run the tests.
 Download and Install the source code for this exercise. Upon request, you can do this exercise either in Ruby or in Java. (Or both).
 In any case, you should have a look at the provided tests in both versions:
 
-* the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
+* the Java Version uses [Parameterized Tests](http://junit.org/junit4/javadoc/4.12/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
 
 In both cases, you'll need to use a code coverage tool to make sure you have all
 branches covered with your tests.
