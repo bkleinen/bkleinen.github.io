@@ -7,6 +7,8 @@ layout: default
 # (aka:) Links die ich immer zulange suche sonst
 * [Speiseplan der Mensa](http://www.studentenwerk-berlin.de/mensen/speiseplan/htw_wilhelminenhof/index.html)
 * [Bibliothek](http://bibliothek.htw-berlin.de)
+    * [Opac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
+    * [Login](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin) 
 * [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
 * [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do)
 * [Anschaffungsvorschlag]()
