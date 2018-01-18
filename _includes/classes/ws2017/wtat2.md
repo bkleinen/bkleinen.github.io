@@ -15,8 +15,10 @@
 
      <a class="dropdown-item" href="https://moodle.htw-berlin.de/course/view.php?id=14388">Moodle</a>
      <a class="dropdown-item" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131102">LSF SU</a>
-     <a  lass="dropdown-item" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131108">LSF Übung</a>
+     <a class="dropdown-item" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131108">LSF Übung</a>
      <a class="dropdown-item" href="https://github.com/htw-imi-wtat2">Github</a>
+     <a class="dropdown-item" href="https://github.com/bkleinen/bkleinen.github.io/wiki/Exam-Questions-Collected-in-Class">Wiki</a>
+
      </div>
    </li>
  </ul>
