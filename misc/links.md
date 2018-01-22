@@ -8,7 +8,7 @@ layout: default
 * [Speiseplan der Mensa](http://www.studentenwerk-berlin.de/mensen/speiseplan/htw_wilhelminenhof/index.html)
 * [Bibliothek](http://bibliothek.htw-berlin.de)
     * [Opac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
-    * [Login](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin) 
+    * [Login](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin)
 * [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
 * [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do)
 * [Anschaffungsvorschlag]()
@@ -35,6 +35,9 @@ https://wiki.rz.htw-berlin.de/confluence/pages/viewpage.action?title=Kommunikati
 Zugriff auf diverse Webseiten der HTW:
 Zugriff beantragen:
 https://portal.rz.htw-berlin.de/account/Typo3/
+
+Direkter Link: [http://berndcms.htw-berlin.de/typo3](http://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
+
 
 Anleitungen (inkl. Link zum CMS:)
 [https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin](https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin)

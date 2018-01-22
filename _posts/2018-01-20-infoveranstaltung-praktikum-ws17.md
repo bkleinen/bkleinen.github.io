@@ -1,5 +1,5 @@
 ---
-title: verschoben! - Infoveranstaltung zum Auslandspraktikum
+title: Infoveranstaltung zum Auslandspraktikum: 23. Januar 2018 8:00
 author: kleinen
 layout: post
 categories:
@@ -10,7 +10,7 @@ categories:
 
 Informationen zum Auslandspraktikum Studiengang IMI-B
 
-~~__Mittwoch, 8. November 2017 9:45 Raum WH C 446__~~
+~~__Dienstag, 23. Januar 2018 8:00 Raum WH-C 257__~~
 
 Muss verschoben werden!
 
@@ -29,7 +29,6 @@ Wie jedes Semester informieren wir im Rahmen einer LV des 2. Semesters über die
 - Rita Leuner, International Office
 
 Und bringen Sie viele Fragen mit!
-Alles was wir hier beantworten, muss ich nicht einzeln später beantworten.
 
 
 Prof. B. Kleinen, Praktikumsbeauftragter IMI

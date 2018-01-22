@@ -42,9 +42,9 @@ Für das Auslandspraktikum können Sie Auslandsbafög bekommen, evtl. sogar, wen
 Welches Baf&ouml;gamt zuständig ist, hängt vom Zielland ab. Welches das ist, [können Sie hier herausfinden.]( http://www.baf%C3%B6g.de/de/ausland---studium-schulische-ausbildung-praktika-441.php) <small>(Und bewundern Sie dieses hervorragende Beispiel,
 wie zuviel Interaktivität Informationen schwerer zugänglich macht.)</small>
 
-(diese Seite ist dank des &ouml; nicht gut zu verlinken. ggfs. auf www bafoeg mit ö de gehen und nach ausland suchen, oder den Link von dieser seite probieren: https://www.studentenwerk-berlin.de/studienfinanzierung/bafoeg/infos/ausland/ )
+(diese Seite ist dank des &ouml; nicht gut zu verlinken. ggfs. auf www bafoeg mit ö de gehen und nach ausland suchen, oder den Link von dieser seite probieren: [https://www.studentenwerk-berlin.de/studienfinanzierung/bafoeg/infos/ausland/](https://www.studentenwerk-berlin.de/studienfinanzierung/bafoeg/infos/ausland/) )
 
-Weiter bietet die private Seite http://www.auslandsbafoeg.de  ganz gute Informationen - immer bedenken, kein offizielles Angebot vom Studentenwerk, daher Infos ggfs. nochmal überprüfen.
+Weiter bietet die private Seite [http://www.auslandsbafoeg.de](http://www.auslandsbafoeg.de)  ganz gute Informationen - immer bedenken, kein offizielles Angebot vom Studentenwerk, daher Infos ggfs. nochmal überprüfen.
 
 
 Weitere Infos
