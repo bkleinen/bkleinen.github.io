@@ -12,4 +12,4 @@ layout: default
 * Topic 3: [Search, Database, Docker](a3-search-database-docker/)
 * Topic 4: [Deployment & Javascript](a4-ci-cd-javascript/)  
 * Topic 5: [External APIs & Rails Security](a5-api-security/)
-* Topic 6: Choose one yourself
+* Topic 6: [Choose one yourself](a6-choose-your-own/)

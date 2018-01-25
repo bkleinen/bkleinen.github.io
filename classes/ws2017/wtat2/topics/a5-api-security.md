@@ -20,7 +20,7 @@ Write an Adapter and Tests for the API as discussed in class.
 
 Find one or two (depending on the complexity) possible security issues to
 improve in your app. Describe in the report why you chose them and what you did
-to improve on them. 
+to improve on them.
 
 ## Don't forget the tests
 Don't forget to write tests for your new features and to groom your test suite along the way.
