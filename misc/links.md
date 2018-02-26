@@ -19,6 +19,9 @@ https://wiki.rz.htw-berlin.de/
 Vorlagen für MA:
 https://wiki.rz.htw-berlin.de/confluence/pages/viewpage.action?title=Kommunikation&spaceKey=htwintranet
 
+### Personalwesen: Einstellung SHK, Dienstreise (wiss. Reisen gibt es nicht mehr)
+https://wiki.rz.htw-berlin.de/confluence/display/ZHVI/Formulare+-+Personalwesen
+
 ## Lehrplanung
 
 * [https://lehrprofil.f4.htw-berlin.de](https://lehrprofil.f4.htw-berlin.de)
