@@ -4,6 +4,8 @@ author: kleinen
 layout: page
 ---
 
+
+{% comment %}
 # Week 1
 
 ## Project Start, The Rails World
@@ -122,6 +124,8 @@ make sure you have tagged all versions with the corresponding week, e.g.
 
     git tag week_5
 
+
+    {% endcomment %}
     
 {% comment %}
 | 1    | 46 | Wed, 2017-11-15 | Project Start, The Rails World           | [Week1](../assignments/#week-1) |
