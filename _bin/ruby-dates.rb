@@ -1,6 +1,6 @@
 require 'date'
 
-first_day=d=Date.new(2018,04,11)
+first_day=d=Date.new(2018,04,03)
 day_diff=3
 
 
@@ -15,7 +15,10 @@ def oneday(first_day)
   (1..20).to_a.collect{|i| (d+(7*(i-1))).strftime("|#{i} | #{i+cw-1} | %a, %Y-%m-%d |")  }.flatten.each{|x| puts x}
 end
 
-oneday(first_day)
+#oneday(first_day)
+
 # info2
 # first_day=d=Date.new(2017,4,4)
-# twodays(first_day,3)
+twodays(first_day,3)
+
+# .reject{|n| n == 6}

@@ -21,13 +21,6 @@ layout: default
 </ul>
 
 
-{% comment%}
-
-  <li><a href="{{ site.baseurl }}/classes/ws2017/project/">Praxisprojekt</a></li>
-
-{% endcomment%}
-
-
 </div>
 
 <div class = "box">

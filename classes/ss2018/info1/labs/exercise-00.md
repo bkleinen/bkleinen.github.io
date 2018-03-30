@@ -5,7 +5,7 @@ layout: lab
 ---
 
 
-Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 576 and WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems.
+Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems.
 
 We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find an overview of them including a link to the rules ("Laborordnung") [here](http://imi-bachelor.htw-berlin.de/studium/labore/).
 
@@ -31,7 +31,7 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 * Download and install BlueJ as described on the BlueJ page: http://bluej.org. You will need BlueJ starting with Lab 02.
 
-* If you want to save space, you can download and install Java and the pure Java Versions of Greenfoot and BlueJ. This is a tad more complicated. Follow the instructions on the Greenfoot and BlueJ site. 
+* If you want to save space, you can download and install Java and the pure Java Versions of Greenfoot and BlueJ. This is a tad more complicated. Follow the instructions on the Greenfoot and BlueJ site.
 
 ## Assignment
 
@@ -47,57 +47,14 @@ After you have logged in, look around - where do you find a browser? How many br
 
     > java -version
 
-### 3. Examine Greenfoot 
+### 3. Shapes
 
-1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2016.zip). You will use the scenarios 01-01 through 01-08 for this lab.
-2.   Read through [Worksheet 1](../material/info1-02-worksheet-kara1.pdf)
-We've already started working on Worksheet 1 in class. 
-3. Remember to have a logbook while working:
-Note down the steps you've taken, including those that failed. Read through the whole assignment first, before starting to work.
-0. Open one of the scenarios.
-1. Examine the Greenfoot environment. Right-Click on every object/actor in the World and the World and Actor
-   classes on the right hand side. How can you call the Kara actions and sensors directly? What happens if you
-   call a sensor directly? How do you find out the actual state of Kara apart from looking at the screen?
-   How are the directions stored, e.g. if Kara faces upwards?
-2. How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click
-    on the reset or compile buttons?
+Download the [exercise source code from GitHub][1] (you can download the whole [exercise02 repository as a zip here][2] ) and open up the **Figures** project.
 
-If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](http://code.makery.ch/library/greenfoot-kara/).
-- it's also available [in german](http://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the
-assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on
-an older version of the tutorial.
-
-
-### 4. Solve one of the exercises.
-
-3. Pick one exercise from the worksheet and solve it.
-   How can the task be decomposed into single steps (calls to the act-method)?
-   That is, make use of the run-loop in Greenfoot -
-   think carefully about what should be achieved by each step.
-        Where should Kara be positioned after each step such that the next step can follow?
-   For example, the walk-in-a-square exercise can be solved
-   by four times walking an edge, thus, each call to the act()-method should make Kara walk only one edge.
-
-Make use of ```Greenfoot.stop()``` or the method ```stopAfterStep(n)``` if you simply
-   want the act-method execute 4 times if you press "run", for example:
-
-   public void act()
-       {
-           move();
-           stopAfterStep(4);
-       }
-
-For example, to simply move until you encounter a leaf:
-
-     public void act()
-       {
-           // you might want to do something else in each step ...
-           move();
-           if (onLeaf()){
-              Greenfoot.stop();
-           }
-       }
-
+1.  What do circles, triangles, and squares have in common? Do they have any differences?
+2.  Create a circle, a triangle, and two squares. Oops, where is the second square? How can you make both visible on the screen?
+3.  Make all four figures have the same color. What did you have to do? Did you make any mistakes doing this?
+4.  Now make an interesting picture using these three shapes! Use at least 5 objects. Record what you had to do to get this scene set up. Take a screenshot for your report.
 
 
 ### 4. Logging Out
@@ -111,7 +68,7 @@ abmelden" or to click on the Start button (yes, Windows is a bit strange). You m
 
 ### 5. Writeup - The Lab Report
 
-You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab). If you do not have a computer at home, you can use the lab computers during times when there is no class. Hmm, you saved some information on your login area on the school server, can you access this from home? Yes! Your home directory is on the server uranus.f4.htw-berlin.de (or it was last week). There is a service called FTP that you can use to access these files. You will need to login to the FTP service with your FB 4 login to see your files. On Windows machines you open up a command window and use FTP. On Mac or Unix machines you open up a terminal and use ftp there, or find one of the many ftp clients. 
+You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab). If you do not have a computer at home, you can use the lab computers during times when there is no class. Hmm, you saved some information on your login area on the school server, can you access this from home? Yes! Your home directory is on the server uranus.f4.htw-berlin.de (or it was last week). There is a service called FTP that you can use to access these files. You will need to login to the FTP service with your FB 4 login to see your files. On Windows machines you open up a command window and use FTP. On Mac or Unix machines you open up a terminal and use ftp there, or find one of the many ftp clients.
 
 
 Submit your writeup, explaining what you did and what you learned, as your Lab Report to the Moodle area, as a practice - it will not be graded.
@@ -122,5 +79,5 @@ Make sure to include your names at the top of your report.
 
 This first lab is really about getting started, getting to know the infrastructure and make sure that you are able to work on the first exercise next week. If all this is quite easy for you, you might want to start working on next week's exercise.
 
- [1]: https://github.com/htw-imi-info1/kara
-
+ [1]: https://github.com/htw-imi-info1/exercise02
+ [2]: https://github.com/htw-imi-info1/exercise02/zipball/master
