@@ -3,7 +3,7 @@ title: Lab Startup
 author: kleinen
 layout: lab
 ---
-
+{% comment %}
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems.
 
@@ -81,3 +81,4 @@ This first lab is really about getting started, getting to know the infrastructu
 
  [1]: https://github.com/htw-imi-info1/exercise02
  [2]: https://github.com/htw-imi-info1/exercise02/zipball/master
+{% endcomment %}

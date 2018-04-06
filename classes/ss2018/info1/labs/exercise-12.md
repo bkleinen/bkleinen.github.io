@@ -3,7 +3,8 @@ title: 'Exercise 12: Pick up and Carry'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 # Pre-lab
 
 This week's lab work will finish up your project.
@@ -60,3 +61,4 @@ in earlier.
 # Writeup
 Submit your writeup as your post-lab to the Moodle area by the final date given on the schedule.
 * * *
+{% endcomment %}

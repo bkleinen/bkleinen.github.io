@@ -3,7 +3,8 @@ title: 'Exercise 06: Club Membership'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 ![Reform Club](../../images/reform_club.jpg)
 <small class = "float-right">Reform Club, [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg)</small>
 
@@ -62,3 +63,4 @@ As always, you may work on the assignment in groups; but each of you has to uplo
 8. (For the bored) Define a method to remove all members in the club's collection who joined in a particular month and year, returning the ones removed in a separate collection object.
 9. (For the bored) Define a method to list all members of the club sorted first by year joined, then by month joined, and finally by name.
 10. (For the really bored) Extend the Membership object to include further information such as birthday. Make search methods for finding all the members who have a birthday in a particular month, and finding people who will be having "round" birthdays in the current year. There can be three meanings of "round", regular, prime and computing. Regular is 20, 30, 40, 50, 60, 65, 70, 75, 80, 85, 90, 95, 100. Prime is prime number ages. Computing is 16, 25, 26, 32, 36, 42, 49, 64, 81. Explain the computing numbers.
+{% endcomment %}

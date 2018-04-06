@@ -3,7 +3,8 @@ title: 'Exercise 03: Book Exercise'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 ![Book](../../images/books-8314929977.jpg)
 <small class = "float-right">Books. [Abhi Sharma](http://www.flickr.com/photos/abee5/8314929977/)</small>
 
@@ -95,3 +96,4 @@ Submit your writeup as your post-lab to the Moodle area.
 * * *
 
 Exercise Adapted from http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab1.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
+{% endcomment %}

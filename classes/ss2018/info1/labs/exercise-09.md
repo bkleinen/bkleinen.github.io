@@ -3,7 +3,8 @@ title: 'Exercise 09: Testing with JUnit'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 This week's lab work is intended give you practice testing and writing assertions.
 
 #### What to Bring to Lab
@@ -49,3 +50,4 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 
 Submit your writeup as your post-lab to the Moodle area.
 
+{% endcomment %}

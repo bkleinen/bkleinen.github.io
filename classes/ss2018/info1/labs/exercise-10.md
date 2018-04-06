@@ -3,8 +3,8 @@ title: 'Exercise 10: The World of You'
 author: kleinen
 layout: lab
 ---
-
-
+- not yet released -
+{% comment %}
 <span class = "attention">This exercise has been split up in parts A & B and is not valid in WS2016/17!</span>
 <span class = "attention">See the [Schedule]({{ site.baseurl }}/classes/ws2016/info1/schedule/)
 or [Lab Index]({{ site.baseurl }}/classes/ws2016/info1/labs/) for the correct exercises.</span>
@@ -68,3 +68,4 @@ in earlier.
 5.  Implement an improved version of printing out the command words.
 6.  Add another command &#8211; did you have to change the Game class? Why or Why not?
 7.  (For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
+{% endcomment %}

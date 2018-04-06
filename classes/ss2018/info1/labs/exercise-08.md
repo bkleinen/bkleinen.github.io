@@ -3,7 +3,8 @@ title: 'Exercise 08: Bouncing Balls'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 
 This week's lab work is intended give you practice working with the basic concepts of programming.
 
@@ -50,3 +51,4 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 5. Change the method bounce to place the balls randomly anywhere in the top half of the screen.
 6. (For the bored) Write a new method named boxBounce. This method draws a rectangle (the 'box') on the canvas, and one or more balls inside the box. For the balls, do not use BouncingBall, but create a new class BoxBall that moves around inside the box, bouncing off the walls of the box so that it always stays inside. The initial position and speed of the ball should be random. The boxBounce method should have a parameter that specifies how many balls are in the box.
 7. (For the really bored) Give the balls in boxBounce random colors. Include a method to change the size. Make balls that get larger and smaller. Make exploding balls that produce new ones when they disappear. Or whatever catches your fancy.
+{% endcomment %}

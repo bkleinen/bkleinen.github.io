@@ -12,9 +12,9 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 
 ## Exercises
 
-* [Exercise 00 - Exercise Startup](exercise-00)
-* [Exercise 01 - Programming Kara](exercise-01)
-* [Exercise 02 - Shapes and Ticket Machine](exercise-02)
+* [Exercise 01 - Exercise Startup & Figures](exercise-01)
+{% comment %}
+* [Exercise 02 - Ticket Machine](exercise-02)
 * [Exercise 03 - Book Exercise](exercise-03)
 * [Exercise 04 - Rock Around the Clock](exercise-04)
 * [Exercise 05 - A Better Notebook](exercise-05)
@@ -26,7 +26,7 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 10 b - Adding Commands](exercise-10-b)
 * [Exercise 11 - Keeping Track of Stuff](exercise-11)
 * [Exercise 12 - Pick up and Carry](exercise-12)
-{% comment %}
+
 * [Exercise 13 - CRC Cards](exercise-13)
 {% endcomment %}
 
@@ -37,7 +37,7 @@ try out things yourself and practice! Therefore, this class will have lots of
 exercises. In the Labs you will have opportunity to work on them, and, most
 importantly, **ask questions**  or **discuss it with others** if something is
 unclear to you or you are stuck somewhere.
-
+{% comment %}
 To encourage you to really tinker on these excercises rather than copying a given solution
 in order to achieve the best grade possible, lab reports won't be graded.
 You'll either get an "ok" for them if I feel you understood enough of the material
@@ -45,7 +45,7 @@ to move on or an "not quite enough" if I think you need to revisit this excercis
 
 We will talk about last weeks excercises first thing in the following lab.
 You'll then have one day to re-submit your report if it wasn't sufficient yet.
-
+{% endcomment %}
 ## Group Work
 Talking to each other and working in pairs or groups is also highly encouraged
 during the labs. This term, I will make a ***raffle for new groups of three
@@ -62,8 +62,8 @@ For each week you must write a report. The report must be in English or German,
 spell-checked and using complete sentences, explaining what you did in the
 exercise session, that is, the process. Screenshots are welcome. Each report
 should not be more than 5 pages and in PDF format and must have your names on it.
-It must include a reflection on what you learned during the session, if anything.
-They must be submitted to the Moodle area by 23.00 the night before your next lab.
+It must include a reflection on what you learned during the session.
+They must be submitted to the Moodle area by 22.00 the night before your next lab.
 
 
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)

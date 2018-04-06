@@ -3,7 +3,8 @@ title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](http://www.flickr.com/photos/arjanrichter/6085686394)
 <small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](http://www.flickr.com/photos/arjanrichter/6085686394)</small>
 
@@ -101,3 +102,4 @@ public class ClockDisplay
 ```
 4. (For the bored - not obligatory) Research Threads and make the clock increment automatically every second.
 5. (Kara Special - not obligatory) Open the kara-communicating project in Greenfoot. There are two Karas in the World, a MasterKara and a SlaveKara, which can communicate with each other as the MasterKara has a reference to the SlaveKara. Implement the copyRow method: MasterKara should move along a row to the left, have SlaveKara mirror its moves to the right, and have SlaveKara put down a leaf every time MasterKara encounters one.
+{% endcomment %}

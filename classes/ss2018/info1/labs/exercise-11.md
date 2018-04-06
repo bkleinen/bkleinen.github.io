@@ -3,7 +3,8 @@ title: 'Exercise 11: Keeping Track of Stuff'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 # Pre-lab
 
 This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
@@ -48,3 +49,4 @@ in earlier.
 
 
  [1]: http://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
+{% endcomment %}

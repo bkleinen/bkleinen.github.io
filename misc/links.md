@@ -11,7 +11,7 @@ layout: default
     * [Login](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin)
 * [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
 * [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do)
-* [Anschaffungsvorschlag]()
+* [Anschaffungsvorschlag](https://bibliothek.htw-berlin.de/literatur-suchen/anschaffungsvorschlag/?no_cache=1)
 
 ## "Intranet"
 https://wiki.rz.htw-berlin.de/

@@ -3,7 +3,8 @@ title: 'Exercise 02: Shapes and TicketMachine'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 This week's lab work is intended to acquaint you with the BlueJ environment.
 
 ## Pre-lab
@@ -98,3 +99,4 @@ Adapted from [http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml](http:/
 
 [1]: https://github.com/htw-imi-info1/exercise02
 [2]: https://github.com/htw-imi-info1/exercise02/zipball/master
+{% endcomment %}

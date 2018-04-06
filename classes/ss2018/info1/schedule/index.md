@@ -1,5 +1,5 @@
 ---
-title: Schedule
+title: Info 1 - Schedule
 author: kleinen
 layout: default
 wide_layout: true

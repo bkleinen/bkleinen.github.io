@@ -3,7 +3,8 @@ title: 'Exercise 07: Lotto and Technical Support'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 ![Lotto](../../images/lotto.jpg)
 <small class = "float-right">German Lotto Slip, [Foto by ReneS](http://www.flickr.com/photos/rene-germany/98668296)</small>
 
@@ -61,3 +62,4 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 4. Document your code with javadoc!
 5. (For the bored) There are often synonyms that should provoke the same response. Can you figure out how to store only one response even if there are a number of different words that trigger this response?
 6. (For the really bored) Make your answers multilingual. At first you can just set the language at any point, but then you want to read the locale form the local machine to determine how to answer.
+{% endcomment %}

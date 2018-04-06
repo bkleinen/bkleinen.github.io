@@ -3,7 +3,8 @@ title: 'Exercise 05: A Better Notebook'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 
 ![Notebook](../../images/notebook-6783298985.jpg)
 <small class = "float-right">Foto by [waferboard](http://www.flickr.com/photos/waferboard/6783298985)</small>
@@ -56,3 +57,4 @@ and have it return the number of primes you've found. There is also a method stu
 1. (optional) KaraSpecial: Use the kara-copy project in the [provided source code](https://github.com/htw-imi-info1/exercise05). Make Kara copy the leaf rows on the left to the right, this time not using a second Kara as in the last exercise, but by storing the information about a row in an ArrayList of Booleans. You'll find some more instructions in the source code.
 1. (For the bored) Implement a search with '?' as a joker standing for any character, and '\*' standing for any number of characters.
 1. (For the really bored) Implement full regular expression search for the notebook.
+{% endcomment %}

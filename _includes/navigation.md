@@ -7,10 +7,12 @@
     </a>
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ws2017/info3">Info3</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ws2017/wtat2">WTAT2</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ws2017/media-programming-rails">M1 Mediaprogramming</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ws2017/project">Projekt</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/info1">Info1</a>
+      {% comment %}
+      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/wt4">WT4 -  User-Centered Web Technology</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/media-programming-rails">M1 Mediaprogramming</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/project">Praxisprojekt: Umweltatlas</a>
+        {% endcomment %}
       <a class="dropdown-item" href="{{ site.baseurl }}/classes">All Classes</a>
     </div>
   </li>

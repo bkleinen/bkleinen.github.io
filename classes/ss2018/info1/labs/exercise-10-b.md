@@ -3,7 +3,8 @@ title: 'Exercise 10 b: Adding Commands'
 author: kleinen
 layout: lab
 ---
-
+- not yet released -
+{% comment %}
 # Pre-lab
 
 This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester.
@@ -46,3 +47,4 @@ in earlier.
 5. Add an additional command (such as &#8220;eat&#8221;, which for now just prints out &#8220;You have eaten now and are not hungry any more&#8221;. In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
 6. Add another command &#8211; did you have to change the Game class? Why or Why not?
 7. (for the bored): Command should really be a (rather flat) inheritance hierarchy, eliminating the need for a switch statement. Give it a try and sketch or do the refactoring.
+{% endcomment %}

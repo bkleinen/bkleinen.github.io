@@ -3,6 +3,9 @@ title: 'Exercise 13: CRC Cards'
 author: kleinen
 layout: lab
 ---
+
+- not yet released -
+{% comment %}
 ## Pre-Lab
 
 Please bring these exercises P1 and P2 printed out or written out with you to lab.
@@ -65,3 +68,4 @@ exact times.
 
 Include the Classes, Responsibilities and Collaborators you've found, as well as
  a report of your process.
+{% endcomment %}
