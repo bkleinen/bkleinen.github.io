@@ -1,7 +1,7 @@
 ---
 title: Barne Kleinen | Thesis Topics
 author: kleinen
-layout: page
+layout: default
 ---
 
 My main areas of interest are

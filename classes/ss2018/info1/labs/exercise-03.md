@@ -62,7 +62,7 @@ Your completed assignment, submitted in Moodle as a **pdf** and **single Source 
 - a copy of the final version of your Book code.
 - the names and roles of any collaborators in any parts of the exercise.
 
-Lab assignments are due the night before your next lab at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and required source code files and submitting them to Moodle.
+Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and required source code files and submitting them to Moodle.
 
 * * *
 

@@ -25,7 +25,7 @@ should include:
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned
+Lab assignments are due before your next lab at 22:00. They may, of course, be turned
 in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
 
 * * *

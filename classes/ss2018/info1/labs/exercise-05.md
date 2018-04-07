@@ -36,7 +36,7 @@ should include:
 - A copy of the final version of your Notebook code as well as the prelab-and-primes project, zipped in one archive.
 - A record of how long you needed for this lab and what you learned.
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier.
+Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
 
 ## Assignment
 

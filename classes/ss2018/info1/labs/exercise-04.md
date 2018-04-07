@@ -71,7 +71,7 @@ Put all your names on the head of the report and in the author's comment of
 the Source Code and all hand in the same files.
 </span>
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier.
+Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
 
 * * *
 

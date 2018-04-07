@@ -40,7 +40,7 @@ Include your source code anyway:
 
 - A copy of the final version of your TechSupport and Lotto code, properly and thoroughly documented with javadoc.
 
-Lab assignments are due the night before your next class at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in **PDF**  and the source code as **ZIP** and submitting it to Moodle.
+Lab assignments are due the night before your next class at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in **PDF**  and the source code as **ZIP** and submitting it to Moodle.
 
 As always, you can and should work on the exercise in small teams of 2-3, definitely not more than 4 people. Prepare the report together, and each of you hands in **the same report** and source code in moodle, stating the name of every member of the team somewhere in the beginning of the report.
 

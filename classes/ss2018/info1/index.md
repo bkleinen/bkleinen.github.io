@@ -37,7 +37,7 @@ That is, both the additional module and the lecture summaries are optional - you
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
 
-Lecture summaries are due at 23.00 the Monday for both lectures of the past week. They are either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 5%.
+Lecture summaries are due at 22.00 the Monday for both lectures of the past week. They are either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 5%.
  If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
 
 ### Lab Reports

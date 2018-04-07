@@ -46,7 +46,7 @@ should include:
 * a description of what you tried with the TicketMachine and what you think is wrong with the code given.
 
 
-Lab assignments are due the night before your next lab at 23.00, I want you to get some sleep the night before the next class. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
+Lab assignments are due the night before your next lab at 22:00, I want you to get some sleep the night before the next class. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
 
 ## Assignment
 

@@ -44,7 +44,7 @@ The lab report should include:
 - A screenshot or two demonstrating that your code works.
 - A record of how long you needed for this lab and what you learned.
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier.
+Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
 
 As always, you may work on the assignment in groups; but each of you has to upload the (same!) report & source files from his or her own account!
 

@@ -45,7 +45,7 @@ should include:
 
 Upload the source code in a ZIP Archive, and the report as a separate PDF file.
 
-Lab assignments are due the night before the next lab at 23.00, I want you to get some sleep the night before the next class. They may, of course, be turned
+Lab assignments are due the night before the next lab at 22:00, I want you to get some sleep the night before the next class. They may, of course, be turned
 in earlier.
 
 * * *

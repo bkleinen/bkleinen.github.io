@@ -34,7 +34,7 @@ Your completed assignment, submitted in Moodle as a pdf, should include:
 - A record of how long you needed for this lab and what you learned.
 - Include the final version of the source code. **(As a zip)**
 
-Lab assignments are due before your next lab at 23.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and Zipping the source code and submitting it to Moodle.
+Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and Zipping the source code and submitting it to Moodle.
 
 As always, you can and should work on the exercise in small teams of 2-3, definitely not more than 4 people. Prepare the report together, and each of you hands in **the same report** and in moodle, stating the name of every member of the team somewhere in the beginning of the report.
 

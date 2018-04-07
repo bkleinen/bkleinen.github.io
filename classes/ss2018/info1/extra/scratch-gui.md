@@ -1,7 +1,7 @@
 ---
 title: Zusatzmodule Informatik1 SoSe 2018
 author: fernsel
-layout: post
+layout: default
 categories:
   - ss2018
 ---
