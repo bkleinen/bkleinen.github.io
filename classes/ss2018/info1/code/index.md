@@ -6,36 +6,38 @@ layout: page
 
 ## Lecture Code Examples
 
-Don't worry about noting down any code changes I make in class - I will upload everything here!
-Thus, the "Changes in ws2016" links will only work after I've uploaded those changes.
+Don't worry about noting down any code changes I make in class - I will upload everything to github!
+The "Changes in ws2018" links will only work after I've uploaded those changes.
 
 Note that it might also be quite convenient to look at the code on the github page online,
-the commit history shows you exactly the changes I made. Click on "commits" and then one
-individual commit, and you see something like [this](https://github.com/htw-imi-info1/kara/commits/ws2016).
+the commit history shows you the exact changes I made. Click on "commits" and then one
+individual commit, and you you'll see the changes.
 
 ### Class
 
-* [Kara Scenarios for Worksheet 1+2](https://github.com/htw-imi-info1/kara/tree/master) - [ws2016](https://github.com/htw-imi-info1/kara/tree/ws2016)
-* [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter01/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2016.zip)
-* [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter02/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2016.zip)
-* [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter03/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2016.zip)
-* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter04/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2016.zip) - 18.11.2014: in music organizer v3
-* [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter05/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2016.zip)
+* [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter01/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ss2018.zip)
+* [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter02/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ss2018.zip)
+
 * {% comment %}
-* [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2016.zip)
+* [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter03/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ss2018.zip)
+* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter04/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ss2018.zip) - 18.11.2014: in music organizer v3
+* [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter05/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ss2018.zip)
+
+* [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter07_testing/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ss2018.zip)
 old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 {% endcomment %}
 
 ### Labs
 
-* Lab 01: [Kara for the Lab Assignment](https://github.com/htw-imi-info1/exercise02)
-* Lab 02: [TicketMachine and Figures](https://github.com/htw-imi-info1/exercise02)
+* Lab 01: [Figures](https://github.com/htw-imi-info1/exercise01)
+* Lab 02: [TicketMachine](https://github.com/htw-imi-info1/exercise02)
+ {% comment %}
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
 * Lab 06: [Club Membership](https://github.com/htw-imi-info1/exercise06)
 * Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)
-
+{% endcomment %}
 
 
 ## Further Hints

@@ -21,7 +21,7 @@ be in English. You are free to choose either language for your written assignmen
 The class consists of 2x2h of lectures and 2h of lab per week, with one lab held by Hermann Thiel and two labs held by me. Find the details in
 LSF - there's a link to the LSF class in the menu under 'External Links'.
 
-Additional to the class meetings there will be two optional events to help you learn programming: the tutorial held by Anja Kammer and two additional modules, Creative Computing and Graphical User Interfaces, held by Linda Fernsel.  
+Additional to the class meetings there will be two optional events to help you learn programming: the tutorial held by Anja Kammer and [two additional modules, Creative Computing and Graphical User Interfaces,](extra/scratch-gui/) held by Linda Fernsel.  
 
 ## Grades
 
@@ -30,7 +30,7 @@ Your grade in Info1 will be a weighted mixture of the evaluated elements of the 
 * Lab Reports: 50%
 * Exam: 50%
 * Lecture summaries: 8%
-* Additional Module: 8%
+* [Additional Module]((extra/scratch-gui/)): 8%
 
 That is, both the additional module and the lecture summaries are optional - you don't need them to get 100% for the grade - but together they might lift your grade up a whole grade.
 

@@ -95,5 +95,5 @@ You will be doing your writeup at home or in the lab if time permits. Use the no
 
 Adapted from [http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml](http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
 
-[1]: https://github.com/htw-imi-info1/exercise02
-[2]: https://github.com/htw-imi-info1/exercise02/zipball/master
+[1]: https://github.com/htw-imi-info1/exercise02-ws2016
+[2]: https://github.com/htw-imi-info1/exercise02-ws2016/zipball/master

@@ -131,5 +131,5 @@ AKA What To Turn In
   </p>
 </div>
 
- [1]: https://github.com/htw-imi-info1/exercise02
- [2]: https://github.com/htw-imi-info1/exercise02/zipball/master
+ [1]: https://github.com/htw-imi-info1/exercise02-ws2016
+ [2]: https://github.com/htw-imi-info1/exercise02-ws2016/zipball/master

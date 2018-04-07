@@ -28,8 +28,8 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 
 ### Labs
 
-* Lab 01: [Kara for the Lab Assignment](https://github.com/htw-imi-info1/exercise02)
-* Lab 02: [TicketMachine and Figures](https://github.com/htw-imi-info1/exercise02)
+* Lab 01: [Kara for the Lab Assignment](https://github.com/htw-imi-info1/exercise02-ws2016)
+* Lab 02: [TicketMachine and Figures](https://github.com/htw-imi-info1/exercise02-ws2016)
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)

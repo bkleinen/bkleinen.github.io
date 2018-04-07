@@ -3,10 +3,10 @@ title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
 layout: lab
 ---
-- not yet released -
-{% comment %}
+
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](http://www.flickr.com/photos/arjanrichter/6085686394)
 <small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](http://www.flickr.com/photos/arjanrichter/6085686394)</small>
+
 
 This week's lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.
 
@@ -47,23 +47,14 @@ Prepare your prelab before coming to class! We will talk about it briefly.
 You need to upload 2 Files to Moodle:
 
 - your Lab Report as PDF with the extension .pdf
-- the source code folder containing the two BlueJ projects compressed with ZIP and the extension .zip
+- the source code folder containing the BlueJ projects compressed with ZIP and the extension .zip
+- Your Lab Report should include:
 
-<span class = "attention">
-"Not ok" for any submissions not containing these two files.
-</span>
-
-Your Lab Report should include:
-
-- the names and roles of any collaborators in any parts of the exercise.
-
-- a description of what you did during the lab, including a record of what worked, what problems you encountered.
-
-- The discussion of which version was better, 1 or 2.
-
-- A brief summary of what you learned
-
-- A record of how long you needed for this lab
+    - the names and roles of any collaborators in any parts of the exercise.
+    - a description of what you did during the lab, including a record of what worked, what problems you encountered.
+    - The discussion of which version was better, 1 or 2.
+    - A brief summary of what you learned
+    - A record of how long you needed for this lab
 
 <span class = "attention">
 You should work on this exercise in groups of 2-3 people.
@@ -84,22 +75,19 @@ Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](ht
     <pre>6:15 am</pre>
 Also, if you want to introduce a new parameter to the setTime method, make sure that the old setTime method is still working using 24h-Format. Same goes for the constructor - add a third one if you want an alternative parameter list.
 2. There are at least two ways in which you could have implemented exercise 1 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 1, implement the other in a new BlueJ project (I've provided a copy of the original clock-dispay in `clock-display-alternative-implementation`). Which one was better? Why?
-3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring - writing "Riiiiiiiing!" to the terminal is sufficient.
-If you've completed Assignments 1-3, your ClockDisplay class should have these methods (possibly more):
+3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring - writing "Riiiiiiiing!" to the terminal is sufficient. If you've completed Assignments 1-3, your ClockDisplay class should have these methods (possibly more):
 
-```
+        ```java
+        public class ClockDisplay
+        {
+            public ClockDisplay(){}
+            public ClockDisplay(int hour, int minute){}
+            public void timeTick(){}
+            public void setTime(int hour, int minute){}
+            public void setAlarmTime(int hour, int minute){}
+            public String getTime(){return null;}
+        }
+        ```
 
-public class ClockDisplay
-{
-    public ClockDisplay(){}
-    public ClockDisplay(int hour, int minute){}
-    public void timeTick(){}
-    public void setTime(int hour, int minute){}
-    public void setAlarmTime(int hour, int minute){}
-    public String getTime(){return null;}
-}
-
-```
 4. (For the bored - not obligatory) Research Threads and make the clock increment automatically every second.
 5. (Kara Special - not obligatory) Open the kara-communicating project in Greenfoot. There are two Karas in the World, a MasterKara and a SlaveKara, which can communicate with each other as the MasterKara has a reference to the SlaveKara. Implement the copyRow method: MasterKara should move along a row to the left, have SlaveKara mirror its moves to the right, and have SlaveKara put down a leaf every time MasterKara encounters one.
-{% endcomment %}

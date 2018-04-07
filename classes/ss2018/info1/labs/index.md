@@ -4,8 +4,6 @@ author: kleinen
 layout: page
 ---
 
-
-
 ## Structure of the Exercises
 
 Each exercise has a **Pre-Lab** section. preperatory work that you are expected to **complete** - together with reading through the whole exercise - **before coming to lab**.
@@ -13,10 +11,10 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 ## Exercises
 
 * [Exercise 01 - Exercise Startup & Figures](exercise-01)
-{% comment %}
 * [Exercise 02 - Ticket Machine](exercise-02)
 * [Exercise 03 - Book Exercise](exercise-03)
 * [Exercise 04 - Rock Around the Clock](exercise-04)
+* {% comment %}
 * [Exercise 05 - A Better Notebook](exercise-05)
 * [Exercise 06 - Club Membership](exercise-06)
 * [Exercise 07 - Lotto and Technical Support](exercise-07)
