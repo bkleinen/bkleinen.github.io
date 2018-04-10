@@ -2,11 +2,9 @@
 <div class="alert alert-info" role="alert">
 
 Office Hours Summer Term 2018:<br />
-
-every Wednesday, 11:30-12:30<br />
-(starting in the first week, 4.4.18)
-First Week additionally:<br />
-Friday, 6.4.2018 12:30-13:30<br />
+Thursday, 12.4.2018 13-14<br />
+(no office hours on 11.4.2018!)
+regular dates will be planned and announced after 12.4.2018
 
 
 <b>Please check back here for changes!</b>
