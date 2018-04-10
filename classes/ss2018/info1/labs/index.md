@@ -14,7 +14,7 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 02 - Ticket Machine](exercise-02)
 * [Exercise 03 - Book Exercise](exercise-03)
 * [Exercise 04 - Rock Around the Clock](exercise-04)
-* {% comment %}
+{% comment %}
 * [Exercise 05 - A Better Notebook](exercise-05)
 * [Exercise 06 - Club Membership](exercise-06)
 * [Exercise 07 - Lotto and Technical Support](exercise-07)

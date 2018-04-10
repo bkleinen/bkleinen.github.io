@@ -31,9 +31,9 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 
 * Lab 01: [Figures](https://github.com/htw-imi-info1/exercise01)
 * Lab 02: [TicketMachine](https://github.com/htw-imi-info1/exercise02)
- {% comment %}
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
+{% comment %}
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
 * Lab 06: [Club Membership](https://github.com/htw-imi-info1/exercise06)
 * Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)

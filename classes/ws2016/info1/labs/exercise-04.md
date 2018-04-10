@@ -75,7 +75,7 @@ Lab assignments are due before your next lab at 23.00. They may, of course, be t
 * * *
 
 # Assignment
-Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](https://github.com/htw-imi-info1/exercise04)
+Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04-ws2016](https://github.com/htw-imi-info1/exercise04-ws2016)
 
 **Clock time**
 

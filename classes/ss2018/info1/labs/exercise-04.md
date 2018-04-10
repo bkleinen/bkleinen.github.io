@@ -74,7 +74,7 @@ Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](ht
 1. Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! As I will run automatic tests, make sure your displayString has exactly this format:
     <pre>6:15 am</pre>
 Also, if you want to introduce a new parameter to the setTime method, make sure that the old setTime method is still working using 24h-Format. Same goes for the constructor - add a third one if you want an alternative parameter list.
-2. There are at least two ways in which you could have implemented exercise 1 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 1, implement the other in a new BlueJ project (I've provided a copy of the original clock-dispay in `clock-display-alternative-implementation`). Which one was better? Why?
+2. There are at least two ways in which you could have implemented exercise 1 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 1, implement the other in a new BlueJ project. Which one was better? Why?
 3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring - writing "Riiiiiiiing!" to the terminal is sufficient. If you've completed Assignments 1-3, your ClockDisplay class should have these methods (possibly more):
 
         ```java
@@ -90,4 +90,3 @@ Also, if you want to introduce a new parameter to the setTime method, make sure 
         ```
 
 4. (For the bored - not obligatory) Research Threads and make the clock increment automatically every second.
-5. (Kara Special - not obligatory) Open the kara-communicating project in Greenfoot. There are two Karas in the World, a MasterKara and a SlaveKara, which can communicate with each other as the MasterKara has a reference to the SlaveKara. Implement the copyRow method: MasterKara should move along a row to the left, have SlaveKara mirror its moves to the right, and have SlaveKara put down a leaf every time MasterKara encounters one.
