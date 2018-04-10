@@ -66,7 +66,7 @@ Wenn ihr ein Zusatzmodul belegen wollt, beteiligt euch bitte an der Terminfindun
 ![QR Code zur Google Umfrage für Creative Computing Terminfindung](http://i.cubeupload.com/BoyMnP.png)
 
 Für die Semesterwochen 3, 4, 6, 7 (Der "Scratchathon"-Termin wird im Kurs besprochen):
-Mittwochs 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vor 17:00 (bitte Zeit angeben!)
+Dienstags 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vor 17:00 (bitte Zeit angeben!)
 
 
 #### Graphical User Interface
@@ -74,7 +74,7 @@ Mittwochs 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vo
 
 ![QR Code zur Google Umfrage für Graphical User Interface Terminfindung](http://i.cubeupload.com/OskPCH.png)
 
-Mittwochs 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vor 17:00 (bitte Zeit angeben!)
+Dienstags 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vor 17:00 (bitte Zeit angeben!)
 
 
 ### Muss ich immer kommen?
