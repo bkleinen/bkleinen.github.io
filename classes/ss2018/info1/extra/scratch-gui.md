@@ -20,11 +20,11 @@ Es stehen zwei Module zur Auswahl, die auf dieser Seite kurz vorgestellt werden.
  **Zielgruppe**: Studierende ohne/mit wenig Programmiererfahrung
 
  **Termine**:
-
- *Hinweis*: Die Termine sind vorläufig. Änderungen vorbehalten.
- * 3, 4, 5, 6 Semesterwoche: Workshops, je 2h
+* Donnerstag, 19. Mai, 15.45 - 17.45
+* Donnerstag, 26. Mai, 15.45 - 17.45
+* Donnerstag, 3. Mai, 15.45 - 17.45
+* ~~~Donnerstag, 10. Mai, 15.45 - 17.45~~~ Feiertag! Wir benötigen einen Ersatztermin
  * 7 Semesterwoche: "Scratchathon", 1 Tag (genauer Termin und Dauer werden im Kurs besprochen)
-
 
  **Umfang der Hausaufgaben**: 3 kleine Hausaufgaben, für die ihr je 1 Woche Zeit habt.
 
@@ -43,7 +43,7 @@ Am Ende des "Scratchathons" stellt jede Gruppe ihr Spiel, ihre Animation, oder w
 
 **Termine**:
 
-*Hinweis*: Die Termine sind vorläufig. Änderungen vorbehalten.
+*Hinweis*: Im Kurs wurde Donnerstags, 15.45 bis 17.45 festgelegt. Leider hat sich herausgestellt dass ich da studienbedingt doch nicht kann. Wir brauchen einen neuen Termin. Vorschläge bitte an meine Emailadresse (siehe unten).
 * 7, 9 Semesterwoche: Workshops "Prototyping with Scratch", je 2h
 * 10, 12 Semesterwoche: Projekt "GUI mit Java", je 2h
 
@@ -57,28 +57,8 @@ Im zweiten Teil wiederholen wir, wie man mit Java eine GUI programmiert. Als Hau
 
 ## Sonstige Hinweise (last but not least!)
 
-### Terminfindung
-Wenn ihr ein Zusatzmodul belegen wollt, beteiligt euch bitte an der Terminfindung. Zur Auswahl stehen:
-
-#### Introduction to Creative Computing
-**TERMINFINDUNG: [Google Umfrage](https://goo.gl/forms/aH76IWI7BdH7XUua2)**
-
-![QR Code zur Google Umfrage für Creative Computing Terminfindung](http://i.cubeupload.com/BoyMnP.png)
-
-Für die Semesterwochen 3, 4, 6, 7 (Der "Scratchathon"-Termin wird im Kurs besprochen):
-Dienstags 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vor 17:00 (bitte Zeit angeben!)
-
-
-#### Graphical User Interface
-**TERMINFINDUNG: [Google Umfrage](https://goo.gl/forms/lP1CUxPAxB2MlbVk2)**
-
-![QR Code zur Google Umfrage für Graphical User Interface Terminfindung](http://i.cubeupload.com/OskPCH.png)
-
-Dienstags 9:15 - 11:15 oder Donnerstags 15:45 - 17:45 oder Montags mit Beginn vor 17:00 (bitte Zeit angeben!)
-
-
 ### Muss ich immer kommen?
- Es sind keine Ersatztermine geplant und der Inhalt der Workshops ist wichtig um die Hausaufgaben machen zu können. Kommt also bitte immer. Wenn ihr aus einem wichtigen Grund nicht kommen könnt, sagt mir Bescheid sobald ihr es wisst (auch wenn das 2 Monate vorher ist). Wir finden bestimmt eine Lösung.
+Es sind keine Ersatztermine geplant und der Inhalt der Workshops ist wichtig um die Hausaufgaben machen zu können. Kommt also bitte immer. Wenn ihr aus einem wichtigen Grund nicht kommen könnt, sagt mir Bescheid sobald ihr es wisst (auch wenn das 2 Monate vorher ist). Wir finden bestimmt eine Lösung.
 
 (Falls ihr ein\*e absolute\*r Profiprogrammierer\*in seid und das das Modul "Graphical User Interface" belegen wollt, können wir auch nochmal über eure Anwesenheit sprechen. Das wäre aber die Ausnahme und ich erwarte einen Beweis für euren überwältigenden Fähigkeiten.)
 
