@@ -1,7 +1,9 @@
 require 'date'
 
-first_day=d=Date.new(2018,04,03)
+first_day=d=Date.new(2018,04,12)
+reject = Date.new(2018,05,10)
 day_diff=3
+two_days = false
 
 
 def twodays(first_day,day_diff=1)
@@ -19,6 +21,9 @@ end
 
 # info2
 # first_day=d=Date.new(2017,4,4)
+if two_days
 twodays(first_day,3)
-
+else
+oneday(first_day)
+end
 # .reject{|n| n == 6}
