@@ -14,13 +14,11 @@ layout: default
 
 <ul>
 <li><a href="{{ site.baseurl }}/classes/ss2018/info1">Informatik 1</a></li>
-{% comment %}
 <li><a href="{{ site.baseurl }}/classes/ss2018/media-programming-rails">
 M1 - Web Technology in M1 Media Programming</a></li>
 
 <li><a href="{{ site.baseurl }}/classes/ss2018/wt4">WT4 -  User-Centered Web Technology</a></li>
 <li><a href="{{ site.baseurl }}/classes/ss2018/project/">Praxisprojekt: Umweltatlas</a></li>
-{% endcomment %}
 </ul>
 
 </div>

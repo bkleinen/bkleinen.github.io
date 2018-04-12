@@ -7,8 +7,7 @@ layout: default
 
 # Welcome!
 
-This is a practical class in Contextual Design. We will read the book "Contextual Design, 2nd ed." by Karen Holtzblatt and Hugh Beyer together and
-run through a Lightning Fast+ Rapid Contextual Design Process.
+This is a practical class in User Centered Design.
 
 There are no lectures, you need to actually read the book, one two two chapters each week.
 During class, you will work on the contextual design process steps in small teams, continuing the work throughout the week. The workload per week is
