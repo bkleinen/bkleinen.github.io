@@ -21,7 +21,9 @@ be in English. You are free to choose either language for your written assignmen
 The class consists of 2x2h of lectures and 2h of lab per week, with one lab held by Hermann Thiel and two labs held by me. Find the details in
 LSF - there's a link to the LSF class in the menu under 'External Links'.
 
-Additional to the class meetings there will be two optional events to help you learn programming: the tutorial held by Anja Kammer and [two additional modules, Creative Computing and Graphical User Interfaces,](extra/scratch-gui/) held by Linda Fernsel.  
+Additional to the class meetings there will be two optional events to help you learn programming:
+* Info1 tutorials held by Anja Kammer (Tuesdays 10:30-12:00, Room WH C 537)
+* [two additional modules, Creative Computing and Graphical User Interfaces,](extra/scratch-gui/) held by Linda Fernsel.  
 
 ## Grades
 
