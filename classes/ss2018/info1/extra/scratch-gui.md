@@ -19,12 +19,14 @@ Es stehen zwei Module zur Auswahl, die auf dieser Seite kurz vorgestellt werden.
 ## Introduction to Creative Computing
  **Zielgruppe**: Studierende ohne/mit wenig Programmiererfahrung
 
+ **Raum**: WH C 624
+
  **Termine**:
 * Donnerstag, 19. Mai, 15.45 - 17.45
 * Donnerstag, 26. Mai, 15.45 - 17.45
 * Donnerstag, 3. Mai, 15.45 - 17.45
-* ~~~Donnerstag, 10. Mai, 15.45 - 17.45~~~ Feiertag! Wir benötigen einen Ersatztermin
- * 7 Semesterwoche: "Scratchathon", 1 Tag (genauer Termin und Dauer werden im Kurs besprochen)
+* ~~~Donnerstag, 10. Mai, 15.45 - 17.45~~~  Feiertag! Wir benötigen einen Ersatztermin.
+* 7 Semesterwoche: "Scratchathon", 1 Tag (genauer Termin und Dauer werden im Kurs besprochen)
 
  **Umfang der Hausaufgaben**: 3 kleine Hausaufgaben, für die ihr je 1 Woche Zeit habt.
 
@@ -66,7 +68,7 @@ Es sind keine Ersatztermine geplant und der Inhalt der Workshops ist wichtig um 
 Ja. Es wird aber nur eins gewertet.
 
 ### Bewertung
-Beide Module sind gleichwertig und sind für denselben Zeitaufwand konzipiert. Ihr bekommt die zusätzlichen Credits die zwei Übungen entsprechen, wenn ihr die Hausaufgaben gemacht habt (und beim Creative Computing am Hackathon teilgenommen habt). Ich erwarte ehrliche Anstrengung und dass ihr versucht euch zu steigern. Wer kopiert bekommt natürlich keine Credits (was erlaubt ist und was nicht wird im Kurs besprochen).
+Beide Module sind gleichwertig und sind für denselben Zeitaufwand konzipiert. Ihr bekommt die zusätzlichen Credits (8%) die zwei Übungen entsprechen, wenn ihr die Hausaufgaben gemacht habt (und beim Creative Computing am Hackathon teilgenommen habt). Ich erwarte ehrliche Anstrengung und dass ihr versucht euch zu steigern. Wer kopiert bekommt natürlich keine Credits (was erlaubt ist und was nicht wird im Kurs besprochen).
 
 ### Modul-Verantwortliche
 Das mysteriöse ich, das hier schon so viel erzählt hat, heißt **Linda** und studiert IMI im 5. Semester. Mein erstes Semester ist auch noch nicht so lange her, und deshalb weiß ich wie schwierig dieser ganze neue Kram sein kann. Ich hoffe mein Modul kann euch helfen und für diejenigen, denen Informatik 1 zu einfach ist, hoffe ich, dass sie hier herausgefordert werden und etwas neues lernen.
