@@ -23,7 +23,7 @@ LSF - there's a link to the LSF class in the menu under 'External Links'.
 
 Additional to the class meetings there will be two optional events to help you learn programming:
 * Info1 tutorials held by Anja Kammer (Tuesdays 10:30-12:00, Room WH C 537)
-* [two additional modules, Creative Computing and Graphical User Interfaces,](extra/scratch-gui/) held by Linda Fernsel.  
+* [two additional courses, Creative Computing and Graphical User Interfaces,](extra/) held by Linda Fernsel.  
 
 ## Grades
 
@@ -32,7 +32,7 @@ Your grade in Info1 will be a weighted mixture of the evaluated elements of the 
 * Lab Reports: 50%
 * Exam: 50%
 * Lecture summaries: 8%
-* [Additional Module]((extra/scratch-gui/)): 8%
+* [Additional Course (Scratch or GUI)](extra/): 8%
 
 That is, both the additional module and the lecture summaries are optional - you don't need them to get 100% for the grade - but together they might lift your grade up a whole grade.
 
