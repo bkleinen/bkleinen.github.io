@@ -6,7 +6,7 @@ categories:
   - ss2018
 ---
 
-# Zusatzmodule Informatik1 SoSe 2018
+# Zusatzkurse Informatik1 SoSe 2018
 ## Worum geht es?
 
 In Informatik 1 wird es dieses Semester zwei Zusatzkurse geben, die euch mit kleinen Projekten die Möglichkeit geben, Programmieren anders zu lernen bzw. zu vertiefen.
