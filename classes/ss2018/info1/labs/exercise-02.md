@@ -62,7 +62,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
         /**
          * Reduce price by the given amount.
          **/
-    
+
         public void discount (int amount)
         {
         ...
@@ -71,7 +71,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 
 8. Add a method called `prompt` to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print the following single line of output: `Please insert the correct amount of money.`
 9. Add the possibility to count the number of tickets sold. Include a method for outputting how many tickets have been sold, like we did in class.
-10. Add a `printPrice` method to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print: `The price of a ticket is xyz cents.`  where xyz should be replaced by the value held in the price field when the method is called. Now create two ticket machines with differently priced tickets. Do calls to their showPrice methods show the same output, or different? How do you explain this effect?
+10. Add a `printPrice` method to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print: `The price of a ticket is xyz cents.`  where xyz should be replaced by the value held in the price field when the method is called. Now create two ticket machines with differently priced tickets. Do calls to their `printPrice` methods show the same output, or different? How do you explain this effect?
 11. Add and implement a method, `empty` , that simulates the effect of removing all money from the machine. This method should have a void return type, and its body should simply set the total field to zero. Does this method need to take any parameters? Test your method by creating a machine, inserting some money, printing some tickets, checking the total, and then emptying the machine. Is the empty method a mutator or an accessor?
 12. (For the bored) Can you make the better-ticket-machine give proper change with a minimal amount of Euro coins?
 
