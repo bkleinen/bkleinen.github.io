@@ -22,8 +22,8 @@ Es stehen zwei Kurse zur Auswahl, die auf dieser Seite kurz vorgestellt werden.
  **Raum**: WH C 624
 
  **Termine**:
-* Donnerstag, 19. Mai, 15.45 - 17.45
-* Donnerstag, 26. Mai, 15.45 - 17.45
+* Donnerstag, 19. April, 15.45 - 17.45
+* Donnerstag, 26. April, 15.45 - 17.45
 * Donnerstag, 3. Mai, 15.45 - 17.45
 * ~~~Donnerstag, 10. Mai, 15.45 - 17.45~~~  Feiertag! Wir benötigen einen Ersatztermin.
 * 7 Semesterwoche: "Scratchathon", 1 Tag (genauer Termin und Dauer werden im Kurs besprochen)
