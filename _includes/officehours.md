@@ -4,7 +4,10 @@ Office Hours Summer Term 2018:<br />
 
 Thursday, 12.4.2018 13-14<br />
 Friday, 20.4.2018 14-15<br />
+<div class="alert alert-danger" role="alert">
+FÄLLT AUS!
 Wednesday, 25.4.2018 11:30-12:20<br />
+</div>
 Friday, 4.5.2018 14-15 <br />
 Wednesday, 9.5.2018 11:30-12:30 <br />
 
