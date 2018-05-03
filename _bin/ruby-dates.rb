@@ -1,6 +1,6 @@
 require 'date'
 
-first_day=d=Date.new(2018,04,12)
+first_day=d=Date.new(2018,04,30)
 reject = Date.new(2018,05,10)
 day_diff=3
 two_days = false
