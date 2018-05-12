@@ -18,9 +18,11 @@ individual commit, and you you'll see the changes.
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter01/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ss2018.zip)
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter02/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ss2018.zip)
 
-* {% comment %}
+
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter03/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ss2018.zip)
-* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter04/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ss2018.zip) - 18.11.2014: in music organizer v3
+* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter04/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ss2018.zip) 
+
+* {% comment %}
 * [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter05/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ss2018.zip)
 
 * [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ss2018](https://github.com/htw-imi-info1/chapter07_testing/tree/ss2018) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ss2018.zip)
@@ -33,8 +35,9 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 * Lab 02: [TicketMachine](https://github.com/htw-imi-info1/exercise02)
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
-{% comment %}
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
+
+{% comment %}
 * Lab 06: [Club Membership](https://github.com/htw-imi-info1/exercise06)
 * Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)
 {% endcomment %}

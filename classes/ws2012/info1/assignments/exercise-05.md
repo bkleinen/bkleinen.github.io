@@ -34,7 +34,7 @@ in earlier.
 **A Better Notebook**
 
 1. Using the CodePad, test that your prelab work in P1 and P2 is correct. What test cases did you have to create?
-1. Adapt the notebook project you find in  [https://github.com/htw-imi-info1/exercise05](https://github.com/htw-imi-info1/exercise05) to list all notes, as done in class. Create a notebook and add some notes, checking that this method works as intended.
+1. Adapt the notebook project you find in  [https://github.com/htw-imi-info1/exercise05-with-kara](https://github.com/htw-imi-info1/exercise05-with-kara) to list all notes, as done in class. Create a notebook and add some notes, checking that this method works as intended.
 1. Modify your list method so that it prints a number in front of each note that corresponds to its index in the ArrayList.
 1. Implement a Method removeNote that removes all notes containing a certain string (as seen in class) in two ways: by using an iterator and by using a while loop with an index (without an iterator). Did you run into problems? If not, what may be the possible problems with this compared to the solution using an iterator?
 1. Modify removeNote to print out an error message if no notes were removed.
