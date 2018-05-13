@@ -1,66 +1,66 @@
 ---
-title: 'Exercise 06: Club Membership'
+title: 'Exercise 06: Lambda Functions'
 author: kleinen
 layout: lab
 ---
-- not yet released -
-{% comment %}
-![Reform Club](../../images/reform_club.jpg)
-<small class = "float-right">Reform Club, [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg)</small>
 
-This week's lab work is intended give you more practice using collections.
+![Topis](../../images/topis-9552387589_392a9b51c7_k.jpg)
+<small class = "float-right">Foto by [Max Handelsman](https://www.flickr.com/photos/maxh42/9552387589/)</small>
 
-## Prelab
+## Pre-lab
 
-<span class = "attention">
-As last week: **Do** prepare your Pre-Lab **before** the lab, in hand-writing, on paper.
-There is no need to print out the whole exercise if you don't want to,
-you can just use a plain sheet and write down your answers to P1-P4 on it.
-</span>
+This week's lab work is intended help you better understand lambda functions.
 
-<span class = "attention">
-I will ask you to show your pre-lab to me at the beginning of the lab.
-</span>
+### What to Bring to Lab
 
-#### What to Bring to Lab
+Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
 
-Please prepare these exercise before coming to the lab.
+**P1.** If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?
 
-**P1**. How do you write the import statement for using an ArrayList?
+**P2.** Given the following code:
 
-**P2.** How do you define a field that will take a collection of objects of type Student? How does it get initialized?
+```java
+public void printStudent (Student s)
+{
+     System.out.println (s.getDetails());
+}
+```
 
-**P3.** Write a method that returns true if the parameter month is valid, i.e. between 1 and 12.
+What is the equivalent lambda in Java? What syntax variations are possible?
 
-**P4.** How can you compare two names, stored as Strings, to see if they are the same?
+**P3.** Given the animal-monitoring-v1 example, write pseudo-code for determining how many elephants a particular spotter saw on a particular day.
 
-# Post-Lab, AKA  What To Turn In
+**P4.** Given the animal-monitoring-v1 example, write pseudo-code to create a stream containing only those sightings that have a count greater than 0.
 
-Your completed assignment, should be submitted to Moodle in two files: The lab report as a pdf, and the sources as zip.
-The lab report should include:
+## Post-Lab, AKA  What To Turn In
 
-- The names of all people in your group and mentions of any other collaborators in any parts of the exercise, if applicable.
-- A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
-- A screenshot or two demonstrating that your code works.
-- A record of how long you needed for this lab and what you learned.
+Your completed assignment, submitted in Moodle as a pdf, should include:
+* A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
+* A copy of the final version of your AnimalMonitor code.
+The names and roles of any collaborators in any parts of the exercise.
+* A record of how long you needed for this lab and what you learned.
 
-Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
+Lab assignments are due before your next lab at 22.00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
 
-As always, you may work on the assignment in groups; but each of you has to upload the (same!) report & source files from his or her own account!
+## Assignment
 
-# Assignment
+1. Download the [animal-monitoring-v1](https://github.com/htw-imi-info1/exercise06) project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P2, compile them and run them. Did they all work? Record the results for your lab report.
 
-# **Club Membership**
+2. Rewrite the `printSightingsOf` method in the AnimalMonitor class to use streams and lambdas. Test to make sure that your project still works as before.
 
-1. Use the club project at [https://github.com/htw-imi-info1/exercise06/](https://github.com/htw-imi-info1/exercise06/) to complete the following exercises. There is an outline in the project, but it doesn't do anything useful. The club class is intended to store Membership objects in a collection. Define a field for an ArrayList for keeping track of club members. Make sure this compiles before moving on.
-2. Complete the `numberOfMembers` method to return the current size of the collection. Since you can't add anyone yet, this will, of course, at the moment always return 0.
-3. A complete version of Membership is supplied for you. It stores members names and the month and year that they joined the club. Complete the `join` method. Add some members and see if the `numberOfMembers` still works. What do you have to do in order to test this?
-4. Implement a method `numberJoinedInMonth` that takes a month number and a year number as parameters and returns the number of persons who joined in that particular month of that year.
-5. Implement a method `listJoinedInMonth` that takes a month number and a year number as parameters and prints out the names of those who joined in this month. The bored can sort the list by name.
-6. Implement a method `search` that looks for members with a particular name. It should return the Membership object if a member with that name was found, `null` otherwise.
-6. Implement a method `remove` that removes the member with a particular name, using an iterator.
-7. Adapt the join method so that no two people with the same name can join the club. We don't care about capitalization, so "John" is the same as "john". Output an appropriate error message containing "Duplicate name".
-8. (For the bored) Define a method to remove all members in the club's collection who joined in a particular month and year, returning the ones removed in a separate collection object.
-9. (For the bored) Define a method to list all members of the club sorted first by year joined, then by month joined, and finally by name.
-10. (For the really bored) Extend the Membership object to include further information such as birthday. Make search methods for finding all the members who have a birthday in a particular month, and finding people who will be having "round" birthdays in the current year. There can be three meanings of "round", regular, prime and computing. Regular is 20, 30, 40, 50, 60, 65, 70, 75, 80, 85, 90, 95, 100. Prime is prime number ages. Computing is 16, 25, 26, 32, 36, 42, 49, 64, 81. Explain the computing numbers.
-{% endcomment %}
+3. Write a method `printSightingsInPeriod` in the `AnimalMonitor` class to print the details of all the sightings recorded within a certain period `periodID`, which is passed as a parameter to the method.
+
+4. Write a method `printSightingsOfInPeriod` that uses two filter calls to print details of all the sightings of a particular animal made in a particular period—the method takes the `animal` name and the `periodID` as parameters. Does the order of the two filter calls matter in your solution? Justify your answer.
+
+5. Write a method `printCounts` to print the counts of all sightings of a particular animal. Your method should use the map operations as part of the pipeline. If a pipeline contains a filter operation and a map operation, does the order of the operations matter to the final result? Justify your answer.
+
+6. Rewrite the `printEndangered` method in your project to use streams and test that it works correctly. Detail how you tested this method in your report.
+
+7. (For the bored) There is a special "::" notation in Java that can be used with lambdas. Research the syntax, and rewrite printSightingsBy to use this syntax. Does the operation of the method change?
+
+8. (For the bored) Add a method to AnimalMonitor that takes two parameters, a spotter-ID and a day-ID and returns a String containing the names of the animals seen by the spotter on that particular day. You should include only animals whose sighting count is greater than zero. Now add a method that takes an animal and a day-ID and returns the spotters who saw this animal, if any, on that particular day.
+
+
+<hr />
+Adapted from:
+[https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab5.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab5.shtml)
