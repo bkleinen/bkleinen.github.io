@@ -46,11 +46,11 @@ You can use the notebook-gui which should ease testing. The ```Notebook.java``` 
 
 1. Using the provided class `PreLab`in the prelab-and-primes project, test that your prelab work in P1-P2 is correct. What test cases did you have to create?
 1. `printAll()`: Adapt the notebook project you find in the repository to list all notes in a method called `printAll()`, as done in class. Create a notebook and add some notes, checking that this method works as intended.
-2. `getAll()`: Now copy the method, name the copy ```getAll()```    and modify  such that instead of printing all notes directly, it returns a string containing all notes with a new line in between.
+2. `getAll()`: Now copy the method, name the copy ```getAll()```    and modify  such that instead of printing all notes directly, it returns a string containing all notes with a new line ( "\n" ) in between.
 If you don't like the idea of copying code rewrite the `printAll()` method to use `getAll()`.
 1. `getAllNumbered()` : copy and modify your `getAll()` method so that it adds a number in front of each note that corresponds to its index in the ArrayList. The new method should be called `getAllNumbered()`.
 1. `getNotesWith(String searchString)`: implement a search method that returns a string with all the notes containing the search string, separated by "\n".  
-1. `removeNote(String searchString)`: Implement a Method `removeNote()` that removes all notes containing a searchString passed as parameter (as seen in class) i by using an iterator and the Iterator::remove method. The removeNote method returns nothing; it modifies the notes collection.
+1. `removeNote(String searchString)`: Implement a Method `removeNote()` that removes all notes containing a searchString passed as parameter (as seen in class) i by using an iterator and the remove() of the iterator method. The removeNote method returns nothing; it modifies the notes collection.
 2. `removeNotesWithIndex(String searchString)` Implement a second remove method without an Iterator, using a while loop with an index. The removeNote method returns nothing; it modifies the notes collection.
 Did you run into problems? If not, what may be the possible problems with this compared to the solution using an iterator?
 
