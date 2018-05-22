@@ -38,9 +38,9 @@ This schedule is tentative and subject to change.
 | 13   | 25 | Tue, 2018-06-26   | Abstract Classes, Interfaces                                                                                | 12      | [Exercise 11](../labs/exercise-11)                   |
 |      |    | Fri, 2018-06-29   | Handling Errors, Exceptions, Assertions,                                                                    | 14      | |                                                    |
 | 14   | 26 | Tue, 2018-07-03   | File-based IO, Files, Command Line                                                                          | 14      | [Exercise 12](../labs/exercise-12)                   |
-|      |    | Fri, 2018-07-06   | TBD                                                                                                         |         |                                                      |
+|      |    | Fri, 2018-07-06   | Trial Exams                                                                                                 |         |                                                      |
 | 15   | 27 | Tue, 2018-07-10   | --------------------------- Start of the exam period    ---------------------------                         |         | reports due  - Trial Exams                           |
-|      |    | Fri, 2018-07-13   |                                                                                                             |         |                                                      |
+|      |    | Fri, 2018-07-13   | EXAM                                                                                                        |         |                                                      |
 | 16   | 28 | Tue, 2018-07-17   |                                                                                                             |         |                                                      |
 |      |    | Fri, 2018-07-20   |                                                                                                             |         |                                                      |
 | 17   | 29 | Tue, 2018-07-24   |                                                                                                             |         |                                                      |

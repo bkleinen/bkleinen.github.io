@@ -4,8 +4,11 @@ author: kleinen
 layout: lab
 ---
 
-![Topis](../../images/topis-9552387589_392a9b51c7_k.jpg)
-<small class = "float-right">Foto by [Max Handelsman](https://www.flickr.com/photos/maxh42/9552387589/)</small>
+
+<figure class = "figure">
+   <img class="figure-img img-fluid" src="../../images/topis-9552387589_392a9b51c7_k.jpg"  alt="Topis">
+  <figcaption class="figure-caption text-right">Foto of Topis by <a href="https://www.flickr.com/photos/maxh42/9552387589/"> Max Handelsman</a></figcaption>
+</figure>
 
 ## Pre-lab
 
