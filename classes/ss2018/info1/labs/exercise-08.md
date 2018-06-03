@@ -3,8 +3,6 @@ title: 'Exercise 08: Bouncing Balls'
 author: kleinen
 layout: lab
 ---
-- not yet released -
-{% comment %}
 
 This week's lab work is intended give you practice working with the basic concepts of programming.
 
@@ -46,9 +44,8 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 
 1. Install the project in the lab. Experiment with canvas operations by making changes to the drawDemo method BallDemo. Draw some more lines, shapes and text.
 2. Draw a frame around the canvas by drawing a rectangle 20 pixels inside the window borders. Put this functionality into a method called drawFrame in the BallDemo class.
-3. Improve your `drawFrame` method to adapt automatically to the current canvas's size (that is, do not hard-code the size of the canvas into this method. To do this, you need to find out how to make use of an object of class Dimension. (Hint: check the API) Test it by manually resizing the canvas and calling drawFrame again.
+3. Improve your `drawFrame` method to adapt automatically to the current canvas's size (that is, do not hard-code the size of the canvas into this method. To do this, you need to find out how to make use of an object of class Dimension. (Hint: check the API) Test it by manually resizing the canvas and calling drawFrame again. (Note: you don't need to automatically ) **NOTE:** The frame does not to resize automatically when resizing the frame! This is an optional exersise - see below.
 4. Change the method bounce to let the user choose how many balls should be bouncing. Use a collection to store the balls so that you can deal with one, three, or 75 balls at once. The balls should initially be placed in a row along the top of the canvas. But what kind of a collection? We know about ArrayList, HashMap, and HashSet. Explain in your report why you chose the collection you did.
 5. Change the method bounce to place the balls randomly anywhere in the top half of the screen.
 6. (For the bored) Write a new method named boxBounce. This method draws a rectangle (the 'box') on the canvas, and one or more balls inside the box. For the balls, do not use BouncingBall, but create a new class BoxBall that moves around inside the box, bouncing off the walls of the box so that it always stays inside. The initial position and speed of the ball should be random. The boxBounce method should have a parameter that specifies how many balls are in the box.
 7. (For the really bored) Give the balls in boxBounce random colors. Include a method to change the size. Make balls that get larger and smaller. Make exploding balls that produce new ones when they disappear. Or whatever catches your fancy.
-{% endcomment %}
