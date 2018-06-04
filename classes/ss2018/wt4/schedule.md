@@ -17,7 +17,7 @@ wide_layout: true
 | 5    | 18 | Thu, 2018-05-10 | --- no class ---               |                                                                |                       |
 | 6    | 19 | Thu, 2018-05-17 | Design the Product             |                                                                | User Research Report  |
 | 7    | 20 | Thu, 2018-05-24 | Design the Product             |                                                                |                       |
-| 8    | 21 | Thu, 2018-05-31 | Low Fidelity Prototype         |                                                                |                       |
+| 8    | 21 | Mon, 2018-06-04 | Low Fidelity Prototype         |                                                                |                       |
 | 9    | 22 | Thu, 2018-06-07 | Low Fidelity Prototype         |                                                                |                       |
 | 10   | 23 | Thu, 2018-06-14 | User Testing I                 |                                                                | Product Design Report |
 | 11   | 24 | Thu, 2018-06-21 | User Testing I                 |                                                                |                       |
