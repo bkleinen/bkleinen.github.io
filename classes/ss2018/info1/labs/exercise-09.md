@@ -3,8 +3,7 @@ title: 'Exercise 09: Testing with JUnit'
 author: kleinen
 layout: lab
 ---
-- not yet released -
-{% comment %}
+
 This week's lab work is intended give you practice testing and writing assertions.
 
 #### What to Bring to Lab
@@ -34,7 +33,9 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 
 ## Diary
 
-1. Install the diary project in the lab: [Master Branch (Without additions done in class)](https://github.com/htw-imi-info1/chapter07_testing/tree/master/diary-prototype) or from the [ws2016 branch including those changes.](https://github.com/htw-imi-info1/chapter07_testing/tree/classes/ws2016/diary-prototype) Create a test method in DayTest to check that findSpace returns the value of 10 for a one-hour appointment, if a day already has a single one-hour appointment at 9 a.m. In essence, you need to perform similar steps to those used to create testFindSpace9  in the lecture but and use makeAppointment for the first appointment and findSpace for the second appointment. If you want to add an assertion for the result of the makeAppointment call, you should do so in a separate test method as each one should only have one assertion.
+A diary is a system for keeping track of appointments on specific days and specific hours. We are going to work with a diary that only can take one appointment per hour, starting at 9 a.m. with the last appointment going from 5 p.m. to 6 p.m. You will be given an implementation that could contain errors. Your job is to find the errors. You are only to develop tests and to find and describe errors, not to fix them.
+
+1. Install the [diary project in the lab](https://github.com/htw-imi-info1/chapter09_testing/tree/master/diary-prototype) - switch to the branch of the current term first to see the changes we did in class. Create a test method in DayTest to check that findSpace returns the value of 10 for a one-hour appointment, if a day already has a single one-hour appointment at 9 a.m. In essence, you need to perform similar steps to those used to create testFindSpace9  in the lecture but and use makeAppointment for the first appointment and findSpace for the second appointment. If you want to add an assertion for the result of the makeAppointment call, you should do so in a separate test method as each one should only have one assertion.
 2. Create a test to check that findSpace returns a value of -1, if an attempt is made to find an appointment in a day that is already full.
 3. Create a test class that has Appointment as its reference class. Record, using the record button control, separate test methods within it, that check that the description and duration fields of an Appointment object are initialized correctly following its creation.
 4. Create a negative test in the DayTest class. For example, try and set up a one-hour appointment, and then put in a two-hour appointment at the same time. What happens when you run the test? Include a screenshot in your report.
@@ -49,5 +50,3 @@ in earlier. You hand them in by preparing the report in PDF and submitting it to
 # Writeup
 
 Submit your writeup as your post-lab to the Moodle area.
-
-{% endcomment %}

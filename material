@@ -1,0 +1,16 @@
+---
+title: Info1 - Manual Walkthrough
+author: kleinen
+layout: page
+---
+3 - 2 = + 1 =
+| method           | displayValue | previousOperator | leftOperand |
+|:-----------------|:-------------|:-----------------|:------------|
+| new              | 0            | ' '              | 0           |
+| numberPressed(3) | 3            | ' '              | 0           |
+| minus()          | 0            | '-'              | 3           |
+| numberPressed(2) | 2            | '-'              | 3           |
+| equals()         | 1            | '-'              | 0           |
+| plus()           | 0            | '+'              | -1          |
+| numberPressed(1) | 1            | '+'              | -1          |
+| equals()         | 0            | '+'              | 0           |
