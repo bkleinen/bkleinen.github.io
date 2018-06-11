@@ -51,8 +51,7 @@ I've put together some Information regarding <a href="bafoeg/">Baf&ouml;g</a> - 
 
 <a href="studies/auslandspraktikum/">Info-Seite Praktikum .</a><br />
 Bei Fragen kommen Sie bitte in meine Sprechstunde.<br />
-<a href="{{ site.baseurl }}/news/infoveranstaltung-praktikum/">Info-Veranstaltung am 1.6.17</a>
-</div>
+
 <div class = "below">
 &nbsp;
 {% comment%}

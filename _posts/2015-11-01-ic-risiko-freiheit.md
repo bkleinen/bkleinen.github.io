@@ -6,6 +6,7 @@ date: 2015-11-01 02:00:00 +0100
 excerpt_separator: <!--more-->
 categories:
   - Projects
+  - old
 ---
 
 Das von Eva-Maria Rolfes im Rahmen ihres Independent Coursworks erstellte Projekt

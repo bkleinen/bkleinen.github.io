@@ -3,8 +3,6 @@ title: 'Exercise 10 a: The World of You'
 author: kleinen
 layout: lab
 ---
-- not yet released -
-{% comment %}
 # Pre-lab
 
 This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester.
@@ -63,4 +61,3 @@ throw tests away, but you must have a complete walkthrough of your world in some
 6. Add at least one new direction to your world: as a first step, add one or more new test cases to GameSystemTest to test that this direction/passage between rooms is available. This test will fail.
 Them implement the new connection. If you did the refactoring right, you should only need to adapt the
 `createRooms()` method in Game.
-{% endcomment %}

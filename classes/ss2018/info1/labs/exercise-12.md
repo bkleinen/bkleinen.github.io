@@ -3,8 +3,7 @@ title: 'Exercise 12: Pick up and Carry'
 author: kleinen
 layout: lab
 ---
-- not yet released -
-{% comment %}
+
 # Pre-lab
 
 This week's lab work will finish up your project.
@@ -53,7 +52,7 @@ in earlier.
 1. (For the bored) Add a magic cookie item to a room. Add an "eat cookie" command. If a player finds and eats the magic cookie, it increases the weight that the player can carry. You may adapt this to your game scenario
 2. (For the bored) Add some form of time limit to your game. If a certain task is not completed in a specified time (or number of steps through the rooms), the player loses.
 3. (For the bored) Implement a trapdoor - one that only goes one way. Don't forget to sort out what happens with "back" on this exit.
-4. (For the really bored) Add a beamer to the game. It can be charged, that is, it remebers the location it was charged in. And it can be fired, returning the player automatically to the remembered location. Remember to sort out back :)
+4. (For the really bored) Add a beamer to the game. It can be charged, that is, it remembers the location it was charged in. And it can be fired, returning the player automatically to the remembered location. Remember to sort out back :)
 5. (To keep the bored busy over the spring break) Add locked doors. Players have to find the key and unlock them before they can continue. Add a transporter room that transports the player to a random room. Add non-playing characters to the game - they are similar to items, but they speak to you when you meet them in a room. They may give you help if you are nice to them. Add moving characters. Add monsters. Now fix theprocessCommand method, which is probably an unholy mess by now. Refactor and improve the design to make it easy to add new commands.
 
 * * *
@@ -61,4 +60,3 @@ in earlier.
 # Writeup
 Submit your writeup as your post-lab to the Moodle area by the final date given on the schedule.
 * * *
-{% endcomment %}
