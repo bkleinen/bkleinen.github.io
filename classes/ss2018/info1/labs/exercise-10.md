@@ -56,7 +56,7 @@ in earlier.
 
 1.  Start with the bad Zuul game with tests - [your-zuul](https://github.com/htw-imi-info1/exercise10) -  and refactor it as discussed in the lectures.
     If you are doing mole burrows instead of rooms, you can change the variable names as needed.
-    The bored can prepare a multi-lingual version and use enums. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [command-words-after-refactoring](https://github.com/htw-imi-info1/exercise10/tree/master/command-words-after-refactoring).
+2. The bored can prepare a multi-lingual version and use enums. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [enums](https://github.com/htw-imi-info1/exercise10/tree/master/enums) in the repository.
 2.  Draw an  [object diagram](http://www.agilemodeling.com/artifacts/objectDiagram.htm) showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?  (An [object diagram](http://www.agilemodeling.com/artifacts/objectDiagram.htm) shows the active instances of classes - objects - at a given time in the execution of a program, as opposed to a [class diagram](http://agilemodeling.com/artifacts/classDiagram.htm) that shows the classes defined in the program source code).
 3.  Add a &#8220;look&#8221; command to your game.
 4.  Add an additional command (such as &#8220;eat&#8221;, which for now just prints out &#8220;You have eaten now and are not hungry any more&#8221;. In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
