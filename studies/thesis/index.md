@@ -6,11 +6,10 @@ layout: default
 
 My main areas of interest are
 
-* Web Engineering
+* Web Technology
 * Continuous Deployment and DevOps
 * Agile Development
-* Learning Support
-* Automatic Testing
+* User Centered Design and Usability
 
 And especially all intersections of these areas.
 
@@ -24,44 +23,23 @@ to see and use.
 
 ## Thesis Topics in the area of DevOps
 
-### Visualize the Deployment Pipeline (B/M)
-The trend in devops seems to move away from monolithic tools towards a service based
-infrastructure. We've recently set up a deployment pipeline for [IMI-Maps](https://github.com/imimaps/imimaps)
-using travis, docker, docker hub, ansible, ansible vault and local vms -
-a quite complex infrastructure consisting of tools, services and scripts.
-While monolitic tools have the possibility to nicely visualize the deployment pipeline,
-with a setup like this that's no longer the case. The thesis should try to
-find solutions and build a prototype for visualizing a deployment pipeline.
-The IMI-Map Deployment can be used as an example.
-
 ## IMI and Supporting Learning
 
-### IMI-Dashboard
+### IMI-Dashboard/Calendar
 
 Identify relevant and important information for IMI-Students and find ways to present it
 to them - that might be a dashboard, but also include other forms of hardware.
+There is a rails-based prototype
 
-### Reducing the number of drop-outs
-Currently, Master students of the Class WT4 / User Centered Web Design develop
-Product Concepts mainly around the goal of reducing the number of drop-outs.
-There will be a final presentation of the results on Thursday, 20/7/17, 8:45-12:00 which is
-late, but not too late to pick up ideas presented there and turn them into thesis topics.
+### Search for the IMI-Map
 
-###  Using Automated Testing for Teaching and Learning: Programming Exercise Feedback
-Design a way to provide Feedback for Programming exercises in Informatics 1 and 2.
+Develop a search algorithm to find internships for the IMI-Map.
 
 ## Supporting Agile Development
 
-### Open Backlog
-Within Scrum, Backlog grooming or Estimation is an important part of the
-communication between product owner and team. Backlogs need to be navigated and
-prioritized, Storys are annotated and estimated. The goal of this thesis would
-be to design and implement a backlog visualization tool that integrates with
-other tools to collect tasks/issues, like especially github issues.
+### Topic Driven Backlog: Deployment and Usability Testing
 
-
-
-
+Continuation of the Topic Driven Backlog Project: Plan and implement in a course.
 
 # Further Information and Links
 * [Antworten auf Fragen, die mir häufig gestellt wurden (Deutsch)](faq)
