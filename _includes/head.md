@@ -1,4 +1,14 @@
     <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121207290-1');
+</script>
+
         <title>{{ page.title }}</title>
 
         <!-- Bootstrap Required meta tags -->
