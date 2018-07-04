@@ -4,6 +4,17 @@ author: kleinen
 layout: page
 ---
 
+# Web frameworks
+
+While developing the test application with your chosen framework, consider the following aspects of your chosen framework:
+
+1. Routing and Architectural Patterns
+2. How is HTML generated
+3. Authentication
+4. Persistency and Connectivity to Databases
+5. Security
+
+
 
 {% comment %}
 # Week 1
@@ -126,7 +137,7 @@ make sure you have tagged all versions with the corresponding week, e.g.
 
 
     {% endcomment %}
-    
+
 {% comment %}
 | 1    | 46 | Wed, 2017-11-15 | Project Start, The Rails World           | [Week1](../assignments/#week-1) |
 | 2    | 47 | Wed, 2017-11-22 | Rails Dash, Active Record and Migrations | [Week2](../assignments/#week-2) |

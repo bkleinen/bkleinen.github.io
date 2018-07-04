@@ -9,9 +9,9 @@ layout: default
 * [Bibliothek](http://bibliothek.htw-berlin.de)
     * [Opac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
     * [Login](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin)
-* [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
-* [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do)
-* [Anschaffungsvorschlag](https://bibliothek.htw-berlin.de/literatur-suchen/anschaffungsvorschlag/?no_cache=1)
+    * [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
+    * [Direkt zur Anmeldung](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do)
+    * [Anschaffungsvorschlag](https://bibliothek.htw-berlin.de/literatur-suchen/anschaffungsvorschlag/?no_cache=1)
 
 ## "Intranet"
 https://wiki.rz.htw-berlin.de/
