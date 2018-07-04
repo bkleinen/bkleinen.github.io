@@ -14,6 +14,10 @@ While developing the test application with your chosen framework, consider the f
 4. Persistency and Connectivity to Databases
 5. Security
 
+# Github repository
+
+[https://github.com/htw-imi-m1/rails-todo-list-ss2018](https://github.com/htw-imi-m1/rails-todo-list-ss2018)
+
 # Thema: Todo-Liste
 
 ## Backlog
