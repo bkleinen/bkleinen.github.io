@@ -22,3 +22,22 @@ strikeout with date.
 9. Data Processes: These are data processes or scripts that the project depends on. The list includes the process name, a description of where it's located, what it does, etc. and runtime/duration. This table will be updated throughout the life of the product.
 10. Prototypes: Copies of low- or high fidelity screenshots, mockups, models, etc.
 11. Maintenance Notes: Additional notes that would be pertinent to the support of this product.
+
+# Report 2
+
+## Product Design Report
+
+* Results of Visioning
+* Product Concepts
+* Paper Prototypes
+
+# Report 3
+## Evaluation Iterations
+
+* 2 Iterations on Evaluating the Paper Prototypes
+* High Fidelity Prototypes on two Aspects:
+    * 1 Usability Test
+    * 1 A/B Test
+* Reflection on Experience with Testing Methods
+* Continue the Project Template from Report 1!
+* Final Presentation of your Product Concept
