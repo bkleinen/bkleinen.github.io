@@ -1,0 +1,6 @@
+AuthType Basic
+AuthUserFile /home/user/K/kleinen/.passwd
+AuthName "websvn"
+order deny,allow
+allow from all
+require valid-user

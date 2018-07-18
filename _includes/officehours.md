@@ -5,16 +5,13 @@ Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
 alle erforderlichen Unterlagen</a> mit.
 <br /><br />
 
-Wednesday, 20.06.2018 11:30-12:30<br />
-<div class="alert alert-danger" role="alert">
-Fällt aus:
-<s>Wednesday, 27.06.2018 11:30-12:30<br /></s>
-</div>
-Wednesday, 04.07.2018 11:30-12:30<br />
-Wednesday, 11.07.2018 11:30-12:30<br />
-Wednesday, 18.07.2018 11:30-12:30<br />
-<div class="alert alert-info" role="alert">
 
+<div class="alert alert-danger" role="alert">
+Verschoben:
+<s>Wednesday, 18.07.2018 11:30-12:30<br /></s>
+</div>
+
+<div class="alert alert-info" role="alert">
 <b>Please check back here for changes!</b>
 </div>
 
