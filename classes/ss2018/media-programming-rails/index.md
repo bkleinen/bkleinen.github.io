@@ -1,33 +1,21 @@
 ---
-title: "M1 Media Programming: Web Technology"
+title: "M1 Media Programming"
 author: kleinen
 layout: page
-redirect_from:
-  - media-programming-rails/
-
 ---
 
-## Welcome!
+# Grading
 
-This pages introduce you to the web application part of the "Epochenunterricht" in M1 Mediaprogramming.
-The Epochenunterricht consists of 3 x 5 laboratory sessions for the three study focuses Web Technology,
-Visual Computing and Game Technology respectively. Have a look at the [tentative overall schedule](overall-schedule) to
-see how this breaks down.
+Due to changes during the term we had to adapt the grading scheme for SS2018:
 
-## What we will do
+|                     | Anwesenheit /h | Arbeitsaufwand /h | Gesamt | Prozent Note |
+|:--------------------|:---------------|:------------------|:-------|:-------------|
+| Mooc 1              |                | 50                | 50	h    | 20           |
+| Mooc 2              |                | 50                | 50	h    | 20           |
+| Übungsteil \*       | 30             | 60                | 90	h    | 15           |
+| Übung S. Baumeister | 33             | 50                | 83	h    | 45           |
+| Gesamt              |                |                   | 273 h  | 100          |
 
-Within the five weeks of Web Technology, you will work on your own Web Application Project in a more or less
-agile manner. Less agile, because you will work on the user stories not in the order of business value, but
-in a technology driven order.
+Arbeitsaufwand für 10	ECTS: 250-300h
 
-## What you need to do to pass
-
-This is one part of the M1 laboratory. You need to pass each of the three parts to pass the Labs altogether. There are no grades,
-just a "passed" or "not passed" as well as for each part as for the three parts together. You need to pass
-each part - Web Technology, Visual Computing and Game Technology - to pass the lab part of M1 Media Programming.
-There will also be questions in the exam regarding topics covered in all three lab parts.
-
-For Web Technology, you will have to prepare and hand in 3 project reports together with the source code of
-your projects. The project reports have to be prepared as PDF and describe what you did, what you learned, what worked and
-what didn't work. You'll find detailled instructions for each week in the [assignments](assignments). The project reports are due at 22:00
-on the night before the next meeting and need to be uploaded to Moodle.
+\* Übungsteil: die drei Übungsteile müssen jeweils bestanden sein, um das Modul insgesamt zu bestehen. (Daher ist ein Großteil des Aufwandes unbenotet)
