@@ -1,6 +1,6 @@
 
  <ul class="nav nav-tabs m-b-3">
- {% assign navitems = "M1--/classes/ss2018/media-programming-rails/,Overall Schedule--/classes/ss2018/media-programming-rails/overall-schedule/,WT Schedule--/classes/ss2018/media-programming-rails/schedule/,Assignments--/classes/ss2018/media-programming-rails/assignments/" | split: "," %}
+ {% assign navitems = "M1--/classes/ss2018/media-programming-rails/,Overall Schedule--/classes/ss2018/media-programming-rails/overall-schedule/,Web--/classes/ss2018/media-programming-rails/web/,WT Schedule--/classes/ss2018/media-programming-rails/schedule/,Assignments--/classes/ss2018/media-programming-rails/assignments/" | split: "," %}
  {% for navitem in navitems %}
    <li class="nav-item">
      {% assign n = navitem | split: "--" %}
