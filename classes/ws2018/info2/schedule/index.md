@@ -1,48 +1,52 @@
 ---
-title:  Info2 SS2017 Schedule
+title:  Info2 WS2018 Schedule
 author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include classes/ss2017/info2.md %}
+{% include classes/ws2018/info2.md %}
 
 ## Tentative Schedule - Lab Topics are subject to change!
 Lab Assignments not linked here have not released for this term yet and
 might be changed.
 
-| Week | KW | Lecture                                        | Lecture Topic                                                                        | Group   | Lab | Lab Topic                                                         |
-|:-----|:---|:-----------------------------------------------|:-------------------------------------------------------------------------------------|:--------|:----|:------------------------------------------------------------------|
-| 1    | 14 | Tue, 2017-04-04                                | Welcome Back, Overview, Designing Applications                                       | Group 2 | 1   | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
-|      |    | Fri, 2017-04-07                                | Toolbox: Java, Eclipse                                                               | Group 1 | 1   | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
-| 2    | 15 | Tue, 2017-04-11                                | Error Handling and Exceptions reviewed                                               | Group 2 | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
-|      |    | Fri, 2017-04-14                                | ---- Feiertag: Karfreitag -----                                                      |         |     | - no lab -                                                        |
-| 3    | 16 | Tue, 2017-04-18                                | Networking in Java. File I/O.                                                        |         |     | - no lab -                                                        |
-|      |    | Fri, 2017-04-21                                | Concurrency                                                                          | Group 1 | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
-| 4    | 17 | Tue, 2017-04-25                                | Complexity of Algorithms, Binary Search                                              | Group 2 | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
-|      |    | Fri, 2017-04-28                                | Properties of Algorithms, Maximum Contiguous Subsequence Sum                         | Group 1 | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
-| 5    | 18 | Tue, 2017-05-02                                | Arrays and Lists                                                                     | Group 2 | 4   | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
-|      |    | Fri, 2017-05-05                                | Stacks                                                                               | Group 1 |     | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
-| 6    | 19 | Tue, 2017-05-09                                | Recursion                                                                            | Group 2 | 5   | [Execution Times](../labs/lab-05) (Pre-Lab!)                      |
-|      |    | Fri, 2017-05-12                                | Queues, Priority Queues, Collections: Sets, Bags, Maps.                              | Group 1 |     | [Execution Times](../labs/lab-05)   (Pre-Lab!)                    |
-| 7    | 20 | Tue, 2017-05-16                                | Recursion                                                                            |         | 6   | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
-|      |    | Fri, 2017-05-19                                | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited                  |         |     | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
-| 8    | 21 | Tue, 2017-05-23                                | ...                                                                                  |         |     | - no lab -                                                        |
-|      |    | Fri, 2017-05-26                                | ---- Frei: Freitag nach Himmelfahrt ----                                             |         |     | - no lab -                                                        |
-| 9    | 22 | Tue, 2017-05-30                                | ...                                                                                  |         | 7   | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                  |
-|      |    | Fri, 2017-06-02                                | SortingQuicksort, Radix Sort                                                         |         |     | [Recursive Triangles](../labs/lab-07)   (Pre-Lab!)                |
-| 10   | 23 | Tue, 2017-06-06                                | TWO Lectures! Sorting Condinued, Random numbers, Probabilistic Algorithms            |         | 8   | [Eight Queens](../labs/lab-08) (Pre-Lab!)                         |
-|      |    | Fri, 2017-06-09                                | Graphs, Graph Algorithms                                                             |         |     | [Eight Queens](../labs/lab-08)  (Pre-Lab!)                        |
-| 11   | 24 | Tue, 2017-06-13                                | Searching, Nearest Neighbor, Branch and Bound                                        |         | 9   | [Probablistic Algorithms](../labs/lab-09)  (Pre-Lab!)             |
-|      |    | Fri, 2017-06-16                                | Trees, Heapsort, Sorting Algorithms Conclusion                                       |         |     | [Probablistic Algorithms](../labs/lab-09)                         |
-| 12   | 25 | Tue, 2017-06-20                                | Finite State Automata                                                                |         | 10  | [Getting from A to B](../labs/lab-10)                             |
-|      |    | Fri, 2017-06-23                                | Finite State Automata                                                                |         |     |                                                                   |
-| 13   | 26 | Tue, 2017-06-27                                |                                                                                      |         | 11  | [Getting from A to B](../labs/lab-10)                             |
-|      |    | Fri, 2017-06-30                                |                                                                                      |         |     |                                                                   |
-| 14   | 27 | Tue, 2017-07-04                                | Hashs                                                                                |         | 12  | [Scrabble Cheater](../labs/lab-11)                                |
-|      |    | Fri, 2017-07-07                                | String Searching and Pattern Matching                                                |         |     | [Scrabble Cheater](../labs/lab-11)                                |
-| 15   | 28 | Tue, 2017-07-11                                | Searching,Scanning and Parsing Algorithms                                            |         |     | Trial Exam                                                        |
-|      |    | Fri, 2017-07-14                                | AVL Trees                                                                            |         |     | Trial Exam                                                        |
-| 16   | 29 | Tue, 2017-07-18                                | Repetition / Trial Exam Review                                                       |         |     |                                                                   |
-|      |    | Fri, 2017-07-21                                | Exam                                                                                 |         |     |                                                                   |
-| 17   | 30 | <span class="attention">Wed, 2017-07-26</span> | Exam Review 26. Jul 2017, 12:30 to 14:00 <span class="attention">Day changed!</span> |         |     |                                                                   |
-|      |    | Fri, 2017-07-28                                | IMI Showtime                                                                         |         |     |                                                                   |
+| Week | KW | Lecture         |    | Lecture Topic                                                       | Lab | Lab Topic                                                         |
+|:-----|:---|:----------------|:---|:--------------------------------------------------------------------|:----|:------------------------------------------------------------------|
+| 1    | 39 | Fri, 2018-10-05 | I  | Welcome Back, Overview, Designing Applications                      | 1   | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
+|      |    |                 | II | Toolbox: Java, Eclipse                                              | 1   | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
+| 2    | 40 | Fri, 2018-10-12 | I  | Error Handling and Exceptions reviewed                              | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
+|      |    |                 | II |                                                                     |     | - no lab -                                                        |
+| 3    | 41 | Fri, 2018-10-19 | I  | Networking in Java. File I/O.                                       |     | - no lab -                                                        |
+|      |    |                 | II | Concurrency                                                         | 2   | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
+| 4    | 42 | Fri, 2018-10-26 | I  | Complexity of Algorithms, Binary Search                             | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
+|      |    |                 | II | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
+| 5    | 43 | Fri, 2018-11-02 | I  | Arrays and Lists                                                    | 4   | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
+|      |    |                 | II | Stacks                                                              |     | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
+| 6    | 44 | Fri, 2018-11-09 | I  | Recursion                                                           | 5   | [Execution Times](../labs/lab-05) (Pre-Lab!)                      |
+|      |    |                 | II | Queues, Priority Queues, Collections: Sets, Bags, Maps.             |     | [Execution Times](../labs/lab-05)   (Pre-Lab!)                    |
+| 7    | 45 | Fri, 2018-11-16 | I  | Recursion                                                           | 6   | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
+|      |    |                 | II | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |     | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
+| 8    | 46 | Fri, 2018-11-23 | I  |                                                                     |     | - no lab -                                                        |
+|      |    |                 | II |                                                                     |     | - no lab -                                                        |
+| 9    | 47 | Fri, 2018-11-30 | I  | Sorting Quicksort, Radix Sort                                       | 7   | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                  |
+|      |    |                 | II | Sorting Condinued,                                                  |     | [Recursive Triangles](../labs/lab-07)   (Pre-Lab!)                |
+| 10   | 48 | Fri, 2018-12-07 | I  | Random numbers, Probabilistic Algorithms                            | 8   | [Eight Queens](../labs/lab-08) (Pre-Lab!)                         |
+|      |    |                 | II | Graphs, Graph Algorithms                                            |     | [Eight Queens](../labs/lab-08)  (Pre-Lab!)                        |
+| 11   | 49 | Fri, 2018-12-14 | I  | Searching, Nearest Neighbor, Branch and Bound                       | 9   | [Probablistic Algorithms](../labs/lab-09)  (Pre-Lab!)             |
+|      |    |                 | II | Trees, Heapsort, Sorting Algorithms Conclusion                      |     | [Probablistic Algorithms](../labs/lab-09)                         |
+| 12   | 50 | Fri, 2018-12-21 | I  | Finite State Automata                                               | 10  | [Getting from A to B](../labs/lab-10)                             |
+|      |    |                 | II | Finite State Automata                                               |     |                                                                   |
+| 13   | 51 | Fri, 2018-12-28 | I  |                                                                     | 11  | [Getting from A to B](../labs/lab-10)                             |
+|      |    |                 | II |                                                                     |     |                                                                   |
+| 14   | 52 | Fri, 2019-01-04 | I  | Hashs                                                               | 12  | [Scrabble Cheater](../labs/lab-11)                                |
+|      |    |                 | II | String Searching and Pattern Matching                               |     | [Scrabble Cheater](../labs/lab-11)                                |
+| 15   | 53 | Fri, 2019-01-11 | I  | Searching,Scanning and Parsing Algorithms                           |     | Trial Exam                                                        |
+|      |    |                 | II | AVL Trees                                                           |     | Trial Exam                                                        |
+| 16   | 54 | Fri, 2019-01-18 | I  | Repetition / Trial Exam Review                                      |     |                                                                   |
+|      |    |                 | II |                                                                     |     |                                                                   |
+| 17   | 55 | Fri, 2019-01-25 | I  | Exam Review - Exam Period has started                               |     |                                                                   |
+|      |    |                 | II |                                                                     |     |                                                                   |
+| 18   | 56 | Fri, 2019-02-01 | I  | Exam?                                                               |     |                                                                   |
+|      |    |                 | II |                                                                     |     |                                                                   |
+| 19   | 57 | Fri, 2019-02-08 | I  | IMI SHOWTIME!!                                                      |     |                                                                   |
+|      |    |                 | II | IMI SHOWTIME!!                                                      |     |                                                                   |
