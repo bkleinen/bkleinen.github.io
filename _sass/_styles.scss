@@ -36,3 +36,25 @@ $color-areas: false;
 .coursenav {
   padding-bottom: 20px;
 }
+
+
+// Navigation Bars
+
+
+// Left Menu
+
+.nav {
+  .nav-link.active {
+    background-color: $htw-active;
+    color: $htw-active-bg;
+  }
+}
+
+
+
+
+//$navbar-dark-active-color: $htw-active;
+
+//color: $nav-tabs-link-active-color;
+//background-color: $nav-tabs-link-active-bg;
+//border-color: $nav-tabs-link-active-border-color $nav-tabs-link-active-border-color $nav-tabs-link-active-bg;

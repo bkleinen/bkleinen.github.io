@@ -22,10 +22,26 @@ $htw-grau: #AFAFAF;
 $htw-header:  $htw-black20;
 $htw-link:  $htw-black20;
 $htw-ruler: $htw-green60;
+
 /* more color constants */
 
 $main-color: #000;
 $attention-color: $htw-orange;
+
+
+// Colors for Navigation
+$htw-active: $htw-green20;
+$htw-active-bg: $htw-black80;
+
+// Horizontal Tab Menu in Classes
+$nav-tabs-link-active-color:        $htw-active-bg; // $gray-700 !default;
+$nav-tabs-link-active-bg:           $htw-active;
+$nav-tabs-link-active-border-color: #ddd !default;
+
+// Dropdowns in left menu
+
+$dropdown-link-active-color:       $htw-active-bg;
+$dropdown-link-active-bg:          $htw-active;
 
 .htw-green20 {color: $htw-green20;}
 .htw-green40 {color: $htw-green40;}
