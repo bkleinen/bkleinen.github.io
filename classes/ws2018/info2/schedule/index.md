@@ -4,10 +4,9 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include classes/ws2018/info2.md %}
 
-## Tentative Schedule - Lab Topics are subject to change!
-Lab Assignments not linked here have not released for this term yet and
+## Very very first draft / Tentative Schedule - Lab Topics are subject to change!
+Lab Assignments not linked here have not been released for this term yet and
 might be changed.
 
 | Week | KW | Lecture         |    | Lecture Topic                                                       | Lab | Lab Topic                                                         |

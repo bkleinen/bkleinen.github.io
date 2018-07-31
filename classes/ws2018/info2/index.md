@@ -1,13 +1,11 @@
 ---
-title: Info2 Sommersemester 2017
+title: Info2 WS 2018/19
 author: kleinen
 layout: default
 redirect_from:
   - info2/
 
 ---
-
-{% include classes/ss2017/info2.md %}
 
 # Welcome!
 
