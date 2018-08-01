@@ -1,49 +1,42 @@
 
 <ul class="nav flex-md-column">
-  <li class="nav-item active">
-    <a class="nav-link dropdown-toggle active" href="#" role="button" id="dropdownMenuLink"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Classes
-    </a>
+  <li class="nav-item">
+    {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item active" href="{{ site.baseurl }}/classes/ss2018/info1">Info1</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/wt4">WT4 -  User-Centered Web Technology</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/media-programming-rails">M1 Mediaprogramming</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes/ss2018/project">Praxisprojekt: Umweltatlas</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/classes">All Classes</a>
+      {% include navigation_dropdown_item.md url = "/classes/ss2018/info1/"  link_text = "Info1" %}
+      {% include navigation_dropdown_item.md url = "/classes/ss2018/wt4/"     link_text = "WT4 -  User-Centered Web Technology" %}
+      {% include navigation_dropdown_item.md url = "/classes/ss2018/media-programming-rails/" link_text = "M1 Mediaprogramming" %}
+      {% include navigation_dropdown_item.md url = "/classes/ss2018/project/" link_text = "Praxisprojekt: Umweltatlas" %}
+      {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
+
     </div>
   </li>
 
-  <li class="nav-item active">
-    <a class="nav-link" href="{{ site.baseurl }}/contact">Contact Info</a>
+  <li class="nav-item">
+    <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="{{ site.baseurl }}/contact/">Contact Info</a>
   </li>
 
+
   <li class="nav-item">
-    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Studies
-    </a>
+    {% include navigation_nav_link.md url_element = "studies"  link_text = "Studies" %}
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="{{ site.baseurl }}/studies/auslandspraktikum/">Praktikum</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/studies/bafoeg">Baf&ouml;g</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/studies/thesis">Thesis</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/studies/grading">General Grading Info</a>
+      {% include navigation_dropdown_item.md url = "/studies/auslandspraktikum/" link_text = "Praktikum" %}
+      {% include navigation_dropdown_item.md url = "/studies/bafoeg/"             link_text = "Baf&ouml;g" %}
+      {% include navigation_dropdown_item.md url = "/studies/thesis/" link_text = "Thesis" %}
+      {% include navigation_dropdown_item.md url = "/studies/grading/" link_text = "Grading Info" %}
     </div>
   </li>
 
 
   <li class="nav-item">
-    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Misc
-    </a>
+    {% include navigation_nav_link.md url_element = "misc"  link_text = "Misc" %}
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="{{ site.baseurl }}/misc/about-this-site">About this Site</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/misc/trans">Trans*</a>
-      <a class="dropdown-item" href="{{ site.baseurl }}/misc/links">Links</a>
+      {% include navigation_dropdown_item.md url = "/misc/about-this-site/" link_text = "About this Site" %}
+      {% include navigation_dropdown_item.md url = "/misc/trans/" link_text = "Trans*" %}
+      {% include navigation_dropdown_item.md url = "/misc/links/" link_text = "Links" %}
     </div>
   </li>
 <ul>
