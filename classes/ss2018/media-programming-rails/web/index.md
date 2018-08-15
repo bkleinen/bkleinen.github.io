@@ -11,7 +11,7 @@ redirect_from:
 
 This pages introduce you to the web application part of the "Epochenunterricht" in M1 Mediaprogramming.
 The Epochenunterricht consists of 3 x 5 laboratory sessions for the three study focuses Web Technology,
-Visual Computing and Game Technology respectively. Have a look at the [tentative overall schedule](overall-schedule) to
+Visual Computing and Game Technology respectively. Have a look at the [tentative overall schedule](../overall-schedule) to
 see how this breaks down.
 
 ## What we will do
@@ -29,5 +29,5 @@ There will also be questions in the exam regarding topics covered in all three l
 
 For Web Technology, you will have to prepare and hand in 3 project reports together with the source code of
 your projects. The project reports have to be prepared as PDF and describe what you did, what you learned, what worked and
-what didn't work. You'll find detailled instructions for each week in the [assignments](assignments). The project reports are due at 22:00
+what didn't work. You'll find detailled instructions for each week in the [assignments](../assignments). The project reports are due at 22:00
 on the night before the next meeting and need to be uploaded to Moodle.
