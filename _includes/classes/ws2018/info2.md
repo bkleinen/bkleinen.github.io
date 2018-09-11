@@ -10,10 +10,10 @@
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">External Links</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" target = "ex_link" href="#">Moodle</a>
-      <a class="dropdown-item" target = "ex_link" href="#">SU in LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="#">Labs in LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="#">Semesterstundenplan im LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://moodle.htw-berlin.de/course/view.php?id=18155">Moodle</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142809">SU in LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142634">Labs in LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&missing=allTerms&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
 
       <a class="dropdown-item" target = "ex_link" href="https://github.com/htw-imi-info2">Github</a>
     </div>

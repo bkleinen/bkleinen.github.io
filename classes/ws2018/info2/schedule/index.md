@@ -5,7 +5,7 @@ layout: default
 wide_layout: true
 ---
 
-## Very very first draft / Tentative Schedule - Lab Topics are subject to change!
+## Tentative Schedule - Lab Topics are subject to change!
 Lab Assignments not linked here have not been released for this term yet and
 might be changed.
 
@@ -17,33 +17,33 @@ might be changed.
 |      |    |                 | II | Networking in Java. File I/O.                                       |     |                                                                   |
 | 3    | 41 | Fri, 2018-10-19 | I  | Concurrency                                                         | 3   | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
 |      |    |                 | II | Complexity of Algorithms, Binary Search                             |     |                                                                   |
-| 4    | 42 | Fri, 2018-10-26 | I  |                                                                     |     |                                                                   |
-|      |    |                 | II |                                                                     |     |                                                                   |
-| 5    | 43 | Fri, 2018-11-02 | I  | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | 4   | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
+| 4    | 42 | Fri, 2018-10-26 | I  | Properties of Algorithms, Maximum Contiguous Subsequence Sum        | 4   | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
 |      |    |                 | II | Arrays, Lists and Stacks                                            |     |                                                                   |
-| 6    | 44 | Fri, 2018-11-09 | I  | Queues, Priority Queues, Collections: Sets, Bags, Maps.             | 5   | [Execution Times](../labs/lab-05) (Pre-Lab!)                      |
+| 5    | 43 | Fri, 2018-11-02 | I  | Queues, Priority Queues, Collections: Sets, Bags, Maps.             | 5   | [Execution Times](../labs/lab-05) (Pre-Lab!)                      |
 |      |    |                 | II | Recursion                                                           |     |                                                                   |
-| 7    | 45 | Fri, 2018-11-16 | I  | Recursion                                                           | 6   | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
+| 6    | 44 | Fri, 2018-11-09 | I  | Recursion                                                           | 6   | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
 |      |    |                 | II | Sorting, Divide & Conquer, Maximum Contiguous Subsequence revisited |     |                                                                   |
-| 8    | 46 | Fri, 2018-11-23 | I  | Sorting Quicksort, Radix Sort                                       | 7   | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                  |
+| 7    | 45 | Fri, 2018-11-16 | I  | Sorting Quicksort, Radix Sort                                       | 7   | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                  |
 |      |    |                 | II | Sorting Continued                                                   |     |                                                                   |
-| 9    | 47 | Fri, 2018-11-30 | I  | Random numbers, Probabilistic Algorithms                            | 8   | [Eight Queens](../labs/lab-08) (Pre-Lab!)                         |
+| 8    | 46 | Fri, 2018-11-23 | I  | Random numbers, Probabilistic Algorithms                            | 8   | [Eight Queens](../labs/lab-08) (Pre-Lab!)                         |
 |      |    |                 | II | Graphs, Graph Algorithms                                            |     |                                                                   |
-| 10   | 48 | Fri, 2018-12-07 | I  | Searching, Nearest Neighbor, Branch and Bound                       | 9   | [Probablistic Algorithms](../labs/lab-09)  (Pre-Lab!)             |
+| 9    | 47 | Fri, 2018-11-30 | I  | Searching, Nearest Neighbor, Branch and Bound                       | 9   | [Probablistic Algorithms](../labs/lab-09)  (Pre-Lab!)             |
 |      |    |                 | II | Trees, Heapsort, Sorting Algorithms Conclusion                      |     |                                                                   |
-| 11   | 49 | Fri, 2018-12-14 | I  | Hashs                                                               | 10  | [Getting from A to B](../labs/lab-10)                             |
+| 10   | 48 | Fri, 2018-12-07 | I  | Hashs                                                               | 10  | [Getting from A to B](../labs/lab-10)                             |
 |      |    |                 | II | String Searching and Pattern Matching                               |     |                                                                   |
-| 12   | 50 | Fri, 2018-12-21 | I  | Searching, Scanning and Parsing Algorithms                          | 11  | Finite State Automata and Sorting                                 |
+| 11   | 49 | Fri, 2018-12-14 | I  | Searching, Scanning and Parsing Algorithms                          | 11  | [Finite State Automata and Sorting](../labs/lab-11)               |
 |      |    |                 | II | Finite State Automata                                               |     |                                                                   |
-| 13   | 1  | Fri, 2019-01-04 | I  | Finite State Automata                                               | 12  | [Scrabble Cheater Basic Edition](../labs/lab-11)                  |
+| 12   | 50 | Fri, 2018-12-21 | I  | Finite State Automata                                               | 12  | [Scrabble Cheater Basic Edition](../labs/lab-12)                  |
 |      |    |                 | II | AVL Trees                                                           |     |                                                                   |
-| 14   | 2  | Fri, 2019-01-11 | I  | Phyton                                                              | 13  | [Scrabble Cheater Deluxe](../labs/lab-12)                         |
-|      |    |                 | II | Phyton                                                              |     |                                                                   |
-| 15   | 3  | Fri, 2019-01-18 | I  | Phyton                                                              |     | Lab Review                                                        |
-|      |    |                 | II | Phyton                                                              |     |                                                                   |
+| 13   | 1  | Fri, 2019-01-04 | I  | 2nd Language (Phyton?)                                              | 13  | [Scrabble Cheater Deluxe](../labs/lab-13)                         |
+|      |    |                 | II | 2nd Language (Phyton?)                                              |     |                                                                   |
+| 14   | 2  | Fri, 2019-01-11 | I  | 2nd Language (Phyton?)                                              |     |                                                                   |
+|      |    |                 | II | 2nd Language (Phyton?)                                              |     |                                                                   |
+| 15   | 3  | Fri, 2019-01-18 | I  | TBD                                                                 |     | Lab Review                                                        |
+|      |    |                 | II | TBD                                                                 |     |                                                                   |
 | 16   | 4  | Fri, 2019-01-25 | I  | Repetition & Exam Preparation                                       |     | Trial Exam                                                        |
 |      |    |                 | II |                                                                     |     |                                                                   |
 | 17   | 5  | Fri, 2019-02-01 | I  | Exam?                                                               |     |                                                                   |
 |      |    |                 | II |                                                                     |     |                                                                   |
 | 18   | 57 | Fri, 2019-02-08 | I  | IMI SHOWTIME!!                                                      |     |                                                                   |
-|      |    |                 | II | IMI SHOWTIME!!                                                      |     |                                                                   |
+  

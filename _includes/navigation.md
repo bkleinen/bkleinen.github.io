@@ -1,17 +1,15 @@
 
 <ul class="nav flex-md-column">
-  <li class="nav-item">
-    {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      {% include navigation_dropdown_item.md url = "/classes/ss2018/info1/"  link_text = "Info1" %}
-      {% include navigation_dropdown_item.md url = "/classes/ss2018/wt4/"     link_text = "WT4 -  User-Centered Web Technology" %}
-      {% include navigation_dropdown_item.md url = "/classes/ss2018/media-programming-rails/" link_text = "M1 Mediaprogramming" %}
-      {% include navigation_dropdown_item.md url = "/classes/ss2018/project/" link_text = "Praxisprojekt: Umweltatlas" %}
-      {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
+<li class="nav-item">
+  {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
-    </div>
-  </li>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    {% include navigation_dropdown_item.md url = "/classes/ws2018/info2/"  link_text = "Info 2" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2018/wt2/"     link_text = "WT2 Usability" %}
+    {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
+  </div>
+</li>
 
   <li class="nav-item">
     <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="{{ site.baseurl }}/contact/">Contact Info</a>

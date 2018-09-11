@@ -10,15 +10,11 @@ layout: default
 </div>
 
 <div class = "box">
-<h4>Classes Summer Term 2018</h4>
+<h4>Classes Winter Term 2018/19</h4>
 
 <ul>
-<li><a href="{{ site.baseurl }}/classes/ss2018/info1">Informatik 1</a></li>
-<li><a href="{{ site.baseurl }}/classes/ss2018/media-programming-rails">
-M1 - Web Technology in M1 Media Programming</a></li>
-
-<li><a href="{{ site.baseurl }}/classes/ss2018/wt4">WT4 -  User-Centered Web Technology</a></li>
-<li><a href="{{ site.baseurl }}/classes/ss2018/project/">Praxisprojekt: Umweltatlas</a></li>
+<li><a href="{{ site.baseurl }}/classes/ws2018/info2">Informatik 2</a></li>
+<li><a href="{{ site.baseurl }}/classes/ws2018/wt2">WT2 Usability</a></li>
 </ul>
 
 </div>

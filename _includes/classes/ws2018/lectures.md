@@ -1,11 +1,2 @@
-I'll be teaching
-* Info2
-* 
-* Project: TBD
-
-{% comment %}
-* [Informatik 1]({{ site.baseurl }}/classes/ss2018/info1)
-* [M1 - Web Technology in M1 Media Programming]({{ site.baseurl }}/classes/ss2018/media-programming-rails)
-* [WT4 -  User-Centered Web Technology]({{ site.baseurl }}/classes/ss2018/wt4)
-* [Praxisprojekt: Umweltatlas]({{ site.baseurl }}/classes/ss2018/project/)
-{% endcomment %}
+* [Informatik 2]({{ site.baseurl }}/classes/ws2018/info2)
+* [WT2 Usability]({{ site.baseurl }}/classes/ws2018/wt2)

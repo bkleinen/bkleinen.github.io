@@ -4,11 +4,15 @@ author: kleinen
 layout: default
 ---
 
+### Winter Term 2018/19
+
+{% include classes/ws2018/lectures.md %}
+
+## Former Classes
+
 ### Summer Term 2018
 
 {% include classes/ss2018/lectures.md %}
-
-## Former Classes
 
 ###  Winter Term WS2017/18
 
