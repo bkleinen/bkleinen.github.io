@@ -5,14 +5,8 @@ Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
 alle erforderlichen Unterlagen</a> mit.
 <br /><br />
 <b>Please check back here for changes!</b><br />
-<b>Sprechstunden in den Semesterferien:</b>
-<div class="alert alert-danger" role="alert">
-Achtung! auf den Vormittag vorverlegt!<br />
-Friday, 28.09.2018 11:30-12:30<br />
-</div>
-<br/>
 
-<b>WS 2018/19, starting Oct 2nd, every week:</b>
+<b>WS 2018/19:</b>
 
 <br/>
 Tuesday, 02.10.2018 14:00-15:00<br/>
