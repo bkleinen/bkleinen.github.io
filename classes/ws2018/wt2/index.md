@@ -8,7 +8,7 @@ layout: default
 - Work in Progress -
 
 Important note: I'll probably open a second Lab for the class
-such that all can get in the class.
+such that all interested can get a spot.
 
 If you want to get in you need to attend in the first week (9.10.) to hear
 the plan for the class and in the second week (16.10, if you're still

@@ -14,7 +14,7 @@ Please think through the following questions before coming to the lab. Write dow
 
 
 ## Assignment
-These are the required exercises for this week. We are going to see if we can get our minds back into Java-Mode. Work in groups of two, ***each*** of you hands in the same report. Remember to put both of your names on the report. Groups of three are only possible if one of the three is new, i.e. did not take Info 1 last semester. You can continue to use BlueJ, or move to Eclipse, if you wish.
+These are the required exercises for this week. We are going to see if we can get our minds back into Java-Mode. Work in groups of 2-3 people, ***all*** of you hand in the same report. Remember to put all of your names on the report. You can continue to use BlueJ, or move to Eclipse, if you wish.
 
 1. If you didn't do Lab 01 together, decide which of your cinema booking systems you are going to use. If necessary, flip a coin. Why did you choose the one you did?
 2. Implement a prototype of your cinema booking system. You should be able to reserve n neighboring seats, calculate the total price for this reservation, delete a booking, and print out a seating plan that shows which seats are available. Don't worry about making it beautiful - it is enough for it to work. We are just making prototypes!
