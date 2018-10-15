@@ -26,8 +26,8 @@ layout: lab
 
 ## Lab Report / What to turn in
 
-
 Your report is due the day before your next lab (for exact times, please refer to moodle).
+Submit both a lab report as pdf and your whole source code directory as a zip.
 
 Submit a Report in PDF Format and the Source Code as Zipped file.
 

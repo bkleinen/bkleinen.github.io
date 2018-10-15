@@ -24,7 +24,7 @@ These are the required exercises for this week. Work in groups of two, each of y
 3. Now the fun begins! Write a Java application to read in a file character by character, counting the frequencies with which each character occurs. When there are no more characters, create a file frequency.txt and output the frequencies for each character. Note that you should only count the ASCII characters between 'A' and 'Z' and 'a' and 'z', using the char type.
 1. Write a test method to see if your program counts correctly. For this, it is useful to have a count() method that counts from something that you can feed both a String to from the tests as well as an input source from a file. [Reader](https://docs.oracle.com/javase/7/docs/api/java/io/Reader.html) is one possible solution, use it with a [BufferedReader](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html) for reading the file, and with a [StringReader](https://docs.oracle.com/javase/7/docs/api/java/io/StringReader.html) from the tests:
 
-  ````public void count(Reader reader)````
+  ```public void count(Reader reader)```
 
 1. Which character is the most frequent? Write a method that returns the most frequent character, include a test for it.
 4. Output a histogram of the character frequencies. One simple kind of histogram has horizontal lines proportional to the magnitude of the number it represents. For example:
@@ -45,6 +45,7 @@ parameters, or use standard in  and standard out if no parameters were given.
 ## Lab Report / What to turn in
 
 Your report is due the day before your next lab (for exact times, please refer to moodle).
+Submit both a lab report as pdf and your whole source code directory as a zip.
 
 As in Informatics 1, I am more interested in process than in product,
 although we are now getting more interested in products as well.

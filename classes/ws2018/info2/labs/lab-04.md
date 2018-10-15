@@ -40,7 +40,7 @@ These are the required exercises for this week. Work in groups of two, each of y
 
 ## Lab Report / What to turn in
 
-Your report is due the day before your next lab (for exact times, please refer to moodle).
+Your report is due the day before your next lab (for exact times, please refer to moodle). Submit both a lab report as pdf and your whole source code directory as a zip.
 
 As in Informatics 1, I am more interested in process than in product,
 although we are now getting more interested in products as well.
