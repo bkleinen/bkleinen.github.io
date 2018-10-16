@@ -18,7 +18,7 @@ two groups after that if still necessary.
 ### Lab
 There will be 4 Group Assignments in the Lab:
 
-1. Topic Description and Heuristics
+1. [Topic Description and Heuristics](assignments/assignment_01/)
 2. User Research
 3. Design and Evaluation I
 4. Design and Evaluation II
