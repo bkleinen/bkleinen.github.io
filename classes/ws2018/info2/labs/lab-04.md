@@ -4,8 +4,6 @@ author: kleinen
 layout: lab
 ---
 
-not yet released.
-
 ## Pre-Lab
 Please research/review the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in. There are many sites that will show you the code for this.
 
@@ -16,7 +14,7 @@ Please research/review the following questions before coming to the lab. Write d
 
 ## Assignment
 
-These are the required exercises for this week. Work in groups of two, each of you hands in the same report. Remember to put both your names on the report. You can continue to use BlueJ, or move to Eclipse, if you wish. We will be practicing much programming in the small this semester.
+These are the required exercises for this week. Work in groups of 2-3, each of you hands in the same report. Remember to put both your names on the report. You can continue to use BlueJ, or move to Eclipse, if you wish. We will be practicing much programming in the small this semester.
 
 ### Step 1: Client sends messages to Server
 
