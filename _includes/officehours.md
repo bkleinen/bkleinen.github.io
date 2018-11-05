@@ -14,9 +14,11 @@ Tuesday, 09.10.2018 14:00-15:00<br/>
 Tuesday, 16.10.2018 14:00-15:00<br/>
 (no office hours in KW 43)<br/>
 Tuesday, 30.10.2018 14:00-15:00<br/>
-Tuesday, 06.11.2018 14:00-15:00<br/>
-
-
+Tuesday, 06.11.2018 14:00-15:00<br/><br/>
+Danach erst vorr. erst wieder im Dezember.
+In dringenden Fällen, die das Praktikum betreffen, können
+Sie sich in dieser Zeit an <a href="http://home.htw-berlin.de/~barthel/">Prof. Barthel</a>
+wenden.
 
 
 {% comment %}
