@@ -5,3 +5,4 @@ layout: default
 ---
 
 * [Assignment 01: Heuristical Analysis of Example Application, Topic Definition](assignment_01/)
+* [Assignment 02: User Research and Personas](assignment_02/)
