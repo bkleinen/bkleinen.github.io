@@ -30,3 +30,6 @@ Your reports, uploaded as pdf to moodle, should include
 * a list of the conducted interviews
 * the results of the interpretation session
 * your Personas
+
+*you create one PDF in the group with all names, and each member of the
+group needs to upload this (same) report to moodle*
