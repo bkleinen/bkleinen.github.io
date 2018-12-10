@@ -6,7 +6,7 @@ layout: default
 
 Vom SoSe 2014-WS 2015 war ich Baf&ouml;g-Beauftragter des Studiengangs IMI.
 
-__Das bin ich nicht mehr, aktuell macht das Prof. Carsten Busch.__
+__Das bin ich nicht mehr, im WS18/19 und SS19 macht das Prof. Kai Barthel.__
 
 Da ich damals einige Informationen zusammengetragen habe, lasse ich diese hier stehen, Stand 2014:
 
