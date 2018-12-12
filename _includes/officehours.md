@@ -8,9 +8,9 @@ alle erforderlichen Unterlagen</a> mit.
 <b>WS 2018/19:</b>
 
 <br/>
-Thursday, 29.11.2018 15:30-16:30<br/>
-starting Tuesday, December 4th: every<br/>
-Tuesday, 14:15-15:15<br/>
+every Tuesday, 14:15-15:15<br/>
+Week 1 due to Neujahr:<br/>
+Wednesday, 2.1.2019, 11:15-12:15<br/>
 <b>Please check back here for changes!</b><br />
 
 {% comment %}
