@@ -10,7 +10,7 @@ alle erforderlichen Unterlagen</a> mit.
 <br/>
 every Tuesday, 14:15-15:15<br/>
 Week 1 due to Neujahr:<br/>
-Wednesday, 2.1.2019, 11:15-12:15<br/>
+Friday, 4.1.2019, 16:00-17:00<br/>
 <b>Please check back here for changes!</b><br />
 
 {% comment %}
