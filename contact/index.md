@@ -3,16 +3,16 @@ title: Barne Kleinen | Contact Info
 author: kleinen
 layout: page
 ---
+
+# Prof. Dr. Barne Kleinen
+
 <span class = "float-right">
 ![Barne_Kleinen]({{ site.baseurl }}/images/bkleinen.jpg)
 </span>
 
-# Prof. Dr. Barne Kleinen
+<p><a href="{{ site.baseurl }}/contact/impressum">Impressum</a>,<a href="{{ site.baseurl }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
+</p>
 
-<p><a href="{{ site.baseurl }}/contact/impressum">Impressum</a>,
-    <a href="{{ site.baseurl }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
-    </p>
-    
 ## Contact Information
 
 My preferred means of communication is email:

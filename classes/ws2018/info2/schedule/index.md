@@ -33,9 +33,9 @@ might be changed.
 |      |    |                 | II | Trees, Heapsort, Sorting Algorithms Conclusion                      |     |                                                                   |
 | 11   | 49 | Fri, 2018-12-14 | I  | Hashs                                                               | 10  | [Getting from A to B](../labs/lab-10)                             |
 |      |    |                 | II | String Searching and Pattern Matching                               |     |                                                                   |
-| 12   | 50 | Fri, 2018-12-21 | I  | Searching, Scanning and Parsing Algorithms                          | 11  | [Finite State Automata and Sorting](../labs/lab-11)               |
+| 12   | 50 | Fri, 2018-12-21 | I  | Finite State Automata                                               | 11  | [Finite State Automata and Sorting](../labs/lab-11)               |
 |      |    |                 | II | Finite State Automata                                               |     |                                                                   |
-| 13   | 1  | Fri, 2019-01-04 | I  | Finite State Automata                                               | 12  | [Scrabble Cheater Basic Edition](../labs/lab-12)                  |
+| 13   | 1  | Fri, 2019-01-04 | I  | Searching, Scanning and Parsing Algorithms                          | 12  | [Scrabble Cheater Basic Edition](../labs/lab-12)                  |
 |      |    |                 | II | AVL Trees                                                           |     |                                                                   |
 | 14   | 2  | Fri, 2019-01-11 | I  | 2nd Language (Phyton?)                                              | 13  | [Scrabble Cheater Deluxe](../labs/lab-13)                         |
 |      |    |                 | II | 2nd Language (Phyton?)                                              |     |                                                                   |
