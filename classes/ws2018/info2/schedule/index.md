@@ -35,15 +35,15 @@ might be changed.
 |      |    |                 | II | String Searching and Pattern Matching                               |     |                                                                   |
 | 12   | 50 | Fri, 2018-12-21 | I  | Finite State Automata                                               | 11  | [Finite State Automata and Sorting](../labs/lab-11)               |
 |      |    |                 | II | Finite State Automata                                               |     |                                                                   |
-| 13   | 1  | Fri, 2019-01-04 | I  | Searching, Scanning and Parsing Algorithms                          | 12  | [Scrabble Cheater Basic Edition](../labs/lab-12)                  |
-|      |    |                 | II | AVL Trees                                                           |     |                                                                   |
-| 14   | 2  | Fri, 2019-01-11 | I  | 2nd Language (Phyton?)                                              | 13  | [Scrabble Cheater Deluxe](../labs/lab-13)                         |
-|      |    |                 | II | 2nd Language (Phyton?)                                              |     |                                                                   |
-| 15   | 3  | Fri, 2019-01-18 | I  | 2nd Language (Phyton?)                                              |     | Lab Review                                                        |
-|      |    |                 | II | 2nd Language (Phyton?)                                              |     |                                                                   |
-| 16   | 4  | Fri, 2019-01-25 | I  | TBD                                                                 |     | Trial Exam                                                        |
+| 13   | 1  | Fri, 2019-01-04 | I  | Searching, Scanning and Parsing Algorithms                          | 12  | Repetition; Questions                                             |
+|      |    |                 | II | AVL Trees, Python Start                                             |     |                                                                   |
+| 14   | 2  | Fri, 2019-01-11 | I  | 2nd Language (Phyton) + Repetition of Algorithms                    | 13  | [Scrabble Cheater Basic Edition](../labs/lab-12)                  |
+|      |    |                 | II | 2nd Language (Phyton) + Repetition of Algorithms                    |     |                                                                   |
+| 15   | 3  | Fri, 2019-01-18 | I  | 2nd Language (Phyton) + Repetition of Algorithms                    |     | [Scrabble Cheater Deluxe](../labs/lab-13)                         |
+|      |    |                 | II | 2nd Language (Phyton) + Repetition of Algorithms                    |     |                                                                   |
+| 16   | 4  | Fri, 2019-01-25 | I  | Repetition & Exam Preparation                                       |     | Trial Exam                                                        |
 |      |    |                 | II | Repetition & Exam Preparation                                       |     |                                                                   |
-| 17   | 5  | Fri, 2019-02-01 | I  | Exam?                                                               |     |                                                                   |
+| 17   | 5  | Fri, 2019-02-01 | I  | Exam                                                                |     |                                                                   |
 |      |    |                 | II |                                                                     |     |                                                                   |
 | 18   | 57 | Fri, 2019-02-08 | I  | IMI SHOWTIME!!                                                      |     |                                                                   |
   
