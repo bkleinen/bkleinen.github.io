@@ -33,14 +33,13 @@ https://wiki.rz.htw-berlin.de/confluence/display/ZHVI/Formulare+-+Personalwesen
 
 ## Webseite der HTW Bearbeiten
 
-
 * direkter Link zum Login (intern) http://berndcms.htw-berlin.de/typo3
 Zugriff auf diverse Webseiten der HTW:
 Zugriff beantragen:
 https://portal.rz.htw-berlin.de/account/Typo3/
 
-Direkter Link: [http://berndcms.htw-berlin.de/typo3](http://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
-
+* Direkter Link: [http://berndcms.htw-berlin.de/typo3](http://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
+* TYPO3 hat ein eigenes Passwort das innerhalb von Typo3 geändert werden kann
 
 Anleitungen (inkl. Link zum CMS:)
 [https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin](https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin)
