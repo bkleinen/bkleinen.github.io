@@ -31,8 +31,18 @@ Create at least three Product Concepts. Evaluate and enhance them using the cool
 
 ## Storyboards
 
-Create at least one storyboard per person in your team.
-Details will be described later.
+Create at least one storyboard per person in your team, resulting in about four
+Storyboards per Team.
+Perform a Storyboard review session within the team, and adapt at least two of
+the storyboards according to the review to be able to build two paper prototypes
+based on them.
+
+Include the final versions of the Storyboards in the report together with a summary
+of the review sessions. If you decided to abandon a storyboard and not develop
+it further, include the initial version and clearly mark it as such.
+(it should be clear if the review is a review of the storyboard or the storyboard
+a second version based on the review).
+
 
 *you create one PDF in the group with all names, and each member of the
 group needs to upload this (same) report to moodle*
