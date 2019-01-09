@@ -23,6 +23,8 @@ Now, you have to get together with your expert team again, preferably during the
 ## Your Report
 
 Include Fotos of your Paper Prototypes and clearly mark the different prototypes and changes made.
+You can also create a video demoing your prototype. Make sure that the interface
+items are readable either directly on the video or the accompanying fotos.
 
 Also, include the issues discovered in the prototype interviews.
 
