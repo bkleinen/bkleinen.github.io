@@ -23,7 +23,7 @@ If you don't have a Flipchart available, use a A3-Paper in the middle of the tab
 
 ### Evaluation
 
-Evaluate your Visions using Structed Evaluation with likes/dislike lists and green/yellow/red lights as described in chapter 11.
+Evaluate your Visions using Structered Evaluation with likes/dislike lists and green/yellow/red lights as described in chapter 11.
 
 ## Product Concepts
 
