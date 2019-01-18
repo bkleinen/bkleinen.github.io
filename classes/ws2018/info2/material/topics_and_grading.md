@@ -4,6 +4,8 @@ author: kleinen
 layout: default
 ---
 
+[With questions](../topics_and_grading_questions)
+
 Sum: 115% - There might be questions that count in two categories - eg. the Complexity of a
 searching algorithm.
 

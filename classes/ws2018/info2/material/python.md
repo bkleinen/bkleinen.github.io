@@ -1,5 +1,5 @@
 ---
-title: Info 2: Python
+title: Info 2 Python
 author: kleinen
 layout: page
 ---
@@ -20,3 +20,5 @@ of the examples in the book. See the To get started
 section on the  [Home Page](https://introcs.cs.princeton.edu/python/home) -
 you can stop above "Configuring IDLE" if you already have a way to edit and
 run python programs on your computer.
+
+##
