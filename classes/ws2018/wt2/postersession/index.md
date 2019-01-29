@@ -34,4 +34,4 @@ layout: default
 ## Relevanz und Auswertung (Chapter 08-17)
 
 * Eine Klausur-Frage zu Ihrem eigenen Kapitel
-* Zwei zu einem von Ihnen gewählten anderen
+* Eine Klausur-Frage zu einem von Ihnen gewählten anderen Kapitel
