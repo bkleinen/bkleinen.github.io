@@ -5,12 +5,16 @@ Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
 alle erforderlichen Unterlagen</a> mit.
 <br /><br />
 
-<b>WS 2018/19:</b>
+<b>Term Break:</b>
 
 <br/>
-every Tuesday, 14:15-15:15<br/>
-Week 1 due to Neujahr:<br/>
-Friday, 4.1.2019, 16:00-17:00<br/>
+There will be office hours in Week 8+9
+(last two weeks in February, Mon or Tue)<br/>
+March: upon request, please email me!<br/>
+
+<a href = "http://home.htw-berlin.de/~jungk/">Prof. Jung</a> will be the
+Praktikumsbeauftragter for the Summer Term.<br/>
+
 <b>Please check back here for changes!</b><br />
 
 {% comment %}
