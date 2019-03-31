@@ -10,14 +10,19 @@ layout: default
 </div>
 
 <div class = "box">
-<h4>Classes Winter Term 2018/19</h4>
+<h4>No Classes in Summer Term 2019</h4>
+<a href="{{ site.baseurl }}/classes/">Former Classes</a>
 
+<br/>
+</div>
+
+
+{% comment%}
 <ul>
 <li><a href="{{ site.baseurl }}/classes/ws2018/info2">Informatik 2</a></li>
 <li><a href="{{ site.baseurl }}/classes/ws2018/wt2">WT2 Usability</a></li>
 </ul>
-
-</div>
+{% endcomment%}
 
 <div class = "box">
 <h4>Office Hours</h4>
