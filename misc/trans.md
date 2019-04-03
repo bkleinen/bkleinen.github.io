@@ -50,13 +50,12 @@ für Trans*-Studierende kann es eine Hürde im Studium darstellen, an der Hochsc
 mit einem Namen und einer Anrede angesprochen zu werden, die Ihrer Identität und
 Persönlichkeit nicht entspricht.  
 
-Der Prozess einer amtlichen Namensänderung beruht auf dem veralteten Transsexuellengesetz,
-das bereits in Teilen als verfassungswidrig eingestuft wurde. Er ist
-kosten-, zeitaufwendig und psychisch belastend - nicht zuletzt weil er eine
-Begutachtung durch zwei Psychologen voraussetzt.
+Der Prozess einer amtlichen Namensänderung beruht auf dem veralteten Transsexuellengesetz, das bereits in Teilen als verfassungswidrig eingestuft wurde. Er ist kosten-, zeitaufwendig und psychisch belastend - nicht zuletzt weil er eine Begutachtung durch zwei Psychologen voraussetzt.
+
+Update 1.4.2019: [Inzwischen ist eine Änderung auch über § 45b PStG möglich](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweise-fuer-antragstellerinnen.html).
 
 Daher ist es im Sinne einer diskriminierungsarmen Hochschule wichtig,
-auf Wunsch der Studierenden deren gewählte Namen und Anrede (Herr/Frau...) auch
+auf Wunsch der Studierenden deren gewählte Namen und Anrede (Herr/Frau/...) auch
 vor bzw. unabhängig von einer amtlichen Namensänderung zu verwenden.
 Eine entsprechende Empfehlung des regierenden Bürgermeisters ist im Februar 2017
 an die Berliner Hochschulen ergangen.
@@ -73,9 +72,10 @@ Berlin, 18.9.2017 Barne Kleinen
 
 ## Informationsmaterialien
   * Anschreiben der Senatsverwaltung (auf Anfrage bei mir)
-  * Antidiskriminierungsstelle des Bundes: "Verwendung des gewählten Namens von trans*Studierenden
-  an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung" im Netz verfügbar u.a. bei [Queer Leben](https://queer-leben.de/material/)
+  * Antidiskriminierungsstelle des Bundes: "[Verwendung des gewählten Namens von trans*Studierenden
+  an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung](https://www.asta.rwth-aachen.de/media/medien/rechtliche_einschaetzung_trans_ads_bund_8365f.pdf)" im Netz verfügbar u.a. über [Queer Leben](https://queer-leben.de/material/)
   * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](http://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
+  * Artikel ["Keine zwei Gutachten mehr"](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweis-keine-zwei-gutachten-mehr.html) vom LSVD
 
 
 
