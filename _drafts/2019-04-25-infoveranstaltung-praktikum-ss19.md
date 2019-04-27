@@ -1,16 +1,15 @@
 ---
-title: Infoveranstaltung zum Auslandspraktikum 12.Dezember 2018 9:45
+title: Infoveranstaltung zum Auslandspraktikum SoSe 19 22.Mai 2019 9:45
 author: kleinen
 layout: post
 categories:
   - praktikum
   - imi
-  - old
 ---
 
 Informationsverstaltung zum Auslandspraktikum Studiengang IMI-B
 
-**Mittwoch, 12. Dezember 2018 9:45 Raum WH C 349**
+**Mittwoch, 22. Mai 2019 9:45 Raum WH C 349**
 
 (im Absprache mit der LV English for International Media and Computing)
 

@@ -5,6 +5,7 @@ layout: post
 categories:
   - projekte
   - imi
+  - old
 ---
 
 Die Projektvergabe für das WS 2018/19 findet statt am: Mittwoch, 10.10.2018.
