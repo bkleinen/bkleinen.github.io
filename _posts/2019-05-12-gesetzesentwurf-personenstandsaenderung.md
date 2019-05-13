@@ -20,6 +20,10 @@ Den Fachverbänden wurden nur knappe 2 Tage(!) Zeit eingeräumt, Stellung zum Ge
 
 * [Stellungnahme von Trans Recht e.V.](https://trans-recht.de/2019/05/10/stellungnahme-von-transrech-e-v-zum-entwurf-eines-gesetzes-zur-neuregelung-der-aenderung-des-geschlechtseintrags/)
 
+* [oii Deutschland: Stellungnahme zum Gesetzentwurf BMJV & BMI zur Neuregelung der Änderung des Geschlechtseintrags](https://oiigermany.org/stellungnahme-zum-gesetzentwurf-bmjv-bmi-zur-neuregelung-der-aenderung-des-geschlechtseintrags/?fbclid=IwAR2OyYcfkth_ZuHuQ82oaWgnM6-1FXTqW19XUbhoGjnj6JvjyqGFJ6sT7WM)
+
+* [dgti: Stellungnahme zum Referentenentwurf des BMI und BMJV für eine Aufhebung des bestehenden Transsexuellengesetzes](https://www.dgti.org/images/pdf/PE_2019-05-09_BMI_final.pdf?fbclid=IwAR3JQbbgY9ygeZ9vaRS57CIaQWDuAqopeC2xF_6DxCskdjF-ZXeOa__bokI) - verlinkt von der [Startseite am 10.5.19](https://www.dgti.org)
+
 Weitere Stellungnahmen:
 
 * [Antidiskriminierungsstelle des Bundes](https://www.antidiskriminierungsstelle.de/SharedDocs/Aktuelles/DE/2019/20190510_TSG_Reform.html)

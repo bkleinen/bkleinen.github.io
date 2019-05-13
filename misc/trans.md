@@ -9,7 +9,7 @@ layout: default
     festgestellte Geschlechtszugehörigkeit halten«, da steht nicht: »die Freiheit nur jener Personen, die den traditionellen     Vorstellungen von ›natürlicher‹ Männlichkeit und Weiblichkeit entsprechen«. Da steht: »das Recht auf freie Entfaltung der     Persönlichkeit«."
 
     {% comment %}
-    Es steht nirgends geschrieben, dass ein Mensch sich nicht ändern oder entwickeln darf. Im Gegenteil: Das     Grundgesetz schützt eben genau die Handlungsfreiheit des Individuums – solange darin nicht die Freiheiten anderer     verletzt werden. Das Grundgesetz gehört allen, nicht nur der Mehrheit. Und es ist allen verpflichtet – auch denen, die     ganz gleich in welcher Hinsicht von einer Mehrheit abweichen.<br />
+    Es steht nirgends geschrieben, dass ein Mensch sich nicht ändern oder entwickeln darf. Im Gegenteil: Das Grundgesetz schützt eben genau die Handlungsfreiheit des Individuums – solange darin nicht die Freiheiten anderer     verletzt werden. Das Grundgesetz gehört allen, nicht nur der Mehrheit. Und es ist allen verpflichtet – auch denen, die     ganz gleich in welcher Hinsicht von einer Mehrheit abweichen.<br />
         Emcke, Carolin. Gegen den Hass (German Edition) (Kindle Locations 1666-1674). FISCHER E-Books. Kindle Edition.
 
     {% endcomment %}
@@ -19,7 +19,10 @@ layout: default
 
 <hr />
 
-
+<div class = "box">
+<h4>Posts zum Thema Trans*</h4>
+{% include posts/trans.html %}
+</div>
 
 Änderung des Namens im LSF, Moodle und interner Kommunikation
 =================================================================
