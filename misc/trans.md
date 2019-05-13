@@ -73,7 +73,7 @@ Berlin, 18.9.2017 Barne Kleinen
 ## Informationsmaterialien
   * Anschreiben der Senatsverwaltung (auf Anfrage bei mir)
   * Antidiskriminierungsstelle des Bundes: "[Verwendung des gewählten Namens von trans*Studierenden
-  an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung](https://www.asta.rwth-aachen.de/media/medien/rechtliche_einschaetzung_trans_ads_bund_8365f.pdf)" im Netz verfügbar u.a. über [Queer Leben](https://queer-leben.de/material/)
+  an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung](https://www.antidiskriminierungsstelle.de/SharedDocs/Downloads/DE/Literatur_Bildung/Name_Trans_Studierende.html)"
   * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](http://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
   * Artikel ["Keine zwei Gutachten mehr"](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweis-keine-zwei-gutachten-mehr.html) vom LSVD
 
@@ -88,5 +88,11 @@ Berlin, 18.9.2017 Barne Kleinen
 <br />
 Emcke, Carolin. Gegen den Hass (German Edition) (Kindle Locations 1674-1679). FISCHER E-Books. Kindle Edition.
 </div>
+
+
 <br />
-<hr />
+{% comment %}
+
+http://ag-trans-hopo.org
+[Queer Leben](https://queer-leben.de/material/)
+{% endcomment %}

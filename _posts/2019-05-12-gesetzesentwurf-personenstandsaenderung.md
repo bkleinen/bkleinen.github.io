@@ -24,7 +24,11 @@ Weitere Stellungnahmen:
 
 * [Antidiskriminierungsstelle des Bundes](https://www.antidiskriminierungsstelle.de/SharedDocs/Aktuelles/DE/2019/20190510_TSG_Reform.html)
 
-Weitere Artikel
+Zum Weiterlesen und Einordnen
+
+* [Gutachten: Regelungs- und Reformbedarf für transgeschlechtliche Menschen](https://www.bmfsfj.de/bmfsfj/service/publikationen/gutachten--regelungs--und-reformbedarf-fuer-transgeschlechtliche-menschen/114070)
+
+Weitere Artikel zum Entwurf
 
 * [Spiegel Online: Entwurf zu Transsexuellengesetz stößt auf Kritik](https://www.spiegel.de/panorama/gesellschaft/transsexuellengesetz-geplante-neuregelung-stoesst-auf-kritik-a-1266685.html)
 

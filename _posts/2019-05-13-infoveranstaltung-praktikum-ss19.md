@@ -7,13 +7,13 @@ categories:
   - imi
 ---
 
-Informationsverstaltung zum Auslandspraktikum Studiengang IMI-B
+Die Informationsverstaltung zum Auslandspraktikum Studiengang IMI-B
+für Studierende des Bachelorstudiengangs Internationale Medieninformatik findet statt am:
 
-**Mittwoch, 22. Mai 2019 9:45 Raum WH C 349**
+**Mittwoch, 22. Mai 2019 9:45 Raum WH C 355**
 
 (im Absprache mit der LV English for International Media and Computing)
 
-für Studierende des Bachelorstudiengangs Internationale Medieninformatik
 
 Informationen zu
 - Beantragung
@@ -25,7 +25,7 @@ Wie jedes Semester informieren wir im Rahmen einer LV des 2. Semesters über die
 - Rita Leuner, International Office
 - Prof. Barne Kleinen, Praktikumsbeauftragter
 
-Bringen Sie Ihre Fragen mit!
+Bringen Sie gerne Ihre Fragen mit!
 
 
 Prof. B. Kleinen, Praktikumsbeauftragter IMI
