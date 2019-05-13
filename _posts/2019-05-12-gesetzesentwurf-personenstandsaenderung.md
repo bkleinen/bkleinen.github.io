@@ -30,6 +30,8 @@ Weitere Stellungnahmen:
 
 Zum Weiterlesen und Einordnen
 
+* Ergänzung 13.5.2019: Heute ist ein Kommentar von Linus Giese online beim Tagesspiegel erschienen: [Neues Transsexuellengesetz: Das Geschlecht bleibt fremdbestimmt](https://www.tagesspiegel.de/gesellschaft/queerspiegel/neues-transsexuellengesetz-das-geschlecht-bleibt-fremdbestimmt/24335498.html).
+
 * [Gutachten: Regelungs- und Reformbedarf für transgeschlechtliche Menschen](https://www.bmfsfj.de/bmfsfj/service/publikationen/gutachten--regelungs--und-reformbedarf-fuer-transgeschlechtliche-menschen/114070)
 
 Weitere Artikel zum Entwurf
@@ -38,7 +40,7 @@ Weitere Artikel zum Entwurf
 
 * [BuzzFeed: Wir veröffentlichen den Gesetzentwurf für eine Reform des Transsexuellengesetzes](https://www.buzzfeed.com/de/julianeloeffler/gesetzentwurf-transsexuellengesetz-tsg-reform-kritik)
 
-* [Siegessäule: Entsetzen über Reform des „Transsexuellengesetzes“](https://www.siegessaeule.de/no_cache/newscomments/article/4305-entsetzen-ueber-neuen-entwurf-zum-transsexuellenrecht.html) mit links zu zwei online-Petitionen:
+* [Siegessäule: Entsetzen über Reform des „Transsexuellengesetzes“](https://www.siegessaeule.de/no_cache/newscomments/article/4305-entsetzen-ueber-neuen-entwurf-zum-transsexuellenrecht.html) mit links zu zwei online-Petitionen(s.u.)
 
 Petitionen gegen den Gesetzesentwurf
 
