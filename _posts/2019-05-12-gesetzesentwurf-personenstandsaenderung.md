@@ -28,6 +28,8 @@ Weitere Stellungnahmen:
 
 * [Antidiskriminierungsstelle des Bundes](https://www.antidiskriminierungsstelle.de/SharedDocs/Aktuelles/DE/2019/20190510_TSG_Reform.html)
 
+* [Alice Salomon Hochschule](https://www.ash-berlin.eu/hochschule/presse-und-newsroom/news/news/debatte-zum-geschlechtseintrag-recht-auf-geschlechtliche-selbstbestimmung/) (Nachtrag 7.6.19)
+
 Zum Weiterlesen und Einordnen
 
 * Ergänzung 13.5.2019: Heute ist ein Kommentar von Linus Giese online beim Tagesspiegel erschienen: [Neues Transsexuellengesetz: Das Geschlecht bleibt fremdbestimmt](https://www.tagesspiegel.de/gesellschaft/queerspiegel/neues-transsexuellengesetz-das-geschlecht-bleibt-fremdbestimmt/24335498.html).
