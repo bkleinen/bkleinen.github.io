@@ -5,8 +5,7 @@
 <b> Summer Term 2019: </b>
 I will be on research leave during the summer term.<br/>
 Office Hours mainly for talking about thesis in WS 19/20:<br/>
-Thursday, 20.06.2019 16-18<br/>
-Monday or Tuesday 24/25.6. (check back here for exact day & time)<br/>
+Friday, 28.06.2019 14:30-15:30<br/>
 if needed, 2., 4. or 5.7. late afternoon @ Treskowallee upon appointment.<br/>
 <a href = "https://www.htw-berlin.de/hochschule/personen/person/?eid=9042">
 Prof. Lenz</a> will take over the function of Studiengangssprecher, <br/>
