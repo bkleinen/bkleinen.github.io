@@ -4,6 +4,7 @@ author: kleinen
 layout: post
 categories:
   - trans
+  - old
 ---
 
 Heute bin ich endlich dazu gekommen, mir den neuen "Entwurf eines Gesetzes zur Neuregelung der Änderung des Geschlechtseintrages" des BMJVs und BMIs vom 8.5.19 anzusehen. [Der Tagesspiegel hat berichtet](https://www.tagesspiegel.de/gesellschaft/queerspiegel/geschlechtseintrag-gesetz-fuer-transsexuelle-soll-reformiert-werden/24322112.html) und [ihn hier veröffentlicht.](https://www.tagesspiegel.de/downloads/24322986/1/tsgreform.pdf).
