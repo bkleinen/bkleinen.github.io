@@ -6,8 +6,8 @@
 
 During the summer break Prof. Jung and me will share the work of handling internship questions and applications.  <br/>
 
-Wednesday, 24.7.2019 16-17<br/>
-7 or 8.8.2019, Time TBA<br/>
+KW 32: 7 or 8.8.2019, Time TBA<br/>
+KW 33: Tue 13.8.2019, 16-17<br/>
 
 {% comment %}
 Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
