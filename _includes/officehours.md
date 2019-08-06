@@ -6,7 +6,7 @@
 
 During the summer break Prof. Jung and me will share the work of handling internship questions and applications.  <br/>
 
-KW 32: Wed 8.8.2019, 17-18<br/>
+KW 32: Thu 8.8.2019, 17-18<br/>
 KW 33: Tue 13.8.2019, 16-17<br/>
 
 {% comment %}
