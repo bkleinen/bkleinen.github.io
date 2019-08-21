@@ -3,7 +3,7 @@ title: Info1 Zusatzkurse
 author: fernsel
 layout: default
 categories:
-  - ss2018
+  - ws2019
 ---
 
 # Zusatzmodule Informatik1 SoSe 2018

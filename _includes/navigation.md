@@ -5,7 +5,7 @@
   {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    No Classes in SS19
+    {% include navigation_dropdown_item.md url = "/classes/ws2019/" link_text = "Classes WS19/20" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>
 </li>

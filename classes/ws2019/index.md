@@ -1,7 +1,7 @@
 ---
-title: Lectures SS 2018
+title: Lectures WS 2019
 author: kleinen
 layout: page
 ---
 
-{% include classes/ss2018/lectures.md %}
+{% include classes/ws2019/lectures.md %}
