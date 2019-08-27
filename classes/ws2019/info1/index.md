@@ -18,23 +18,24 @@ be in English. You are free to choose either language for your written assignmen
 
 ## Meetings
 
-The class consists of 2x2h of lectures and 2h of lab per week, with one lab held by Hermann Thiel and two labs held by me. Find the details in
+The class consists of 2x2h of lectures and 2h of lab per week. Find the details in
 LSF - there's a link to the LSF class in the menu under 'External Links'.
 
 Additional to the class meetings there will be two optional events to help you learn programming:
-* Info1 tutorials held by Anja Kammer (Tuesdays 10:30-12:00, Room WH C 537)
-* [two additional courses, Creative Computing and Graphical User Interfaces,](extra/) held by Linda Fernsel.  
+* Info1 tutorials held by Lotte Unckel (time and room tba)
 
 ## Grades
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
+Your grade in Info1 will be a weighted mixture of the evaluated elements of the course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
 
+{% comment %}
 * Lab Reports: 50%
 * Exam: 50%
 * Lecture summaries: 8%
-* [Additional Course (Scratch or GUI)](extra/): 8%
+
 
 That is, both the additional module and the lecture summaries are optional - you don't need them to get 100% for the grade - but together they might lift your grade up a whole grade.
+
 
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
@@ -50,7 +51,7 @@ You find detailled information about them on the [Lab Page](labs/)
 There will be a 2-hour online examination at the end of the term. The examination will cover Java programming and conceptual understanding in ways that may be difficult to assess during the laboratory sessions. The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part. Please consult LSF for the definite date and time.
 
 ## Tutorial and Additional Modules
-
+{% endcomment %}
 
 ## Java-Tutorials and Book
 
