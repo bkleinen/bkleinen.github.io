@@ -3,7 +3,7 @@ title: 'Exercise 05: A Better Notebook'
 author: kleinen
 layout: lab
 ---
-
+<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 ![Notebook](../../images/notebook-6783298985.jpg)
 <small class = "float-right">Foto by [waferboard](http://www.flickr.com/photos/waferboard/6783298985)</small>
 

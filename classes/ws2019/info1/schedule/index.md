@@ -9,39 +9,39 @@ wide_layout: true
 This schedule is tentative and subject to change.
 
 
-| Week | KW | Date | Lecture                                                                                                     | Chapter | Lab                                                  |
-|:-----|:---|:-----|:------------------------------------------------------------------------------------------------------------|:--------|:-----------------------------------------------------|
-| 1    |    | tba  | no class                                                                                                    |         |                                                      |
-|      |    | tba  | Introduction to Class                                                                                       |         |                                                      |
-| 2    |    | tba  | Objects, Classes, Methods, BlueJ, Parameters,  Compiler                                                     | 1       | [Exercise 01](../labs/exercise-01)                   |
-|      |    | tba  | Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter                | 2       |                                                      |
-| 3    |    | tba  | Printing to the command line, Conditional, Local Variables,Expressions                                      | 2       | [Exercise 02](../labs/exercise-02)                   |
-|      |    | tba  | Abstraction, Modularization, Object Interaction                                                             | 3       |                                                      |
-| 4    |    | tba  | Object Creation, Object and Class Diagrams, Primitive Types,  Object Types, Multiple Constructors, Debugger | 3       | [Exercise 03](../labs/exercise-03)                   |
-|      |    | tba  | Collections, Generics, for-each, While Loops                                                                | 4       |                                                      |
-| 5    |    | tba  |                                                                                                             |         | [Exercise 04](../labs/exercise-04)                   |
-|      |    | tba  | More Loops, Iterators, Arrays, For Loops                                                                    | 4       |                                                      |
-| 6    |    | tba  | Loops                                                                                                       | 5       | -- week 17: no lab on Tue, week 18: no lab on Fri -- |
-|      |    | tba  |                                                                                                             |         |                                                      |
-| 7    |    | tba  | Graphical User Interfaces, Lambda Functions                                                                 | 5 (13)  | [Exercise 05](../labs/exercise-05)                   |
-|      |    | tba  | Lambda Functions, Filter, Map, Reduce                                                                       | 5       |                                                      |
-| 8    |    | tba  | Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps                                  | 6       | [Exercise 06](../labs/exercise-06)                   |
-|      |    | tba  | Public vs. Private, Interfaces, Class Variables, Writing Class Documentation                                | 6       |                                                      |
-| 9    |    | tba  | Arrays                                                                                                      | 7       | [Exercise 07](../labs/exercise-07)                   |
-|      |    | tba  | Unit Testing, Test Automation                                                                               | 9       |                                                      |
-| 10   |    | tba  | Modularization, Interfaces, Debugging, Walkthroughs,  Testing and Interfaces                                | 9       | [Exercise 08](../labs/exercise-08)                   |
-|      |    | tba  | Designing Classes, Coupling, Cohesion, Refactoring                                                          | 8       |                                                      |
-| 11   |    | tba  | Refactoring                                                                                                 | 8       | [Exercise 09](../labs/exercise-09)                   |
-|      |    | tba  | Refactoring, Using the main method                                                                          | 8       |                                                      |
-| 12   |    | tba  | Inheritance, Subtyping, Polymorphism, Protected, Casting                                                    | 10      | [Exercise 10](../labs/exercise-10)                   |
-|      |    | tba  | Polymorphism, Static vs. dynamic typing, Overriding, Object equality                                        | 11      |                                                      |
-| 13   |    | tba  | Abstract Classes, Interfaces                                                                                | 12      | [Exercise 11](../labs/exercise-11)                   |
-|      |    | tba  | Handling Errors, Exceptions, Assertions,                                                                    | 14      | |                                                    |
-| 14   |    | tba  | File-based IO, Files, Command Line                                                                          | 14      | [Exercise 12](../labs/exercise-12)                   |
-|      |    | tba  | Trial Exams                                                                                                 |         |                                                      |
-| 15   |    | tba  | --------------------------- Start of the exam period    ---------------------------                         |         | reports due  - Trial Exams                           |
-|      |    | tba  | EXAM                                                                                                        |         |                                                      |
-| 16   |    | tba  |                                                                                                             |         |                                                      |
-|      |    | tba  |                                                                                                             |         |                                                      |
-| 17   |    | tba  |                                                                                                             |         |                                                      |
-|      |    | tba  |                                                                                                             |         |                                                      |
+| Week | KW | Date            | Part | Lecture                                                                                                                 | Lab                                     |
+|:-----|:---|:----------------|:-----|:------------------------------------------------------------------------------------------------------------------------|:----------------------------------------|
+| 1    | 41 | Tue, 2019-10-08 | I    | Introduction to Class                                                                                                   | [Exercise Startup](../labs/exercise-00) |
+|      |    |                 | II   | Introduction to Java, Programming with Kara                                                                             |                                         |
+| 2    | 42 | Tue, 2019-10-15 | I    | Introduction to Programming with Kara                                                                                   | [Exercise 01](../labs/exercise-01)      |
+|      |    |                 | II   | Introduction to Programming with Kara                                                                                   |                                         |
+| 3    | 43 | Tue, 2019-10-22 | I    | Objects, Classes, Methods, BlueJ, Parameters, Compiler (Chapter 01)                                                     | [Exercise 02](../labs/exercise-02)      |
+|      |    |                 | II   | Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter (Chapter 02)               |                                         |
+| 4    | 44 | Tue, 2019-10-29 | I    | Printing to the command line, Conditional, Local Variables,Expressions (Chapter 02)                                     | [Exercise 03](../labs/exercise-03)      |
+|      |    |                 | II   | Abstraction, Modularization, Object Interaction (Chapter 03)                                                            |                                         |
+| 5    | 45 | Tue, 2019-11-05 | I    | Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger (Chapter 03) | [Exercise 04](../labs/exercise-04)      |
+|      |    |                 | II   | Collections, Generics, for-each, While Loops   (Chapter 04)                                                             |                                         |
+| 6    | 46 | Tue, 2019-11-12 | I    | More Loops, Iterators, Arrays, For Loops  (Chapter 04)                                                                  | [Exercise 05](../labs/exercise-05)      |
+|      |    |                 | II   | Programming Practice / Loops                                                                                            |                                         |
+| 7    | 47 | Tue, 2019-11-19 | I    | Graphical User Interfaces, Lambda Functions (Chapter 13, Chapter 05)                                                    | [Exercise 06](../labs/exercise-06)      |
+|      |    |                 | II   | Lambda Functions, Filter, Map, Reduce   (Chapter 05)                                                                    |                                         |
+| 8    | 48 | Tue, 2019-11-26 | I    | Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps (Chapter 06)                                 | [Exercise 07](../labs/exercise-07)      |
+|      |    |                 | II   | Public vs. Private, Interfaces, Class Variables, Writing Class Documentation  (Chapter 06)                              |                                         |
+| 9    | 49 | Tue, 2019-12-03 | I    | Arrays (Chapter 07)                                                                                                     | [Exercise 08](../labs/exercise-08)      |
+|      |    |                 | II   | Unit Testing, Test Automation (Chapter 09)                                                                              |                                         |
+| 10   | 50 | Tue, 2019-12-10 | I    | Modularization, Interfaces, Debugging, Walkthroughs,  Testing and Interfaces  (Chapter 09)                              | [Exercise 09](../labs/exercise-09)      |
+|      |    |                 | II   | Designing Classes, Coupling, Cohesion, Refactoring     (Chapter 08)                                                     |                                         |
+| 11   | 51 | Tue, 2019-12-17 | I    | Refactoring, Using the main method    (Chapter 08)                                                                      | [Exercise 10](../labs/exercise-10)      |
+|      |    |                 | II   | Inheritance, Subtyping, Polymorphism, Protected, Casting (Chapter 10)                                                   |                                         |
+| 12   | 2  | Tue, 2020-01-07 | I    | Polymorphism, Static vs. dynamic typing, Overriding, Object equality  (Chapter 10)                                      | [Exercise 11](../labs/exercise-11)      |
+|      |    |                 | II   | Abstract Classes, Interfaces  (Chapter 11)                                                                              |                                         |
+| 13   | 3  | Tue, 2020-01-14 | I    | Handling Errors, Exceptions, Assertions   (Chapter 14)                                                                  | [Exercise 12](../labs/exercise-12)      |
+|      |    |                 | II   | File-based IO, Files, Command Line   (Chapter 14)                                                                       |                                         |
+| 14   | 4  | Tue, 2020-01-21 | I    | Exam Preparation                                                                                                        | Trial Exams                             |
+|      |    |                 | II   | Exam Preparation                                                                                                        |                                         |
+| 15   | 5  | Tue, 2020-01-28 | I    | EXAM                                                                                                                    |                                         |
+|      |    |                 | II   |                                                                                                                         |                                         |
+{% comment %}
+| 16   | 6  | Tue, 2020-02-04 | I    |                                                                                                             |         | | tba  |                                |
+|      |    |                 | II   |                                                                                                             |         | | tba  |                                |
+{% endcomment %}

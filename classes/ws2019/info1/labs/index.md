@@ -10,7 +10,8 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 
 ## Exercises
 
-* [Exercise 01 - Exercise Startup & Figures](exercise-01)
+* [Exercise 00 - Exercise Startup & Karas First Steps](exercise-00)
+* [Exercise 01 - Kara](exercise-01)
 * [Exercise 02 - Ticket Machine](exercise-02)
 * [Exercise 03 - Book Exercise](exercise-03)
 * [Exercise 04 - Rock Around the Clock](exercise-04)

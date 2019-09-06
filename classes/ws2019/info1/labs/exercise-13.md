@@ -4,7 +4,7 @@ author: kleinen
 layout: lab
 ---
 
-- not yet released -
+<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 {% comment %}
 ## Pre-Lab
 

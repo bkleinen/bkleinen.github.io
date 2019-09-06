@@ -3,7 +3,7 @@ title: 'Exercise 06: Lambda Functions'
 author: kleinen
 layout: lab
 ---
-
+<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 
 <figure class = "figure">
    <img class="figure-img img-fluid" src="../../images/topis-9552387589_392a9b51c7_k.jpg"  alt="Topis">

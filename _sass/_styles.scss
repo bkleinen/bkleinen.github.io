@@ -12,6 +12,10 @@ $color-areas: false;
    color: #AFAFAF;
  }
 
+.attention {
+  color: $attention-color;
+
+}
 @if $color-areas == true {
   .c1 { background-color: lightgray; }
   .c2 { background-color: LightSteelBlue ; }
@@ -36,6 +40,7 @@ $color-areas: false;
 .coursenav {
   padding-bottom: 20px;
 }
+
 
 
 // Navigation Bars

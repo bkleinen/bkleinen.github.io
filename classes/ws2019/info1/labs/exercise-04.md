@@ -3,7 +3,7 @@ title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
 layout: lab
 ---
-
+<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](http://www.flickr.com/photos/arjanrichter/6085686394)
 <small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](http://www.flickr.com/photos/arjanrichter/6085686394)</small>
 

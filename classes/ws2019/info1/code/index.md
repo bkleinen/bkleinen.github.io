@@ -7,13 +7,15 @@ layout: page
 ## Lecture Code Examples
 
 Don't worry about noting down any code changes I make in class - I will upload everything to github!
-The "Changes in ws2018" links will only work after I've uploaded those changes.
+The "Changes in ws2019" links will only work after I've uploaded those changes.
 
 Note that it might also be quite convenient to look at the code on the github page online,
 the commit history shows you the exact changes I made. Click on "commits" and then one
 individual commit, and you you'll see the changes.
 
 ### Class
+
+(the links named "changes in ..." will only work after the class has actually happened!)
 
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter01/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2019.zip)
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter02/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2019.zip)
@@ -31,17 +33,16 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 
 ### Labs
 
-* Lab 01: [Figures](https://github.com/htw-imi-info1/exercise01)
+* Lab 01: [Kara](https://github.com/htw-imi-info1/exercise01-kara)
 * Lab 02: [TicketMachine](https://github.com/htw-imi-info1/exercise02)
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
 * Lab 06: [Lambdas](https://github.com/htw-imi-info1/exercise06)
-
-{% comment %}
-
 * Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)
-{% endcomment %}
+* Lab 08: [Bouncing Balls](https://github.com/htw-imi-info1/exercise08)
+* Lab 09: [Testing with JUnit](https://github.com/htw-imi-info1/chapter09_testing)
+* Lab 10-12: [The World of You](https://github.com/htw-imi-info1/exercise10)
 
 
 ## Further Hints

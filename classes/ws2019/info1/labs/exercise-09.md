@@ -3,7 +3,7 @@ title: 'Exercise 09: Testing with JUnit'
 author: kleinen
 layout: lab
 ---
-
+<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 This week's lab work is intended give you practice testing and writing assertions.
 
 #### What to Bring to Lab

@@ -3,7 +3,7 @@ title: 'Exercise 08: Bouncing Balls'
 author: kleinen
 layout: lab
 ---
-
+<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 This week's lab work is intended give you practice working with the basic concepts of programming.
 
 ## What to Bring to Lab

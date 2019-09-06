@@ -1,18 +1,25 @@
+# frozen_string_literal: true
+
 require 'date'
 
-first_day = d = Date.new(2018, 10, 9)
-reject = Date.new(2018, 12, 26)
-day_diff = 0
-two_days = false
+first_day = d = Date.new(2019, 10, 8)
+reject = [Date.new(2019, 12, 24), Date.new(2019, 12, 31)]
 
-def two_sameday(first_day, day_diff = 0)
+day_diff = 0
+two_days = true
+
+def two_sameday(first_day:, reject: [], day_diff: 0)
   d = first_day
-  cw = first_day.strftime('%U').to_i
+  #cw = first_day.strftime('%U').to_i
+  week_count = 0
   (1..20).to_a.each do |i|
     date = d + (7 * (i - 1))
-    line_1 = date.strftime("|#{i} | #{i + cw - 1} | %a, %Y-%m-%d |  I |")
+    next if reject.include? date
+    #{d.cweek}
+    week_count += 1
+    line_1 = date.strftime("|#{week_count} | #{date.cweek} | %a, %Y-%m-%d |  I |")
     #  line_2 = (date+day_diff).strftime("|   |    | %a, %Y-%m-%d II |")
-    line_2 = (date + day_diff).strftime('|   |    |             |II |')
+    line_2 = (date + day_diff).strftime('|   |    |               |II |')
     puts line_1
     puts line_2
   end
@@ -47,4 +54,5 @@ end
 # two_sameday(first_day)
 # oneday(first_day)
 # oneday(first_day, 10, 14)
-oneday(first_day)
+# oneday(first_day)
+two_sameday(first_day: first_day, reject: reject)
