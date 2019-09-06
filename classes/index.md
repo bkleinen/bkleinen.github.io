@@ -8,11 +8,11 @@ layout: default
 
 {% include classes/ws2019/lectures.md %}
 
+## Former Classes
+
 ### Summer Term 2019
 
 {% include classes/ss2019/lectures.md %}
-
-## Former Classes
 
 ### Winter Term 2018/19
 

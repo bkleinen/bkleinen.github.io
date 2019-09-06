@@ -3,14 +3,17 @@ title: Prof. Dr. Barne Kleinen
 layout: default
 ---
 
-
 <div class = "above">
 <h4>Announcements and News</h4>
 {% include posts/posts.html %}
 </div>
 
 <div class = "box">
-<h4>No Classes in Summer Term 2019</h4>
+<h4>Classes Winter Term 2019/20</h4>
+
+<div>
+{% include classes/ws2019/lectures.html %}
+</div>
 <a href="{{ site.baseurl }}/classes/">Former Classes</a>
 
 <br/>
