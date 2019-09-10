@@ -1,5 +1,5 @@
 ---
-title: Web Applications WS2015/2016 - Homework 2
+title: Web Applications WS2019/2020 - Homework 2
 author: kleinen
 layout: default
 ---

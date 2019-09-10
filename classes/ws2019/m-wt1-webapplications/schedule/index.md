@@ -1,5 +1,5 @@
 ---
-title: Web Applications WS2015/2016 -  Tentative Schedule
+title: Web Applications WS2019/2020 -  Tentative Schedule
 author: kleinen
 layout: default
 wide_layout: true
@@ -29,17 +29,17 @@ Tentative - this will still be changed and adapted.
 | TBD  |    |                 |                                                                   |                               |                                                                                                                      |
 | 11   | 51 | Thu, 2015-12-17 | JavaScript, Ecma 6, AJAX                                          | Christina, Nadine, Tu         | [Homework 7 - Sprint 3](../homework/week7)                                                                           |
 |      |    |                 | Testing, TDD, BDD, UI-Testing                                     | Lars, Jessica                 |                                                                                                                      |
-| 14   | 1  | Thu, 2016-01-07 | Build/Release Process:  Hosting & Deployment, Continuous Delivery | Tim, Stefan K., Felix         | [Homework 8 - Sprint 4](../homework/week8)                                                                           |
+| 14   | 1  | Thu, 2019-01-07 | Build/Release Process:  Hosting & Deployment, Continuous Delivery | Tim, Stefan K., Felix         | [Homework 8 - Sprint 4](../homework/week8)                                                                           |
 |      |    |                 | Build/Release Process: Gulp, Grunt, Yeoman                        | Oliver                        |                                                                                                                      |
-| 15   | 2  | Thu, 2016-01-14 | Session Management, Cookies vs. JWT                               | Max, Stefan N., Michel        | Homework 9 - Sprint 5                                                                                                |
+| 15   | 2  | Thu, 2019-01-14 | Session Management, Cookies vs. JWT                               | Max, Stefan N., Michel        | Homework 9 - Sprint 5                                                                                                |
 |      |    |                 | Realtime, WebRTC, Websockets                                      | TBD                           |                                                                                                                      |
-| 16   | 3  | Thu, 2016-01-21 | Web Security & SSL                                                | Silvio, Maté                  | [Homework 10 - Sprint 6](../homework/week10)                                                                         |
+| 16   | 3  | Thu, 2019-01-21 | Web Security & SSL                                                | Silvio, Maté                  | [Homework 10 - Sprint 6](../homework/week10)                                                                         |
 |      |    |                 | Web Security & SSL, SSL-Zertifizierung                            | TBD                           |                                                                                                                      |
-| 17   | 4  | Thu, 2016-01-28 | Persistence NOSQL                                                 | Moritz, Arian                 | [Homework 11 - Sprint 7](../homework/week11)                                                                         |
+| 17   | 4  | Thu, 2019-01-28 | Persistence NOSQL                                                 | Moritz, Arian                 | [Homework 11 - Sprint 7](../homework/week11)                                                                         |
 |      |    |                 | Maps & Geographical Applications                                  | Gley , Ramin                  |                                                                                                                      |
-| 18   | 5  | Thu, 2016-02-04 | Final Project Presentations                                       |                               |                                                                                                                      |
+| 18   | 5  | Thu, 2019-02-04 | Final Project Presentations                                       |                               |                                                                                                                      |
 |      |    | 15:45-19:00     |                                                                   |                               |                                                                                                                      |
-| 19   | 6  | Thu, 2016-02-11 |                                                                   |                               | Final Reports Due (Sprint 7 and Presentations)                                                                       |
+| 19   | 6  | Thu, 2019-02-11 |                                                                   |                               | Final Reports Due (Sprint 7 and Presentations)                                                                       |
 |      |    |                 |                                                                   |                               |                                                                                                                      |
 
 {% comment %}
