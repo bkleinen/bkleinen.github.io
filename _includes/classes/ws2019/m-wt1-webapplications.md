@@ -1,8 +1,13 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "M-WT1-/classes/ws2019/m-wt1-webapplications/,Schedule-/classes/ws2019/m-wt1-webapplications/schedule/,Code-/classes/ws2019/m-wt1-webapplications/code/,Labs-/classes/ws2019/m-wt1-webapplications/labs/" | split: "," %}
+{% assign navitems = "M-WT1:/classes/ws2019/m-wt1-webapplications/,Schedule:/classes/ws2019/m-wt1-webapplications/schedule/" | split: "," %}
+
+{% comment %}
+,Code:/classes/ws2019/m-wt1-webapplications/code/,Labs:/classes/ws2019/m-wt1-webapplications/labs/
+{% endcomment %}
+
 {% for navitem in navitems %}
   <li class="nav-item">
-    {% assign n = navitem | split: "-" %}
+    {% assign n = navitem | split: ":" %}
     <a class="nav-link {% if page.url == n[1] %}active{% endif %}" href="{{ site.baseurl }}{{ n[1] }}">{{ n[0] }}</a>
   </li>
 {% endfor %}

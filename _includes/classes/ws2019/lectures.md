@@ -2,6 +2,7 @@
 * B WT2 Usability
 * M WT1 Web Applications
 * Praxisprojekt
+
 {% comment %}
 * [B WT2 Usability]
 * [M WT1 Webapplications]({{ site.baseurl }}/classes/ws2019/m-wt1-webapplications)

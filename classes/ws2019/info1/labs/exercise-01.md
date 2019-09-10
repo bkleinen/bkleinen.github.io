@@ -31,39 +31,39 @@ Most of the problems here are extensions of problems we've already solved in cla
 ### 1. Count leaves laid  
 (lab01_kara01): Using an integer variable, make Kara lay down 10 leaves in the middle lane.
 
-| Scenario after program was run                  |
-|:------------------------------------------------|
-| ![10 Leaves](../images/kara-exercise-01-01.jpg) |
+| Scenario after program was run                       |
+|:-----------------------------------------------------|
+| ![10 Leaves](../images/kara/kara-exercise-01-01.jpg) |
 
 
 ### 2.  Kara in the Tunnel
 (lab01_kara02): Kara is afraid of Tunnels. When entering the tunnel, Kara is scared and drops one leaf; then she walks through the tunnel (without dropping further leaves) and immediately stops after leaving the tunnel. Note that &#8220;in the tunnel&#8221; means that there is a tree on both sides, not just on one. Provide a general solution and Test it with both Worlds in the scenario.
 
-|       |                                                  |
-|:------|:-------------------------------------------------|
+|       |                                                       |
+|:------|:------------------------------------------------------|
 | Start | ![Start](../images/kara/kara-exercise01-02-start.jpg) |
 | End   | ![End](../images/kara/kara-exercise01-02-end.jpg)     |
 
 ### 3.  Leaves in the forest I
 (lab01_kara03): Building on Exercise 7 of Worksheet 1, where Kara looks for a leaf in front of him, modify the algorithm to make her able to walk around 2 or more trees in a row.
 
-| Scenario                                          |
-|:--------------------------------------------------|
+| Scenario                                               |
+|:-------------------------------------------------------|
 | ![Forest](../images/kara/kara-exercise01-03-start.jpg) |
 
 ### 4.  Leaves in the forest II
 
 (lab01_kara04): In this forest, each field has exactly two neighboring free fields, one of them behind Kara, and the other one either to the left, in front or on the right. Make Kara move through the forest and find the leaf.
 
-| Scenario                                          |
-|:--------------------------------------------------|
+| Scenario                                               |
+|:-------------------------------------------------------|
 | ![Forest](../images/kara/kara-exercise01-04-start.jpg) |
 
 ### 5.  Picture Inversion
 (lab01_kara05) Program Kara such that it will create an &#8220;inverse picture&#8221; within a tree rectangle. E.g. starting as in KaraWorld05, as in the first picture, the picture should look like the second picture after the program has run.
 
-| Before                                           | After                                          |
-|:-------------------------------------------------|:-----------------------------------------------|
+| Before                                                | After                                               |
+|:------------------------------------------------------|:----------------------------------------------------|
 | ![Start](../images/kara/kara-exercise01-07-start.jpg) | ![End](../images/kara/kara-exercise01-inverted.jpg) |
 
 <br><small class = "float-right">Start Image</small>
