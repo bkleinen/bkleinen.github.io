@@ -41,15 +41,15 @@ Most of the problems here are extensions of problems we've already solved in cla
 
 |       |                                                  |
 |:------|:-------------------------------------------------|
-| Start | ![Start](../images/kara-exercise01-02-start.jpg) |
-| End   | ![End](../images/kara-exercise01-02-end.jpg)     |
+| Start | ![Start](../images/kara/kara-exercise01-02-start.jpg) |
+| End   | ![End](../images/kara/kara-exercise01-02-end.jpg)     |
 
 ### 3.  Leaves in the forest I
 (lab01_kara03): Building on Exercise 7 of Worksheet 1, where Kara looks for a leaf in front of him, modify the algorithm to make her able to walk around 2 or more trees in a row.
 
 | Scenario                                          |
 |:--------------------------------------------------|
-| ![Forest](../images/kara-exercise01-03-start.jpg) |
+| ![Forest](../images/kara/kara-exercise01-03-start.jpg) |
 
 ### 4.  Leaves in the forest II
 
@@ -57,30 +57,30 @@ Most of the problems here are extensions of problems we've already solved in cla
 
 | Scenario                                          |
 |:--------------------------------------------------|
-| ![Forest](../images/kara-exercise01-04-start.jpg) |
+| ![Forest](../images/kara/kara-exercise01-04-start.jpg) |
 
 ### 5.  Picture Inversion
 (lab01_kara05) Program Kara such that it will create an &#8220;inverse picture&#8221; within a tree rectangle. E.g. starting as in KaraWorld05, as in the first picture, the picture should look like the second picture after the program has run.
 
 | Before                                           | After                                          |
 |:-------------------------------------------------|:-----------------------------------------------|
-| ![Start](../images/kara-exercise01-07-start.jpg) | ![End](../images/kara-exercise01-inverted.jpg) |
+| ![Start](../images/kara/kara-exercise01-07-start.jpg) | ![End](../images/kara/kara-exercise01-inverted.jpg) |
 
 <br><small class = "float-right">Start Image</small>
 <small class = "float-right">End Image</small>
 
 ### 6.  Draw a Spiral
  (lab01_kara06) Draw a Spiral like the one shown in the picture.
-![spiral](../images/kara-exercise01-spiral.jpg)
+![spiral](../images/kara/kara-exercise01-spiral.jpg)
 
 
 ### 7. (for the bored:) Make Kara add two numbers in binary format.
 For the bored exercises are optional!
  In lab01_kara07 the world creates two random 8-bit binary numbers, a leaf means 1, no leaf means 0. Make Kara add them up using place value and carrying, which is basically the same as [adding up decimal numbers using place value and carrying](https://www.khanacademy.org/math/4th-engage-ny/engage-4th-module-1/4th-module-1-topic-d/v/carrying-when-adding-three-digit-numbers). [Here's an explanation how to do it for binary numbers.](http://www.wikihow.com/Add-Binary-Numbers#Adding_Binary_Numbers_Using_Place_Value_sub)
 
- ![Result](../images/kara-exercise01-07-before.jpg)<small class = "float-right">Start Image</small>
+ ![Result](../images/kara/kara-exercise01-07-before.jpg)<small class = "float-right">Start Image</small>
 
-![Result](../images/kara-exercise01-07-after.jpg)
+![Result](../images/kara/kara-exercise01-07-after.jpg)
 <small class = "float-right">Result</small>
 
 ## Post-Lab, AKA What to Turn In
