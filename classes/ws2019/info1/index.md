@@ -22,9 +22,9 @@ be in English. You are free to choose German or English for your written assignm
 The class consists of 2x2h of lectures and 2h of lab per week. Find the details in
 LSF - there's a link to the LSF class in the menu under 'External Links'.
 
-Additional to the class meetings there will be an tutorial:
+Additional to the class meetings there will be a tutorial:
 
-* Info1 tutorials held by Lotte Unckel (time and room tba)
+* Info1 tutorials held by Lotte Unckell on Tuesdays 9:45 - 11:15 in Room WH C 579
 
 ## Grades
 
