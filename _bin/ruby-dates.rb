@@ -2,30 +2,33 @@
 
 require 'date'
 
-first_day = d = Date.new(2019, 10, 8)
-reject = [Date.new(2019, 12, 24), Date.new(2019, 12, 31)]
-
+first_day = d = Date.new(2019, 10, 10)
+reject = [Date.new(2019, 12, 23), Date.new(2020, 1, 4)]
+# 23.12.2019 – 04.01.2020
 day_diff = 0
 two_days = true
 
-def two_sameday(first_day:, reject: [], day_diff: 0)
+def two_sameday(first_day:, reject: [], day_diff: 0, days: 2)
   d = first_day
-  #cw = first_day.strftime('%U').to_i
+  # cw = first_day.strftime('%U').to_i
   week_count = 0
   (1..20).to_a.each do |i|
     date = d + (7 * (i - 1))
-    next if reject.include? date
-    #{d.cweek}
+    next if (reject[0] <= date) && (date <= reject[1])
+
+    # {d.cweek}
     week_count += 1
     line_1 = date.strftime("|#{week_count} | #{date.cweek} | %a, %Y-%m-%d |  I |")
     #  line_2 = (date+day_diff).strftime("|   |    | %a, %Y-%m-%d II |")
-    line_2 = (date + day_diff).strftime('|   |    |               |II |')
     puts line_1
-    puts line_2
+    if days == 2
+      line_2 = (date + day_diff).strftime('|   |    |               |II |')
+      puts line_2
+    end
   end
 end
 
-def twodays(first_day, day_diff = 1)
+def twodays(first_day:, reject: [], day_diff: 1)
   d = first_day
   cw = first_day.strftime('%U').to_i
   (1..20).to_a.collect { |i| [(d + (7 * (i - 1))).strftime("|#{i} | #{i + cw - 1} | %a, %Y-%m-%d |"), (d + (7 * (i - 1)) + day_diff).strftime('|   |    | %a, %Y-%m-%d |')] }.flatten.each { |x| puts x }
@@ -40,7 +43,7 @@ def oneday(first_day, number = 20, delta = 7)
   end.flatten.each { |x| puts x }
 end
 
-# oneday(first_day)
+two_sameday(first_day: first_day, reject: reject, days: 1)
 
 # info2
 # first_day=d=Date.new(2017,4,4)
@@ -55,4 +58,4 @@ end
 # oneday(first_day)
 # oneday(first_day, 10, 14)
 # oneday(first_day)
-two_sameday(first_day: first_day, reject: reject)
+# two_sameday(first_day: first_day, reject: reject)
