@@ -30,19 +30,16 @@ Additional to the class meetings there will be a tutorial:
 
 Your grade in Info1 will be a weighted mixture of the evaluated elements of the course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
 
-TBD: Grading.
-{% comment %}
 * Lab Reports: 50%
 * Exam: 50%
 * Lecture summaries: 8%
-{% endcomment %}
 
 ### Lecture summaries
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
 
-Lecture summaries are due at 22.00 on Monday for both lectures of the past week
- They are either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 5%.
- If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
+Lecture summaries are due at 22.00 on Monday for both lectures of the past week.
+They are either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 5%.
+If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
 
 ### Lab Reports
 You find detailled information about them on the [Lab Page](labs/)
