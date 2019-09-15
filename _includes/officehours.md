@@ -1,14 +1,15 @@
 
 
-
-<b> Office Hours during the Summer Break 2019: </b>
+<b>Prof. Jung will handle Internship Applications up till Sept 30th.</b>
 <br/>
 
-During the summer break Prof. Jung and me will share the work of handling internship questions and applications.  <br/>
+<b> Office Hours WS 2019/20: </b>
+<br/>
 
-KW 32: Thu 8.8.2019, 17-18<br/>
-KW 36: Thu 5.9.2019, 11-12<br/>
+KW 40: Thu 1.10.2019, 10-11<br/>
+KW 41: Thu 8.10.2019, 16-17<br/>
 
+Regular Office Hours will be set as soon as the schedule is settled.<br/><br/>
 
 
 Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
