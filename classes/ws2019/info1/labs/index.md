@@ -3,6 +3,13 @@ title: Info1 - Labs and Exercises
 author: kleinen
 layout: page
 ---
+## What happens in a lab?
+
+Programming is something you can&#8217;t learn out of a book &#8211; you have
+try out things yourself and practice! Therefore, this class will have lots of
+exercises. In the Labs you will have opportunity to work on them, and, most
+importantly, **ask questions** or **discuss it with others** if something is
+unclear to you or you are stuck somewhere.
 
 ## Structure of the Exercises
 
@@ -27,40 +34,34 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 13 - CRC Cards](exercise-13)
 {% endcomment %}
 
-## Grading
+## Grading: Lab Reports
 
-Programming is something you can&#8217;t learn out of a book &#8211; you have
-try out things yourself and practice! Therefore, this class will have lots of
-exercises. In the Labs you will have opportunity to work on them, and, most
-importantly, **ask questions**  or **discuss it with others** if something is
-unclear to you or you are stuck somewhere.
-{% comment %}
-To encourage you to really tinker on these excercises rather than copying a given solution
-in order to achieve the best grade possible, lab reports won't be graded.
-You'll either get an "ok" for them if I feel you understood enough of the material
-to move on or an "not quite enough" if I think you need to revisit this excercise.
-
-We will talk about last weeks excercises first thing in the following lab.
-You'll then have one day to re-submit your report if it wasn't sufficient yet.
-{% endcomment %}
-## Group Work
-Talking to each other and working in pairs or groups is also highly encouraged
-during the labs. This term, I will make a ***raffle for new groups of three
-for every set of 3 exercises***. This will be done in the labs, so please email
-me if you can't attend the lab - I will make a separate raffle of all who didn't
-attend. So you will need to meet up with others to work on the exercise even if
-you didn't come to the lab. ***I will not accept assignments that are not
-prepared in those random groups.***
-
-
-### Lab reports
-
-For each week you must write a report. The report must be in English or German,
+You will need to write a report each week. The report must be in English or German,
 spell-checked and using complete sentences, explaining what you did in the
 exercise session, that is, the process. Screenshots are welcome. Each report
 should not be more than 5 pages and in PDF format and must have your names on it.
 It must include a reflection on what you learned during the session.
 They must be submitted to the Moodle area by 22.00 the night before your next lab.
 
+[Here are some general guidelines on lab reports.]({{ site.baseurl }}/studies/grading/guideline)
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
+The reports count 50% of your grade.
+
+## Group Work
+
+Labs and lab reports will be done in groups of three. These groups will be formed at 
+random at the beginning of each lab. Each group member gets the same grade for the lab report
+that gets handed in.
+
+## I could not attend the lab...
+
+Please post in the appropriate Moodle forum. You will be assigned a group. I expect
+you to do the exercises anyway and hand in a lab report. 
+
+## I can generally not attend the lab on wednesdays / thursdays...
+
+You can switch during "Restplatzbelegungszeitraum" (till October 17 2019). Find someone
+who wants to swap places with you, then come talk to me (Linda).
+
+## I have another problem!
+Talk to me! You can even do it anonymousely on Moodle.
