@@ -5,7 +5,9 @@
 classes/ss2018/info1.md classes/ss2018/media-programming-rails.md classes/ss2018/wt4.md
 classes/ws2018/wt2.md classes/ws2018/info2.md
 classes/ws2019/info1.md
-classes/ws2019/m-wt1-webapplications.md{% endcapture %}
+classes/ws2019/m-wt1-webapplications.md
+classes/ws2019/m1-web.md
+{% endcapture %}
 
 {% capture remainder %}{{available | remove:fn  }}{% endcapture %}
 

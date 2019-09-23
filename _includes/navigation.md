@@ -6,6 +6,7 @@
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% include navigation_dropdown_item.md url = "/classes/ws2019/info1" link_text = "Info 1" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2019/m1-web" link_text = "M1 Web" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>
 </li>

@@ -1,7 +1,8 @@
 * [B1 Informatik 1]({{ site.baseurl }}/classes/ws2019/info1)
 * B WT2 Usability
+* [M M1 Media Programming - Lab Web Technology]({{ site.baseurl }}/classes/ws2019/m1-web)
 * M WT1 Web Applications
-* Praxisprojekt
+* M Praxisprojekt
 
 {% comment %}
 * [B WT2 Usability]
