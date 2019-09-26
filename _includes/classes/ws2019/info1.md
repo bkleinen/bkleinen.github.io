@@ -10,8 +10,8 @@
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">External Links</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" target = "ex_link" href="https://moodle.htw-berlin.de/course/view.php?id=21907">Moodle</a>
-      <a class="dropdown-item" target = "ex_link" href="#">SU in LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="#">Labs in LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154632">SU in LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154657">Labs in LSF</a>
       <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
       <a class="dropdown-item" target = "ex_link" href="https://github.com/htw-imi-info1">Github</a>
     </div>
