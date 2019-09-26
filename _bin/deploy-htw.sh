@@ -1,4 +1,5 @@
 #!/bin/bash
+git log --pretty=format:'%h' -n 1 > commit.txt
 git push origin master
 if [ $? -ne 0 ]; then
     echo "push failed; exiting"

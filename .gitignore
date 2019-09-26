@@ -1,6 +1,8 @@
 _site
 _site_htw
 _site_htw_rz
+commit.txt
+commit-htw.txt
 .sass-cache
 *.out
 link-checker-crawled-pages.pstore
