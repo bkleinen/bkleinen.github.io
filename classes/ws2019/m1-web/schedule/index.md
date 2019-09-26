@@ -7,8 +7,7 @@ wide_layout: true
 
 | Week | KW | Date            | Topic                                                   | Assignment |
 |:-----|:---|:----------------|:--------------------------------------------------------|:-----------|
-| 12   | 51 | Wed, 2019-12-18 | Web Technology and Architectures - Framework Bento Game |            |
-| 13   | 2  | Wed, 2020-01-08 | Authentication and Security                             |            |
-| 14   | 3  | Wed, 2020-01-15 | Continuous Deployment                                   |            |
-| 15   | 4  | Wed, 2020-01-22 | Usability and User Experience                           |            |
-| 16   | 5  | Wed, 2020-01-29 | Usability and User Experience                           |            |
+| 13   | 2  | Wed, 2020-01-08 | Web Technology and Architectures - Framework Bento Game |            |
+| 14   | 3  | Wed, 2020-01-15 | 2 x Usability and User Experience (8-11)                |            |
+| 15   | 4  | Wed, 2020-01-22 | Authentication and Security                             |            |
+| 16   | 5  | Wed, 2020-01-29 | Continuous Deployment                                   |            |
