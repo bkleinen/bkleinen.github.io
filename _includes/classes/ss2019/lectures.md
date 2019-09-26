@@ -1,1 +1,1 @@
-No classes this term.
+No Lectures held.

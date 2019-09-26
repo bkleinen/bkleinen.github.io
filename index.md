@@ -14,9 +14,9 @@ layout: default
 <div>
 {% include classes/ws2019/lectures.html %}
 </div>
-<a href="{{ site.baseurl }}/classes/">Former Classes</a>
+<a href="{{ site.baseurl }}/classes/">All Classes (Archive)</a>
 
-<br/>
+<br/><br/>
 </div>
 
 
