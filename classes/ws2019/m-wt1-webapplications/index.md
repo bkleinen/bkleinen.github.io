@@ -6,8 +6,11 @@ layout: page
 
 ## Welcome!
 
-WT1 Web Applications is the introductory class for the Web Technology focus. The Pr&uuml;fungsordnung states
+WT1 Web Applications is the introductory class for the Web Technology focus.
 
+{% comment %}
+
+The Pr&uuml;fungsordnung states
 ### Lernergebnis und Kompetenzen
 
 * Die Studierenden lernen die Probleme und Potentiale von Web- basierten Anwendungen im Gegensatz zu stand-alone-Anwendungen kennen.
@@ -70,3 +73,5 @@ adhere to the grammar and spelling rules of the respective language.
 
 * [Students Groups Admin Link in Github](https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/collaboration) (you need to be logged in to github)
 ... and more to come
+
+{% endcomment %}

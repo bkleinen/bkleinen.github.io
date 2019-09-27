@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-
+{% comment %}
 Tentative - this will still be changed and adapted.
 
 
@@ -55,3 +55,4 @@ Tentative - this will still be changed and adapted.
 |      |                                                  |                       |                                                                   |                               |                                                                                                                      |
 |      |                                                  |                       |                                                                   |                               | Final Reports Due (Sprint 7 and Presentations)                                                                       |
 |      |                                                  |                       |                                                                   |                               |                                                                                                                      |
+{% endcomment %}
