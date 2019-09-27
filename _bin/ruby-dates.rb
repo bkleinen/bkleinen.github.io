@@ -2,11 +2,13 @@
 
 require 'date'
 
-first_day = d = Date.new(2019, 10, 2)
+first_day = d = Date.new(2019, 10, 10)
 reject = [Date.new(2019, 12, 23), Date.new(2020, 1, 4)]
 # 23.12.2019 – 04.01.2020
 day_diff = 0
 two_days = true
+# DATEFORMAT='| %a, %Y-%m-%d |  I |'
+DATEFORMAT='| %a %d/%m/%Y |  I |'
 
 def two_sameday(first_day:, reject: [], day_diff: 0, days: 1)
   d = first_day
@@ -18,7 +20,8 @@ def two_sameday(first_day:, reject: [], day_diff: 0, days: 1)
 
     # {d.cweek}
     week_count += 1
-    line_1 = date.strftime("|#{week_count} | #{date.cweek} | %a, %Y-%m-%d |  I |")
+    line_1 = "|#{week_count} | #{date.cweek} "
+    line_1 += date.strftime(DATEFORMAT)
     #  line_2 = (date+day_diff).strftime("|   |    | %a, %Y-%m-%d II |")
     puts line_1
     if days == 2
