@@ -1,5 +1,5 @@
 ---
-title:  Project: IN_VISIBLE (Master)
+title:  Project IN_VISIBLE (Master)
 author: kleinen
 layout: default
 ---
