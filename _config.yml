@@ -12,6 +12,9 @@ production_url : http://bkleinen.github.io
 rss_path : rss.xml
 atom_path : atom.xml
 title: Barne Kleinen
+ft:
+  wt1: ON
+  wt2: ON
 author:
   name: Barne Kleinen
   email: kleinen@htw-berlin.de
