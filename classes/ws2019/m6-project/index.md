@@ -6,7 +6,8 @@ layout: default
 
 ## IN_VISIBLE - Contextual and System Design for a Community Prototype (M6/M11)
 
-Barne Kleinen, Kamalanetra Johnson, René_ Hornstein
+Barne Kleinen, Dr. Kamalanetra AJ C Hung, René_ Hornstein
+
 ### Project IN_VISIBLE
 
 When we are denied expressing our identity and participating in education we become invisible.
