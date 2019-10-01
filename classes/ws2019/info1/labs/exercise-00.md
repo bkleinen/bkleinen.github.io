@@ -111,7 +111,7 @@ abmelden" or to click on the Start button (yes, Windows is a bit strange). You m
 
 ### 5. Writeup - The Lab Report
 
-You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab). If you do not have a computer at home, you can use the lab computers during times when there is no class. Hmm, you saved some information on your login area on the school server, can you access this from home? Yes! Your home directory is on the server uranus.f4.htw-berlin.de (or it was last week). There is a service called FTP that you can use to access these files. You will need to login to the FTP service with your FB 4 login to see your files. On Windows machines you open up a command window and use FTP. On Mac or Unix machines you open up a terminal and use ftp there, or find one of the many ftp clients.
+You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab). If you do not have a computer at home, you can use the lab computers during times when there is no class. Hmm, you saved some information on your login area on the school server, can you access this from home? Yes! Your home directory is on the HTW Cloud Server (https://webdrive.htw-berlin.de/login). You will need to login to the Cloud Server with your FB 4 login to see your files.
 
 
 Submit your writeup, explaining what you did and what you learned, as your Lab Report to the Moodle area, as a practice - it will not be graded.
