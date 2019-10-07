@@ -5,9 +5,7 @@ layout: lab
 ---
 
 
-Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 576 and WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems.
-
-We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find an overview of them including a link to the rules ("Laborordnung") [here](http://imi-bachelor.htw-berlin.de/studium/labore/).
+Welcome to the laboratory - that's what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules ("Laborordnung") [here](http://imi-bachelor.htw-berlin.de/studium/labore/).
 
 Two really important rules are:
 
@@ -27,46 +25,48 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ### Download and Install Greenfoot and BlueJ:
 
-* Download and install Greenfoot as described on their page: [http://www.greenfoot.org/download](http://www.greenfoot.org/download) - the most convenient way will be to install the dedicated version for your operating system.
+* Download and install Greenfoot as described on their page: [http://www.greenfoot.org/download](http://www.greenfoot.org/download).
 
 * Download and install BlueJ as described on the BlueJ page: http://bluej.org. You will need BlueJ starting with Lab 02.
 
-* If you want to save space, you can download and install Java and the pure Java Versions of Greenfoot and BlueJ. This is a tad more complicated. Follow the instructions on the Greenfoot and BlueJ site.
-
 ## Assignment
+
+### 0. Logbook
+
+Take something out of the bag near the entrance of the lab and find your lab group for today. Register to the group on Moodle.
 
 ### 1. Logbook
 
-You need to get used to keeping a logbook in the lab. It can be analog (i.e. on paper) or digital. Make sure that you label and date your logbook. Keep track of everything you do in the logbook - even if you are really excited and want to keep playing. You will save time later if you can easily retrace your steps. Your lab leader will show you how to set up an online logbook. Make a logbook for today and take notes on what we do. This will be turned in as a lab report this week. Don't forget your name!
+You need to get used to keeping a logbook in the lab. It can be analog (i.e. on paper) or digital. Make sure that you label and date your logbook. Keep track of everything you do in the logbook - even if you are really excited and want to keep playing. You will save time later if you can easily retrace your steps. Make a logbook for today and take notes on what we do. This will be turned in as a lab report this week. 
 
 ### 2. Logging in and Getting Ready for the Exercises
 
-Now that you have your HTW username, you also have a home directory. This is where all your files can be placed. You can access it both from Windows and Linux (Ubuntu).
+0. Now that you have your HTW username, you also have a home directory. This is where all your files can be placed. You can access it both from Windows and Linux (Ubuntu).
 
-After you have logged in, look around - where do you find a browser? How many browsers are there? Is there any way to print from the lab? How do you make a screen shot? How can you make a pdf file? Where is the Java JDK installed? Note down the path. Open up a command line and find out the active java version by typing
+After you have logged in, look around - where do you find a browser? How many browsers are there? How do you make a screen shot? How can you make a pdf file? Where is the Java JDK installed? Note down the path. Open up a command line and find out the active java version by typing
 
     > java -version
 
-### 3. Examine Greenfoot
-
 1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2016.zip). You will use the scenarios 01-01 through 01-08 for this lab.
+
 2.   Read through [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf)
 We've already started working on Worksheet 1 in class.
-3. Remember to have a logbook while working:
+
+3.   Remember to have a logbook while working:
 Note down the steps you've taken, including those that failed. Read through the whole assignment first, before starting to work.
-0. Open one of the scenarios.
-1. Examine the Greenfoot environment. Right-Click on every object/actor in the World and the World and Actor
-   classes on the right hand side. How can you call the Kara actions and sensors directly? What happens if you
-   call a sensor directly? How do you find out the actual state of Kara apart from looking at the screen?
-   How are the directions stored, e.g. if Kara faces upwards?
-2. How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click
-    on the reset or compile buttons?
 
-If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](http://code.makery.ch/library/greenfoot-kara/).
-- it's also available [in german](http://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the
-assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on
-an older version of the tutorial.
+### 3. Examine Greenfoot
 
+0.   Open one of the scenarios you downloaded.
+
+1.   Examine the Greenfoot environment. Right-Click on every object/actor in the World and the World and Actor
+classes on the right hand side. How can you call the Kara actions and sensors directly? What happens if you
+call a sensor directly? How do you find out the actual state of Kara apart from looking at the screen?
+How are the directions stored, e.g. if Kara faces upwards?
+
+2.   How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click on the reset or compile buttons?
+
+If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](http://code.makery.ch/library/greenfoot-kara/) - it's also available [in german](http://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on an older version of the tutorial.
 
 ### 4. Solve one of the exercises.
 
@@ -81,7 +81,7 @@ an older version of the tutorial.
 Make use of ```Greenfoot.stop()``` or the method ```stopAfterStep(n)``` if you simply
    want the act-method execute 4 times if you press "run", for example:
 
-   public void act()
+     public void act()
        {
            move();
            stopAfterStep(4);
@@ -100,7 +100,7 @@ For example, to simply move until you encounter a leaf:
 
 
 
-### 4. Logging Out
+### 5. Logging Out
 
 When it comes time to log out, _be very careful._ Computers can be very fussy about this.
 Think of it as a friend who will be insulted if you do not properly say goodbye.
@@ -109,10 +109,9 @@ abmelden" or to click on the Start button (yes, Windows is a bit strange). You m
 **Never** power down the machine without doing this first. Once you have logged out, please turn the machine and screen off if they didn't shut off automatically, **put your chair back under the table, and clean up any garbage that may have accumulated.**
 
 
-### 5. Writeup - The Lab Report
+### 6. Writeup - The Lab Report
 
 You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab). If you do not have a computer at home, you can use the lab computers during times when there is no class. Hmm, you saved some information on your login area on the school server, can you access this from home? Yes! Your home directory is on the HTW Cloud Server (https://webdrive.htw-berlin.de/login). You will need to login to the Cloud Server with your FB 4 login to see your files.
-
 
 Submit your writeup, explaining what you did and what you learned, as your Lab Report to the Moodle area, as a practice - it will not be graded.
 
