@@ -37,7 +37,7 @@ Take something out of the bag near the entrance of the lab and find your lab gro
 
 ### 1. Logbook
 
-You need to get used to keeping a logbook in the lab. It can be analog (i.e. on paper) or digital. Make sure that you label and date your logbook. Keep track of everything you do in the logbook - even if you are really excited and want to keep playing. You will save time later if you can easily retrace your steps. Make a logbook for today and take notes on what we do. This will be turned in as a lab report this week. 
+You need to get used to keeping a logbook in the lab. It can be analog (i.e. on paper) or digital. Make sure that you label and date your logbook. Keep track of everything you do in the logbook - even if you are really excited and want to keep playing. You will save time later if you can easily retrace your steps. Make a logbook for today and take notes on what we do. This will be turned in as a lab report this week.
 
 ### 2. Logging in and Getting Ready for the Exercises
 
