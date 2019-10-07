@@ -6,7 +6,7 @@ layout: lab
 ## Pre-Lab
 
 1.    [Download the Scenarios][1] and read through the Kara programming exercises in the assignment.
-2.   Write down how Kara could solve the task for each one of them. For example, if the programming exercise was Exercise 4 from [Worksheet 1](../../material/info1-kara-worksheet-1.pdf), where Kara was to move in a Square and drop a leaf in each corner, you could write down something as this:
+2.   Write down how Kara could solve the task for each one of them. For example, if the programming exercise was Exercise 4 from [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf), where Kara was to move in a Square and drop a leaf in each corner, you could write down something as this:
 
          1.  walk one edge (call move n times),
          2.  drop a leaf
@@ -25,7 +25,7 @@ layout: lab
 
 For all problems, make sure to extract methods where appropriate to make the source code more readable.
 
-Most of the problems here are extensions of problems we've already solved in class. So it's usually a good idea to first identify a similar problem we've done in class and modify the solution we did there. So get out your  [Worksheet 2](../../material/info1-kara-worksheet-2.pdf) and compare! [Here's a link to the scenarios we did in class.](https://github.com/htw-imi-info1/kara/tree/ws2019)
+Most of the problems here are extensions of problems we've already solved in class. So it's usually a good idea to first identify a similar problem we've done in class and modify the solution we did there. So get out your  [Worksheet 2](../../material/info1-04-worksheet-kara-2.pdf) and compare! [Here's a link to the scenarios we did in class.](https://github.com/htw-imi-info1/kara/tree/ws2019)
 
 
 ### 1. Count leaves laid  
@@ -97,5 +97,5 @@ Read the info on the [Lab Index](../) page again if you're unsure about the natu
 
 ## Links to the Worksheets
 
- * [Worksheet 1](../../material/info1-kara-worksheet-1.pdf)
- * [Worksheet 2](../../material/info1-kara-worksheet-2.pdf)
+ * [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf)
+ * [Worksheet 2](../../material/info1-04-worksheet-kara-2.pdf)
