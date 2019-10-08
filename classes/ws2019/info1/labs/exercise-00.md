@@ -31,7 +31,7 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ## Assignment
 
-### 0. Logbook
+### 0. Forming groups
 
 Take something out of the bag near the entrance of the lab and find your lab group for today. Register to the group on Moodle.
 
