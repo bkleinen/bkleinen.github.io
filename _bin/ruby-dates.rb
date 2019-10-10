@@ -2,11 +2,11 @@
 
 require 'date'
 
-first_day = d = Date.new(2019, 10, 10)
+first_day = d = Date.new(2019, 10, 16)
 reject = [Date.new(2019, 12, 23), Date.new(2020, 1, 4)]
 # 23.12.2019 – 04.01.2020
 day_diff = 0
-two_days = true
+two_days = false
 # DATEFORMAT='| %a, %Y-%m-%d |  I |'
 DATEFORMAT='| %a %d/%m/%Y |  I |'
 
