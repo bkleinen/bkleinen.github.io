@@ -31,7 +31,7 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ## Assignment
 
-### 0. Logbook
+### 0. Forming groups
 
 Take something out of the bag near the entrance of the lab and find your lab group for today. Register to the group on Moodle.
 
@@ -41,16 +41,13 @@ You need to get used to keeping a logbook in the lab. It can be analog (i.e. on 
 
 ### 2. Logging in and Getting Ready for the Exercises
 
-0. Now that you have your HTW username, you also have a home directory. This is where all your files can be placed. You can access it both from Windows and Linux (Ubuntu).
-
-After you have logged in, look around - where do you find a browser? How many browsers are there? How do you make a screen shot? How can you make a pdf file? Where is the Java JDK installed? Note down the path. Open up a command line and find out the active java version by typing
+0.   Now that you have your HTW username, you also have a home directory. This is where all your files can be placed. You can access it both from Windows and Linux (Ubuntu). After you have logged in, look around - where do you find a browser? How many browsers are there? How do you make a screen shot? How can you make a pdf file? Where is the Java JDK installed? Note down the path. Open up a command line and find out the active java version by typing
 
     > java -version
 
 1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2016.zip). You will use the scenarios 01-01 through 01-08 for this lab.
 
-2.   Read through [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf)
-We've already started working on Worksheet 1 in class.
+2.   Read through [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf) again. Remember what you did in class?
 
 3.   Remember to have a logbook while working:
 Note down the steps you've taken, including those that failed. Read through the whole assignment first, before starting to work.
@@ -70,7 +67,7 @@ If you want/need to read more about Greenfoot Kara, you find a detailed tutorial
 
 ### 4. Solve one of the exercises.
 
-3. Pick one exercise from the worksheet and solve it.
+Pick one exercise from the worksheet and solve it.
    How can the task be decomposed into single steps (calls to the act-method)?
    That is, make use of the run-loop in Greenfoot -
    think carefully about what should be achieved by each step.
@@ -78,8 +75,7 @@ If you want/need to read more about Greenfoot Kara, you find a detailed tutorial
    For example, the walk-in-a-square exercise can be solved
    by four times walking an edge, thus, each call to the act()-method should make Kara walk only one edge.
 
-Make use of ```Greenfoot.stop()``` or the method ```stopAfterStep(n)``` if you simply
-   want the act-method execute 4 times if you press "run", for example:
+Make use of ```Greenfoot.stop()``` or the method ```stopAfterStep(n)``` if you simply want the act-method execute 4 times if you press "run", for example:
 
      public void act()
        {
