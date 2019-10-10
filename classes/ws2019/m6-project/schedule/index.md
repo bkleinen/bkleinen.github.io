@@ -1,34 +1,11 @@
-
 ---
 title:  Project IN_VISIBLE (Master)
 author: kleinen
 layout: default
 ---
 
-- Equality Officers (Frauenbeauftragte)
-  - biased: present the institution as inclusive
-- Head of Administration/Student Service
 
-- TIN People who are members of the institution
-  - who maybe experienced pain and want to share it
-  - or maybe a positive experience as well
-- Local TIN People who want to provide information
-- Alumnis
-
-- Activists Maintaining the Platform/Administrator
-
-
-variety of people interviewed (class, sexual orientation, gender identity,
-  perspectives of intersex people, people of color)
-
-Discuss Ideas with other Groups e.g. LesMigras and other community-based NGOs
-intersectional perspective
-
-- bk Contextual Interviews articles
-- Kamalanetra
-UGLA/OWL Shit not to say to Trans* People
-
-|    |    |                |                       |                          |  |
+| W  | CW | Date           | Topic                 |                          |  |
 |:---|:---|:---------------|:----------------------|:-------------------------|:-|
 | 1  | 42 | Wed 16/10/2019 | Contextual Interviews | Technology Brainstorming |  |
 | 2  | 43 | Wed 23/10/2019 | Affinity              | Tech. Proof of Concept   |  |
@@ -44,5 +21,28 @@ UGLA/OWL Shit not to say to Trans* People
 | 12 | 3  | Wed 15/01/2020 |                       |                          |  |
 | 13 | 4  | Wed 22/01/2020 |                       |                          |  |
 | 14 | 5  | Wed 29/01/2020 |                       |                          |  |
-|    |    |                |                       |                          |  |
-V
+
+
+Potential Users/User Groups
+----------
+
+- Equality Officers (Frauenbeauftragte)
+  - biased: present the institution as inclusive
+- Head of Administration/Student Service
+
+- TIN People who are members of the institution
+  - who maybe experienced pain and want to share it
+  - or maybe a positive experience as well
+- Local TIN People who want to provide information
+- Alumnis
+
+- Activists Maintaining the Platform/Administrator
+
+we need to make sure that a variety of people are interviewed (class, sexual orientation, gender identity,
+  perspectives of intersex people, people of color)
+
+Discuss Ideas with other Groups e.g. LesMigras and other community-based NGOs
+intersectional perspective
+
+- bk Contextual Interviews articles
+Videos: UGLA/OWL Shit not to say to Trans* People
