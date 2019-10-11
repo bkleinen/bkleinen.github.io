@@ -44,4 +44,4 @@ your user needs via interviews and develop their own project focus (and design).
 Create a PDF-Report - one document for the whole group, stating all your names,
 each one of you needs to upload this same report in PDF format to moodle -
 containing the reports results of your heuristic evaluations and the two project
-focus descriptions. 
+focus descriptions.
