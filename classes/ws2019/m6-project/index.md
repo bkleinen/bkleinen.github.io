@@ -6,7 +6,7 @@ layout: default
 
 ## IN_VISIBLE - Contextual and System Design for a Community Prototype (M6/M11)
 
-Barne Kleinen, Dr. Kamalanetra AJ C Hung, René_ Hornstein
+Barne Kleinen, Dr. Kamalanetra AJ C Hung, René_ Rain Hornstein
 
 ### Project IN_VISIBLE
 
@@ -18,7 +18,6 @@ IN_VISIBLE stands for Inclusion and Visibility.
 
 The first mapping will focus on the monitoring of higher education spaces in Germany. The second mapping of the prototype will monitor health care access (start Spring 2020).  
 
-IN_VISIBLE first design was presented at the United Nations Educational, Scientific and Cultural Organisation (UNESCO), in the frame of the conference Technology for Development by Pineapple Laboratories.  Science, Technology and Innovation combined can substantially accelerate the implementation of the Sustainable Development Goals (SDGs) by 2030. SDGs are part of Resolution 70/1 of the United Nations General Assembly. We contribute to goals # 4, 5, 8, 9, 10 and 11: quality of education, gender equality, good jobs and economic growth, innovation and infrastructure, reduce inequalities and sustainable communities. The Parameters we want to measure will be related to the Inclusion criteria List formulated by Rain Hornstein.
 ### Goal and Scope of the Praxisprojekt IMI M WS 2019/20
 
 Goal of the Project will be to design and build a prototype for the In_Visible Project that
@@ -31,4 +30,4 @@ Goal of the Project will be to design and build a prototype for the In_Visible P
 
 * [AG Trans*-Emanzipatorische Hochschulpolitik TransHopo](http://ag-trans-hopo.org)
 * Kamalanetra AJ C Hung [Twitter](https://twitter.com/pineapple_lab)
-* René_ Hornstein [persönliche Seite](http://rhornstein.de), [Projekt Internalisierte Trans*feindlichkeit und Community-Empowerment](https://psychologie.sfu-berlin.de/de/forschung-publikationen/vielfalt-und-mehrfach-diskriminierung/projekt-internalisierte-transfeindlichkeit-und-community-empowerment/ )
+* René_ Rain Hornstein [persönliche Seite](http://rhornstein.de), [Projekt Internalisierte Trans*feindlichkeit und Community-Empowerment](https://psychologie.sfu-berlin.de/de/forschung-publikationen/vielfalt-und-mehrfach-diskriminierung/projekt-internalisierte-transfeindlichkeit-und-community-empowerment/ )
