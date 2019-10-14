@@ -26,3 +26,9 @@ Goal of the Project will be to design and build a prototype for the In_Visible P
 * implements a useful and viable first set of data entry, visualization and administration functionality based on a brief contextual design process conducted during the project
 
 * provides a robust system architecture and deployment strategy that will be the basis for expansion during the second and possible later phases of the IN_VISIBLE project
+
+### Links
+
+* [AG Trans*-Emanzipatorische Hochschulpolitik TransHopo](http://ag-trans-hopo.org)
+* Kamalanetra AJ C Hung [Twitter](https://twitter.com/pineapple_lab)
+* René_ Hornstein [persönliche Seite](http://rhornstein.de), [Projekt Internalisierte Trans*feindlichkeit und Community-Empowerment](https://psychologie.sfu-berlin.de/de/forschung-publikationen/vielfalt-und-mehrfach-diskriminierung/projekt-internalisierte-transfeindlichkeit-und-community-empowerment/ )
