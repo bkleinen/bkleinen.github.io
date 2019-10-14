@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "IN_VISIBLE:/classes/ws2019/m6-project/,Schedule:/classes/ws2019/m6-project/schedule/" | split: "," %}
+{% assign navitems = "IN_VISIBLE:/classes/ws2019/m6-project/,Schedule:/classes/ws2019/m6-project/schedule/,Notes:/classes/ws2019/m6-project/notes/" | split: "," %}
 
 {% comment %}
 ,Code:/classes/ws2019/m-wt1-webapplications/code/,Labs:/classes/ws2019/m-wt1-webapplications/labs/
