@@ -34,12 +34,23 @@ Your grade in Info1 will be a weighted mixture of the evaluated elements of the 
 * Exam: 50%
 * Lecture summaries: 8%
 
-### Lecture summaries
-In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture.
+### Lecture Summaries (aka Lecture Notes)
+In the Moodle collaboration room you can find a section called "Lecture summaries".
+You are expected to write 5-10 complete sentences summarizing each lecture, or
+a handwritten/drawn A4 Paper (e.g. Sketchnotes).
 
 Lecture summaries are due at 22.00 on Monday for both lectures of the past week.
-They are either done or not done. I expect you to do 20 out of all (which will be slightly more) to get the full 5%.
-If I find plagiarisms of lecture summaries (especially from the Wikipedia), you will not get any credit for **any** lecture summary.
+They are either done or not done. I expect you to do 12 out of 13 out of all
+to get the full 8%.
+If I find plagiarisms of lecture summaries (especially from the Wikipedia),
+you will not get any credit for **any** lecture summary.
+
+#### I couln't attend class! What to do about the Lecture Summary?
+
+If you couldn't attend the lecture, you can still write a summary: Ask your
+mates what we did in class, and read up the according chapter(s) in the book,
+and write or draw a summary. Please put a brief note on the page that you
+did this based on your own reading.
 
 ### Lab Reports
 You find detailled information about them on the [Lab Page](labs/)
