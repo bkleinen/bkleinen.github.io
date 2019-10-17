@@ -8,7 +8,6 @@ layout: page
 
 WT1 Web Applications is the introductory class for the Web Technology focus.
 
-{% comment %}
 
 The Pr&uuml;fungsordnung states
 ### Lernergebnis und Kompetenzen
@@ -21,9 +20,17 @@ The Pr&uuml;fungsordnung states
 
 ## Meetings and Time
 
-The class is a practical class; we only meet once a week for 2hrs (see LSF) -
+The class is a practical class; we only meet once a week for 2.25 hrs (see LSF) -
 but it has **5 ECTS Points**, which means that you will have to devote 125-150 h altogether for this class - with 17 weeks in the semester this is something about 7.5 - 9 hrs or roughly one day each week!
 
+## Class Requirements
+
+You need to do 2 Practical Projects (6 Weeks) and 1 Presentation for this class.
+Concise Dokumentation (in the wiki) will be an integral part of the projects and presentations.
+Grading schemes containing lists & structures for project documentation
+will be developed collectively and openly available.
+
+{% comment %}
 ## Schedule
 
 As I'll be away from Berlin for the first two weeks of this term, our first actual meeting will be on Thursday, Oct. 22. Thus, the first two weeks will be e-learning:
@@ -36,7 +43,8 @@ Anything that is something about entering, storing and retrieving some data on a
 
 Web Technology: Web Applications will be split in two parts this term:
 
-During the first part, you will be working on a Rails Application to get an understanding a the basics and general principles of Web Applications. We will go through basic principles and technologies in class, and
+During the first part, you will be working on a Rails Application to get an
+understanding a the basics and general principles of Web Applications. We will go through basic principles and technologies in class, and
 you need to find a way to apply these technologies into
 your own project.
 
