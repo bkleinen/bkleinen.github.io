@@ -14,8 +14,12 @@ Your e-learning assignment is to study all of them and write a short summary
 
 Read these articles, summarize them and upload your summary to moodle:
 
+### Mandatory:
 * [Main Article: 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 * All Individual Heuristic Articles linked from the Main Article.
+* [How to Conduct a Heuristic Evaluation](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)
+
+### Optional:
 * [Examples of the 10 heuristics in Web applications](http://designingwebinterfaces.com/6-tips-for-a-great-flex-ux-part-5)
 * Jakob Nielsen and Rolf Molich. 1990. Heuristic evaluation of user interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '90), Jane Carrasco Chew and John Whiteside (Eds.). ACM, New York, NY, USA, 249-256. (Moodle)
 
