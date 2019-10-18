@@ -33,7 +33,7 @@ will be developed collectively and openly available.
 {% comment %}
 ## Schedule
 
-As I'll be away from Berlin for the first two weeks of this term, our first actual meeting will be on Thursday, Oct. 22. Thus, the first two weeks will be e-learning:
+As I'll be away from Berlin for th  e first two weeks of this term, our first actual meeting will be on Thursday, Oct. 22. Thus, the first two weeks will be e-learning:
 
 - Install Ruby & Rails on the Machine you'll be working on during this semester (for most of you this will be your personal laptop; you can of course work in the Lab as well)
 - Work through the Getting Started with Rails Guide: http://guides.rubyonrails.org/getting_started.html (that is, type in the examples, get them to work!)

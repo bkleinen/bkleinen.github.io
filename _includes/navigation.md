@@ -7,9 +7,9 @@
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% include navigation_dropdown_item.md url = "/classes/ws2019/info1" link_text = "Info 1" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2019/wt2-usability" link_text = "Usability" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/m1-web" link_text = "M1 Web" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/m-wt1-webapplications" link_text = "M WT1" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/m6-project" link_text = "M6 Project" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2019/m1-web" link_text = "Mediaprogramming" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2019/m-wt1-webapplications" link_text = "Web Applications" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2019/m6-project" link_text = "Project IN_Visible" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>
 </li>
