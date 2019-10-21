@@ -3,7 +3,6 @@ title: 'Exercise 02: TicketMachine'
 author: kleinen
 layout: lab
 ---
-<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 
 ![Book](../../images/ticket-5277919863_b741ccde84_b.jpg)
 <small class = "float-right">Printed Ticket. [Sludge G](https://www.flickr.com/photos/sludgeulper/5277919863/)</small>
