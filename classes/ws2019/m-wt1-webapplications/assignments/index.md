@@ -4,14 +4,10 @@ author: kleinen
 layout: default
 ---
 
-* [Week0](week0)
+Handing in the assignments is not a requirement for passing the class.
+They guide you through the project process, though - and providing them by
+Wednesday helps me see your progress and possible issues we need to discuss
+in class.
 
-{% comment %}
-* [Week1](week1)
-* [Week2](week2)
-* [Week3](week3)
-* [Week4](week4)
-* [Week5](week5)
-* [Week6](week6)
-* [Week7](week7)
-{% endcomment %}
+* [Startup](homework0)
+* [2. Assignment](homework1)
