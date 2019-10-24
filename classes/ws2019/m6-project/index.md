@@ -26,6 +26,9 @@ Goal of the Project will be to design and build a prototype for the In_Visible P
 
 * provides a robust system architecture and deployment strategy that will be the basis for expansion during the second and possible later phases of the IN_VISIBLE project
 
+### Resources
+* Kriterien für TIN-klusive Hochschulen, entwickelt von René_ Rain Hornstein & der AG trans*emanzipatorische Hochschulpolitik, Version 07, 09.10.2019 ([PDF Download](20191009_Kriterien_fuer_tinklusive_Hochschulen_V07.pdf))
+
 ### Links
 
 * [AG Trans*-Emanzipatorische Hochschulpolitik TransHopo](http://ag-trans-hopo.org)
