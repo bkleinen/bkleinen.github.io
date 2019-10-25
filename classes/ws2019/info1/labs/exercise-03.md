@@ -49,17 +49,19 @@ public int refundBalance() {
 | ```"catfish".substring(3,4)```  |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
 | ```"catfish".substring(3,8) ``` |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
 
-# Post-Lab, AKA What To Turn In
 
-Your completed assignment, submitted in Moodle as a **pdf** and **single Source Code File Book.java**, should include:
+## What to hand in
 
-- a description of what you did during the lab, including a record of what worked, what problems you encountered.
-- a copy of the final version of your Book code.
-- the names and roles of any collaborators in any parts of the exercise.
+0. A file Book.java with your source code for the Book Class
+1. Your completed assignment, submitted in Moodle as a pdf,
+should include:
 
-Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and required source code files and submitting them to Moodle.
+* the strategy you chose for working in a team & how it worked out
+* a summary of what you did & learned in the lab
+* details on which challenges you encountered, how you tried to solve them and their solution
 
-* * *
+Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
+
 
 # Assignment
 
