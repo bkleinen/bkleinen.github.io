@@ -1,9 +1,10 @@
 alias os='open http://localhost:4000'
 alias ow='open http://localhost:4000/classes/ws2019/'
 alias i1='open http://localhost:4000/classes/ws2019/info1'
-
-alias wt4='open http://localhost:4000/classes/ws2018/info2/schedule'
-alias wt='open http://localhost:4000/classes/ws2018/wt2/'
+alias usability='open http://localhost:4000/classes/ws2019/wt2-usability'
+alias wa='open http://localhost:4000/classes/ws2019/m-wt1-webapplications'
+alias invisible='open http://localhost:4000/classes/ws2019/m6-project'
+alias m1='open http://localhost:4000/classes/ws2019/m1-web'
 alias htw='open http://home.htw-berlin.de/~kleinen/'
 alias gh='open http://bkleinen.github.io'
 # see http://jekyllrb.com/docs/drafts/
