@@ -43,6 +43,7 @@ steps with git:
 
 - Please include the names of all team members on the PDF reports **and the goal of your project**
 - User Story Maps again with clear distinction of what belongs to a MVP
+- a brief documentation of the paper-prototype test with results
 - First Story: Title and maybe a brief description. This is probably only a part of your MVP.
 - Link to your github repo under https://github.com/htw-imi-wt1wa-ws2019
 
