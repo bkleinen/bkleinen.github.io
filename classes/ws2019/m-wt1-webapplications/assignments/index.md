@@ -11,3 +11,4 @@ in class.
 
 * [Startup](homework0)
 * [2. Assignment](homework1)
+* [Homework 3: Paper Prototype Usability Test, Soure Code Setup](homework3)
