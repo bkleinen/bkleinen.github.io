@@ -47,16 +47,16 @@ Prepare your prelab before coming to class! We will talk about it briefly.
 You need to upload 2 Files to Moodle:
 
 - Your Lab Report as PDF with the extension .pdf (max. 5 pages)
-- The source code folder containing the BlueJ projects compressed with ZIP and the extension .zip
+- The source code folder containing all BlueJ projects compressed with ZIP and the extension .zip
 - As always, your Lab Report should include:
 
     - A summary of what you did & learned in the lab
     - Details on which challenges you encountered, how you tried to solve them & the solution
     - The strategy you chose for working in a team & how it worked out
     - Complete transparency on who contributed what
-
+    
 - Additionally, this time your lab report should also include:
-    - The discussion of which implemenation version was better, 1 or 2.
+
     - A record of how long you needed for this lab
 
 Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
@@ -68,13 +68,17 @@ Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](ht
 
 **Clock time**
 
-1. Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! As I will run automatic tests, make sure your displayString has exactly this format:
+0. Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! Make sure your displayString has exactly this format:
     <pre>06:15 am</pre>
-Also, if you want to introduce a new parameter to the setTime method, make sure that the old setTime method is still working using 24h-Format. Same goes for the constructor - add a third one if you want an alternative parameter list.
-2. There are at least two ways in which you could have implemented exercise 1 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 1, implement the other in a new BlueJ project.
-Name the folders clock-display-ampm-24 and clock-display-ampm-int respectively.
-3. Which implementation was better? Why?
-4. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring - writing "Riiiiiiiing!" to the terminal is sufficient. If you've completed Assignments 1-3, your ClockDisplay class should have these methods (possibly more):
+Also, if you want to introduce a new parameter to the setTime method, make sure that the old setTime method is still working using 24h-Format. Same goes for the constructor - add a third constructor if you want an alternative parameter list.
+1. There are at least two ways in which you could have implemented exercise 0 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 0, implement the other in a new BlueJ project.
+Name the project folders "clock-display-ampm-24" and "clock-display-ampm-int" respectively.
+2. Which implementation was better? Why? Please elaborate.
+3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring (writing "Riiiiiiiing!" to the terminal is sufficient). 
+4. (For the bored): Research "Threads" and make the clock increment automatically every second.
+
+**Hint**
+If you've completed Assignments 0-3, your ClockDisplay class should have these methods (possibly more):
 
     ```java
     public class ClockDisplay
@@ -88,4 +92,5 @@ Name the folders clock-display-ampm-24 and clock-display-ampm-int respectively.
         }
     ```
 
-4. (For the bored - not obligatory): Research Threads and make the clock increment automatically every second.
+
+
