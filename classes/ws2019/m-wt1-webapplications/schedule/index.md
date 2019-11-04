@@ -70,7 +70,7 @@ Authentication & Authorization                               | BK
 |      |    |                | Serverless Architectures           | David M, Eko      |                                        |
 | 12   | 2  | Thu 09/01/2020 | Realtime, WebRTC, Websockets       | Paul              |                                        |
 |      |    |                | Microfrontents                     | Markus, Florian S |                                        |
-| 13   | 3  | Thu 16/01/2020 |                                    |                   |                                        |
+| 13   | 3  | Thu 16/01/2020 | CSS and Responsive Design          | Ange              |                                        |
 |      |    |                |                                    |                   |                                        |
 | 14   | 4  | Thu 23/01/2020 | Presentations 2nd Project          |                   | finish Second Project                  |
 |      |    |                |                                    |                   |                                        |
