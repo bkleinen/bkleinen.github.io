@@ -3,7 +3,7 @@ title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
 layout: lab
 ---
-<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
+<!--<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>-->
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](http://www.flickr.com/photos/arjanrichter/6085686394)
 <small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](http://www.flickr.com/photos/arjanrichter/6085686394)</small>
 
@@ -16,7 +16,7 @@ This week's lab work is intended to get you to implement parts of a class that i
 Prepare your prelab before coming to class! We will talk about it briefly.
 </span>
 
-**P1.** Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.
+**P0.** Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.
 
 | Expression                            | Your Answer                                                                                                                                                                                                  | Actual Value                                                                                                                                                                                                 |
 |:--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,13 +28,13 @@ Prepare your prelab before coming to class! We will talk about it briefly.
 | (43 < 42) && (rabbitCount > dogCount) |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
 | test = (3 < 4)                        |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
 
-**P2.** Write an expression using boolean variables a and b that evaluates to true when either a and b are both true or both false.
+**P1.** Write an expression using boolean variables a and b that evaluates to true when either a and b are both true or both false.
 
-**P3.** Write an expression using boolean variables a and b that evaluates to true when only one of a and b is true, and which is false if a and b are both true or both false. This is called the _exclusive-or_.
+**P2.** Write an expression using boolean variables a and b that evaluates to true when only one of a and b is true, and which is false if a and b are both true or both false. This is called the _exclusive-or_.
 
-**P4.** Consider the expression (a && b). Write an equivalent expression (one that evaluates to true at exactly the same values for a and b) without using the && operator.
+**P3.** Consider the expression (a && b). Write an equivalent expression (one that evaluates to true at exactly the same values for a and b) without using the && operator.
 
-**P5.** Americans are kind of strange about numbers and units. They write the days backwards, they use pounds and inches instead of kilograms and centimeters, and they have this bizarre 12-hour clock they use with "am" and "pm".
+**P4.** Americans are kind of strange about numbers and units. They write the days backwards, they use pounds and inches instead of kilograms and centimeters, and they have this bizarre 12-hour clock they use with "am" and "pm".
 
 * What time is "12:00 am" on the German (24-hour) clock?
 * What time is "12:00 pm"?
@@ -42,25 +42,22 @@ Prepare your prelab before coming to class! We will talk about it briefly.
 * What time is "05:30 pm"?
 
 
-## Post-Lab, AKA What To Turn In
+## What To Hand In
 
 You need to upload 2 Files to Moodle:
 
-- your Lab Report as PDF with the extension .pdf
-- the source code folder containing the BlueJ projects compressed with ZIP and the extension .zip
-- Your Lab Report should include:
+- Your Lab Report as PDF with the extension .pdf (max. 5 pages)
+- The source code folder containing the BlueJ projects compressed with ZIP and the extension .zip
+- As always, your Lab Report should include:
 
-    - the names and roles of any collaborators in any parts of the exercise.
-    - a description of what you did during the lab, including a record of what worked, what problems you encountered.
+    - A summary of what you did & learned in the lab
+    - Details on which challenges you encountered, how you tried to solve them & the solution
+    - The strategy you chose for working in a team & how it worked out
+    - Complete transparency on who contributed what
+
+- Additionally, this time your lab report should also include:
     - The discussion of which implemenation version was better, 1 or 2.
-    - A brief summary of what you learned
     - A record of how long you needed for this lab
-
-<span class = "attention">
-You should work on this exercise in groups of 2-3 people.
-Put all your names on the head of the report and in the author's comment of
-the Source Code and all hand in the same files.
-</span>
 
 Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
 
