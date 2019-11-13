@@ -25,10 +25,11 @@ Topics
 |      |    |                |                                                                               |                   |                                        |
 | 5    | 45 | Thu 07/11/2019 | Patterns of Enterprise Application Architectures                              | BK                |                                        |
 |      |    |                | Continuous Deployment                                                         | BK                |                                        |
-| 6    | 46 | Thu 14/11/2019 | Authentication and Authorization                                              | Lennard, The      |                                        |
-|      |    |                | Docker                                                                        | Christian, Johann |                                        |
+| 6    | 46 | Thu 14/11/2019 | [Gemeinsamer Besuch des World Usability Days - bitte anmelden!]               |                   |                                        |
+|      |    |                |                                                                               |                   |                                        |
 | 7    | 47 | Thu 21/11/2019 | WebGL                                                                         | Chris, Florian W  |                                        |
-|      |    |                |                                                                               |                   | finish First Project                   |
+|      |    |                | Authentication and Authorization                                              | Lennard, The      |                                        |
+|      |    |                | Docker                                                                        | Christian, Johann | finish First Project                   |
 | 8    | 48 | Thu 28/11/2019 | Presentations 1st Project                                                     |                   |                                        |
 |      |    |                |                                                                               |                   |                                        |
 | 9    | 49 | Thu 05/12/2019 | Presentations 1st Project                                                     |                   |                                        |
@@ -81,3 +82,4 @@ Usability Testing                  | BK
 Authentication & Authorization                               | BK
 
  JavaScript Advanced (Functional Programming, Best Practices)
+[1]: (https://www.eventbrite.de/e/world-usability-day-berlin-2019-designing-for-the-future-we-want-registrierung-77513275293)
