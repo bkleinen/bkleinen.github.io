@@ -8,9 +8,6 @@ wide_layout: true
 
 Tentative - this will still be changed and adapted.
 
-Topics
--
-
 # Tentative Schedule
 
 | Week | KW | Date           | What                                                                          | Who               | Homework / Due Tue 22:00 next week     |
@@ -25,7 +22,7 @@ Topics
 |      |    |                |                                                                               |                   |                                        |
 | 5    | 45 | Thu 07/11/2019 | Patterns of Enterprise Application Architectures                              | BK                |                                        |
 |      |    |                | Continuous Deployment                                                         | BK                |                                        |
-| 6    | 46 | Thu 14/11/2019 | [Gemeinsamer Besuch des World Usability Days - bitte anmelden!]               |                   |                                        |
+| 6    | 46 | Thu 14/11/2019 | [Gemeinsamer Besuch des World Usability Days - bitte anmelden!][1]            |                   |                                        |
 |      |    |                |                                                                               |                   |                                        |
 | 7    | 47 | Thu 21/11/2019 | WebGL                                                                         | Chris, Florian W  |                                        |
 |      |    |                | Authentication and Authorization                                              | Lennard, The      |                                        |
@@ -82,4 +79,5 @@ Usability Testing                  | BK
 Authentication & Authorization                               | BK
 
  JavaScript Advanced (Functional Programming, Best Practices)
-[1]: (https://www.eventbrite.de/e/world-usability-day-berlin-2019-designing-for-the-future-we-want-registrierung-77513275293)
+
+[1]: https://www.eventbrite.de/e/world-usability-day-berlin-2019-designing-for-the-future-we-want-registrierung-77513275293
