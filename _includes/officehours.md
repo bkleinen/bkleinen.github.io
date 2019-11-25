@@ -4,11 +4,10 @@ Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
 alle erforderlichen Unterlagen</a> mit.
 <br /><br />
 <div class="alert alert-success" role="alert">
-WS 19/20: Every Tue 16-17
+WS 19/20: Every Tue 16-17 -- Except:
 </div>
 <div class="alert alert-danger" role="alert">
-Except:<br />
-KW 47 / Tue 19.11.2019 / fällt aus!<br/>
+KW 48 / Tue 26.11.2019 earlier: 15:30-16:30<br/>
 KW 49 / Tue 03.12.2019 / fällt aus!</div>
 <div class="alert alert-info" role="alert">Please check back here for changes
 before you start the trip to the HTW!</div>

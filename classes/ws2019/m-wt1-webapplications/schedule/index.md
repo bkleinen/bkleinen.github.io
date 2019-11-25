@@ -28,8 +28,8 @@ Tentative - this will still be changed and adapted.
 |      |    |                | Authentication and Authorization                                              | Lennard, The      |                                        |
 |      |    |                | Docker                                                                        | Christian, Johann | finish First Project                   |
 | 8    | 48 | Thu 28/11/2019 | Presentations 1st Project                                                     |                   |                                        |
-|      |    |                |                                                                               |                   |                                        |
-| 9    | 49 | Thu 05/12/2019 | Presentations 1st Project                                                     |                   |                                        |
+|      |    | 17:30-19:45    | Presentations 1st Project                                                     |                   |                                        |
+| 9    | 49 | Thu 05/12/2019 | rescheduled to Thu 28/11/2019 17:30-19:45                                     |                   |                                        |
 |      |    |                |                                                                               |                   |                                        |
 | 10   | 50 | Thu 12/12/2019 | Web Security                                                                  | BK                |                                        |
 |      |    |                | History of the Web                                                            | Anna              |                                        |
@@ -37,8 +37,8 @@ Tentative - this will still be changed and adapted.
 |      |    |                | Serverless Architectures                                                      | David M, Eko      |                                        |
 | 12   | 2  | Thu 09/01/2020 | Realtime, WebRTC, Websockets                                                  | Paul              |                                        |
 |      |    |                | Microfrontents                                                                | Markus, Florian S |                                        |
-| 13   | 3  | Thu 16/01/2020 | CSS and Responsive Design                                                     | Ange              |                                        |
-|      |    |                | Microservices: [Microservices Guide](https://martinfowler.com/microservices/) | Simon             |                                        |
+| 13   | 3  | Thu 16/01/2020 | Microservices: [Microservices Guide](https://martinfowler.com/microservices/) | Simon             |                                        |
+|      |    |                |                                                                               |                   |                                        |
 | 14   | 4  | Thu 23/01/2020 | Presentations 2nd Project                                                     |                   | finish Second Project                  |
 |      |    |                |                                                                               |                   |                                        |
 | 15   | 5  | Thu 30/01/2020 | Presentations 2nd Project                                                     |                   |                                        |
