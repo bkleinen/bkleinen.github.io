@@ -15,19 +15,19 @@ This week's lab work is intended give you practice using the Random class and Ha
 
 # Pre-Lab
 
-Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
+Please bring these exercises and their solutions printed out or written out with you to the lab.
 
-**P1**. How do you generate random numbers between 1 and 10 with Java? In what package is the library?
+**P0** How do you generate random numbers between 1 and 10 with Java? In what package is the library?
 
-**P2.** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
+**P1** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
 
-**P3.** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
+**P2** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
 
-**P4.** Where can you find information about javadoc on the Internet?
+**P3** Where can you find information about javadoc on the Internet?
 
 * * *
 
-# Post-Lab, AKA  What To Turn In
+# What To Hand In
 
 Your Lab Report should include:
 
@@ -36,14 +36,20 @@ Your Lab Report should include:
 - The names and roles of any collaborators in any parts of the exercise.
 - A record of how long you needed for this lab and what you learned.
 
-The assignment will be graded based on the description and tables given in the LabReport.
-Include your source code anyway:
 
-- A copy of the final version of your TechSupport and Lotto code, properly and thoroughly documented with javadoc.
+Please hand in:
+* zip-folder with your Lotto and (documented) TechSupport code
+* lab report as pdf (max. 5 pages)
 
-Lab assignments are due the night before your next class at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in **PDF**  and the source code as **ZIP** and submitting it to Moodle.
+The lab report should have: 
+* Answers to the questions in the assignment below
+* Complete transparency on who did what
+* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
+* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
+* A summary of what you did & learned in the lab
+* For practise: A description of how you tested your solutions
 
-As always, you can and should work on the exercise in small teams of 2-3, definitely not more than 4 people. Prepare the report together, and each of you hands in **the same report** and source code in moodle, stating the name of every member of the team somewhere in the beginning of the report.
+Lab assignments are due the day before your next lab at 10pm.
 
 * * *
 
@@ -51,15 +57,16 @@ As always, you can and should work on the exercise in small teams of 2-3, defini
 
 ## Lotto
 
-1. Create a class that will be doing some testing of random numbers. Make a method that picks the six numbers for next Saturday between 1 and 49. Note that no two numbers may be the same! How do you avoid this?
-2. Expand the method to count how often each number is picked.
-3. Now pick the 6 lotto numbers 1000 times. Print out the frequencies.
-4. Repeat for 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and include it in your report.
+0. Create a class that will be doing some testing of random numbers. Create a method that picks six numbers between 1 and 49 - the lotto numbers for next saturday. Note that no two numbers may be the same! Which collection type will you need to use?
+1. Expand the method to count how often each number is picked. Use an array like in P1.
+2. Now pick the 6 lotto numbers 1000 times (write a method to do this for you). Print out the frequencies from your array.
+3. Repeat 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and attach it to your report (the table doesn't count as pages for the report).
 
 ## Technical Support
-1. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
-2. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
-3. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
-4. Document your code with javadoc!
-5. (For the bored) There are often synonyms that should provoke the same response. Can you figure out how to store only one response even if there are a number of different words that trigger this response?
-6. (For the really bored) Make your answers multilingual. At first you can just set the language at any point, but then you want to read the locale form the local machine to determine how to answer.
+0. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
+1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
+2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
+3. Document your code with javadoc!
+
+4. (For the bored) There are often synonyms that should provoke the same response. Can you figure out how to store only one response even if there are a number of different words that trigger this response?
+5. (For the really bored) Make your answers multilingual. At first you can just set the language at any point, but then you want to read the locale form the local machine to determine how to answer.
