@@ -31,6 +31,8 @@ individual commit, and you you'll see the changes.
 old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 {% endcomment %}
 
+* [Chapter 07 (Simple Analyzer)](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer) - [ZIP](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer/archive/ws2019.zip)
+
 ### Labs
 
 * Lab 01: [Kara](https://github.com/htw-imi-info1/exercise01-kara)
