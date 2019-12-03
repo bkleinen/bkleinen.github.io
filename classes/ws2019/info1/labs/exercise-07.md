@@ -28,15 +28,6 @@ Please bring these exercises and their solutions printed out or written out with
 * * *
 
 # What To Hand In
-
-Your Lab Report should include:
-
-- A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
-- A table with your frequencies for the Lotto numbers picked.
-- The names and roles of any collaborators in any parts of the exercise.
-- A record of how long you needed for this lab and what you learned.
-
-
 Please hand in:
 * zip-folder with your Lotto and (documented) TechSupport code
 * lab report as pdf (max. 5 pages)
