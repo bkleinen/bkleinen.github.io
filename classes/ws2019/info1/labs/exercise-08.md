@@ -23,7 +23,7 @@ Please bring these exercises printed out or written out with you to lab.
 
 # What To Hand In
 Please hand in:
-* zip-folder with your Lotto and (documented) TechSupport code
+* zip-folder with your code
 * lab report as pdf (max. 5 pages)
 
 The lab report should have: 
