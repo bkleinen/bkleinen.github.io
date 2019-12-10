@@ -3,8 +3,15 @@ title: 'Exercise 09: Testing with JUnit'
 author: kleinen
 layout: lab
 ---
-<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
+
 This week's lab work is intended give you practice testing and writing assertions.
+
+#### Change to Assignment for Winter Term 19/20
+
+- we will be doing most of the lab during the 2nd Lecture
+- There will be groups per Test Fixture
+- everyone needs to submit one positive and one negative test case
+- lab is graded with 4* for participation, 0* for no participation
 
 #### What to Bring to Lab
 
