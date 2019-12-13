@@ -9,7 +9,7 @@ layout: default
 |    | Chapter                                                   | Pages | Who? |
 |:---|:----------------------------------------------------------|:------|:-----|
 | 0  | Chapter 07: A Basis for Good Product Behavior             | 12    | BK   |
-| 1  | Chapter 08: Introduction                                  | 26    |      |
+| 1  | Chapter 08: Digital Etiquette                             | 26    |      |
 | 2  | Chapter 09: Platform and Posture                          | 31    |      |
 | 3  | Chapter 10: Optimizing for Intermediates                  | 11    |      |
 | 4  | Chapter 11: Orchestration and Flow                        | 22    |      |

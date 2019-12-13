@@ -25,21 +25,21 @@ Tentative - this will still be changed and adapted.
 | 6    | 46 | Thu 14/11/2019 | [Gemeinsamer Besuch des World Usability Days - bitte anmelden!][1]            |                   |                                        |
 |      |    |                |                                                                               |                   |                                        |
 | 7    | 47 | Thu 21/11/2019 | WebGL                                                                         | Chris, Florian W  |                                        |
-|      |    |                | Authentication and Authorization                                              | Lennard, The      |                                        |
-|      |    |                | Docker                                                                        | Christian, Johann | finish First Project                   |
-| 8    | 48 | Thu 28/11/2019 | Presentations 1st Project                                                     |                   |                                        |
-|      |    | 17:30-19:45    | Presentations 1st Project                                                     |                   |                                        |
-| 9    | 49 | Thu 05/12/2019 | rescheduled to Thu 28/11/2019 17:30-19:45                                     |                   |                                        |
 |      |    |                |                                                                               |                   |                                        |
-| 10   | 50 | Thu 12/12/2019 | Web Security                                                                  | BK                |                                        |
-|      |    |                | History of the Web                                                            | Anna              |                                        |
+|      |    |                | Docker                                                                        | Christian, Johann | finish First Project                   |
+| 8    | 48 | Thu 28/11/2019 | (ausgefallen)                                                                 |                   |                                        |
+|      |    |                |                                                                               |                   |                                        |
+| 9    | 49 | Thu 05/12/2019 | rescheduled to 23/01                                                          |                   |                                        |
+|      |    |                |                                                                               |                   |                                        |
+| 10   | 50 | Thu 12/12/2019 | Presentations 1st Project                                                     |                   |                                        |
+|      |    |                |                                                                               |                   |                                        |
 | 11   | 51 | Thu 19/12/2019 | Progressive WebApps                                                           | Kevin             |                                        |
 |      |    |                | Serverless Architectures                                                      | David M, Eko      |                                        |
 | 12   | 2  | Thu 09/01/2020 | Realtime, WebRTC, Websockets                                                  | Paul              |                                        |
 |      |    |                | Microfrontents                                                                | Markus, Florian S |                                        |
 | 13   | 3  | Thu 16/01/2020 | Microservices: [Microservices Guide](https://martinfowler.com/microservices/) | Simon             |                                        |
-|      |    |                |                                                                               |                   |                                        |
-| 14   | 4  | Thu 23/01/2020 | Presentations 2nd Project                                                     |                   | finish Second Project                  |
+|      |    |                | Authentication and Authorization                                              | Lennard           |                                        |
+| 14   | 4  | Thu 23/01/2020 |                                                                               |                   | finish Second Project                  |
 |      |    |                |                                                                               |                   |                                        |
 | 15   | 5  | Thu 30/01/2020 | Presentations 2nd Project                                                     |                   |                                        |
 |      |    |                |                                                                               |                   |                                        |
@@ -48,7 +48,7 @@ Tentative - this will still be changed and adapted.
 
 open Topics
 Usability Testing                  | BK
-
+Web Security                                                                  | BK
 
 
 # Presentation Topic List
