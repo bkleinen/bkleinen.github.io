@@ -37,11 +37,9 @@ This schedule is tentative and subject to change.
 |      |    |                 | II   | Polymorphism, Static vs. dynamic typing, Overriding, Object equality  (Chapter 10)                                                             |                                         |
 | 13   | 3  | Tue, 2020-01-14 | I    | Abstract Classes, Interfaces  (Chapter 11)                                                                                                     | [Exercise 12](../labs/exercise-12)      |
 |      |    |                 | II   | Handling Errors, Exceptions, Assertions   (Chapter 14)                                                                                         |                                         |
-| 14   | 4  | Tue, 2020-01-21 | I    | File-based IO, Files, Command Line   (Chapter 14)                                                                                              | Trial Exams                             |
+| 14   | 4  | Tue, 2020-01-21 | I    | File-based IO, Files, Command Line   (Chapter 14)                                                                                              | Trial Exams?                            |
 |      |    |                 | II   | Exam Preparation                                                                                                                               |                                         |
-| 15   | 5  | Tue, 2020-01-28 | I    | EXAM                                                                                                                                           |                                         |
+| 15   | 5  | Tue, 2020-01-28 | I    | TBD                                                                                                                                            | Trial Exams?                            |
+|      |    |                 | II   | TBD                                                                                                                                            |                                         |
+| 16   | 6  | Tue, 2020-02-04 | I    | EXAM                                                                                                                                           |                                         |
 |      |    |                 | II   |                                                                                                                                                |                                         |
-{% comment %}
-| 16   | 6  | Tue, 2020-02-04 | I    |                                                                                                             |         | | tba  |                                |
-|      |    |                 | II   |                                                                                                             |         | | tba  |                                |
-{% endcomment %}
