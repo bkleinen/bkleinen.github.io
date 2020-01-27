@@ -5,6 +5,7 @@ layout: default
 
 <div class = "above">
 <h4>Announcements and News</h4>
+<a href="{{ site.baseurl }}/news/">Archive</a>
 {% include posts/posts.html %}
 </div>
 

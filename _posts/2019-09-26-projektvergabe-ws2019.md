@@ -5,6 +5,7 @@ layout: post
 categories:
   - ws2019
   - projekte
+  - old
 ---
 
 Projektvergabe WS 2019/20:

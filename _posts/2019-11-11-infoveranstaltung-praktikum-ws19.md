@@ -5,6 +5,7 @@ layout: post
 categories:
   - praktikum
   - imi
+  - old
 ---
 
 Die Informationsverstaltung zum Auslandspraktikum Studiengang IMI-B
