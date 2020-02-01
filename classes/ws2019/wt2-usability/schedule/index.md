@@ -20,7 +20,7 @@ layout: default
 | 13   | 3  | Fri 17/01/2020  |                                     | Web Usabiltity                                                                                   | Paper Prototypes Interviews                     |
 | 14   | 4  | Fri 24/01/2020  |                                     | Contextual Design Roundup & Exam Preparation                                                     | Exam Preparation & Moodle Trial Exam            |
 | 15   | 5  | Fri 31/01/2020  | [A4](../assignments/assignment_04/) | SHOWTIME                                                                                         | SHOWTIME                                        |
-| 16   | 6  | Tue, 2019-02-05 |                                     | Exam                                                                                             |                                                 |
+| 16   | 6  | Wed, 2019-02-05 |                                     | Exam                                                                                             |                                                 |
 
 
 Interface Design Principles /Don Norman: The Design of Everyday Things

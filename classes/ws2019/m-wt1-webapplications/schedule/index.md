@@ -46,11 +46,6 @@ Tentative - this will still be changed and adapted.
 |      |    |                |                                                                               |                   |                                        |
 
 
-open Topics
-Usability Testing                  | BK
-Web Security                                                                  | BK
-
-
 # Presentation Topic List
 
 1. Intro to a Framework and Learning Pointers: React, AngularJS - HIGH LEVEL!
