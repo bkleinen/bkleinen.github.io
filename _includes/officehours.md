@@ -6,9 +6,9 @@ alle erforderlichen Unterlagen</a> mit.
 
 Term Break<br/>
 KW 6: Wed, 5.2.20 14:30-15:30<br/>
-KW 7: TBA<br/>
-KW 8&9: no office hours!<br/>
-KW 10&11: there might be office hours.<br/>
+KW 7: Wed, 12.2.20 14-15<br/>
+KW 8-10: no office hours.<br/>
+KW 11: Mon, 15:30-16:30<br/>
 KW 12: Fri, 20.03.20 in the afternoon, time TBA <br/>
 KW 13: Thu, 26.03.20 15-16 <br/>
 KW 14: Tue, 31.03.20 13-14 <br/>
