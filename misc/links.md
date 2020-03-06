@@ -60,7 +60,9 @@ Anleitungen (inkl. Link zum CMS:)
 
 * Wenn Client schon installiert ist: Cisco AnyConnect Secure Mobility Client starten, mit https://vpn.htw-berlin.de verbinden
 
-### Gastzugänge
+### Gastzugänge Wifi
+
+* [https://account.htw-berlin.de/guestwifi/index](https://account.htw-berlin.de/guestwifi/index)
 
 ### Account / Email bearbeiten
 https://account.htw-berlin.de/
