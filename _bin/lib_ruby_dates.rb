@@ -34,13 +34,13 @@ def generate
   week_count = 0
   (1..@semester_dates.weeks_available).to_a.each do |i|
     date = d + (7 * (i - 1))
-    next if in_rejected?(date: date)
+    next if in_rejected?(date: date, semester_dates: @semester_dates)
     week_count += 1
     line_1 = "|#{week_count} | #{date.cweek} "
-    line_1 += date.strftime(DATEFORMAT)
+    line_1 += date.strftime(FIRST__LINE)
     puts line_1
     if @course_dates.two_lectures
-      line_2 = "| | "
+      line_2 = "|   |    "
       line_2 += (date + @course_dates.day_diff).strftime(SECOND_LINE)
       puts line_2
     end
@@ -49,12 +49,13 @@ end
 
 
   # helpers
-  def in_rejected?(date:)
-    if reject_span.size > 0
-      if (reject_span[0] <= date) && (date <= reject_span[1])
+  def in_rejected?(date:, semester_dates:)
+    sd = semester_dates
+    if sd.reject_span.size > 0
+      if (sd.reject_span[0] <= date) && (date <= sd.reject_span[1])
         return true
       end
     end
-    reject_singles.include? date
+    sd.reject_singles.include? date
   end
 end

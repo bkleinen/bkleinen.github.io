@@ -4,6 +4,12 @@ require 'date'
 require_relative './lib_ruby_dates.rb'
 
 # Veranstaltungsdaten
+# Info2
+# course_dates = CourseDates.new(
+#   first_day: Date.parse("31.3.2020"),
+#   day_diff: 2,
+#   two_lectures: true
+# )
 course_dates = CourseDates.new(
   first_day: Date.parse("31.3.2020"),
   day_diff: 2,
