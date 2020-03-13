@@ -9,11 +9,11 @@ im Sommersemester zu finden sein.
 
 Alle Kurse werden mit Distanzlernen/e-learning-Angeboten zum 1.4. bzw. 2.4. beginnen.
 
-{% comment %}
-{% include classes/ws2019/lectures.md %}
+
+{% include classes/ss2020/lectures.md %}
 
 ### Semesterpläne
-* [B 1. Semester](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112)
+* [B 1. Semester](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+PrüfungsOrdnung+20112)
 * [B 2. Semester](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=2&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=2&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112)
 * [B 3. Semester](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=3&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=3&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112)
 * [B 4. Semester](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=4&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112)
@@ -25,4 +25,3 @@ Alle Kurse werden mit Distanzlernen/e-learning-Angeboten zum 1.4. bzw. 2.4. begi
 )
 * [M gesamt](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
 )
-{% endcomment %}

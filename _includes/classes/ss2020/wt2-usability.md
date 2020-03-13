@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "WT2:/classes/ws2019/wt2-usability/,Schedule:/classes/ws2019/wt2-usability/schedule/,Literature:/classes/ws2019/wt2-usability/literature/,Assignments:/classes/ws2019/wt2-usability/assignments/" | split: "," %}
+{% assign navitems = "WT2:/classes/ss2020/wt2-usability/,Schedule:/classes/ss2020/wt2-usability/schedule/,Literature:/classes/ss2020/wt2-usability/literature/,Assignments:/classes/ss2020/wt2-usability/assignments/" | split: "," %}
 {% for navitem in navitems %}
   <li class="nav-item">
     {% assign n = navitem | split: ":" %}

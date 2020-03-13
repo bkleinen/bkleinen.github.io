@@ -5,11 +5,11 @@
   {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/info1" link_text = "Info 1" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/wt2-usability" link_text = "Usability" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/m1-web" link_text = "Mediaprogramming" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/m-wt1-webapplications" link_text = "Web Applications" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2019/m6-project" link_text = "Project IN_Visible" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2020/info2" link_text = "Info 2" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2020/wtat1-webdev" link_text = "WTAT Web Development" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2020/m1-web" link_text = "Mediaprogramming" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2020/m-wt4-ucd" link_text = "Web Applications" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2020/m6-project" link_text = "Project" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>
 </li>
