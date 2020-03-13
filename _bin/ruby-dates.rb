@@ -20,7 +20,10 @@ course_dates = CourseDates.new(
 semester_dates = SemesterDates.new(
 semester_start: Date.parse("1.4.2020"),
 semester_end: Date.parse("18.07.2020"),
-reject_singles: ["11.04.2020", "22.05.2020"].map {|s| Date.parse(s)},
+holidays: {"11.04.2020" => "Karfreitag",
+  "13.04.2020" => "Ostermontag",
+  "21.05.2020" => "Himmelfahrt",
+  "22.05.2020" => "Brückentag nach Himmelfahrt"},
 reject_span:[]
 )
 

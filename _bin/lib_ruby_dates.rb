@@ -1,12 +1,14 @@
 SemesterDates = Struct.new(
   :semester_start,
   :semester_end,
-  :reject_singles,
+  :holidays,
   :reject_span,
   keyword_init: true) do
+
     def weeks_available
       ((semester_end - semester_start)/7).ceil + 1
     end
+
   end
 
 
@@ -34,14 +36,18 @@ def generate
   week_count = 0
   (1..@semester_dates.weeks_available).to_a.each do |i|
     date = d + (7 * (i - 1))
+    # vlt rausnehmen? eignet sich nur für ganze wochen
     next if in_rejected?(date: date, semester_dates: @semester_dates)
     week_count += 1
     line_1 = "|#{week_count} | #{date.cweek} "
     line_1 += date.strftime(FIRST__LINE)
+    line_1 += holiday(date: date, semester_dates: @semester_dates)
     puts line_1
     if @course_dates.two_lectures
+      date_2 = date + @course_dates.day_diff
       line_2 = "|   |    "
-      line_2 += (date + @course_dates.day_diff).strftime(SECOND_LINE)
+      line_2 += (date_2).strftime(SECOND_LINE)
+      line_2 += holiday(date: date_2, semester_dates: @semester_dates)
       puts line_2
     end
   end
@@ -51,11 +57,18 @@ end
   # helpers
   def in_rejected?(date:, semester_dates:)
     sd = semester_dates
-    if sd.reject_span.size > 0
-      if (sd.reject_span[0] <= date) && (date <= sd.reject_span[1])
-        return true
-      end
-    end
-    sd.reject_singles.include? date
+    return false unless sd.reject_span.size > 0
+
+
+    (sd.reject_span[0] <= date) && (date <= sd.reject_span[1])
+  end
+  # helpers
+  def holiday(date:,semester_dates:)
+  #  puts  semester_dates.holidays
+    date_s = date.strftime("%d.%m.%Y")
+    #puts "date: #{date_s}"
+    #puts semester_dates.holidays
+    return "" unless semester_dates.holidays.has_key? date_s
+    semester_dates.holidays[date_s]
   end
 end
