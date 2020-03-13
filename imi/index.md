@@ -16,4 +16,4 @@ Detaillierte Informationen werden hier im Lauf der nächsten Woche ergänzt.
 Lehrveranstaltungen, die jetzt nach und nach ergänzt wird.](https://wiki.htw-berlin.de/confluence/pages/viewpage.action?pageId=73041844)
 
 Bitte informieren Sie sich auch [über die Seite der Hochschule](https://www.htw-berlin.de/einrichtungen/hochschulleitung/sicherheitsingenieure/corona-virus/)
-über das allemeine Vorgehen.
+über das allgemeine Vorgehen.
