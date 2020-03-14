@@ -1,9 +1,8 @@
 ---
-title:  WT4 SS2017 - Report 1
+title:  WT4 SS2020 - Report 1
 author: kleinen
 layout: default
 ---
-{% include classes/ss2017/ucd.md %}
 
 # Report 1: Contextual Inquiry
 

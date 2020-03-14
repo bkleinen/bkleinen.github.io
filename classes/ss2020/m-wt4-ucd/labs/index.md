@@ -1,9 +1,8 @@
 ---
-title:  User-Centered Web Technology SS2017 Labs
+title:  WT4 SS2020 - Labs
 author: kleinen
 layout: default
 ---
-{% include classes/ss2017/ucd.md %}
 
 * [Report 1](report-1/)
 * [Report 2](report-2/)

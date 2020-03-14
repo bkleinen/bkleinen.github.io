@@ -1,5 +1,5 @@
 ---
-title: Info2 WS 2018/19
+title: Info2 SS 2020
 author: kleinen
 layout: default
 redirect_from:
@@ -24,15 +24,19 @@ language and learn something about differences in programming languages.
 
 Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
+The schedule might be adapted to accommodate distance learning due to the
+COVID-19 Situation.
+
 ## Meetings/Weekly Schedule
 
-The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF
-for time and location information (link above in the External Links menue).
+The class consists of 2x2h of lectures and 2h of lab. The Lab will be held by
+Linda Fernsel. Please refer to the LSF
+for time and location information (link above in the External Links menu).
 
 ## Tutorial
 
-There will be a tutorial held by Anja Kammer. This is not obligatory and mainly
-an additional opportunity to get help on the exercises or with exam preparation.
+There will be a tutorial held by Lotte Unckell. The Tutorial will be in
+conjunction with the Labs this term.
 
 ## Grades & Exam
 

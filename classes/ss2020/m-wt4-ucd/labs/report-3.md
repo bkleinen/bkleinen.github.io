@@ -1,9 +1,8 @@
 ---
-title:  WT4 SS2017 - Report 3
+title:  WT4 SS2020 - Report 3
 author: kleinen
 layout: default
 ---
-{% include classes/ss2017/ucd.md %}
 
 The final Report should present your work for this course as a whole, with
 an emphasis of the product concept as you've presented it in the final presentation.

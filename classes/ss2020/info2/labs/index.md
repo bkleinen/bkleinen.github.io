@@ -1,5 +1,5 @@
 ---
-title: Info2 WS2018 - Labs and Exercises
+title: Info2 SoSe 2020 - Labs and Exercises
 author: kleinen
 layout: page
 ---

@@ -1,9 +1,8 @@
 ---
-title:  WT4 SS2017 - Report 2
+title:  WT4 SS2020 - Report 2
 author: kleinen
 layout: default
 ---
-{% include classes/ss2017/ucd.md %}
 
 
 # Report 2: Visioning and Product Concepts
