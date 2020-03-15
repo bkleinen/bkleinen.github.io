@@ -4,9 +4,9 @@ layout: default
 ---
 
 <div class = "above">
-<h4>Announcements and News</h4>
-<a href="{{ site.baseurl }}/news/">Archive</a>
-{% include posts/posts.html %}
+  <h4>Announcements and News</h4>
+  {% include posts/posts.html %}
+  <a href="{{ site.baseurl }}/news/">Archive</a>
 </div>
 
 <div class = "box">
