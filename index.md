@@ -1,6 +1,7 @@
 ---
 title: Prof. Dr. Barne Kleinen
 layout: default
+regenerate: true
 ---
 
 <div class = "above">

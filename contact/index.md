@@ -35,6 +35,14 @@ HTW Berlin, Fachbereich 4, 10313 Berlin
 Visiting address:
 [Wilhelminenhofstr. 75a, 12459 Berlin](https://www.htw-berlin.de/campus/campus-wilhelminenhof/) - Gebäude C
 
+## Sending me Snail Mail (Paper)
+
+If you need to get paper to me (e.g. Internship Reports or Contracts, Printed Independent Coursework)
+You can do that in the following ways:
+
+* Directly to my post box: The post boxes are opposite the Dekanat on the second floor next to WH-C 225. Number 69 is mine.
+* Hauspost: Just put Prof. Barne Kleinen, FB4 on it and put it in any of the Hauspostbriefkästen. There is a huge grey one in front of Building B.
+* For general Postal Services from anywhere in the World use: Prof. Barne Kleinen, HTW Berlin, Fachbereich 4, 10313 Berlin, Germany
 
 ## Office Hours
 **Office:** WH C 645
