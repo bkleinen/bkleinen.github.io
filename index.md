@@ -7,19 +7,28 @@ regenerate: true
 <div class = "above">
   <h4>Announcements and News</h4>
   {% include posts/posts.html %}
-  <a href="{{ site.baseurl }}/news/">Archive</a>
+  <a align = "right" href="{{ site.baseurl }}/news/">Archive</a>
 </div>
+
+
 
 <div class = "box">
-<h4>Classes Winter Term 2019/20</h4>
+<h4>Classes Summer Term 2020</h4>
 
 <div>
-{% include classes/ws2019/lectures.html %}
+{% include classes/ss2020/lectures.html %}
 </div>
+
 <a href="{{ site.baseurl }}/classes/">All Classes (Archive)</a>
 
 <br/><br/>
 </div>
+
+
+
+
+
+
 
 <div class = "box">
 <h4>Office Hours</h4>

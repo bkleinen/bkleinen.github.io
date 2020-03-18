@@ -1,5 +1,5 @@
 ---
-title: Info2 SS 2020
+title: B15 Informatics 1 SS 2020
 author: kleinen
 layout: default
 redirect_from:
@@ -24,8 +24,25 @@ language and learn something about differences in programming languages.
 
 Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
+## A Summer Term in a Closed University
+
+Due to the regulations to avoid faster spread of the COVID-19 virus (see ) most of
+the summer term will probably held remote.
+
+We will do this as a kind of remote flipped classroom: We will provide materials
+you need to prepare *before* the lecture and the lab. Lecture and Labs are
+mainly to ask and discuss questions. We will do that with various means, starting
+with a simple Moodle Chat.
+
+**Thus, class and lab schedule will remain unchanged.** Although you are free
+to work on the material any time you want, it will be best if you do that at
+the same time as your group and the time we are available and will answer questions
+immediately.
+
 The schedule might be adapted to accommodate distance learning due to the
 COVID-19 Situation.
+
+The materials will be provided via Moodle. (there's a direct link in the menu bar).
 
 ## Meetings/Weekly Schedule
 
@@ -94,7 +111,7 @@ More info about the Lab Reports and their assessment can be found on the [Labs](
 
 ### Lecture Notes
 
-No Lecture Notes this term!
+Upload your personal Notes in Moodle to gain a maximum of additional 8% bonus.
 
 ### Examinations for Students who already took Info2
 
@@ -111,5 +128,5 @@ graded and counting 50% to the grade I might decide to apply that grading scheme
 and you will want to know this decision beforehand.
 
 Whether you attend the lectures or not, is your own decision, but note that the
-content of Info2 might differ. It's your responsibilty to inform yourself about
+content of Info2 might differ. It's your responsibility to inform yourself about
 the topics covered.
