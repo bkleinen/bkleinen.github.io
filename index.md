@@ -21,14 +21,6 @@ regenerate: true
 <br/><br/>
 </div>
 
-
-{% comment%}
-<ul>
-<li><a href="{{ site.baseurl }}/classes/ws2018/info2">Informatik 2</a></li>
-<li><a href="{{ site.baseurl }}/classes/ws2018/wt2">WT2 Usability</a></li>
-</ul>
-{% endcomment%}
-
 <div class = "box">
 <h4>Office Hours</h4>
   {% include officehours.md %}
