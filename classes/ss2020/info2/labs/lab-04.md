@@ -22,12 +22,12 @@ These are the required exercises for this week. Work in groups of 2-3, each of y
 2. Now write a client that connects to it and writes to a port.
 3. Test your methods on your own machine.
 4. Now publish your computer name and port number on the board in the lab.
-4. Start chatting with a few of your neighbors! Describe what works and does not work.
+4. Start chatting with a few of your neighbours! Describe what works and does not work.
 
 ### Step 2: Server can send message
 5. Extend your Server such that you can enter messages on the Server side as well, and extend your Client to receive and Display those messages.
 
-### Step 3: Simultaneous sending and recieving
+### Step 3: Simultaneous sending and receiving
 5. Now extend your Chatterbox such that it can simultaneously receive and send messages using Java Threads.
 
 ## For the bored:

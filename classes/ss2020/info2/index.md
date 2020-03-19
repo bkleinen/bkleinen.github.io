@@ -1,5 +1,5 @@
 ---
-title: B15 Informatics 1 SS 2020
+title: B07 Informatics 1 SoSe 2020
 author: kleinen
 layout: default
 redirect_from:
