@@ -26,6 +26,9 @@ Wenn Sie Unterlagen von mir unterschrieben und gestempelt zurück brauchen (Eras
 </li>
 </ul>
 
+<div class="alert alert-warning" role="alert">
+Während des Notbetriebs an der HTW habe ich keinen Zugang zur Post. Daher: Berichte und Zertifikate auch digital schicken. Wenn Sie schriftliche Unterlagen zurück benötigen, kontaktieren Sie mich bitte.
+</div>
 
 {% comment %}
 Wenn Sie Ihr Praktikum beantragen möchten, bringen Sie bitte<br />
