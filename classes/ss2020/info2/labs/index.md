@@ -3,7 +3,6 @@ title: Info2 SoSe 2020 - Labs and Exercises
 author: kleinen
 layout: page
 ---
-
 ## Pre-Labs
 As this semester the labs will take place online, it is IMPORTANT that you are familiar with the
 exercise before the lab starts. Before the lab starts please:
@@ -13,9 +12,14 @@ exercise before the lab starts. Before the lab starts please:
 * post any questions on Moodle
 * (form your new group and post the names of all group members on Moodle - see below)
 
-## Exercises
-There will be 13 labs.
+## During the lab
+During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online. 
 
+### Communication
+You can continue to post questions on Moodle but you can also join a [https://meet.kif.rocks/](Jitsi) Hangout to talk to me in person. Please make time for your whole group to join the [https://meet.kif.rocks/](Jitsi) Hangout at least once in a lab - we will talk about how working on the lab is going and how the last lab went for you. 
+
+### Exercises
+There will be 13 labs. 
 * [Exercise 01 - Application Design](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Histogram](lab-03)
@@ -65,10 +69,9 @@ You will not be allowed to take the exam if any of the following is True
 ### Criteria
 A report should contain:
 1. a summary of what the lab was about
-3. a short review on how working on the lab went
 2. details on what you learned in this lab OR details on what the lab was about
-4. if you were asked to write code: an explanation of how you tested your code
-5. if questions were asked: the answers to the questions
+3. if you were asked to write code: an explanation of how you tested your code
+4. if questions were asked: the answers to the questions
 
 It's ok not to have completely succeeded on the assignment, as long as
 you have tried sufficiently.
