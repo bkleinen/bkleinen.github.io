@@ -62,14 +62,6 @@ For passing Info2, you need to pass two parts:
 - the Lab ("Programmierübungen mit Rücksprache")
 - the Exam ("Klausur")
 
-If more than one report is missing, or finally not graded with an "ok",
-or more than four reports are late, you will fail the Lab part of the Modulprüfung,
-resulting in not passing the whole Modulprüfung.
-
-There are four "late slots". You can use them to hand in late work - that is,
-after the deadline, and before January 25th.
-You can use a late slot to hand in a rejected Lab Report again.
-
 Note that as both, Lab Reports and the Exam are parts of the "Modulprüfung",
 cheating on any of them will result in a 5,0 (nicht bestanden) for the whole
 module and use up one of the three possible tries for this module.
@@ -84,28 +76,23 @@ The Grade is determined by the grade of your exam.
 There is a penalty on the grade for late or missing lab reports, see below.
 
 ### Labs
+There will be 13 labs and you need to write a lab report for each. Lab reports won't be graded - they just get marked with "ok" or "not ok". 
 
-You need to turn in all 13 lab reports. Lab reports won't be graded. We will
-review the Lab Reports in the following lab.
+**Deadline**: Reports are due 10pm the night before the next lab.
 
-Reports are due @ 22:00 the night before the next lab.
+**Late reports**: 11 of the 13 lab reports need to be handed in at or before the deadline.
+That means you can hand in 2 reports as late as you want. There are 2 "late slots" for handing in reports after the deadline, but they have to be handed in before July 6. You can use a late slot to hand in a rejected Lab Report again.
 
-There will be a penalty of a 0.3 on the grade if you miss one lab report.
-(That is, 1.3 instead of 1.0, 1.7 instead of 1.3 etc.).
+There's a penalty of 0.3 on the final grade for each if you hand in a third and forth report late (that is you get a grade of 1.3 instead of 1.0 and so on). Please use the "3rd late report" and "4th late report" slots for that. You can only hand in late up to 4 reports. A 5th late report will not be graded and is thus "not ok".
 
-11 of the 13 lab reports need to be handed in at or before the deadline.
-That is, you can hand in two reports as late as you want as long as it's a week
-before the exam.
-Please use the two "late reports" slots for that.
+You will not be allowed to take the exam if any of the following is True
+* more than one report is missing by July 6
+* more than one report is "not ok"
 
-There's a penalty of 0.3 on the grade for each if you hand in a third and forth report late.
-Please use the "3rd late report" and "4th late report" slots for that.
-
-This should allow for enough slack for the usual winter cold and grandpa's birthday.
+This should allow for enough slack for the usual cold and grandpa's birthday.
 If you fall ill for more than a week or are unable to continuously work on
 the lab reports for some other reason, come talk to me or at least email me as
-early as possible and we will find an individual solution. This will require
-proof of the situation.
+early as possible and we will find an individual solution.
 
 More info about the Lab Reports and their assessment can be found on the [Labs](labs) page.
 
@@ -120,7 +107,7 @@ completed the lab reports/exercise part there, you can skip the lab reports.
 
 To do so, you have to
 - send an email to the other Professor asking them to send your lab grades to me
-- send me an email asking me to accept them (you can do both in one email).
+- send me an email asking to accept them (you can do both in one email).
 
 You have to do that at the beginning of the term, within the first or second
 week. I will individually decide on the terms for grading (e.g., if the labs were
