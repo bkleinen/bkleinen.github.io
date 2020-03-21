@@ -59,8 +59,7 @@ A report is "not ok" if any of the following is True:
 You can use the late slot (see below) to hand in rejected Lab Reports again.
 
 You will not be allowed to take the exam if any of the following is True
-* more than one report is missing by July 6
-* more than one report is "not ok"
+* more than one report is "not ok" by July 6
 * you plagiarized
 
 ### Criteria
