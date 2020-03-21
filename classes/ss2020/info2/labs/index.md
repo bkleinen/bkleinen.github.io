@@ -29,9 +29,9 @@ There will be 13 labs.
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
 
-{% comment %}
+<!--
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
-{% endcomment %}
+-->
 
 ## Groups
 You will work in groups of two or three. You will switch groups after three or four labs. 
@@ -103,7 +103,7 @@ There might be short quizzes on Moodle where you can test your knowledge.
 They will be published when the lab starts and be closed after a certain amount of time.
 Whether doing them will gain you any additional benefits is tbd.
 
-{% comment %}
+<!--
 ## Review and Presentations of Lab Reports in the following Lab
 
 There are a couple of important changes for the labs compared to Info1:
@@ -132,4 +132,4 @@ or send me an email and we'll figure something out.
 
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
 
-{% endcomment %}
+-->
