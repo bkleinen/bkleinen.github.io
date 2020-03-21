@@ -9,8 +9,9 @@ As this semester the labs will take place online, it is IMPORTANT that you are f
 exercise before the lab starts. Before the lab starts please:
 * read through the whole exercise (see below)
 * do the pre-lab 
-* post questions on Moodle
-(* form your new group and post the names of all group members on Moodle - see below)
+* recap on what you did for the lecture
+* post any questions on Moodle
+* (form your new group and post the names of all group members on Moodle - see below)
 
 ## Exercises
 There will be 13 labs.
@@ -23,11 +24,11 @@ There will be 13 labs.
 * [Exercise 06 - Reverse Polish Notation](lab-06)
 * [Exercise 07 - Recursive Triangles](lab-07)
 * [Exercise 08 - Eight Queens](lab-08)
-* [Exercise 09 - Probabilistic Algorithms](lab-09) (Pre-Lab!)
-* [Exercise 10 - Getting from A to B](lab-10) (Pre-Lab!)
-* [Exercise 11 - Finite State Automata and Sorting](lab-11) (Pre-Lab!)
-* [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
-* [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
+* [Exercise 09 - Probabilistic Algorithms](lab-09)
+* [Exercise 10 - Getting from A to B](lab-10)
+* [Exercise 11 - Finite State Automata and Sorting](lab-11)
+* [Exercise 12 - Scrabble Cheater Basic Edition](lab-12)
+* [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 
 <!--
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
@@ -44,10 +45,10 @@ That means you should form new groups before the following labs:
 You can chose your team mates. Please post the names of all group members on Moodle.
 
 ## Reports
-**Deadline** 
+### Deadline
 Lab Reports are due at 10pm the night before your next lab.
 
-**Grading**
+### Grading
 Lab reports won't be graded - they just get marked with "ok" or "not ok".  
 A report is "not ok" if any of the following is True:
 * the report is missing
@@ -62,7 +63,7 @@ You will not be allowed to take the exam if any of the following is True
 * more than one report is "not ok"
 * you plagiarized
 
-**Criteria**
+### Criteria
 A report should contain:
 1. a summary of what the lab was about
 3. a short review on how working on the lab went
@@ -78,12 +79,12 @@ but be transparent about it! Using sources from the Internet/books is ok, but ci
 
 You can write in English or German.
 
-**How to submit correctly**
+### How to submit correctly
 Please submit *seperately*:
 * A pdf with your report
 * A zip folder with your code
 
-**Late reports**
+### Late reports
 11 of the 13 lab reports need to be handed in at or before the deadline.
 That means you can hand in 2 reports as late as you want. 
 
