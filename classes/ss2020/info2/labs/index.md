@@ -4,10 +4,17 @@ author: kleinen
 layout: page
 ---
 
-## Exercises
-Lab Assignments not linked here have not released for this term yet and might be changed.
+## Pre-Labs
+As this semester the labs will take place online, it is IMPORTANT that you are familiar with the
+exercise before the lab starts. Before the lab starts please:
+* read through the whole exercise (see below)
+* do the pre-lab 
+* post questions on Moodle
+(* form your new group and post the names of all group members on Moodle - see below)
 
-Lab Reports are due @ 23.00 the night before your next lab.
+## Exercises
+There will be 13 labs.
+
 * [Exercise 01 - Application Design](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Histogram](lab-03)
@@ -23,19 +30,80 @@ Lab Reports are due @ 23.00 the night before your next lab.
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
 
 {% comment %}
-*
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
 {% endcomment %}
 
-After having a look into designing an object-oriented application in lab 1 and 2,
-we will do a lot of small-scale programming in Java during this term. As in Info1,
-each lab has a pre-lab part, that you are expected to do before coming to the lab
- an assignment that you work on during the lab. Usually, you're expected to turn
- in a report on what you did during the lab.
+## Groups
+You will work in groups of two or three. You will switch groups after three or four labs. 
+That means you should form new groups before the following labs:
+* [Exercise 01 - Application Design](lab-01)
+* [Exercise 04 - Chatterbox](lab-04)
+* [Exercise 07 - Recursive Triangles](lab-07)
+* [Exercise 10 - Getting from A to B](lab-10)
 
-You can work on the assignments in groups of up to **three** people. Make sure to
-put all your names on the first page of your lab report.
+You can chose your team mates. Please post the names of all group members on Moodle.
 
+## Reports
+**Deadline** 
+Lab Reports are due at 10pm the night before your next lab.
+
+**Grading**
+Lab reports won't be graded - they just get marked with "ok" or "not ok".  
+A report is "not ok" if any of the following is True:
+* the report is missing
+* you are not transparent on who did what
+* the report has too little significant content on the lab
+* the report is not submitted correctly (see below)
+
+You can use the late slot (see below) to hand in rejected Lab Reports again.
+
+You will not be allowed to take the exam if any of the following is True
+* more than one report is missing by July 6
+* more than one report is "not ok"
+* you plagiarized
+
+**Criteria**
+A report should contain:
+1. a summary of what the lab was about
+3. a short review on how working on the lab went
+2. details on what you learned in this lab OR details on what the lab was about
+4. if you were asked to write code: an explanation of how you tested your code
+5. if questions were asked: the answers to the questions
+
+It's ok not to have completely succeeded on the assignment, as long as
+you have tried sufficiently.
+
+You need to be transparent on who did what. Collaborating with people outside your group is ok, 
+but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!
+
+You can write in English or German.
+
+**How to submit correctly**
+Please submit *seperately*:
+* A pdf with your report
+* A zip folder with your code
+
+**Late reports**
+11 of the 13 lab reports need to be handed in at or before the deadline.
+That means you can hand in 2 reports as late as you want. 
+
+*How to hand in late reports* 
+There are 2 "late slots" for handing in reports after the deadline, but they have to be handed in before July 6. 
+
+*What happens if I hand in late more than two reports?*
+There's a penalty of 0.3 on the final grade for each if you hand in a third and forth report late (that is you get a grade of 1.3 instead of 1.0 and so on). Please use the "3rd late report" and "4th late report" slots for that. You can only hand in late up to 4 reports. A 5th late report will not be graded and is thus "not ok".
+
+*But ...!*
+If you fall ill for more than a week or are unable to continuously work on
+the lab reports for some other reason, come talk to me or at least email me as
+early as possible and we will find an individual solution.
+
+## Quizzes
+There might be short quizzes on Moodle where you can test your knowledge. 
+They will be published when the lab starts and be closed after a certain amount of time.
+Whether doing them will gain you any additional benefits is tbd.
+
+{% comment %}
 ## Review and Presentations of Lab Reports in the following Lab
 
 There are a couple of important changes for the labs compared to Info1:
@@ -63,3 +131,5 @@ If you're having trouble keeping up for longer than a week, come talk to me
 or send me an email and we'll figure something out.
 
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
+
+{% endcomment %}
