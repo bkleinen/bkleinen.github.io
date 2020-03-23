@@ -11,7 +11,7 @@ wide_layout: true
 |:-----|:---|:---------------|:------|:--------------------------------------------------------------------|:---|:------------------------------------------------------------------|
 | 1    | 14 | Thu 02/04/2020 | 01    | Welcome Back, Overview, Designing Applications                      |    | --- (No labs in the  first week) ---                              |
 | 2    | 15 | Tue 07/04/2020 | 02    | IntelliJ, Programming Exercises, Intro to Recursion.                | 1  | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
-|      |    | Thu 09/04/2020 | 02    | Recursion                                                           |    | (Lab: B. Kleinen)                                                 |
+|      |    | Thu 09/04/2020 | 02    | Recursion                                                           |    | (OO Design)                                                 |
 | 3    | 16 | Tue 14/04/2020 | 02    | Networking and File I/O in Java                                     | 2  | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
 |      |    | Thu 16/04/2020 | 02    | Concurrency                                                         |    | (OO Design)                                                       |
 | 4    | 17 | Tue 21/04/2020 | 02    | Random numbers, Probabilistic Algorithms                            | 3  | [Histogram](../labs/lab-03)  (Pre-Lab!) |                         |
