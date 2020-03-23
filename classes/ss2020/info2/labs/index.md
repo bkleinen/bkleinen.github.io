@@ -13,10 +13,10 @@ exercise before the lab starts. Before the lab starts please:
 * (form your new group and post the names of all group members on Moodle - see below)
 
 ## During the lab
-During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online. 
+During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online.
 
 ### Communication
-You can continue to post questions on Moodle but you can also join a [https://meet.kif.rocks/](Jitsi) Hangout to talk to me in person. Please make time for your whole group to join the [https://meet.kif.rocks/](Jitsi) Hangout at least once in a lab - we will talk about how working on the lab is going and how the last lab went for you. 
+In any case you should join the lab's Moodle Chat. However, you can continue to post questions on Moodle or even join a [Jitsi](https://meet.kif.rocks/)-Hangout to talk to me in person. The link to the [Jitsi](https://meet.kif.rocks/)-Hangout will be shared in the Moodle Chat. Please make time for your whole group to join the [Jitsi](https://meet.kif.rocks/)-Hangout at least once in a lab - we will talk about how working on the lab is going and how the last lab went for you. 
 
 ### Exercises
 There will be 13 labs. 
@@ -46,7 +46,7 @@ That means you should form new groups before the following labs:
 * [Exercise 07 - Recursive Triangles](lab-07)
 * [Exercise 10 - Getting from A to B](lab-10)
 
-You can chose your team mates. Please post the names of all group members on Moodle.
+You can chose your team mates. Please post the names of all group members on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up a team by posting on Moodle, you won't be able to hand anything in.
 
 ## Reports
 ### Deadline
