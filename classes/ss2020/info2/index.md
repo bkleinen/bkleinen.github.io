@@ -79,6 +79,7 @@ There is a penalty on the grade for late or missing lab reports, see below.
 There'll be 13 exercises and you'll have to hand in a lab report for each. You will not be allowed to take the exam if more than one report is marked as "not ok" by July 6 or if you plagiarized. You may hand in late 2 out of 13 lab reports. There's a penalty of 0.3 on the final grade for each if you hand in a third and forth report late (that is you get a grade of 1.3 instead of 1.0 and so on).
 
 All info on the labs can be found on the [Labs](labs) page.
+
 <!--
 There will be 13 labs and you need to write a lab report for each. Lab reports won't be graded - they just get marked with "ok" or "not ok". 
 
