@@ -1,5 +1,5 @@
 ---
-title: B07 Informatics 1 SoSe 2020
+title: B07 Informatics 2 SoSe 2020
 author: kleinen
 layout: default
 redirect_from:
@@ -80,7 +80,7 @@ There'll be 13 exercises and you'll have to hand in a lab report for each. You w
 
 All info on the labs can be found on the [Labs](labs) page.
 <!--
-There will be 13 labs and you need to write a lab report for each. Lab reports won't be graded - they just get marked with "ok" or "not ok". 
+There will be 13 labs and you need to write a lab report for each. Lab reports won't be graded - they just get marked with "ok" or "not ok".
 
 **Deadline**: Reports are due 10pm the night before the next lab.
 

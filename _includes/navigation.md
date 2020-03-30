@@ -6,9 +6,10 @@
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% include navigation_dropdown_item.md url = "/classes/ss2020/info2" link_text = "Info 2" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2020/m1-web" link_text = "M1 Mediaprogramming" %}
     {% comment %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/wtat1-webdev" link_text = "WTAT Web Development" %}
-    {% include navigation_dropdown_item.md url = "/classes/ss2020/m1-web" link_text = "Mediaprogramming" %}
+
     {% include navigation_dropdown_item.md url = "/classes/ss2020/m-wt4-ucd" link_text = "Web Applications" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/m6-project" link_text = "Project" %}
         {% endcomment %}

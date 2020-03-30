@@ -10,6 +10,7 @@ classes/ws2019/m-wt1-webapplications.md
 classes/ws2019/m6-project.md
 classes/ws2019/m1-web.md
 classes/ss2020/info2.md
+classes/ss2020/m1-web.md
 classes/ss2020/m-wt4-ucd.md
 {% endcapture %}
 

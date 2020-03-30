@@ -4,11 +4,15 @@ author: kleinen
 layout: default
 ---
 
+### Summer Term 2020
+
+{% include classes/ss2020/lectures.md %}
+
+## Former Classes
+
 ### Winter Term 2019/20
 
 {% include classes/ws2019/lectures.md %}
-
-## Former Classes
 
 ### Summer Term 2019
 
