@@ -16,7 +16,7 @@ exercise before the lab starts. Before the lab starts please:
 During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online.
 
 ### Communication
-In any case you should join the lab's Moodle Chat. However, you can continue to post questions on Moodle or even join a [Jitsi](https://meet.kif.rocks/)-Hangout to talk to me in person. The link to the [Jitsi](https://meet.kif.rocks/)-Hangout will be shared in the Moodle Chat. Please make time for your whole group to join the [Jitsi](https://meet.kif.rocks/)-Hangout at least once in a lab - we will talk about how working on the lab is going and how the last lab went for you. 
+In any case you should join the lab's Moodle Chat. However, you can continue to post questions on Moodle or even join a [Jitsi](https://imi-jitsi.f4.htw-berlin.de/)-Hangout to talk to me in person. The link to the [Jitsi](https://imi-jitsi.f4.htw-berlin.de/)-Hangout will be shared in the Moodle Chat. Please make time for your whole group to join the [Jitsi](https://imi-jitsi.f4.htw-berlin.de/)-Hangout at least once in a lab - we will talk about how working on the lab is going and how the last lab went for you. 
 
 ### Exercises
 There will be 13 labs. 
