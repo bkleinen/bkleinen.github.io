@@ -12,8 +12,9 @@ Remember to do all the necessary steps listed on the [Labs](labs) page, includin
 
 ***P2.*** If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
 
-***P3.*** Read up on the
-[Class-Responsibility-Collaboration Card method (CRC Cards)](http://c2.com/doc/oopsla89/paper.html).
+***P3.*** Find out what the *Class-Responsibility-Collaboration Card method* is, what the use of CRC Cards is and how they are created. The following resources can be of help:
+* [The method of CRC cards and the context of OOP](http://c2.com/doc/oopsla89/paper.html)
+* [Example CRC cards and how to create CRC Cards](http://www.agilemodeling.com/artifacts/crcModel.htm)
 
 ## Assignment: CRC Cards
 
@@ -36,6 +37,8 @@ The nouns are candidates for classes, the verbs for methods and the adjectives f
 Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible *candidates* for classes and methods - not every noun will be a class name in your application!
 
 ### 2. CRC Cards
+
+#### Preparation
 Make CRC cards for each of your candidate classes. Only put down the class names for now. 
 
 *Note: In this semester you'll have to do this online. You can use the [HTW Cloud](https://cloud.htw-berlin.de), [IMIPad](https://imipad.f4.htw-berlin.de:9001) or another tool that allows online in-time-editing of a file by multiple people.*
@@ -57,7 +60,9 @@ Choose another scenario and play this through. If you have time, do more! Here a
 4. Otto has a booking he wants to cancel.
 
 ### 3. Tooling: Dip a toe into IntelliJ
-Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a first project with one class that prints out "Hello" on the command line, or does something else. Add a main() method. Add an unit test class and a test, and make sure you know how to run both the main() method as well as the unit test in IntelliJ. [These tutorial videos](https://www.jetbrains.com/idea/documentation/) can be of help.
+Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a first project with one class that prints out "Hello" on the command line, or does something else. Add a main() method. Add an unit test class and a test, and make sure you know how to run both the main() method as well as the unit test in IntelliJ. 
+* [These tutorial videos](https://www.jetbrains.com/idea/documentation/) can be of help.
+* And you can also find information on installing, creating projects, adding unit tests and much more at [the IntelliJ documentation](https://www.jetbrains.com/help/idea/installation-guide.html).
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs](labs) page.
