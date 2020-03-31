@@ -86,6 +86,8 @@ Please submit *seperately*:
 * A pdf with your report
 * A zip folder with your code
 
+Only one team member should upload the report. If team members upload different reports, I'll chose one at random to review.
+
 ### Late reports
 11 of the 13 lab reports need to be handed in at or before the deadline.
 That means you can hand in 2 reports as late as you want. 
