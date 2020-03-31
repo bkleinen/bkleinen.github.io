@@ -3,8 +3,7 @@ title: M1 Assignments
 author: kleinen
 layout: page
 ---
-
-This stuff is waiting for the news till june.
+TBD
 {% comment %}
 ## Week 1
 

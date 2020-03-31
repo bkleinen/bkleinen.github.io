@@ -6,10 +6,10 @@ wide_layout: true
 ---
 tentative.
 
-| Week | KW | Date           |  | Topic                                                   | Assignment |
-|:-----|:---|:---------------|:-|:--------------------------------------------------------|:-----------|
-| 12   | 25 | Wed 17/06/2020 |  | Usability and User Experience                           |            |
-| 13   | 26 | Wed 24/06/2020 |  | Usability and User Experience                           |            |
-| 14   | 27 | Wed 01/07/2020 |  | Web Technology and Architectures - Framework Bento Game |            |
-| 15   | 28 | Wed 08/07/2020 |  | Static Web Site Publishing                              |            |
-| 16   | 29 | Wed 15/07/2020 |  | Continuous Deployment and Agile Development             |            |
+| Week | KW | Date           |  | Topic                                       | Assignment |
+|:-----|:---|:---------------|:-|:--------------------------------------------|:-----------|
+| 12   | 25 | Wed 08/04/2020 |  | Guerilla Usability: Research                |            |
+| 13   | 26 | Wed 15/04/2020 |  | Guerilla Usability: Tests                   |            |
+| 14   | 27 | Wed 22/04/2020 |  | Guerilla Usability: Writeup                 |            |
+| 15   | 28 | Wed 29/04/2020 |  | Static Web Site Publishing                  |            |
+| 16   | 29 | Wed 06/05/2020 |  | Continuous Deployment and Agile Development |            |
