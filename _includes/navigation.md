@@ -40,6 +40,7 @@
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
       {% include navigation_dropdown_item.md url = "/misc/about-this-site/" link_text = "About this Site" %}
       {% include navigation_dropdown_item.md url = "/misc/trans/" link_text = "Trans*" %}
+      {% include navigation_dropdown_item.md url = "/misc/lsfcollector/" link_text = "LSF" %}
       {% include navigation_dropdown_item.md url = "/misc/links/" link_text = "Links" %}
     </div>
   </li>
