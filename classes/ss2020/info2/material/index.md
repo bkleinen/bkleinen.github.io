@@ -3,5 +3,8 @@ title: Info 2 Material
 author: kleinen
 layout: page
 ---
-* [Topics and Grading](topics_and_grading)
-* [Python](python)
+
+## Textbooks and Material
+
+* [Algorithms and Data Structures in General](algorithms_and_datastructures/)
+* [CRC Cards](topic01_crc_cards)

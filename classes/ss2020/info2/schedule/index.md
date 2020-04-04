@@ -9,7 +9,7 @@ wide_layout: true
 
 | Week | KW | Lecture        | Topic | Lecture                                                             |                                    |                                                                   |
 |:-----|:---|:---------------|:------|:--------------------------------------------------------------------|:-----------------------------------|:------------------------------------------------------------------|
-| 1    | 14 | Thu 02/04/2020 |       | --- No lectures in the  first week ---                              | --- No labs in the  first week --- |                                                                   |
+| 1    | 14 | Thu 02/04/2020 |       | --- No lectures in the first week ---                               | --- No labs in the  first week --- |                                                                   |
 | 2    | 15 | Tue 07/04/2020 | 01    | Welcome Back, Overview, Designing Applications                      | 1                                  | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
 |      |    | Thu 09/04/2020 | 02    | IntelliJ, Programming Exercises, Intro to Recursion.                |                                    | (OO Design)                                                       |
 | 3    | 16 | Tue 14/04/2020 | 02    | Recursion                                                           | 2                                  | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |

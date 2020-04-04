@@ -12,6 +12,7 @@ classes/ws2019/m1-web.md
 classes/ss2020/info2.md
 classes/ss2020/m1-web.md
 classes/ss2020/m-wt4-ucd.md
+index.md.md
 {% endcapture %}
 
 {% capture remainder %}{{available | remove:fn  }}{% endcapture %}
@@ -21,6 +22,7 @@ classes/ss2020/m-wt4-ucd.md
 <br/>fn {{ fn }}
 <br/>available {{ available }}
 <br/>remainder {{ remainder }}
+
 {% endcomment %}
 
 {% if available != remainder %}

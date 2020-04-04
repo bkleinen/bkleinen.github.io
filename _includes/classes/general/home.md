@@ -1,3 +1,11 @@
+<ul>
+<li class="nav-item">
+  <a class="nav-link" href="https://moodle.htw-berlin.de/course/view.php?id=21638">IMI-FAQs</a>
+</li>
+</ul>
+
+{% comment %}
+
 <ul class="nav nav-tabs">
 {% assign navitems = "Info2-/classes/ss2020/info2/,Schedule-/classes/ss2020/info2/schedule/,Material-/classes/ss2020/info2/material/,Labs-/classes/ss2020/info2/labs/" | split: "," %}
 {% for navitem in navitems %}
@@ -17,3 +25,4 @@
     </div>
   </li>
 </ul>
+{% endcomment %}
