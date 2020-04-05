@@ -9,8 +9,8 @@ You will need to move your project a bit further every week nonetheless.
 
 | Week | KW | Date           | Due                | Agile Track               | Tech Track                               |
 |:-----|:---|:---------------|:-------------------|:--------------------------|:-----------------------------------------|
-| 1    | 15 | Tue 07/04/2020 | Project Ideas      | Intro                     | Node.js 0 - Installation and Setup       |
-| 2    | 16 | Tue 14/04/2020 | Proposals          | Product Backlog           | Node.js 1 - Getting Started              |
+| 1    | 15 | Tue 07/04/2020 | A0: Project Ideas  | Intro                     | Node.js 0 - Installation and Setup       |
+| 2    | 16 | Tue 14/04/2020 | A1: Proposals      | Product Backlog           | Node.js 1 - Getting Started              |
 | 3    | 17 | Tue 21/04/2020 | Backlog            | Scrum Theory and Values   | Node.js 2 - Express.js                   |
 | 4    | 18 | Tue 28/04/2020 | Sprint 1 - Express | Scrum Roles               | Node.js 3 - Database and the first Model |
 | 5    | 19 | Tue 05/05/2020 | Sprint 2 - Model   | Scrum Events              | Node.js 4 - User Model                   |

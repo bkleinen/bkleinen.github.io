@@ -1,5 +1,5 @@
 ---
-title: Assignment 01: Project Proposal
+title: Topic 01 - Project Proposal
 author: kleinen
 layout: default
 ---
@@ -25,9 +25,12 @@ Thus, try to sketch something that has these elements in it. It's ok if your ide
 is more complex - you will not need to implement all aspects that you describe now.
 
 ## Group and Hand-In
+
 You can create project proposals for yourselves or as pairs of two.
-**You need to upload your proposal twice to moodle**: as an assignment and in the Forum named
-"Project Proposals for the Class and Discussion" - create a new Topic for each Proposal
+**You need to upload your proposal twice to moodle**:
+
+1. as an assignment and
+2. in the Forum named "Project Proposals for the Class and Discussion" - create a new Topic for each Proposal
 and paste your description directly as text.
 
 You don't need to have your names in the proposal, and you don't need to work on
