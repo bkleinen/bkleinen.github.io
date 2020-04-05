@@ -4,12 +4,6 @@ author: kleinen
 layout: page
 ---
 
-Hier werden in den nächsten Tagen detaillierte Informationen zu meinen Lehrveranstaltungen
-im Sommersemester zu finden sein.
-
-Alle Kurse werden mit Distanzlernen/e-learning-Angeboten zum 1.4. bzw. 2.4. beginnen.
-
-
 {% include classes/ss2020/lectures.md %}
 
 ### Semesterpläne

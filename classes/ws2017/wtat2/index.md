@@ -21,7 +21,7 @@ you to learn and practice certain aspects of web development. See the Schedule a
 
 We meet each week for 2 x 1,5hrs. Although the schedule is split up into lecture and lab (SU+Ü) we
 will split up the time between lectures, assignments and practice and time for project work into your
-team more dynamically within theese 3 hours.
+team more dynamically within these 3 hours.
 
 Note that there is required reading to read *before* class.
 
@@ -29,7 +29,7 @@ Note that there is required reading to read *before* class.
 
 Your grade in WT AT2 will be a weighted mixture of the evaluated graded elements of the course:
 
-* Reports: you need to turn in a project reports approximately every 2 weeks. Those are not graded, but you need to turn in viable reports for each topic approximately every two weeks.
+* Reports: you need to turn in a project report approximately every 2 weeks. Those are not graded, but you need to turn in viable reports for each topic approximately every two weeks.
 * Quizzes: after the completion of each topic, there will be a brief moodle quizz about the topic covered. If you choose to participate in those quizzes, they may count as 50% of your grade
 * Exam: There will be a moodle exam at the end of term. It either counts
     * 50% with the points from the quizzes as other 50%

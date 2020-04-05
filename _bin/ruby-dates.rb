@@ -12,7 +12,7 @@ require_relative './lib_ruby_dates.rb'
 # )
 # WT4
 course_dates = CourseDates.new(
-  first_day: Date.parse("1.4.2020"),
+  first_day: Date.parse("31.3.2020"),
   day_diff: 2,
   two_lectures: false
 )
@@ -28,5 +28,6 @@ holidays: {"11.04.2020" => "Karfreitag",
 reject_span:[]
 )
 
-CourseSchedule.new(course_dates: course_dates, semester_dates: semester_dates)
-        .generate
+CourseSchedule.new(
+  course_dates: course_dates,
+  semester_dates: semester_dates).generate
