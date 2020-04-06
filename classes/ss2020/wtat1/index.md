@@ -15,10 +15,11 @@ Throughout the project, you will build features into your project that allow you
 
 ## Meetings and Due Dates
 
-Meetings are scheduled for Tuesdays - Lectures @ 12:15-13:45,
-Labs @ 15.45-17:15.
+The Campus is closed and there will be no on-site classes at least till April 20, probably longer.
 
-Lectures are done as flipped classroom: You need to prepare the topic beforehand,  The lecture will be used for answering questions, working on example exercises and coordinating practice time in labs.
+We will still meet at the time scheduled in LSF each week, Links to video conferencing will be posted in Moodle.
+
+Lectures will be done as flipped classroom: You need to prepare the topic beforehand, and I will mostly answer questions during the lectures.
 
 During distance learning, which may be for the whole term, I will make use of the lab time for individual sessions with the teams.
 
