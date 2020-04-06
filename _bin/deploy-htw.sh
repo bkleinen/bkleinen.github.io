@@ -1,6 +1,12 @@
 #!/bin/bash
 git log --pretty=format:'%h' -n 1 > commit.txt
 
+git push origin master
+if [ $? -ne 0 ]; then
+    echo "push failed; exiting"
+    exit $?
+fi
+
 jekyll build --config _config.yml,_htwconfigrz.yml
 
 if [ $? -eq 0 ]; then
@@ -9,12 +15,6 @@ if [ $? -eq 0 ]; then
     scp -r _site_htw_rz/* kleinen@remserv.rz.htw-berlin.de:/home/user/K/kleinen/public_html
 else
     echo "SITE BUILD FAILED, NOT COPYING TO HTW"
-    exit $?
-fi
-
-git push origin master
-if [ $? -ne 0 ]; then
-    echo "push failed; exiting"
     exit $?
 fi
 
