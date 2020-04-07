@@ -15,9 +15,8 @@ see how this breaks down.
 
 ## What we will do in the Web Technology Part
 
-Within the five weeks of Web Technology, you will work on your own Web Application Project in a more or less
-agile manner. Less agile, because you will work on the user stories not in the order of business value, but
-in a technology driven order.
+This term, we will focus on two topics tightly related to our web technology curriculum that are of use in all areas of computer science: Usability and publishing and deploying stuff.
+You will need to hand in two little projects: the results of one usability tests and something published or deployed on the web.
 
 ## What you need to do to pass
 
@@ -26,7 +25,6 @@ just a "passed" or "not passed" as well as for each part as for the three parts 
 each part - Web Technology, Visual Computing and Game Technology - to pass the lab part of M1 Media Programming.
 There will also be questions in the exam regarding topics covered in all three lab parts.
 
-For Web Technology, you will have to prepare and hand in 3 project reports together with the source code of
-your projects. The project reports have to be prepared as PDF and describe what you did, what you learned, what worked and
+For Web Technology, you will have to prepare and hand in 2 assignent reports. The project reports have to be prepared as PDF and describe what you did, what you learned, what worked and
 what didn't work. You will find detailed instructions for each week on the [assignments](assignments) page.
 The project reports are due at 22:00 on the night before the next meeting and need to be uploaded to Moodle.
