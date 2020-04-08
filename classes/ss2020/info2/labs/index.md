@@ -13,7 +13,7 @@ exercise before the lab starts. Before the lab starts please:
 * (form your new group and post the names of all group members on Moodle - see below)
 
 ## During the lab
-During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online.
+During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online. This is the plan for now, but it might change.
 
 ### Communication
 In any case you should join the lab's Moodle Chat. However, you can continue to post questions on Moodle or even join a [Jitsi](https://imi-jitsi.f4.htw-berlin.de/)-Hangout to talk to me in person. The link to the [Jitsi](https://imi-jitsi.f4.htw-berlin.de/)-Hangout will be shared in the Moodle Chat. Please make time for your whole group to join the [Jitsi](https://imi-jitsi.f4.htw-berlin.de/)-Hangout at least once in a lab - we will talk about how working on the lab is going and how the last lab went for you. 
@@ -73,13 +73,15 @@ A report should contain:
 3. if you were asked to write code: an explanation of how you tested your code
 4. if questions were asked: the answers to the questions
 
-It's ok not to have completely succeeded on the assignment, as long as
-you have tried sufficiently.
-
-You need to be transparent on who did what. Collaborating with people outside your group is ok, 
+*Transparency* You need to be transparent on who did what. Collaborating with people outside your group is ok, 
 but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!
 
-You can write in English or German.
+*What if I our group didn't get the code to work?* It's ok not to have completely succeeded on the assignment, as long as
+you have tried sufficiently.
+
+*How long should the report be?* Elegance lays in the ability to get to the point in as few sentences as necessary.
+
+*Language* You can write in English or German.
 
 ### How to submit correctly
 Please submit *seperately*:
