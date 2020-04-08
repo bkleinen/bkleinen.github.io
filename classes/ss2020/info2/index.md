@@ -52,8 +52,7 @@ for time and location information (link above in the External Links menu).
 
 ## Tutorial
 
-There will be a tutorial held by Lotte Unckell. The Tutorial will be in
-conjunction with the Labs this term.
+There will be a tutorial held by Lotte Unckell. The Tutorial will be on Thursdays, 16.30 - 18.00.
 
 ## Grades & Exam
 
