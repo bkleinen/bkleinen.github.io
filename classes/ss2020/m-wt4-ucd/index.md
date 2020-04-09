@@ -24,5 +24,5 @@ There are three reports to hand in via moodle, and a final project presentation 
 * Report III: write-up Final Project Report
 * Presentation (Actual Presentation & Slides) (maybe a video this term)
 
-Reports I+II are due monday in the specified week.
+Reports I+II are due Tuesdays in the specified week.
 Report III + the presentation slides are due 1 week after final project presentations.
