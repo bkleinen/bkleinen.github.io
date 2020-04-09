@@ -7,7 +7,7 @@ layout: default
 
 # Report 2: Visioning and Product Concepts
 
-The second report is due Sunday, July 9th, 22:00
+The second report is due tbd, 22:00
 
 It should be submitted to moodle as pdf and contain the following parts:
 

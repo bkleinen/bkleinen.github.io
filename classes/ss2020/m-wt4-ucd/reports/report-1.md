@@ -6,7 +6,7 @@ layout: default
 
 # Report 1: Contextual Inquiry
 
-The first report is due before our next meeting: 31/05/2017, 22:00
+The first report is due before our next meeting: tbd, 22:00
 
 It should be submitted to moodle as pdf and contain the following parts:
 

@@ -1,8 +1,8 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "M-WT1:/classes/ss2020/m-wt1-webapplications/,Schedule:/classes/ss2020/m-wt1-webapplications/schedule/,Assignments:/classes/ss2020/m-wt1-webapplications/assignments/" | split: "," %}
+{% assign navitems = "M-WT4-UCD:/classes/ss2020/m-wt4-ucd/,Schedule:/classes/ss2020/m-wt4-ucd/schedule/,Reports:/classes/ss2020/m-wt4-ucd/reports/" | split: "," %}
 
 {% comment %}
-,Code:/classes/ss2020/m-wt1-webapplications/code/,Labs:/classes/ss2020/m-wt1-webapplications/labs/
+,Code:/classes/ss2020/m-wt4-ucd/code/,Labs:/classes/ss2020/m-wt4-ucd/labs/
 {% endcomment %}
 
 {% for navitem in navitems %}
@@ -14,10 +14,10 @@
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">External Links</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" target = "ex_link" href="https://moodle.htw-berlin.de/course/view.php?id=21906">Moodle</a>
-      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154128">LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://moodle.htw-berlin.de/course/view.php?id=25162">Moodle</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=160790">LSF</a>
       <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312">Semesterstundenplan im LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="#">Github</a>
+
     </div>
   </li>
 </ul>
