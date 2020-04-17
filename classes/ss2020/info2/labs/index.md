@@ -72,6 +72,7 @@ A report should contain:
 2. details on what you learned in this lab OR details on what the lab was about
 3. if you were asked to write code: an explanation of how you tested your code
 4. if questions were asked: the answers to the questions
+5. a link to the private git repository with your code
 
 *Transparency* You need to be transparent on who did what. Collaborating with people outside your group is ok, 
 but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!
@@ -84,9 +85,8 @@ you have tried sufficiently.
 *Language* You can write in English or German.
 
 ### How to submit correctly
-Please submit *seperately*:
+Please submit *only*:
 * A pdf with your report
-* A zip folder with your code
 
 Only one team member should upload the report. If team members upload different reports, I'll chose one at random to review.
 
