@@ -14,7 +14,7 @@ Esselborn-Krumbiegel, Helga: Von der Idee zum Text: Eine Anleitung zum
 wissenschaftlichen Schreiben, 5. aktual. UTB GmbH, Paderborn, 2017
 durchgehen.
 
-Die Treffen sind ab dem 13.5.2020 jeweils Mittoch vormittags, die Themen finden
+Die Treffen sind ab dem 13.5.2020 jeweils Mittwoch vormittags 9:45-11:15, die Themen finden
 Sie im Schedule.
 
 Bitte lesen Sie die angegebenen Kapitel und führen Sie die Übungen
