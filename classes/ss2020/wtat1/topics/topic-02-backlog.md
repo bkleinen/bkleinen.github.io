@@ -1,14 +1,19 @@
 ---
-title: Topic 01 - Product Backlog
+title: Topic 02 - Product Backlog
 author: kleinen
 layout: default
 ---
 
-## Proposal
+## Backlog
 
-Write down your project Idea as a short proposal. (1-2 Pages). You can use any
-kind of format. You can also include sketches how the user interface might look
-like.
+Write a simple Product Backlog for Your Project.
+
+Don't worry about writing too many stories, or too complex ones. You don't need
+to implement all of them - and it will be easier if you have several to choose from for the
+sprints. You order your backlog by business value now; but you will pick stories
+that can be implemented with the technologies we learn(ed) during the week
+for each sprint. I copy the scope of the projects again such that you get an
+idea of what will be implemented:
 
 ## Scope
 
@@ -26,14 +31,6 @@ is more complex - you will not need to implement all aspects that you describe n
 
 ## Group and Hand-In
 
-You can create project proposals for yourselves or as pairs of two.
-**You need to upload your proposal twice to moodle**:
+You can create the backlog in the groups we set last week.
 
-1. as an assignment and
-2. in the Forum named "Project Proposals for the Class and Discussion" - create a new Topic for each Proposal
-and paste your description directly as text.
-
-You don't need to have your names in the proposal, and you don't need to work on
-the topic you propose now. Topics will be chosen during the next class meeting.
-
-## Make sure to check out the proposals of the others!
+In the Uploads provided as PDF, please include the Proposal, the names of all members of the group as well as your backlog.

@@ -11,6 +11,7 @@ classes/ws2019/m6-project.md
 classes/ws2019/m1-web.md
 classes/ss2020/info2.md
 classes/ss2020/wtat1.md
+classes/ss2020/bachelorseminar.md
 classes/ss2020/m1-web.md
 classes/ss2020/m-wt4-ucd.md
 index.md.md
