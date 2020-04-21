@@ -18,8 +18,8 @@ layout: default
 
 ### Example: Module Database
 
-Story_042 - As a student or lecturer, I see an overview of the whole study program with all modules including Title, Format and ECTS on the site.
-Story_023 - As a student, I can quickly get an overview of the my progress within the study program.
+    Story_042 - As a student or lecturer, I see an overview of the whole study program with all modules including Title, Format and ECTS on the site.
+    Story_023 - As a student, I can quickly get an overview of the my progress within the study program.
 
 ### Status Report
 
@@ -29,5 +29,7 @@ Write up a brief status report containing:
 - The Names of all People on the Team
 - The Stories you've implemented
 - the url of your git repositories
+- your revised backlog, keeping the implemented stories at the top marked as "Sprint 01 - Done" or "Sprint 01 - in progress"
 
-and submit it as .txt or .pdf to moodles
+and submit it as .txt or .pdf to moodle with the Filename:
+Group_X_ModuleHandbook_Sprint01.pdf or Group_X_ModuleHandbook_Sprint01.txt
