@@ -10,7 +10,10 @@ The Nielsen Norman Group maintains a great web site with a wealth of information
 
 # Static Site Generators
 
-TBD
+* checkout one static site generator, e.g. [Hugo](https://gohugo.io/), [Jekyll](https://jekyllrb.com/) or [Gatsby](https://www.gatsbyjs.org/).
+* Work through a getting started example, e.g. [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/).
+* decide on a project you want to try with it and write a Notice of Intent - what you plan to do with the static web site generator and commit it to moodle till next week.
+* your project report about Static Site Generators is due till end of term (details in moodle) - describe what you did, what worked well and issues you've encountered, with screenshots of your project and an url if you decided to publish it.
 
 # Agile Development, DevOps and Continuous Deployment
 
