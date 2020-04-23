@@ -36,6 +36,13 @@
     </div>
   </li>
 
+  <li class="nav-item">
+    {% include navigation_nav_link.md url_element = "studies"  link_text = "Projects" %}
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      {% include navigation_dropdown_item.md url = "/projects/module-handbook/" link_text = "Module Handbook" %}
+          </div>
+  </li>
 
   <li class="nav-item">
     {% include navigation_nav_link.md url_element = "misc"  link_text = "Misc" %}
