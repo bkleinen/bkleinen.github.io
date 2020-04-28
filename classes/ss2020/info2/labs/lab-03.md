@@ -28,7 +28,7 @@ You can then access the array, for example, using a value of character type: som
 
 4. Write a test method to see whether your program counts correctly. The test method can contain multiple test cases. For testing it is useful to have a count() method that counts from a parameter of a type that you can feed both a String to from the tests as well as an input source from a file. [Reader](https://docs.oracle.com/javase/7/docs/api/java/io/Reader.html) is one possible solution, use it with a [BufferedReader](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html) for reading the file, and with a [StringReader](https://docs.oracle.com/javase/7/docs/api/java/io/StringReader.html) from the tests:
 
-  ```public void count(Reader reader)```
+        ```public void count(Reader reader)```
 
 5. Write a method that returns the most frequent character, include a test for it.
 
