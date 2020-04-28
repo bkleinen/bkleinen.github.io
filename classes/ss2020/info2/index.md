@@ -56,28 +56,55 @@ There will be a tutorial held by Lotte Unckell. The Tutorial will be on Thursday
 
 ## Grades & Exam
 
-For passing Info2, you need to pass two parts:
+Update April 28th, 2020
 
-- the Lab ("Programmierübungen mit Rücksprache")
-- the Exam ("Klausur")
+For passing Info2, you need to pass three parts (Teilmodulprüfungen)
 
-Note that as both, Lab Reports and the Exam are parts of the "Modulprüfung",
+- the Lab ("Programmierübungen mit Rücksprache") - Modulbegleitend, unbewertet
+- Moodle Quizzes - Modulbegleitende Prüfungsleistung, bewertet, optional
+- the Exam - Modulabschlussprüfung
+
+### Grading
+
+Option 1:
+- Moodle Quizzes 50 %
+- Exam 50 %
+- Topic Notes 8 %
+
+Option 2:
+- Exam 100%
+- Topic Notes 8 %
+
+(minus penalty for late labs, see below)
+
+I will automatically choose the option which results in the better grade for each student.
+If you want to choose one of the options actively, just send me an email.
+
+Note that as all, Lab Reports, Quizzes and the Exam are parts of the "Modulprüfung",
 cheating on any of them will result in a 5,0 (nicht bestanden) for the whole
 module and use up one of the three possible tries for this module.
 
-### Exam
-
-There will be a 2-hour online examination. The exam will be an online exam
-with three parts: a multiple-choice part, an essay part, and a programming part.
-
-The Grade is determined by the grade of your exam.
-
-There is a penalty on the grade for late or missing lab reports, see below.
-
 ### Labs
-There'll be 13 exercises and you'll have to hand in a lab report for each. You will not be allowed to take the exam if more than one report is marked as "not ok" by July 6 or if you plagiarized. You may hand in late 2 out of 13 lab reports. There's a penalty of 0.3 on the final grade for each if you hand in a third and forth report late (that is you get a grade of 1.3 instead of 1.0 and so on).
+There'll be 13 exercises and you'll have to hand in a lab report for each. You will not be allowed to take the exam if more than one report is marked as "not ok" by July 6 or if you plagiarized. You may hand in late 2 out of the 13 lab reports. **There's a penalty of 3P on the final grade for each late report starting at the third.**
 
 All info on the labs can be found on the [Labs](labs) page.
+
+### Quizzes
+
+Starting April 30, there will be brief Quizzes in Moodle at the beginning of each lecture.
+- Tuesdays are about the labs that were handed in before that Tuesday, 3 Points
+- Thursdays are about recent lecture topics, 2 Points
+
+For hints on the topics, see the [Schedule](schedule/). This adds up to 10x5P = 50P.
+
+### Exam
+
+There will be a remote open-book examination consisting of a Moodle Quiz and
+programming assignments at the end of the term.
+
+
+
+
 
 <!--
 There will be 13 labs and you need to write a lab report for each. Lab reports won't be graded - they just get marked with "ok" or "not ok".
