@@ -102,7 +102,9 @@ For hints on the topics, see the [Schedule](schedule/). This adds up to 10x5P = 
 There will be a remote open-book examination consisting of a Moodle Quiz and
 programming assignments at the end of the term.
 
+### Lecture/Topic Notes
 
+Upload your personal Notes in Moodle to gain a maximum of additional 8% bonus.
 
 
 
@@ -128,9 +130,7 @@ early as possible and we will find an individual solution.
 More info about the Lab Reports and their assessment can be found on the [Labs](labs) page.
 -->
 
-### Lecture Notes
 
-Upload your personal Notes in Moodle to gain a maximum of additional 8% bonus.
 
 ### Examinations for Students who already took Info2
 
