@@ -59,6 +59,7 @@ A report is "not ok" if any of the following is True:
 * you are not transparent on who did what
 * the report has too little significant content on the lab
 * the report is not submitted correctly (see below)
+* the code is not submitted correctly (see below)
 
 You can use the late slot (see below) to hand in rejected Lab Reports again.
 
@@ -87,6 +88,7 @@ you have tried sufficiently.
 ### How to submit correctly
 Please submit *only*:
 * A pdf with your report
+* Included the pdf: a link to your PRIVATE git repository which I have access to
 
 Only one team member should upload the report. If team members upload different reports, I'll chose one at random to review.
 
@@ -105,12 +107,12 @@ If you fall ill for more than a week or are unable to continuously work on
 the lab reports for some other reason, come talk to me or at least email me as
 early as possible and we will find an individual solution.
 
+<!--
 ## Quizzes
 There might be short quizzes on Moodle where you can test your knowledge. 
 They will be published when the lab starts and be closed after a certain amount of time.
 Whether doing them will gain you any additional benefits is tbd.
 
-<!--
 ## Review and Presentations of Lab Reports in the following Lab
 
 There are a couple of important changes for the labs compared to Info1:
