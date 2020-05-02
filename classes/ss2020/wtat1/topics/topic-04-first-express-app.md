@@ -1,5 +1,5 @@
 ---
-title: Topic 03 - Sprint 01 - Two Static Sites
+title: Topic 03 - Sprint 02 - First Express App with view templates and dynamic content
 author: kleinen
 layout: default
 ---
@@ -37,7 +37,7 @@ Find a Story that can make use of Passing content from the controller to the vie
 
 ### Example: Module Database
 
-TBD
+[https://github.com/htw-imi-wtat1/module-handbook](https://github.com/htw-imi-wtat1/module-handbook)
 
 ### Status Report
 
