@@ -17,6 +17,12 @@ As usual, select a story or two you will implement using the new technological f
 You will create a full CRUD (Create/read/update/delete) in the following Sprint, Sprint 04,
 for another Model.
 
+### Setting up the DB on Heroku
+
+MONGODB_URI
+
+mongoimport --uri $MONGODB_URI --collection=courses mongo/seed/imi-b-courses
+
 ### Example Application
 
 https://github.com/htw-imi-wtat1/module-handbook/blob/master/README.md#sprint-03

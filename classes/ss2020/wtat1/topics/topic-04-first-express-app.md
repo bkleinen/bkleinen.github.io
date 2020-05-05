@@ -1,5 +1,5 @@
 ---
-title: Topic 03 - Sprint 02 - First Express App with view templates and dynamic content
+title: Topic 04 - Sprint 02 - First Express App with view templates and dynamic content
 author: kleinen
 layout: default
 ---
