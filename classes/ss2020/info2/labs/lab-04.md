@@ -6,9 +6,13 @@ layout: lab
 
 ## Pre-Lab
 Write down the code for the following questions and be able to explain what is happening.
+
 ***P1.*** How do you set up a connection with Sockets between two computers in Java?
+
 ***P2.*** Write a method to read from a connection in Java.
+
 ***P3.*** Write a method to write to a connection in Java.
+
 ***P4.*** How do you create concurrent threads?
 
 ## Assignment
