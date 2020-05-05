@@ -16,7 +16,7 @@ exercise before the lab starts. Before the lab starts please:
 During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online. This is the plan for now, but it might change.
 
 ### Communication
-You should join the BBB "Lab Hangout", you find it on the Moodle page at "Labs - General Topics". There'll be a short welcome from me and then one group after the other does a quick check in with me in so called "breakout rooms" to talk about the last assignment and questions. In the "Lab Hangout" you can always ask questions, or post them in the appropriate Moodle forum. 
+You should join the BBB "Lab Hangout", you find it on the Moodle page at "Labs - General Topics". We'll talk about the last assignment as well as the pre-lab for the current lab. I'll also be answering questions and recap-ing specific topics on request.
 
 ### Exercises
 There will be 13 labs. 
@@ -41,12 +41,12 @@ There will be 13 labs.
 ## Groups
 You will work in groups of two or three. You will switch groups after three or four labs. 
 That means you should form new groups before the following labs:
-* [Exercise 01 - Application Design](lab-01)
+<!--* [Exercise 01 - Application Design](lab-01)-->
 * [Exercise 04 - Chatterbox](lab-04)
 * [Exercise 07 - Recursive Triangles](lab-07)
 * [Exercise 10 - Getting from A to B](lab-10)
 
-You can chose your team mates. Please post the names of all group members on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up a team by posting on Moodle, you won't be able to hand anything in.
+You can chose your team mates. Please post the names of all group members on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up a team by posting on Moodle, you won't be able to hand anything in. I won't accept groups that are made up of only one person. That is not a group.
 
 ## Reports
 ### Deadline
@@ -78,6 +78,8 @@ A report should contain:
 *Transparency* You need to be transparent on who did what. Collaborating with people outside your group is ok, 
 but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!
 
+*Git Repository* You'll need to give me access rights to your git repository and put the link in your report. 
+
 *What if I our group didn't get the code to work?* It's ok not to have completely succeeded on the assignment, as long as
 you have tried sufficiently.
 
@@ -88,9 +90,9 @@ you have tried sufficiently.
 ### How to submit correctly
 Please submit *only*:
 * A pdf with your report
-* Included the pdf: a link to your PRIVATE git repository which I have access to
+* Included the pdf: a link to your private git repository
 
-Only one team member should upload the report. If team members upload different reports, I'll chose one at random to review.
+Only one team member should upload the report. If team members upload different reports (or different repos), I'll chose one at random to review.
 
 ### Late reports
 11 of the 13 lab reports need to be handed in at or before the deadline.
