@@ -5,22 +5,35 @@ layout: lab
 ---
 
 ## Pre-Lab
+
 ***P1.*** Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
+
 a) Which program has the better guarantee on the running time for large values of N (N > 10 000)?
+
 b) Which program has the better guarantee on the running time for small values of N (N < 100)?
+
 c) Which program will run faster on average for N = 1000?
+
 d) Is it possible that program B will run faster than program A on all possible inputs?
 
 ***P2.*** An algorithm takes 0.5 ms for input size 100. How long will it take for input size 500 if the running time is the following:
+
 a) linear
+
 b) O (N log N)
+
 c) quadratic
+
 d) 4. cubic
 
 ***P3.*** An algorithm takes 0.5 ms for input size 100. How large a problem can be solved in 1 min if the running time is the following:
+
 a) linear
+
 b) O (N log N)
+
 c) quadratic
+
 d) cubic
 
 ***P4.*** Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
