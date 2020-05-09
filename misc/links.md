@@ -1,10 +1,13 @@
 ---
-title: Useful and frequently missed links
+title: Links to frequently used pages
 author: kleinen
 layout: default
 ---
 
-# (aka:) Links die ich immer zulange suche sonst...
+#
+
+* [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/) (Dienstreise, SHK, Wunschzeiten und Lehrplanung)
+
 
 ## Logos
 * [https://corporatedesign.htw-berlin.de/logos/](https://corporatedesign.htw-berlin.de/logos/)

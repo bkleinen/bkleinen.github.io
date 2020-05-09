@@ -4,23 +4,25 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-Tentative Schedule. Some Topics - most likely Databases and Authentication might stretch over two weeks.
-You will need to move your project a bit further every week nonetheless.
+Tentative Schedule.
+Agile Track: please read or watch the according material in [the Scrum Guide](https://www.scrumguides.org/).
+Lecture: Brief input about the topic as BBB lecture.
+Tech Track: Please read the provided material (moodle) before the lecture, such that you can start with the according sprint right away.
 
-| Week | KW | Date           | Due                   | Agile Track               | Tech Track                               |
-|:-----|:---|:---------------|:----------------------|:--------------------------|:-----------------------------------------|
-| 1    | 15 | Tue 07/04/2020 | A0: Project Ideas     | Intro                     | Node.js 0 - Installation and Setup       |
-| 2    | 16 | Tue 14/04/2020 | A1: Proposals         | Product Backlog           |                                          |
-| 3    | 17 | Tue 21/04/2020 | Backlog               | Scrum Theory and Values   | Node.js 1 - Getting Started              |
-| 4    | 18 | Tue 28/04/2020 |                       | Scrum Roles               | Node.js 2 - Express.js                   |
-| 5    | 19 | Tue 05/05/2020 | Sprint 2 - Express    | Scrum Events              | Node.js 3 - Database and the first Model |
-| 6    | 20 | Tue 12/05/2020 | Sprint 3 - Model      | Scrum Artifacts           | Node.js 8 - Test & Deployment            |
-| 7    | 21 | Tue 19/05/2020 | Sprint 4 - Deployment | Distance Retrospective I  | Node.js 4 - User Model                   |
-| 8    | 22 | Tue 26/05/2020 | TBD                   | TBD                       | Node.js 5 - Authentication               |
-| 9    | 23 | Tue 02/06/2020 | TBD                   | TBD                       | Node.js 6 - Building an API              |
-| 10   | 24 | Tue 09/06/2020 | TBD                   | TBD                       | Node.js 7 - Real-Time Communication      |
-| 11   | 25 | Tue 16/06/2020 | TBD                   | TBD                       | React 1 - Testing with Jest              |
-| 12   | 26 | Tue 23/06/2020 | TBD                   | Distance Retrospective II | React 2 - Components                     |
-| 13   | 27 | Tue 30/06/2020 | TBD                   | TBD                       | React 3 - State and Events               |
-| 14   | 28 | Tue 07/07/2020 | TBD                   |                           | React 4 - Production Build               |
-| 15   | 29 | Tue 14/07/2020 | TBD                   |                           |                                          |
+| Week | KW | Date           | Agile Track               | Lecture | Tech Track (According Sprints are due one week later) | Due                       |
+|:-----|:---|:---------------|:--------------------------|:--------|:------------------------------------------------------|:--------------------------|
+| 1    | 15 | Tue 07/04/2020 | Intro                     |         | Node.js Unit 0 - Installation and Setup               | A0: Project Ideas         |
+| 2    | 16 | Tue 14/04/2020 | Product Backlog           |         |                                                       | A1: Proposals             |
+| 3    | 17 | Tue 21/04/2020 | Scrum Theory and Values   |         | Node.js Unit 1 - Getting Started                      | Backlog                   |
+| 4    | 18 | Tue 28/04/2020 | Scrum Roles               |         | Node.js Unit 2 - Express.js                           | Sprint 1 - First Node App |
+| 5    | 19 | Tue 05/05/2020 | Scrum Events              |         | Node.js Unit 3 - Database and the first Model         | Sprint 2 - Express        |
+| 6    | 20 | Tue 12/05/2020 | Scrum Artifacts           | CI/CD   | Node.js Unit 8 - Test & Deployment                    | Sprint 3 - Model          |
+| 7    | 21 | Tue 19/05/2020 | Distance Retrospective I  | Retro   | Node.js Unit 4 - User Model Part I                    | Sprint 4 - CI/CD          |
+| 8    | 22 | Tue 26/05/2020 | TBD                       | Restful | Node.js Unit 4 - User Model Part II                   | Sprint 5 - CR             |
+| 9    | 23 | Tue 02/06/2020 | TBD                       |         | Node.js Unit 5 - Authentication                       | Sprint 5 - UD             |
+| 10   | 24 | Tue 09/06/2020 | TBD                       |         | Node.js Unit 6 - Building an API                      | Sprint 6 - Authentication |
+| 11   | 25 | Tue 16/06/2020 | TBD                       |         | Node.js Unit 7 - Real-Time Communication              | Sprint 7 - API            |
+| 12   | 26 | Tue 23/06/2020 | Distance Retrospective II |         | React 1 - TBD                                         | Sprint 8 - Socket.io      |
+| 13   | 27 | Tue 30/06/2020 | TBD                       |         | React 2 - TBD                                         | Sprint 9 - React 1        |
+| 14   | 28 | Tue 07/07/2020 |                           |         | React 3 - TBD                                         | Sprint 10 - React 2       |
+| 15   | 29 | Tue 14/07/2020 |                           |         |                                                       | Sprint 11 - React 3       |
