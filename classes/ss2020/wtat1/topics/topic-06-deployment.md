@@ -35,18 +35,22 @@ Feel free to copy my setup out of the example app in the folder [test](https://g
 
 * [https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/testing-with-jest.md](https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/testing-with-jest.md)
 
-## Set up a CI/CD Pipeline
 
-This can be done via the web interfaces on github and heroku:
-
-- https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/deployment.md
-
-
-### Create and Rename your Heroku app
+## Create and Rename your Heroku app
 
 Your app should be named according to your group name; please use this form: wtat1-group-x .
 
     heroku rename wtat1-module-handbook
+
+
+## Set up a CI/CD Pipeline
+
+This can be done via the web interfaces on github and heroku:
+
+- Add a new action (default Node Action) on github
+- add a deploy in the web interface of heroku, deployment method GitHub
+
+- https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/deployment.md
 
 
 # Your Report should contain
