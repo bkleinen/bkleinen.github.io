@@ -66,16 +66,29 @@ For passing Info2, you need to pass three parts (Teilmodulprüfungen)
 
 ### Grading
 
-Option 1:
-- Moodle Quizzes 50 %
-- Exam 50 %
-- Topic Notes 8 %
+Variante 1:
+1/3 Klausur
+1/3 Quizzes zu den Labs
+1/3 Labs
 
-Option 2:
-- Exam 100%
-- Topic Notes 8 %
+Variante 2:
+2/3 Klausur
+1/3 Labs
 
-(minus penalty for late labs, see below)
+Labs:
+- Je Lab Report bewertet mit "ok" 2.6 Punkte
+- 4 Reports dürfen zu spät abgegeben werden, falls mit ok bewertet trotzdem 2.6 Punkte
+
+Lecture Notes:
++ 8% für beide Varianten
+
+2. Prüfungsmöglichkeit im PZ2:
+
+Wurde im PZ1 nicht an den Quizzes teilgenommen, steht für PZ2 nur die Variante2
+zur Verfügung. 
+Wiederholung der studienbegleitenden Teilmodulprüfung “Labs” im 2. PZ nach persönlicher
+Rücksprache durch eine Hausarbeit in entsprechenden Umfang.
+
 
 I will automatically choose the option which results in the better grade for each student.
 If you want to choose one of the options actively, just send me an email.

@@ -19,10 +19,11 @@ Tech Track: Please read the provided material (moodle) before the lecture, such 
 | 6    | 20 | Tue 12/05/2020 | Scrum Artifacts           | CI/CD   | Node.js Unit 8 - Test & Deployment                    | Sprint 3 - Model          |
 | 7    | 21 | Tue 19/05/2020 | Distance Retrospective I  | Retro   | Node.js Unit 4 - User Model Part I                    | Sprint 4 - CI/CD          |
 | 8    | 22 | Tue 26/05/2020 | TBD                       | Restful | Node.js Unit 4 - User Model Part II                   | Sprint 5 - CR             |
-| 9    | 23 | Tue 02/06/2020 | TBD                       |         | Node.js Unit 5 - Authentication                       | Sprint 5 - UD             |
-| 10   | 24 | Tue 09/06/2020 | TBD                       |         | Node.js Unit 6 - Building an API                      | Sprint 6 - Authentication |
-| 11   | 25 | Tue 16/06/2020 | TBD                       |         | Node.js Unit 7 - Real-Time Communication              | Sprint 7 - API            |
-| 12   | 26 | Tue 23/06/2020 | Distance Retrospective II |         | React 1 - TBD                                         | Sprint 8 - Socket.io      |
-| 13   | 27 | Tue 30/06/2020 | TBD                       |         | React 2 - TBD                                         | Sprint 9 - React 1        |
-| 14   | 28 | Tue 07/07/2020 |                           |         | React 3 - TBD                                         | Sprint 10 - React 2       |
-| 15   | 29 | Tue 14/07/2020 |                           |         |                                                       | Sprint 11 - React 3       |
+| 9    | 23 | Tue 02/06/2020 | TBD                       |         | Node.js Unit 5 - Authentication                       | Sprint 6 - UD             |
+| 10   | 24 | Tue 09/06/2020 | TBD                       |         | Node.js Unit 6 - Building an API                      | Sprint 7 - Authentication |
+| 11   | 25 | Tue 16/06/2020 | TBD                       |         | Node.js Unit 7 - Real-Time Communication              | Sprint 8 - API            |
+| 12   | 26 | Tue 23/06/2020 | Distance Retrospective II |         | React 1 - TBD                                         | Sprint 9 - Socket.io      |
+| 13   | 27 | Tue 30/06/2020 | TBD                       |         | React 2 - TBD                                         | Sprint 10 - React 1       |
+| 14   | 28 | Tue 07/07/2020 |                           |         | React 3 - TBD                                         | Sprint 11 - React 2       |
+| 15   | 29 | Tue 14/07/2020 |                           |         |                                                       | Sprint 12 - React 3       |
+Styde188thp.

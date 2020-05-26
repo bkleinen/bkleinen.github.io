@@ -18,3 +18,4 @@ layout: default
 * Sprint 03:  [Persistence with Mongo-DB](topic-05-mongo)
 * Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
 * Sprint 05+06: [CRUD](topic-07-crud)
+* Sprint 07: [Authentication](topic-08-authentication)

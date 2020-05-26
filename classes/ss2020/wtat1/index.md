@@ -43,20 +43,17 @@ class. You find the links to Moodle, GitHub, the Wiki and LSF in the top menu as
 
 ## Grades
 
-As it will remain unclear for a while how exams can be done this term, the grading criteria are not set
-completely yet. If we can do exams at the end of term, I will do that. If not, I may relay on your book
-chapter and longer project reports for grading. I will decide on the points/percentages given for the class components described below in early May.
+Prüfung im SoSe 2020:
 
-Independent of grading details, you will need to work regularly on the topic and your project in order to pass the class:
+* Weekly Reports - 26% (each one turned in counts 2%) (Berichte über Laborübungen)
+* Web Technology Handbook - 14% (Hausarbeit im Wiki)
+* Exam - 60 % (Distanzklausur über Moodle)
 
-* you need to turn in a brief status report every week about your project as a group. You may miss one without penalty, for each more missed 2% will be deducted from your overall points.
-* There may be 2 larger project reports that will be graded with stars.
-* There may be occasional Moodle Quizzes during the lecture.
-* You need to add one page to the web technology handbook in the wiki.
-* there will probably be some kind of exam
+Wiederholungsmöglichkeiten im 2.PZ:
 
-
-Currently it is unclear wether on-site examinations will be possible at the end of term. Thus, the definite grading and examination terms will be defined later as usual.
+* Hausarbeit Webentwicklungsprojekt zu einem gestellten Thema entsprechend den wöchentlichen Sprints im Semester 26%
+* Web Technology Handbook - 14% (Hausarbeit im Wiki)
+* Exam - 60 % (Distanzklausur über Moodle)
 
 Weekly status reports are due Sunday 22:00.
 
