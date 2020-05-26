@@ -31,7 +31,7 @@ layout: lab
 ## Assignment
 Read through all of the exercises before starting. This is a lot of work, so I suggest that your group works on exercise 1 and exercise 2 in parallel. Then you exchange code and get back together to do the third exercise.
 
-You can use this eclipse project [Lab06_ReversePolishNotation](https://github.com/htw-imi-info2/Lab06_ReversePolishNotation) as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.
+You can use this eclipse project [Lab06_ReversePolishNotation](https://github.com/LiFaytheGoblin/Lab06_ReversePolishNotation) as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.
 
 ### Part 1: Stack Class
   - Implement a class Stack.java as discussed in the lecture, using a *linked list* of objects that you implement yourself.
