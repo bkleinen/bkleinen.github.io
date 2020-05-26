@@ -9,7 +9,7 @@ layout: lab
 
 ***P2.*** What is the order of precedence for the operators "+", "-", "\*", "/", "^"? If we wanted to include "(" and ")" in this order, where would each of them be? 
 
-***P3.*** [ 	&#321;ukasiewicz](http://www-gap.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Lukasiewicz.html) was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
+***P3.*** &#321;ukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
 
     1. 1 * 2 + 3
     2. 1 + 2 * 3
