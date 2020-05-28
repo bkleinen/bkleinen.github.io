@@ -24,6 +24,5 @@ Tech Track: Please read the provided material (moodle) before the lecture, such 
 | 11   | 25 | Tue 16/06/2020 | TBD                       |         | Node.js Unit 7 - Real-Time Communication              | Sprint 8 - API            |
 | 12   | 26 | Tue 23/06/2020 | Distance Retrospective II |         | React 1 - TBD                                         | Sprint 9 - Socket.io      |
 | 13   | 27 | Tue 30/06/2020 | TBD                       |         | React 2 - TBD                                         | Sprint 10 - React 1       |
-| 14   | 28 | Tue 07/07/2020 |                           |         | React 3 - TBD                                         | Sprint 11 - React 2       |
-| 15   | 29 | Tue 14/07/2020 |                           |         |                                                       | Sprint 12 - React 3       |
-Styde188thp.
+| 14   | 28 | Tue 07/07/2020 | Trial Exam                |         | React 3 - TBD                                         | Sprint 11 - React 2       |
+| 15   | 29 | Tue 14/07/2020 | Exam                      |         |                                                       | Sprint 12 - React 3       |

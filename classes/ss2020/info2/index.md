@@ -68,7 +68,7 @@ For passing Info2, you need to pass three parts (Teilmodulprüfungen)
 
 Variante 1:
 1/3 Klausur
-1/3 Quizzes zu den Labs
+1/3 Quizzes zu den Labs 
 1/3 Labs
 
 Variante 2:
@@ -85,7 +85,7 @@ Lecture Notes:
 2. Prüfungsmöglichkeit im PZ2:
 
 Wurde im PZ1 nicht an den Quizzes teilgenommen, steht für PZ2 nur die Variante2
-zur Verfügung. 
+zur Verfügung.
 Wiederholung der studienbegleitenden Teilmodulprüfung “Labs” im 2. PZ nach persönlicher
 Rücksprache durch eine Hausarbeit in entsprechenden Umfang.
 
