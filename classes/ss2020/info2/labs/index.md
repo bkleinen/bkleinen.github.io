@@ -42,7 +42,7 @@ There will be 13 labs.
 You will work in groups of two or three. You will switch groups after three or four labs. 
 That means you should form new groups before the following labs:
 <!--* [Exercise 01 - Application Design](lab-01)-->
-* [Exercise 04 - Chatterbox](lab-04)
+<!--* [Exercise 04 - Chatterbox](lab-04)-->
 * [Exercise 07 - Recursive Triangles](lab-07)
 * [Exercise 10 - Getting from A to B](lab-10)
 
@@ -63,9 +63,7 @@ A report is "not ok" if any of the following is True:
 
 You can use the late slot (see below) to hand in rejected Lab Reports again.
 
-You will not be allowed to take the exam if any of the following is True
-* more than one report is "not ok" by July 6
-* you plagiarized
+You will not be allowed to take the exam if you plagiarized.
 
 ### Criteria
 A report should contain:
@@ -95,14 +93,10 @@ Please submit *only*:
 Only one team member should upload the report. If team members upload different reports (or different repos), I'll chose one at random to review.
 
 ### Late reports
-11 of the 13 lab reports need to be handed in at or before the deadline.
-That means you can hand in 2 reports as late as you want. 
+You can hand in 4 reports after their deadline, until September 1st. 
 
 *How to hand in late reports* 
-There are 2 "late slots" for handing in reports after the deadline, but they have to be handed in before July 6. 
-
-*What happens if I hand in late more than two reports?*
-There's a penalty of 0.3 on the final grade for each if you hand in a third and forth report late (that is you get a grade of 1.3 instead of 1.0 and so on). Please use the "3rd late report" and "4th late report" slots for that. You can only hand in late up to 4 reports. A 5th late report will not be graded and is thus "not ok".
+There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before September 1st. 
 
 *But ...!*
 If you fall ill for more than a week or are unable to continuously work on
