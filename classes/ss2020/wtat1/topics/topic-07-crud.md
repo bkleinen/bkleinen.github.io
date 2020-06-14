@@ -1,11 +1,11 @@
 ---
-title: Sprint 05 & 06 - CRUD Part 1 and 2
+title: Sprint 05 - CRUD Part 1 and 2 (2 weeks)
 author: kleinen
 layout: default
 ---
 
 Unit 4 - Building a User Model - is a rather long unit, thus we will take two
-sprints and weeks to work through it. The technical topics are:
+ weeks to work through it. The technical topics are:
 
 - CRUD - Create, Read, Update, Delete actions on Models in the Rest architectural style
 - Validations

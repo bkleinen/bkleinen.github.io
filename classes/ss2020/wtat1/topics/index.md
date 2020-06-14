@@ -17,5 +17,10 @@ layout: default
 * Sprint 02: [First Web Application with Express](topic-04-first-express-app)
 * Sprint 03:  [Persistence with Mongo-DB](topic-05-mongo)
 * Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
-* Sprint 05+06: [CRUD](topic-07-crud)
-* Sprint 07: [Authentication](topic-08-authentication)
+* Sprint 05: [CRUD](topic-07-crud)
+* Sprint 06: [Authentication](topic-08-authentication)
+* Sprint 07: [API + API Authentication](topic-09-api-jwt)
+* --- (no Sprint 08: there has been a number mixup since the 2-week sprint ----
+* Sprint 09: [Real-Time-Communication](sprint-09-12)
+* Sprint 10: [React Tutorial](sprint-09-12)
+* Sprint 11-12: [React](sprint-09-12)
