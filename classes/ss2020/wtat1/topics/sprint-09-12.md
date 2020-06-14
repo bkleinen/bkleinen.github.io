@@ -1,5 +1,5 @@
 ---
-title: Sprint 09-12: Real Time Communication and React
+title: Sprint 09-12 - Real Time Communication and React
 author: kleinen
 layout: default
 ---

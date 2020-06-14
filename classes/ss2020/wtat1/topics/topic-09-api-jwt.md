@@ -13,7 +13,6 @@ Unit 6 - "Building an API".
 Sprint 07 in the Module-Handbook example application:  
 [https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_07](https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_07)
 
-
 # Sprint 07 - Testing
 
 - Testing APIs with Jest and Superagent is straightforward.
