@@ -4,19 +4,21 @@ author: kleinen
 layout: lab
 ---
 ## Pre-Lab
-1. How do you compute the area of a circle and a rectangle?
-2. Draw an circle that matches exactly into a square. How do the areas of the
+***P1.*** How do you compute the area of a circle and a rectangle?
+
+***P2.*** Draw an circle that matches exactly into a square. How do the areas of the
 circle and the square relate to each other?
-3. How can you represent points in a plane?
-4. Prepare a sketch with formulas about the ratio of the areas and how to determine
+
+**P3.*** How can you represent points in a plane?
+
+***P4.*** Prepare a sketch with formulas about the ratio of the areas and how to determine
 if a given point in the square is as well within the circle.
 
 
 ## Assignment
 
-### Computation of Pi
+### Part I: Computation of Pi
 Use an probabilistic algorithm to approximate the Number Pi:
-
 1. create a method computePi that takes an integer parameter for the number of
 random points to consider.
 2. create a method that creates a random point within the square bounds.
@@ -27,9 +29,9 @@ square approximates the ratio of the areas. Use it to approximate Pi.
 5. make a statistic about how many accurate digits of Pi you get for how many
 random points.
 
-### Dining Philosophers
-1. Using threads, create a simple Simulation for the Dining Philosophers Problem.
-2. For each Philosopher, create a Thread within this Philosopher dines. The implementation
+### Part II: Dining Philosophers
+Using Threads, create a simple simulation for the Dining Philosophers Problem:
+1. For each Philosopher, create a Thread within this Philosopher dines. The implementation
 should just create some outputs like:
     ```
         Philosopher 1 takes his right fork.
@@ -41,25 +43,12 @@ should just create some outputs like:
         Philosopher 1 takes his right fork.
         Philosopher 1 waits for left fork.
     ```
-3. Provide several implementations with a sensible way to switch between them;
+2. Provide several implementations with a sensible way to switch between them;
 at least one blocking one and one using a probabilistic solution to avoid the
 deadlock.
 
-
 ## Lab Report / What to turn in
+All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
 
-Your report is due the day before your next lab (for exact times, please refer to moodle).
-Submit both a lab report as pdf and your whole source code directory as a zip.
-
-Submit a Report in PDF Format and the Source Code as Zipped file.
-
-As in Informatics 1, I am more interested in process than in product,
-although we are now getting more interested in products as well.
-Your report should include any collaborators on top of the first page,
-summarize what you learned,
-and note the time you invested in this exercise.
-Both of you need to upload the same report in PDF and zipped source format to Moodle before the
-deadline.
-
-### Special Questions for your report
-How many lines of code did you write for each class? Record this statistic in your report.
+Also answer the following questions in your report:
+* Part I, Ex. 5: How many accurate digits of Pi you get for how many random points? Report your statistic.
