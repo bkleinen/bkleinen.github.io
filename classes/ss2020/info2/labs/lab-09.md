@@ -9,7 +9,7 @@ layout: lab
 ***P2.*** Draw an circle that matches exactly into a square. How do the areas of the
 circle and the square relate to each other?
 
-**P3.*** How can you represent points in a plane?
+***P3.*** How can you represent points in a plane?
 
 ***P4.*** Prepare a sketch with formulas about the ratio of the areas and how to determine
 if a given point in the square is as well within the circle.
