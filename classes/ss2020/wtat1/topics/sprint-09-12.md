@@ -29,7 +29,8 @@ you finish your sprint planning:
 
 ## Real Time Communication with socket.io
 Find something in your app that may benefit from real-time communication, possibly using react.
-Unit 07 in the book.
+Unit 07 in the book. You may also postpone this and combine it with react, see
+[this blog article](https://www.valentinog.com/blog/socket-react/) and my [tryout](https://github.com/htw-imi-wtat1/react-socketio-tryout) for an example.
 
 ## React Tutorial
 * create a new react app using npx create-react-app: (Webstorm uses the same generator)
