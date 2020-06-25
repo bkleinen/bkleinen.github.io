@@ -15,7 +15,7 @@ This is to get some practice with Finite Automata.
 #### A: Understand Finite Automata
 The following two Finite Automata are given by their transition tables:
 
-***Automaton A***
+**Automaton A**
 Start state: q0, accept state: q0
 
 |    | 0  | 1  |
@@ -25,7 +25,7 @@ Start state: q0, accept state: q0
 | q2 | q0 | q1 |
 | q3 | q2 | q3 |
 
-**Automaton B***
+**Automaton B**
 Start state: q1, accept states: q2, q4
 
 |    | 0  | 1  |
@@ -41,9 +41,11 @@ Start state: q1, accept states: q2, q4
 #### B: Design Finite Automata
 The following three Finite Automata are given by their description:
 
-***Automaton C***: The Finite Automaton accepts all strings of 0's and 1's not containing 010 as a substring.
-***Automaton D***: The Finite Automaton that accepts all strings with at most one pair of consecutive 0's and at most one pair of consecutive 1's.
-***Automaton E***: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
+**Automaton C**: The Finite Automaton accepts all strings of 0's and 1's not containing 010 as a substring.
+
+**Automaton D**: The Finite Automaton that accepts all strings with at most one pair of consecutive 0's and at most one pair of consecutive 1's.
+
+**Automaton E**: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
 
 2. Define the given Finite Automata and fitting test cases. 
 3. Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
