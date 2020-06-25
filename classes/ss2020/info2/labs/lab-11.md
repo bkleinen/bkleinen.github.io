@@ -47,7 +47,7 @@ The following three Finite Automata are given by their description:
 
 **Automaton E**: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
 
-2. Define the given Finite Automata and fitting test cases. 
+2. Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata.
 3. Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
 
 ### Part 2: Sorting
@@ -59,5 +59,5 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 Also answer the following questions in your report:
 * Part 1, A, 1: Put the transition diagrams in your report, as well as the description of the languages
 * Part 1, A, 2: Which test cases did you chose?
-* Part 1, B: Draw transition diagrams for all three Finite Automata.
+* Part 1, B: Put the transition diagrams in your report.
 * Part 2: Each of the algorithms has a location marked with //step. In your report, note down the state of the array at this location for each time the algorithm passes this line.
