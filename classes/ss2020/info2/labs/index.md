@@ -32,9 +32,9 @@ There will be 13 labs.
 * [Exercise 10 - Getting from A to B](lab-10)
 * [Exercise 11 - Finite State Automata and Sorting](lab-11)
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12)
-* [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 
 <!--
+* [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
 -->
 
@@ -43,7 +43,7 @@ You will work in groups of two or three. You will switch groups after three or f
 That means you should form new groups before the following labs:
 <!--* [Exercise 01 - Application Design](lab-01)-->
 <!--* [Exercise 04 - Chatterbox](lab-04)-->
-* [Exercise 07 - Recursive Triangles](lab-07)
+<!--* [Exercise 07 - Recursive Triangles](lab-07)-->
 * [Exercise 10 - Getting from A to B](lab-10)
 
 You can chose your team mates. Please post the names of all group members on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up a team by posting on Moodle, you won't be able to hand anything in. I won't accept groups that are made up of only one person. That is not a group.
