@@ -17,35 +17,39 @@ layout: default
     Emcke, Carolin. Gegen den Hass (German Edition) (Kindle Locations 1666-1671). FISCHER E-Books. Kindle Edition.
 </div>
 
-<hr />
+<hr/>
 
-<div class = "box">
-<h4>Posts zum Thema Trans*</h4>
-{% include posts/trans.html %}
-</div>
 
-Änderung des Namens im LSF, Moodle und interner Kommunikation
+# Trans* an der HTW:
+
+## Antidiskriminierungsrichtlinie
+
+An der HTW ist eine Antidiskriminierungsrichtlinie in Vorbereitung,
+die auch die Diskriminierung aufgrund geschlechtlicher Identität mit berücksichtigen
+wird. [Derweil ist das Berliner Antidiskriminierungsgesetz, dass auch für die Hochschule gilt,
+in Kraft getreten.](https://www.berlin.de/sen/lads/recht/ladg/materialien/)
+
+## Änderung des Namens im LSF, Moodle und interner Kommunikation
+
+Sie können auf der Grundlage des [dgti-Ausweises](https://www.dgti.org/ergaenzungsausweis.html) Ihren Namen und Personenstand in den Systemen der HTW ändern lassen, siehe
+[https://www.htw-berlin.de/studium/studienorganisation/immatrikulation-rueckmeldung/aenderungsmeldung/](https://www.htw-berlin.de/studium/studienorganisation/immatrikulation-rueckmeldung/aenderungsmeldung/)
+
+## Trans-Tagung an der HTW
+
+Im März 2020 war eine Trans*-Tagung an der HTW geplant, die wegen Covid-19 kurzfristig
+abgesagt bzw. verschoben werden musste: [http://ag-trans-hopo.org/tin_universities/index.html](http://ag-trans-hopo.org/tin_universities/index.html) - wir hoffen, die Tagung zu einem späteren
+Zeitpunkt durchführen zu können.
+
+## Weitere Unterstützung
+
+Sie können sich bei weiteren Fragen oder wenn Sie Unterstützung brauchen gerne [bei mir melden]({{ site.baseurl }}/contact).
+
+Weitere Informationen, insbesondere auch für Lehrende
 =================================================================
-
-Gemäss einer Empfehlung der Senatskanzlei vom 9.2.17 sind die Berliner Hochschulen angehalten,
-trans* Studierende auf Wunsch auch vor einer gerichtlich festgestellten Namensänderung mit dem gewählten Vornamen
-in interner Kommunikation (emails, persönlicher Kommunikation, Hochschulregistern) anzusprechen.
-
-Die IT-Infrastruktur der HTW erlaubt nicht, für interne und externe Kommunikation
-unterschiedliche Namen zu verwenden. Daher hat sich die Hochschulleitung
-entschlossen, den Namen im HIS-System - aus dem alle anderen Systeme gespeist werden -
-auch schon auf der Grundlage des [DGTI-Ergänzungsausweises](http://www.dgti.org)
-vor (bzw. unabhängig von) einer amtlichen Namensänderung vorzunehmen.
-Hierzu wenden Sie sich an den  [Studierendenservice](https://www.htw-berlin.de/studium/studierendenservice/studierenden-service-center/) via Mail an das Ticketsystem [studierendenservice@htw-berlin.de](mailto:studierendenservice@htw-berlin.de).
-
 Weiter kann es notwendig sein, eine email an die Lehrpersonen zu verschicken -
 z.B. wenn Sie den Namen während des Studiums ändern, oder Ihr alter Name
 doch irgendwo auftaucht. Dann können Sie die Lehrenden gerne auf diese Seite
 verweisen:
-
-
-Weitere Informationen, insbesondere auch für Lehrende
-=================================================================
 
 Liebe Lehrende an der HTW Berlin,
 
@@ -54,8 +58,9 @@ mit einem Namen und einer Anrede angesprochen zu werden, die Ihrer Identität un
 Persönlichkeit nicht entspricht.  
 
 Der Prozess einer amtlichen Namensänderung beruht auf dem veralteten Transsexuellengesetz, das bereits in Teilen als verfassungswidrig eingestuft wurde. Er ist kosten-, zeitaufwendig und psychisch belastend - nicht zuletzt weil er eine Begutachtung durch zwei Psychologen voraussetzt.
-
-Update 1.4.2019: [Inzwischen ist eine Änderung auch über § 45b PStG möglich](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweise-fuer-antragstellerinnen.html).
+[Teilweise oder vielleicht auch eher zeitweise war eine Änderung auch über § 45b PStG möglich](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweise-fuer-antragstellerinnen.html) - ich komme nicht hinterher, hier
+die Urteile und Initiativen nachzutragen, [aber Kater Schnurz war neulich fleissig und hat ein Video
+über aktuelle Gesetztesentwürfe gemacht](https://www.youtube.com/watch?v=tupZItJvl5U) (27.Juni 2020).
 
 Daher ist es im Sinne einer diskriminierungsarmen Hochschule wichtig,
 auf Wunsch der Studierenden deren gewählte Namen und Anrede (Herr/Frau/...) auch
@@ -63,27 +68,24 @@ vor bzw. unabhängig von einer amtlichen Namensänderung zu verwenden.
 Eine entsprechende Empfehlung des regierenden Bürgermeisters ist im Februar 2017
 an die Berliner Hochschulen ergangen.
 
-Das Immatrikulationsbüro hat hierfür als Übergang eine Lösung über den im HIS vorgesehen
-"Künstlernamen" gefunden. Bitte verwenden Sie den gewählten Namen und die
-gewünschte Anrede auch darüber hinaus gegenüber dem/der Studierenden sowie
-insbesondere auch dort, wo Namen oder Pronomen Mitstudierenden
-gegenüber öffentlich gemacht werden.
-
 Bei Fragen, Anregungen und Erfahrungen gerne bei mir melden.
 
-Berlin, 18.9.2017 Barne Kleinen
+2017-2020 Barne Kleinen
 
 ## Informationsmaterialien
-  * Anschreiben der Senatsverwaltung (auf Anfrage bei mir)
+  * [Lembke, Tischbirek: Kurzgutachten zum rechtlichen Spielraum der Hochschulen bei der Verwendung des gewählten Namens inter- und transgeschlechtlicher Studierender im Vorfeld der amtlichen Namensänderung](http://ag-trans-hopo.org/Materialsammlung/Material_Rechtliches/GutachtenTIN-Vornamen_2019-10-20_UL+AT.pdf)
   * Antidiskriminierungsstelle des Bundes: "[Verwendung des gewählten Namens von trans*Studierenden
   an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung](https://www.antidiskriminierungsstelle.de/SharedDocs/Downloads/DE/Literatur_Bildung/Name_Trans_Studierende.html)"
   * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](http://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
-  * Artikel ["Keine zwei Gutachten mehr"](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweis-keine-zwei-gutachten-mehr.html) vom LSVD
+  * [Materialsammlung der AG Transemanzipatorische Hochschulpolitik](http://ag-trans-hopo.org/Materialsammlung/)
 
+
+
+### Posts zum Thema Trans*
+  {% include posts/trans.html %}
 
 
 <hr />
-
 
 <div class="citation">
 

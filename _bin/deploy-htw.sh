@@ -1,5 +1,5 @@
 #!/bin/bash
-git log --pretty=format:'%h' -n 1 > commit.txt
+
 
 git push origin master
 if [ $? -ne 0 ]; then
@@ -7,6 +7,7 @@ if [ $? -ne 0 ]; then
     exit $?
 fi
 
+git log --pretty=format:'%h' -n 1 > commit.txt
 jekyll build --config _config.yml,_htwconfigrz.yml
 
 if [ $? -eq 0 ]; then
