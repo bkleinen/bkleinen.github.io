@@ -6,6 +6,7 @@ layout: lab
 
 ## Pre-Lab
 ***P1.*** What is the difference between an NFA and an DFA?
+
 ***P2.*** Which sorting algorithms have you learned about so far? Review their algorithms. 
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/) has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/).
