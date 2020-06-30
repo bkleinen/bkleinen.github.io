@@ -5,7 +5,8 @@ layout: lab
 ---
 
 ## Pre-Lab
-***P1.*** Which sorting algorithms have you learned about so far? Review their algorithms. 
+***P1.*** What is the difference between an NFA and an DFA?
+***P2.*** Which sorting algorithms have you learned about so far? Review their algorithms. 
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/) has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/).
 
@@ -43,7 +44,7 @@ Start state: q1, accept states: q2, q4
 | q3 | q4 | q2 |
 | q4 | q3 | q1 |
 
-1. Draw transition diagrams for all two Finite Automatas and describe the language they accept in English (or German) sentences. 
+1. Draw transition diagrams for all two Finite Automatas and describe the language they accept in English (or German) sentences. Are they DFA or NFA?
 2. What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab11_DFA](https://github.com/htw-imi-info2/Lab11_DFA).
 
 #### B: Design Finite Automata
@@ -55,7 +56,7 @@ The following three Finite Automata are given by their description:
 
 **Automaton E**: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
 
-2. Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata.
+2. Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata. Are they DFA or NFA?
 3. Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
 
 ### Part 2: Sorting
