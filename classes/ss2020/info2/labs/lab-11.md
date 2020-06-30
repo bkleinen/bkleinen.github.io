@@ -7,6 +7,14 @@ layout: lab
 ## Pre-Lab
 ***P1.*** Which sorting algorithms have you learned about so far? Review their algorithms. 
 
+[Geeks for Geeks](https://www.geeksforgeeks.org/) has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/).
+
+Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel: 
+* [Insertion Sort](https://youtu.be/ufIET8dMnus)
+* [Merge Sort](https://youtu.be/alJswNJ4P3U)
+* [Quick Sort](https://youtu.be/uXBnyYuwPe8)
+* [Heap Sort](https://youtu.be/k72DtCnY4MU)
+
 ## Assignment
 
 ### Part 1: Finite Automata
