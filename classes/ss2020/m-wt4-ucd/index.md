@@ -20,8 +20,8 @@ Have a look at the [schedule](schedule) to see how this breaks down. If needed, 
 There are three reports to hand in via moodle, and a final project presentation including slides. Each of this counts 1/4 towards the grade:
 
 * Report I: write-up Contextual Inquiry
-* Report II: write-up Visioning and Prototypes
-* Report III: write-up Final Project Report
+* Report II: write-up Visioning and Product Concepts
+* Report III: write-up Paper Prototypes and Final Project Report
 * Presentation (Actual Presentation & Slides) (maybe a video this term)
 
 Reports I+II are due Tuesdays in the specified week.

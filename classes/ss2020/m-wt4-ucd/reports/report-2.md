@@ -34,10 +34,6 @@ If Fotos of your Flipcharts/Artefacts are legible and speak for their own,
 they are sufficient.
 Add a brief reflection on the Structured Evaluation and the Cool Drilldown
 
-## Paper Prototypes in their current state
-
-Include Fotos of the paper protypes as far as they are done yet. They need to be completed
-and copied before the next meeting however!
 
 ## Reflection
 
