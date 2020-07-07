@@ -7,7 +7,7 @@ layout: lab
  ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
 Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
 
-{% comment %}
+<!--
 - Permutation#equals method should check on equal words, not on equality based on permutation.
 
 debbies version:
@@ -22,7 +22,7 @@ Write a dictionary class that upon instantiation reads in a file of words and cr
 (For the bored) Can you make a perfect hash? Describe how you went about finding a perfect hash!
 You will need to have a lookup method in your class that takes a word (i.e. a String) and returns an array of Strings corresponding to all the words at the hash location, if any. You may need to normalize the word to look up, depending on your hash function.
 Now make the basic Scrabble cheater: construct a 7-letter-word hash dictionary, set a String to 7 letters, and output the array of Strings found that might be permutations of these 7 letters. Your users can check if there is a permutation to be found. Or you can implement isPermutation and only output the ones that are permutations.
-{% endcomment %}
+-->
 
 ## Pre-Lab
 
@@ -63,7 +63,7 @@ Hint: how often will *normalize()* be called a) for initialisation and b) for a 
 ## Lab Report
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page. 
 
-{% comment %}
+<!--
 now part of lab 13:
 1. In preparation of the final ScrabbleCheater, which will also find shorter words that can be built with the tile rack, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
-{% endcomment %}
+-->
