@@ -38,10 +38,15 @@ def generate
     date = d + (7 * (i - 1))
     # vlt rausnehmen? eignet sich nur für ganze wochen
     next if in_rejected?(date: date, semester_dates: @semester_dates)
-    week_count += 1
-    line_1 = "|#{week_count} | #{date.cweek} "
+    text_holiday = holiday(date: date, semester_dates: @semester_dates)
+    if text_holiday === ""
+      week_count += 1
+      line_1 = "|#{week_count} | #{date.cweek} "
+    else
+      line_1 = "|  | #{date.cweek} "
+    end
     line_1 += date.strftime(FIRST__LINE)
-    line_1 += holiday(date: date, semester_dates: @semester_dates)
+    line_1 += text_holiday
     puts line_1
     if @course_dates.two_lectures
       date_2 = date + @course_dates.day_diff
