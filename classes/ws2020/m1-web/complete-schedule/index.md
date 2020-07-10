@@ -8,11 +8,11 @@ This schedule is, as always, tentative.
 
 | Week | KW | Date           | Topic Area                              | Lecturer        |
 |:-----|:---|:---------------|:----------------------------------------|:----------------|
-| 1    | 41 | Wed 07/10/2020 | Web Technology                          | Gefei Zhang     |
-| 2    | 42 | Wed 14/10/2020 | Web Technology                          | Gefei Zhang     |
-| 3    | 43 | Wed 21/10/2020 | Web Technology                          | Gefei Zhang     |
-| 4    | 44 | Wed 28/10/2020 | Web Technology                          | Gefei Zhang     |
-| 5    | 45 | Wed 04/11/2020 | Web Technology                          | Gefei Zhang     |
+| 1    | 41 | Wed 07/10/2020 | Visual Computing                        | Nico Hezel      |
+| 2    | 42 | Wed 14/10/2020 | Visual Computing                        | Nico Hezel      |
+| 3    | 43 | Wed 21/10/2020 | Visual Computing                        | Kai Barthel     |
+| 4    | 44 | Wed 28/10/2020 | Visual Computing                        | Nico Hezel      |
+| 5    | 45 | Wed 04/11/2020 | Visual Computing                        | Nico Hezel      |
 | 6    | 46 | Wed 11/11/2020 | Game Technology and Interactive Systems | David Strippgen |
 | 7    | 47 | Wed 18/11/2020 | Game Technology and Interactive Systems | David Strippgen |
 | 8    | 48 | Wed 25/11/2020 | Game Technology and Interactive Systems | David Strippgen |
@@ -21,9 +21,9 @@ This schedule is, as always, tentative.
 | 11   | 51 | Wed 16/12/2020 | - TBD -                                 |                 |
 |      | 52 | Wed 23/12/2020 | Vorlesungsfrei                          |                 |
 |      | 53 | Wed 30/12/2020 | Vorlesungsfrei                          |                 |
-| 12   | 1  | Wed 06/01/2021 | Visual Computing                        | Nico Hezel      |
-| 13   | 2  | Wed 13/01/2021 | Visual Computing                        | Nico Hezel      |
-| 14   | 3  | Wed 20/01/2021 | Visual Computing                        | Kai Barthel     |
-| 15   | 4  | Wed 27/01/2021 | Visual Computing                        | Nico Hezel      |
-| 16   | 5  | Wed 03/02/2021 | Visual Computing                        | Nico Hezel      |
+| 12   | 1  | Wed 06/01/2021 | Web Technology                          | Gefei Zhang     |
+| 13   | 2  | Wed 13/01/2021 | Web Technology                          | Gefei Zhang     |
+| 14   | 3  | Wed 20/01/2021 | Web Technology                          | Gefei Zhang     |
+| 15   | 4  | Wed 27/01/2021 | Web Technology                          | Gefei Zhang     |
+| 16   | 5  | Wed 03/02/2021 | Web Technology                          | Gefei Zhang     |
 | 17   | 6  | Wed 10/02/2021 | - TBD -                                 |                 |

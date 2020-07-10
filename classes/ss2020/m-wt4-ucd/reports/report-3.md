@@ -4,21 +4,28 @@ author: kleinen
 layout: default
 ---
 
-## Paper Prototypes in their current state
+The third and final report should summarize your whole project,
+starting with the visions and product concepts this term as this
+was the start of your individual project.
+
+## Paper Prototypes in their final state
 
 Include Fotos or other appropriate Form of Documentation of the paper prototypes,
-Interpretation Notes of the Interview Sessions and Documentation / Changes you
-made based on these interviews.
-Include a brief reflection on how you worked with paper prototypes in a remote way (if you did).
+Interpretation Notes of the Interview Sessions and Documentation /
+Changes you made based on these interviews.
 
-# Final Report
+Videos are also great to include, but please upload them to the mediathek or
+somewhere else and just provide a link in your reports.
 
-The final Report should present your work for this course as a whole, with
-an emphasis of the product concept as you've presented it in the final presentation.
+Include a brief reflection on how you worked with paper prototypes in a remote
+way (if you did do it in a remote way).
 
-Please include the first two reports as well as your presentation slides,
+## Complete Project Overview
+
+The final Report should present your work for your project as a whole, with
+an emphasis of the product concept as you've presented it in the final presentation
+- this term starting with the second report, as the user data collection was
+done together.
+
+Please include the second report as well as your presentation slides,
 compiling a coherent report on the complete project.
-
-The only new content would be the evaluation of the prototypes as a special
-section, and probably a rewrite / addition to the product concept as a result of
-this evaluation.
