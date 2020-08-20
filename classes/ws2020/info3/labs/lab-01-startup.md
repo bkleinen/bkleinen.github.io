@@ -18,7 +18,7 @@ In any case:
 * Review what you have learned about **JavaScript** so far. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) can help. Careful, the German version  of the tutorial is out of date! Use the English version! 
 * Review what you know about **Git** so far. You can use [a cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet).
 
-## Assignment: JavaScript Practise
+## Assignment
 In this assignment you will program a "Hobby Matcher". "Hobby Matcher" should people help find other people with the same hobbies. Prof. Kleinen already thought of two [user stories](https://en.wikipedia.org/wiki/User_story). 
 
 **Story 1:** As a user of the service I want to be able to enter my hobbies as a comma-separated list (eg. "Go, Geocaching, Stunt Kites, Bicycles").
