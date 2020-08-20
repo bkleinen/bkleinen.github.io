@@ -4,29 +4,23 @@ author: kleinen
 layout: page
 ---
 
-
-
 ![Workplace](../images/workplace.jpg "pumpkins")
 <small class = "float-right">Nerd Workplace. Foto by [slworking2](https://www.flickr.com/photos/slworking/8539204081/)</small>
 
 ## PreLab
+The labs will be taught remote. You can either work on the [lab computers from remote](https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/) (make sure to chose the lab that is given on your schedule) or just work on your own computer. If you decide to work on your own computer:
+* I recommend installing Firefox. Eventually you might also need Chrome. 
+* Install and set up git (You will use  to hand in code - you will be added to the Info3 group when you get added on Moodle). You don't need a Git GUI, you can use it via the command line or git bash.
+* Install and set up a code editor suitable for JavaScript. I recommend [Atom](https://atom.io). 
 
-* if you plan on using your own computer in the lab, you should do the software installation of at least ruby and a decent editor **before coming to lab**.
+In any case:
+* Make sure you can sign in to [the IMI GitLab](https://gl-imi.f4.htw-berlin.de)
+* Get to know the web development tools of Firefox (open them with Right Click > "Inspect Element"). We are especially interested in the tabs "Console" and "Debugger". "Console" is where JavaScript will print to and using the "Debugger" you can debug your JavaScript.
+* Review what you have learned about JavaScript so far
+* Have a look at [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Markdown is a language that you can use to format your readme.md files on the GitLab server.
 
-# Part 1: Setting up your environment
-
-Make sure that you have
-
-- ruby,
-- rails,
-- git,
-- a decent text editor
-
- installed on the computer you intend to use (or know how to run all these on the lab machines).
-
-**[Here are detailled instructions](../lab-01-startup-installation)**.
-
-# Part 2: Git
+<!--
+## Assignment
 
 ## Git
 
@@ -90,3 +84,4 @@ it in a generic way using reflection on the method names.
 # Report - what to hand in
 
 Your lab report is due at 22.00 the day before the next lab and should include a written report on what you've tried, what worked and what didn't - for both parts: the installation and the ruby finger exercises. Don't forget to include your own names on your report, and that each member of the team has to post the report.
+-->
