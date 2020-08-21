@@ -34,9 +34,7 @@ In this assignment you will program a "Hobby Matcher". "Hobby Matcher" should pe
 
 **Story 1:** As a user of the service I want to be able to enter my hobbies as a comma-separated list (eg. "Go, Geocaching, Stunt Kites, Bicycles").
 
-**Story 2:** As a user of the service I want to see a list of people with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending). ***UPDATE TEST CASE!!***
-
-You'll learn about JavaScript Classes, field variables, getters and setters, methods, JavaScript Unit Testing, Test-driven development and review some git.
+**Story 2:** As a user of the service I want to see a list of people with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending).
 
 ### Part 1: Set up the git repository
 
