@@ -3,25 +3,23 @@ title: 'Assignment 04: Testing'
 author: kleinen
 layout: page
 ---
-
-
 ![Test Button](../images/test-button.jpg)
 <small class = "float-right">Test Button in Car. [Foto by Mike Roberts](https://www.flickr.com/photos/cosmic_spanner/3766667411)</small>
 
-## Download the source code snippets for this assignment.
-Source Code for this Assignment: [https://github.com/htw-imi-info3/lab-04-testing](https://github.com/htw-imi-info3/lab-04-testing)
+## Assignment
 
-## A. Black and White Box Tests
+### Preparation
+1. Download the source code snippets for this assignment: [lab04-testing](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing)
+2. Install the necessary dependencies. This works like in lab01.
+3. In addition to what you've covered in class, please have a look at [black-box][1] and [white-box][2] testing.
 
-In addition to what we've covered in class, please have a look at [black-box][1] and [white-box][2] testing.
+### Equivalence Classes
+2. Using the black-box methodology, what are the equivalence classes for testing a method that determines the absolute value of an integer? 
+3. Check out [`absolute.java`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/number.js) in the repository. For a white-box test, what would be test cases covering each branch? 
+4. Define suitable test cases for `absolute.js` based on your analysis and implement them with jest in the `test` folder.
 
-1. **Getting started:**  Give the equivalence classes for testing a method that determines the absolute value of an integer using the black-box methodology. Don't peek at the code yet! Now check out [`absolute.java`](https://github.com/htw-imi-info3/lab-04-testing/blob/master/a_black_and_white_box_tests/absolute.java) in the repository and give test cases covering each branch for a white-box test. Define suitable test cases based on your analysis and implement them with JUnit.
-2. **Black-box test**: Look at the grading scale at the bottom of the page (Which is not the [grading scale for this course]({{ site.baseurl }}/studies/grading/grading-scale)). Give the   equivalence classes for a program that loops until a "-1"  is entered, asking for the number   of points on this scale, prints the appropriate letter grade (A-F), and then prints the   average number of points when "-1" has been entered. Develop one test case for each   equivalence class. Test your test cases with [GradingScale.class](https://github.com/htw-imi-info3/lab-04-testing/blob/master/a_black_and_white_box_tests/GradingScale.class) - this is a java programm. No fair decompiling the   class! Report on the results. Did you find any errors?
-3. **White-box test** / path coverage: Examine the code for [TaxTime.java](https://github.com/htw-imi-info3/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java). Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
-4. **Reflection** Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?
-
-
-### Grading Scale (Points = Procent)
+### Black Box Tests
+5. **Black-box test**: Look at the following grading scale at the bottom of the page (Which is not the grading scale for this course). 
 
 | Points | Grade | ECTS | Points | Grade | ECTS |
 |:-------|:------|:-----|:-------|:------|:-----|
@@ -31,6 +29,25 @@ In addition to what we've covered in class, please have a look at [black-box][1]
 | 80-84  | 2,0   | B    | 50-54  | 4,0   | D    |
 | 75-79  | 2,3   | B    | 0-49   | 5,0   | F    |
 | 70-74  | 2,7   | C    |        |       |      |
+
+What are the equivalence classes for *a program that loops until a "-1"  is entered, asking for the number of points on this scale; prints the appropriate letter grade (A-F), and then prints the average number of points when "-1" has been entered*?
+
+6. Develop one test case for each equivalence class. 
+
+7. Test your test cases with [GradingScale.class](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/gradingScale.js) (This is an uglified JavaScript file - don't try to make sense of it, for the sake of the exercise). Do this by running `???`. Report on the results. Did you find any errors?
+
+### White Box Tests / Path Coverage
+
+8. Examine the code for [TaxTime.java](https://github.com/htw-imi-info3/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java). Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
+
+### Reflection
+
+9. Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?
+
+
+### Grading Scale (Points = Procent)
+
+
 
 
 ## B. Test Driven Development
