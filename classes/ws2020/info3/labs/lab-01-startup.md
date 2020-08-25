@@ -59,7 +59,7 @@ Lint your code regularly as you proceed. If you can't fix some of the problems t
 ### Part 3: Practise JavaScript
 9. For each test in `initialzation.test.js`, implement JS code in the [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) "Person" so the test runs through. Remember: Making the test pass the simplest way possible is not enough here - you should implement it in a generic way using reflection on the method names. 
 In `Person` a [private field](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) has already been created to hold a name. We tell JS that a field should be private by starting it with `#`. The `#` [is accepted by NodeJS](https://node.green/#ESNEXT-candidate--stage-3--instance-class-fields), but careful when you develop for the browser - [not all browsers currently support it](https://caniuse.com/#feat=mdn-javascript_classes_private_class_fields).
-You can start by implement getters and setters for the name in the `Person` class, proceeding with getters and setters for hobbies. 
+Hint 1: You can start by implement getters and setters for the name in the `Person` class, proceeding with getters and setters for hobbies. Hint 2: To pass the test that checks whether `UnknownAttributeError` is thrown you will need to [extend `Error`](https://stackoverflow.com/questions/1382107/whats-a-good-way-to-extend-error-in-javascript). 
 
 10. Save your progress with git after you tested and linted it! (add, commit, [optionally] push). Ideally, each new feature you add (eg. a new function) gets it's own commit. Each working version of the code should be integrated to the main branch (a simple push, if you develop only on the "master" branch).
 
