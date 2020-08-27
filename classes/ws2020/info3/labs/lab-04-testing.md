@@ -34,21 +34,17 @@ What are the equivalence classes for *a program that loops until a "-1"  is ente
 
 6. Develop one test case for each equivalence class. 
 
-7. Test your test cases with [GradingScale.class](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/gradingScale.js) (This is an uglified JavaScript file - don't try to make sense of it, for the sake of the exercise). Do this by running `???`. Report on the results. Did you find any errors?
+7. Test your test cases manually by runnig `npm run gradingScale` ([The source of this program](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/cliTools/gradingScale.js is an uglified JavaScript file - don't try to make sense of it). Report on the results. Did your tests discover any errors in the gradingScale cli-tool?
 
 ### White Box Tests / Path Coverage
+8. Examine the code for [`TaxTime.java`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there? 
 
-8. Examine the code for [TaxTime.java](https://github.com/htw-imi-info3/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java). Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
+9. What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. 
 
-### Reflection
+10. Are there any errors in the program (besides the size of the tax bite)?
 
-9. Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?
-
-
-### Grading Scale (Points = Procent)
-
-
-
+### Refactoring
+11. Refactor TaxTime to make it's functionalities testable with jest. Hint: You can put functionalities into [`taxTime.java`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/taxTime.js)
 
 ## B. Test Driven Development
 
