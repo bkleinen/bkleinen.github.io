@@ -16,10 +16,11 @@ layout: page
 ### Equivalence Classes
 2. Using the black-box methodology, what are the equivalence classes for testing *a method that determines the absolute value of an integer*? Don't look at the code yet.
 3. Now check out [`absolute.java`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/number.js). For a white-box test, what would be test cases covering each branch? 
-4. Based on your analysis, define suitable test cases for `absolute.js` and implement them with jest in the `test` folder. Report on the results.
+4. Based on your analysis, define suitable test cases for `absolute.js` and implement them with jest in the `test` folder. Report on the results. 
+5. Lint and correct your code: `npm lint number.test.js`.
 
 ### Black Box Tests
-5. **Black-box test**: Look at the following grading scale (which is not the grading scale for this course). 
+6. **Black-box test**: Look at the following grading scale (which is not the grading scale for this course). 
 
 | Points | Grade | ECTS | Points | Grade | ECTS |
 |:-------|:------|:-----|:-------|:------|:-----|
@@ -32,18 +33,18 @@ layout: page
 
 What are the equivalence classes for *a program that loops until a "-1"  is entered, asking for the number of points on this scale; prints the appropriate letter grade (A-F), and then prints the average number of points when "-1" has been entered*? Let's call this program "Grading Scale Calculator"
 
-6. Define one test case for each equivalence class. 
+7. Define one test case for each equivalence class. 
 
-7. Manually test your test cases by runnig the "Grading Scale Calculator": `npm run gradingScale` (The sources of this program - [Command Line Interface](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/cliTools/gradingScale.js) and [Module](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/gradingScale.js) - are uglified JavaScript files - don't try to make sense of them). Report on the results.
+8. Manually test your test cases by runnig the "Grading Scale Calculator": `npm run gradingScale` (The sources of this program - [Command Line Interface](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/cliTools/gradingScale.js) and [Module](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/gradingScale.js) - are [uglified](https://www.npmjs.com/package/uglify-es) JavaScript files - don't try to make sense of them). Report on the results.
 
 ### White Box Tests / Path Coverage
-8. Examine the code for the program "Tax Time": [`cliTools/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there? 
+9. Examine the code for the program "Tax Time": [`cliTools/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there? 
 
 9. What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. 
 
 10. Define one test case for each path. 
 
-11. Manually test them by running "Tax Time": `npm run taxTime`. Report on your results.
+11. Manually test the test cases by running "Tax Time": `npm run taxTime`. Report on your results.
 
 ### Refactoring
 12. *Plan* how you would refactor "Tax Time" to make it's functionalities testable with jest. Hint: You would need to separate underlaying functionalities from the view (the part where user interaction happens, or CLI), putting the underlaying functionalities into [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/taxTime.js). But which methods should be in the [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/taxTime.js) module? Which field variables do you need?
@@ -52,16 +53,20 @@ What are the equivalence classes for *a program that loops until a "-1"  is ente
 
 14. Now actually refactor "Tax Time" so that your tests pass.
 
+15. Lint and improve your code: `npm lint "cliTools/taxTime.js" "lib/taxTime.js"`.
+
 ### Test Driven Development
 Your task is to develop deletion and reversion of a simple linked list test driven. You find stubs in [`todo`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/taxTime.js).
 
-15. Create a Class `Node` as Head of a Linked List. Now develop the jest Unit Tests for *deleting Nodes* and then develop a method to make your tests pass.
+16. Create a Class `Node` as Head of a Linked List. Now develop the jest Unit Tests for *deleting Nodes* and then develop a method to make your tests pass.
 
-16. Choose one of the two methods you discussed in class to help with the assertions/expectations - by either creating a helper (e.g. assert.js) or a toString method as in toString.js.
+17. Lint and correct your code: `npm lint "list/"`.
 
-17. Then, do the same for *reversing the list*. That is: Test-driven-develop a method reverse(). This is a bit tricky but doable with just one pass through the single linked list. Stick to the test cases, and give it a try - one node at a time! Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did.
+18. Choose one of the two methods you discussed in class to help with the assertions/expectations - by either creating a helper (e.g. assert.js) or a toString method as in toString.js. Don't forget to lint and correct your code.
 
-18. For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list.
+18. Then, do the same for *reversing the list*. That is: Test-driven-develop a method reverse(). This is a bit tricky but doable with just one pass through the single linked list. Stick to the test cases, and give it a try - one node at a time! Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did. Don't forget to lint and correct your code.
+
+19. For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list.
 
 ## What to hand in
 This is a graded lab. Submit your Report as PDF to Moodle as described on the lab page.
