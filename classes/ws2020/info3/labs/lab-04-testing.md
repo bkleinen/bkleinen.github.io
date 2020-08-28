@@ -57,17 +57,15 @@ What are the equivalence classes for *a program that loops until a "-1"  is ente
 17. Lint and improve your code: `npm run lint "cliTools/taxTime.js" "lib/taxTime.js"`.
 
 ### Test Driven Development
-Your task is to develop deletion and reversion of a simple linked list test driven. You find stubs in [`todo`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/taxTime.js).
+Your task is to develop deletion and reversion of a simple linked list test driven. You find a stub in [`node`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/lib/node.js).
 
-18. Create a Class `Node` as Head of a Linked List. Now develop the jest Unit Tests for *deleting Nodes* and then develop a method to make your tests pass.
+18. Look at the class `Node` as Head of a Linked List. Develop the jest Unit Tests for *deleting Nodes* and then develop a method to make your tests pass. 
 
-19. Lint and correct your code: `npm run lint "list/"`.
+19. Lint and correct your code: `npm run lint "node.js"`.
 
-20. Choose one of the two methods you discussed in class to help with the assertions/expectations - by either creating a helper (e.g. assert.js) or a toString method as in toString.js. Don't forget to lint and correct your code.
+20. Then, do the same for *reversing the list*. That is: Test-driven-develop a method reverse(). This is a bit tricky but doable with just one pass through the single linked list. Stick to the test cases, and give it a try - one node at a time! Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did. Don't forget to lint and correct your code.
 
-21. Then, do the same for *reversing the list*. That is: Test-driven-develop a method reverse(). This is a bit tricky but doable with just one pass through the single linked list. Stick to the test cases, and give it a try - one node at a time! Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did. Don't forget to lint and correct your code.
-
-22. For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list.
+21. For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list.
 
 ## What to hand in
 This is a graded lab. Submit your Report as PDF to Moodle as described on the lab page.
