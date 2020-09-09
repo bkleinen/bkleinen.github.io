@@ -7,11 +7,15 @@ layout: page
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](http://www.wowwiki.com/Gilded_Rose)</small>
 
 ## Assignment: Gilded Rose Kata
-* Clone the [Gilded Rose Repository](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata)
-* Set up the project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Of course this is now lab05, put your project into the correct place on the gitlab server!
-* Read [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt) carefully.
 
-### Write Characterization Tests
+### Preparation
+1. Clone the [Gilded Rose Repository](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata)
+2. Set up the project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Of course this is now lab05, put your project into the correct place on the gitlab server!
+3. Read [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt) carefully.
+
+### Part 1: Characterization Tests
+4. Look at [the stubs for the tests](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test) and run them with coverage `npm run coverage`.
+
 To be able to add the new functionality as requested in [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt) you should write Characterization Tests first.
 Do NOT yet refactor or add the required new functionality!
 
@@ -24,13 +28,12 @@ comment next to the test case) and make a sensible decision how to handle them.
 Then use the code coverage tool to check wether your tests hit all the branches
 in the updateQuality method. Add more test cases if needed. 
 
-### Refactor
-A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item "knowing" how to update it's quality. Unfortunately, you can't do that because the Item class belongs to the goblin.
+### Part 2: Refactoring
+6. Now refactor the available legacy code. Hint: A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item "knowing" how to update it's quality. Unfortunately, you can't do that because the Item class belongs to the goblin. Thus, you will need another solution without the need to change the Item class. Are there any patterns that might help adding different behaviour without needing to change the Item class itself?
 
-Thus, you will need another solution without the need to change the Item class. Are there any patterns that might help adding different behaviour without needing to change the Item class itself?
+### Part 3: Adding new functionality
+7. Add test cases for the newly required functionality (see [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt)).
+8. Implement the new functionality so your tests pass.
 
-### Add the new functionality.
-After you adapted the design, add the newly required functionality (see [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt)). Don't forget to add test cases first - practice Test Driven Development.
-
-# Submission
+## What to hand in
 A link to your repository.
