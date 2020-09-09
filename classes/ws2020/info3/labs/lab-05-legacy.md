@@ -16,7 +16,7 @@ layout: page
 ### Part 1: Characterization Tests
 4. Look at [the stubs for the tests](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test) and run them with coverage `npm run coverage`.
 
-To be able to add the new functionality as requested in [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt) you should write Characterization Tests first.
+To be able to add the new functionality as requested in [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt) you should write [Characterization Tests](https://en.wikipedia.org/wiki/Characterization_test) first.
 Do NOT yet refactor or add the required new functionality!
 
 There is already a stub for the tests. All you have to do is add testcases for all requirements in the documentation. You can split up the work within your group / even with other groups and then put them all together.
