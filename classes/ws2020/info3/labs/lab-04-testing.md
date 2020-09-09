@@ -13,14 +13,14 @@ layout: page
 2. Prepare your project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Note that this is now lab03, so  make sure you adapt your process to that! Eg. put the project into the correct place on the gitlab server.
 3. In addition to what you've covered in class, please have a look at [black-box][1] and [white-box][2] testing.
 
-### Equivalence Classes
+### Part 1: Equivalence Classes
 2. Using the black-box methodology, what are the equivalence classes for testing *a method that determines the absolute value of an integer*? Don't look at the code yet.
 3. Now check out [`number.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/number.js). For a white-box test, what would be test cases covering each branch? 
 4. Based on your analysis, define suitable test cases for `number.js` and implement them with jest in the `test` folder. 
 5. Run your tests: `npm test number`. Report on the results. 
 6. Lint and correct your code: `npm run lint test/number.test.js`.
 
-### Black Box Tests
+### Part 2: Black Box Tests
 7. **Black-box test**: Look at the following grading scale (which is not the grading scale for this course). 
 
 | Points | Grade | ECTS | Points | Grade | ECTS |
@@ -38,7 +38,7 @@ What are the equivalence classes for *a program that loops until a "-1"  is ente
 
 9. Manually test your test cases by runnig the "Grading Scale Calculator": `node "cliTools/gradingScale.min.js"` (The sources of this program - [Command Line Interface](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/gradingScale.min.js) and [Module](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/gradingScale.min.js) - are [minified](https://www.npmjs.com/package/terser) JavaScript files - don't try to make sense of them). Report on the results. Did you find errors in the "Grading Scale Calculator"?
 
-### White Box Tests / Path Coverage
+### Part 3: White Box Tests / Path Coverage
 10. Examine the code for the program "Tax Time": [`cliTools/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there? 
 
 11. What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. 
@@ -47,16 +47,16 @@ What are the equivalence classes for *a program that loops until a "-1"  is ente
 
 13. Manually test the test cases by running "Tax Time": `node "cliTools/taxTime.js"`. Report on your results. Did you find errors in "Tax Time"?
 
-### Refactoring
+### Part 4: Refactoring
 14. *Plan* (only plan!) how you would refactor "Tax Time" to make it's functionalities testable with jest. Hint: You would need to separate underlaying functionalities from the view (the part where user interaction happens, or CLI), putting the underlaying functionalities into [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js). But which methods should be in the [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js) module? Which field variables do you need?
 
-15. Implement the test cases from (12.) with jest in the `test` folder. Your tests should test [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js). Run them: `npm test taxTime`.
+15. Implement the test cases from (12.) with jest in the `test` folder. Your tests should test [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js). Run them with code coverage: `npm run coverage taxTime`. What do you think - is it necessary to reach 100% code coverage?
 
 16. Now actually refactor "Tax Time" so that your tests pass.
 
 17. Lint and improve your code: `npm run lint "cliTools/taxTime.js" "lib/taxTime.js"`.
 
-### Test Driven Development
+### Part 5: Test Driven Development
 Your task is to develop deletion and reversion of a simple linked list test driven. Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. You find a stub in [`node.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/node.js). Some tests are already available at [`node.test.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/test/node.test.js).
 
 18. Look at the class `Node` as a head of a Linked List. Develop the jest unit tests for *deleting Nodes* (which test cases do you need to check?) and then develop a delete method to make your tests pass. Lint and correct your code: `npm run lint lib/node.js`.
