@@ -29,11 +29,13 @@ Then use the code coverage tool to check wether your tests hit all the branches
 in the updateQuality method. Add more test cases if needed. 
 
 ### Part 2: Refactoring
-6. Now refactor the available legacy code. Hint: A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item "knowing" how to update it's quality. Unfortunately, you can't do that because the Item class belongs to the goblin. Thus, you will need another solution without the need to change the Item class. Are there any patterns that might help adding different behaviour without needing to change the Item class itself?
+6. Now refactor the available legacy code. Don't forget to do this step by step and to test often. Hint: A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item "knowing" how to update it's quality. Unfortunately, you can't do that because the Item class belongs to the goblin. Thus, you will need another solution without the need to change the Item class. Are there any patterns that might help adding different behaviour without needing to change the Item class itself?
+7. Lint and improve your code: `npm run lint .`
 
 ### Part 3: Adding new functionality
-7. Add test cases for the newly required functionality (see [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt)).
-8. Implement the new functionality so your tests pass.
+8. Add test cases for the newly required functionality (see [the requirements](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt)).
+9. Implement the new functionality so your tests pass. 
+10. Don't forget to lint and improve your code.
 
 ## What to hand in
 A link to your repository.
