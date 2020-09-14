@@ -28,8 +28,6 @@ regenerate: true
 
 
 
-
-
 <div class = "box">
 <h4>Office Hours</h4>
   {% include officehours.md %}
