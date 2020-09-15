@@ -19,7 +19,7 @@ If you decide to work on your own computer:
 * Install the [Node Version Manager](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating) (nvm). [This installation guide (for Ubuntu)](https://www.cyberithub.com/install-nvm-for-node-js/) can help. We'll use Node.js so we can program JavaScript command line applications and don't need to use a browser console or even a front end (for now). 
 * Install Node.js using nvm: `nvm install node`. Verify you installed version 14.8.0 or higher: `node --version`. 
 * The [Node Package Manager](https://docs.npmjs.com/) (npm) comes with Node.js, so no need to install it separately. We will use npm to manage libraries we use for Node.js
-* Install and set up a code editor suitable for JavaScript. I recommend [Atom](https://atom.io). 
+* Install and set up a code editor suitable for JavaScript. I recommend [Atom](https://atom.io). [This guide](https://wiki.ubuntuusers.de/Atom/) can help you with the installation.
 
 ### 2. Prepare some more...
 * Find a team of three and sign up for it using Moodle. I'll not accept work that has not been done in a group.
