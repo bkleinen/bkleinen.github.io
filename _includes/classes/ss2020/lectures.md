@@ -4,10 +4,3 @@
 * [B Praxisprojekt Who's there?]({{ site.baseurl }}/classes/ss2020/project)
 * [M M1 Media Programming - Lab Web Technology]({{ site.baseurl }}/classes/ss2020/m1-web)
 * [M WT4 User Centered Web Technology]({{ site.baseurl }}/classes/ss2020/m-wt4-ucd)
-
-  {% comment %}
-* [B WT2 Usability]({{ site.baseurl }}/classes/ss2020/wt2-usability)
-
-* [M WT1 Webapplications]({{ site.baseurl }}/classes/ss2020/m-wt1-webapplications)
-* [M6/11 Praxisprojekt]({{ site.baseurl }}/classes/ss2020/m6-project/)
-  {% endcomment %}

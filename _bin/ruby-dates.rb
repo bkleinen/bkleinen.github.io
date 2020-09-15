@@ -14,7 +14,7 @@ require_relative './lib_ruby_dates.rb'
 course_dates = CourseDates.new(
   first_day: Date.parse("7.10.2020"),
   day_diff: 2,
-  two_lectures: false
+  two_lectures: true
 )
 
 # Semesterdaten
@@ -33,8 +33,8 @@ holidays: {
   "29.12.2020" => "Vorlesungsfrei",
   "30.12.2020" => "Vorlesungsfrei",
   "31.12.2020" => "Vorlesungsfrei",
-  "1.1.2021" => "Vorlesungsfrei",
-  "2.1.2021" => "Vorlesungsfrei"},
+  "01.01.2021" => "Vorlesungsfrei",
+  "02.01.2021" => "Vorlesungsfrei"},
 reject_span:[]
 )
 
