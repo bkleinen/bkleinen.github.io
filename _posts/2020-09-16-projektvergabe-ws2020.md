@@ -9,8 +9,8 @@ categories:
 
 ## Projektvergabe für das Wintersemester 2020/21:
 
-    * Bachelor: Mi, 7.10.2020 11:00-12:30 ,
-    * Master: Mi, 7.10.2020 12:30-14:00 Master
+* Bachelor: Mi, 7.10.2020 11:00-12:30 
+* Master: Mi, 7.10.2020 12:30-14:00
 
 jeweils über [Zoom](https://us02web.zoom.us/j/84796867200?pwd=NjdQK05rNkpDNjdjVUNHNk5qbnZ6Zz09)
 
