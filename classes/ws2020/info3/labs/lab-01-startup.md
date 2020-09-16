@@ -17,9 +17,9 @@ If you decide to work on your own computer:
 * [optonal] **I recomment you work on a Linux or MacOS System**. From my experience, [setting up Dual Boot Windows/Linux](https://www.groovypost.com/howto/dual-boot-windows-10-linux/) is less troublesome than trying to manage Node.js on Windows. All my instructions will be taylored to Linux and will probably work on MacOS. So if you haven't already, now is the time to get Linux :)
 * Install and set up git (You will use git to hand in code - you will be added to the Info3 group when you get added on Moodle). You don't need a Git GUI, you can use it via the command line or git bash.
 * Install the [Node Version Manager](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating) (nvm). [This installation guide (for Ubuntu)](https://www.cyberithub.com/install-nvm-for-node-js/) can help. We'll use Node.js so we can program JavaScript command line applications and don't need to use a browser console or even a front end (for now). 
-* Install Node.js using nvm: `nvm install`. Verify you installed version 14.8.0 or higher: `node --version`. 
+* Install Node.js using nvm: `nvm install node`. Verify you installed version 14.6.0 or higher [for compatibility reasons](https://node.green/): `node --version`. 
 * The [Node Package Manager](https://docs.npmjs.com/) (npm) comes with Node.js, so no need to install it separately. We will use npm to manage libraries we use for Node.js
-* Install and set up a code editor suitable for JavaScript. I recommend [Atom](https://atom.io). 
+* Install and set up a code editor suitable for JavaScript. I recommend [Atom](https://atom.io). [This guide](https://wiki.ubuntuusers.de/Atom/) can help you with the installation.
 
 ### 2. Prepare some more...
 * Find a team of three and sign up for it using Moodle. I'll not accept work that has not been done in a group.
