@@ -6,14 +6,14 @@ layout: page
 
 # Welcome!
 
-Info 3 is the final module of the Info 1-3 series. In Info1, you learned programming, and the basics of object-oriented design of software. Info2 introduced you to advanced programming with data structures and algorithms. Info3 rounds that out by giving you insights into how to actually design and develop software with an eye for the overall picture.
+Info 3 is the final module of the Informatics 1-3 series. In Info1, you learned about programming, and the basics of object-oriented design of software. Info2 introduced you to advanced programming with data structures and algorithms. Info3 rounds that out by giving you insights into how to actually design and develop software with an eye for the overall picture.
 
 # Contents
 
-The Studienordnung states the following goals for Info3:
+The Studienordnung states the following skills for Informatics 3:
 <pre>
 
-*  Die Studierenden haben gelernt, wie man ein komplexes Softwarebasiertes
+*  Die Studierenden haben gelernt, wie man ein komplexes softwarebasiertes
    System analysiert, modelliert und eine L&ouml;sung entwirft.
 *  Die Studierende k&ouml;nnen sicher mit Entwurfsmustern umgehen und sie in einer
    aktuellen Programmiersprachen praktisch umsetzen.
