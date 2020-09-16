@@ -34,11 +34,11 @@ In this assignment you will program a "Hobby Matcher". "Hobby Matcher" should he
 
 ### Part 1: Set up the git repository and project
 1. Clone the repository on [github](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab01-js-exercise). 
-2. Rename the repository directory **locally** to "lab01-YOURGROUPID". Update **.git/description** and **package.json**.
-3. Create a new repository "lab01-YOURGROUPID" in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01).
+2. Rename the repository directory **locally** to YOURGROUPID (it will be something like "lab01-group1-team1"). Update **.git/description** and **package.json**.
+3. Create a new repository "YOURGROUPID" in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01).
 4. Look at the git project's "remotes": `git remote -v`. You should see an "origin" that is the url of the project you just cloned. Rename the "origin" to "upstream": `git remote rename origin upstream`. This way you keep a link to the project you cloned, while making space for your new project.
 5. Set the remote origin of your local repository to YOUR newly created repository on the IMI GitLab Server: 
-`git remote add origin https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01/lab01-YOURGROUPID.git`
+`git remote add origin https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01/YOURGROUPID.git`
 6. Push your repository: 
 ```
 git add .
