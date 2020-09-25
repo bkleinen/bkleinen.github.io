@@ -104,9 +104,8 @@ https://www.flickr.com/photos/smemon/12698012964/
 Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](http://www.agilemodeling.com/artifacts/classDiagram.htm).
 
 ## Results Submission
-* Hand in a link to your repository
 * Hand in a lab report (including your diagrams)
-* Take part in the oral test on Oct. 29 2020
+* Take part in the oral test on Nov. 5 2020
 
 More info on the [Labs](index) page.
 
