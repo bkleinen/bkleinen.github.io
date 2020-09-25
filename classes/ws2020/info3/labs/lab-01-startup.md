@@ -33,7 +33,7 @@ In this assignment you will program a "Hobby Matcher". "Hobby Matcher" should he
 **Story 2:** As a user of the service I want to see a list of people with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending).
 
 ### Part 1: Set up the git repository and project
-1. Clone the repository on [github](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab01-js-exercise). 
+1. Clone the repository on [git lab](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab01-js-exercise). 
 2. Rename the repository directory **locally** to YOURGROUPID (it will be something like "lab01-group1-team1"). Update **.git/description** and **package.json**.
 3. Create a new repository "YOURGROUPID" in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01).
 4. Look at the git project's "remotes": `git remote -v`. You should see an "origin" that is the url of the project you just cloned. Rename the "origin" to "upstream": `git remote rename origin upstream`. This way you keep a link to the project you cloned, while making space for your new project.
@@ -66,5 +66,9 @@ Hint 1: You can start by implement getters and setters for the name in the `Pers
 
 12. Now implement code to make the tests in `hobbymatching.test.js` pass. Hint: You might need to change the constructor. Finally, test - lint - add - commit - push your code.
 
-## What to hand in
-A link to your repository.
+## Results Submission
+* Hand in a link to your repository
+* Hand in a lab report
+* Take part in the oral test on Oct. 29 2020
+
+More info on the [Labs](index) page.

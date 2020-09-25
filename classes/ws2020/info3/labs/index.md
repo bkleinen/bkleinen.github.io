@@ -4,9 +4,19 @@ author: kleinen
 layout: page
 ---
 
+## Your time, your progress, your happyness, your responsability
+ You study for your own profit and you spend a lot of time on it. So you are expected to take responsability for your own learning and happyness, that includes 
+* asking for help when you need it (just email Linda or write her via Moodle)
+* providing anonymous feedback via Moodle
+* sharig what you wish to learn 
+* sharing suggestions for improvement
+* being mentally present during the labs
+
+## Remote Labs
+Linda Fernsel will teach the labs via BBB only (the BBB room is on Moodle).
 
 ## Exercises
-* [Exercise 01 - Installation, Git and Ruby](lab-01-startup)
+* [Exercise 01 - Installation, Git, Node.js, TDD](lab-01-startup)
 * [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class)
 * [Exercise 03 - Sequence Diagrams and State Machine Diagrams](lab-03-sequence-state)
 * [Exercise 04 - Testing](lab-04-testing)
@@ -14,13 +24,40 @@ layout: page
 * [Exercise 06 - Rails First Steps](lab-06-rails-1)
 * [Exercise 07 - Rails Associations and Internationalization](lab-07-rails-2)
 
-In the Info3 lab, we will do quite different things:
+## Teams
+You are required to work on the exercises and turn them in **teams of  3 people**. All team members need to register for their team on Moodle before each new assignment. Chose the group that corresponds to your lab (group 1 = 8am lab, group 2 = 9.45am lab). You are free to chose any of the remaining team numbers.
 
- * Design a Software System with the UML
- * Practice Software Testing
- * Fix a weird piece of legacy software
- * Get our feet wet with Ruby and Ruby on Rails and marvel at the patterns we find in there
+## Submissions
+You need to 
+* work with **repositories** when producing code. Share a link to your repository in the Moodle hand in field (the text field)
+* write a **report** about what you did and your results. Upload your report in the Moodle hand in field (the file field)
+* participate in the **oral test** about the lab (not Lab02 and Lab05)
+* Only Lab02 and Lab05: Take part in the **peer reviews**
 
-There will be 7 exercises. The exercises will either be written reports - lab reports - or the documents you produce in your design with UML, usually not the source code itself. I might, however, ask to turn it in as well.
+Only one person per team has to do the hand in of repo link and report. All team members have to take the oral test and participate in the peer review. 
 
-You are required to work on the exercises and turn them in **groups of  3 people**. Submissions are done in Moodle, **no late submissions** are allowed this term. Always hand in what you have on time.
+**No late submissions** are allowed this term. Always hand in what you have on time. If a problem is blocking your work, I expect you to talk to me about it at latest in the second week of the assignment.
+
+### Repositories
+If you produced any code it should be in a repository in the appropriate lab folder at https://gl-imi.f4.htw-berlin.de/info3-wise2020. Work with the repository from the start on and upload the complete projects, not only parts of code. 
+
+### Reports
+I trust you to have a feeling for what belongs in a good report. The following requirements of form are new and prepare you for scientific work:
+* You write in correct, complete sentences
+* You write about facts and your tone is neutral
+* You cite your sources appropriately ([How to do that?](https://people.f3.htw-berlin.de/Professoren/Pruemper/pdf/RichtlinienHaus-undDiplomarbeiten.pdf))
+* You don't write more than necessary
+* You write either in German or English, you don't mix languages.
+
+### Oral Tests
+The progress you make in each lab except lab02 and lab05 will be verified with 10-minute oral tests (1 per group per assignment).
+
+You should be able to:
+* explain your results
+* explain your code
+* answer questions about subjects of a lab
+
+The order of groups is decided at random. The tests usually take place during the next lab with a new assignment. If you can not attend the test, talk to me asap. We will try to find a solution together.
+
+### Peer Reviews
+Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports. 
