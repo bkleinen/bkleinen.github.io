@@ -105,7 +105,7 @@ Then, draw a Class Diagram for your Application. It should contain associations 
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
-* Take part in the oral test on Nov. 5 2020
+* Take part in the peer review activity on Nov. 5 2020
 
 More info on the [Labs](index) page.
 
