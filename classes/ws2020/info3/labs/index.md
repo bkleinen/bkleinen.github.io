@@ -4,6 +4,17 @@ author: kleinen
 layout: page
 ---
 
+## Your time, your progress, your happyness, your responsability
+ You study for your own profit and you spend a lot of time on it. So you are expected to take responsability for your own learning and happyness, that includes 
+* asking for help when you need it (just email Linda or write her via Moodle)
+* providing anonymous feedback via Moodle
+* sharig what you wish to learn 
+* sharing suggestions for improvement
+* being mentally present during the labs
+
+## Remote Labs
+Linda Fernsel will teach the labs via BBB only (the BBB room is on Moodle).
+
 ## Exercises
 * [Exercise 01 - Installation, Git, Node.js, TDD](lab-01-startup)
 * [Exercise 02 - Use Cases and Class Diagrams](lab-02-usecases-class)
@@ -25,7 +36,7 @@ You need to
 
 Only one person per team has to do the hand in of repo link and report. All team members have to take the oral test and participate in the peer review. 
 
-**No late submissions** are allowed this term. Always hand in what you have on time. If a problem is blocking your work, I expect you to ask me about it in the second week of the assignment.
+**No late submissions** are allowed this term. Always hand in what you have on time. If a problem is blocking your work, I expect you to talk to me about it at latest in the second week of the assignment.
 
 ### Repositories
 If you produced any code it should be in a repository in the appropriate lab folder at https://gl-imi.f4.htw-berlin.de/info3-wise2020. Work with the repository from the start on and upload the complete projects, not only parts of code. 
