@@ -3,64 +3,49 @@ title: 'Assignment 02 - Use Cases and Class Diagrams'
 author: kleinen
 layout: page
 ---
-
-
+ 
 ![Diagram](../images/effective-diagrams.jpg "pumpkins")
 <small class = "float-right">The Art and Science of Diagramming. Foto by [Gary Barber](https://www.flickr.com/photos/cannedtuna/8115853847)</small>
 
-In this exercise you will develop a **detailed Scenario for a Use Case**, and **draw a Class Diagram** for an application called "HTW" - Halloween Treats Worldwide.
+## Pre-Lab
 
-First, have a look at the description of the system:
+### 1. Know what the lab is about
 
-***
+In this exercise you will develop a detailed Scenario for a Use Case, and draw a Class Diagram for an application called "HTW" - Halloween Treats Worldwide. Have a look at the description of the system:
 
-## Halloween Treats Worldwide
- ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
+---
+
+#### Halloween Treats Worldwide
+
+![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
 <small class = "float-right">Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)</small>
 
-Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats. The product manager has asked you to design and develop the platform for their business.
+Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats. 
+The product manager has asked you to design and develop the platform for their business.
 
-Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats. For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight, and of course it's price and whether it has been carved already.
+Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats. 
+For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight, 
+and of course it's price and whether it has been carved already.
 
-Users should be able to buy a pumpkin online and have it delivered to an address of their choice. They can pay via various payment methods, at least money transfer, credit card and a popular online payment service called MoneyPal.
+Users should be able to buy a pumpkin online and have it delivered to an address of their choice. 
+They can pay via various payment methods, at least money transfer, credit card and a popular online payment service called MoneyPal.
 
-As this is an international service, treat/product descriptions should be available in various languages, for the first phase English and German should be made available.
+As this is an international service, treat/product descriptions should be available in various languages, 
+for the first phase English and German should be made available.
 
 Users should also be able to rate the treats and post reviews and fotos. Administrators can edit and delete those reviews as needed.
 
 Administrators are also responsible for maintaining the information about available products/treats.
 
 The system should also support the back end, that is, the shipment and invoice processes.
-For the first phase, it will be sufficient if packers can print out order information with a list of items to pack for each order, and invoices can be printed from the system to be mailed out by administrative staff.
+For the first phase, it will be sufficient if packers can print out order information with a list of items to pack for each order, 
+and invoices can be printed from the system to be mailed out by administrative staff.
 
-***
+---
 
-## Assignment
+### 2. Learn about Use Cases
+Read and understand the following information about Use Cases:
 
-### Use Cases & Scenarios
-
-Identify the use cases in this description and draw a use case diagram.
-
-Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different use case for each person such that you get a couple covered (that is, everyone has to write a different use case scenario!)
-
-See the section "About Use Cases" below for a detailed instruction on how to write the Use Case Scenarios. In addition to the use case scenarios, it might help if you draw a quick sketch (low fidelity, black and white) of the screen layout, as it is not as straightforward as with the ATM in the example.
-
-![ATM](../images/atm_12698012964_429981292c_z.jpg)
-https://www.flickr.com/photos/smemon/12698012964/
-
-
-### Class Diagram
-
-Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](http://www.agilemodeling.com/artifacts/classDiagram.htm).
-
-
-### What to turn in
-
-Include the Lab report in your submitted PDF. You can draw all diagrams by hand and include scans or photos in your PDF. I don't really recommend using an UML tool, because it will probably slow you down considerably if you are using it for the first time. Using CRC Cards on the other hand may be an advantage.
-
-----
-
-## About Use Cases
 Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
 
 In a scenario you describe a concrete use of the proposed system, using the names of a proposed user. In the use case we abstract away from the concrete situations in the scenarios and try and describe the general case. We have **user roles** and system **functionality** , which are depicted in diagrams as little stick figures and circles, respectively:
@@ -101,13 +86,33 @@ A number of scenarios are usually collected and abstracted into a Use Case and e
 
 You should realize that every author and every company have their own ways of describing Use Cases, but usually each of these aspects are addressed. We will be using the structure given here.
 
-------
+## Assignment
 
-And remember, there are two parts to this exercise - Use Cases and a Class Diagram!
+### Part 1: Use Cases & Scenarios
 
-------
+Identify the use cases in this description and draw a use case diagram.
+
+Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different use case for each person such that you get a couple covered (that is, everyone has to write a different use case scenario!)
+
+Hint: In the pre-lab you read how to write the Use Case Scenarios. In addition to the use case scenarios, it might help if you draw a quick sketch (low fidelity, black and white) of the screen layout, as it is not as straightforward as with the ATM in the example.
+
+![ATM](../images/atm_12698012964_429981292c_z.jpg)
+https://www.flickr.com/photos/smemon/12698012964/
+
+### Part 2: Class Diagram
+
+Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](http://www.agilemodeling.com/artifacts/classDiagram.htm).
+
+## Results Submission
+* Hand in a link to your repository
+* Hand in a lab report (including your diagrams)
+* Take part in the oral test on Oct. 29 2020
+
+More info on the [Labs](index) page.
+
+----
+
 Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
-
 
 [2]: https://msdn.microsoft.com/en-us/library/dd409427.aspx
 [3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
