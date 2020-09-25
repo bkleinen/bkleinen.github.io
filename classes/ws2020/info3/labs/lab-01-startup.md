@@ -69,5 +69,6 @@ Hint 1: You can start by implement getters and setters for the name in the `Pers
 ## Results Submission
 * Hand in a link to your repository
 * Hand in a lab report
-* Take part in the Oral Test on Oct. 29 2020
+* Take part in the oral test on Oct. 29 2020
+
 More info on the [Labs](index) page.
