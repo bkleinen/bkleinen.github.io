@@ -19,15 +19,17 @@ You are required to work on the exercises and turn them in **teams of  3 people*
 
 ## Submissions
 You need to 
-* work with repositories for your code. Upload your **repository** in the fitting folder at https://gl-imi.f4.htw-berlin.de/info3-wise2020.
-* if you produced code: share a link to your repository in the Moodle hand in field (the text field)
+* work with **repositories** when producing code. Share a link to your repository in the Moodle hand in field (the text field)
 * write a **report** about what you did and your results. Upload your report in the Moodle hand in field (the file field)
 * participate in the **oral test** about the lab (not Lab02 and Lab05)
-* Only Lab02 and Lab05: Take part in the **Peer Reviews**
+* Only Lab02 and Lab05: Take part in the **peer reviews**
 
-Only one person per team has to do the hand in. 
+Only one person per team has to do the hand in of repo link and report. All team members have to take the oral test and participate in the peer review. 
 
 **No late submissions** are allowed this term. Always hand in what you have on time. If a problem is blocking your work, I expect you to ask me about it in the second week of the assignment.
+
+## Repositories
+If you produced any code it should be in a repository in the appropriate lab folder at https://gl-imi.f4.htw-berlin.de/info3-wise2020. Work with the repository from the start on and upload the complete projects, not only parts of code. 
 
 ## Reports
 I trust you to have a feeling for what belongs in a good report. The following requirements of form are new and prepare you for scientific work:
