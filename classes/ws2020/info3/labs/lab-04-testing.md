@@ -65,8 +65,12 @@ Your task is to develop deletion and reversion of a simple linked list test driv
 
 20. For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list. Report on your experiments.
 
-## What to hand in
-Submit your Report as PDF to Moodle as described on the lab page. The oral test is during the lab after the deadline.
+## Results Submission
+* Hand in a link to your repository
+* Hand in a lab report
+* Take part in the oral test on Dec. 3 2020
+
+More info on the [Labs](index) page.
 
 [1]: http://en.wikipedia.org/wiki/Black_box_testing
 [2]: http://en.wikipedia.org/wiki/White_box_testing
