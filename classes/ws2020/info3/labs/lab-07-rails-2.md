@@ -13,7 +13,7 @@ pages of the HTW app. We will coordinate the tasks using issues on the repositor
 see [https://github.com/htw-imi-info3/rails-dash-ws2017/issues](https://github.com/htw-imi-info3/rails-dash-ws2017/issues),
 and also coordinate within the lab.
 
-See the [Guide on the Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html) - it
+See the [Guide on the Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html) - it
 contains all necessary
 information on how to query and sort Pumpkins and other stuff.
 

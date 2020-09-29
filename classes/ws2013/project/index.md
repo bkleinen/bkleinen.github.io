@@ -6,7 +6,7 @@ layout: page
 
 ## Workshop Management Application for Rails Girls
 
-[Rails Girls](http://railsgirls.com/) is a series of successful events worldwide that aim at getting more women involved in computing and increase the diversity in the IT field.
+[Rails Girls](https://railsgirls.com/) is a series of successful events worldwide that aim at getting more women involved in computing and increase the diversity in the IT field.
 
 Strangely enough, they haven't yet programmed a rails web application themselves for managing and organizing their workshops!
 

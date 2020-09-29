@@ -34,7 +34,7 @@ Ich wurde in der Vorlesung nach Quellen/Referenzen für Java gefragt. Es gibt un
 
 *   [exercises-chapter-04][13] (Übungen für die Vorlesung)
 *   [Ticketmachine-Exercises][14]
-*   <a href="http://www.computerhistory.org/timeline/" rel="nofollow">http://www.computerhistory.org/timeline/</a>
+*   <a href="https://www.computerhistory.org/timeline/" rel="nofollow">https://www.computerhistory.org/timeline/</a>
 
 **Exercises:**
 
@@ -53,9 +53,9 @@ Ich wurde in der Vorlesung nach Quellen/Referenzen für Java gefragt. Es gibt un
 *   [Exercise 11: Pick up and Carry,][28][ ][26]Due 12.01.2012, 23:00
 *   [Exercise <del>09</del> 12 : Dealing with Objects, ][29]Due 19.01.2012, 23:00
 
-Buchseite mit Download der Projekte: <http://www.bluej.org/objects-first/> - die Projekte sind auch auf X:\info1
+Buchseite mit Download der Projekte: <https://www.bluej.org/objects-first/> - die Projekte sind auch auf X:\info1
 
-Buch: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009, 4. Auflage. <http://www.amazon.de/Java-lernen-BlueJ-objektorientierte-Programmierung/dp/3868940014/>
+Buch: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009, 4. Auflage. <https://www.amazon.de/Java-lernen-BlueJ-objektorientierte-Programmierung/dp/3868940014/>
 
 &nbsp;
 
@@ -63,15 +63,15 @@ Buch: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009,
 
 
  <br/>[2]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64966
- <br/>[3]: http://www.bluej.org/objects-first/resources/projects.zip
+ <br/>[3]: https://www.bluej.org/objects-first/resources/projects.zip
  <br/>[4]: # "Grading Scale"
- <br/>[5]: http://www.f4.htw-berlin.de/%7Eweberwu/info1 "Link: Info1 von Debbie"
+ <br/>[5]: https://www.f4.htw-berlin.de/%7Eweberwu/info1 "Link: Info1 von Debbie"
  <br/>[7]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64966 "Info 1 <br/>SU"
  <br/>[8]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=64871 "Info 1 <br/>Labor"
  <br/>[9]: #
- <br/>[10]: http://www.f4.htw-berlin.de/~weberwu/info1/links.shtml
- <br/>[11]: http://download.oracle.com/javase/tutorial/
- <br/>[12]: http://download.oracle.com/javase/tutorial/java/
+ <br/>[10]: https://www.f4.htw-berlin.de/~weberwu/info1/links.shtml
+ <br/>[11]: https://download.oracle.com/javase/tutorial/
+ <br/>[12]: https://download.oracle.com/javase/tutorial/java/
  <br/>[13]:
  <br/>[14]:
  <br/>[15]: "Info1 Additional Lab Notes"

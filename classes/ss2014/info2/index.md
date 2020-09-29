@@ -31,7 +31,7 @@ The class consists of 2x2h of lectures and 2h of lab:
 * Tutorial:
   * Donnerstags, 15:45-17:15 in WHC 576 - Alexander Becker
   * Alexander.Becker@student.HTW-Berlin.de
-  * [http://home.htw-berlin.de/~s0533351/](http://home.htw-berlin.de/~s0533351/)
+  * [https://home.htw-berlin.de/~s0533351/](https://home.htw-berlin.de/~s0533351/)
 
 ## Grades
 

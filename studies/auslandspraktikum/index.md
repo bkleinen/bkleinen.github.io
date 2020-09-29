@@ -4,10 +4,10 @@ author: kleinen
 layout: default
 ---
 
-I'm on research leave during Summer Term 2019. [Prof. Jung](http://home.htw-berlin.de/~jungk/) is the Praktikumsbeauftragter during this term.
+I'm on research leave during Summer Term 2019. [Prof. Jung](https://home.htw-berlin.de/~jungk/) is the Praktikumsbeauftragter during this term.
 
 Alle Informationen zum Praktikum finden Sie auf der
-[Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
+[Praktikumsseite auf der Studiengangswebseite](https://imi-bachelor.htw-berlin.de/studium/praktikum/)
 
 {% comment %}
 Ich bin der IMI-Praktikumsbeauftragte, d.h. für alle Fragen rund ums Praktikum
@@ -16,7 +16,7 @@ der Praktikumsplatz geeignet ist und alle notwendigen Vorraussetzungen erfüllt 
 sowie die Anerkennung des Praktikums nach Abgabe von Bericht und Bestätigung der Firma.
 
 Alle Informationen zum Praktikum finden Sie auf der
-[Praktikumsseite auf der Studiengangswebseite](http://imi-bachelor.htw-berlin.de/studium/praktikum/)
+[Praktikumsseite auf der Studiengangswebseite](https://imi-bachelor.htw-berlin.de/studium/praktikum/)
 
  Wenn Sie nach dem Lesen dieser Seite Fragen haben - die ja dann meist individuell sind -
 kommen Sie bitte in meine Sprechstunde, da lassen sich die meisten Dinge viel schneller

@@ -6,7 +6,7 @@ layout: page
 
 The German ''Gesellschaft für Informatik'' published Ethical Guidelines
 in 1994 that were updated in 2004. They are available online at
-http://fg-ie.gi.de/ethische-leitlinien.html.
+https://fg-ie.gi.de/ethische-leitlinien.html.
 
 We will first have a closer look at the Ethical Guidelines, and then
 in groups of 3-4 persons you will choose one of the scenarios to

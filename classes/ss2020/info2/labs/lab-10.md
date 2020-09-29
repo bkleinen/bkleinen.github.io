@@ -70,7 +70,7 @@ means that there is an edge from 060049202852 to 060049201862 with weight 90, th
 
 You find the station names in [stations.txt](../lab-10-data/stations.txt)
 
-The graph data was extracted from the GTFS-Data provided at [http://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html](http://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html) using the rails app [https://github.com/bkleinen/bvg-graph](https://github.com/bkleinen/bvg-graph)
+The graph data was extracted from the GTFS-Data provided at [https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html](https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html) using the rails app [https://github.com/bkleinen/bvg-graph](https://github.com/bkleinen/bvg-graph)
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.

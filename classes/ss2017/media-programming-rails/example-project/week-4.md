@@ -57,4 +57,4 @@ login. See the commit [access restricted ](https://github.com/media-programming-
 
 ## Reading for next week
 
-* [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html)
+* [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html)

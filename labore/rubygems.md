@@ -12,7 +12,7 @@ layout: page
 
 ## RVM
 
-* siehe http://rvm.io
+* siehe https://rvm.io
 
 
 
@@ -38,7 +38,7 @@ man kann sich auch automatisch eine .ruby-version und .ruby-gemset datei generie
     rails new myApp               # erzeugt rails app und installiert gems; "myApp" ist der name der app
     cd myApp/
     rails server                   # started rails server, in anderer shell:
-    open http://localhost:3000
+    open https://localhost:3000
 
 
 Dann müsste man die "Welcome Aboard" - Seite von Rails angezeigt bekommen. Natürlich müssen alle scripte ohne Fehler durchlaufen!

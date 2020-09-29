@@ -19,7 +19,7 @@ layout: default
 ## Gelegentlich
 
 * Logos und Folien im HTW-Design: [https://corporatedesign.htw-berlin.de/logos/](https://corporatedesign.htw-berlin.de/logos/)
-* [Speiseplan der Mensa](http://www.studentenwerk-berlin.de/mensen/speiseplan/htw_wilhelminenhof/index.html)
+* [Speiseplan der Mensa](https://www.studentenwerk-berlin.de/mensen/speiseplan/htw_wilhelminenhof/index.html)
 * Gastzugänge Wifi [https://account.htw-berlin.de/guestwifi/index](https://account.htw-berlin.de/guestwifi/index)
 * Account / Email bearbeiten: [https://account.htw-berlin.de/](https://account.htw-berlin.de/)
 * VPN Anleitung: [https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index](https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index)
@@ -27,7 +27,7 @@ layout: default
 
 ## Bibliothek
 
-* [Bibliothek](http://bibliothek.htw-berlin.de)
+* [Bibliothek](https://bibliothek.htw-berlin.de)
     * [Opac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
     * [Login](https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin)
     * [Verlängern & Suchen: WebOpac](https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&SEARCHType=2&BaseURL=this)
@@ -40,7 +40,7 @@ layout: default
 
 ## Webseite des Studiengangs Bearbeiten
 
-* Direkter Link: [http://berndcms.htw-berlin.de/typo3](http://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
+* Direkter Link: [https://berndcms.htw-berlin.de/typo3](https://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
 * TYPO3 hat ein eigenes Passwort das innerhalb von Typo3 geändert werden kann
 * Zugriff beantragen: https://portal.rz.htw-berlin.de/account/Typo3/
 * Anleitungen (inkl. Link zum CMS:) [https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin](https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin)

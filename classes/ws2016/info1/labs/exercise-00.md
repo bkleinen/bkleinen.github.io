@@ -7,7 +7,7 @@ layout: lab
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 576 and WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems.
 
-We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find an overview of them including a link to the rules ("Laborordnung") [here](http://imi-bachelor.htw-berlin.de/studium/labore/).
+We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find an overview of them including a link to the rules ("Laborordnung") [here](https://imi-bachelor.htw-berlin.de/studium/labore/).
 
 Two really important rules are:
 
@@ -27,9 +27,9 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ### Download and Install Greenfoot and BlueJ:
 
-* Download and install Greenfoot as described on their page: http://www.greenfoot.org/download - the most convenient way will be to install the dedicated version for your operating system.
+* Download and install Greenfoot as described on their page: https://www.greenfoot.org/download - the most convenient way will be to install the dedicated version for your operating system.
 
-* Download and install BlueJ as described on the BlueJ page: http://bluej.org. You will need BlueJ starting with Lab 02.
+* Download and install BlueJ as described on the BlueJ page: https://bluej.org. You will need BlueJ starting with Lab 02.
 
 * If you want to save space, you can download and install Java and the pure Java Versions of Greenfoot and BlueJ. This is a tad more complicated. Follow the instructions on the Greenfoot and BlueJ site. 
 
@@ -62,8 +62,8 @@ Note down the steps you've taken, including those that failed. Read through the 
 2. How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click
     on the reset or compile buttons?
 
-If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](http://code.makery.ch/library/greenfoot-kara/).
-- it's also available [in german](http://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the
+If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](https://code.makery.ch/library/greenfoot-kara/).
+- it's also available [in german](https://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the
 assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on
 an older version of the tutorial.
 

@@ -13,7 +13,7 @@ layout: lab
 
 * What is the mathematical formula for finding the midpoint of a line segment that connects two Points?
 * What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?
-* Briefly describe what a <a href="http://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski Triangle</a> is.
+* Briefly describe what a <a href="https://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski Triangle</a> is.
 
 
 ## Assignment
@@ -24,12 +24,12 @@ layout: lab
 3. Expand your triangle drawing algorithm to draw in a specific color. Choose a different color for every level of the algorithm.
 4. Fill the middle triangle on each step with an appropriate color. Choose the size of the first triangle depending on what size the window is. Redraw the triangle when the window is resized.
 5. (For the bored) Start a new project with a drawing Window and draw a square in the bottom left-hand quadrant of your window. Now draw one square that is half the size on top and left-justified and one to the right of the square and bottom-justified. And for each of these half-size boxes, put two more boxes half their size on top and to the right. This is recursion - what is your measure? What is the termination condition? What is the depth of the recursion? Put a screen shot in your report!
-6. (For the really bored) Look up the [Sierpinski Carpet](http://en.wikipedia.org/wiki/Sierpinski_carpet) on the Wikipedia - I think the code is not quite right. What goes wrong? Can you fill the screen with a multicolored Sierpinski Carpet?
+6. (For the really bored) Look up the [Sierpinski Carpet](https://en.wikipedia.org/wiki/Sierpinski_carpet) on the Wikipedia - I think the code is not quite right. What goes wrong? Can you fill the screen with a multicolored Sierpinski Carpet?
 7. (For the extremely bored) Look up some fractal algorithms - are they all recursive? Can you program any of them yourself (i.e. not using Copy & Paste on the code you find on the Internet).
 
 * * *
 
-From [http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27)
+From [https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27)
 
     > Q. Do you know what iteration means?
     > A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and     over...

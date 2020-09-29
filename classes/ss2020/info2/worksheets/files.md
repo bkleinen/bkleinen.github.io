@@ -14,7 +14,7 @@ a String in Java be?
    Write down a program for determining the maximum String size.
 3. Implement the Program. How big can the String be? How long does it take to run?
 4. How do you influence the Heap size of your java virtual machine?
-4. Inspect the memory usage of your program using [Java VisualVM](http://docs.oracle.com/javase/7/docs/technotes/guides/visualvm/intro.html)
+4. Inspect the memory usage of your program using [Java VisualVM](https://docs.oracle.com/javase/7/docs/technotes/guides/visualvm/intro.html)
 
 # B. NIO Classes and Interfaces
 

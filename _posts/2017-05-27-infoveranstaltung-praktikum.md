@@ -31,4 +31,4 @@ Alles was wir hier beantworten, muss ich nicht einzeln später beantworten.
 
 Prof. B. Kleinen, Praktikumsbeauftragter IMI
 
-[http://bkleinen.github.io/studies/auslandspraktikum/](http://bkleinen.github.io/studies/auslandspraktikum/)
+[https://bkleinen.github.io/studies/auslandspraktikum/](https://bkleinen.github.io/studies/auslandspraktikum/)

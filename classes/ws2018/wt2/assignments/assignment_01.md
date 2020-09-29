@@ -16,7 +16,7 @@ Read these articles, summarize them and upload your summary to moodle:
 
 * [Main Article: 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 * All Individual Heuristic Articles linked from the Main Article.
-* [Examples of the 10 heuristics in Web applications](http://designingwebinterfaces.com/6-tips-for-a-great-flex-ux-part-5)
+* [Examples of the 10 heuristics in Web applications](https://designingwebinterfaces.com/6-tips-for-a-great-flex-ux-part-5)
 * Jakob Nielsen and Rolf Molich. 1990. Heuristic evaluation of user interfaces. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '90), Jane Carrasco Chew and John Whiteside (Eds.). ACM, New York, NY, USA, 249-256. (Moodle)
 
 ## Assignment01 / A: Heuristic Evaluation

@@ -48,7 +48,7 @@ adhere to the grammar and spelling rules of the respective language.
 
 ## Course Literature
 
-[Berners-Lee, Tim (March 1989). "Information Management: A Proposal". World Wide Web Consortium. ](http://www.w3.org/History/1989/proposal.html)
+[Berners-Lee, Tim (March 1989). "Information Management: A Proposal". World Wide Web Consortium. ](https://www.w3.org/History/1989/proposal.html)
 
 ... and more to come
 

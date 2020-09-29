@@ -32,7 +32,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
     public Book (String title, double price){ }
 
-If you will be using your own laptop in the lab, please install [BlueJ](http://www.bluej.org/) before you come to lab. [BlueJ](http://www.bluej.org/) is available for all platforms - it's Java!
+If you will be using your own laptop in the lab, please install [BlueJ](https://www.bluej.org/) before you come to lab. [BlueJ](https://www.bluej.org/) is available for all platforms - it's Java!
 
 ## Post-Lab, AKA What To Turn In
 
@@ -79,7 +79,7 @@ You will be doing your writeup at home or in the lab if time permits. Use the no
 
 * * *
 
-Adapted from [http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml](http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
+Adapted from [https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml](https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
 
 [1]: https://github.com/htw-imi-info1/exercise02-ws2016
 [2]: https://github.com/htw-imi-info1/exercise02-ws2016/zipball/master

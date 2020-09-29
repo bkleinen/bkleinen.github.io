@@ -34,7 +34,7 @@ Don't execute this, just write down your expectations.
 **P4.** What about the following version?
 `System.out.println("# price cents.");`
 
-If you will be using your own laptop in the lab, please install [BlueJ](http://www.bluej.org/) before you come to lab. [BlueJ](http://www.bluej.org/) is available for all platforms - it's Java!
+If you will be using your own laptop in the lab, please install [BlueJ](https://www.bluej.org/) before you come to lab. [BlueJ](https://www.bluej.org/) is available for all platforms - it's Java!
 
 ## Post-Lab, AKA What To Turn In
 

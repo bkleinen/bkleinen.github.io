@@ -18,7 +18,7 @@ In this exercise you will develop a detailed Scenario for a Use Case, and draw a
 #### Halloween Treats Worldwide
 
 ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
-<small class = "float-right">Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)</small>
+<small class = "float-right">Foto by [Pedro J. Ferreira](https://www.flickr.com/photos/pedroferrer/3615212504)</small>
 
 Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats. 
 The product manager has asked you to design and develop the platform for their business.
@@ -101,7 +101,7 @@ https://www.flickr.com/photos/smemon/12698012964/
 
 ### Part 2: Class Diagram
 
-Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](http://www.agilemodeling.com/artifacts/classDiagram.htm).
+Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](https://www.agilemodeling.com/artifacts/classDiagram.htm).
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
@@ -114,5 +114,5 @@ More info on the [Labs](index) page.
 Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
 [2]: https://msdn.microsoft.com/en-us/library/dd409427.aspx
-[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
-[4]: http://www.f4.htw-berlin.de/~weberwu/
+[3]: https://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
+[4]: https://www.f4.htw-berlin.de/~weberwu/

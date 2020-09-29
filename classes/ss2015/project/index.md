@@ -11,7 +11,7 @@ layout: page
 <span style="font-weight: bold">Projekt Goal:</span> Develop a Web & Mobile App to plan little explorations either
 by foot, bike or car including pre-selected locations or locations suggested by peers.
 
-Offered as a (Praxisprojekt for IMI Bachelors)[http://imi-bachelor.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2015//]. See the scenarios and
+Offered as a (Praxisprojekt for IMI Bachelors)[https://imi-bachelor.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2015//]. See the scenarios and
 user stories below for a rough idea what the apps should support.
 
 Scenarios
@@ -73,23 +73,23 @@ Similar or possibly useful projects
 -----------------------------------------------------------------
 
 ### Some Possible Data Sources
-* [Wikipedia](https://wikipedia.de) contains articels about many locations, including countries, [cities](http://de.wikipedia.org/wiki/Berlin), villages, sights or special buildings.
+* [Wikipedia](https://wikipedia.de) contains articels about many locations, including countries, [cities](https://de.wikipedia.org/wiki/Berlin), villages, sights or special buildings.
 
-* [WIWOSM on Wikimedia Tool Labs](http://wiki.openstreetmap.org/wiki/WIWOSM) "WIWOSM (Wikipedia where in OSM) is a project to show for a Wikipedia article geometric objects from OpenStreetMap. These objects have a matching wikipedia=* tag. The usage of WIWOSM will be primarily at maps inside Wikipedia (OSM-Gadget and WikiMiniAtlas). (Still moving from Toolserver.)"
+* [WIWOSM on Wikimedia Tool Labs](https://wiki.openstreetmap.org/wiki/WIWOSM) "WIWOSM (Wikipedia where in OSM) is a project to show for a Wikipedia article geometric objects from OpenStreetMap. These objects have a matching wikipedia=* tag. The usage of WIWOSM will be primarily at maps inside Wikipedia (OSM-Gadget and WikiMiniAtlas). (Still moving from Toolserver.)"
 
-* [Geocaching](http://en.wikipedia.org/wiki/Geocaching) - one of the first [location based games](http://de.wikipedia.org/wiki/Location-based_Game); Geocaches could be a place to visit by themselves but also point to interesting places to visit, e.g. [Lost Places](http://de.wikipedia.org/wiki/Lost_Place).
+* [Geocaching](https://en.wikipedia.org/wiki/Geocaching) - one of the first [location based games](https://de.wikipedia.org/wiki/Location-based_Game); Geocaches could be a place to visit by themselves but also point to interesting places to visit, e.g. [Lost Places](https://de.wikipedia.org/wiki/Lost_Place).
 
-* [Wikitravel](http://wikitravel.org/en/Main_Page) - a crowdsourced worldwide travel guide that seems to lack maps.
+* [Wikitravel](https://wikitravel.org/en/Main_Page) - a crowdsourced worldwide travel guide that seems to lack maps.
 
 ### Some Related Projects/Sites
 
-* [Komoot](https://www.komoot.de/), [Vodafone Blog Article about Komoot(german)](http://blog.vodafone.de/lifestyle/komoot-outoor-touren-fuer-abenteurer/) supports planning tours and has user generated "Highlights". Users can follow each other, and share their "adventures" with other users. Sharing some ideas with the "Treasure Map" project idea, it focuses on outdoor hiking and cycling and does not allow to import location data from other sources.
+* [Komoot](https://www.komoot.de/), [Vodafone Blog Article about Komoot(german)](https://blog.vodafone.de/lifestyle/komoot-outoor-touren-fuer-abenteurer/) supports planning tours and has user generated "Highlights". Users can follow each other, and share their "adventures" with other users. Sharing some ideas with the "Treasure Map" project idea, it focuses on outdoor hiking and cycling and does not allow to import location data from other sources.
 
-* [GPSies](http://www.gpsies.com) - a site and mobile apps to share hiking, running and cycling routes
+* [GPSies](https://www.gpsies.com) - a site and mobile apps to share hiking, running and cycling routes
 
 * [Foursquare](https://foursquare.com) Provides crowdsourced information about different kinds of places, mostly urban (Food, Outdoors, Shopping, Coffee, Nightlife, Entertainment) Its former functionality to share your current location with peers has been moved to a seperate app, called [Swarm](https://de.swarmapp.com), which still enables Foursquare to show wich peers have visited a certain location.
 
-* [Tripadvisor](http://www.tripadvisor.de), is a plattform containing user-generated trip reviews, but also information about "Attractions"
+* [Tripadvisor](https://www.tripadvisor.de), is a plattform containing user-generated trip reviews, but also information about "Attractions"
 
 ### Not related
-* [NSA Treasuremap](http://www.spiegel.de/netzwelt/netzpolitik/nsa-wie-der-geheimdienst-mit-dem-system-treasuremap-daten-sammelt-a-991496.html#)
+* [NSA Treasuremap](https://www.spiegel.de/netzwelt/netzpolitik/nsa-wie-der-geheimdienst-mit-dem-system-treasuremap-daten-sammelt-a-991496.html#)

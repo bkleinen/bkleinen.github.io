@@ -6,7 +6,7 @@ layout: lab
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems.
 
-We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find an overview of them including a link to the rules ("Laborordnung") [here](http://imi-bachelor.htw-berlin.de/studium/labore/).
+We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find an overview of them including a link to the rules ("Laborordnung") [here](https://imi-bachelor.htw-berlin.de/studium/labore/).
 
 Two really important rules are:
 
@@ -26,7 +26,7 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ### Download and Install BlueJ:
 
-* Download and install BlueJ as described on the BlueJ page: [http://bluej.org](http://bluej.org).
+* Download and install BlueJ as described on the BlueJ page: [https://bluej.org](https://bluej.org).
 
 * If you want to save space, you can download and install Java and the pure Java Versions of Greenfoot and BlueJ. This is a tad more complicated. Follow the instructions on the Greenfoot and BlueJ site.
 

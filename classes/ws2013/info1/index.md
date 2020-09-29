@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) | [Github](http://github.com/htw-imi-info1)
+[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) | [Github](https://github.com/htw-imi-info1)
 
 # Welcome!
 
@@ -38,20 +38,20 @@ There will be a 2-hour online examination on or about Feb 11. We will have 2 shi
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
-* [Alexander Becker](http://bobafett2000.de), Time and Place TBA
+* [Alexander Becker](https://bobafett2000.de), Time and Place TBA
 
 ## Java-Tutorials and Book
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
-German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](http://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
+German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
 
 
 There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7];** especially the [Trail &#8220;Learning the Java Language&#8221;][8]. **
 
 
- [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/
+ [7]: https://download.oracle.com/javase/tutorial/
+ [8]: https://download.oracle.com/javase/tutorial/java/
 
 ## Important Links and further Information
 

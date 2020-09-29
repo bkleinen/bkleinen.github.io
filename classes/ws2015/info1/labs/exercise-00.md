@@ -7,7 +7,7 @@ layout: lab
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. Each computer in WH C 576 and WH C 579 is a so-called dual-boot computer that can boot to Windows or Ubuntu Linux, or Mac OS in WH C 537. As computer science students we expect you to be able to deal with Windows, Unix, and Mac OS operating systems. For this lab, you can work with Mac OS or Windows.
 
-We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find [an overview in the menu](http://imi-bachelor.htw-berlin.de/studium/labore/) as well as the [Laborordnung](http://imi-bachelor.htw-berlin.de/studium/labore/).
+We have lots of rules for the labs, as they are used by many different people during the week. Usually we're in one of three available labs, you find [an overview in the menu](https://imi-bachelor.htw-berlin.de/studium/labore/) as well as the [Laborordnung](https://imi-bachelor.htw-berlin.de/studium/labore/).
 
 Two really important rules are:
 
@@ -41,7 +41,7 @@ After you have logged in, look around - where do you find a browser? How many br
  *  The scenarios will hold the files you might want to save/backup or turn in as part of your exercise.
  *  if you install it on the lab pc, use the "Pure Java" version, as it does not require any modifications to the machine configuration and java is already installed on the machine.
  *  if you want to install it on your own computer, you also need Java in case you haven't installed it yet. Follow the "Download JDK" button on the greenfoot download page, then install Greenfoot.
- *  The download page can be found at: [http://www.greenfoot.org/download](http://www.greenfoot.org/download)
+ *  The download page can be found at: [https://www.greenfoot.org/download](https://www.greenfoot.org/download)
  *  Then download the first kara scenario from [github][1] (there is a "ZIP" Button!) and unpack it in your scenarios folder. Then open Greenfoot and open the scenario - now you can play around with Kara! For this first exercise, there is no special programming assignment. But you could create a second Kara, try to make it permanent by finding the "save the world" menu item or even modify the act() method within MyKara.
 
 ### 4. Take a Photo and Write Something about Your Team Members

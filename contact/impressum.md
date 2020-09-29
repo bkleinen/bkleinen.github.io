@@ -6,8 +6,8 @@ layout: page
 
 Diese Seite dient der Information meiner Studierenden über Kurse und generell
 Organisation ihres Studiums. Sie verwendet keine Cookies und speichert über
-die Informationen, die die jeweiligen Webserver unter http://home.htw-berlin.de
-und http://github.com für den Mirror unter http://bkleinen.github.io als
+die Informationen, die die jeweiligen Webserver unter https://home.htw-berlin.de
+und https://github.com für den Mirror unter https://bkleinen.github.io als
 übliche Serverlogs speichern, keine Informationen. Weitere Informationen finden
 Sie in der [Datenschutzerklärung](../datenschutzerklaerung).
 

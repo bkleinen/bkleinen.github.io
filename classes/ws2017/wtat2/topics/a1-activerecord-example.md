@@ -106,7 +106,7 @@ See commit [S003: adapted event index for students](https://github.com/htw-imi-w
 The paper sketch reveals that when an event is created, the corresponding planning state should also be created. The Values should be shown and editable on the event page.
 
 Thus, the form on the new event page needs to send both attributes for the new event as for the new
-planning_state. This is documented in [http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) and
+planning_state. This is documented in [https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html](https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) and
 [https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for](https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for).
 
 See commit [S001: planning state can be edited and is shown on the event page](https://github.com/htw-imi-wtat2/IMICalendar/commit/003f62fb43a8794f7b4c4baf17970a800ce26308)

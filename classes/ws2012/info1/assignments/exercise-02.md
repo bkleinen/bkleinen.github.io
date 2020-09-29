@@ -72,7 +72,7 @@ layout: page
   </blockquote>
   
   <p>
-    If you will be using your own laptop in the lab, please install BlueJ before you come to lab. <a href="http://www.bluej.org/download/download.html">Downloads</a> are available for all platforms &#8211; it&#8217;s Java!
+    If you will be using your own laptop in the lab, please install BlueJ before you come to lab. <a href="https://www.bluej.org/download/download.html">Downloads</a> are available for all platforms &#8211; it&#8217;s Java!
   </p>
 </div>
 
@@ -127,7 +127,7 @@ AKA What To Turn In
   <hr />
   
   <p>
-    Adapted from <a href="http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml" rel="nofollow">http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml</a> , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
+    Adapted from <a href="https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml" rel="nofollow">https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml</a> , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
   </p>
 </div>
 

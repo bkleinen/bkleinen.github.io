@@ -34,5 +34,5 @@ Source code for this exercise: [https://github.com/htw-imi-info3/lab-08-blackwhi
 Submit your Report as PDF to moodle.
 
 
-[1]: http://en.wikipedia.org/wiki/Black_box_testing
-[2]: http://en.wikipedia.org/wiki/White_box_testing
+[1]: https://en.wikipedia.org/wiki/Black_box_testing
+[2]: https://en.wikipedia.org/wiki/White_box_testing

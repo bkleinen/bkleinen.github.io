@@ -7,7 +7,7 @@ layout: page
 ## Welcome!
 
 Informatics 1 is an introduction to object-oriented programming using the Java
-language. In this class we will be using  [BlueJ](http://bluej.org/) as development environment.
+language. In this class we will be using  [BlueJ](https://bluej.org/) as development environment.
 You will learn about writing programs, designing simple algorithms, about
 control structures, data types and structures, objects and classes.
 
@@ -63,8 +63,8 @@ There are copies available in the library, and you can also obtain an older edit
 There are many Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8], as they are very concise and comprehensive.
 
 
- [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/
+ [7]: https://download.oracle.com/javase/tutorial/
+ [8]: https://download.oracle.com/javase/tutorial/java/
 
 ## Important Links and Further Information
 

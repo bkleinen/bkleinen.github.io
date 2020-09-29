@@ -11,7 +11,7 @@ Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
 
 ## Pre-Lab
 
-1. Review the rules of [Scrabble](http://en.wikipedia.org/wiki/Scrabble), if you have never played it before.
+1. Review the rules of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), if you have never played it before.
 1. What was a permutation?
 1. What would a normalization function for different permutations of characters words look like? That is, "JAVA" and "VAJA" are permutations, what would a normalized permutation look like?
 1. How do you determine if two strings are permutations of each other?

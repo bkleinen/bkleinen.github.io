@@ -43,6 +43,6 @@ Here's the backlog of the project "Habits:"
 ## 3. work through the "getting started with rails"-guide
 At least read through the Getting Started Guide. You can and should, however, try to start
 to develop your application following the guide.
-* [Getting started with Rails](http://guides.rubyonrails.org/getting_started.html)
+* [Getting started with Rails](https://guides.rubyonrails.org/getting_started.html)
 
 There is nothing to turn in this week. 

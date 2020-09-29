@@ -38,7 +38,7 @@ You can then access the array, for example, using a value of character type: som
         B : *****
         C : ******
 
-7. Try out your program with a big file, eg. the 3M english news file from the [Leipzig Corpora Collection](http://wortschatz.uni-leipzig.de/en/download): look for eng_news_2015_3M.tar.gz and read the file eng_news_2015_3M/eng_news_2015_3M-sentences.txt. 
+7. Try out your program with a big file, eg. the 3M english news file from the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download): look for eng_news_2015_3M.tar.gz and read the file eng_news_2015_3M/eng_news_2015_3M-sentences.txt. 
 
 ## For the bored
 

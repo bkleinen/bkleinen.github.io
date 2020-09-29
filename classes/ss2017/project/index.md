@@ -8,7 +8,7 @@ redirect_from: project/
 ![IMI-Map](./images/imi-map.jpg)
 <br/><small class = "float-right">IMI-Map Screenshot</small>
 
-Die [IMI-Map](http://imi-map.f4.htw-berlin.de/) wurde als Praxisprojekt im Sommersemester 2013 entwickelt.
+Die [IMI-Map](https://imi-map.f4.htw-berlin.de/) wurde als Praxisprojekt im Sommersemester 2013 entwickelt.
 Sie ist in einen Bereich für Studierende und einen Bereich für die Administration der Praktika aufgeteilt.
 
 Studierenden sollte sie die Möglichkeit bieten, nach vergangengen Praktika zu recherchieren sowie sich

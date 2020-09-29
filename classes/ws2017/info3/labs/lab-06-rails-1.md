@@ -5,7 +5,7 @@ layout: page
 ---
 
  ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
-<br>Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
+<br>Foto by [Pedro J. Ferreira](https://www.flickr.com/photos/pedroferrer/3615212504)
 
 <div class="alert alert-warning" role="alert">
 
@@ -20,8 +20,8 @@ bkleinen.github.io</a>
 0. The Base Repo (referred to as main repository below) for this Lab is the HTW Application we've developed in class, see
     [https://github.com/htw-imi-info3/rails-dash-ws2017](https://github.com/htw-imi-info3/rails-dash-ws2017) - first fork it on github (only one person in your team needs to do this) and then clone it to your local workspace (computer).
 1. Read through two Rails Guides:
-    1. [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
-    2. [Association Basics](http://guides.rubyonrails.org/association_basics.html)
+    1. [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)
+    2. [Association Basics](https://guides.rubyonrails.org/association_basics.html)
 
 # Assignment
 
@@ -33,7 +33,7 @@ development or test database. Instead, you should have scripts that generate and
 For tests, you would do that with a gem called [Factory Bot](https://github.com/thoughtbot/factory_bot_rails).
 
 To set up nice test data for Development, we use the built-in seed task,
-see the [Migrations guide](http://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data).
+see the [Migrations guide](https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data).
 
 I've modified the file to include all seed data in the folder db/seeds.
 
@@ -60,7 +60,7 @@ As others will be doing the same, you might want to pull in the pumpkins of the 
 ## Part 1: Show the Customer with it's Name on Order pages
 
 We've set up the 1:n association between Customer and Order, and the associated
-Customer is shown on the [Order#index](http://localhost:3000/orders) and the [order#show](http://localhost:3000/orders/1) page, but currently with
+Customer is shown on the [Order#index](https://localhost:3000/orders) and the [order#show](https://localhost:3000/orders/1) page, but currently with
 the object id. On these two pages, show the associated customer with it's name.
 
 Note that this includes database accesses. What should be done where?
@@ -68,7 +68,7 @@ Note that this includes database accesses. What should be done where?
 ## Part 2: Show all orders for a customer
 
 Add a list of all orders placed by the customer on the page that [shows a single
-customer](http://localhost:3000/customers/1). Hint: there is already a template showing a list of orders in
+customer](https://localhost:3000/customers/1). Hint: there is already a template showing a list of orders in
 orders#index. You can copy and use/modify that. As the order doesn't contain any
 data itself, you could just show the created_at date.
 

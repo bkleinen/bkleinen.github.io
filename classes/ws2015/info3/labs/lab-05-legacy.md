@@ -6,7 +6,7 @@ layout: page
 
 
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
-<small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](http://www.wowwiki.com/Gilded_Rose)</small>
+<small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://www.wowwiki.com/Gilded_Rose)</small>
 
 ## Assignment: Gilded Rose Kata
 
@@ -31,7 +31,7 @@ First, you need to install the Software and run the tests.
 Download and Install the source code for this exercise. Upon request, you can do this exercise either in Ruby or in Java. (Or both).
 In any case, you should have a look at the provided tests in both versions:
 
-* the Java Version uses [Parameterized Tests](http://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
+* the Java Version uses [Parameterized Tests](https://junit.sourceforge.net/javadoc_40/org/junit/runners/Parameterized.html) that makes the individual test cases very compact.
 
 In both cases, you'll need to use a code coverage tool to make sure you have all
 branches covered with your tests.
@@ -46,11 +46,11 @@ Bundler will install simplecov. After running rspec, you'll find the html covera
 
 #### Java Version
 
-I did the java version using Eclipse and [ECLEmma](http://eclemma.org/)
+I did the java version using Eclipse and [ECLEmma](https://eclemma.org/)
 as a code coverage tool. In Eclipse, use Help->Install new software with to install
 it. Copy this update site url into the box:
 
-    http://update.eclemma.org/
+    https://update.eclemma.org/
 
 If you prefer to use another ide & code coverage tool, you can of course do so.
 

@@ -48,4 +48,4 @@ in earlier.
 7.  (for the bored): Add at least two specialized Items to the game, using inheritance. For instance, add Food, Weapons and Clothing in a classical Role-Playing-Game. Each of these specializations (Subclasses) should have at least one special field.
 
 
- [1]: http://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
+ [1]: https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html

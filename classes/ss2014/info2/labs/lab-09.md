@@ -42,4 +42,4 @@ How many lines of code did you write for each class? Record this statistic in yo
 
 ----
 
-based on [Exercise 13](http://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW
+based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW

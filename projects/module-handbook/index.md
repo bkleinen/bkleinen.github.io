@@ -13,7 +13,7 @@ in the context of (this would state the project)
 
 ### Staging Server
 
-[Staging Server on Heroku](http://module-handbook.herokuapp.com/)
+[Staging Server on Heroku](https://module-handbook.herokuapp.com/)
 
 Please collect Issues[ as Github Issues](https://github.com/bkleinen/module-handbook/issues)
 

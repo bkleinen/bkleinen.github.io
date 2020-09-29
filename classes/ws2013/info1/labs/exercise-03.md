@@ -93,6 +93,6 @@ Submit your writeup as your post-lab to the Moodle area.
 
 * * *
 
-Foto by [Abhi Sharma](http://www.flickr.com/photos/abee5/8314929977/)
+Foto by [Abhi Sharma](https://www.flickr.com/photos/abee5/8314929977/)
 
-Exercise Adapted from http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab1.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
+Exercise Adapted from https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab1.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009

@@ -8,7 +8,7 @@ layout: page
 </p>
 
 <p class="fhtw-black-type">
-  We have lots of rules for the labs, as they are used by many different people during the week. This term we will be in the <a href="http://imi-bachelor.htw-berlin.de/studium/labore/game-technology-interactive-systems/">Game Technology & Interactive Systems Lab</a> &#8211; please read the <a href="http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/FB/FB4/FB4_Rahmenlaborordnung.pdf">Laborordnung</a>.
+  We have lots of rules for the labs, as they are used by many different people during the week. This term we will be in the <a href="https://imi-bachelor.htw-berlin.de/studium/labore/game-technology-interactive-systems/">Game Technology & Interactive Systems Lab</a> &#8211; please read the <a href="https://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/FB/FB4/FB4_Rahmenlaborordnung.pdf">Laborordnung</a>.
 </p>
 
 <p class="fhtw-black-type">
@@ -68,7 +68,7 @@ layout: page
 *   The scenarios will hold the files you might want to save/backup or turn in as part of your exercise.
 *   if you install it on the lab pc, use the &#8220;Pure Java&#8221; version, as it does not require any modifications to the machine configuration and java is already installed on the machine.
 *   if you want to install it on your own computer, you also need java. If you don&#8217;t have it yet, follow the &#8220;Download JDK&#8221; button on the greenfoot download page, then install Greenfoot.
-*   The download page can be found at: <a href="http://www.greenfoot.org/download" rel="nofollow">http://www.greenfoot.org/download</a>
+*   The download page can be found at: <a href="https://www.greenfoot.org/download" rel="nofollow">https://www.greenfoot.org/download</a>
 *   Then download the first kara scenario from [github][1] (there is a &#8220;ZIP&#8221; Button!) and unpack it in your scenarios folder. Then open Greenfoot and open the scenario &#8211; now you can play around with Kara!
 
 <h2 class="fhtw-new-style">

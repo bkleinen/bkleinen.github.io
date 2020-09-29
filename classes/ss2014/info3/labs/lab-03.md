@@ -7,13 +7,13 @@ layout: page
 
 
 ![Machine](../../images/machine.jpg "machine")
-Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)
+Foto by [Jeff Kubina](https://www.flickr.com/photos/kubina/278696130)
 
 
 # Pre-Lab
 ## Git & GitHub
 
-* [Git](http://git-scm.com/) is the state-of-the-art Source Code Management Tool. Install the command line client for your platform, and maybe also a GUI Client, [which can all be found here](http://git-scm.com/download/).
+* [Git](https://git-scm.com/) is the state-of-the-art Source Code Management Tool. Install the command line client for your platform, and maybe also a GUI Client, [which can all be found here](https://git-scm.com/download/).
 * Sign up on [GitHub](https://github.com/) if you haven't already done so. See also
 [Setting up Git](https://help.github.com/articles/set-up-git) from GitHub for a comprehensive documentation.
 * For other projects, you might want to use the HTW [Projekteserver](https://studi.f4.htw-berlin.de/www/) which offers you private repositorys, or any other service offering
@@ -24,7 +24,7 @@ central repositories. Github also offers free private repositories for students.
 
 Please read through this intro to state machines.
 
-* [UML 2 State Machine Diagramming Guidelines](http://www.agilemodeling.com/style/stateChartDiagram.htm)
+* [UML 2 State Machine Diagramming Guidelines](https://www.agilemodeling.com/style/stateChartDiagram.htm)
 
 I will only give a brief intro/Q&A to State Machine Diagrams in the lab.
 
@@ -86,5 +86,5 @@ You can do your writeup as PDF or markdown file, one for each team is sufficient
 
 State Machine Part based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
-[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
-[4]: http://www.f4.htw-berlin.de/~weberwu/
+[3]: https://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
+[4]: https://www.f4.htw-berlin.de/~weberwu/

@@ -25,7 +25,7 @@ based on the tile rack with 7 letters, split them into collections of 7-, then 6
 1. (for the bored) run some performance tests to see if and how much better the Hash-Implementation works.
 1.   (For the bored) Generate your random selection on the Scrabble distribution for English.
 1.   (For the bored) Can you make a perfect hash? Describe how you went about finding a perfect hash for an extra star.
-1.   (For the really bored) Check out http://www.morewords.com and see that you can use wild cards such as "-" for matching any one character and "*" for matching any string. Can you replicate this behavior (even if it is much slower than morewords)?
+1.   (For the really bored) Check out https://www.morewords.com and see that you can use wild cards such as "-" for matching any one character and "*" for matching any string. Can you replicate this behavior (even if it is much slower than morewords)?
 
 Now look back to the shapes exercise last semester - You have come a long way in Java! And you have survived!
 ## Lab Report / What to turn in

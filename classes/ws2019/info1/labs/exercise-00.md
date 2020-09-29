@@ -5,7 +5,7 @@ layout: lab
 ---
 
 
-Welcome to the laboratory - that's what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules ("Laborordnung") [here](http://imi-bachelor.htw-berlin.de/studium/labore/).
+Welcome to the laboratory - that's what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules ("Laborordnung") [here](https://imi-bachelor.htw-berlin.de/studium/labore/).
 
 Two really important rules are:
 
@@ -25,9 +25,9 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ### Download and Install Greenfoot and BlueJ:
 
-* Download and install Greenfoot as described on their page: [http://www.greenfoot.org/download](http://www.greenfoot.org/download).
+* Download and install Greenfoot as described on their page: [https://www.greenfoot.org/download](https://www.greenfoot.org/download).
 
-* Download and install BlueJ as described on the BlueJ page: http://bluej.org. You will need BlueJ starting with Lab 02.
+* Download and install BlueJ as described on the BlueJ page: https://bluej.org. You will need BlueJ starting with Lab 02.
 
 ## Assignment
 
@@ -63,7 +63,7 @@ How are the directions stored, e.g. if Kara faces upwards?
 
 2.   How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click on the reset or compile buttons?
 
-If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](http://code.makery.ch/library/greenfoot-kara/) - it's also available [in german](http://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on an older version of the tutorial.
+If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](https://code.makery.ch/library/greenfoot-kara/) - it's also available [in german](https://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on an older version of the tutorial.
 
 ### 4. Solve one of the exercises.
 

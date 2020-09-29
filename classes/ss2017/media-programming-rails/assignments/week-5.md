@@ -12,7 +12,7 @@ layout: page
 ## AJAX
 
 Find a place where a little bit of JavaScript is useful in your Application. You find a couple
-of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
+of examples in the [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
 
 See my [example project](../example-project/week-5).
 

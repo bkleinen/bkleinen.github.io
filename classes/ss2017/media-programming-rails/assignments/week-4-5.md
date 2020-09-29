@@ -13,7 +13,7 @@ For next week, read about rolling your own authentication in rails:
 Alternatively, you can decide to use a third-party framework like devise, for example devise ;-) for
 authentication:
 * [Plataformatec: devise](https://github.com/plataformatec/devise)
-* [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html)
+* [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html)
 
 ## Authentication /Login & Logout
 ### For hand rolled variant:
@@ -37,7 +37,7 @@ Don't forget to tag your project with week-4
 
 Find a place where a little bit of JavaScript is useful in your Application. It should
 send an asynchronous request to the server which should be handled appropriately and the
-result shown on the page. You find a couple of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
+result shown on the page. You find a couple of examples in the [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
 
 Also, see my [example project](../../example-project/week-5).
 

@@ -26,7 +26,7 @@ Now make the basic Scrabble cheater: construct a 7-letter-word hash dictionary, 
 
 ## Pre-Lab
 
-***P1.*** Review the rules of [Scrabble](http://en.wikipedia.org/wiki/Scrabble), if you have never played it before.
+***P1.*** Review the rules of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), if you have never played it before.
 
 ***P2.*** What is a permutation?
 

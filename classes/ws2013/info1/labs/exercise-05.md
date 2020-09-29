@@ -6,7 +6,7 @@ layout: lab
 
 
 ![Notebook](../../images/notebook-6783298985.jpg)
-<small class = "float-right">Foto by [waferboard](http://www.flickr.com/photos/waferboard/6783298985)</small>
+<small class = "float-right">Foto by [waferboard](https://www.flickr.com/photos/waferboard/6783298985)</small>
 
 This week's lab work is intended help you practice using loops.
 

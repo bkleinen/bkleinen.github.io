@@ -4,8 +4,8 @@ author: kleinen
 layout: lab
 ---
 
-[![Clock](../../images/clock-stockholm-6085686394-320.jpg)](http://www.flickr.com/photos/arjanrichter/6085686394)
-<small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](http://www.flickr.com/photos/arjanrichter/6085686394)</small>
+[![Clock](../../images/clock-stockholm-6085686394-320.jpg)](https://www.flickr.com/photos/arjanrichter/6085686394)
+<small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](https://www.flickr.com/photos/arjanrichter/6085686394)</small>
 
 This week's lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.
 
@@ -27,7 +27,7 @@ I will ask you to show your pre-lab to me at the beginning of the lab.
 </span>
 
 For the Tuesday group: we will be talking about boolean expressions in class on Tuesday. Therefore, I will set some time apart to let you work on the prelab in class as an exercise; you may however if you haven't already done so for programming Kara do some reading about boolean expressions and prepare it before or at least give it a first try:
-http://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions
+https://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions
 
 P5 however can be done without knowing anything about boolean expressions!
 

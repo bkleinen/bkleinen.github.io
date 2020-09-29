@@ -5,7 +5,7 @@ layout: lab
 ---
 
 ![Lotto](../../images/lotto.jpg)
-<small class = "float-right">German Lotto Slip, [Foto by ReneS](http://www.flickr.com/photos/rene-germany/98668296)</small>
+<small class = "float-right">German Lotto Slip, [Foto by ReneS](https://www.flickr.com/photos/rene-germany/98668296)</small>
 
 This week's lab work is intended give you practice using the Random class and HashMaps.
 

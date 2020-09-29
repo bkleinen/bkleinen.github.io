@@ -46,5 +46,5 @@ After exploring Unit Testing in the first part, we will be looking at [black-box
 Submit your Report as PDF to moodle. If you want to, you can include all source code in a single zip file. You can upload up to two files to moodle - the pdf and the source code zip file.
 
 
-[1]: http://en.wikipedia.org/wiki/Black_box_testing
-[2]: http://en.wikipedia.org/wiki/White_box_testing
+[1]: https://en.wikipedia.org/wiki/Black_box_testing
+[2]: https://en.wikipedia.org/wiki/White_box_testing

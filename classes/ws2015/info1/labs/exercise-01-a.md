@@ -13,8 +13,8 @@ layout: lab
 We've already started working on Worksheet 1 in class. Remember to have a logbook as in the previous exercise:
 Note down the steps you've taken, including those that failed. Read through the whole assignment first, before starting to work.
 
-If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](http://code.makery.ch/library/greenfoot-kara/)
-- it's also available [in german](http://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the
+If you want/need to read more about Greenfoot Kara, you find a detailed tutorial [here](https://code.makery.ch/library/greenfoot-kara/)
+- it's also available [in german](https://code.makery.ch/library/greenfoot-kara/de/). NB: this tutorial contains the solutions for the
 assignments. Only use them after you've tried to solve it on your own. They might be slightly different though, as the worksheet was based on
 an older version of the tutorial.
 

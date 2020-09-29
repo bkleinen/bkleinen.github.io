@@ -23,13 +23,13 @@ Programming is something you can&#8217;t learn out of a book &#8211; you have tr
 **Tutorial:**
 
 *   Alexander Becker, Montag von 17:30-19:00 WHC 576  
-    <http://bobafett2000.de>
+    <https://bobafett2000.de>
 
 **Java-Tutorials and Book**
 
 There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7];** especially the [Trail &#8220;Learning the Java Language&#8221;][8]. **
 
-Book: D. Barnes; M. Kölling: *Objects first with Java. A Practical Introduction using BlueJ*; Pearson Education. 5th edition. German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009, 4. Auflage. <http://www.amazon.de/Java-lernen-BlueJ-objektorientierte-Programmierung/dp/3868940014/>
+Book: D. Barnes; M. Kölling: *Objects first with Java. A Practical Introduction using BlueJ*; Pearson Education. 5th edition. German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2009, 4. Auflage. <https://www.amazon.de/Java-lernen-BlueJ-objektorientierte-Programmierung/dp/3868940014/>
 
 &nbsp;
 
@@ -38,5 +38,5 @@ Book: D. Barnes; M. Kölling: *Objects first with Java. A Practical Introductio
  [1]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=78436
  [2]: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=78437
  [5]: https://github.com/htw-imi-info1/
- [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/
+ [7]: https://download.oracle.com/javase/tutorial/
+ [8]: https://download.oracle.com/javase/tutorial/java/

@@ -12,8 +12,8 @@ Assignment
 On the Pumpkin index site, add either a sort function for at least one pumpkin
 attribute **or** a search functionality. You will need to add a link or form to
 the index site, and perform the ordering/searching from the controller altering
-the @pumpkins variable. [http://guides.rubyonrails.org/active_record_querying.html]
-(http://guides.rubyonrails.org/active_record_querying.html) contains all necessary
+the @pumpkins variable. [https://guides.rubyonrails.org/active_record_querying.html]
+(https://guides.rubyonrails.org/active_record_querying.html) contains all necessary
 information on how to query Pumpkins.
 
 *** remember to make use of all the great pumpkins all of you added with their
@@ -27,8 +27,8 @@ pull request you can use to populate your database! ***
 An order consists of many line items stating the amount and pumpkin ordered.
 Create a database migration for Line Items and set up the has_many :through
 association. Then add some test data and show the line items on the order page.
-[http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) explains the has_many
-:through association. The most difficult part is [setting up test data](http://robots.thoughtbot.com/aint-no-calla-back-girl).
+[https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association](https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) explains the has_many
+:through association. The most difficult part is [setting up test data](https://robots.thoughtbot.com/aint-no-calla-back-girl).
 
 ### Internationalization
 Choose one  site of the application, add Internationalization to it and

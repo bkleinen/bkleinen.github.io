@@ -5,12 +5,12 @@ layout: page
 ---
 {% include classes/ws2014/info3.md %}
  ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
-Foto by [Pedro J. Ferreira](http://www.flickr.com/photos/pedroferrer/3615212504)
+Foto by [Pedro J. Ferreira](https://www.flickr.com/photos/pedroferrer/3615212504)
 # Prelab
 
 1. Read through two Rails Guides:
-    1. http://guides.rubyonrails.org/active_record_basics.html
-    2. http://guides.rubyonrails.org/association_basics.html
+    1. https://guides.rubyonrails.org/active_record_basics.html
+    2. https://guides.rubyonrails.org/association_basics.html
 
 # Assignment
 
@@ -37,7 +37,7 @@ which automatically creates all models defined in spec/factories to populate you
 
 1. Fork the Repository: https://github.com/htw-imi-info3/lab-06-railsapp-HTW
  - it is ok to publish your solution there. The "OK"-Test for this exercise will be a brief moodle quiz. Also, group 2 will get a slightly different assignment(will be posted here by next week)!
-2. decide on the pumpkins you want to add (http://www.allaboutpumpkins.com/perfect.html might be an inspiration) and add an issue to the original repository. e.g. open a new issue with the topic "add Blue Hubbard to Test Data"
+2. decide on the pumpkins you want to add (https://www.allaboutpumpkins.com/perfect.html might be an inspiration) and add an issue to the original repository. e.g. open a new issue with the topic "add Blue Hubbard to Test Data"
     so that everyone else knows you're working on that particular pumpkin and we don't have 50 blue hubbards in the end.
 3. create a branch in your fork - this will be necessary for the pull request.
 4. add the pumpkin factories by adding **a new file**  to spec/factories/
@@ -55,10 +55,10 @@ As others will be doing the same, you might want to pull in the pumpkins of the 
 
 ## Part 2: Show all orders for a customer
 
-Add a list of all Orders placed by the customer on the page that shows a single customer. Develop this feature test-driven by first creating a new feature test in spec/features. The two provided feature tests should give you plenty of hints, see http://github.com/htw-imi-info3/lab-06-railsapp-HTW/tree/master/spec/features - for further documentation see
+Add a list of all Orders placed by the customer on the page that shows a single customer. Develop this feature test-driven by first creating a new feature test in spec/features. The two provided feature tests should give you plenty of hints, see https://github.com/htw-imi-info3/lab-06-railsapp-HTW/tree/master/spec/features - for further documentation see
 
-* [Capybara Doc](http://rubydoc.info/github/jnicklas/capybara/master) on how to navigate web pages automatically with capybara and
-* [RSpec Matchers](http://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) if you need more specific assertions (expectations)
+* [Capybara Doc](https://rubydoc.info/github/jnicklas/capybara/master) on how to navigate web pages automatically with capybara and
+* [RSpec Matchers](https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) if you need more specific assertions (expectations)
 
 After you've created a failing test case, you can proceed to implement the feature.
 

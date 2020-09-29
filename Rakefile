@@ -1,7 +1,7 @@
 require 'html-proofer'
 
-$ignore = ['http://localhost:3000']
-$ignore << 'http://update.eclemma.org/' # site is correct, but cannot be loaded from browser
+$ignore = ['https://localhost:3000']
+$ignore << 'https://update.eclemma.org/' # site is correct, but cannot be loaded from browser
 $ignore << 'https://github.com/htw-imi-wt1wa-ws2015/ruby-learning/settings/collaboration' #needs credentials
 $ignore << '/github.com\/htw-imi-info1.*ws2016/'
 $ignore << '#'

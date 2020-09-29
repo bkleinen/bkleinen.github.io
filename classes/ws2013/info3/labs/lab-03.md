@@ -14,7 +14,7 @@ cases you've developed,
 draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.
 ## Prelab
 Please do read this Introduction to class diagrams before coming to lab!
-[UML2 Class Diagrams at Agile Modeling](http://www.agilemodeling.com/artifacts/classDiagram.htm) - I will only give a brief intro/Q&A to class diagrams in the lab.
+[UML2 Class Diagrams at Agile Modeling](https://www.agilemodeling.com/artifacts/classDiagram.htm) - I will only give a brief intro/Q&A to class diagrams in the lab.
 
 ## Assignment
 
@@ -40,10 +40,10 @@ Turn in a Lab Report including the names of all people involved, time needed for
 
 ### References
 
-Russell J. Abbott. 1983. Program design by informal English descriptions. Commun. ACM 26, 11 (November 1983), 882-894. http://doi.acm.org/10.1145/182.358441
+Russell J. Abbott. 1983. Program design by informal English descriptions. Commun. ACM 26, 11 (November 1983), 882-894. https://doi.acm.org/10.1145/182.358441
 
-K. Beck and W. Cunningham. 1989. A laboratory for teaching object-oriented thinking. SIGPLAN Not. 24, 10 (September 1989), 1-6. [Available Online](http://c2.com/doc/oopsla89/paper.html)
+K. Beck and W. Cunningham. 1989. A laboratory for teaching object-oriented thinking. SIGPLAN Not. 24, 10 (September 1989), 1-6. [Available Online](https://c2.com/doc/oopsla89/paper.html)
 
 Grady Booch. 2004. Object-Oriented Analysis and Design with Applications (3rd Edition). Addison Wesley Longman Publishing Co., Inc., Redwood City, CA, USA.
 
-LED Pumpkin by [Windell Oskay](http://www.flickr.com/photos/oskay/283388408/)
+LED Pumpkin by [Windell Oskay](https://www.flickr.com/photos/oskay/283388408/)

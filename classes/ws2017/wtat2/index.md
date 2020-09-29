@@ -38,5 +38,5 @@ Your grade in WT AT2 will be a weighted mixture of the evaluated graded elements
 Reports are due Wed 22:00.
 
 ## Course Literature
-* [Rails Guides](http://guides.rubyonrails.org/index.html)
+* [Rails Guides](https://guides.rubyonrails.org/index.html)
 * [Copeland: Rails, Angular, Postgres, and Bootstrap (2nd ed), Pragmatic Bookshelf](https://pragprog.com/book/dcbang2/rails-angular-postgres-and-bootstrap-second-edition)

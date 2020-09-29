@@ -7,12 +7,12 @@ layout: page
 # Part 1: Sequence Diagrams
 
 ![Launch Sequence](../../images/sequence.jpg)
-<small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](http://www.flickr.com/photos/69214385@N04/9172233502)</small>
+<small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](https://www.flickr.com/photos/69214385@N04/9172233502)</small>
 
 ## Prelab
 
 
-Martin Fowler's Chapter about Sequence Diagrams from the book "UML Distilled" [is available as a sample chapter online.](http://www.informit.com/articles/article.aspx?p=169507)
+Martin Fowler's Chapter about Sequence Diagrams from the book "UML Distilled" [is available as a sample chapter online.](https://www.informit.com/articles/article.aspx?p=169507)
 
 Read it as a preparation for the lab.
 

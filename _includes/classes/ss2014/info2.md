@@ -5,7 +5,7 @@
 
 And the baseurl is: {{ site.baseurl }}/
 
-Note: working with the baseurl here is difficult, as in the md above http:// would be added wich renders the links useless.
+Note: working with the baseurl here is difficult, as in the md above https:// would be added wich renders the links useless.
 thus, I've just copied the resulting html here:
 {% endcomment %}
 

@@ -20,7 +20,7 @@ I picked out three textbooks:
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Grokking%20Algorithms.%20An%20illustrated%20guide%20for%20programmers%20and%20other%20curious%20people.&amp;rft.place=Shelter%20Island&amp;rft.publisher=Manning%20Publications&amp;rft.aufirst=Aditya%20Y.&amp;rft.aulast=Bhargava&amp;rft.au=Aditya%20Y.%20Bhargava"></span>
 
 
-  <div class="csl-entry" style="margin-bottom: 1em;">Dietzfelbinger, Martin, Mehlhorn, Kurt &amp; Sanders, Peter 2014. <i>Algorithmen und Datenstrukturen: Die Grundwerkzeuge</i>. Berlin, Heidelberg: Springer Berlin Heidelberg. <a href="http://link.springer.com/10.1007/978-3-642-05472-3">http://link.springer.com/10.1007/978-3-642-05472-3</a> [Stand 2020-03-18].</div>
+  <div class="csl-entry" style="margin-bottom: 1em;">Dietzfelbinger, Martin, Mehlhorn, Kurt &amp; Sanders, Peter 2014. <i>Algorithmen und Datenstrukturen: Die Grundwerkzeuge</i>. Berlin, Heidelberg: Springer Berlin Heidelberg. <a href="https://link.springer.com/10.1007/978-3-642-05472-3">https://link.springer.com/10.1007/978-3-642-05472-3</a> [Stand 2020-03-18].</div>
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-3-642-05471-6%20978-3-642-05472-3&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Algorithmen%20und%20Datenstrukturen%3A%20Die%20Grundwerkzeuge&amp;rft.place=Berlin%2C%20Heidelberg&amp;rft.publisher=Springer%20Berlin%20Heidelberg&amp;rft.series=eXamen.press&amp;rft.aufirst=Martin&amp;rft.aulast=Dietzfelbinger&amp;rft.au=Martin%20Dietzfelbinger&amp;rft.au=Kurt%20Mehlhorn&amp;rft.au=Peter%20Sanders&amp;rft.date=2014&amp;rft.isbn=978-3-642-05471-6%20978-3-642-05472-3&amp;rft.language=de"></span>
 
   <div class="csl-entry" style="margin-bottom: 1em;">Sedgewick, Robert &amp; Wayne, Kevin 2011. <i>Algorithms</i>. 4th Auflage Addison-Wesley Professional.</div>
@@ -103,7 +103,7 @@ I picked out three textbooks:
       </tr>
       <tr>
       <th>URL</th>
-        <td><a href="http://link.springer.com/10.1007/978-3-642-05472-3">http://link.springer.com/10.1007/978-3-642-05472-3</a></td>
+        <td><a href="https://link.springer.com/10.1007/978-3-642-05472-3">https://link.springer.com/10.1007/978-3-642-05472-3</a></td>
       </tr>
       <tr>
       <th>Series</th>

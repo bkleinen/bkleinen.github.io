@@ -21,4 +21,4 @@ layout: default
 
 https://gist.github.com/bkleinen/9790495e0be2c0aa338c
 or, if you want to share your feature branch and maybe even chip in pull requests:
-http://blogs.atlassian.com/2014/01/simple-git-workflow-simple/
+https://blogs.atlassian.com/2014/01/simple-git-workflow-simple/

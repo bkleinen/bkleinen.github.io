@@ -52,7 +52,7 @@ You can do that in the following ways:
 
 ## Pronoun and Name
 
-My [pronoun is \"he\"](http://pronoun.is/he).
+My [pronoun is \"he\"](https://pronoun.is/he).
 
 I've recently changed my first name to Barne, and you might still
 find my old first name in some places - that's probably also me, as my last name is quite rare.
@@ -61,6 +61,6 @@ find my old first name in some places - that's probably also me, as my last name
 
 [My Schedule in LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=DDozent&pool=DDozent&show=plan&P.vx=kurz&personal.pid=3545)
 
-Homepage: [http://home.htw-berlin.de/~kleinen/](http://home.htw-berlin.de/~kleinen/)
+Homepage: [https://home.htw-berlin.de/~kleinen/](https://home.htw-berlin.de/~kleinen/)
 
-Mirror on github: [http://bkleinen.github.io/](http://bkleinen.github.io/)
+Mirror on github: [https://bkleinen.github.io/](https://bkleinen.github.io/)

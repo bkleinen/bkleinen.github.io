@@ -37,7 +37,7 @@ Sie können auf der Grundlage des [dgti-Ausweises](https://www.dgti.org/ergaenzu
 ## Trans-Tagung an der HTW
 
 Im März 2020 war eine Trans*-Tagung an der HTW geplant, die wegen Covid-19 kurzfristig
-abgesagt bzw. verschoben werden musste: [http://ag-trans-hopo.org/tin_universities/index.html](http://ag-trans-hopo.org/tin_universities/index.html) - wir hoffen, die Tagung zu einem späteren
+abgesagt bzw. verschoben werden musste: [https://ag-trans-hopo.org/tin_universities/index.html](https://ag-trans-hopo.org/tin_universities/index.html) - wir hoffen, die Tagung zu einem späteren
 Zeitpunkt durchführen zu können.
 
 ## Weitere Unterstützung
@@ -73,11 +73,11 @@ Bei Fragen, Anregungen und Erfahrungen gerne bei mir melden.
 2017-2020 Barne Kleinen
 
 ## Informationsmaterialien
-  * [Lembke, Tischbirek: Kurzgutachten zum rechtlichen Spielraum der Hochschulen bei der Verwendung des gewählten Namens inter- und transgeschlechtlicher Studierender im Vorfeld der amtlichen Namensänderung](http://ag-trans-hopo.org/Materialsammlung/Material_Rechtliches/GutachtenTIN-Vornamen_2019-10-20_UL+AT.pdf)
+  * [Lembke, Tischbirek: Kurzgutachten zum rechtlichen Spielraum der Hochschulen bei der Verwendung des gewählten Namens inter- und transgeschlechtlicher Studierender im Vorfeld der amtlichen Namensänderung](https://ag-trans-hopo.org/Materialsammlung/Material_Rechtliches/GutachtenTIN-Vornamen_2019-10-20_UL+AT.pdf)
   * Antidiskriminierungsstelle des Bundes: "[Verwendung des gewählten Namens von trans*Studierenden
   an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung](https://www.antidiskriminierungsstelle.de/SharedDocs/Downloads/DE/Literatur_Bildung/Name_Trans_Studierende.html)"
-  * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](http://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
-  * [Materialsammlung der AG Transemanzipatorische Hochschulpolitik](http://ag-trans-hopo.org/Materialsammlung/)
+  * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](https://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
+  * [Materialsammlung der AG Transemanzipatorische Hochschulpolitik](https://ag-trans-hopo.org/Materialsammlung/)
 
 
 
@@ -98,6 +98,6 @@ Emcke, Carolin. Gegen den Hass (German Edition) (Kindle Locations 1674-1679). FI
 <br />
 {% comment %}
 
-http://ag-trans-hopo.org
+https://ag-trans-hopo.org
 [Queer Leben](https://queer-leben.de/material/)
 {% endcomment %}

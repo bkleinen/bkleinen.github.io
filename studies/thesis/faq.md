@@ -18,7 +18,7 @@ Wenn der Kolloquiumstermin mit genügend Vorlauf geplant wird, werden Sie normal
 
 ## BA Kolloquium, wie l&auml;uft das ab, was muss ich wissen?
 
-In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](http://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
+In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](https://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
 
 "Die Modulprüfung zum Bachelorseminar bezieht sich auf den Gegenstand der Bachelorarbeit und ordnet diesen in den Kontext des Internationalen Studienganges Medieninformatik
 (Bachelor) ein. In dieser Prüfung soll der/die Studierende zeigen, dass er/sie in der Lage ist,

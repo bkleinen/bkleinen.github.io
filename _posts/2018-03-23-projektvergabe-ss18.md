@@ -35,7 +35,7 @@ Die Projektbeschreibungen finden Sie ab diesem Semester im Wiki:
 
 
 Bitte lesen Sie auch die Hinweise für die Projekte und die Projektvergabe:
-[http://imi-master.htw-berlin.de/studium/projekte/#c15285](http://imi-master.htw-berlin.de/studium/projekte/#c15285s)
+[https://imi-master.htw-berlin.de/studium/projekte/#c15285](https://imi-master.htw-berlin.de/studium/projekte/#c15285s)
 
 Falls es Ihnen wirklich unmöglich ist, persönlich zu kommen
 (z.B. weil Sie noch im Ausland sind) können Sie eine_n Kommiliton_in

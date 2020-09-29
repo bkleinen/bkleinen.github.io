@@ -48,4 +48,4 @@ Also answer the following questions in your report:
 
 ----
 
-based on [Exercise 13](http://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW
+based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW

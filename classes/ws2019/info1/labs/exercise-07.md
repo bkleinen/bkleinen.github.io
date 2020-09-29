@@ -6,7 +6,7 @@ layout: lab
 <span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
 <figure class = "figure">
    <img class="figure-img img-fluid" src="../../images/lotto.jpg"  alt="Lotto">
-  <figcaption class="figure-caption text-right">German Lotto Slip, <a href="http://www.flickr.com/photos/rene-germany/98668296">Foto by ReneS</a></figcaption>
+  <figcaption class="figure-caption text-right">German Lotto Slip, <a href="https://www.flickr.com/photos/rene-germany/98668296">Foto by ReneS</a></figcaption>
 </figure>
 
 This week's lab work is intended give you practice using the Random class and HashMaps.

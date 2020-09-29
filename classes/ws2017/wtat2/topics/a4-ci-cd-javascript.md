@@ -19,7 +19,7 @@ I've created two examples:
 ## AJAX
 
 Find a place - find or create a story - where a little bit of JavaScript is useful in your Application. You find a couple
-of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html)
+of examples in the [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html)
 Guide which is also the required reading for next week.
 
 

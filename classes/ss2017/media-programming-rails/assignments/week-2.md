@@ -20,13 +20,13 @@ Finish one topic per person. Please send me your github login to add you as a co
 ### Reading and preparation
 
 You should have enough background information for working on this week's assignment based
-on the [Getting started with Rails](http://guides.rubyonrails.org/getting_started.html) you worked through last week.
+on the [Getting started with Rails](https://guides.rubyonrails.org/getting_started.html) you worked through last week.
 
 You'll find further information about Active Record Migrations, Associations and
 Querying in the respective Rails Guides:
-* [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
-* [Active Record Migrations](http://guides.rubyonrails.org/active_record_migrations.html)
-* [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
+* [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
+* [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
+* [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
 You don't need to read them in full, but it's useful to have a look at the contents
 and use them to look up the things you need.

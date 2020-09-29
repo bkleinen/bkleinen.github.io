@@ -15,7 +15,7 @@ Insgesamt soll wohl verhindert werden, dass Trans*personen weiter Gebrauch von d
 
 Den Fachverbänden wurden nur knappe 2 Tage(!) Zeit eingeräumt, Stellung zum Gesetzesentwurf zu beziehen. Sie haben es geschafft lehnen den Vorschlag ab:
 
-* [TrIQ lehnt ihn ab: unsere Stellungnahme zum Referentenentwurf eines „TSG-Ersatzes“ v. 08.05.2019](http://www.transinterqueer.org/aktuell/triq-lehnt-ihn-ab-unsere-stellungnahme-zum-referentenentwurf-eines-tsg-ersatzes-v-08-05-2019/)
+* [TrIQ lehnt ihn ab: unsere Stellungnahme zum Referentenentwurf eines „TSG-Ersatzes“ v. 08.05.2019](https://www.transinterqueer.org/aktuell/triq-lehnt-ihn-ab-unsere-stellungnahme-zum-referentenentwurf-eines-tsg-ersatzes-v-08-05-2019/)
 
 * [BV Trans: TSG-Reform ist alter Wein in neuen Schläuchen – Justiz- und Innenministerium halten an Fremdbestimmung für trans* Menschen fest](https://www.bv-trans.de/tsg-reform-ist-alter-wein-in-neuen-schlaeuchen-justiz-und-innenministerium-halten-an-fremdbestimmung-fuer-trans-menschen-fest/)
 

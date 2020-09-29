@@ -14,7 +14,7 @@ layout: lab
 
 ***P3.*** What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?
 
-***P4.*** Briefly describe what a <a href="http://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski Triangle</a> is.
+***P4.*** Briefly describe what a <a href="https://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski Triangle</a> is.
 
 ## Assignment
 
@@ -36,7 +36,7 @@ layout: lab
 
 * * *
 
-From [http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](http://discuss.joelonsoftware.com/default.asp?joel.3.340775.27)
+From [https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27)
 
     > Q. Do you know what iteration means?
     > A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and     over...

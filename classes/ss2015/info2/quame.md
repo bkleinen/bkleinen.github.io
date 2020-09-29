@@ -8,9 +8,9 @@ layout: page
 
 # Questions
 
-See [http://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions)
+See [https://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions)
 
-Ask new questions here: [http://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions)
+Ask new questions here: [https://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions)
 
 # Answers
 
@@ -22,7 +22,7 @@ Ich habe ein Problem mit der Anpassung des Dreiecks an die Fenstergröße, dies 
 
 ### Answer
 
-Indem sie zunächst ausrechnen, ob die Höhe oder die Breite die Größe Ihres Dreiecks limitiert: die Höhe ist (Wurzel 3) halbe der Grundseitenlänge; (Siehe [Wikipedia zu gleichseitigem Dreieck](http://de.wikipedia.org/wiki/Gleichseitiges_Dreieck)) - d.h. wenn Ihr Fenster höher ist als das, beschränkt die Breite die Größe, ist es niedriger, müssen Sie sich nach der maximalen Höhe richten. Das Dreieck bleibt immer gleichseitig, indem sie einen Punkt (z.B. links unten) festlegen und die zwei anderen Punkte daran orientieren, nicht an der Fenstergröße.
+Indem sie zunächst ausrechnen, ob die Höhe oder die Breite die Größe Ihres Dreiecks limitiert: die Höhe ist (Wurzel 3) halbe der Grundseitenlänge; (Siehe [Wikipedia zu gleichseitigem Dreieck](https://de.wikipedia.org/wiki/Gleichseitiges_Dreieck)) - d.h. wenn Ihr Fenster höher ist als das, beschränkt die Breite die Größe, ist es niedriger, müssen Sie sich nach der maximalen Höhe richten. Das Dreieck bleibt immer gleichseitig, indem sie einen Punkt (z.B. links unten) festlegen und die zwei anderen Punkte daran orientieren, nicht an der Fenstergröße.
 
 ##Question #10
 
@@ -131,7 +131,7 @@ Mein sierpinksy dreieck wird mir bis stufe x angezeigt. Doch habe ich das proble
 
 ### Answer
 
-Sie müssen sich einen Punkt als Ausgangspunkt nehmen und die jeweils zwei anderen Punkte daraus berechnen. Das geht mit Hilfe des [Satz des Phytagoras](http://de.wikipedia.org/wiki/Satz_des_Pythagoras), wenn Sie sich die Eigenschaften eines [gleichseitigen Dreiecks](http://de.wikipedia.org/wiki/Gleichseitiges_Dreieck) in Erinnerung rufen und die Abstände der Punkte auf der x- und y-Achse berechnen.
+Sie müssen sich einen Punkt als Ausgangspunkt nehmen und die jeweils zwei anderen Punkte daraus berechnen. Das geht mit Hilfe des [Satz des Phytagoras](https://de.wikipedia.org/wiki/Satz_des_Pythagoras), wenn Sie sich die Eigenschaften eines [gleichseitigen Dreiecks](https://de.wikipedia.org/wiki/Gleichseitiges_Dreieck) in Erinnerung rufen und die Abstände der Punkte auf der x- und y-Achse berechnen.
 Zeichnen Sie sich das Dreieck auf und notieren sie dort, wo welcher Punkt ist und nennen Sie ihre Variablen genau so wie auf Ihrer Zeichnung.
 
 
@@ -156,7 +156,7 @@ for Q&A, maybe somewhat like Stack Overflow with the possibility to upvote
 questions and also encouraging students to answer questions and earning credits
 for the course if they provided useful answers to their peers.
 
-You can enter questions anonymously here: [http://ba-thesis.herokuapp.com/]({{ site.baseurl }}/miscellany/grasp/),
+You can enter questions anonymously here: [https://ba-thesis.herokuapp.com/]({{ site.baseurl }}/miscellany/grasp/),
 and I'll answer them around Saturday at noon latest for the current week.
-You find a list of questions here [http://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions) and
+You find a list of questions here [https://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions) and
 their answers there: [QUAME](../quame)

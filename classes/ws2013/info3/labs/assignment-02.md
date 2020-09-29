@@ -9,9 +9,9 @@ In this exercise you will create a description, develop a detailed Scenario for 
 
 In a scenario you describe a concrete use of the proposed system, using the names of a proposed user. In the use case we abstract away from the concrete situations in the scenarios and try and describe the general case. We have **user roles** and system **functionality** , which are depicted in diagrams as little stick figures and circles, respectively:
 
-  ![Example use case diagram](http://people.f4.htw-berlin.de/~weberwu/se/media/Stickfigures.png)
+  ![Example use case diagram](https://people.f4.htw-berlin.de/~weberwu/se/media/Stickfigures.png)
 
-| An [actor](http://en.wikipedia.org/wiki/Actor_%28UML%29) is something or someone that interacts with the target system to produce an observable result. There are active and passive actors. They are usually drawn with a stick figure. | ![Stickwoman picture](http://people.f4.htw-berlin.de/~weberwu/se/media/Stickwoman.gif) |
+| An [actor](https://en.wikipedia.org/wiki/Actor_%28UML%29) is something or someone that interacts with the target system to produce an observable result. There are active and passive actors. They are usually drawn with a stick figure. | ![Stickwoman picture](https://people.f4.htw-berlin.de/~weberwu/se/media/Stickwoman.gif) |
 
 A [use case][2] is an instance of how an actor would use a software system or a service offered by the system. More than one actor can participate in a use case. We draw use case diagrams to visualize the use cases and write out the use cases using templates, such as the one given in [Wikipedia][2]. Use case diagrams are decorated with the name given to the use case. A scenario will typically describe the sequence of concrete activities that happen when a user is interacting with the proposed system. It is a detailed, step-by-step description of observable behaviors - that is, it does not describe the internal workings of the machine, but what a user can observe from the outside. We are not worried about how it will be done on the inside, but instead just want to see if the use of the system makes sense. We can branch inside a scenario using an **if** statement and can repeat steps using a **while** statement. A scenario will not have exceptional conditions. If it is describing one such exceptional interaction, then it explains each step of what happens. A scenario also does not extend another scenario - it just describes what happens in this concrete instance. We give **names** to scenarios, so that we can talk about them. The name should somehow be connected to the use case it is describing. Then we describe any **precondition** that must hold before the scenario can commence. For example: The user has a valid EC card. Then the sequence of steps is listed, followed by a **postcondition** describing what must hold at the end of the scenario. For example, the account linked to the EC card has been debited by 100 Euros and the user now has 100 Euros cash in her hands and the card is now marked as having been used on the current day.
 
@@ -47,6 +47,6 @@ You should realize that every author and every company have their own ways of de
 
 Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
-[2]: http://en.wikipedia.org/wiki/Use_case
-[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
-[4]: http://www.f4.htw-berlin.de/~weberwu/
+[2]: https://en.wikipedia.org/wiki/Use_case
+[3]: https://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
+[4]: https://www.f4.htw-berlin.de/~weberwu/

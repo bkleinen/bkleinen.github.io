@@ -28,7 +28,7 @@ werden in den nächsten Wochen hier ergänzt, am besten die Wiki-Seite abboniere
 
 
 Bitte lesen Sie auch die Hinweise für die Projekte und die Projektvergabe:
-[Bachelor](https://imi-bachelor.htw-berlin.de/studium/projekte/) | [Master](http://imi-master.htw-berlin.de/studium/projekte/#c15285s)
+[Bachelor](https://imi-bachelor.htw-berlin.de/studium/projekte/) | [Master](https://imi-master.htw-berlin.de/studium/projekte/#c15285s)
 
 ## Showtime
 

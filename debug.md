@@ -21,7 +21,7 @@ title: Debug Site
 * site.documents:  {{ site.documents  | map: 'title' | array_to_sentence_string }}
 * site.documents:  {{ site.documents  }}
 
-# http://jekyllrb.com/docs/variables/
+# https://jekyllrb.com/docs/variables/
 
 * site.pages: {{ site.pages  | map: 'path' | array_to_sentence_string }}
 

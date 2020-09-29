@@ -8,7 +8,7 @@ layout: page
 
 ## Which Computer to use?
 
-As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](http://imi-bachelor.htw-berlin.de/studium/labore/web-technology/) and rather unfolded tiny notebooks in front of the 27'' screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
+As most of your colleagues in the former semesters completely ignored the new [iMacs in our Web Technology lab](https://imi-bachelor.htw-berlin.de/studium/labore/web-technology/) and rather unfolded tiny notebooks in front of the 27'' screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.
 
 If you become more proficient with standard tools like the command line and git, you will find it easier to switch between different computers and end up using the Macs at some point, anyway.
 
@@ -18,13 +18,13 @@ You need a good basic text editor. Wordpad, Word etc. are no options, as they ad
 Here are some suggestions:
 
   * Atom: [https://atom.io](https://atom.io)
-  * [vi](http://en.wikipedia.org/wiki/Vi) or vim - free, available everywhere, somewhat steeper learning curve - I recommend that you learn at least some basic vi commands as vi is available on all remote unix boxes you might happen to log in with ssh.
+  * [vi](https://en.wikipedia.org/wiki/Vi) or vim - free, available everywhere, somewhat steeper learning curve - I recommend that you learn at least some basic vi commands as vi is available on all remote unix boxes you might happen to log in with ssh.
 
 If you work on multiple platforms, you should choose one that is available on all of them.
 
 ## Git & GitHub
 
-* [Git](http://git-scm.com/) is the state-of-the-art Source Code Management Tool. Install the command line client for your platform, and maybe also a GUI Client, [which can all be found here](http://git-scm.com/download/).
+* [Git](https://git-scm.com/) is the state-of-the-art Source Code Management Tool. Install the command line client for your platform, and maybe also a GUI Client, [which can all be found here](https://git-scm.com/download/).
 * Sign up on [GitHub](https://github.com/) if you haven't already done so. See also
 [Setting up Git](https://help.github.com/articles/set-up-git) from GitHub for a comprehensive documentation.
 * For other projects, you might want to use the HTW [Projekteserver](https://studi.f4.htw-berlin.de/www/) which offers you private repositorys, or any other service offering
@@ -36,11 +36,11 @@ As a software developer, you need to know the basics of the command line - prefe
 
 You should at least be able to navigate the file system, look at directories, files and their contents, and start commands, at least your text editor, directly from there (which saves you the time of finding first your text editor and then the file again from some dreadful file open dialog).
 
-See [Learning the Shell](http://linuxcommand.org/learning_the_shell.php) for an intro
-and [Tobi's Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/) for the absolute basics including Windows specials -
+See [Learning the Shell](https://linuxcommand.org/learning_the_shell.php) for an intro
+and [Tobi's Cheat Sheet](https://pragtob.github.io/rails-beginner-cheatsheet/) for the absolute basics including Windows specials -
 
 ### Windows
-As I said, preferably linux style. That is, if you're working on Windows, rather learn the linux commands first and then adapt to the Windows equivalents. Or, better yet, install [Cygwin](http://www.cygwin.com/) which gives you a shell with all the linux commands on windows. You might also get away with just using git bash which comes with the windows git installation.
+As I said, preferably linux style. That is, if you're working on Windows, rather learn the linux commands first and then adapt to the Windows equivalents. Or, better yet, install [Cygwin](https://www.cygwin.com/) which gives you a shell with all the linux commands on windows. You might also get away with just using git bash which comes with the windows git installation.
 
 I have installed Cygwin and added the cygwin bin directory to the Windows path, which makes all linux commands from cygwin available in a windows "cmd" window - no need to remember that it would be dir instead of ls anymore!
 
@@ -50,7 +50,7 @@ One last hint: Windows doesn't have a real "home" directory. Thus, various tools
 
 ### The Path
 
-Speaking of that, you should understand the [PATH](http://www.linfo.org/path_env_var.html) - basically a list of directories the shell (the program that reads your commands in the command line) searches for the command.
+Speaking of that, you should understand the [PATH](https://www.linfo.org/path_env_var.html) - basically a list of directories the shell (the program that reads your commands in the command line) searches for the command.
 
 Also, be aware that if you use Windows, programs like git, graphical git clients, cygwin and cmd have different opinions on where your 'home directory' is.
 
@@ -99,7 +99,7 @@ After installing Ruby, install rails with
 
     gem install rails
 
--- see [Rails installation](http://guides.rubyonrails.org/getting_started.html#installing-rails) for further information.
+-- see [Rails installation](https://guides.rubyonrails.org/getting_started.html#installing-rails) for further information.
 
 You should then be able to run
 
@@ -107,7 +107,7 @@ You should then be able to run
     cd my-first-app
     rails server
 
-in your shell and see a success page if you open [http://localhost:3000](http://localhost:3000) in your browser.
+in your shell and see a success page if you open [https://localhost:3000](https://localhost:3000) in your browser.
 
 The tricky part about installing rails is, that you need c development tools on your machine. Yes, that means you **need** to install XCode on your Mac. And jump some hoops on Windows. This is because many of the additional packages (called gems in the ruby world) have to be compiled on your machine during installation.
 
@@ -115,4 +115,4 @@ The tricky part about installing rails is, that you need c development tools on 
 
 ## If that works, you're all set!
 
-If not, at least try googling the particular issues you encounter during installation or get help from your peers. [Stackoverflow](http://stackoverflow.com/) is also a great resource. Also, taking the advice that you should understand the path, be able to navigate your files from the command line and be able to look into files is a great help during trouble shooting.
+If not, at least try googling the particular issues you encounter during installation or get help from your peers. [Stackoverflow](https://stackoverflow.com/) is also a great resource. Also, taking the advice that you should understand the path, be able to navigate your files from the command line and be able to look into files is a great help during trouble shooting.

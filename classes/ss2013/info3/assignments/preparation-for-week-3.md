@@ -57,4 +57,4 @@ Then have a look at last semester's Class Diagram exercise below. Booch's method
 
  Now draw a class diagram using an UML-Tool or a pencil including attributes, methods and associations.
 
- * Class Diagrams: [http://www.agilemodeling.com/artifacts/classDiagram.htm](http://www.agilemodeling.com/artifacts/classDiagram.htm)
+ * Class Diagrams: [https://www.agilemodeling.com/artifacts/classDiagram.htm](https://www.agilemodeling.com/artifacts/classDiagram.htm)

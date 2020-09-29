@@ -31,6 +31,6 @@ Goal of the Project will be to design and build a prototype for the In_Visible P
 
 ### Links
 
-* [AG Trans*-Emanzipatorische Hochschulpolitik TransHopo](http://ag-trans-hopo.org)
+* [AG Trans*-Emanzipatorische Hochschulpolitik TransHopo](https://ag-trans-hopo.org)
 * Kamalanetra AJ C Hung [Twitter](https://twitter.com/pineapple_lab)
-* René_ Rain Hornstein [persönliche Seite](http://rhornstein.de), [Projekt Internalisierte Trans*feindlichkeit und Community-Empowerment](https://psychologie.sfu-berlin.de/de/forschung-publikationen/vielfalt-und-mehrfach-diskriminierung/projekt-internalisierte-transfeindlichkeit-und-community-empowerment/ )
+* René_ Rain Hornstein [persönliche Seite](https://rhornstein.de), [Projekt Internalisierte Trans*feindlichkeit und Community-Empowerment](https://psychologie.sfu-berlin.de/de/forschung-publikationen/vielfalt-und-mehrfach-diskriminierung/projekt-internalisierte-transfeindlichkeit-und-community-empowerment/ )

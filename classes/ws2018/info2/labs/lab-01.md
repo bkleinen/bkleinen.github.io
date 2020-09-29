@@ -14,7 +14,7 @@ Please have your name on your page.
 ***P2.*** If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
 
 ***P3.*** Read up on the
-[Class-Responsibility-Collaboration Card method (CRC Cards)](http://c2.com/doc/oopsla89/paper.html).
+[Class-Responsibility-Collaboration Card method (CRC Cards)](https://c2.com/doc/oopsla89/paper.html).
 This must be read before class, as you will not be able to do the exercise if you have no idea what this is.
 
 

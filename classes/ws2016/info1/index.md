@@ -7,8 +7,8 @@ layout: page
 ## Welcome!
 
 Informatics 1 is an introduction to object-oriented programming using the Java
-language. In this class we will be using [Greenfoot](http://www.greenfoot.org)
-and [BlueJ](http://bluej.org/) as development environments.
+language. In this class we will be using [Greenfoot](https://www.greenfoot.org)
+and [BlueJ](https://bluej.org/) as development environments.
 You will learn about writing programs, designing simple algorithms, about
 control structures, data types and structures, objects and classes.
 
@@ -53,21 +53,21 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 If you struggle with this class, need more support with the exercises or simply don't like studying alone (or my lectures):
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studieninteressierte/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 
-* Tutorial:  Tuesdays  08:00-09:30 in WH-C 576 (Alexander Becker) [Homepage](http://home.htw-berlin.de/~s0533351/termine.html)
+* Tutorial:  Tuesdays  08:00-09:30 in WH-C 576 (Alexander Becker) [Homepage](https://home.htw-berlin.de/~s0533351/termine.html)
 
 ## Java-Tutorials and Book
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
-German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](http://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
+German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
 
 You can also obtain an older edition - examples and chapter order vary, but the general content is the same.
 
 There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8], as they are very concise and comprehensive.
 
 
- [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/
+ [7]: https://download.oracle.com/javase/tutorial/
+ [8]: https://download.oracle.com/javase/tutorial/java/
 
 ## Important Links and Further Information
 

@@ -81,4 +81,4 @@ You will be doing your writeup at home. If you do not have a computer at home, y
 Submit your writeup as your post-lab to the Moodle area.
 
 * * *
-Adapted from http://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
+Adapted from https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009

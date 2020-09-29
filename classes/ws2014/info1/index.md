@@ -64,21 +64,21 @@ If you struggle with this class, need more support with the exercises or simply 
 There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
 Labor WHC 576
 
-* [Alexander Becker](http://bobafett2000.de), Thurdays 15:45-17:15 WH-C 576
+* [Alexander Becker](https://bobafett2000.de), Thurdays 15:45-17:15 WH-C 576
 
 ## Java-Tutorials and Book
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
-German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](http://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
+German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
 
 You can also obtain an older editions - example and chapter order vary, but the general information is the same.
 
 There are tons of Java Tutorials out there on the web, my recommendation are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8], as they are very concise and comprehensive.
 
 
- [7]: http://download.oracle.com/javase/tutorial/
- [8]: http://download.oracle.com/javase/tutorial/java/
+ [7]: https://download.oracle.com/javase/tutorial/
+ [8]: https://download.oracle.com/javase/tutorial/java/
 
 ## Important Links and further Information
 

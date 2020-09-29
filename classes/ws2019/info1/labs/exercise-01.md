@@ -76,7 +76,7 @@ Most of the problems here are extensions of problems we've already solved in cla
 
 ### 7. (for the bored:) Make Kara add two numbers in binary format.
 For the bored exercises are optional!
- In lab01_kara07 the world creates two random 8-bit binary numbers, a leaf means 1, no leaf means 0. Make Kara add them up using place value and carrying, which is basically the same as [adding up decimal numbers using place value and carrying](https://www.khanacademy.org/math/4th-engage-ny/engage-4th-module-1/4th-module-1-topic-d/v/carrying-when-adding-three-digit-numbers). [Here's an explanation how to do it for binary numbers.](http://www.wikihow.com/Add-Binary-Numbers#Adding_Binary_Numbers_Using_Place_Value_sub)
+ In lab01_kara07 the world creates two random 8-bit binary numbers, a leaf means 1, no leaf means 0. Make Kara add them up using place value and carrying, which is basically the same as [adding up decimal numbers using place value and carrying](https://www.khanacademy.org/math/4th-engage-ny/engage-4th-module-1/4th-module-1-topic-d/v/carrying-when-adding-three-digit-numbers). [Here's an explanation how to do it for binary numbers.](https://www.wikihow.com/Add-Binary-Numbers#Adding_Binary_Numbers_Using_Place_Value_sub)
 
  ![Result](../images/kara/kara-exercise01-07-before.jpg)<small class = "float-right">Start Image</small>
 

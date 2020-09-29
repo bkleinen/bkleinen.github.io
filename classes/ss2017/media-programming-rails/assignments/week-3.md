@@ -12,7 +12,7 @@ layout: page
 In week 3, we'll work on Rails Testing. Please read through the Rails Testing
 Guide and have a look at the Capybara DSL which we will use to write end-to-end feature
 tests.
-* [A Guide to Testing Rails Applications](http://guides.rubyonrails.org/testing.html)
+* [A Guide to Testing Rails Applications](https://guides.rubyonrails.org/testing.html)
 * [Capybara's DSL](https://github.com/jnicklas/capybara#the-dsl)
 
 Also, we'll set up continuous integration and continuous deployment using the services travis and heroku respectively.

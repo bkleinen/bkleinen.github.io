@@ -12,11 +12,11 @@ date now in bin
 
 | Week | KW | Date            | JF | Topic Area                                                    | Lecturer      |
 |:-----|:---|:----------------|:---|:--------------------------------------------------------------|:--------------|
-| 1    | 14 | Wed, 2018-04-11 | *  | [Visual Computing](http://home.htw-berlin.de/~jungk/mp_ss18/) | Klaus Jung    |
-| 2    | 15 | Wed, 2018-04-18 |    | [Visual Computing](http://home.htw-berlin.de/~jungk/mp_ss18/) | Nico Hezel    |
-| 3    | 16 | Wed, 2018-04-25 | *  | [Visual Computing](http://home.htw-berlin.de/~jungk/mp_ss18/) | Kai Barthel   |
-| 4    | 17 | Wed, 2018-05-02 |    | [Visual Computing](http://home.htw-berlin.de/~jungk/mp_ss18/) | Nico Hezel    |
-| 5    | 18 | Wed, 2018-05-09 | *  | [Visual Computing](http://home.htw-berlin.de/~jungk/mp_ss18/) | Nico Hezel    |
+| 1    | 14 | Wed, 2018-04-11 | *  | [Visual Computing](https://home.htw-berlin.de/~jungk/mp_ss18/) | Klaus Jung    |
+| 2    | 15 | Wed, 2018-04-18 |    | [Visual Computing](https://home.htw-berlin.de/~jungk/mp_ss18/) | Nico Hezel    |
+| 3    | 16 | Wed, 2018-04-25 | *  | [Visual Computing](https://home.htw-berlin.de/~jungk/mp_ss18/) | Kai Barthel   |
+| 4    | 17 | Wed, 2018-05-02 |    | [Visual Computing](https://home.htw-berlin.de/~jungk/mp_ss18/) | Nico Hezel    |
+| 5    | 18 | Wed, 2018-05-09 | *  | [Visual Computing](https://home.htw-berlin.de/~jungk/mp_ss18/) | Nico Hezel    |
 | 6    | 19 | Wed, 2018-05-16 |    | Game Technology and Interactive Systems                       | Tobias Lenz   |
 | 7    | 20 | Wed, 2018-05-23 | *  | Game Technology and Interactive Systems                       | Tobias Lenz   |
 | 8    | 21 | Wed, 2018-05-30 |    | Game Technology and Interactive Systems                       | Tobias Lenz   |

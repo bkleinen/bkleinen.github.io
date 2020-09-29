@@ -18,5 +18,5 @@ Der gesamte Web-Auftritt ist in SenStadtOnline eingebunden, hier gibt es einen S
 
 Das Projekt wird auf Initiative und in Kooperation mit der Senatsverwaltung, vertreten durch Jörn Welsch und Manfred Goedecke, durchgeführt.
 
-* Umweltatlas : [http://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/](http://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/)
+* Umweltatlas : [https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/](https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/)
 * [Text auf der Showtime-Seite des Studiengangs](https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-und-projekte-im-sommersemester-2018/#c38750)

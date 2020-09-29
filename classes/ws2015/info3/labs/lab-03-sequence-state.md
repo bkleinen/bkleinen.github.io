@@ -7,12 +7,12 @@ layout: page
 # Part 1: Sequence Diagrams
 
 ![Launch Sequence](../images/sequence.jpg)
-<small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](http://www.flickr.com/photos/69214385@N04/9172233502)</small>
+<small class = "float-right">Pelican launch sequence. [Foto by Don McCullough ](https://www.flickr.com/photos/69214385@N04/9172233502)</small>
 
 ## Prelab
 
 
-Martin Fowler's Chapter about Sequence Diagrams from the book "UML Distilled" [is available as a sample chapter online.](http://www.informit.com/articles/article.aspx?p=169507)
+Martin Fowler's Chapter about Sequence Diagrams from the book "UML Distilled" [is available as a sample chapter online.](https://www.informit.com/articles/article.aspx?p=169507)
 
 Read it as a preparation for the lab.
 
@@ -34,9 +34,9 @@ If you feel like it, you can continue with a sequence diagram for additional use
 #Part 2:  State Machine Diagrams
 
 ![Machine](../images/machine.jpg "machine")
-<small class = "float-right">Machine. Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)</small>
+<small class = "float-right">Machine. Foto by [Jeff Kubina](https://www.flickr.com/photos/kubina/278696130)</small>
 
-For an introduction to state machine diagrams, see [http://www.agilemodeling.com/artifacts/stateMachineDiagram.htm](http://www.agilemodeling.com/artifacts/stateMachineDiagram.htm).
+For an introduction to state machine diagrams, see [https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm](https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm).
 
 Your job in this exercise is to model all of the following systems (2 points per system for 1-3, 4 points for system 4):
 
@@ -56,5 +56,5 @@ As always, reflect on your process, point out who did what and of course include
 
 State Machine Part based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
-[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
-[4]: http://www.f4.htw-berlin.de/~weberwu/
+[3]: https://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
+[4]: https://www.f4.htw-berlin.de/~weberwu/

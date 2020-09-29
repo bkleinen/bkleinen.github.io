@@ -5,7 +5,7 @@ layout: lab
 ---
 
 ![Reform Club](../../images/reform_club.jpg)
-<small class = "float-right">Reform Club, [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg)</small>
+<small class = "float-right">Reform Club, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg)</small>
 
 This week's lab work is intended give you more practice using collections.
 

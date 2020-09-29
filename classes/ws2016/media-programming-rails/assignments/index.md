@@ -26,7 +26,7 @@ I will publish the next assignment by monday, enabling you to
 start working on it and have your questions ready in the lab.
 For preparation, please read through
 
-* [Getting started with Rails](http://guides.rubyonrails.org/getting_started.html)
+* [Getting started with Rails](https://guides.rubyonrails.org/getting_started.html)
 
 Note that you don't need to implement everything that's described there, but
 it will help you understand what you need to do for this exercise as well as for
@@ -71,9 +71,9 @@ And make sure that the tags are visible in the shared repository, pushing them e
 
 You'll find further information about Active Record Migrations, Associations and
 Querying in the respective Rails Guides:
-* [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
-* [Active Record Migrations](http://guides.rubyonrails.org/active_record_migrations.html)
-* [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
+* [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
+* [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
+* [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
 You don't need to read them in full, but it's useful to have a look at the contents
 and use them to look up the things you need.
@@ -81,7 +81,7 @@ and use them to look up the things you need.
 In week 3, we'll work on Ruby, and Rails Testing. Please read through the Rails Testing
 Guide and have a look at the Capybara DSL which we will use to write end-to-end feature
 tests.
-* [A Guide to Testing Rails Applications](http://guides.rubyonrails.org/testing.html)
+* [A Guide to Testing Rails Applications](https://guides.rubyonrails.org/testing.html)
 * [Capybara's DSL](https://github.com/jnicklas/capybara#the-dsl)
 * Collect the Ruby idioms you've encountered so far. You can also start making your own notes/examples by cloning [https://github.com/media-programming-rails/ruby-learning/](https://github.com/media-programming-rails/ruby-learning/)
 * Read through [From Java to Ruby](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
@@ -127,14 +127,14 @@ application you should use one of the available frameworks, like devise.
 
 ## Reading for next week
 
-* [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html)
+* [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html)
 
 # Week 5
 
 ## AJAX
 
 Find a place where a little bit of JavaScript is useful in your Application. You find a couple
-of examples in the [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
+of examples in the [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html) Guide.
 
 See my [example project](../example-project/week-5).
 

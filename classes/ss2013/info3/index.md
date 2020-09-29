@@ -15,5 +15,5 @@ layout: page
 
 &nbsp;
 
- [2]: http://github.com/info3
- [4]: http://eclemma.org
+ [2]: https://github.com/info3
+ [4]: https://eclemma.org

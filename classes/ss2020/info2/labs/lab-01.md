@@ -13,8 +13,8 @@ Remember to do all the necessary steps listed on the [Labs](labs) page, includin
 ***P2.*** If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
 
 ***P3.*** Find out what the *Class-Responsibility-Collaboration Card method* is, what the use of CRC Cards is and how they are created. The following resources can be of help:
-* [The method of CRC cards and the context of OOP](http://c2.com/doc/oopsla89/paper.html)
-* [Example CRC cards and how to create CRC Cards](http://www.agilemodeling.com/artifacts/crcModel.htm)
+* [The method of CRC cards and the context of OOP](https://c2.com/doc/oopsla89/paper.html)
+* [Example CRC cards and how to create CRC Cards](https://www.agilemodeling.com/artifacts/crcModel.htm)
 
 ## Assignment: CRC Cards
 

@@ -45,7 +45,7 @@ Rails has created fixtures for you if you used the scaffold generator. Mine got
 broken when I refactored last_done by moving it to an association.
 
 
-For setting up your fixtures, see the API Documentation on Fixtures:  [ActiveRecord::FixtureSet](http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html)
+For setting up your fixtures, see the API Documentation on Fixtures:  [ActiveRecord::FixtureSet](https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html)
 
 See commit week-3-1 for the fix and the fixtures using the association. I've
 also added a model test to ensure the association is correctly set up.

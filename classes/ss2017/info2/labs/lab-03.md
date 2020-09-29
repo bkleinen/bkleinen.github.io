@@ -34,7 +34,7 @@ These are the required exercises for this week. Work in groups of two, each of y
         C : ******
 
 
-5. Try out your program with a big file, eg. the 3M english news file from the [Leipzig Corpora Collection](http://wortschatz.uni-leipzig.de/en/download): look for eng_news_2015_3M.tar.gz and read the file eng_news_2015_3M/eng_news_2015_3M-sentences.txt. How many 'a's are in this file, how many 'z's?
+5. Try out your program with a big file, eg. the 3M english news file from the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download): look for eng_news_2015_3M.tar.gz and read the file eng_news_2015_3M/eng_news_2015_3M-sentences.txt. How many 'a's are in this file, how many 'z's?
 6. What is the complexity of your program?
 
 ## For the bored

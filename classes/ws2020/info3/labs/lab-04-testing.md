@@ -72,5 +72,5 @@ Your task is to develop deletion and reversion of a simple linked list test driv
 
 More info on the [Labs](index) page.
 
-[1]: http://en.wikipedia.org/wiki/Black_box_testing
-[2]: http://en.wikipedia.org/wiki/White_box_testing
+[1]: https://en.wikipedia.org/wiki/Black_box_testing
+[2]: https://en.wikipedia.org/wiki/White_box_testing

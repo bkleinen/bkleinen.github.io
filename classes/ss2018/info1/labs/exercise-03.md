@@ -5,7 +5,7 @@ layout: lab
 ---
 
 ![Book](../../images/books-8314929977.jpg)
-<small class = "float-right">Books. [Abhi Sharma](http://www.flickr.com/photos/abee5/8314929977/)</small>
+<small class = "float-right">Books. [Abhi Sharma](https://www.flickr.com/photos/abee5/8314929977/)</small>
 
 This week's lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.
 

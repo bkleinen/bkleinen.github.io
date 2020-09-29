@@ -30,5 +30,5 @@ implementation or evaluation.
 
 # Further Information and Links
 * [Antworten auf Fragen, die mir häufig gestellt wurden (Deutsch)](faq)
-* [Info on FB4-Page](http://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)
+* [Info on FB4-Page](https://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)
 * [Info on HTW Page](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/)

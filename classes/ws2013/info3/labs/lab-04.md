@@ -5,11 +5,11 @@ layout: page
 ---
 
  ![Machine](../../images/machine.jpg "machine")
- Foto by [Jeff Kubina](http://www.flickr.com/photos/kubina/278696130)
+ Foto by [Jeff Kubina](https://www.flickr.com/photos/kubina/278696130)
 ## Prelab
 Please do read this Introduction to State Machine Diagrams before coming to lab!
 
-* [UML 2 State Machine Diagramming Guidelines](http://www.agilemodeling.com/style/stateChartDiagram.htm)
+* [UML 2 State Machine Diagramming Guidelines](https://www.agilemodeling.com/style/stateChartDiagram.htm)
 
 I will only give a brief intro/Q&A to State Machine Diagrams in the lab.
 
@@ -31,5 +31,5 @@ Your Lab Report should include reflections on the process of producing the diagr
 
 Based on [Exercise04][3] by [Prof. Dr. Debora Weber-Wulff][4]
 
-[3]: http://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
-[4]: http://www.f4.htw-berlin.de/~weberwu/
+[3]: https://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex4.shtml
+[4]: https://www.f4.htw-berlin.de/~weberwu/
