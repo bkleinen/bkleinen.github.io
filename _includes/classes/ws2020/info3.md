@@ -13,8 +13,7 @@
       <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201">SU in LSF</a>
       <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164935">Labs in LSF</a>
       <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="https://gl-imi.f4.htw-berlin.de/info3-wise2020">Lecture Source Code</a>
-        <a class="dropdown-item" target = "ex_link" href="https://github.com/htw-imi-info3">Old Stuff on Github</a>
-    </div>
+      <a class="dropdown-item" target = "ex_link" href="https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples">Lecture Source Code</a>
+        </div>
   </li>
 </ul>
