@@ -22,8 +22,8 @@ If you decide to work on your own computer:
 * Install and set up a code editor suitable for JavaScript. I recommend [Atom](https://atom.io). [This guide](https://wiki.ubuntuusers.de/Atom/) can help you with the installation.
 
 ### 2. Prepare some more...
+* Sign in to [the IMI GitLab](https://gl-imi.f4.htw-berlin.de) and give yourself a name with which I can recognize you (something else than your Matrikelnummer! A nickname is enough.)
 * Find a team of three and sign up for it using Moodle. I'll not accept work that has not been done in a group.
-* Make sure you can sign in to [the IMI GitLab](https://gl-imi.f4.htw-berlin.de)
 
 ## Assignment
 In this assignment you will program a "Hobby Matcher". "Hobby Matcher" should help people find other people with the same hobbies. Prof. Kleinen already thought of two [user stories](https://en.wikipedia.org/wiki/User_story). 
