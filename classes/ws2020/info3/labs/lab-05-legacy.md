@@ -74,5 +74,10 @@ We have recently signed a supplier of conjured items. This requires an update to
 13. Implement the new functionality so your tests pass. 
 14. Don't forget to lint and improve your code.
 
-## What to hand in
-A link to your repository.
+
+## Results Submission
+* Hand in a link to your repository
+* Hand in a lab report
+* Take part in the peer review activity on Dec. 17 2020
+
+More info on the [Labs](index) page.

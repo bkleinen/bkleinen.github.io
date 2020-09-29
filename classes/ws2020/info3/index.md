@@ -38,55 +38,36 @@ The class consists of 2x2h of lectures  and 2h of lab every week.
 Lab exercises run for 2 weeks - there are two labs for each assignment.
 This allows you to start within the first lab, get most of the work done during the
 week and come back with your questions in the second lab.
-There will be quizzes about the lab topics in the lab.
 
 Due dates:
 
-* Lab Reports: Monday 22:00 before the next lab with a new assignment.
+* Lab Reports: See the Moodle hand in field. Usuall on Tuesday 10pm before the next lab with a new assignment.
+* Oral Test: See the individual lab pages. Usually during the next lab with a new assignment.
 
 
 ## Grades
 
-Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course (optionally) tests on lab subjects and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
+Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
 
 Option 1: only Exam
 * Exam 100%
 * all 7 lab reports need to be turned in before the exam
 
-Option 2: Lab Quizzes & Exam
+Option 2: Labs & Exam
 * Exam 50%
-* Lab Quizzes: 50%
+* Labs 50%
 * all 7 lab reports need to be turned in before the exam
 
-In each lab with a new assignment, which happens to be the same as the lab after the
-report deadline, there will be a short moodle quizz about the subjects of
-the lab. If you worked on the lab report it should be fairly easy to
-answer.
+You don't have to decide which option you choose, the one that results in the better grade for you at the end of the
+semester will automatically be picked.
 
-You don't have to participate in the quizzes, but they are a chance to
-earn points ahead of the exam just as you could formerly with graded
-lab reports.
+### Labs
+More Info about the parts that make up your lab grade can be found on the [Labs](labs) page.
 
-You don't have to decide which Option you choose, I will automatically
-pick the one that results in the better grade for you at the end of the
-semester.
-
-### If you miss a quizz
-
-It's not possible to do the quizz later or from home - for the simple reason
-that you would have an advantage as you could either use other material if at
-home or have the opportunity to gain information about the quizz contents if
-doing it at a later time.
-
-If you miss a quizz, you have the opportunity to attend an extra quizz at the
-end of the semester. This way you have a chance to get all the points
-even though you / your kid / your grandma catched the flu for a week.
-
-
-## Lab Reports
-
-As in Info1 and Info2, you need to write Lab Reports.
-More info about the Lab Reports can be found on the [Labs](labs) page.
+The Labs grade is made up of three parts:
+* Lab Hand ins: (7 x 2 = ) 14 Points
+* Oral Tests: (7 x 3 = ) 21 Points
+* Peer Reviews: (X x 2 = ) Y Points
 
 ## Exam
 
