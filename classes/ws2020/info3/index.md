@@ -67,7 +67,7 @@ More Info about the parts that make up your lab grade can be found on the [Labs]
 The Labs grade is made up of three parts:
 * Lab Hand ins: (7 x 2 = ) 14 Points
 * Oral Tests: (7 x 3 = ) 21 Points
-* Peer Reviews: (X x 2 = ) Y Points
+* Peer Reviews: (2 x 3 = ) 6 Points
 
 ## Exam
 
