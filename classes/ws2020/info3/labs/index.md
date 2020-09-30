@@ -23,7 +23,6 @@ Linda Fernsel will teach the labs via BBB only (the BBB room is on Moodle).
 * [Exercise 05 - Legacy Code - Refactoring to Patterns](lab-05-legacy)
 * [Exercise 06 - Web Apps with Node and Express I](lab-06-express-1)
 * [Exercise 07 - Web Apps with Node and Express II](lab-06-express-2)
-=======
 
 ## Teams
 You are required to work on the exercises and turn them in **teams of  3 people**. All team members need to register for their team on Moodle before each new assignment. Chose the group that corresponds to your lab (group 1 = 8am lab, group 2 = 9.45am lab). You are free to chose any of the remaining team numbers.
@@ -33,7 +32,7 @@ You need to
 * work with **repositories** when producing code. Share a link to your repository in the Moodle hand in field (the text field)
 * write a **report** about what you did and your results. Upload your report in the Moodle hand in field (the file field)
 * participate in the **oral test** about the lab (not Lab02 and Lab05)
-* Only Lab02 and Lab05: Take part in the **peer reviews**
+* only Lab02 and Lab05: Take part in the **peer reviews**
 
 Only one person per team has to do the hand in of repo link and report. All team members have to take the oral test and participate in the peer review.
 
@@ -54,41 +53,11 @@ I trust you to have a feeling for what belongs in a good report. The following r
 The progress you make in each lab except lab02 and lab05 will be verified with 10-minute oral tests (1 per group per assignment).
 
 You should be able to:
-* explain your results
-* explain your code
-* answer questions about subjects of a lab
+* explain your results (1P)
+* explain your code (1P)
+* answer questions about subjects of a lab (1P)
 
-There will be 7 exercises. The exercises will either be written reports - lab reports - or the documents you produce in your design with UML,
-usually not the source code itself. I might, however, ask to turn it in as well.
-
-You are required to work on the exercises and turn them in **groups of  3 people**.
-Submissions are done in Moodle, **no late submissions** are allowed this term.
-Always hand in what you have on time.
-
-## Peer Reviews
-
-For
-...
-
-
-Lab 01, 03,04, 06,07:
-+2: Für abgegebenen Report 
-
-+1: Für Vortragen-können der Erkenntnisse aus dem Lab 
-+1: Für Erklären-können des Codes
- +1: Für Beantworten-können von Fragen zum Lab
-
-- jeweils 5P
-
-Lab 02 und Lab 05
-jeweils 3 Evaluationen mit 5P; gemittelt
-
-+2: Für abgegebenen Report 
-
-jeweils
-+1: für jede selbst geschriebene Evaluation (x3)
-
-The order of groups is decided at random. The tests usually take place during the next lab with a new assignment. If you can not attend the test, talk to me asap. We will try to find a solution together.
+The order of groups is decided at random. The tests usually take place during the next lab with a new assignment but it might be that your group is moved to the next lab, due to time constraints. If you can not attend the test, talk to me asap. We will try to find a solution together.
 
 ### Peer Reviews
-Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports.
+Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports (1P per review). 
