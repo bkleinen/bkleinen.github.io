@@ -5,13 +5,14 @@
   {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    {% include navigation_dropdown_item.md url = "/classes/ss2020/info2" link_text = "Info 2" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2020/info3" link_text = "Info 3" %}
+        {% comment %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/wtat1" link_text = "WTAT1 Agile Web Dev" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/project" link_text = "Project" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/bachelorseminar" link_text = "Bachelorseminar" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/m1-web" link_text = "M1 Mediaprogramming" %}
   {% include navigation_dropdown_item.md url = "/classes/ss2020/m-wt4-ucd" link_text = "M WT4 UCD" %}
-    {% comment %}
+
 
 
     {% include navigation_dropdown_item.md url = "/classes/ss2020/m6-project" link_text = "Project" %}

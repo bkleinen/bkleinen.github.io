@@ -41,7 +41,7 @@ week and come back with your questions in the second lab.
 
 Due dates:
 
-* Lab Reports: See the Moodle hand in field. Usuall on Tuesday 10pm before the next lab with a new assignment.
+* Lab Reports: See the Moodle hand-in field. Usually at Tuesday 10pm before the next lab with a new assignment.
 * Oral Test: See the individual lab pages. Usually during the next lab with a new assignment.
 
 
@@ -65,15 +65,17 @@ semester will automatically be picked.
 More Info about the parts that make up your lab grade can be found on the [Labs](labs) page.
 
 The Labs grade is made up of three parts:
-* Lab Hand ins: (7 x 2 = ) 14 Points
-* Oral Tests: (7 x 3 = ) 21 Points
-* Peer Reviews: (2 x 3 = ) 6 Points
+
+| Lab Part      |             | Points    |
+|:--------------|:------------|:----------|
+| Lab Hand ins: | (7 x 2P = ) | 14 Points |
+| Oral Tests:   | (7 x 3P = ) | 21 Points |
+| Peer Reviews: | (2 x 3P = ) | 6 Points  |
+| Sum           |             | 41        |
 
 ## Exam
 
 There will be a 2-hour online examination at the end of the semester.  
-The exam will be an on-line exam with two parts, a multiple-choice part
-and an essay / programming part.
 
 ## Course Literature
 
@@ -83,9 +85,10 @@ enty of information online. Some of them can be found in the library.
 You might want to buy them, though, as these are books that will not be
 outdated next year. One of them is even the same age as some of you.
 
-| Reference                                                                                                                                         | Link                                                                                                                                                                                             |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Reference                                                                                                                                         | Link                                                                                                                                                                                              |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ian Sommerville (2010). Software Engineering [9th edition]. Prentice Hall.                                                                        | [Available o Amazon](https://www.amazon.de/gp/product/0137053460/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0137053460&linkCode=as2&tag=plagiatundimi-21&linkId=7XBTKFV6QLC7AV2Q)  |
+| Sandi Metz: 99 Bottles of OOP - second Edition                                                                                                    | [Book Website](https://sandimetz.com/99bottles) If you consider purchasing this book, email me for a discount code.                                                                               |
 | Sandi Metz: _Practical Object Oriented Design in Ruby: An Agile Primer._ Addison Wesley, 2012.                                                    | [Book Website](https://www.poodr.com/)                                                                                                                                                            |
 | Robert C. Martin: _Clean Code: A Handbook of Agile Software Craftsmanship_. Prentice Hall, 2008.                                                  | [Homepage der Clean-Code Initiative](https://www.clean-code-developer.de/) (german)                                                                                                               |
 | Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006                                         | [SOLID](https://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles                                                                                                                     |

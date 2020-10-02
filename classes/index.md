@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 ---
 
-### Winter Term 2020
+### Winter Term 2020/21
 
 {% include classes/ws2020/lectures.md %}
 
