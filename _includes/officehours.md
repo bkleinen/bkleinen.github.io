@@ -2,7 +2,7 @@
 
 
 
-<div class="alert alert-info" role="alert">Office Hours will be held by Phone/Skype. <a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Sprechstunden+im+Sommersemester+2020">Please register in the Wiki for appointments.</a></div>
+<div class="alert alert-info" role="alert">Office Hours will be held by Phone/Skype. <a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Sprechstunden+und+Bachelorarbeitskonsultationen">Please register in the Wiki for appointments.</a></div>
 
 <h2>Praktikumsanmeldungen</h2>
 
@@ -16,7 +16,7 @@ Bereiten Sie LSF-Nachweis, Praktikumsvertrag sowie ggfs. weitere Unterlagen vor 
 Infos über die erforderlichen Unterlagen finden Sie hier.</a>
 </li>
 <li>
-<a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Sprechstunden+im+Sommersemester+2020">Registrieren Sie sich für einen Termin in der Sprechstunde.</a>
+<a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Sprechstunden+und+Bachelorarbeitskonsultationen">Registrieren Sie sich für einen Termin in der Sprechstunde.</a>
 </li>
 <li>
 Es genügt, das aus der IMI-Map generierte PDF per email vom HTW-Account an mich zu schicken.
