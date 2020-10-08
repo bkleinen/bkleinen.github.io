@@ -77,6 +77,10 @@ The Labs grade is made up of three parts:
 
 There will be a 2-hour online examination at the end of the semester.  
 
+## I have already taken Info3 last semester and passed the labs!
+
+Congrats! Tell Prof. Kleinen and Prof. Weber-Wulff that you would like to keep your grade for the lab. It is recommended that you still do the labs of this semester for yourself (you can ask for help/ feedback of course) so you can learn about JavaScript (the topics of the lab can be in the exam).
+
 ## Course Literature
 
 There is no textbook for this class. Here are the main books this class
