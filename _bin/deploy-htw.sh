@@ -1,5 +1,23 @@
 #!/bin/bash
 
+function test_server {
+  timeout --preserve-status 5 nc -z oxid01.rz.htw-berlin.de 22
+}
+
+echo "testing connectivity...."
+if [ $(test_server > /dev/null ; echo $?) != "0" ]; then
+  echo "could not reach HTW host "
+  echo "(needs VPN connection!) - exiting."
+  exit 1
+else
+  echo "ok."
+fi
+
+if [ $(git branch --show-current) != "master" ]; then
+   echo "not on master branch - this will result in "
+   echo "inconsistency between github and htw versions - exiting."
+   exit 1
+fi
 
 git push origin master
 if [ $? -ne 0 ]; then
