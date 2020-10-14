@@ -6,6 +6,7 @@ wide_layout: true
 ---
 
 # Tentative Schedule
+
 | Week | KW | Date           | What | Who                                  | Homework / Due Tue 22:00 next week |
 |:-----|:---|:---------------|:-----|:-------------------------------------|:-----------------------------------|
 | 1    | 41 | Fri 09/10/2020 |      | Class Intro                          |                                    |

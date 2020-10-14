@@ -20,6 +20,15 @@ Apart from that, feel free to browse and also send me pull requests if you encou
 
 [A bit more about how this site is made and edited.](https://bkleinen.github.io/about/thissite.html)
 
+# Tests
+
+Run
+
+    rake -T
+
+to see available tests. They mainly check for link consistencies.
+
+
 # Feeds
 
 https://validator.w3.org/feed/check.cgi?url=http%3A//bkleinen.github.io/atom.xml
