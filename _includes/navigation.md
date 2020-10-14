@@ -5,7 +5,11 @@
   {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    {% include navigation_dropdown_item.md url = "/classes/ws2020/info3" link_text = "Info 3" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2020/info3" link_text = "B Info 3" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2020/m-wt1-webapplications" link_text = "M WT1" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2020/m1-web" link_text = "M1 Labs" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2020/index.html" link_text = "All WS20" %}
+
         {% comment %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/wtat1" link_text = "WTAT1 Agile Web Dev" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2020/project" link_text = "Project" %}

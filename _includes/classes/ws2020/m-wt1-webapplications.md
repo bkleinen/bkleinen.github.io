@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "M-WT1:/classes/ws2020/m-wt1-webapplications/,Schedule:/classes/ws2020/m-wt1-webapplications/schedule/,Assignments:/classes/ws2020/m-wt1-webapplications/assignments/" | split: "," %}
+{% assign navitems = "M-WT1:/classes/ws2020/m-wt1-webapplications/,Schedule:/classes/ws2020/m-wt1-webapplications/schedule/" | split: "," %}
 
 {% comment %}
 ,Code:/classes/ws2020/m-wt1-webapplications/code/,Labs:/classes/ws2020/m-wt1-webapplications/labs/
@@ -15,9 +15,9 @@
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">External Links</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" target = "ex_link" href="https://moodle.htw-berlin.de/course/view.php?id=21906">Moodle</a>
-      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154128">LSF</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164444">LSF</a>
       <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312">Semesterstundenplan im LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="#">Github</a>
+      <a class="dropdown-item" target = "ex_link" href="#">Sourcecode</a>
     </div>
   </li>
 </ul>
