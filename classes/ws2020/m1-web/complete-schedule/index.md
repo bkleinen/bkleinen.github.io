@@ -4,13 +4,12 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-This schedule is, as always, tentative.
 
 | Week | KW | Date           | Topic Area                              | Lecturer        |
 |:-----|:---|:---------------|:----------------------------------------|:----------------|
-| 1    | 41 | Wed 07/10/2020 | Visual Computing                        | Nico Hezel      |
+| 1    | 41 | Wed 07/10/2020 | Visual Computing                        | Klaus Jung      |
 | 2    | 42 | Wed 14/10/2020 | Visual Computing                        | Nico Hezel      |
-| 3    | 43 | Wed 21/10/2020 | Visual Computing                        | Kai Barthel     |
+| 3    | 43 | Wed 21/10/2020 | Visual Computing                        | Klaus Jung      |
 | 4    | 44 | Wed 28/10/2020 | Visual Computing                        | Nico Hezel      |
 | 5    | 45 | Wed 04/11/2020 | Visual Computing                        | Nico Hezel      |
 | 6    | 46 | Wed 11/11/2020 | Game Technology and Interactive Systems | David Strippgen |
