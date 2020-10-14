@@ -12,9 +12,10 @@ require_relative './lib_ruby_dates.rb'
 # )
 # WT4
 course_dates = CourseDates.new(
-  first_day: Date.parse("9.10.2020"),
+  first_day: Date.parse("13.10.2020"),
   day_diff: 2,
-  two_lectures: false
+  two_lectures: false,
+  step: 14
 )
 
 # Semesterdaten

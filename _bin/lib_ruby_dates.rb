@@ -16,6 +16,7 @@ CourseDates = Struct.new(
   :first_day,
   :day_diff,
   :two_lectures,
+  :step,
   keyword_init: true
 )
 
@@ -35,7 +36,7 @@ def generate
   puts "#{d.class}"
   week_count = 0
   (1..@semester_dates.weeks_available).to_a.each do |i|
-    date = d + (7 * (i - 1))
+    date = d + (@course_dates.step * (i - 1))
     # vlt rausnehmen? eignet sich nur für ganze wochen
     next if in_rejected?(date: date, semester_dates: @semester_dates)
     text_holiday = holiday(date: date, semester_dates: @semester_dates)

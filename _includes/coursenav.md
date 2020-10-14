@@ -15,6 +15,7 @@ classes/ss2020/bachelorseminar.md
 classes/ss2020/m1-web.md
 classes/ss2020/m-wt4-ucd.md
 classes/ws2020/info3.md
+classes/ws2020/bachelorseminar.md
 classes/ws2020/m1-web.md
 classes/ws2020/m-wt1-webapplications.md
 index.md.md
