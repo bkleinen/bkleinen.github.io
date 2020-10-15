@@ -5,7 +5,7 @@ function test_server {
 }
 
 echo "testing connectivity...."
-if [ $(test_server > /dev/null ; echo $?) != "0" ]; then
+if [ $(test_server > /dev/null ; echo $?) != 0 ]; then
   echo "could not reach HTW host "
   echo "(needs VPN connection!) - exiting."
   exit 1
