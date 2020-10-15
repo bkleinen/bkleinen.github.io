@@ -63,7 +63,7 @@ Additionally each team member is required to:
 * be able to screenshare
 If any of this is not possible, tell me early so we can find a solution.
 
-The order of groups is decided at random. The tests usually take place during the second week of a lab. If you can not attend the test, talk to me asap. We will try to find a solution together.
+The order of groups is decided at random. The tests usually take place during the second week of the next lab (eg. the oral test about lab01 takes place in the second week of lab02). If you can not attend the test, talk to me asap. We will try to find a solution together.
 
 ### Peer Reviews
 Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports (1P per review). 
