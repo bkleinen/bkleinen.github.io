@@ -39,12 +39,13 @@ Only one person per team has to do the hand in of repo link and report. All team
 **No late submissions** are allowed this term. Always hand in what you have on time. If a problem is blocking your work, I expect you to talk to me about it at latest in the second week of the assignment.
 
 ### Repositories
-If you produced any code it should be in a repository in the appropriate lab folder at https://gl-imi.f4.htw-berlin.de/info3-wise2020. Work with the repository from the start on and upload the complete projects, not only parts of code.
+If you produced any code it should be in a repository in the appropriate lab folder at https://gl-imi.f4.htw-berlin.de/info3-wise2020. Work with the repository from the start on and upload the complete projects, not only parts of code. I expect to find the final solution on the master branch.
 
 ### Reports
 I trust you to have a feeling for what belongs in a good report. The following requirements of form are new and prepare you for scientific work:
 * You write in correct, complete sentences
 * You write about facts and your tone is neutral
+* Your argumentation is logical 
 * You cite your sources appropriately ([How to do that?](https://people.f3.htw-berlin.de/Professoren/Pruemper/pdf/RichtlinienHaus-undDiplomarbeiten.pdf))
 * You don't write more than necessary
 * You write either in German or English, you don't mix languages.
@@ -57,7 +58,13 @@ You should be able to:
 * explain your code (1P)
 * answer questions about subjects of a lab (1P)
 
-The order of groups is decided at random. The tests usually take place during the next lab with a new assignment but it might be that your group is moved to the next lab, due to time constraints. If you can not attend the test, talk to me asap. We will try to find a solution together.
+Additionally each team member is required to:
+* be able to communicate by microphone
+* be able to screenshare
+
+If any of this is not possible, tell me early so we can find a solution.
+
+The order of groups is decided at random. The tests usually take place during the second week of the next lab (eg. the oral test about lab01 takes place in the second week of lab02). If you can not attend the test, talk to me asap. We will try to find a solution together.
 
 ### Peer Reviews
 Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports (1P per review). 
