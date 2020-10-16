@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "M-WT1:/classes/ws2020/m-wt1-webapplications/,Schedule:/classes/ws2020/m-wt1-webapplications/schedule/" | split: "," %}
+{% assign navitems = "M-WT1:/classes/ws2020/m-wt1-webapplications/,Schedule:/classes/ws2020/m-wt1-webapplications/schedule/,Sprint:/classes/ws2020/m-wt1-webapplications/sprint/" | split: "," %}
 
 {% comment %}
 ,Code:/classes/ws2020/m-wt1-webapplications/code/,Labs:/classes/ws2020/m-wt1-webapplications/labs/
