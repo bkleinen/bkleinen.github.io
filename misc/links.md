@@ -13,7 +13,6 @@ layout: default
 * [Besprechungen laufende Abschlussarbeiten](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Besprechungen+Abschlussarbeiten)
 * Wiki - Intranet:  [https://wiki.rz.htw-berlin.de/](https://wiki.rz.htw-berlin.de/)  
 * Dienstreise, SHK, Wunschzeiten und Lehrplanung: [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/)
-* Zugang zum Gebäude:  [htw-serviceportal.htw-berlin.de](htw-serviceportal.htw-berlin.de) (fb-service und htw-serviceportal zeigen auf die selbe IP, aber manche services funktionieren entweder nur manchmal oder nur auf einem der beiden Systeme?)
 * Lehrabrechnung: [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
 
 ## Gelegentlich
