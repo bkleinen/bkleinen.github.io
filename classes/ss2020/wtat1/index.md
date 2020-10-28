@@ -13,6 +13,19 @@ Within the class you will design and develop a web application within a small te
 
 Throughout the project, you will build features into your project that allow you to learn and practice certain aspects of web development and the technology used. See the Schedule and the Topics list for details.
 
+## Class Contents
+
+- Agile Development
+- Scrum Methods, Ceremonies and Artefacts
+- Web Application Basics
+- View Templates, Model View Controller
+- Node, Express, Javascript
+- Persistence, MongoDB
+- Authentication and Web Security
+- React
+- Real Time Communication
+- Continuous Deployment
+
 ## Meetings and Due Dates
 
 The Campus is closed and there will be no on-site classes at least till April 20, probably longer.
