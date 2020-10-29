@@ -56,6 +56,9 @@ An actor is something or someone that interacts with the target system to produc
 
 A [use case][2] is an instance of how an actor would use a software system or a service offered by the system. More than one actor can participate in a use case. We draw use case diagrams to visualize the use cases and write out the use cases using templates. Use case diagrams are decorated with the name given to the use case. A scenario will typically describe the sequence of concrete activities that happen when a user is interacting with the proposed system. It is a detailed, step-by-step description of observable behaviors - that is, it does not describe the internal workings of the machine, but what a user can observe from the outside. We are not worried about how it will be done on the inside, but instead just want to see if the use of the system makes sense. We can branch inside a scenario using an **if** statement and can repeat steps using a **while** statement. A scenario will not have exceptional conditions. If it is describing one such exceptional interaction, then it explains each step of what happens. A scenario also does not extend another scenario - it just describes what happens in this concrete instance. We give **names** to scenarios, so that we can talk about them. The name should somehow be connected to the use case it is describing. Then we describe any **precondition** that must hold before the scenario can commence. For example: The user has a valid EC card. Then the sequence of steps is listed, followed by a **postcondition** describing what must hold at the end of the scenario. For example, the account linked to the EC card has been debited by 100 Euros and the user now has 100 Euros cash in her hands and the card is now marked as having been used on the current day.
 
+![ATM](../images/atm_12698012964_429981292c_z.jpg)
+https://www.flickr.com/photos/smemon/12698012964/
+
 | Name              | ATM Cash Withdrawal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Precondition      | Emmy has an EC card with a readable magnetic stripe & the EC card is valid & the EC card is linked to an account with this bank                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -90,18 +93,15 @@ You should realize that every author and every company have their own ways of de
 
 ### Part 1: Use Cases & Scenarios
 
-Identify the use cases in this description and draw a use case diagram.
+Identify the use cases in the Halloween Treats Worldwide description and draw a use case diagram.
 
-Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). If you work on this in a group, choose a different use case for each person such that you get a couple covered (that is, everyone has to write a different use case scenario!)
+Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). Choose a different use case for each person such that you get a couple covered (that is, everyone has to write a different use case scenario!)
 
 Hint: In the pre-lab you read how to write the Use Case Scenarios. In addition to the use case scenarios, it might help if you draw a quick sketch (low fidelity, black and white) of the screen layout, as it is not as straightforward as with the ATM in the example.
 
-![ATM](../images/atm_12698012964_429981292c_z.jpg)
-https://www.flickr.com/photos/smemon/12698012964/
-
 ### Part 2: Class Diagram
 
-Then, draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](https://www.agilemodeling.com/artifacts/classDiagram.htm).
+Then, draw a Class Diagram for your application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](https://www.agilemodeling.com/artifacts/classDiagram.htm).
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
