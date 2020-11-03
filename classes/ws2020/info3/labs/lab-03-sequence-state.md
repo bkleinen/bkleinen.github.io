@@ -23,7 +23,7 @@ layout: page
 
 If you feel like it, you can continue with a sequence diagram for additional use cases.
 
-### Part 2:  State Machine Diagrams
+### Part 2: State Machine Diagrams
 3. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.
 4. Model the states an IMI student passes through from the first until the sixth semester. (Glory for the most humorous model that is not offensive.)
 5. Model the states of a parser that determines if a given string is a proper floating-point number, i.e. `[sign] integerpart dot fractional part [E exponent]`
@@ -31,7 +31,7 @@ If you feel like it, you can continue with a sequence diagram for additional use
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
-* Take part in the oral test on Nov. 19 2020
+* Take part in the oral test on Nov. 26 2020
 More info on the [Labs](index) page.
 
 ***
