@@ -14,6 +14,7 @@ layout: default
 * Wiki - Intranet:  [https://wiki.rz.htw-berlin.de/](https://wiki.rz.htw-berlin.de/)  
 * Dienstreise, SHK, Wunschzeiten und Lehrplanung: [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/)
 * Lehrabrechnung: [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
+* Zoom: [https://htw-berlin.zoom.us/](https://htw-berlin.zoom.us/)
 
 ## Gelegentlich
 
