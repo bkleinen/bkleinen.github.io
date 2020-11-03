@@ -50,6 +50,8 @@ I trust you to have a feeling for what belongs in a good report. The following r
 * You don't write more than necessary
 * You write either in German or English, you don't mix languages.
 
+Caro Track will give you feedback for the reports.
+
 ### Oral Tests
 The progress you make in each lab except lab02 and lab05 will be verified with 10-minute oral tests (1 per group per assignment).
 
