@@ -107,7 +107,7 @@ Then, draw a Class Diagram for your application. It should contain associations 
 * Hand in a lab report (including your diagrams)
 * Take part in the peer review activity on Nov. 5 2020
 
-More info on the [Labs](index) page.
+More info on the [Labs](../index) page.
 
 ----
 
