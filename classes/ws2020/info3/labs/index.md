@@ -4,11 +4,11 @@ author: kleinen
 layout: page
 ---
 
-## Your time, your progress, your happyness, your responsability
- You study for your own profit and you spend a lot of time on it. So you are expected to take responsability for your own learning and happyness, that includes
+## Your time, your progress, your happyness, your responsibility
+ You study for your own profit and you spend a lot of time on it. So you are expected to take responsibility for your own learning and happyness, that includes
 * asking for help when you need it (just email Linda or write her via Moodle)
 * providing anonymous feedback via Moodle
-* sharig what you wish to learn
+* sharing what you wish to learn
 * sharing suggestions for improvement
 * being mentally present during the labs
 
@@ -45,7 +45,7 @@ If you produced any code it should be in a repository in the appropriate lab fol
 I trust you to have a feeling for what belongs in a good report. The following requirements of form are new and prepare you for scientific work:
 * You write in correct, complete sentences
 * You write about facts and your tone is neutral
-* Your argumentation is logical 
+* Your argumentation is logical
 * You cite your sources appropriately ([How to do that?](https://people.f3.htw-berlin.de/Professoren/Pruemper/pdf/RichtlinienHaus-undDiplomarbeiten.pdf))
 * You don't write more than necessary
 * You write either in German or English, you don't mix languages.
@@ -69,4 +69,4 @@ If any of this is not possible, tell me early so we can find a solution.
 The order of groups is decided at random. The tests usually take place during the second week of the next lab (eg. the oral test about lab01 takes place in the second week of lab02). If you can not attend the test, talk to me asap. We will try to find a solution together.
 
 ### Peer Reviews
-Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports (1P per review). 
+Lab02 and Lab05 will be peer-reviewed. There will be no oral tests for these labs, but each person will need to review 3 other lab reports (1P per review).

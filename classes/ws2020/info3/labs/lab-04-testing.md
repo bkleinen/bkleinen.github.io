@@ -15,35 +15,41 @@ layout: page
 
 ### Part 1: Equivalence Classes
 2. Using the black-box methodology, what are the equivalence classes for testing *a method that determines the absolute value of an integer*? Don't look at the code yet.
-3. Now check out [`number.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/number.js). For a white-box test, what would be test cases covering each branch? 
-4. Based on your analysis, define suitable test cases for `number.js` and implement them with jest in the `test` folder. 
-5. Run your tests: `npm test number`. Report on the results. 
+3. Now check out [`number.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/number.js). For a white-box test, what would be test cases covering each branch?
+4. Based on your analysis, define suitable test cases for `number.js` and implement them with jest in the `test` folder.
+5. Run your tests: `npm test number`. Report on the results.
 6. Lint and correct your code: `npm run lint test/number.test.js`.
 
 ### Part 2: Black Box Tests
-7. **Black-box test**: Look at the following grading scale (which is not the grading scale for this course). 
+7. **Black-box test**: Look at the following grading scale (which is not the grading scale for this course).
 
-| Points | Grade | ECTS | Points | Grade | ECTS |
-|:-------|:------|:-----|:-------|:------|:-----|
-| 95-100 | 1,0   | A    | 65-69  | 3,0   | C    |
-| 90-94  | 1,3   | A    | 60-64  | 3,3   | C    |
-| 85-89  | 1,7   | B    | 55-59  | 3,7   | D    |
-| 80-84  | 2,0   | B    | 50-54  | 4,0   | D    |
-| 75-79  | 2,3   | B    | 0-49   | 5,0   | F    |
-| 70-74  | 2,7   | C    |        |       |      |
+| Points | Grade | Letter Grade |
+|:-------|:------|:-------------|
+| 95-100 | 1,0   | A            |
+| 90-94  | 1,3   | A            |
+| 85-89  | 1,7   | B            |
+| 80-84  | 2,0   | B            |
+| 75-79  | 2,3   | B            |
+| 70-74  | 2,7   | C            |
+| 65-69  | 3,0   | C            |
+| 60-64  | 3,3   | C            |
+| 55-59  | 3,7   | D            |
+| 50-54  | 4,0   | D            |
+| 0-49   | 5,0   | F            |
+|        |       |              |
 
 What are the equivalence classes for *a program that loops until a "-1"  is entered, asking for the number of points on this scale; prints the appropriate letter grade (A-F), and then prints the average number of points when "-1" has been entered*? Let's call this program "Grading Scale Calculator"
 
-8. Define one test case for each equivalence class. 
+8. Define one test case for each equivalence class.
 
 9. Manually test your test cases by runnig the "Grading Scale Calculator": `node "cliTools/gradingScale.min.js"` (The sources of this program - [Command Line Interface](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/gradingScale.min.js) and [Module](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/gradingScale.min.js) - are [minified](https://www.npmjs.com/package/terser) JavaScript files - don't try to make sense of them). Report on the results. Did you find errors in the "Grading Scale Calculator"?
 
 ### Part 3: White Box Tests / Path Coverage
-10. Examine the code for the program "Tax Time": [`cliTools/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there? 
+10. Examine the code for the program "Tax Time": [`cliTools/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there?
 
-11. What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. 
+11. What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions.
 
-12. Define one test case for each path. 
+12. Define one test case for each path.
 
 13. Manually test the test cases by running "Tax Time": `node "cliTools/taxTime.js"`. Report on your results. Did you find errors in "Tax Time"?
 
