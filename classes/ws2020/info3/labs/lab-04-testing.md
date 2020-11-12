@@ -68,7 +68,7 @@ Your task is to develop deletion and reversion of a simple linked list test driv
 ## Results Submission
 * Hand in a link to your repository
 * Hand in a lab report
-* Take part in the oral test on Dec. 3 2020
+* Take part in the oral test on Dec. 10 2020
 
 More info on the [Labs](index) page.
 
