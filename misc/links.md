@@ -16,6 +16,12 @@ layout: default
 * Lehrabrechnung: [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
 * Zoom: [https://htw-berlin.zoom.us/](https://htw-berlin.zoom.us/)
 
+
+## LSF Modulhandbuch
+* [Übersicht IMI Bachelor](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/gast&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrGast&asi=3BSmmfhkCGjb$LWJbzpt#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584)
+* [Übersicht IMI Bachelor editieren](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrBearbeiter&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/bearbeiter&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrBearbeiter&asi=wibIXy$nV0QsgrnwS0Kt#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584
+
+  )
 ## Gelegentlich
 
 * Logos und Folien im HTW-Design: [https://corporatedesign.htw-berlin.de/logos/](https://corporatedesign.htw-berlin.de/logos/)
