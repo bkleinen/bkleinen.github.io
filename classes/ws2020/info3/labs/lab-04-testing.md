@@ -10,7 +10,7 @@ layout: page
 
 ### Preparation
 1. Download the source code snippets for this assignment: [lab04-testing](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing)
-2. Prepare your project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Note that this is now lab04, so  make sure you adapt your process to that! Eg. put the project into the correct place on the gitlab server.
+2. Prepare your project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Note that this is now lab04, so  make sure you adapt your process to that! Eg. put the project into [the correct place on the gitlab server](https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab04).
 3. In addition to what you've covered in class, please have a look at [black-box][1] and [white-box][2] testing.
 
 ### Part 1: Equivalence Classes
