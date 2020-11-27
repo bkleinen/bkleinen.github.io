@@ -7,6 +7,8 @@ wide_layout: true
 
 On the dates marked with "Präsenz" the lecture will be held in WH-C 349 as a hybrid lecture. It will be possible to attend via Zoom as well.
 
+System Modelling and Architectural Design II
+
 
 
 | Week | KW | Date           |                | Lecture Topic                                                                | Lab (Thursdays)                                                                   |
@@ -23,17 +25,17 @@ On the dates marked with "Präsenz" the lecture will be held in WH-C 349 as a hy
 | 5    | 45 | Wed 04/11/2020 |                | Software Processes                                                           | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state) |
 |      |    | Fri 06/11/2020 |                | Software Testing                                                             |                                                                                   |
 | 6    | 46 | Wed 11/11/2020 |                | Software Design Patterns (GOF)                                               | [3 - Sequence Diagrams and State Machine Diagrams](../labs/lab-03-sequence-state) |
-|      |    | Fri 13/11/2020 |                | Software Design Patterns (GOF)                                               |                                                                                   |
-| 7    | 47 | Wed 18/11/2020 |                | Legacy Code & Refactoring                                                    | [4 - Testing](../labs/lab-04-testing)                                             |
-|      |    | Fri 20/11/2020 |                | System Modelling and Architectural Design II                                 |                                                                                   |
-| 8    | 48 | Wed 25/11/2020 |                | Application Architectures &  System Models (Ch. 5 ISSE)                      | [4 - Testing](../labs/lab-04-testing)                                             |
-|      |    | Fri 27/11/2020 |                | Patterns of Enterprise Application Architecture (POEAA)                      |                                                                                   |
-| 9    | 49 | Wed 02/12/2020 |                | Web Applications                                                             | [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy)                |
-|      |    | Fri 04/12/2020 |                | Web Applications                                                             |                                                                                   |
-| 10   | 50 | Wed 09/12/2020 |                | Clean Code                                                                   | [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy)                |
-|      |    | Fri 11/12/2020 |                | Clean Code Poster Session                                                    |                                                                                   |
-| 11   | 51 | Wed 16/12/2020 |                | Dependency Management, Build Management, Continuous Integration & Deployment | [6 - Web Apps with Node and Express I](../labs/lab-06-express-1)                  |
-|      |    | Fri 18/12/2020 |                | Internationalization and Localization                                        |                                                                                   |
+|      |    | Fri 13/11/2020 |                | Agile Development, Scrum                                                     |                                                                                   |
+| 7    | 47 | Wed 18/11/2020 |                | Software Design Patterns (GOF)                                               | [4 - Testing](../labs/lab-04-testing)                                             |
+|      |    | Fri 20/11/2020 |                | Software Design Patterns (GOF)                                               |                                                                                   |
+| 8    | 48 | Wed 25/11/2020 |                | no lecture, postponed: Clean Code Poster preparation                         | [4 - Testing](../labs/lab-04-testing)                                             |
+|      |    | Fri 27/11/2020 |                | Legacy Code & Refactoring                                                    |                                                                                   |
+| 9    | 49 | Wed 02/12/2020 |                | Clean Code Intro, Application Architectures &  System Models (Ch. 5 ISSE)    | [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy)                |
+|      |    | Fri 04/12/2020 |                | Patterns of Enterprise Application Architecture (POEAA)                      |                                                                                   |
+| 10   | 50 | Wed 09/12/2020 |                | Web Applications                                                             | [5 - Legacy Code - Refactoring to Patterns](../labs/lab-05-legacy)                |
+|      |    | Fri 11/12/2020 |                | Web Applications, Internationalization and Localization                      |                                                                                   |
+| 11   | 51 | Wed 16/12/2020 |                | Clean Code Poster Session                                                    | [6 - Web Apps with Node and Express I](../labs/lab-06-express-1)                  |
+|      |    | Fri 18/12/2020 |                | Dependency Management, Build Management, Continuous Integration & Deployment |                                                                                   |
 |      | 52 | Wed 23/12/2020 | Vorlesungsfrei |                                                                              |                                                                                   |
 |      |    | Fri 25/12/2020 | Vorlesungsfrei |                                                                              |                                                                                   |
 |      | 53 | Wed 30/12/2020 | Vorlesungsfrei |                                                                              |                                                                                   |
@@ -46,7 +48,7 @@ On the dates marked with "Präsenz" the lecture will be held in WH-C 349 as a hy
 |      |    | Fri 22/01/2021 |                | OO In Depth continued                                                        |                                                                                   |
 | 15   | 4  | Wed 27/01/2021 | Anfang PZ1     | Review & Exam Preparation                                                    | Trial Exam (Date to be announced)                                                 |
 |      |    | Fri 29/01/2021 |                | Review & Exam Preparation                                                    |                                                                                   |
-| 16   | 5  | Wed 03/02/2021 |                |                                                                              |                                                                                   |
-|      |    | Fri 05/02/2021 |                | Exam                                                                         |                                                                                   |
-| 17   | 6  | Wed 10/02/2021 |                |                                                                              |                                                                                   |
+| 16   | 5  | Wed 03/02/2021 |                | Consultations (individual)                                                   |                                                                                   |
+|      |    | Fri 05/02/2021 |                | Consultations (individual)                                                   |                                                                                   |
+| 17   | 6  | Wed 10/02/2021 |                | Consultations (individual)                                                   |                                                                                   |
 |      |    | Fri 12/02/2021 | Showtime       | [Showtime](https://showtime.f4.htw-berlin.de/) !                             |                                                                                   |

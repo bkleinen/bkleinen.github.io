@@ -33,9 +33,9 @@ technology during the implementation phase, it needs to be pitched there.
 
 * Design Sprint (5 Weeks) - Report (35P) - Due: Thu 19/11/2020
     * Tech Pitch (1 Week)
-* Implementation (5 Weeks) - Report (40P) - Due: Thu 07/01/2021
-* Usability Assessment (2 Weeks) - Report (15P) - Due: Thu 28/01/2021
-* Security Assessment (2 Weeks) - Report (15P) - Due: Thu 11/02/2021
+* Implementation (5 Weeks) - Report (40P) - Due: ~~Thu 07/01/2021~~ Thu 21/01/2021
+* Usability Assessment (2 Weeks) - Report (15P) - Due: Sun 15/02/2021
+* Security Assessment (2 Weeks) - Report (15P) - Due: Sun 15/02/2021
 
 This sums up to 105 Points, and will be graded [according to the grading scale](/studies/grading/grading-scale/).
 
