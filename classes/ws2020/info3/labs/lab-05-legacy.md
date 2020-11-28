@@ -43,10 +43,6 @@ Pretty simple, right? Well this is where it gets interesting:
 	Quality drops to 0 after the concert
 ```
 
-Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
-legendary item and as such its Quality is 80 and it never alters.
-
-
 6. Look at [the stubs for the tests](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test) and run them with coverage `npm run coverage`.
 7. Implement [Characterization Tests](https://en.wikipedia.org/wiki/Characterization_test). That is, write tests that pass with the current behavior of the app.
 Is the current system functionality different from the requirements sheet or are the specifications ambiguous somewhere? Document these cases in comments next to your test cases. As the current system is what `Gilded Rose` has used so far you can expect that it behaves in a way that works for them, so don't change the current behavior. While you implement your tests run them with coverage (`npm run coverage`) to check wether your tests hit all the branches in the `updateQuality` method.
@@ -73,6 +69,10 @@ We have recently signed a supplier of conjured items. This requires an update to
 
 	- "Conjured" items degrade in Quality twice as fast as normal items
 ```
+
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
+
+Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
 
 12. Add test cases for the newly required functionality.
 13. Implement the new functionality so your tests pass.
