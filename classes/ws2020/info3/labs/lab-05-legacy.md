@@ -47,6 +47,7 @@ Pretty simple, right? Well this is where it gets interesting:
 6. Look at [the stubs for the tests](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test) and run them with coverage `npm run coverage`.
 7. Implement [Characterization Tests](https://en.wikipedia.org/wiki/Characterization_test). That is, write tests that pass with the current behavior of the app.
 Is the current system functionality different from the requirements sheet or are the specifications ambiguous somewhere? Document these cases in comments next to your test cases. As the current system is what `Gilded Rose` has used so far you can expect that it behaves in a way that works for them, so don't change the current behavior. While you implement your tests run them with coverage (`npm run coverage`) to check wether your tests hit all the branches in the `updateQuality` method.
+Hint: Use [Jest's "describe.each"](https://jestjs.io/docs/en/api#describeeachtablename-fn-timeout) to simplify your tests.
 
 ### Part 2: Refactoring
 8. Have another look at the part of the `Gilded Rose`'s Requirements sheet that concerns refactoring and limitations you face:
