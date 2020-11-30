@@ -23,6 +23,7 @@ Leeroy, who has moved on to new adventures.
 
 ### Part 1: Characterization Tests
 5. Read again what the system is currently supposed to be doing, according to the `Team Gilded Rose`'s Requirements Sheet:
+
 ```
 Your task is to add the new feature to our system so that
 we can begin selling a new category of items. First an introduction to our system:
