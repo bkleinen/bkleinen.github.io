@@ -47,8 +47,9 @@ Pretty simple, right? Well this is where it gets interesting:
 6. Look at [the stubs for the tests](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test) and run them with coverage `npm run coverage`.
 7. Implement [Characterization Tests](https://en.wikipedia.org/wiki/Characterization_test) (also known as "Approval Tests"). That is, write tests that pass with the current behavior of the app.
 Is the current system functionality different from the requirements sheet or are the specifications ambiguous somewhere? Document these cases in comments next to your test cases. As the current system is what `Gilded Rose` has used so far you can expect that it behaves in a way that works for them, so don't change the current behavior. While you implement your tests run them with coverage (`npm run coverage`) to check wether your tests hit all the branches in the `updateQuality` method.
+Hint: [This section](https://www.valentinog.com/blog/jest/#code-coverage-in-jest) of Valentino Gagliardi's tutorial on Jest might help you learn more about effective code coverage with Jest
 Hint: You can use [Jest's "describe.each"](https://jestjs.io/docs/en/api#describeeachtablename-fn-timeout) to simplify your tests. 
-Hint: [Snapshot](https://www.npmjs.com/package/jest-extended-snapshot) can make it easier to understand what the legacy code is actually doing and write the appropriate tests (see also [a video on how the Snapshot method is used with Java](https://youtu.be/zyM2Ep28ED8)).
+For the bored: [Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing) can make it easier to understand what the legacy code is actually doing and write the appropriate tests (see also [a video on how the Snapshot method is used with Java](https://youtu.be/zyM2Ep28ED8)).
 
 ### Part 2: Refactoring
 8. Have another look at the part of the `Gilded Rose`'s Requirements sheet that concerns refactoring and limitations you face:
