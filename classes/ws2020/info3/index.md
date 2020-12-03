@@ -49,12 +49,19 @@ Due dates:
 
 Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
 
+**Update Dec 3: Due to the ongoing COVID-19 situation, the Exam will be replaced
+by an continuous assessment consisting of a couple of little project and report
+assignments which can and need to be done individually at home** These take the
+place of the exam, everything in the Lab and the complete grading scheme stays
+the same:
+
+
 Option 1: only Exam
-* Exam 100%
+* ~~Exam~~ [Continuous Assessment](./continuous_assessment) 100%
 * all 7 lab reports need to be turned in before the exam
 
 Option 2: Labs & Exam
-* Exam 50%
+* ~~Exam~~ Continuous Assessment 50%
 * Labs 50%
 * all 7 lab reports need to be turned in before the exam
 
