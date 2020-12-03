@@ -10,9 +10,9 @@ layout: page
 
 ### Preparation
 1. Clone the [Gilded Rose Repository](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata).
-2. Set up the project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use [WebStorm](https://www.jetbrains.com/help/webstorm/installation-guide.html#snap) and it's automatic refactoring features. You can [get an educational license](https://www.jetbrains.com/community/education/#students). 
+2. Set up the project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use [WebStorm](https://www.jetbrains.com/help/webstorm/installation-guide.html#snap) and it's automatic refactoring features. You can [get an educational license](https://www.jetbrains.com/community/education/#students).
 3. Imagine you just joined a the company `Gilded Rose` as software developers. They wrote a requirements sheet for your first job. You can find the whole sheet [here](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt). Read through it. In this lab you will be working through it step by step.
-4. Read the introduction again: 
+4. Read the introduction again:
 ```
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
@@ -22,7 +22,8 @@ Leeroy, who has moved on to new adventures.
 ```
 
 ### Part 1: Characterization Tests
-5. Read again what the system is currently supposed to be doing, according to the `Team Gilded Rose`'s Requirements Sheet: 
+5. Read again what the system is currently supposed to be doing, according to the `Team Gilded Rose`'s Requirements Sheet:
+
 ```
 Your task is to add the new feature to our system so that
 we can begin selling a new category of items. First an introduction to our system:
@@ -46,11 +47,12 @@ Pretty simple, right? Well this is where it gets interesting:
 7. Implement [Characterization Tests](https://en.wikipedia.org/wiki/Characterization_test) (also known as "Approval Tests"). That is, write tests that pass with the current behavior of the app.
 Is the current system functionality different from the requirements sheet or are the specifications ambiguous somewhere? Document these cases in comments next to your test cases. As the current system is what `Gilded Rose` has used so far you can expect that it behaves in a way that works for them, so don't change the current behavior. While you implement your tests run them with coverage (`npm run coverage`) to check wether your tests hit all the branches in the `updateQuality` method.
 Hint: [This section](https://www.valentinog.com/blog/jest/#code-coverage-in-jest) of Valentino Gagliardi's tutorial on Jest might help you learn more about effective code coverage with Jest
-Hint: You can use [Jest's "describe.each"](https://jestjs.io/docs/en/api#describeeachtablename-fn-timeout) to simplify your tests. 
+Hint: You can use [Jest's "describe.each"](https://jestjs.io/docs/en/api#describeeachtablename-fn-timeout) to simplify your tests.
 For the bored: [Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing) can make it easier to understand what the legacy code is actually doing and write the appropriate tests (see also [a video on how the Snapshot method is used with Java](https://youtu.be/zyM2Ep28ED8)).
 
 ### Part 2: Refactoring
-8. Have another look at the part of the `Gilded Rose`'s Requirements sheet that concerns refactoring and limitations you face: 
+8. Have another look at the part of the `Gilded Rose`'s Requirements sheet that concerns refactoring and limitations you face:
+
 ```
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
 still works correctly. However, do not alter the Item class or Items property as those belong to the
@@ -64,11 +66,12 @@ Hint: A straightforward solution for refactoring the Gilded Rose would be an ite
 
 ### Part 3: Adding new functionality
 11. Read again the new requirements you are supposed to implement:
+
+
 ```
 We have recently signed a supplier of conjured items. This requires an update to our system:
 
 	- "Conjured" items degrade in Quality twice as fast as normal items
-
 
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
 
