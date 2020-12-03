@@ -30,13 +30,11 @@
     </div>
   </li>
 
-  <li class="nav-item">
-    {% include navigation_nav_link.md url_element = "projects"  link_text = "Projects" %}
 
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      {% include navigation_dropdown_item.md url = "/projects/module-handbook/" link_text = "Module Handbook" %}
-          </div>
+  <li class="nav-item">
+    <a class="nav-link {% if page.url == '/software_projects/' %}active{% endif %}" href="{{ site.baseurl }}/software_projects/">Software Projects</a>
   </li>
+
 
   <li class="nav-item">
     {% include navigation_nav_link.md url_element = "misc"  link_text = "Misc" %}
