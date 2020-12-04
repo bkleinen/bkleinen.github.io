@@ -5,9 +5,11 @@ layout: page
 ---
 
 Due to the ongoing pandemic, the exam will be replaced by continuous assessment.
-The continuous assessment consists of a series of assignments. Most of them
-have to be handed in individually.
+The continuous assessment consists of a series of assignments. They have to be
+handed in individually, except for CA4, Clean Code Poster.
 
+These assignments replace the exam part in the [class' overall grading](../#grades),
+the overall grading scheme and the Lab part is not changed.
 
 
 ##  Assignments
@@ -30,6 +32,15 @@ have to cover 3 out of the 7 listed below. CA7 can be about any Topic Area, also
 Each Assignment will be graded using [stars](/studies/grading/guideline/#star-gradings-for-exercises), with 4 stars equaling 5P, multiplied by 2 or 3 for CA4-6.
 Sum: 50 Points, 55 with Bonus. 50 Points count as 50 or 100 % depending on your option.
 
+You may and should communicate about your work on the assignments, but the work needs to be individual work ultimately.
+The combination of assigment, topic area and application projects give a wide variety of individual
+combinations. Especially if you are in a study group I advise you to **not** choose the same combination, because your
+work will be hard to differentiate. If I find reports that are too similar, they
+will not be awarded any points.
+Apart from that, I encourage you to share, discuss and review your work. If
+you want to protect yourself, you might want to exchange your work in a way that
+proofs original authorship, e.g. the wiki or github.
+
 ## Topic Areas
 
 These are possible Topic Areas.
@@ -46,7 +57,7 @@ These are possible Topic Areas.
 
 ## Legacy Projects for Examples, Code Reading and Refactoring
 
-* [one of my software projects](/software-projects)
+* [one of my software projects](/software_projects)
 * npm modules
 * Source Code from other classes, e.g. Bildverarbeitung
 * other software projects you are involved with
@@ -69,7 +80,7 @@ Your reports need to be handed in by Friday of next week.
 
 Please use the following structure:
 
-* Assignment: Topic Report 1|2
+* Assignment: Topic Report 1 or 2
 * Topic Area: ...
 * Overview
 * Detailed Discussion of... (according to scope)
@@ -79,30 +90,31 @@ Please use the following structure:
 Prepare a poster for one chapter in a group and present it in class (16.12.2020) The Groups are organized in the Wiki: [https://wiki.htw-berlin.de/confluence/pages/viewpage.action?pageId=97455143](https://wiki.htw-berlin.de/confluence/pages/viewpage.action?pageId=97455143). This should be done during class, so there is not really an opportunity to redo it in PZ2.
 
 ## CA 5 - Code Reading or Refactoring
-You can choose to either do a Code Reading or a Refactoring
+You can choose to **either** do a Code Reading or a Refactoring:
 
 ### Code Reading
 
-Pick any Legacy Project, assess the software architecture and report on it as discussed in the lecture on code reading (see [Schedule](../schedule)).
-Pick an Topic Area and identify and document the Topic Area in regard to the Legacy Project.
-E.g. if you combine Code Reading with the Topic Area Patterns of Enterprise Application Architecture, you should be able to identify >= 2 Patterns in the software.
+Pick any Legacy Project see below, assess the software architecture and report on it as discussed in the lecture on code reading (see [Schedule](../schedule)).
+Pick a Topic Area and identify and document the Topic Area in regard to the Legacy Project.
+E.g. if you combine Code Reading with the Topic Area Patterns of Enterprise Application Architecture, you should be able to identify and describe >= 2 Patterns mentioned in POEAA in the software.
 
 ### Refactoring
 
 Pick any Legacy Project, and suggest a sensible refactoring that should be applied.
-Pick an Topic Area and identify and document the Topic Area in regard to refactoring the Legacy Project.
-E.g. if you combine Code Reading with the Topic Area Patterns of Enterprise Application Architecture, you should be able to identify one Patterns in the software and suggest another one that the project could be refactored to.
+Pick a Topic Area and identify and document the Topic Area in regard to refactoring the Legacy Project.
+E.g. if you combine Code Reading with the Topic Area Patterns of Enterprise Application Architecture, you should be able to identify one Pattern in the software and suggest another one that the project could be refactored to and how it might be done.
 
-## CA 5 - Oral Consultation
+## CA 6 - Oral Consultation
 
-This will be an individual oral consultation of about 15-20 min covering your assignments -
-CA5 which is still in progress as well as all others.
+This will be an individual oral consultation of about 15-20 min covering your completed assignments,
+and a discussion of your larger project CA5 which is still in progress.
 
-## CA 6 - Bonus: Watch a video
+## CA 7 - Bonus: Watch a video
 
 Choose, watch and summarize a video of a conference talk of about 45 min to 1 hour.
 The video should cover or relate to one of the Topic Areas.
-Summarize the video with text or a sketch note, e.g. Talks by
+Summarize the video with text or a sketch note. You can choose any conference
+talk (not "Patterns for Dummies in 7 minutes!") -  e.g. Talks by
 
 * [Martin Fowler](https://www.youtube.com/results?search_query=martin+fowler),
 * [Sandi Metz](https://www.youtube.com/results?search_query=sandy+metz)

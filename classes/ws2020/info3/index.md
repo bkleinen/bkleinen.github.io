@@ -61,7 +61,7 @@ Option 1: only Exam
 * all 7 lab reports need to be turned in before the exam
 
 Option 2: Labs & Exam
-* ~~Exam~~ [Continuous Assessment](./continuous_assessment) t 50%
+* ~~Exam~~ [Continuous Assessment](./continuous_assessment) 50%
 * Labs 50%
 * all 7 lab reports need to be turned in before the exam
 
