@@ -14,7 +14,7 @@ have to be handed in individually.
 
 These are the the assignment slots with grading points. The assigments are marked in moodle as "CA#"
 
-| ID  | Assignment                                   | Possible Topics | Points | Due Date PZ1    | Due Date PZ2          |
+| ID  | Assignment                                   | Possible Topics | Points | Due Dates PZ1   | Due Dates PZ2         |
 |:----|:---------------------------------------------|:----------------|:-------|:----------------|:----------------------|
 | CA1 | Design Patterns Report                       | GoF Patterns    | 5      | 4.12.2020       | 21.3.21               |
 | CA2 | Topic Report 1                               | All             | 5      | 13.1.2021       | 21.3.21               |
@@ -46,10 +46,11 @@ These are possible Topic Areas.
 
 ## Legacy Projects for Examples, Code Reading and Refactoring
 
+* [one of my software projects](/software-projects)
 * npm modules
 * Source Code from other classes, e.g. Bildverarbeitung
 * other software projects you are involved with
-* one of my legacy projects
+
 * ...
 
 ## CA1 Design Patterns Report
