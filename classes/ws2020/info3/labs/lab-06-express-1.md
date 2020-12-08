@@ -146,7 +146,6 @@ Install a new package https://www.npmjs.com/package/express-ejs-layouts
 
 Refactor your views to use a common layout.
 
-
 ## Step 10: Where is the Model?
 
 As of now, we have views, a controller and a router - the model is still
