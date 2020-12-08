@@ -51,6 +51,9 @@ First follow the express getting started tutorial on the Express.js site:
 
 https://expressjs.com/en/starter/installing.html
 
+(yarn or npm - use either one but stick with it - I'm using npm as it's the
+default in WebStorm)
+
     yarn init
     yarn add express
 
@@ -119,6 +122,8 @@ Create a subfolder in views matching your model - eg. todo - and put the files t
 The example has one list of todos which I put in views/todos/index.ejs, and
 a view for one single todo, which goes in views/todos/show.ejs
 
+For ejs, see the [Documentation](https://ejs.co/)
+
 
 # Step 7: Add routes for your views
 
@@ -130,8 +135,21 @@ with /todo/<id> e.g. /todo/4711 .
 As we don't have a database connected yet, just use hard-coded data in the controller
 to experiment with getting data to the view.
 
-
 ## Step 9: extract common HTML-Stuff into a Layout
-Vielleicht zuviel?
+Vielleicht zuviel? Optional?
 
-https://www.npmjs.com/package/express-ejs-layouts
+Install a new package https://www.npmjs.com/package/express-ejs-layouts
+
+    npm install express-ejs-layouts
+
+    yarn add express-ejs-layouts
+
+Refactor your views to use a common layout.
+
+
+## Step 10: Where is the Model?
+
+As of now, we have views, a controller and a router - the model is still
+missing. We will add a proper model with the persistence layer in the next
+lab, for now just create a "models" folder and move the test data from the
+controller to the new model location.
