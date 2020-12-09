@@ -22,7 +22,7 @@ Linda Fernsel will teach the labs via BBB only (the BBB room is on Moodle).
 * [Exercise 04 - Testing](lab-04-testing)
 * [Exercise 05 - Legacy Code - Refactoring to Patterns](lab-05-legacy)
 * [Exercise 06 - Web Apps with Node and Express I](lab-06-express-1)
-* [Exercise 07 - Web Apps with Node and Express II](lab-06-express-2)
+* [Exercise 07 - Web Apps with Node and Express II](lab-07-express-2)
 
 ## Teams
 You are required to work on the exercises and turn them in **teams of  3 people**. All team members need to register for their team on Moodle before each new assignment. Chose the group that corresponds to your lab (group 1 = 8am lab, group 2 = 9.45am lab). You are free to chose any of the remaining team numbers.
