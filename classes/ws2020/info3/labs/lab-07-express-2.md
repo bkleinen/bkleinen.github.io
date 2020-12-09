@@ -66,3 +66,23 @@ You don't need to complete all Create-Read-Update-Delete Actions.
 I've added Update and Delete actions to provide you with a full example.
 
 ## Add an API
+
+
+
+
+## Test
+
+Follow this tutorial:
+https://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/
+
+1. Install - I had to switch to yarn to get a successful install
+
+    yarn add --dev babel-preset-env jest supertest superagent
+
+2. Separate your app and server
+
+- already done if you used express-generator
+
+
+
+https://mongoosejs.com/docs/jest.html
