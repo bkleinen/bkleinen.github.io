@@ -5,23 +5,16 @@ layout: page
 ---
 
 # Step 1: Decide on and Design a *very small* example app.
-1. Design a little app you want to implement. At the core the app should
-store entities of a special type and accept creation or modifications on it.
-If you want to play around later, you could add additional libraries for
-more features.
+Design a little app you want to implement. At the core the app should store entities of a special type and accept creation or modifications on it.
+If you want to play around later, you could add additional libraries for more features.
 Here are some example ideas:
 
-- Calculate if a given Internship is long enough.
+- Calculate if a given Internship is [long enough](https://imi-bachelor.htw-berlin.de/studium/praktikum/#c10767) with a given start date and end date.
 - Collect Addresses for Corona-Walks. Addition with 3rd party libraries:
-  Show all members on a map. (Hint: use  https://www.npmjs.com/package/node-geocoder to geocode the adresses (try it at http://node-geocoder.herokuapp.com/)
-  and [leaflet.js](https://leafletjs.com) to show them on a map)
+  Show all members on a map. (Hint: use  https://www.npmjs.com/package/node-geocoder to geocode the adresses (try it at http://node-geocoder.herokuapp.com/) and [leaflet.js](https://leafletjs.com) to show them on a map)
 - Todo-App counting [Pomodori](https://francescocirillo.com/pages/pomodoro-technique) (This will be the example I use)
 
-Sketch how the user interface should look like. About two pages with a little
-bit of interactivity are sufficient. For a todo app this might be a list with
-all todos (called the index) and one page for a specific todo. A simple first
-bit of interaction would be create new todos by providing a line of text
-and marking todos as done.
+Sketch how the user interface should look like. About two pages with a link between them and a little bit of interactivity are sufficient. For a todo app this might be a list with all todos (called the index) and one page for a specific todo. A simple first bit of interaction would be create new todos by providing a line of text and marking todos as done.
 
 For example:
 
@@ -31,7 +24,7 @@ For example:
 
 # Step 2: Create your pages in plain HTML.
 
-They should have at least one form and be linked correctly.
+Create the Pages you scetched using HTML only. They should have at least one form and they should be linked together correctly.
 
 
 
@@ -47,55 +40,54 @@ They should have at least one form and be linked correctly.
 
 To do this, refer to the [express documentation](https://expressjs.com) and my [example app on github](https://github.com/htw-imi-info3/express-app01).
 
-First follow the express getting started tutorial on the Express.js site:
+* First follow the express [getting started tutorial on the Express.js site](https://expressjs.com/en/starter/installing.html)
 
-https://expressjs.com/en/starter/installing.html
+    * yarn or npm? - you can use either yarn or npm, but stick with it
+    * I'm using npm as it's the default in WebStorm, the Express.js site uses npm as well.
+    * The yarn commands are:
 
-(yarn or npm - use either one but stick with it - I'm using npm as it's the
-default in WebStorm)
+      ```code
+      yarn init
+      yarn add express
+      ```
 
-    yarn init
-    yarn add express
 
-look at the created files.
-initialize git repo, ignore node_modules:
 
+* Look at the created files.
+* Initialize git repo, ignore node_modules:
+
+    ```code
     git init
     echo "node_modules/**" > .gitignore
     git add .
     git commit -m "initial commit"
+    ```
 
+* Edit index.js as described in the [hello world example on the Express.js site](https://expressjs.com/en/starter/hello-world.html):
 
-edit index.js as described in https://expressjs.com/en/starter/hello-world.html :
+    ```javascript
+    const express = require('express')
+    const app = express()
+    const port = 3001
 
+    app.get('/', (req, res) => {
+      res.send('Hello World!')
+    })
 
-```javascript
-const express = require('express')
-const app = express()
-const port = 3001
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
-```
+    app.listen(port, () => {
+      console.log(`Example app listening at http://localhost:${port}`)
+    })
+    ```
 
 ## Step 4: add your HTML pages as static pages to your express app.
 
-* see serving static files: https://expressjs.com/en/starter/static-files.html
-* and my [example app on github](https://github.com/htw-imi-info3/express-app01)
-
-The commits in the example app show the individual steps.
+* See the [Express.js site on serving static files](https://expressjs.com/en/starter/static-files.html)...
+* ...and my [first example app on github](https://github.com/htw-imi-info3/express-app01). The commits in the example app show the individual steps.
 
 ## Step 5: Create a new app with express-generator
 
-[Example App](https://github.com/htw-imi-info3/express-app02)
-
 The first app was a very simple express app to see the bare minimum once.
-This second app has more structure and comes with a couple of packages installed,
+This [second example app](https://github.com/htw-imi-info3/express-app02) has more structure and comes with a couple of packages installed,
 especially logging and a basic error handling, but also a view template engine.
 
 You can either create the app this via the command line or via WebStorm, which also uses
@@ -106,17 +98,17 @@ the express generator. Be sure to choose the same options:
 
 ### Command line
 
-    npx express-generator --ejs --git --css sass
+Run `npx express-generator --ejs --git --css sass` in the Folder of your app.
 
 ### WebStorm
--
-![Express](../images/newExpressProject.png "pumpkins")
+Create a new Project with WebStorm. Choose the Folder of your app as the location and all the other options as shown below.
+
+![Express](../images/newExpressProject.png "options for webstorm")
 <small class = "float-right">Using WebStorm to call express-generator</small>
 
-# Step 6: Add your pages as ejs Templates and connect them with a route
+## Step 6: Add your pages as ejs Templates and connect them with a route
 
-Now, add your HTML pages as ejs Templates. HTML-Templates, which ejs are just one
-example of, allow you to combine HTML with dynamically generated content.
+Now, add your HTML pages as ejs Templates. HTML-Templates, which ejs are just one example of, allow you to combine HTML with dynamically generated content.
 Create a subfolder in views matching your model - eg. todo - and put the files there.
 
 The example has one list of todos which I put in views/todos/index.ejs, and
@@ -125,30 +117,34 @@ a view for one single todo, which goes in views/todos/show.ejs
 For ejs, see the [Documentation](https://ejs.co/)
 
 
-# Step 7: Add routes for your views
+## Step 7: Add routes for your views
 
-e.g. the list should be accessible via a get request to /todos, and the show
-with /todo/<id> e.g. /todo/4711 .
+In the example the list (index) should be accessible via a get request to /todos, and the show should be accessible via a get request to /todo/<id> e.g. /todo/4711.
 
-# Step 8: extract the data and put it in the controller for now.
+See the [second example app](https://github.com/htw-imi-info3/express-app02/commits/master) for reference.
 
-As we don't have a database connected yet, just use hard-coded data in the controller
-to experiment with getting data to the view.
+## Step 8: Extract the data and put it in the controller for now.
 
-## Step 9: extract common HTML-Stuff into a Layout
+As we don't have a database connected yet, just use hard-coded data in the controller to experiment with getting data to the view.
+See the [second example app](https://github.com/htw-imi-info3/express-app02/commits/master) for reference.
+
+## Step 9: Extract common HTML-Stuff into a Layout
 Vielleicht zuviel? Optional?
 
-Install a new package https://www.npmjs.com/package/express-ejs-layouts
+Install a new package [express-ejs-layouts](https://www.npmjs.com/package/express-ejs-layouts) using either npm:
 
-    npm install express-ejs-layouts
+        npm install express-ejs-layouts
 
-    yarn add express-ejs-layouts
 
-Refactor your views to use a common layout.
+or yarn:
+
+
+        yarn add express-ejs-layouts
+
+
+Refactor your views to use a common layout. See the [second example app](https://github.com/htw-imi-info3/express-app02/commits/master) for reference.
 
 ## Step 10: Where is the Model?
 
 As of now, we have views, a controller and a router - the model is still
-missing. We will add a proper model with the persistence layer in the next
-lab, for now just create a "models" folder and move the test data from the
-controller to the new model location.
+missing. We will add a proper model with the persistence layer in the next lab, for now just create a "models" folder and move the test data from the controller to the new model location. See the [second example app](https://github.com/htw-imi-info3/express-app02/commits/master) for reference.
