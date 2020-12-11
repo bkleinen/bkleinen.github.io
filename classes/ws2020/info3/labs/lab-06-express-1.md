@@ -105,7 +105,7 @@ To do this, refer to the [express documentation](https://expressjs.com) and Prof
 * See the [Express.js site on serving static files](https://expressjs.com/en/starter/static-files.html)...
 * ...and Prof. Kleinen's [first example app on github](https://github.com/htw-imi-info3/express-app01). The [commits in the example app](https://github.com/htw-imi-info3/express-app01/commits/master) show the individual steps.
 
-## Assignment 2: Your app
+## Assignment 3: Your app
 
 ### Step 1: Create a new app with express-generator
 
@@ -119,7 +119,9 @@ express generator. Be sure to choose the same options:
 - ejs as view template
 - add git files
 
-About css: Prof. Kleinen used [sass](https://sass-lang.com/) in the example app, but you don't need it
+About css: Prof. Kleinen used [sass](https://sass-lang.com/) in the example app, but you don't need it.
+
+As always, create a repository in the appropriate place.
 
 ### Option A: Command line
 
@@ -164,7 +166,12 @@ Install a new package [express-ejs-layouts](https://www.npmjs.com/package/expres
 
 Refactor your views to use a common layout. See the [App02 commits] for reference.
 
-<!--[1]: [example app on github](https://github.com/htw-imi-info3/express-app01).-->
+## Results Submission
+* Hand in a link to your repository for assignment 3. You don't need to submit your code for assignment 2. 
+* Hand in a lab report (document all assignments) until January 14, 11pm.
+* Take part in the oral test on January 21.
+
+More info on the [Labs](index) page.
 
 # References
 - [App01]
