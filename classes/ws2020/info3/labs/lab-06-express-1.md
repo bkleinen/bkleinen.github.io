@@ -103,7 +103,7 @@ To do this, refer to the [express documentation](https://expressjs.com) and Prof
 ### Step 3: Add your HTML pages as static pages to your express app.
 
 * See the [Express.js site on serving static files](https://expressjs.com/en/starter/static-files.html)...
-* ...and Prof. Kleinen's [first example app on github](https://github.com/htw-imi-info3/express-app01). The [commits in the example app](https://github.com/htw-imi-info3/express-app01/commits/master) show the individual steps.
+* ...and Prof. Kleinen's [first example app on github](https://github.com/htw-imi-info3/express-app01). The [commits in the example app](https://github.com/htw-imi-info3/express-app01/commits/master) show the individual steps. Note that Prof. Kleinen sometimes uses [then-chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then#Chaining) for working with promises. Please use async-await combos with regular try-catch blocks whenever it makes sense (See also [async/await vs then](https://javascriptwebscrapingguy.com/jordan-promises-async-await-vs-then/)).
 
 ## Assignment 3: Your app
 
@@ -122,6 +122,8 @@ express generator. Be sure to choose the same options:
 About css: Prof. Kleinen used [sass](https://sass-lang.com/) in the example app, but you don't need it.
 
 As always, create a repository in the appropriate place.
+
+Look at the generated code. With which npm command can you start your app? On what port will you be able to see your app running, once started? Notice that the generator produces outdated ES code sometimes, eg. using "var" instead of "const" or "let". You can fix this if you want to.
 
 ### Option A: Command line
 
