@@ -166,8 +166,7 @@ Refactor your views to use a common layout. See the [App02 commits] for referenc
 
 <!--[1]: [example app on github](https://github.com/htw-imi-info3/express-app01).-->
 
-References
-
+# References
 - [App01]
 - [App02]
 - [ejs]
