@@ -110,7 +110,7 @@ To do this, refer to the [express documentation](https://expressjs.com) and Prof
 ### Step 1: Create a new app with express-generator
 
 The first app was a very simple express app to see the bare minimum once.
-This [App 02] has more structure and comes with a couple of packages installed,
+This [App02] has more structure and comes with a couple of packages installed,
 especially logging and a basic error handling, but also a view template engine.
 
 You can  create the app using command line or using WebStorm, which calls the
