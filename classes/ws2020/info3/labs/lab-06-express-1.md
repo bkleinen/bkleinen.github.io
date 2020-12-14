@@ -15,7 +15,6 @@ of web application development, rather than completing the app!
 In the end, your app is expected to have the following features:
 
 ## Lab 06 - Express 1
-- deliver at least 1 static element (image, .js file, plain html file)
 - contain at least 1 view template displaying data that is hard-coded in the controller
 - process parameters sent from an HTML form in the controller
 - MVC: View and Controller should be clearly separated, e.g. in specific folders
@@ -147,7 +146,7 @@ For ejs, see the [Documentation](https://ejs.co/)
 
 ## Step 3: Add routes for your views
 
-In the example the list (index) should be accessible via a get request to /todos, and the show should be accessible via a get request to /todo/<id> e.g. /todo/4711.
+In the example the list (index) should be accessible via a get request (see also: [HTTP Methods]) to /todos, and the show should be accessible via a get request to /todo/<id> e.g. /todo/4711.
 
 See the [second example app](https://github.com/htw-imi-info3/express-app02/commits/master) for reference.
 
@@ -179,9 +178,12 @@ More info on the [Labs](index) page.
 - [App01]
 - [App02]
 - [ejs]
+- [HTTP Methods]
 
 <!--[1] [example app on github](https://github.com/htw-imi-info3/express-app01).-->
 [App01]: https://github.com/htw-imi-info3/express-app01 "Beispiel App App01"
 [App02]: https://github.com/htw-imi-info3/express-app02
 [App02 commits]: https://github.com/htw-imi-info3/express-app02/commits/master
 [ejs]: https://ejs.co/
+[HTTP Methods]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
