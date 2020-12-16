@@ -83,7 +83,7 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 
 ## Results Submission
 * Hand in a link to your repository
-* Hand in a lab report
-* Take part in the peer review activity on Dec. 17 2020
+* Hand in a lab report until Dec. 17, 11pm
+* Take part in the peer review activity on <s>Dec. 17 2020</s> Jan. 7 2021 (rescheduled)
 
 More info on the [Labs](index) page.
