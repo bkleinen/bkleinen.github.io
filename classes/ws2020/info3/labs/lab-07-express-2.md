@@ -1,5 +1,5 @@
 ---
-title: 'Assignment 06 - Web Apps with Node and Express II'
+title: 'Assignment 07 - Web Apps with Node and Express II'
 author: kleinen
 layout: page
 ---
@@ -50,7 +50,7 @@ via Mongoose. [See commit](https://github.com/htw-imi-info3/express-app03/commit
 
 ## Step 3: Create a Schema for your Model
 
-- see models/todos.js in the [App03] for an example and the  [Mongoose Doc].
+- see models/todos.js in the [App_03] for an example and the  [Mongoose Doc].
 
 ## Step 4: (Optional) Create an automated seed
 
