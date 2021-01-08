@@ -8,6 +8,9 @@ Example apps: [App 03] - Persistence and [App 04] - with testing
 
 (This builds on app02)
 
+# From Lab06 to Lab07
+You will continue working on your project from Lab06. However, it should be in a separate code base. So you should create a new empty repository on GitLab in the folder for Lab07 and add this new repo as the new origin of your local repository. For Lab07, only push to the project in the Lab07 folder!
+
 # Assignment 1: Add Persistence
 
 ## Step 1: Obtain a MongoDB instance
