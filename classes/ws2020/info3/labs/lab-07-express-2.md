@@ -17,21 +17,23 @@ You will continue working on your project from Lab06. However, it should be in a
 
 For persisting the data, we'll use a MongoDB Database. There are various options
 on how to obtain one:
-* you can create a free MongoDB Cluster on [Mongo Atlas]
-* you can install MongoDB on your Computer directly: https://docs.mongodb.com/manual/administration/install-community/
-* You can run a MongoDB instance in a [docker] container.
+* create a free MongoDB Cluster on [Mongo Atlas] (in the Cloud, yay)
+* install MongoDB on your Computer directly: https://docs.mongodb.com/manual/administration/install-community/
+* run a MongoDB instance in a [docker] container
 
 If you want to explore your database, [MongoDB Compass] may be helpful.
 
-### Option: MongoDB in Docker
+### Preferred Option: MongoDB in Docker
 
-For development, Prof. Kleinen uses the latter option, running mongodb in docker.
-If you have installed Docker on your machine and copied [docker-compose.yml](https://github.com/htw-imi-info3/express-app03/blob/master/docker-compose.yml) from
-the example app, you can just run 
+For development, Prof. Kleinen runs mongodb in [Docker](https://docs.docker.com/get-started/overview/). 
+If you 
+* have installed Docker on your machine (See https://docs.docker.com/engine/install/ubuntu/ and https://docs.docker.com/engine/install/linux-postinstall/) 
+* and copied [docker-compose.yml](https://github.com/htw-imi-info3/express-app03/blob/master/docker-compose.yml) from
+the example app, you can run 
 
     ` docker-compose up -d`
 
-Then, check your running containers with:
+To start a mongoDB image in a container. Then, check your running containers with:
 
     `docker ps`
 
@@ -49,7 +51,6 @@ As [Mongoose] acts as a [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern) to 
 via Mongoose. [See commit](https://github.com/htw-imi-info3/express-app03/commit/ab2cc6775ac093948766fc7b3e88ad458e420f37).
 
 * [Mongoose Doc]
-
 
 ## Step 3: Create a Schema for your Model
 
