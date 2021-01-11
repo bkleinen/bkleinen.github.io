@@ -69,6 +69,9 @@ const converter = new showdown.Converter();
 
   });
   document.addEventListener("trix-change", function(event) {
+    var element = document.querySelector("trix-editor")
+  //  element.editor  // is a Trix.Editor instance
+    console.log(JSON.stringify(element.editor))
     //console.log(event.target.innerHTML);
     var trix_inner = event.target.innerHTML;
     //html_div.innerHTML = trix_inner;
