@@ -103,7 +103,9 @@ with yarn `yarn add --dev babel-preset-env jest supertest superagent`
 - **Separate your app and server**: already done if you used express-generator, the equivalent to server.js resides in /bin/www
 - **Create Test**:  Have at least one end-to end test checking that the correct data is shown on your page. The [root test](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/root/root.test.js): just checks if get / returns a 200 HTTP Response Code.
 Here is checked that todos in the db are listed: [todos/index](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/todos/index.test.js). 
-- **done()**: Be sure to call done(). Prof. Kleinen [created an example that should fail but doesn't](https://github.com/htw-imi-info3/express-app04/commit/76a95c4d0cd42e9866460d1768a78772c11ad070) as the expectation is in a callback function and jest will not wait for this to complete. The test succeeds, there is, however, an indication that something is still running: "ReferenceError: You are trying to `import` a file after the Jest environment has been torn down. "
+- **Callbacks vs Async/Await**: Use the async/await way of writing the tests - otherwise you will soon get nested then-chains. And with async/await you don't need to call end() and/or done(). However, when starting the tests, you should additionally pass the arguments "--forceExit --detectOpenHandles" (to force jest to exit even if some promises have not been resolved and to make jest show you which promises have not been resolved, if any).
+- **jest argument --verbose false**: passing "--verbose false" could help in the case that jest is not displaying your console logs
+- **db connection and clean up**: When - when running your test suite - should a db connection be established? When closed? When should the db be cleaned up (eg. all documents deleted)?
 
 ## Step 2: Create a Test DB:
 
