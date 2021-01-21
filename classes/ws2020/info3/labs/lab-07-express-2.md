@@ -163,7 +163,7 @@ database available on the net, e.g. using [Mongo Atlas]. The documentation "[Atl
 
 ## Results Submission
 * Hand in a link to your repository. 
-* Hand in a lab report until January 31, 11pm.
+* Hand in a lab report until February 2nd, 11pm.
 * Take part in the oral test on February 4.
 
 More info on the [Labs](index) page.
