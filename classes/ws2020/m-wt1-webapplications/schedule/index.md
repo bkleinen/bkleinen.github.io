@@ -22,7 +22,7 @@ wide_layout: true
 | 11   | 51 | Fri 18/12/2020 | Development                                                       |  |
 | 12   | 1  | Fri 08/01/2021 | Development                                                       |  |
 | 13   | 2  | Fri 15/01/2021 | Development                                                       |  |
-| 14   | 3  | Fri 22/01/2021 | Usability Assessment                                              |  |
-| 15   | 4  | Fri 29/01/2021 | Security Assessment                                               |  |
-| 16   | 5  | Fri 05/02/2021 | Group Consultations                                               |  |
+| 14   | 3  | Fri 22/01/2021 | --                                                                |  |
+| 15   | 4  | Fri 29/01/2021 | Usability Assessment                                              |  |
+| 16   | 5  | Fri 05/02/2021 | Security Assessment & Group Consultations                         |  |
 | 17   | 6  | Fri 12/02/2021 | [Showtime der Praxisprojekte](https://showtime.f4.htw-berlin.de/) |  |
