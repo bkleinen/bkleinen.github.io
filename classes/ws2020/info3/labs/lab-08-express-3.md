@@ -70,7 +70,7 @@ database available on the net, e.g. using [Mongo Atlas]. The documentation "[Atl
 * Hand in a lab report until March 28, 11pm. Make sure to answer the questions I put in this lab.
 
 ### Grading
-You get 1 star for each of the exercises that you completed (assignment 1 a and b and assignment 2). If you additionally answer the questions, you get another star, as a replacement for the oral test that can not happen again.
+You get 1 star for each of the exercises that you completed (assignment 1 a and b and assignment 2). If you additionally hand in a good report that documents everything I asked you to document, you get another star. There won't be any oral tests.
 
 # References
 
