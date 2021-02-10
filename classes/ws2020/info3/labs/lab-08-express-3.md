@@ -13,7 +13,7 @@ For Lab08, only push to the project in the Lab08 folder!
 # Assignment 1: Clean Up
 
 ## a) Check the requirements
-Check the following questions and if the answer is no, fix it. **Document in your report what you needed to fix.**
+Check the following questions and if the answer is no, fix it. Those were things that you should have done in Lab06 and Lab07, but if you haven't do them now. **Document in your report what you needed to fix.**
 1. Do you have a clearly visible MVC structure?
 2. Do you transfer data a user inputs into an HTML form into your database, where it persists?
 3. Do you transfer from the database into a template?
