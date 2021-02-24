@@ -12,30 +12,24 @@ require_relative './lib_ruby_dates.rb'
 # )
 # WT4
 course_dates = CourseDates.new(
-  first_day: Date.parse("13.10.2020"),
+  first_day: Date.parse("07.04.2021"),
   day_diff: 2,
   two_lectures: false,
-  step: 14
+  step: 7
 )
 
 # Semesterdaten
 semester_dates = SemesterDates.new(
-semester_start: Date.parse("1.10.2020"),
-semester_end: Date.parse("13.02.2021"),
+semester_start: Date.parse("1.04.2021"),
+semester_end: Date.parse("17.07.2021"),
 holidays: {
-  "21.12.2020" => "Vorlesungsfrei",
-  "22.12.2020" => "Vorlesungsfrei",
-  "23.12.2020" => "Vorlesungsfrei",
-  "24.12.2020" => "Vorlesungsfrei",
-  "25.12.2020" => "Vorlesungsfrei",
-  "26.12.2020" => "Vorlesungsfrei",
-  "27.12.2020" => "Vorlesungsfrei",
-  "28.12.2020" => "Vorlesungsfrei",
-  "29.12.2020" => "Vorlesungsfrei",
-  "30.12.2020" => "Vorlesungsfrei",
-  "31.12.2020" => "Vorlesungsfrei",
-  "01.01.2021" => "Vorlesungsfrei",
-  "02.01.2021" => "Vorlesungsfrei"},
+    "01.04.2021" => "Vorlesungsfrei",
+      "02.04.2021" => "Vorlesungsfrei",
+        "03.04.2021" => "Vorlesungsfrei",
+          "04.04.2021" => "Vorlesungsfrei",
+            "05.04.2021" => "Vorlesungsfrei",
+  "14.05.2021" => "Vorlesungsfrei",
+  "15.05.2021" => "Vorlesungsfrei"},
 reject_span:[]
 )
 
