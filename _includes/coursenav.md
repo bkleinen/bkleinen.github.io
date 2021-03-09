@@ -18,6 +18,10 @@ classes/ws2020/info3.md
 classes/ws2020/bachelorseminar.md
 classes/ws2020/m1-web.md
 classes/ws2020/m-wt1-webapplications.md
+classes/ss2021/info1.md
+classes/ss2021/wtat1.md
+classes/ss2021/m1-web.md
+classes/ss2021/m-wt4-ucd.md
 index.md.md
 {% endcapture %}
 
