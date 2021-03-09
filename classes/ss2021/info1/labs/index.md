@@ -49,18 +49,18 @@ The reports count 50% of your grade.
 
 ## Group Work
 
-Labs and lab reports will be done in groups of three. These groups will be formed at 
+Labs and lab reports will be done in groups of three. These groups will be formed at
 random at the beginning of each lab. Each group member gets the same grade for the lab report
 that gets handed in.
 
 ## I could not attend the lab...
 
 Please post in the appropriate Moodle forum. You will be assigned a group. I expect
-you to do the exercises anyway and hand in a lab report. 
+you to do the exercises anyway and hand in a lab report.
 
-## I can generally not attend the lab on wednesdays / thursdays...
+## I can generally not attend the lab on any specific day...
 
-You can switch during "Restplatzbelegungszeitraum" (till October 17 2019). Find someone
+You can switch during the "Restplatzbelegungszeitraum". Find someone
 who wants to swap places with you, then come talk to me (Linda).
 
 ## I have another problem!

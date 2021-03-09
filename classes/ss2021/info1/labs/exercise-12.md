@@ -3,7 +3,7 @@ title: 'Exercise 12: Pick up and Carry'
 author: kleinen
 layout: lab
 ---
-<!--<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>-->
+<!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
 This week's lab work will finish up your project.
 

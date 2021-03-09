@@ -3,7 +3,7 @@ title: 'Exercise 10: The World of You'
 author: kleinen
 layout: lab
 ---
-<!--<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>-->
+<!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
 This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester. The groups you form today will stay groups for the remaining part of the semester! 
 

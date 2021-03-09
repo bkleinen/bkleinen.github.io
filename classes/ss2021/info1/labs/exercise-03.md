@@ -3,7 +3,7 @@ title: 'Exercise 03: Book Exercise'
 author: kleinen
 layout: lab
 ---
-<span class = "attention">Not yet reviewed and published for WS 2019/20 Term!</span>
+<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>
 ![Book](../../images/books-8314929977.jpg)
 <small class = "float-right">Books. [Abhi Sharma](https://www.flickr.com/photos/abee5/8314929977/)</small>
 

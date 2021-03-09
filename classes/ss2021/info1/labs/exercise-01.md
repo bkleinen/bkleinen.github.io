@@ -25,7 +25,7 @@ layout: lab
 
 For all problems, make sure to extract methods where appropriate to make the source code more readable.
 
-Most of the problems here are extensions of problems we've already solved in class. So it's usually a good idea to first identify a similar problem we've done in class and modify the solution we did there. So get out your  [Worksheet 2](../../material/info1-04-worksheet-kara-2.pdf) and compare! [Here's a link to the scenarios we did in class.](https://github.com/htw-imi-info1/kara/tree/ws2019)
+Most of the problems here are extensions of problems we've already solved in class. So it's usually a good idea to first identify a similar problem we've done in class and modify the solution we did there. So get out your  [Worksheet 2](../../material/info1-04-worksheet-kara-2.pdf) and compare! [Here's a link to the scenarios we did in class.](https://github.com/htw-imi-info1/kara/tree/ss2021)
 
 
 ### 1. Count leaves laid  

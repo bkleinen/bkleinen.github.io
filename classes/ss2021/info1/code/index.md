@@ -7,7 +7,7 @@ layout: page
 ## Lecture Code Examples
 
 Don't worry about noting down any code changes I make in class - I will upload everything to github!
-The "Changes in ws2019" links will only work after I've uploaded those changes.
+The "Changes in ss2021" links will only work after I've uploaded those changes.
 
 Note that it might also be quite convenient to look at the code on the github page online,
 the commit history shows you the exact changes I made. Click on "commits" and then one
@@ -17,21 +17,21 @@ individual commit, and you you'll see the changes.
 
 (the links named "changes in ..." will only work after the class has actually happened!)
 
-* [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter01/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ws2019.zip)
-* [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter02/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ws2019.zip)
+* [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter01/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ss2021.zip)
+* [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter02/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ss2021.zip)
 
 
-* [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter03/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2019.zip)
-* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter04/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2019.zip)
+* [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter03/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ss2021.zip)
+* [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter04/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ss2021.zip)
 
 * {% comment %}
-* [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter05/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2019.zip)
+* [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter05/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ss2021.zip)
 
-* [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2019.zip)
+* [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter07_testing/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ss2021.zip)
 old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 {% endcomment %}
 
-* [Chapter 07 (Simple Analyzer)](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer) - [ZIP](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer/archive/ws2019.zip)
+* [Chapter 07 (Simple Analyzer)](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer) - [ZIP](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer/archive/ss2021.zip)
 
 ### Labs
 
