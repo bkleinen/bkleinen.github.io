@@ -13,8 +13,8 @@ require_relative './lib_ruby_dates.rb'
 # WT4
 course_dates = CourseDates.new(
   first_day: Date.parse("07.04.2021"),
-  day_diff: 2,
-  two_lectures: false,
+  day_diff: 0,
+  two_lectures: true,
   step: 7
 )
 
