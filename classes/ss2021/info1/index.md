@@ -10,7 +10,7 @@ Informatics 1 is an introduction to object-oriented programming using the Java
 language. In this class we will be using [Greenfoot](https://www.greenfoot.org)
 and [BlueJ](https://bluej.org/) as development environments.
 You will learn about writing programs, designing simple algorithms, about
-control structures, data types and structures, objects and classes.
+control structures, data types and structures and last not least objects and classes.
 
 ## Language
 
@@ -19,20 +19,34 @@ be in English. You are free to choose German or English for your written assignm
 
 ## Meetings
 
-The class consists of 2x2h of lectures and 2h of lab per week. Find the details in
-LSF - there's a link to the LSF class in the menu under 'External Links'.
+The class consists of 2x2h of lectures and 2h of lab per week,
+accompanied by a 2h Tutorial.
 
-Additional to the class meetings there will be a tutorial:
 
-* Info1 tutorials held by Lotte Unckell on Tuesdays 9:45 - 11:15 in Room WH C 579
+{% comment %}
+corona
+Find the details in LSF - there's a link to the LSF class in the
+menu under 'External Links'.
+
+{% endcomment %}
+Usually you would find all details - time and rooms - in LSF, see link above in
+the external links menu.
+
+As the Summer Term will be done mostly with distant teaching due to the ongoing pandemic,
+please refer to moodle and this web page for specifics.
 
 ## Grades
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
+TBD.
+
+{% comment %}
+Your grade in Info1 will be a weighted mixture of the evaluated elements of the
+ course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
 
 * Lab Reports: 50%
 * Exam: 50%
 * Lecture summaries: 8%
+
 
 ### Lecture Summaries (aka Lecture Notes)
 In the Moodle collaboration room you can find a section called "Lecture summaries".
@@ -58,7 +72,7 @@ You find detailled information about them on the [Lab Page](labs/)
 ### Exam
 
 There will be a 2-hour online examination at the end of the term. The examination will cover Java programming and conceptual understanding in ways that may be difficult to assess during the laboratory sessions. The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part. Please consult LSF for the definite date and time.
-
+{% endcomment %}
 ## Java-Tutorials and Book
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 6th edition.
