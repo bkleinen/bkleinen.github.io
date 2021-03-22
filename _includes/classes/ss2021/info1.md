@@ -13,7 +13,7 @@
       <a class="dropdown-item" target = "ex_link" href="#">SU in LSF</a>
       <a class="dropdown-item" target = "ex_link" href="#">Labs in LSF</a>
       <a class="dropdown-item" target = "ex_link" href="#">Semesterstundenplan im LSF</a>
-      <a class="dropdown-item" target = "ex_link" href="#s">Lecture Source Code</a>
+      <a class="dropdown-item" target = "ex_link" href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&k_abstgv.abstgvnr=231">Lecture Source Code</a>
         </div>
   </li>
 </ul>
