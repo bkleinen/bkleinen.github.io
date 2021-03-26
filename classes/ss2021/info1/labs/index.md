@@ -17,22 +17,21 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 
 ## Exercises
 
-* [Exercise 00 - Exercise Startup & Karas First Steps](exercise-00)
-* [Exercise 01 - Kara](exercise-01)
-* [Exercise 02 - Ticket Machine](exercise-02)
-* [Exercise 03 - Book Exercise](exercise-03)
-* [Exercise 04 - Rock Around the Clock](exercise-04)
-* [Exercise 05 - A Better Notebook](exercise-05)
-* [Exercise 06 - Lambdas and Streams](exercise-06)
-* [Exercise 07 - Lotto and Technical Support](exercise-07)
-* [Exercise 08 - Bouncing Balls](exercise-08)
-* [Exercise 09 - Testing with JUnit](exercise-09)
-* [Exercise 10 - The World of You](exercise-10)
-* [Exercise 11 - Keeping Track of Stuff](exercise-11)
-* [Exercise 12 - Pick up and Carry](exercise-12)
-{% comment %}
-* [Exercise 13 - CRC Cards](exercise-13)
-{% endcomment %}
+* [Exercise 01 - Getting Started and Shapes](../labs/exercise-01)
+* [Exercise 02 - Ticket Machine](../labs/exercise-02)
+* [Exercise 03 - Book Exercise](../labs/exercise-03)
+* [Exercise 04 - Rock Around the Clock - Part 1](../labs/exercise-04)
+* [Exercise 05 - Rock Around the Clock - Part 2](../labs/exercise-05)
+* [Exercise 06 - A Better Notebook](../labs/exercise-06)
+* [Exercise 07 - Lambdas and Streams](../labs/exercise-07)
+* [Exercise 08 - Lotto and ...](../labs/exercise-08)
+* [Exercise 09 - Technical Support](../labs/exercise-09)
+* [Exercise 10 - Bouncing Balls](../labs/exercise-10)
+* [Exercise 11 - Testing with JUnit](../labs/exercise-11)
+* [Exercise 12 - The World of You](../labs/exercise-12)
+* [Exercise 13 - Keeping Track of Stuff](../labs/exercise-13)
+* [Exercise 14 - Pick up and Carry](../labs/exercise-14)              
+
 
 ## Grading: Lab Reports
 
