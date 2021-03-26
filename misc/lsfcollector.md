@@ -34,8 +34,8 @@ Links Liste aus "Spezielle Information (Namenliste mit Anmeldungen und Ablehnung
 <h2 id ="anleitung">Anleitung</h2>
 <p>In die Box links den Inhalt der Tabelle "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"
   pasten.<br/> Weg dorthin: Unten auf "Anmeldezahlen" und dann "Spezielle Information" klicken.</p>
-  <p><img src="{{ site.baseurl }}/misc/images/anmeldezahlen.png">
-  <img src="{{ site.baseurl }}/misc/images/SpezielleInformation.png"/>
+  <p><img src="{{ site.baseurl }}/misc/images/anmeldezahlen.png" alt="anmeldezahlen.png">
+  <img src="{{ site.baseurl }}/misc/images/SpezielleInformation.png" alt="SpezielleInformation.png"/>
   </p>
   </body>
   </html>
