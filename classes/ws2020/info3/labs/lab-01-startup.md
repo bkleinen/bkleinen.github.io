@@ -71,4 +71,4 @@ Hint 1: You can start by implement getters and setters for the name in the `Pers
 * Hand in a lab report
 * Take part in the oral test on Oct. 29 2020
 
-More info on the [Labs](../index) page.
+More info on the [Labs](..) page.
