@@ -25,11 +25,11 @@ If you want to explore your database, [MongoDB Compass] may be helpful.
 
 ### Preferred Option: MongoDB in Docker
 
-For development, Prof. Kleinen runs mongodb in [Docker](https://docs.docker.com/get-started/overview/). 
-If you 
-* have installed Docker on your machine (See https://docs.docker.com/engine/install/ubuntu/ and https://docs.docker.com/engine/install/linux-postinstall/) 
+For development, Prof. Kleinen runs mongodb in [Docker](https://docs.docker.com/get-started/overview/).
+If you
+* have installed Docker on your machine (See https://docs.docker.com/engine/install/ubuntu/ and https://docs.docker.com/engine/install/linux-postinstall/)
 * and copied [docker-compose.yml](https://github.com/htw-imi-info3/express-app03/blob/master/docker-compose.yml) from
-the example app, you can run 
+the example app, you can run
 
     ` docker-compose up -d`
 
@@ -102,7 +102,7 @@ To set up end-to-end tests for follow the [Test Express with Jest Tutorial]. Som
 with yarn `yarn add --dev babel-preset-env jest supertest superagent`
 - **Separate your app and server**: already done if you used express-generator, the equivalent to server.js resides in /bin/www
 - **Create Test**:  Have at least one end-to end test checking that the correct data is shown on your page. The [root test](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/root/root.test.js): just checks if get / returns a 200 HTTP Response Code.
-Here is checked that todos in the db are listed: [todos/index](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/todos/index.test.js). 
+Here is checked that todos in the db are listed: [todos/index](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/todos/index.test.js).
 - **Callbacks vs Async/Await**: Use the async/await way of writing the tests - otherwise you will soon get nested then-chains. And with async/await you don't need to call end() and/or done(). However, when starting the tests, you should additionally pass the arguments "--forceExit --detectOpenHandles" (to force jest to exit even if some promises have not been resolved and to make jest show you which promises have not been resolved, if any).
 - **jest argument --verbose false**: passing "--verbose false" could help in the case that jest is not displaying your console logs
 - **db connection and clean up**: When - when running your test suite - should a db connection be established? When closed? When should the db be cleaned up (eg. all documents deleted)?
@@ -162,11 +162,11 @@ database available on the net, e.g. using [Mongo Atlas]. The documentation "[Atl
     ```
 
 ## Results Submission
-* Hand in a link to your repository. 
+* Hand in a link to your repository.
 * Hand in a lab report until February 2nd, 11pm.
 * Take part in the oral test on February 4.
 
-More info on the [Labs](index) page.
+More info on the [Labs](..) page.
 
 # References
 

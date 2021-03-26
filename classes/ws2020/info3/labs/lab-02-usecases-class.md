@@ -3,7 +3,7 @@ title: 'Assignment 02 - Use Cases and Class Diagrams'
 author: kleinen
 layout: page
 ---
- 
+
 ![Diagram](../images/effective-diagrams.jpg "pumpkins")
 <small class = "float-right">The Art and Science of Diagramming. Foto by [Gary Barber](https://www.flickr.com/photos/cannedtuna/8115853847)</small>
 
@@ -20,17 +20,17 @@ In this exercise you will develop a detailed Scenario for a Use Case, and draw a
 ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
 <small class = "float-right">Foto by [Pedro J. Ferreira](https://www.flickr.com/photos/pedroferrer/3615212504)</small>
 
-Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats. 
+Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats.
 The product manager has asked you to design and develop the platform for their business.
 
-Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats. 
-For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight, 
+Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats.
+For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight,
 and of course it's price and whether it has been carved already.
 
-Users should be able to buy a pumpkin online and have it delivered to an address of their choice. 
+Users should be able to buy a pumpkin online and have it delivered to an address of their choice.
 They can pay via various payment methods, at least money transfer, credit card and a popular online payment service called MoneyPal.
 
-As this is an international service, treat/product descriptions should be available in various languages, 
+As this is an international service, treat/product descriptions should be available in various languages,
 for the first phase English and German should be made available.
 
 Users should also be able to rate the treats and post reviews and fotos. Administrators can edit and delete those reviews as needed.
@@ -38,7 +38,7 @@ Users should also be able to rate the treats and post reviews and fotos. Adminis
 Administrators are also responsible for maintaining the information about available products/treats.
 
 The system should also support the back end, that is, the shipment and invoice processes.
-For the first phase, it will be sufficient if packers can print out order information with a list of items to pack for each order, 
+For the first phase, it will be sufficient if packers can print out order information with a list of items to pack for each order,
 and invoices can be printed from the system to be mailed out by administrative staff.
 
 ---
@@ -107,7 +107,7 @@ Then, draw a Class Diagram for your application. It should contain associations 
 * Hand in a lab report (including your diagrams)
 * Take part in the peer review activity on Nov. 5 2020
 
-More info on the [Labs](../index) page.
+More info on the [Labs](..) page.
 
 ----
 
