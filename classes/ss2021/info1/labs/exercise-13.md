@@ -1,71 +1,53 @@
 ---
-title: 'Exercise 13: CRC Cards'
+title: 'Exercise 13: Keeping Track of Stuff'
 author: kleinen
 layout: lab
 ---
+<!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
-<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>
-{% comment %}
-## Pre-Lab
+This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
 
-Please bring these exercises P1 and P2 printed out or written out with you to lab.
-Please have your name on your page.
+# Pre-lab
 
-***P1.*** How do you obtain tickets to go see a movie? Write down the steps that you take, in order.
+Please bring these exercises printed out or written out with you to lab.
 
-***P2.*** If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
+**P1**. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?
 
-***P3.*** Read up on the
-[Class-Responsibility-Collaboration Card method (CRC Cards)](https://c2.com/doc/oopsla89/paper.html).
-This must be read before class, as you will not be able to do the exercise if you have no idea what this is.
+**P2.** What will the starting position of the items be? List which items are going to be in which place.
 
 
-## Assignment: CRC Cards
+# What To Hand In
+Please hand in:
+* zip-folder with your code
+* lab report as pdf (max. 5 pages)
 
-### 1. Identify Class and Method Candidates
+The lab report should have:
+* Answers to all pre-lab questions
+* Answers to the explicit questions from the assigment
+* Complete transparency on who did what
+* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
+* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
+* A summary of what you did and a summary of what you learned in the lab
+* A description of how you tested your code solutions
 
-We are going to assume that there have been several meetings with the operators of a cinema who want to have a system to handle the bookings of seats for their movie screenings. The operators have described the expected functionality, but we won't be concerned with how that happens, this is called Requirements Engineering and will be discussed in the third semester in Info3. Assume that this is the description written (adapted from Barnes/Kölling):
+Lab assignments are due the day before your next lab at 10pm.
 
-The cinema booking system should store seat bookings for multiple theaters. Each theater has seats arranged in rows. There can be a different number of seats in every row. Customers can reserve seats, and are given a row number and a seat number. They may request bookings of several adjoining seats. Each booking is for a particular show (that is, the screening of a given movie at a certain time). Shows are at an assigned date, time, and price, and are scheduled in a theater where they are screened. The system stores the customer's name and telephone number. The customer is told what the booking will cost when the tickets are picked up.
+* * *
 
-The first step is to discover some candidate classes and methods.
+# Assignment
 
-A simple method to discover candidates for classes, introduced by Abbott (1983),
-and later popularized by Booch (e.g. Booch 2004, P 136) is the following:
+**Adding Items**
 
-  * Underline all the nouns (in an English language text) in one color, such as blue
-  * Underline all the verbs in another color, such as red
-  * Underline all the adjectives in a third color, such as green.
+1. If you haven't already done so in the last lab, refactor Zuul further to hold the command words in just one place: the CommandWord enum as discussed in class. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [enums](https://github.com/htw-imi-info1/exercise10/tree/master/enums) in the repository.
 
-The nouns are candidates for classes, the verbs for methods and the adjectives for attributes/fields.
+2.  Extend your project so that a room can contain a single item. Items have descriptions and weights. When creating rooms and setting their exits, items for this game should also be created. When a player enters a room, information about an item present in this room should be displayed.
+3.  How should the information about an item present in a room be produced? Which class should produce the string describing the item? Which class should print it? Why? If answering this exercise makes you feel you should change your implementation, go ahead and do so &#8211; and explain in your report why.
+4.  Modify the project so that a room can hold any number of items. Use a collection to do this! Make sure the room has an `addItem` method that places an item into the room. Make sure all items get shown when a player enters a room. Set up a fixture to thoroughly test this!
 
-Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible ***candidates*** for classes and methods - not every noun will be a class name in your Application!
+5.  Implement a &#8220;back&#8221; command that does not have a second word and takes the player back into the previous location. Test this! What happens if a second word is given?
 
-### 2. CRC Cards
+6.  (*Special Challenge*) What happens if you type &#8220;back&#8221; twice? Is this behavior sensible? Implement it so that using it repeatedly takes you back several rooms, all to the beginning of the game if used often enough. Use a Stack data structure, even if we don&#8217;t know about them yet. You can read about them in the [API][1].
+7.  (for the bored): Add at least two specialized Items to the game, using inheritance. For instance, add Food, Weapons and Clothing in a classical Role-Playing-Game. Each of these specializations (Subclasses) should have at least one special field.
 
-Make CRC cards for each of your candidate classes. Only put down the class names for now.
 
-#### Scenario 1: Making a reservation
-The first scenario that we will be doing is a reservation:
-Jane Doe goes to the Cinema Site and wants to make a reservation for two seats to watch Inglorious Basterds at 8 pm.
-Jane is interacting with the booking system. Using the CRC cards, play through the scenario. How does the system find the show? As you discover responsibilities and collaborators, write them down on the cards. Assume there are plenty of free seats. Jane will choose seats 13 and 14 from row 12.
-
-The reservation is now made. How is this done, exactly? What data is going to have to be stored? Where? If you feel the need to create a new class, feel free to do so! If you discover that a class needs to be split in two - make two new cards and rip up the old one. If two need to be merged, do so. Keep a list of things you want to keep track of on a separate piece of paper.
-
-#### Scenario 2
-
-Choose another scenario and play this through. If you have time, do more! You will submit your final CRC cards and a description of the process you went through, in complete sentences. Here are some suggestions for possible scenarios:
-
-1. Jane has a booking and needs another two, adjoining seats.
-2. Mary wants to book 4 seats together, but there are not 4 adjoining seats available.
-3. Joseph wants to book, but there are no seats available.
-4. Otto has a booking he wants to cancel.
-
-## Lab Report / What to turn in
-
-Your report is due the night before your next lab; refer to Moodle for
-exact times.
-
-Include the Classes, Responsibilities and Collaborators you've found, as well as
- a report of your process.
-{% endcomment %}
+ [1]: https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html

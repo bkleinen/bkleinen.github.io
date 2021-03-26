@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 10 a: The World of You'
+title: 'Exercise 12 a: The World of You'
 author: kleinen
 layout: lab
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 04: Rock Around the Clock'
+title: 'Exercise 04: Rock Around the Clock - Part 1'
 author: kleinen
 layout: lab
 ---
@@ -54,7 +54,7 @@ You need to upload 2 Files to Moodle:
     - Details on which challenges you encountered, how you tried to solve them & the solution
     - The strategy you chose for working in a team & how it worked out
     - Complete transparency on who contributed what
-    
+
 - Additionally, this time your lab report should also include:
 
     - A record of how long you needed for this lab
@@ -74,7 +74,7 @@ Also, if you want to introduce a new parameter to the setTime method, make sure 
 1. There are at least two ways in which you could have implemented exercise 0 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 0, implement the other in a new BlueJ project.
 Name the project folders "clock-display-ampm-24" and "clock-display-ampm-int" respectively.
 2. Which implementation was better? Why? Please elaborate.
-3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring (writing "Riiiiiiiing!" to the terminal is sufficient). 
+3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring (writing "Riiiiiiiing!" to the terminal is sufficient).
 4. (For the bored): Research "Threads" and make the clock increment automatically every second.
 
 **Hint**
@@ -91,6 +91,3 @@ If you've completed Assignments 0-3, your ClockDisplay class should have these m
             public String getTime(){... }
         }
     ```
-
-
-

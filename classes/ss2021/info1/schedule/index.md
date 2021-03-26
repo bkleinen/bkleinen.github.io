@@ -17,7 +17,7 @@ https://www.bluej.org/objects-first/chapters/Barnes-Kolling-6e-FM.pdf
 | Week | KW  | Kick Off Date      | Lecture                                                                                                                                                               | Lab                                                                 |
 |:---- |:--- |:------------------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
 | 1    | 15  | Fri 09/04/2021     | **Introduction to Class & Labs, Chapter 01 - Objects and Classes**                                                                                                    |                                                                     |
-|      |     |                    | Objects, Classes, Methods, BlueJ, Parameters, Compiler                                                                                                                | [Exercise 01 - Startup](../labs/exercise-00)                        |
+|      |     |                    | Objects, Classes, Methods, BlueJ, Parameters, Compiler                                                                                                                | [Exercise 01 - Getting Started and Shapes](../labs/exercise-01)     |
 | 2    | 16  | Fri 16/04/2021     | **Chapter 02 - Understanding Class Definitions**                                                                                                                      |                                                                     |
 |      |     |                    | Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter, Printing to the command line, Conditional, Local Variables, Expressions | [Exercise 02 - Ticket Machine](../labs/exercise-02)                 |
 | 3    | 17  | Fri 23/04/2021     | **Chapter 03 - Object Interaction**                                                                                                                                   |                                                                     |
@@ -25,7 +25,7 @@ https://www.bluej.org/objects-first/chapters/Barnes-Kolling-6e-FM.pdf
 | 4    | 18  | Fri 30/04/2021     | **Chapter 04 - Grouping Objects**                                                                                                                                     |                                                                     |
 |      |     |                    | Collections, Generics, for-each, While Loops, More Loops, Iterators, Arrays, For Loops                                                                                | [Exercise 04 - Rock Around the Clock - Part 1](../labs/exercise-04) |
 | 5    | 19  | Fri 07/05/2021     | **Chapter 05 - Functional Processing of Collections (Advanced)**                                                                                                      |                                                                     |
-|      |     |                    | Lambda Functions, Filter, Map, Reduce                                                                                                                                 | [Exercise 05 - Rock Around the Clock - Part 2](../labs/exercise-04) |
+|      |     |                    | Lambda Functions, Filter, Map, Reduce                                                                                                                                 | [Exercise 05 - Rock Around the Clock - Part 2](../labs/exercise-05) |
 | 6    | 20  | Fri 14/05/2021 *   | *Vorlesungsfrei* - **Chapter 06 - More-Sophisticated Behavior**                                                                                                       |                                                                     |
 |      |     |                    | Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps, Public vs. Private, Interfaces, Class Variables, Writing Class Documentation              | [Exercise 06 - A Better Notebook](../labs/exercise-06)              |
 | 7    | 21  | Fri 21/05/2021     | **Chapter 07 - Fixed-Size Collections—Arrays**                                                                                                                        |                                                                     |
@@ -49,25 +49,3 @@ https://www.bluej.org/objects-first/chapters/Barnes-Kolling-6e-FM.pdf
 
 
 Exam period: 05/07/2021-24/07/2021
-
-
--> links zu den exercises stimmen noch nicht
-
-
-01 Exercise 00 - Exercise Startup & Karas First Steps
-02 Exercise 01 - Kara
-03 Exercise 02 - Ticket Machine
-04 Exercise 03 - Book Exercise
-05 Exercise 04 - Rock Around the Clock
-06 Exercise 04 - Rock Around the Clock
-07 Exercise 05 - A Better Notebook
-
-08 Exercise 06 - Lambdas and Streams
-
-09 Exercise 07 - Lotto and ...
-10 Exercise 07 - Technical Support
-11 Exercise 08 - Bouncing Balls
-12 Exercise 09 - Testing with JUnit
-13 Exercise 10 - The World of You
-14 Exercise 11 - Keeping Track of Stuff
-15 Exercise 12 - Pick up and Carry

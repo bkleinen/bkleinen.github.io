@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 10 b: Adding Commands'
+title: 'Exercise 12 b: Adding Commands'
 author: kleinen
 layout: lab
 ---
