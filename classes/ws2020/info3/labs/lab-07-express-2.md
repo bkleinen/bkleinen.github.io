@@ -192,5 +192,5 @@ More info on the [Labs](..) page.
 [Mongoose Doc]: https://mongoosejs.com/docs/index.html
 [Test Express with Jest Tutorial]: https://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/
 [jest-mongodb]: https://www.npmjs.com/package/@shelf/jest-mongodb
-[Node on Heroku]: (https://www.heroku.com/nodejs)
+[Node on Heroku]: https://www.heroku.com/nodejs
 [Atlas on Heroku]: https://developer.mongodb.com/how-to/use-atlas-on-heroku
