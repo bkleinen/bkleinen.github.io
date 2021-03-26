@@ -10,7 +10,7 @@ layout: page
 
 ### Preparation
 1. Clone the [Gilded Rose Repository](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata).
-2. Set up the project [like we did it in the first lab](lab-01-startup.md#part-1-set-up-the-git-repository-and-project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use [WebStorm](https://www.jetbrains.com/help/webstorm/installation-guide.html#snap) and it's automatic refactoring features. You can [get an educational license](https://www.jetbrains.com/community/education/#students).
+2. Set up the project [like we did it in the first lab](../lab-01-startup) (Part 1: Set up the git repository and project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use [WebStorm](https://www.jetbrains.com/help/webstorm/installation-guide.html#snap) and it's automatic refactoring features. You can [get an educational license](https://www.jetbrains.com/community/education/#students).
 3. Imagine you just joined a the company `Gilded Rose` as software developers. They wrote a requirements sheet for your first job. You can find the whole sheet [here](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt). Read through it. In this lab you will be working through it step by step.
 4. Read the introduction again:
 ```
@@ -86,4 +86,4 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 * Hand in a lab report until Dec. 17, 11pm
 * Take part in the peer review activity on <s>Dec. 17 2020</s> Jan. 7 2021 (rescheduled)
 
-More info on the [Labs](index) page.
+More info on the [Labs](..) page.

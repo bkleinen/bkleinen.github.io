@@ -31,7 +31,7 @@ basic elements of web application development.
 # Lab06
 
 ## Assignment 1: Design a *very small* example app
-Design a little app you want to implement. 
+Design a little app you want to implement.
 
 At the core the app should store entities of a special type and accept creation of and/or modifications on them. If you want to play around *later*, you could add additional libraries for more features.
 
@@ -168,11 +168,11 @@ Install a new package [express-ejs-layouts](https://www.npmjs.com/package/expres
 Refactor your views to use a common layout. See the [App02 commits] for reference.
 
 ## Results Submission
-* Hand in a link to your repository for assignment 3. You don't need to submit your code for assignment 2. 
+* Hand in a link to your repository for assignment 3. You don't need to submit your code for assignment 2.
 * Hand in a lab report (document all assignments) until January 14, 11pm.
 * Take part in the oral test on January 21.
 
-More info on the [Labs](index) page.
+More info on the [Labs](..) page.
 
 # References
 - [App01]
@@ -186,4 +186,3 @@ More info on the [Labs](index) page.
 [App02 commits]: https://github.com/htw-imi-info3/express-app02/commits/master
 [ejs]: https://ejs.co/
 [HTTP Methods]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
-

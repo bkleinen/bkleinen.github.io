@@ -23,7 +23,7 @@ Check the following questions and if the answer is no, fix it. Those were things
 7. Do you use a test database?
 
 ## b) Linting
-Install and configure [eslint](https://eslint.org/) for your project. Lint your code. 
+Install and configure [eslint](https://eslint.org/) for your project. Lint your code.
 For each error, decide whether you need to fix your code or your configuration.
 **Are there any major issues in your code style that eslint detected and that you could fix?
 If so, document this in your report.**
@@ -79,5 +79,5 @@ You get 1 star for each of the exercises that you completed (assignment 1 a and 
 * [Atlas on Heroku]
 
 [Mongo Atlas]: https://cloud.mongodb.com/
-[Node on Heroku]: (https://www.heroku.com/nodejs)
+[Node on Heroku]: https://www.heroku.com/nodejs
 [Atlas on Heroku]: https://developer.mongodb.com/how-to/use-atlas-on-heroku
