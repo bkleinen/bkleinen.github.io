@@ -32,7 +32,7 @@ If you feel like it, you can continue with a sequence diagram for additional use
 ## Results Submission
 * Hand in a lab report (including your diagrams)
 * Take part in the oral test on Nov. 26 2020
-More info on the [Labs](../index) page.
+More info on the [Labs](..) page.
 
 ***
 
