@@ -1,7 +1,8 @@
 ---
 language: ruby
 install:
-- gem install bundler
+- gem uninstall bundler
+- gem install bundler --version '1.17.3'
 - bundle install
 script:
 - bundle exec rake test:travis
