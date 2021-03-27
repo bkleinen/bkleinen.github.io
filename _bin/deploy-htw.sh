@@ -19,9 +19,10 @@ if [ $(git branch --show-current) != "master" ]; then
    exit 1
 fi
 
-git push origin master
+git remote update
+git status -uno
 if [ $? -ne 0 ]; then
-    echo "push failed; exiting"
+    echo "branch not up to date; need to pull first! exiting"
     exit $?
 fi
 
@@ -34,6 +35,12 @@ if [ $? -eq 0 ]; then
     scp -r _site_htw_rz/* oxid01.rz.htw-berlin.de:/home/user/K/kleinen/public_html
 else
     echo "SITE BUILD FAILED, NOT COPYING TO HTW"
+    exit $?
+fi
+
+git push origin master
+if [ $? -ne 0 ]; then
+    echo "push failed; exiting"
     exit $?
 fi
 
