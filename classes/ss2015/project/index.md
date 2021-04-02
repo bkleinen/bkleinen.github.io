@@ -93,3 +93,7 @@ Similar or possibly useful projects
 
 ### Not related
 * [NSA Treasuremap](https://www.spiegel.de/netzwelt/netzpolitik/nsa-wie-der-geheimdienst-mit-dem-system-treasuremap-daten-sammelt-a-991496.html#)
+
+# IMI-Website
+* [Projektankündigung](https://imi-bachelor.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2015/#c10905)
+* [Showtime](https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2015/#c10883)

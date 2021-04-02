@@ -12,3 +12,5 @@ Suchmaschinen die den aktuell g&uuml;nstigsten Preis f&uuml;r ein bestimmtes Pro
 
 * [Fotos auf dem HTW Tumblr](https://htw-berlin.tumblr.com/post/113783317128/more-vom-studienprojekt-zum-start-up-gibt-es)
 * https://www.digimeo.de/ - nicht mehr online
+* [Projektankündigung](https://imi-master.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2014/#c11254)
+* [Showtime](https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-sommersemester-2014/#c11063)

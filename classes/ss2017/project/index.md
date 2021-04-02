@@ -38,3 +38,8 @@ Projektverlauf
 - Restaurierung des Logins/LDAP, Google-Maps-Einbindung
 - Festlegen von Erweiterungen im Student_innenbereich sowie Administrationsbereich mit einem User Centered Design Prozess - Umfang je nach Größe und Interesse der Gruppe
 - Umsetzung dieser Erweiterungen
+
+
+# IMI-Website
+* [Projektankündigung](https://imi-bachelor.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2017/#c29896)
+* [Showtime](https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2017/#c32952)

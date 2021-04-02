@@ -2,4 +2,4 @@
 * [B WT2 Usability]({{ site.baseurl }}/classes/ws2019/wt2-usability)
 * [M M1 Media Programming - Lab Web Technology]({{ site.baseurl }}/classes/ws2019/m1-web)
 * [M WT1 Webapplications]({{ site.baseurl }}/classes/ws2019/m-wt1-webapplications)
-* [M6/11 Praxisprojekt]({{ site.baseurl }}/classes/ws2019/m6-project/)
+* [M6/11 Praxisprojekt IN_VISIBLE]({{ site.baseurl }}/classes/ws2019/m6-project/)

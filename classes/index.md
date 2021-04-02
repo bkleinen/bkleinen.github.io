@@ -77,7 +77,7 @@ layout: default
 ### Summer Term 2012
 
 - Info2
-- Praxisprojekt
+- Praxisprojekt [Wheelmap Spiel MapATag](https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2012/#c11190)
 
 ### Winter Term 2011/12
 
