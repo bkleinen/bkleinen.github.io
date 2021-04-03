@@ -8,11 +8,11 @@ layout: page
 
 Im Sommersemester 2021 wird Info1 nach dem didaktischen Konzept des Lernteamcoachings durchgeführt. Hierbei erarbeiten sich Studierende Inhalte zunächst individuell und dann gemeinsam in der Gruppe. Schliesslich wird jede Kleingruppe 1 x Woche gecoacht.
 
-Thema der Woche ist jeweils ein Kapitel im Buch "Object First with Java" sowie ein Lab Assignment. Die Lab Assignments bauen beziehen sich überwiegend auf die Kapitel der Wochen davor, so dass nicht unmittelbar der aktuelle Stoff schon verstanden sein muss, um das Lab bearbeiten zu können.
+Thema der Woche ist jeweils ein Kapitel im Buch "Object First with Java" sowie ein Lab Assignment. Die Lab Assignments beziehen sich überwiegend auf die Kapitel der Wochen davor, so dass nicht unmittelbar der aktuelle Stoff schon verstanden sein muss, um das Lab bearbeiten zu können.
 
 Alle Studierenden geben jede Woche die Bearbeitung des Labs sowie Topic Notes zum Kapitel der Woche individuell ab. Die Abgaben werden mit ok/nicht ok, aber nicht weiter differenziert, bewertet.
 
-Dabei dürfen die Labs gemeinsam bearbeitet werden, empfohlen wird, die Programmieraufgaben zu zweit, maximal dritt zu bearbeiten, und sich über knifflige Punkte im Lernteam auszutauschen und zu helfen.
+Dabei dürfen die Labs gemeinsam bearbeitet werden. Empfohlen wird, die Programmieraufgaben zu zweit, maximal dritt zu bearbeiten, und sich über knifflige Punkte im Lernteam auszutauschen und zu helfen.
 
 ## 0. Kick Off / Plenum
   Die Woche beginnt mit einem "Kick-Off" oder Plenum. In jeweils 30 min wird in das Thema der
@@ -23,7 +23,7 @@ Dabei dürfen die Labs gemeinsam bearbeitet werden, empfohlen wird, die Programm
 Als zweiten Schritt erarbeiten sich die Studierenden die Inhalte individuell. Dies besteht i.d.R. im Lesen des entsprechenden Buchkapitels und dem individuellen Bearbeiten kleinerer Übungsaufgaben, sowie des Prelabs und einer ersten Übersicht über die Anforderungen des Lab Assignments.
 
 ## 2. Treffen in Kleingruppen
-In Kleingruppen klären die Studierenden offene Fragen untereinander und helfen sich bei Programmierproblemen
+In Kleingruppen klären die Studierenden offene Fragen untereinander und helfen sich bei Programmierproblemen.
 
 ## 3. Teambesprechung mit der Dozent_in
 
