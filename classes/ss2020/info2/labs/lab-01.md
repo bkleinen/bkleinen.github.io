@@ -6,7 +6,7 @@ layout: lab
 
 ## Pre-Lab
 
-Remember to do all the necessary steps listed on the [Labs](labs) page, including the following exercises:
+Remember to do all the necessary steps listed on the [Labs](..) page, including the following exercises:
 
 ***P1.*** How do you obtain tickets to go see a movie? Write down the steps that you take, in order.
 
@@ -39,7 +39,7 @@ Be aware that this method has later been critized for not beeing a rigourous app
 ### 2. CRC Cards
 
 #### Preparation
-Make CRC cards for each of your candidate classes. Only put down the class names for now. 
+Make CRC cards for each of your candidate classes. Only put down the class names for now.
 
 *Note: In this semester you'll have to do this online. You can use the [HTW Cloud](https://cloud.htw-berlin.de), [IMIPad](https://imipad.f4.htw-berlin.de:9001) or another tool that allows online in-time-editing of a file by multiple people.*
 
@@ -60,7 +60,7 @@ Choose another scenario and play this through. If you have time, do more! Here a
 4. Otto has a booking he wants to cancel.
 
 ### 3. Tooling: Dip a toe into IntelliJ
-Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a first project with one class that prints out "Hello" on the command line, or does something else. Add a main() method. Add an unit test class and a test, and make sure you know how to run both the main() method as well as the unit test in IntelliJ. 
+Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a first project with one class that prints out "Hello" on the command line, or does something else. Add a main() method. Add an unit test class and a test, and make sure you know how to run both the main() method as well as the unit test in IntelliJ.
 * [These tutorial videos](https://www.jetbrains.com/idea/documentation/) can be of help.
 * And you can also find information on installing, creating projects, adding unit tests and much more at [the IntelliJ documentation](https://www.jetbrains.com/help/idea/installation-guide.html).
 
@@ -68,4 +68,4 @@ Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a 
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
 
 Additional requirements for this lab:
-* Please submit your final CRC cards and a description of the process you went through for creating them. 
+* Please submit your final CRC cards and a description of the process you went through for creating them.

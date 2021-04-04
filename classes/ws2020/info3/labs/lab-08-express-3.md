@@ -5,9 +5,9 @@ layout: page
 ---
 
 # From Lab07 to Lab08
-You will continue working on your project from Lab07. 
-However, it should be in a separate code base. 
-So you should create a new empty repository on GitLab in the folder for Lab08 and add this new repo as the new origin of your local repository. 
+You will continue working on your project from Lab07.
+However, it should be in a separate code base.
+So you should create a new empty repository on GitLab in the folder for Lab08 and add this new repo as the new origin of your local repository.
 For Lab08, only push to the project in the Lab08 folder!
 
 # Assignment 1: Clean Up
@@ -23,9 +23,9 @@ Check the following questions and if the answer is no, fix it. Those were things
 7. Do you use a test database?
 
 ## b) Linting
-Install and configure [https://eslint.org/](eslint) for your project. Lint your code. 
-For each error, decide whether you need to fix your code or your configuration. 
-**Are there any major issues in your code style that eslint detected and that you could fix? 
+Install and configure [eslint](https://eslint.org/) for your project. Lint your code.
+For each error, decide whether you need to fix your code or your configuration.
+**Are there any major issues in your code style that eslint detected and that you could fix?
 If so, document this in your report.**
 
 # Assignment 2: Deploy the App to Heroku
@@ -66,7 +66,7 @@ database available on the net, e.g. using [Mongo Atlas]. The documentation "[Atl
 **Document in your report any issues you had with deploying the app**
 
 ## Results Submission
-* Hand in a link to your repository together with your report. 
+* Hand in a link to your repository together with your report.
 * Hand in a lab report until March 28, 11pm. Make sure to answer the questions I put in this lab.
 
 ### Grading
@@ -79,5 +79,5 @@ You get 1 star for each of the exercises that you completed (assignment 1 a and 
 * [Atlas on Heroku]
 
 [Mongo Atlas]: https://cloud.mongodb.com/
-[Node on Heroku]: (https://www.heroku.com/nodejs)
+[Node on Heroku]: https://www.heroku.com/nodejs
 [Atlas on Heroku]: https://developer.mongodb.com/how-to/use-atlas-on-heroku
