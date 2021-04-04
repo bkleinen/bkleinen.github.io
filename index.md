@@ -9,13 +9,12 @@ regenerate: true
   {% include posts/posts.html %}
   <a align = "right" href="{{ site.baseurl }}/news/">Posts Archive</a>
 </div>
-
-
+<hr/>
 
 <div class = "box">
-<h4>Classes Winter Term 2020/21</h4>
+<h4>Classes Summer Term 2021</h4>
 <div>
-{% include classes/ws2020/lectures.html %}
+{% include classes/ss2021/lectures.html %}
 </div>
 
 <a href="{{ site.baseurl }}/classes/">All Classes (Archive)</a>
