@@ -40,46 +40,35 @@ me.
 
 Furthermore, there will be a Tutorial for everyone once a week held by Eve Schütze.
 
-{% comment %}
-## Grades
+## Grading
 
-TBD.
+The Grading in Informatics 1 will be done as follows:
 
+* 14x1P for [Notebook Chapters](./notebook) - 14 P
+* 11x4P for [Lab Reports](labs/): - 44 P
+* 3x15P for Programming Assignments at the end of term: - 45 P
+* 4 Bonus Points for an Interview - 4P
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the
- course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
+This sums up to a total of 108 P and will be graded according to the
+ [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
 
-* Lab Reports: 50%
-* Exam: 50%
-* Lecture summaries: 8%
+Notebook Chapters and Lab Reports are simply counted - they are either present
+or not. 2 lab reports and 3 Notebook Parts may be handed in late.
 
+If you already have prior programming experience and find the lab
+assignments rather easy, you can switch to coaching other students for up to
+three lab assignments altogether. You need to announce your coaching offer in
+the moodle forum and hand in a report for this lab writing about your coaching
+experience, but do not need to work on the assignment yourself.
 
-### Lecture Summaries (aka Lecture Notes)
-In the Moodle collaboration room you can find a section called "Lecture summaries".
-You are expected to write 5-10 complete sentences summarizing each lecture, or
-a handwritten/drawn A4 Paper (e.g. Sketchnotes).
+If you are unable to work on your assignments due to circumstances you are not
+accountable off - e.g. falling ill or family emergencies - talk to either Linda
+Fernsel or Barne Kleinen asap and we will work out a solution.
 
-Lecture summaries are due at 22.00 on Monday for both lectures of the past week.
-They are either done or not done. I expect you to do 12 out of 13 out of all
-to get the full 8%.
-If I find plagiarisms of lecture summaries (especially from the Wikipedia),
-you will not get any credit for **any** lecture summary.
+Interviews: I teach a class on User Centered Design in the Master's Programme,
+and, depending on the chosen topic, the students will need interview partners.
+You get a Bonus of 4P for an Interview of about 1 hour.
 
-#### I couln't attend class! What to do about the Lecture Summary?
-
-If you couldn't attend the lecture, you can still write a summary: Ask your
-mates what we did in class, and read up the according chapter(s) in the book,
-and write or draw a summary. Please put a brief note on the page that you
-did this based on your own reading.
-
-### Lab Reports
-You find detailled information about them on the [Lab Page](labs/)
-
-### Exam
-
-There will be a 2-hour online examination at the end of the term. The examination will cover Java programming and conceptual understanding in ways that may be difficult to assess during the laboratory sessions. The exam will be an on-line exam with two parts, a multiple-choice part and an essay / programming part. Please consult LSF for the definite date and time.
-
-{% endcomment %}
 
 ## Textbook and Materials
 
@@ -99,7 +88,7 @@ If you prefer Videos, [David Barnes has recently recorded a new set of class vid
 
 ### Java Tutorials
 
-There are many Java Tutorials out there on the web on the topics we cover. Many will prove useful, however, also practice to gauge the quality
+There are many Java Tutorials out there on the web on the topics we cover. Many will prove useful, however, do use them as practice to gauge the quality
 and applicability of your findings before relying on them.
 
 A comprehensive resource for the Java language are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8].

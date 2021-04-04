@@ -17,12 +17,22 @@ Either way, make sure that you get your share of on-hand programming.
 
 ## Grading: Lab Reports
 
-You will need to write a report each week. The report must be in English or German,
-spell-checked and using complete sentences, explaining what you did in the
-exercise session, that is, the process. Screenshots are welcome. Each report
-should not be more than 5 pages and in PDF format and must have your name on it.
-It must include a reflection on what you learned during the session.
-They must be submitted to the Moodle area by 22.00 on thursday night.
+You will need to write a report each week, which should not be more than 5 pages and
+in PDF format, with your name on it. The report must be in English or German. In consists of two parts:
+
+1. The report on the lab assignment, spell-checked and using complete sentences,
+explaining what you did in the
+exercise session, that is, the process. Screenshots are welcome. This part
+may be written together with others in your team and exchanged within your team.
+Thus, include the name of all authors in this part.
+
+2. a reflection on what you learned during the session, which is your personal,
+individual summary.
+
+Additionally, you upload a zip of your solution's source code.
+
+
+Both must be submitted individually to the Moodle area by 22.00 on thursday night.
 
 [Here are some general guidelines on lab reports.]({{ site.baseurl }}/studies/grading/guideline)
 
@@ -40,11 +50,13 @@ They must be submitted to the Moodle area by 22.00 on thursday night.
 * [Exercise 10 - Bouncing Balls](../labs/exercise-10)
 * [Exercise 11 - Testing with JUnit](../labs/exercise-11)
 
-{%  comment %}
+## Programming Assessment
 
 * [Exercise 12 - The World of You](../labs/exercise-12)
 * [Exercise 13 - Keeping Track of Stuff](../labs/exercise-13)
 * [Exercise 14 - Pick up and Carry](../labs/exercise-14)              
+
+{%  comment %}
 
 
 
