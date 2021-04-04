@@ -20,6 +20,7 @@ It is usually a good idea to save your work at regular intervals. We sometimes h
 ## Pre-Lab
 
 Each lab assignment comes with a pre-lab section. Usually, it includes excercises and research questions that prepare you for the lab assignment.
+
 You're expected to complete these *before* you come to the lab. This includes reading through the whole Assignment before the lab.
 
 This week, you should prepare your own computer for the lab if you plan to use it during the lab. You can, of course, do that later, or switch between using your own computer and those in the lab (there's a description below on how to transfer files). *But you should not start the lab with installing software on your own computer. You will loose the opportunity to ask questions on the lab assignment this way and spend way more time trying to solve them later this way!*
@@ -29,6 +30,33 @@ This week, you should prepare your own computer for the lab if you plan to use i
 * Download and install BlueJ as described on the BlueJ page: [https://bluej.org](https://bluej.org).
 
 * If you want to save space, you can download and install Java and the pure Java Versions of Greenfoot and BlueJ. This is a tad more complicated. Follow the instructions on the Greenfoot and BlueJ site.
+
+#### What to Bring to Lab
+
+Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
+
+**P1.** In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.
+
+**P2.** What are the types of the following values (constants)?
+
+  - 0
+  - "hello"
+  - 101
+  - -1
+  - true
+  - "true"
+  - "33"
+  - '3'
+  - 3.1415
+
+**P3.** Pick up a book - you should have at least one at home. Is it an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.
+
+**P4.** What class does the following constructor belong to? How many formal parameters does it have? What are their types?
+
+    public Book (String title, double price){ }
+
+If you will be using your own laptop in the lab, please install [BlueJ](https://www.bluej.org/) before you come to lab. [BlueJ](https://www.bluej.org/) is available for all platforms - it's Java!
+
 
 ## Assignment
 

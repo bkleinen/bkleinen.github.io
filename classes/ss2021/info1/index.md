@@ -95,7 +95,7 @@ There are copies available in the library, and you can also obtain an older edit
 
 See also [https://www.bluej.org/objects-first/](https://www.bluej.org/objects-first/)
 
-If you prefer Videos, [David Barnes has recently recorded a new set of class videos](https://www.youtube.com/c/kentdjb/videos?view=0&sort=da&flow=grid).
+If you prefer Videos, [David Barnes has recently recorded a new set of class videos][BarnesVideos].
 
 ### Java Tutorials
 
@@ -121,7 +121,11 @@ Here's the Course Navigation again:
 These places are in detail:
 
 * This Web Page for all information that may and should be publicly accessible,
-  especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale) - everything else is
-* Moodle for all Information that cannot be made publicly available and for handing in your lecture summaries and lab reports.
+  especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale)
+* [Moodle](https://moodle.htw-berlin.de) for all Information that cannot be made publicly available and for handing in your lecture summaries and lab reports.
 * the [LSF System](https://lsf.htw-berlin.de), where you can find class times and rooms. Note that is possible to see the general schedule for your Semester (Term Schedule above) and also Schedules for all people teaching (Dozentenpläne) - this is often the fastest way to find out the room for your next class.
 * [The lecture source code on Github](https://github.com/htw-imi-info1) for publicly accessible code examples used in the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)  
+
+
+
+{% include classes/ss2021/info1/references.md %}

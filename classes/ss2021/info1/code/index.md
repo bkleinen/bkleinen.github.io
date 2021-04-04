@@ -15,12 +15,14 @@ individual commit, and you you'll see the changes.
 
 ### Class
 
-(the links named "changes in ..." will only work after the class has actually happened!)
+#### Reviewed and updated for SoSe 21
+
+(Note: the first link is the general version in the master branch. The links named "changes in ..." will only work after the class has actually happened!)
 
 * [Chapter 01](https://github.com/htw-imi-info1/chapter01) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter01/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter01/archive/ss2021.zip)
 * [Chapter 02](https://github.com/htw-imi-info1/chapter02) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter02/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter02/archive/ss2021.zip)
 
-
+#### Not yet reviewed and updated
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter03/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ss2021.zip)
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter04/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ss2021.zip)
 
@@ -34,9 +36,10 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 * [Chapter 07 (Simple Analyzer)](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer) - [ZIP](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer/archive/ss2021.zip)
 
 ### Labs
-
-* Lab 01: [Kara](https://github.com/htw-imi-info1/exercise01-kara)
+#### Reviewed and updated for SoSe 21
+* Lab 01: [Figures](https://github.com/htw-imi-info1/exercise01) (Chapter 01)
 * Lab 02: [TicketMachine](https://github.com/htw-imi-info1/exercise02)
+#### Not yet reviewed and updated
 * Lab 03: [BookExercise project](https://github.com/htw-imi-info1/exercise03)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
