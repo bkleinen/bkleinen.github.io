@@ -49,24 +49,30 @@ Anstelle von 2x90min SU und 2x90min Lab aus Sicht der Lehrenden (in Summe 360 mi
 ## Aus Sicht der Studierenden
 
 ### Lernteam Coaching
+
 Aufteilung der Zeit aus Studierendensicht:
 
-- 2x30 min Input/Kickoff zu den Themen der Woche
-- ca. 120 min Selbstudium
-- 1x90 min Kleingruppentreffen
-- weiter Zeit zum Bearbeiten der Übungsaufgaben individuell oder in der Gruppe
-- 1x30 min Learnteamcoaching
+- 1h Input/Kickoff zu den Themen der Woche
+- 2-3h Selbstudium
+- 2h Kleingruppentreffen
+- 0,5 h Learnteamcoaching
+- 2-3h  Zeit zum Bearbeiten der Übungsaufgaben individuell oder in der Gruppe
 
-in Summe 300 min/Woche + Zeit zum Bearbeiten der Übungsaufgaben.
+in Summe 7,5-8,5 h/Woche
 
 
 Dieses ersetzt
-- 2x90 min SU
-- Nachbereitungszeit SU
-- 1x90 Lab
-- Zeit für die Bearbeitung der Übungsaufgaben
+- 3h  SU
+- 1-2h Nachbereitungszeit SU
+- 1,5 h Lab
+- 2-3h  Zeit zum Bearbeiten der Übungsaufgaben
 
-d.h. in Summe 270 min + Nachbearbeitungszeit + Zeit zum Bearbeiten der Übungsaufgaben. Bei einer Nachbearbeitungszeit für beide SU mit 30min wäre es also ähnlich.
+in Summe 7,5-8,5 h/Woche
+
+
+Info1 hat 6 ECTS - 1 ECTS entspricht 25-30h, d.h 150-180h in Summe,
+  10-12h/Woche bei 15 Wochen im Semester - d.h. diese Aufteilung ist eher
+  als unteres Minimum zu sehen.
 
 
 # Quellen / Weiterlesen

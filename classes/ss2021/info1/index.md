@@ -29,7 +29,7 @@ with the method of Learnteam Coaching. You will work on one Chapter of the textb
 first individually and then together with your Learning Team, aided by
 the actual Learnteam coaching by one of the instructors. Also, you will
 work on one Lab Assignment every week. See the [Schedule](./schedule) for the
-exact plan and links to the materials.
+overall plan and links to the materials and the [Week Plan](./week) for the weekly schedule.
 
 There will be a "kick off" to the following week each Friday at 9:45 in Zoom
 (link to Zoom can be found in Moodle) with a brief introduction to the topic by
@@ -86,8 +86,8 @@ There will be a 2-hour online examination at the end of the term. The examinatio
 ### Textbook
 
 This Class is based on the Textbook **Objects First with Java - A Practical
-Introduction using BlueJ**, Pearson Education. 6th edition by David Barnes and
-Michael Kölling. [Pearson Book Page](https://www.pearson-studium.de/objects-first-with-java-a-practical-introduction-using-bluej-global-edition.html)
+Introduction using BlueJ**, Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
+[Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling). [Pearson Book Page](https://www.pearson-studium.de/objects-first-with-java-a-practical-introduction-using-bluej-global-edition.html)
 
 There is a German translation available: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson,  2017, 6. Auflage. [Pearson Book Page](https://www.pearson-studium.de/java-lernen-mit-bluej_4.html)
 
