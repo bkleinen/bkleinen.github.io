@@ -28,33 +28,19 @@ The class will be conducted as Lernteamcoaching. You will study the topics first
 - Real Time Communication/Web Sockets
 - Continuous Deployment
 
-## Meetings and Due Dates
+## Class Structure
 
---- got till here ----
+We are heading for yet another term of distance-learning.
+The class will be structured as Learnteam coaching - with three phases:
 
-Vorträge?
-- one additional time block to work as a team
-there will be about 1hr max of group activity plus 20-30 min learn team coaching.
+1. Individual Study: you start by studying the topic of the week individually.
+   This usually consists of reading one book chapter and about one topic on agile development.
 
+2. Lernteam: you work together mainly on the programming part and clarifying questions that came up during individual study.
 
-
-
-
-The Campus is closed and there will be no on-site classes at least till April 20, probably longer.
-
-We will still meet at the time scheduled in LSF each week, Links to video conferencing will be posted in Moodle.
-
-Lectures will be done as flipped classroom: You need to prepare the topic beforehand, and I will mostly answer questions during the lectures.
-
-During distance learning, which may be for the whole term, I will make use of the lab time for individual sessions with the teams.
-
-Note that there is required reading to read *before* class.
-
-{% comment %}
-We meet each week for 2 x 1,5hrs. Although the schedule is split up into lecture and lab (SU+Ü) we
-will split up the time between lectures, assignments and practice and time for project work into your
-team more dynamically within these 3 hours.
-{% endcomment %}
+3. Lernteam coaching: Within the learnteam coaching, you present your work and solution (in progress) and we discuss questions that came up.
+   Lernteam coaching will be within individually scheduled appointments scheduled via moodle.
+   Weekly status reports and final commits on the sprints are due Friday 22:00.
 
 ## Digital Media
 
@@ -63,32 +49,20 @@ class. You find the links to Moodle, GitHub, the Wiki and LSF in the top menu as
 
 * The class structure, assignments and other things that can and should be publicly available are on this web page
 * Discussion Forums, Material that can't be made publicly available, Links to Videos, Quizzes etc are in Moodle
-* Collaborative Knowledge Production will be done in the Wiki
 * Source Code will be on GitHub.
+* a Discord server (TBD)
+* Miro boards made available via moodle.
 
 ## Grades
 
-Prüfung im SoSe 2020:
+Prüfung im SoSe 2021:
 
 * Weekly Reports - 26% (each one turned in counts 2%) (Berichte über Laborübungen)
-* Web Technology Handbook - 14% (Hausarbeit im Wiki)
-* Exam - 60 % (Distanzklausur über Moodle)
+* Presentation 14%
+* Exam - 60 % (Distanzklausur, Programming)
 
 Wiederholungsmöglichkeiten im 2.PZ:
 
 * Hausarbeit Webentwicklungsprojekt zu einem gestellten Thema entsprechend den wöchentlichen Sprints im Semester 26%
-* Web Technology Handbook - 14% (Hausarbeit im Wiki)
+* Web Technology Handbook - 14% (Hausarbeit als PDF)
 * Exam - 60 % (Distanzklausur über Moodle)
-
-Weekly status reports are due Sunday 22:00.
-
-{% comment %}
-
-Your grade in WTAT1 will be a weighted mixture of the evaluated graded elements of the course.
-
-s. Those are not graded, but you need to turn in viable reports for each topic approximately every two weeks.
-* Quizzes: after the completion of each topic, there will be a brief Moodle quiz about the topic covered. If you choose to participate in those quizzes, they may count as 50% of your grade
-* Exam: There will be a Moodle exam at the end of term. It either counts
-    * 50% with the points from the quizzes as other 50%
-    * 100% if you get a better grade this way either because you didn't participate in the quizzes or have achieved fewer points than in the exam (yay! automatically. You don't even have to choose.)
-{% endcomment %}

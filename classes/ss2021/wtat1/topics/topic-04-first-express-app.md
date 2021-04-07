@@ -4,6 +4,11 @@ author: kleinen
 layout: default
 ---
 
+
+create a branch for each story and merge it into master with a merge commit like "Story_001 Overview of Study Program"
+- you may also clean your git history to just have one commit per story.
+
+
 ## Sprint 02: First Express App with view templates and dynamic content
 
 - number the stories in your backlog (see the example below)

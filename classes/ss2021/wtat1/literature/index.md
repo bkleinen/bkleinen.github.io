@@ -4,11 +4,21 @@ author: kleinen
 layout: default
 ---
 
+
+
+Tentative Schedule.
+Agile Track: please read or watch the according material in [the Scrum Guide](https://www.scrumguides.org/) and [Scrum Foundations eLearning Series](https://www.scrumalliance.org/learn-about-scrum/scrum-elearning-series)
+
+Tech Track: Please read the provided material (in moodle) individually before.
+
+
+
+
 You will develop an application using the MERN - Stack: Mongo, Express, React and Node.
 
 During the Term, we will mainly use these books:
 
-## MERN Stack
+## MEVN Stack
 
 * Fischer, Ludovico (2017): React for Real. Raleigh: The Pragmatic Bookshelf.
 * Redmond, Eric, Wilson, Jim R. (2012): Seven Databases in Seven Weeks.  Raleigh: The Pragmatic Bookshelf.
