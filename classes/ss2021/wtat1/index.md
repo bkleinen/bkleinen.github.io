@@ -37,10 +37,18 @@ The class will be structured as Learnteam coaching - with three phases:
    This usually consists of reading one book chapter and about one topic on agile development.
 
 2. Lernteam: you work together mainly on the programming part and clarifying questions that came up during individual study.
+   Thus, your team should commit on one weekly time slot to work together. This slot should be sometime before the Thursday meetings.
 
 3. Lernteam coaching: Within the learnteam coaching, you present your work and solution (in progress) and we discuss questions that came up.
-   Lernteam coaching will be within individually scheduled appointments scheduled via moodle.
+   Lernteam coaching will be within individually scheduled appointments, scheduled via moodle, during the class hours Thu 9:45-11:15 and 12:15-13:45
    Weekly status reports and final commits on the sprints are due Friday 22:00.
+
+4. Class meetings will be scheduled later during the Thursday time slots. (e.g. shorter ones for presentations, longer ones for retrospectives)
+
+## Presentations
+
+You need to prepare and present a short talk about one web technology-related topics in a pair (group of two). We'll schedule these presentations individually
+during the learnteam-coachings.
 
 ## Digital Media
 
