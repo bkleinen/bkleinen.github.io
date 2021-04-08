@@ -1,7 +1,32 @@
 
 
 [209]: https://www.youtube.com/watch?v=zO07KxTXi-I
+
 [301]: https://www.youtube.com/watch?v=iPznQyqPG0Q&t=11s
+[302]: https://youtu.be/tkftW2gzZOo
+
+[401]: https://youtu.be/VnnhaX--lDQ
+[402]: https://youtu.be/apyF8MVMEoI
+[403]: https://youtu.be/1mD6s1MGt8k
+[404]: https://youtu.be/6lUI5XlWTwM
+[405]: https://youtu.be/6OCLn9dfuIw
+
+[501]: https://youtu.be/M3wG-vowhQo
+[502]: https://youtu.be/U85I2y-cHRE
+
+[601]: https://youtu.be/shRY8SMLoSY
+[602]: https://youtu.be/Jlyl4mycqfQ
+[603]: https://youtu.be/H0ga5kmV4ik
+
+[701]: https://youtu.be/EV_vCtExFTg
+[702]: https://youtu.be/d4zs3xqPfLk
+
+[801]: https://youtu.be/qDx_Tn5mqo4
+[802]: https://youtu.be/YGWmBnsU8WM
+[803]: https://youtu.be/gCt87gq41mI
+[804]: https://youtu.be/eZKygV2XOTQ
+
+
 [BarnesVideos]: https://www.youtube.com/c/kentdjb/videos?view=0&sort=da&flow=grid
 
 {% comment %}
