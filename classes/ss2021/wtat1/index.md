@@ -58,19 +58,19 @@ class. You find the links to Moodle, GitHub, the Wiki and LSF in the top menu as
 * The class structure, assignments and other things that can and should be publicly available are on this web page
 * Discussion Forums, Material that can't be made publicly available, Links to Videos, Quizzes etc are in Moodle
 * Source Code will be on GitHub.
-* a Discord server (TBD)
-* Miro boards made available via moodle.
+* a Discord channel: #wtat1-sose21 in the IMI-Discord (find the invitation link in moodle)
+* Miro boards (find the links in moodle)
 
 ## Grades
 
 Prüfung im SoSe 2021:
 
-* Weekly Reports - 26% (each one turned in counts 2%) (Berichte über Laborübungen)
-* Presentation 14%
+* Weekly Reports 12 * 2,5P- 30 % (each one turned in counts 2%) (Berichte über Laborübungen)
+* Presentation 10 %
 * Exam - 60 % (Distanzklausur, Programming)
 
 Wiederholungsmöglichkeiten im 2.PZ:
 
-* Hausarbeit Webentwicklungsprojekt zu einem gestellten Thema entsprechend den wöchentlichen Sprints im Semester 26%
-* Web Technology Handbook - 14% (Hausarbeit als PDF)
-* Exam - 60 % (Distanzklausur über Moodle)
+* Hausarbeit Webentwicklungsprojekt zu einem gestellten Thema entsprechend den wöchentlichen Sprints im Semester 30%
+* Paper about Web-Technology Topic replacing Presentation- 10%
+* Exam - 60 % (Distanzklausur, Programming)
