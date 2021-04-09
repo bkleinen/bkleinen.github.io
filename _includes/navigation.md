@@ -8,6 +8,7 @@
     {% include navigation_dropdown_item.md url = "/classes/ss2021/info1" link_text = "B Info 1" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2021/wtat1" link_text = "B WTAT 1" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2021/m1-web" link_text = "M M1 Labs" %}
+    {% include navigation_dropdown_item.md url = "/classes/ss2021/m-wt4-ucd" link_text = "M WT4 UCD" %}
     {% include navigation_dropdown_item.md url = "/classes/ss2021/index.html" link_text = "All SoSe 21" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>

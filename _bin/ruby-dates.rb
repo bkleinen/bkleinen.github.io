@@ -14,7 +14,7 @@ require_relative './lib_ruby_dates.rb'
 course_dates = CourseDates.new(
   first_day: Date.parse("09.04.2021"),
   day_diff: 4,
-  two_lectures: true,
+  two_lectures: false,
   step: 7
 )
 

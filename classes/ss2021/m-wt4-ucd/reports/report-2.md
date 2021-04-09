@@ -1,13 +1,12 @@
 ---
-title:  WT4 SS2020 - Report 2
+title:  WT4 ss2021 - Report 2
 author: kleinen
 layout: default
 ---
 
 
-# Report 2: Visioning and Product Concepts
+# Report 2: Affinity Diagram and Wall Walk
 
-The second report is due tbd, 22:00
 
 It should be submitted to moodle as pdf and contain the following parts:
 
@@ -18,22 +17,10 @@ It should be submitted to moodle as pdf and contain the following parts:
 
 - Fotos of your Affinity Diagrams, summary of the main categories.
 - List of Issues
-- Hot Ideas
+- List Hot Ideas
+- List of Technologies
 
 The latter list can be included as clearly readable fotos of the Flipcharts.
-
-## Visioning & Product Concepts
-
-Document the
-- Visions developed,
-- their structured evaluation,
-- the Product Concept and the
-- results of the cool drilldown.
-
-If Fotos of your Flipcharts/Artefacts are legible and speak for their own,
-they are sufficient.
-Add a brief reflection on the Structured Evaluation and the Cool Drilldown
-
 
 ## Reflection
 
