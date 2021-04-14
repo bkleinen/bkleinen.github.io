@@ -1,5 +1,7 @@
 
 
+[101]:
+[102]: 
 [209]: https://www.youtube.com/watch?v=zO07KxTXi-I
 
 [301]: https://www.youtube.com/watch?v=iPznQyqPG0Q&t=11s
@@ -30,6 +32,20 @@
 [902]: https://youtu.be/wX71K9jJ3ps
 [903]: https://youtu.be/DP0vR0gPufg
 
+[1001]: https://youtu.be/F7KtfGELZsM
+[1002]: https://youtu.be/u1Ozi0919D0
+[1003]: https://youtu.be/4JqwzFsXfcI
+
+[1101]: https://youtu.be/klmfvMb6B4I
+[1102]: https://youtu.be/prHTMZr4GnI
+[1103]: https://youtu.be/43lMIHRypQ0
+
+[1201]: https://youtu.be/kDAyNFjsNwU
+[1202]: https://youtu.be/BwnIHAvzGz0
+
+[1301]: https://youtu.be/sbQqb_XXOK8
+
+[1401]: https://youtu.be/nKu98znpbNc
 
 [BarnesVideos]: https://www.youtube.com/c/kentdjb/videos?view=0&sort=da&flow=grid
 
@@ -53,13 +69,3 @@ Chapter 8: VN 8.1 Identifying code duplication as possible grounds for inheritan
 
 Chapter 2 hat in der neuen fassung 9 videos, in der alten nur 3 mit ca 40 min altogether
 {% endcomment %}
-[901]: https://www.youtube.com/watch?v=_CvzkTVaBxQ
-[1001]: https://www.youtube.com/watch?v=MBBU1HALR6A
-[1101]: https://www.youtube.com/watch?v=aGRRAdXT7VU
-
-[1201]: https://www.youtube.com/watch?v=F7KtfGELZsM
-[1202]: https://www.youtube.com/watch?v=u1Ozi0919D0
-
-[1301]: https://www.youtube.com/watch?v=klmfvMb6B4I
-
-[1401]: https://www.youtube.com/watch?v=kDAyNFjsNwU
