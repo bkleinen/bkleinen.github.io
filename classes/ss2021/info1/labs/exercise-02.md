@@ -31,16 +31,6 @@ Don't execute this, just write down your expectations.
 
 **4.** If you will be using your own laptop in the lab, please install [BlueJ](https://www.bluej.org/) before you come to lab. [BlueJ](https://www.bluej.org/) is available for all platforms - it's Java!
 
-## What to hand in
-
-Your completed assignment, submitted in Moodle as a pdf,
-should include:
-
-* the strategy you chose for working in a team & how it worked out
-* a summary of what you did & learned in the lab
-* details on which challenges you encountered, how you tried to solve them and their solution
-
-Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.
 
 ## Assignment
 
@@ -70,6 +60,11 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 9. Add a `printPrice` method to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print: `The price of a ticket is xyz cents.`  where xyz should be replaced by the value held in the price field when the method is called. Now create two ticket machines with differently priced tickets. Do calls to their `printPrice` methods show the same output, or different? How do you explain this effect?
 10. Add and implement a method, `empty` , that simulates the effect of removing all money from the machine. This method should have a void return type, and its body should simply set the total field to zero. Does this method need to take any parameters? Test your method by creating a machine, inserting some money, printing some tickets, checking the total, and then emptying the machine. Is the empty method a mutator or an accessor?
 11. (For the bored) Can you make the better-ticket-machine give proper change with a minimal amount of Euro coins?
+
+
+## What to hand in
+
+Hand in your lab report until April 22, 10pm (22.00 Uhr). See [the Labs and Exercises page](../labs#grading-lab-reports).
 
 
 * * *
