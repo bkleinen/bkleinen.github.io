@@ -29,8 +29,6 @@ Don't execute this, just write down your expectations.
 **3.** What about the following version?
 `System.out.println("# price cents.");`
 
-**4.** If you will be using your own laptop in the lab, please install [BlueJ](https://www.bluej.org/) before you come to lab. [BlueJ](https://www.bluej.org/) is available for all platforms - it's Java!
-
 
 ## Assignment
 
@@ -42,7 +40,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 3. If the name of `getBalance` is changed to `getAmount`, does the return statement in the body of the method also need to be changed for the code to compile? Try it out within BlueJ. What does this tell you about the name of an accessor method and the name of the field associated with it?
 4. Write an accessor method `getTotal` in the TicketMachine class. The new method should return the value of the total field.
 5. Try removing the return statement from the body of getPrice. What error message do you see now when you try compiling the classes?
-6. Complete the following method, whose purpose is to subtract the value of its parameter from a field named price.
+<!--6. Complete the following method, whose purpose is to subtract the value of its parameter from a field named price.
 
         ```java
         /**
@@ -54,11 +52,11 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
         ...
         }
         ```
-
+-->
 7. Add a method called `prompt` to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print the following single line of output: `Please insert the correct amount of money.`
 8. Add the possibility to count the number of tickets sold. Include a method for outputting how many tickets have been sold, like we did in class.
 9. Add a `printPrice` method to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print: `The price of a ticket is xyz cents.`  where xyz should be replaced by the value held in the price field when the method is called. Now create two ticket machines with differently priced tickets. Do calls to their `printPrice` methods show the same output, or different? How do you explain this effect?
-10. Add and implement a method, `empty` , that simulates the effect of removing all money from the machine. This method should have a void return type, and its body should simply set the total field to zero. Does this method need to take any parameters? Test your method by creating a machine, inserting some money, printing some tickets, checking the total, and then emptying the machine. Is the empty method a mutator or an accessor?
+<!--10. Add and implement a method, `empty` , that simulates the effect of removing all money from the machine. This method should have a void return type, and its body should simply set the total field to zero. Does this method need to take any parameters? Test your method by creating a machine, inserting some money, printing some tickets, checking the total, and then emptying the machine. Is the empty method a mutator or an accessor?-->
 11. (For the bored) Can you make the better-ticket-machine give proper change with a minimal amount of Euro coins?
 
 
