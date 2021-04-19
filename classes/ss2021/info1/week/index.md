@@ -10,7 +10,7 @@ Each Week starts on Friday 9:45 with a kick off - a brief introduction to next w
 
 ## 2. Individual Study (Friday - Monday)
 
-Refer to the [Schedule](./schedule) for the week's topic. There may be additional material in Moodle.
+Refer to the [Schedule](../schedule) for the week's topic. There may be additional material in Moodle.
 
 - read the weekly chapter
 - watch the videos
@@ -38,7 +38,7 @@ there will be scheduled Lernteam Coachings for each team.
 Use the time after the Learnteam Coaching to finish your Lab Assigments and Lab Reports.
 Labs Reports are due Thursday nights 22:00 and have to be handed in individally via Moodle.
 
-(more about the [Learnteamcoaching Concept for Info1](./learnteamcoaching) - in german)
+(more about the [Learnteamcoaching Concept for Info1](./lernteamcoaching/) - in german)
 
 | Friday                                                                                               | Weekend-Monday | Tuesday-Wednesday |  |  |
 |:-----------------------------------------------------------------------------------------------------|:---------------|:------------------|:-|:-|

@@ -55,4 +55,4 @@ Download the [exercise source code from GitHub](https://github.com/htw-imi-info1
 
 ### 4. Writeup - The Lab Report
 
-Hand in your report until April 15, 10pm (22.00 Uhr). See [the Labs and Exercises page](../labs#grading-lab-reports).
+Hand in your report until April 15, 10pm (22.00 Uhr). See [the Labs and Exercises page](../../labs#grading-lab-reports).

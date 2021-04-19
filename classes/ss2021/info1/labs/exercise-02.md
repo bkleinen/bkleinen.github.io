@@ -62,7 +62,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 
 ## What to hand in
 
-Hand in your lab report until April 22, 10pm (22.00 Uhr). See [the Labs and Exercises page](../labs#grading-lab-reports).
+Hand in your lab report until April 22, 10pm (22.00 Uhr). See [the Labs and Exercises page](../../labs#grading-lab-reports).
 
 
 * * *
