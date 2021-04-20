@@ -20,12 +20,12 @@ Please bring these exercises printed out or written out and completed with you t
 
 **P1.** Given the following code:
 
-```java
+  {% highlight java %}
 public void printStudent (Student s)
 {
      System.out.println (s.getDetails());
 }
-```
+{% endhighlight %}
 
 What is the equivalent lambda in Java? What syntax variations are possible?
 

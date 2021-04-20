@@ -3,7 +3,7 @@ title: 'Exercise 03: Book Exercise'
 author: kleinen
 layout: lab
 ---
-<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>
+
 ![Book](../../images/books-8314929977.jpg)
 <small class = "float-right">Books. [Abhi Sharma](https://www.flickr.com/photos/abee5/8314929977/)</small>
 
@@ -76,12 +76,12 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
 4. Add a method, `printDetails`, to the Book class. This should print details of the author, title, and pages to the terminal window. It is your choice how the details are formatted. You might want to include some explanatory text.
 5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string in the constructor. Add the corresponding accessor(getter) and the setter with the signatures below. The body of this method should assign the value of the parameter to the `refNumber` field.
 
-        ```java
+  {% highlight java %}
 
         public String getRefNumber()
 
         public void setRefNumber (String ref)
-        ```
+    {% endhighlight %}
 
 6. Modify your `printDetails` method to include printing the reference number. However, the method should print the reference number only if it has been set, and the exact string "no reference number" otherwise. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your `setRefNumber` mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.

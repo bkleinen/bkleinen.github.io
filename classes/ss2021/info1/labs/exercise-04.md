@@ -80,7 +80,7 @@ Name the project folders "clock-display-ampm-24" and "clock-display-ampm-int" re
 **Hint**
 If you've completed Assignments 0-3, your ClockDisplay class should have these methods (possibly more):
 
-    ```java
+{% highlight java %}
     public class ClockDisplay
         {
             public ClockDisplay(){... }
@@ -90,4 +90,4 @@ If you've completed Assignments 0-3, your ClockDisplay class should have these m
             public void setAlarmTime(int hour, int minute){... }
             public String getTime(){... }
         }
-    ```
+    {% endhighlight %}
