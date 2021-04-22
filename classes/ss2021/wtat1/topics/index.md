@@ -8,13 +8,15 @@ We will work with the method Topic Driven Backlog: The tech topic is
 given for each week and sprint, you choose backlog items from your
 project backlog that allow you to practice/use the technologies given.
 
-* Sprint 01: [First Web Application with Node & Project Ideas](topic-01-first-node-app)
+* Sprint 00: [First Web Application with Node & Project Ideas](topic-01-first-node-app)
+* Sprint 01: [First Web Application with Express](sprint-01)
+
+
 {% comment %}
 * Startup: [Project Ideas in Moodle](topic-00-project-ideas)
 * Topic 01: [Project Proposal](topic-01-proposal) (first weekly report)
 * Topic 02: [Product Backlog](topic-02-backlog) (second weekly report)
 
-* Sprint 02: [First Web Application with Express](topic-04-first-express-app)
 * Sprint 03:  [Persistence with Mongo-DB](topic-05-mongo)
 * Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
 * Sprint 05: [CRUD](topic-07-crud)
