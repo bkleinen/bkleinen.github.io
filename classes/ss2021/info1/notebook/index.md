@@ -19,6 +19,11 @@ an english one which also shows a different way to attach the cover.
 
 You may also decide to just bind the individual parts as simple booklet: [DIY: Buchbinden – Einfache Heftbindung](https://www.youtube.com/watch?v=W1DdJa9XHeI)
 
+## Update 23.4.2021
+
+- make sure all pages have the correct orientation! (0P otherwise)
+- no empty pages, please.
+- if you want to start with Sketchnotes, [here are some pointers]({{ site.baseurl }}/news/sketchnotes/)
 ### Grading
 
 To get the points for the Chapter Summaries and Exercises, your Notebook Pages

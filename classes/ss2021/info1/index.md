@@ -97,6 +97,11 @@ A comprehensive resource for the Java language are the [Tutorials by Sun/now Ora
  [7]: https://download.oracle.com/javase/tutorial/
  [8]: https://download.oracle.com/javase/tutorial/java/
 
+### Other Material
+
+Terms Crosswords - Rather old, you need to install an Applet Runner in your browser for them to work, like e.g. [this one for Chrome](https://chrome.google.com/webstore/detail/cheerpj-applet-runner/bbmolahhldcbngedljfadjlognfaaein?hl=en) - [https://cse.taylor.edu/~sbrandle/bluej/](https://cse.taylor.edu/~sbrandle/bluej/)
+
+
 ## Important Links and Further Information
 
 Information on this class is dispersed on several locations depending on the nature of the information and wether it can be public or not.
