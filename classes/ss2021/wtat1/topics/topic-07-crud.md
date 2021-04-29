@@ -39,6 +39,6 @@ Don't forget to update your seeds.
 
 # Example application
 
-- see [https://github.com/htw-imi-wtat1/module-handbook](https://github.com/htw-imi-wtat1/module-handbook)
+- see [https://github.com/htw-imi-wtat1/module-handbook-2021](https://github.com/htw-imi-wtat1/module-handbook-2021)
 
 __don't overlook chapter 17.2., Testing models in REPL__ - testing parts of your application interactively can save you lots of time!

@@ -52,7 +52,7 @@ or a new project alltogether.
 
 ## Test for Route that needs authentication
 Your finished app should have at least one test tackling authorization.
-See [https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/authentication_authorization.md](https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/authentication_authorization.md) about how to test this.
+See [https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/doc/authentication_authorization.md](https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/doc/authentication_authorization.md) about how to test this.
 
 ## Test for React
 Create a Jest test for your React Components. Example TBD.

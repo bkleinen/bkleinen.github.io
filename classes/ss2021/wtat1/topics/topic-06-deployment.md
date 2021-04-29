@@ -17,7 +17,7 @@ For Everything except testing you can pretty much follow the book.
 
 I've documented my steps in the readme of the example app:
 
-- [Module-Handbook, Sprint 4](https://github.com/htw-imi-wtat1/module-handbook/blob/master/README.md#sprint-04-deployment)
+- [Module-Handbook, Sprint 4](https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/README.md#sprint-04-deployment)
 
 
 ## Test: use Jest!
@@ -31,9 +31,9 @@ mocha tests as described in the book.
 
 Take the shortcut and create at least 1-2 smoke tests for your application, maybe one unit test and one snapshot test.
 
-Feel free to copy my setup out of the example app in the folder [test](https://github.com/htw-imi-wtat1/module-handbook/tree/master/test)
+Feel free to copy my setup out of the example app in the folder [test](https://github.com/htw-imi-wtat1/module-handbook-2021/tree/master/test)
 
-* [https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/testing-with-jest.md](https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/testing-with-jest.md)
+* [https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/doc/testing-with-jest.md](https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/doc/testing-with-jest.md)
 
 
 ## Create and Rename your Heroku app
@@ -50,7 +50,7 @@ This can be done via the web interfaces on github and heroku:
 - Add a new action (default Node Action) on github
 - add a deploy in the web interface of heroku, deployment method GitHub
 
-- https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/deployment.md
+- https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/doc/deployment.md
 
 
 # Your Report should contain

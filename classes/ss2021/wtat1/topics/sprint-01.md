@@ -45,7 +45,7 @@ Find a Story that can make use of passing content from the controller to the vie
 
 ### Example: Module Database
 
-[https://github.com/htw-imi-wtat1/module-handbook](https://github.com/htw-imi-wtat1/module-handbook)
+[https://github.com/htw-imi-wtat1/module-handbook-2021](https://github.com/htw-imi-wtat1/module-handbook-2021)
 
 ### Status Report
 

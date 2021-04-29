@@ -16,7 +16,7 @@ You will create a full CRUD (Create/read/update/delete) in later Sprints.
 
 With this sprint, you can pretty much follow the book. See my doc in the readme for the example app:
 
-https://github.com/htw-imi-wtat1/module-handbook-2021/blob/main/README.md#sprint-02
+https://github.com/htw-imi-wtat1/module-handbook-2021-2021/blob/main/README.md#sprint-02
 
 ### Status Report
 
