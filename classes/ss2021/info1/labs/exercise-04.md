@@ -48,18 +48,6 @@ You need to upload 2 Files to Moodle:
 
 - Your Lab Report as PDF with the extension .pdf (max. 5 pages)
 - The source code folder containing all BlueJ projects compressed with ZIP and the extension .zip
-- As always, your Lab Report should include:
-
-    - A summary of what you did & learned in the lab
-    - Details on which challenges you encountered, how you tried to solve them & the solution
-    - The strategy you chose for working in a team & how it worked out
-    - Complete transparency on who contributed what
-
-- Additionally, this time your lab report should also include:
-
-    - A record of how long you needed for this lab
-
-Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
 
 * * *
 
