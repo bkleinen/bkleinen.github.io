@@ -1,10 +1,10 @@
 ---
-title: Sprint 03 - Persistence with Mongo
+title: Sprint 02 - Persistence with Mongo
 author: kleinen
 layout: default
 ---
 
-## Sprint 03: Persistence with Mongo
+## Sprint 02: Persistence with Mongo
 
 Based on Unit 3, "Connecting to a Database", you'll implement persistence with Mongo DB and Mongoose.
 The functionality implemented will be showing listings and single items of one resource, as well as creating new records (no editing yet).
@@ -16,7 +16,7 @@ You will create a full CRUD (Create/read/update/delete) in later Sprints.
 
 With this sprint, you can pretty much follow the book. See my doc in the readme for the example app:
 
-https://github.com/htw-imi-wtat1/module-handbook/blob/master/README.md#sprint-03
+https://github.com/htw-imi-wtat1/module-handbook-2021/blob/main/README.md#sprint-02
 
 ### Status Report
 
@@ -29,4 +29,4 @@ Write up a brief status report containing:
 - your revised backlog, keeping the implemented stories at the top marked as "Sprint 01 - Done" or "Sprint 01 - in progress"
 
 and submit it as .txt or .pdf to moodle with the Filename:
-Group_X_ModuleHandbook_Sprint02.pdf or Group_X_ModuleHandbook_Sprint03.txt
+Group_X_project_name_Sprint02.pdf or Group_X_project_name_Sprint02.txt
