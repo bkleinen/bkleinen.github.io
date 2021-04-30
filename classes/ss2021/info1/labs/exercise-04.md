@@ -56,8 +56,7 @@ Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](ht
 
 **Clock time**
 
-Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! Make sure your displayString has exactly this format:
-    <pre>06:15 am</pre>
+Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! Make sure your displayString has exactly this format: `06:15 am`
 Also, if you want to introduce a new parameter to the setTime method, make sure that the old setTime method is still working using 24h-Format. Same goes for the constructor - add a third constructor if you want an alternative parameter list.
 
 There are at least two ways to implement the clock display - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Chose one way for now. You will need to implement the display the other way next week.
