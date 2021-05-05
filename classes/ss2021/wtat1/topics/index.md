@@ -10,15 +10,19 @@ project backlog that allow you to practice/use the technologies given.
 
 * Sprint 00: [First Web Application with Node & Project Ideas](topic-01-first-node-app)
 * Sprint 01: [First Web Application with Express](sprint-01)
-
+* Sprint 02: [Persistence with Mongo-DB](sprint-02-mongo)
+* Sprint 03: [Deployment and managing code in production](sprint-03-deployment)
 
 {% comment %}
+
+
 * Startup: [Project Ideas in Moodle](topic-00-project-ideas)
 * Topic 01: [Project Proposal](topic-01-proposal) (first weekly report)
 * Topic 02: [Product Backlog](topic-02-backlog) (second weekly report)
 
 * Sprint 03:  [Persistence with Mongo-DB](topic-05-mongo)
 * Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
+
 * Sprint 05: [CRUD](topic-07-crud)
 * Sprint 06: [Authentication](topic-08-authentication)
 * Sprint 07: [API + API Authentication](topic-09-api-jwt)

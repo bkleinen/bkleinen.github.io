@@ -1,10 +1,10 @@
 ---
-title: Sprint 04 - Deployment
+title: Sprint 03 - Deployment
 author: kleinen
 layout: default
 ---
 
-As this Sprint is about preparing your app for deployment and deploying it on Heroku,
+As this Sprint is about creating tests and setting up an CI/CD pipeline.
 you will not implement any new functionality in this sprint.
 
 It's arguable if this weeks work should be called a sprint, as you will not implement any new
@@ -13,18 +13,20 @@ features that are of interest to users or customers.
 Nonetheless, automatic testing and continuously deploying your app such that the users
 and customers will be able to see and test the deliverables is a crucial part of agile development.
 
-For Everything except testing you can pretty much follow the book.
+For everything except testing you can pretty much follow the book.
 
 I've documented my steps in the readme of the example app:
 
-- [Module-Handbook, Sprint 4](https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/README.md#sprint-04-deployment)
+- [Module-Handbook, Sprint 3](https://github.com/htw-imi-wtat1/module-handbook-2021)
 
 
 ## Test: use Jest!
 
 The section about testing does not quite hold up with the quality of the rest of the book.
-Furthermore, Mocha seems to be a bit outdated and Jest is simpler and more powerful to use,
-and will be more apt to test the React part of our applications.
+
+Instead of Mocha, we will be using jest and cypress for testing.
+
+Refer to the jest documentation and my example app for guidance.
 
 I've documented the steps I've taken for a proper test setup in the example app, based on a migration from the
 mocha tests as described in the book.
