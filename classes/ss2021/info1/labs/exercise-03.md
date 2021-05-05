@@ -69,12 +69,8 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
 2. Add two methods, `printAuthor` and `printTitle`, to the Book class. These should print the author and title fields, respectively, to the terminal window.
 3. Add a further field, `pages`, to the Book class to store the number of pages. This should be of type `int`, and its initial value should be passed to the single constructor, along with the author and title strings __as the third parameter__. Include an appropriate `getPages` accessor method for this field.
 4. Add a method, `printDetails`, to the Book class. This should print details of the author, title, and pages to the terminal window. It is your choice how the details are formatted. You might want to include some explanatory text.
-<<<<<<< HEAD
-5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string in the constructor. Add the corresponding accessor(getter) and the setter with the signatures below. The body of this method should assign the value of the parameter to the `refNumber` field.
-=======
 5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string (!) in the constructor. Add the corresponding accessor (getter) and the setter with the signatures below. The body of this method should assign the value of the parameter to the `refNumber` field.
 
->>>>>>> cc032ef20a6308dd9ed324c78c6e3d1f7d3285c6
   {% highlight java %}
         public String getRefNumber()
 
