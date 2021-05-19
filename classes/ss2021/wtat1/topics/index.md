@@ -12,6 +12,8 @@ project backlog that allow you to practice/use the technologies given.
 * Sprint 01: [First Web Application with Express](sprint-01)
 * Sprint 02: [Persistence with Mongo-DB](sprint-02-mongo)
 * Sprint 03: [Deployment and managing code in production](sprint-03-deployment)
+* Sprint 04: [CRUD Part 1](sprint-04-05-crud)
+* Sprint 05: [CRUD Part 2](sprint-04-05-crud)
 
 {% comment %}
 
@@ -23,7 +25,7 @@ project backlog that allow you to practice/use the technologies given.
 * Sprint 03:  [Persistence with Mongo-DB](topic-05-mongo)
 * Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
 
-* Sprint 05: [CRUD](topic-07-crud)
+
 * Sprint 06: [Authentication](topic-08-authentication)
 * Sprint 07: [API + API Authentication](topic-09-api-jwt)
 * --- (no Sprint 08: there has been a number mixup since the 2-week sprint ----
