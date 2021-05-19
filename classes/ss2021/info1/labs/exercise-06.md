@@ -28,14 +28,7 @@ Please hand in:
 * zip-folder with your prelab-and-primes project and the Notebook project
 * lab report as pdf
 
-The lab report should have:
-* A summary of what you did & learned in the lab
-* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* The strategy you chose for working in a team & how it worked out
-* Complete transparency on who did what
-* Don't forget to note down at least one test case for each exercise.
-
-Lab assignments are due the day before your next lab at 10pm.
+Lab assignments are due on thursday at 10pm.
 
 ## Assignment
 
