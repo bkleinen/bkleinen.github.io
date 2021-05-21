@@ -29,21 +29,10 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 # Post-Lab, AKA  What To Turn In
 
-Your Lab Report should include:
+* pdf: the lab report, including a table with your frequencies for the Lotto numbers picked.
+* zip: the final version of your Lotto code, properly and thoroughly documented with javadoc.
 
-- A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions as asked.
-- A table with your frequencies for the Lotto numbers picked.
-- The names and roles of any collaborators in any parts of the exercise.
-- A record of how long you needed for this lab and what you learned.
-
-The assignment will be graded based on the description and tables given in the LabReport.
-Include your source code anyway:
-
-- A copy of the final version of your TechSupport and Lotto code, properly and thoroughly documented with javadoc.
-
-Lab assignments are due the night before your next class at 22:00. They may, of course, be turned in earlier. You hand them in by preparing the report in **PDF**  and the source code as **ZIP** and submitting it to Moodle.
-
-As always, you can and should work on the exercise in small teams of 2-3, definitely not more than 4 people. Prepare the report together, and each of you hands in **the same report** and source code in moodle, stating the name of every member of the team somewhere in the beginning of the report.
+Lab assignments are due on thursday at 22:00.
 
 * * *
 
