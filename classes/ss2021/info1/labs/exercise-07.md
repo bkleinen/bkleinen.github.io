@@ -39,15 +39,7 @@ Please hand in:
 * zip-folder with your AnimalMonitor code
 * lab report as pdf
 
-The lab report should have:
-* Answers to the questions in the assignment below
-* Complete transparency on who did what
-* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy
-* A summary of what you did & learned in the lab
-* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* For practise: How you tested your solutions
-
-Lab assignments are due the day before your next lab at 10pm.
+Lab assignments are due on thursdays at 10pm.
 
 
 ## Assignment
