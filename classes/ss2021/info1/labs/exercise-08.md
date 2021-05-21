@@ -9,7 +9,7 @@ layout: lab
   <figcaption class="figure-caption text-right">German Lotto Slip, <a href="https://www.flickr.com/photos/rene-germany/98668296">Foto by ReneS</a></figcaption>
 </figure>
 
-This week's lab work is intended give you practice using the Random class and HashMaps.
+This week's lab work is intended give you practice using the Random class.
 
 * * *
 
