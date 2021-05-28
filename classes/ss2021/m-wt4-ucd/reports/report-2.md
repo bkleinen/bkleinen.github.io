@@ -15,12 +15,12 @@ It should be submitted to moodle as pdf and contain the following parts:
 
 ## Documentation of Affinity Diagrams and Wall Walk
 
-- Fotos of your Affinity Diagrams, summary of the main categories.
+- Slide Show to present your Affinity. See the caption on Page 204 in Rapid Contextual Design,
+  "Comunicating with slide shows - the language of managers and corporations" for
+  an suggestion on how to present the user data from the affinity in a slide show.
 - List of Issues
 - List Hot Ideas
 - List of Technologies
-
-The latter list can be included as clearly readable fotos of the Flipcharts.
 
 ## Reflection
 
