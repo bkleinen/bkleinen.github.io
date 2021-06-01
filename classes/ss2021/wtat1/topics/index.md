@@ -14,6 +14,7 @@ project backlog that allow you to practice/use the technologies given.
 * Sprint 03: [Deployment and managing code in production](sprint-03-deployment)
 * Sprint 04: [CRUD Part 1](sprint-04-05-crud)
 * Sprint 05: [CRUD Part 2](sprint-04-05-crud)
+* Sprint 06: [Authentication](sprint-06-authentication)
 
 {% comment %}
 
@@ -26,7 +27,7 @@ project backlog that allow you to practice/use the technologies given.
 * Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
 
 
-* Sprint 06: [Authentication](topic-08-authentication)
+
 * Sprint 07: [API + API Authentication](topic-09-api-jwt)
 * --- (no Sprint 08: there has been a number mixup since the 2-week sprint ----
 * Sprint 09: [Real-Time-Communication](sprint-09-12)
