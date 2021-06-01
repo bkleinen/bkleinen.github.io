@@ -26,10 +26,5 @@ For the Agile Topics, read the [scrum guides](https://scrumguides.org/index.html
 | 10   | 24  | Scrum Roles                 | Unit 7 - Real-Time Communication                               | Sprint 08 - Socket.io      | Thu 17/06/2021 | **              |                                                                                                            |
 | 11   | 25  | TBD                         | Vue 1 - TBD                                                    | Sprint 09 - Vue 1          | Thu 24/06/2021 | **              |                                                                                                            |
 | 12   | 26  | TBD                         | Vue 2 - TBD                                                    | Sprint 10 - Vue 2          | Thu 01/07/2021 |                 | Group8(CF&NA) D3 oder Flutter,  Group7(DB&CI) TBD, __, __                                                  |
-| 13   | 27  | TBD                         | Vue 3 - TBD                                                    | Sprint 11 - Vue 3          | Thu 08/07/2021 |                 | Retrospective                                                                                              |
-| 14   | 28  |                             |                                                                |                            | Thu 15/07/2021 | **9:00-14:00**  | Exam                                                                                                       |
-
-
-
-Group7(DB&CI) TBD
-Group9 TBD
+| 13   | 27  | TBD                         | Vue 3 - TBD                                                    | Sprint 11 - Vue 3          | Thu 08/07/2021 | **10:00-15:00** | Exam                                                                                                       |
+| 14   | 28  |                             |                                                                |                            | Thu 15/07/2021 |                 | Retrospective                                                                                              |
