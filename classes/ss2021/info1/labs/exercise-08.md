@@ -44,6 +44,3 @@ Lab assignments are due on thursday at 22:00.
 2. Expand the method to count how often each number is picked.
 3. Now pick the 6 lotto numbers 1000 times. Print out the frequencies.
 4. Repeat for 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and include it in your report.
-
-## ...
-1. ...
