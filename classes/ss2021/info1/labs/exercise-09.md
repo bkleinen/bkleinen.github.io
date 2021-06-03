@@ -29,23 +29,15 @@ Please bring these exercises and their solutions printed out or written out with
 
 # What To Hand In
 Please hand in:
-* zip-folder with your Lotto and (documented) TechSupport code
-* lab report as pdf (max. 5 pages)
+* zip-folder with your (documented) TechSupport code
+* lab report as pdf
 
-The lab report should have:
-* Answers to the questions in the assignment below
-* Complete transparency on who did what
-* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
-* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* A summary of what you did & learned in the lab
-* For practise: A description of how you tested your solutions
-
-Lab assignments are due the day before your next lab at 10pm.
+Lab assignments are due on thursday at 10pm.
 
 * * *
 
 # Assignment - Technical Support
-0. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
+0. Open the book chapter 6.2 for a refresher - this exercise is based on it. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as is done in the book.
 1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
 2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 3. Document your code with javadoc!
