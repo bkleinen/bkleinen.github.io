@@ -15,15 +15,7 @@ This week's lab work is intended give you practice using the Random class and Ha
 
 # Pre-Lab
 
-Please bring these exercises and their solutions printed out or written out with you to the lab.
-
-**P0** How do you generate random numbers between 1 and 10 with Java? In what package is the library?
-
-**P1** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
-
-**P2** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
-
-**P3** Where can you find information about javadoc on the Internet?
+**P0** Try out http://med-ai.com/models/eliza.html. Experiment a little. Can you trick the bot? How might this program work?
 
 * * *
 
