@@ -1,5 +1,5 @@
 ---
-title:  WT4 ss2021 - Report 1
+title:  WT4 SS2021 - Report 1
 author: kleinen
 layout: default
 ---

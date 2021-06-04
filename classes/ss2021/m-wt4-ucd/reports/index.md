@@ -1,13 +1,13 @@
 ---
-title:  WT4 ss2021 - Labs
+title:  WT4 SS2021 - Labs
 author: kleinen
 layout: default
 ---
 
-* [Report 1](report-1/)
-* [Report 2](report-2/)
-* [Report 3](report-3/)
-* [Report 4](report-4/)
+* [Report 1](report-1/) - Contextual Inquiry
+* [Report 2](report-2/) - Affinity Diagram and Wall Walk
+* [Report 3](report-3/) - Visioning and Product Concepts
+* [Report 4](report-4/) - Prototype Evaluation and Summary
 
 
 ## Paper Prototypes:

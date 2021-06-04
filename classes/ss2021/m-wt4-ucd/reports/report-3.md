@@ -1,16 +1,20 @@
 ---
-title:  WT4 ss2021 - Report 2
+title:  WT4 SS2021 - Report 3
 author: kleinen
 layout: default
 ---
 
 
-# Report 2: Visioning and Product Concepts
+# Report 3: Visioning and Product Concepts
 
 It should be submitted to moodle as pdf and contain the following parts:
 
 ## Overview
 - Your topic, goal and names of all persons in your team
+
+## Personas
+
+- include your Personas.
 
 ## Visioning
 

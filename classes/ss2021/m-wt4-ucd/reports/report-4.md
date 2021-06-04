@@ -1,10 +1,12 @@
 ---
-title:  WT4 ss2021 - Report 3
+title:  WT4 SS2021 - Report 4
 author: kleinen
 layout: default
 ---
 
-The third and final report should summarize your whole project,
+# Report 4: Prototype Evaluation and Summary
+
+This report should summarize your whole project,
 starting with the visions and product concepts this term as this
 was the start of your individual project.
 
@@ -29,3 +31,8 @@ done together.
 
 Please include the second report as well as your presentation slides,
 compiling a coherent report on the complete project.
+
+## Paper Prototypes:
+* [Low fidelity prototype testing of the EE app](https://www.youtube.com/watch?v=yafaGNFu8Eg)
+* [Rapid Prototyping: Sketching Google for Startups](https://www.youtube.com/watch?v=JMjozqJS44M)
+* [UX prototyping tutorial: Paper prototyping techniques lynda.com](https://www.youtube.com/watch?v=FS00UIo12Xk)

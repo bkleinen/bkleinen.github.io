@@ -1,5 +1,5 @@
 ---
-title:  WT4 ss2021 - User-Centered Web Technology Schedule
+title:  WT4 SS2021 - User-Centered Web Technology Schedule
 author: kleinen
 layout: default
 wide_layout: true
