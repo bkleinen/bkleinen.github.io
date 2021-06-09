@@ -17,7 +17,7 @@ My main areas of interest are
 # Topic Ideas
 
 Most of them relate to a web app project that is actually in use - see my
-[List of Software-Projects]({{ site.baseurl }}/software-projects)
+[List of Software-Projects]({{ site.baseurl }}/software_projects)
 
 ## Module Handbook
 
