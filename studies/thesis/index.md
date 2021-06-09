@@ -70,8 +70,7 @@ The "Module Handbook" is developed and used in the context of the [GIU AS Projec
     - wie kann ein Editor für diese Seiten aussehen, der mit speziellen oder möglichst
       vielen Veröffentlichungsmöglichkeiten zusammenarbeitet?
     - wie könnte ein Dictionary für das Entgendern aufgebaut werden?
-
-    - ach ja, und ansonsten: [Sarah Bosetti | Lasst uns nie wieder übers Gendern reden!](https://www.youtube.com/watch?v=_hqfMZnuUCI)
+    - und [Sarah Bosetti: Lasst uns nie wieder übers Gendern reden!](https://www.youtube.com/watch?v=_hqfMZnuUCI)
 
 
 # Further Information and Links
