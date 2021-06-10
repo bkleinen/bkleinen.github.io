@@ -15,22 +15,8 @@ project backlog that allow you to practice/use the technologies given.
 * Sprint 04: [CRUD Part 1](sprint-04-05-crud)
 * Sprint 05: [CRUD Part 2](sprint-04-05-crud)
 * Sprint 06: [Authentication](sprint-06-authentication)
-
-{% comment %}
-
-
-* Startup: [Project Ideas in Moodle](topic-00-project-ideas)
-* Topic 01: [Project Proposal](topic-01-proposal) (first weekly report)
-* Topic 02: [Product Backlog](topic-02-backlog) (second weekly report)
-
-* Sprint 03:  [Persistence with Mongo-DB](topic-05-mongo)
-* Sprint 04:  [Deployment and managing code in production](topic-06-deployment)
-
-
-
-* Sprint 07: [API + API Authentication](topic-09-api-jwt)
-* --- (no Sprint 08: there has been a number mixup since the 2-week sprint ----
-* Sprint 09: [Real-Time-Communication](sprint-09-12)
-* Sprint 10: [React Tutorial](sprint-09-12)
-* Sprint 11-12: [React](sprint-09-12)
-{% endcomment %}
+* Sprint 07: [API + API Authentication](sprint-07-api-jwt)
+* Sprint 08: [Vue 1: Tutorial](sprint-08-vue1-tutorial)
+* Sprint 09: [Vue 2: Concept](sprint-09-vue2-concept)
+* Sprint 10: [Vue 3: Implementation](sprint-10-vue3-implementation)
+* Sprint 11: [Socket.io - Real Time Communication](sprint-11-realtime)
