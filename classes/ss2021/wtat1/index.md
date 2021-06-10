@@ -68,6 +68,7 @@ Prüfung im SoSe 2021:
 * Weekly Reports 12 * 2,5P- 30 % (each one turned in counts 2%) (Berichte über Laborübungen)
 * Presentation 10 %
 * Exam - 60 % (Distanzklausur, Programming)
+* 5 min Project Presentations - 5% Bonus
 
 Wiederholungsmöglichkeiten im 2.PZ:
 
