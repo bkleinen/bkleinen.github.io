@@ -52,6 +52,42 @@ The Grading in Informatics 1 will be done as follows:
 This sums up to a total of 108 P and will be graded according to the
  [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
 
+### Programming Assignments
+
+There will be 3 Programming Assignments at the end of Term:
+- Tue 6.7.2021
+- Tue 13.7.2021
+- Tue 20.7.2021
+
+** please reserve the time between 12:00 and 24:00 for this! **
+
+These Programming Assignments are "Studienbegleitende Prüfungsleistungen"
+and replace the Exam due to the pandemic situation.
+
+Formally, the one on 13/07/2021 is "the" exam - it doesn't make any difference
+in practice, they all count the same.
+
+You need to register for the exam in LSF.
+- if you attended all of them, you will be graded.
+- if you miss one, you are eligible for the resit / PZ2 see below - you may
+  however email me to let me know that you want a grade in PZ1 nonetheless
+- you will receive an email "Ihre Zeile in meiner Notentabelle" after I
+  finished grading stating the points/percentage you received (so far)
+
+To prepare the Programming assignments, you may practice using the Lab
+Assignments from last semester:
+
+* [PA 1 6.7. - The World of You](../labs/exercise-12)                                                                
+* [PA 2 13.7. - Keeping Track of Stuff](../labs/exercise-13)                                                       
+* [PA 3 20.7. - Pick up and Carry](../labs/exercise-14)      
+
+(the assignments will be similar, but different)
+
+### Resit / 2. Prüfungszeitraum
+
+There will be opportunities to do all three of them in the 2. PZ.
+
+### Further remarks
 Notebook Chapters and Lab Reports are simply counted - they are either present
 or not. 2 lab reports and 3 Notebook Parts may be handed in late.
 
