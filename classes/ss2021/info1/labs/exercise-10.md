@@ -8,9 +8,7 @@ This week's lab work is intended give you practice working with the basic concep
 
 ## Pre Lab
 
-Please bring these exercises printed out or written out with you to lab.
-
-**P0**. Download and open the [Balls project](https://github.com/htw-imi-info1/exercise08) (Chapter 05). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.
+**P0**. Download and open the [Balls project](https://github.com/htw-imi-info1/exercise08) (concerns Chapter 06 in the book). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.
 
 **P1.** Read the documentation of the Canvas class. Then answer the following questions in writing, including fragments of Java code:
 
@@ -24,18 +22,9 @@ Please bring these exercises printed out or written out with you to lab.
 # What To Hand In
 Please hand in:
 * zip-folder with your code
-* lab report as pdf (max. 5 pages)
+* lab report as pdf
 
-The lab report should have:
-* Answer to pre-lab question P0
-* Answers to the questions from the assigment (A0, A3)
-* Complete transparency on who did what
-* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
-* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* A summary of what you did & learned in the lab
-* For practise: A description of how you tested your solutions
-
-Lab assignments are due the day before your next lab at 10pm.
+Lab assignments are due tuesday at 10pm.
 
 * * *
 
