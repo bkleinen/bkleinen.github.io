@@ -77,9 +77,9 @@ You need to register for the exam in LSF.
 To prepare the Programming assignments, you may practice using the Lab
 Assignments from last semester:
 
-* [PA 1 6.7. - The World of You](../labs/exercise-12)                                                                
-* [PA 2 13.7. - Keeping Track of Stuff](../labs/exercise-13)                                                       
-* [PA 3 20.7. - Pick up and Carry](../labs/exercise-14)      
+* [PA 1 6.7. - The World of You](./labs/exercise-12)                                                                
+* [PA 2 13.7. - Keeping Track of Stuff](./labs/exercise-13)                                                       
+* [PA 3 20.7. - Pick up and Carry](./labs/exercise-14)      
 
 (the assignments will be similar, but different)
 
