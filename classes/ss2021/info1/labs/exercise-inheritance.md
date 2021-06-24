@@ -25,7 +25,7 @@ You are part of the team that develops the logic behind a Pokemon game.
 
 1) Check what class inherits from what class. Is the class that is inherited from abstract? If so, why might that be? Which class has which methods available? When is "super()" used and what does it do?
 
-2) As you can see, only one Pokemon exists so far: Charmander. Add [Squirtle](https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon). You will need to add a new category of Pokemon "Water", that also inherits from Pokemon.
+2) As you can see, only one Pokemon exists so far: Charmander. Add [Squirtle](https://bulbapedia.bulbagarden.net/wiki/Squirtle_\(Pok%C3%A9mon). You will need to add a new category of Pokemon "Water", that also inherits from Pokemon.
 You might need to add another inheritance hierarchy in form of a "Category" class in order to avoid duplicate code in the Fire and Water class! Thing abstractly: What do both classes have in common?
 
 3) Write a test class for Squirtle to make sure everything works as expected. You can copy and adapt the test class of Charmander for that.

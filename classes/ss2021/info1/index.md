@@ -47,7 +47,8 @@ The Grading in Informatics 1 will be done as follows:
 * 14x1P for [Notebook Chapters](./notebook) - 14 P
 * 11x4P for [Lab Reports](labs/): - 44 P
 * 3x15P for Programming Assignments at the end of term: - 45 P
-* 4 Bonus Points for an Interview - 4P
+* ~~4 Bonus Points for an Interview - 4P~~
+* 4 Bonus Points for [Inheritance Lab Assignment](labs/exercise-inheritance)
 
 This sums up to a total of 108 P and will be graded according to the
  [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
@@ -81,7 +82,7 @@ Assignments from last semester:
 * [PA 2 13.7. - Keeping Track of Stuff](./labs/exercise-13)                                                       
 * [PA 3 20.7. - Pick up and Carry](./labs/exercise-14)      
 
-(the assignments will be similar, but different)
+(the assignments will be similar, but not the same)
 
 ### Resit / 2. Prüfungszeitraum
 
