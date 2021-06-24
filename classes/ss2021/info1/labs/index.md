@@ -49,6 +49,7 @@ Both must be submitted individually to the Moodle area by 22.00 on thursday nigh
 * [Exercise 09 - Technical Support](../labs/exercise-09)
 * [Exercise 10 - Bouncing Balls](../labs/exercise-10)
 * [Exercise 11 - Testing with JUnit](../labs/exercise-11)
+* [Exercise Drölf - Inheritance](../labs/exercise-inheritance) (Bonus Lab!)
 
 ## Programming Assessment
 
