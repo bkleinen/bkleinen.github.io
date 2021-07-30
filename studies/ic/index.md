@@ -10,14 +10,14 @@ highly informative. Please read it!
 In addition to that, my specific rules about ICs are as follows:
 
 * You need to talk to me - preferably during the office hours (see below)  - about your topic
-  and register in LSF for the correct semester and course (IC1 or IC2). You will be rejected first and accepted later manually, please to re-register as long as possible/necessary (Neuanmeldung). (Don't ask. Or do and do an IC about possible clashes of business processes and supporting IT.)
+  and register in LSF for the correct semester and course (IC1 or IC2). You will be rejected first and accepted later manually, please re-register as long as possible/necessary (Neuanmeldung). (Don't ask. Or do ask learn about possible clashes of business processes and supporting IT.)
 
 * You need to **maintain and hand in** a timesheet documenting what you did for your IC (a simple excel sheet
   summing up hours and tasks will do) - it should be around 180 hrs according to the 6 ECTS.
 
-* You need to **document your IC in a written report**. Although there are no regulations for the form, it's generally a good idea to practice writing a paper or thesis with this report and thus do it in a similar form.
+* You need to **document your IC in a written report**. Although there are no regulations regarding the report's form, it's generally a good idea to practice writing a paper or thesis with this report and thus do it in a similar form.
 
-* Grades will be done in each 2nd examination period. You need to **present your IC to me** (again, preferably during my  
+* Grades will be done in each 2nd examination period. You need to **register for the exam and present your IC to me** (again, preferably during my  
   office  hours) and hand your report in to me at least two weeks before the end of the grading deadline.
 
 {% include officehours.md %}

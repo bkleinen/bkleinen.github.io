@@ -17,7 +17,7 @@ My main areas of interest are
 # Topic Ideas
 
 Most of them relate to a web app project that is actually in use - see my
-[List of Software-Projects]({{ site.baseurl }}/software_projects)
+[List of Software-Projects]({{ site.baseurl }}/software_projects/)
 
 ## Module Handbook
 
@@ -49,7 +49,7 @@ The "Module Handbook" is developed and used in the context of the [GIU AS Projec
 - Git as Versioning Backend: How can the power of Git be used as backend - e.g. for
   Versioning - within another app?
 
-- Operations and Monitoring concept for the [Software Projects](({{ site.baseurl }}/software-projects)) and similar
+- Operations and Monitoring concept for the [Software Projects](({{ site.baseurl }}/software_projects/)) and similar
 
 ## Word Wide Web
 

@@ -34,5 +34,5 @@ Und bringen Sie viele Fragen mit!
 
 Prof. B. Kleinen, Praktikumsbeauftragter IMI
 
-[https://bkleinen.github.io/studies/auslandspraktikum/](https://bkleinen.github.io/studies/auslandspraktikum/)
-[https://bkleinen.github.io/studies/auslandspraktikum/](https://bkleinen.github.io/studies/auslandspraktikum/)
+
+
