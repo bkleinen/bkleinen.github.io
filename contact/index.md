@@ -45,10 +45,8 @@ You can do that in the following ways:
 * For general Postal Services from anywhere in the World use: Prof. Barne Kleinen, HTW Berlin, Fachbereich 4, 10313 Berlin, Germany
 
 ## Office Hours
-**Office:** WH C 645
 
   {% include officehours.md %}
-
 
 ## Pronoun and Name
 

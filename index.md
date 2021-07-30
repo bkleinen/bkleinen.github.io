@@ -31,7 +31,7 @@ regenerate: true
 
 <div class = "box">
 <h4>Thesis</h4>
-<p>There is also some info here if you consider writing your <a href="studies/thesis/">Thesis</a> or <a href="studies/thesis/independent_coursework">Independent Coursework</a> with me.</p>
+<p>There is also some info here if you consider writing your <a href="studies/thesis/">Thesis</a> or <a href="studies/ic/">Independent Coursework</a> with me.</p>
 </div>  
 
 <div class = "below">

@@ -1,5 +1,5 @@
 ---
-title: B. Kleinen | Bachelorarbeiten FAQ
+title: B. Kleinen | Bachelor-/Masterarbeiten FAQ
 author: kleinen
 layout: page
 ---

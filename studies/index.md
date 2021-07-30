@@ -3,7 +3,9 @@ title: Studies
 author: kleinen
 ---
 
-* [Auslandspraktikum](auslandspraktikum/)
-* [Thesis](thesis/)
-* [Bafög](bafoeg/)
+This section contains more information about various topics related to your
+studies:
+
+* [Thesis](thesis/) (Abschlussarbeit)
+* [Independent Coursework](ic/) (Master's Programme)
 * [General Grading Info](grading/)

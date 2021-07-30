@@ -24,6 +24,7 @@
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
       {% include navigation_dropdown_item.md url = "/studies/thesis/" link_text = "Thesis" %}
+      {% include navigation_dropdown_item.md url = "/studies/ic/" link_text = "IC" %}
     </div>
   </li>
 
