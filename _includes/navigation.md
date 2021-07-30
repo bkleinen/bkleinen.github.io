@@ -25,6 +25,7 @@
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
       {% include navigation_dropdown_item.md url = "/studies/thesis/" link_text = "Thesis" %}
       {% include navigation_dropdown_item.md url = "/studies/ic/" link_text = "IC" %}
+      {% include navigation_dropdown_item.md url = "/studies/grading/" link_text = "Grading Info" %}
     </div>
   </li>
 
@@ -38,7 +39,6 @@
     {% include navigation_nav_link.md url_element = "misc"  link_text = "Misc" %}
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      {% include navigation_dropdown_item.md url = "/misc/grading/" link_text = "Grading Info" %}
       {% include navigation_dropdown_item.md url = "/misc/about-this-site/" link_text = "About this Site" %}
       {% include navigation_dropdown_item.md url = "/misc/trans/" link_text = "Trans*" %}
       {% include navigation_dropdown_item.md url = "/misc/lsfcollector/" link_text = "LSF" %}
