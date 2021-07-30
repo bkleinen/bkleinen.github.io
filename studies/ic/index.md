@@ -17,8 +17,7 @@ In addition to that, my specific rules about ICs are as follows:
 
 * You need to **document your IC in a written report**. Although there are no regulations regarding the report's form, it's generally a good idea to practice writing a paper or thesis with this report and thus do it in a similar form.
 
-* Grades will be done in each 2nd examination period. You need to **register for the exam and present your IC to me** (again, preferably during my  
-  office  hours) and hand your report in to me at least two weeks before the end of the grading deadline.
+* Grades will be done in each 2nd examination period. You need to **register for the exam and present your IC to me** (again, preferably during my office  hours) and hand in your report at least two weeks before the end of the grading deadline.
 
 {% include officehours.md %}
 
