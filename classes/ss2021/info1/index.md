@@ -78,15 +78,22 @@ You need to register for the exam in LSF.
 To prepare the Programming assignments, you may practice using the Lab
 Assignments from last semester:
 
-* [PA 1 6.7. - The World of You](./labs/exercise-12)                                                                
-* [PA 2 13.7. - Keeping Track of Stuff](./labs/exercise-13)                                                       
-* [PA 3 20.7. - Pick up and Carry](./labs/exercise-14)      
+* [PA 1 6.7. - 12. The World of You](./labs/exercise-12)                                                                
+* [PA 2 13.7. - 13. Keeping Track of Stuff](./labs/exercise-13)                                                       
+* [PA 3 20.7. - 14. Pick up and Carry](./labs/exercise-14)      
 
 (the assignments will be similar, but not the same)
 
 ### Resit / 2. Prüfungszeitraum
 
 There will be opportunities to do all three of them in the 2. PZ.
+
+* PA1 Di 28.9.2021 14-22
+* PA2 Fr 01.10.2021 14-22
+* PA3 Mo 04.10.2021 14-22
+
+I will send out an invitation briefly before the first day;
+but basically we'll meet in our usual Zoom room, Quizzes will be available in Moodle.
 
 ### Further remarks
 Notebook Chapters and Lab Reports are simply counted - they are either present

@@ -24,6 +24,6 @@ There are three reports to hand in via moodle, and a final project presentation 
 
 * Report I: write-up Contextual Inquiry
 * Report II: Affinity Diagram and Wall Walk
-* Report II: write-up Visioning and Product Concepts
-* Report III: Paper Prototypes & their Evalutation and Final Project Report
+* Report III: write-up Visioning and Product Concepts
+* Report IV: Paper Prototypes & their Evalutation and Final Project Report
 * Presentation (Actual Presentation & Slides) (maybe a video this term)
