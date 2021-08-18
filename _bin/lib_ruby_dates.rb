@@ -28,8 +28,8 @@ class CourseSchedule
 
 
 # DATEFORMAT='| %a, %Y-%m-%d |  I |'
-FIRST__LINE='| %a %d/%m/%Y |   |'
-SECOND_LINE='| %a %d/%m/%Y |   |'
+FIRST__LINE='| %a %d/%m/%Y | '
+SECOND_LINE='| %a %d/%m/%Y | '
 
 def generate
   d = @course_dates.first_day
