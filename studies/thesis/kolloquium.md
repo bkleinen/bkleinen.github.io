@@ -6,9 +6,14 @@ layout: page
 
 # Kolloquium
 
+## Besonderheiten in der Pandemie
+
+Die Kolloquien finden über Zoom statt. Einladungen erfolgen nur über email.
+Die Termine koordiniere ich [momentan im Wiki](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Abschlussarbeiten+Prof.+Kleinen); manche der Kolloquien sind offen für Gäste.
+
 ## Wie wird der Termin f&uuml;r das Kolloquium festgelegt?
 
-I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, an dem der oder die Kandidatin und alle Betreuer Zeit haben, an die FB-Verwaltung. Dort wird der Notenzettel in der Prüfungsverwaltung angefordert (d.h. Sie sollten vorher sicherstellen, dass alle Ihre Noten im LSF eingetragen sind, und ggfs. die Dozenten oder die Betreuer darauf ansprechen - ohne Abschluß aller anderen Veranstaltung kann das Kolloquium nicht durchgeführt werden!) und dann der Termin offiziell festgelegt, und Sie bekommen ein offizielles Schreiben, in dem auch der Raum steht - in der Regel ist das der WH-C 603.
+I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, an dem der oder die Kandidatin und alle Betreuer:innen Zeit haben, an die FB-Verwaltung. Dort wird der Notenzettel in der Prüfungsverwaltung angefordert (d.h. Sie sollten vorher sicherstellen, dass alle Ihre Noten im LSF eingetragen sind, und ggfs. die Dozenten oder die Betreuer darauf ansprechen - ohne Abschluß aller anderen Veranstaltung kann das Kolloquium nicht durchgeführt werden!) und dann der Termin offiziell festgelegt, und Sie bekommen ein offizielles Schreiben, in dem auch der Raum steht - in der Regel ist das der WH-C 603.
 
 ## In welchem Raum ist das Kolloquium?
 
