@@ -22,6 +22,10 @@ classes/ss2021/info1.md
 classes/ss2021/wtat1.md
 classes/ss2021/m1-web.md
 classes/ss2021/m-wt4-ucd.md
+classes/ws2021/info2.md
+classes/ws2021/networks.md
+classes/ws2021/m1-web.md
+classes/ws2021/m-wt1-webapplications.md
 index.md.md
 {% endcapture %}
 
