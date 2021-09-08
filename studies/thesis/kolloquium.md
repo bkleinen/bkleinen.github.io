@@ -15,15 +15,15 @@ Die Termine koordiniere ich [momentan im Wiki](https://wiki.htw-berlin.de/conflu
 
 I.d.R. koordiniert das ihr/e Erstbetreuer/in und schickt den gefundenen Termin, an dem der oder die Kandidatin und alle Betreuer:innen Zeit haben, an die FB-Verwaltung. Dort wird der Notenzettel in der Prüfungsverwaltung angefordert (d.h. Sie sollten vorher sicherstellen, dass alle Ihre Noten im LSF eingetragen sind, und ggfs. die Dozenten oder die Betreuer darauf ansprechen - ohne Abschluß aller anderen Veranstaltung kann das Kolloquium nicht durchgeführt werden!) und dann der Termin offiziell festgelegt, und Sie bekommen ein offizielles Schreiben, in dem auch der Raum steht - in der Regel ist das der WH-C 603.
 
-## In welchem Raum ist das Kolloquium?
+### In welchem Raum ist das Kolloquium?
 
 Wenn der Kolloquiumstermin mit genügend Vorlauf geplant wird, werden Sie normalerweise angeschrieben und darin über den Raum (der fast immer der WH-C 603 oder WH-C 273 ist) informiert. In diesen beiden Räumen gibt es Beamer mit HDMI- und VGA-Anschluss, davon können Sie auch sonst immer ausgehen.
 
  - es ist übrigens auch möglich, die Kolloquien Ihrer Kommilitonen zu besuchen - der oder die Prüfling kann darüber entscheiden, wer beim Vortrag dabei sein soll, die Notenverkündung ist auch dann vertraulich.
 
-## BA Kolloquium, wie l&auml;uft das ab, was muss ich wissen?
+### Wie läuft das Bachelor-Kolloquium ab, was muss ich wissen?
 
-In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](https://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) , in der alten steht aber fast das gleiche):
+In der Prüfungsordnung §7 steht dazu (hier aus der [vom 21.8.2012](https://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf) (für Bachelor)
 
 "Die Modulprüfung zum Bachelorseminar bezieht sich auf den Gegenstand der Bachelorarbeit und ordnet diesen in den Kontext des Internationalen Studienganges Medieninformatik
 (Bachelor) ein. In dieser Prüfung soll der/die Studierende zeigen, dass er/sie in der Lage ist,
