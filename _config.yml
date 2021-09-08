@@ -18,6 +18,8 @@ ft:
 author:
   name: Barne Kleinen
   email: kleinen@htw-berlin.de
+# to use the redirect, simply add redirect_from:  - alt_url/ in the header
+# does also work: redirect_from: user-centered-web-technology/
 plugins:
   - jekyll-redirect-from
 whitelist:

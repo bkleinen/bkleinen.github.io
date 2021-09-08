@@ -2,7 +2,6 @@
 title: Praxisprojekt SS2017&#58; IMI-Map Reloaded
 author: kleinen
 layout: page
-redirect_from: project/
 ---
 
 ![IMI-Map](./images/imi-map.jpg)

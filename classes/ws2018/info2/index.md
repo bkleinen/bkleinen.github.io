@@ -2,9 +2,6 @@
 title: Info2 WS 2018/19
 author: kleinen
 layout: default
-redirect_from:
-  - info2/
-
 ---
 
 # Welcome!

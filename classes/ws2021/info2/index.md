@@ -2,9 +2,7 @@
 title: B07 Informatics 2 WS 2021/22
 author: kleinen
 layout: default
-redirect_from:
-  - info2/
-
+redirect_from: info2/
 ---
 
 # Welcome!

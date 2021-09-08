@@ -2,9 +2,6 @@
 title: B07 Informatics 2 SoSe 2020
 author: kleinen
 layout: default
-redirect_from:
-  - info2/
-
 ---
 
 # Welcome!
@@ -68,7 +65,7 @@ For passing Info2, you need to pass three parts (Teilmodulprüfungen)
 
 Variante 1:
 1/3 Klausur
-1/3 Quizzes zu den Labs 
+1/3 Quizzes zu den Labs
 1/3 Labs
 
 Variante 2:

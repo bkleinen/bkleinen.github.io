@@ -2,8 +2,7 @@
 title: "M1 Media Programming"
 author: kleinen
 layout: page
-redirect_from:
-  - m1-web/
+redirect_from: m1-web/
 ---
 
 ## Welcome!
