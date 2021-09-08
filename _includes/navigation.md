@@ -5,11 +5,12 @@
   {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    {% include navigation_dropdown_item.md url = "/classes/ss2021/info1" link_text = "B Info 1" %}
-    {% include navigation_dropdown_item.md url = "/classes/ss2021/wtat1" link_text = "B WTAT 1" %}
-    {% include navigation_dropdown_item.md url = "/classes/ss2021/m1-web" link_text = "M M1 Labs" %}
-    {% include navigation_dropdown_item.md url = "/classes/ss2021/m-wt4-ucd" link_text = "M WT4 UCD" %}
-    {% include navigation_dropdown_item.md url = "/classes/ss2021/index.html" link_text = "All SoSe 21" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/info2" link_text = "B7 Info 2" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/networks" link_text = "B9 Netzwerke" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/m1-web" link_text = "M1 Labs" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/m-wt1-webapplications" link_text = "M WT1 WebApps" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/project" link_text = "Project" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/index.html" link_text = "All WS 21/22" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>
 </li>

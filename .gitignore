@@ -10,3 +10,4 @@ link-checker-crawled-pages.pstore
 kramdown.diff
 temp.html
 *.swp
+node_modules/

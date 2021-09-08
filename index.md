@@ -12,9 +12,9 @@ regenerate: true
 <hr/>
 
 <div class = "box">
-<h4>Classes Summer Term 2021</h4>
+<h4>Classes Winter Term 2021</h4>
 <div>
-{% include classes/ss2021/lectures.html %}
+{% include classes/ws2021/lectures.html %}
 </div>
 
 <a href="{{ site.baseurl }}/classes/">All Classes (Archive)</a>
