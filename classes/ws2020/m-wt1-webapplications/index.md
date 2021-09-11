@@ -1,5 +1,5 @@
 ---
-title: WT1 Web Applications WS 2019/20
+title: WT1 Web Applications WS 2020/21
 author: kleinen
 layout: page
 ---
