@@ -44,12 +44,9 @@ You can do that in the following ways:
 
   {% include officehours.md %}
 
-## Pronoun and Name
+## Pronoun
 
-My [pronoun is \"he\"](https://pronoun.is/he).
-
-I've recently changed my first name to Barne, and you might still
-find my old first name in some places - that's probably also me, as my last name is quite rare.
+My [pronoun is \"he\"](https://pronoun.is/he). 
 
 ## Miscellany
 
