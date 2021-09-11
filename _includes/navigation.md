@@ -6,7 +6,7 @@
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% include navigation_dropdown_item.md url = "/classes/ws2021/info2" link_text = "B7 Info 2" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/networks" link_text = "B9 Netzwerke" %}
+    {% include navigation_dropdown_item.md url = "/classes/ws2021/networks" link_text = "B9 Networks" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2021/m1-web" link_text = "M1 Labs" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2021/m-wt1-webapplications" link_text = "M WT1 WebApps" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2021/project" link_text = "Project" %}

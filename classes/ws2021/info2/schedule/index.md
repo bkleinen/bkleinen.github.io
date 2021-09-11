@@ -1,66 +1,107 @@
 ---
-title:  Info2 WS 2021/22 Schedule
+title: Info2 WS 2021/22 Schedule
 author: kleinen
 layout: default
 wide_layout: true
 ---
 
-## Tentative Schedule.
-
-Material for flipped remote classrooms is provided the week before. The overall topic of Info2 is Algorithms & Data Structures.
-We'll go through 8 broader Topics during the term:
-
-* Topic 01: Object Oriented Design
-* Topic 02: Java Fundamentals and Repetition
-* Topic 03: Properties of Algorithms
-* Topic 04: Data Structures
-* Topic 05: Sorting
-* Topic 06: Searching
-* Topic 07: Theoretical Foundations
-* Topic 08: Python
-
-| Week | KW | Lecture        | Quizz                 | Topic | Lecture                                                                               | Lab # | Lab Topic                                                         |
-|:-----|:---|:---------------|:----------------------|:------|:--------------------------------------------------------------------------------------|:------|:------------------------------------------------------------------|
-| 1    | 14 | Thu 02/04/2020 |                       |       | --- No lectures in the first week ---                                                 |       | --- No labs in the  first week ---                                |
-| 2    | 15 | Tue 07/04/2020 |                       | 01    | Welcome Back, Overview, Designing Applications                                        | 1     | [Designing an Application, CRC Cards  (Pre-Lab!)](../labs/lab-01) |
-|      |    | Thu 09/04/2020 |                       | 02    | IntelliJ, Programming Exercises, Intro to Recursion.                                  |       | (OO Design)                                                       |
-| 3    | 16 | Tue 14/04/2020 |                       | 02    | Recursion                                                                             | 2     | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)               |
-|      |    | Thu 16/04/2020 |                       | 02    | Source Code Management with GIT                                                       |       | (OO Design)                                                       |
-| 4    | 17 | Tue 21/04/2020 |                       | 02    | Networking and File I/O in Java                                                       |       | Extra Time for GIT                                                |
-|      |    | Thu 23/04/2020 |                       | 02    | Concurrency                                                                           |       |                                                                   |
-| 5    | 18 | Tue 28/04/2020 |                       | 03    | Random numbers, Probabilistic Algorithms                                              | 3     | [Histogram](../labs/lab-03)  (Pre-Lab!)                           |
-|      |    | Thu 30/04/2020 | Random Algorithms     | 03    | Complexity of Algorithms, Binary Search                                               |       | (Java Fundamentals)                                               |
-| 6    | 19 | Tue 05/05/2020 | Lab 02                | 04    | Properties of Algorithms, Maximum Contiguous Subsequence Sum                          | 4     | [Chatterbox](../labs/lab-04)  (Pre-Lab!)                          |
-|      |    | Thu 07/05/2020 | Complexity, B. Search | 04    | Arrays, Lists and Stacks                                                              |       | (Java Networking, Concurrency)                                    |
-| 7    | 20 | Tue 12/05/2020 | Lab 03                | 04    | Stacks & ADTs                                                                         | 5     | [Execution Times](../labs/lab-05) (Pre-Lab!)                      |
-|      |    | Thu 14/05/2020 |                       | 04    | PZ 2 Break, Contextual Interviews                                                     |       | (Properties of Algorithms)                                        |
-| 8    | 21 | Tue 19/05/2020 |                       | 05    | PZ 2 Break                                                                            |       |                                                                   |
-|      |    | Thu 21/05/2020 | Stacks and Queues     | 05    | --- Himmelfahrt (Bank Holiday) ---                                                    |       |                                                                   |
-| 9    | 22 | Tue 26/05/2020 |                       | 05    | Stacks, Postfix and Enums                                                             | 6     | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)              |
-|      |    | Thu 28/05/2020 | Lab 04                | 05    | Queues, Priority Queues, Collections: Sets, Bags, Maps. The Java Collection Framework |       | (Recursion)                                                       |
-| 10   | 23 | Tue 02/06/2020 | Lab 05                | 06    | -no lecture-                                                                          | 7     | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                  |
-|      |    | Thu 04/06/2020 |                       | 06    | Recursion, Maximum Contiguous Subsequence revisited                                   |       | (Recursion)                                                       |
-| 11   | 24 | Tue 09/06/2020 | Lab 06                | 07    | Sorting Algorithms, Divide & Conquer                                                  | 8     | [Eight Queens](../labs/lab-08) (Pre-Lab!)                         |
-|      |    | Thu 11/06/2020 |                       | 07    | Sorting Algorithms: Quicksort, Radix Sort                                             |       | (Recursion, Backtracking)                                         |
-| 12   | 25 | Tue 16/06/2020 | Lab 07                | 07    | Searching, Scanning and Parsing Algorithms                                            | 9     | [Probabilistic Algorithms](../labs/lab-09)  (Pre-Lab!)            |
-|      |    | Thu 18/06/2020 |                       | 07    | Graphs, Graph Algorithms                                                              |       | (Concurrency, Random)                                             |
-| 13   | 26 | Tue 23/06/2020 | Lab 08                | 07    | String Searching and Pattern Matching                                                 | 10    | [Getting from A to B](../labs/lab-10)                             |
-|      |    | Thu 25/06/2020 |                       | 08    | Finite State Automata                                                                 |       | (Graphs and Graph Algorithms)                                     |
-| 14   | 27 | Tue 30/06/2020 | Lab 09                | 08    | Hash Functions and HashMaps                                                           | 11    | [Finite State Automata and Sorting](../labs/lab-11)               |
-|      |    | Thu 02/07/2020 |                       | 08    | Searching, Nearest Neighbor, Branch and Bound,AVL Trees                               |       | (Theoretical Foundations, FSA)                                    |
-| 15   | 28 | Tue 07/07/2020 | Lab 10                | 08    | Trees, Heapsort, Sorting Algorithms Conclusion                                        | 12    | [Scrabble Cheater](../labs/lab-12)                                |
-|      |    | Thu 09/07/2020 |                       |       | Trial Exam, Exam Preparation                                                          |       | (Hashes)                                                          |
-| 16   | 29 | Tue 14/07/2020 |                       |       | Exam                                                                                  |       |                                                                   |
-|      |    | Thu 16/07/2020 |                       |       | Klausureinsicht                                                                       |       |                                                                   |
+This schedule is, as always, tentative. It will be adapted throughout the term.
 
 
+| Week | KW | Lecture        |                                                                                                                           | Lab                                                              |  |
+|:-----|:---|:---------------|:--------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------|:-|
+| 1    | 40 | Tue 05/10/2021 | Introduction to the course                                                                                                | [Lab 0: Getting back to programming, Tools]()                    |  |
+|      |    | Wed 06/10/2021 | Review: Java Program, Interfaces, Parameters, Data Types and Control Structures, Classes, Arrays, Collections             |                                                                  |  |
+| 2    | 41 | Tue 12/10/2021 | File-based IO, Exceptions (Lab 03) (MakeDirectories - AlphabeticComparator - DirList - InFile - JustReadIt - Jabberwocky) | [Designing an Application, CRC Cards (Pre-Lab!)](../labs/lab-01) |  |
+|      |    | Wed 13/10/2021 | Data Types: Lists (ListStuff.shtml - List.java - DLList.java - Photo.java)                                                |                                                                  |  |
+| 3    | 42 | Tue 19/10/2021 | Sets, Bags, Maps (Set - SetAsList - SetTest)                                                                              | [Implementing CRC cards (Pre-Lab!)](../labs/lab-02)              |  |
+|      |    | Wed 20/10/2021 | Stacks (Stack.java - StackAsArray.java - StackAsList.java - Palindrome.java - StackUnderflow.java)                        |                                                                  |  |
+| 4    | 43 | Tue 26/10/2021 | Queues, Priority Queues (Underflow.java - TestQueue.java - ArrayQueue.java - LinkedQueue.java - Queue.java )              | [Histogram](../labs/lab-03) (Pre-Lab!)                           |  |
+|      |    | Wed 27/10/2021 | Networking in Java (Prep. Lab 04) (URLReader)                                                                             |                                                                  |  |
+| 5    | 44 | Tue 02/11/2021 | Concurrency                                                                                                               | [Chatterbox](../labs/lab-04) (Pre-Lab!)                          |  |
+|      |    | Wed 03/11/2021 | Properties of Algorithms (Euclid - Complexity - Birthday example)                                                         |                                                                  |  |
+| 6    | 45 | Tue 09/11/2021 | Maximum Contiguous Subsequence Sum (Code Examples- Triple - MCSS_Main - MCSS_Algorithms - DowJones - DowJones.txt)        | [Execution Times](../labs/lab-05) (Pre-Lab!)                     |  |
+|      |    | Wed 10/11/2021 | Python Intro                                                                                                              |                                                                  |  |
+| 7    | 46 | Tue 16/11/2021 | Recursion                                                                                                                 | [Reverse Polish Notation](../labs/lab-06) (Pre-Lab!)             |  |
+|      |    | Wed 17/11/2021 | Permutations (Handout on Permutations), Backtracking (TicTacToe.java),                                                    |                                                                  |  |
+| 8    | 47 | Tue 23/11/2021 | Trees (Tree.java - Node.java - TestTree.java                                                                              | [Recursive Triangles](../labs/lab-07) (Pre-Lab!)                 |  |
+|      |    | Wed 24/11/2021 | AVL-Trees (AVL Tutorial), Tries                                                                                           |                                                                  |  |
+| 9    | 48 | Tue 30/11/2021 | Random numbers (GermanLottery) -    Probabilistic Algorithms                                                              | [Eight Queens](../labs/lab-08) (Pre-Lab!)                        |  |
+|      |    | Wed 01/12/2021 | Graphs                                                                                                                    |                                                                  |  |
+| 10   | 49 | Tue 07/12/2021 | Graph Algorithms, Quadtrees                                                                                               | [Probabilistic Algorithms](../labs/lab-09) (Pre-Lab!)            |  |
+|      |    | Wed 08/12/2021 | Finite State Automata                                                                                                     |                                                                  |  |
+| 11   | 50 | Tue 14/12/2021 | Fun with Python                                                                                                           | [Getting from A to B](../labs/lab-10)                            |  |
+|      |    | Wed 15/12/2021 | Fun with Python                                                                                                           |                                                                  |  |
+| 12   | 51 | Tue 21/12/2021 | Fun with Python                                                                                                           |                                                                  |  |
+|      |    | Wed 22/12/2021 | --- no lecture ---                                                                                                        |                                                                  |  |
+|      | 52 | Tue 28/12/2021 | --- no lecture ---                                                                                                        |                                                                  |  |
+|      |    | Wed 29/12/2021 | --- no lecture ---                                                                                                        |                                                                  |  |
+| 13   | 1  | Tue 04/01/2022 | Sorting                                                                                                                   | [Finite State Automata and Sorting](../labs/lab-11)              |  |
+|      |    | Wed 05/01/2022 | Heapsort (Handout-heap - Heapsort.java), Searching. Nearest Neighbor, Branch and Bound                                    |                                                                  |  |
+| 14   | 2  | Tue 11/01/2022 | Hashing                                                                                                                   | [Scrabble Cheater](../labs/lab-12)                               |  |
+|      |    | Wed 12/01/2022 | String Searching                                                                                                          |                                                                  |  |
+| 15   | 3  | Tue 18/01/2022 | NP-Complete Problems                                                                                                      | [Scrabble Cheater Deluxe](../labs/lab-13)                        |  |
+|      |    | Wed 19/01/2022 | Unicode (The Absolute Minimum Every Software Developer ... Must Know About Unicode ...), Cryptographic Algorithms         |                                                                  |  |
+| 16   | 4  | Tue 25/01/2022 | ADTs and the Julian Date, How to Solve It (Polya)                                                                         |                                                                  |  |
+|      |    | Wed 26/01/2022 | PZ1                                                                                                                       |                                                                  |  |
+| 17   | 5  | Tue 01/02/2022 | PZ1                                                                                                                       |                                                                  |  |
+|      |    | Wed 02/02/2022 | PZ1                                                                                                                       |                                                                  |  |
+| 18   | 6  | Tue 08/02/2022 | PZ1                                                                                                                       |                                                                  |  |
+|      |    | Wed 09/02/2022 | PZ1                                                                                                                       |                                                                  |  |
 
 
 
 {% comment %}
-offene Themen
-Finite State Automata                                                        
-Scanning and Parsing?
-2nd Language (Python) + Repetition of Algorithms                             
-2nd Language (Python) + Repetition of Algorithms                             
+DWW
+Introduction to the course
+Review: Java Program, Interfaces, Parameters, Data Types and Control Structures, Classes, Arrays, Collections
+Client/Server concept
+Networking in Java (URLReader)
+File-based IO (MakeDirectories - AlphabeticComparator - DirList - InFile - JustReadIt - Jabberwocky)
+GUIs, AWT and Swing, Event handler
+Properties of Algorithms (Euclid - Complexity - Birthday example)
+Maximum Contiguous Subsequence Sum (Code Examples- Triple - MCSS_Main - MCSS_Algorithms - DowJones - DowJones.txt)
+Abstraction: Abstract Data Types
+Design Patterns, Lists (ListStuff.shtml - List.java - DLList.java - Photo.java)
+More lists
+Sets ,Bags, Maps| (Set - SetAsList - SetTest)
+Stacks (Stack.java - StackAsArray.java - StackAsList.java - Palindrome.java - StackUnderflow.java)
+Queues, Priority Queues| (Underflow.java - TestQueue.java - ArrayQueue.java - LinkedQueue.java - Queue.java )
+ADTs and the Julian Date, How to Solve It (Polya)
+Random numbers (GermanLottery) -
+Probabilistic Algorithms
+Recursion
+Permutations (Handout on Permutations), Backtracking (TicTacToe.java), Trees (Tree.java - Node.java - TestTree.java - ListTree.java)
+AVL-Trees (AVL Tutorial), Tries
+Graphs
+Graph Algorithms, Quadtrees
+Sorting
+Finite State Automata
+Heapsort (Handout-heap - Heapsort.java), Searching. Nearest Neighbor, Branch and Bound
+String Searching
+Hashing
+NP-Complete Problems
+Coding Algorithms
+Unicode (The Absolute Minimum Every Software Developer ... Must Know About Unicode ...), Cryptographic Algorithms
+
+
+
+Scanning and Parsing Algorithms 1
+Scanning and Parsing Algorithms 2
+
+Enumerations (Main - Card - ShuffleAndDeal)
+Collections - - Iterators
+
+
+Readings:
+
+What every computer scientist needs to know about floating point numbers
+
+Why computers suck at maths
+
+
+
+If time: more Java AWT
+(AllComponents.java- Scribble2.java - FrameHandler.java)
+
 {% endcomment %}
