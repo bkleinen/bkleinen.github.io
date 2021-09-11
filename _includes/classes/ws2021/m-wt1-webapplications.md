@@ -1,7 +1,8 @@
 <ul class="nav nav-tabs">
-{% assign navitems = "M-WT1:/classes/ws2021/m-wt1-webapplications/,Schedule:/classes/ws2021/m-wt1-webapplications/schedule/,Sprint:/classes/ws2021/m-wt1-webapplications/sprint/" | split: "," %}
+{% assign navitems = "M-WT1:/classes/ws2021/m-wt1-webapplications/,Schedule:/classes/ws2021/m-wt1-webapplications/schedule/" | split: "," %}
 
 {% comment %}
+,Sprint:/classes/ws2021/m-wt1-webapplications/sprint/
 ,Code:/classes/ws2021/m-wt1-webapplications/code/,Labs:/classes/ws2021/m-wt1-webapplications/labs/
 {% endcomment %}
 

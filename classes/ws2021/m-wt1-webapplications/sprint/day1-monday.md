@@ -1,5 +1,5 @@
 ---
-title: Web Applications WS2020/2021 - Sprint Day 1 - Monday
+title: Web Applications WS2021/2022- Sprint Day 1 - Monday
 author: kleinen
 layout: default
 wide_layout: true
