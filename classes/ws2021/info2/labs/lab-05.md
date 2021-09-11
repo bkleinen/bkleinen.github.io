@@ -3,7 +3,8 @@ title: 'Info2: Exercise 05: Execution times'
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 
 ***P1.*** Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
@@ -104,7 +105,7 @@ For each of the following seven program fragments, do the following:
 A  *prime number* has no factors besides 1 and itself. Do the following:
 
 3. Write a simple method `public static bool isPrime (int n) {...}` to determine if a positive integer N is prime.
-4. Compare the running times needed to determine if a 20-bit number and a 40-bit number are prime by running 100 examples of each through your program. 
+4. Compare the running times needed to determine if a 20-bit number and a 40-bit number are prime by running 100 examples of each through your program.
 
 ### For the bored:
 
@@ -121,8 +122,9 @@ Additional questions for part 1:
 - Which are interesting values for N?
 - Compare your analysis with the actual number of steps (i.e. the value of sum after the loop).
 
-Additional questions for part 2: 
+Additional questions for part 2:
 - In terms of N, what is the worst-case running time of your program?
 - Let B equal the number of bits in the binary representation of N. What is relationship between B and N?
 - In terms of B, what is the worst-case running time of your program?
 - Present the results of your experiment
+{% endcomment %}

@@ -3,7 +3,8 @@ title: 'Info2: Exercise 07: Recursive Triangles'
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
 ![Machine](../images/SierpinskiTriangle.png "Sierpinski Triangle")
 
 ## Pre-Lab
@@ -20,7 +21,7 @@ layout: lab
 
 1. First set up a Window that can handle drawing. Get the Window to draw an equilateral triangle. You can use this scaffold: [SierpinskyTriangleStart](https://github.com/LiFaytheGoblin/SierpinskyTriangleStart).
 
-2. Once you can draw the triangle, now draw a triangle that connects the midpoints of each of the lines. You now have 4 triangles. For each of the *three outer triangles*, recursively draw a triangle that connects the midpoints. 
+2. Once you can draw the triangle, now draw a triangle that connects the midpoints of each of the lines. You now have 4 triangles. For each of the *three outer triangles*, recursively draw a triangle that connects the midpoints.
 
 3. Expand your triangle drawing algorithm to draw in a specific color. Choose a different color for every level of the algorithm.
 
@@ -54,3 +55,4 @@ Also answer the following questions in your report:
 * Ex.1: What is the largest equilateral triangle you can get on the screen?
 * Ex.2: How many lines of code did you write for Ex. 1 and 2?
 * Ex.2: What is your termination condition, what is the measure?
+{% endcomment %}

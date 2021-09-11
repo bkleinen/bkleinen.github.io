@@ -3,6 +3,8 @@ title: 'Info2: Exercise 09: Probabilistic Algorithms'
 author: kleinen
 layout: lab
 ---
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 ***P1.*** How do you compute the area of a circle and a rectangle?
 
@@ -42,7 +44,7 @@ should just create some outputs like:
         Philosopher 1 takes his right fork.
         Philosopher 1 waits for left fork.
     ```
-2. Test your implementation to find out whether it could lead to a deadlock. 
+2. Test your implementation to find out whether it could lead to a deadlock.
 3. Provide more implementations with a sensible way to switch between them;
 at least one creating a deadlock and one using a probabilistic solution to avoid the
 deadlock.
@@ -52,4 +54,5 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 
 Also answer the following questions in your report:
 * Part I, Ex. 5: How many accurate digits of Pi you get for how many random points? Report your statistic.
-* Part II, Ex. 2: Can your current implementation lead to a deadlock? Why? 
+* Part II, Ex. 2: Can your current implementation lead to a deadlock? Why?
+{% endcomment %}

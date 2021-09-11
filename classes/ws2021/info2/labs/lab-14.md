@@ -3,6 +3,8 @@ title: 'Info2: Exercise 00: '
 author: kleinen
 layout: lab
 ---
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 
 ## Assignment
@@ -24,3 +26,4 @@ deadline.
 
 ### Special Questions for your report
 How many lines of code did you write for each class? Record this statistic in your report.
+{% endcomment %}

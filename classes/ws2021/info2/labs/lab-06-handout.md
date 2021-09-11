@@ -3,7 +3,8 @@ title: 'Info2: Handout for Exercise 6: Infix/Prefix/Postfix'
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
 
 ## Definitions
 
@@ -18,7 +19,7 @@ layout: lab
   1. Convert infix to postfix
   2. Use stack to evaluate postfix
   3. Output top of stack (should be the only element)
-  
+
 ### Convert infix to postfix algorithm
 
 1. Given a sequence of tokens s and a result r
@@ -39,7 +40,7 @@ layout: lab
 3. while stack not empty
     1. r = r + top
     2. pop
-    
+
 ### Evaluate postfix algorithm
 
 1. Given a sequence of tokens s
@@ -52,3 +53,4 @@ layout: lab
         3. calculate lhs t rhs;
         4. push the result
 3. The top of the stack is the result.
+{% endcomment %}

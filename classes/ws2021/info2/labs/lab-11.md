@@ -3,15 +3,16 @@ title: 'Info2: Exercise 11: Finite State Automata and Sorting Algorithms'
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 ***P1.*** What is the difference between an NFA and an DFA?
 
-***P2.*** Which sorting algorithms have you learned about so far? Review their algorithms. 
+***P2.*** Which sorting algorithms have you learned about so far? Review their algorithms.
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/) has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/).
 
-Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel: 
+Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:
 * [Insertion Sort](https://youtu.be/ufIET8dMnus)
 * [Merge Sort](https://youtu.be/alJswNJ4P3U)
 * [Quick Sort](https://youtu.be/uXBnyYuwPe8)
@@ -61,7 +62,7 @@ The following three Finite Automata are given by their description:
 3. Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
 
 ### Part 2: Sorting
-4. Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each persone should do at least one walkthrough. Use the exact algorithms from the repository. 
+4. Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each persone should do at least one walkthrough. Use the exact algorithms from the repository.
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
@@ -71,3 +72,4 @@ Also answer the following questions in your report:
 * Part 1, A, 2: Which test cases did you chose?
 * Part 1, B: Put the transition diagrams in your report.
 * Part 2: Each of the algorithms has a location marked with //step. In your report, note down the state of the array at this location for each time the algorithm passes this line.
+{% endcomment %}

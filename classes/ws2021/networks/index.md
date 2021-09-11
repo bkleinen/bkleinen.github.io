@@ -19,12 +19,12 @@ same weekly workload!
 
 ## Content and Textbook
 
-We will use
+The class will be based on the Textbook
 
 Kurose, James F; Ross, Keith W.: Computer Networking. A Top-Down Approach, 8th ed., Pearson Global Editions, Harlow UK, 2021.
 ISBN: 978-1-292-40546-9
 
-as the Textbook for this class, and work through chapters 1-6. Accordingly, the content of this class will be:
+We'll follow the books top-down approach - starting from applications like email and the web down to the physical network layer:
 
 - Computer Networks and the Internet          
 - Application Layer                     

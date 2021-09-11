@@ -3,11 +3,13 @@ title: 'Info2: Exercise 06: Reverse Polish Notation'
 author: kleinen
 layout: lab
 ---
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 
 ***P1.*** Make sure that you understand [postfix evaluation](../lab-06-handout). If you do the complete Pre-Lab you will be able to understand the algorithms given in the hand out.
 
-***P2.*** What is the order of precedence for the operators "+", "-", "\*", "/", "^"? If we wanted to include "(" and ")" in this order, where would each of them be? 
+***P2.*** What is the order of precedence for the operators "+", "-", "\*", "/", "^"? If we wanted to include "(" and ")" in this order, where would each of them be?
 
 ***P3.*** &#321;ukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
 
@@ -25,7 +27,7 @@ layout: lab
 
     1. Show how to generate the corresponding postfix expression.
     2. Show how to evaluate the resulting postfix expression.
-  
+
 ***P5.*** Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.
 
 ## Assignment
@@ -38,17 +40,17 @@ You can use this eclipse project [Lab06_ReversePolishNotation](https://github.co
   - Your class should include both an exception on stack underflow as well as stack overflow.
   - Override the ```toString()```method to provide a useful way of printing a stack.
   - Now make it generic, so it can take values of any type. Coordinate your interface with your partner.
-  
-  Attention: 
-  - Don't use the Stack or LinkedList that is already available in the Java Collections Library. 
-  - Try and type it in yourself, not just copy the handout. 
+
+  Attention:
+  - Don't use the Stack or LinkedList that is already available in the Java Collections Library.
+  - Try and type it in yourself, not just copy the handout.
 
 ### Part 2: Postfix Class
   - Implement a class ```Postfix.java```that has a method public int evaluate (String pfx){...}
-  that takes a `String` representing a postfix expression and determines the value represented by that expression. 
-  You will need to access the individual characters of the string and store them in a stack. 
-  This is necessary for the evaluation, luckily your partner is currently in the process of making a stack. 
-  - Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both. 
+  that takes a `String` representing a postfix expression and determines the value represented by that expression.
+  You will need to access the individual characters of the string and store them in a stack.
+  This is necessary for the evaluation, luckily your partner is currently in the process of making a stack.
+  - Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both.
 
 ***Do not go on before you are sure that this is working correctly!***
 
@@ -72,3 +74,4 @@ Additional questions for part 1:
 - Will you really need both exceptions? Why or why not?
 
 Please do not put answers for the pre-lab into the lab report. I will not look at them. The lab hangout is for discussing the pre-lab.
+{% endcomment %}

@@ -3,7 +3,8 @@ title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
 [![S-Bahn-Ring]({{ site.baseurl }}/images/s-bahn.jpg)
 <small class = "float-right">S-Bahn Ring generated with https://github.com/bkleinen/bvg-graph based on OpenStreetMap</small>
 
@@ -21,9 +22,9 @@ layout: lab
 
 Read through everything first and think about who will do what. Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.
 
-1. Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix. 
+1. Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix.
 2. While one partner is doing this, the other one should write a class that reads a graph from a file. See notes on the file format and the example file below!
-3. Now write a method that will take a graph and two vertices and find the *shortest* path between the vertices. Make a method to print out the path in a readable format. 
+3. Now write a method that will take a graph and two vertices and find the *shortest* path between the vertices. Make a method to print out the path in a readable format.
 4. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the *cheapest* path between the two.
 5. Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.
 <pre>
@@ -79,3 +80,4 @@ Also answer the following questions in your report:
 * Ex. 1: How are you going to store the weights?
 * Ex. 3: What class will these methods belong to?
 * Do your implementations return the correct results?
+{% endcomment %}

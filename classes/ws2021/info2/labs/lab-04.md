@@ -3,7 +3,8 @@ title: 'Info2: Exercise 04: Chatterbox'
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 Write down the code for the following questions and be able to explain what is happening.
 
@@ -21,7 +22,7 @@ Write down the code for the following questions and be able to explain what is h
 1. Start your chatterbox by writing a method that listens for a Socket connection on a port. This is your Chatterbox server.  For now, just echo what you have read to the console.
 2. Now write a client that connects to it and writes to a port.
 3. Test your methods on your own machine.
-4. Follow the instructions to connect to an HTW lab computer at https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/ and copy your code onto your lab computer. It is recommended you use a ganymed computer. Share your address and port with others and see whether you can chat with each other. You might need to change the default ports of your program to ports between 8000 and 8010. 
+4. Follow the instructions to connect to an HTW lab computer at https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/ and copy your code onto your lab computer. It is recommended you use a ganymed computer. Share your address and port with others and see whether you can chat with each other. You might need to change the default ports of your program to ports between 8000 and 8010.
 
 ### Step 2: Server can send message
 5. Extend your Server such that you can enter messages on the Server side as well, and extend your Client to receive and Display those messages.
@@ -36,3 +37,4 @@ Write down the code for the following questions and be able to explain what is h
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+{% endcomment %}

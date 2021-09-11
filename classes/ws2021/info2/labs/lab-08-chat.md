@@ -3,6 +3,8 @@ title: 'Info2: Exercise 08: Multi-Threaded Chat Application'
 author: kleinen
 layout: lab
 ---
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 
 1. Experiment with the Source Code Examples for Concurrency.
@@ -68,3 +70,4 @@ and note the time you invested in this exercise.
 
 ### Special Questions for your report
 How many lines of code did you write for each class? Record this statistic in your report.
+{% endcomment %}

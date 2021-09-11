@@ -3,7 +3,8 @@ title: 'Info2: Exercise 12: Scrabble Cheater - Basic Edition '
 author: kleinen
 layout: lab
 ---
-
+This page is not yet available for WS 2021/22
+{% comment %}
  ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
 Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
 
@@ -38,7 +39,7 @@ Now make the basic Scrabble cheater: construct a 7-letter-word hash dictionary, 
 
 ## Assignment
 
-You will implement a simple scrabble cheater that will read in words from a scrabble word list, and find all permutations for a 7-letter tile rack. 
+You will implement a simple scrabble cheater that will read in words from a scrabble word list, and find all permutations for a 7-letter tile rack.
 
 There is a lot to do, so you might want to split up the work in your group.
 
@@ -51,7 +52,7 @@ initializes the ScrabbleCheater from a given file. For now, simply store the wor
 
 3. Implement the *validWordsUsingAllTiles* method in *SimpleWordList* that returns a Set of all the Words that are permutations of a given tile rack. That is, all words of the same length of the tile rack that can be build with it and that are in the word list, thus valid scrabble words.
 
-5. Use the Permutation class to make looking up the *validWordsUsingAllTiles()* more efficient. 
+5. Use the Permutation class to make looking up the *validWordsUsingAllTiles()* more efficient.
 Hint: how often will *normalize()* be called a) for initialisation and b) for a lookup in your WordList?
 
 6. Provide a second implementation of *WordList* using a HashMap as the underlying collection for storing the words. Note that you need to make sure that *equals()* and *hashCode()* work correctly on permutations in order to store Permutations at the same place in the HashMap.
@@ -61,9 +62,11 @@ Hint: how often will *normalize()* be called a) for initialisation and b) for a 
 8. *For the bored*: Measure the time improvement introduced by the HashMap implementation. The measured time might be small, so chose an adequate unit or use a loop to execute the code often.
 
 ## Lab Report
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page. 
+All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
 
 <!--
 now part of lab 13:
 1. In preparation of the final ScrabbleCheater, which will also find shorter words that can be built with the tile rack, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
 -->
+
+{% endcomment %}

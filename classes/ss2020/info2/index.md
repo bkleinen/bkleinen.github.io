@@ -1,5 +1,5 @@
 ---
-title: B07 Informatics 2 SoSe 2020
+title: B7 Informatics 2 SoSe 2020
 author: kleinen
 layout: default
 ---

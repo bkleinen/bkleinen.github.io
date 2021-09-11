@@ -3,6 +3,8 @@ title: 'Info2: Exercise 08: Eight Queens'
 author: kleinen
 layout: lab
 ---
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Lab
 ***P1.*** Make a chess board and mark how a Queen moves and threatens.
 
@@ -17,7 +19,7 @@ layout: lab
 ***P4.*** Implement the recursive solution to the *Towers of Hanoi* so that you can review how recursion works using the debugger.
 
 ## Assignment
-Our goal is to write a program to determine if 8 queens can be placed on an 8 x 8 chess board without them threatening each other! 
+Our goal is to write a program to determine if 8 queens can be placed on an 8 x 8 chess board without them threatening each other!
 
 1. Decide how to represent a chess board with a data structure. Don't worry about the colors of the board yet. Write a Chessboard class. What methods will you need?
 
@@ -25,7 +27,7 @@ Our goal is to write a program to determine if 8 queens can be placed on an 8 x 
 
 3. We speak of "backtracking" when we go back to a previous state and try a different branch. Use some coins on your paper chess board to figure out what to do when you reach a state in which one queen is threatened by another. There are iterative, recursive, and random solutions to this problem. Try and implement a recursive solution.
 
-4. Now implement a search routine that looks for a state in which the queens don't threaten each other. If there is a solution, print it to System.out. If there is more than one solution, print them as well. 
+4. Now implement a search routine that looks for a state in which the queens don't threaten each other. If there is a solution, print it to System.out. If there is more than one solution, print them as well.
 
 ## For the bored
 5. Design a Chessboard GUI with a queen figure. Output the result of the program using your Chessboard GUI.
@@ -49,3 +51,4 @@ Also answer the following questions in your report:
 ----
 
 based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW
+{% endcomment %}

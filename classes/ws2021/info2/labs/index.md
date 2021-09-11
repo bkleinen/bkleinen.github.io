@@ -3,11 +3,13 @@ title: Info2 WS 2021/22 - Labs and Exercises
 author: kleinen
 layout: page
 ---
+This page is not yet available for WS 2021/22
+{% comment %}
 ## Pre-Labs
 As this semester the labs will take place online, it is IMPORTANT that you are familiar with the
 exercise before the lab starts. Before the lab starts please:
 * read through the whole exercise (see below)
-* do the pre-lab 
+* do the pre-lab
 * recap on what you did for the lecture
 * post any questions on Moodle
 * (form your new group and post the names of all group members on Moodle - see below)
@@ -18,8 +20,8 @@ During the lab you will be working on exercises in groups (see below) while comm
 ### Communication
 You should join the BBB "Lab Hangout", you find it on the Moodle page at "Labs - General Topics". We'll talk about the last assignment as well as the pre-lab for the current lab. I'll also be answering questions and recap-ing specific topics on request.
 
-### Exercises
-There will be 13 labs. 
+### Lab Assignments
+* [Exercise 01 - Application Design](lab-01)
 * [Exercise 01 - Application Design](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Histogram](lab-03)
@@ -32,6 +34,7 @@ There will be 13 labs.
 * [Exercise 10 - Getting from A to B](lab-10)
 * [Exercise 11 - Finite State Automata and Sorting](lab-11)
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12)
+* [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 
 <!--
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
@@ -39,7 +42,7 @@ There will be 13 labs.
 -->
 
 ## Groups
-You will work in groups of two or three. You will switch groups after three or four labs. 
+You will work in groups of two or three. You will switch groups after three or four labs.
 <!--That means you should form new groups before the following labs:-->
 <!--* [Exercise 01 - Application Design](lab-01)-->
 <!--* [Exercise 04 - Chatterbox](lab-04)-->
@@ -73,10 +76,10 @@ A report should contain:
 4. if questions were asked: the answers to the questions
 5. a link to the private git repository with your code
 
-*Transparency* You need to be transparent on who did what. Collaborating with people outside your group is ok, 
+*Transparency* You need to be transparent on who did what. Collaborating with people outside your group is ok,
 but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!
 
-*Git Repository* You'll need to give me access rights to your git repository and put the link in your report. 
+*Git Repository* You'll need to give me access rights to your git repository and put the link in your report.
 
 *What if I our group didn't get the code to work?* It's ok not to have completely succeeded on the assignment, as long as
 you have tried sufficiently.
@@ -93,10 +96,10 @@ Please submit *only*:
 Only one team member should upload the report. If team members upload different reports (or different repos), I'll chose one at random to review.
 
 ### Late reports
-You can hand in 4 reports after their deadline, until September 1st. 
+You can hand in 4 reports after their deadline, until September 1st.
 
-*How to hand in late reports* 
-There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before September 1st. 
+*How to hand in late reports*
+There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before September 1st.
 
 *But ...!*
 If you fall ill for more than a week or are unable to continuously work on
@@ -105,7 +108,7 @@ early as possible and we will find an individual solution.
 
 <!--
 ## Quizzes
-There might be short quizzes on Moodle where you can test your knowledge. 
+There might be short quizzes on Moodle where you can test your knowledge.
 They will be published when the lab starts and be closed after a certain amount of time.
 Whether doing them will gain you any additional benefits is tbd.
 
@@ -138,3 +141,4 @@ or send me an email and we'll figure something out.
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
 
 -->
+{% endcomment %}

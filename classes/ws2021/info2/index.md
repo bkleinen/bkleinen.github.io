@@ -1,5 +1,5 @@
 ---
-title: B07 Informatics 2 WS 2021/22
+title: B7 Informatics 2 WS 2021/22
 author: kleinen
 layout: default
 redirect_from: info2/
@@ -22,25 +22,12 @@ language and learn something about differences in programming languages.
 
 Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
-## A Summer Term in a Closed University
+## Back to Campus
 
-Due to the regulations to avoid faster spread of the COVID-19 virus (see ) most of
-the summer term will probably held remote.
+It seems as if we will be finally back on campus this term - or: you will actually get
+to be on campus - finally!
 
-We will do this as a kind of remote flipped classroom: We will provide materials
-you need to prepare *before* the lecture and the lab. Lecture and Labs are
-mainly to ask and discuss questions. We will do that with various means, starting
-with a simple Moodle Chat.
-
-**Thus, class and lab schedule will remain unchanged.** Although you are free
-to work on the material any time you want, it will be best if you do that at
-the same time as your group and the time we are available and will answer questions
-immediately.
-
-The schedule might be adapted to accommodate distance learning due to the
-COVID-19 Situation.
-
-The materials will be provided via Moodle. (there's a direct link in the menu bar).
+Please check the [Corona FAQ](https://www.htw-berlin.de/coronavirus/faq-fuer-studierende/) regularly.
 
 ## Meetings/Weekly Schedule
 
@@ -50,15 +37,22 @@ for time and location information (link above in the External Links menu).
 
 ## Tutorial
 
-There will be a tutorial held by Lotte Unckell. The Tutorial will be on Thursdays, 16.30 - 18.00.
+There will be a tutorial. (More Info to come)
 
 ## Grades & Exam
+
+As in Informatics 1, there will be a Lab, and there will be an Exam. More
+details will follow until start of classes.
+
+{% comment %}
 
 For passing Info2, you need to pass three parts (Teilmodulprüfungen)
 
 - the Lab ("Programmierübungen mit Rücksprache") - Modulbegleitend, unbewertet
 - Moodle Quizzes - Modulbegleitende Prüfungsleistung, bewertet, optional
 - the Exam - Modulabschlussprüfung
+
+
 
 ### Grading
 
@@ -91,10 +85,13 @@ If you want to choose one of the options actively, just send me an email.
 Note that as all, Lab Reports, Quizzes and the Exam are parts of the "Modulprüfung",
 cheating on any of them will result in a 5,0 (nicht bestanden) for the whole
 module and use up one of the three possible tries for this module.
+{% endcomment%}
 
 ### Labs
-There'll be 13 exercises and you'll have to hand in a lab report for each. All info on the labs can be found on the [Labs](labs) page.
+There'll be 14 exercises and you'll have to hand in a lab report for each.
+All info on the labs can be found on the [Labs](labs) page.
 
+{% comment %}
 ### Quizzes
 
 Starting April 30, there will be brief Quizzes in Moodle at the beginning of each lecture.
@@ -133,6 +130,7 @@ early as possible and we will find an individual solution.
 
 More info about the Lab Reports and their assessment can be found on the [Labs](labs) page.
 -->
+{% endcomment %}
 
 ### Examinations for Students who already took Info2
 
