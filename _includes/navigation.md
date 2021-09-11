@@ -9,7 +9,6 @@
     {% include navigation_dropdown_item.md url = "/classes/ws2021/networks" link_text = "B9 Networks" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2021/m1-web" link_text = "M1 Labs" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2021/m-wt1-webapplications" link_text = "M WT1 WebApps" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/project" link_text = "Project" %}
     {% include navigation_dropdown_item.md url = "/classes/ws2021/index.html" link_text = "All WS 21/22" %}
     {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
   </div>
