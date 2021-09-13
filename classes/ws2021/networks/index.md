@@ -53,12 +53,14 @@ See the [schedule](./schedule) and the [lab pages](./labs) for more details on t
 ## Grading
 
 There will be a Moodle exam at the end of term which will be offered
-in PZ1 and PZ2. Lab Reports and Knowledge Checks are  Grades are determined like this:
+in PZ1 and PZ2.
 
-- Exam 50%
+Grades are determined like this:
+
+- Moodle Exam 50%
 - Lab Reports 40%
 - Knowledge Checks 20%
 
-The Exam constitutes the "Schriftliche Modulabschlussprüfung",
+The Moodle Exam constitutes the "Schriftliche Modulabschlussprüfung",
 Lab Reports and Knowledge Checks are two "Modulbegleitend geprüfte Studienleistungen"
 as described and regulated in §8 and §12 in the [Rahmenstudien- und -prüfungsordnung (RStPO – Ba/Ma)](https://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6063).
