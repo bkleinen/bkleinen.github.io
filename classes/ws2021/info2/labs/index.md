@@ -3,25 +3,27 @@ title: Info2 WS 2021/22 - Labs and Exercises
 author: kleinen
 layout: page
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
-## Pre-Labs
-As this semester the labs will take place online, it is IMPORTANT that you are familiar with the
-exercise before the lab starts. Before the lab starts please:
+{% comment %}This page is not yet available for WS 2021/22{% endcomment %}
+Welcome! On this page you find important information about the labs: How to prepare, how to communicate, what to work on, how to submit. Read through it carefully and ask if anything is unclear.
+
+## Before the lab: Pre-Labs
+It is IMPORTANT that you are familiar with the exercise before the lab starts. Before the lab starts do the following:
 * read through the whole exercise (see below)
 * do the pre-lab
-* recap on what you did for the lecture
-* post any questions on Moodle
-* (form your new group and post the names of all group members on Moodle - see below)
+* recap on what you did in the lecture
+* note down any questions
+* (register for a group on Moodle - see below)
 
-## During the lab
-During the lab you will be working on exercises in groups (see below) while communicating with each other and with me online. This is the plan for now, but it might change.
+## During the lab:
+There are two lab groups. LSF tells you which group you are in, and when and in which room the lab takes place. The labs will usually take place at the HTW. The labs may occasionally happen online - in that case I will warn you in advance. During the lab you will be working on exercises in teams (see below).
+
+Please be there on time. Please note that food and open beverages are not allowed inside the lab.
 
 ### Communication
-You should join the BBB "Lab Hangout", you find it on the Moodle page at "Labs - General Topics". We'll talk about the last assignment as well as the pre-lab for the current lab. I'll also be answering questions and recap-ing specific topics on request.
+Ask questions that can't wait in the Moodle Forum. That's better than writing an email, because this way, all people can see the answer. Of course you can also ask during the lab.
 
 ### Lab Assignments
-* [Exercise 01 - Application Design](lab-01)
+* [Exercise 00 - Programming & Tools](lab-00)
 * [Exercise 01 - Application Design](lab-01)
 * [Exercise 02 - Implementing CRC Cards](lab-02)
 * [Exercise 03 - Histogram](lab-03)
@@ -37,19 +39,18 @@ You should join the BBB "Lab Hangout", you find it on the Moodle page at "Labs -
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 
 <!--
-* [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 * [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
 -->
 
-## Groups
-You will work in groups of two or three. You will switch groups after three or four labs.
-<!--That means you should form new groups before the following labs:-->
-<!--* [Exercise 01 - Application Design](lab-01)-->
-<!--* [Exercise 04 - Chatterbox](lab-04)-->
-<!--* [Exercise 07 - Recursive Triangles](lab-07)-->
-<!--* [Exercise 10 - Getting from A to B](lab-10)-->
+## Teams
+You will work in teams of two or three. You will usually switch teams after three labs.
+That means you should form new groups before the following labs:
+* [Exercise 01 - Application Design](lab-01)
+* [Exercise 04 - Chatterbox](lab-04)
+* [Exercise 07 - Recursive Triangles](lab-07)
+* [Exercise 10 - Getting from A to B](lab-10)
 
-You can chose your team mates. Please post the names of all group members on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up a team by posting on Moodle, you won't be able to hand anything in. I won't accept groups that are made up of only one person. That is not a group.
+You can chose your team mates. Each team mate needs to register for the team on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up for a team, you won't be able to hand anything in.
 
 ## Reports
 ### Deadline
@@ -59,8 +60,9 @@ Lab Reports are due at 10pm the night before your next lab.
 Lab reports won't be graded - they just get marked with "ok" or "not ok".  
 A report is "not ok" if any of the following is True:
 * the report is missing
-* you are not transparent on who did what
-* the report has too little significant content on the lab
+* you are not transparent on who did what (You need to be transparent on who did what. Collaborating with people outside your team is ok,
+but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!)
+* the report has too little significant content on the lab (see below)
 * the report is not submitted correctly (see below)
 * the code is not submitted correctly (see below)
 
@@ -68,38 +70,43 @@ You can use the late slot (see below) to hand in rejected Lab Reports again.
 
 You will not be allowed to take the exam if you plagiarized.
 
-### Criteria
-A report should contain:
-1. a summary of what the lab was about
-2. details on what you learned in this lab OR details on what the lab was about
-3. if you were asked to write code: an explanation of how you tested your code
-4. if questions were asked: the answers to the questions
-5. a link to the private git repository with your code
+### Content of the report
+Content that should go in the report:
+* a summary of what the lab was about
+* details on what you learned in this lab OR details on what the lab was about
+* if you were asked to write code: an explanation of how you tested your code
+* if questions were asked: the answers to the questions
 
-*Transparency* You need to be transparent on who did what. Collaborating with people outside your group is ok,
-but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!
+*What if I our team didn't get the code to work?* 
+It's ok not to have completely succeeded on the assignment, as long as you have tried sufficiently.
 
-*Git Repository* You'll need to give me access rights to your git repository and put the link in your report.
+*How long should the report be?* 
+Elegance lays in the ability to get to the point in as few sentences as necessary.
 
-*What if I our group didn't get the code to work?* It's ok not to have completely succeeded on the assignment, as long as
-you have tried sufficiently.
-
-*How long should the report be?* Elegance lays in the ability to get to the point in as few sentences as necessary.
-
-*Language* You can write in English or German.
+*Which language should the report be in?* 
+You can write in English or German. But decide for one language.
 
 ### How to submit correctly
-Please submit *only*:
+Please submit to Moodle *only*:
 * A pdf with your report
-* Included the pdf: a link to your private git repository
+* As a text answer: a link to your team's git repository (see below)
 
 Only one team member should upload the report. If team members upload different reports (or different repos), I'll chose one at random to review.
 
+### Git
+You will use Git to manage your team's code. Code can only be handed in for grading via a link to the repository in the correct folder in this class' group on the IMI GitLab Server. 
+
+The IMI GitLab Server can be found at: https://gl-imi.f4.htw-berlin.de. It can only be reached via the HTW network. So if you are at home, use VPN (see https://rz.htw-berlin.de/anleitungen/vpn/).
+
+The class group can be found at: https://gl-imi.f4.htw-berlin.de/groups/info2-wise2021. If you registered for the course I will have added your email address. Tell me if have not been added.
+
+There will be folders for each lab. Create the repository for a lab inside that folder (Click on "new project"). Name it something like: "group01-team03-lab00" (so that it includes your group number from LSF, your team number and the lab number).
+
 ### Late reports
-You can hand in 4 reports after their deadline, until September 1st.
+You can hand in 4 reports after their deadline, until Febuary 10th, 10pm.
 
 *How to hand in late reports*
-There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before September 1st.
+There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before Febuary 10. Each person has to upload the late report by themselves, even if you worked in a team.
 
 *But ...!*
 If you fall ill for more than a week or are unable to continuously work on
@@ -141,4 +148,4 @@ or send me an email and we'll figure something out.
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
 
 -->
-{% endcomment %}
+
