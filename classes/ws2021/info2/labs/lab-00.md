@@ -77,3 +77,7 @@ git push
   d) What happens if you "push" committed changes?
 
 15) Post any open questions in the Moodle Forum. See any questions there you can answer? Please try and answer them!
+
+## Submission
+Submit your lab report and the link to your repository on Moodle. Make sure that the link is put in the available text field. 
+Deadline is 10pm before your next lab.
