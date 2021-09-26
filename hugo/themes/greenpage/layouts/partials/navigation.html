@@ -1,50 +1,28 @@
 
 <ul class="nav flex-md-column">
-
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
 <li class="nav-item">
-  {{ partial "navigation/navigation_nav_link.md" (dict "url_element" "classes" "linkText" "Classes") }}
-  {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "content" .)}}
+    {{ if .HasChildren }}
+    <!-- HUGODO active über hugo -->
+    <a class="nav-link dropdown-toggle {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active {{ end}}"
+    href="#" role="button" id="dropdownMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ .Name }}
+    </a>
 
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/info2" link_text = "B7 Info 2" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/networks" link_text = "B9 Networks" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/m1-web" link_text = "M1 Labs" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/m-wt1-webapplications" link_text = "M WT1 WebApps" %}
-    {% include navigation_dropdown_item.md url = "/classes/ws2021/index.html" link_text = "All WS 21/22" %}
-    {% include navigation_dropdown_item.md url = "/classes/" link_text = "All Classes" %}
-  </div>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      {{ range .Children }}
+          <a class="dropdown-item  {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
+          href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+
+    {{ else }}
+      <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+    {{ end }}
+
 </li>
+{{ end }}
 
-  <li class="nav-item">
-    {{.RelPermalink }}
-    <a class="nav-link {{ if (eq .RelPermalink '/contact/') }}active{{ end }}" href="{{ .Site.BaseURL }}/contact/">Contact Info</a>
-  </li>
-
-
-  <li class="nav-item">
-    {% include navigation_nav_link.md url_element = "studies"  link_text = "Studies" %}
-
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      {% include navigation_dropdown_item.md url = "/studies/thesis/" link_text = "Thesis" %}
-      {% include navigation_dropdown_item.md url = "/studies/ic/" link_text = "IC" %}
-      {% include navigation_dropdown_item.md url = "/studies/grading/" link_text = "Grading Info" %}
-    </div>
-  </li>
-
-
-  <li class="nav-item">
-    <a class="nav-link {% if page.url == '/software_projects/' %}active{{ end }}" href="{{ .Site.BaseURL }}/software_projects/">Software Projects</a>
-  </li>
-
-
-  <li class="nav-item">
-    {% include navigation_nav_link.md url_element = "misc"  link_text = "Misc" %}
-
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      {% include navigation_dropdown_item.md url = "/misc/about-this-site/" link_text = "About this Site" %}
-      {% include navigation_dropdown_item.md url = "/misc/trans/" link_text = "Trans*" %}
-      {% include navigation_dropdown_item.md url = "/misc/lsfcollector/" link_text = "LSF" %}
-      {% include navigation_dropdown_item.md url = "/misc/links/" link_text = "Links" %}
-    </div>
-  </li>
 <ul>
