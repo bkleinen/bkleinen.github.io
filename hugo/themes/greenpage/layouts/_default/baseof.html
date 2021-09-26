@@ -1,22 +1,67 @@
+
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
-        {{- partial "navigation.html" . -}}
-        {{- partial "breadcrumbnav.html" . -}}
-        <div id="content">
-        {{- block "main" . }}Default definition of block main{{- end }}
-        </div>
-        <hr/>
-          {{- partial "sitemap.html" . -}}
-        <hr/>
-        {{- partial "pagelist.html" . -}}
+        <div class = "container-fluid">
 
-        <hr/>
+        <header class = "row m-b-5" >
+          <div class = "col-md-2 c2">
+            &nbsp;
+          </div>
+          <div class = "col-md-10 c1 p-2">
+            {{- partial "headline.html" . -}}
+          </div>
+        </header>
+
+
+        <main class = "row p-0">
+        <nav class = "col-md-2 c2">
+          <div class = "nav">
+            {{- partial "navigation.html" . -}}
+          </div>
+        </nav>
+        <div class = "col-md-10 c3">
+          <div class = "outer">
+            {{- partial "breadcrumbs.html" . -}}
+          </div>
+
+          <div class = "coursenav"> {{- partial "coursenav.html -}} </div>
+
+          {{- block "main" . }}{{ .Content }}{{- end }}
+
+
+          </div>
+        </div>
+        </main>
+
+        <footer class = "row p-0">
+          <div class = "col-md-2 c2">
+            &nbsp;
+          </div>
+          <div class = "col-md-10 c4">
         {{- partial "footer.html" . -}}
-        {{- partial "debug.html" . -}}
-        <hr/>
-        {{ block "template" . }}block template not defined{{ end }}
+          </div>
+          <div>
+            {{- partial "debug.html" . -}}
+            {{ block "template" . }}block template not defined{{ end }}
+          </div>
+        </footer>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="{{ site.baseurl }}/bootstrap/jquery.slim.min.js" ></script>
+        <script src="{{ site.baseurl }}/bootstrap/popper.min.js" ></script>
+        <script src="{{ site.baseurl }}/bootstrap/bootstrap.min.js"></script>
+        <script>
+            var tables = document.getElementsByTagName("table");
+            for (i = 0; i < tables.length; i++) {
+              tables[i].classList.add("table");
+              tables[i].classList.add("table-sm");
+              tables[i].classList.add("table-striped");
+
+            }
+        </script>
     </body>
+
 </html>

@@ -4,7 +4,9 @@ Hello from main index template
 
 {{ .Content }}
 
-
+{{- partial "sitemap.html" . -}}
+<hr/>
+{{- partial "pagelist.html" . -}}
 {{ end }}
 
 {{ define "template" }}theme: layouts/_index.html{{ end }}
