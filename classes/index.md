@@ -2,6 +2,7 @@
 title: Classes
 author: kleinen
 layout: default
+draft: true
 ---
 
 ### Winter Term 2021
