@@ -42,10 +42,13 @@
           <div class = "col-md-10 c4">
         {{- partial "footer.html" . -}}
           </div>
-          <div>
-            {{- partial "debug.html" . -}}
-            {{ block "template" . }}block template not defined{{ end }}
-          </div>
+          {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
+              <div>
+                {{ partial "debug.html" . }}
+                {{ block "template" . }}block template not defined{{ end }}
+              </div>
+          {{ end }}
+
         </footer>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -62,6 +65,11 @@
 
             }
         </script>
+        {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+        {{ else }}
+        <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+        {{ end }}
     </body>
 
 </html>

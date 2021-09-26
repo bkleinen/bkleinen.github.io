@@ -1,5 +1,5 @@
 <head>
-  <title>{{ page.title }}</title>
+  <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
 
   <!-- Bootstrap Required meta tags -->
   <meta charset="{{ site.serverencoding }}">
@@ -9,9 +9,16 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/bootstrap.min.css" >-->
   <!-- site css including Bootstrap via sass-->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
-
   <!-- syntax highlighting CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
+  {{ if .Site.IsServer }}
+  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+  <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+  {{ else }}
+  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
+  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+  {{ end }}
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
