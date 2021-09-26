@@ -3,3 +3,118 @@ languageCode = 'en-us'
 title = 'Homepage Prof. Dr. Barne Kleinen'
 sectionPagesMenu = "sectionMenu"
 theme = "greenpage"
+
+[menu]
+[[menu.main]]
+  identifier = 'classes'
+  name = 'Classes'
+  url = '/classes/'
+  weight = -290
+
+[[menu.classes]]
+  parent = 'main'
+  identifier = '/classes/ws2021/info2'
+  name = 'B7 Info 2'
+  url = '/classes/ws2021/info2/'
+[[menu.classes]]
+  parent = 'main'
+  identifier = '/classes/ws2021/networks'
+  name = 'B9 Networks'
+  url = '/classes/ws2021/networks/'
+  weight = 10
+[[menu.classes]]
+  parent = 'main'
+  identifier = '/classes/ws2021/m1-web'
+  name = 'M1 Labs'
+  url = '/classes/ws2021/m1-web/'
+  weight = 20
+[[menu.classes]]
+  parent = 'main'
+  identifier = '/classes/ws2021/m-wt1-webapplications'
+  name = 'M WT1 WebApps'
+  url = '/classes/ws2021/m-wt1-webapplications/'
+  weight = 30
+[[menu.classes]]
+  parent = 'main'
+  identifier = '/classes/ws2021/index.html'
+  name = 'All WS 21/22'
+  url = '/classes/ws2021/index.html/'
+  weight = 40
+[[menu.classes]]
+  parent = 'main'
+  identifier = '/classes/'
+  name = 'All Classes'
+  url = '/classes/'
+  weight = 50
+
+
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact'
+  url = '/contact/'
+  weight = -180
+
+
+
+[[menu.main]]
+  identifier = 'studies'
+  name = 'Studies'
+  url = '/studies/'
+  weight = -170
+
+[[menu.studies]]
+parent = 'main'
+identifier = '/studies/thesis/'
+name = 'Thesis'
+url = '/studies/thesis//'
+weight = 10
+[[menu.studies]]
+parent = 'main'
+identifier = '/studies/ic/'
+name = 'IC'
+url = '/studies/ic//'
+weight = 20
+[[menu.studies]]
+parent = 'main'
+identifier = '/studies/grading/'
+name = 'Grading Info'
+url = '/studies/grading//'
+weight = 20
+
+[[menu.main]]
+  identifier = 'software_projects'
+  name = 'Software Projects'
+  url = '/software_projects/'
+  weight = -160
+
+
+[[menu.main]]
+  identifier = 'misc'
+  name = 'Misc'
+  url = '/misc/'
+  weight = -150
+
+  [[menu.misc]]
+    parent = 'main'
+    identifier = '/misc/about-this-site/'
+    name = 'About this Site'
+    url = '/misc/about-this-site//'
+    weight = 10
+  [[menu.misc]]
+    parent = 'main'
+    identifier = '/misc/trans/'
+    name = 'Trans*'
+    url = '/misc/trans//'
+    weight = 20
+  [[menu.misc]]
+    parent = 'main'
+    identifier = '/misc/lsfcollector/'
+    name = 'LSF'
+    url = '/misc/lsfcollector//'
+    weight = 30
+  [[menu.misc]]
+    parent = 'main'
+    identifier = '/misc/links/'
+    name = 'Links'
+    url = '/misc/links//'
+    weight = 40

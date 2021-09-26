@@ -2,7 +2,8 @@
 <ul class="nav flex-md-column">
 
 <li class="nav-item">
-  {% include navigation_nav_link.md url_element = "classes"  link_text = "Classes" %}
+  {{ partial "navigation/navigation_nav_link.md" (dict "url_element" "classes" "linkText" "Classes") }}
+  {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "content" .)}}
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% include navigation_dropdown_item.md url = "/classes/ws2021/info2" link_text = "B7 Info 2" %}
@@ -15,7 +16,8 @@
 </li>
 
   <li class="nav-item">
-    <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="{{ site.baseurl }}/contact/">Contact Info</a>
+    {{.RelPermalink }}
+    <a class="nav-link {{ if (eq .RelPermalink '/contact/') }}active{{ end }}" href="{{ .Site.BaseURL }}/contact/">Contact Info</a>
   </li>
 
 
@@ -31,7 +33,7 @@
 
 
   <li class="nav-item">
-    <a class="nav-link {% if page.url == '/software_projects/' %}active{% endif %}" href="{{ site.baseurl }}/software_projects/">Software Projects</a>
+    <a class="nav-link {% if page.url == '/software_projects/' %}active{{ end }}" href="{{ .Site.BaseURL }}/software_projects/">Software Projects</a>
   </li>
 
 
