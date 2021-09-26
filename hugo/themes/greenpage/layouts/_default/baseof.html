@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        {{- partial "navigation.html" . -}}
+        {{- partial "breadcrumbnav.html" . -}}
+        <div id="content">
+        {{- block "main" . }}Default definition of block main{{- end }}
+        </div>
+        <hr/>
+          {{- partial "sitemap.html" . -}}
+        <hr/>
+        {{- partial "pagelist.html" . -}}
+
+        <hr/>
+        {{- partial "footer.html" . -}}
+        {{- partial "debug.html" . -}}
+        <hr/>
+        {{ block "template" . }}block template not defined{{ end }}
+    </body>
+</html>

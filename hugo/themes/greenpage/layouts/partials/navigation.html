@@ -1,0 +1,24 @@
+<p>
+
+  <a href="{{ .Site.BaseURL }}" >Home</a>
+
+  | <a href="{{ .Site.BaseURL }}/leaf">Leaf</a>
+  | <a href="{{ .Site.BaseURL }}/branch">Branch</a>
+  | <a href="{{ .Site.BaseURL }}/branch/filledleaf">Branch->filledleaf</a>
+  | <a href="{{ .Site.BaseURL }}/branch/filledleaf/leaf">Branch->filledleaf->leaf</a>
+  | <a href="{{ .Site.BaseURL }}/filledleaf">filledleaf</a>
+  | <a href="{{ .Site.BaseURL }}/filledleaf/leaf">filledleaf/leaf</a>
+</p>
+
+<hr/>
+<h2>Lazy Section Menu: </h2>
+<p>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.sectionMenu }}
+        |
+        {{if or ($currentPage.IsMenuCurrent "sectionMenu" .) ($currentPage.HasMenuCurrent "sectionMenu" .) }} ->{{ end }}
+        <a href="{{ .URL }}" title="{{ .Title }}"> {{ .Name }}></a>
+    {{ end }}
+
+    </p>
+</nav>

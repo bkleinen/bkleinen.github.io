@@ -1,0 +1,11 @@
+{{ define "main" }}
+Hello from main index template
+<hr/>
+
+{{ .Content }}
+
+
+{{ end }}
+
+{{ define "template" }}theme: layouts/_index.html{{ end }}
+{{ define "template_not_working" }}will never be shown{{ end }}

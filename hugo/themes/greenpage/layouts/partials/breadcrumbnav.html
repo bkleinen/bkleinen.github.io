@@ -1,0 +1,20 @@
+
+<p>Breadcrumbs for: {{ .File.Dir}}</p>
+<p>
+  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+</p>
+
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+{{ else if not .p1.IsHome }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ end }}
+/
+{{ if eq .p1 .p2 }}**{{ end }}
+{{ $segments := strings.TrimRight "/" .p1.File.Dir }}
+{{ $segments := split $segments "/" }}
+{{ $name := last 1 $segments }}
+{{ $name := index $name 0 }}
+<a href="{{ .p1.Permalink }}">{{  $name }}</a>
+{{ end }}

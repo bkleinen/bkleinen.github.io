@@ -1,0 +1,18 @@
+<h2>Debug Info</h2>
+<ul>
+<li>
+  Content File: {{ .File.Path }}
+</li><li>
+  Kind: {{ .Page.Kind}}
+</li><li>
+  Type: {{ .Page.Type}}
+</li><li>
+  Layout: {{ .Page.Layout}}
+</li><li>
+  Environment: {{ hugo.Environment }}
+</li><li>
+  Version: {{ hugo.CommitHash }}
+</li><li>
+{{ block "template_not_working" . }}blocks have to be defined in baseof.html{{ end }}
+</li>
+</ul>
