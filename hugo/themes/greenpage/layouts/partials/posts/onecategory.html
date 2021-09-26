@@ -1,31 +1,18 @@
 
+<ul class="posts">
+{{ range where .Pages "old" "not in" "categories" }}
+    <li><small>{{ .Date  }} &raquo; </small><a href="{{ .URL }}">{{ .Title }}</a>
+      <br/>
+      <small>{{ .Summary }} <a href="{{ .URL }}">(go to article)</a></small>
+    </li>
+{{end}}
+</ul>
 
 <ul class="posts">
-  {% for post in site.posts %}
-  {% if post.categories contains include.showcategory %}
-    <li><small>{{ post.date | date_to_string }} &raquo; </small><a href="{{ post.url }}">{{ post.title }}</a>
-      {% if include.showexcerpt %}
+  {{ range where .Pages "old" "in" "categories" }}
+    <li><small>{{ .Date }} &raquo; </small><a href="{{ .URL }}">{{ .Title }}</a>
       <br/>
-      <small>{{ post.content | strip_html | truncatewords: 15 }} <a href="{{ post.url }}">(go to article)</a></small>
-      {% endif %}
+      <small>{{ .Summary }} <a href="{{ .URL }}">(go to article)</a></small>
     </li>
-  {% endif %}
-  {% endfor %}
+{{ end }}
 </ul>
-{% comment %}
-<ul>
-{% for category in site.categories %}
-<li>
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
-    {% for posts in category %}
-      {% for post in posts %}
-      {{ post }}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-</ul>
-{% endcomment %}

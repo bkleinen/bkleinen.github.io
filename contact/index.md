@@ -42,7 +42,7 @@ You can do that in the following ways:
 
 ## Office Hours
 
-  {% include officehours.md %}
+  {{- partial "officehours.html" . -}}
 
 ## Pronoun
 

@@ -4,6 +4,8 @@ title = 'Homepage Prof. Dr. Barne Kleinen'
 sectionPagesMenu = "sectionMenu"
 theme = "greenpage"
 
+[params]
+  serverencoding = "UTF-8"
 [menu]
 [[menu.main]]
   identifier = 'classes'
