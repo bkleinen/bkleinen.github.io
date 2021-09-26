@@ -1,4 +1,0 @@
----
-title: SGS
-author: kleinen
----

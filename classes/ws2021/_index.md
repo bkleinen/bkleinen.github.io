@@ -2,6 +2,7 @@
 title: Lectures WS 2021/21
 author: kleinen
 layout: page
+weight: 20212
 ---
 
 {% include classes/ws2021/lectures.md %}
