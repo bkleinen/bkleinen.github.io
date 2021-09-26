@@ -1,5 +1,5 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "themes-koans"
+title = 'Homepage Prof. Dr. Barne Kleinen'
 sectionPagesMenu = "sectionMenu"
+theme = "greenpage"
