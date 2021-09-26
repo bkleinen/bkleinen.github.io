@@ -15,7 +15,9 @@ ISBN: 978-1-292-40546-9
 [Lehmanns](https://www.lehmanns.de/shop/mathematik-informatik/56287656-9781292405469-computer-networking-global-edition),
 [Amazon](https://www.amazon.de/Computer-Networking-Global-James-Kurose/dp/1292405465?source=ps-sl-shoppingads-lpcontext&psc=1?th=1&psc=1).
 
-Access to the ebook will be available through the Library.
+Access to the ebook is be available [through the Library](https://sisis.rz.htw-berlin.de/search?bvnr=BV047350002) from within the HTW network (use the [VPN](https://rz.htw-berlin.de/anleitungen/vpn/) from outside).
+
+https://elibrary.pearson.de/book/99.150005/9781292405513
 
 ## Video Lectures
 
