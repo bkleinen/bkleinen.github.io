@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Homepage Prof. Dr. Barne Kleinen'
-sectionPagesMenu = "main"
+# sectionPagesMenu = "main"
 theme = "greenpage"
 
 [params]

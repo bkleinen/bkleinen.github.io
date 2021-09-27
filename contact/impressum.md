@@ -13,10 +13,10 @@ Sie in der [Datenschutzerklärung](../datenschutzerklaerung).
 
 ## Herausgeber
 
-Prof. Dr. Barne Kleinen<br/>
-HTW Berlin, Fachbereich 4<br/>
-Wilhelminenhofstr. 75A<br/>
-12495 Berlin<br/>
+Prof. Dr. Barne Kleinen  
+HTW Berlin, Fachbereich 4  
+Wilhelminenhofstr. 75A  
+12495 Berlin  
 
 barne.kleinen@htw-berlin.de
 

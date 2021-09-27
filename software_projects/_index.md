@@ -1,7 +1,6 @@
 ---
 title: Software Projects
 author: unckell
-layout: page
 ---
 
 # Projekte
@@ -24,3 +23,5 @@ layout: page
 ## Small Projects
 * [BVG-Graph](https://github.com/bkleinen/bvg-graph) (Rails)
 * [HTW Corona Update](https://github.com/htw-corona-update/htw-corona-update) (shell script, cron)
+* [Markdown Editor](/html/markdown-editor/markdown-editor.html)
+* [LSF-Emailcollector](/html/lsf-emailcollector.html)
