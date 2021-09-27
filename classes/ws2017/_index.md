@@ -1,7 +1,7 @@
 ---
-title: Lectures WS 2017
+title: Winter Term 2017/2018
 author: kleinen
-layout: page
+weight: 20172
 ---
 
 {% include classes/ws2017/lectures.md %}

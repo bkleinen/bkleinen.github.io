@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Homepage Prof. Dr. Barne Kleinen'
-sectionPagesMenu = "sectionMenu"
+sectionPagesMenu = "main"
 theme = "greenpage"
 
 [params]
@@ -10,51 +10,51 @@ theme = "greenpage"
 [[menu.main]]
   identifier = 'classes'
   name = 'Classes'
-  url = '/classes/'
+  pageref = '/classes'
   weight = -290
 
 [[menu.main]]
   parent = 'classes'
   identifier = '/classes/ws2021/info2'
   name = 'B7 Info 2'
-  url = '/classes/ws2021/info2/'
+  pageref = '/classes/ws2021/info2'
   weight = 5
 [[menu.main]]
   parent = 'classes'
   identifier = '/classes/ws2021/networks'
   name = 'B9 Networks'
-  url = '/classes/ws2021/networks/'
+  pageref = '/classes/ws2021/networks'
   weight = 10
 [[menu.main]]
   parent = 'classes'
   identifier = '/classes/ws2021/m1-web'
   name = 'M1 Labs'
-  url = '/classes/ws2021/m1-web/'
+  pageref = '/classes/ws2021/m1-web'
   weight = 20
 [[menu.main]]
   parent = 'classes'
   identifier = '/classes/ws2021/m-wt1-webapplications'
   name = 'M WT1 WebApps'
-  url = '/classes/ws2021/m-wt1-webapplications/'
+  pageref = '/classes/ws2021/m-wt1-webapplications'
   weight = 30
 [[menu.main]]
   parent = 'classes'
   identifier = '/classes/ws2021/index.html'
   name = 'All WS 21/22'
-  url = '/classes/ws2021/index.html/'
+  pageref = '/classes/ws2021/index.html'
   weight = 40
 [[menu.main]]
   parent = 'classes'
   identifier = '/classes/'
   name = 'All Classes'
-  url = '/classes/'
+  pageref = '/classes'
   weight = 50
 
 
 [[menu.main]]
   identifier = 'contact'
-  name = 'Contact'
-  url = '/contact/'
+  name = 'Contact Info'
+  pageref = '/contact'
   weight = -180
 
 
@@ -62,62 +62,62 @@ theme = "greenpage"
 [[menu.main]]
   identifier = 'studies'
   name = 'Studies'
-  url = '/studies/'
+  pageref = '/studies'
   weight = -170
 
 [[menu.main]]
 parent = 'studies'
 identifier = '/studies/thesis/'
 name = 'Thesis'
-url = '/studies/thesis//'
+pageref = '/studies/thesis'
 weight = 10
 [[menu.main]]
 parent = 'studies'
 identifier = '/studies/ic/'
 name = 'IC'
-url = '/studies/ic//'
+pageref = '/studies/ic'
 weight = 20
 [[menu.main]]
 parent = 'studies'
 identifier = '/studies/grading/'
 name = 'Grading Info'
-url = '/studies/grading//'
+pageref = '/studies/grading'
 weight = 30
 
 [[menu.main]]
   identifier = 'software_projects'
   name = 'Software Projects'
-  url = '/software_projects/'
+  pageref = '/software_projects'
   weight = -160
 
 
 [[menu.main]]
   identifier = 'misc'
   name = 'Misc'
-  url = '/misc/'
+  pageref = '/misc'
   weight = -150
 
 [[menu.main]]
   parent = 'misc'
   identifier = '/misc/about-this-site/'
   name = 'About this Site'
-  url = '/misc/about-this-site//'
+  pageref = '/misc/about-this-site'
   weight = 10
 [[menu.main]]
   parent = 'misc'
   identifier = '/misc/trans/'
   name = 'Trans*'
-  url = '/misc/trans//'
+  pageref = '/misc/trans'
   weight = 20
 [[menu.main]]
   parent = 'misc'
   identifier = '/misc/lsfcollector/'
   name = 'LSF'
-  url = '/misc/lsfcollector//'
+  pageref = '/misc/lsfcollector'
   weight = 30
 [[menu.main]]
   parent = 'misc'
   identifier = '/misc/links/'
   name = 'Links'
-  url = '/misc/links//'
+  pageref = '/misc/links'
   weight = 40

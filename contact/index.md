@@ -6,10 +6,10 @@ layout: page
 
 # Prof. Dr. Barne Kleinen
 
-<span class = "float-right">
-![Barne_Kleinen]({{ site.baseurl }}/images/bkleinen.jpg)
-</span>
+{{< figure src="/images/bkleinen.jpg" alt="Barne Kleinen" class="float-right">}}
 
+<span class = "float-right">
+</span>
 <p><a href="{{ site.baseurl }}/contact/impressum">Impressum</a>,<a href="{{ site.baseurl }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
 </p>
 
@@ -42,11 +42,11 @@ You can do that in the following ways:
 
 ## Office Hours
 
-  {{- partial "officehours.html" . -}}
+{{< officehours >}}
 
 ## Pronoun
 
-My [pronoun is \"he\"](https://pronoun.is/he). 
+My [pronoun is \"he\"](https://pronoun.is/he).
 
 ## Miscellany
 

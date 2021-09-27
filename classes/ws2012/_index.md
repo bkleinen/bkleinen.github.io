@@ -1,7 +1,7 @@
 ---
-title: Wintersemester 2012/2013
+title: Winter Term 2012/2013
 author: kleinen
-layout: page
+weight: 20122
 ---
 
 {% include classes/ws2012/lectures.md %}

@@ -15,11 +15,10 @@
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
 
-{{ if eq .p1 .p2 }}**{{ end }}
-{{ $segments := strings.TrimRight "/" .p1.File.Dir }}
-{{ $segments := split $segments "/" }}
-{{ $name := last 1 $segments }}
-{{ $name := index $name 0 }}
+
+
+  {{ $name := (replaceRE ".*/([^/]+)/?" "$1" .p1.RelPermalink) }}
+  {{ if eq "/" $name }}{{ $name := "HOME" }}{{ end }}
 
 {{ if eq .p1 .p2 }}
 <li class="breadcrumb-item active" aria-current="page">{{  $name }}</li>

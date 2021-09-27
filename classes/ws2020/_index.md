@@ -1,7 +1,6 @@
 ---
-title: Lectures WS 2020/21
+title: Winter Term 2020/21
 author: kleinen
-layout: page
 weight: 20202
 ---
 

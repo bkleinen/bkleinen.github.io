@@ -1,7 +1,7 @@
 ---
-title: Lectures WS 2014/2015
+title: Winter Term 2014/2015
 author: kleinen
-layout: default
+weight: 20142
 ---
 
 {% include classes/ws2014/lectures.md %}

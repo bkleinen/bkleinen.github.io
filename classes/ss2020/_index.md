@@ -1,7 +1,8 @@
 ---
-title: Lectures SoSe 2020
+title: Summer Term 2020
 author: kleinen
 layout: page
+weight: 20201
 ---
 
 {% include classes/ss2020/lectures.md %}

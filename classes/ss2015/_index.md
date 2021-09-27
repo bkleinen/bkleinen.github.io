@@ -1,7 +1,7 @@
 ---
-title: Lectures SS 2015
+title: Summer Term 2015
 author: kleinen
-layout: page
+weight: 20151
 ---
 
 {% include classes/ss2015/lectures.md %}

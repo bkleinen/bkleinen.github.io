@@ -1,7 +1,7 @@
 ---
-title: Lectures SoSe 2021
+title: Summer Term 2021
 author: kleinen
-layout: page
+weight: 20211
 ---
 
 {% include classes/ss2021/lectures.md %}

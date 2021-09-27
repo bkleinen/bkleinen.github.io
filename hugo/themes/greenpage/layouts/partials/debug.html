@@ -1,7 +1,9 @@
 <h2>Debug Info</h2>
 <ul>
 <li>
-  Content File: {{ .File.Path }}
+  {{ with .File }}
+  Content File: {{ .Path }}
+  {{ end }}
 </li><li>
   Kind: {{ .Page.Kind}}
 </li><li>

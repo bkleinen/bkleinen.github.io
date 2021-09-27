@@ -3,6 +3,8 @@
 {{ $currentPage := . }}
 {{ range .Site.Menus.main }}
 <li class="nav-item">
+ {{$currentPage}}
+  {{.URL}} {{$currentPage.IsMenuCurrent "main" .}} {{$currentPage.HasMenuCurrent "main" .}}
     {{ if .HasChildren }}
     <!-- HUGODO active über hugo -->
     <a class="nav-link dropdown-toggle {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active {{ end}}"
@@ -19,7 +21,7 @@
     </div>
 
     {{ else }}
-      <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+      <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
     {{ end }}
 
 </li>
