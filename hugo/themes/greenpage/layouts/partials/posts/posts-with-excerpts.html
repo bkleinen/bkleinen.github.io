@@ -1,6 +1,6 @@
 <ul class="posts">
 
-{{ range  .Pages  }}
+{{ range where .Pages "old" "not in" "categories" }}
     <li><small>{{ .Date  }} &raquo; </small><a href="{{ .URL }}">{{ .Title }}</a>
       <br/>
       <small>{{ .Summary }} <a href="{{ .URL }}">(go to article)</a></small>

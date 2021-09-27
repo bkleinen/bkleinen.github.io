@@ -1,9 +1,8 @@
 {{ define "main" }}
-ööö{{ .RelPermalink }}ööö
 
 {{ $re_classes := "/classes/$" }}
 {{ $re_semester   := "/classes/[^/]*/$" }}
-{{ $re_class             := "/classes/[^/]*/[^/]*/" }}
+{{ $re_class             := "/classes/[^/]*/[^/]*/$" }}
 {{ $re_class_complete    := "/classes/[^/]*/[^/]*/.*" }}
 
 ööö{{ .RelPermalink }}ööö
@@ -17,7 +16,7 @@
   {{ $result2 := findRE $re_class_complete .RelPermalink }}
   {{ $result2}}
     {{ if gt (len $result2) 0 }}
-     <h3>its belongs to a class!</h3>
+     <h3>it belongs to a class!</h3>
     {{ end }}
 
     {{ $result := findRE  $re_class .RelPermalink}}
@@ -27,23 +26,6 @@
        <h3>its a class!</h3>
       {{ end }}
 
-      {{ .Content }}
-
-{{ $result := findRE $re_classes .RelPermalink }}
-{{ $result}}
-{{ if gt (len $result) 0 }}
-<h3>Listing content..</h3>
-    {{ range .Pages.ByWeight.Reverse }}
-    <h3>{{ .Title }}</h3>
-    {{- partial "lectures.html" .}}
-    {{ end }}
-
-
+{{ .Content }}
 {{ end }}
-
-
-
-
-
-{{ end }}
-{{ define "template" }} theme: layouts/classes/list.html{{ end }}
+{{ define "template" }}theme: layouts/classes/single.html{{ end }}
