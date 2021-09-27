@@ -1,20 +1,21 @@
-<h2>Debug Info</h2>
+
+<hr><small>
+<h8>Debug Info</h8>
 <ul>
 <li>
   {{ with .File }}
-  Content File: {{ .Path }}
+  Path: {{ .Path }}
   {{ end }}
 </li><li>
   Kind: {{ .Page.Kind}}
 </li><li>
   Type: {{ .Page.Type}}
 </li><li>
+  Scratch type: {{ .Scratch.Get "type"}}
+</li><li>
   Layout: {{ .Page.Layout}}
-</li><li>
-  Environment: {{ hugo.Environment }}
-</li><li>
-  Version: {{ hugo.CommitHash }}
-</li><li>
-{{ block "template_not_working" . }}blocks have to be defined in baseof.html{{ end }}
 </li>
 </ul>
+</small>
+
+<hr>

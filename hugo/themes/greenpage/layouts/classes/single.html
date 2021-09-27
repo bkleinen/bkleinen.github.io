@@ -1,35 +1,13 @@
+
+
+{{ define "meta" }}
+{{ partial "classes/infertype.html" . }}
+{{ end }}
+
 {{ define "main" }}
-
-{{ $re_classes := "/classes/$" }}
-{{ $re_semester   := "/classes/[^/]*/$" }}
-{{ $re_class             := "/classes/[^/]*/[^/]*/$" }}
-{{ $re_class_complete    := "/classes/[^/]*/[^/]*/.*" }}
-
-ööö{{ .RelPermalink }}ööö
-
-{{ $result2 := findRE $re_semester .RelPermalink }}
-{{ $result2}}
-  {{ if gt (len $result2) 0 }}
-   <h3>its a semester!</h3>
-  {{ end }}
-
-  {{ $result2 := findRE $re_class_complete .RelPermalink }}
-  {{ $result2}}
-    {{ if gt (len $result2) 0 }}
-     <h3>it belongs to a class!</h3>
-    {{ end }}
-
-    {{ $result := findRE  $re_class .RelPermalink}}
-    {{ $result}}
-      {{ if gt (len $result) 0 }}
-
-       <h3>its a class!</h3>
-
-       <h3>Subpages: </h3>
-       {{- partial "sitemap.html" . -}}
-
-      {{ end }}
 
 {{ .Content }}
 {{ end }}
+
+
 {{ define "template" }}theme: layouts/classes/single.html{{ end }}

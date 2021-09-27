@@ -1,0 +1,6 @@
+
+{{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}
+
+<h3>Subpages: </h3>
+{{- partial "sitemap.html" . -}}
+{{ end }}

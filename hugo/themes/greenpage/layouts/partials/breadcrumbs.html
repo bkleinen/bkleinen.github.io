@@ -15,10 +15,9 @@
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
 
-
-
   {{ $name := (replaceRE ".*/([^/]+)/?" "$1" .p1.RelPermalink) }}
-  {{ if eq "/" $name }}{{ $name := "HOME" }}{{ end }}
+
+  {{ if (eq "/" $name) }}{{ $name = "HOME" }}{{ end }}
 
 {{ if eq .p1 .p2 }}
 <li class="breadcrumb-item active" aria-current="page">{{  $name }}</li>

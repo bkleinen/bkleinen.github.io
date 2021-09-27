@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
@@ -24,6 +25,13 @@
           <div class = "outer">
             {{- partial "breadcrumbs.html" . -}}
           </div>
+          {{- block "meta" . }}{{- end }}
+          {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
+              <div>
+                {{ partial "debug.html" . }}
+                {{ block "template" . }}block template not defined{{ end }}
+              </div>
+          {{ end }}
           <div class = "coursenav">{{- block "coursenav" . }}{{- end}}</div>
 
           {{- block "main" . }}{{ .Content }}{{- end }}
@@ -40,12 +48,7 @@
           <div class = "col-md-10 c4">
         {{- partial "footer.html" . -}}
           </div>
-          {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
-              <div>
-                {{ partial "debug.html" . }}
-                {{ block "template" . }}block template not defined{{ end }}
-              </div>
-          {{ end }}
+
 
         </footer>
 

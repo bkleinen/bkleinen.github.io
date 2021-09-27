@@ -1,51 +1,17 @@
+
+{{ define "meta" }}
+{{ partial "classes/infertype.html" . }}
+{{ end }}
+
 {{ define "main" }}
-ööö{{ .RelPermalink }}ööö
 
-{{ $re_classes := "/classes/$" }}
-{{ $re_semester   := "/classes/[^/]*/$" }}
-{{ $re_class             := "/classes/[^/]*/[^/]*/" }}
-{{ $re_class_complete    := "/classes/[^/]*/[^/]*/.*" }}
+{{ partial "classes/semester_header.html" . }}
 
-ööö{{ .RelPermalink }}ööö
+  {{ .Content }}
 
-{{ $result2 := findRE $re_semester .RelPermalink }}
-{{ $result2}}
-  {{ if gt (len $result2) 0 }}
-   <h3>its a semester!</h3>
-  {{ end }}
+  {{ partial "classes/all_classes.html" . }}
 
-  {{ $result2 := findRE $re_class_complete .RelPermalink }}
-  {{ $result2}}
-    {{ if gt (len $result2) 0 }}
-     <h3>its belongs to a class!</h3>
-    {{ end }}
-
-    {{ $result := findRE  $re_class .RelPermalink}}
-    {{ $result}}
-      {{ if gt (len $result) 0 }}
-
-       <h3>its a class!</h3>
-       <h3>Subpages: </h3>
-       {{- partial "sitemap.html" . -}}
-      {{ end }}
-
-      {{ .Content }}
-
-{{ $result := findRE $re_classes .RelPermalink }}
-{{ $result}}
-{{ if gt (len $result) 0 }}
-<h3>Listing content..</h3>
-    {{ range .Pages.ByWeight.Reverse }}
-    <h3>{{ .Title }}</h3>
-    {{- partial "lectures.html" .}}
-    {{ end }}
+{{end}}
 
 
-{{ end }}
-
-
-
-
-
-{{ end }}
-{{ define "template" }} theme: layouts/classes/list.html{{ end }}
+{{ define "template" }} theme: layouts/classes/list.html {{ end }}
