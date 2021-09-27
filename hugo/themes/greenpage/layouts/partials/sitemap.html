@@ -1,12 +1,8 @@
 
-<h3>Subpages: </h3>
 <ul>
 {{ template "sitemap" . }}
 </ul>
 
-<h3>Complete Sitemap:</h3>
-<ul>
-{{ template "sitemap" .Site.Home }}
 {{ define "sitemap" }}
     <li><a href= "{{ .Permalink }}">{{.RelPermalink }} ({{.Kind}}- {{ .Weight}})</a> --- <small>{{.Type }},{{.LinkTitle }},{{.Name }},{{.Title }}</small> </li>
     {{ if .Pages }}
@@ -17,4 +13,3 @@
     </ul>
     {{ end }}
 {{ end }}
-</ul>

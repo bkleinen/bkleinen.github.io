@@ -54,7 +54,10 @@
 {{ .Content }}
 
 {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
-{{- partial "sitemap.html" . -}}
+<h3>Complete Sitemap:</h3>
+<ul>
+{{- partial "sitemap.html" .Site.Home -}}
+</ul>
 <hr/>
 {{- partial "pagelist.html" . -}}
 {{ end }}

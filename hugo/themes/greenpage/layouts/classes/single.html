@@ -24,6 +24,10 @@
       {{ if gt (len $result) 0 }}
 
        <h3>its a class!</h3>
+
+       <h3>Subpages: </h3>
+       {{- partial "sitemap.html" . -}}
+
       {{ end }}
 
 {{ .Content }}
