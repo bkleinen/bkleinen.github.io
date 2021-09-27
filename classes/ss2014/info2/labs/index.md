@@ -73,7 +73,7 @@ The aim of this is to encourage all of you to work on the exercises regularly. T
 
 
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.BaseURL }}/studies/grading/guideline)
 
 
 

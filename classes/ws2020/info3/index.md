@@ -47,7 +47,7 @@ Due dates:
 
 ## Grades
 
-Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
+Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale):
 
 **Update Dec 3: Due to the ongoing COVID-19 situation, the Exam will be replaced
 by an continuous assessment consisting of a couple of little project and report

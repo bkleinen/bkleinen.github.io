@@ -23,7 +23,7 @@ You may also decide to just bind the individual parts as simple booklet: [DIY: B
 
 - make sure all pages have the correct orientation! (0P otherwise)
 - no empty pages, please.
-- if you want to start with Sketchnotes, [here are some pointers]({{ site.baseurl }}/news/sketchnotes/)
+- if you want to start with Sketchnotes, [here are some pointers]({{ site.BaseURL }}/news/sketchnotes/)
 ### Grading
 
 To get the points for the Chapter Summaries and Exercises, your Notebook Pages

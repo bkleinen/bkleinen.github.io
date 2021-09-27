@@ -33,7 +33,7 @@ Zeitpunkt durchführen zu können.
 
 ## Weitere Unterstützung
 
-Sie können sich bei weiteren Fragen oder wenn Sie Unterstützung brauchen gerne [bei mir melden]({{ site.baseurl }}/contact).
+Sie können sich bei weiteren Fragen oder wenn Sie Unterstützung brauchen gerne [bei mir melden]({{ site.BaseURL }}/contact).
 
 Weitere Informationen, insbesondere auch für Lehrende
 =================================================================

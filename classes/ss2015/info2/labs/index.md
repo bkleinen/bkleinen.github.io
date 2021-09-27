@@ -35,4 +35,4 @@ There are a couple of important changes for the labs compared with Info1:
 1. You are required to be able to present/explain your work **in the following lab** ("review"). How this is done will change from lab to lab, depending on the topic of the lab: one of you might be randomly chosen to present the work, I might talk to each or some of you individually, or it might even be a little quizz in moodle which should be easy to solve if you did the lab exercise.
 
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.BaseURL }}/studies/grading/guideline)

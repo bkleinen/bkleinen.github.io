@@ -28,7 +28,7 @@ Additional to the class meetings there will be a tutorial:
 
 ## Grades
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
+Your grade in Info1 will be a weighted mixture of the evaluated elements of the course. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale).
 
 * Lab Reports: 50%
 * Exam: 50%
@@ -81,7 +81,7 @@ On the top of the page you find a navigation that gives you access to all those 
 This is the menu:
 {% include classes/ws2019/info1.md %}
 
-* These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale)
+* These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
 * External Links:
     * Moodle for all Information that cannot be made publicly available and for handing in your lecture summaries and lab reports.
     * [Github](https://github.com/htw-imi-info1) for publicly accessible code examples used in the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)

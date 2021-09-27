@@ -43,7 +43,7 @@ should not be more than 5 pages and in PDF format and must have your names on it
 It must include a reflection on what you learned during the session.
 They must be submitted to the Moodle area by 22.00 the night before your next lab.
 
-[Here are some general guidelines on lab reports.]({{ site.baseurl }}/studies/grading/guideline)
+[Here are some general guidelines on lab reports.]({{ site.BaseURL }}/studies/grading/guideline)
 
 The reports count 50% of your grade.
 

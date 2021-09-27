@@ -51,7 +51,7 @@ The Grading in Informatics 1 will be done as follows:
 * 4 Bonus Points for [Inheritance Lab Assignment](labs/exercise-inheritance)
 
 This sums up to a total of 108 P and will be graded according to the
- [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale).
+ [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale).
 
 ### Programming Assignments
 
@@ -159,7 +159,7 @@ Here's the Course Navigation again:
 These places are in detail:
 
 * This Web Page for all information that may and should be publicly accessible,
-  especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale)
+  especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
 * [Moodle](https://moodle.htw-berlin.de) for all Information that cannot be made publicly available and for handing in your lecture summaries and lab reports.
 * the [LSF System](https://lsf.htw-berlin.de), where you can find class times and rooms. Note that is possible to see the general schedule for your Semester (Term Schedule above) and also Schedules for all people teaching (Dozentenpläne) - this is often the fastest way to find out the room for your next class.
 * [The lecture source code on Github](https://github.com/htw-imi-info1) for publicly accessible code examples used in the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)  

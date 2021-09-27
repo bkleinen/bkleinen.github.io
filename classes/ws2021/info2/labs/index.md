@@ -145,7 +145,7 @@ If you become ill with the usual cold, plan to use up one of the late slots.
 If you're having trouble keeping up for longer than a week, come talk to me
 or send me an email and we'll figure something out.
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.baseurl }}/studies/grading/guideline)
+[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.BaseURL }}/studies/grading/guideline)
 
 -->
 

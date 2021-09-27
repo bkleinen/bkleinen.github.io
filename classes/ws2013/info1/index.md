@@ -21,7 +21,7 @@ The class consists of 2x2h of lectures and 2h of lab:
 
 ## Grades
 
-Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
+Your grade in Info1 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale):
 
 * Lecture summaries: 10%
 * Lab reports: 50%
@@ -57,7 +57,7 @@ There are tons of Java Tutorials out there on the web, my recommendation are the
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages]({{ site.baseurl }}/) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale)
+* [These pages]({{ site.BaseURL }}/) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
 * [Github](https://github.com/htw-imi-info1) for publicly accessible code examples for the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
 * [Stundenplan](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112) des 1. Semesters
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports

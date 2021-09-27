@@ -35,7 +35,7 @@ The class consists of 2x2h of lectures and 2h of lab:
 
 ## Grades
 
-Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale):
+Your grade in Info2 will be a weighted mixture of the evaluated elements of the course (Lecture summaries, lab reports and exam). The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale):
 
 * Lecture summaries: 15%
 * Lab reports: 40%
@@ -64,7 +64,7 @@ There will be a 2-hour online examination on or about July 23. We will have 2 sh
 
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
-* [These pages](({{ site.baseurl }}/) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale)
+* [These pages](({{ site.BaseURL }}/) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
 * [Github](https://github.com/htw-imi-info2) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=2785) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92253),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=92254) for official course information.

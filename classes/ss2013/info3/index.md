@@ -10,7 +10,7 @@ layout: page
 
 *   Moodle2 - no longer active
 *   [Github][2]
-*   [Grading Scale]({{ site.baseurl }}/studies/grading/grading-scale)
+*   [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
 *   [EclEmma][4] Code Coverage for Eclipse
 
 &nbsp;

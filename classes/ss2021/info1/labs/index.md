@@ -34,7 +34,7 @@ Additionally, you upload a zip of your solution's source code.
 
 Both must be submitted individually to the Moodle area by 22.00 on thursday night.
 
-[Here are some general guidelines on lab reports.]({{ site.baseurl }}/studies/grading/guideline)
+[Here are some general guidelines on lab reports.]({{ site.BaseURL }}/studies/grading/guideline)
 
 ## Exercises
 

@@ -1,7 +1,11 @@
 
 
+
+{{ define "main" }}
+{{ .Content }}
 {{-  partial "posts/posts-with-excerpts.html" . }}
-
-## Archive (rather old posts)
-
+<h2>Old Posts</h2>
 {{- partial "posts/onecategory.html" . }}
+{{ end }}
+
+{{ define "template" }}theme: layouts/posts/list.html{{ end }}
