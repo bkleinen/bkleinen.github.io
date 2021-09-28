@@ -1,17 +1,6 @@
-<p>coursenav</p>
-
+coursenav
 {{ $course_page := . }}
-
-.LinkTitle
-<hr/>
-{{ $course_page.File.Path }}<br>
-{{ $course_page.File.File }}<br>
-{{ $course_page.File.Dir }}<br>
-
-<hr/>
 {{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}
-
-
 
 <ul class="nav nav-tabs">
   <li class="nav-item">
@@ -26,26 +15,20 @@
 {{ end }}
 
 
-{{ $fn := path.Join "content" $course_page.File.Dir  "coursenav.json" }}
-{{ if (fileExists $fn) -}}
-  {{ $dataJ := getJSON $fn }}
-  <br>
-  dataJ: {{ $dataJ }}
-{{ $dataF := $course_page.Params.courseNavExt }}
-  dataF: {{ $dataF}}
+{{/* course nav external links could also be provided via json file:
+  $fn := path.Join "content" $course_page.File.Dir  "coursenav.json"
+ if (fileExists $fn)
+  {{ $dataJ := getJSON $fn */}}
 
+{{ with $course_page.Params.courseNavExt }}
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">External Links</a>
     <div class="dropdown-menu">
-      {{ range $dataF }}
-      {{ .title }}
+      {{ range . }}
           <a class="dropdown-item" target = "ex_link" href="{{ .link }}">{{ .title }}</a>
-
-        {{ end }}
-</div>
+      {{ end }}
+    </div>
 </li>
-
 {{ end }}
-
 </ul>
 {{ end }}
