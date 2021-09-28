@@ -5,11 +5,9 @@ redirect_from: info2/
 type: class
 courseNav: Info2
 courseNavExt:
-  -
-    title: "Moodle"
+  - title: "Moodle"
     link:  "https://moodle.htw-berlin.de/course/view.php?id=33324"
-  -
-    title: "SU in LSF"
+  - title: "SU in LSF"
     link: "https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung"
   -
     title: "Semesterstundenplan im LSF"

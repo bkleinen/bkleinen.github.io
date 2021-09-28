@@ -3,15 +3,23 @@ coursenav
 {{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}
 
 <ul class="nav nav-tabs">
+
+{{ range $course_page.Params.courseNavInt }}
   <li class="nav-item">
-    {{ $menu_title := $course_page.Params.CourseNav | default ($course_page.Title) }}
-    <a class="nav-link {% if page.url == n[1] %}active{% endif %}" href="{{ $course_page.Permalink }}">{{ $menu_title }}</a>
+    <a class="nav-link {% if page.url == n[1] %}active{% endif %}" href="{{ .link }}">{{ .title }}</a>
   </li>
+{{ else }}
+<li class="nav-item">
+  {{ $menu_title := $course_page.Params.CourseNav | default ($course_page.Title) }}
+  <a class="nav-link {% if page.url == n[1] %}active{% endif %}" href="{{ $course_page.Permalink }}">{{ $menu_title }}</a>
+</li>
 {{ range where $course_page.Pages "Params.CourseNav" "!=" nil}}
   {{ $menu_title := .Params.CourseNav | default (.Title) }}
   <li class="nav-item">
     <a class="nav-link {% if page.url == n[1] %}active{% endif %}" href="{{ .Permalink }}">{{ $menu_title }}</a>
   </li>
+{{ end }}
+
 {{ end }}
 
 

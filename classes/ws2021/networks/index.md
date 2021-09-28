@@ -3,6 +3,15 @@ title: B9 Networks WS 2021/22
 author: kleinen
 layout: default
 redirect_from: networks/
+courseNavInt:
+- title: Overview
+  link: "/classes/ws2021/networks/"
+- title: Schedule
+  link: "/classes/ws2021/networks/schedule/"
+- title: Resources
+  link: "/classes/ws2021/networks/resources/"
+- title: Labs
+  link: "/classes/ws2021/networks/labs/"
 ---
 
 Welcome! This class will give you an introduction on how Computer Networks, especially the Internet, work.

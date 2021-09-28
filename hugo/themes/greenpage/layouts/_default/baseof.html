@@ -32,10 +32,9 @@
                    {{ partial "debug.html" . }}
             </ul></small><hr></div>
           {{ end }}
-          <div class = "coursenav">{{- block "coursenav" . }}{{- end}}</div>
+          <div class = "coursenav">{{- block "section-navigation" . }}{{- end}}</div>
 
           {{- block "main" . }}{{ .Content }}{{- end }}
-
 
           </div>
         </div>
