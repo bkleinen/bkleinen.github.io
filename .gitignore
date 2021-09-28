@@ -11,3 +11,4 @@ kramdown.diff
 temp.html
 *.swp
 node_modules/
+hugo/
