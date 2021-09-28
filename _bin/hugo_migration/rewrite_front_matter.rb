@@ -39,7 +39,7 @@ defined_coursenavs.each do | coursenav_include |
 
   section_index_file_name = index_file_name.gsub("/index.md","/_index.md")
   command = "git mv #{index_file_name} #{section_index_file_name}"
-  puts command
+  system(command)
 end
 
 puts "defined_coursenavs: #{defined_coursenavs.size}"
