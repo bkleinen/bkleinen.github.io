@@ -18,12 +18,14 @@ def extractInt(coursenav)
 
   #r2 = /{% assign navitems = \"([^ ]*)" | split: "," %}/
   r2 = /{% assign navitems = \"([^"]*)" | split: "," %}/
+  r_splitter = /{% assign n = navitem \| split: "(.*)" %}/
   m =  r2.match(coursenav)
   if m
     navitems = m[1]
     puts navitems
+    splitter = r_splitter.match(coursenav)[1]
+    puts "splitter: #{splitter}"
     menu = navitems.split(",").map do |n|
-      splitter = n.include?("--") ? "--" : "-"
       n = n.split(splitter)
       { "title" => n[0], "link" => n[1]}
     end
@@ -49,9 +51,9 @@ end
 def extractOldFormat(coursenav)
   r_internal_link = /\[([^\]]*)\]\({{ site.baseurl }}([^)]*)\)/
   r_external_link = /\[([^\]]*)\]\((http[^)]*)\)/
-
-  internal = coursenav.scan(r_internal_link).map{|n| { "title" => n[1], "link" => n[2]} }
-  external = coursenav.scan(r_external_link).map{|n| { "title" => n[1], "link" => n[2]} }
+  # bei scan ist 0 die erste gruppe...
+  internal = coursenav.scan(r_internal_link).map{|n| { "title" => n[0], "link" => n[1]} }
+  external = coursenav.scan(r_external_link).map{|n| { "title" => n[0], "link" => n[1]} }
 
   {"courseNavInt" => internal, "courseNavExt" => external}
 end
@@ -112,6 +114,9 @@ defined_coursenavs.each do | coursenav_include |
   count = count + result.scan(/- title:/).size
 end
   all_links_from_check = check()
+  puts "---------------- --------------------------------------------------"
+  puts "---------------- --------------------------------------------------"
+  puts "---------------- --------------------------------------------------"
   puts "found links: #{all_refs.size}"
   puts "count: #{count}"
   puts "check: #{all_links_from_check.size}"
@@ -122,8 +127,19 @@ end
 
   puts "found links: #{all_refs.size}"
   puts "check: #{all_links_from_check.size}"
+  puts "check uniq: #{all_links_from_check.uniq.size}"
+  puts "---------------- --------------------------------------------------"
+  puts "---------------- --------------------------------------------------"
+  puts "---------------- --------------------------------------------------"
 
   puts "missing: #{missing.size}"
   puts missing
   # puts all_refs
 # puts defined_coursenavs.join("% }\n{% include ")
+
+
+puts "----------------  all_refs  -------------------------"
+puts all_refs
+
+puts "----------------  all_links_from_check  -------------------------"
+puts all_links_from_check
