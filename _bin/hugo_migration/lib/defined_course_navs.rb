@@ -14,7 +14,6 @@ def get_directly_included
   directly_included =["classes/ss2014/info2.md",
   "classes/ss2015/info2.md",
   "classes/ss2017/media-programming-rails.md",
-  "classes/ss2017/user-centered-web-technology.md",
   "classes/ss2017/info2.md",
   "classes/ws2014/info1.md",
   "classes/ws2014/webapplications.md",

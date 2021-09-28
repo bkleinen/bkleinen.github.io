@@ -1,5 +1,5 @@
 
-require_relative './defined_course_navs.rb'
+require_relative './lib/defined_course_navs.rb'
 
 
 
