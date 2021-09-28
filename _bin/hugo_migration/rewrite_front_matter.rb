@@ -1,6 +1,6 @@
 
 require_relative './lib/defined_course_navs.rb'
-
+require_relative './lib/generate_course_navigation_front_matter.rb'
 
 
 defined_coursenavs = get_all_course_navs
@@ -18,10 +18,21 @@ defined_coursenavs.each do | coursenav_include |
   puts "================== #{index_file_name}"
   next unless File.file?(index_file_name)
   index_file = File.open(index_file_name).read
-  frontmatter_re = /\A---\n(.*)---\n/m
+  frontmatter_re = /\A-+\n(.*)\n-+\n/m
   frontmatter = frontmatter_re.match(index_file)[1]
   puts frontmatter
+
+  course_menu = generate_course_navigation(coursenav_include)
+
+  puts "========="
+  new_frontmatter = "---\n"+frontmatter+course_menu+"---\n"
+  index_file = index_file.gsub(frontmatter_re,new_frontmatter)
+  puts new_frontmatter
+  # puts index_file
+  puts "=================="
   count = count + 1
+
+  File.write(index_file_name, index_file)
 end
 
 puts "defined_coursenavs: #{defined_coursenavs.size}"
