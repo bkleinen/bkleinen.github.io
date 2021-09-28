@@ -12,5 +12,3 @@ thus, I've just copied the resulting html here:
 <p><a href="{{ site.baseurl }}/classes/ss2014/info2/schedule">Schedule</a> | <a href="{{ site.baseurl }}/classes/ss2014/info2/labs">Labs</a> |
 <a href="https://moodle.htw-berlin.de/course/view.php?id=2785">Moodle</a> | <a href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&amp;search=2&amp;veranstaltung.veranstid=92253">LSF</a> |
 <a href="https://github.com/htw-imi-info2">Github</a></p>
-
-

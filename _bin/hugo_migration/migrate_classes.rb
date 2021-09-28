@@ -55,6 +55,15 @@ def extractOldFormat(coursenav)
   internal = coursenav.scan(r_internal_link).map{|n| { "title" => n[0], "link" => n[1]} }
   external = coursenav.scan(r_external_link).map{|n| { "title" => n[0], "link" => n[1]} }
 
+  r_internal_link_html = /href="{{ site.baseurl }}([^"]*)"[^>]*>([^<]*)<\/a>/
+  internal_html = coursenav.scan(r_internal_link_html).map{|n| { "title" => n[1], "link" => n[0]} }
+
+  r_external_link_html = /href="(http[^"]*)"[^>]*>([^<]*)<\/a>/
+  external_html = coursenav.scan(r_external_link_html).map{|n| { "title" => n[1], "link" => n[0]} }
+
+  internal = internal.push(*internal_html)
+  external = external.push(*external_html)
+
   {"courseNavInt" => internal, "courseNavExt" => external}
 end
 
@@ -76,18 +85,11 @@ end
 
 
 
+require_relative './defined_course_navs.rb'
 
+defined_coursenavs = get_all_course_navs
+puts get_all_course_navs
 
-
-Dir.glob("classes/*/*/index.md")
-
-# read the list of available coursenavigations from the old coursenav
-old_coursenav = File.open("_includes/coursenav.md").read
-r1 = /{% capture available %}([^{]*){% endcapture %}/
-m =  r1.match(old_coursenav)
-
-defined_coursenavs = m[1].gsub(" ","\n").split("\n")
-defined_coursenavs.delete("index.md.md")
 
 # puts defined_coursenavs.inspect
 all_refs = []
@@ -102,6 +104,7 @@ defined_coursenavs.each do | coursenav_include |
   puts "coursenav_include: "+coursenav_include
   puts "format: #{format}"
   extracted = (format == :old) ? extractOldFormat(coursenav) : extractNewFormat(coursenav)
+  puts "extracted: #{extracted}"
   i = extracted["courseNavInt"].map{|h| h["link"] }
   e = extracted["courseNavExt"].map{|h| h["link"] }
   puts "i: #{i}"
