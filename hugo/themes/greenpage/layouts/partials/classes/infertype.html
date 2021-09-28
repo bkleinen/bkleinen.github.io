@@ -13,9 +13,8 @@
     {{ $result := findRE $type_re $current_page.RelPermalink }}
     {{ if gt (len $result) 0   }}
       {{  with $current_page.Scratch.Get "type" }}
-       WARNING: page already had type {{ . }}
+       WARNING: page already had type {{ . }}  INFO: assigning type {{ $type }}
        {{ end }}
-        INFO: assigning {{ $type }}
       {{   $current_page.Scratch.Set "type" $type }}
     {{ end }}
 {{ end }}

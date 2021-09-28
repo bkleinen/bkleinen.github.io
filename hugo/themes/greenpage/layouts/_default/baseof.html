@@ -26,12 +26,7 @@
             {{- partial "breadcrumbs.html" . -}}
           </div>
           {{- block "meta" . }}{{- end }}
-          {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
-              <div><hr><small>  <h8>Debug Info</h8><ul>
-                   <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
-                   {{ partial "debug.html" . }}
-            </ul></small><hr></div>
-          {{ end }}
+
           <div class = "coursenav">{{- block "section-navigation" . }}{{- end}}</div>
 
           {{- block "main" . }}{{ .Content }}{{- end }}
@@ -48,10 +43,13 @@
         {{- partial "footer.html" . -}}
           </div>
 
-
+          {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
+              <div><hr><small>  <h8>Debug Info</h8><ul>
+                   <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
+                   {{ partial "debug.html" . }}
+            </ul></small><hr></div>
+          {{ end }}
         </footer>
-
-
 
         <script>
             var tables = document.getElementsByTagName("table");
