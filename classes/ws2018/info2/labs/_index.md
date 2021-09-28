@@ -22,10 +22,6 @@ Lab Reports are due @ 23.00 the night before your next lab.
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
 
-{% comment %}
-*
-* [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
-{% endcomment %}
 
 After having a look into designing an object-oriented application in lab 1 and 2,
 we will do a lot of small-scale programming in Java during this term. As in Info1,

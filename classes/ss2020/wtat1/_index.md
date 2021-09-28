@@ -60,11 +60,6 @@ During distance learning, which may be for the whole term, I will make use of th
 
 Note that there is required reading to read *before* class.
 
-{% comment %}
-We meet each week for 2 x 1,5hrs. Although the schedule is split up into lecture and lab (SU+Ü) we
-will split up the time between lectures, assignments and practice and time for project work into your
-team more dynamically within these 3 hours.
-{% endcomment %}
 
 ## Digital Media
 
@@ -91,14 +86,3 @@ Wiederholungsmöglichkeiten im 2.PZ:
 * Exam - 60 % (Distanzklausur über Moodle)
 
 Weekly status reports are due Sunday 22:00.
-
-{% comment %}
-
-Your grade in WTAT1 will be a weighted mixture of the evaluated graded elements of the course.
-
-s. Those are not graded, but you need to turn in viable reports for each topic approximately every two weeks.
-* Quizzes: after the completion of each topic, there will be a brief Moodle quiz about the topic covered. If you choose to participate in those quizzes, they may count as 50% of your grade
-* Exam: There will be a Moodle exam at the end of term. It either counts
-    * 50% with the points from the quizzes as other 50%
-    * 100% if you get a better grade this way either because you didn't participate in the quizzes or have achieved fewer points than in the exam (yay! automatically. You don't even have to choose.)
-{% endcomment %}

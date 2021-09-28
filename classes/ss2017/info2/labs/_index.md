@@ -21,14 +21,7 @@ Lab Reports are due @ 23.00 the night before your next lab.
 * [Exercise 10 - Getting from A to B](lab-10) (Pre-Lab!)
 * [Exercise 11 - Scrabble Cheater Basic Edition](lab-11) (Pre-Lab!)
 *
-{% comment %}
 
-* [Exercise 11 - Finite Automata and Sorting](lab-11) (Pre-Lab!)
-
-* [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
-*
-* [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
-{% endcomment %}
 
 
 After having a look into designing an object-oriented application in lab 1 and 2, we will do a lot of small-scale programming in Java during this term. As in Info1, each lab has a pre-lab part, that you are expected to do before coming to the lab, an assignment that you work on during the lab. Usually, you're expected to turn in a report on what you did during the lab.

@@ -5,13 +5,7 @@ layout: default
 wide_layout: true
 ---
 
-{% comment %}
 
-
-x = 12;day_diff=1;d = Date.new(2017,10,10);(1..16).to_a.collect{|i|  a = i<x ? (7*(i-1)) : (7*i) ; dw = d+a; [dw.strftime("|#{i} | #{dw.cweek} | %a, %Y-%m-%d |"),(dw+day_diff).strftime("|   |    | %a, %Y-%m-%d |") ] }.flatten.each{|x| puts x}
-
-
-{% endcomment %}
 
 <br/>
 
@@ -50,10 +44,3 @@ x = 12;day_diff=1;d = Date.new(2017,10,10);(1..16).to_a.collect{|i|  a = i<x ? (
 | 16   | 5  | Tue, 2018-01-30                                   |                    | Exam                                                                         | Exam                                                                              |  |
 |      |    | Wed, 2018-01-31                                   |                    | No Lecture (Prüfungszeit)                                                    |                                                                                   |  |
 |      |    | Fri, 2018-02-02                                   |                    | Showtime !                                                                   |                                                                                   |  |
-
-
-
-{% comment %}
-Distributed Systems and SOA
-Continuous Integration
-{% endcomment %}

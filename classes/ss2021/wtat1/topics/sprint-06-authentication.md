@@ -11,9 +11,7 @@ Unit 5 - "User Authentication".
 
 Sprint 06 in the Module-Handbook example application:  
 [https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_06](https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_06)
-{% comment %}
-[https://github.com/htw-imi-wtat1/module-handbook-2021/releases/tag/Sprint_06](https://github.com/htw-imi-wtat1/module-handbook-2021/releases/tag/Sprint_06)
-{% endcomment %}
+
 
 Note that this unit only covers authentication - establishing the identity of
 the user - but no authorisation. Restricting access to parts of the application

@@ -25,7 +25,7 @@ To be able to add the new functionality as requested you should write
 Characterization tests first.
 You will not yet refactor or add the required new functionality!
 
-{% comment %}This will be next week's exercise. {% endcomment %}
+
 
 ### Install and Run Tests
 First, you need to install the Software and run the tests.
@@ -102,11 +102,3 @@ Test Driven Development.
 
 Upload your source code together with a brief lab report (PDF) describing the
 design of your refactored application with design patterns used.
-
-
-{% comment %}
-
-How did you approach the Gilded Rose Kata? What problems did you experience?
- What did you learn? (Note that it is not necessary to have the Kata completed,
-  just write up what you've achieved in the lab).
-{% endcomment %}

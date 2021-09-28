@@ -30,9 +30,7 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 10 - The World of You](exercise-10)
 * [Exercise 11 - Keeping Track of Stuff](exercise-11)
 * [Exercise 12 - Pick up and Carry](exercise-12)
-{% comment %}
-* [Exercise 13 - CRC Cards](exercise-13)
-{% endcomment %}
+
 
 ## Grading: Lab Reports
 
@@ -49,14 +47,14 @@ The reports count 50% of your grade.
 
 ## Group Work
 
-Labs and lab reports will be done in groups of three. These groups will be formed at 
+Labs and lab reports will be done in groups of three. These groups will be formed at
 random at the beginning of each lab. Each group member gets the same grade for the lab report
 that gets handed in.
 
 ## I could not attend the lab...
 
 Please post in the appropriate Moodle forum. You will be assigned a group. I expect
-you to do the exercises anyway and hand in a lab report. 
+you to do the exercises anyway and hand in a lab report.
 
 ## I can generally not attend the lab on wednesdays / thursdays...
 

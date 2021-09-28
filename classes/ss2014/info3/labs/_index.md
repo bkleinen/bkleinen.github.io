@@ -13,10 +13,7 @@ layout: page
 * [Exercise 05 - Sequence Diagrams and Ruby Finger exercises](lab-05)
 * [Exercise 06 - Rails First Steps](lab-06)
 * [Exercise 07 - Rails Associations and Internationalization](lab-07)
-{% comment %}
 
-
-{% endcomment %}
 
 
 In the Info3 lab, we will do quite different things:
@@ -36,17 +33,17 @@ There will be 7 exercises. The exercises will either be written reports - lab re
 1. Grading: there will be 7 Exercises alltogether. Grades are determined simply by counting how many reports you've submitted ***on time*** and how many reviews you've attended with an "ok".
 
 
-|Submitted >= |Reviewed "OK" >=|Grade|
-|:--|:--|:--|:--|:--|:--|
-|7|6| 1.0|
-|6|6| 1.3|
-|6|5| 2.0|
-|5|5| 2.3|
-|5|4| 2.7|
-|4|4| 3.0|
-|4|3| 3.3|
-|4|2| 3.7|
-|less||5.0|
+| Submitted >= | Reviewed "OK" >= | Grade |  |  |  |
+|:-------------|:-----------------|:------|:-|:-|:-|
+| 7            | 6                | 1.0   |  |  |  |
+| 6            | 6                | 1.3   |  |  |  |
+| 6            | 5                | 2.0   |  |  |  |
+| 5            | 5                | 2.3   |  |  |  |
+| 5            | 4                | 2.7   |  |  |  |
+| 4            | 4                | 3.0   |  |  |  |
+| 4            | 3                | 3.3   |  |  |  |
+| 4            | 2                | 3.7   |  |  |  |
+| less         |                  | 5.0   |  |  |  |
 
 
 ### What is "OK"?
@@ -64,14 +61,12 @@ They can be in txt, pdf or markdown format.
 
 ### Using Ruby & Rails on the iMacs
 
-edit/create a ~/.profile file 
+edit/create a ~/.profile file
 
     PATH=/usr/local/ruby/bin:$PATH
     PATH=/usr/local/ruby/lib/ruby/gems/1.9.1/bin/:$PATH
-    export PATH 
+    export PATH
     export GEM_HOME=/data/gems
     mkdir -p /data/gems
 
 do have bundler store new gems in /data/gems.
-
-

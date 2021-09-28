@@ -22,9 +22,7 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 10 - The World of You](exercise-10)
 * [Exercise 11 - Keeping Track of Stuff](exercise-11)
 * [Exercise 12 - Pick up and Carry](exercise-12)
-{% comment %}
-* [Exercise 13 - CRC Cards](exercise-13)
-{% endcomment %}
+
 
 ## Grading
 
@@ -33,15 +31,7 @@ try out things yourself and practice! Therefore, this class will have lots of
 exercises. In the Labs you will have opportunity to work on them, and, most
 importantly, **ask questions**  or **discuss it with others** if something is
 unclear to you or you are stuck somewhere.
-{% comment %}
-To encourage you to really tinker on these excercises rather than copying a given solution
-in order to achieve the best grade possible, lab reports won't be graded.
-You'll either get an "ok" for them if I feel you understood enough of the material
-to move on or an "not quite enough" if I think you need to revisit this excercise.
 
-We will talk about last weeks excercises first thing in the following lab.
-You'll then have one day to re-submit your report if it wasn't sufficient yet.
-{% endcomment %}
 ## Group Work
 Talking to each other and working in pairs or groups is also highly encouraged
 during the labs. This term, I will make a ***raffle for new groups of three

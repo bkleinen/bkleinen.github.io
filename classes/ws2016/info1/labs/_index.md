@@ -26,9 +26,7 @@ Each exercise has a **Pre-Lab** section. preperatory work that you are expected 
 * [Exercise 10 b - Adding Commands](exercise-10-b)
 * [Exercise 11 - Keeping Track of Stuff](exercise-11)
 * [Exercise 12 - Pick up and Carry](exercise-12)
-{% comment %}
-* [Exercise 13 - CRC Cards](exercise-13)
-{% endcomment %}
+
 
 ## Grading
 

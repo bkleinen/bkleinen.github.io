@@ -24,12 +24,10 @@ individual commit, and you you'll see the changes.
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter03/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2019.zip)
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter04/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2019.zip)
 
-* {% comment %}
 * [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter05/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2019.zip)
 
 * [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ws2019](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2019) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2019.zip)
 old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
-{% endcomment %}
 
 * [Chapter 07 (Simple Analyzer)](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer) - [ZIP](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer/archive/ws2019.zip)
 

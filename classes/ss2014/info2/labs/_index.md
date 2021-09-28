@@ -19,9 +19,7 @@ layout: page
 * [Exercise 11 - Getting from A to B](lab-11) (Pre-Lab!)
 * [Exercise 12 - Scrabble Cheater Basic Edition](lab-12) (Pre-Lab!)
 * [Exercise 13 - Scrabble Cheater Deluxe](lab-13) (Pre-Lab!)
-{% comment %}
-* Exercise 14 - Ladders (please read before lab, and maybe download the data)
-{% endcomment %}
+
 
 
 After having a look into designing an object-oriented application in lab 1 and 2, we will do a lot of small-scale programming in Java during this term. As in Info1, each lab has a pre-lab part, that you are expected to do before coming to the lab, an assignment that you work on during the lab. Usually, you're expected to turn in a report on what you did during the lab.
@@ -36,32 +34,18 @@ There are a couple of important changes for the labs compared with Info1:
 
 Scheme updated on 7/7/2014 to 13 Exercises altogether (instead of 14)
 
-|Submitted >= |Reviewed "OK" >=|Grade|
-|:--|:--|:--|:--|:--|:--|
-|12|11| 1.0|
-|11|10| 1.3|
-|10|09| 1.7|
-|09|08| 2.0|
-|08|07| 2.3|
-|07|06| 2.7|
-|06|05| 3.0|
-|05|04| 4.0|
-|less||5.0|
+| Submitted >= | Reviewed "OK" >= | Grade |  |  |  |
+|:-------------|:-----------------|:------|:-|:-|:-|
+| 12           | 11               | 1.0   |  |  |  |
+| 11           | 10               | 1.3   |  |  |  |
+| 10           | 09               | 1.7   |  |  |  |
+| 09           | 08               | 2.0   |  |  |  |
+| 08           | 07               | 2.3   |  |  |  |
+| 07           | 06               | 2.7   |  |  |  |
+| 06           | 05               | 3.0   |  |  |  |
+| 05           | 04               | 4.0   |  |  |  |
+| less         |                  | 5.0   |  |  |  |
 
-{% comment %}
-|Submitted >= |Reviewed "OK" >=|Grade|
-|:--|:--|:--|:--|:--|:--|
-|13|11| 1.0|
-|12|10| 1.3|
-|11|09| 1.7|
-|10|08| 2.0|
-|09|07| 2.3|
-|08|06| 2.7|
-|07|05| 3.0|
-|06|04| 4.0|
-|less||5.0|
-
-{% endcomment %}
 
 Please note that this scheme already allows for you to forget one submission, be on your grandpa's wedding one week, having the flu on another and opting to go surfing on a third and still earn an 1.0. These things are normal during a semester. If you become seriously ill or something other happens that keeps you from coming to classes for more
 than a week in a row, it is a good idea to inform me (and other people involved) via email as soon as you know/can and come talk to me as soon as possible, too.
@@ -74,8 +58,3 @@ The aim of this is to encourage all of you to work on the exercises regularly. T
 
 
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.BaseURL }}/studies/grading/guideline)
-
-
-
-
-
