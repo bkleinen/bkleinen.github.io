@@ -3,6 +3,8 @@ title: Info2 WS 2021/22 Schedule
 author: kleinen
 layout: default
 wide_layout: true
+courseNav: Schedule
+weight: 1
 ---
 
 This schedule is, as always, tentative. It will be adapted throughout the term.

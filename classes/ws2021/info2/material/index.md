@@ -2,6 +2,8 @@
 title: Info 2 Material
 author: kleinen
 layout: page
+courseNav: Material
+weight: 2
 ---
 
 This page is not yet available for WS2021/22

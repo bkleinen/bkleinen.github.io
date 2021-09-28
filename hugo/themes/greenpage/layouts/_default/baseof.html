@@ -27,10 +27,10 @@
           </div>
           {{- block "meta" . }}{{- end }}
           {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
-              <div>
-                {{ partial "debug.html" . }}
-                {{ block "template" . }}block template not defined{{ end }}
-              </div>
+              <div><hr><small>  <h8>Debug Info</h8><ul>
+                   <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
+                   {{ partial "debug.html" . }}
+            </ul></small><hr></div>
           {{ end }}
           <div class = "coursenav">{{- block "coursenav" . }}{{- end}}</div>
 
