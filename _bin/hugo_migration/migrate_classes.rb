@@ -38,7 +38,7 @@ def extractExt(coursenav)
     # r3 = /<a class="dropdown-item" target = "ex_link" href="([^"]*)">(.*)<\/a>/
     # menu = coursenav.scan(r3).map{|n| { "title" => n[0], "link" => n[1]} }
     r3 = /<a class="dropdown-item"( target = "ex_link")? href="([^"]*)">(.*)<\/a>/
-    menu = coursenav.scan(r3).map{|n| { "title" => n[1], "link" => n[2]} }
+    menu = coursenav.scan(r3).map{|n| { "title" => n[2], "link" => n[1]} }
 end
 
 def extractNewFormat(coursenav)
@@ -50,11 +50,32 @@ def extractOldFormat(coursenav)
   r_internal_link = /\[([^\]]*)\]\({{ site.baseurl }}([^)]*)\)/
   r_external_link = /\[([^\]]*)\]\((http[^)]*)\)/
 
-  internal = coursenav.scan(r_internal_link).map{|n| { "title" => n[0], "link" => n[1]} }
-  external = coursenav.scan(r_external_link).map{|n| { "title" => n[0], "link" => n[1]} }
+  internal = coursenav.scan(r_internal_link).map{|n| { "title" => n[1], "link" => n[2]} }
+  external = coursenav.scan(r_external_link).map{|n| { "title" => n[1], "link" => n[2]} }
 
   {"courseNavInt" => internal, "courseNavExt" => external}
 end
+
+def check()
+  r = /<a .*href="([^"]*)".*>([^<]*)<\/a>/
+  rs = /<a .*href=".*<\/a>/
+
+  fn = "_bin/hugo_migration/all_links.html"
+  s = File.open(fn).read
+
+  all = s.scan(rs)
+  matches = s.scan(r)
+  diff = all.size - matches.size
+  puts "WARNING!!!!! the check against a simpler RE showed that #{diff} matches were not found!" unless diff == 0
+
+  links  = matches = matches.map{ |m| m[0]}
+end
+
+
+
+
+
+
 
 Dir.glob("classes/*/*/index.md")
 
@@ -67,7 +88,8 @@ defined_coursenavs = m[1].gsub(" ","\n").split("\n")
 defined_coursenavs.delete("index.md.md")
 
 puts defined_coursenavs.inspect
-
+all_refs = []
+count = 0
 defined_coursenavs.each do | coursenav_include |
   coursenav = File.open("_includes/"+coursenav_include).read
   coursenav = remove_comments(coursenav)
@@ -78,7 +100,30 @@ defined_coursenavs.each do | coursenav_include |
   puts "coursenav_include: "+coursenav_include
   puts "format: #{format}"
   extracted = (format == :old) ? extractOldFormat(coursenav) : extractNewFormat(coursenav)
-  puts YAML.dump(extracted)
-
+  i = extracted["courseNavInt"].map{|h| h["link"] }
+  e = extracted["courseNavExt"].map{|h| h["link"] }
+  puts "i: #{i}"
+    puts "e: #{e}"
+  all_refs.push *i
+  all_refs.push *e
+  puts "all_refs: #{all_refs.size}"
+  result =  YAML.dump(extracted)
+  puts result
+  count = count + result.scan(/- title:/).size
 end
-puts defined_coursenavs.join("% }\n{% include ")
+  all_links_from_check = check()
+  puts "found links: #{all_refs.size}"
+  puts "count: #{count}"
+  puts "check: #{all_links_from_check.size}"
+
+  all_refs = all_refs.compact.map{|s| s.chomp("/")}
+  all_links_from_check = all_links_from_check.compact.map{|s| s.chomp("/")}
+  missing = all_links_from_check.difference(all_refs)
+
+  puts "found links: #{all_refs.size}"
+  puts "check: #{all_links_from_check.size}"
+
+  puts "missing: #{missing.size}"
+  puts missing
+  # puts all_refs
+# puts defined_coursenavs.join("% }\n{% include ")
