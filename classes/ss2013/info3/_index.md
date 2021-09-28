@@ -2,6 +2,7 @@
 title: Informatik 3 im Sommersemester 2013
 author: kleinen
 layout: page
+weight: 1
 ---
 
 [Assignments](assignments/)

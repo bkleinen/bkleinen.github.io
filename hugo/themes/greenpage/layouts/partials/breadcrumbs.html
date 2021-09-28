@@ -17,7 +17,7 @@
 
   {{ $name := (replaceRE ".*/([^/]+)/?" "$1" .p1.RelPermalink) }}
 
-  {{ if (eq "/" $name) }}{{ $name = "HOME" }}{{ end }}
+  {{ if (eq "/" $name) }}{{ $name = "Home" }}{{ end }}
 
 {{ if eq .p1 .p2 }}
 <li class="breadcrumb-item active" aria-current="page">{{  $name }}</li>
