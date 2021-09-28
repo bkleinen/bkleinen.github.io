@@ -3,7 +3,7 @@ require_relative './defined_course_navs.rb'
 
 
 
-defined_coursenavs = get_defined_course_navs
+defined_coursenavs = get_all_course_navs
 
 cn = Dir.glob("_includes/classes/*/*.md").reject{ |n| /lectures.md/.match(n) }.map{|s| s.gsub("_includes/","") }
 

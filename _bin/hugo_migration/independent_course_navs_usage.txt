@@ -24,12 +24,12 @@ hugo/content/classes/ss2017/media-programming-rails/overall-schedule/index.md:{%
 hugo/content/classes/ss2017/media-programming-rails/index.md:{% include classes/ss2017/media-programming-rails.md %}
 hugo/content/classes/ss2017/media-programming-rails/example-project/index.md:{% include classes/ss2017/media-programming-rails.md %}
 ---------- classes/ss2017/ucd.md --
-hugo/content/classes/ss2017/user-centered-web-technology/labs/report-2.md:{% include classes/ss2017/ucd.md %}
-hugo/content/classes/ss2017/user-centered-web-technology/labs/report-3.md:{% include classes/ss2017/ucd.md %}
-hugo/content/classes/ss2017/user-centered-web-technology/labs/index.md:{% include classes/ss2017/ucd.md %}
-hugo/content/classes/ss2017/user-centered-web-technology/labs/report-1.md:{% include classes/ss2017/ucd.md %}
-hugo/content/classes/ss2017/user-centered-web-technology/schedule/index.md:{% include classes/ss2017/ucd.md %}
-hugo/content/classes/ss2017/user-centered-web-technology/index.md:{% include classes/ss2017/ucd.md %}
+hugo/content/classes/ss2017/user-centered-web-technology/labs/report-2.md:{% include classes/ss2017/user-centered-web-technology.md %}
+hugo/content/classes/ss2017/user-centered-web-technology/labs/report-3.md:{% include classes/ss2017/user-centered-web-technology.md %}
+hugo/content/classes/ss2017/user-centered-web-technology/labs/index.md:{% include classes/ss2017/user-centered-web-technology.md %}
+hugo/content/classes/ss2017/user-centered-web-technology/labs/report-1.md:{% include classes/ss2017/user-centered-web-technology.md %}
+hugo/content/classes/ss2017/user-centered-web-technology/schedule/index.md:{% include classes/ss2017/user-centered-web-technology.md %}
+hugo/content/classes/ss2017/user-centered-web-technology/index.md:{% include classes/ss2017/user-centered-web-technology.md %}
 ---------- classes/ss2017/info2.md --
 hugo/content/classes/ss2017/info2/labs/index.md:{% include classes/ss2017/info2.md %}
 hugo/content/classes/ss2017/info2/schedule/index.md:{% include classes/ss2017/info2.md %}

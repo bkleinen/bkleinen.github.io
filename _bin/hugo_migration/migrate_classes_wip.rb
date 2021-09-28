@@ -10,6 +10,7 @@ def remove_comments(coursenav)
     puts "---removed comment!"
     puts m[1]
     puts "--------------"
+
   end
   return result
 end
@@ -99,21 +100,21 @@ defined_coursenavs.each do | coursenav_include |
   # decide if old or new format
   r2 = /{% assign navitems = \"([^ ]*)" | split: "," %}/
   format = r2.match(coursenav) ? :new : :old
-  puts "--------------------------------------#{coursenav_include}-(#{format})----"
-#  puts "coursenav_include: "+coursenav_include
-#  puts "format: #{format}"
+  puts "-------------------------------------------"
+  puts "coursenav_include: "+coursenav_include
+  puts "format: #{format}"
   extracted = (format == :old) ? extractOldFormat(coursenav) : extractNewFormat(coursenav)
-  #puts "extracted: #{extracted}"
-  # i = extracted["courseNavInt"].map{|h| h["link"] }
-  # e = extracted["courseNavExt"].map{|h| h["link"] }
-  # puts "i: #{i}"
-  #   puts "e: #{e}"
-  # all_refs.push *i
-  # all_refs.push *e
+  puts "extracted: #{extracted}"
+  i = extracted["courseNavInt"].map{|h| h["link"] }
+  e = extracted["courseNavExt"].map{|h| h["link"] }
+  puts "i: #{i}"
+    puts "e: #{e}"
+  all_refs.push *i
+  all_refs.push *e
   # puts "all_refs: #{all_refs.size}"
   result =  YAML.dump(extracted)
   puts result
-  # count = count + result.scan(/- title:/).size
+  count = count + result.scan(/- title:/).size
 end
   #all_links_from_check = check()
   # puts "---------------- --------------------------------------------------"

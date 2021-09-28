@@ -14,14 +14,13 @@ def get_directly_included
   directly_included =["classes/ss2014/info2.md",
   "classes/ss2015/info2.md",
   "classes/ss2017/media-programming-rails.md",
-  "classes/ss2017/ucd.md",
+  "classes/ss2017/user-centered-web-technology.md",
   "classes/ss2017/info2.md",
   "classes/ws2014/info1.md",
-  "classes/ws2014/wt1wa.md",
+  "classes/ws2014/webapplications.md",
   "classes/ws2014/info3.md"]
 end
 
 def get_all_course_navs
-  get_defined_course_navs.push(get_directly_included)
-  get_directly_included
+  get_defined_course_navs.push(*get_directly_included)
 end

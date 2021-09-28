@@ -3,7 +3,7 @@ title:  User-Centered Web Technology SS2017
 author: kleinen
 layout: default
 ---
-{% include classes/ss2017/ucd.md %}
+{% include classes/ss2017/user-centered-web-technology.md %}
 
 # Welcome!
 

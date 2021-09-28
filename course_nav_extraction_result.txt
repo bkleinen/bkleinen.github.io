@@ -1,0 +1,885 @@
+classes/ws2015/info3.md
+classes/ws2015/info1.md
+classes/ws2015/wt1wa.md
+classes/ws2016/info1.md
+classes/ws2016/media-programming-rails.md
+classes/ws2017/info3.md
+classes/ws2017/wtat2.md
+classes/ws2017/media-programming-rails.md
+classes/ss2018/info1.md
+classes/ss2018/media-programming-rails.md
+classes/ss2018/wt4.md
+classes/ws2018/wt2.md
+classes/ws2018/info2.md
+classes/ws2019/info1.md
+classes/ws2019/wt2-usability.md
+classes/ws2019/m-wt1-webapplications.md
+classes/ws2019/m6-project.md
+classes/ws2019/m1-web.md
+classes/ss2020/info2.md
+classes/ss2020/wtat1.md
+classes/ss2020/bachelorseminar.md
+classes/ss2020/m1-web.md
+classes/ss2020/m-wt4-ucd.md
+classes/ws2020/info3.md
+classes/ws2020/bachelorseminar.md
+classes/ws2020/m1-web.md
+classes/ws2020/m-wt1-webapplications.md
+classes/ss2021/info1.md
+classes/ss2021/wtat1.md
+classes/ss2021/m1-web.md
+classes/ss2021/m-wt4-ucd.md
+classes/ws2021/info2.md
+classes/ws2021/networks.md
+classes/ws2021/m1-web.md
+classes/ws2021/m-wt1-webapplications.md
+classes/ss2014/info2.md
+classes/ss2015/info2.md
+classes/ss2017/media-programming-rails.md
+classes/ss2017/ucd.md
+classes/ss2017/info2.md
+classes/ws2014/info1.md
+classes/ws2014/wt1wa.md
+classes/ws2014/info3.md
+--------------------------------------classes/ws2015/info3.md-(old)----
+---
+courseNavInt:
+- title: 'Info3:'
+  link: "/classes/ws2015/info3/"
+- title: Schedule
+  link: "/classes/ws2015/info3/schedule/"
+- title: Labs
+  link: "/classes/ws2015/info3/labs/"
+- title: Code Examples
+  link: "/classes/ws2015/info3/code/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=7348
+- title: Github
+  link: https://github.com/htw-imi-info3
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107762
+- title: Term Schedule
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2015/info1.md-(old)----
+---
+courseNavInt:
+- title: Info1
+  link: "/classes/ws2015/info1"
+- title: Schedule
+  link: "/classes/ws2015/info1/schedule/"
+- title: Labs
+  link: "/classes/ws2015/info1/labs/"
+- title: Code Examples
+  link: "/classes/ws2015/info1/code/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=7347
+- title: Github
+  link: https://github.com/htw-imi-info1
+- title: 'LSF:'
+  link: https://lsf.htw-berlin.de/
+- title: SU
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107425
+- title: Labs
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107740
+- title: Term Schedule
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2015/wt1wa.md-(old)----
+---
+courseNavInt:
+- title: WT1WA
+  link: "/classes/ws2015/wt1wa"
+- title: Schedule
+  link: "/classes/ws2015/wt1wa/schedule/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=7350
+- title: Term Schedule
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=168&idcol=k_abstgv.abstgvnr&idval=168&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20082
+- title: Class
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107338
+- title: Github
+  link: https://github.com/htw-imi-wt1wa-ws2015/
+--------------------------------------classes/ws2016/info1.md-(old)----
+---
+courseNavInt:
+- title: Info1
+  link: "/classes/ws2016/info1"
+- title: Schedule
+  link: "/classes/ws2016/info1/schedule/"
+- title: Labs
+  link: "/classes/ws2016/info1/labs/"
+- title: Code Examples
+  link: "/classes/ws2016/info1/code/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=10812
+- title: Github
+  link: https://github.com/htw-imi-info1
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=120088
+- title: Term Schedule
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2016/media-programming-rails.md-(old)----
+---
+courseNavInt:
+- title: 'M1 Media Programming: Web Technology'
+  link: "/classes/ws2016/media-programming-rails"
+- title: Schedule
+  link: "/classes/ws2016/media-programming-rails/schedule/"
+- title: Overall Schedule
+  link: "/classes/ws2016/media-programming-rails/overall-schedule/"
+- title: Assignments
+  link: "/classes/ws2016/media-programming-rails/assignments"
+- title: Example Project
+  link: "/classes/ws2016/media-programming-rails/example-project"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=11772
+- title: Github
+  link: https://github.com/media-programming-rails
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=119640
+--------------------------------------classes/ws2017/info3.md-(new)----
+Info3-/classes/ws2017/info3/,Schedule-/classes/ws2017/info3/schedule/,Labs-/classes/ws2017/info3/labs/
+splitter: -
+---
+courseNavInt:
+- title: Info3
+  link: "/classes/ws2017/info3/"
+- title: Schedule
+  link: "/classes/ws2017/info3/schedule/"
+- title: Labs
+  link: "/classes/ws2017/info3/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=14389
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131704
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info3
+--------------------------------------classes/ws2017/wtat2.md-(new)----
+WTAT2--/classes/ws2017/wtat2/,Schedule--/classes/ws2017/wtat2/schedule/,Topics--/classes/ws2017/wtat2/topics/
+splitter: --
+---
+courseNavInt:
+- title: WTAT2
+  link: "/classes/ws2017/wtat2/"
+- title: Schedule
+  link: "/classes/ws2017/wtat2/schedule/"
+- title: Topics
+  link: "/classes/ws2017/wtat2/topics/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=14388
+- title: LSF SU
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131102
+- title: LSF Übung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131108
+- title: Github
+  link: https://github.com/htw-imi-wtat2
+- title: Wiki
+  link: https://github.com/bkleinen/bkleinen.github.io/wiki/Exam-Questions-Collected-in-Class
+--------------------------------------classes/ws2017/media-programming-rails.md-(new)----
+M1--/classes/ws2017/media-programming-rails/,Overall Schedule--/classes/ws2017/media-programming-rails/overall-schedule/,WT Schedule--/classes/ws2017/media-programming-rails/schedule/,Assignments--/classes/ws2017/media-programming-rails/assignments/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ws2017/media-programming-rails/"
+- title: Overall Schedule
+  link: "/classes/ws2017/media-programming-rails/overall-schedule/"
+- title: WT Schedule
+  link: "/classes/ws2017/media-programming-rails/schedule/"
+- title: Assignments
+  link: "/classes/ws2017/media-programming-rails/assignments/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=15096
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131290
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20162
+- title: Github
+  link: https://github.com/htw-imi-m1-ws2017
+--------------------------------------classes/ss2018/info1.md-(new)----
+Info1-/classes/ss2018/info1/,Schedule-/classes/ss2018/info1/schedule/,Code-/classes/ss2018/info1/code/,Labs-/classes/ss2018/info1/labs/
+splitter: -
+---
+courseNavInt:
+- title: Info1
+  link: "/classes/ss2018/info1/"
+- title: Schedule
+  link: "/classes/ss2018/info1/schedule/"
+- title: Code
+  link: "/classes/ss2018/info1/code/"
+- title: Labs
+  link: "/classes/ss2018/info1/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=16365
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=137826
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=137851
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info1
+--------------------------------------classes/ss2018/media-programming-rails.md-(new)----
+M1--/classes/ss2018/media-programming-rails/,Overall Schedule--/classes/ss2018/media-programming-rails/overall-schedule/,Web--/classes/ss2018/media-programming-rails/web/,WT Schedule--/classes/ss2018/media-programming-rails/schedule/,Assignments--/classes/ss2018/media-programming-rails/assignments/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ss2018/media-programming-rails/"
+- title: Overall Schedule
+  link: "/classes/ss2018/media-programming-rails/overall-schedule/"
+- title: Web
+  link: "/classes/ss2018/media-programming-rails/web/"
+- title: WT Schedule
+  link: "/classes/ss2018/media-programming-rails/schedule/"
+- title: Assignments
+  link: "/classes/ss2018/media-programming-rails/assignments/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=15096
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131290
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20162
+- title: Github
+  link: https://github.com/htw-imi-m1-ss2018
+--------------------------------------classes/ss2018/wt4.md-(new)----
+WT4-/classes/ss2018/wt4/,Schedule-/classes/ss2018/wt4/schedule/,Reports-/classes/ss2018/wt4/reports/
+splitter: -
+---
+courseNavInt:
+- title: WT4
+  link: "/classes/ss2018/wt4/"
+- title: Schedule
+  link: "/classes/ss2018/wt4/schedule/"
+- title: Reports
+  link: "/classes/ss2018/wt4/reports/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=16364
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=137277
+--------------------------------------classes/ws2018/wt2.md-(new)----
+WT2-/classes/ws2018/wt2/,Schedule-/classes/ws2018/wt2/schedule/,Literature-/classes/ws2018/wt2/literature/,Assignments-/classes/ws2018/wt2/assignments/
+splitter: -
+---
+courseNavInt:
+- title: WT2
+  link: "/classes/ws2018/wt2/"
+- title: Schedule
+  link: "/classes/ws2018/wt2/schedule/"
+- title: Literature
+  link: "/classes/ws2018/wt2/literature/"
+- title: Assignments
+  link: "/classes/ws2018/wt2/assignments/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=18154
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142112
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142108
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=5&r_zuordabstgv.sembisint=6&missing=allTerms&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2018/info2.md-(new)----
+Info2-/classes/ws2018/info2/,Schedule-/classes/ws2018/info2/schedule/,Labs-/classes/ws2018/info2/labs/,Material-/classes/ws2018/info2/material/
+splitter: -
+---
+courseNavInt:
+- title: Info2
+  link: "/classes/ws2018/info2/"
+- title: Schedule
+  link: "/classes/ws2018/info2/schedule/"
+- title: Labs
+  link: "/classes/ws2018/info2/labs/"
+- title: Material
+  link: "/classes/ws2018/info2/material/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=18155
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142809
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142634
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&missing=allTerms&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info2
+--------------------------------------classes/ws2019/info1.md-(new)----
+Info1-/classes/ws2019/info1/,Schedule-/classes/ws2019/info1/schedule/,Code-/classes/ws2019/info1/code/,Labs-/classes/ws2019/info1/labs/
+splitter: -
+---
+courseNavInt:
+- title: Info1
+  link: "/classes/ws2019/info1/"
+- title: Schedule
+  link: "/classes/ws2019/info1/schedule/"
+- title: Code
+  link: "/classes/ws2019/info1/code/"
+- title: Labs
+  link: "/classes/ws2019/info1/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=21907
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154632
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154657
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info1
+--------------------------------------classes/ws2019/wt2-usability.md-(new)----
+WT2:/classes/ws2019/wt2-usability/,Schedule:/classes/ws2019/wt2-usability/schedule/,Literature:/classes/ws2019/wt2-usability/literature/,Assignments:/classes/ws2019/wt2-usability/assignments/
+splitter: :
+---
+courseNavInt:
+- title: WT2
+  link: "/classes/ws2019/wt2-usability/"
+- title: Schedule
+  link: "/classes/ws2019/wt2-usability/schedule/"
+- title: Literature
+  link: "/classes/ws2019/wt2-usability/literature/"
+- title: Assignments
+  link: "/classes/ws2019/wt2-usability/assignments/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=22210
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154098
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154094
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=5&r_zuordabstgv.sembisint=6&missing=allTerms&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2019/m-wt1-webapplications.md-(new)----
+M-WT1:/classes/ws2019/m-wt1-webapplications/,Schedule:/classes/ws2019/m-wt1-webapplications/schedule/,Assignments:/classes/ws2019/m-wt1-webapplications/assignments/
+splitter: :
+---
+courseNavInt:
+- title: M-WT1
+  link: "/classes/ws2019/m-wt1-webapplications/"
+- title: Schedule
+  link: "/classes/ws2019/m-wt1-webapplications/schedule/"
+- title: Assignments
+  link: "/classes/ws2019/m-wt1-webapplications/assignments/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=21906
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154128
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312
+- title: Github
+  link: "#"
+--------------------------------------classes/ws2019/m6-project.md-(new)----
+IN_VISIBLE:/classes/ws2019/m6-project/,Schedule:/classes/ws2019/m6-project/schedule/,Notes:/classes/ws2019/m6-project/notes/
+splitter: :
+---
+courseNavInt:
+- title: IN_VISIBLE
+  link: "/classes/ws2019/m6-project/"
+- title: Schedule
+  link: "/classes/ws2019/m6-project/schedule/"
+- title: Notes
+  link: "/classes/ws2019/m6-project/notes/"
+courseNavExt:
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wwrite&write=info&par=old&add.154890=15&show=lehrender&asi=pwA1plZnksxM.NU02B8J
+- title: Github
+  link: "#"
+--------------------------------------classes/ws2019/m1-web.md-(new)----
+M1--/classes/ws2019/m1-web/,Complete Schedule--/classes/ws2019/m1-web/complete-schedule/,WT Schedule--/classes/ws2019/m1-web/schedule/,Assignments--/classes/ws2019/m1-web/assignments/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ws2019/m1-web/"
+- title: Complete Schedule
+  link: "/classes/ws2019/m1-web/complete-schedule/"
+- title: WT Schedule
+  link: "/classes/ws2019/m1-web/schedule/"
+- title: Assignments
+  link: "/classes/ws2019/m1-web/assignments/"
+courseNavExt:
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154266
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20162
+--------------------------------------classes/ss2020/info2.md-(new)----
+Info2-/classes/ss2020/info2/,Schedule-/classes/ss2020/info2/schedule/,Material-/classes/ss2020/info2/material/,Labs-/classes/ss2020/info2/labs/
+splitter: -
+---
+courseNavInt:
+- title: Info2
+  link: "/classes/ss2020/info2/"
+- title: Schedule
+  link: "/classes/ss2020/info2/schedule/"
+- title: Material
+  link: "/classes/ss2020/info2/material/"
+- title: Labs
+  link: "/classes/ss2020/info2/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=25164
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161361
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info2
+--------------------------------------classes/ss2020/wtat1.md-(new)----
+WTAT1:/classes/ss2020/wtat1/,Schedule:/classes/ss2020/wtat1/schedule/,Topics:/classes/ss2020/wtat1/topics/,Literature:/classes/ss2020/wtat1/literature/
+splitter: :
+---
+courseNavInt:
+- title: WTAT1
+  link: "/classes/ss2020/wtat1/"
+- title: Schedule
+  link: "/classes/ss2020/wtat1/schedule/"
+- title: Topics
+  link: "/classes/ss2020/wtat1/topics/"
+- title: Literature
+  link: "/classes/ss2020/wtat1/literature/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=25161
+- title: Wiki
+  link: https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/WTAT1+Agile+Web+Development+SoSe+2020
+- title: GitHub
+  link: https://github.com/htw-imi-wtat1
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=160751
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=160747
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=5&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=6&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112
+--------------------------------------classes/ss2020/bachelorseminar.md-(new)----
+Bachelorseminar-/classes/ss2020/bachelorseminar/,Schedule-/classes/ss2020/bachelorseminar/schedule/
+splitter: -
+---
+courseNavInt:
+- title: Bachelorseminar
+  link: "/classes/ss2020/bachelorseminar/"
+- title: Schedule
+  link: "/classes/ss2020/bachelorseminar/schedule/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=27251
+--------------------------------------classes/ss2020/m1-web.md-(new)----
+M1--/classes/ss2020/m1-web/,Complete Schedule--/classes/ss2020/m1-web/complete-schedule/,WT Schedule--/classes/ss2020/m1-web/schedule/,Topics--/classes/ss2020/m1-web/topics/,Assignments--/classes/ss2020/m1-web/assignments/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ss2020/m1-web/"
+- title: Complete Schedule
+  link: "/classes/ss2020/m1-web/complete-schedule/"
+- title: WT Schedule
+  link: "/classes/ss2020/m1-web/schedule/"
+- title: Topics
+  link: "/classes/ss2020/m1-web/topics/"
+- title: Assignments
+  link: "/classes/ss2020/m1-web/assignments/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=25591
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=160911
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20162
+--------------------------------------classes/ss2020/m-wt4-ucd.md-(new)----
+M-WT4-UCD:/classes/ss2020/m-wt4-ucd/,Schedule:/classes/ss2020/m-wt4-ucd/schedule/,Reports:/classes/ss2020/m-wt4-ucd/reports/
+splitter: :
+---
+courseNavInt:
+- title: M-WT4-UCD
+  link: "/classes/ss2020/m-wt4-ucd/"
+- title: Schedule
+  link: "/classes/ss2020/m-wt4-ucd/schedule/"
+- title: Reports
+  link: "/classes/ss2020/m-wt4-ucd/reports/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=25162
+- title: Wiki
+  link: https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/M-WT4-UCD-SoSe2020
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=160790
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312
+--------------------------------------classes/ws2020/info3.md-(new)----
+Info3-/classes/ws2020/info3/,Assessment-/classes/ws2020/info3/continuous_assessment/,Schedule-/classes/ws2020/info3/schedule/,Labs-/classes/ws2020/info3/labs/
+splitter: -
+---
+courseNavInt:
+- title: Info3
+  link: "/classes/ws2020/info3/"
+- title: Assessment
+  link: "/classes/ws2020/info3/continuous_assessment/"
+- title: Schedule
+  link: "/classes/ws2020/info3/schedule/"
+- title: Labs
+  link: "/classes/ws2020/info3/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=28123
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164935
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231
+- title: Lecture Source Code
+  link: https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples
+--------------------------------------classes/ws2020/bachelorseminar.md-(new)----
+Bachelorseminar-/classes/ws2020/bachelorseminar/,Schedule-/classes/ws2020/bachelorseminar/schedule/
+splitter: -
+---
+courseNavInt:
+- title: Bachelorseminar
+  link: "/classes/ws2020/bachelorseminar/"
+- title: Schedule
+  link: "/classes/ws2020/bachelorseminar/schedule/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=28122
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164747
+--------------------------------------classes/ws2020/m1-web.md-(new)----
+M1--/classes/ws2020/m1-web/,Complete Schedule--/classes/ws2020/m1-web/complete-schedule/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ws2020/m1-web/"
+- title: Complete Schedule
+  link: "/classes/ws2020/m1-web/complete-schedule/"
+courseNavExt:
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164577
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
+--------------------------------------classes/ws2020/m-wt1-webapplications.md-(new)----
+M-WT1:/classes/ws2020/m-wt1-webapplications/,Schedule:/classes/ws2020/m-wt1-webapplications/schedule/,Sprint:/classes/ws2020/m-wt1-webapplications/sprint/
+splitter: :
+---
+courseNavInt:
+- title: M-WT1
+  link: "/classes/ws2020/m-wt1-webapplications/"
+- title: Schedule
+  link: "/classes/ws2020/m-wt1-webapplications/schedule/"
+- title: Sprint
+  link: "/classes/ws2020/m-wt1-webapplications/sprint/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=28121
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164444
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312
+- title: Sourcecode
+  link: "#"
+--------------------------------------classes/ss2021/info1.md-(new)----
+Info1-/classes/ss2021/info1/,Week Plan-/classes/ss2021/info1/week/,Schedule-/classes/ss2021/info1/schedule/,Labs-/classes/ss2021/info1/labs/,Notebook-/classes/ss2021/info1/notebook/,Code Examples-/classes/ss2021/info1/code/
+splitter: -
+---
+courseNavInt:
+- title: Info1
+  link: "/classes/ss2021/info1/"
+- title: Week Plan
+  link: "/classes/ss2021/info1/week/"
+- title: Schedule
+  link: "/classes/ss2021/info1/schedule/"
+- title: Labs
+  link: "/classes/ss2021/info1/labs/"
+- title: Notebook
+  link: "/classes/ss2021/info1/notebook/"
+- title: Code Examples
+  link: "/classes/ss2021/info1/code/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=31142
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=170115&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=170138&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=mittel&P.subc=plan&subdir=stg&week=&k_abstgv.abstgvnr=231&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1
+- title: Lecture Source Code
+  link: https://github.com/htw-imi-info1
+--------------------------------------classes/ss2021/wtat1.md-(new)----
+WTAT1:/classes/ss2021/wtat1/,Schedule:/classes/ss2021/wtat1/schedule/,Topics:/classes/ss2021/wtat1/topics/,Literature:/classes/ss2021/wtat1/literature/
+splitter: :
+---
+courseNavInt:
+- title: WTAT1
+  link: "/classes/ss2021/wtat1/"
+- title: Schedule
+  link: "/classes/ss2021/wtat1/schedule/"
+- title: Topics
+  link: "/classes/ss2021/wtat1/topics/"
+- title: Literature
+  link: "/classes/ss2021/wtat1/literature/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=31139
+- title: GitHub
+  link: https://github.com/htw-imi-wtat1
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=169610&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=169606&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=5&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=6&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112
+--------------------------------------classes/ss2021/m1-web.md-(new)----
+M1--/classes/ss2021/m1-web/,Complete Schedule--/classes/ss2021/m1-web/complete-schedule/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ss2021/m1-web/"
+- title: Complete Schedule
+  link: "/classes/ss2021/m1-web/complete-schedule/"
+courseNavExt:
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164577
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
+--------------------------------------classes/ss2021/m-wt4-ucd.md-(new)----
+M-WT4-UCD:/classes/ss2021/m-wt4-ucd/,Schedule:/classes/ss2021/m-wt4-ucd/schedule/,Reports:/classes/ss2021/m-wt4-ucd/reports/
+splitter: :
+---
+courseNavInt:
+- title: M-WT4-UCD
+  link: "/classes/ss2021/m-wt4-ucd/"
+- title: Schedule
+  link: "/classes/ss2021/m-wt4-ucd/schedule/"
+- title: Reports
+  link: "/classes/ss2021/m-wt4-ucd/reports/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=31140
+- title: Wiki
+  link: https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/M-WT4-UCD-SoSe2021
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=169649&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=312
+--------------------------------------classes/ws2021/info2.md-(new)----
+Info2-/classes/ws2021/info2/,Schedule-/classes/ws2021/info2/schedule/,Material-/classes/ws2021/info2/material/,Labs-/classes/ws2021/info2/labs/
+splitter: -
+---
+courseNavInt:
+- title: Info2
+  link: "/classes/ws2021/info2/"
+- title: Schedule
+  link: "/classes/ws2021/info2/schedule/"
+- title: Material
+  link: "/classes/ws2021/info2/material/"
+- title: Labs
+  link: "/classes/ws2021/info2/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=33324
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info2
+--------------------------------------classes/ws2021/networks.md-(new)----
+Overview-/classes/ws2021/networks/,Schedule-/classes/ws2021/networks/schedule/,Resources-/classes/ws2021/networks/resources/,Labs-/classes/ws2021/networks/labs/
+splitter: -
+---
+courseNavInt:
+- title: Overview
+  link: "/classes/ws2021/networks/"
+- title: Schedule
+  link: "/classes/ws2021/networks/schedule/"
+- title: Resources
+  link: "/classes/ws2021/networks/resources/"
+- title: Labs
+  link: "/classes/ws2021/networks/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=33323
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178930
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2021/m1-web.md-(new)----
+M1--/classes/ws2021/m1-web/,Complete Schedule--/classes/ws2021/m1-web/complete-schedule/
+splitter: --
+---
+courseNavInt:
+- title: M1
+  link: "/classes/ws2021/m1-web/"
+- title: Complete Schedule
+  link: "/classes/ws2021/m1-web/complete-schedule/"
+courseNavExt:
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=178852&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
+--------------------------------------classes/ws2021/m-wt1-webapplications.md-(new)----
+M-WT1:/classes/ws2021/m-wt1-webapplications/,Schedule:/classes/ws2021/m-wt1-webapplications/schedule/
+splitter: :
+---
+courseNavInt:
+- title: M-WT1
+  link: "/classes/ws2021/m-wt1-webapplications/"
+- title: Schedule
+  link: "/classes/ws2021/m-wt1-webapplications/schedule/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=33322
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178201
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312
+- title: Sourcecode
+  link: "#"
+--------------------------------------classes/ss2014/info2.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ss2014/info2/schedule"
+- title: Labs
+  link: "/classes/ss2014/info2/labs"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=2785
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&amp;search=2&amp;veranstaltung.veranstid=92253
+- title: Github
+  link: https://github.com/htw-imi-info2
+--------------------------------------classes/ss2015/info2.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ss2015/info2/schedule"
+- title: Labs
+  link: "/classes/ss2015/info2/labs"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=5941
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=102655
+- title: Github
+  link: https://github.com/htw-imi-info2
+--------------------------------------classes/ss2017/media-programming-rails.md-(old)----
+---
+courseNavInt:
+- title: 'M1 Media Programming: Web Technology'
+  link: "/classes/ss2017/media-programming-rails"
+- title: Schedule
+  link: "/classes/ss2017/media-programming-rails/schedule/"
+- title: Overall Schedule
+  link: "/classes/ss2017/media-programming-rails/overall-schedule/"
+- title: Assignments
+  link: "/classes/ss2017/media-programming-rails/assignments"
+courseNavExt:
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20162
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=12516
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+PrüfungsOrdnung+20162
+- title: Github
+  link: https://github.com/htw-imi-m1-ss2017
+--------------------------------------classes/ss2017/ucd.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ss2017/user-centered-web-technology/schedule"
+- title: Labs
+  link: "/classes/ss2017/user-centered-web-technology/labs"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=12518
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=126402
+- title: Github
+  link: https://github.com/htw-imi-ucd
+--------------------------------------classes/ss2017/info2.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ss2017/info2/schedule"
+- title: Labs
+  link: "/classes/ss2017/info2/labs"
+- title: Handouts
+  link: "/classes/ss2017/info2/handouts"
+- title: Worksheets
+  link: "/classes/ss2017/info2/worksheets"
+- title: Klausurfragen
+  link: "/classes/ss2017/info2/klausurfragen"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=12517
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=126306
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&missing=allTerms&k_abstgv.abstgvnr=231
+- title: Github
+  link: https://github.com/htw-imi-info2
+--------------------------------------classes/ws2014/info1.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ws2014/info1/schedule/"
+- title: Labs
+  link: "/classes/ws2014/info1/labs/"
+- title: Code Examples
+  link: "/classes/ws2014/info1/code/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=3994
+- title: Moodle Lab Group 1
+  link: https://moodle.htw-berlin.de/course/view.php?id=4070
+- title: Moodle Lab Group 2
+  link: https://moodle.htw-berlin.de/course/view.php?id=4069
+- title: Github
+  link: https://github.com/htw-imi-info1
+- title: Term Schedule
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231
+--------------------------------------classes/ws2014/wt1wa.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ws2014/webapplications/schedule/"
+courseNavExt:
+- title: Github
+  link: https://github.com/htw-imi-webapplications
+- title: Wiki
+  link: https://github.com/htw-imi-webapplications/bentobox/wiki/
+--------------------------------------classes/ws2014/info3.md-(old)----
+---
+courseNavInt:
+- title: Schedule
+  link: "/classes/ws2014/info3/schedule/"
+- title: Labs
+  link: "/classes/ws2014/info3/labs/"
+- title: Code Examples
+  link: "/classes/ws2014/info3/code/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=4007
+- title: Github
+  link: https://github.com/htw-imi-info3
+- title: Term Schedule
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
