@@ -21,18 +21,25 @@ defined_coursenavs.each do | coursenav_include |
   frontmatter_re = /\A-+\n(.*)\n-+\n/m
   frontmatter = frontmatter_re.match(index_file)[1]
   puts frontmatter
+  former_frontmatter = YAML.load(frontmatter)
 
   course_menu = generate_course_navigation(coursenav_include)
-
+  new_frontmatter = former_frontmatter.merge(course_menu)
+  new_frontmatter_yaml =  YAML.dump(new_frontmatter)
   puts "========="
-  new_frontmatter = "---\n"+frontmatter+course_menu+"---\n"
+  new_frontmatter = new_frontmatter_yaml+"---\n"
+  puts new_frontmatter_yaml
   index_file = index_file.gsub(frontmatter_re,new_frontmatter)
-  puts new_frontmatter
+
   # puts index_file
   puts "=================="
   count = count + 1
 
   File.write(index_file_name, index_file)
+
+  section_index_file_name = index_file_name.gsub("/index.md","/_index.md")
+  command = "git mv #{index_file_name} #{section_index_file_name}"
+  puts command
 end
 
 puts "defined_coursenavs: #{defined_coursenavs.size}"

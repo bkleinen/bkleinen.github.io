@@ -90,5 +90,5 @@ def generate_course_navigation(coursenav_include)
   r2 = /{% assign navitems = \"([^ ]*)" | split: "," %}/
   format = r2.match(coursenav) ? :new : :old
   extracted = (format == :old) ? extractOldFormat(coursenav) : extractNewFormat(coursenav)
-  result =  YAML.dump(extracted)
+
 end
