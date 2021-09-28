@@ -1,5 +1,5 @@
 ---
-title: Info2 SS2015
+title: Info2 SS2014
 author: kleinen
 layout: page
 ---

@@ -89,7 +89,7 @@ m =  r1.match(old_coursenav)
 defined_coursenavs = m[1].gsub(" ","\n").split("\n")
 defined_coursenavs.delete("index.md.md")
 
-puts defined_coursenavs.inspect
+# puts defined_coursenavs.inspect
 all_refs = []
 count = 0
 defined_coursenavs.each do | coursenav_include |
