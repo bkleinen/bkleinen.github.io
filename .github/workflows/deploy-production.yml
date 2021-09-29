@@ -27,7 +27,7 @@ jobs:
           hugo --minify -e production
           cd ..
 
-      - name: Deploy to Staging on Github Pages
+      - name: Deploy to Production on Github Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/hugo_migration'
         with:

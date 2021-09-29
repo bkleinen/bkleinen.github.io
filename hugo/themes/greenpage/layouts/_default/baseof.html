@@ -41,10 +41,10 @@
           </div>
           <div class = "col-md-10 c4">
         {{- partial "footer.html" . -}}
-        
+
           </div>
 
-          {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
+          {{ if (or (.Site.IsServer) (in (slice "staging" "development") hugo.Environment )) }}
               <div><hr><small>  <h8>Debug Info</h8><ul>
                    <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
                    {{ partial "debug.html" . }}
