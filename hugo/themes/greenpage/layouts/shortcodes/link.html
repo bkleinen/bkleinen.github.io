@@ -1,0 +1,10 @@
+{{- $title := .Get "title" -}}
+{{- $link := .Get "link" -}}
+{{- $completeLink := printf "%s%s" .Page.RelPermalink $link -}}
+{{- $cleanLink := (replaceRE "/[^/]*/../" "/" $completeLink) -}}
+{{- $page := site.GetPage $cleanLink -}}
+{{- with $page -}}
+  [{{- $title}}]({{$link}})
+{{- else }}
+  {{- $title -}}
+{{- end -}}

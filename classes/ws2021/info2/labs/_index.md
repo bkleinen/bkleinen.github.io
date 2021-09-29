@@ -31,10 +31,11 @@ Ask questions that can't wait in the Moodle Forum. That's better than writing an
 ## Teams
 You will work in teams of two or three. You will usually switch teams after three labs.
 That means you should form new groups before the following labs:
-* [Exercise 01 - Application Design](lab-01)
-* [Exercise 04 - Chatterbox](lab-04)
-* [Exercise 07 - Recursive Triangles](lab-07)
-* [Exercise 10 - Getting from A to B](lab-10)
+
+* {{% link title ="Exercise 01 - Application Design" link = "lab-01" %}}
+* {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}
+* {{% link title ="Exercise 07 - Recursive Triangles" link = "lab-07" %}}
+* {{% link title ="Exercise 10 - Getting from A to B" link = "lab-10" %}}
 
 You can chose your team mates. Each team mate needs to register for the team on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up for a team, you won't be able to hand anything in.
 
@@ -131,6 +132,6 @@ If you become ill with the usual cold, plan to use up one of the late slots.
 If you're having trouble keeping up for longer than a week, come talk to me
 or send me an email and we'll figure something out.
 
-[Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.BaseURL }}/studies/grading/guideline)
+{{% link title ="Last semesters, I found it necessary to clarify some more things about the reports." link = "{{ site.BaseURL }}/studies/grading/guideline" %}}
 
 -->
