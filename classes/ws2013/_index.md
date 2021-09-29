@@ -5,4 +5,4 @@ layout: page
 weight: 20132
 ---
 
-{% include classes/ws2013/lectures.md %}
+

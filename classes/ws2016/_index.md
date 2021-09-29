@@ -4,4 +4,4 @@ author: kleinen
 weight: 20162
 ---
 
-{% include classes/ws2016/lectures.md %}
+
