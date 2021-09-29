@@ -2,8 +2,6 @@ name: Deploy Production
 
 on:
   push:
-    branches:
-      - hugo_migration  # Set a branch to deploy
     tags:
       - 'v*'
 

@@ -15,13 +15,6 @@ jobs:
       HOST1: ${{ secrets.HOST1 }}
       HOST2: ${{ secrets.HOST2 }}
     steps:
-      - name: Check Settings
-        if: ${{ secrets.HOST1 == '' }}
-        uses: actions/github-script@v3
-        with:
-          script: |
-           core.setFailed('HOST1 is missing.')
-
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
