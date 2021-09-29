@@ -29,7 +29,7 @@ jobs:
         run: |
           if ["$HOST1" == ""]; then
             echo "HOST1 not set; doing nothing and am happy about that"
-          elif
+          else
             hugo  --source hugo --destination ../public-htw --environment htw --baseURL https://home.htw-berlin.de/~kleinen/hugo
 
             ssh -o StrictHostKeyChecking=no $HOST1 "mkdir -p ~/hugo-tunnel"
