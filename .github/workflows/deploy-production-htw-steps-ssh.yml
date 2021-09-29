@@ -23,7 +23,7 @@ jobs:
           ssh-private-key: ${{ secrets.WEBSSHKEY }}
       - name: Create Known Hosts File
         run: |
-            echo "imi-map-staging.f4.htw-berlin.de,141.45.146.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJIlOHca03pyRBPOXeTACSaXZbTPNgKa6uactKzE/mT2rOmvBLAERiFekPsXA6DtahxKQ64lRMfiK7KGPtNoPDk=" >> ~/.ssh/known_hosts
+            cp _bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
