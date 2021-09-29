@@ -2,10 +2,8 @@ name: Deploy HTW in single steps
 
 on:
   push:
-    branches:
-      - hugo_migration  # Set a branch to deploy
-    tags-ignore:
-      - 'v*'
+    tags:
+      - 'x*'
 
 jobs:
   deploy:
