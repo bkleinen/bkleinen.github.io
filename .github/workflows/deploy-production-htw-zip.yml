@@ -50,4 +50,5 @@ jobs:
       - name: Copy 2
         run: |
             echo $WEBSSHKEY | ssh $HOST1 'cat >>  ~/.tmp; chmod 600  ~/.tmp'
+            ssh $HOST1 "ls -lart"
             ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1
