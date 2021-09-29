@@ -29,8 +29,9 @@ fi
 git log --pretty=format:'%h' -n 1 > commit.txt
 jekyll build --config _config.yml,_htwconfigrz.yml
 cd hugo
-git checkout hugo_migratio
-hugo -e htw --minify -d ../_site_htw_rz/hugo
+git checkout hugo_migration
+hugo -e htw --minify
+cp -r publish  ../_site_htw_rz/hugo
 cd ..
 
 if [ $? -eq 0 ]; then
