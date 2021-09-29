@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 11: Finite State Automata and Sorting Algorithms'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 ***P1.*** What is the difference between an NFA and an DFA?
 
@@ -72,4 +72,3 @@ Also answer the following questions in your report:
 * Part 1, A, 2: Which test cases did you chose?
 * Part 1, B: Put the transition diagrams in your report.
 * Part 2: Each of the algorithms has a location marked with //step. In your report, note down the state of the array at this location for each time the algorithm passes this line.
-{% endcomment %}

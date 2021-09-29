@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 03: Histogram '
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 Please think through the following questions before coming to the lab. Write down your answers and be prepared to answer them in class.
 
@@ -52,4 +52,3 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 
 Additional requirements for this lab:
 * Answer the following questions: What is the complexity of your program? Why?
-{% endcomment %}

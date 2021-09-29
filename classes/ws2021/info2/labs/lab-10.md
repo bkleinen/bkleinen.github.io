@@ -2,7 +2,6 @@
 title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
-ready: false
 draft: true
 ---
 This page is not yet available for WS 2021/22

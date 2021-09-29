@@ -1,7 +1,8 @@
 ---
 title: 'Info2: Exercise 00: Programming & Tools'
-author: kleinen
+author: Linda Fernsel
 layout: lab
+draft: false
 ---
 
 ## Pre-Lab (Do this BEFORE the lab)
@@ -14,7 +15,7 @@ The labs will be taught on campus. You can either
 
 If you decide to work on your own computer:
 * Install and set up git (You will use git to hand in code - you will be added to the Info2 group when you get added on Moodle). You don't need a Git GUI, you can use it via the command line or git bash.
-* Install and set up [IntelliJ](https://www.jetbrains.com/de-de/idea/download/). Get an [educational license](https://www.jetbrains.com/community/education/#students). 
+* Install and set up [IntelliJ](https://www.jetbrains.com/de-de/idea/download/). Get an [educational license](https://www.jetbrains.com/community/education/#students).
 
 ### 2. Prepare some more...
 * Sign in to [the IMI GitLab](https://gl-imi.f4.htw-berlin.de) and give yourself a name with which I can recognize you (something else than your Matrikelnummer! A nickname is enough.). You can only reach the IMI GitLab from at home if you use [VPN](https://rz.htw-berlin.de/anleitungen/vpn/).
@@ -65,7 +66,7 @@ git push
 
 10) Update the printed message using IntelliJ!
 11) Commit your changes and push your committed changes.
-13) Did it work? You should now see your project files online and locally, and be able to push any changes you make locally. If anything is not working, ask your peers. 
+13) Did it work? You should now see your project files online and locally, and be able to push any changes you make locally. If anything is not working, ask your peers.
 14) Answer the following questions:
 
   a) What does it mean to clone a repository?
@@ -79,5 +80,5 @@ git push
 15) Post any open questions in the Moodle Forum. See any questions there you can answer? Please try and answer them!
 
 ## Submission
-Submit your lab report and the link to your repository on Moodle. Make sure that the link is put in the available text field. 
+Submit your lab report and the link to your repository on Moodle. Make sure that the link is put in the available text field.
 Deadline is 10pm before your next lab.

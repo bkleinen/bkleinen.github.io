@@ -4,6 +4,7 @@ author: kleinen
 layout: page
 courseNav: Material
 weight: 2
+draft: true
 ---
 
 This page is not yet available for WS2021/22

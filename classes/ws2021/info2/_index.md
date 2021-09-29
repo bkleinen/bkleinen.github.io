@@ -67,7 +67,7 @@ There will be a tutorial. (More Info to come)
 As in Informatics 1, there will be a Lab, and there will be an Exam. More
 details will follow until start of classes.
 
-{% comment %}
+<!--
 
 For passing Info2, you need to pass three parts (Teilmodulprüfungen)
 
@@ -108,13 +108,13 @@ If you want to choose one of the options actively, just send me an email.
 Note that as all, Lab Reports, Quizzes and the Exam are parts of the "Modulprüfung",
 cheating on any of them will result in a 5,0 (nicht bestanden) for the whole
 module and use up one of the three possible tries for this module.
-{% endcomment%}
+--%>
 
 ### Labs
 There'll be 14 exercises and you'll have to hand in a lab report for each.
 All info on the labs can be found on the [Labs](labs) page.
 
-{% comment %}
+<%--
 ### Quizzes
 
 Starting April 30, there will be brief Quizzes in Moodle at the beginning of each lecture.
@@ -153,7 +153,7 @@ early as possible and we will find an individual solution.
 
 More info about the Lab Reports and their assessment can be found on the [Labs](labs) page.
 -->
-{% endcomment %}
+
 
 ### Examinations for Students who already took Info2
 

@@ -2,10 +2,9 @@
 title: 'Info2: Exercise 01: Application Design'
 author: kleinen
 layout: lab
+draft: true
 ---
 
-This page is not yet available for WS 2021/22
-{% comment %}
 ## Pre-Lab
 
 Remember to do all the necessary steps listed on the [Labs](..) page, including the following exercises:
@@ -71,4 +70,3 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 
 Additional requirements for this lab:
 * Please submit your final CRC cards and a description of the process you went through for creating them.
-{% endcomment %}

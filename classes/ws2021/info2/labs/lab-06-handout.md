@@ -2,9 +2,9 @@
 title: 'Info2: Handout for Exercise 6: Infix/Prefix/Postfix'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 
 ## Definitions
 
@@ -53,4 +53,3 @@ This page is not yet available for WS 2021/22
         3. calculate lhs t rhs;
         4. push the result
 3. The top of the stack is the result.
-{% endcomment %}

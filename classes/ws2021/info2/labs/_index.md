@@ -5,7 +5,7 @@ layout: page
 courseNav: Labs
 weight: 3
 ---
-{% comment %}This page is not yet available for WS 2021/22{% endcomment %}
+
 Welcome! On this page you find important information about the labs: How to prepare, how to communicate, what to work on, how to submit. Read through it carefully and ask if anything is unclear.
 
 ## Before the lab: Pre-Labs
@@ -25,24 +25,8 @@ Please be there on time. Please note that food and open beverages are not allowe
 Ask questions that can't wait in the Moodle Forum. That's better than writing an email, because this way, all people can see the answer. Of course you can also ask during the lab.
 
 ### Lab Assignments
-* [Exercise 00 - Programming & Tools](lab-00)
-* [Exercise 01 - Application Design](lab-01)
-* [Exercise 02 - Implementing CRC Cards](lab-02)
-* [Exercise 03 - Histogram](lab-03)
-* [Exercise 04 - Chatterbox](lab-04)
-* [Exercise 05 - Execution times](lab-05)
-* [Exercise 06 - Reverse Polish Notation](lab-06)
-* [Exercise 07 - Recursive Triangles](lab-07)
-* [Exercise 08 - Eight Queens](lab-08)
-* [Exercise 09 - Probabilistic Algorithms](lab-09)
-* [Exercise 10 - Getting from A to B](lab-10)
-* [Exercise 11 - Finite State Automata and Sorting](lab-11)
-* [Exercise 12 - Scrabble Cheater Basic Edition](lab-12)
-* [Exercise 13 - Scrabble Cheater Deluxe](lab-13)
 
-<!--
-* [Exercise 14 - Ladders](lab-14) (please read before lab, and maybe download the data)
--->
+{{< subpages  >}}
 
 ## Teams
 You will work in teams of two or three. You will usually switch teams after three labs.
@@ -79,13 +63,13 @@ Content that should go in the report:
 * if you were asked to write code: an explanation of how you tested your code
 * if questions were asked: the answers to the questions
 
-*What if I our team didn't get the code to work?* 
+*What if I our team didn't get the code to work?*
 It's ok not to have completely succeeded on the assignment, as long as you have tried sufficiently.
 
-*How long should the report be?* 
+*How long should the report be?*
 Elegance lays in the ability to get to the point in as few sentences as necessary.
 
-*Which language should the report be in?* 
+*Which language should the report be in?*
 You can write in English or German. But decide for one language.
 
 ### How to submit correctly
@@ -96,7 +80,7 @@ Please submit to Moodle *only*:
 Only one team member should upload the report. If team members upload different reports (or different repos), I'll chose one at random to review.
 
 ### Git
-You will use Git to manage your team's code. Code can only be handed in for grading via a link to the repository in the correct folder in this class' group on the IMI GitLab Server. 
+You will use Git to manage your team's code. Code can only be handed in for grading via a link to the repository in the correct folder in this class' group on the IMI GitLab Server.
 
 The IMI GitLab Server can be found at: https://gl-imi.f4.htw-berlin.de. It can only be reached via the HTW network. So if you are at home, use VPN (see https://rz.htw-berlin.de/anleitungen/vpn/).
 
@@ -150,4 +134,3 @@ or send me an email and we'll figure something out.
 [Last semesters, I found it necessary to clarify some more things about the reports.]({{ site.BaseURL }}/studies/grading/guideline)
 
 -->
-
