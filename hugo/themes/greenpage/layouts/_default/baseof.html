@@ -41,6 +41,7 @@
           </div>
           <div class = "col-md-10 c4">
         {{- partial "footer.html" . -}}
+        
           </div>
 
           {{ if (or (.Site.IsServer) (not (eq hugo.Environment "production"))) }}
@@ -49,6 +50,8 @@
                    {{ partial "debug.html" . }}
             </ul></small><hr></div>
           {{ end }}
+
+
         </footer>
 
         <script>

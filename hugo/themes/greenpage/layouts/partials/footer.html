@@ -1,6 +1,5 @@
 
               <hr/>
-                <p><small>This page was authored by: {{ $.Param "author" }}</small></p>
                  <p>
                 <a href="{{ site.BaseURL }}/contact">Prof. Dr. Barne Kleinen</a>,
                 <a href="https://www.htw-berlin.de">HTW Berlin</a>,
@@ -8,6 +7,7 @@
                 </p>
                 <p><a href="{{ site.BaseURL }}/contact/impressum">Impressum</a>,
                     <a href="{{ site.BaseURL }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
+                    <p><small>This page was authored by: {{ $.Param "author" }}, Version: {{ hugo.CommitHash }}</small></p>
                     </p>
 
            <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png" /></a>
