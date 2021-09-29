@@ -22,11 +22,14 @@ jobs:
           extended: true
 
       - name: Build Hugo Site
-        run: hugo --minify -e staging
+        run: |
+          cd hugo
+          hugo --minify -e staging
+          cd ..
 
       - name: Deploy to Staging on Github Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/hugo_migration'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./hugo/public
