@@ -1,6 +1,3 @@
-cd ./hugo-tunnel
-unzip -o website.zip
-cd ..
 eval $(ssh-agent -s)
 ssh-add ~/.tmp
 ssh-add -L

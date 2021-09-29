@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Prof. Dr. Barne Kleinen'
 # sectionPagesMenu = "main"
 theme = "greenpage"
-
+enableGitInfo = true
 [params]
   serverencoding = "UTF-8"
 [menu]
