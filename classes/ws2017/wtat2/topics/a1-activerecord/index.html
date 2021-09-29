@@ -1,0 +1,181 @@
+<!doctype html><html><head>
+<title>A1 - Rails, ActiveRecord and Associations - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">A1 - Rails, ActiveRecord and Associations</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/>ws2017</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/wtat2/>wtat2</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/>topics</a></li>
+<li class="breadcrumb-item active" aria-current=page>a1-activerecord</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2017/wtat2/>WTAT2</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2017/wtat2/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2017/wtat2/topics/>Topics</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=14388">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131102">LSF SU</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131108">LSF Übung</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-wtat2>Github</a>
+<a class=dropdown-item target=ex_link href=https://github.com/bkleinen/bkleinen.github.io/wiki/Exam-Questions-Collected-in-Class>Wiki</a>
+</div>
+</li>
+</ul>
+</div>
+<h2 id=assignment-1>Assignment 1</h2>
+<p><a href=../a1-activerecord-example>Example</a></p>
+<p>Write down your project description/vision. Create a backlog.</p>
+<p>Find 2-3 central model classes / resources for your
+project and create them - model, views and controller within a new rails application.
+Implement at least one model association and make it visible in the view.</p>
+<h3 id=create-a-project-description-and-backlog>Create a project description and backlog</h3>
+<p>Provide a short summary of what your web-app should do.</p>
+<p>Then, write down all the user stories you can think of. Use the form of</p>
+<pre><code>As a.... I can... such that....
+</code></pre>
+<p>Remember that user stories should be of value for the user of your app (Thus,
+&ldquo;Design the Database Structure&rdquo; is <em>not</em> a user story as a sole database design is
+of no use to the user) and as independent as possible.</p>
+<p>Don&rsquo;t worry about having too many stories - you won&rsquo;t need to implement all of them!
+If you have enough stories, it will be easier to find suitable ones for implementing the technical assignments.</p>
+<p><a href=../a1-activerecord-example/index.html#create-a-project-description-and-backlog>See the example.</a></p>
+<h3 id=number-your-stories-and-prioritize-the-backlog>Number your Stories and Prioritize the Backlog.</h3>
+<p>For clear Identification, give each story a number (e.g. S001). Reorder your backlog with the most important stories at the top. Priorization is for user value - not implementation order. &ldquo;As a user, I want to login&rdquo; will not be the most important story for your user - an application where the user can do nothing more than logging in will be pretty boring.</p>
+<p><a href=../a1-activerecord-example/index.html#number-your-stories-and-prioritize-the-backlog>See the example.</a></p>
+<h3 id=find-and-define-2-or-3-model-classes-for-your-project-find-stories-which-you-can-implement-with-crud-operations-on-these-resources>Find and define 2 or 3 model classes for your project. Find stories which you can implement with CRUD operations on these resources.</h3>
+<p>As a simple rails application will be centered around CRUD (Create-Read-Update-Delete)-Operations on resources, you need to identify central resources for your project, and model them.</p>
+<p>Usually it&rsquo;s easy to identify a central resource for your project. The second resource may already depend on which stories you decide to implement first.
+Sketch out a database design and the associations between the models.</p>
+<p><a href=../a1-activerecord-example/index.html#find-and-define-2-or-3-model-classes-for-your-project-identify-stories-which-you-can-implement-with-crud-operations-on-these-resources>See the example.</a></p>
+<p>Finally, identify the stories in your backlog that you will implement with CRUD operations on these first resources.</p>
+<h3 id=create-sketches--paper-prototypes-for-your-stories>Create Sketches / Paper Prototypes for your Stories</h3>
+<p>Create simple Paper Prototypes for your Stories. For the this first Assignment, a few simple Screen sketches should be sufficient. They will guide your implementation.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=JMjozqJS44M">Video: Google Rapid Prototyping 1 of 3: Sketching & Paper Prototyping</a></li>
+<li><a href="https://www.youtube.com/watch?v=mH2IlUwWT3w">Video: Web Application - Paper Prototype</a></li>
+<li><a href="https://www.youtube.com/watch?v=85muhAaySps">Design Thinking - Paper Prototypes</a> - including a paper prototype for a service</li>
+</ul>
+<p><a href=../a1-activerecord-example/index.html#sketch--paper-prototype>See the example.</a></p>
+<h3 id=implementation>Implementation.</h3>
+<p>Finally, implement the selected stories by creating the resources - Model, Views and Controllers
+and modifying the views. Don&rsquo;t get into the fine-tuning of the apperance yet, as we will do that later on with bootstrap. For the same reason, you don&rsquo;t need to implement/detail out more than three views.</p>
+<p>Create some test data using seeds.</p>
+<p><a href=../a1-activerecord-example/index.html#implementation>See the example.</a></p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

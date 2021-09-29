@@ -1,0 +1,200 @@
+<!doctype html><html><head>
+<title>Exercise 06: Lambda Functions - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Exercise 06: Lambda Functions</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2019/>ws2019</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2019/info1/>info1</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2019/info1/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>exercise-06</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2019/info1/>Info1</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2019/info1/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2019/info1/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2019/info1/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=21907">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154632">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=154657">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info1>Github</a>
+</div>
+</li>
+</ul>
+</div>
+<p>This week&rsquo;s lab work is intended help you better understand lambda functions.</p>
+<h2 id=pre-lab>Pre-lab</h2>
+<p>Please bring these exercises printed out or written out and completed with you to lab. Doing the pre-lab will save you time during the lab.</p>
+<p><strong>P0.</strong> If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?</p>
+<p><strong>P1.</strong> Given the following code:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>printStudent</span> <span style=color:#f92672>(</span>Student s<span style=color:#f92672>)</span>
+<span style=color:#f92672>{</span>
+     System<span style=color:#f92672>.</span><span style=color:#a6e22e>out</span><span style=color:#f92672>.</span><span style=color:#a6e22e>println</span> <span style=color:#f92672>(</span>s<span style=color:#f92672>.</span><span style=color:#a6e22e>getDetails</span><span style=color:#f92672>());</span>
+<span style=color:#f92672>}</span>
+</code></pre></div><p>What is the equivalent lambda in Java? What syntax variations are possible?</p>
+<p><strong>P2.</strong> Given the animal-monitoring-v1 example, write pseudo-code for determining how many elephants a particular spotter saw on a particular day.</p>
+<p><strong>P3.</strong> Given the animal-monitoring-v1 example, write pseudo-code to create a stream containing only those sightings that have a count greater than 0.</p>
+<h2 id=what-to-hand-in>What To Hand In</h2>
+<p>Please hand in:</p>
+<ul>
+<li>zip-folder with your AnimalMonitor code</li>
+<li>lab report as pdf</li>
+</ul>
+<p>The lab report should have:</p>
+<ul>
+<li>Answers to the questions in the assignment below</li>
+<li>Complete transparency on who did what</li>
+<li>The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy</li>
+<li>A summary of what you did & learned in the lab</li>
+<li>Details on which challenges you encountered, how you tried to solve them & their solution <em>(OR if you did not encounter any challenges: ) a reflection on the exercises themselves</em></li>
+<li>For practise: How you tested your solutions</li>
+</ul>
+<p>Lab assignments are due the day before your next lab at 10pm.</p>
+<h2 id=assignment>Assignment</h2>
+<ol start=0>
+<li>
+<p>Download the <a href=https://github.com/htw-imi-info1/exercise06>animal-monitoring-v1</a> project and check that it runs. Now rewrite the <code>printList</code> method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P1, compile them and run them. Did they all work? Record the results for your lab report.</p>
+</li>
+<li>
+<p>Rewrite the <code>printSightingsOf</code> method in the AnimalMonitor class to use streams and lambdas. Test to make sure that your project still works as before.</p>
+</li>
+<li>
+<p>Write a method <code>printSightingsInPeriod</code> in the <code>AnimalMonitor</code> class to print the details of all the sightings recorded within a certain period <code>periodID</code>, which is passed as a parameter to the method.</p>
+</li>
+<li>
+<p>Write a method <code>printSightingsOfInPeriod</code> that uses two filter calls to print details of all the sightings of a particular animal made in a particular period — the method takes the <code>animal</code> name and the <code>periodID</code> as parameters. Does the order of the two filter calls matter in your solution? Justify your answer.</p>
+</li>
+<li>
+<p>Write a method <code>printCounts</code> to print the counts of all sightings of a particular animal. Your method should use the map operations as part of the pipeline. If a pipeline contains a filter operation and a map operation, does the order of the operations matter to the final result? Justify your answer.</p>
+</li>
+<li>
+<p>Rewrite the <code>printEndangered</code> method in your project to use streams and test that it works correctly. Detail how you tested this method in your report.</p>
+</li>
+<li>
+<p>(For the bored) There is a special &ldquo;::&rdquo; notation in Java that can be used with lambdas. Research the syntax, and rewrite printSightingsBy to use this syntax. Does the operation of the method change?</p>
+</li>
+<li>
+<p>(For the bored) Add a method to AnimalMonitor that takes two parameters, a spotter-ID and a day-ID and returns a String containing the names of the animals seen by the spotter on that particular day. You should include only animals whose sighting count is greater than zero. Now add a method that takes an animal and a day-ID and returns the spotters who saw this animal, if any, on that particular day.</p>
+</li>
+</ol>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

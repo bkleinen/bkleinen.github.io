@@ -1,0 +1,223 @@
+<!doctype html><html><head>
+<title>Exercise 01 - Lab Startup and JavaScript Finger Exercises - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Exercise 01 - Lab Startup and JavaScript Finger Exercises</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/>ws2020</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/>info3</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-01-startup</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/>Info3</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/continuous_assessment/>Assessment</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2020/info3/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=28123">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164935">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples>Lecture Source Code</a>
+</div>
+</li>
+</ul>
+</div>
+<p><img src=../images/workplace.jpg alt=Workplace title=pumpkins>
+Nerd Workplace. Foto by <a href=https://www.flickr.com/photos/slworking/8539204081/>slworking2</a></p>
+<h2 id=pre-lab-do-this-before-the-lab>Pre-Lab (Do this BEFORE the lab)</h2>
+<h3 id=1-prepare-your-work-environment>1. Prepare your work environment</h3>
+<p>The labs will be taught remote. You can either</p>
+<ul>
+<li>work on the <a href=https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/>lab computers from remote</a> (make sure to chose the lab that is given on your schedule)</li>
+<li>or just work on your own computer.</li>
+</ul>
+<p>If you decide to work on your own computer:</p>
+<ul>
+<li>[optional] <strong>I recomment you work on a Linux or MacOS System</strong>. From my experience, <a href=https://www.groovypost.com/howto/dual-boot-windows-10-linux/>setting up Dual Boot Windows/Linux</a> is less troublesome than trying to manage Node.js on Windows. All my instructions will be taylored to Linux and will probably work on MacOS. So if you haven&rsquo;t already, now is the time to get Linux :)</li>
+<li>Install and set up git (You will use git to hand in code - you will be added to the Info3 group when you get added on Moodle). You don&rsquo;t need a Git GUI, you can use it via the command line or git bash.</li>
+<li>Install the <a href=https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating>Node Version Manager</a> (nvm). <a href=https://www.cyberithub.com/install-nvm-for-node-js/>This installation guide (for Ubuntu)</a> can help. We&rsquo;ll use Node.js so we can program JavaScript command line applications and don&rsquo;t need to use a browser console or even a front end (for now).</li>
+<li>Install Node.js using nvm: <code>nvm install node</code>. Verify you installed version 14.6.0 or higher <a href=https://node.green/>for compatibility reasons</a>: <code>node --version</code>.</li>
+<li>The <a href=https://docs.npmjs.com/>Node Package Manager</a> (npm) comes with Node.js, so no need to install it separately. We will use npm to manage libraries we use for Node.js</li>
+<li>Install and set up a code editor suitable for JavaScript. I recommend <a href=https://atom.io>Atom</a>. <a href=https://wiki.ubuntuusers.de/Atom/>This guide</a> can help you with the installation.</li>
+</ul>
+<h3 id=2-prepare-some-more>2. Prepare some more&mldr;</h3>
+<ul>
+<li>Sign in to <a href=https://gl-imi.f4.htw-berlin.de>the IMI GitLab</a> and give yourself a name with which I can recognize you (something else than your Matrikelnummer! A nickname is enough.)</li>
+<li>Find a team of three and sign up for it using Moodle. I&rsquo;ll not accept work that has not been done in a group.</li>
+</ul>
+<h2 id=assignment>Assignment</h2>
+<p>In this assignment you will program a &ldquo;Hobby Matcher&rdquo;. &ldquo;Hobby Matcher&rdquo; should help people find other people with the same hobbies. Prof. Kleinen already thought of two <a href=https://en.wikipedia.org/wiki/User_story>user stories</a>.</p>
+<p><strong>Story 1:</strong> As a user of the service I want to be able to enter my hobbies as a comma-separated list (eg. &ldquo;Go, Geocaching, Stunt Kites, Bicycles&rdquo;).</p>
+<p><strong>Story 2:</strong> As a user of the service I want to see a list of people with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending).</p>
+<h3 id=part-1-set-up-the-git-repository-and-project>Part 1: Set up the git repository and project</h3>
+<ol>
+<li>Clone the repository on <a href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab01-js-exercise>git lab</a>.</li>
+<li>Rename the repository directory <strong>locally</strong> to YOURGROUPID (it will be something like &ldquo;lab01-group1-team1&rdquo;). Update <strong>.git/description</strong> and <strong>package.json</strong>.</li>
+<li>Create a new repository &ldquo;YOURGROUPID&rdquo; in <a href=https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01>this week&rsquo;s lab group</a>.</li>
+<li>Look at the git project&rsquo;s &ldquo;remotes&rdquo;: <code>git remote -v</code>. You should see an &ldquo;origin&rdquo; that is the url of the project you just cloned. Rename the &ldquo;origin&rdquo; to &ldquo;upstream&rdquo;: <code>git remote rename origin upstream</code>. This way you keep a link to the project you cloned, while making space for your new project.</li>
+<li>Set the remote origin of your local repository to YOUR newly created repository on the IMI GitLab Server:
+<code>git remote add origin https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01/YOURGROUPID.git</code></li>
+<li>Push your repository:</li>
+</ol>
+<pre tabindex=0><code>git add .
+git commit -m &quot;initialize project&quot;
+git push
+</code></pre><ol start=7>
+<li>Install all the dependencies of the project: <code>npm ci</code></li>
+</ol>
+<h3 id=part-2-testing>Part 2: Testing</h3>
+<ol start=8>
+<li>
+<p>Look at the tests in the given repository. They describe what the code is supposed to do - they correspond to the user stories mentioned above. For testing, the library <a href=https://jestjs.io/>jest</a> has been used.
+Your first job is to run the tests: <code>npm run test</code>.
+You&rsquo;ll notice that (almost all) the tests fail! In this lab you will employ <a href=https://en.wikipedia.org/wiki/Test-driven_development>test-driven development</a> to develop software.
+Test regularly as you continue with the lab.</p>
+</li>
+<li>
+<p><a href=https://eslint.org/>ESLint</a> with the <a href=https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser>Babel-ESLint Parser</a> is used to validate your JavaScript against rules. You will find the configuration file <code>.eslintrc.json</code> in the repo. ESLint should help you to write clean code. In professional development, linters are used to ensure that the code follows the same style everywhere.
+Your next job is to run the linter: <code>npm run lint</code>.
+Lint your code regularly as you proceed. If you can&rsquo;t fix some of the problems that ESLint tells you about, don&rsquo;t get caught up in that. Instead, ask a search engine or me for help.</p>
+</li>
+</ol>
+<h3 id=part-3-practise-javascript>Part 3: Practise JavaScript</h3>
+<ol start=10>
+<li>
+<p>For each test in <code>initialzation.test.js</code>, implement JS code in the <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes>class</a> &ldquo;Person&rdquo; so the test runs through. Remember: Making the test pass the simplest way possible is not enough here - you should implement it in a generic way using reflection on the method names.
+In <code>Person</code> a <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields>private field</a> has already been created to hold a name. We tell JS that a field should be private by starting it with <code>#</code>. The <code>#</code> <a href=https://node.green/#ESNEXT-candidate--stage-3--instance-class-fields>is accepted by NodeJS</a>, but careful when you develop for the browser - <a href="https://caniuse.com/#feat=mdn-javascript_classes_private_class_fields">not all browsers currently support it</a>.
+Hint 1: You can start by implement getters and setters for the name in the <code>Person</code> class, proceeding with getters and setters for hobbies. Hint 2: To pass the test that checks whether <code>UnknownAttributeError</code> is thrown you will need to <a href=https://stackoverflow.com/questions/1382107/whats-a-good-way-to-extend-error-in-javascript>extend <code>Error</code></a>.</p>
+</li>
+<li>
+<p>Save your progress with git after you tested and linted it! (add, commit, [optionally] push). Ideally, each new feature you add (eg. a new function) gets it&rsquo;s own commit. Each working version of the code should be integrated to the main branch (a simple push, if you develop only on the &ldquo;master&rdquo; branch).</p>
+</li>
+<li>
+<p>Now implement code to make the tests in <code>hobbymatching.test.js</code> pass. Hint: You might need to change the constructor. Finally, test - lint - add - commit - push your code.</p>
+</li>
+</ol>
+<h2 id=results-submission>Results Submission</h2>
+<ul>
+<li>Hand in a link to your repository</li>
+<li>Hand in a lab report</li>
+<li>Take part in the oral test on Oct. 29 2020</li>
+</ul>
+<p>More info on the <a href=..>Labs</a> page.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!doctype html><html><head>
+<title>Info2: Exercise 05: Execution times - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Info2: Exercise 05: Execution times</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2015/>ss2015</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2015/info2/>info2</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2015/info2/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-05</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2015/info2/schedule>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ss2015/info2/labs>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=5941">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=102655">LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info2>Github</a>
+</div>
+</li>
+</ul>
+</div>
+<h2 id=pre-lab>Pre-Lab</h2>
+<p>Please have these completed before coming to the lab. BTW, I like questions like this on the exam&mldr;</p>
+<ol>
+<li>
+<p>Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N2, respectively. Answer the following questions, if possible:</p>
+</li>
+<li>
+<p>Which program has the better guarantee on the running time for large values of N (N > 10 000)?</p>
+</li>
+<li>
+<p>Which program has the better guarantee on the running time for small values of N (N &lt; 100)?</p>
+</li>
+<li>
+<p>Which program will run faster on average for N = 1000?</p>
+</li>
+<li>
+<p>Is it possible that program B will run faster than program A on all possible inputs?</p>
+</li>
+<li>
+<p>An algorithm takes 0.5 ms for input size 100. How long will it take for input size 500 if the running time is the following:</p>
+</li>
+<li>
+<p>linear</p>
+</li>
+<li>
+<p>O (N log N)</p>
+</li>
+<li>
+<p>quadratic</p>
+</li>
+<li>
+<p>cubic</p>
+</li>
+<li>
+<p>An algorithm takes 0.5 ms for input size 100. How large a problem can be solved in 1 min if the running time is the following:</p>
+</li>
+<li>
+<p>linear</p>
+</li>
+<li>
+<p>O (N log N)</p>
+</li>
+<li>
+<p>quadratic</p>
+</li>
+<li>
+<p>cubic</p>
+</li>
+<li>
+<p>Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
+N, square root of N, N1.5, N2 , N log N, N log log N, N log2 N, N log (N2), 2/N, 2N, 2N/2, 37,N3, N2 log N</p>
+</li>
+</ol>
+<h2 id=lab-exercise>Lab exercise:</h2>
+<p>These are the required exercises for this week. Work in groups of two, and turn in just one report for the group.</p>
+<h3 id=part-1-analysis-of-algorithms>Part 1: Analysis of Algorithms</h3>
+<p>For each of the following seven program fragments, do the following:</p>
+<ol>
+<li>Give a Big-Oh analysis of the running time (you can even do this before you come to lab!)</li>
+<li>Implement the code in a simple main class and run it for several interesting values of N. What are interesting values?</li>
+<li>Compare your analysis with the actual number of steps (i.e. the value of sum after the loop) for your report.</li>
+</ol>
+<h4 id=code-fragments>Code Fragments</h4>
+<pre><code> // Fragment #1
+ for ( int i = 0; i &lt; n; i ++)
+     sum++;
+
+ // Fragment #2
+ for ( int i = 0; i &lt; n; i ++)
+     for ( int j = 0; j &lt; n; j ++)
+         sum++;
+
+ // Fragment #3
+ for ( int i = 0; i &lt; n; i ++)
+     for ( int j = i; j &lt; n; j ++)
+         sum++;
+
+ // Fragment #4
+ for ( int i = 0; i &lt; n; i ++)
+     sum ++;
+     for ( int j = 0; j &lt; n; j ++)
+         sum ++;
+
+ // Fragment #5
+ for ( int i = 0; i &lt; n; i ++)
+     for ( int j = 0; j &lt; n*n; j ++)
+     sum++;
+
+ // Fragment #6
+ for ( int i = 0; i &lt; n; i ++)
+     for ( int j = 0; j &lt; i; j ++)
+         sum++;
+
+ // Fragment #7
+ for ( int i = 1; i &lt; n; i ++)
+     for ( int j = 0; j &lt; n*n; j ++)
+         if (j % i == 0)
+            for (int k = 0; k &lt; j; k++)
+                sum++;
+</code></pre>
+<h3 id=part-2-prime-numbers>Part 2: Prime Numbers</h3>
+<p>A <em><strong>prime number</strong></em> has no factors besides 1 and itself. Do the following:</p>
+<ol>
+<li>Write a simple method <code>public static bool isPrime (int n) {...}</code> to determine if a positive integer N is prime.</li>
+<li>In terms of N, what is the worst-case running time of your program?</li>
+<li>Let B equal the number of bits in the binary representation of N. What is relationship between B and N?</li>
+<li>In terms of B, what is the worst-case running time of your program?</li>
+<li>Compare the running times needed to determine if a 20-bit number and a 40-bit number are prime by running 100 examples of each through your program. Report on the results in your lab report. You can use Excel to make some diagrams if you wish.</li>
+</ol>
+<h3 id=for-the-bored>For the bored:</h3>
+<p>The Sieve of Eratosthenes is a method used to compute all primes less than N. Begin by making a table of integers 2 to N.
+Find the smallest integer i that is not crossed out. Print i (it is prime!) and cross out i , 2i , 3i , &mldr;.
+Terminate when i is greater than the square root of N. The running time has been shown to be O (N log log N). Write a program to implement the Sieve and verify that the running time is as claimed. If you are <em><strong>really</strong></em> bored, animate this with a GUI like on the Wikipedia!</p>
+<h2 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h2>
+<p>Your report is due the day before your next lab (for exact times, please refer to moodle).</p>
+<p>As in Informatics 1, I am more interested in process than in product,
+although we are now getting more interested in products as well.
+Your report should include any collaborators on top of the first page,
+summarize what you learned,
+and note the time you invested in this exercise. How many lines of code did you write for each exercise? Record this in your report.
+Both of you need to upload the same report in PDF format to Moodle before the deadline.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

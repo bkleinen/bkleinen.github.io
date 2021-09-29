@@ -1,0 +1,226 @@
+<!doctype html><html><head>
+<title>Assignment 05 - Legacy Code - Refactoring to Patterns - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Assignment 05 - Legacy Code - Refactoring to Patterns</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/>ws2020</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/>info3</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-05-legacy</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/>Info3</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/continuous_assessment/>Assessment</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2020/info3/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=28123">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164935">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples>Lecture Source Code</a>
+</div>
+</li>
+</ul>
+</div>
+<p><img src=../images/The_Gilded_Rose.jpg alt="The Gilded Rose">
+The Gilded Rose, Trade District, <a href=https://www.wowwiki.com/Gilded_Rose>World of Warcraft.</a></p>
+<h2 id=assignment-gilded-rose-kata>Assignment: Gilded Rose Kata</h2>
+<h3 id=preparation>Preparation</h3>
+<ol>
+<li>Clone the <a href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata>Gilded Rose Repository</a>.</li>
+<li>Set up the project <a href=../lab-01-startup>like we did it in the first lab</a> (Part 1: Set up the git repository and project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use <a href=https://www.jetbrains.com/help/webstorm/installation-guide.html#snap>WebStorm</a> and it&rsquo;s automatic refactoring features. You can <a href=https://www.jetbrains.com/community/education/#students>get an educational license</a>.</li>
+<li>Imagine you just joined a the company <code>Gilded Rose</code> as software developers. They wrote a requirements sheet for your first job. You can find the whole sheet <a href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt>here</a>. Read through it. In this lab you will be working through it step by step.</li>
+<li>Read the introduction again:</li>
+</ol>
+<pre tabindex=0><code>Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
+prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
+Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We
+have a system in place that updates our inventory for us. It was developed by a no-nonsense person named
+Leeroy, who has moved on to new adventures.
+</code></pre><h3 id=part-1-characterization-tests>Part 1: Characterization Tests</h3>
+<ol start=5>
+<li>Read again what the system is currently supposed to be doing, according to the <code>Team Gilded Rose</code>&rsquo;s Requirements Sheet:</li>
+</ol>
+<pre tabindex=0><code>Your task is to add the new feature to our system so that
+we can begin selling a new category of items. First an introduction to our system:
+
+	- All items have a SellIn value which denotes the number of days we have to sell the item
+	- All items have a Quality value which denotes how valuable the item is
+	- At the end of each day our system lowers both values for every item
+
+Pretty simple, right? Well this is where it gets interesting:
+
+	- Once the sell by date has passed, Quality degrades twice as fast
+	- The Quality of an item is never negative
+	- &quot;Aged Brie&quot; actually increases in Quality the older it gets
+	- The Quality of an item is never more than 50
+	- &quot;Sulfuras&quot;, being a legendary item, never has to be sold or decreases in Quality
+	- &quot;Backstage passes&quot;, like aged brie, increases in Quality as its SellIn value approaches;
+	Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but
+	Quality drops to 0 after the concert
+</code></pre><ol start=6>
+<li>Look at <a href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test>the stubs for the tests</a> and run them with coverage <code>npm run coverage</code>.</li>
+<li>Implement <a href=https://en.wikipedia.org/wiki/Characterization_test>Characterization Tests</a> (also known as &ldquo;Approval Tests&rdquo;). That is, write tests that pass with the current behavior of the app.
+Is the current system functionality different from the requirements sheet or are the specifications ambiguous somewhere? Document these cases in comments next to your test cases. As the current system is what <code>Gilded Rose</code> has used so far you can expect that it behaves in a way that works for them, so don&rsquo;t change the current behavior. While you implement your tests run them with coverage (<code>npm run coverage</code>) to check wether your tests hit all the branches in the <code>updateQuality</code> method.
+Hint: <a href=https://www.valentinog.com/blog/jest/#code-coverage-in-jest>This section</a> of Valentino Gagliardi&rsquo;s tutorial on Jest might help you learn more about effective code coverage with Jest
+Hint: You can use <a href=https://jestjs.io/docs/en/api#describeeachtablename-fn-timeout>Jest&rsquo;s &ldquo;describe.each&rdquo;</a> to simplify your tests.
+For the bored: <a href=https://jestjs.io/docs/en/snapshot-testing>Snapshot Testing</a> can make it easier to understand what the legacy code is actually doing and write the appropriate tests (see also <a href=https://youtu.be/zyM2Ep28ED8>a video on how the Snapshot method is used with Java</a>).</li>
+</ol>
+<h3 id=part-2-refactoring>Part 2: Refactoring</h3>
+<ol start=8>
+<li>Have another look at the part of the <code>Gilded Rose</code>&rsquo;s Requirements sheet that concerns refactoring and limitations you face:</li>
+</ol>
+<pre tabindex=0><code>Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
+still works correctly. However, do not alter the Item class or Items property as those belong to the
+goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code
+ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover
+for you).
+</code></pre><ol start=9>
+<li>Now refactor the available legacy code. Don&rsquo;t forget to do this step by step and to test often.
+Hint: A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item &ldquo;knowing&rdquo; how to update it&rsquo;s quality. Unfortunately, you can&rsquo;t do that because the Item class belongs to the goblin. Thus, you will need another solution without the need to change the Item class. Which <em>programming patterns</em> can help adding different behaviour without needing to change the Item class itself?</li>
+<li>Lint and improve your code: <code>npm run lint .</code></li>
+</ol>
+<h3 id=part-3-adding-new-functionality>Part 3: Adding new functionality</h3>
+<ol start=11>
+<li>Read again the new requirements you are supposed to implement:</li>
+</ol>
+<pre tabindex=0><code>We have recently signed a supplier of conjured items. This requires an update to our system:
+
+	- &quot;Conjured&quot; items degrade in Quality twice as fast as normal items
+
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
+
+Just for clarification, an item can never have its Quality increase above 50, however &quot;Sulfuras&quot; is a legendary item and as such its Quality is 80 and it never alters.
+</code></pre><ol start=12>
+<li>Add test cases for the newly required functionality.</li>
+<li>Implement the new functionality so your tests pass.</li>
+<li>Don&rsquo;t forget to lint and improve your code.</li>
+</ol>
+<h2 id=results-submission>Results Submission</h2>
+<ul>
+<li>Hand in a link to your repository</li>
+<li>Hand in a lab report until Dec. 17, 11pm</li>
+<li>Take part in the peer review activity on Dec. 17 2020 Jan. 7 2021 (rescheduled)</li>
+</ul>
+<p>More info on the <a href=..>Labs</a> page.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

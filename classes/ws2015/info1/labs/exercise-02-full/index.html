@@ -1,0 +1,219 @@
+<!doctype html><html><head>
+<title>Exercise 02: Shapes and TicketMachine - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Exercise 02: Shapes and TicketMachine</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2015/>ws2015</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2015/info1/>info1</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2015/info1/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>exercise-02-full</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2015/info1>Info1</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2015/info1/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2015/info1/labs/>Labs</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2015/info1/code/>Code Examples</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=7347">Moodle</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info1>Github</a>
+<a class=dropdown-item target=ex_link href=https://lsf.htw-berlin.de/>LSF:</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107425">SU</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107740">Labs</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231">Term Schedule</a>
+</div>
+</li>
+</ul>
+</div>
+<p>This week&rsquo;s lab work is intended to acquaint you with the BlueJ environment.</p>
+<h2 id=pre-lab>Pre-lab</h2>
+<h4 id=what-to-bring-to-lab>What to Bring to Lab</h4>
+<p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.</p>
+<p><strong>P1.</strong> In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.</p>
+<p><strong>P2.</strong> What are the types of the following values (constants)?</p>
+<ul>
+<li>0</li>
+<li>&ldquo;hello&rdquo;</li>
+<li>101</li>
+<li>-1</li>
+<li>true</li>
+<li>&ldquo;true&rdquo;</li>
+<li>&ldquo;33&rdquo;</li>
+<li>&lsquo;3&rsquo;</li>
+<li>3.1415</li>
+</ul>
+<p><strong>P3.</strong> Pick up a book - you should have at least one at home. Is it an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.</p>
+<p><strong>P4.</strong> What class does the following constructor belong to? How many formal parameters does it have? What are their types?</p>
+<pre><code>public Book (String title, double price){ }
+</code></pre>
+<p>If you will be using your own laptop in the lab, please install <a href=https://www.bluej.org/>BlueJ</a> before you come to lab. <a href=https://www.bluej.org/>BlueJ</a> is available for all platforms - it&rsquo;s Java!</p>
+<h2 id=post-lab-aka-what-to-turn-in>Post-Lab, AKA What To Turn In</h2>
+<p>Your completed assignment, submitted in Moodle as a pdf,
+should include:</p>
+<ul>
+<li>the names and roles of any collaborators in any parts of the exercise.</li>
+<li>a description of what you did during the lab, including a record of how you got BlueJ started and how you produced the pdf</li>
+<li>a screenshot of your scene. How did you get a screenshot produced?</li>
+<li>a description of what you tried with the TicketMachine and what you think is wrong with the code given.</li>
+</ul>
+<p>Lab assignments are due the night before your next lab at 23.00, I want you to get some sleep the night before the next class. They may, of course, be turned in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.</p>
+<h2 id=assignment>Assignment</h2>
+<p>Download the <a href=https://github.com/htw-imi-info1/exercise02-ws2016>exercise source code from GitHub</a> (you can download the whole <a href=https://github.com/htw-imi-info1/exercise02-ws2016/zipball/master>exercise02 repository as a zip here</a>) and open up the <strong>Figures project</strong>.</p>
+<ol>
+<li>
+<p>What do circles, triangles, and squares have in common? Do they have any differences?</p>
+</li>
+<li>
+<p>Create a circle, a triangle, and two squares. Oops, where is the second square? How can you make both visible on the screen?</p>
+</li>
+<li>
+<p>Make all four figures have the same color. What did you have to do? Did you make any mistakes doing this?</p>
+</li>
+<li>
+<p>Now make an interesting picture using these three shapes! Use at least 5 objects. Record what you had to do to get this scene set up. Take a screenshot for your report.</p>
+</li>
+<li>
+<p>What is wrong with the following constructor?</p>
+<pre><code> public TicketMachine (int ticketCost) {
+   int price = ticketCost;
+   balance = 0;
+   total = 0;
+ }
+</code></pre>
+</li>
+<li>
+<p>Open the <strong>TicketMachine project</strong> in BlueJ. Replace the constructor with the constructor from 5 and try it out. Were you right? Record your results in your report.</p>
+</li>
+<li>
+<p>Kara: Go back to the Greenfoot Scenario from last exercise. Look at the source code from Kara01 and KaraWorld01. Do these classes have constructors? If so, can you figure out what they do? (&ldquo;super&rdquo; calls the super class constructor).</p>
+</li>
+<li>
+<p>(For the bored) Okay, so you&rsquo;ve been programming since before you could talk and this is child&rsquo;s play. Explore a little deeper - can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?</p>
+</li>
+<li>
+<p>(For the really bored) Can you make the better-ticket-machine give proper change using Euro coins?</p>
+</li>
+</ol>
+<h2 id=writeup---what-to-put-in-the-lab-report>Writeup - what to put in the Lab Report</h2>
+<p>You will be doing your writeup at home or in the lab if time permits. Use the notes that you took in your logbook. Submit your writeup as your post-lab to the Moodle area.</p>
+<hr>
+<p>Adapted from <a href=https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml>https://www.f4.htw-berlin.de/~weberwu/info1/Labs/Lab0.shtml</a> , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

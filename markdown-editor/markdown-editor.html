@@ -1,0 +1,94 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="trix.css">
+  <link rel="stylesheet" type="text/css" href="trix_overwrites.css">
+  <script type="text/javascript" src="trix.js"></script>
+  <script type="text/javascript" src="showdown.js"></script>
+  <script type="text/javascript" src="turndown.js"></script>
+</head>
+<body>
+
+  <h1>Markdown editor</h1>
+  <p>Based on <a href="https://trix-editor.org/">Trix</a></p>
+
+<table><tr><td valign = "top">
+
+<trix-editor class="trix-content" id="trix_editor_1">
+
+</trix-editor>
+
+</td><td valign = "top">
+
+  <div class="trix-button-row">
+<h3>Edit Markdown here and click outsite Text Area to see changes</h3>
+<p> (this will be stored in the DB)</p>
+</div>
+  <textarea cols="80" rows="40" id = "the_textarea" onchange = "markdownChanged()"></textarea>
+</td><td td valign = "top">
+  <h3>Preview of generated HTML</h3><p> (this will be shown in the output)</p>
+  <div id = "generated_html">
+  </div>
+</td></tr></table>
+
+
+<hr/ >
+<h3>Trix HTML</h3>
+<div id ="trix_html_source">HTML Source goes here</div>
+
+
+<script>
+
+console.log("running...");
+const trix_editor_1 = document.getElementById("trix_editor_1");
+const the_textarea = document.getElementById("the_textarea");
+
+const trix_html_source = document.getElementById("trix_html_source");
+const generated_html = document.getElementById("generated_html");
+const converter = new showdown.Converter();
+
+//window.addEventListener('DOMContentLoaded', (event) => {
+  //  console.log('DOM fully loaded and parsed');
+
+
+  trix_editor_1.innerHTML = '<h1><!--block-->Heading</h1><ul><li><!--block-->bullet list</li><li><!--block-->and more</li></ul><ol><li><!--block-->Numbered List</li><li><!--block-->two</li><li><!--block-->three<ol><li><!--block-->subnumber<ul><li><!--block-->also mixed lists</li><li><!--block-->more</li></ul></li><li><!--block-->two</li><li><!--block-->three</li></ol></li><li><!--block-->four from above</li></ol><div><!--block--><br>Available formatting: <em>italics,</em> <strong>bold</strong> and <strong><em>both</em></strong>.</div><blockquote><!--block-->Blockquotes are also possible</blockquote><div><!--block--><br>Links: <a href="https://bkleinen.github.io">https://bkleinen.github.io</a><br><br>Linebreaks produce manual line breaks, two line breaks new paragraphs as seen below:<br><br><strong>Wiedersehen mit Berlin (</strong><a href="https://www.maschakaleko.com/gedichte/25-wiedersehen-mit-berlin">Mascha Kaleko</a><strong>)</strong><br>Berlin, im März. Die erste Deutschlandreise,<br>Seit man vor tausend Jahren mich verbannt.<br>Ich seh die Stadt auf eine neue Weise,<br>So mit dem Fremdenführer in der Hand.<br>Der Himmel blaut. Die Föhren lauschen leise.<br>In Steglitz sprach mich gestern eine Meise<br>Im Schloßpark an. Die hatte mich erkannt.<br><br>Und wieder wecken mich Berliner Spatzen! <br>Ich liebe diesen märkisch-kessen Ton.<br>Hör ich sie morgens an mein Fenster kratzen,<br>Am Ku-Damm in der Gartenhauspension,<br>Komm ich beglückt, nach alter Tradition,<br>Ganz so wie damals mit besagten Spatzen<br>Mein Tagespensum durchzuschwatzen.<br><br>Es ostert schon. Grün treibt die Zimmerlinde.<br>Wies heut im Grunewald nach Frühjahr roch!<br>Ein erster Specht beklopft die Birkenrinde.<br>Nun pfeift der Ostwind aus dem letzten Loch.<br>Und alles fragt, wie ich Berlin denn finde?<br>– Wie ich es finde? Ach, ich such es noch!<br>...<br><br><br></div>'
+
+
+ function markdownChanged(){
+    console.log("markdown");
+
+
+    const md = the_textarea.value;
+    const html     = converter.makeHtml(md);
+    generated_html.innerHTML = html;
+    trix_editor_1.innerHTML = html;
+    console.log(html);
+
+  }
+  the_textarea.addEventListener('change', function(event){
+    console.log("in change" + JSON.stringify(event));
+
+  });
+  document.addEventListener("trix-change", function(event) {
+    var element = document.querySelector("trix-editor")
+  //  element.editor  // is a Trix.Editor instance
+    console.log(JSON.stringify(element.editor))
+    //console.log(event.target.innerHTML);
+    var trix_inner = event.target.innerHTML;
+    //html_div.innerHTML = trix_inner;
+    trix_html_source.innerHTML = trix_inner.replace(/</g,"&lt;");
+
+    var converter = new showdown.Converter();
+    var turndownService = new TurndownService();
+    var md = turndownService.turndown(trix_inner);
+    the_textarea.value = md;
+
+    html      = converter.makeHtml(md);
+    generated_html.innerHTML = html;
+
+  });
+  </script>
+
+</body>
+
+
+</html>

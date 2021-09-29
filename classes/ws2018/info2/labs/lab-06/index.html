@@ -1,0 +1,213 @@
+<!doctype html><html><head>
+<title>Info2: Exercise 06: Reverse Polish Notation - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Info2: Exercise 06: Reverse Polish Notation</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2018/>ws2018</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2018/info2/>info2</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2018/info2/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-06</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2018/info2/>Info2</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2018/info2/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2018/info2/labs/>Labs</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2018/info2/material/>Material</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=18155">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142809">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=142634">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&missing=allTerms&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info2>Github</a>
+</div>
+</li>
+</ul>
+</div>
+<h2 id=pre-lab>Pre-Lab</h2>
+<ol>
+<li>
+<p>Make sure that you understand <a href=../lab-06-handout>postfix evaluation</a>.</p>
+</li>
+<li>
+<p><a href=https://www-gap.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Lukasiewicz.html> Łukasiewicz</a> was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?</p>
+</li>
+</ol>
+<pre><code>1. 1 * 2 + 3
+2. 1 + 2 * 3
+3. 1 + 2 - 3 ^ 4
+4. 1 ^ 2 - 3 * 4
+5. 1 + 2 * 3 - 4 ^ 5 + 6
+6. ( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )
+7. 1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )
+8. 9 - 1 - 2 - 3 * 2 - 1
+</code></pre>
+<p> </p>
+<ol start=3>
+<li>For the infix expression <code>a + b ^ c * d ^ e ^ f - g - h / ( i + j )</code>, do the following:</li>
+</ol>
+<pre><code>1. Show how to generate the corresponding postfix expression.
+2. Show how to evaluate the resulting postfix expression.
+</code></pre>
+<ol start=4>
+<li>Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.</li>
+</ol>
+<h2 id=assignment>Assignment</h2>
+<p>Read through <strong>all</strong> of the exercises before starting! Oh dear, this is a lot of work. I guess we can&rsquo;t play one-person-types-while-the-other-looks-on this week&mldr;. I would <strong>strongly</strong> suggest that one person get exercise 1 to work while the other one starts exercise 2. Then you exchange code,and voilà, it works! Now you can get back together to do the third exercise.</p>
+<ol>
+<li>
+<p>Implement a class Stack.java as discussed in the lecture, using a <strong>linked list</strong> of objects that you implement yourself! Don&rsquo;t use the Stack or LinkedList that is available in the Java Collections Library. Try and type it in yourself, not just copy the handout. How will you test this? Your class should include both an exception on stack underflow as well as stack overflow. Will you really need both exceptions? Why or why not? Override the <code>toString()</code>method to provide a useful way of printing a stack. Now make it generic, so it can take values of any type. Coordinate your interface with your partner.</p>
+</li>
+<li>
+<p>Implement a class <code>Postfix.java</code>that has a method public int evaluate (String pfx){&mldr;}
+that takes a <code>String</code> representing a postfix expression and determines the value represented by that expression. You will need to access the individual characters of the string and store them in a stack. This is necessary for the evaluation, luckily your partner is currently in the process of making one. Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both. </p>
+</li>
+</ol>
+<p><em><strong>Do not go on before you are sure that this is working correctly!</strong></em></p>
+<ol start=3>
+<li>
+<p>Now add another method to the <code>Postfix.java</code>class: <code>public String infixToPostfix (String ifx){...}</code> that converts an infix expression which is presented as a <code>String</code>to a<code> String</code>representing a postfix expression! Throw an exception if your input is not well-formed.</p>
+</li>
+<li>
+<p>Now add another method that reads a string from the console, evaluates the result and prints the result to the console.</p>
+</li>
+<li>
+<p>(For the bored) Once this works for digits, go on and parse multidigit <code>Integers</code> out of the <code>String</code>. Can you do it for <code>double</code> values as well? If you are still bored, parse mixed expressions (<code>doubles</code> and <code>ints</code> in the same expression).</p>
+</li>
+<li>
+<p>(For the really bored) How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?</p>
+</li>
+</ol>
+<p>You can use this eclipse project <a href=https://github.com/htw-imi-info2/Lab06_ReversePolishNotation>Lab06_ReversePolishNotation</a> as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.</p>
+<p>Work in groups of two, each of you submitting the same report, detailing who did what part of the work.</p>
+<h2 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h2>
+<p>Your report is due the day before your next lab (for exact times, please refer to moodle).
+Submit both a lab report as pdf and your whole source code directory as a zip.</p>
+<p>As in Informatics 1, I am more interested in process than in product,
+although we are now getting more interested in products as well.
+Your report should include any collaborators on top of the first page,
+summarize what you learned,
+and note the time you invested in this exercise.
+Both of you need to upload the same report in PDF and zipped source format to Moodle before the
+deadline.</p>
+<h3 id=special-questions-for-your-report>Special Questions for your report</h3>
+<p>How many lines of code did you write for each class? Record this statistic in your report.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

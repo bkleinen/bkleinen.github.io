@@ -1,0 +1,8 @@
+@charset "UTF-8";
+trix-toolbar .trix-button--icon-strike { display: none }
+trix-toolbar .trix-button--icon-strike::before { display: none }
+trix-toolbar .trix-button--icon-code::before { display: none; }
+trix-toolbar .trix-button--icon-code { display: none; }
+trix-toolbar .trix-button--icon-attach::before { display: none; }
+trix-toolbar .trix-button--icon-attach { display: none; }
+trix-toolbar .trix-button-group--file-tools { display: none; }

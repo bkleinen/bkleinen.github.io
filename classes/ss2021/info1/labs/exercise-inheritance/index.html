@@ -1,0 +1,186 @@
+<!doctype html><html><head>
+<title>Exercise Drölf: Inheritance - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Exercise Drölf: Inheritance</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2021/>ss2021</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2021/info1/>info1</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2021/info1/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>exercise-inheritance</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2021/info1/>Info1</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2021/info1/week/>Week Plan</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2021/info1/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ss2021/info1/labs/>Labs</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2021/info1/notebook/>Notebook</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2021/info1/code/>Code Examples</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=31142">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=170115&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=170138&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=mittel&P.subc=plan&subdir=stg&week=&k_abstgv.abstgvnr=231&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info1>Lecture Source Code</a>
+</div>
+</li>
+</ul>
+</div>
+<p>This week&rsquo;s lab work is intended give you practice working with inheritance. It combines content from various chapters in the book, including this week&rsquo;s chapter, chapter 12.</p>
+<h1 id=post-lab-aka--what-to-turn-in>Post-Lab, AKA What To Turn In</h1>
+<ul>
+<li>A report of your completed assignment, submitted in Moodle as a pdf</li>
+<li>Your BlueJ project as a zip file</li>
+</ul>
+<p>Lab assignments are due on Thursday at 22:00.</p>
+<hr>
+<h1 id=assignment>Assignment</h1>
+<h2 id=pokemon>Pokemon</h2>
+<p>You are part of the team that develops the logic behind a Pokemon game.</p>
+<ol start=0>
+<li>
+<p>Download and a look at what your team created so far: <a href=https://github.com/htw-imi-info1/lab-inheritance>lab-inheritance</a>. Execute the tests.</p>
+</li>
+<li>
+<p>Check what class inherits from what class. Is the class that is inherited from abstract? If so, why might that be? Which class has which methods available? When is &ldquo;super()&rdquo; used and what does it do?</p>
+</li>
+<li>
+<p>As you can see, only one Pokemon exists so far: Charmander. Add <a href=https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon>Squirtle</a>). You will need to add a new category of Pokemon &ldquo;Water&rdquo;, that also inherits from Pokemon.
+You might need to add another inheritance hierarchy in form of a &ldquo;Category&rdquo; class in order to avoid duplicate code in the Fire and Water class! Thing abstractly: What do both classes have in common?</p>
+</li>
+<li>
+<p>Write a test class for Squirtle to make sure everything works as expected. You can copy and adapt the test class of Charmander for that.</p>
+</li>
+<li>
+<p>Challenge (please try this, but don&rsquo;t worry if it doesn&rsquo;t work out): Imagine you needed to add yet another Pokemon: <a href=https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)>Bulbasaur</a>. Draw out the class diagram you can see in BlueJ and change it on paper in order to fit Bubasaur in. Careful, this Pokemon has two types! But in Java a class can not inherit from two classes at once! Think about how you might solve this - it might help to brainstorm with a partner! Put your notes and diagram in the report, even if you did not find a solution.</p>
+</li>
+<li>
+<p>For the bored: Extend the Pokemon game so that two Pokemon can fight each other. Add Power Points for that!</p>
+</li>
+<li>
+<p>For the bored: Extend the game so that Pokemon level up when they gain enough Experience Points and learn new attacks.</p>
+</li>
+</ol>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: fernsel</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

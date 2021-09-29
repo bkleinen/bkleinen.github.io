@@ -1,0 +1,223 @@
+<!doctype html><html><head>
+<title>Assignment 06 - Rails - First Steps - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Assignment 06 - Rails - First Steps</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/>ws2020</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/>info3</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-06-rails-1</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/>Info3</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/continuous_assessment/>Assessment</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2020/info3/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2020/info3/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=28123">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164935">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples>Lecture Source Code</a>
+</div>
+</li>
+</ul>
+</div>
+<p><img src=../images/pumpkins-wide.jpg alt=Pumpkins title=pumpkins>
+Foto by <a href=https://www.flickr.com/photos/pedroferrer/3615212504>Pedro J. Ferreira</a></p>
+<p>Revised - without significant changes to the assignment itself except taking
+out Factory Girl/Bot - on 1/1/18.
+If you&rsquo;ve started working on this assignment before, you can view the changes
+in the commit &ldquo;info3 - revised lab 06&rdquo; on
+bkleinen.github.io</p>
+<h1 id=prelab>Prelab</h1>
+<ol start=0>
+<li>The Base Repo (referred to as main repository below) for this Lab is the HTW Application we&rsquo;ve developed in class, see
+<a href=https://github.com/htw-imi-info3/rails-dash-ws2017>https://github.com/htw-imi-info3/rails-dash-ws2017</a> - first fork it on github (only one person in your team needs to do this) and then clone it to your local workspace (computer).</li>
+<li>Read through two Rails Guides:
+<ol>
+<li><a href=https://guides.rubyonrails.org/active_record_basics.html>Active Record Basics</a></li>
+<li><a href=https://guides.rubyonrails.org/association_basics.html>Association Basics</a></li>
+</ol>
+</li>
+</ol>
+<h1 id=assignment>Assignment</h1>
+<h2 id=part-0-creating-testdata>Part 0: Creating Testdata</h2>
+<p>You should never be attached to manually created test data living in your
+development or test database. Instead, you should have scripts that generate and re-generate this test data on demand.</p>
+<p>For tests, you would do that with a gem called <a href=https://github.com/thoughtbot/factory_bot_rails>Factory Bot</a>.</p>
+<p>To set up nice test data for Development, we use the built-in seed task,
+see the <a href=https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data>Migrations guide</a>.</p>
+<p>I&rsquo;ve modified the file to include all seed data in the folder db/seeds.</p>
+<h3 id=your-task-is-to-add-data-to-the-seed-data>Your task is to add data to the seed data:</h3>
+<ol start=0>
+<li>This can either be a Pumpkin or other Test Data - especially Customers and Orders - coordinate this by adding issues to the original repository (and checking what is
+already there first) - So that everyone else knows you&rsquo;re working on that particular pumpkin and we don&rsquo;t have 50 blue hubbards in the end.</li>
+<li>Fork the main repository if you haven&rsquo;t already done so.</li>
+</ol>
+<ul>
+<li>it is ok to publish your solution to the fork.</li>
+</ul>
+<ol start=3>
+<li>
+<p>create a branch in your fork - this will be necessary for the pull request. Everything in that branch will be added to the pull request! Make sure to do everything else in your master branch. You can merge or rebase the pumpkins branch into your master to have your testdata availabe.</p>
+</li>
+<li>
+<p>add the pumpkin seed data by adding <strong>a new file</strong> to db/seeds -
+remember that you can and should try out your commands in the console</p>
+<pre><code> ```rails c```
+</code></pre>
+</li>
+<li>
+<p>if you&rsquo;re done and the seed is working (run</p>
+<pre><code> rake db:seed
+</code></pre>
+<p>to find that out) send a pull request to the main repository.</p>
+</li>
+</ol>
+<p>As others will be doing the same, you might want to pull in the pumpkins of the others. <a href=https://help.github.com/articles/syncing-a-fork>https://help.github.com/articles/syncing-a-fork</a> will help with that.</p>
+<h2 id=part-1-show-the-customer-with-its-name-on-order-pages>Part 1: Show the Customer with it&rsquo;s Name on Order pages</h2>
+<p>We&rsquo;ve set up the 1:n association between Customer and Order, and the associated
+Customer is shown on the <a href=https://localhost:3000/orders>Order#index</a> and the <a href=https://localhost:3000/orders/1>order#show</a> page, but currently with
+the object id. On these two pages, show the associated customer with it&rsquo;s name.</p>
+<p>Note that this includes database accesses. What should be done where?</p>
+<h2 id=part-2-show-all-orders-for-a-customer>Part 2: Show all orders for a customer</h2>
+<p>Add a list of all orders placed by the customer on the page that <a href=https://localhost:3000/customers/1>shows a single
+customer</a>. Hint: there is already a template showing a list of orders in
+orders#index. You can copy and use/modify that. As the order doesn&rsquo;t contain any
+data itself, you could just show the created_at date.</p>
+<h2 id=part-3-compute-the-total-of-an-order-and-the-sum-of-all-orders>Part 3: Compute the total of an order and the sum of all orders.</h2>
+<p>Compute the total of an order and show it on the order page.
+Where should the computations be done, what goes in the controller, what
+changed need to be made to the view?</p>
+<p>Compute the total of all orders for a customer and show it on the customer page.</p>
+<h2 id=for-the-bored>For the bored</h2>
+<p>Create a working Shopping Cart.</p>
+<h1 id=report---what-to-hand-in>Report - what to hand in</h1>
+<p><strong>I need the pull request before 23:00 the night before the next lab.</strong>
+(just for the new seed data, Parts 1-3 will only be in your fork! Remember that you have to
+have the pull request in a separate branch for that, otherwise everything that you&rsquo;ll
+commit will be added to the pull request!)</p>
+<p>In your PDF report, describe what worked and what didn&rsquo;t work, problems you ran into, etc.
+Give a link to your fork and your pull request, as well as the name of the seed file
+you&rsquo;ve created.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/info3/material/</link><description>Recent content in Info3 Material on Prof. Dr. Barne Kleinen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/info3/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Refactoring e-learning</title><link>https://bkleinen.github.io/classes/ws2014/info3/material/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info3/material/refactoring/</guid><description>You already know refactoring since Info1 - we spent quite some time refactoring the Zuul project!
+This e-learning is about exploring and understanding refactoring in more depth.
+The resource on refactoring:
+Fowler, Martin: Refactoring: Improving the Design of Existing Code, Addison Wesley Object Technology Series, 1999.
+Ruby edition:
+Jay Fields, Shane Harvie, and Martin Fowler: Refactoring Ruby Edition. Addison Wesley, 2009.
+The latter is discussed in the Ruby Rouges Podcast #178.</description></item></channel></rss>

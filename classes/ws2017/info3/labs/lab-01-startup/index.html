@@ -1,0 +1,195 @@
+<!doctype html><html><head>
+<title>Exercise 01 - Lab Startup and Ruby Finger Exercises - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Exercise 01 - Lab Startup and Ruby Finger Exercises</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/>ws2017</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/info3/>info3</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/info3/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-01-startup</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2017/info3/>Info3</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ws2017/info3/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ws2017/info3/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=14389">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131704">LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info3>Github</a>
+</div>
+</li>
+</ul>
+</div>
+<p><img src=../images/workplace.jpg alt=Workplace title=pumpkins>
+Nerd Workplace. Foto by <a href=https://www.flickr.com/photos/slworking/8539204081/>slworking2</a></p>
+<h2 id=prelab>PreLab</h2>
+<ul>
+<li>if you plan on using your own computer in the lab, you should do the software installation of at least ruby and a decent editor <strong>before coming to lab</strong>.</li>
+</ul>
+<h1 id=part-1-setting-up-your-environment>Part 1: Setting up your environment</h1>
+<p>Make sure that you have</p>
+<ul>
+<li>ruby,</li>
+<li>rails,</li>
+<li>git,</li>
+<li>a decent text editor</li>
+</ul>
+<p>installed on the computer you intend to use (or know how to run all these on the lab machines).</p>
+<p><strong><a href=../lab-01-startup-installation>Here are detailled instructions</a></strong>.</p>
+<h1 id=part-2-git>Part 2: Git</h1>
+<h2 id=git>Git</h2>
+<p>This is to be done in the lab, or, alternatively, with all people sitting next to each other. The objective is to practice exchanging text files via git and github.</p>
+<p>Build Teams, create a central repository within each team and add the team members as collaborators on github (you may use another provider for git repositories, e.g. the FB4 Projekteserver - see <a href=../lab-01-startup-installation>the git part in the installation instructions</a>. The team size is up to you - it has to be at least two, the more you are the more complicated it gets. Make sure each one of you has successfully committed at least one change to the repository. You can set up a repository for the Ruby Finger Exercise right away.</p>
+<h1 id=part-3-ruby-finger-exercises>Part 3: Ruby Finger Exercises</h1>
+<p>You&rsquo;ll find Stubs, Tests and examples for this exercise on <a href=https://github.com/htw-imi-info3/lab-01-ruby-exercise>github</a>.</p>
+<h2 id=1-hobby-matcher>1. Hobby Matcher</h2>
+<p>&ldquo;Hobby Matcher&rdquo; should people help find other people with the same hobbies.</p>
+<p>Program (or extend) a class &ldquo;Person&rdquo; that implements matching Persons for their hobbies by implementing those two user stories:</p>
+<p><strong>Story 1:</strong> As a User of the Service I want to be able to enter my Hobbies as a comma-separated list.</p>
+<p><strong>Story 2:</strong> As a User of the Service I want to see a list with People with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending).</p>
+<p>Implement this in a ruby class &ldquo;Person&rdquo; (use <a href=https://github.com/htw-imi-info3/lab-01-ruby-exercise/blob/master/lib/person.rb>Person</a> as a starting point), holding the name and a list of hobbies in an Array of a single person.</p>
+<p>It should be possible to pass the list of hobbies as a single comma-seperated String
+(&ldquo;Go, Geocaching, Stunt Kites, Bicycles&rdquo;)
+to a <em><strong>setter method</strong></em> and they should be stored <em><strong>internally as an Array</strong></em>. (String#split might be useful for this.).</p>
+<p>Write one method returning the common hobbies of two persons.
+Write another method finding all other people with similar hobbies.
+Check out <em><strong>the provided spec</strong></em> for the exact method signatures! (spec/person_hobbies_spec.rb)</p>
+<h2 id=2-initialization-from-a-hash>2. Initialization from a hash</h2>
+<p>You&rsquo;ll see later that models in Rails (ActiveRecords) can be initialized like
+that:</p>
+<pre><code>Person.new(:name =&gt; &quot;Donald&quot;,:hobbies =&gt; &quot;Money, Bathing&quot;)
+</code></pre>
+<p>or, using the new fancy hash syntax:</p>
+<pre><code>Person.new(name: &quot;Donald&quot;, hobbies: &quot;Money, Bathing&quot;)
+</code></pre>
+<p>With the fields - name and hobbies in this case - set to the values in the Hash.</p>
+<p>Both cases make use of the fact that you can omit the {} if you pass a Hash
+as last argument to a method.</p>
+<p>This exercise is to implement this part of functionality by <strong>generically</strong>
+calling the appropriate setter methods for each key in the hash - if the setter
+is present.</p>
+<p>Again, you&rsquo;ll find a test case in person_init_spec.rb which you should use for
+developing this test-driven - but remember: making the
+test pass the simplest way possible is not enough here; you should implement
+it in a generic way using reflection on the method names.</p>
+<h1 id=report---what-to-hand-in>Report - what to hand in</h1>
+<p>Your lab report is due at 22.00 the day before the next lab and should include a written report on what you&rsquo;ve tried, what worked and what didn&rsquo;t - for both parts: the installation and the ruby finger exercises. Don&rsquo;t forget to include your own names on your report, and that each member of the team has to post the report.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>

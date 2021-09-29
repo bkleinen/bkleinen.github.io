@@ -1,0 +1,180 @@
+<!doctype html><html><head>
+<title>Exercise 09: Testing with JUnit - Prof. Dr. Barne Kleinen</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.ccf512356310409c38900b0015065c7f377453afb43955b1da472df061a8de72.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title">Exercise 09: Testing with JUnit</h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0">
+<nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2018/>ss2018</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2018/info1/>info1</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2018/info1/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>exercise-09</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2018/info1/>Info1</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2018/info1/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/classes/ss2018/info1/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/classes/ss2018/info1/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=16365">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=137826">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=137851">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1&missing=allTerms&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info1>Github</a>
+</div>
+</li>
+</ul>
+</div>
+<p>This week&rsquo;s lab work is intended give you practice testing and writing assertions.</p>
+<h4 id=what-to-bring-to-lab>What to Bring to Lab</h4>
+<p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.</p>
+<p><strong>P1</strong>. Write down six test cases for Day and Appointment that were not given in the lecture. Give each test case (and the ones from the lecture) a name.</p>
+<p><strong>P2</strong>. What assertions do you need in order to be able to automate the tests?</p>
+<h1 id=post-lab-aka--what-to-turn-in>Post-Lab, AKA What To Turn In</h1>
+<p>Your completed assignment, submitted in Moodle as a pdf,
+should include:</p>
+<ul>
+<li>A description of what you did during the lab, including a record of what worked, what problems you encountered, and answers to the questions asked in P1 and P2. The focus is on the process!</li>
+<li>Include the final version of the source code - either the whole bluej project zipped together or - preferably, if you just worked on two classes these two classes as separate files. You can upload up to three files altogether.</li>
+<li>For the tests you need to record what worked, what didn&rsquo;t, and perhaps make an occasional screenshot.</li>
+<li>The names and roles of any collaborators in any parts of the exercise.</li>
+<li>A record of how long you needed for this lab and what you learned.</li>
+</ul>
+<p>Lab assignments are due before your next lab at 22:00. They may, of course, be turned
+in earlier. You hand them in by preparing the report in PDF and submitting it to Moodle.</p>
+<hr>
+<h1 id=assignment>Assignment</h1>
+<h2 id=diary>Diary</h2>
+<p>A diary is a system for keeping track of appointments on specific days and specific hours. We are going to work with a diary that only can take one appointment per hour, starting at 9 a.m. with the last appointment going from 5 p.m. to 6 p.m. You will be given an implementation that could contain errors. Your job is to find the errors. You are only to develop tests and to find and describe errors, not to fix them.</p>
+<ol>
+<li>Install the <a href=https://github.com/htw-imi-info1/chapter09_testing/tree/master/diary-prototype>diary project in the lab</a> - switch to the branch of the current term first to see the changes we did in class. Create a test method in DayTest to check that findSpace returns the value of 10 for a one-hour appointment, if a day already has a single one-hour appointment at 9 a.m. In essence, you need to perform similar steps to those used to create testFindSpace9 in the lecture but and use makeAppointment for the first appointment and findSpace for the second appointment. If you want to add an assertion for the result of the makeAppointment call, you should do so in a separate test method as each one should only have one assertion.</li>
+<li>Create a test to check that findSpace returns a value of -1, if an attempt is made to find an appointment in a day that is already full.</li>
+<li>Create a test class that has Appointment as its reference class. Record, using the record button control, separate test methods within it, that check that the description and duration fields of an Appointment object are initialized correctly following its creation.</li>
+<li>Create a negative test in the DayTest class. For example, try and set up a one-hour appointment, and then put in a two-hour appointment at the same time. What happens when you run the test? Include a screenshot in your report.</li>
+<li>Set up a fixture for an additional test case from your pre-lab. What did you have to do?</li>
+<li>Add further automated tests (positive and negative) to theDayTest class, until you are reasonably confident of the correct operation of the classes. If you discover any errors, be sure to record tests that guard against recurrence of these errors in later versions.</li>
+<li>(For the bored) Correct any errors that you find and run a regression test. Document what you have to change and how you ran the regression test!</li>
+<li>(For the bored) Expand the diary to accept appointments on the half-hour. Test.</li>
+<li>(For the exceedingly bored) Expand the diary to permit overlap of appointments. Test.</li>
+</ol>
+<hr>
+<h1 id=writeup>Writeup</h1>
+<p>Submit your writeup as your post-lab to the Moodle area.</p>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<hr>
+<p><small>This page was authored by: kleinen</small></p>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+</p>
+<p><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</p>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</div>
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>
