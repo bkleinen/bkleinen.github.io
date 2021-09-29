@@ -34,7 +34,6 @@ jobs:
       - name: Zip
         run: |
           zip -r website ./public-htw
-          ls -lart
           pwd
       - name: Copy Github->HTW
         run: |
@@ -50,5 +49,4 @@ jobs:
       - name: Copy to Server
         run: |
             echo $WEBSSHKEY | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
-            ssh $HOST1 "ls -lart"
             ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1
