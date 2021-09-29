@@ -5,6 +5,7 @@
   {{/* find course page for subpages */}}
   {{ if eq "class_subpage" (.Scratch.Get "type") }}
     {{ $class_path := replaceRE "(/classes/[^/]*/[^/]*)/.+" "$1" .RelPermalink}}
+    {{ .Scratch.Set "class_page_path"  $class_path}}
     {{ $course_page = .Site.GetPage $class_path }}
   {{ end}}
 
