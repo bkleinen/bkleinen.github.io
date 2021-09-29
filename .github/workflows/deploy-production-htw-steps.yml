@@ -27,13 +27,13 @@ jobs:
 
       - name: Build Hugo Site
         run: |
-          hugo  --source hugo --destination ../public-htw --environment htw --baseURL https://home.htw-berlin.de/~kleinen/hugo
+          hugo  --source hugo --destination ../public-htw --environment htw
       - name: Prepare
         run: |
             eval $(ssh-agent -s)
             ssh-add - <<< "$WEBSSHKEY"
             scp -r -o StrictHostKeyChecking=no  _bin/hugo_deployment/steps.sh $HOST1:~/hugo-tunnel/steps.sh
-            eval "$(ssh-agent -k)"
+            eval "$(ssh-agent -k)"lar
       - name: Copy 1
         run: |
             eval $(ssh-agent -s)
