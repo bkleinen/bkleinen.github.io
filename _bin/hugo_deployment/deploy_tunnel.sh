@@ -1,5 +1,5 @@
 
-  hugo  --source hugo --destination ../public-htw --environment htw 
+  hugo  --source hugo --destination ../public-htw --environment htw
 
   ssh -o StrictHostKeyChecking=no $HOST1 "mkdir -p ~/hugo-tunnel"
   scp -r -o StrictHostKeyChecking=no  ./public-htw/* $HOST1:~/hugo-tunnel > /dev/null

@@ -51,11 +51,12 @@ jobs:
       - name: Copy Dummy Key
         run: |
             echo $DUMMY
-            echo $DUMMY | ssh $HOST1 'cat >>  ~/.dummy; chmod 600  ~/.dummy'
+            echo $DUMMY | ssh $HOST1 'cat >  ~/.dummy; chmod 600  ~/.dummy'
             echo $DUMMY > dummy.txt
+            cat dummy.txt
             scp dummy.txt $HOST1:~
       - name: Copy 2
         run: |
-            echo $WEBSSHKEY | ssh $HOST1 'cat >>  ~/.tmp; chmod 600  ~/.tmp'
+            echo $WEBSSHKEY | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
             ssh $HOST1 "ls -lart"
             ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1
