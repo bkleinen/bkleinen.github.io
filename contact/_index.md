@@ -14,9 +14,6 @@ layout: page
 <span class = "float-right">
 </span>
 
-
-{{< ref "/contact/impressum" >}}
-
 ## Contact Information
 
 My preferred means of communication is email:

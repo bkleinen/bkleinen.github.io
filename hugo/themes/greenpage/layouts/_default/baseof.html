@@ -40,16 +40,17 @@
             &nbsp;
           </div>
           <div class = "col-md-10 c4">
+            <small>
         {{- partial "footer.html" . -}}
-
+      </small>
+        {{ if (or (.Site.IsServer) (in (slice "staging" "development") hugo.Environment )) }}
+            <div><hr><small>  <h7>Debug Info</h7><ul>
+                 <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
+                 {{ partial "debug.html" . }}
+          </ul></small><hr></div>
+        {{ end }}
           </div>
-
-          {{ if (or (.Site.IsServer) (in (slice "staging" "development") hugo.Environment )) }}
-              <div><hr><small>  <h8>Debug Info</h8><ul>
-                   <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
-                   {{ partial "debug.html" . }}
-            </ul></small><hr></div>
-          {{ end }}
+<
         </footer>
 
         <script>
