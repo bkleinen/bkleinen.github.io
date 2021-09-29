@@ -28,6 +28,10 @@ fi
 
 git log --pretty=format:'%h' -n 1 > commit.txt
 jekyll build --config _config.yml,_htwconfigrz.yml
+cd hugo
+git checkout hugo_migratio
+hugo -e htw --minify -d ../_site_htw_rz/hugo
+cd ..
 
 if [ $? -eq 0 ]; then
 # locale charmap on server says US-ASCII, so not necessary for this server
