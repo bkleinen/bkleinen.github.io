@@ -13,13 +13,13 @@
 {{ range $course_page.Params.courseNavInt }}
   <li class="nav-item">
     {{ $active := cond (eq $course_page.RelPermalink .link) (eq $currentPage.RelPermalink .link) (in $currentPage.RelPermalink .link) }}
-    <a class="nav-link {{ if $active}}active{{ end }}" href="{{< .link | relLangURL}}">{{ .title }}</a>
+    <a class="nav-link {{ if $active}}active{{ end }}" href="{{ .link | relLangURL }}">{{ .title }}</a>
   </li>
 {{ else }}
 {{/* build menu from subpages, explicit course home needed */}}
 <li class="nav-item">
   {{ $menu_title := $course_page.Params.CourseNav | default ($course_page.Title) }}
-  <a class="nav-link {{ if eq $currentPage.RelPermalink $course_page.RelPermalink }}active{{ end }}" href="{{< ref $course_page.Permalink >}}">{{ $menu_title }}</a>
+  <a class="nav-link {{ if eq $currentPage.RelPermalink $course_page.RelPermalink }}active{{ end }}" href="{{ $course_page.Permalink }}">{{ $menu_title }}</a>
 </li>
 {{ range where $course_page.Pages "Params.CourseNav" "!=" nil}}
   {{ $menu_title := .Params.CourseNav | default (.Title) }}
