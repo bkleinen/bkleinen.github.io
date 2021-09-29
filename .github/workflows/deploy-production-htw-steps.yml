@@ -16,7 +16,7 @@ jobs:
       HOST2: ${{ secrets.HOST2 }}
     steps:
       - name: Check Settings
-        if: ${{ $HOST1 == '' }}
+        if: ${{ secrets.HOST1 == '' }}
         uses: actions/github-script@v3
         with:
           script: |
