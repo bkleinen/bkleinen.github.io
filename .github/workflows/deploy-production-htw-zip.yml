@@ -3,7 +3,7 @@ name: Deploy Production / HTW
 on:
   push:
     tags:
-      - 'v*'
+      - 'x*'
 
 jobs:
   deploy:

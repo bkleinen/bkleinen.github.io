@@ -1,10 +1,6 @@
 bkleinen.github.io
 ==================
 
-[![Build Status](https://travis-ci.org/bkleinen/bkleinen.github.io.svg)](https://travis-ci.org/bkleinen/bkleinen.github.io)
-
-Information for HTW Students
-
 This is the repository behind my web page,
 
 [https://bkleinen.github.io/](https://bkleinen.github.io/)
@@ -20,19 +16,19 @@ Apart from that, feel free to browse and also send me pull requests if you encou
 
 [A bit more about how this site is made and edited.](https://bkleinen.github.io/about/thissite.html)
 
-# Tests
+# Now on Hugo
 
-Run
+    git clone git@github.com:bkleinen/bkleinen.github.io.git
+    cd bkleinen.github.io
+    git checkout hugo_migration
+    cd hugo
+    make hugo
 
-    rake -T
+# Deployment
 
-to see available tests. They mainly check for link consistencies.
+- via github actions: https://github.com/bkleinen/bkleinen.github.io/actions
+- all pushes to hugo_migration are pushed to https://bkleinen.github.io/staging/
+- deployment to both production servers is triggered by pushing a tag (hopefully...)
 
-
-# Feeds
-
-https://validator.w3.org/feed/check.cgi?url=http%3A//bkleinen.github.io/atom.xml
-
-https://validator.w3.org/feed/check.cgi?url=http%3A//bkleinen.github.io/rss.xml
-
-https://validator.w3.org/feed/check.cgi?url=http%3A//people.f4.htw-berlin.de/%7Ekleinen/rss.xml
+     git tag v0.4
+     git push origin v0.4
