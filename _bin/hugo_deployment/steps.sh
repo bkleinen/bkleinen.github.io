@@ -9,8 +9,15 @@ exit_on_error () {
       exit $sshexit
   fi
 }
+sed -e "s/-----BEGIN OPENSSH PRIVATE KEY-----/###BEGIN###\n/" \
+    -e "s/-----END OPENSSH PRIVATE KEY-----/\n###END###/"  \
+    -e "s/ //g" \
+    -e "s/###BEGIN###/-----BEGIN OPENSSH PRIVATE KEY-----/" \
+    -e "s/###END###/-----END OPENSSH PRIVATE KEY-----/"  \
+     -e "s/.\{64\}/&\n/g" ./.tmp > .fixed
+chmod 600 .fixed
 eval $(ssh-agent -s)
-ssh-add ~/.tmp
+ssh-add ~/.fixed
 exit_on_error $?
 ssh-add -L
 # rm ~/.tmp
