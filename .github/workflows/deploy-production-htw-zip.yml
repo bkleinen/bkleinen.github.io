@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       WEBSSHKEY: ${{ secrets.WEBSSHKEY }}
-      DUMMY: ${{ secrets.DUMMY }}
       HOST1: ${{ secrets.HOST1 }}
       HOST2: ${{ secrets.HOST2 }}
     steps:
@@ -48,14 +47,7 @@ jobs:
       - name: Copy Copy Script
         run: |
             scp  _bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
-      - name: Copy Dummy Key
-        run: |
-            echo $DUMMY
-            echo $DUMMY | ssh $HOST1 'cat >  ~/.dummy; chmod 600  ~/.dummy'
-            echo $DUMMY > dummy.txt
-            cat dummy.txt
-            scp dummy.txt $HOST1:~
-      - name: Copy 2
+      - name: Copy to Server
         run: |
             echo $WEBSSHKEY | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
             ssh $HOST1 "ls -lart"
