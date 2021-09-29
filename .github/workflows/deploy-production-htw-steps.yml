@@ -33,7 +33,7 @@ jobs:
             eval $(ssh-agent -s)
             ssh-add - <<< "$WEBSSHKEY"
             scp -r -o StrictHostKeyChecking=no  _bin/hugo_deployment/steps.sh $HOST1:~/hugo-tunnel/steps.sh
-            eval "$(ssh-agent -k)"lar
+            eval "$(ssh-agent -k)"
       - name: Copy 1
         run: |
             eval $(ssh-agent -s)
