@@ -3,7 +3,7 @@ name: Deploy HTW Steps
 on:
   push:
     branches:
-      - hugo_migration  # Set a branch to deploy
+      - hugo_migration 
     tags-ignore:
       - 'v*'
 
@@ -19,8 +19,8 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
       - uses: webfactory/ssh-agent@v0.4.0
-          with:
-              ssh-private-key: ${{ secrets.WEBSSHKEY }}
+        with:
+          ssh-private-key: ${{ secrets.WEBSSHKEY }}
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
