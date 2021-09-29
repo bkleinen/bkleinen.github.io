@@ -18,10 +18,10 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
+      - name: Write gitinfo file
+        run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} ${{ github.workflow }}
       - name: Build Hugo Site
         run: |
-          _bin/hugo_deployment/gitversion.sh
           cd hugo
           hugo --minify -e production
           cd ..
