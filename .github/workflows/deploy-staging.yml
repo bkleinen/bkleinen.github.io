@@ -34,6 +34,6 @@ jobs:
         with:
           source-directory: 'hugo/public'
           destination-github-username: 'bkleinen'
-          destination-repository-name: 'website-staging'
+          destination-repository-name: 'staging'
           user-email: barne.kleinen@htw-berlin.de
           target-branch: hugo_staging
