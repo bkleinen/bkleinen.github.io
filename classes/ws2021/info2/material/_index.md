@@ -8,7 +8,7 @@ draft: true
 ---
 
 This page is not yet available for WS2021/22
-{% comment %}
+<!--
 
 ## Textbooks and Material
 
@@ -27,4 +27,4 @@ This page is not yet available for WS2021/22
 ### Topic 06: Searching
 ### Topic 07: Theoretical Foundations
 ### Topic 08: Python
-{% endcomment %}
+-->
