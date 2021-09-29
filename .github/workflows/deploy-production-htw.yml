@@ -22,6 +22,8 @@ jobs:
       - name: Create Known Hosts File
         run: |
           cp _bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
+      - name: Write gitinfo file
+        run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
