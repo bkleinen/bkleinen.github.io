@@ -1,4 +1,4 @@
-baseURL = 'https://bkleinen.github.io/bkleinen.github.io.hugo/'
+baseURL = 'https://bkleinen.github.io'
 languageCode = 'en-us'
 title = 'Prof. Dr. Barne Kleinen'
 # sectionPagesMenu = "main"
