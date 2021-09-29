@@ -7,7 +7,7 @@ IFS='.' read -a vers <<< "$CURTAG"
 
 MAJ=${vers[0]}
 MIN=${vers[1]}
-echo "Current Tag: v$MAJ.$MIN"
+#echo "Current Tag: v$MAJ.$MIN"
 
 for cmd in "$@"
 do
@@ -17,17 +17,18 @@ do
 			((MAJ+=1))
 			MIN=0
 			BUG=0
-			echo "Incrementing Major Version#"
+	#		echo "Incrementing Major Version#"
 			;;
 		# "--minor")
     *)
 			((MIN+=1))
 			BUG=0
-			echo "Incrementing Minor Version#"
+	#		echo "Incrementing Minor Version#"
 			;;
 
 	esac
 done
 NEWTAG="v$MAJ.$MIN"
-echo "Adding Tag: $NEWTAG";
+#echo "Adding Tag: $NEWTAG";
 git tag -a $NEWTAG -m $NEWTAG
+echo $NEWTAG
