@@ -33,12 +33,18 @@ jobs:
             eval $(ssh-agent -s)
             ssh-add - <<< "$WEBSSHKEY"
             scp -r -o StrictHostKeyChecking=no  _bin/hugo_deployment/steps.sh $HOST1:~/hugo-tunnel/steps.sh
+            eval "$(ssh-agent -k)"
       - name: Copy 1
         run: |
+            eval $(ssh-agent -s)
+            ssh-add - <<< "$WEBSSHKEY"
             ssh -o StrictHostKeyChecking=no $HOST1 "mkdir -p ~/hugo-tunnel"
             scp -r -o StrictHostKeyChecking=no  ./public-htw/* $HOST1:~/hugo-tunnel > /dev/null
+            eval "$(ssh-agent -k)"
       - name: Copy 2
         run: |
+            eval $(ssh-agent -s)
+            ssh-add - <<< "$WEBSSHKEY"
             echo $WEBSSHKEY | ssh -o StrictHostKeyChecking=no $HOST1 'cat >>  ~/.tmp; chmod 600  ~/.tmp'
             ssh -o StrictHostKeyChecking=no $HOST1 "export set HOST2=$HOST2; . ~/hugo-tunnel/steps.sh" 2>&1
             eval "$(ssh-agent -k)"
