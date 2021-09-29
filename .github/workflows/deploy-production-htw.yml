@@ -1,10 +1,8 @@
-name: Deploy HTW Steps
+name: Deploy Production / HTW
 
 on:
   push:
-    branches:
-      - hugo_migration
-    tags-ignore:
+    tags:
       - 'v*'
 
 jobs:
@@ -35,12 +33,12 @@ jobs:
           hugo  --source hugo --destination ../public-htw --environment htw
       - name: Prepare
         run: |
-            scp -r  _bin/hugo_deployment/steps.sh $HOST1:~/hugo-tunnel/steps.sh
+            scp -r  _bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
       - name: Copy Github->HTW
         run: |
             ssh $HOST1 "mkdir -p ~/hugo-tunnel"
-            scp -r  ./public-htw/* $HOST1:~/hugo-tunnel > /dev/null
+            # scp -r  ./public-htw/* $HOST1:~/hugo-tunnel > /dev/null
       - name: Copy 2
         run: |
             echo $WEBSSHKEY | ssh $HOST1 'cat >>  ~/.tmp; chmod 600  ~/.tmp'
-            ssh -o StrictHostKeyChecking=no $HOST1 "export set HOST2=$HOST2; . ~/hugo-tunnel/steps.sh" 2>&1
+            ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1
