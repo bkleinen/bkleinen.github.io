@@ -1,4 +1,4 @@
-name: Deploy HTW
+name: Deploy HTW in single steps
 
 on:
   push:
@@ -49,4 +49,3 @@ jobs:
             echo $WEBSSHKEY | ssh -o StrictHostKeyChecking=no $HOST1 'cat >>  ~/.tmp; chmod 600  ~/.tmp'
             ssh -o StrictHostKeyChecking=no $HOST1 "export set HOST2=$HOST2; . ~/hugo-tunnel/steps.sh" 2>&1
             eval "$(ssh-agent -k)"
-          fi
