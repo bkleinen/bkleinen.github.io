@@ -23,6 +23,7 @@ jobs:
 
       - name: Build Hugo Site
         run: |
+          _bin/hugo_deployment/gitversion.sh
           cd hugo
           hugo --minify -e staging
           cd ..

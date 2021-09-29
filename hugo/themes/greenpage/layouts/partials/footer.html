@@ -7,7 +7,7 @@
                 </p>
                 <p><a href="{{ site.BaseURL }}/contact/impressum">Impressum</a>,
                     <a href="{{ site.BaseURL }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
-                    <p><small>This page was authored by: {{ $.Param "author" }}, Version: x</small></p>
+                    <p><small>This page was authored by: {{ $.Param "author" }}, Version: {{ $.Site.Data.gitinfo.commit}}{{with $.Site.Data.gitinfo.tag}}/{{ . }}{{ end }}</small></p>
                     </p>
 
            <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png" /></a>

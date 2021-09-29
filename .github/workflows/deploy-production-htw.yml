@@ -30,6 +30,7 @@ jobs:
           extended: true
       - name: Build Hugo Site
         run: |
+          _bin/hugo_deployment/gitversion.sh
           hugo  --source hugo --destination ../public-htw --environment htw
       - name: Zip
         run: |
@@ -38,7 +39,6 @@ jobs:
       - name: Copy Github->HTW
         run: |
           ssh $HOST1 "mkdir -p ~/hugo-tunnel"
-          # scp -r ./public-htw/* $HOST1:~/hugo-tunnel > /dev/null
           scp website.zip $HOST1:~/hugo-tunnel/
       - name: Unzip
         run: |

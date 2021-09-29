@@ -20,8 +20,8 @@ eval $(ssh-agent -s)
 ssh-add ~/.fixed
 exit_on_error $?
 ssh-add -L
-# rm ~/.tmp
-# rm ~/.fixed
+rm ~/.tmp
+rm ~/.fixed
 date > ./hugo-tunnel/public-htw/timestamp
 ssh -o StrictHostKeyChecking=no $HOST2 "mkdir -p /home/user/K/kleinen/public_html"
 exit_on_error $?
