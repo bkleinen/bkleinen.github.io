@@ -19,8 +19,7 @@ do
 			BUG=0
 			echo "Incrementing Major Version#"
 			;;
-		"--minor")
-    # 	"--minor")
+		# "--minor")
     *)
 			((MIN+=1))
 			BUG=0

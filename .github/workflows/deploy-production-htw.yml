@@ -22,12 +22,12 @@ jobs:
       - name: Create Known Hosts File
         run: |
           cp _bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
-
       - name: Build Hugo Site
         run: |
           hugo  --source hugo --destination ../public-htw --environment htw
