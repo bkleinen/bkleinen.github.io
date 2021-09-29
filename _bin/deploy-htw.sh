@@ -13,8 +13,8 @@ else
   echo "ok."
 fi
 
-if [ $(git branch --show-current) != "master" ]; then
-   echo "not on master branch - this will result in "
+if [ $(git branch --show-current) != "hugo_migration" ]; then
+   echo "not on hugo_migration branch - this will result in "
    echo "inconsistency between github and htw versions - exiting."
    exit 1
 fi
@@ -25,13 +25,13 @@ if [ $? -ne 0 ]; then
     echo "branch not up to date; need to pull first! exiting"
     exit $?
 fi
-
+git checkout master
 git log --pretty=format:'%h' -n 1 > commit.txt
 jekyll build --config _config.yml,_htwconfigrz.yml
 cd hugo
 git checkout hugo_migration
 hugo -e htw --minify
-cp -r publish  ../_site_htw_rz/hugo
+cp -r public/*  ../_site_htw_rz/hugo
 cd ..
 
 if [ $? -eq 0 ]; then
@@ -43,7 +43,7 @@ else
     exit $?
 fi
 
-git push origin master
+git push origin hugo_migration
 if [ $? -ne 0 ]; then
     echo "push failed; exiting"
     exit $?
