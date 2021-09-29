@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - hugo_migration  # Set a branch to deploy
-    tags-ignore:
+    tags:
       - 'v*'
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
