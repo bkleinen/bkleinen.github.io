@@ -8,4 +8,4 @@ version:
 	git add data/git-commit.yml
 
 deploy:
-	git push origin hugo_migration
+	git push origin main

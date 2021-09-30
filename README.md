@@ -20,14 +20,14 @@ Apart from that, feel free to browse and also send me pull requests if you encou
 
     git clone git@github.com:bkleinen/bkleinen.github.io.git
     cd bkleinen.github.io
-    git checkout hugo_migration
+    git checkout main
     cd hugo
     make hugo
 
 # Deployment
 
 - via github actions: https://github.com/bkleinen/bkleinen.github.io/actions
-- all pushes to hugo_migration are pushed to https://bkleinen.github.io/staging/
+- all pushes to main are pushed to https://bkleinen.github.io/staging/
 - deployment to both production servers is triggered by pushing a tag (hopefully...)
 
      git tag v0.4
