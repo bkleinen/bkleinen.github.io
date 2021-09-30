@@ -3,7 +3,7 @@ title: 'Assignment 06 - Rails - First Steps'
 author: kleinen
 layout: page
 ---
-{% include classes/ws2014/info3.md %}
+
  ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
 Foto by [Pedro J. Ferreira](https://www.flickr.com/photos/pedroferrer/3615212504)
 # Prelab

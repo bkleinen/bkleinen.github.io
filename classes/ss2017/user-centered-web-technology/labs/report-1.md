@@ -3,7 +3,7 @@ title:  WT4 SS2017 - Report 1
 author: kleinen
 layout: default
 ---
-{% include classes/ss2017/user-centered-web-technology.md %}
+
 
 # Report 1: Contextual Inquiry
 

@@ -7,7 +7,7 @@ wide_layout: true
 |||
 |a|b|
 
-{% include classes/ws2014/webapplications.md %}
+
 
 
 Topics - general Thoughts

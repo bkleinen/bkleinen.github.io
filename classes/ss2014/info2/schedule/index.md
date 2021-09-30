@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include classes/ss2014/info2.md %}
+
 
 Stand: 1.4.2014
 

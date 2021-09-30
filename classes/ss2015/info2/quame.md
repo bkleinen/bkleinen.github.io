@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include classes/ss2015/info2.md %}
+
 
 # Questions
 

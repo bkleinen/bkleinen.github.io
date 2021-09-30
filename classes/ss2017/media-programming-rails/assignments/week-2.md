@@ -3,7 +3,7 @@ title: Week 2 - Active Record Associations, Migrations and Views
 author: kleinen
 layout: page
 ---
-{% include classes/ss2017/media-programming-rails.md %}
+
 
 # Week 2
 

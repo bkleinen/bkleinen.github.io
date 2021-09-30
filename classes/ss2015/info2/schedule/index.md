@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include classes/ss2015/info2.md %}
+
 
 ## Tentative Schedule - Lab Topics are subject to change!
 

@@ -19,7 +19,7 @@ In addition to that, my specific rules about ICs are as follows:
 
 * Grades will be done in each 2nd examination period. You need to **register for the exam and present your IC to me** (again, preferably during my office  hours) and hand in your report at least two weeks before the end of the grading deadline.
 
-{% include officehours.md %}
+{{< officehours >}}
 
 # Resources / further information
 * [Info-Sheet Independent Coursework](https://people.f4.htw-berlin.de/~weberwu/PA/Independent-Coursework-Guide-2015-01-22.pdf) (Prof. Weber-Wulff)

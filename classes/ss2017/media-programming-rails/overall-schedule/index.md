@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 wide_layout: true
 ---
-{% include classes/ss2017/media-programming-rails.md %}
+
 
 Tentative. Aka subject to possible change.
 

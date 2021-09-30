@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include classes/ws2014/info1.md %}
+
 
 
 ## Lectures
