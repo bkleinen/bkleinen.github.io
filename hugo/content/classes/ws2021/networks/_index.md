@@ -2,7 +2,7 @@
 title: B9 Networks WS 2021/22
 author: kleinen
 layout: default
-redirect_from: networks/
+aliases: /networks/
 courseNavInt:
 - title: Overview
   link: "/classes/ws2021/networks/"

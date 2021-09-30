@@ -1,7 +1,7 @@
 ---
 title: B7 Informatics 2 WS 2021/22
 author: kleinen
-redirect_from: info2/
+aliases: /info2/
 type: class
 courseNav: Info2
 menu:

@@ -2,7 +2,7 @@
 title: M1 Media Programming
 author: kleinen
 layout: page
-redirect_from: m1-web/
+aliases: /m1-web/
 courseNavInt:
 - title: M1
   link: "/classes/ws2021/m1-web/"
