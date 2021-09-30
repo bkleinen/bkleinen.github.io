@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 08: Eight Queens'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 ***P1.*** Make a chess board and mark how a Queen moves and threatens.
 
@@ -51,4 +51,3 @@ Also answer the following questions in your report:
 ----
 
 based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW
-{% endcomment %}

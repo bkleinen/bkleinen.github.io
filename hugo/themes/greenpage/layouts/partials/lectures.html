@@ -1,0 +1,7 @@
+<div class="col-12 col-md-6 mb-2 ">
+  <ul>
+  {{ range .Pages.ByWeight }}
+     <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+  {{ end }}
+  </ul>
+</div>

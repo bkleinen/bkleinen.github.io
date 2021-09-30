@@ -1,3 +1,8 @@
+public
+public-htw
+hugo/public
+hugo/resources/_gen
+
 _site
 _site_htw
 _site_htw_rz
@@ -11,4 +16,4 @@ kramdown.diff
 temp.html
 *.swp
 node_modules/
-hugo/
+temp/

@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div class = "container-fluid">
+
+        <header class = "row m-b-5" >
+          <div class = "col-md-2 c2">
+            &nbsp;
+          </div>
+          <div class = "col-md-10 c1 p-2">
+            {{- partial "headline.html" . -}}
+          </div>
+        </header>
+
+
+        <main class = "row p-0">
+        <nav class = "col-md-2 c2">
+          <div class = "nav">
+            {{- partial "navigation.html" . -}}
+          </div>
+        </nav>
+        <div class = "col-md-10 c3">
+          <div class = "outer">
+            {{- partial "breadcrumbs.html" . -}}
+          </div>
+          {{- block "meta" . }}{{- end }}
+
+          <div class = "coursenav">{{- block "section-navigation" . }}{{- end}}</div>
+
+          {{- block "main" . }}{{ .Content }}{{- end }}
+
+          </div>
+        </div>
+        </main>
+
+        <footer class = "row p-0">
+          <div class = "col-md-2 c2">
+            &nbsp;
+          </div>
+          <div class = "col-md-10 c4">
+            <small>
+        {{- partial "footer.html" . -}}
+      </small>
+        {{ if (or (.Site.IsServer) (in (slice "staging" "development") hugo.Environment )) }}
+            <div><hr><small>  <h7>Debug Info</h7><ul>
+                 <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
+                 {{ partial "debug.html" . }}
+          </ul></small><hr></div>
+        {{ end }}
+          </div>
+<
+        </footer>
+
+        <script>
+            var tables = document.getElementsByTagName("table");
+            for (i = 0; i < tables.length; i++) {
+              tables[i].classList.add("table");
+              tables[i].classList.add("table-sm");
+              tables[i].classList.add("table-striped");
+            }
+        </script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        {{ $bootstrap :=  (slice "js/bootstrap/jquery.slim.min.js" "js/bootstrap/popper.min.js" "js/bootstrap/bootstrap.min.js") }}
+        {{ if .Site.IsServer }}
+        {{ range $bootstrap }}
+        {{ $scripts := resources.Get . }}
+        <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+        {{ end }}
+        {{ else }}
+        {{ range $bootstrap }}
+        {{ $scripts := resources.Get . }}
+        <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+        {{ end }}
+        {{ end }}
+    </body>
+
+</html>

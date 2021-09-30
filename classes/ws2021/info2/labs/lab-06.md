@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 06: Reverse Polish Notation'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 
 ***P1.*** Make sure that you understand [postfix evaluation](../lab-06-handout). If you do the complete Pre-Lab you will be able to understand the algorithms given in the hand out.
@@ -74,4 +74,3 @@ Additional questions for part 1:
 - Will you really need both exceptions? Why or why not?
 
 Please do not put answers for the pre-lab into the lab report. I will not look at them. The lab hangout is for discussing the pre-lab.
-{% endcomment %}

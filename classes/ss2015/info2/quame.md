@@ -4,13 +4,13 @@ author: kleinen
 layout: page
 ---
 
-{% include classes/ss2015/info2.md %}
+
 
 # Questions
 
-See [https://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions)
+See [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions)
 
-Ask new questions here: [https://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions)
+Ask new questions here: [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions)
 
 # Answers
 
@@ -156,7 +156,7 @@ for Q&A, maybe somewhat like Stack Overflow with the possibility to upvote
 questions and also encouraging students to answer questions and earning credits
 for the course if they provided useful answers to their peers.
 
-You can enter questions anonymously here: [https://ba-thesis.herokuapp.com/]({{ site.baseurl }}/miscellany/grasp/),
+You can enter questions anonymously here: [https://ba-thesis.herokuapp.com/]({{ site.BaseURL }}/miscellany/grasp/),
 and I'll answer them around Saturday at noon latest for the current week.
-You find a list of questions here [https://ba-thesis.herokuapp.com/questions]({{ site.baseurl }}/miscellany/grasp/questions) and
+You find a list of questions here [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions) and
 their answers there: [QUAME](../quame)

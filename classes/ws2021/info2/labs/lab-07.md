@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 07: Recursive Triangles'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ![Machine](../images/SierpinskiTriangle.png "Sierpinski Triangle")
 
 ## Pre-Lab
@@ -55,4 +55,3 @@ Also answer the following questions in your report:
 * Ex.1: What is the largest equilateral triangle you can get on the screen?
 * Ex.2: How many lines of code did you write for Ex. 1 and 2?
 * Ex.2: What is your termination condition, what is the measure?
-{% endcomment %}

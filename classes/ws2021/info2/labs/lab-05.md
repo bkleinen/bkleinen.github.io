@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 05: Execution times'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 
 ***P1.*** Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
@@ -127,4 +127,3 @@ Additional questions for part 2:
 - Let B equal the number of bits in the binary representation of N. What is relationship between B and N?
 - In terms of B, what is the worst-case running time of your program?
 - Present the results of your experiment
-{% endcomment %}

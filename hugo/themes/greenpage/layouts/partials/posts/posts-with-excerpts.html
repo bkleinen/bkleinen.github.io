@@ -1,0 +1,33 @@
+<ul class="posts">
+<!-- range where .Pages "old" "in" ".Params.jekyll"  -->
+<!-- range .Pages -->
+
+
+{{$all := false}}
+{{$categories_to_show := (slice )}}
+
+
+{{ if eq .show  "all" }}
+  {{ $all = true }}
+{{ else }}
+  {{ $categories_to_show = .show }}
+{{ end }}
+
+{{ $categories_to_exclude := .exclude }}
+
+{{ range .Context.Pages}}
+
+    {{ if  (and (or ($all) (intersect .Params.Categories $categories_to_show) )
+          (not (intersect .Params.Categories $categories_to_exclude) )) }}
+
+    <li><small>{{ .Date  }} &raquo; </small><a href="{{ .URL }}">{{ .Title }}</a>
+      <br/>
+      <small>{{ .Params.Categories }} <a href="{{ .URL }}">(go to article)</a></small>
+      {{range .Params.categories}}
+      ---{{ . }}---
+      {{ end }}
+    </li>
+
+    {{ end }}
+{{end}}
+</ul>

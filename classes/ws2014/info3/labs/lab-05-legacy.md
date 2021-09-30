@@ -3,7 +3,7 @@ title: 'Assignment 05 - Legacy Code - Refactoring to Patterns'
 author: kleinen
 layout: page
 ---
-{% include classes/ws2014/info3.md %}
+
 
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://www.wowwiki.com/Gilded_Rose)</small>
@@ -16,7 +16,7 @@ readme and the GuildedRose class.
 
 * Ruby Version: [https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
 * Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
-* Original Version using Maven: [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose) 
+* Original Version using Maven: [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose)
 
 ### Write Characterization Tests
 
@@ -24,7 +24,7 @@ To be able to add the new functionality as requested you should write
 Characterization tests first.
 You will not yet refactor or add the required new functionality!
 
-{% comment %}This will be next week's exercise. {% endcomment %}
+
 
 ### Install and Run Tests
 First, you need to install the Software and run the tests.
@@ -101,11 +101,3 @@ Test Driven Development.
 
 Upload your source code together with a brief lab report (PDF) describing the
 design of your refactored application with design patterns used.
-
-
-{% comment %}
-
-How did you approach the Gilded Rose Kata? What problems did you experience?
- What did you learn? (Note that it is not necessary to have the Kata completed,
-  just write up what you've achieved in the lab).
-{% endcomment %}

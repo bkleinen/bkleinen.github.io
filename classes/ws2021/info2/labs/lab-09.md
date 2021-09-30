@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 09: Probabilistic Algorithms'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 ***P1.*** How do you compute the area of a circle and a rectangle?
 
@@ -55,4 +55,3 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 Also answer the following questions in your report:
 * Part I, Ex. 5: How many accurate digits of Pi you get for how many random points? Report your statistic.
 * Part II, Ex. 2: Can your current implementation lead to a deadlock? Why?
-{% endcomment %}

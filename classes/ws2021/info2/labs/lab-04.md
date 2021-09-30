@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 04: Chatterbox'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 Write down the code for the following questions and be able to explain what is happening.
 
@@ -37,4 +37,3 @@ Write down the code for the following questions and be able to explain what is h
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
-{% endcomment %}

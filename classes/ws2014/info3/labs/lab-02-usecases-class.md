@@ -3,7 +3,7 @@ title: 'Assignment 02 - Use Cases and Class Diagrams'
 author: kleinen
 layout: page
 ---
-{% include classes/ws2014/info3.md %}
+
 
 ![Diagram](../images/effective-diagrams.jpg "pumpkins")
 <small class = "float-right">The Art and Science of Diagramming. Foto by [Gary Barber](https://www.flickr.com/photos/cannedtuna/8115853847)</small>

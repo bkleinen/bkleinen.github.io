@@ -6,7 +6,7 @@ layout: default
 
 The lab assignments will be published here 1 week before the topic starts.
 
-{% comment %}
+<!--
 The Labs have an overlapping bi-weekly-rhythm.
 You will work on your Lab for each chapter starting
 
@@ -15,4 +15,4 @@ Week 2 - read 2nd part, work on according assignments during the lecture
 Group 1: Week 3 - finish Lab before Lab.
 Group 2: Week 3 - free
 
-{% endcomment %}
+-->

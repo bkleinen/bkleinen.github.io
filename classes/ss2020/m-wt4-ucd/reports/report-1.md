@@ -15,13 +15,6 @@ It should be submitted to moodle as pdf and contain the following parts:
 
 ## Documentation of Contextual Inquiry
 
-{% comment %}
-- Your Qualification Questions as well your
-- Script for soliciting interviewees
-
-How did you find interviewees,
-
-{% endcomment %}
 - any other preparation for the interviews
 - For each interview: (You should do at least 2 interviews per person in your team) the results of the interpretation session:
     - Student/User/Person Profile

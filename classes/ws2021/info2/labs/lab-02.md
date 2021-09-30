@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 02: Implementing CRC Cards'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 
 This exercise builds on the design you did last week using CRC cards. Please think through the following questions together with your team before coming to the lab and write down your answers somewhere.
@@ -28,4 +28,3 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 
 Additional requirements for this lab:
 * Answer the following questions: Did you end up using all of the classes you specified? Did you miss any classes? Discuss!
-{% endcomment %}

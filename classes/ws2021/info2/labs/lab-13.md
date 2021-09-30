@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 13: Scrabble Cheater - Deluxe'
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
 ## Pre-Lab
 
  ![Scrabble](../../images/scrabble_331161309_a8e6c6c3fd_o.jpg "scrabble 1")
@@ -50,4 +50,3 @@ deadline.
 
 ### Special Questions for your report
 How many lines of code did you write for each class? Record this statistic in your report.
-{% endcomment %}

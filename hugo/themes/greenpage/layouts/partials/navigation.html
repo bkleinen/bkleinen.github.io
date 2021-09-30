@@ -1,0 +1,26 @@
+
+<ul class="nav flex-md-column">
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+<li class="nav-item">
+    {{ if .HasChildren }}
+    <a class="nav-link dropdown-toggle {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active {{ end}}"
+    href="#" role="button" id="dropdownMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ .Name }}
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      {{ range .Children }}
+          <a class="dropdown-item  {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
+          href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+
+    {{ else }}
+      <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+    {{ end }}
+
+</li>
+{{ end }}
+<ul>

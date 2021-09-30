@@ -29,7 +29,7 @@ Auf unserer Website finden Sie verschiedene Informationen für die Kontaktaufnah
 
 Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 I lit. b) DSGVO, sofern die Verarbeitung der Anbahnung eines Vertragsverhältnisses dient. Im Übrigen dienen Ihre Einwilligung (Art. 6 I lit. a) DSGVO) und unser berechtigtes Interesse (Art. 6 I lit. f) DSGVO) an der Verarbeitung als Rechtsgrundlagen. Das berechtigte Interesse besteht darin, dass wir eine von Ihnen initiierte Konversation fortführen möchten.
 
-##Cookies
+## Cookies
 
 Auf diesen Internetseiten werden über Google Analytics (s.u.) hinaus keine Cookies verwendet.
 

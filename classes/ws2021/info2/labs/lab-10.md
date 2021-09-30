@@ -2,10 +2,13 @@
 title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
+draft: true
 ---
 This page is not yet available for WS 2021/22
-{% comment %}
-[![S-Bahn-Ring]({{ site.baseurl }}/images/s-bahn.jpg)
+
+{{ if .Params.ready }}
+
+![S-Bahn-Ring](/images/s-bahn.jpg)
 <small class = "float-right">S-Bahn Ring generated with https://github.com/bkleinen/bvg-graph based on OpenStreetMap</small>
 
 
@@ -80,4 +83,4 @@ Also answer the following questions in your report:
 * Ex. 1: How are you going to store the weights?
 * Ex. 3: What class will these methods belong to?
 * Do your implementations return the correct results?
-{% endcomment %}
+{{ end }}

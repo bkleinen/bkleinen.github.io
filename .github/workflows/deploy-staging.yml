@@ -1,0 +1,41 @@
+name: Deploy Staging
+
+on:
+  push:
+    branches:
+      - hugo_migration  # Set a branch to deploy
+    tags-ignore:
+      - 'v*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Write gitinfo file
+        run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+      - name: Build Hugo Site
+        run: |
+          _bin/hugo_deployment/gitversion.sh
+          cd hugo
+          hugo --minify -e staging
+          cd ..
+
+      - name: Push to Staging website
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.OTHER_TOKEN }}
+        with:
+          source-directory: 'hugo/public'
+          destination-github-username: 'bkleinen'
+          destination-repository-name: 'staging'
+          user-email: barne.kleinen@htw-berlin.de
+          target-branch: hugo_staging

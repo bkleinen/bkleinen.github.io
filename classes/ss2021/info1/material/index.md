@@ -17,7 +17,7 @@ layout: page
 # Exercise Overview
 
 
-{% include classes/ss2021/info1/references.md %}
+
 
 ## Chapter 01
 

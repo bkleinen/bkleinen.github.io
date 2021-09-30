@@ -2,9 +2,9 @@
 title: 'Info2: Exercise 12: Scrabble Cheater - Basic Edition '
 author: kleinen
 layout: lab
+draft: true
 ---
-This page is not yet available for WS 2021/22
-{% comment %}
+
  ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
 Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
 
@@ -68,5 +68,3 @@ All info on the lab reports can be found on the [Labs](https://bkleinen.github.i
 now part of lab 13:
 1. In preparation of the final ScrabbleCheater, which will also find shorter words that can be built with the tile rack, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
 -->
-
-{% endcomment %}

@@ -1,0 +1,35 @@
+name: Deploy Production / Github
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Write gitinfo file
+        run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+      - name: Build Hugo Site
+        run: |
+          cd hugo
+          hugo --minify -e production
+          cd ..
+
+      - name: Deploy to Production on Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        # if: github.ref == 'refs/heads/hugo_migration'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./hugo/public
+          publish_branch: hugo_production

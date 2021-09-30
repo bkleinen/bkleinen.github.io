@@ -1,0 +1,16 @@
+
+
+{{ define "meta" }}
+{{ partial "classes/infertype.html" . }}
+{{ end }}
+{{ define "section-navigation" }}
+{{ partial "classes/coursenav.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{/* partial "classes/class_header.html" . */}}
+{{ .Content }}
+{{ end }}
+
+
+{{ define "template" }}theme: layouts/classes/single.html{{ end }}

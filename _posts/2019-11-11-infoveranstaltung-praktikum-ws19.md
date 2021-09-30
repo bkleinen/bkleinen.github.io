@@ -13,7 +13,7 @@ für Studierende des Bachelorstudiengangs Internationale Medieninformatik findet
 
 **Mittwoch, 27.November 2019 16:30-18:00 PBH 5020**
 
-[Termin im ICS Format]({{ site.baseurl }}/assets/ical/infopws2019.ics)
+[Termin im ICS Format]({{ site.BaseURL }}/assets/ical/infopws2019.ics)
 
 (im Absprache mit der LV English for International Media and Computing)
 

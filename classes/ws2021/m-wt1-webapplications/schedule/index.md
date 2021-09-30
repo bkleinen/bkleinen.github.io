@@ -29,7 +29,7 @@ The schedule is, as always, tentative.
 | 17   | 6  | Tue 08/02/2022 | PZ1            |  |
 
 
-{% comment %}
+<!--
 
 | Week | KW | Date           | Topic                                                             |  |
 |:-----|:---|:---------------|:------------------------------------------------------------------|:-|
@@ -50,4 +50,4 @@ The schedule is, as always, tentative.
 | 15   | 4  | Fri 29/01/2021 | Usability Assessment                                              |  |
 | 16   | 5  | Fri 05/02/2021 | Security Assessment & Group Consultations                         |  |
 | 17   | 6  | Fri 12/02/2021 | [Showtime der Praxisprojekte](https://showtime.f4.htw-berlin.de/) |  |
-{% endcomment %}
+-->

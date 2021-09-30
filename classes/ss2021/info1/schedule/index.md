@@ -40,6 +40,6 @@ wide_layout: true
 |           | 28  |                    | Handling Errors, Exceptions, Assertions, File-based IO, Files, Command Line                                                                                           |                                                                     | [Video][1401]                                                                                       |
 | 15        |     | **Fri 16/07/2021** | Showtime                                                                                                                                                              | PA 3 20.7.                                                          |                                                                                                     |
 |           |     |                    |                                                                                                                                                                       |                                                                     |                                                                                                     |
-{% include classes/ss2021/info1/references.md %}
+
 
 Exam period: 05/07/2021-24/07/2021

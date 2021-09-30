@@ -21,10 +21,7 @@ individual commit, and you see something like [this](https://github.com/htw-imi-
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter03/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ws2016.zip)
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter04/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ws2016.zip) - 18.11.2014: in music organizer v3
 * [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter05/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ws2016.zip)
-* {% comment %}
-* [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ws2016](https://github.com/htw-imi-info1/chapter07_testing/tree/ws2016) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ws2016.zip)
-old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
-{% endcomment %}
+
 
 ### Labs
 

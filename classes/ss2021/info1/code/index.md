@@ -26,12 +26,10 @@ individual commit, and you you'll see the changes.
 * [Chapter 03](https://github.com/htw-imi-info1/chapter03) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter03/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter03/archive/ss2021.zip)
 * [Chapter 04](https://github.com/htw-imi-info1/chapter04) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter04/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter04/archive/ss2021.zip)
 
-* {% comment %}
 * [Chapter 05](https://github.com/htw-imi-info1/chapter05) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter05/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter05/archive/ss2021.zip)
 
 * [Chapter 06/07 (Testing)](https://github.com/htw-imi-info1/chapter07_testing) - [Changes in ss2021](https://github.com/htw-imi-info1/chapter07_testing/tree/ss2021) - [ZIP](https://github.com/htw-imi-info1/chapter07_testing/archive/ss2021.zip)
 old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
-{% endcomment %}
 
 * [Chapter 07 (Simple Analyzer)](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer) - [ZIP](https://github.com/htw-imi-info1/chapter_07_simpleAnalyzer/archive/ss2021.zip)
 

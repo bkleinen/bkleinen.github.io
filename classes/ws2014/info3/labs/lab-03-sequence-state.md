@@ -3,7 +3,7 @@ title: 'Assignment 03 - Sequence Diagrams and State Machine Diagrams'
 author: kleinen
 layout: page
 ---
-{% include classes/ws2014/info3.md %}
+
 # Part 1: Sequence Diagrams
 
 ![Launch Sequence](../images/sequence.jpg)
