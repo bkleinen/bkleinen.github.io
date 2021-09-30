@@ -28,13 +28,12 @@ jobs:
           cd hugo
           hugo --minify -e staging
           cd ..
-
+      # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging on Github Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          deploy_key: ${{ secrets.OTHER_TOKEN }}
+          personal_token: ${{ secrets.OTHER_TOKEN }}
           external_repository: bkleinen/staging
           publish_dir: ./hugo/public
           publish_branch: hugo_staging
