@@ -29,13 +29,25 @@ jobs:
           hugo --minify -e staging
           cd ..
 
-      - name: Push to Staging website
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.OTHER_TOKEN }}
+      - name: Deploy to Staging on Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          source-directory: 'hugo/public'
-          destination-github-username: 'bkleinen'
-          destination-repository-name: 'staging'
-          user-email: barne.kleinen@htw-berlin.de
-          target-branch: hugo_staging
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.OTHER_TOKEN }}
+          external_repository: bkleinen/staging
+          publish_dir: ./hugo/public
+          publish_branch: hugo_staging
+          commit_message: ${{ github.event.head_commit.message }}
+          #full_commit_message: ${{ github.event.head_commit.message }}
+
+#      - name: Push to Staging website
+#        uses: cpina/github-action-push-to-another-repository@main
+#        env:
+#          API_TOKEN_GITHUB: ${{ secrets.OTHER_TOKEN }}
+#        with:
+#          source-directory: 'hugo/public'
+#          destination-github-username: 'bkleinen'
+#          destination-repository-name: 'staging'
+#          user-email: barne.kleinen@htw-berlin.de
+#          target-branch: hugo_staging

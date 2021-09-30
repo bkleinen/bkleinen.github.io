@@ -33,3 +33,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./hugo/public
           publish_branch: hugo_production
+          commit_message: "${{ GITHUB_REF }} ${{ github.event.head_commit.message }}"
