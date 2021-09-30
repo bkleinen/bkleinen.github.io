@@ -1,8 +1,0 @@
-[M1 Media Programming: Web Technology]({{ site.baseurl }}/classes/ws2016/media-programming-rails)
- | [Schedule]({{ site.baseurl }}/classes/ws2016/media-programming-rails/schedule/)
- | [Overall Schedule]({{ site.baseurl }}/classes/ws2016/media-programming-rails/overall-schedule/)
- | [Assignments]({{ site.baseurl }}/classes/ws2016/media-programming-rails/assignments)
-  | [Example Project]({{ site.baseurl }}/classes/ws2016/media-programming-rails/example-project)
-| [Moodle](https://moodle.htw-berlin.de/course/view.php?id=11772)
-| [Github](https://github.com/media-programming-rails)
-| [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=119640)

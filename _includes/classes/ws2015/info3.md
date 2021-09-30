@@ -1,8 +1,0 @@
-[Info3:]({{ site.baseurl }}/classes/ws2015/info3/)
-[Schedule]({{ site.baseurl }}/classes/ws2015/info3/schedule/)
-| [Labs]({{ site.baseurl }}/classes/ws2015/info3/labs/)
-| [Code Examples]({{ site.baseurl }}/classes/ws2015/info3/code/)
-| [Moodle](https://moodle.htw-berlin.de/course/view.php?id=7348)
-| [Github](https://github.com/htw-imi-info3)
-| [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=107762)
-| [Term Schedule](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231)

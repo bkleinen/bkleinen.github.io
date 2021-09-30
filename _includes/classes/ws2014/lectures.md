@@ -1,4 +1,0 @@
-- [Info1]({{ site.baseurl }}/classes/ws2014/info1/)
-- [Info3]({{ site.baseurl }}/classes/ws2014/info3/)
-- [WT1 Web Technology]({{ site.baseurl }}/classes/ws2014/webapplications/)
-- [Praxisprojekt digimeo 2. Teil]({{ site.baseurl }}/classes/ss2014/project)
