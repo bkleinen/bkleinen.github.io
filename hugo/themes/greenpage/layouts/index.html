@@ -64,5 +64,12 @@
 {{ end }}
 {{ end }}
 
+{{ define "page_footer" }}
+{{ with $.Site.Data.gitinfo }}
+  Version: {{ .commit}}{{with .tag}} ({{ . }}){{ end }}
+  <!-- ref: {{ .ref }}, sha: {{ .sha }},  -->
+  deployed by workflow: {{ .workflow }}
+{{ end }}
+{{ end }}
 
 {{ define "template" }}theme: layouts/_index.html{{ end }}

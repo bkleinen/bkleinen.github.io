@@ -31,7 +31,7 @@ Apart from that, feel free to browse and also send me a [pull request](https://d
 - deployment to both production servers is triggered by pushing a tag v0.0
 - see makefile for useful targets, e.g.
 
-    make c m="commit message"
-    make deploy
+        make c m="commit message"
+        make deploy
 
 (assuming access rights)
