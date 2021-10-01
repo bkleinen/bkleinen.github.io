@@ -7,6 +7,7 @@ on:
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -22,9 +23,7 @@ jobs:
         run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
-          cd hugo
-          hugo --minify -e production
-          cd ..
+          hugo  --source hugo --minify --environment production
 
       - name: Deploy to Production on Github Pages
         uses: peaceiris/actions-gh-pages@v3

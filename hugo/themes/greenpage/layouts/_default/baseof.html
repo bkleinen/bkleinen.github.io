@@ -53,7 +53,7 @@
                                   <a href="{{ site.BaseURL }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
 
               <br>
-                        <small>This page was authored by: {{ $.Param "author" }}
+                        <small>This page was authored by: {{ $.Param "author" | default "B. Kleinen"}}
                         {{- block "page_footer" . }}{{- end }}
 
 
