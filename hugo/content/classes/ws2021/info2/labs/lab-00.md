@@ -20,8 +20,7 @@ If you decide to work on your own computer:
 ### 2. Prepare some more...
 * Sign in to [the IMI GitLab](https://gl-imi.f4.htw-berlin.de) and give yourself a name with which I can recognize you (something else than your Matrikelnummer! A nickname is enough.). You can only reach the IMI GitLab from at home if you use [VPN](https://rz.htw-berlin.de/anleitungen/vpn/).
 * Read through the entire info page on the labs and note down any questions.
-
-### Bring headphones to the first lab - you will watch a video.
+* Bring headphones to the first lab - you will watch a video.
 
 ## Lab
 
