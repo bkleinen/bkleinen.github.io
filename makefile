@@ -1,6 +1,6 @@
 # https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html#Phony-Targets
 .PHONY : hugo
-.RECIPEPREFIX =  -
+.RECIPEPREFIX = -
 
 hugo :
 -  open http://localhost:4242
@@ -18,9 +18,17 @@ c :
 # tag = $(shell echo DEF_TAG)
 tag = $(shell _bin/hugo_deployment/gitautotag.sh --minor)
 
-tag :
+tag : check_on_main
 -	echo "created new tag $(tag)"
 
-deploy :
+deploy : check_on_main
 -	git push origin main
 -	git push origin $(tag)
+
+ERR = $(error error is "not on main branch")
+current_branch = $(shell git branch --show-current)
+
+check_on_main :
+ifneq ($(current_branch),main)
+- echo $(ERR)
+endif
