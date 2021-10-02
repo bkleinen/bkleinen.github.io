@@ -2,7 +2,7 @@ r = /<a .*href="([^"]*)".*>([^<]*)<\/a>/
 rs = /<a .*href=".*<\/a>/
 
 
-fn = "_bin/hugo_migration/all_links.html"
+fn = "bin/hugo_migration/all_links.html"
 s = File.open(fn).read
 
 

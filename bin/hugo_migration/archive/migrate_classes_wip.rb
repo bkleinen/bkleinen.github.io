@@ -10,6 +10,7 @@ def remove_comments(coursenav)
     puts "---removed comment!"
     puts m[1]
     puts "--------------"
+
   end
   return result
 end
@@ -70,7 +71,7 @@ def check()
   r = /<a .*href="([^"]*)".*>([^<]*)<\/a>/
   rs = /<a .*href=".*<\/a>/
 
-  fn = "_bin/hugo_migration/all_links.html"
+  fn = "bin/hugo_migration/all_links.html"
   s = File.open(fn).read
 
   all = s.scan(rs)
@@ -82,13 +83,66 @@ def check()
 end
 
 
-def generate_course_navigation(coursenav_include)
 
+
+require_relative './defined_course_navs.rb'
+
+defined_coursenavs = get_all_course_navs
+puts get_all_course_navs
+
+
+# puts defined_coursenavs.inspect
+all_refs = []
+count = 0
+defined_coursenavs.each do | coursenav_include |
   coursenav = File.open("_includes/"+coursenav_include).read
   coursenav = remove_comments(coursenav)
   # decide if old or new format
   r2 = /{% assign navitems = \"([^ ]*)" | split: "," %}/
   format = r2.match(coursenav) ? :new : :old
+  puts "-------------------------------------------"
+  puts "coursenav_include: "+coursenav_include
+  puts "format: #{format}"
   extracted = (format == :old) ? extractOldFormat(coursenav) : extractNewFormat(coursenav)
-
+  puts "extracted: #{extracted}"
+  i = extracted["courseNavInt"].map{|h| h["link"] }
+  e = extracted["courseNavExt"].map{|h| h["link"] }
+  puts "i: #{i}"
+    puts "e: #{e}"
+  all_refs.push *i
+  all_refs.push *e
+  # puts "all_refs: #{all_refs.size}"
+  result =  YAML.dump(extracted)
+  puts result
+  count = count + result.scan(/- title:/).size
 end
+  #all_links_from_check = check()
+  # puts "---------------- --------------------------------------------------"
+  # puts "---------------- --------------------------------------------------"
+  # puts "---------------- --------------------------------------------------"
+  # puts "found links: #{all_refs.size}"
+  # puts "count: #{count}"
+  # puts "check: #{all_links_from_check.size}"
+
+  # all_refs = all_refs.compact.map{|s| s.chomp("/")}
+  # all_links_from_check = all_links_from_check.compact.map{|s| s.chomp("/")}
+  # missing = all_links_from_check.difference(all_refs)
+
+  # puts "found links: #{all_refs.size}"
+  # puts "check: #{all_links_from_check.size}"
+  # puts "check uniq: #{all_links_from_check.uniq.size}"
+  # puts "---------------- --------------------------------------------------"
+  # puts "---------------- --------------------------------------------------"
+  # puts "---------------- --------------------------------------------------"
+#
+  # puts "missing: #{missing.size}"
+  # puts missing
+  # puts all_refs
+# puts defined_coursenavs.join("% }\n{% include ")
+
+
+# puts "----------------  all_refs  -------------------------"
+# puts all_refs
+#
+# puts "----------------  all_links_from_check  -------------------------"
+# puts all_links_from_check
