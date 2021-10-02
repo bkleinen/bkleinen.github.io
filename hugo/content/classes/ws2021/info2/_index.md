@@ -5,27 +5,26 @@ aliases: /info2/
 type: class
 courseNav: Info2
 menu:
-course:
-  courseNavInt:
-  - title: Info2
-    link: "/classes/ws2021/info2/"
-  - title: Schedule
-    link: "/classes/ws2021/info2/schedule/"
-  - title: Material
-    link: "/classes/ws2021/info2/material/"
-  - title: Labs
-    link: "/classes/ws2021/info2/labs/"
-  courseNavExt:
-  - title: Moodle
-    link: https://moodle.htw-berlin.de/course/view.php?id=33324
-  - title: SU in LSF
-    link: https://lsf.htw-berlin.de/qisserver/  rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veran  staltung
-  - title: Labs in LSF
-    link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899
-  - title: Semesterstundenplan im LSF
-    link: https://lsf.htw-berlin.de/qisserver/  rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr  =231
-  - title: Github
-    link: https://github.com/htw-imi-info2
+courseNavInt:
+- title: Info2
+  link: "/classes/ws2021/info2/"
+- title: Schedule
+  link: "/classes/ws2021/info2/schedule/"
+- title: Material
+  link: "/classes/ws2021/info2/material/"
+- title: Labs
+  link: "/classes/ws2021/info2/labs/"
+courseNavExt:
+- title: Moodle
+  link: https://moodle.htw-berlin.de/course/view.php?id=33324
+- title: SU in LSF
+  link: https://lsf.htw-berlin.de/qisserver/  rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Labs in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899
+- title: Semesterstundenplan im LSF
+  link: https://lsf.htw-berlin.de/qisserver/  rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr  =231
+- title: Github
+  link: https://github.com/htw-imi-info2
 ---
 
 # Welcome!

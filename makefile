@@ -2,8 +2,7 @@
 .PHONY : hugo
 .RECIPEPREFIX = -
 
-hugo :
--  open http://localhost:4242
+hugo : openH
 -  hugo --buildDrafts --source hugo -p 4242 server
 
 c :
@@ -16,7 +15,7 @@ c :
 #    make deploy tag=v0.42
 # zum ausprobieren
 # tag = $(shell echo DEF_TAG)
-tag = $(shell _bin/hugo_deployment/gitautotag.sh --minor)
+tag = $(shell bin/hugo_deployment/gitautotag.sh --minor)
 
 tag : check_on_main
 -	echo "created new tag $(tag)"
@@ -32,3 +31,14 @@ check_on_main :
 ifneq ($(current_branch),main)
 - echo $(ERR)
 endif
+
+open :
+- gh browse
+openH :
+-  open http://localhost:4242
+openSites:
+- open https://home.htw-berlin.de/~kleinen/
+- open https://bkleinen.github.io/
+- open https://bkleinen.github.io/staging/
+openS:
+- open 	http://localhost:4242/classes/ws2021/info2/

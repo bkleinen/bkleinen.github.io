@@ -27,7 +27,7 @@ and layout templates.
 * On Github, Jekyll is triggered automatically on each push to the repository
 https://github.com/bkleinen/bkleinen.github.io and publishes the page to
 https://bkleinen.github.io
-* for publishing to [https://home.htw-berlin.de/~kleinen/](https://home.htw-berlin.de/~kleinen/)I use this script: [_bin/deploy-htw.sh](https://github.com/bkleinen/bkleinen.github.io/blob/master/_bin/deploy-htw.sh)
+* for publishing to [https://home.htw-berlin.de/~kleinen/](https://home.htw-berlin.de/~kleinen/)I use this script: [bin/deploy-htw.sh](https://github.com/bkleinen/bkleinen.github.io/blob/master/bin/deploy-htw.sh)
 * locally, I run
 
         jekyll serve --drafts
@@ -66,7 +66,7 @@ The basic steps are:
 
 Adjustments:
 * as [github pages runs jekyll in safe mode](https://jekyllrb.com/docs/github-pages/), the extra load path for sass will not work.
-* I've copied the sass files to the \_sass subdirectory, see \_bin/copy-sass.sh
+* I've copied the sass files to the \_sass subdirectory, see \bin/copy-sass.sh
 
 ### Resources
 

@@ -21,7 +21,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
       - name: Write gitinfo file
-        run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+        run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
           hugo --source hugo  --minify --environment staging

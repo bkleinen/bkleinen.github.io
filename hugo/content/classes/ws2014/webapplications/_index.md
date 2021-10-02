@@ -12,7 +12,7 @@ courseNavExt:
   link: https://github.com/htw-imi-webapplications/bentobox/wiki/
 ---
 
-{% include classes/ws2014/webapplications.md %}
+
 
 ## Welcome!
 

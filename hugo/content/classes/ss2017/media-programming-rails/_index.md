@@ -22,7 +22,7 @@ courseNavExt:
   link: https://github.com/htw-imi-m1-ss2017
 ---
 
-{% include classes/ss2017/media-programming-rails.md %}
+
 
 Welcome!
 

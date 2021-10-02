@@ -18,7 +18,7 @@ courseNavExt:
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
 ---
 
-{% include classes/ws2014/info3.md %}
+
 
 # Welcome!
 

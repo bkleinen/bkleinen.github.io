@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-{% include classes/ss2017/media-programming-rails.md %}
+
 
 
 [Example Project on GitHub](https://github.com/htw-imi-m1-ss2017/example-app)

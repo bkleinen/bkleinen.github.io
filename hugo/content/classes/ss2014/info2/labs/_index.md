@@ -3,7 +3,7 @@ title: Info2 SS2014 - Labs and Exercises
 author: kleinen
 layout: page
 ---
-{% include classes/ss2014/info2.md %}
+
 
 ## Exercises
 * [Exercise 01 - Dealing with Objects and Toolbox](lab-01)

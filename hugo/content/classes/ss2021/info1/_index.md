@@ -177,7 +177,7 @@ The Course Navigation on top gives you access to all other relevant places via "
 
 <hr />
 Here's the Course Navigation again:
-{% include classes/ss2021/info1.md %}
+
 <hr />
 
 These places are in detail:
@@ -190,4 +190,4 @@ These places are in detail:
 
 
 
-{% include classes/ss2021/info1/references.md %}
+

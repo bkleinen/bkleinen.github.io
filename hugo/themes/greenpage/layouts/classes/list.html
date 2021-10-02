@@ -1,7 +1,9 @@
 
 {{ define "meta" }}
 {{ partial "classes/infertype.html" . }}
+{{   .Scratch.Add "trace" "layouts/classes/list.html" }}
 {{ end }}
+
 
 {{ define "section-navigation" }}
 {{ partial "classes/coursenav.html" . }}
@@ -18,6 +20,5 @@
   {{ partial "classes/all_classes.html" . }}
 
 {{end}}
-
 
 {{ define "template" }} theme: layouts/classes/list.html {{ end }}

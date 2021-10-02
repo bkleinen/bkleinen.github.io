@@ -1,15 +1,16 @@
 ---
-title: 'Info2: Exercise 01: Application Design'
+title: 'Info2 WS 2021/22 - Labs and Exercises'
+subTitle: 'Info2: Exercise 01: Application Design'
 author: kleinen
-layout: lab
 draft: true
 ---
+
 
 ## Pre-Lab
 
 Remember to do all the necessary steps listed on the [Labs](..) page, including the following exercises:
 
-***P1.*** How do you obtain tickets to go see a movie? Write down the steps that you take, in order.
+***P1.*** Refamiliarize yourself with the Zuul Project from Info1.
 
 ***P2.*** If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
 

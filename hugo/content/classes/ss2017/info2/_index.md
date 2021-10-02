@@ -24,8 +24,6 @@ courseNavExt:
   link: https://github.com/htw-imi-info2
 ---
 
-{% include classes/ss2017/info2.md %}
-
 # Welcome!
 
 This course is an introduction to *algorithms and data structures*. It will be taught in German with all written material in English. It will be taught using the Java programming language, but it is not about the language. Mastery of basic Java syntax as taught in Informatik I is assumed. We learned primitive data types, statements and rules, interfaces and classes in Informatik I. We will now be looking at more complex data structures and algorithms which work on these data structures.

@@ -16,7 +16,7 @@ courseNavExt:
   link: https://github.com/htw-imi-info2
 ---
 
-{% include classes/ss2015/info2.md %}
+
 # News: Development of an Info1/2 Q&A Application
 
 Felix Brix has taken on the project of developing an gamified Q&A application for Info1 and Info2.

@@ -91,7 +91,7 @@ There are tons of Java Tutorials out there on the web, my recommendation are the
 
 On the top of the page you find a couple of links you'll find you'll be using a lot during the term:
 
-{% include classes/ws2016/info1.md %}
+
 Information on this class is dispersed depending on the nature of the information and wether it should be public or not.
 
 * These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)

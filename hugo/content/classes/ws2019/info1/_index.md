@@ -99,7 +99,7 @@ Information on this class is dispersed on various locations depending on the nat
 On the top of the page you find a navigation that gives you access to all those places - they are in detail:
 <hr />
 This is the menu:
-{% include classes/ws2019/info1.md %}
+
 
 * These pages for publicly accessible information, especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
 * External Links:

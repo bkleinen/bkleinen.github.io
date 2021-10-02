@@ -20,14 +20,14 @@ jobs:
           ssh-private-key: ${{ secrets.WEBSSHKEY }}
       - name: Create Known Hosts File
         run: |
-          cp _bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
+          cp bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
       - name: Write gitinfo file
-        run: _bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+        run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
           hugo  --source hugo --destination ../public-htw --minify --environment htw
@@ -44,7 +44,7 @@ jobs:
           ssh $HOST1 "cd ./hugo-tunnel ; unzip -o website.zip ; cd .."
       - name: Copy Copy Script
         run: |
-            scp  _bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
+            scp  bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
       - name: Copy to Server
         run: |
             echo "$WEBSSHKEY" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
