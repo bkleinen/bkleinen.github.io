@@ -7,6 +7,7 @@ enableGitInfo = true
 disableKinds = ['taxonomy', 'term']
 [params]
   serverencoding = "UTF-8"
+  generatedLinks = true # set this to false to detect unlinked pages
 [menu]
 [[menu.main]]
   identifier = 'home'
@@ -45,9 +46,9 @@ disableKinds = ['taxonomy', 'term']
   weight = 30
 [[menu.main]]
   parent = 'classes'
-  identifier = '/classes/ws2021/index.html'
+  identifier = '/classes/ws2021'
   name = 'All WS 21/22'
-  pageref = '/classes/ws2021/index.html'
+  pageref = '/classes/ws2021'
   weight = 40
 [[menu.main]]
   parent = 'classes'

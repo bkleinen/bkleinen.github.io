@@ -14,14 +14,14 @@
       {{ end }}
 
 &nbsp;&nbsp;&nbsp;&nbsp;
-
+{{ if .Site.Params.generatedLinks }}
 {{ with .NextInSection}}
    <a href ="{{ .RelPermalink }}">&lt;prev</a>
 {{ end }}
 {{ with .PrevInSection}}
    <a href ="{{ .RelPermalink }}">next&gt;</a>
 {{ end }}
-
+{{ end }}
    </header>
 
   {{ end }}
