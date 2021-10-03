@@ -7,12 +7,12 @@ on:
     branches:
       - main
 jobs:
-  if: github.ref == 'refs/heads/main'
   hello:
+    if: github.ref == 'refs/heads/main'
     steps:
       - run: |
           echo "say hello to main"
-
+          
   deploy:
     if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
