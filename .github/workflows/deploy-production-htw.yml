@@ -9,10 +9,11 @@ on:
 jobs:
   hello:
     if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
     steps:
       - run: |
           echo "say hello to main"
-          
+
   deploy:
     if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
