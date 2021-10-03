@@ -1,0 +1,341 @@
+<!doctype html><html><head>
+<title>Info2: Exercise 01: Application Design - Prof. Dr. Barne Kleinen</title>
+<link rel=icon href=https://bkleinen.github.io/favicon.ico>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=stylesheet href=https://bkleinen.github.io/assets/main.css>
+<link rel=stylesheet href=https://bkleinen.github.io/css/syntax.css>
+<link rel=stylesheet href=/css/style.min.f772b557719cabf0caa72eb3f6a546a1c62774994053c881465edbc396af7857.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
+<div class="c7 mt-auto">
+<h1 class="c5 title"> Info 2 WS 2021/22 - Labs and Exercises </h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
+</div>
+<div class="c7 ml-auto">
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0"><nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class=nav-link href=/>Home</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle active" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Classes
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href=/classes/ws2021/>All WS 21/22</a>
+<a class=dropdown-item href=/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/contact/>Contact Info</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Studies
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=/studies/ic/>IC</a>
+<a class=dropdown-item href=/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>
+Misc
+</a>
+<div class=dropdown-menu aria-labelledby=dropdownMenuLink>
+<a class=dropdown-item href=/misc/about-this-site/>About this Site</a>
+<a class=dropdown-item href=/misc/trans/>Trans*</a>
+<a class=dropdown-item href>LSF</a>
+<a class=dropdown-item href=/misc/links/>Links</a>
+</div>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/>info2</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-01</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/info2/>Info2</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/info2/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=https://bkleinen.github.io/classes/ws2021/info2/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33324">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/%20%20rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/%20%20rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr%20%20=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info2>Github</a>
+</div>
+</li>
+</ul>
+</div>
+<h2 class=followed> Info2: Exercise 01: Application Design</h2>
+<header class=following>
+<a data-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
+Table of Contents
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=/classes/ws2021/info2/labs/lab-00/>&lt;prev</a>
+<a href=/classes/ws2021/info2/labs/lab-02/>next></a>
+</header>
+<div class=collapse id=tocContent>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#pre-lab>Pre-Lab</a></li>
+<li><a href=#assignment-crc-cards>Assignment: CRC Cards</a>
+<ul>
+<li><a href=#1-background-and-requirements>1. Background and Requirements</a></li>
+<li><a href=#2-identify-class-and-method-candidates>2. Identify Class and Method Candidates</a></li>
+<li><a href=#3-crc-cards>3. CRC Cards</a></li>
+<li><a href=#repository-for-this-lab>Repository for this Lab</a></li>
+<li><a href=#lab-report--what-to-turn-in>Lab Report / What to turn in</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<h2 id=pre-lab>Pre-Lab</h2>
+<p>Remember to do all the necessary steps listed on the <a href=..>Labs</a> page, including the following exercises:</p>
+<p><em><strong>P1.</strong></em> Refamiliarize yourself with the Zuul Project in Info1.</p>
+<p><em><strong>P2.</strong></em> Recall the Responsibilities of the given classes. What was the point
+of the refactoring(s)?</p>
+<p><em><strong>P3.</strong></em> Find out what the <em>Class-Responsibility-Collaboration Card method</em> is, what the use of CRC Cards is and how they are created. The following resources can be of help:</p>
+<ul>
+<li><a href=htts://c2.com/doc/oopsla89/paper.html>The method of CRC cards and the context of OOP</a></li>
+<li><a href=http://agilemodeling.com/artifacts/crcModel.htm>Example CRC cards and how to create CRC Cards</a></li>
+</ul>
+<h2 id=assignment-crc-cards>Assignment: CRC Cards</h2>
+<h3 id=1-background-and-requirements>1. Background and Requirements</h3>
+<p>A Startup had found the Zuul Example and decided to make a cool real
+<a href=https://en.wikipedia.org/wiki/MUD>multi-user dungeon</a> game based on it.
+You&rsquo;ve been hired to do the programming, and
+there have been several meetings to talk about what should be added to the
+simple Zuul Project. The outcome is a description about the desired functionality.
+(We won&rsquo;t be concerned with how that happens in detail, this is called Requirements
+Engineering and will be discussed in the third semester in Info3.)</p>
+<p>Assume that this is the description written:</p>
+<h4 id=cool-zuul>Cool Zuul</h4>
+<p>CoolZuul is based on a already extended version done in the labs or programming
+assignments: Rooms have been refactored to not contain hard-coded assumptions
+about the setup of the World, Commands have been refactored, and Items been added.
+Also, a class &ldquo;GameStatus&rdquo; has been introduced to store the status of the game
+during play, which is the current room and the item inventory carried by the
+sole player. Items can be picked up and dropped in Rooms.</p>
+<ol>
+<li>
+<p><strong>Multiple Players</strong><br>
+The CoolZuul game should be extended to allow for multiple players.
+Each player has their own inventory of items.
+Players see other players in the same room and can talk to them.
+There should also be a &ldquo;shout&rdquo; command which enables players to communicate
+with all other players.</p>
+</li>
+<li>
+<p><strong>Quests</strong><br>
+The game should support Quests. Active quests get notified of actions in the game,
+or by the player, to be able to determine the progress and completion of a Quests.
+Quests will be advertised on a billboard within the game, and players need to
+actively start a quest to play and complete it. Players can see a list of
+started and completed quests.</p>
+</li>
+<li>
+<p><strong>History of Visited Rooms</strong><br>
+There should be a history of visited Rooms stored for each player enabling
+the player to go back more than one step.</p>
+</li>
+<li>
+<p><strong>Interaction with Items</strong>
+there should be special items which allow for interaction, e.g. books that can
+be read, boxes that can be opened. Items can be contained in other items.</p>
+<pre><code>Some Room Description...
+Items:
+- strange box
+&gt; open box
+There is a key in the box!
+(key is moved to inventory of player.)
+
+Some Room Description...
+Items:
+- a book
+&gt; read book
+... quest description or hint follows...
+</code></pre>
+</li>
+<li>
+<p><strong>Hidden Items</strong><br>
+There should be Items which are not immediately visible. A command &ldquo;examine&rdquo;
+should be introduced to reveal these items.
+e.g enabling this interaction:</p>
+<pre><code>....
+There is a strange blob on the wall
+&gt; examine blob
+You examine the blob closer. It is an old chewing gum with a key hidden under it!
+Items:
+ - key
+&gt; take key
+</code></pre>
+</li>
+<li>
+<p><strong>Closed Doors and blocked passages</strong><br>
+Exits to other Rooms can be blocked by Doors, which may be easy to open or
+locked with a key. They may also be blocked by something or otherwise hidden.
+They are similar to items or hidden items, in such that the room description
+should contain a hint that they are there, and can be interacted with.
+Some examples:</p>
+<pre><code>There is a door to the north.
+&gt; open door
+You open the door.
+&gt; go north
+
+There is a door to the south.
+&gt; open door
+You dont have a key.
+&gt; use key on door
+You open the door.
+&gt; go south
+
+You see a forest. There is a big stone.
+&gt; examine stone
+You examine the stone closer and manage to move it.
+There is a hidden passage down!
+Exits:
+- down
+&gt; go down
+</code></pre>
+</li>
+<li>
+<p><strong>Persistence</strong><br>
+A player should be able to save their progress to disk to continue playing at
+a later time.</p>
+</li>
+<li>
+<p><strong>NPCs</strong> (for the bored)<br>
+There should be
+<a href=https://en.wikipedia.org/wiki/Non-player_character>Non-Person-Characters</a>
+in the game.</p>
+</li>
+</ol>
+<h3 id=2-identify-class-and-method-candidates>2. Identify Class and Method Candidates</h3>
+<p>The first step is to discover some candidate classes and methods.</p>
+<p>A simple method to discover candidates for classes, introduced by Abbott (1983),
+and later popularized by Booch (e.g. Booch 2004, P 136) is the following:</p>
+<ul>
+<li>Underline all the nouns (in an English language text) in one color, such as blue</li>
+<li>Underline all the verbs in another color, such as red</li>
+<li>Underline all the adjectives in a third color, such as green.</li>
+</ul>
+<p>The nouns are candidates for classes, the verbs for methods and the adjectives for attributes/fields.</p>
+<p>Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible <em>candidates</em> for classes and methods - not every noun will be a class name in your application!</p>
+<h3 id=3-crc-cards>3. CRC Cards</h3>
+<h4 id=preparation>Preparation</h4>
+<p>Make CRC cards for each of the existing classes as well as of your candidate classes.
+Only put down the class names for now.</p>
+<h4 id=work-through-the-scenarios>Work through the Scenarios</h4>
+<p>The examples above how it should be able to interact with CoolZuul constitute
+scenarios. Work through them and refine your CRC cards based on what you discover.
+Ask these questions:</p>
+<p>How is this done, exactly?
+What data is going to have to be stored? Where?
+If you feel the need to create a new class, feel free to do so!
+If you discover that a class needs to be split in two - make two new cards and rip up the old one.
+If two need to be merged, do so.
+Keep a list of things you want to keep track of.</p>
+<p>Some of the requirements may need to be clarified by writing down an interaction
+example first.</p>
+<h4 id=dontt-worry-about-the-implementation>Dont&rsquo;t worry about the Implementation!</h4>
+<p>Don&rsquo;t worry if you are unsure how to implement certain things - e.g. the
+persistence part or differentiating the input from multiple players.</p>
+<p>This assignment is about design - you just need to identify that there is
+something that needs to be taken care of somewhere; without making decisions
+about the implementation just yet.</p>
+<h3 id=repository-for-this-lab>Repository for this Lab</h3>
+<p>I will publish a starting point as soon as PZ2 of Info1 is done:<br>
+<a href=https://github.com/htw-imi-info2/lab02-cool-zuul>https://github.com/htw-imi-info2/lab02-cool-zuul</a></p>
+<h3 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h3>
+<p>All info on the lab reports can be found on the <a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>Labs</a> page.</p>
+<p>Additional requirements for this lab:</p>
+<ul>
+<li>Please submit your final CRC cards and a description of the process you went through for creating them.</li>
+</ul>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<small>
+<hr>
+<div class=container>
+<p>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>
+<br>
+<a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+<br>
+<small>This page was authored by: kleinen
+<br>
+<a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/3.0/de/80x15.png></a>
+This <span xmlns:dct=https://purl.org/dc/terms/ href=https://purl.org/dc/dcmitype/Text rel=dct:type>work</span> is licensed under a <a rel=license href=https://creativecommons.org/licenses/by-nc/3.0/de/deed.en_US>Creative Commons Attribution-NonCommercial 3.0 Germany License</a>.
+</small>
+</p>
+</div>
+</small>
+</div>
+&lt;
+</footer>
+<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
+<script type=text/javascript src=/js/bootstrap/jquery.slim.min.min.250c3f130e83120ce4c32207349955f8babb66ed6637dc45861cb5128b70f150.js></script>
+<script type=text/javascript src=/js/bootstrap/popper.min.min.9260a4dc6d8cae88b6699aee4adc266d654e66a67ea1e43749fb3f57fc5c4d0b.js></script>
+<script type=text/javascript src=/js/bootstrap/bootstrap.min.min.be982594640f7063a661a75f555ee89d1c7605524d511ae66f43765abf513016.js></script>
+</body>
+</html>
