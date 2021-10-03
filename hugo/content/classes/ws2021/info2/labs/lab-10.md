@@ -4,13 +4,9 @@ author: kleinen
 layout: lab
 draft: true
 ---
-This page is not yet available for WS 2021/22
-
-{{ if .Params.ready }}
 
 ![S-Bahn-Ring](/images/s-bahn.jpg)
 <small class = "float-right">S-Bahn Ring generated with https://github.com/bkleinen/bvg-graph based on OpenStreetMap</small>
-
 
 
 ## Pre-Lab
@@ -76,6 +72,10 @@ You find the station names in [stations.txt](../lab-10-data/stations.txt)
 
 The graph data was extracted from the GTFS-Data provided at [https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html](https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html) using the rails app [https://github.com/bkleinen/bvg-graph](https://github.com/bkleinen/bvg-graph)
 
+Update WS 20/21: I've found the current data at [https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs),
+you can read about the GTFS format on [Wikipedia](https://de.wikipedia.org/wiki/General_Transit_Feed_Specification) or on the [GTFS für Deutschland](https://gtfs.de/)site. 
+
+
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
@@ -83,4 +83,3 @@ Also answer the following questions in your report:
 * Ex. 1: How are you going to store the weights?
 * Ex. 3: What class will these methods belong to?
 * Do your implementations return the correct results?
-{{ end }}
