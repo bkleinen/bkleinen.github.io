@@ -4,8 +4,20 @@ on:
   push:
     tags:
       - 'v*'
+    branches:
+      - main
 jobs:
+  hello:
+    branches:
+      - main
+    steps:
+      - run: |
+          echo "this file is ok but main didn't notice without this"
   deploy:
+    on:
+      push:
+        tags:
+          - 'v*'
     runs-on: ubuntu-latest
     env:
       WEBSSHKEY: ${{ secrets.WEBSSHKEY }}
