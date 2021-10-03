@@ -48,7 +48,7 @@ From [https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](https://d
 
 ## Lab Report / What to turn in
 
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
 * Ex.1: What is the largest equilateral triangle you can get on the screen?

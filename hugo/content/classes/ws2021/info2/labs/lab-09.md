@@ -50,7 +50,7 @@ at least one creating a deadlock and one using a probabilistic solution to avoid
 deadlock.
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
 * Part I, Ex. 5: How many accurate digits of Pi you get for how many random points? Report your statistic.

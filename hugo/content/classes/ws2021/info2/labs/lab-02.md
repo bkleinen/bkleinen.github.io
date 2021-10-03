@@ -58,7 +58,7 @@ You will only need to implement a part of the requested features (the bored may 
 [https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Additional requirements for this lab:
 * Answer the following questions: Did you end up using all of the classes you specified? Did you miss any classes? Discuss!

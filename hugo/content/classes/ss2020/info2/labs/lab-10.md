@@ -74,7 +74,7 @@ You find the station names in [stations.txt](../lab-10-data/stations.txt)
 The graph data was extracted from the GTFS-Data provided at [https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html](https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html) using the rails app [https://github.com/bkleinen/bvg-graph](https://github.com/bkleinen/bvg-graph)
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
 * Ex. 1: How are you going to store the weights?

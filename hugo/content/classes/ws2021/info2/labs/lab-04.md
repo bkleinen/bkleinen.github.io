@@ -36,4 +36,4 @@ Write down the code for the following questions and be able to explain what is h
 9. Create a Chat Server that can handle connections from more than one client using one Thread for each connected client.
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.

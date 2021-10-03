@@ -64,7 +64,7 @@ Now add another method that reads a string from the console, evaluates the resu
   6. How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report.
 

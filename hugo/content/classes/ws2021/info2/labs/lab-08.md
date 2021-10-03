@@ -40,7 +40,7 @@ Our goal is to write a program to determine if 8 queens can be placed on an 8 x 
 
 ## Lab Report / What to turn in
 
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
 

@@ -46,7 +46,7 @@ You can then access the array, for example, using a value of character type: som
 parameters, or use standard in  and standard out if no parameters were given.
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Additional requirements for this lab:
 * Answer the following questions: What is the complexity of your program? Why?

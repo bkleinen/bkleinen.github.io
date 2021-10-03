@@ -65,7 +65,7 @@ Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a 
 * And you can also find information on installing, creating projects, adding unit tests and much more at [the IntelliJ documentation](https://www.jetbrains.com/help/idea/installation-guide.html).
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Additional requirements for this lab:
 * Please submit your final CRC cards and a description of the process you went through for creating them.

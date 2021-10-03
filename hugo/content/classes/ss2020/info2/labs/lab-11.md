@@ -64,7 +64,7 @@ The following three Finite Automata are given by their description:
 4. Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each persone should do at least one walkthrough. Use the exact algorithms from the repository. 
 
 ## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
 * Part 1, A, 1: Put the transition diagrams in your report, as well as the description of the languages
