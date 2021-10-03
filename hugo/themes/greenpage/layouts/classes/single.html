@@ -1,35 +1,24 @@
-
-
 {{ define "meta" }}
-{{ partial "classes/infertype.html" . }}
-{{   .Scratch.Add "trace" "layouts/classes/single.html" }}
+  {{ partial "classes/infertype.html" . }}
+  {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
+  {{ .Scratch.Set "pageTitle" .Parent.Title }}
 {{ end }}
+
 
 {{ define "section-navigation" }}
-{{ partial "classes/coursenav.html" . }}
+  {{ partial "classes/coursenav.html" . }}
 {{ end }}
 
-{{ define "title" }}
-  {{ with .Parent }}
-     {{ .Parent.Title }}
-  {{ else }}
-     {{ .Title}}
-  {{ end }}
-{{ end }}
 
 {{ define "main" }}
-  {{ with .PrevInSection}}
-  <a href ="{{ .RelPermalink }}">prev</a>
-  {{ end }}
-  {{ with .NextInSection}}
-  <a href ="{{ .RelPermalink }}">next</a>
-  {{ end }}
 
-  <h2>{{.Title | default "subtitle"}}</h2>
+{{ partial "toc.html" (dict "context" . "nextPrevLinks" true) }}
 
-  {{/* partial "classes/class_header.html" . */}}
-{{ .Content }}
+
+  {{ .Content }}
+
+
+
 {{ end }}
-
 
 {{ define "template" }}theme: layouts/classes/single.html {{ end }}

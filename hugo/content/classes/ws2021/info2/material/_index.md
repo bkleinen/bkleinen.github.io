@@ -1,5 +1,5 @@
 ---
-title: Info 2 Material
+title: Info 2 WS 2021/22 - Material
 author: kleinen
 layout: page
 courseNav: Material

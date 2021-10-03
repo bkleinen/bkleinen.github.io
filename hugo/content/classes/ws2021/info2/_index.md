@@ -4,16 +4,6 @@ author: kleinen
 aliases: /info2/
 type: class
 courseNav: Info2
-menu:
-courseNavInt:
-- title: Info2
-  link: "/classes/ws2021/info2/"
-- title: Schedule
-  link: "/classes/ws2021/info2/schedule/"
-- title: Material
-  link: "/classes/ws2021/info2/material/"
-- title: Labs
-  link: "/classes/ws2021/info2/labs/"
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=33324

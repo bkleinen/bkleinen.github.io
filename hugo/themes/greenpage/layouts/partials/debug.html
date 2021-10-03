@@ -20,3 +20,16 @@
 </li><li>
   .Scratch: {{ .Scratch }}
 </li>
+{{ if .Pages }}
+<li>Subpages in order:
+<ul>
+{{ range .Pages }}
+<li>
+  <a href ="{{ .RelPermalink }}">
+   {{ .Title }}
+   </a>
+</li>
+{{ end }}
+</ul>
+</li>
+{{ end }}

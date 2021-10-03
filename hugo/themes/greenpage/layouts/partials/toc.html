@@ -1,11 +1,51 @@
-{{ if not .Params.notoc }}
-<aside>
-  <header>
-    <a href="#{{.Title | urlize}}">
+{{ $page := .context }}
+{{ $nextPrevLinks := .nextPrevLinks }}
+{{ $showToc := (and (or $nextPrevLinks $page.Params.toc (gt $page.WordCount 400 )) (not $page.Params.notoc))  }}
+
+{{ if $nextPrevLinks }}
+{{ with $page }}
+    <h2 class ="followed" >  {{.Title }}</h2>
+      <header class ="following">
+
+      {{ if $showToc }}
+         <a data-toggle="collapse" href="#tocContent" role="button" aria-expanded="false" aria-controls="tocContent">
+            Table of Contents
+         </a>
+      {{ end }}
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+{{ with .NextInSection}}
+   <a href ="{{ .RelPermalink }}">&lt;prev</a>
+{{ end }}
+{{ with .PrevInSection}}
+   <a href ="{{ .RelPermalink }}">next&gt;</a>
+{{ end }}
+
+   </header>
+
+  {{ end }}
+{{ else }}
+
+{{ if $showToc }}
+    <header>
+<!--
+      <a href="#{{.Title | urlize}}">
     <h3>{{.Title}}</h3>
     </a>
-  </header>
-  {{.TableOfContents}}
-</aside>
-<a href="#" id="toc-toggle"></a>
+    -->
+    <a data-toggle="collapse" href="#tocContent" role="button" aria-expanded="false" aria-controls="tocContent">
+      Table of Contents
+    </a>
+    </header>
+
+{{ end }}
+
+{{ end }}
+
+{{ if $showToc }}
+<div class="collapse" id="tocContent">
+    {{$page.TableOfContents}}
+</div>
+
 {{ end }}

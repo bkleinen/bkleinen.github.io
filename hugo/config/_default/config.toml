@@ -9,6 +9,11 @@ disableKinds = ['taxonomy', 'term']
   serverencoding = "UTF-8"
 [menu]
 [[menu.main]]
+  identifier = 'home'
+  name = 'Home'
+  pageref = '/'
+  weight = -300
+[[menu.main]]
   identifier = 'classes'
   name = 'Classes'
   pageref = '/classes'

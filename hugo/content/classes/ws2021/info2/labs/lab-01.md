@@ -1,29 +1,131 @@
 ---
-title: 'Info2 WS 2021/22 - Labs and Exercises'
-subTitle: 'Info2: Exercise 01: Application Design'
+title: 'Info2: Exercise 01: Application Design'
 author: kleinen
-draft: true
+draft: false
 ---
-
 
 ## Pre-Lab
 
 Remember to do all the necessary steps listed on the [Labs](..) page, including the following exercises:
 
-***P1.*** Refamiliarize yourself with the Zuul Project from Info1.
+***P1.*** Refamiliarize yourself with the Zuul Project in Info1.
 
-***P2.*** If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
+***P2.*** Recall the Responsibilities of the given classes. What was the point
+         of the refactoring(s)?
 
 ***P3.*** Find out what the *Class-Responsibility-Collaboration Card method* is, what the use of CRC Cards is and how they are created. The following resources can be of help:
-* [The method of CRC cards and the context of OOP](https://c2.com/doc/oopsla89/paper.html)
-* [Example CRC cards and how to create CRC Cards](https://www.agilemodeling.com/artifacts/crcModel.htm)
+* [The method of CRC cards and the context of OOP](htts://c2.com/doc/oopsla89/paper.html)
+* [Example CRC cards and how to create CRC Cards](http://agilemodeling.com/artifacts/crcModel.htm)
 
 ## Assignment: CRC Cards
 
-### 1. Identify Class and Method Candidates
-We are going to assume that there have been several meetings with the operators of a cinema who want to have a system to handle the bookings of seats for their movie screenings. The operators have described the expected functionality, but we won't be concerned with how that happens, this is called Requirements Engineering and will be discussed in the third semester in Info3. Assume that this is the description written (adapted from Barnes/Kölling):
+### 1. Background and Requirements
 
-*The cinema booking system should store seat bookings for multiple theaters. Each theater has seats arranged in rows. There can be a different number of seats in every row. Customers can reserve seats, and are given a row number and a seat number. They may request bookings of several adjoining seats. Each booking is for a particular show (that is, the screening of a given movie at a certain time). Shows are at an assigned date, time, and price, and are scheduled in a theater where they are screened. The system stores the customer's name and telephone number. The customer is told what the booking will cost when the tickets are picked up.*
+A Startup had found the Zuul Example and decided to make a cool real
+[multi-user dungeon](https://en.wikipedia.org/wiki/MUD) game based on it.
+You've been hired to do the programming, and
+there have been several meetings to talk about what should be added to the
+simple Zuul Project. The outcome is a description about the desired functionality.
+(We won't be concerned with how that happens in detail, this is called Requirements
+ Engineering and will be discussed in the third semester in Info3.)
+
+Assume that this is the description written:
+
+#### Cool Zuul
+
+CoolZuul is based on a already extended version done in the labs or programming
+assignments: Rooms have been refactored to not contain hard-coded assumptions
+about the setup of the World, Commands have been refactored, and Items been added.
+Also, a class "GameStatus" has been introduced to store the status of the game
+during play, which is the current room and the item inventory carried by the
+sole player. Items can be picked up and dropped in Rooms.
+
+1.  **Multiple Players**  
+    The CoolZuul game should be extended to allow for multiple players.
+    Each player has their own inventory of items.
+    Players see other players in the same room and can talk to them.
+    There should also be a "shout" command which enables players to communicate
+    with all other players.
+
+2.  **Quests**  
+   The game should support Quests. Active quests get notified of actions in the game,
+   or by the player, to be able to determine the progress and completion of a Quests.
+   Quests will be advertised on a billboard within the game, and players need to
+   actively start a quest to play and complete it. Players can see a list of
+   started and completed quests.
+
+3. **History of Visited Rooms**  
+   There should be a history of visited Rooms stored for each player enabling
+   the player to go back more than one step.
+
+4. **Interaction with Items**
+  there should be special items which allow for interaction, e.g. books that can
+  be read, boxes that can be opened. Items can be contained in other items.
+
+       Some Room Description...
+       Items:
+       - strange box
+       > open box
+       There is a key in the box!
+       (key is moved to inventory of player.)
+
+       Some Room Description...
+       Items:
+       - a book
+       > read book
+       ... quest description or hint follows...
+
+4. **Hidden Items**  
+   There should be Items which are not immediately visible. A command "examine"
+   should be introduced to reveal these items.
+   e.g enabling this interaction:
+
+       ....
+       There is a strange blob on the wall
+       > examine blob
+       You examine the blob closer. It is an old chewing gum with a key hidden under it!
+       Items:
+        - key
+       > take key
+
+5. **Closed Doors and blocked passages**  
+   Exits to other Rooms can be blocked by Doors, which may be easy to open or
+   locked with a key. They may also be blocked by something or otherwise hidden.
+   They are similar to items or hidden items, in such that the room description
+   should contain a hint that they are there, and can be interacted with.
+   Some examples:
+
+       There is a door to the north.
+       > open door
+       You open the door.
+       > go north
+
+       There is a door to the south.
+       > open door
+       You dont have a key.
+       > use key on door
+       You open the door.
+       > go south
+
+       You see a forest. There is a big stone.
+       > examine stone
+       You examine the stone closer and manage to move it.
+       There is a hidden passage down!
+       Exits:
+       - down
+       > go down
+
+6. **Persistence**  
+   A player should be able to save their progress to disk to continue playing at
+   a later time.
+
+7. **NPCs** (for the bored)  
+    There should be
+    [Non-Person-Characters](https://en.wikipedia.org/wiki/Non-player_character)
+    in the game.
+
+
+### 2. Identify Class and Method Candidates
 
 The first step is to discover some candidate classes and methods.
 
@@ -38,36 +140,46 @@ The nouns are candidates for classes, the verbs for methods and the adjectives f
 
 Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible *candidates* for classes and methods - not every noun will be a class name in your application!
 
-### 2. CRC Cards
+### 3. CRC Cards
 
 #### Preparation
-Make CRC cards for each of your candidate classes. Only put down the class names for now.
+Make CRC cards for each of the existing classes as well as of your candidate classes.
+Only put down the class names for now.
 
-*Note: In this semester you'll have to do this online. You can use the [HTW Cloud](https://cloud.htw-berlin.de), [IMIPad](https://imipad.f4.htw-berlin.de:9001) or another tool that allows online in-time-editing of a file by multiple people.*
+#### Work through the Scenarios
 
-#### Scenario 1: Making a reservation
-The first scenario that we will be doing is a reservation:
+The examples above how it should be able to interact with CoolZuul constitute
+scenarios. Work through them and refine your CRC cards based on what you discover.
+Ask these questions:
 
-*Jane Doe goes to the Cinema Site and wants to make a reservation for two seats to watch Inglorious Basterds at 8 pm.
-Jane is interacting with the booking system, which may or may not be represented by a class such as CinemaBookingSystem. Using the CRC cards, play through the scenario. How does the system find the show? As you discover responsibilites and collaborators, write them down on the cards. Assume there are plenty of free seats. Jane will choose seats 13 and 14 from row 12.*
+How is this done, exactly?
+What data is going to have to be stored? Where?
+If you feel the need to create a new class, feel free to do so!
+If you discover that a class needs to be split in two - make two new cards and rip up the old one.
+If two need to be merged, do so.
+Keep a list of things you want to keep track of.
 
-The reservation is now made. How is this done, exactly? What data is going to have to be stored? Where? If you feel the need to create a new class, feel free to do so! If you discover that a class needs to be split in two - make two new cards and rip up the old one. If two need to be merged, do so. Keep a list of things you want to keep track of.
+Some of the requirements may need to be clarified by writing down an interaction
+example first.
 
-#### Scenario 2
-Choose another scenario and play this through. If you have time, do more! Here are some suggestions for possible scenarios:
+#### Dont't worry about the Implementation!
 
-1. Jane has a booking and needs another two, adjoining seats.
-2. Mary wants to book 4 seats together, but there are not 4 adjoining seats available.
-3. Joseph wants to book, but there are no seats available.
-4. Otto has a booking he wants to cancel.
+Don't worry if you are unsure how to implement certain things - e.g. the
+persistence part or differentiating the input from multiple players.
 
-### 3. Tooling: Dip a toe into IntelliJ
-Download IntelliJ from https://www.jetbrains.com/idea/ and install it. Create a first project with one class that prints out "Hello" on the command line, or does something else. Add a main() method. Add an unit test class and a test, and make sure you know how to run both the main() method as well as the unit test in IntelliJ.
-* [These tutorial videos](https://www.jetbrains.com/idea/documentation/) can be of help.
-* And you can also find information on installing, creating projects, adding unit tests and much more at [the IntelliJ documentation](https://www.jetbrains.com/help/idea/installation-guide.html).
+This assignment is about design - you just need to identify that there is
+something that needs to be taken care of somewhere; without making decisions
+about the implementation just yet.
 
-## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.
+### Repository for this Lab
+
+I will publish a starting point as soon as PZ2 of Info1 is done:  
+[https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
+
+
+### Lab Report / What to turn in
+
+All info on the lab reports can be found on the [Labs]({{<ref "../labs" >}}) page.
 
 Additional requirements for this lab:
 * Please submit your final CRC cards and a description of the process you went through for creating them.

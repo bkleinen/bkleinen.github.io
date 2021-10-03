@@ -35,3 +35,7 @@ Apart from that, feel free to browse and also send me a [pull request](https://d
         make deploy
 
 (assuming access rights)
+
+# Markdown
+
+Hugo uses [Goldmark markdown](https://www.markdownguide.org/tools/hugo/).

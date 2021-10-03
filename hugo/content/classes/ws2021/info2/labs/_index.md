@@ -1,5 +1,5 @@
 ---
-title: Info2 WS 2021/22 - Labs and Exercises
+title: Info 2 WS 2021/22 - Labs and Exercises
 author: kleinen
 layout: page
 courseNav: Labs

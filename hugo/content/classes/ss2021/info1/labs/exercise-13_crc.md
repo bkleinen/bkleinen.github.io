@@ -2,9 +2,11 @@
 title: 'Exercise 13: CRC Cards'
 author: kleinen
 layout: lab
+draft: true
 ---
 
 <span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>
+<!--
 {% comment %}
 ## Pre-Lab
 
@@ -69,3 +71,4 @@ exact times.
 Include the Classes, Responsibilities and Collaborators you've found, as well as
  a report of your process.
 {% endcomment %}
+-->

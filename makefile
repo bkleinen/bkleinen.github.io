@@ -5,6 +5,9 @@
 hugo : openH
 -  hugo --buildDrafts --source hugo -p 4242 server
 
+hugoP : openH # as published; there might be differences as there are isServer queries
+-  hugo --environment production --source hugo -p 4242 server
+
 c :
 -	git add .
 -	git commit -m "$m"

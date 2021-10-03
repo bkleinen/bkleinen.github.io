@@ -2,26 +2,60 @@
 title: 'Info2: Exercise 02: Implementing CRC Cards'
 author: kleinen
 layout: lab
-draft: true
+draft: false
 ---
 
 ## Pre-Lab
 
 This exercise builds on the design you did last week using CRC cards. Please think through the following questions together with your team before coming to the lab and write down your answers somewhere.
 
-***P1.*** What properties should a data structure have that can model movie theater seats?
+***P1.*** What part of the data do you need to save in order to persist the game status for one player?
 
-***P2.*** Given an n x m matrix and a cell c in (r, c). How do I reference the neighboring cells in the same row? In the same column? How do I reference the diagonal cells?
+***P2.***  Re-consider your CRC cards and sort the requirements in sections that should be implemented together,
+e.g. because they all deal with Items or with Exits.
+
+***P3.*** Prepare a prioritized subset of features that you would like to implement.
+
+You will only need to implement a part of the requested features (the bored may do all if they wish).
 
 ## Assignment
-1. Implement a prototype of your cinema booking system. You should be able to reserve n neighboring seats, calculate the total price for this reservation, delete a booking, and print out a seating plan that shows which seats are available. Don't worry about making it beautiful - it is enough for it to work. We are just making prototypes!
 
-2. Make sure that all your code is within one or two or more neatly named *packages* and you have at least one unit test.
+1. Compare and Discuss your CRC Cards with other Groups during the Lab.
+
+2. Decide on at least two of the features described in the [previous lab]({{<ref "./lab-01/#cool-zuul">}} "Lab 01").
+
+3. You may team up with other groups to implement parts of the whole feature set together, which will
+   require agreement on the design and some communication about the exact interfaces (method signatures) of
+   shared classes.
+
+4. Make sure that all your code is within one or two or more neatly named *packages* and you have at least one unit test.
+
+## Important Notes
+
+- Implementing **Multiplayer**  
+  A note on the Multiple Players requirement: we will turn CoolZuul in a real
+  online multiplayer dungeon using threads and socket communication in
+  {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}.  
+
+  For this assignment, it suffices if you prepare this by implementing a
+  mechanism to store multiple players in the game and the notion of executing
+  all commands in the context of an active player.  
+
+  If you want to try it out, you might add a command "player xy" which switches
+  to the player with the (user)name xy.
+
+- Implementing **Persistence**  
+  The repository already contains a mechanism to load the world from a [YAML](https://en.wikipedia.org/wiki/YAML)
+  file and store it back. You can and should extend this solution.
 
 ## For the bored:
-3. Sometimes people want special kinds of seats. The last two rows have loveseats, that is, two seats are connected with no armrest between them. Now offer your customers the possibility of reserving a loveseat, or a seat near an aisle or one in the middle. How will you define these conditions?
 
-4. Assume your theater is very large and is divided into sections, each accessable by an aisle. How do you have to adjust your seating plan and your conditions - is this hard or easy to do?
+1. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
+   the work of several teams to get a full solution.
+
+## Repository for this lab
+
+[https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs](https://bkleinen.github.io/classes/ss2020/info2/labs/) page.

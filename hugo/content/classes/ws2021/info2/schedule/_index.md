@@ -1,5 +1,5 @@
 ---
-title: Info2 WS 2021/22 Schedule
+title: Info 2 WS 2021/22 Schedule
 author: kleinen
 layout: default
 wide_layout: true

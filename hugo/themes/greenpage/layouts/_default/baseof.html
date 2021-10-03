@@ -1,4 +1,4 @@
-
+{{- block "meta" . }}{{- end }}
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
@@ -10,22 +10,21 @@
             &nbsp;
           </div>
           <div class = "col-md-10 c1 p-2">
-            {{- partial "headline.html" . -}}
+            {{- partial "header.html" . -}}
           </div>
         </header>
 
 
         <main class = "row p-0">
-        <nav class = "col-md-2 c2">
-          <div class = "nav">
-            {{- partial "navigation.html" . -}}
-          </div>
-        </nav>
+
+
+            {{- partial "side_navigation.html" . -}}
+
+
         <div class = "col-md-10 c3">
           <div class = "outer">
             {{- partial "breadcrumbs.html" . -}}
           </div>
-          {{- block "meta" . }}{{- end }}
 
           <div class = "coursenav">{{- block "section-navigation" . }}{{- end}}</div>
 
