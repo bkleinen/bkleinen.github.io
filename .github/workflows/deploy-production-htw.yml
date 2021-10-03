@@ -8,16 +8,19 @@ on:
       - main
 jobs:
   hello:
-    branches:
-      - main
+    on:
+      push:
+        branches:
+          - main
     steps:
       - run: |
-          echo "this file is ok but main didn't notice without this"
+          echo "this file is ok but main didn't not"
+
   deploy:
     on:
       push:
-        tags:
-          - 'v*'
+        branches:
+          - '!main'    
     runs-on: ubuntu-latest
     env:
       WEBSSHKEY: ${{ secrets.WEBSSHKEY }}
