@@ -7,20 +7,14 @@ on:
     branches:
       - main
 jobs:
+  if: github.ref == 'refs/heads/main'
   hello:
-    on:
-      push:
-        branches:
-          - main
     steps:
       - run: |
-          echo "this file is ok but main didn't not"
+          echo "say hello to main"
 
   deploy:
-    on:
-      push:
-        branches:
-          - '!main'    
+    if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       WEBSSHKEY: ${{ secrets.WEBSSHKEY }}
