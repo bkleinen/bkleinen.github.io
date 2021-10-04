@@ -55,7 +55,7 @@ You will only need to implement a part of the requested features (the bored may 
 
 ## Repository for this lab
 
-[https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
+[https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab02-cool-zuul](https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab02-cool-zuul)
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
