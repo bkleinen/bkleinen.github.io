@@ -20,37 +20,40 @@ You will only need to implement a part of the requested features (the bored may 
 
 ## Assignment
 
-1. Compare and Discuss your CRC Cards with other Groups during the Lab.
+*Note: Remember to use GitLab for the development of your project. Clone the source project, add a new project in GitLab 
+and push to that project like it was done in Lab00.*
+
+1. Compare and Discuss your CRC Cards with other teams during the Lab.
 
 2. Decide on at least two of the features described in the [previous lab]({{<ref "./lab-01/#cool-zuul">}} "Lab 01").
 
-3. You may team up with other groups to implement parts of the whole feature set together, which will
+3. You may team up with other teams to implement parts of the whole feature set together, which will
    require agreement on the design and some communication about the exact interfaces (method signatures) of
    shared classes.
 
 4. Make sure that all your code is within one or two or more neatly named *packages* and you have at least one unit test.
 
-## Important Notes
+### Important Notes
 
-- Implementing **Multiplayer**  
+- If you implement a **Multiplayer**  
   A note on the Multiple Players requirement: we will turn CoolZuul in a real
   online multiplayer dungeon using threads and socket communication in
   {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}.  
 
-  For this assignment, it suffices if you prepare this by implementing a
+  For this lab, if you chose to implement the multiplayer requirement, it suffices if you prepare this by implementing a
   mechanism to store multiple players in the game and the notion of executing
   all commands in the context of an active player.  
 
   If you want to try it out, you might add a command "player xy" which switches
   to the player with the (user)name xy.
 
-- Implementing **Persistence**  
+- If you implement **Persistence**  
   The repository already contains a mechanism to load the world from a [YAML](https://en.wikipedia.org/wiki/YAML)
   file and store it back. You can and should extend this solution.
 
-## For the bored:
+### For the bored:
 
-1. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
+5. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
    the work of several teams to get a full solution.
 
 ## Repository for this lab
