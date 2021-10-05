@@ -14,7 +14,7 @@ It is IMPORTANT that you are familiar with the exercise before the lab starts. B
 * do the pre-lab
 * recap on what you did in the lecture
 * note down any questions
-* (register for a group on Moodle - see below)
+* (register for a team on Moodle - see below)
 
 ## During the lab:
 There are two lab groups. LSF tells you which group you are in, and when and in which room the lab takes place. The labs will usually take place at the HTW. The labs may occasionally happen online - in that case I will warn you in advance. During the lab you will be working on exercises in teams (see below).
@@ -30,14 +30,14 @@ Ask questions that can't wait in the Moodle Forum. That's better than writing an
 
 ## Teams
 You will work in teams of two or three. You will usually switch teams after three labs.
-That means you should form new groups before the following labs:
+That means you should form new teams before the following labs:
 
 * {{% link title ="Exercise 01 - Application Design" link = "lab-01" %}}
 * {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}
 * {{% link title ="Exercise 07 - Recursive Triangles" link = "lab-07" %}}
 * {{% link title ="Exercise 10 - Getting from A to B" link = "lab-10" %}}
 
-You can chose your team mates. Each team mate needs to register for the team on Moodle. I will not form groups for you, this is your own responsability. If you have not signed up for a team, you won't be able to hand anything in.
+You can chose your team mates but they should be in the same LSF group (1 or 2, aka Tuesday or Thursday group). Each team mate needs to register for the team on Moodle. I will not form teams for you, this is your own responsability. If you have not signed up for a team, you won't be able to hand anything in.
 
 ## Reports
 ### Deadline
