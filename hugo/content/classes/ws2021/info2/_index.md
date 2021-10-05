@@ -8,7 +8,7 @@ courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=33324
 - title: SU in LSF
-  link: https://lsf.htw-berlin.de/qisserver/  rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Labs in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899
 - title: Semesterstundenplan im LSF
@@ -53,110 +53,43 @@ There will be a tutorial. (More Info to come)
 
 ## Grades & Exam
 
-As in Informatics 1, there will be a Lab, and there will be an Exam. More
-details will follow until start of classes.
-
-<!--
-
-For passing Info2, you need to pass three parts (Teilmodulprüfungen)
-
-- the Lab ("Programmierübungen mit Rücksprache") - Modulbegleitend, unbewertet
-- Moodle Quizzes - Modulbegleitende Prüfungsleistung, bewertet, optional
-- the Exam - Modulabschlussprüfung
+As in Informatics 1, there will be a Lab, and there will be an Exam.
+| Part | Weight | Role                                             | Type      |
+|:-----|:-------|:-------------------------------------------------|:----------|
+| Exam | 50%    | schriftliche Modulabschlussprüfung (§ 10 RStPO)  | Moodle Quizz and Programming Assignments in Java and Python |
+| Labs | 50%    | studienbegleitende Teilmodulprüfung (§ 12 RStPO) | Weekly Lab Reports |
 
 
 
-### Grading
+### Grading of Lab Reports
 
-Variante 1:
-1/3 Klausur
-1/3 Quizzes zu den Labs
-1/3 Labs
+Number N is the number of Lab Assignments issued during the term. (Currently planned: 14)
 
-Variante 2:
-2/3 Klausur
-1/3 Labs
+|                                   | Percent |  |  |
+|:----------------------------------|:--------|:-|:-|
+| N "ok" lab reports on first try   | 100     |  |  |
+| each additional try (2nd hand-in) | -3P     |  |  |
+| each remaining "not ok"           | -6P     |  |  |
+| each missing lab report           | -10P    |  |  |
 
-Labs:
-- Je Lab Report bewertet mit "ok" 2.6 Punkte
-- 4 Reports dürfen zu spät abgegeben werden, falls mit ok bewertet trotzdem 2.6 Punkte
 
-Lecture Notes:
-+ 8% für beide Varianten
-
-2. Prüfungsmöglichkeit im PZ2:
-
-Wurde im PZ1 nicht an den Quizzes teilgenommen, steht für PZ2 nur die Variante2
-zur Verfügung.
-Wiederholung der studienbegleitenden Teilmodulprüfung “Labs” im 2. PZ nach persönlicher
-Rücksprache durch eine Hausarbeit in entsprechenden Umfang.
-
-I will automatically choose the option which results in the better grade for each student.
-If you want to choose one of the options actively, just send me an email.
-
-Note that as all, Lab Reports, Quizzes and the Exam are parts of the "Modulprüfung",
-cheating on any of them will result in a 5,0 (nicht bestanden) for the whole
-module and use up one of the three possible tries for this module.
---%>
-
-### Labs
-There'll be 14 exercises and you'll have to hand in a lab report for each.
-All info on the labs can be found on the [Labs](labs) page.
-
-<%--
-### Quizzes
-
-Starting April 30, there will be brief Quizzes in Moodle at the beginning of each lecture.
-- Tuesdays are about the labs that were handed in before that Tuesday, 3 Points
-- Thursdays are about recent lecture topics, 2 Points
-
-For hints on the topics, see the [Schedule](schedule/). This adds up to 10x5P = 50P.
-
-### Exam
-
-There will be a remote open-book examination consisting of a Moodle Quiz and
-programming assignments at the end of the term.
-
-### Lecture/Topic Notes
-
-Upload your personal Notes in Moodle to gain a maximum of additional 8% bonus.
-
-<!--
-There will be 13 labs and you need to write a lab report for each. Lab reports won't be graded - they just get marked with "ok" or "not ok".
-
-**Deadline**: Reports are due 10pm the night before the next lab.
-
-**Late reports**: 11 of the 13 lab reports need to be handed in at or before the deadline.
-That means you can hand in 2 reports as late as you want. There are 2 "late slots" for handing in reports after the deadline, but they have to be handed in before July 6. You can use a late slot to hand in a rejected Lab Report again.
-
-There's a penalty of 0.3 on the final grade for each if you hand in a third and forth report late (that is you get a grade of 1.3 instead of 1.0 and so on). Please use the "3rd late report" and "4th late report" slots for that. You can only hand in late up to 4 reports. A 5th late report will not be graded and is thus "not ok".
-
-You will not be allowed to take the exam if any of the following is True
-* more than one report is missing by July 6
-* more than one report is "not ok"
-
-This should allow for enough slack for the usual cold and grandpa's birthday.
-If you fall ill for more than a week or are unable to continuously work on
-the lab reports for some other reason, come talk to me or at least email me as
-early as possible and we will find an individual solution.
-
-More info about the Lab Reports and their assessment can be found on the [Labs](labs) page.
--->
 
 
 ### Examinations for Students who already took Info2
 
+You can participate in the class with or without registering in LSF. Make
+sure you're in the Moodle Course to be able to access all information.
+
 If you already took an Info2 class (with Prof. Zhang or Prof. Weber-Wulff) and
-completed the lab reports/exercise part there, you can skip the lab reports.
+completed the lab reports/exercise part there, you may skip the lab reports.
 
 To do so, you have to
 - send an email to the other Professor asking them to send your lab grades to me
 - send me an email asking to accept them (you can do both in one email).
+I will then use the former grade for the Labs grade as stated above.
 
 You have to do that at the beginning of the term, within the first or second
-week. I will individually decide on the terms for grading (e.g., if the labs were
-graded and counting 50% to the grade I might decide to apply that grading scheme)
-and you will want to know this decision beforehand.
+week.
 
 Whether you attend the lectures or not, is your own decision, but note that the
 content of Info2 might differ. It's your responsibility to inform yourself about
