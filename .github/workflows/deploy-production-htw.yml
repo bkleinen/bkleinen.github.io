@@ -8,7 +8,7 @@ on:
       - 'main'
 jobs:
   hello:
-    if: github.ref == 'refs/heads/main'
+    if: false #github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - run: |
