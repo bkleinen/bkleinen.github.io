@@ -48,9 +48,9 @@ g) What is a "JAR"?
 ### Assignment 2 - Git
 In this assignment you will take first steps with git and learn about how to hand in code for the lab.
 
-3) [Clone](https://www.jetbrains.com/help/idea/set-up-a-git-repository.html#clone-repo) the repository on [git lab](https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab00). Now you have a **local** clone of the template repository.
+3) [Clone](https://www.jetbrains.com/help/idea/set-up-a-git-repository.html#clone-repo) the repository on [git lab](https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools). Now you have a **local** clone of the template repository.
 4) Rename the repository directory **locally** to lab00-YOURLSFGROUP-YOURSTUDENTID (it will be something like "lab01-group1-s0123456"). Update **.git/description**.
-5) Create a **new** empty repository lab00-YOURLSFGROUP-YOURSTUDENTID online in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab01).
+5) Create a **new** empty repository lab00-YOURLSFGROUP-YOURSTUDENTID online in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00).
 6) Look at your **local** git project's "remotes": `git remote -v` in the root folder of the project. You should see an "origin" that is the url of the project you just cloned in ex. 3. Rename the "origin" to "upstream": `git remote rename origin upstream`. This way you keep a link to the project you cloned, while making space for a link to the new project your created in ex 5.
 7) Set the remote origin of your local repository to YOUR newly created repository on the IMI GitLab Server:
 `git remote add origin https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00/lab00-YOURLSFGROUP-YOURSTUDENTID.git`
