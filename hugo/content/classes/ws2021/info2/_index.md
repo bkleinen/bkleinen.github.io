@@ -65,15 +65,12 @@ As in Informatics 1, there will be a Lab, and there will be an Exam.
 
 Number N is the number of Lab Assignments issued during the term. (Currently planned: 14)
 
-|                                   | Percent |  |  |
-|:----------------------------------|:--------|:-|:-|
-| N "ok" lab reports on first try   | 100     |  |  |
-| each additional try (2nd hand-in) | -3P     |  |  |
-| each remaining "not ok"           | -6P     |  |  |
-| each missing lab report           | -10P    |  |  |
-
-
-
+|                                        | Percent |  |  |
+|:---------------------------------------|:--------|:-|:-|
+| N "ok" lab reports on first try        | 100     |  |  |
+| each "ok" on 2nd try (using late slot) | -3P     |  |  |
+| each remaining "not ok"                | -6P     |  |  |
+| each missing lab report                | -10P    |  |  |
 
 ### Examinations for Students who already took Info2
 
