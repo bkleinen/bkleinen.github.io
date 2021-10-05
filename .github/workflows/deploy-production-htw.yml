@@ -4,21 +4,15 @@ on:
   push:
     tags:
       - 'v*'
-#    branches:
-#      - main
-
-#   this was needed after a syntax error caused an error on the
-#   main branch, and the fixes just executed on the tag left the error
-#   on main.
-#
-# jobs:
-#   hello:
-#     if: github.ref == 'refs/heads/main'
-#     runs-on: ubuntu-latest
-#     steps:
-#       - run: |
-#           echo "say hello to main"
+    branches:
+      - 'main'
 jobs:
+  hello:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "say hello to main"
   deploy:
     if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
