@@ -19,7 +19,7 @@ on:
 #       - run: |
 #           echo "say hello to main"
 jobs:
-    deploy:
+  deploy:
     if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
