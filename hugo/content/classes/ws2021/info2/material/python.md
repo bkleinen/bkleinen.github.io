@@ -2,6 +2,7 @@
 title: Info 2 Python
 author: kleinen
 layout: page
+draft: true
 ---
 
 

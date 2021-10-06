@@ -2,6 +2,7 @@
 title: Info 2 Material - Algorithms and Data Structures
 author: kleinen
 layout: page
+draft: true
 ---
 
 ## Textbooks and Material
