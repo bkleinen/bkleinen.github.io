@@ -53,7 +53,7 @@ In this assignment you will take first steps with git and learn about how to han
 5) Create a **new** empty repository lab00-YOURLSFGROUP-YOURSTUDENTID online in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools).
 6) Look at your **local** git project's "remotes": `git remote -v` in the root folder of the project. You should see an "origin" that is the url of the project you just cloned in ex. 3. Rename the "origin" to "upstream": `git remote rename origin upstream`. This way you keep a link to the project you cloned, while making space for a link to the new project your created in ex 5.
 7) Set the remote origin of your local repository to YOUR newly created repository on the IMI GitLab Server:
-`git remote add origin https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00/lab00-YOURLSFGROUP-YOURSTUDENTID.git`
+`git remote add origin https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools/lab00-YOURLSFGROUP-YOURSTUDENTID.git`
 8) Check the status of your local repository: `git status`. Do you have any uncommitted changes? If so, [commit](https://www.jetbrains.com/help/idea/commit-and-push-changes.html#commit) them: `git commit -m "my commit message"`.
 9) Push your repository:
 ```
@@ -63,7 +63,7 @@ git push
 ```
 (You might need to vary the previous command to something like `git push -u origin main`)
 
-10) Update the printed message using IntelliJ!
+10) Update the message printed by the Java program using IntelliJ!
 11) Commit your changes and push your committed changes.
 13) Did it work? You should now see your project files online and locally, and be able to push any changes you make locally. If anything is not working, ask your peers.
 14) Answer the following questions:
