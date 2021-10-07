@@ -8,6 +8,8 @@ courseNavInt:
   link: "/classes/ws2021/networks/"
 - title: Schedule
   link: "/classes/ws2021/networks/schedule/"
+- title: Flipped Classroom
+  link: "/classes/ws2021/networks/flipped/"
 - title: Resources
   link: "/classes/ws2021/networks/resources/"
 - title: Labs
@@ -17,6 +19,10 @@ courseNavExt:
   link: https://moodle.htw-berlin.de/course/view.php?id=33323
 - title: SU in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178930
+- title: Lab in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=179397
+- title: GitHub
+  link: https://github.com/htw-imi-networks
 - title: Semesterstundenplan im LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
 ---
@@ -40,6 +46,12 @@ The class will be based on the Textbook
 Kurose, James F; Ross, Keith W.: Computer Networking. A Top-Down Approach, 8th ed., Pearson Global Editions, Harlow UK, 2021.
 ISBN: 978-1-292-40546-9
 
+
+The book will be available as ebook through the HTW Library.
+There is also plenty of material online - [see the resources section](./resources).
+
+### Top Down Approach
+
 We'll follow the books top-down approach - starting from applications like email and the web down to the physical network layer:
 
 - Computer Networks and the Internet          
@@ -49,29 +61,50 @@ We'll follow the books top-down approach - starting from applications like email
 - The Network Layer: Control Plane                                    
 - The Link Layer and LANs    
 
-The book will be available as ebook through the HTW Library.
-There is also plenty of material online - [see the resources section](./resources).
+
+![Internet_Layers](./images/internet_layers.png "Layers")  
+(Picture taken from Kurose's Slide Deck "[Protocol layers and Their Service Models](https://gaia.cs.umass.edu/kurose_ross/videos/1/)")
 
 ## Class Structure and Meetings
+
+
+We will be doing flipped classroom this term. See
+[Christian Spannagel explains Flipped Classroom to Students](https://www.youtube.com/watch?v=5RxFIKQieWM)
+for an introduction in German,
+[Teachings in Education: Flipped Classroom Model: Why, How, and Overview](https://www.youtube.com/watch?v=BCIxikOq73Q)
+for a brief introduction in English.
+
 
 For each chapter in the book, you will work on a lab assignment as a group and
 prepare and hand in a written lab report. These lab reports are the main part
 of your work, and you will have opportunity to work on them during the Lectures
 as well as during the lab, but probably will need more time than that to complete it.
 
-Lectures are organized as flipped-classroom: you need
-to prepare for the class meetings by reading the according sections in the book and/or
-watching the lecture videos.
-Lectures start with a knowledge test covering the required reading.
+As lectures and labs are organized as flipped-classroom, you need
+to prepare for both meetings beforehand:
+- by reading the according sections in the book and/or
+watching the lecture videos for class meetings
+- by working on the lab assignments before you come to the actual lab meeting on Wednesday evening.
 
-See the [schedule](./schedule) and the [lab pages](./labs) for more details on that.
+See the [schedule](./schedule) and the [detailled week plan](./flipped) for more details on that.
+
+### Knowledge Tests
+
+Lectures start with a knowledge test covering the required reading.
+You don't need to attend class, the tests will be open all day on Thursdays in Moodle.
+
+### Lab Reports
+
+Lab Reports are due Friday 17:00 after your Lab session.
+
 
 ## Grading
 
+### Exam
 There will be a Moodle exam at the end of term which will be offered
 in PZ1 and PZ2.
 
-Grades are determined like this:
+### Grades are determined like this:
 
 - Moodle Exam 50%
 - Lab Reports 40%

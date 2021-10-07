@@ -1,9 +1,10 @@
 ---
 title: B9 Networks WS 2021/22 - Labs
 author: kleinen
-layout: default
 ---
 
+## Labs
+{{< subpages  >}}
 The lab assignments will be published here 1 week before the topic starts.
 
 <!--
