@@ -49,7 +49,25 @@ for time and location information (link above in the External Links menu).
 
 ## Tutorial
 
-There will be a tutorial. (More Info to come)
+The tutorial will be held by Jonas Fichtmüller via Zoom. Provisional time slot for the tutorial is Monday, 13:00 - 14:30.
+
+In the tutorial you will have the chance to practice new concepts and tools from the lecture, discuss programming problems (and get some pointers on how to solve them) or get to learn some useful programmer skills that are not covered by the lecture.
+
+Possible topics for the tutorial include
+- Getting started with Eclipse
+- A guide to the Debugger
+- An introduction to Git
+
+You can submit topic suggestions to Jonas.Fichtmueller@Student.HTW-Berlin.de
+
+The Zoom room can be accessed via this link or the login credentials below:
+
+https://htw-berlin.zoom.us/j/3695583792?pwd=STdpWnBJZ2RQeDJqbXFVQ1E2Yksxdz09
+
+Meeting-ID: 369 558 3792
+
+Kenncode: 680575
+
 
 ## Grades & Exam
 
