@@ -1,5 +1,5 @@
 <!doctype html><html><head>
-<title>B9 Networks WS 2021/22 - Prof. Dr. Barne Kleinen</title>
+<title>Lab 00 - Intro - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -20,7 +20,7 @@
 </div>
 <div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
 <div class="c7 mt-auto">
-<h1 class="c5 title"> B9 Networks WS 2021/22 </h1>
+<h1 class="c5 title"> B9 Networks WS 2021/22 - Labs </h1>
 <small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
 </div>
@@ -42,7 +42,7 @@ Classes
 </a>
 <div class=dropdown-menu aria-labelledby=dropdownMenuLink>
 <a class=dropdown-item href=/classes/ws2021/info2/>B7 Info 2</a>
-<a class="dropdown-item active" href=/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=/classes/ws2021/networks/>B9 Networks</a>
 <a class=dropdown-item href=/classes/ws2021/m1-web/>M1 Labs</a>
 <a class=dropdown-item href=/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
 <a class=dropdown-item href=/classes/ws2021/>All WS 21/22</a>
@@ -86,14 +86,16 @@ Misc
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
-<li class="breadcrumb-item active" aria-current=page>networks</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/>networks</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab00_intro</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav>
 <ul class="nav nav-tabs">
 <li class=nav-item>
-<a class="nav-link active" href=/classes/ws2021/networks/>Overview</a>
+<a class=nav-link href=/classes/ws2021/networks/>Overview</a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/classes/ws2021/networks/schedule/>Schedule</a>
@@ -105,7 +107,7 @@ Misc
 <a class=nav-link href=/classes/ws2021/networks/resources/>Resources</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/classes/ws2021/networks/labs/>Labs</a>
+<a class="nav-link active" href=/classes/ws2021/networks/labs/>Labs</a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" data-toggle=dropdown href=# role=button aria-haspopup=true aria-expanded=false>External Links</a>
@@ -119,98 +121,69 @@ Misc
 </li>
 </ul>
 </div>
-<header>
+<h2 class=followed> Lab 00 - Intro</h2>
+<header class=following>
 <a data-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#module-and-context>Module and Context</a></li>
-<li><a href=#content-and-textbook>Content and Textbook</a>
+<li><a href=#part-1-playing-with-web-servers>Part 1: Playing with Web Servers</a>
 <ul>
-<li><a href=#top-down-approach>Top Down Approach</a></li>
+<li><a href=#1a-simple-web-server-in-java-nanowebserver>1.a Simple Web Server in Java: NanoWebServer</a></li>
+<li><a href=#1b-playing-with-nginx>1.b Playing with Nginx</a></li>
+<li><a href=#1c-setting-up-a-real-server-on-a-virtual-machine>1.c Setting up a real server on a virtual machine</a></li>
 </ul>
 </li>
-<li><a href=#class-structure-and-meetings>Class Structure and Meetings</a>
+<li><a href=#2-wireshark-lab-getting-started>2. Wireshark Lab: Getting Started</a>
 <ul>
-<li><a href=#knowledge-tests>Knowledge Tests</a></li>
-<li><a href=#lab-reports>Lab Reports</a></li>
-</ul>
-</li>
-<li><a href=#grading>Grading</a>
-<ul>
-<li><a href=#exam>Exam</a></li>
-<li><a href=#grades-are-determined-like-this>Grades are determined like this:</a></li>
+<li><a href=#lab-report>Lab Report</a></li>
 </ul>
 </li>
 </ul>
 </nav>
 </div>
-<p>Welcome! This class will give you an introduction on how Computer Networks, especially the Internet, work.</p>
-<h2 id=module-and-context>Module and Context</h2>
-<p>B9 Netzwerke is a required class in the IMI-B Curriculum, scheduled for the 2nd
-term. If you check the Studien- und Prüfungsordnung
-(<a href=https://imi-bachelor.htw-berlin.de/studium/ordnungen-module/#c4106>AMBl. 28/2012 on overview page here</a>,
-<a href=https://imi-bachelor.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2012/28_12.pdf>direct link here</a> )
-you&rsquo;ll find that it consists of 2 SWS Lecture (SU) and 1 SWS Lab (Ü) each week,
-but still 5 ECTS. Compared to Info2, this is half the time in class, with the
-same weekly workload!</p>
-<h2 id=content-and-textbook>Content and Textbook</h2>
-<p>The class will be based on the Textbook</p>
-<p>Kurose, James F; Ross, Keith W.: Computer Networking. A Top-Down Approach, 8th ed., Pearson Global Editions, Harlow UK, 2021.
-ISBN: 978-1-292-40546-9</p>
-<p>The book will be available as ebook through the HTW Library.
-There is also plenty of material online - <a href=./resources>see the resources section</a>.</p>
-<h3 id=top-down-approach>Top Down Approach</h3>
-<p>We&rsquo;ll follow the books top-down approach - starting from applications like email and the web down to the physical network layer:</p>
-<ul>
-<li>Computer Networks and the Internet</li>
-<li>Application Layer</li>
-<li>Transport Layer</li>
-<li>The Network Layer: Data Plane</li>
-<li>The Network Layer: Control Plane</li>
-<li>The Link Layer and LANs</li>
-</ul>
-<p><img src=./images/internet_layers.png alt=Internet_Layers title=Layers><br>
-(Picture taken from Kurose&rsquo;s Slide Deck &ldquo;<a href=https://gaia.cs.umass.edu/kurose_ross/videos/1/>Protocol layers and Their Service Models</a>")</p>
-<h2 id=class-structure-and-meetings>Class Structure and Meetings</h2>
-<p>We will be doing flipped classroom this term. See
-<a href="https://www.youtube.com/watch?v=5RxFIKQieWM">Christian Spannagel explains Flipped Classroom to Students</a>
-for an introduction in German,
-<a href="https://www.youtube.com/watch?v=BCIxikOq73Q">Teachings in Education: Flipped Classroom Model: Why, How, and Overview</a>
-for a brief introduction in English.</p>
-<p>For each chapter in the book, you will work on a lab assignment as a group and
-prepare and hand in a written lab report. These lab reports are the main part
-of your work, and you will have opportunity to work on them during the Lectures
-as well as during the lab, but probably will need more time than that to complete it.</p>
-<p>As lectures and labs are organized as flipped-classroom, you need
-to prepare for both meetings beforehand:</p>
-<ul>
-<li>by reading the according sections in the book and/or
-watching the lecture videos for class meetings</li>
-<li>by working on the lab assignments before you come to the actual lab meeting on Wednesday evening.</li>
-</ul>
-<p>See the <a href=./schedule>schedule</a> and the <a href=./flipped>detailled week plan</a> for more details on that.</p>
-<h3 id=knowledge-tests>Knowledge Tests</h3>
-<p>Lectures start with a knowledge test covering the required reading.
-You don&rsquo;t need to attend class, the tests will be open all day on Thursdays in Moodle.</p>
-<h3 id=lab-reports>Lab Reports</h3>
-<p>Lab Reports are due Friday 17:00 after your Lab session.</p>
-<h2 id=grading>Grading</h2>
-<h3 id=exam>Exam</h3>
-<p>There will be a Moodle exam at the end of term which will be offered
-in PZ1 and PZ2.</p>
-<h3 id=grades-are-determined-like-this>Grades are determined like this:</h3>
-<ul>
-<li>Moodle Exam 50%</li>
-<li>Lab Reports 40%</li>
-<li>Knowledge Checks 20%</li>
-</ul>
-<p>The Moodle Exam constitutes the &ldquo;Schriftliche Modulabschlussprüfung&rdquo;,
-Lab Reports and Knowledge Checks are two &ldquo;Modulbegleitend geprüfte Studienleistungen&rdquo;
-as described and regulated in §8 and §12 in the <a href=https://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6063>Rahmenstudien- und -prüfungsordnung (RStPO – Ba/Ma)</a>.</p>
+<h2 id=part-1-playing-with-web-servers>Part 1: Playing with Web Servers</h2>
+<p>As the Web and Web applications are a central part of networked applications,
+we will use the time before really getting started to play around with basic
+web servers.</p>
+<p>You should be able to do most or all of this with your own computers.
+We will build Teams during the first lab, but feel free to start working
+on the exercises</p>
+<h3 id=1a-simple-web-server-in-java-nanowebserver>1.a Simple Web Server in Java: NanoWebServer</h3>
+<p>Have a look at these examples of very simple webservers implemented
+in Java:
+<a href=https://github.com/htw-imi-networks/lab00-nanoHttpServer>https://github.com/htw-imi-networks/lab00-nanoHttpServer</a></p>
+<p>Build in something new, tinker a bit&mldr;
+for example, try doing a <a href=https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections>redirect</a>
+for an arbitrary new filename (it might be http://localhost:5005/redirect)
+that performs a redirect to some other page using the status code 301 &ldquo;Moved Permanently&rdquo;</p>
+<h3 id=1b-playing-with-nginx>1.b Playing with Nginx</h3>
+<p>Nginx is one of the most popular Web Servers.
+Try installing and configuring it on your own computer, or preferably any *nix
+computer you can find one.</p>
+<p><a href=https://nginx.org/en/docs/beginners_guide.html>https://nginx.org/en/docs/beginners_guide.html</a></p>
+<p>The bored can give docker a try:
+<a href=https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/>https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/</a></p>
+<h3 id=1c-setting-up-a-real-server-on-a-virtual-machine>1.c Setting up a real server on a virtual machine</h3>
+<p>We will do this part together in lab, where I will provide each group with
+a virtual server hosted at the HTW - you will install and configure nginx
+on port 80 on these machines.</p>
+<h2 id=2-wireshark-lab-getting-started>2. Wireshark Lab: Getting Started</h2>
+<p>We will be doing the <a href=http://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wiresharks Labs</a> from the book.
+Get the &ldquo;<a href=http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.1.docx>Getting Started v8.1</a>&rdquo;
+Lab from Kurose&rsquo;s Website and work through it.</p>
+<h3 id=lab-report>Lab Report</h3>
+<p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
+You may work on the reports in flexible teams of 3-4 students.</p>
+<p>Always put the names of all contributing people on your report.</p>
+<p>Each one of you has to hand in the completed Report individually in moodle
+by Friday 17:00 after your lab meeting!</p>
+<p>In your report, describe what you did and what you found,
+as well as errors or problems you&rsquo;ve encountered.</p>
 </div>
 </div>
 </main>
