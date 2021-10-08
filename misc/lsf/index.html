@@ -1,5 +1,5 @@
 <!doctype html><html><head>
-<title>Miscellany - Prof. Dr. Barne Kleinen</title>
+<title>Email Collector for LSF - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -20,7 +20,7 @@
 </div>
 <div class="col-md-10 c1 p-2"><div class="d-flex flex-row c6">
 <div class="c7 mt-auto">
-<h1 class="c5 title"> Miscellany </h1>
+<h1 class="c5 title"> Email Collector for LSF </h1>
 <small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>) at <a href=https://www.htw-berlin.de>HTW Berlin</a> </small>
 </div>
@@ -84,17 +84,55 @@ Misc
 <nav aria-label=breadcrumb role=navigation>
 <ol class="breadcrumb breadcrumb-thin">
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
-<li class="breadcrumb-item active" aria-current=page>misc</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/misc/>misc</a></li>
+<li class="breadcrumb-item active" aria-current=page>lsf</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav></div>
-<ul>
-<li><a href=trans/>Informationen für Trans* Studierende</a></li>
-<li><a href=about-this-site/>About this Site</a></li>
-<li><a href=links/>Links die ich immer wieder vermisse</a></li>
-<li><a href=lsf/>LSF</a></li>
-</ul>
+<script>function convert(){const e=document.getElementById("lsfstuff").value,b=e.match(/[^\r\n]+/g),c=/.*\d{6}\s*([^\t]*?)\s*\t\s*([^\t]*?)\s*s0(\d{6})@htw-berlin.de.*/,f="$2 $1 <s0$3@htw-berlin.de>",a={student:[],ignore:[]},g=(a,b)=>(a[b.match(c)?'student':'ignore'].push(b),a);b.reduce(g,a);const h=a.student.map(a=>a.replace(c,f)),i=new Set(h),d=Array.from(i).sort();document.getElementById("emailarea").innerHTML=d.join("\n"),document.getElementById("number_emails").innerHTML=b.length+" lines read, "+d.length+" unique addresses",document.getElementById("ignored").innerHTML=a.ignore.join("\n"),document.getElementById("ignoredNumber").innerHTML=a.ignore.length+" ignored lines"}</script>
+<h2>Email Collector for LSF</h2>
+<div class=container-fluid>
+<div class=row>
+<div class=col>
+<div class=float-right>
+<button onclick=convert()>Show Email Adresses</button>
+</div>
+</div>
+<div class=col>
+<div id=ignoredNumber>ignored lines</div>
+<textarea id=ignored cols=60 rows=2></textarea>
+</div>
+</div>
+<div class=row>
+<div class=col-6>
+<div>Paste list from LSF here</div>
+<textarea id=lsfstuff cols=60 rows=100 onchange=convert()></textarea>
+</div>
+<div class=col-6>
+<div id=number_emails>here be dragons</div>
+<textarea id=emailarea cols=60 rows=100></textarea>
+</div>
+</div>
+</div>
+Links Liste aus "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"pasten.
+<a href=#anleitung>mehr info unten.</a>
+<table>
+<tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<hr>
+<h2 id=anleitung>Anleitung</h2>
+<p>In die Box links den Inhalt der Tabelle "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"
+pasten.<br> Weg dorthin: Unten auf "Anmeldezahlen" und dann "Spezielle Information" klicken.</p>
+<p><img src="{{ site.BaseURL }}/misc/images/anmeldezahlen.png" alt=anmeldezahlen.png>
+<img src="{{ site.BaseURL }}/misc/images/SpezielleInformation.png" alt=SpezielleInformation.png>
+</p>
 </div>
 </div>
 </main>
