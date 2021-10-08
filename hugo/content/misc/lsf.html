@@ -1,0 +1,82 @@
+---
+title: Email Collector for LSF
+author: kleinen
+---
+<script>
+  function convert(){
+    const source = document.getElementById("lsfstuff").value;
+    const arrayOfLines = source.match(/[^\r\n]+/g);
+    // old : /.*(\d{6})@htw-berlin.de.*/
+    const matchRegEx = /.*\d{6}\s*([^\t]*?)\s*\t\s*([^\t]*?)\s*s0(\d{6})@htw-berlin.de.*/
+    // old: s0$3@htw-berlin.de
+    const replaceString = "$2 $1 <s0$3@htw-berlin.de>";
+    const yesNo = { 'student' : [], 'ignore' : []};
+    const reduceFunct = (acc,line) => {
+                     acc[line.match(matchRegEx) ? 'student' : 'ignore'].push(line);
+                     return acc;
+                   }
+    arrayOfLines.reduce( reduceFunct,yesNo);
+    const emails = yesNo.student.map(x => x.replace(matchRegEx, replaceString));
+    const emailSet = new Set(emails);
+    const emailsSingle = Array.from(emailSet).sort();
+    document.getElementById("emailarea").innerHTML = emailsSingle.join("\n");
+    document.getElementById("number_emails").innerHTML = arrayOfLines.length + " lines read, "+emailsSingle.length + " unique addresses";
+    document.getElementById("ignored").innerHTML = yesNo.ignore.join("\n");
+    document.getElementById("ignoredNumber").innerHTML = yesNo.ignore.length + " ignored lines"
+  }
+</script>
+
+
+<h2>Email Collector for LSF</h2>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" >
+      <div class="float-right">
+      <button  onclick="convert()">Show Email Adresses</button>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div id ="ignoredNumber">ignored lines</div>
+         <textarea id = "ignored" cols="60" rows="2"></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+        <div>Paste list from LSF here</div>
+      <textarea id = "lsfstuff" cols="60" rows="100" onchange="convert()" ></textarea>
+    </div>
+    <div class="col-6">
+      <div id = "number_emails">here be dragons</div>
+         <textarea id = "emailarea" cols="60" rows="100"></textarea>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+Links Liste aus "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"pasten.
+<a href="#anleitung">mehr info unten.</a>
+  <table>
+    <tr>
+    <tr valign="top">
+      <td>
+
+
+      </td>
+
+      <td>
+      </td>
+    </tr>
+  </table>
+<hr/>
+<h2 id ="anleitung">Anleitung</h2>
+<p>In die Box links den Inhalt der Tabelle "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"
+  pasten.<br/> Weg dorthin: Unten auf "Anmeldezahlen" und dann "Spezielle Information" klicken.</p>
+  <p><img src="{{ site.BaseURL }}/misc/images/anmeldezahlen.png" alt="anmeldezahlen.png">
+  <img src="{{ site.BaseURL }}/misc/images/SpezielleInformation.png" alt="SpezielleInformation.png"/>
+  </p>
