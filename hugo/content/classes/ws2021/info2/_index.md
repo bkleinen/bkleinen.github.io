@@ -62,14 +62,14 @@ As in Informatics 1, there will be a Lab, and there will be an Exam.
 
 ### Grading of Lab Reports
 
-Number N is the number of Lab Assignments issued during the term. (Currently planned: 14)
+If you hand in all Lab Reports and get an "ok", you will receive 100%
+for the Lab part.
 
-|                                        | Percent |  |  |
-|:---------------------------------------|:--------|:-|:-|
-| N "ok" lab reports on first try        | 100     |  |  |
-| each "ok" on 2nd try (using late slot) | -3P     |  |  |
-| each remaining "not ok"                | -6P     |  |  |
-| each missing lab report                | -10P    |  |  |
+With N=14 Labs alltogether, this results in 7.2 Points/Percent per lab.
+
+You may hand in a lab a second time using one of the late slots.
+If you get an "ok" in this second try, you will receive 60% of the points for
+this lab.
 
 ### Examinations for Students who already took Info2
 
