@@ -2,7 +2,7 @@
 .PHONY : hugo
 .RECIPEPREFIX = -
 
-hugo : openH
+hugo : openActions openH 
 -  hugo --buildDrafts --source hugo -p 4242 server
 
 hugoP : openH # as published; there might be differences as there are isServer queries
@@ -37,6 +37,8 @@ endif
 
 open :
 - gh browse
+openActions :
+- open https://github.com/bkleinen/bkleinen.github.io/actions
 openH :
 -  open http://localhost:4242
 openSites:

@@ -3,11 +3,13 @@ title: Info 2 WS 2021/22 - Material
 author: kleinen
 layout: page
 courseNav: Material
-weight: 2
-draft: true
+weight: 3
+draft: false
 ---
 
-This page is not yet available for WS2021/22
+## Available Material
+
+{{< subpages  >}}
 <!--
 
 ## Textbooks and Material

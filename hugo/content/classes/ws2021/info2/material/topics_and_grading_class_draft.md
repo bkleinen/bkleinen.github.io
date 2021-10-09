@@ -2,6 +2,7 @@
 title:  Info2 WS2018 Topics and Grading Draft
 author: kleinen
 layout: default
+draft: true
 ---
 
 This is just the draft!! [see the final version](../topics_and_grading/)
