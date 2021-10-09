@@ -2,6 +2,7 @@
 title: Projektvergabe SoSe 2018
 author: kleinen
 layout: post
+draft: true
 categories:
   - ss2018
   - projekte

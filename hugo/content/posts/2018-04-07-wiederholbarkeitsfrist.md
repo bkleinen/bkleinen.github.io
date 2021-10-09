@@ -2,6 +2,7 @@
 title: Video zu Wiederholbarkeitsfrist
 author: kleinen
 layout: post
+draft: true
 categories:
   - IMI-B
   - IMI-M

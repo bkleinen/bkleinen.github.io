@@ -20,9 +20,9 @@
     {{ if  (and (or ($all) (intersect .Params.Categories $categories_to_show) )
           (not (intersect .Params.Categories $categories_to_exclude) )) }}
 
-    <li><small>{{ .Date  }} &raquo; </small><a href="{{ .URL }}">{{ .Title }}</a>
+    <li><small>{{ .Date  }} &raquo; </small><a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <br/>
-      <small>{{ .Params.Categories }} <a href="{{ .URL }}">(go to article)</a></small>
+      <small>{{ .Params.Categories }} <a href="{{ .RelPermalink }}">(go to article)</a></small>
       {{range .Params.categories}}
       ---{{ . }}---
       {{ end }}

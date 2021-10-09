@@ -1,0 +1,137 @@
+
+[[main]]
+  identifier = 'home'
+  name = 'Home'
+  pageref = '/'
+  weight = -300
+
+  [[main]]
+    weight = -289
+    #parent = 'classes'
+    # weight = 300
+    identifier = 'material'
+    name = 'Material'
+    pageref = '/material'
+
+##
+## Classes
+##
+
+[[main]]
+  identifier = 'classes'
+  name = 'Classes'
+  pageref = '/classes'
+  weight = -290
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2021/info2'
+  name = 'B7 Info 2'
+  pageref = '/classes/ws2021/info2'
+  weight = 5
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2021/networks'
+  name = 'B9 Networks'
+  pageref = '/classes/ws2021/networks'
+  weight = 10
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2021/m1-web'
+  name = 'M1 Labs'
+  pageref = '/classes/ws2021/m1-web'
+  weight = 20
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2021/m-wt1-webapplications'
+  name = 'M WT1 WebApps'
+  pageref = '/classes/ws2021/m-wt1-webapplications'
+  weight = 30
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2021'
+  name = 'All WS 21/22'
+  pageref = '/classes/ws2021'
+  weight = 40
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/'
+  name = 'All Classes'
+  pageref = '/classes'
+  weight = 50
+
+  ##
+  ## Other
+  ##
+
+
+
+
+[[main]]
+  identifier = 'studies'
+  name = 'Studies'
+  pageref = '/studies'
+  weight = -170
+
+[[main]]
+parent = 'studies'
+identifier = '/studies/thesis/'
+name = 'Thesis'
+pageref = '/studies/thesis'
+weight = 10
+[[main]]
+parent = 'studies'
+identifier = '/studies/ic/'
+name = 'IC'
+pageref = '/studies/ic'
+weight = 20
+[[main]]
+parent = 'studies'
+identifier = '/studies/grading/'
+name = 'Grading Info'
+pageref = '/studies/grading'
+weight = 30
+
+
+[[main]]
+  identifier = 'software_projects'
+  name = 'Software Projects'
+  pageref = '/software_projects'
+  weight = -175
+
+[[main]]
+  identifier = 'misc'
+  name = 'Misc'
+  pageref = '/misc'
+  weight = -150
+
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/about-this-site/'
+  name = 'About this Site'
+  pageref = '/misc/about-this-site'
+  weight = 10
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/trans/'
+  name = 'Trans*'
+  pageref = '/misc/trans'
+  weight = 20
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/lsfcollector/'
+  name = 'LSF'
+  pageref = '/misc/lsfcollector'
+  weight = 30
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/links/'
+  name = 'Links'
+  pageref = '/misc/links'
+  weight = 40
+
+
+  [[main]]
+    identifier = 'contact'
+    name = 'Contact Info'
+    pageref = '/contact'
+    weight = -140

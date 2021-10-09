@@ -6,6 +6,16 @@ draft: true
 ---
 
 
+
+Automate the Boring Stuff with Python, 2nd Edition: Practical Programming for Total Beginners Paperback – Illustrated, 12 Nov. 2019
+English edition  by Al Sweigart  (Autor)
+4.7 out of 5 stars    1,540 ratings
+
+https://www.youtube.com/watch?v=7qHMXu99d88&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=2
+
+
+
+
 # Intro
 
 Learn python with unit tests: [https://github.com/htw-imi-info2/learn-python-with-tests/tree/ws2018](https://github.com/htw-imi-info2/learn-python-with-tests/tree/ws2018)

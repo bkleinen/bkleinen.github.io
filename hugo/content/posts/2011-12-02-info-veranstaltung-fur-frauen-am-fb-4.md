@@ -3,6 +3,7 @@ title: Info-Veranstaltung für Frauen am FB 4
 author: kleinen
 layout: post
 # permalink: /2011/12/info-veranstaltung-fur-frauen-am-fb-4/
+draft: true
 categories:
   - Uncategorized
   - old

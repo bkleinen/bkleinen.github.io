@@ -2,6 +2,7 @@
 title: Infoveranstaltung zum Auslandspraktikum SoSe 19 22.Mai 2019 9:45
 author: kleinen
 layout: post
+draft: true
 categories:
   - praktikum
   - imi

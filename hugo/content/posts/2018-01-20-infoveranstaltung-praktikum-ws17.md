@@ -2,6 +2,7 @@
 title: Infoveranstaltung zum Auslandspraktikum 23. Januar 2018 800
 author: kleinen
 layout: post
+draft: true
 categories:
   - praktikum
   - imi

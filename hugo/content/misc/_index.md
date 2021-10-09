@@ -1,7 +1,9 @@
 ---
 title: Miscellany
 author: kleinen
+subpages: true
 ---
-* [Informationen für Trans* Studierende](trans/)
-* [About this Site](about-this-site/)
-* [Links die ich immer wieder vermisse](links/)
+
+Miscellany Information on various topics.
+
+### Content

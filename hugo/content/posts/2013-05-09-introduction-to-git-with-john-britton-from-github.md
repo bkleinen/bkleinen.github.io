@@ -3,6 +3,7 @@ title: Introduction to Git with John Britton from GitHub
 author: kleinen
 layout: post
 # permalink: /2013/05/introduction-to-git-with-john-britton-from-github/
+draft: true
 categories:
   - veranstaltungen
   - old

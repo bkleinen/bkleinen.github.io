@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<!-- taken from https://gohugo.io/templates/taxonomy-templates/ -->
+
+<section>
+    <ul id="all-taxonomies">
+        {{ range $taxonomy, $taxonomy_term_pages_map := .Site.Taxonomies }}
+        {{ if false }}
+            <hr> $taxonomy: {{ $taxonomy }}
+            <hr> $taxonomy_term_pages_map: {{ $taxonomy_term_pages_map }}
+            <hr>
+        {{ end}}
+            {{ with $.Site.GetPage (printf "/%s" $taxonomy) }}
+                <li><a href="{{ .Permalink }}">{{ $taxonomy | humanize}}</a>:
+                    <ul>
+                        {{ range $key, $value := $taxonomy_term_pages_map }}
+                            {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $key) }}
+                               <li><a href="{{ .RelPermalink }}">{{ $key | humanize}}</a></li>
+                            {{ else}}
+                               <li>{{ $key | humanize}}: </li>
+                            {{ end }}
+                            <ul>
+                                {{ range $value.Pages }}
+                                    <li hugo-nav="{{ .RelPermalink}}">
+                                        <a href="{{ .Permalink}}">{{ .LinkTitle }}</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        {{ end }}
+                    </ul>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</section>
+{{ end }}
+
+{{ define "template" }}theme: layouts/material/list.html{{ end }}

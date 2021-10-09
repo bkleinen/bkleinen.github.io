@@ -2,6 +2,7 @@
 title: Gender & Diversity Trainings für Studierende
 author: kleinen
 layout: post
+draft: true
 categories:
   - frauen*
   - htw

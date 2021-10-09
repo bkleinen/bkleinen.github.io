@@ -1,5 +1,5 @@
 ---
 title: "News and Announcements"
-draft: false
+draft: true
 ---
 # Posts

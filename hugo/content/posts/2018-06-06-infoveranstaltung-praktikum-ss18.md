@@ -2,6 +2,7 @@
 title: Infoveranstaltung zum Auslandspraktikum 13.Juni 2018 9:45
 author: kleinen
 layout: post
+draft: true
 categories:
   - praktikum
   - imi
