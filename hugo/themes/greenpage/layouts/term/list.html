@@ -1,0 +1,26 @@
+{{ define "meta" }}
+
+   {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
+   {{ $termInfo := (apply (slice .Data.Singular .Data.Term) "humanize" ".") }}
+   {{ $pageTitle := printf "Material for %s %s" (index $termInfo 0) (index $termInfo 1)  }}
+   {{ .Scratch.Set "pageTitle" $pageTitle }}
+{{ end }}
+
+{{ define "main" }}
+
+<!-- {{ .Data.Plural | humanize }} for {{ .Data.Singular | humanize }} {{ .Data.Term | humanize }} -->
+<h2> {{ .Scratch.Get "pageTitle" }}</h2>
+{{ .Content }}
+<ul>
+    {{ range .Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ .Params.wikipedia }}
+        </li>
+    {{ end }}
+</ul>
+
+
+{{ end }}
+
+{{ define "template" }}theme: layouts/term/list.html{{ end }}

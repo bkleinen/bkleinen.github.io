@@ -1,4 +1,4 @@
-class = 'clazzes'
+course = 'courses'
 tool = 'tools'
 tag = 'tags'
 

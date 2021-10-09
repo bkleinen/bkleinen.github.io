@@ -5,6 +5,14 @@
   pageref = '/'
   weight = -300
 
+  [[main]]
+    weight = -289
+    #parent = 'classes'
+    # weight = 300
+    identifier = 'material'
+    name = 'Material'
+    pageref = '/material'
+
 ##
 ## Classes
 ##
@@ -83,12 +91,6 @@ name = 'Grading Info'
 pageref = '/studies/grading'
 weight = 30
 
-[[main]]
-  parent = 'classes'
-  identifier = 'material'
-  name = 'Material'
-  pageref = '/material'
-  weight = 300
 
 [[main]]
   identifier = 'software_projects'

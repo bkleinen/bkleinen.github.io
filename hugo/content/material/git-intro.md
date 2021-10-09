@@ -1,10 +1,8 @@
 ---
 title: GIT Intro
 author: kleinen
-layout: post
-categories:
-  - resources
-  - git
+tools: ['git']
+courses: ['info2']
 ---
 
 ## Source Code Management mit GIT

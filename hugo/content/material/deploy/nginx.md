@@ -5,7 +5,7 @@ draft: true
 weight: 0
 tools: ['nginx']
 tags: ['web']
-clazzes: ['networks']
+courses: ['networks']
 ---
 
 ## nginX

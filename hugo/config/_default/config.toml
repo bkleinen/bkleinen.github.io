@@ -19,3 +19,12 @@ rssLimit =  10
 [author]
   name = 'Barne Kleinen'
 ### 10:27
+
+[permalinks]
+  #  materials = "/material/:slug"
+  #  course  = "/materials/:slug/"
+   courses = "/material/courses/:slug/"
+   tools = "/material/tools/:slug/"
+   tags = "/material/tags/:slug/"
+  #  tool = 'tools'
+  #  tag = 'tags'
