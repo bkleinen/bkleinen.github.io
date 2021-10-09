@@ -4,12 +4,16 @@
   name = 'Home'
   pageref = '/'
   weight = -300
+
+##
+## Classes
+##
+
 [[main]]
   identifier = 'classes'
   name = 'Classes'
   pageref = '/classes'
   weight = -290
-
 [[main]]
   parent = 'classes'
   identifier = '/classes/ws2021/info2'
@@ -47,12 +51,10 @@
   pageref = '/classes'
   weight = 50
 
+  ##
+  ## Other
+  ##
 
-[[main]]
-  identifier = 'contact'
-  name = 'Contact Info'
-  pageref = '/contact'
-  weight = -180
 
 
 
@@ -92,13 +94,39 @@ weight = 30
   identifier = 'software_projects'
   name = 'Software Projects'
   pageref = '/software_projects'
-  weight = -160
+  weight = -175
 
 [[main]]
   identifier = 'misc'
   name = 'Misc'
   pageref = '/misc'
   weight = -150
+
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/about-this-site/'
+  name = 'About this Site'
+  pageref = '/misc/about-this-site'
+  weight = 10
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/trans/'
+  name = 'Trans*'
+  pageref = '/misc/trans'
+  weight = 20
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/lsfcollector/'
+  name = 'LSF'
+  pageref = '/misc/lsfcollector'
+  weight = 30
+[[main]]
+  parent = 'misc'
+  identifier = '/misc/links/'
+  name = 'Links'
+  pageref = '/misc/links'
+  weight = 40
+
 
   [[main]]
     identifier = 'contact'
