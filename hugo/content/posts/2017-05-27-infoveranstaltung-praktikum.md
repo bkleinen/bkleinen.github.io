@@ -2,6 +2,7 @@
 title: Infoveranstaltung zum Auslandspraktikum
 author: kleinen
 layout: post
+draft: true
 categories:
   - praktikum
   - imi

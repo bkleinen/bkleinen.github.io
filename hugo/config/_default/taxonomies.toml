@@ -1,0 +1,8 @@
+course = 'courses'
+tool = 'tools'
+tag = 'tags'
+
+# categories are used by the old posts.
+# need to eventually decide wether to keep them in or not.
+# for now, all set to draft.
+# category = 'categories'

@@ -2,6 +2,7 @@
 title: Campus-Lizenzen
 author: kleinen
 layout: post
+draft: true
 categories:
   - infos
   - old

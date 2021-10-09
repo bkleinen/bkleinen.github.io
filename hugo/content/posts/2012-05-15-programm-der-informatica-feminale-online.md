@@ -3,6 +3,7 @@ title: Programm der Informatica Feminale Online
 author: kleinen
 layout: post
 # permalink: /2012/05/programm-der-informatica-feminale-online/
+draft: true
 categories:
   - veranstaltungen
   - old

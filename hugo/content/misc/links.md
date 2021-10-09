@@ -1,35 +1,39 @@
 ---
 title: Links to frequently used pages
 author: kleinen
-layout: default
+weight: 10
+menu:
+  main:
+    parent: 'misc'
 ---
-
 
 # Tägliche Arbeit
 
-* Moodle:
-* Wiki für Studium und Lehre:
-* [Sprechstunde](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Sprechstunden+im+Sommersemester+2020)
-* [Besprechungen laufende Abschlussarbeiten](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Besprechungen+Abschlussarbeiten)
+* Moodle: https://moodle.htw-berlin.de/
+* Wiki für Studium und Lehre: [https://wiki.htw-berlin.de/](https://wiki.htw-berlin.de/)
+* Sprechstunde: {{< officehours >}}
 * Wiki - Intranet:  [https://wiki.rz.htw-berlin.de/](https://wiki.rz.htw-berlin.de/)  
-* Dienstreise, SHK, Wunschzeiten und Lehrplanung: [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/)
+* HTW ServiceportalDienstreise, SHK, Wunschzeiten und Lehrplanung: [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/)
 * Lehrabrechnung: [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
 * Zoom: [https://htw-berlin.zoom.us/](https://htw-berlin.zoom.us/)
 
-
 ## LSF Modulhandbuch
-* [Übersicht IMI Bachelor](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/gast&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrGast&asi=3BSmmfhkCGjb$LWJbzpt#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584)
-* [Übersicht IMI Bachelor editieren](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrBearbeiter&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/bearbeiter&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrBearbeiter&asi=wibIXy$nV0QsgrnwS0Kt#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584
+* [Bachelor ansehen](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/gast&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrGast&asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584)
 
-  )
+* [Bachelor editieren](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrBearbeiter&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/bearbeiter&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrBearbeiter&asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584)
+
+* [Master ansehen](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/gast&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419&expand=0&lastState=modulBeschrGast&asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419)
+
+* [Master bearbeiten](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrBearbeiter&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/bearbeiter&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419&expand=0&lastState=modulBeschrBearbeiter&asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419)
+
 ## Gelegentlich
 
 * Logos und Folien im HTW-Design: [https://corporatedesign.htw-berlin.de/logos/](https://corporatedesign.htw-berlin.de/logos/)
-* [Speiseplan der Mensa](https://www.studentenwerk-berlin.de/mensen/speiseplan/htw_wilhelminenhof/index.html)
-* Gastzugänge Wifi [https://account.htw-berlin.de/guestwifi/index](https://account.htw-berlin.de/guestwifi/index)
+* [Speiseplan der Mensa](https://www.stw.berlin/mensen/mensa-htw-wilhelminenhof.html)
+* Gastzugänge Wifi - funktioniert nicht mehr [https://account.htw-berlin.de/guestwifi/index](https://account.htw-berlin.de/guestwifi/index)
 * Account / Email bearbeiten: [https://account.htw-berlin.de/](https://account.htw-berlin.de/)
-* VPN Anleitung: [https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index](https://portal.rz.htw-berlin.de/anleitungen/vpn/macosx/index)
-* VPN Wenn Client schon installiert ist: Cisco AnyConnect Secure Mobility Client starten, mit https://vpn.htw-berlin.de verbinden
+* VPN Anleitung: - weg
+* VPN Wenn Client schon installiert ist: Cisco AnyConnect Secure Mobility Client starten, verbinden
 
 ## Bibliothek
 
@@ -41,8 +45,10 @@ layout: default
     * [Anschaffungsvorschlag](https://bibliothek.htw-berlin.de/literatur-suchen/anschaffungsvorschlag/?no_cache=1)
 
 ## Intranet Links
-* Vorlagen für MA: https://wiki.rz.htw-berlin.de/confluence/pages/viewpage.action?title=Kommunikation&spaceKey=htwintranet
-* Personalwesen: Einstellung SHK, Dienstreise (wiss. Reisen gibt es nicht mehr) https://wiki.rz.htw-berlin.de/confluence/display/ZHVI/Formulare+-+Personalwesen
+(vorher ins VPN!)
+* [https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/Intranet](https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/Intranet)
+* Vorlagen für MA: -- unauffindbar
+* Personalwesen: Einstellung SHK, Dienstreise (wiss. Reisen gibt es nicht mehr) -- unauffindbar
 
 ## Webseite des Studiengangs Bearbeiten
 

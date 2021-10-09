@@ -2,6 +2,7 @@
 title: Notes on Sketchnotes
 author: kleinen
 layout: post
+draft: true
 categories:
   - studies
 ---

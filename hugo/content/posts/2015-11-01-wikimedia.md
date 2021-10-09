@@ -2,6 +2,7 @@
 title: WikiD Schreibwerkstatt am 8.11.2015
 author: kleinen
 layout: post
+draft: true
 categories:
   - Women
   - Events

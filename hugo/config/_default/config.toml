@@ -4,7 +4,27 @@ title = 'Prof. Dr. Barne Kleinen'
 # sectionPagesMenu = "main"
 theme = "greenpage"
 enableGitInfo = true
-disableKinds = ['taxonomy', 'term']
+# disableKinds = ['taxonomy', 'term']
 [params]
   serverencoding = "UTF-8"
   generatedLinks = true # set this to false to detect unlinked pages
+  zoomBK = "https://htw-berlin.zoom.us/j/3165395630"
+
+# rss feed
+# https://gohugo.io/templates/rss/#the-embedded-rssxml
+# https://gohugo.io/templates/rss/
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+languageCode = 'en-us'
+rssLimit =  10
+[author]
+  name = 'Barne Kleinen'
+### 10:27
+
+[permalinks]
+  #  materials = "/material/:slug"
+  #  course  = "/materials/:slug/"
+   courses = "/material/courses/:slug/"
+   tools = "/material/tools/:slug/"
+   tags = "/material/tags/:slug/"
+  #  tool = 'tools'
+  #  tag = 'tags'

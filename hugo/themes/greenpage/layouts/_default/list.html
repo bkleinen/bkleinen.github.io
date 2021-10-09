@@ -1,5 +1,11 @@
 {{ define "main" }}
+
 {{ .Content }}
+
+  {{ if .Params.subpages }}
+     {{ partial "sc_partials/subpages.html" (dict "page" . "depth" 4) }}
+  {{ end }}
+
 {{ end }}
 
 {{ define "template" }}theme: layouts/_default/list.html{{ end }}

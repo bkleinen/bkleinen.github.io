@@ -2,6 +2,7 @@
 title: Projektvergabe WiSe 2020/21
 author: kleinen
 layout: post
+draft: true
 categories:
   - ws2019
   - projekte

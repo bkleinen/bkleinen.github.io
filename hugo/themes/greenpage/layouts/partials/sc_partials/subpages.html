@@ -1,0 +1,27 @@
+
+
+{{ $page := .page }}
+{{ $depthS := .depth }}
+
+
+{{- $depth := 1 -}}
+{{ with $depthS }}
+  {{ $depth := int $depthS }}
+{{ end }}
+
+
+{{ template "childs" (dict "p1" $page "depth" $depth)  }}
+
+{{ define "childs" }}
+  {{ $depth := .depth}}
+  {{ if (gt $depth 0)}}
+  {{ with .p1 }}
+  <ul>
+  {{ range .Pages }}
+  <li><a href ="{{ .RelPermalink }}">{{.Title}}</a></li>
+  {{ template "childs" (dict "p1" . "depth" (sub $depth 1))}}
+  {{ end }}
+  </ul>
+  {{ end }}
+  {{ end }}
+{{ end }}

@@ -3,6 +3,7 @@ title: BarCamp in Salzburg
 author: kleinen
 layout: post
 # permalink: /2011/10/barcamp-in-salzburg/
+draft: true
 categories:
   - Uncategorized
   - old

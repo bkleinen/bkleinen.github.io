@@ -3,6 +3,7 @@ title: Willkommen
 author: kleinen
 layout: post
 # permalink: /2011/10/willkommen/
+draft: true
 categories:
   - Uncategorized
   - old
