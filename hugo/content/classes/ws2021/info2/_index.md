@@ -49,7 +49,8 @@ for time and location information (link above in the External Links menu).
 
 ## Tutorial
 
-There will be a tutorial. (More Info to come)
+The tutorial will be held every Monday, 13:00 - 14:30, by Jonas Fichtmüller via Zoom. The link to the Zoom room can be found in Moodle.
+
 
 ## Grades & Exam
 
