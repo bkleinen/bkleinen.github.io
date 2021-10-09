@@ -11,13 +11,14 @@
   <!-- syntax highlighting CSS -->
   <link rel="stylesheet" href="{{ site.BaseURL }}/css/syntax.css">
 
-  {{ if .Site.IsServer }}
-  {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
-  <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
-  {{ else }}
-  {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
-  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
-  {{ end }}
+
+
+  <meta name="theme-color" content="#1A94D2" />
+
+    {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
+
+    {{ $style := resources.Get "scss/main.scss" | toCSS  $options | minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->

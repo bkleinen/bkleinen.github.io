@@ -1,0 +1,23 @@
+{{ if .Site.IsServer }}
+{{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+{{ else }}
+{{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
+<link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+{{ end }}
+
+
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      {{ $bootstrap :=  (slice "js/bootstrap/jquery.slim.min.js" "js/bootstrap/popper.min.js" "js/bootstrap/bootstrap.min.js") }}
+      {{ if .Site.IsServer }}
+      {{ range $bootstrap }}
+      {{ $scripts := resources.Get . }}
+      <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+      {{ end }}
+      {{ else }}
+      {{ range $bootstrap }}
+      {{ $scripts := resources.Get . }}
+      <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+      {{ end }}
+      {{ end }}

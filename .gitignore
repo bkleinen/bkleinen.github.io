@@ -3,3 +3,4 @@ public-htw
 hugo/public
 hugo/resources/_gen
 .idea
+hugo/node_modules/

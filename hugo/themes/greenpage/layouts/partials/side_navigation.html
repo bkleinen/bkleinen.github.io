@@ -3,16 +3,16 @@
 
 <ul class="nav flex-md-column">
 {{ $currentPage := . }}
+
 {{ range .Site.Menus.main }}
 <li class="nav-item">
     {{ if .HasChildren }}
-    <a class="nav-link dropdown-toggle {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active {{ end}}"
-    href="#" role="button" id="dropdownMenuLink"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      {{ .Name }}
-    </a>
 
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="nav-link dropdown-toggle {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active {{ end}}"
+    data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">{{ .Name }}</a>
+
+
+    <div class="dropdown-menu" >
       {{ range .Children }}
           <a class="dropdown-item  {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
           href="{{ .URL }}">{{ .Name }}</a>

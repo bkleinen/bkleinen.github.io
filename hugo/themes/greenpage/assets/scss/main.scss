@@ -1,5 +1,10 @@
 @import "variables";
-@import "bootstrap/scss/bootstrap";
+//@import "bootstrap/scss/bootstrap";
+@import "hugo/node_modules/bootstrap/scss/bootstrap";
+
+// currently done in variables; maybe should be
+// done after importing bootstrap
+//@import "styles";
 
 .content {
   font-size: $custom-font-size;

@@ -101,19 +101,21 @@
               tables[i].classList.add("table-striped");
             }
         </script>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        {{ $bootstrap :=  (slice "js/bootstrap/jquery.slim.min.js" "js/bootstrap/popper.min.js" "js/bootstrap/bootstrap.min.js") }}
-        {{ if .Site.IsServer }}
-        {{ range $bootstrap }}
-        {{ $scripts := resources.Get . }}
-        <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
-        {{ end }}
-        {{ else }}
-        {{ range $bootstrap }}
-        {{ $scripts := resources.Get . }}
-        <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
-        {{ end }}
-        {{ end }}
+
+
+
+
+  <!-- JavaScript and dependencies -->
+
+  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+
+  <script src="{{$js.RelPermalink}}" defer></script>
+  
+
+
+
+
     </body>
 
 </html>

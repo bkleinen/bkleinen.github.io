@@ -39,7 +39,7 @@
 
 {{ with $course_page.Params.courseNavExt }}
 <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">External Links</a>
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">External Links</a>
     <div class="dropdown-menu">
       {{ range . }}
           <a class="dropdown-item" target = "ex_link" href="{{ .link }}">{{ .title }}</a>

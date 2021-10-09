@@ -1,0 +1,22 @@
+{
+  "name": "bkleinen.github.io",
+  "version": "1.0.0",
+  "description": "bkleinen.github.io ==================",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkleinen/bkleinen.github.io.git"
+  },
+  "author": "Barne Kleinen",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/bkleinen/bkleinen.github.io/issues"
+  },
+  "homepage": "https://github.com/bkleinen/bkleinen.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
