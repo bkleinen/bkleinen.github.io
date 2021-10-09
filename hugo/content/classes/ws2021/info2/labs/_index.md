@@ -3,7 +3,7 @@ title: Info 2 WS 2021/22 - Labs and Exercises
 author: kleinen
 layout: page
 courseNav: Labs
-weight: 3
+weight: 2
 ---
 
 Welcome! On this page you find important information about the labs: How to prepare, how to communicate, what to work on, how to submit. Read through it carefully and ask if anything is unclear.
