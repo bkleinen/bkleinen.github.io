@@ -2,6 +2,7 @@
 title: AS Entschluss Weltoffene Hochschule
 author: kleinen
 layout: post
+draft: true
 categories:
   - news
   - old

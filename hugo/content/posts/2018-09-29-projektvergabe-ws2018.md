@@ -2,6 +2,7 @@
 title: Projektvergabe WS 2018/19
 author: kleinen
 layout: post
+draft: true
 categories:
   - projekte
   - imi

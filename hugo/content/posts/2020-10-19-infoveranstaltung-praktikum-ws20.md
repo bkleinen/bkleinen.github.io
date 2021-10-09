@@ -2,6 +2,7 @@
 title: Infoveranstaltung zum Auslandspraktikum 24.11.2020 17:30-19:00
 author: kleinen
 layout: post
+draft: true
 categories:
   - praktikum
   - imi

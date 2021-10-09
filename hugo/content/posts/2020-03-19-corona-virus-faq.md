@@ -2,6 +2,7 @@
 title: Corona-FAQ für Studierende
 author: kleinen
 layout: post
+draft: true
 categories:
   - projekte
   - imi

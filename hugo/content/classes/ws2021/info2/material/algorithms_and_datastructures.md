@@ -7,6 +7,11 @@ draft: true
 
 ## Textbooks and Material
 
+Algorithms Illuminated is a book Series by Tim Roughgarden. The Companion Website
+contains Videos on a wide variety of algorithms and data structures:
+[http://www.algorithmsilluminated.org/](http://www.algorithmsilluminated.org/)
+
+
 ### Algorithms and Data Structures in General
 The broader topic of this course is Algorithms and Data Structures. You'll find lots of textbooks and other material on this general and all of it singular topics.
 I picked out three textbooks:

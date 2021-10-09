@@ -26,7 +26,7 @@ Ask questions that can't wait in the Moodle Forum. That's better than writing an
 
 ### Lab Assignments
 
-{{< subpages  >}}
+{{< subpages >}}
 
 ## Teams
 You will work in teams of two or three. You will usually switch teams after three labs.

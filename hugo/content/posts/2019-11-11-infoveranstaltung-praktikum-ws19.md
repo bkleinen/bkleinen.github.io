@@ -2,6 +2,7 @@
 title: Infoveranstaltung zum Auslandspraktikum 27.11.2019 16:30-18:00 PBH 5020
 author: kleinen
 layout: post
+draft: true
 categories:
   - praktikum
   - imi

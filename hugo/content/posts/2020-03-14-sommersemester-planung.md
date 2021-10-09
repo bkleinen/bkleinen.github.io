@@ -2,6 +2,7 @@
 title: Sommersemester @ IMI
 author: kleinen
 layout: post
+draft: true
 categories:
   - projekte
   - imi
