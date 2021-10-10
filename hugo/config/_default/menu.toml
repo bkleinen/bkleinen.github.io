@@ -104,30 +104,6 @@ weight = 30
   pageref = '/misc'
   weight = -150
 
-[[main]]
-  parent = 'misc'
-  identifier = '/misc/about-this-site/'
-  name = 'About this Site'
-  pageref = '/misc/about-this-site'
-  weight = 10
-[[main]]
-  parent = 'misc'
-  identifier = '/misc/trans/'
-  name = 'Trans*'
-  pageref = '/misc/trans'
-  weight = 20
-[[main]]
-  parent = 'misc'
-  identifier = '/misc/lsfcollector/'
-  name = 'LSF'
-  pageref = '/misc/lsfcollector'
-  weight = 30
-[[main]]
-  parent = 'misc'
-  identifier = '/misc/links/'
-  name = 'Links'
-  pageref = '/misc/links'
-  weight = 40
 
 
   [[main]]

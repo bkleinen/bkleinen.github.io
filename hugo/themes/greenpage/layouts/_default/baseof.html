@@ -49,20 +49,20 @@
               <hr/>
               <div class = "container-fluid">
                   <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-9">
                            <a href="{{ site.BaseURL }}/contact">Prof. Dr. Barne Kleinen</a>,
                            <a href="https://www.htw-berlin.de">HTW Berlin</a>,
                            <a href="https://www.f4.htw-berlin.de/">FB4</a>, <a href="https://imi-bachelor.htw-berlin.de/">International Media and Computing</a>.
                            &nbsp;&nbsp;&dash;&nbsp;&nbsp;
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-3">
                       <a href="{{ site.BaseURL }}/contact/impressum">Impressum</a>,
                             <a href="{{ site.BaseURL }}/contact/datenschutzerklaerung">Datenschutzerklärung</a>
                     </div>
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-9">
                       This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
                       <br/><small>
                              This page was authored by: {{ $.Param "author" | default "B. Kleinen"}}
@@ -70,7 +70,7 @@
                       </small>
 
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-3">
                       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
                     </div>
 
@@ -111,7 +111,7 @@
   {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
 
   <script src="{{$js.RelPermalink}}" defer></script>
-  
+
 
 
 
