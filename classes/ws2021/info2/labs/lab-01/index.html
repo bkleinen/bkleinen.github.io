@@ -146,6 +146,10 @@ Table of Contents
 </ul>
 </nav>
 </div>
+<figure><img src=/images/classes/info2/crc-cards.jpg alt="CRC Cards"><figcaption>
+<p>CRC Cards</p>
+</figcaption>
+</figure>
 <h2 id=pre-lab>Pre-Lab</h2>
 <p>Remember to do all the necessary steps listed on the <a href=..>Labs</a> page, including the following exercises:</p>
 <p><em><strong>P1.</strong></em> Refamiliarize yourself with the Zuul Project in Info1.</p>
@@ -153,9 +157,10 @@ Table of Contents
 of the refactoring(s)?</p>
 <p><em><strong>P3.</strong></em> Find out what the <em>Class-Responsibility-Collaboration Card method</em> is, what the use of CRC Cards is and how they are created. The following resources can be of help:</p>
 <ul>
-<li><a href=htts://c2.com/doc/oopsla89/paper.html>The method of CRC cards and the context of OOP</a></li>
+<li><a href=http://c2.com/doc/oopsla89/paper.html>The method of CRC cards and the context of OOP</a></li>
 <li><a href=http://agilemodeling.com/artifacts/crcModel.htm>Example CRC cards and how to create CRC Cards</a></li>
 </ul>
+<p><em><strong>P4.</strong></em> For the bored or curious: Check out <a href=http://www.tubmud.de/>TubMud</a></p>
 <h2 id=assignment-crc-cards>Assignment: CRC Cards</h2>
 <h3 id=1-background-and-requirements>1. Background and Requirements</h3>
 <p>A Startup had found the Zuul Example and decided to make a cool real
@@ -165,7 +170,8 @@ there have been several meetings to talk about what should be added to the
 simple Zuul Project. The outcome is a description about the desired functionality.
 (We won&rsquo;t be concerned with how that happens in detail, this is called Requirements
 Engineering and will be discussed in the third semester in Info3.)</p>
-<p>Assume that this is the description written:</p>
+<p>Assume that this is the description written:<br>
+(this is a lot, read through all of it, but you won&rsquo;t need to work on everything.)</p>
 <h4 id=cool-zuul>Cool Zuul</h4>
 <p>CoolZuul is based on a already extended version done in the labs or programming
 assignments: Rooms have been refactored to not contain hard-coded assumptions
@@ -180,15 +186,8 @@ The CoolZuul game should be extended to allow for multiple players.
 Each player has their own inventory of items.
 Players see other players in the same room and can talk to them.
 There should also be a &ldquo;shout&rdquo; command which enables players to communicate
-with all other players.</p>
-</li>
-<li>
-<p><strong>Quests</strong><br>
-The game should support Quests. Active quests get notified of actions in the game,
-or by the player, to be able to determine the progress and completion of a Quests.
-Quests will be advertised on a billboard within the game, and players need to
-actively start a quest to play and complete it. Players can see a list of
-started and completed quests.</p>
+with all other players. (Note that you will not be able/know how to implement
+this until later - don&rsquo;t worry about that!)</p>
 </li>
 <li>
 <p><strong>History of Visited Rooms</strong><br>
@@ -196,21 +195,47 @@ There should be a history of visited Rooms stored for each player enabling
 the player to go back more than one step.</p>
 </li>
 <li>
+<p><strong>Options</strong>
+Choose one of these Options to do CRC cards on.</p>
+<ol>
+<li>
+<p><strong>Option A: Quests</strong><br>
+The game should support Quests. Active quests get notified of actions in the game,
+or by the player, to be able to determine the progress and completion of a Quest.
+Quests will be advertised on a billboard within the game, and players need to
+actively start a quest to play and complete it. Players can see a list of
+started and completed quests.</p>
+<pre><code>   ... there is a huge billboard...
+   &gt; read billboard
+   You read the billboard - it contains a list of quests!
+   - teddy: find Teddybear: find the lost Teddybear in the Forest.
+   - supper: collect Mushrooms: collect enough Mushrooms for supper.
+        Be careful not to use poisonous ones!
+   &gt; start supper
+   You've started Quest &quot;supper&quot;
+    ...
+    Congratulations! You successfully made supper.               
+</code></pre>
+</li>
+<li>
+<p><strong>Option B: Special Items</strong></p>
+<ol>
+<li>
 <p><strong>Interaction with Items</strong>
 there should be special items which allow for interaction, e.g. books that can
 be read, boxes that can be opened. Items can be contained in other items.</p>
-<pre><code>Some Room Description...
-Items:
-- strange box
-&gt; open box
-There is a key in the box!
-(key is moved to inventory of player.)
+<pre><code> Some Room Description...
+ Items:
+ - strange box
+ &gt; open box
+ There is a key in the box!
+ (key is moved to inventory of player.)
 
-Some Room Description...
-Items:
-- a book
-&gt; read book
-... quest description or hint follows...
+ Some Room Description...
+ Items:
+ - a book
+ &gt; read book
+      ... quest description or hint follows...
 </code></pre>
 </li>
 <li>
@@ -218,53 +243,77 @@ Items:
 There should be Items which are not immediately visible. A command &ldquo;examine&rdquo;
 should be introduced to reveal these items.
 e.g enabling this interaction:</p>
-<pre><code>....
-There is a strange blob on the wall
-&gt; examine blob
-You examine the blob closer. It is an old chewing gum with a key hidden under it!
-Items:
- - key
-&gt; take key
+<pre><code>  ....
+  There is a strange blob on the wall
+  &gt; examine blob
+  You examine the blob closer. It is an old chewing gum with a key hidden under it!
+  Items:
+    - key
+  &gt; take key
 </code></pre>
 </li>
+</ol>
+</li>
 <li>
-<p><strong>Closed Doors and blocked passages</strong><br>
+<p><strong>Option C: Closed Doors and blocked passages</strong><br>
 Exits to other Rooms can be blocked by Doors, which may be easy to open or
 locked with a key. They may also be blocked by something or otherwise hidden.
 They are similar to items or hidden items, in such that the room description
 should contain a hint that they are there, and can be interacted with.
 Some examples:</p>
-<pre><code>There is a door to the north.
-&gt; open door
-You open the door.
-&gt; go north
+<pre><code>    There is a door to the north.
+    &gt; open door
+    You open the door.
+    &gt; go north
 
-There is a door to the south.
-&gt; open door
-You dont have a key.
-&gt; use key on door
-You open the door.
-&gt; go south
+    There is a door to the south.
+    &gt; open door
+    You dont have a key.
+    &gt; use key on door
+    You open the door.
+    &gt; go south
 
-You see a forest. There is a big stone.
-&gt; examine stone
-You examine the stone closer and manage to move it.
-There is a hidden passage down!
-Exits:
-- down
-&gt; go down
+    You see a forest. There is a big stone.
+    &gt; examine stone
+    You examine the stone closer and manage to move it.
+    There is a hidden passage down!
+    Exits:
+    - down
+    &gt; go down
 </code></pre>
 </li>
 <li>
-<p><strong>Persistence</strong><br>
-A player should be able to save their progress to disk to continue playing at
-a later time.</p>
+<p><strong>Option D: Clothing</strong>
+There should be clothing to wear. Clothing can be found in rooms like
+other items. After picking up the clothing item it can be worn with the
+command &ldquo;wear&rdquo; and taken off again with &ldquo;remove&rdquo;. Only one sort of
+clothing can be worn, e.g. one pair of trousers, one shirt, one armour,
+one pair of shoes, one helmet.</p>
+<pre><code>     ...
+     &gt; wear helmet
+     You wear your helmet.
+     &gt; wear boots
+     You are already wearing sandals.
+     &gt; remove sandals
+     You take off your boots.
+     &gt; wear boots
+     You are wearing your boots.
+     &gt; inventory
+     You are wearing your helmet.
+     You are wearing your boots.
+     Inventory:
+       - a key
+</code></pre>
+<p><a href=https://en.wikipedia.org/wiki/Non-player_character>Non-Person-Characters</a>
+in the game.</p>
 </li>
 <li>
-<p><strong>NPCs</strong> (for the bored)<br>
+<p><strong>Option E: NPCs</strong> (for the bored)<br>
 There should be
 <a href=https://en.wikipedia.org/wiki/Non-player_character>Non-Person-Characters</a>
 in the game.</p>
+</li>
+</ol>
 </li>
 </ol>
 <h3 id=2-identify-class-and-method-candidates>2. Identify Class and Method Candidates</h3>
@@ -280,8 +329,13 @@ and later popularized by Booch (e.g. Booch 2004, P 136) is the following:</p>
 <p>Be aware that this method has later been critized for not beeing a rigourous approach and only being useful for simple problems, and that you get possible <em>candidates</em> for classes and methods - not every noun will be a class name in your application!</p>
 <h3 id=3-crc-cards>3. CRC Cards</h3>
 <h4 id=preparation>Preparation</h4>
-<p>Make CRC cards for each of the existing classes as well as of your candidate classes.
+<p>Get a pack of A6 index cards or simply cut A4 papers twice.
+Make CRC cards for each of the existing classes as well as of your candidate classes.
 Only put down the class names for now.</p>
+<p>It is really important that you use individual cards! You will need and want to
+move them, discard them, replace them. See the picture above!</p>
+<p><em><strong>Note: The above requirements are a lot! Only work on one of the marked
+parts</strong></em> - you may, of course, do more if you want to.</p>
 <h4 id=work-through-the-scenarios>Work through the Scenarios</h4>
 <p>The examples above how it should be able to interact with CoolZuul constitute
 scenarios. Work through them and refine your CRC cards based on what you discover.

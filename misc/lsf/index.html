@@ -93,14 +93,12 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 </div>
 <div class=coursenav></div>
 <div class=container-fluid>
-<script>function convert(){const e=document.getElementById("lsfstuff").value,b=e.match(/[^\r\n]+/g),c=/.*\d{6}\s*([^\t]*?)\s*\t\s*([^\t]*?)\s*s0(\d{6})@htw-berlin.de.*/,f="$2 $1 <s0$3@htw-berlin.de>",a={student:[],ignore:[]},g=(a,b)=>(a[b.match(c)?'student':'ignore'].push(b),a);b.reduce(g,a);const h=a.student.map(a=>a.replace(c,f)),i=new Set(h),d=Array.from(i).sort();document.getElementById("emailarea").innerHTML=d.join("\n"),document.getElementById("number_emails").innerHTML=b.length+" lines read, "+d.length+" unique addresses",document.getElementById("ignored").innerHTML=a.ignore.join("\n"),document.getElementById("ignoredNumber").innerHTML=a.ignore.length+" ignored lines"}</script>
+<script>function convert(){const h=document.getElementById("lsfstuff").value,c=h.match(/[^\r\n]+/g),d=/.*\d{6}\s*([^\t]*?)\s*\t\s*([^\t]*?)\s*s0(\d{6})@htw-berlin.de.*/,f="$2 $1 <s0$3@htw-berlin.de>",a={student:[],ignore:[]},g=(a,b)=>(a[b.match(d)?'student':'ignore'].push(b),a);c.reduce(g,a),console.log(a.student);const b=a.student.map(a=>a.replace(d,f));console.log(b);const i=new Set(b),e=Array.from(i).sort();document.getElementById("emailarea").innerHTML=e.join("\n"),document.getElementById("number_emails").innerHTML=c.length+" lines read, "+e.length+" unique addresses",document.getElementById("ignored").innerHTML=a.ignore.join("\n"),document.getElementById("ignoredNumber").innerHTML=a.ignore.length+" ignored lines"}</script>
 <h2>Email Collector for LSF</h2>
 <div class=container-fluid>
 <div class=row>
 <div class=col>
-<div class=float-right>
-<button onclick=convert()>Show Email Adresses</button>
-</div>
+<button onclick=convert() class="btn btn-primary">Show Email Adresses</button>
 </div>
 <div class=col>
 <div id=ignoredNumber>ignored lines</div>
