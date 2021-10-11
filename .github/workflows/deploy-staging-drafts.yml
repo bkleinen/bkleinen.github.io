@@ -1,4 +1,4 @@
-name: Deploy Staging
+name: Deploy Staging Drafts
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
         run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
-          hugo --source hugo  --minify --buildDrafts --environment staging
+          hugo --source hugo  --minify --buildDrafts --environment stagingdrafts
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging Drafts on Github Pages
         uses: peaceiris/actions-gh-pages@v3
