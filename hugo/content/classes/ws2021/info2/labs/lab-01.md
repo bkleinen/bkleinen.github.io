@@ -226,7 +226,6 @@ about the implementation just yet.
 
 ## Repository for this Lab
 
-Prof. Kleinen will publish a starting point as soon as PZ2 of Info1 is done:  
 [https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
 
 ## Lab Report / What to turn in
