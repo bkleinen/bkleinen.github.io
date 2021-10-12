@@ -2,11 +2,17 @@
 .PHONY : hugo
 .RECIPEPREFIX = -
 
-hugo : openActions openH 
+hugo : openActions open
 -  hugo --buildDrafts --source hugo -p 4242 server
 
-hugoP : openH # as published; there might be differences as there are isServer queries
+hugoP : open # as published; there might be differences as there are isServer queries
 -  hugo --environment production --source hugo -p 4242 server
+
+hugoS : openS # staging; without drafts
+-  hugo --environment staging --source hugo -p 4242 server
+
+hugoSD : openSD # staging; like production but with drafts
+-  hugo --buildDrafts --environment stagingdrafts --source hugo -p 4242 server
 
 c :
 -	git add .
@@ -36,14 +42,19 @@ ifneq ($(current_branch),main)
 endif
 
 open :
+-  open http://localhost:4242
+openS :
+-  open http://localhost:4242/staging
+openSD :
+-  open http://localhost:4242/stagingdrafts
+openGH :
 - gh browse
 openActions :
 - open https://github.com/bkleinen/bkleinen.github.io/actions
-openH :
--  open http://localhost:4242
 openSites:
 - open https://home.htw-berlin.de/~kleinen/
 - open https://bkleinen.github.io/
 - open https://bkleinen.github.io/staging/
-openS:
+- open https://bkleinen.github.io/stagingdrafts/
+openI:
 - open 	http://localhost:4242/classes/ws2021/info2/

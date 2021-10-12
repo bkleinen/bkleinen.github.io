@@ -8,6 +8,18 @@
   </head>
 
     <body>
+
+
+{{ if .Site.Params.PrintEnvironment }}
+    <div>
+   This is the {{ .Site.Params.Environment }} environment
+  running on <a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+  <br/> {{ .Site.Params.EnvDescription }}<br/>
+   - please visit the production website at <a href="{{ .Site.Params.ProductionSite }}">{{ .Site.Params.ProductionSite }}</a> instead!
+   </div>
+{{ end }}
+
+
         <div class = "container-fluid">
 
         <header class = "row m-b-5" >

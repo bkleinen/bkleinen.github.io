@@ -1,1 +1,7 @@
+title = "STAGING DRAFTS --- Prof. Dr. Barne Kleinen"
 baseURL = 'https://bkleinen.github.io/stagingdrafts/'
+[params]
+  printEnvironment = true
+  environment = 'stagingdrafts'
+  envDescription = 'This site contains unpublished changes and draft documents.'
+  productionSite = 'https://home.htw-berlin.de/~kleinen/'
