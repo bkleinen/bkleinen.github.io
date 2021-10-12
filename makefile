@@ -2,7 +2,7 @@
 .PHONY : hugo
 .RECIPEPREFIX = -
 
-hugo : openActions open
+hugo :  open
 -  hugo --buildDrafts --source hugo -p 4242 server
 
 hugoP : open # as published; there might be differences as there are isServer queries

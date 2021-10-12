@@ -1,8 +1,7 @@
 ---
 title: Web Applications WS2021/2022- Sprint Day 1 - Monday
 author: kleinen
-layout: default
-wide_layout: true
+draft: true
 ---
 
 # Day 1 (Monday): Map
