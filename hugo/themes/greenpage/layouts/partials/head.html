@@ -4,19 +4,9 @@
   <meta charset="{{ site.Params.Serverencoding }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS
-  <link rel="stylesheet" href="{{ site.BaseURL }}/bootstrap/bootstrap.min.css" >-->
-  <!-- site css including Bootstrap via sass-->
-  <link rel="stylesheet" href="{{ site.BaseURL }}/assets/main.css">
-  <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="{{ site.BaseURL }}/css/syntax.css">
-
-
-
   <meta name="theme-color" content="#1A94D2" />
 
     {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
-
     {{ $style := resources.Get "scss/main.scss" | toCSS  $options | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
