@@ -16,7 +16,7 @@ The schedule is, as always, tentative.
 | 5    | 45 | Tue 09/11/2021 | Design Sprint: Thursday - Prototype  |          |
 | 6    | 46 | Tue 16/11/2021 | Design Sprint: Friday - Test         | Feedback & Review |
 | 7    | 47 | Tue 23/11/2021 | Tech Pitch, Decision &  Dev Planning | Feedback & Review |
-| 8    | 48 | Tue 30/11/2021 | Development / Coordination           | Feedback & Review |
+| 8    | 48 | Tue 30/11/2021 | Development / CI/CD Pipeline         | Feedback & Review |
 | 9    | 49 | Tue 07/12/2021 | Development / Usability              | Feedback & Review |
 | 10   | 50 | Tue 14/12/2021 | Development / Security               | Feedback & Review |
 | 11   | 51 | Tue 21/12/2021 | Development / Coordination           | Feedback & Review |

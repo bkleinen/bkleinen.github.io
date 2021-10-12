@@ -5,7 +5,7 @@ draft: true
 weight: 0
 tools: ['nginx']
 tags: ['web']
-courses: ['networks']
+courses: ['networks','wt1']
 ---
 
 ## nginX
