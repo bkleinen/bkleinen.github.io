@@ -48,7 +48,7 @@ Mirror on github: [https://bkleinen.github.io/](https://bkleinen.github.io/)
 
 ### Sending me Snail Mail (Paper)
 
-If you need to get paper to me (e.g. Internship Reports or Contracts, Printed Independent Coursework)
+If you need to get paper to me,
 You can do that in the following ways:
 
 * Directly to my post box: The post boxes are opposite the Dekanat on the second floor next to WH-C 225. Number 69 is mine.
