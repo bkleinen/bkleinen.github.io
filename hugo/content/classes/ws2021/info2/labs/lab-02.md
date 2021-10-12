@@ -25,7 +25,7 @@ and push to that project like it was done in Lab00.*
 
 1. Compare and Discuss your CRC Cards with other teams during the Lab.
 
-2. Decide on at least two of the features described in the [previous lab]({{<ref "./lab-01/#cool-zuul">}} "Lab 01").
+2. Implement the features you prepared with CRC Cards in the [previous lab]({{<ref "./lab-01/#cool-zuul">}} "Lab 01").
 
 3. You may team up with other teams to implement parts of the whole feature set together, which will
    require agreement on the design and some communication about the exact interfaces (method signatures) of
