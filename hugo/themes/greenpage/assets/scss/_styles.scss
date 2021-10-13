@@ -47,8 +47,6 @@ footer {
   padding-bottom: 20px;
 }
 
-
-
 // Navigation Bars
 
 
@@ -73,6 +71,9 @@ footer {
   margin-bottom: 0.5rem
 }
 
+.sortable {
+    cursor: pointer;
+}
 
 
 //$navbar-dark-active-color: $htw-active;

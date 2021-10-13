@@ -102,31 +102,31 @@
           </ul></small><hr></div>
         {{ end }}
           </div>
-<
+
         </footer>
 
-        <script>
-            var tables = document.getElementsByTagName("table");
-            for (i = 0; i < tables.length; i++) {
-              tables[i].classList.add("table");
-              tables[i].classList.add("table-sm");
-              tables[i].classList.add("table-striped");
-            }
-        </script>
+       <!-- JavaScript and dependencies -->
+       <script>
+           let sortTables = false;
+           {{ with .Params.SortTables }}
+              {{ if . }}
+                 sortTables = true;
+              {{ end }}
+           {{ end }}
+       </script>
 
+       {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+       {{ $tableSorter := resources.Get "js/sorttables.js" }}
+       {{ $js_resources := slice $tableSorter $bootstrap }}
 
-
-
-  <!-- JavaScript and dependencies -->
-
-  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
-
-  <script src="{{$js.RelPermalink}}" defer></script>
-
-
-
-
+         {{ if .Site.IsServer }}
+           {{ range $js_resources }}
+           <script type="text/javascript" src="{{ .RelPermalink }}"></script>
+           {{ end }}
+         {{ else }}
+           {{ $js :=  $js_resources  | resources.Concat "js/bundle.js" | resources.Minify | fingerprint }}
+            <script src="{{$js.RelPermalink}}" defer></script>
+         {{ end }}
 
     </body>
 

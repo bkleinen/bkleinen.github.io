@@ -15,7 +15,6 @@
     {{ range .Pages }}
         <li>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ .Params.wikipedia }}
         </li>
     {{ end }}
 </ul>
@@ -23,4 +22,4 @@
 
 {{ end }}
 
-{{ define "template" }}theme: layouts/term/list.html{{ end }}
+{{ define "template" }}theme: layouts/taxonomy/terms.html{{ end }}

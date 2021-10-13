@@ -18,7 +18,6 @@ c :
 -	git add .
 -	git commit -m "$m"
 
-
 # variable definition is executed when needed
 # variable can also be set when calling target, e.g.
 #    make deploy tag=v0.42
@@ -26,11 +25,16 @@ c :
 # tag = $(shell echo DEF_TAG)
 tag = $(shell bin/hugo_deployment/gitautotag.sh --minor)
 
-tag : check_on_main
+tag : check_on_main push
 -	echo "created new tag $(tag)"
 
-deploy : check_on_main
+push :
 -	git push origin main
+
+ # indirection needed to only create tag if conditions are met
+deploy : check_on_main push deployIMPLYOUDONTWANNATYPETHIS
+
+deployIMPLYOUDONTWANNATYPETHIS : # dont call this directly!!!!
 -	git push origin $(tag)
 
 ERR = $(error error is "not on main branch")
