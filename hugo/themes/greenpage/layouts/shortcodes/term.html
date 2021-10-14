@@ -1,0 +1,4 @@
+
+{{- $term := .Get "term" -}}
+{{- $taxonomy := .Get "taxonomy" -}}
+{{- partial "sc_partials/term.html" (dict "page" . "term" $term "taxonomy" $taxonomy  "other" .Page) }}

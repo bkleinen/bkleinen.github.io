@@ -1,0 +1,14 @@
+{{ $page := .page }}
+{{ $term := .term | lower}}
+{{ $taxonomy := .taxonomy | lower}}
+
+{{ $term_path := printf "/%s/%s/" $taxonomy $term }}
+{{ $term_page := $page.Site.GetPage $term_path }}
+
+{{ $term_path2 := printf "/material/%s/%s/" $taxonomy $term }}
+{{ $term_page2 := $page.Site.GetPage $term_path2 }}
+
+{{- with $term_page }}
+
+<a href ="{{ .Permalink }}">{{ .Title }}</a>
+{{ end -}}

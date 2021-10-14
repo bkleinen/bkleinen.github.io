@@ -1,8 +1,8 @@
 ---
 title: IntelliJ
 author: kleinen
-tools: ['intellij_IDEA']
-tags: ['intellij_IDEA']
+tools: ['intellijIDEA']
+tags: ['ide', 'java', 'python']
 courses: ['info2']
 draft: true
 ---
