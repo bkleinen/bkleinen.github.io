@@ -107,12 +107,11 @@
 
        <!-- JavaScript and dependencies -->
        <script>
+           // Transfer TopMatter Params to JavaScript variables 
            let sortTables = false;
-           {{ with .Params.SortTables }}
-              {{ if . }}
-                 sortTables = true;
-              {{ end }}
-           {{ end }}
+           let stripedTables = true;
+           {{ with .Params.SortTables }}{{ if . }} sortTables = true;{{ end }}{{ end }}
+           {{ with .Params.NoStripedTables }}{{ if . }} stripedTables = false;{{ end }}{{ end }}
        </script>
 
        {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}

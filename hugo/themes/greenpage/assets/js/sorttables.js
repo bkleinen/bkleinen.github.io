@@ -24,11 +24,12 @@ document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() =
 if (sortTables){
   sort_all_tables();
 } else {
-
-  var tables = document.getElementsByTagName("table");
-  for (i = 0; i < tables.length; i++) {
-    tables[i].classList.add("table");
-    tables[i].classList.add("table-sm");
-    tables[i].classList.add("table-striped");
+  if (stripedTables) {
+    var tables = document.getElementsByTagName("table");
+    for (i = 0; i < tables.length; i++) {
+      tables[i].classList.add("table");
+      tables[i].classList.add("table-sm");
+      tables[i].classList.add("table-striped");
+    }
   }
 }
