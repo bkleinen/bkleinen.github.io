@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title> - Prof. Dr. Barne Kleinen</title>
+<title>VI - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -21,7 +21,7 @@
 <div class="col-md-10 c1 p-2"><div class=container-flex>
 <div class=row>
 <div class=col-9>
-<h1 class="c5 title"> </h1>
+<h1 class="c5 title"> VI </h1>
 <small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
 at <a href=https://www.htw-berlin.de>HTW Berlin</a>
@@ -85,14 +85,64 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <ol class="breadcrumb breadcrumb-thin">
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/material/>material</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/material/deploy/>deploy</a></li>
-<li class="breadcrumb-item active" aria-current=page>continuous</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/material/ops/>ops</a></li>
+<li class="breadcrumb-item active" aria-current=page>vi</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav></div>
 <div class=container-fluid>
-<p><a href=https://12factor.net/dev-prod-parity>The Twelve-Factor App</a></p>
+<a href=https://bkleinen.github.io/material/>Material</a>
+within Taxonomies:
+&nbsp;
+<i><a href=https://bkleinen.github.io/courses/>Courses</a></i>:
+<a href=https://bkleinen.github.io/material/courses/info2/>info2</a>
+<a href=https://bkleinen.github.io/material/courses/networks/>networks</a>
+&nbsp;
+<i><a href=https://bkleinen.github.io/tags/>Tags</a></i>:
+<a href=https://bkleinen.github.io/material/tags/vi/>vi</a>
+&nbsp;
+<i><a href=https://bkleinen.github.io/tools/>Tools</a></i>:
+<a href=https://bkleinen.github.io/material/tools/vi/>vi</a>
+<h1 id=vi>VI</h1>
+<p>You should learn a couple of vi commands to survive, as vi is available on most *nix computers.</p>
+<h2 id=the-absolute-minimum>The absolute minimum</h2>
+<p>There are two modes in vi: normal and insert.
+You need to know which mode you are in, as different commands are available.
+<a href=https://www.nngroup.com/articles/modes/>(Why this may be problematic has been discussed thoroughly in the UX field)</a></p>
+<ul>
+<li>Normal Mode:
+<ul>
+<li>vi starts there</li>
+<li><strong>get there with <code>ESC</code></strong></li>
+<li>start command with<code>:</code></li>
+<li><code>:w</code> write (save) file</li>
+<li><code>:q</code> quit (without save, won’t quit if there are changes)</li>
+<li><strong><code>:wq</code> quit and save</strong></li>
+<li><code>:q!</code> quit without save no matter what</li>
+<li>&lt; <code>h</code> ^<code> j</code> v <code>k </code> ><code>l</code> the keys under your right hand double as cursor keys; this makes editing fast!</li>
+</ul>
+</li>
+<li>Insert Mode:
+<ul>
+<li>type to insert text</li>
+<li>get there with any insert command, eg
+<ul>
+<li><strong><code>i</code> insert before cursor</strong></li>
+<li><code>a</code> insert after cursor</li>
+<li><code>o</code> insert in new line after this one</li>
+<li><code>O</code> insert in new line before this one</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id=some-links-and-further-resources>Some Links and further Resources</h2>
+<ul>
+<li><a href=http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html>Graphical vi-vim Cheat Sheet and Tutorial</a>, <a href=https://www.glump.net/_media/howto/desktop/vim-graphical-cheat-sheet-and-tutorial/vi-vim-cheat-sheet-and-tutorial.pdf>also available in one PDF</a></li>
+<li><a href=http://www.viemu.com/a-why-vi-vim.html>Why, oh WHY, do those #?@! nutheads use vi?</a></li>
+<li><a href=https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes>Learning the vi Editor/Vim/Modes - Wikibooks, open books for an open world</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -121,7 +171,7 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <div class=col-9>
 This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 <br><small>
-This page was authored by: B. Kleinen
+This page was authored by: kleinen
 </small>
 </div>
 <div class=col-3>
@@ -135,9 +185,8 @@ This page was authored by: B. Kleinen
 </div>
 </small>
 </div>
-&lt;
 </footer>
-<script>var tables=document.getElementsByTagName("table");for(i=0;i<tables.length;i++)tables[i].classList.add("table"),tables[i].classList.add("table-sm"),tables[i].classList.add("table-striped")</script>
-<script src=https://bkleinen.github.io/js/bundle.min.js defer></script>
+<script>let sortTables=!1,stripedTables=!0</script>
+<script src=https://bkleinen.github.io/js/bundle.min.2e77815b9f3f7be195f9d073bea8b3ba3c025f403d0e61ef06c5ba0d08fc7f09.js defer></script>
 </body>
 </html>
