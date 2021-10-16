@@ -21,6 +21,6 @@ exit_on_error $?
 scp -r -o StrictHostKeyChecking=no ./hugo-tunnel/public-htw/* $HOST2:/home/user/K/kleinen/public_html
 exit_on_error $?
 eval "$(ssh-agent -k)"
-cp -r ./hugo-tunnel/public-htw/* ~/kleinen/public_html
+cp -r ./hugo-tunnel/public-htw/* ~/public_html
 rm -rf ./hugo-tunnel/
 rm steps.sh
