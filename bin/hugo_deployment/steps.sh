@@ -6,6 +6,7 @@ exit_on_error () {
   else
       echo "ERROR: step failed with exit code $sshexit"
       echo "ERROR: deployment failed"
+      rm ~/.tmp
       exit $sshexit
   fi
 }
@@ -20,5 +21,6 @@ exit_on_error $?
 scp -r -o StrictHostKeyChecking=no ./hugo-tunnel/public-htw/* $HOST2:/home/user/K/kleinen/public_html
 exit_on_error $?
 eval "$(ssh-agent -k)"
+cp -r ./hugo-tunnel/public-htw/* ~/kleinen/public_html
 rm -rf ./hugo-tunnel/
 rm steps.sh
