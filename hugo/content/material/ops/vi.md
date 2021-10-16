@@ -3,8 +3,9 @@ title: VI
 author: kleinen
 tools: ['vi']
 tags: ['vi']
-courses: ['info2']
-draft: true
+courses: ['info2','networks']
+draft: false
+date: 2021-10-08
 ---
 # VI
 You should learn a couple of vi commands to survive, as vi is available on most *nix computers.

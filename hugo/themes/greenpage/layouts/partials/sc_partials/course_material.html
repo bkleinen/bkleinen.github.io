@@ -1,5 +1,4 @@
 {{ $page := .page }}
-$page {{ $page }}
 {{ $class := replaceRE ".*/classes/[^/]*/([^/]*)/.+" "$1" $page.RelPermalink}}
 {{ with $class }}
     {{ $material_path := printf "%s%s" "/courses/" .  }}

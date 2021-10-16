@@ -1,6 +1,6 @@
 ---
 title: "Nginx"
-date: 2021-10-08T21:33:12+02:00
+date: 2021-10-08
 draft: true
 weight: 0
 tools: ['nginx']
