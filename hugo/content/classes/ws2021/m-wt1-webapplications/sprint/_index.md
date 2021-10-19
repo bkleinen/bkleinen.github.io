@@ -4,6 +4,8 @@ author: kleinen
 draft: false
 ---
 
+* [e-learning Preparation](./preparation)
+
 # Resources
 
 * [The Sprint Book Website](https://www.thesprintbook.com/)
