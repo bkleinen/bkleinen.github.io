@@ -29,13 +29,13 @@ Ask questions that can't wait in the Moodle Forum. That's better than writing an
 {{< subpages >}}
 
 ## Teams
-You will work in teams of two or three. You will usually switch teams after three labs.
+You will work in teams of two or three. You will switch teams after three or four labs.
 That means you should form new teams before the following labs:
 
 * {{% link title ="Exercise 01 - Application Design" link = "lab-01" %}}
-* {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}
-* {{% link title ="Exercise 07 - Recursive Triangles" link = "lab-07" %}}
-* {{% link title ="Exercise 10 - Getting from A to B" link = "lab-10" %}}
+* {{% link title ="Exercise 05 - Execution Times" link = "lab-05" %}}
+* {{% link title ="Exercise 08 - Eight Queens" link = "lab-08" %}}
+* {{% link title ="Exercise 11 - Finite State Automata and Sorting Algorithms" link = "lab-11" %}}
 
 You can chose your team mates but they should be in the same LSF group (1 or 2, aka Tuesday or Thursday group). Each team mate needs to register for the team on Moodle. I will not form teams for you, this is your own responsability. If you have not signed up for a team, you won't be able to hand anything in.
 
