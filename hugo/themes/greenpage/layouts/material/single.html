@@ -1,4 +1,6 @@
+
 {{ define "main" }}
+
 {{ $section := .Section}}
 
 {{ with .Site.GetPage $section }}<a href="{{.Permalink}}">{{ $section | humanize }}</a>{{ end }}
@@ -16,6 +18,9 @@ within Taxonomies:
     {{ end }}
 {{ end }}
 {{ end }}
+
+<hr/>
+{{ partial "toc.html" (dict "context" . "nextPrevLinks" false) }}
 
 {{ .Content }}
 

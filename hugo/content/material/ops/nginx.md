@@ -1,7 +1,7 @@
 ---
 title: "Nginx"
 date: 2021-10-08
-draft: true
+draft: false
 weight: 0
 tools: ['nginx']
 tags: ['web']
@@ -9,7 +9,6 @@ courses: ['networks','wt1']
 ---
 
 ## nginX
-
 
 - Website: [https://nginx.org/](https://nginx.org/)
 - Documentation: [https://nginx.org/en/docs/](https://nginx.org/en/docs/)
@@ -47,10 +46,9 @@ directory `/usr/local/nginx/conf`, `/etc/nginx`, or `/usr/local/etc/nginx`.
         git add .
         git commit -m "generated configuration"
 
-brew install nginx
+## Generate a self signed certificate
 
     openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
-
 
 
     ssl     on;
