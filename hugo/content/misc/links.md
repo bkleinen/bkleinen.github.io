@@ -12,7 +12,7 @@ menu:
 * Moodle: https://moodle.htw-berlin.de/
 * Wiki für Studium und Lehre: [https://wiki.htw-berlin.de/](https://wiki.htw-berlin.de/)
 * Sprechstunde: {{< officehours >}}
-* Wiki - Intranet:  [https://wiki.rz.htw-berlin.de/](https://wiki.rz.htw-berlin.de/)  
+* Wiki - Intranet:  [https://wiki.rz.htw-berlin.de/](https://wiki.rz.htw-berlin.de/)
 * HTW ServiceportalDienstreise, SHK, Wunschzeiten und Lehrplanung: [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/)
 * Lehrabrechnung: [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
 * Zoom: [https://htw-berlin.zoom.us/](https://htw-berlin.zoom.us/)
@@ -52,6 +52,7 @@ menu:
 
 ## Webseite des Studiengangs Bearbeiten
 
+* [Info HRZ](https://rz.htw-berlin.de/portfolio/content-management-system/)
 * Direkter Link: [https://berndcms.htw-berlin.de/typo3](https://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
 * TYPO3 hat ein eigenes Passwort das innerhalb von Typo3 geändert werden kann
 * Zugriff beantragen: https://portal.rz.htw-berlin.de/account/Typo3/
