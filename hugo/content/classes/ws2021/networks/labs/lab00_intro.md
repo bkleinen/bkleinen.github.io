@@ -56,9 +56,11 @@ Lab from Kurose's Website and work through it.
 ### Lab Report
 
 Prepare a Lab Report together as PDF structured like this Lab Assignment.
-You may work on the reports in flexible teams of 3-4 students.
+You may work on the reports in flexible teams of 2-3 students.
 
 Always put the names of all contributing people on your report.
+
+** put your server name in your report! **
 
 Each one of you has to hand in the completed Report individually in moodle
 by Friday 17:00 after your lab meeting!
