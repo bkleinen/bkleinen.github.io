@@ -55,5 +55,5 @@ menu:
 * [Info HRZ](https://rz.htw-berlin.de/portfolio/content-management-system/)
 * Direkter Link: [https://berndcms.htw-berlin.de/typo3](https://berndcms.htw-berlin.de/typo3) (nur erreichbar aus dem HTW-Netz)
 * TYPO3 hat ein eigenes Passwort das innerhalb von Typo3 geändert werden kann
-* Zugriff beantragen: https://portal.rz.htw-berlin.de/account/Typo3/
+* Zugriff beantragen: [https://account.htw-berlin.de/requests/index](https://account.htw-berlin.de/requests/index)
 * Anleitungen (inkl. Link zum CMS:) [https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin](https://wiki.rz.htw-berlin.de/confluence/display/htwintranet/TYPO3+an+der+HTW+Berlin)
