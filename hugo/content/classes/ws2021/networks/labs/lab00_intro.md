@@ -4,6 +4,8 @@ author: kleinen
 draft: false
 ---
 
+** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**
+
 ## Part 1: Playing with Web Servers
 
 As the Web and Web applications are a central part of networked applications,
@@ -42,6 +44,9 @@ We will do this part together in lab, where I will provide each group with
 a virtual server hosted at the HTW - you will install and configure nginx
 on port 80 on these machines.
 
+** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**
+
+** will be moved to lab 01 **
 ## 2. Wireshark Lab: Getting Started
 
 We will be doing the [Wiresharks Labs](http://gaia.cs.umass.edu/kurose_ross/wireshark.php) from the book.
