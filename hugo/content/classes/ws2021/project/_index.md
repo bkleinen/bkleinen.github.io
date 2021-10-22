@@ -1,9 +1,9 @@
 ---
-title: "Project"
+title: "B4 Projekt: Bessere Wahlpflichtkursbelegung"
 author: kleinen
 date: 2021-10-01
 weight: 3
-draft: true
+draft: false
 tags: []
 courses: []
 languages: []
@@ -13,8 +13,9 @@ courseNavInt:
   link: "/classes/ws2021/project/"
 courseNavExt:
 - title: LSF
-  link: #
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=180573&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 ---
 
+LSF bildet die Belegung der Wahlpflichtkurse nicht gut ab; und an jedem Semester gibt es viel Sorge und Aufwand, bis alle Ihre Wahlpflichtkurse gut belegt haben.
 
-**Insert Content here.**
+Ziel des Projektes ist es hier, durch technische und organisatorische Intervention die Kursbelegung zu verbessern.
