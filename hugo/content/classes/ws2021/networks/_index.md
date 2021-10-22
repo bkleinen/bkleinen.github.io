@@ -1,6 +1,8 @@
 ---
 title: B9 Networks WS 2021/22
 author: kleinen
+date: 2021-10-01
+weight: 2
 layout: default
 aliases: /networks/
 courseNavInt:
@@ -54,15 +56,15 @@ There is also plenty of material online - [see the resources section](./resource
 
 We'll follow the books top-down approach - starting from applications like email and the web down to the physical network layer:
 
-- Computer Networks and the Internet          
-- Application Layer                     
-- Transport Layer                                      
-- The Network Layer: Data Plane                                   
-- The Network Layer: Control Plane                                    
-- The Link Layer and LANs    
+- Computer Networks and the Internet
+- Application Layer
+- Transport Layer
+- The Network Layer: Data Plane
+- The Network Layer: Control Plane
+- The Link Layer and LANs
 
 
-![Internet_Layers](./images/internet_layers.png "Layers")  
+![Internet_Layers](./images/internet_layers.png "Layers")
 (Picture taken from Kurose's Slide Deck "[Protocol layers and Their Service Models](https://gaia.cs.umass.edu/kurose_ross/videos/1/)")
 
 ## Class Structure and Meetings

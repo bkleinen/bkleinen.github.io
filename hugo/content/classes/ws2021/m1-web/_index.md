@@ -1,6 +1,8 @@
 ---
 title: M1 Media Programming
 author: kleinen
+date: 2021-10-01
+weight: 4
 layout: page
 aliases: /m1-web/
 courseNavInt:

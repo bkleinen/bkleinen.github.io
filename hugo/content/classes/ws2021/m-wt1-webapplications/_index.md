@@ -1,6 +1,8 @@
 ---
 title: WT1 Web Applications WS 2021/22
 author: kleinen
+weight: 5
+date: 2021-10-01
 layout: page
 aliases: /wt1/
 courseNavInt:
