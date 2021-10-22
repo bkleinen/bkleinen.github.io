@@ -36,6 +36,12 @@
   weight = 10
 [[main]]
   parent = 'classes'
+  identifier = '/classes/ws2021/project'
+  name = 'Project'
+  pageref = '/classes/ws2021/project'
+  weight = 15
+[[main]]
+  parent = 'classes'
   identifier = '/classes/ws2021/m1-web'
   name = 'M1 Labs'
   pageref = '/classes/ws2021/m1-web'
@@ -46,6 +52,13 @@
   name = 'M WT1 WebApps'
   pageref = '/classes/ws2021/m-wt1-webapplications'
   weight = 30
+
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2021/theses'
+  name = 'Theses'
+  pageref = '/classes/ws2021/theses'
+  weight = 35
 [[main]]
   parent = 'classes'
   identifier = '/classes/ws2021'
