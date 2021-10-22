@@ -1,5 +1,5 @@
 ---
-title: Winter Term 2021/21
+title: Winter Term 2021/22
 author: kleinen
 weight: 20212
 ---
