@@ -1,0 +1,23 @@
+# as it's in markup.toml, this needs to be replaced:
+#[markup]
+# [markup.highlight]
+
+[highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    tabWidth = 4
+    # this setting only takes effect
+    # if noClasses=true, otherwise
+    # the style sheet is used
+    #style = 'friendly'
+    style = 'perldoc'
+    # style = 'solarized-light'
+    #style = 'tango'
+    # style = 'solarized-dark'
+    noClasses=false

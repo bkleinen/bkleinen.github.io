@@ -6,9 +6,18 @@
 
   <meta name="theme-color" content="#1A94D2" />
 
-    {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
-    {{ $style := resources.Get "scss/main.scss" | toCSS  $options | minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+
+  {{ if .Site.IsServer }}
+      {{ $options := (dict "targetPath" "css/styles-dev.css" "outputStyle" "expanded") }}
+      {{ $style := resources.Get "scss/main.scss" | toCSS  $options  }}
+      <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+
+  {{ else }}
+      {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
+      {{ $style := resources.Get "scss/main.scss" | toCSS  $options | minify }}
+      <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+   {{ end }}
+
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
