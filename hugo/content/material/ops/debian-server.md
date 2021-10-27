@@ -26,8 +26,8 @@ I've logged the config changes as best I could in this repo, check the [commits]
 
 ### Path
 
-```
-$ echo $PATH
+```bash
+# echo $PATH
 ```
 
 ## Editor
@@ -36,8 +36,8 @@ You should be able to survive in one of the available editors, e.g. [VI](/materi
 
 Set the default editor to ensure it is used eg. by visudo:
 
-```
-root@infrastructure:~# update-alternatives --config editor
+```bash
+root@infrastructure:~ # update-alternatives --config editor
 ```
 
 * [TextEditor - Debian Wiki](https://wiki.debian.org/TextEditor)
@@ -46,9 +46,9 @@ root@infrastructure:~# update-alternatives --config editor
 There is a script that configures the firewall. Don't touch it for now.
 If you want to,
 
-```
-sudo vi ~root/firewall.sh
-sudo ~root/firewall.sh
+```bash
+# sudo vi ~root/firewall.sh
+# sudo ~root/firewall.sh
 ```
 
 
@@ -65,16 +65,17 @@ Note: replace <your-server> with the name of your server - see [BNF](/material/l
 # Setup Users for all Team Members
 
 You should always log in with a different user and become root once you are on the machine. Use the given user `local` for the first login:
-```
-ssh local@<your-server>.f4.htw-berlin.de
+
+```bash
+# ssh local@<your-server>.f4.htw-berlin.de
 ```
 
 Then, become root and create a user for each person in your group. It’s convenient to use the same user name as on your local machine.
 
-```
-local@<your-server>:~$ su -
+```bash
+local@<your-server>:~ # su -
 Password:
-root@<your-server>:~# adduser <username>
+root@<your-server>:~ # adduser <username>
 Adding user `<username>' ...
 Adding new group `<username>' (1001) ...
 Adding new user `<username>' (1001) with group `<username>' ...
@@ -89,14 +90,9 @@ New password:
 
 /usr/sbin is missing in the path, add it to bashrc.
 
+```bash
+# echo "export PATH=/usr/sbin/:$PATH" >> ~/.bashrc
 ```
-echo "export PATH=/usr/sbin/:$PATH" >> ~/.bashrc
-```
-
-
-~/.ssh/authorized_keys
-
-
 
 ## Public Key Authorisation
 
@@ -105,13 +101,14 @@ a key pair per user and add the public key to the file `~/.ssh/authorized_keys`
 
 
 On your machine:
-```
-ssh-keygen -t rsa -b 4096 -C "barne.<username>@htw-berlin.de"
+
+```bash
+# ssh-keygen -t rsa -b 4096 -C "barne.<username>@htw-berlin.de"
 ```
 
 Copy the key:
 
-```
+```bash
 # ssh-copy-id -i ~/.ssh/id_rsa.pub <username>@<your-server>.f4.htw-berlin.de
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/Users/<username>/.ssh/id_rsa.pub"
 /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
@@ -124,7 +121,6 @@ Number of key(s) added:
 Now try logging into the machine, with:
 "ssh '<username>@<your-server>.f4.htw-berlin.de'"
 and check to make sure that only the key(s) you wanted were added.
-
 
 ```
 
@@ -145,15 +141,15 @@ As you all administrate the server, you should add all users to the [sudoers](ht
 
 Login and become root.
 
-```
-$ ssh local@<your-server>
-$ su -
+```bash
+# ssh local@<your-server>
+# su -
 ```
 
 Add users to unix group "sudo"
 
-```
-root@infrastructure:~# adduser <user> sudo
+```bash
+root@infrastructure:~ # adduser <user> sudo
 Adding user `kleinen' to group `sudo' ...
 Adding user kleinen to group sudo
 Done.
@@ -169,8 +165,8 @@ as the command suggests, but your default editor - see above).
 Note: In general, this is a bad idea - but for practicing server setup,
 it's convenient. If something goes wrong, we'll just throw away the server.
 
-```
-root@infrastructure $ visudo
+```bash
+root@infrastructure # visudo
 
 ```
 
@@ -197,15 +193,15 @@ Digital Ocean,just follow it - **but skip the firewall part!**
 
 ## Create a configuration and link it to sites-enabled
 
-```
-vi /etc/nginx/sites-available/infrastructure
+```bash
+# vi /etc/nginx/sites-available/infrastructure
 
 sudo ln -s /etc/nginx/sites-available/infrastructure /etc/nginx/sites-enabled/
 
 ```
 
 see the [commit](https://github.com/htw-imi-networks/example-config/commit/91199f605ac704654403f3027077b570abc10946)
-for the complete example. 
+for the complete example.
 
 
 # Operation System & Debian Doc

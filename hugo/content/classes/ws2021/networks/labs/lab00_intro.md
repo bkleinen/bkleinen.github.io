@@ -43,15 +43,11 @@ The bored can give docker a try:
 We will do this part together in lab, where I will provide each group with
 a virtual server hosted at the HTW - you will install and configure nginx
 on port 80 on these machines.
-
 ** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**
 
-** will be moved to lab 01 **
-## 2. Wireshark Lab: Getting Started
 
-We will be doing the [Wiresharks Labs](http://gaia.cs.umass.edu/kurose_ross/wireshark.php) from the book.
-Get the "[Getting Started v8.1](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.1.docx)"
-Lab from Kurose's Website and work through it.
+~~##### 2. Wireshark Lab: Getting Started~~
+** moved to lab 01 **
 
 ### Lab Report
 
