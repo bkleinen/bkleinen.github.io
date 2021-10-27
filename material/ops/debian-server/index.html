@@ -249,9 +249,9 @@ Digital Ocean,just follow it - <strong>but skip the firewall part!</strong></p>
 <li>systemctl start nginx</li>
 </ul>
 <h2 id=create-a-configuration-and-link-it-to-sites-enabled>Create a configuration and link it to sites-enabled</h2>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># vi /etc/nginx/sites-available/infrastructure</span>
-
-sudo ln -s /etc/nginx/sites-available/infrastructure /etc/nginx/sites-enabled/
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># sudo vi /etc/nginx/sites-available/infrastructure</span>
+...
+<span class=c1># sudo ln -s /etc/nginx/sites-available/infrastructure /etc/nginx/sites-enabled/</span>
 
 </code></pre></div><p>see the <a href=https://github.com/htw-imi-networks/example-config/commit/91199f605ac704654403f3027077b570abc10946>commit</a>
 for the complete example.</p>
