@@ -178,22 +178,22 @@ For example, the walk-in-a-square exercise can be solved
 by four times walking an edge, thus, each call to the act()-method should make Kara walk only one edge. In
 which direction should Kara face after each step? Make use of <code>Greenfoot.stop()</code> or the method <code>stopAfterStep(n)</code> if you simply
 want the act-method execute 4 times if you press &ldquo;run&rdquo;, for example:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>act</span><span style=color:#f92672>()</span>
-    <span style=color:#f92672>{</span>  
-        move<span style=color:#f92672>();</span>
-        stopAfterStep<span style=color:#f92672>(</span>4<span style=color:#f92672>);</span>
-    <span style=color:#f92672>}</span>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>public</span> <span class=kt>void</span> <span class=nf>act</span><span class=o>()</span>
+    <span class=o>{</span>  
+        <span class=n>move</span><span class=o>();</span>
+        <span class=n>stopAfterStep</span><span class=o>(</span><span class=n>4</span><span class=o>);</span>
+    <span class=o>}</span>
 </code></pre></div></li>
 </ol>
 <p>For example, to simply move until you encounter a leaf:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>act</span><span style=color:#f92672>()</span>
-    <span style=color:#f92672>{</span>  
-        <span style=color:#75715e>// you might want to do something else in each step ...
-</span><span style=color:#75715e></span>        move<span style=color:#f92672>();</span>
-        <span style=color:#66d9ef>if</span> <span style=color:#f92672>(</span>onLeaf<span style=color:#f92672>()){</span>
-           Greenfoot<span style=color:#f92672>.</span><span style=color:#a6e22e>stop</span><span style=color:#f92672>();</span>
-        <span style=color:#f92672>}</span>  
-    <span style=color:#f92672>}</span>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>public</span> <span class=kt>void</span> <span class=nf>act</span><span class=o>()</span>
+    <span class=o>{</span>  
+        <span class=c1>// you might want to do something else in each step ...
+</span><span class=c1></span>        <span class=n>move</span><span class=o>();</span>
+        <span class=k>if</span> <span class=o>(</span><span class=n>onLeaf</span><span class=o>()){</span>
+           <span class=n>Greenfoot</span><span class=o>.</span><span class=na>stop</span><span class=o>();</span>
+        <span class=o>}</span>  
+    <span class=o>}</span>
 </code></pre></div><h3 id=for-the-bored>For the bored</h3>
 <p>Some of you will already have some programming experience, and be a bit bored by the assignment above. Thus, most assignments will contain
 one or more exercises &ldquo;for the bored&rdquo;. These are optional; you don&rsquo;t have to do them to get all stars! If you decide to do them, however,

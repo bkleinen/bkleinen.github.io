@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Lab 00 - Intro - Prof. Dr. Barne Kleinen</title>
+<title>Lab 01 - Nginx & HTTP - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -90,7 +90,7 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/>networks</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/labs/>labs</a></li>
-<li class="breadcrumb-item active" aria-current=page>lab00_intro</li>
+<li class="breadcrumb-item active" aria-current=page>lab01_ch01</li>
 </ol>
 </nav>
 </div>
@@ -124,65 +124,72 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 </ul>
 </div>
 <div class=container-fluid>
-<h2 class=followed> Lab 00 - Intro</h2>
+<h2 class=followed> Lab 01 - Nginx & HTTP</h2>
 <header class=following>
 <a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href=/classes/ws2021/networks/labs/lab01_ch01/>next></a>
+<a href=/classes/ws2021/networks/labs/lab00_intro/>&lt;prev</a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#part-1-playing-with-web-servers>Part 1: Playing with Web Servers</a>
+<li><a href=#part-1-set-up-a-real-web-server-on-a-virtual-machine>Part 1: Set up a Real Web Server on a Virtual Machine</a>
 <ul>
-<li><a href=#1a-simple-web-server-in-java-nanowebserver>1.a Simple Web Server in Java: NanoWebServer</a></li>
-<li><a href=#1b-playing-with-nginx>1.b Playing with Nginx</a></li>
-<li><a href=#1c-setting-up-a-real-server-on-a-virtual-machine>1.c Setting up a real server on a virtual machine</a></li>
+<li><a href=#linux--shell-resources>Linux / Shell Resources</a></li>
+</ul>
+</li>
+<li><a href=#part-2-set-up-homepages>Part 2: Set up Homepages</a></li>
+<li><a href=#part-3-wireshark-lab-getting-started>Part 3: Wireshark Lab: Getting Started</a></li>
+<li><a href=#part-4-hack-http>Part 4: Hack http</a>
+<ul>
 <li><a href=#lab-report>Lab Report</a></li>
 </ul>
 </li>
 </ul>
 </nav>
 </div>
-<p>** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**</p>
-<h2 id=part-1-playing-with-web-servers>Part 1: Playing with Web Servers</h2>
-<p>As the Web and Web applications are a central part of networked applications,
-we will use the time before really getting started to play around with basic
-web servers.</p>
-<p>You should be able to do most or all of this with your own computers.
-We will build Teams during the first lab, but feel free to start working
-on the exercises</p>
-<h3 id=1a-simple-web-server-in-java-nanowebserver>1.a Simple Web Server in Java: NanoWebServer</h3>
-<p>Have a look at these examples of very simple webservers implemented
-in Java:
-<a href=https://github.com/htw-imi-networks/lab00-nanoHttpServer>https://github.com/htw-imi-networks/lab00-nanoHttpServer</a></p>
-<p>Build in something new, tinker a bit&mldr;
-for example, try doing a <a href=https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections>redirect</a>
-for an arbitrary new filename (it might be http://localhost:5005/redirect)
-that performs a redirect to some other page using the status code 301 &ldquo;Moved Permanently&rdquo;</p>
-<h3 id=1b-playing-with-nginx>1.b Playing with Nginx</h3>
-<p>Nginx is one of the most popular Web Servers.
-Try installing and configuring it on your own computer, or preferably any *nix
-computer you can find one.</p>
-<p><a href=https://nginx.org/en/docs/beginners_guide.html>https://nginx.org/en/docs/beginners_guide.html</a></p>
-<p>The bored can give docker a try:
-<a href=https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/>https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/</a></p>
-<h3 id=1c-setting-up-a-real-server-on-a-virtual-machine>1.c Setting up a real server on a virtual machine</h3>
+<h2 id=part-1-set-up-a-real-web-server-on-a-virtual-machine>Part 1: Set up a Real Web Server on a Virtual Machine</h2>
 <p>We will do this part together in lab, where I will provide each group with
 a virtual server hosted at the HTW - you will install and configure nginx
-on port 80 on these machines.
-** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**</p>
-<p><del>##### 2. Wireshark Lab: Getting Started</del>
-** moved to lab 01 **</p>
+on port 80 on these machines.</p>
+<h3 id=linux--shell-resources>Linux / Shell Resources</h3>
+<ul>
+<li>Here&rsquo;s the link to the very brief intro I wrote:
+<a href=https://bkleinen.github.io/material/ops/debian-server/>Setting up a Debian Webserver</a></li>
+<li>This is my recommendation for an introductionary book:
+<a href=https://linuxcommand.org/lc3_learning_the_shell.php#contents>LinuxCommand.org: Learning the shell.</a></li>
+<li>If you prefer videos, this
+<a href="https://www.youtube.com/watch?v=1hvVcEhcbLM">Linux Essentials for Ethical Hackers - Full InfoSec Course - YouTube</a>
+and this <a href="https://www.youtube.com/watch?v=lZAoFs75_cs">Linux for Ethical Hackers (Kali Linux Tutorial) - YouTube</a>
+seem reasonable.</li>
+<li>Note that you are on Debian 11, commands may differ - check the <a href=https://www.debian.org/doc/manuals/debian-reference/>Debian Reference</a>.</li>
+</ul>
+<h2 id=part-2-set-up-homepages>Part 2: Set up Homepages</h2>
+<p>For each one in your group, set up a homepage that is accessible via
+<code>http://&lt;servername>/~&lt;username></code> for each of your team members. The
+server roots should be under <code>~/.public_html</code> or ``~/public_html`</p>
+<h2 id=part-3-wireshark-lab-getting-started>Part 3: Wireshark Lab: Getting Started</h2>
+<p>We will be doing the <a href=http://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wiresharks Labs</a> from the book.
+Get the &ldquo;<a href=http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.1.docx>Getting Started v8.1</a>&rdquo;
+Lab from Kurose&rsquo;s Website and work through it.</p>
+<p>Include the answers to the questions in your report; instead of printing the
+two packets, copy the text from a preview / pdf and include them in your report.
+You will need the first one for Part 4!</p>
+<h2 id=part-4-hack-http>Part 4: Hack http</h2>
+<p>Extract the first two lines of the HTTP GET requests issued in Part 2 (e.g. from
+the printouts), open a telnet session on the host on port 80 and send the get
+request manually. You&rsquo;ll need the first two lines (the get and the host) and
+issue two more empty lines.</p>
+<p>Try the same with your own nginx server. Include the results in your report.</p>
 <h3 id=lab-report>Lab Report</h3>
 <p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
 You may work on the reports in flexible teams of 2-3 students.</p>
 <p>Always put the names of all contributing people on your report.</p>
 <p>** put your server name in your report! **</p>
 <p>Each one of you has to hand in the completed Report individually in moodle
-by Friday 17:00 after your lab meeting!</p>
+by Friday 17:00 after the second lab meeting!</p>
 <p>In your report, describe what you did and what you found,
 as well as errors or problems you&rsquo;ve encountered.</p>
 </div>

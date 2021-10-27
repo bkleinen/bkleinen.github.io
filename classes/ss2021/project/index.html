@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Lab 00 - Intro - Prof. Dr. Barne Kleinen</title>
+<title>Project "IMI Map goes MEVN" - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -21,7 +21,7 @@
 <div class="col-md-10 c1 p-2"><div class=container-flex>
 <div class=row>
 <div class=col-9>
-<h1 class="c5 title"> B9 Networks WS 2021/22 - Labs </h1>
+<h1 class="c5 title"> Summer Term 2021 </h1>
 <small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
 at <a href=https://www.htw-berlin.de>HTW Berlin</a>
@@ -87,104 +87,57 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <ol class="breadcrumb breadcrumb-thin">
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/>networks</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/labs/>labs</a></li>
-<li class="breadcrumb-item active" aria-current=page>lab00_intro</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2021/>ss2021</a></li>
+<li class="breadcrumb-item active" aria-current=page>project</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav>
 <ul class="nav nav-tabs">
 <li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/>Overview</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/schedule/>Schedule</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/flipped/>Flipped Classroom</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/resources/>Resources</a>
-</li>
-<li class=nav-item>
-<a class="nav-link active" href=https://bkleinen.github.io/classes/ws2021/networks/labs/>Labs</a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a>
-<div class=dropdown-menu>
-<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33323">Moodle</a>
-<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178930">SU in LSF</a>
-<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=179397">Lab in LSF</a>
-<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-networks>GitHub</a>
-<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
-</div>
+<a class="nav-link active" href=https://bkleinen.github.io/classes/ss2021/project/>Project "IMI Map goes MEVN"</a>
 </li>
 </ul>
 </div>
 <div class=container-fluid>
-<h2 class=followed> Lab 00 - Intro</h2>
+<h2 class=followed> Project "IMI Map goes MEVN"</h2>
 <header class=following>
 <a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href=/classes/ws2021/networks/labs/lab01_ch01/>next></a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#part-1-playing-with-web-servers>Part 1: Playing with Web Servers</a>
+<li>
 <ul>
-<li><a href=#1a-simple-web-server-in-java-nanowebserver>1.a Simple Web Server in Java: NanoWebServer</a></li>
-<li><a href=#1b-playing-with-nginx>1.b Playing with Nginx</a></li>
-<li><a href=#1c-setting-up-a-real-server-on-a-virtual-machine>1.c Setting up a real server on a virtual machine</a></li>
-<li><a href=#lab-report>Lab Report</a></li>
+<li><a href=#m6-imi-map-goes-mevn---migrate-the-imi-map-from-rails-to-mevn>M6. IMI Map goes MEVN - Migrate the IMI-Map from Rails to MEVN</a></li>
 </ul>
 </li>
 </ul>
 </nav>
 </div>
-<p>** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**</p>
-<h2 id=part-1-playing-with-web-servers>Part 1: Playing with Web Servers</h2>
-<p>As the Web and Web applications are a central part of networked applications,
-we will use the time before really getting started to play around with basic
-web servers.</p>
-<p>You should be able to do most or all of this with your own computers.
-We will build Teams during the first lab, but feel free to start working
-on the exercises</p>
-<h3 id=1a-simple-web-server-in-java-nanowebserver>1.a Simple Web Server in Java: NanoWebServer</h3>
-<p>Have a look at these examples of very simple webservers implemented
-in Java:
-<a href=https://github.com/htw-imi-networks/lab00-nanoHttpServer>https://github.com/htw-imi-networks/lab00-nanoHttpServer</a></p>
-<p>Build in something new, tinker a bit&mldr;
-for example, try doing a <a href=https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections>redirect</a>
-for an arbitrary new filename (it might be http://localhost:5005/redirect)
-that performs a redirect to some other page using the status code 301 &ldquo;Moved Permanently&rdquo;</p>
-<h3 id=1b-playing-with-nginx>1.b Playing with Nginx</h3>
-<p>Nginx is one of the most popular Web Servers.
-Try installing and configuring it on your own computer, or preferably any *nix
-computer you can find one.</p>
-<p><a href=https://nginx.org/en/docs/beginners_guide.html>https://nginx.org/en/docs/beginners_guide.html</a></p>
-<p>The bored can give docker a try:
-<a href=https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/>https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/</a></p>
-<h3 id=1c-setting-up-a-real-server-on-a-virtual-machine>1.c Setting up a real server on a virtual machine</h3>
-<p>We will do this part together in lab, where I will provide each group with
-a virtual server hosted at the HTW - you will install and configure nginx
-on port 80 on these machines.
-** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**</p>
-<p><del>##### 2. Wireshark Lab: Getting Started</del>
-** moved to lab 01 **</p>
-<h3 id=lab-report>Lab Report</h3>
-<p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
-You may work on the reports in flexible teams of 2-3 students.</p>
-<p>Always put the names of all contributing people on your report.</p>
-<p>** put your server name in your report! **</p>
-<p>Each one of you has to hand in the completed Report individually in moodle
-by Friday 17:00 after your lab meeting!</p>
-<p>In your report, describe what you did and what you found,
-as well as errors or problems you&rsquo;ve encountered.</p>
+<p>Praxisprojekt im Master</p>
+<h3 id=m6-imi-map-goes-mevn---migrate-the-imi-map-from-rails-to-mevn>M6. IMI Map goes MEVN - Migrate the IMI-Map from Rails to MEVN</h3>
+<p>Barne Kleinen</p>
+<p>Die IMI-Map ist eine Web-App, die Studierende beim Finden von Praktikumsplätzen und die Praktikumsbeauftragten bei der Verwaltung der Praktika unterstützt. Sie wurde in zwei früheren Praxisprojekten und einigen Bachelorarbeiten entwickelt und wird seit 2013 im Studiengang aktiv verwendet und weiterentwickelt.
+Sie wurde im Sommersemester 2013 als Ruby on Rails Anwendung entwickelt. Obwohl Ruby on Rails ein stabiles und immer noch aktuelles Web-Framework ist, setzen wir inzwischen in der Lehre modernere, JavaScript-basierte Frameworks ein. Deshalb soll die IMI-Map in diesem Projekt auf den MEVN-Stack (Mongo, Express, Vue und Node) migriert werden, um in Zukunft leichter durch studentische Projekte weiterentwickelt werden zu können.
+Damit ist dieses Projekt sowohl ein Webtechnology- als auch ein softwaretechnisches Projekt, das sich vor allem mit der Frage beschäftigen wird, wie diese Migration sicher, d.h. ohne Regressionen oder Datenverlust durchgeführt werden kann. Ziel ist die tatsächliche Ablösung der IMI-Map durch die neue Version zum Ende des Semesters.</p>
+<h4 id=rails-imi-map>Rails IMI-Map</h4>
+<p>Source-Code: <a href=https://github.com/imimap/imimap>https://github.com/imimap/imimap</a></p>
+<p>IMI-Map: <a href=https://imi-map.f4.htw-berlin.de/>https://imi-map.f4.htw-berlin.de/</a></p>
+<p><strong>Aufbauend auf vorherigen Projekten:</strong></p>
+<p>Erstes Projekt im SoSe 2013: <a href=https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2013/#c11131>https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2013/#c11131</a></p>
+<p>Zweites Projekt im SoSe 2017: <a href=http://home.htw-berlin.de/~kleinen/classes/ss2017/project/>http://home.htw-berlin.de/~kleinen/classes/ss2017/project/</a></p>
+<h4 id=mevn-imi-map-aus-projekt-im-sose-2021>MEVN IMI-Map aus Projekt im SoSe 2021</h4>
+<p>Source-Code: <a href=https://github.com/imimap/imimap21>https://github.com/imimap/imimap21</a></p>
+<p>Demo: <a href=https://imimap.f4.htw-berlin.de/>https://imimap.f4.htw-berlin.de/</a></p>
+<p>Arbeitsstand: <a href=https://github.com/imimap/imimap21/projects/1>https://github.com/imimap/imimap21/projects/1</a></p>
+<p>Documentation der Entscheidungen: <a href=https://github.com/imimap/imimap21/blob/dev/documentation.md>https://github.com/imimap/imimap21/blob/dev/documentation.md</a></p>
+<p>Documentation des Arbeitsprozesses auf Miro: <a href="https://miro.com/app/board/o9J_lJzY37Y=/">https://miro.com/app/board/o9J_lJzY37Y=/</a></p>
+<p>Miro-Board als PDF (read-only-Link): <a href=https://cloud.htw-berlin.de/s/5LGGHMJsFp5e2TG>https://cloud.htw-berlin.de/s/5LGGHMJsFp5e2TG</a>, password: QgSkA6zQzo</p>
+<p>Dokumentation der Ergebnisse auf der Showtime Webseite: <a href=https://showtime.f4.htw-berlin.de/ss21/master/m6-migrate-the-imimap-to-mevn/>https://showtime.f4.htw-berlin.de/ss21/master/m6-migrate-the-imimap-to-mevn/</a></p>
 </div>
 </div>
 </div>
@@ -213,7 +166,7 @@ as well as errors or problems you&rsquo;ve encountered.</p>
 <div class=col-9>
 This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 <br><small>
-This page was authored by: kleinen
+This page was authored by: unckell
 </small>
 </div>
 <div class=col-3>

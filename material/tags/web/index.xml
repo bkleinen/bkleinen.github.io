@@ -2,7 +2,7 @@
 General Things Snowflakes Configuring a server manually results in a Snowflake Server.
 I&amp;rsquo;ve logged the config changes as best I could in this repo, check the commits: https://github.com/htw-imi-networks/example-config
 Shell &amp;amp; Path &amp;hellip; TBD
-Path $ echo $PATH Editor You should be able to survive in one of the available editors, e.g. VI
+Path # echo $PATH Editor You should be able to survive in one of the available editors, e.g. VI
 Set the default editor to ensure it is used eg.</description></item><item><title>Nginx</title><link>https://bkleinen.github.io/material/ops/nginx/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/nginx/</guid><description>nginX Website: https://nginx.org/ Documentation: https://nginx.org/en/docs/ Download: nginx: download Installation: https://nginx.org/en/docs/install.html Windows: http://nginx.org/en/docs/windows.html Beginner&amp;rsquo;s guide: http://nginx.org/en/docs/beginners_guide.html ءBy default, the configuration file is named nginx.conf and placed in the directory /usr/local/nginx/conf, /etc/nginx, or /usr/local/etc/nginx.
 Notes / MacOs installation with homebrew:
 brew install nginx start nginx

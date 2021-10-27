@@ -2,5 +2,5 @@
 General Things Snowflakes Configuring a server manually results in a Snowflake Server.
 I&amp;rsquo;ve logged the config changes as best I could in this repo, check the commits: https://github.com/htw-imi-networks/example-config
 Shell &amp;amp; Path &amp;hellip; TBD
-Path $ echo $PATH Editor You should be able to survive in one of the available editors, e.g. VI
+Path # echo $PATH Editor You should be able to survive in one of the available editors, e.g. VI
 Set the default editor to ensure it is used eg.</description></item></channel></rss>
