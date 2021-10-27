@@ -194,9 +194,9 @@ Digital Ocean,just follow it - **but skip the firewall part!**
 ## Create a configuration and link it to sites-enabled
 
 ```bash
-# vi /etc/nginx/sites-available/infrastructure
-
-sudo ln -s /etc/nginx/sites-available/infrastructure /etc/nginx/sites-enabled/
+# sudo vi /etc/nginx/sites-available/infrastructure
+...
+# sudo ln -s /etc/nginx/sites-available/infrastructure /etc/nginx/sites-enabled/
 
 ```
 
