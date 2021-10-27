@@ -1,7 +1,7 @@
 ---
 title: "Code Highlighting"
 date: 2021-10-23T08:44:57+02:00
-draft: true
+draft: false
 weight: 0
 tags: ['hugo']
 courses: []
