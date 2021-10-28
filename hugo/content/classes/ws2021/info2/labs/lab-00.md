@@ -5,6 +5,23 @@ layout: lab
 draft: false
 ---
 
+## Learning Goals
+After this lab you should be able to agree with each of the following statements
+
+I am familiar with programming in IntelliJ:
+* I can create a new Java project in IntelliJ 
+* I remember most of the concepts from A1 Ex1 
+* I can run my new Java project in IntelliJ 
+
+I am ready to use Git:
+* I can clone an online repository 
+* I can create an empty repository on GitLab 
+* I can update my local repository's remotes 
+* I can add changes to be committed 
+* I can commit changes 
+* I can push changes 
+
+
 ## Pre-Lab (Do this BEFORE the lab)
 
 ### 1. Prepare your work environment
