@@ -5,7 +5,7 @@ layout: lab
 draft: false
 ---
 
-##Learning Goals
+## Learning Goals
 
 After this lab you should be able to agree with each of the following statements.
 
