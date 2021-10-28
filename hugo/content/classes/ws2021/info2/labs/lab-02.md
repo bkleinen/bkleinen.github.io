@@ -5,6 +5,35 @@ layout: lab
 draft: false
 ---
 
+## Learning Goals
+
+After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab. 
+
+I remember programming concepts concerning classes and objects:
+* I know the difference between classes and objects. 
+* I can instantiate an object. 
+
+I remember programming concepts concerning fields and variable types:
+* I can add fields to a class. 
+* I can manage modification of fields with mutator methods. 
+* I can manage reading of fields with accessor methods. 
+* I can use collections for storing elements. 
+* I am familiar with the idea of a linked list. 
+* I am familiar with the idea of a map. 
+
+I remember programming concepts concerning methods:
+* I can define the return type of a method. 
+* I can set the visibility modifier of a method. 
+* I can add parameters to a method signature. 
+* I can call methods of objects. 
+* I can call static methods of classes. 
+
+I remember concepts concerning program design:
+* I use separate classes for separate concerns. 
+* I can abstract from concrete scenarios. 
+* I can apply modularization, creating classes that can be reused in various scenarios. 
+* I have a strategy for refactoring given code to make it fit new needs. 
+
 ## Pre-Lab
 
 This exercise builds on the design you did last week using CRC cards. Please think through the following questions together with your team before coming to the lab and write down your answers somewhere.
