@@ -13,6 +13,7 @@ I can handle File-based IO with Java:
 * I can read from a text file using a Reader, eg. BufferedReader. 
 * I can write to a text file using a Writer, eg. BufferedWriter. 
 * I close my streams after I finished reading or writing. 
+* I can use try-with-resources to make sure that in the end, a resource is always closed
 
 I can handle Exceptions:
 * When a method could throw an exception, I know how to handle it with a try-catch-block. 
