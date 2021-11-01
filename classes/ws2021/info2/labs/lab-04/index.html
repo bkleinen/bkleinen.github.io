@@ -139,9 +139,10 @@ Table of Contents
 <li><a href=#step-1-client-sends-messages-to-server>Step 1: Client sends messages to Server</a></li>
 <li><a href=#step-2-server-can-send-message>Step 2: Server can send message</a></li>
 <li><a href=#step-3-simultaneous-sending-and-receiving>Step 3: Simultaneous sending and receiving</a></li>
+<li><a href=#step-4-make-zuul-playable-via-telnet>Step 4: Make Zuul Playable via Telnet</a></li>
 </ul>
 </li>
-<li><a href=#for-the-bored>For the bored:</a></li>
+<li><a href=#for-the-bored>For the bored::</a></li>
 <li><a href=#lab-report--what-to-turn-in>Lab Report / What to turn in</a></li>
 </ul>
 </nav>
@@ -162,7 +163,12 @@ Table of Contents
 <p><em><strong>P2.</strong></em> Write a method to read from a connection in Java.</p>
 <p><em><strong>P3.</strong></em> Write a method to write to a connection in Java.</p>
 <p><em><strong>P4.</strong></em> How do you create concurrent threads?</p>
+<p>Note: use the plain TCP Socket and ServerSocket classes for this exercise!
+See:
+<a href=https://docs.oracle.com/javase/tutorial/networking/sockets/index.html>Lesson: All About Sockets (The Java™ Tutorials > Custom Networking)</a></p>
 <h2 id=assignment>Assignment</h2>
+<p>Note that you can also use telnet to test your Server implementations without
+having the Client ready.</p>
 <h3 id=step-1-client-sends-messages-to-server>Step 1: Client sends messages to Server</h3>
 <ol>
 <li>Start your chatterbox by writing a method that listens for a Socket connection on a port. This is your Chatterbox server. For now, just echo what you have read to the console.</li>
@@ -178,10 +184,21 @@ Table of Contents
 <ol start=6>
 <li>Now extend your Chatterbox such that it can <em>simultaneously</em> receive and send messages using Java Threads.</li>
 </ol>
-<h2 id=for-the-bored>For the bored:</h2>
-<ol start=7>
-<li>Make a multiplayer game out of Zuul.</li>
+<h3 id=step-4-make-zuul-playable-via-telnet>Step 4: Make Zuul Playable via Telnet</h3>
+<p>The Zuul Game uses standard input and output as user interface. This can easily be
+exchanged with the Input- and Output Stream comming from a Socket!</p>
+<ol>
+<li>Extract the input- and output streams System.in and System.out as fields initialized by parameters
+e.g. in the Game constructor.</li>
+<li>Take the Server from Step 2 and attach a Game instance for processing the messages received by the client.</li>
+<li>There isn&rsquo;t really a need to implement a special client, telnet works just fine.</li>
+<li>Done! you now can play Zuul remotely. In order to move it towards a multiplayer game, you would need a
+thread running a game instance for each connected client - just like for a multiuser chat in the &ldquo;for the bored&rdquo; part.</li>
+</ol>
+<h2 id=for-the-bored>For the bored::</h2>
+<ol>
 <li>Create a Chat Server that can handle connections from more than one client using one Thread for each connected client.</li>
+<li>Change the Server to dispatch incoming messages to all connected clients.</li>
 </ol>
 <h2 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h2>
 <p>All info on the lab reports can be found on the <a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>Labs</a> page.</p>
