@@ -14,7 +14,8 @@ I can use the Socket API for TCP connections:
 * I can create a client that makes a connection request to the server
 * I can send text from a client to a server via streams
 * I can send text from a server to a client via streams
-* I can use multithreading for the server to handle multiple connection requests
+* I can use multithreading to simultaneously process tcp requests and input from the user
+* (if you do the "for the bored" part: I can use multithreading for the server to handle multiple connection requests)
 
 ## Pre-Lab
 Write down the code for the following questions and be able to explain what is happening.
