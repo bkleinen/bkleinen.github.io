@@ -71,8 +71,6 @@ for the Lab part.
 With N=14 Labs alltogether, this results in 7.2 Points/Percent per lab.
 
 You may hand in a lab a second time using one of the late slots.
-If you get an "ok" in this second try, you will receive 60% of the points for
-this lab.
 
 ### Examinations for Students who already took Info2
 

@@ -5,6 +5,28 @@ layout: lab
 draft: false
 ---
 
+## Learning Goals
+
+After this lab you should be able to agree with each of the following statements.
+
+I can handle File-based IO with Java:
+* I can read from a text file using a Reader, eg. BufferedReader. 
+* I can write to a text file using a Writer, eg. BufferedWriter. 
+* I close my streams after I finished reading or writing. 
+* I can use try-with-resources to make sure that in the end, a resource is always closed
+
+I can handle Exceptions:
+* When a method could throw an exception, I know how to handle it with a try-catch-block. 
+* When a method could throw an exception, I know how to pass it on to whatever calls the method. 
+* I can throw a fitting exception (eg. IllegalArgumentException) if I detect user input that does not fit my use case. 
+* I can look up exceptions I don't know yet in the Java Documentation 
+
+I can effectively use the data type "char":
+* I know how to cast a char to an int. 
+* I know how to cast an int to a char. 
+* I know how to normalize a letter from the alphabet. 
+* I can find out which letter corresponds to which ASCII code and vice versa. 
+
 ## Pre-Lab
 Please think through the following questions before coming to the lab. Write down your answers and be prepared to answer them in class.
 
@@ -40,7 +62,7 @@ You can then access the array, for example, using a value of character type: som
         B : *****
         C : ******
 
-7. Try out your program with a big file, eg. the 3M english news file from the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download): look for eng_news_2015_3M.tar.gz and read the file eng_news_2015_3M/eng_news_2015_3M-sentences.txt.
+7. Try out your program with a big file, fpr example the 1M english news file from the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download).
 
 ## For the bored
 

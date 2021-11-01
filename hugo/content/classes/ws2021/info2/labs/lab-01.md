@@ -5,6 +5,17 @@ draft: false
 ---
 {{< figure src="/images/classes/info2/crc-cards.jpg" caption="CRC Cards">}}
 
+## Learning Goals
+
+After this lab you should be able to agree with each of the following statements.
+
+I can use CRC Cards to design an application:
+* Using the underline methods, I can identify candidates for classes, methods and fields. 
+* By working through scenarios I can identify cases where a class needs to be split up. 
+* By working through scenarios I can identify cases where classes need to be merged. 
+* By working through scenarios I can identify cases where additional classes need to be added. 
+* By working through scenarios I can identify what data needs to be stored. 
+
 ## Pre-Lab
 
 Remember to do all the necessary steps listed on the [Labs](..) page, including the following exercises:
