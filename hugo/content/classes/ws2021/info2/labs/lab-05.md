@@ -2,8 +2,18 @@
 title: 'Info2: Exercise 05: Execution times'
 author: kleinen
 layout: lab
-draft: true
+draft: false
 ---
+
+## Learning Goals
+
+After this lab you should be able to agree with each of the following statements.
+
+I can evaluate the efficiency of algorithms:
+* I understand the correlation between input and running time for different program structures
+* I can use big-o-notation to describe the running time of algorithms
+* I can calculate the running time of algorithms by adding up running times of different structures
+* I can compare running times based on their running time in big-o-notation
 
 ## Pre-Lab
 
