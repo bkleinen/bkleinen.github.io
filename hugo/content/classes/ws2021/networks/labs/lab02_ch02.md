@@ -1,7 +1,7 @@
 ---
 title: Lab 02 - Application Layer
 author: kleinen
-draft: true
+draft: false
 toc: true
 ---
 
