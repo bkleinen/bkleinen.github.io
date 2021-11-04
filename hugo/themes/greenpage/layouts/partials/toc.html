@@ -16,10 +16,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 {{ if .Site.Params.generatedLinks }}
 {{ with .NextInSection}}
-   <a href ="{{ .RelPermalink }}">&lt;prev</a>
+   <a href ="{{ .Permalink }}">&lt;prev</a>
 {{ end }}
 {{ with .PrevInSection}}
-   <a href ="{{ .RelPermalink }}">next&gt;</a>
+   <a href ="{{ .Permalink }}">next&gt;</a>
 {{ end }}
 {{ end }}
    </header>
