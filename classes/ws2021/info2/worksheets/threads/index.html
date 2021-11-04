@@ -127,7 +127,7 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 Table of Contents
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href=/classes/ws2021/info2/worksheets/files/>&lt;prev</a>
+<a href=https://bkleinen.github.io/classes/ws2021/info2/worksheets/files/>&lt;prev</a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents></nav>
@@ -155,49 +155,49 @@ Thread A running
 	long sum = 0;
 
 	class Incrementor implements Runnable {
-        int n = 0;
+		int n = 0;
 
-        Incrementor(int n) {
-            this.n = n;
-        }
+		Incrementor(int n) {
+			this.n = n;
+		}
 
-        @Override
-        public void run() {
-            for (int i = 0; i &lt; n; i++)
-                sum++;
-        }
+		@Override
+		public void run() {
+			for (int i = 0; i &lt; n; i++)
+				sum++;
+		}
 	}
 
 	class Decrementor implements Runnable {
-        int n = 0;
+		int n = 0;
 
-        Decrementor(int n) {
-            this.n = n;
-        }
+		Decrementor(int n) {
+			this.n = n;
+		}
 
-        @Override
-        public void run() {
-            for (int i = 0; i &lt; n; i++)
-                sum--;
-        }
+		@Override
+		public void run() {
+			for (int i = 0; i &lt; n; i++)
+				sum--;
+		}
 	}
 
 	public static void main(String[] args) {
-        new NotSafe().start();
+		new NotSafe().start();
 	}
 
 	public void start() {
-        long startTime = System.currentTimeMillis();
-        for (int i = 0; i &lt; 100; i++) {
-            sum = 0;
-            Thread inc = new Thread(new Incrementor(5000));
-            Thread dec = new Thread(new Decrementor(4000));
-            inc.start();
-            dec.start();			
-            System.out.println(&quot;sum: &quot; + sum);
-        }
-        long endTime = System.currentTimeMillis();
-        System.out.println(&quot;&quot; + (endTime - startTime) + &quot;ms&quot;);
+		long startTime = System.currentTimeMillis();
+		for (int i = 0; i &lt; 100; i++) {
+			sum = 0;
+			Thread inc = new Thread(new Incrementor(5000));
+			Thread dec = new Thread(new Decrementor(4000));
+			inc.start();
+			dec.start();			
+			System.out.println(&quot;sum: &quot; + sum);
+		}
+		long endTime = System.currentTimeMillis();
+		System.out.println(&quot;&quot; + (endTime - startTime) + &quot;ms&quot;);
 	}
 
 }
