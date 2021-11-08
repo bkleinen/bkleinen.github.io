@@ -15,6 +15,7 @@ author: unckell
 ## Bachelor Theses
 * PollPlus (to come) (MERN)
 * [grasp](https://github.com/htw-imi-projects/grasp) (Rails)
+* [StudyPlan](https://github.com/htw-imi-projects/studyplan) (MEVN)
 
 ## Private Projects
 * [Arloff Bookings](https://github.com/arloff/bookings) (Rails)
