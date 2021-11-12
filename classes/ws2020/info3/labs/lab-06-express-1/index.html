@@ -228,11 +228,11 @@ git commit -m &quot;initial commit&quot;
 <span class=kr>const</span> <span class=nx>app</span> <span class=o>=</span> <span class=nx>express</span><span class=p>()</span>
 <span class=kr>const</span> <span class=nx>port</span> <span class=o>=</span> <span class=mi>3001</span>
 
-
+<span class=nx>app</span><span class=p>.</span><span class=nx>get</span><span class=p>(</span><span class=s1>&#39;/&#39;</span><span class=p>,</span> <span class=p>(</span><span class=nx>req</span><span class=p>,</span> <span class=nx>res</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=p>{</span>
   <span class=nx>res</span><span class=p>.</span><span class=nx>send</span><span class=p>(</span><span class=s1>&#39;Hello World!&#39;</span><span class=p>)</span>
 <span class=p>})</span>
 
-
+<span class=nx>app</span><span class=p>.</span><span class=nx>listen</span><span class=p>(</span><span class=nx>port</span><span class=p>,</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
   <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=sb>`Example app listening at http://localhost:</span><span class=si>${</span><span class=nx>port</span><span class=si>}</span><span class=sb>`</span><span class=p>)</span>
 <span class=p>})</span>
 </code></pre></div></li>
