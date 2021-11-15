@@ -1,0 +1,298 @@
+<!doctype html><html>
+<head>
+<title>Notes on Learning Python - Prof. Dr. Barne Kleinen</title>
+<link rel=icon href=https://bkleinen.github.io/favicon.ico>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=theme-color content="#1A94D2">
+<link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121207290-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-121207290-1')</script>
+<style>.async-hide{opacity:0!important}</style>
+<script>(function(c,b,d,e,f,a,g,h,i){b.className+=' '+d,a.start=1*new Date,a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')},(c[e]=c[e]||[]).hide=a,setTimeout(function(){g(),a.end=null},f),a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',4e3,{'GTM-5NV39VZ':!0})</script>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-121207290-2','auto'),ga('require','GTM-5NV39VZ'),ga('send','pageview')</script>
+</head>
+<body>
+<div class=container-fluid>
+<header class="row m-b-5">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c1 p-2"><div class=container-flex>
+<div class=row>
+<div class=col-9>
+<h1 class="c5 title"> Notes on Learning Python </h1>
+<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
+at <a href=https://www.htw-berlin.de>HTW Berlin</a>
+</small>
+</div>
+<div class=col-3>
+<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="row p-0"><nav class="col-md-2 c2">
+<div class=nav>
+<ul class="nav flex-md-column">
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/>Home</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/info2/>B7 Info 2</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/networks/>B9 Networks</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/project/>Project</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m1-web/>M1 Labs</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/theses/>Theses</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/>All WS 21/22</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a>
+</div>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=https://bkleinen.github.io/material/>Material</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/ic/>IC</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a>
+</div>
+</li>
+<li class=nav-item>
+<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/trans/>Trans@HTW</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a>
+</div>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a>
+</li>
+<ul>
+</div>
+</nav>
+<div class="col-md-10 c3">
+<div class=outer>
+<nav aria-label=breadcrumb role=navigation>
+<ol class="breadcrumb breadcrumb-thin">
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/material/>material</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/material/languages/>languages</a></li>
+<li class="breadcrumb-item active" aria-current=page>python</li>
+</ol>
+</nav>
+</div>
+<div class=coursenav></div>
+<div class=container-fluid>
+<a href=https://bkleinen.github.io/material/>Material</a>
+within Taxonomies:
+&nbsp;
+<i><a href=https://bkleinen.github.io/courses/>Courses</a></i>:
+<a href=https://bkleinen.github.io/material/courses/info2/>info2</a>
+&nbsp;
+<i><a href=https://bkleinen.github.io/tags/>Tags</a></i>:
+<a href=https://bkleinen.github.io/material/tags/python/>python</a>
+&nbsp;
+<hr>
+<header>
+<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
+Table of Contents
+</a>
+</header>
+<div class=collapse id=tocContent>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#suggested-path-for-info2>Suggested Path for Info2</a>
+<ul>
+<li><a href=#install-python>Install Python</a></li>
+<li><a href=#intellijvirtualenv>IntelliJ/Virtualenv</a></li>
+<li><a href=#further-tips>Further Tips</a></li>
+</ul>
+</li>
+<li><a href=#installing-packages>Installing packages</a></li>
+</ul>
+</nav>
+</div>
+<h1 id=some-notes-and-tips-on-getting-started-with-the-python-programming-language>Some Notes and Tips on Getting Started with the Python Programming Language</h1>
+<p>There are many, and many good Python resources available, many of them for
+free - after all, it&rsquo;s the most frequently used programming language for
+introductionary courses.</p>
+<p><a href=../python-resources/>See Python Resources</a></p>
+<h2 id=suggested-path-for-info2>Suggested Path for Info2</h2>
+<p>As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
+Python Course. You can either install/use PyCharm Edu or install the EduTools
+plugin to PyCharm Professional.</p>
+<ol>
+<li>Video Intro: <a href="https://www.youtube.com/watch?v=LjecpkIvJFc">Start learning with PyCharm Edu - YouTube</a></li>
+<li>Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
+or download it here: <a href=https://www.jetbrains.com/de-de/pycharm-edu/>PyCharm Edu</a></li>
+<li>you will need a working python installation and select it in
+Preferences -> Python Interpreter -> Preferences (gears upper right) Add… or Show All…</li>
+<li>PyCharm will install a virtualenv for the project under <code>.idea/VirtualEnv</code></li>
+</ol>
+<h3 id=install-python>Install Python</h3>
+<p>While Python might be a beginner-friendly language, installing Python properly certainly is not.
+While the basic installation steps are straightforward, you most probably will
+need to sort out your installation(s) at some points.</p>
+<p>Here are some notes on what I learned installing it on MacOs in case you want to dig into it.
+(If it runs for now, you might want to do that at a later point).</p>
+<p>Mac OS comes with a Python 2 installation which should not be removed. You will want
+to add a current Python 3 installation. This can either be done with homebrew
+or by using the MacOs Package available here:
+<a href=https://www.python.org/downloads/macos/>Python Releases for macOS | Python.org</a>
+I decided on the latter and installed Python 3.10. Some of my homebrew packages
+depend on Python 3.9, so I need to keep that version as well as the MacOS
+python installation.</p>
+<p>This results in three different python installations and the need to always be
+sure which one you&rsquo;re using and to make sure that packages are indeed installed
+where you want them to be installed!</p>
+<h4 id=checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</h4>
+<p>To find out which python version will be used you can use the command <code>which</code>:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok htw/courses/info2 <span class=c1># which python3</span>
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+ok htw/courses/info2 <span class=c1># which pip3</span>
+/Library/Frameworks/Python.framework/Versions/3.10/bin/pip3
+</code></pre></div><p>This looks about right - to check where pip installs its packages, you can list
+the packages and then get the path for one, e.g.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok htw/courses/info2 <span class=c1># pip3 list</span>
+Package           Version
+----------------- --------
+attrs             21.2.0
+...
+Scrapy            2.5.1
+</code></pre></div><p>and then use pip show to check the installation location of the package:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>
+ok htw/courses/info2 <span class=c1># pip3 show Scrapy</span>
+Name: Scrapy
+Version: 2.5.1
+Summary: A high-level Web Crawling and Web Scraping framework
+...
+Location: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages
+...
+</code></pre></div><h4 id=checking-your-path>Checking your path</h4>
+<p>to check your path, use</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>echo</span> <span class=nv>$PATH</span>
+
+</code></pre></div><p>or replace the colons with newlines to see the order more easily:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>echo</span> <span class=nv>$PATH</span> <span class=p>|</span> sed -e <span class=s2>&#34;s/:/\n/g&#34;</span>
+</code></pre></div><h4 id=python-versions-on-my-machine>Python Versions on my machine</h4>
+<p>Apart from Homebrew, it boils down to the System 2.7 and my newly installed 3.10:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls /Library/Frameworks/Python.framework/Versions</span>
+3.10	Current
+ok ~ <span class=c1># ls /System/Library/Frameworks/Python.framework/Versions</span>
+2.3	2.5	2.6	2.7	Current
+</code></pre></div><p><code>/usr/bin/python</code> points to the os installation.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls -l /usr/bin/python*</span>
+lrwxr-xr-x  <span class=m>1</span> root  wheel      <span class=m>75</span> Jan  <span class=m>1</span>  <span class=m>2020</span> /usr/bin/python -&gt; ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x  <span class=m>1</span> root  wheel      <span class=m>82</span> Jan  <span class=m>1</span>  <span class=m>2020</span> /usr/bin/python-config -&gt; ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7-config
+lrwxr-xr-x  <span class=m>1</span> root  wheel      <span class=m>75</span> Jan  <span class=m>1</span>  <span class=m>2020</span> /usr/bin/python2 -&gt; ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x  <span class=m>1</span> root  wheel      <span class=m>75</span> Jan  <span class=m>1</span>  <span class=m>2020</span> /usr/bin/python2.7 -&gt; ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x  <span class=m>1</span> root  wheel      <span class=m>82</span> Jan  <span class=m>1</span>  <span class=m>2020</span> /usr/bin/python2.7-config -&gt; ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7-config
+-rwxr-xr-x  <span class=m>1</span> root  wheel  <span class=m>137616</span> Jan  <span class=m>1</span>  <span class=m>2020</span> /usr/bin/python3
+</code></pre></div><p><code>/usr/local/bin/python</code> points to the 3.10 installation:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls -lart /usr/local/bin/python3*</span>
+lrwxr-xr-x  <span class=m>1</span> root  wheel  <span class=m>78</span> Oct <span class=m>21</span> 14:26 /usr/local/bin/python3-intel64 -&gt; ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3-intel64
+lrwxr-xr-x  <span class=m>1</span> root  wheel  <span class=m>70</span> Oct <span class=m>21</span> 14:26 /usr/local/bin/python3 -&gt; ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+</code></pre></div><h4 id=plus-the-homebrew-installation>Plus the Homebrew installation</h4>
+<p>&mldr; which can be accessed via symlinks in <code>/usr/local/opt/python*</code> which refer to HomeBrews´ Cellar:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>brew deps --tree --installed
+brew info python3
+</code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls -lart   /usr/local/opt/python@3*</span>
+lrwxr-xr-x  <span class=m>1</span> kleinen  admin  <span class=m>28</span> Oct <span class=m>21</span> 14:31 /usr/local/opt/python@3.9 -&gt; ../Cellar/python@3.9/3.9.7_1
+lrwxr-xr-x  <span class=m>1</span> kleinen  admin  <span class=m>28</span> Oct <span class=m>21</span> 14:31 /usr/local/opt/python@3 -&gt; ../Cellar/python@3.9/3.9.7_1
+lrwxr-xr-x  <span class=m>1</span> kleinen  admin  <span class=m>30</span> Nov  <span class=m>7</span> 11:59 /usr/local/opt/python@3.10 -&gt; ../Cellar/python@3.10/3.10.0_2
+</code></pre></div><p>Together with all the symlinks this results in a rather long and confusing list that PyCharm generates
+to select the correct Python interpreter!</p>
+<h3 id=intellijvirtualenv>IntelliJ/Virtualenv</h3>
+<p>in PyCharm, you&rsquo;ll either let IntelliJ create or use a given vitualenv environment.
+This basically fixates the python environment for this project by creating a
+folder with a link to the appropriate binaries - independent from the path -
+and a folder for the installed packages:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>
+ok  <span class=o>(</span>main✗<span class=o>)</span>python/virtualenv/pycharm-virtualenv <span class=c1># ls</span>
+bin		lib		pyvenv.cfg
+
+ok  <span class=o>(</span>main✗<span class=o>)</span>python/virtualenv/pycharm-virtualenv <span class=c1># ls -lart bin</span>
+total <span class=m>112</span>
+lrwxr-xr-x   <span class=m>1</span> kleinen  staff    <span class=m>62</span> Nov <span class=m>14</span> 20:30 python -&gt; /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+...
+
+ok  <span class=o>(</span>main✗<span class=o>)</span>python/virtualenv/pycharm-virtualenv <span class=c1># ls -lart lib/python3.10/site-packages/</span>
+__pycache__/                  _virtualenv.py                pip-21.1.2.dist-info/         setuptools/                   wheel/
+_distutils_hack/              distutils-precedence.pth      pip-21.1.2.virtualenv         setuptools-57.0.0.dist-info/  wheel-0.36.2.dist-info/
+_virtualenv.pth               pip/                          pkg_resources/                setuptools-57.0.0.virtualenv  wheel-0.36.2.virtualenv
+</code></pre></div><p>Which means that, if you want to run your PyCharm scripts from the command line in the same context
+(e.g. to give them run-time parameters without fiddling with runtime configurations), you&rsquo;ll need
+to use this one. This can be done easiest by simply using the Terminal integrated in IntelliJ/PyCharm.</p>
+<h3 id=further-tips>Further Tips</h3>
+<p>You might want to put the project under version control to be able to see a summary of your changes using git!</p>
+<p>While you work through the course, the course files (*.yaml) are also modified. To put the python files in a separate commit, you could do:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># git add Introduction/**/*.py</span>
+<span class=c1># git commit -m &#34;Introduction - py files&#34;</span>
+</code></pre></div><p>and then commit the rest (check with <code>git status</code>that there are just yaml-files left.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># git add .</span>
+<span class=c1># git commit -m &#34;Variables - course files&#34;</span>
+</code></pre></div><h2 id=installing-packages>Installing packages</h2>
+<p>If you install packages with pip/pip3, you need to make sure that you use the
+right python context / installation!
+As PyCharm usually installs an own virtualenv per project, packages need to be
+installed in this virtualenv. This can be done by installing packages using
+the PyCharm interface. To do so, open <code>View -> Tool Windows -> Python Packages</code>
+Documentation: <a href=https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#packages-tool-window>Install, uninstall, and upgrade packages | PyCharm</a></p>
+</div>
+</div>
+</div>
+</main>
+<footer class="row p-0">
+<div class="col-md-2 c2">
+&nbsp;
+</div>
+<div class="col-md-10 c4">
+<small>
+<hr>
+<div class=container-fluid>
+<div class=row>
+<div class=col-9>
+<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
+&nbsp;&nbsp;&dash;&nbsp;&nbsp;
+</div>
+<div class=col-3>
+<a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
+</div>
+</div>
+<div class=row>
+<div class=col-9>
+This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+<br><small>
+This page was authored by: B. Kleinen
+</small>
+</div>
+<div class=col-3>
+<a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a>
+</div>
+</div>
+<div class=row>
+<div class=col-sm-12>
+</div>
+</div>
+</div>
+</small>
+</div>
+</footer>
+<script>let sortTables=!1,stripedTables=!0</script>
+<script src=https://bkleinen.github.io/js/bundle.min.2e77815b9f3f7be195f9d073bea8b3ba3c025f403d0e61ef06c5ba0d08fc7f09.js defer></script>
+</body>
+</html>
