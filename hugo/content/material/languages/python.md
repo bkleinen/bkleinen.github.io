@@ -20,7 +20,7 @@ introductionary courses.
 
 As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
 Python Course. You can either install/use PyCharm Edu or install the EduTools
-plugin to PyCharm Professional.
+plugin for PyCharm Professional.
 
 1. Video Intro: [Start learning with PyCharm Edu - YouTube](https://www.youtube.com/watch?v=LjecpkIvJFc)
 2. Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
@@ -31,11 +31,40 @@ plugin to PyCharm Professional.
    Preferences -> Python Interpreter -> Preferences (gears upper right) Add… or Show All…
 4. PyCharm will install a virtualenv for the project under `.idea/VirtualEnv`
 
-### Installing Python
-
 While Python might be a beginner-friendly language, installing Python properly certainly is not.
 While the basic installation steps are straightforward, you most probably will
-need to sort out your installation(s) at some point.
+need to sort out your installation(s) at some point. See my "Notes on Installing Python"
+below.
+
+### Further Tips
+
+You might want to put the project under version control to be able to see a summary of your changes using git!
+
+While you work through the course, the course files (*.yaml) are also modified. To put the python files in a separate commit, you could do:
+
+```bash
+# git add Introduction/**/*.py
+# git commit -m "Introduction - py files"
+```
+
+and then commit the rest (check with `git status`that there are just yaml-files left.
+
+```bash
+# git add .
+# git commit -m "Variables - course files"
+```
+
+## Installing packages
+
+If you install packages with pip/pip3, you need to make sure that you use the
+right python context / installation!
+As PyCharm usually installs an own virtualenv per project, packages need to be
+installed in this virtualenv. This can be done by installing packages using
+the PyCharm interface. To do so, open `View -> Tool Windows -> Python Packages`
+Documentation: [Install, uninstall, and upgrade packages | PyCharm](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#packages-tool-window)
+
+
+## Installing Python
 
 Here are some notes on what I learned installing it on MacOs in case you want to dig into it.
 (If it runs for now, you might want to do that at a later point).
@@ -52,7 +81,7 @@ This results in three different python installations and the need to always be
 sure which one you're using and to make sure that packages are indeed installed
 where you want them to be installed!
 
-#### Checking your Python Installation and the Path
+### Checking your Python Installation and the Path
 
 To find out which python version will be used you can use the command `which`:
 
@@ -89,21 +118,23 @@ Location: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site
 ```
 
 
-#### Checking your path
+### Checking your path
 
-to check your path, use
+If the default python version is not the one you want or expected, it is
+not the first one found in your path.
+To check your path, use
 
 ```bash
 echo $PATH
-
 ```
 
-or replace the colons with newlines to see the order more easily:
+if you replace the colons with newlines it's easier to see:
 
 ```bash
 echo $PATH | sed -e "s/:/\n/g"
 ```
-#### Python Versions on my machine
+
+### Python Versions on my machine
 
 Apart from Homebrew, it boils down to the System 2.7 and my newly installed 3.10:
 
@@ -182,35 +213,4 @@ _virtualenv.pth               pip/                          pkg_resources/      
 
 Which means that, if you want to run your PyCharm scripts from the command line in the same context
 (e.g. to give them run-time parameters without fiddling with runtime configurations), you'll need
-to use this one. This can be done easiest by simply using the Terminal integrated in IntelliJ/PyCharm.
-
-
-
-### Further Tips
-
-You might want to put the project under version control to be able to see a summary of your changes using git!
-
-While you work through the course, the course files (*.yaml) are also modified. To put the python files in a separate commit, you could do:
-
-```bash
-# git add Introduction/**/*.py
-# git commit -m "Introduction - py files"
-```
-
-and then commit the rest (check with `git status`that there are just yaml-files left.
-
-```bash
-# git add .
-# git commit -m "Variables - course files"
-```
-
-
-
-## Installing packages
-
-If you install packages with pip/pip3, you need to make sure that you use the
-right python context / installation!
-As PyCharm usually installs an own virtualenv per project, packages need to be
-installed in this virtualenv. This can be done by installing packages using
-the PyCharm interface. To do so, open `View -> Tool Windows -> Python Packages`
-Documentation: [Install, uninstall, and upgrade packages | PyCharm](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#packages-tool-window)
+to use this one. This can be done easiest by using the Terminal integrated in IntelliJ/PyCharm.
