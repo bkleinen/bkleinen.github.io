@@ -25,15 +25,17 @@ plugin to PyCharm Professional.
 1. Video Intro: [Start learning with PyCharm Edu - YouTube](https://www.youtube.com/watch?v=LjecpkIvJFc)
 2. Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
    or download it here: [PyCharm Edu](https://www.jetbrains.com/de-de/pycharm-edu/)
-3. you will need a working python installation and select it in
+3. you will need a working python - see
+   [https://www.python.org/downloads/](https://www.python.org/downloads/) -
+   installation and select it in
    Preferences -> Python Interpreter -> Preferences (gears upper right) Add… or Show All…
 4. PyCharm will install a virtualenv for the project under `.idea/VirtualEnv`
 
-### Install Python
+### Installing Python
 
 While Python might be a beginner-friendly language, installing Python properly certainly is not.
 While the basic installation steps are straightforward, you most probably will
-need to sort out your installation(s) at some points.
+need to sort out your installation(s) at some point.
 
 Here are some notes on what I learned installing it on MacOs in case you want to dig into it.
 (If it runs for now, you might want to do that at a later point).
@@ -132,9 +134,9 @@ lrwxr-xr-x  1 root  wheel  78 Oct 21 14:26 /usr/local/bin/python3-intel64 -> ../
 lrwxr-xr-x  1 root  wheel  70 Oct 21 14:26 /usr/local/bin/python3 -> ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3
 ```
 
-#### Plus the Homebrew installation
+#### Plus the Homebrew installation...
 
-... which can be accessed via symlinks in  `/usr/local/opt/python*` which refer to HomeBrews´ Cellar:
+... which can be accessed via symlinks in  `/usr/local/opt/python*` which point to HomeBrews´ cellar:
 
 ```bash
 brew deps --tree --installed
@@ -148,8 +150,12 @@ lrwxr-xr-x  1 kleinen  admin  28 Oct 21 14:31 /usr/local/opt/python@3 -> ../Cell
 lrwxr-xr-x  1 kleinen  admin  30 Nov  7 11:59 /usr/local/opt/python@3.10 -> ../Cellar/python@3.10/3.10.0_2
 ```
 
-Together with all the symlinks this results in a rather long and confusing list that PyCharm generates
+Together with all the symlinks (I've only shown a part of them here) this
+results in a rather long and confusing list that PyCharm generates
 to select the correct Python interpreter!
+
+Also; I expect that the next update will struggle to get ahead in the path and
+thus change my default python.
 
 ### IntelliJ/Virtualenv
 
