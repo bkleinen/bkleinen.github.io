@@ -114,7 +114,7 @@ Table of Contents
 <ul>
 <li><a href=#suggested-path-for-info2>Suggested Path for Info2</a>
 <ul>
-<li><a href=#install-python>Install Python</a></li>
+<li><a href=#installing-python>Installing Python</a></li>
 <li><a href=#intellijvirtualenv>IntelliJ/Virtualenv</a></li>
 <li><a href=#further-tips>Further Tips</a></li>
 </ul>
@@ -136,14 +136,16 @@ plugin to PyCharm Professional.</p>
 <li>Video Intro: <a href="https://www.youtube.com/watch?v=LjecpkIvJFc">Start learning with PyCharm Edu - YouTube</a></li>
 <li>Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
 or download it here: <a href=https://www.jetbrains.com/de-de/pycharm-edu/>PyCharm Edu</a></li>
-<li>you will need a working python installation and select it in
+<li>you will need a working python - see
+<a href=https://www.python.org/downloads/>https://www.python.org/downloads/</a> -
+installation and select it in
 Preferences -> Python Interpreter -> Preferences (gears upper right) Add… or Show All…</li>
 <li>PyCharm will install a virtualenv for the project under <code>.idea/VirtualEnv</code></li>
 </ol>
-<h3 id=install-python>Install Python</h3>
+<h3 id=installing-python>Installing Python</h3>
 <p>While Python might be a beginner-friendly language, installing Python properly certainly is not.
 While the basic installation steps are straightforward, you most probably will
-need to sort out your installation(s) at some points.</p>
+need to sort out your installation(s) at some point.</p>
 <p>Here are some notes on what I learned installing it on MacOs in case you want to dig into it.
 (If it runs for now, you might want to do that at a later point).</p>
 <p>Mac OS comes with a Python 2 installation which should not be removed. You will want
@@ -203,16 +205,19 @@ lrwxr-xr-x  <span class=m>1</span> root  wheel      <span class=m>82</span> Jan 
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls -lart /usr/local/bin/python3*</span>
 lrwxr-xr-x  <span class=m>1</span> root  wheel  <span class=m>78</span> Oct <span class=m>21</span> 14:26 /usr/local/bin/python3-intel64 -&gt; ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3-intel64
 lrwxr-xr-x  <span class=m>1</span> root  wheel  <span class=m>70</span> Oct <span class=m>21</span> 14:26 /usr/local/bin/python3 -&gt; ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-</code></pre></div><h4 id=plus-the-homebrew-installation>Plus the Homebrew installation</h4>
-<p>&mldr; which can be accessed via symlinks in <code>/usr/local/opt/python*</code> which refer to HomeBrews´ Cellar:</p>
+</code></pre></div><h4 id=plus-the-homebrew-installation>Plus the Homebrew installation&mldr;</h4>
+<p>&mldr; which can be accessed via symlinks in <code>/usr/local/opt/python*</code> which point to HomeBrews´ cellar:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>brew deps --tree --installed
 brew info python3
 </code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls -lart   /usr/local/opt/python@3*</span>
 lrwxr-xr-x  <span class=m>1</span> kleinen  admin  <span class=m>28</span> Oct <span class=m>21</span> 14:31 /usr/local/opt/python@3.9 -&gt; ../Cellar/python@3.9/3.9.7_1
 lrwxr-xr-x  <span class=m>1</span> kleinen  admin  <span class=m>28</span> Oct <span class=m>21</span> 14:31 /usr/local/opt/python@3 -&gt; ../Cellar/python@3.9/3.9.7_1
 lrwxr-xr-x  <span class=m>1</span> kleinen  admin  <span class=m>30</span> Nov  <span class=m>7</span> 11:59 /usr/local/opt/python@3.10 -&gt; ../Cellar/python@3.10/3.10.0_2
-</code></pre></div><p>Together with all the symlinks this results in a rather long and confusing list that PyCharm generates
+</code></pre></div><p>Together with all the symlinks (I&rsquo;ve only shown a part of them here) this
+results in a rather long and confusing list that PyCharm generates
 to select the correct Python interpreter!</p>
+<p>Also; I expect that the next update will struggle to get ahead in the path and
+thus change my default python.</p>
 <h3 id=intellijvirtualenv>IntelliJ/Virtualenv</h3>
 <p>in PyCharm, you&rsquo;ll either let IntelliJ create or use a given vitualenv environment.
 This basically fixates the python environment for this project by creating a
