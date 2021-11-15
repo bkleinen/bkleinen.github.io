@@ -114,12 +114,18 @@ Table of Contents
 <ul>
 <li><a href=#suggested-path-for-info2>Suggested Path for Info2</a>
 <ul>
-<li><a href=#installing-python>Installing Python</a></li>
-<li><a href=#intellijvirtualenv>IntelliJ/Virtualenv</a></li>
 <li><a href=#further-tips>Further Tips</a></li>
 </ul>
 </li>
 <li><a href=#installing-packages>Installing packages</a></li>
+<li><a href=#installing-python>Installing Python</a>
+<ul>
+<li><a href=#checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</a></li>
+<li><a href=#checking-your-path>Checking your path</a></li>
+<li><a href=#python-versions-on-my-machine>Python Versions on my machine</a></li>
+<li><a href=#intellijvirtualenv>IntelliJ/Virtualenv</a></li>
+</ul>
+</li>
 </ul>
 </nav>
 </div>
@@ -131,7 +137,7 @@ introductionary courses.</p>
 <h2 id=suggested-path-for-info2>Suggested Path for Info2</h2>
 <p>As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
 Python Course. You can either install/use PyCharm Edu or install the EduTools
-plugin to PyCharm Professional.</p>
+plugin for PyCharm Professional.</p>
 <ol>
 <li>Video Intro: <a href="https://www.youtube.com/watch?v=LjecpkIvJFc">Start learning with PyCharm Edu - YouTube</a></li>
 <li>Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
@@ -142,10 +148,26 @@ installation and select it in
 Preferences -> Python Interpreter -> Preferences (gears upper right) Add… or Show All…</li>
 <li>PyCharm will install a virtualenv for the project under <code>.idea/VirtualEnv</code></li>
 </ol>
-<h3 id=installing-python>Installing Python</h3>
 <p>While Python might be a beginner-friendly language, installing Python properly certainly is not.
 While the basic installation steps are straightforward, you most probably will
-need to sort out your installation(s) at some point.</p>
+need to sort out your installation(s) at some point. See my &ldquo;Notes on Installing Python&rdquo;
+below.</p>
+<h3 id=further-tips>Further Tips</h3>
+<p>You might want to put the project under version control to be able to see a summary of your changes using git!</p>
+<p>While you work through the course, the course files (*.yaml) are also modified. To put the python files in a separate commit, you could do:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># git add Introduction/**/*.py</span>
+<span class=c1># git commit -m &#34;Introduction - py files&#34;</span>
+</code></pre></div><p>and then commit the rest (check with <code>git status</code>that there are just yaml-files left.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># git add .</span>
+<span class=c1># git commit -m &#34;Variables - course files&#34;</span>
+</code></pre></div><h2 id=installing-packages>Installing packages</h2>
+<p>If you install packages with pip/pip3, you need to make sure that you use the
+right python context / installation!
+As PyCharm usually installs an own virtualenv per project, packages need to be
+installed in this virtualenv. This can be done by installing packages using
+the PyCharm interface. To do so, open <code>View -> Tool Windows -> Python Packages</code>
+Documentation: <a href=https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#packages-tool-window>Install, uninstall, and upgrade packages | PyCharm</a></p>
+<h2 id=installing-python>Installing Python</h2>
 <p>Here are some notes on what I learned installing it on MacOs in case you want to dig into it.
 (If it runs for now, you might want to do that at a later point).</p>
 <p>Mac OS comes with a Python 2 installation which should not be removed. You will want
@@ -158,7 +180,7 @@ python installation.</p>
 <p>This results in three different python installations and the need to always be
 sure which one you&rsquo;re using and to make sure that packages are indeed installed
 where you want them to be installed!</p>
-<h4 id=checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</h4>
+<h3 id=checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</h3>
 <p>To find out which python version will be used you can use the command <code>which</code>:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok htw/courses/info2 <span class=c1># which python3</span>
 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
@@ -181,13 +203,14 @@ Summary: A high-level Web Crawling and Web Scraping framework
 ...
 Location: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages
 ...
-</code></pre></div><h4 id=checking-your-path>Checking your path</h4>
-<p>to check your path, use</p>
+</code></pre></div><h3 id=checking-your-path>Checking your path</h3>
+<p>If the default python version is not the one you want or expected, it is
+not the first one found in your path.
+To check your path, use</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>echo</span> <span class=nv>$PATH</span>
-
-</code></pre></div><p>or replace the colons with newlines to see the order more easily:</p>
+</code></pre></div><p>if you replace the colons with newlines it&rsquo;s easier to see:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=nb>echo</span> <span class=nv>$PATH</span> <span class=p>|</span> sed -e <span class=s2>&#34;s/:/\n/g&#34;</span>
-</code></pre></div><h4 id=python-versions-on-my-machine>Python Versions on my machine</h4>
+</code></pre></div><h3 id=python-versions-on-my-machine>Python Versions on my machine</h3>
 <p>Apart from Homebrew, it boils down to the System 2.7 and my newly installed 3.10:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>ok ~ <span class=c1># ls /Library/Frameworks/Python.framework/Versions</span>
 3.10	Current
@@ -238,22 +261,7 @@ _distutils_hack/              distutils-precedence.pth      pip-21.1.2.virtualen
 _virtualenv.pth               pip/                          pkg_resources/                setuptools-57.0.0.virtualenv  wheel-0.36.2.virtualenv
 </code></pre></div><p>Which means that, if you want to run your PyCharm scripts from the command line in the same context
 (e.g. to give them run-time parameters without fiddling with runtime configurations), you&rsquo;ll need
-to use this one. This can be done easiest by simply using the Terminal integrated in IntelliJ/PyCharm.</p>
-<h3 id=further-tips>Further Tips</h3>
-<p>You might want to put the project under version control to be able to see a summary of your changes using git!</p>
-<p>While you work through the course, the course files (*.yaml) are also modified. To put the python files in a separate commit, you could do:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># git add Introduction/**/*.py</span>
-<span class=c1># git commit -m &#34;Introduction - py files&#34;</span>
-</code></pre></div><p>and then commit the rest (check with <code>git status</code>that there are just yaml-files left.</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1># git add .</span>
-<span class=c1># git commit -m &#34;Variables - course files&#34;</span>
-</code></pre></div><h2 id=installing-packages>Installing packages</h2>
-<p>If you install packages with pip/pip3, you need to make sure that you use the
-right python context / installation!
-As PyCharm usually installs an own virtualenv per project, packages need to be
-installed in this virtualenv. This can be done by installing packages using
-the PyCharm interface. To do so, open <code>View -> Tool Windows -> Python Packages</code>
-Documentation: <a href=https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#packages-tool-window>Install, uninstall, and upgrade packages | PyCharm</a></p>
+to use this one. This can be done easiest by using the Terminal integrated in IntelliJ/PyCharm.</p>
 </div>
 </div>
 </div>
