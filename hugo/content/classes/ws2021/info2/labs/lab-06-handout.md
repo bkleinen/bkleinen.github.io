@@ -2,7 +2,6 @@
 title: 'Info2: Handout for Exercise 6: Infix/Prefix/Postfix'
 author: kleinen
 layout: lab
-draft: true
 ---
 
 
