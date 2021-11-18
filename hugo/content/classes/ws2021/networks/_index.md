@@ -49,7 +49,7 @@ Kurose, James F; Ross, Keith W.: Computer Networking. A Top-Down Approach, 8th e
 ISBN: 978-1-292-40546-9
 
 
-The book will be available as ebook through the HTW Library.
+The book is available as an ebook through the HTW Library.
 There is also plenty of material online - [see the resources section](./resources).
 
 ### Top Down Approach
@@ -64,11 +64,7 @@ We'll follow the books top-down approach - starting from applications like email
 - The Link Layer and LANs
 
 
-![Internet_Layers](./images/internet_layers.png "Layers")
-(Picture taken from Kurose's Slide Deck "[Protocol layers and Their Service Models](https://gaia.cs.umass.edu/kurose_ross/videos/1/)")
-
 ## Class Structure and Meetings
-
 
 We will be doing flipped classroom this term. See
 [Christian Spannagel explains Flipped Classroom to Students](https://www.youtube.com/watch?v=5RxFIKQieWM)
@@ -99,7 +95,6 @@ You don't need to attend class, the tests will be open all day on Thursdays in M
 
 Lab Reports are due Friday 17:00 after your Lab session.
 
-
 ## Grading
 
 ### Exam
@@ -115,3 +110,18 @@ in PZ1 and PZ2.
 The Moodle Exam constitutes the "Schriftliche Modulabschlussprüfung",
 Lab Reports and Knowledge Checks are two "Modulbegleitend geprüfte Studienleistungen"
 as described and regulated in §8 and §12 in the [Rahmenstudien- und -prüfungsordnung (RStPO – Ba/Ma)](https://www.htw-berlin.de/hochschule/dokumente/rahmenordnungen/#c6063).
+
+### About the Knowledge Checks
+
+The knowledge checks are brief moodle quizzes on the material of the book chapters
+as announced in the schedule. You are required to take these quizzes within the
+first 10 minutes of the lecture - they are open from 12:15-12:30.
+
+The knowledge checks are open-book-exams - you may use all materials.
+
+You may do them remotely if you are unable to attend class, but they have to be
+done within that time frame.
+
+If you are unable to do them within the scheduled time, contact me.
+I'll allow for up to 2 exceptions per person to take a replacement quizz later.
+I might pool them at the end of term.
