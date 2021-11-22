@@ -14,7 +14,7 @@ courseNavExt:
 - title: Labs in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899
 - title: Semesterstundenplan im LSF
-  link: https://lsf.htw-berlin.de/qisserver/  rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr  =231
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
 - title: Github
   link: https://github.com/htw-imi-info2
 ---
