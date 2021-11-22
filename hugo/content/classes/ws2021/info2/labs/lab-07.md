@@ -2,14 +2,13 @@
 title: 'Info2: Exercise 07: Recursive Triangles'
 author: kleinen
 layout: lab
-draft: true
 ---
 
 ![Machine](../images/SierpinskiTriangle.png "Sierpinski Triangle")
 
 ## Pre-Lab
 
-***P1.*** What exactly is an equilateral triangle? Can you write a class that draws a triangle? What data do you need to know in order to put a triangle at a particular position on the screen?
+***P1.*** What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?
 
 ***P2.*** What is the mathematical formula for finding the midpoint of a line segment that connects two Points?
 
@@ -19,7 +18,7 @@ draft: true
 
 ## Assignment
 
-1. First set up a Window that can handle drawing. Get the Window to draw an equilateral triangle. You can use this scaffold: [SierpinskyTriangleStart](https://github.com/LiFaytheGoblin/SierpinskyTriangleStart).
+1. First set up a Window that can handle drawing. Get the Window to draw an equilateral triangle. You can use this scaffold: [SierpinskyTriangleStart](https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/sierpinskytrianglestart).
 
 2. Once you can draw the triangle, now draw a triangle that connects the midpoints of each of the lines. You now have 4 triangles. For each of the *three outer triangles*, recursively draw a triangle that connects the midpoints.
 
