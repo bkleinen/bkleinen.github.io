@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Info2: Exercise 06: Reverse Polish Notation - Prof. Dr. Barne Kleinen</title>
+<title>Info2: Exercise 07: Recursive Triangles - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -90,7 +90,7 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/>info2</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>labs</a></li>
-<li class="breadcrumb-item active" aria-current=page>lab-06</li>
+<li class="breadcrumb-item active" aria-current=page>lab-07</li>
 </ol>
 </nav>
 </div>
@@ -121,107 +121,76 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 </ul>
 </div>
 <div class=container-fluid>
-<h2 class=followed> Info2: Exercise 06: Reverse Polish Notation</h2>
+<h2 class=followed> Info2: Exercise 07: Recursive Triangles</h2>
 <header class=following>
 <a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-05/>&lt;prev</a>
-<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-07/>next></a>
+<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06/>&lt;prev</a>
+<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06-handout/>next></a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
 <li><a href=#pre-lab>Pre-Lab</a></li>
-<li><a href=#assignment>Assignment</a>
-<ul>
-<li><a href=#preparation>Preparation</a></li>
-<li><a href=#part-1-stack-class>Part 1: Stack Class</a></li>
-<li><a href=#part-2-postfix-class>Part 2: Postfix Class</a></li>
-<li><a href=#part-3-infix-to-postfix>Part 3: Infix to Postfix</a></li>
-<li><a href=#part-4-ui>Part 4: UI</a></li>
-</ul>
-</li>
+<li><a href=#assignment>Assignment</a></li>
 <li><a href=#for-the-bored>For the bored</a></li>
 <li><a href=#lab-report--what-to-turn-in>Lab Report / What to turn in</a></li>
 </ul>
 </nav>
 </div>
+<p><img src=../images/SierpinskiTriangle.png alt=Machine title="Sierpinski Triangle"></p>
 <h2 id=pre-lab>Pre-Lab</h2>
-<p><em><strong>P1.</strong></em> Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the <a href=lab-06-handout>hand out</a>.</p>
-<p><em><strong>P2.</strong></em> What is the order of precedence for the operators &ldquo;+&rdquo;, &ldquo;-&rdquo;, &ldquo;*&rdquo;, &ldquo;/&rdquo;, &ldquo;^&rdquo;? If we wanted to include &ldquo;(&rdquo; and &ldquo;)&rdquo; in this order, where would each of them be?</p>
-<p><em><strong>P3.</strong></em> Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?</p>
-<ol>
-<li>1 * 2 + 3</li>
-<li>1 + 2 * 3</li>
-<li>1 + 2 - 3 ^ 4</li>
-<li>1 ^ 2 - 3 * 4</li>
-<li>1 + 2 * 3 - 4 ^ 5 + 6</li>
-<li>( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )</li>
-<li>1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )</li>
-<li>9 - 1 - 2 - 3 * 2 - 1
- </li>
-</ol>
-<p><em><strong>P4.</strong></em> For the infix expression <code>a + b ^ c * d ^ e ^ f - g - h / ( i + j )</code>, do the following:</p>
-<ol>
-<li>Show how to generate the corresponding postfix expression.</li>
-<li>Show how to evaluate the resulting postfix expression.</li>
-</ol>
-<p><em><strong>P5.</strong></em> Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.</p>
+<p><em><strong>P1.</strong></em> What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?</p>
+<p><em><strong>P2.</strong></em> What is the mathematical formula for finding the midpoint of a line segment that connects two Points?</p>
+<p><em><strong>P3.</strong></em> What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?</p>
+<p><em><strong>P4.</strong></em> Briefly describe what a Sierpinski Triangle is.</p>
 <h2 id=assignment>Assignment</h2>
-<h3 id=preparation>Preparation</h3>
 <ol>
-<li>Read through all of the exercises before starting.</li>
-<li>You can use this IntelliJ project <a href=https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab06_reversepolishnotation>Lab06_ReversePolishNotation</a> as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces. Clone the repo and set it as upstream, while creating a new repo for you to work with in this week&rsquo;s GitLab folder.</li>
-<li>This is a lot of work, so I suggest that your group works on exercise 1 and exercise 2 in parallel. So split up the work.</li>
-<li>For each of the parallel exercises, create a separate git branch to work on (after you cloned the project, do <code>git checkout -b "stack-class"</code> (&ldquo;stack-class&rdquo; could be a name for a branch, but you could name it anything).</li>
-<li>After you both finished, push your branch and on GitLab, create a pull request (aka merge request).</li>
-<li>Merge the two branches into <code>master</code>, one after the other. If you find merge conflicts you will need to resolve them.</li>
-<li>Then you get back together to do the remaining exercises.</li>
+<li>
+<p>First set up a Window that can handle drawing. Get the Window to draw an equilateral triangle. You can use this scaffold: <a href=https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/sierpinskytrianglestart>SierpinskyTriangleStart</a>.</p>
+</li>
+<li>
+<p>Once you can draw the triangle, now draw a triangle that connects the midpoints of each of the lines. You now have 4 triangles. For each of the <em>three outer triangles</em>, recursively draw a triangle that connects the midpoints.</p>
+</li>
+<li>
+<p>Expand your triangle drawing algorithm to draw in a specific color. Choose a different color for every level of the algorithm.</p>
+</li>
+<li>
+<p>Fill the middle triangle on each step with an appropriate color. Choose the size of the first triangle depending on what size the window is. Redraw the triangle when the window is resized.</p>
+</li>
 </ol>
-<h3 id=part-1-stack-class>Part 1: Stack Class</h3>
-<ul>
-<li>Implement a class Stack.java as discussed in the lecture, using a <em>linked list</em> of objects that you implement yourself.</li>
-<li>Your class should include both an exception on stack underflow as well as stack overflow.</li>
-<li>Override the <code>toString()</code>method to provide a useful way of printing a stack.</li>
-<li>Now make it generic, so it can take values of any type. Coordinate your interface with your partner.</li>
-</ul>
-<p>Attention:</p>
-<ul>
-<li>Don&rsquo;t use the Stack or LinkedList that is already available in the Java Collections Library.</li>
-<li>Try and type it in yourself, not just copy the handout.</li>
-</ul>
-<h3 id=part-2-postfix-class>Part 2: Postfix Class</h3>
-<ul>
-<li>Implement a class <code>Postfix.java</code>that has a method public int evaluate (String pfx){&mldr;}
-that takes a <code>String</code> representing a postfix expression and determines the value represented by that expression.
-You will need to access the individual characters of the string and store them in a stack.
-This is necessary for the evaluation, luckily your partner is currently in the process of making a stack.</li>
-<li>Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both.</li>
-</ul>
-<p><em><strong>Do not go on before you are sure that this is working correctly!</strong></em></p>
-<h3 id=part-3-infix-to-postfix>Part 3: Infix to Postfix</h3>
-<p>Now add another method to the <code>Postfix.java</code>class: <code>public String infixToPostfix (String ifx){...}</code> that converts an infix expression which is presented as a <code>String</code>to a<code> String</code>representing a postfix expression. Throw an exception if your input is not well-formed.</p>
-<h3 id=part-4-ui>Part 4: UI</h3>
-<p>Now add another method that reads a string from the console, evaluates the result and prints the result to the console.</p>
 <h2 id=for-the-bored>For the bored</h2>
 <ol start=5>
 <li>
-<p>Once this works for digits, go on and parse multidigit <code>Integers</code> out of the <code>String</code>. Can you do it for <code>double</code> values as well? If you are still bored, parse mixed expressions (<code>doubles</code> and <code>ints</code> in the same expression).</p>
+<p>Start a new project with a drawing Window and draw a square in the bottom left-hand quadrant of your window. Now draw one square that is half the size on top and left-justified and one to the right of the square and bottom-justified. And for each of these half-size boxes, put two more boxes half their size on top and to the right. This is recursion - what is your measure? What is the termination condition? What is the depth of the recursion? Put a screen shot in your report!</p>
 </li>
 <li>
-<p>How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?</p>
+<p>Look up the <a href=ttp://en.wikipedia.org/wiki/Sierpinski_carpeth>Sierpinski Carpet</a> on the Wikipedia - I think the code is not quite right. What goes wrong? Can you fill the screen with a multicolored Sierpinski Carpet?</p>
+</li>
+<li>
+<p>Look up some fractal algorithms - are they all recursive? Can you program any of them yourself (i.e. not using Copy & Paste on the code you find on the Internet).</p>
 </li>
 </ol>
+<hr>
+<p>From <a href=https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27>https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27</a></p>
+<pre><code>&gt; Q. Do you know what iteration means?
+&gt; A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and     over...
+&gt;
+&gt; Q. Do you know what's recursion?
+&gt; A. It's recursion.
+&gt; ByTeEaTeR
+&gt; Tuesday, May 09, 2006
+</code></pre>
 <h2 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h2>
 <p>All info on the lab reports can be found on the <a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>Labs</a> page.</p>
-<p>Also answer the following questions in your report.</p>
-<p>Additional questions for part 1:</p>
+<p>Also answer the following questions in your report:</p>
 <ul>
-<li>Will you really need both exceptions? Why or why not?</li>
+<li>Ex.1: What is the largest equilateral triangle you can get on the screen?</li>
+<li>Ex.2: How many lines of code did you write for Ex. 1 and 2?</li>
+<li>Ex.2: What is your termination condition, what is the measure?</li>
 </ul>
-<p>Please do not put answers for the pre-lab into the lab report. I will not look at them. The lab is for discussing the pre-lab.</p>
 </div>
 </div>
 </div>
