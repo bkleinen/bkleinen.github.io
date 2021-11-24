@@ -151,14 +151,50 @@ directory <code>/usr/local/nginx/conf</code>, <code>/etc/nginx</code>, or <code>
 </code></pre>
 </li>
 </ul>
-<h2 id=generate-a-self-signed-certificate>Generate a self signed certificate</h2>
-<pre><code>openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
-
-
-ssl     on;
- ssl_certificate     /home/local/ssl-selfsigned/nginx-selfsigned.crt
- ssl_certificate_key /home/local/ssl-selfsigned/nginx-selfsigned.key
-</code></pre>
+<h2 id=https>HTTPS</h2>
+<p>To set up a secure connection via https, you need to obtain a certificate and
+a key. For staging servers as ours, using a self-signed certificate is an option.</p>
+<p>Your browser will issue a warning when you access the site, however, and you need
+to adjust the browser&rsquo;s security settings resp. configure an exception for your
+site (try it with my site: )</p>
+<p>You need to</p>
+<ul>
+<li>generate or obtain the certificate and key</li>
+<li>put them on the server (or generate them directly on the server)</li>
+<li>configure a nginx server block with <code>listen 443 ssl;</code> and configure
+the correct path to your certificate + key</li>
+<li>restart nginx</li>
+<li>open port 443 in the firewall</li>
+</ul>
+<h3 id=generate-a-self-signed-certificate>Generate a self signed certificate</h3>
+<p>e.g. with (note the output file names in the command:)</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>    $ openssl req -x509 -nodes -days <span class=m>365</span> -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
+</code></pre></div><h3 id=create-ssl-server-block>Create SSL server block</h3>
+<p>See <a href=https://github.com/htw-imi-networks/example-config/commit/fbef03b8dcd571bb641c20a5f325992c800ed919>this commit</a> for an example. The key parts are:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>     listen <span class=m>443</span> ssl<span class=p>;</span>
+     ...
+     ssl_certificate     /home/local/ssl-selfsigned/nginx-selfsigned.crt
+     ssl_certificate_key /home/local/ssl-selfsigned/nginx-selfsigned.key
+</code></pre></div><p>Note that these are absolute file paths that need to match your actual location,
+and that you would put them in a more central location for a &ldquo;real&rdquo; server config.</p>
+<h3 id=test-config--restart-nginx>Test Config & Restart Nginx</h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>    $ sudo nginx -t
+    $ sudo systemctl restart nginx
+</code></pre></div><h3 id=open-port-443-in-the-firewall>Open Port 443 in the firewall</h3>
+<p>Die Firewall auf den Debian-Servern wird mit diesem Script konfiguriert:</p>
+<p><code>/root/firewall.sh</code></p>
+<p>finden Sie diese Zeilen und entfernen Sie die Kommentare:
+(oben im Script ist auch eine Anleitung; bei der Gelegenheit können Sie
+auch die Ports 80 für http und 22 für ssh nach aussen aufmachen)</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1>#</span>
+<span class=c1># kommentare wegnehmen: HTTPS INPUT OUTPUT zulassen</span>
+<span class=c1>#</span>
+iptables -A INPUT -p tcp --dport <span class=m>443</span> -j ACCEPT
+iptables -A OUTPUT -p tcp --dport <span class=m>443</span> -j ACCEPT
+</code></pre></div><p>dann das script ausführen:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>
+sudo /root/firewall.sh
+</code></pre></div><p>und ausprobieren!</p>
 </div>
 </div>
 </div>
