@@ -107,6 +107,30 @@ within Taxonomies:
 <i><a href=https://bkleinen.github.io/tools/>Tools</a></i>:
 <a href=https://bkleinen.github.io/material/tools/nginx/>nginx</a>
 <hr>
+<header>
+<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
+Table of Contents
+</a>
+</header>
+<div class=collapse id=tocContent>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#nginx>nginX</a>
+<ul>
+<li><a href=#notes--macos>Notes / MacOs</a></li>
+</ul>
+</li>
+<li><a href=#https>HTTPS</a>
+<ul>
+<li><a href=#generate-a-self-signed-certificate>Generate a self signed certificate</a></li>
+<li><a href=#create-ssl-server-block>Create SSL server block</a></li>
+<li><a href=#test-config--restart-nginx>Test Config & Restart Nginx</a></li>
+<li><a href=#open-port-443-in-the-firewall>Open Port 443 in the firewall</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
 <h2 id=nginx>nginX</h2>
 <ul>
 <li>Website: <a href=https://nginx.org/>https://nginx.org/</a></li>
@@ -166,10 +190,18 @@ the correct path to your certificate + key</li>
 <li>restart nginx</li>
 <li>open port 443 in the firewall</li>
 </ul>
+<p>If you want to understand what you are doing, here are some links</p>
+<ul>
+<li>a brief video: <a href="https://www.youtube.com/watch?v=T4Df5_cojAs">How does HTTPS work? What&rsquo;s a CA? What&rsquo;s a self-signed Certificate? - YouTube</a></li>
+<li>another tutorial: <a href=https://devcenter.heroku.com/articles/ssl-certificate-self>Creating a Self-Signed SSL Certificate | Heroku Dev Center</a></li>
+<li>and more background: <a href="https://www.youtube.com/watch?v=q1OF_0ICt9A">14. SSL and HTTPS - YouTube</a></li>
+</ul>
 <h3 id=generate-a-self-signed-certificate>Generate a self signed certificate</h3>
 <p>e.g. with (note the output file names in the command:)</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>    $ openssl req -x509 -nodes -days <span class=m>365</span> -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
-</code></pre></div><h3 id=create-ssl-server-block>Create SSL server block</h3>
+</code></pre></div><p>Note: instead of using a self-signed certificate, you can aquire one from Certbot:
+<a href="https://certbot.eff.org/instructions?ws=nginx&os=debian-10">Certbot Instructions | Certbot</a></p>
+<h3 id=create-ssl-server-block>Create SSL server block</h3>
 <p>See <a href=https://github.com/htw-imi-networks/example-config/commit/fbef03b8dcd571bb641c20a5f325992c800ed919>this commit</a> for an example. The key parts are:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>     listen <span class=m>443</span> ssl<span class=p>;</span>
      ...
@@ -195,6 +227,7 @@ iptables -A OUTPUT -p tcp --dport <span class=m>443</span> -j ACCEPT
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>
 sudo /root/firewall.sh
 </code></pre></div><p>und ausprobieren!</p>
+<h1 id=heading></h1>
 </div>
 </div>
 </div>
