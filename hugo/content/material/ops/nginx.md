@@ -64,6 +64,12 @@ You need to
 - restart nginx
 - open port 443 in the firewall
 
+If you want to understand what you are doing, here are some links
+
+- a brief video: [How does HTTPS work? What's a CA? What's a self-signed Certificate? - YouTube](https://www.youtube.com/watch?v=T4Df5_cojAs)
+- another tutorial: [Creating a Self-Signed SSL Certificate | Heroku Dev Center](https://devcenter.heroku.com/articles/ssl-certificate-self)
+- and more background: [14. SSL and HTTPS - YouTube](https://www.youtube.com/watch?v=q1OF_0ICt9A)
+
 ### Generate a self signed certificate
 
 e.g. with (note the output file names in the command:)
@@ -71,6 +77,10 @@ e.g. with (note the output file names in the command:)
 ```bash
     $ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
 ```
+
+Note: instead of using a self-signed certificate, you can aquire one from Certbot:
+[Certbot Instructions | Certbot](https://certbot.eff.org/instructions?ws=nginx&os=debian-10)
+
 ### Create SSL server block
 
 See [this commit](https://github.com/htw-imi-networks/example-config/commit/fbef03b8dcd571bb641c20a5f325992c800ed919
@@ -119,3 +129,5 @@ sudo /root/firewall.sh
 ```
 
 und ausprobieren!
+
+#
