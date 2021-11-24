@@ -46,7 +46,7 @@ ifneq ($(current_branch),main)
 endif
 
 open :
--  open http://localhost:4242
+-  open http://localhost:4242/~kleinen
 openS :
 -  open http://localhost:4242/staging
 openSD :
@@ -61,4 +61,6 @@ openSites:
 - open https://bkleinen.github.io/staging/
 - open https://bkleinen.github.io/stagingdrafts/
 openI:
-- open 	http://localhost:4242/classes/ws2021/info2/
+- open 	http://localhost:4242/~kleinen/classes/ws2021/info2/
+openN:
+- open 	http://localhost:4242/~kleinen/classes/ws2021/networks/

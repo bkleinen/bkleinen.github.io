@@ -55,17 +55,17 @@ didn't. Record any pages you consulted for help, e.g. RFC 5321.
 If you succeed sending messages, include a printout in your report. Try setting
 the From header field!
 
-### Socket Programming Assignment: Mail Client (Assignment 3)
+### Socket Programming Assignment: Mail Client (Assignment 3 )
 The goal of this programming assingment is to create a simple mail client that
 sends e-mail to any recipient. You client will need to establish a TCP connection
 with a mail server (e.g., a Google mail server), dialogue with the mail server
 using the SMTP protocol, send an e-mail message to a recipient via the mail
 server, and finally close the TCP connection with the mail server.
 
-Note: Link to the Skeleton Code in Python will be provided as soon as I find it.
-Also, there will be the first Python Intro in Info2 next week (see Info2 Schedule
-on this site)
+Find the full assignment text in Moodle and the Python Scaffold on
+[Github](https://github.com/htw-imi-networks/python-programming-assignments).
 
+Also, there is information on Python on this site: [Python Resources](/material/languages/python-resources/)
 
 
 ## Part 2: TBD
