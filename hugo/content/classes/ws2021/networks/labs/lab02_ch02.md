@@ -68,7 +68,7 @@ Find the full assignment text in Moodle and the Python Scaffold on
 Also, there is information on Python on this site: [Python Resources](/material/languages/python-resources/)
 
 
-## Part 2: TBD
+## Part 2: ~~TBD~~ cancelled
 <!-- R26 -->
 
 ## Part 3:
@@ -111,7 +111,8 @@ university. Which DNS servers are used?
 Secure your Server with ssl.
 For this, you'll need to aquire a ssl-certificate, configure nginx to use it and
 open the port 443 in the firewall for connections.
-I will add a walkthrough as an example.
+
+See [the Https part of Nginx](/material/ops/nginx/#https) for more detailed instructions
 
 We will do this together during the lab.
 

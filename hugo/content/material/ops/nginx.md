@@ -46,11 +46,76 @@ directory `/usr/local/nginx/conf`, `/etc/nginx`, or `/usr/local/etc/nginx`.
         git add .
         git commit -m "generated configuration"
 
-## Generate a self signed certificate
+## HTTPS
 
-    openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
+To set up a secure connection via https, you need to obtain a certificate and
+a key. For staging servers as ours, using a self-signed certificate is an option.
 
+Your browser will issue a warning when you access the site, however, and you need
+to adjust the browser's security settings resp. configure an exception for your
+site (try it with my site: )
 
-    ssl     on;
+You need to
+
+- generate or obtain the certificate and key
+- put them on the server (or generate them directly on the server)
+- configure a nginx server block with `listen 443 ssl;` and configure
+  the correct path to your certificate + key
+- restart nginx
+- open port 443 in the firewall
+
+### Generate a self signed certificate
+
+e.g. with (note the output file names in the command:)
+
+```bash
+    $ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
+```
+### Create SSL server block
+
+See [this commit](https://github.com/htw-imi-networks/example-config/commit/fbef03b8dcd571bb641c20a5f325992c800ed919
+) for an example. The key parts are:
+
+```bash
+     listen 443 ssl;
+     ...
      ssl_certificate     /home/local/ssl-selfsigned/nginx-selfsigned.crt
      ssl_certificate_key /home/local/ssl-selfsigned/nginx-selfsigned.key
+```
+
+Note that these are absolute file paths that need to match your actual location,
+and that you would put them in a more central location for a "real" server config.
+
+### Test Config & Restart Nginx
+
+```bash
+    $ sudo nginx -t
+    $ sudo systemctl restart nginx
+```
+
+### Open Port 443 in the firewall
+
+Die Firewall auf den Debian-Servern wird mit diesem Script konfiguriert:
+
+`/root/firewall.sh`
+
+finden Sie diese Zeilen und entfernen Sie die Kommentare:
+(oben im Script ist auch eine Anleitung; bei der Gelegenheit können Sie
+auch die Ports 80 für http und 22 für ssh nach aussen aufmachen)
+
+```bash
+#
+# kommentare wegnehmen: HTTPS INPUT OUTPUT zulassen
+#
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+iptables -A OUTPUT -p tcp --dport 443 -j ACCEPT
+```
+
+dann das script ausführen:
+
+```bash
+
+sudo /root/firewall.sh
+```
+
+und ausprobieren!
