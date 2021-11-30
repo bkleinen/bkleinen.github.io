@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Info 2 WS 2021/22 - Labs and Exercises - Prof. Dr. Barne Kleinen</title>
+<title>Info2: Exercise 08: Eight Queens - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -89,7 +89,8 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/>info2</a></li>
-<li class="breadcrumb-item active" aria-current=page>labs</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-08</li>
 </ol>
 </nav>
 </div>
@@ -120,123 +121,78 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 </ul>
 </div>
 <div class=container-fluid>
-<header>
+<h2 class=followed> Info2: Exercise 08: Eight Queens</h2>
+<header class=following>
 <a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-07/>&lt;prev</a>
+<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06-handout/>next></a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#before-the-lab-pre-labs>Before the lab: Pre-Labs</a></li>
-<li><a href=#during-the-lab>During the lab:</a>
-<ul>
-<li><a href=#communication>Communication</a></li>
-<li><a href=#lab-assignments>Lab Assignments</a></li>
-</ul>
-</li>
-<li><a href=#teams>Teams</a></li>
-<li><a href=#reports>Reports</a>
-<ul>
-<li><a href=#deadline>Deadline</a></li>
-<li><a href=#grading>Grading</a></li>
-<li><a href=#content-of-the-report>Content of the report</a></li>
-<li><a href=#how-to-submit-correctly>How to submit correctly</a></li>
-<li><a href=#git>Git</a></li>
-<li><a href=#late-reports>Late reports</a></li>
-</ul>
-</li>
+<li><a href=#pre-lab>Pre-Lab</a></li>
+<li><a href=#assignment>Assignment</a></li>
+<li><a href=#for-the-bored>For the bored</a></li>
+<li><a href=#lab-report--what-to-turn-in>Lab Report / What to turn in</a></li>
 </ul>
 </nav>
 </div>
-<p>Welcome! On this page you find important information about the labs: How to prepare, how to communicate, what to work on, how to submit. Read through it carefully and ask if anything is unclear.</p>
-<h2 id=before-the-lab-pre-labs>Before the lab: Pre-Labs</h2>
-<p>It is IMPORTANT that you are familiar with the exercise before the lab starts. Before the lab starts do the following:</p>
+<h2 id=pre-lab>Pre-Lab</h2>
+<p><em><strong>P1.</strong></em> Make a chess board and mark how a Queen moves and threatens.</p>
+<p><em><strong>P2.</strong></em> Define a matrix (two-dimensional array) of integers in Java. Write a method to put a <em>-1</em> in every cell of the matrix.</p>
+<p><em><strong>P3.</strong></em> Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
+a) the cells are in the same row?
+b) the cells are in the same column?
+c) the cells are in the same ascending diagonal (lower left to upper right)?
+d) the cells are in the same descending diagonal (upper left to lower right)?</p>
+<p><em><strong>P4.</strong></em> Implement the recursive solution to the <em>Towers of Hanoi</em> so that you can review how recursion works using the debugger.</p>
+<h2 id=assignment>Assignment</h2>
+<p>Our goal is to write a program to determine if 8 queens can be placed on an 8 x 8 chess board without them threatening each other!</p>
+<ol>
+<li>
+<p>Decide how to represent a chess board with a data structure. Don&rsquo;t worry about the colors of the board yet. Write a Chessboard class. What methods will you need?</p>
+</li>
+<li>
+<p>Write a method for determining if the current board state contains a queen that is threatening another one. If the complexity in terms of N (rows on the board) of your algorithm is worse than linear, try to improve your algorithm.</p>
+</li>
+<li>
+<p>We speak of &ldquo;backtracking&rdquo; when we go back to a previous state and try a different branch. Use some coins on your paper chess board to figure out what to do when you reach a state in which one queen is threatened by another. There are iterative, recursive, and random solutions to this problem. Try and implement a recursive solution.</p>
+</li>
+<li>
+<p>Now implement a search routine that looks for a state in which the queens don&rsquo;t threaten each other. If there is a solution, print it to System.out. If there is more than one solution, print them as well.</p>
+</li>
+</ol>
+<h2 id=for-the-bored>For the bored</h2>
+<ol start=5>
+<li>
+<p>Design a Chessboard GUI with a queen figure. Output the result of the program using your Chessboard GUI.</p>
+</li>
+<li>
+<p>Animate the search by showing the positions as they are tested, illuminating the threats. How long does it take to show such an attempt? How long will the program need for the exhaustive search?</p>
+</li>
+<li>
+<p>How many knights can be put on an 8 x 8 board without threatening each other?</p>
+</li>
+<li>
+<p>For which N is it possible to put N queens on an N x N board? Example: 2 queens cannot be placed on a 2 x 2 board, 3 cannot be placed on a 3 x 3 board. But 4 queens can be placed on a 4 x 4 board, for example at B1, D2, A3, C4. Can you prove this?</p>
+</li>
+</ol>
+<h2 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h2>
+<p>All info on the lab reports can be found on the <a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>Labs</a> page.</p>
+<p>Also answer the following questions in your report:</p>
 <ul>
-<li>read through the whole exercise (see below)</li>
-<li>do the pre-lab</li>
-<li>recap on what you did in the lecture</li>
-<li>note down any questions</li>
-<li>(register for a team on Moodle - see below)</li>
+<li>
+<p>Ex. 2: What is the complexity of your final method in terms of N (the number of rows on the board)? Did you need to improve your algorithm?</p>
+</li>
+<li>
+<p>Ex. 4: Does your program work for 10 queens on a 10 x 10 board? 13 on a 13 x 13 board?</p>
+</li>
 </ul>
-<h2 id=during-the-lab>During the lab:</h2>
-<p>There are two lab groups. LSF tells you which group you are in, and when and in which room the lab takes place. The labs will usually take place at the HTW. The labs may occasionally happen online - in that case I will warn you in advance. During the lab you will be working on exercises in teams (see below).</p>
-<p>Please be there on time. Please note that food and open beverages are not allowed inside the lab.</p>
-<h3 id=communication>Communication</h3>
-<p>Ask questions that can&rsquo;t wait in the Moodle Forum. That&rsquo;s better than writing an email, because this way, all people can see the answer. Of course you can also ask during the lab.</p>
-<h3 id=lab-assignments>Lab Assignments</h3>
-<ul>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-00/>Info2: Exercise 00: Programming & Tools</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-01/>Info2: Exercise 01: Application Design</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-02/>Info2: Exercise 02: Implementing CRC Cards</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-03/>Info2: Exercise 03: Histogram </a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-04/>Info2: Exercise 04: Chatterbox</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-05/>Info2: Exercise 05: Execution times</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06/>Info2: Exercise 06: Reverse Polish Notation</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-07/>Info2: Exercise 07: Recursive Triangles</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-08/>Info2: Exercise 08: Eight Queens</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06-handout/>Info2: Handout for Exercise 6: Infix/Prefix/Postfix</a></li>
-</ul>
-<h2 id=teams>Teams</h2>
-<p>You will work in teams of two or three. You will switch teams after three or four labs.
-That means you should form new teams before the following labs:</p>
-<ul>
-<li><a href=lab-01>Exercise 01 - Application Design</a></li>
-<li><a href=lab-05>Exercise 05 - Execution Times</a></li>
-<li><a href=lab-08>Exercise 08 - Eight Queens</a></li>
-<li>Exercise 11 - Finite State Automata and Sorting Algorithms</li>
-</ul>
-<p>You can chose your team mates but they should be in the same LSF group (1 or 2, aka Tuesday or Thursday group). Each team mate needs to register for the team on Moodle. I will not form teams for you, this is your own responsability. If you have not signed up for a team, you won&rsquo;t be able to hand anything in.</p>
-<h2 id=reports>Reports</h2>
-<h3 id=deadline>Deadline</h3>
-<p>Lab Reports are due at 10pm the night before your next lab.</p>
-<h3 id=grading>Grading</h3>
-<p>Lab reports won&rsquo;t be graded - they just get marked with &ldquo;ok&rdquo; or &ldquo;not ok&rdquo;.<br>
-A report is &ldquo;not ok&rdquo; if any of the following is True:</p>
-<ul>
-<li>the report is missing</li>
-<li>you are not transparent on who did what (You need to be transparent on who did what. Collaborating with people outside your team is ok,
-but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!)</li>
-<li>the report has too little significant content on the lab (see below)</li>
-<li>the report is not submitted correctly (see below)</li>
-<li>the code is not submitted correctly (see below)</li>
-</ul>
-<p>You can use the late slot (see below) to hand in rejected Lab Reports again.</p>
-<p>You will not be allowed to take the exam if you plagiarized.</p>
-<h3 id=content-of-the-report>Content of the report</h3>
-<p>Content that should go in the report:</p>
-<ul>
-<li>a summary of what the lab was about</li>
-<li>details on what you learned in this lab OR details on what the lab was about</li>
-<li>if you were asked to write code: an explanation of how you tested your code</li>
-<li>if questions were asked: the answers to the questions</li>
-</ul>
-<p><em>What if I our team didn&rsquo;t get the code to work?</em>
-It&rsquo;s ok not to have completely succeeded on the assignment, as long as you have tried sufficiently.</p>
-<p><em>How long should the report be?</em>
-Elegance lays in the ability to get to the point in as few sentences as necessary.</p>
-<p><em>Which language should the report be in?</em>
-You can write in English or German. But decide for one language.</p>
-<h3 id=how-to-submit-correctly>How to submit correctly</h3>
-<p>Please submit to Moodle <em>only</em>:</p>
-<ul>
-<li>A pdf with your report</li>
-<li>As a text answer: a link to your team&rsquo;s git repository (see below)</li>
-</ul>
-<p>Only one team member should upload the report. If team members upload different reports (or different repos), I&rsquo;ll chose one at random to review.</p>
-<h3 id=git>Git</h3>
-<p>You will use Git to manage your team&rsquo;s code. Code can only be handed in for grading via a link to the repository in the correct folder in this class' group on the IMI GitLab Server.</p>
-<p>The IMI GitLab Server can be found at: <a href=https://gl-imi.f4.htw-berlin.de>https://gl-imi.f4.htw-berlin.de</a>. It can only be reached via the HTW network. So if you are at home, use VPN (see <a href=https://rz.htw-berlin.de/anleitungen/vpn/)>https://rz.htw-berlin.de/anleitungen/vpn/)</a>.</p>
-<p>The class group can be found at: <a href=https://gl-imi.f4.htw-berlin.de/groups/info2-wise2021>https://gl-imi.f4.htw-berlin.de/groups/info2-wise2021</a>. If you registered for the course I will have added your email address. Tell me if have not been added.</p>
-<p>There will be folders for each lab. Create the repository for a lab inside that folder (Click on &ldquo;new project&rdquo;). Name it something like: &ldquo;group01-team03-lab00&rdquo; (so that it includes your group number from LSF, your team number and the lab number).</p>
-<h3 id=late-reports>Late reports</h3>
-<p>You can hand in 4 reports after their deadline, until Febuary 10th, 10pm.</p>
-<p><em>How to hand in late reports</em>
-There are 4 &ldquo;late slots&rdquo; for handing in reports after the deadline, but they have to be handed in before Febuary 10. Each person has to upload the late report by themselves, even if you worked in a team.</p>
-<p><em>But &mldr;!</em>
-If you fall ill for more than a week or are unable to continuously work on
-the lab reports for some other reason, come talk to me or at least email me as
-early as possible and we will find an individual solution.</p>
+<hr>
+<p>based on <a href=https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml>Exercise 13</a> by DWW</p>
 </div>
 </div>
 </div>
