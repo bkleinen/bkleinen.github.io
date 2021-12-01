@@ -54,3 +54,5 @@ Also answer the following questions in your report:
 * Ex.1: What is the largest equilateral triangle you can get on the screen?
 * Ex.2: How many lines of code did you write for Ex. 1 and 2?
 * Ex.2: What is your termination condition, what is the measure?
+
+{{< figure src="/images/classes/info2/sierpinsky.png" caption="Colorful Sierpinsky Triangle">}}
