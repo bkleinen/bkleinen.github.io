@@ -4,3 +4,4 @@ hugo/public
 hugo/resources/_gen
 .idea
 hugo/node_modules/
+.hugo_build.lock
