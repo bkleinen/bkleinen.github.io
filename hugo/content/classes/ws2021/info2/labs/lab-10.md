@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
-draft: true
+draft: false
 ---
 
 ![S-Bahn-Ring](/images/s-bahn.jpg)
@@ -13,9 +13,11 @@ draft: true
 
 ***P1.*** Define an interface data type for a weighted graph. What methods does it need? What are the signatures?
 
-***P2.*** Read on Depth-First-Search and Dijkstra Algorithm to compute the shortest and cheapest path in a given graph. We've covered them in class, also.
+***P2.*** Read up on Depth-First-Search to compute a path in a given graph. Sketch the algorithm on paper. Do you have an idea how you could find the *shortest* path, instead of just a path?
 
-***P3.*** Your algorithm will probably need an adjacency matrix oder an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?
+***P3.*** Read up un Dijkstra Algorithm to compute the shortest path in a given graph. Sketch the algorithm on paper.
+
+***P4.*** Your algorithm will probably need an adjacency matrix or an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?
 
 ## Assignment
 
@@ -23,11 +25,9 @@ Read through everything first and think about who will do what. Our goal is to w
 
 1. Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix.
 2. While one partner is doing this, the other one should write a class that reads a graph from a file. See notes on the file format and the example file below!
-3. Now write a method that will take a graph and two vertices and find the *shortest* path between the vertices. Make a method to print out the path in a readable format.
-4. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the *cheapest* path between the two.
-5. Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.
+3. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the shortest path, that is, the one with the least travelling time.  Make a method to print out the path in a readable format.
+4. Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.
 <pre>
-
     060192001006, S Schöneweide Bhf (Berlin)
 
     060068201511, S+U Tempelhof (Berlin) (15 min Fahrtzeit laut BVG)
@@ -43,7 +43,7 @@ Your Dijkstra implementations should yield the following travel times:
     [[60068201511, 660], [60066102852, 1224], [60053301433, 1950], [60120003653, 504]]
 </pre>
 
-(Which is a plausible result given that the Algorithm/Graph doesn't consider Time spent in Stations.)
+(Which is a plausible result given that the graph doesn't consider time spent in atations.)
 
 ## For the bored
 5. Use your data structure to print out all the vertices n steps from a given vertex.
