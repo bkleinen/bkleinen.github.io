@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Info 2 WS 2021/22 - Labs and Exercises - Prof. Dr. Barne Kleinen</title>
+<title>Info2: Exercise 10: Getting from A to B - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -89,7 +89,8 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/>info2</a></li>
-<li class="breadcrumb-item active" aria-current=page>labs</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab-10</li>
 </ol>
 </nav>
 </div>
@@ -120,125 +121,78 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 </ul>
 </div>
 <div class=container-fluid>
-<header>
+<h2 class=followed> Info2: Exercise 10: Getting from A to B</h2>
+<header class=following>
 <a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-09/>&lt;prev</a>
+<a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06-handout/>next></a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#before-the-lab-pre-labs>Before the lab: Pre-Labs</a></li>
-<li><a href=#during-the-lab>During the lab:</a>
+<li><a href=#pre-lab>Pre-Lab</a></li>
+<li><a href=#assignment>Assignment</a></li>
+<li><a href=#for-the-bored>For the bored</a></li>
+<li><a href=#graph-example-and-test-data>Graph Example and Test Data</a>
 <ul>
-<li><a href=#communication>Communication</a></li>
-<li><a href=#lab-assignments>Lab Assignments</a></li>
+<li><a href=#test-data>Test Data</a></li>
+<li><a href=#bvg-us-bahn>BVG U+S Bahn</a></li>
 </ul>
 </li>
-<li><a href=#teams>Teams</a></li>
-<li><a href=#reports>Reports</a>
-<ul>
-<li><a href=#deadline>Deadline</a></li>
-<li><a href=#grading>Grading</a></li>
-<li><a href=#content-of-the-report>Content of the report</a></li>
-<li><a href=#how-to-submit-correctly>How to submit correctly</a></li>
-<li><a href=#git>Git</a></li>
-<li><a href=#late-reports>Late reports</a></li>
-</ul>
-</li>
+<li><a href=#lab-report--what-to-turn-in>Lab Report / What to turn in</a></li>
 </ul>
 </nav>
 </div>
-<p>Welcome! On this page you find important information about the labs: How to prepare, how to communicate, what to work on, how to submit. Read through it carefully and ask if anything is unclear.</p>
-<h2 id=before-the-lab-pre-labs>Before the lab: Pre-Labs</h2>
-<p>It is IMPORTANT that you are familiar with the exercise before the lab starts. Before the lab starts do the following:</p>
+<p><img src=https://bkleinen.github.io/images/s-bahn.jpg alt=S-Bahn-Ring>
+S-Bahn Ring generated with <a href=https://github.com/bkleinen/bvg-graph>https://github.com/bkleinen/bvg-graph</a> based on OpenStreetMap</p>
+<h2 id=pre-lab>Pre-Lab</h2>
+<p><em><strong>P1.</strong></em> Define an interface data type for a weighted graph. What methods does it need? What are the signatures?</p>
+<p><em><strong>P2.</strong></em> Read up on Depth-First-Search to compute a path in a given graph. Sketch the algorithm on paper. Do you have an idea how you could find the <em>shortest</em> path, instead of just a path?</p>
+<p><em><strong>P3.</strong></em> Read up un Dijkstra Algorithm to compute the shortest path in a given graph. Sketch the algorithm on paper.</p>
+<p><em><strong>P4.</strong></em> Your algorithm will probably need an adjacency matrix or an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?</p>
+<h2 id=assignment>Assignment</h2>
+<p>Read through everything first and think about who will do what. Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.</p>
+<ol>
+<li>Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix.</li>
+<li>While one partner is doing this, the other one should write a class that reads a graph from a file. See notes on the file format and the example file below!</li>
+<li>Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the shortest path, that is, the one with the least travelling time. Make a method to print out the path in a readable format.</li>
+<li>Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.</li>
+</ol>
+<p>Your Dijkstra implementations should yield the following travel times:</p>
+<p>(Which is a plausible result given that the graph doesn&rsquo;t consider time spent in atations.)</p>
+<h2 id=for-the-bored>For the bored</h2>
+<ol start=5>
+<li>Use your data structure to print out all the vertices n steps from a given vertex.</li>
+<li>List the travel times to all stations from S Schöneweide.</li>
+<li>Are there multiple minimal paths? Print them all (this is <em>very</em> tricky!).</li>
+</ol>
+<h2 id=graph-example-and-test-data>Graph Example and Test Data</h2>
+<h3 id=test-data>Test Data</h3>
+<p><a href=../lab-10-data/graph1.txt>graph1.txt</a> contains a small example graph to test both algorithms. For the Dijkstra Algorithm, <a href=../lab-10-data/result1.txt>result1.txt</a> contains the cheapest path costs if you start at vertex 1.</p>
+<h3 id=bvg-us-bahn>BVG U+S Bahn</h3>
+<p>The graph data in <a href=../lab-10-data/bvg.txt>bvg.txt</a> contains a simple extract of the Berlin U+S Map and has the following format:</p>
+<pre><code>&lt;from-vertex&gt; &lt;to-vertex2&gt;,&lt;weight2&gt; &lt;to-vertex2&gt;,&lt;weight2&gt;
+</code></pre>
+<p>That is, each line represents a vertex with all its outgoing edges, e.g.</p>
+<pre><code>060049202852 060049201862,90 060066101852,108
+</code></pre>
+<p>means that there is an edge from 060049202852 to 060049201862 with weight 90, that is, the travel time from</p>
+<p>060049202852, S Sundgauer Str. (Berlin) to 060049201862, S Zehlendorf (Berlin) is 90 sec.</p>
+<p>You find the station names in <a href=../lab-10-data/stations.txt>stations.txt</a></p>
+<p>The graph data was extracted from the GTFS-Data provided at <a href=https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html>https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html</a> using the rails app <a href=https://github.com/bkleinen/bvg-graph>https://github.com/bkleinen/bvg-graph</a></p>
+<p>Update WS 20/21: I&rsquo;ve found the current data at <a href=https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs>https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs</a>,
+you can read about the GTFS format on <a href=https://de.wikipedia.org/wiki/General_Transit_Feed_Specification>Wikipedia</a> or on the <a href=https://gtfs.de/>GTFS für Deutschland</a>site.</p>
+<h2 id=lab-report--what-to-turn-in>Lab Report / What to turn in</h2>
+<p>All info on the lab reports can be found on the <a href=https://bkleinen.github.io/classes/ws2021/info2/labs/>Labs</a> page.</p>
+<p>Also answer the following questions in your report:</p>
 <ul>
-<li>read through the whole exercise (see below)</li>
-<li>do the pre-lab</li>
-<li>recap on what you did in the lecture</li>
-<li>note down any questions</li>
-<li>(register for a team on Moodle - see below)</li>
+<li>Ex. 1: How are you going to store the weights?</li>
+<li>Ex. 3: What class will these methods belong to?</li>
+<li>Do your implementations return the correct results?</li>
 </ul>
-<h2 id=during-the-lab>During the lab:</h2>
-<p>There are two lab groups. LSF tells you which group you are in, and when and in which room the lab takes place. The labs will usually take place at the HTW. The labs may occasionally happen online - in that case I will warn you in advance. During the lab you will be working on exercises in teams (see below).</p>
-<p>Please be there on time. Please note that food and open beverages are not allowed inside the lab.</p>
-<h3 id=communication>Communication</h3>
-<p>Ask questions that can&rsquo;t wait in the Moodle Forum. That&rsquo;s better than writing an email, because this way, all people can see the answer. Of course you can also ask during the lab.</p>
-<h3 id=lab-assignments>Lab Assignments</h3>
-<ul>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-00/>Info2: Exercise 00: Programming & Tools</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-01/>Info2: Exercise 01: Application Design</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-02/>Info2: Exercise 02: Implementing CRC Cards</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-03/>Info2: Exercise 03: Histogram </a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-04/>Info2: Exercise 04: Chatterbox</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-05/>Info2: Exercise 05: Execution times</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06/>Info2: Exercise 06: Reverse Polish Notation</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-07/>Info2: Exercise 07: Recursive Triangles</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-08/>Info2: Exercise 08: Eight Queens</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-09/>Info2: Exercise 09: Probabilistic Algorithms</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-10/>Info2: Exercise 10: Getting from A to B</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/labs/lab-06-handout/>Info2: Handout for Exercise 6: Infix/Prefix/Postfix</a></li>
-</ul>
-<h2 id=teams>Teams</h2>
-<p>You will work in teams of two or three. You will switch teams after three or four labs.
-That means you should form new teams before the following labs:</p>
-<ul>
-<li><a href=lab-01>Exercise 01 - Application Design</a></li>
-<li><a href=lab-05>Exercise 05 - Execution Times</a></li>
-<li><a href=lab-08>Exercise 08 - Eight Queens</a></li>
-<li>Exercise 11 - Finite State Automata and Sorting Algorithms</li>
-</ul>
-<p>You can chose your team mates but they should be in the same LSF group (1 or 2, aka Tuesday or Thursday group). Each team mate needs to register for the team on Moodle. I will not form teams for you, this is your own responsability. If you have not signed up for a team, you won&rsquo;t be able to hand anything in.</p>
-<h2 id=reports>Reports</h2>
-<h3 id=deadline>Deadline</h3>
-<p>Lab Reports are due at 10pm the night before your next lab.</p>
-<h3 id=grading>Grading</h3>
-<p>Lab reports won&rsquo;t be graded - they just get marked with &ldquo;ok&rdquo; or &ldquo;not ok&rdquo;.<br>
-A report is &ldquo;not ok&rdquo; if any of the following is True:</p>
-<ul>
-<li>the report is missing</li>
-<li>you are not transparent on who did what (You need to be transparent on who did what. Collaborating with people outside your team is ok,
-but be transparent about it! Using sources from the Internet/books is ok, but cite them appropriately!)</li>
-<li>the report has too little significant content on the lab (see below)</li>
-<li>the report is not submitted correctly (see below)</li>
-<li>the code is not submitted correctly (see below)</li>
-</ul>
-<p>You can use the late slot (see below) to hand in rejected Lab Reports again.</p>
-<p>You will not be allowed to take the exam if you plagiarized.</p>
-<h3 id=content-of-the-report>Content of the report</h3>
-<p>Content that should go in the report:</p>
-<ul>
-<li>a summary of what the lab was about</li>
-<li>details on what you learned in this lab OR details on what the lab was about</li>
-<li>if you were asked to write code: an explanation of how you tested your code</li>
-<li>if questions were asked: the answers to the questions</li>
-</ul>
-<p><em>What if I our team didn&rsquo;t get the code to work?</em>
-It&rsquo;s ok not to have completely succeeded on the assignment, as long as you have tried sufficiently.</p>
-<p><em>How long should the report be?</em>
-Elegance lays in the ability to get to the point in as few sentences as necessary.</p>
-<p><em>Which language should the report be in?</em>
-You can write in English or German. But decide for one language.</p>
-<h3 id=how-to-submit-correctly>How to submit correctly</h3>
-<p>Please submit to Moodle <em>only</em>:</p>
-<ul>
-<li>A pdf with your report</li>
-<li>As a text answer: a link to your team&rsquo;s git repository (see below)</li>
-</ul>
-<p>Only one team member should upload the report. If team members upload different reports (or different repos), I&rsquo;ll chose one at random to review.</p>
-<h3 id=git>Git</h3>
-<p>You will use Git to manage your team&rsquo;s code. Code can only be handed in for grading via a link to the repository in the correct folder in this class' group on the IMI GitLab Server.</p>
-<p>The IMI GitLab Server can be found at: <a href=https://gl-imi.f4.htw-berlin.de>https://gl-imi.f4.htw-berlin.de</a>. It can only be reached via the HTW network. So if you are at home, use VPN (see <a href=https://rz.htw-berlin.de/anleitungen/vpn/)>https://rz.htw-berlin.de/anleitungen/vpn/)</a>.</p>
-<p>The class group can be found at: <a href=https://gl-imi.f4.htw-berlin.de/groups/info2-wise2021>https://gl-imi.f4.htw-berlin.de/groups/info2-wise2021</a>. If you registered for the course I will have added your email address. Tell me if have not been added.</p>
-<p>There will be folders for each lab. Create the repository for a lab inside that folder (Click on &ldquo;new project&rdquo;). Name it something like: &ldquo;group01-team03-lab00&rdquo; (so that it includes your group number from LSF, your team number and the lab number).</p>
-<h3 id=late-reports>Late reports</h3>
-<p>You can hand in 4 reports after their deadline, until Febuary 10th, 10pm.</p>
-<p><em>How to hand in late reports</em>
-There are 4 &ldquo;late slots&rdquo; for handing in reports after the deadline, but they have to be handed in before Febuary 10. Each person has to upload the late report by themselves, even if you worked in a team.</p>
-<p><em>But &mldr;!</em>
-If you fall ill for more than a week or are unable to continuously work on
-the lab reports for some other reason, come talk to me or at least email me as
-early as possible and we will find an individual solution.</p>
 </div>
 </div>
 </div>
