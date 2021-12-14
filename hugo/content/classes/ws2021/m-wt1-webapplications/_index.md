@@ -12,6 +12,8 @@ courseNavInt:
   link: "/classes/ws2021/m-wt1-webapplications/schedule/"
 - title: Sprint
   link: "/classes/ws2021/m-wt1-webapplications/sprint/"
+- title: Assignments
+  link: "/classes/ws2021/m-wt1-webapplications/assignments/"
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=33322
