@@ -1,7 +1,6 @@
 <!doctype html><html>
 <head>
-<meta name=generator content="Hugo 0.90.1">
-<title>Prof. Dr. Barne Kleinen - Prof. Dr. Barne Kleinen</title>
+<title>Lab 04 - Network Layer - Data Plane - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -22,7 +21,7 @@
 <div class="col-md-10 c1 p-2"><div class=container-flex>
 <div class=row>
 <div class=col-9>
-<h1 class="c5 title"> Prof. Dr. Barne Kleinen </h1>
+<h1 class="c5 title"> B9 Networks WS 2021/22 - Labs </h1>
 <small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
 at <a href=https://www.htw-berlin.de>HTW Berlin</a>
@@ -39,10 +38,10 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <div class=nav>
 <ul class="nav flex-md-column">
 <li class=nav-item>
-<a class="nav-link active" href=https://bkleinen.github.io/>Home</a>
+<a class=nav-link href=https://bkleinen.github.io/>Home</a>
 </li>
 <li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a>
+<a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a>
 <div class=dropdown-menu>
 <a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/info2/>B7 Info 2</a>
 <a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/networks/>B9 Networks</a>
@@ -86,56 +85,104 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <div class=outer>
 <nav aria-label=breadcrumb role=navigation>
 <ol class="breadcrumb breadcrumb-thin">
-<li class="breadcrumb-item active" aria-current=page>Home</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/>networks</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab04</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav>
 <ul class="nav nav-tabs">
 <li class=nav-item>
-<a class=nav-link href="https://moodle.htw-berlin.de/course/view.php?id=21638">IMI-FAQ</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://imi-map.f4.htw-berlin.de/>IMI-Map</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://wiki.htw-berlin.de/confluence/display/fb4imi/FB4+Internationale+Medieninformatik>IMI-Wiki</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://imi-blog.de/>IMI-Blog</a>
+<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/>Overview</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/schedule/>Schedule</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/flipped/>Flipped Classroom</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/resources/>Resources</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=https://bkleinen.github.io/classes/ws2021/networks/labs/>Labs</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a>
+<div class=dropdown-menu>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33323">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178930">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=179397">Lab in LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-networks>GitHub</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+</div>
 </li>
 </ul>
 </div>
 <div class=container-fluid>
-<div class=box>
-<h4>Classes Winter Term 2021</h4>
-<div>
-<div class="col-12 col-md-6 mb-2">
+<h2 class=followed> Lab 04 - Network Layer - Data Plane</h2>
+<header class=following>
+<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
+Table of Contents
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=https://bkleinen.github.io/classes/ws2021/networks/labs/lab03/>&lt;prev</a>
+</header>
+<div class=collapse id=tocContent>
+<nav id=TableOfContents>
 <ul>
-<li><a href=https://bkleinen.github.io/classes/ws2021/info2/>B7 Informatics 2 WS 2021/22</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/networks/>B9 Networks WS 2021/22</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/project/>B4 Projekt: Bessere Wahlpflichtkursbelegung</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/m1-web/>M1 Media Programming</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/>WT1 Web Applications WS 2021/22</a></li>
-<li><a href=https://bkleinen.github.io/classes/ws2021/theses/>Theses</a></li>
+<li><a href=#chapter-04>Chapter 04</a></li>
+<li><a href=#part-1-ip-adresses>Part 1: IP Adresses</a>
+<ul>
+<li><a href=#a-determine-address-blocks-and-locations>A. determine Address Blocks and Locations</a></li>
+<li><a href=#b-private-addresses>B. Private Addresses</a></li>
 </ul>
+</li>
+<li><a href=#part-2-wireshark-labs-for-ip>Part 2: Wireshark Labs for IP</a>
+<ul>
+<li><a href=#lab-report>Lab Report</a></li>
+</ul>
+</li>
+</ul>
+</nav>
 </div>
-</div>
-<a href=https://bkleinen.github.io/classes/>All Classes (Archive)</a>
-<br><br>
-</div>
-<div class=box>
-<h4>Thesis</h4>
-<p>There is also some info here if you consider writing your <a href=studies/thesis/>Thesis</a> or <a href=studies/ic/>Independent Coursework</a> with me.</p>
-</div>
-<div class=box>
-<h4>Office Hours</h4><p>Office Hours in WS 2021/22: usually Thursdays 14:30-15:30<br>
-in my office or via <a href>Zoom</a>, simply in the order
-<a href=https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen>
-you've registered in the wiki.
-</a></p>
-<br>
-</div>
-<div class=below>
-&nbsp;
-</div>
+<p>This lab summarizes lecture and lab assignments around chapter 04 of the textbook.</p>
+<p>The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions.</p>
+<p>You need to include all parts in your lab report for this assignment.</p>
+<h2 id=chapter-04>Chapter 04</h2>
+<p>This will be a short lab & report briefly before christmas.</p>
+<h2 id=part-1-ip-adresses>Part 1: IP Adresses</h2>
+<h3 id=a-determine-address-blocks-and-locations>A. determine Address Blocks and Locations</h3>
+<p>(similar to P16 in the book)
+Use the whois service at the American Registry for Internet Numbers -
+<a href=https://search.arin.net/rdap/>ARIN Whois/RDAP - American Registry for Internet Numbers</a> - to determine the IP address blocks for the three universities in Berlin as
+well as the HTW and BHT. Hint: you may need to find out the/one ip addresses first.
+Caan the whois services be used to determine with certainty the geographical location of a specific IP address?
+Use <a href=http://www.maxmind.com>www.maxmind.com</a> to determine the locations of the Web servers at each of these universities.</p>
+<p>Now try the same from home / using your private ISP connection. What can you
+learn about your ISP and your location using this services? (You may want to do
+this for each person in your team and compare the results.)</p>
+<p>If you haven&rsquo;t so far, try it with the ip for tu-berlin.de.</p>
+<h3 id=b-private-addresses>B. Private Addresses</h3>
+<p>(R29) What is a private network address? Should a datagram with a private
+network address ever be present in the larger public Internet? Explain.</p>
+<h2 id=part-2-wireshark-labs-for-ip>Part 2: Wireshark Labs for IP</h2>
+<p>We continue working on the
+<a href=https://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wireshark-Labs</a>.</p>
+<p>Download the Version 8.1. of the Lab &ldquo;IP&rdquo; work through it.</p>
+<p>Provide the answers to the questions in your lab report.</p>
+<h3 id=lab-report>Lab Report</h3>
+<p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
+You may work on the reports in flexible teams of 2-3 students.</p>
+<p>Always put the names of all contributing people on your report.</p>
+<p>Each one of you has to hand in the completed Report individually in moodle
+by Friday 17:00 after the second lab meeting!</p>
+<p>In your report, describe what you did and what you found,
+as well as errors or problems you&rsquo;ve encountered.</p>
 </div>
 </div>
 </div>
@@ -164,9 +211,7 @@ you've registered in the wiki.
 <div class=col-9>
 This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 <br><small>
-This page was authored by: B. Kleinen
-Version: 10e2b408 (v1.74)
-deployed by workflow: Deploy Production / Github
+This page was authored by: kleinen
 </small>
 </div>
 <div class=col-3>
