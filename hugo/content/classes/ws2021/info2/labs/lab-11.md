@@ -2,7 +2,6 @@
 title: 'Info2: Exercise 11: Finite State Automata and Sorting Algorithms'
 author: kleinen
 layout: lab
-draft: true
 ---
 
 ## Pre-Lab
@@ -18,12 +17,10 @@ Really good more detailed explanations can be found at the Back to Back SWE YouT
 * [Quick Sort](https://youtu.be/uXBnyYuwPe8)
 * [Heap Sort](https://youtu.be/k72DtCnY4MU)
 
-## Assignment
-
-### Part 1: Finite Automata
+## Assignment 1: Finite Automata
 This is to get some practice with Finite Automata.
 
-#### A: Understand Finite Automata
+### Exercise 1: Understand Finite Automata
 The following two Finite Automata are given by their transition tables:
 
 **Automaton A**
@@ -46,10 +43,10 @@ Start state: q1, accept states: q2, q4
 | q3 | q4 | q2 |
 | q4 | q3 | q1 |
 
-1. Draw transition diagrams for all two Finite Automatas and describe the language they accept in English (or German) sentences. Are they DFA or NFA?
-2. What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab11_DFA](https://github.com/htw-imi-info2/Lab11_DFA).
+a) Draw transition diagrams for all two Finite Automatas and describe the language they accept in English (or German) sentences. Are they DFA or NFA?
+b) What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab11_DFA](https://github.com/htw-imi-info2/Lab11_DFA).
 
-#### B: Design Finite Automata
+### Exercise 2: Design Finite Automata
 The following three Finite Automata are given by their description:
 
 **Automaton C**: The Finite Automaton accepts all strings of 0's and 1's not containing 010 as a substring.
@@ -58,11 +55,11 @@ The following three Finite Automata are given by their description:
 
 **Automaton E**: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
 
-2. Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata. Are they DFA or NFA?
-3. Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
+a) Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata. Are they DFA or NFA?
+b) Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
 
-### Part 2: Sorting
-4. Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each persone should do at least one walkthrough. Use the exact algorithms from the repository.
+## Assignment 2: Sorting
+Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each person should do at least one walkthrough. Use the exact algorithms from the repository. 
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
