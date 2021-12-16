@@ -24,16 +24,24 @@ Outline your Project. Include
 - Technical Design
 
 ## 2. CI/CD
+Set up Continuous Integration and - Deployment for your project. You don't need
+to have 100% or even 60% code coverage necessarily, but consider carefully what
+to do and answer the questions in your report.
+
 - Set up Continuous Integration with
-    - Automated Tests
-    - Code Quality Assurance
-- Set up Continuous Deployment to HTW Server using Docker Containers
+    - Automated Tests: Which tests should you have to most effectively ensure
+      that your app is still working after a change? Which are the most important
+      features, how can you test most effectively? (think UI Tests vs Unit test, see [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html))
+    - Code Quality Assurance - find and test one code quality assurance tool
+    - How does your deployment pipeline look like? which steps are automatic, which
+      require manual interaction and which one? see [DeploymentPipeline](https://martinfowler.com/bliki/DeploymentPipeline.html).
+- Set up Continuous Deployment to  HTW Server using Docker Containers
+
 
 ## Infrastructure Parts (one for each group)
 
 1. Server Setup and Administration
 2. Hugo Setup and Administration
-3. Overview Page Webbook
-4. Overview Page Projects
-5. Git Repos Organisation
-6. Overview Page CI/CD Pipelines
+3. Overview Pages Webbook, Projects
+4. Git Repos Organisation
+5. Overview Page CI/CD Pipelines
