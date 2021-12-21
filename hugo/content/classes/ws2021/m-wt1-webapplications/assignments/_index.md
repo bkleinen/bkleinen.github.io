@@ -34,8 +34,9 @@ to do and answer the questions in your report.
       features, how can you test most effectively? (think UI Tests vs Unit test, see [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html))
     - Code Quality Assurance - find and test one code quality assurance tool
     - How does your deployment pipeline look like? which steps are automatic, which
-      require manual interaction and which one? see [DeploymentPipeline](https://martinfowler.com/bliki/DeploymentPipeline.html).
-- Set up Continuous Deployment to  HTW Server using Docker Containers
+      require manual interaction and if, which one?
+      see [DeploymentPipeline](https://martinfowler.com/bliki/DeploymentPipeline.html).
+- Set up Continuous Deployment to  HTW Server using Docker Containers.
 
 
 ## Infrastructure Parts (one for each group)
