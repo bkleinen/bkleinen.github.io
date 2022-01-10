@@ -21,7 +21,7 @@ draft: false
 Outline your Project. Include
 - Names of all Contributers
 - Technological Challenge
-- Technical Design
+- Technical Designs
 
 ## 2. CI/CD
 Set up Continuous Integration and - Deployment for your project. You don't need
