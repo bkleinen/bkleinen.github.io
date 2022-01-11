@@ -8,10 +8,10 @@ draft: false
 
 1. Project Descriptions / Technical Challenge
 2. CI/CD Documentation
-3. Book Chapters for Review
-4. (Peer-) Reviews of Book Chapters
-5. Usability Assessments
-6. Security Assessments
+3. 10.1. Book Chapters for Review
+4. 17.1. (Peer-) Reviews of Book Chapters
+5. 31.1. .Usability Assessments
+~~6. Security Assessments~~
 7. Final Book Chapters
 8. Documentation of Infrastructure-Part
 9. Final Project Documentation
