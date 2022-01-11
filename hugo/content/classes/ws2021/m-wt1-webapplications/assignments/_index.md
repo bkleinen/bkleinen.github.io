@@ -38,6 +38,44 @@ to do and answer the questions in your report.
       see [DeploymentPipeline](https://martinfowler.com/bliki/DeploymentPipeline.html).
 - Set up Continuous Deployment to  HTW Server using Docker Containers.
 
+## 3. Usability
+
+1. Watch the demo video on Krug's Site to get an Idea how to conduct a usability test: [Usability Test Demo by Steve Krug - YouTube](https://www.youtube.com/watch?v=1UCDUOB_aS8)
+2. Decide which site to test (your own or another).
+   If you choose another site, (e.g. because your prototype is not in the stage to
+   be subjected to a usability test just yet) choose one that supports
+   the same or at least similar tasks that you want to support and
+   be clear on the task(s) that you want to test / are interested in.
+3. Document your decision in your report.
+4. Using the [Material on Steve Krug's site - especially the test script -](https://www.sensible.com/download-files/)
+   conduct and document one usability test per person in your team, with pairs of
+   two per test: one conducts the test, one is the observer.
+   You may do exchanges between the teams for finding test persons, but you may
+   also choose to find other test persons.
+5. Identify 2-3 important usability issues and suggest a way to fix them (e.g.
+   Sketch and description of changes to interface)
+
+### Resources for Usability Tests
+
+- Usability Test Slides in Moodle
+- [Downloads | Steve Krug](https://www.sensible.com/download-files/):
+    - http://sensible.com/downloads/test-script-web.pdf
+    - http://sensible.com/downloads/test-script-web.doc
+    - http://sensible.com/downloads/test-script-mobile-11-20.pdf
+    - http://sensible.com/downloads/test-script-mobile-11-20.doc
+    - http://sensible.com/downloads/permission-form.pdf
+    - http://sensible.com/downloads/permission-form.doc
+    - http://sensible.com/downloads/checklists.pdf
+    - http://sensible.com/downloads/checklists.doc
+    - http://sensible.com/downloads/things-a-therapist-would-say.pdf
+    - http://sensible.com/downloads/things-a-therapist-would-say.doc
+    - http://sensible.com/downloads/instructions-for-observers.pdf
+    - http://sensible.com/downloads/instructions-for-observers.doc
+    - http://sensible.com/downloads/hall-monitor-guide.pdf
+    - http://sensible.com/downloads/hall-monitor-guide.doc
+    - http://ptgmedia.pearsoncmg.com/imprint_downloads/peachpit/peachpit/videosampleclips/krug/SteveKrug_UsabilityDemo.mov
+
+
 
 ## Infrastructure Parts (one for each group)
 
