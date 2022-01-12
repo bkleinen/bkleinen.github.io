@@ -34,9 +34,9 @@ This schedule is, as always, tentative and will be updated during the term.
 |     | 52  | Wed 29/12/2021      | Vorlesungsfrei                                                                                  | --                                                               |
 |     |     | Thu 30/12/2021      | Vorlesungsfrei                                                                                  |                                                                  |
 | 13  | 1   | Wed 05/01/2022      |                                                                                                 |                                                                  |
-|     |     | Thu 06/01/2022      | The Network Layer: Control Plane [5.5-5.7](https://gaia.cs.umass.edu/kurose_ross/videos/5/)     |                                                                  |
+|     |     | Thu 06/01/2022      |   --                                                                                              |                                                                  |
 | 14  | 2   | Wed 12/01/2022      |                                                                                                 | 5                                                                |
-|     |     | Thu 13/01/2022      |                                                                                                 |                                                                  |
+|     |     | Thu 13/01/2022      | The Network Layer: Control Plane [5.5-5.7](https://gaia.cs.umass.edu/kurose_ross/videos/5/)     |                                                                  |
 | 15  | 3   | Wed 19/01/2022      |                                                                                                 | 5                                                                |
 |     |     | Thu 20/01/2022      | The Link Layer and LANs [6.1-6.4](https://gaia.cs.umass.edu/kurose_ross/videos/6/)              |                                                                  |
 | 16  | 4   | Wed 26/01/2022 PZ 1 |                                                                                                 | 6                                                                |
@@ -45,3 +45,4 @@ This schedule is, as always, tentative and will be updated during the term.
 |     |     | Thu 03/02/2022      | Exam PZ 1                                                                                       |                                                                  |
 | 18  | 6   | Wed 09/02/2022      |                                                                                                 |                                                                  |
 |     |     | Thu 10/02/2022      | Exam PZ 1: Klausureinsicht                                                                      |                                                                  |
+|     |     |                     |                                                                                                 |                                                                  |
