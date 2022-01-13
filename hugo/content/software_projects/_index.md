@@ -4,7 +4,7 @@ author: unckell
 ---
 
 # Projekte
-* [Module Handbook](https://github.com/bkleinen/module-handbook) (Rails)
+* [Modulehandbook]({{< ref "software_projects/modulehandbook.md" >}} "Modulehandbook") (Rails)
 * [MERN Prototype of the Module Handbook](https://github.com/htw-imi-wtat1/module-handbook), [Demo on Heroku](https://wtat1-module-handbook.herokuapp.com/)
 * [Lehreinsatzplanungsparser](https://github.com/bkleinen/lehreinsatzplanungsparser) (MEN)
 * [IMI-Map]({{< ref "/classes/ss2021/project" >}} "IMI-Map") (Rails & MEVN)
