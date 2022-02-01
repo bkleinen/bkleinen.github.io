@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Software Projects - Prof. Dr. Barne Kleinen</title>
+<title>Modulehandbook - Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -16,7 +16,7 @@
 <div class="col-md-10 c1 p-2"><div class=container-flex>
 <div class=row>
 <div class=col-9>
-<h1 class="c5 title"> Software Projects </h1>
+<h1 class="c5 title"> Modulehandbook </h1>
 <small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
 at <a href=https://www.htw-berlin.de>HTW Berlin</a>
@@ -81,40 +81,37 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <nav aria-label=breadcrumb role=navigation>
 <ol class="breadcrumb breadcrumb-thin">
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
-<li class="breadcrumb-item active" aria-current=page>software_projects</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/software_projects/>software_projects</a></li>
+<li class="breadcrumb-item active" aria-current=page>modulehandbook</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav></div>
 <div class=container-fluid>
-<h1 id=projekte>Projekte</h1>
+<h1 id=writing-and-developing-modulehandbooks-together>Writing and Developing Modulehandbooks Together</h1>
+<p>Module handbooks are a very important basis for the planning and organization of studies and for the recognition of credits already earned. The planning of completely new study programs and modules as well as their further development are based on the module handbooks.</p>
+<p>In order to be able to develop the module handbooks in a pleasant way, a process is needed in which it is possible to obtain feedback in an uncomplicated way and to accompany the university politics process. Typically, a lot of DOCX and PDF files are sent back and forth, making it difficult to keep track of the latest version and revision history after a while.</p>
+<p>To better organize this process within the project <a href="https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2839">German International University of Applied Sciences (GIU AS)</a> and to make it more convenient and efficient we have developed the modulehandbook app. It should make it easier to develop and write module handbooks together, to get feedback, and to accompany the university policy process.</p>
+<hr>
 <ul>
-<li><a href=https://bkleinen.github.io/software_projects/modulehandbook/ title=Modulehandbook>Modulehandbook</a> (Rails)</li>
-<li><a href=https://github.com/htw-imi-wtat1/module-handbook>MERN Prototype of the Module Handbook</a>, <a href=https://wtat1-module-handbook.herokuapp.com/>Demo on Heroku</a></li>
-<li><a href=https://github.com/bkleinen/lehreinsatzplanungsparser>Lehreinsatzplanungsparser</a> (MEN)</li>
-<li><a href=https://bkleinen.github.io/classes/ss2021/project/ title=IMI-Map>IMI-Map</a> (Rails & MEVN)</li>
-<li><a href=https://github.com/htw-imi-projects/topics-driven-backlog>Topics Driven Backlog</a> (Rails, Vue). <a href=http://backlog.f4.htw-berlin.de/>Server</a></li>
-<li><a href=https://github.com/htw-imi-projects/TheMissingTool>The Missing Tool</a> (Node, Express, Plain JavaScript, <a href=https://showtime.f4.htw-berlin.de/ss20/bachelor/b5-the-missing-tool-projekt/>Praxisprojekt im SS20</a></li>
-<li>IN_VISIBLE - <a href=https://github.com/project-invisible/frontend>Frontend</a> (React), <a href=https://github.com/project-invisible/backend>Backend</a> (Java), <a href=https://github.com/project-invisible/wiki/wiki>Documentation</a></li>
+<li>Sourcecode Repository <a href=https://github.com/modulehandbook/modulehandbook>on Github</a></li>
+<li>Staging Server <a href=https://module-handbook.herokuapp.com/>on Heroku</a></li>
+<li>Please collect Issues <a href=https://github.com/modulehandbook/modulehandbook/issues>as Github Issues</a></li>
 </ul>
-<h2 id=bachelor-theses>Bachelor Theses</h2>
-<ul>
-<li>PollPlus (to come) (MERN)</li>
-<li><a href=https://github.com/htw-imi-projects/grasp>grasp</a> (Rails)</li>
-<li><a href=https://github.com/htw-imi-projects/studyplan>StudyPlan</a> (MEVN)</li>
-</ul>
-<h2 id=private-projects>Private Projects</h2>
-<ul>
-<li><a href=https://github.com/arloff/bookings>Arloff Bookings</a> (Rails)</li>
-<li><a href=https://github.com/arloff/arloff.github.io>arloff.github.io</a> (Jekyll)</li>
-</ul>
-<h2 id=small-projects>Small Projects</h2>
-<ul>
-<li><a href=https://github.com/bkleinen/bvg-graph>BVG-Graph</a> (Rails)</li>
-<li><a href=https://github.com/htw-corona-update/htw-corona-update>HTW Corona Update</a> (shell script, cron)</li>
-<li><a href=https://bkleinen.github.io/html/markdown-editor/markdown-editor.html>Markdown Editor</a></li>
-<li><a href=https://bkleinen.github.io/html/lsf-emailcollector.html>LSF-Emailcollector</a></li>
-</ul>
+<hr>
+<h2 id=features>Features:</h2>
+<h3 id=single-source-of-truth>Single Source of Truth</h3>
+<p>The modulehandbook app replaces the practice of sending DOCX and PDF files back and forth. The single source of truth is the database of the app which also means, that every involved party always has the current version of the module handbooks available.</p>
+<h3 id=user-roles>User Roles</h3>
+<p>The modulehandbook app supports multiple different user roles allowing users to participate in different positions ranging from read only accounts to active participants.</p>
+<h3 id=tracking-status>Tracking Status</h3>
+<p>The modulehandbook app makes it possible to track the processing status of courses and study programs and also accompanies the university politics process. This makes it easier to see what is finished, what is still being worked on, and what is still waiting for a vote or has already been voted on.</p>
+<h3 id=course-versioning>Course Versioning</h3>
+<p>The modulehandbook app tracks the version history of each course so it is possible to revert to any previous version with ease if needed.</p>
+<h3 id=less-redundant-files>Less Redundant Files</h3>
+<p>The modulehandbook app allows to use the same module description multiple times in multiple study programs. There is no more need to have the module description of the same course multiple times different study programs which leads to less redundant files.</p>
+<h3 id=export-to-word-and-json>Export to Word and JSON</h3>
+<p>The modulehandbook app has the ability to export the complete module handbook for a study program or a single module description either as a Word-file (.docx) or as JSON for further editing.</p>
 </div>
 </div>
 </div>
