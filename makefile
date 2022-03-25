@@ -2,16 +2,19 @@
 .PHONY : hugo
 .RECIPEPREFIX = -
 
-hugo :  open
+hugo/node_modules :
+-  cd hugo ; npm install ; cd ..
+
+hugo :  hugo/node_modules open
 -  hugo --buildDrafts --source hugo -p 4242 server
 
-hugoP : open # as published; there might be differences as there are isServer queries
+hugoP : hugo/node_modules open # as published; there might be differences as there are isServer queries
 -  hugo --environment production --source hugo -p 4242 server
 
-hugoS : openS # staging; without drafts
+hugoS : hugo/node_modules openS # staging; without drafts
 -  hugo --environment staging --source hugo -p 4242 server
 
-hugoSD : openSD # staging; like production but with drafts
+hugoSD : hugo/node_modules openSD # staging; like production but with drafts
 -  hugo --buildDrafts --environment stagingdrafts --source hugo -p 4242 server
 
 c :
