@@ -24,46 +24,27 @@
   weight = -290
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2021/info2'
-  name = 'B7 Info 2'
-  pageref = '/classes/ws2021/info2'
+  identifier = '/classes/ss2022/info1'
+  name = 'B1 Info 1'
+  pageref = '/classes/ss2022/info1'
   weight = 5
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2021/networks'
+  identifier = '/classes/ss2022/networks'
   name = 'B9 Networks'
-  pageref = '/classes/ws2021/networks'
+  pageref = '/classes/ss2022/networks'
   weight = 10
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2021/project'
-  name = 'Project'
-  pageref = '/classes/ws2021/project'
-  weight = 15
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ws2021/m1-web'
-  name = 'M1 Labs'
-  pageref = '/classes/ws2021/m1-web'
-  weight = 20
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ws2021/m-wt1-webapplications'
-  name = 'M WT1 WebApps'
-  pageref = '/classes/ws2021/m-wt1-webapplications'
-  weight = 30
-
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ws2021/theses'
+  identifier = '/classes/ss2022/theses'
   name = 'Theses'
-  pageref = '/classes/ws2021/theses'
+  pageref = '/classes/ss2022/theses'
   weight = 35
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2021'
-  name = 'All WS 21/22'
-  pageref = '/classes/ws2021'
+  identifier = '/classes/ss2022'
+  name = 'All SoSe 2022'
+  pageref = '/classes/ss2022'
   weight = 40
 [[main]]
   parent = 'classes'

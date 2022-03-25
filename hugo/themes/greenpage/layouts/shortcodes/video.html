@@ -1,0 +1,6 @@
+{{- $text := .Get 0 }}
+{{ $video_no := .Get 1 }}
+{{ $video := (printf "no_%d" $video_no) }}
+{{ $videos := $.Site.Data.info1_video_links.videos}}
+{{ $video_link := index $videos $video}}
+<a href="{{ $video_link }}">{{- $text -}}</a>

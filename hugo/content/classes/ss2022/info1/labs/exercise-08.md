@@ -1,46 +1,45 @@
 ---
-title: 'Exercise 08: Lotto and ...'
+title: 'Exercise 08: Bouncing Balls'
 author: kleinen
-layout: lab
+source: https://github.com/htw-imi-info1/exercise08
+draft: true
 ---
+<!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
+This week's lab work is intended give you practice working with the basic concepts of programming.
 
-<figure class = "figure">
-   <img class="figure-img img-fluid" src="../../images/lotto.jpg"  alt="Lotto">
-  <figcaption class="figure-caption text-right">German Lotto Slip, <a href="https://www.flickr.com/photos/rene-germany/98668296">Foto by ReneS</a></figcaption>
-</figure>
+## Pre Lab
 
-This week's lab work is intended give you practice using the Random class.
+**P0**. Download and open the [Balls project](https://github.com/htw-imi-info1/exercise08) (concerns Chapter 06 in the book). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.
 
-* * *
+**P1.** Read the documentation of the Canvas class. Then answer the following questions in writing, including fragments of Java code:
 
-# Pre-Lab
+  1. How do you create a Canvas?
+  2. How do you make it visible?
+  3. How do you draw a line?
+  4. How can you erase something?
+  5. What is the difference between draw and fill?
+  6. What does wait do?
 
-Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
+# What To Hand In
+Please hand in:
+* zip-folder with your code
+* lab report as pdf
 
-**P1**. How do you generate random numbers between 1 and 10 with Java? In what package is the library?
-
-**P2.** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
-
-**P3.** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
-
-**P4.** Where can you find information about javadoc on the Internet?
-
-* * *
-
-# Post-Lab, AKA  What To Turn In
-
-* pdf: the lab report, including a table with your frequencies for the Lotto numbers picked.
-* zip: the final version of your Lotto code, properly and thoroughly documented with javadoc.
-
-Lab assignments are due on thursday at 22:00.
+Lab assignments are due tuesday at 10pm.
 
 * * *
 
 # Assignment
 
-## Lotto
+# Bouncing Balls
 
-1. Create a class that will be doing some testing of random numbers. Make a method that picks the six numbers for next Saturday between 1 and 49. Note that no two numbers may be the same! How do you avoid this?
-2. Expand the method to count how often each number is picked.
-3. Now pick the 6 lotto numbers 1000 times. Print out the frequencies.
-4. Repeat for 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and include it in your report.
+0. Install the Bouncing Balls project in the lab. Experiment with canvas operations by making changes to the drawDemo method BallDemo. Draw some more lines, shapes and text. What did you find out and how? Document your experiments in your lab report.
+
+1. Draw a frame around the canvas by drawing a rectangle 20 pixels inside the window borders. Put this functionality into a method called drawFrame in the BallDemo class.
+2. Improve your `drawFrame` method to adapt automatically to the current canvas's size -that is, do not hard-code the size of the canvas into this method. To do this, you need to find out how to make use of an object of class Dimension. (Hint: check the Java documentation). Test it by manually resizing the canvas and calling drawFrame again. (Note: you don't need drawFrame to be called automatically when the canvas is resized. Also: The frame does not to resize automatically when resizing the frame! This is an optional exercise - see below.)
+
+3. Change the method bounce to let the user choose how many balls should be bouncing. The balls should initially be placed in a row along the top of the canvas. Use a collection to store the balls so that you can deal with one, three, or 75 balls at once.  But what kind of a collection? We know about lists, maps, sets and arrays. Explain in your report why you chose the collection you did.
+4. Change the method bounce to place the balls randomly anywhere in the top half of the screen.
+
+5. (For the bored) Write a new method named boxBounce. This method draws a rectangle (the 'box') on the canvas, and one or more balls inside the box. For the balls, do not use BouncingBall, but create a new class BoxBall that moves around inside the box, bouncing off the walls of the box so that it always stays inside. The initial position and speed of the ball should be random. The boxBounce method should have a parameter that specifies how many balls are in the box.
+6. (For the really bored) Give the balls in boxBounce random colors. Include a method to change the size. Make balls that get larger and smaller. Make exploding balls that produce new ones when they disappear. Or whatever catches your fancy.

@@ -1,31 +1,22 @@
 ---
-title: 'Exercise 12: The World of You'
+title: 'Exercise 12: Pick up and Carry'
 author: kleinen
 layout: lab
+draft: true
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
-This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester. The groups you form today will stay groups for the remaining part of the semester!
+This week's lab work will finish up your project.
 
 # Pre-lab
-Please bring these exercises printed out or written out with you to the lab.
 
-**P0**. Invent your own game scenario away from the computer. Don&#8217;t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:
+Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
 
-*   White blood cells traveling through the body in search of viruses to attack
-*   Finding the exit in a big shopping mall
-*   A mole must find the food hidden in one of his burrows before winter comes
-*   An adventurer is looking for a monster in a series of dungeons
-*   The bomb squad must find the room with the bomb before it goes off.
-*   The NSA is looking for Ed Snowdon and going from country to country.
+**P0**. Here are some informal specifications: A player must be able to pick up items from the current room. They can carry any number of items, but only up to a maximum weight limit. Some items are too heavy to be picked up. The player can drop one or all items in the current location. What changes are you going to have to make to your game? Don't program them yet, just specify the changes that need to be made to each class in writing.
 
-Be creative! Give your game a name.
+**P1.** There are (at least) two ways to make an item too heavy to pick up. We can just make them very heavy, and define what the maximum weight a player can pick up is. Or we can have a Boolean field `canBePickedUp`. Which solution do you think is better? Why?
 
-**P1**. What is the goal of your game, that is, when does the player win?
-
-**P2.** What could you add to the game to make it interesting? Trap doors, treasure, monsters, &#8230;
-
-**P3.** Draw a map of your game layout.
+**P2.** What sort of a data structure are you going to use to keep track of all the items a player has? Why?
 
 # What To Hand In
 Please hand in:
@@ -33,41 +24,30 @@ Please hand in:
 * lab report as pdf (max. 5 pages)
 
 The lab report should have:
-* Answers to all pre-lab questions
-* Answers to the questions from the assigment (A1, A5)
+* Answers to pre-lab questions P1 and P2
+* Answers to the explicit questions from the assigment
 * Complete transparency on who did what
 * The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
 * Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* A summary of what you did & learned in the lab
+* A summary of what you did and a summary of what you learned in the lab
 * A description of how you tested your code solutions
 
-Lab assignments are due the day before your next lab at 10pm. That will be after the winter holidays in about three weeks!
-
-## Update on grading
-Until today, each requirement of the lab report gave you one star plus one star for complete working code. For Lab10 and the following labs, the grading will be updated:
-* 1 star for working code
-* 1 star for the challenges requirement
-* 0.5 stars for a summary of what you did
-* 0.5 stars for a summary of what you learned
-* 0.5 stars for the team work requirement
-* 0.5 stars for the test documentation requirement
-* 1 star for completing & reflecting on the *special challenge* of a lab
-
-* * *
+Lab assignments are due the day before your next lab at 10pm.
 
 # Assignment
 
-**World of You**
+## Picking up Items
+0. If not already there, make sure there is an Item class in the project. Items have names, descriptions, and weights. Make sure you can print out an item's description.
+1. Implement a command "take" that has the name of the item as the second parameter. What happens if the item to be taken is not in the room?
+2. Implement the command "drop" to get rid of an item. "drop all" should do just that, drop all items currently carried.
 
-0.  Start with the bad Zuul game with tests - [your-zuul](https://github.com/htw-imi-info1/exercise10) -  and refactor it as discussed in the lectures. If you are doing mole burrows instead of rooms, you can change the variable names as needed. Don't forget to update the test cases whenever needed.
+## Carrying Items
+0. Implement the field to store the items currently carried by the player. How is the maximum weight determined? Does "take" know how to deal with this? You will probably need a method to ask if the current item can be taken by the player.
+1. Implement an "items" command that prints out all items currently carried with their weights, and the total weight.
 
-1.  Draw an  [object diagram](https://www.agilemodeling.com/artifacts/objectDiagram.htm) showing the state of your system just after it has been started. Does it change if you issue a &#8220;go&#8221; command?  (An [object diagram](https://www.agilemodeling.com/artifacts/objectDiagram.htm) shows the active instances of classes - objects - at a given time in the execution of a program, as opposed to a [class diagram](https://agilemodeling.com/artifacts/classDiagram.htm) that shows the classes defined in the program source code).
-
-2.  Add a &#8220;look&#8221; command to your game.
-3.  Add an additional command (such as &#8220;eat&#8221;, which for now just prints out &#8220;You have eaten now and are not hungry any more&#8221;. In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
-4.  Implement an improved version of printing out the command words.
-5.  Add another command &#8211; did you have to change the Game class? Why or Why not?
-
-6. (For the bored) Prepare a multi-lingual version and use enums. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [enums](https://github.com/htw-imi-info1/exercise10/tree/master/enums) in the repository.
-
-7. (*Special Challenge* / For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
+## For the Bored
+0. (For the bored) Add a magic cookie item to a room. Add an "eat cookie" command. If a player finds and eats the magic cookie, it increases the weight that the player can carry. You may adapt this to your game scenario
+1. (*Special Challenge* / For the bored) Add some form of time limit to your game. If a certain task is not completed in a specified time (or number of steps through the rooms), the player loses.
+2. (For the bored) Implement a trapdoor - one that only goes one way. Don't forget to sort out what happens with "back" on this exit.
+3. (For the really bored) Add a beamer to the game. It can be charged, that is, it remembers the location it was charged in. And it can be fired, returning the player automatically to the remembered location. Remember to sort out back :)
+4. (To keep the bored busy over the spring break) Add locked doors. Players have to find the key and unlock them before they can continue. Add a transporter room that transports the player to a random room. Add non-playing characters to the game - they are similar to items, but they speak to you when you meet them in a room. They may give you help if you are nice to them. Add moving characters. Add monsters. Now fix theprocessCommand method, which is probably an unholy mess by now. Refactor and improve the design to make it easy to add new commands.

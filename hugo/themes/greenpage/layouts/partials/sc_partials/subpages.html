@@ -18,7 +18,9 @@
   {{ with .p1 }}
   <ul>
   {{ range .Pages }}
-  <li><a href ="{{ .Permalink }}">{{.Title}}</a></li>
+  <li><a href ="{{ .Permalink }}">{{.Title}}</a>
+    {{- with .Params.source}}, source code: <a href="{{.}}">{{.}}</a>{{ end -}}
+  </li>
   {{ template "childs" (dict "p1" . "depth" (sub $depth 1))}}
   {{ end }}
   </ul>

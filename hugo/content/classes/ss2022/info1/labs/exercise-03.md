@@ -1,7 +1,8 @@
 ---
 title: 'Exercise 03: Book Exercise'
 author: kleinen
-layout: lab
+draft: true
+source: https://github.com/htw-imi-info1/exercise03
 ---
 
 ![Book](../../images/books-8314929977.jpg)
@@ -17,22 +18,22 @@ This week's lab work is intended to practice creating classes with data fields, 
 
 **P1.**
 Why does the following version of refundBalance not give the same results as what we saw in class?
-{% highlight java %}
+```java
 public int refundBalance() {
   balance = 0;
   return balance;
 }
-{% endhighlight %}
+```
 
 **P2.**
 
 What happens if you try to compile the TicketMachine class with the following version of refundBalance?
-{% highlight java %}
+```java
 public int refundBalance() {
   return balance;
   balance = 0;
 }
-{% endhighlight %}
+```
 
 **P3.** We have seen a few arithmetic operators in Java. Find a table with the Java operators and their priorities. Note down where you found this. What does the ternary operator in `x ? a : b` do?
 
@@ -55,7 +56,7 @@ public int refundBalance() {
 0. A file Book.java with your source code for the Book Class
 1. Your lab report
 
-Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier. 
+Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier.
 
 
 # Assignment
@@ -71,11 +72,11 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
 4. Add a method, `printDetails`, to the Book class. This should print details of the author, title, and pages to the terminal window. It is your choice how the details are formatted. You might want to include some explanatory text.
 5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string (!) in the constructor. Add the corresponding accessor (getter) and the setter with the signatures below. The body of this method should assign the value of the parameter to the `refNumber` field.
 
-  {% highlight java %}
+  ```java
         public String getRefNumber()
 
         public void setRefNumber (String ref)
-    {% endhighlight %}
+    ```
 6. Modify your `printDetails` method to include printing the reference number. However, the method should print the reference number only if it has been set, and the exact string "no reference number" otherwise. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your `setRefNumber` mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
 

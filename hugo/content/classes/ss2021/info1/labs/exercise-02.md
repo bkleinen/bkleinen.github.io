@@ -11,14 +11,14 @@ layout: lab
 
 **0.** What could be wrong with the following constructor? Don't execute it, think about it in your head.
 
-{% highlight java %}
+```java
 public TicketMachine (int ticketCost)
 {
    int price = ticketCost;
    balance = 0;
    total = 0;
 }
-{% endhighlight %}
+```
 
 **1.** How can you tell the difference between a method and a constructor just by looking at its header?
 
@@ -42,7 +42,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 5. Try removing the return statement from the body of getPrice. What error message do you see now when you try compiling the classes?
 6. Complete the following method, whose purpose is to subtract the value of its parameter from a field named price.
 
-{% highlight java %}
+```java
 /**
  * Reduce price by the given amount.
  **/
@@ -51,7 +51,7 @@ public void discount (int amount)
 {
 ...
 }
-{% endhighlight %}
+```
 
 7. Add a method called `prompt` to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print the following single line of output: `Please insert the correct amount of money.`
 8. Add the possibility to count the number of tickets sold. Include a method for outputting how many tickets have been sold, like we did in class.

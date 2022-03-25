@@ -11,14 +11,14 @@ layout: lab
 
 **0.** What could be wrong with the following constructor? Don't execute it, think about it in your head.
 
-{% highlight java %}
+```java
 public TicketMachine (int ticketCost)
 {
    int price = ticketCost;
    balance = 0;
    total = 0;
 }
-{% endhighlight %}
+```
 
 **1.** How can you tell the difference between a method and a constructor just by looking at its header?
 

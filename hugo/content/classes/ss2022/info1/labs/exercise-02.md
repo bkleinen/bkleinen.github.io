@@ -2,23 +2,27 @@
 title: 'Exercise 02: TicketMachine'
 author: kleinen
 layout: lab
+source: https://github.com/htw-imi-info1/exercise02
+draft: true
 ---
 
 ![Book](../../images/ticket-5277919863_b741ccde84_b.jpg)
 <small class = "float-right">Printed Ticket. [Sludge G](https://www.flickr.com/photos/sludgeulper/5277919863/)</small>
 
+Source code for this exercise: {{< source >}}
+
 ## Pre-lab
 
 **0.** What could be wrong with the following constructor? Don't execute it, think about it in your head.
 
-{% highlight java %}
+```java
 public TicketMachine (int ticketCost)
 {
    int price = ticketCost;
    balance = 0;
    total = 0;
 }
-{% endhighlight %}
+```
 
 **1.** How can you tell the difference between a method and a constructor just by looking at its header?
 
@@ -34,7 +38,7 @@ Don't execute this, just write down your expectations.
 
 Download the [exercise source code from GitHub][1] (you can download the whole [exercise02 repository as a zip here][2]).
 
-0. Download the Ticket-Machine project and open it in BlueJ. Experiment with it like we did in the lecture and record your observations.  
+0. Download the Ticket-Machine project and open it in BlueJ. Experiment with it like we did in the lecture and record your observations.
 1. Replace the constructor with the constructor from pre-lab exercise 0 and try it out. Were you right? What about the change given in pre lab exercises 2 and 3? What happens? Record your results in your report.
 2. Is it always necessary to have a semicolon at the end of a field declaration? Experiment via the editor and record your results.
 3. If the name of `getBalance` is changed to `getAmount`, does the return statement in the body of the method also need to be changed for the code to compile? Try it out within BlueJ. What does this tell you about the name of an accessor method and the name of the field associated with it?
@@ -42,7 +46,7 @@ Download the [exercise source code from GitHub][1] (you can download the whole [
 5. Try removing the return statement from the body of getPrice. What error message do you see now when you try compiling the classes?
 6. Complete the following method, whose purpose is to subtract the value of its parameter from a field named price.
 
-{% highlight java %}
+```java
 /**
  * Reduce price by the given amount.
  **/
@@ -51,7 +55,7 @@ public void discount (int amount)
 {
 ...
 }
-{% endhighlight %}
+```
 
 7. Add a method called `prompt` to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print the following single line of output: `Please insert the correct amount of money.`
 8. Add the possibility to count the number of tickets sold. Include a method for outputting how many tickets have been sold, like we did in class.
@@ -62,7 +66,7 @@ public void discount (int amount)
 
 ## What to hand in
 
-Hand in your lab report until April 22, 10pm (22.00 Uhr). See [the Labs and Exercises page](../../labs#grading-lab-reports).
+Hand in your lab report the night before the next lab, 10pm (22.00 Uhr). See [the Labs and Exercises page](../labs).
 
 
 * * *
@@ -70,4 +74,4 @@ Hand in your lab report until April 22, 10pm (22.00 Uhr). See [the Labs and Exer
 Adapted from [https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab1.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab1.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
 
 [1]: https://github.com/htw-imi-info1/exercise02
-[2]: https://github.com/htw-imi-info1/exercise02/zipball/master
+[2]: https://github.com/htw-imi-info1/exercise02/zipball/main

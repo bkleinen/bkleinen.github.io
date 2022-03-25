@@ -9,6 +9,8 @@ Production Github Pages: [https://bkleinen.github.io/](https://bkleinen.github.i
 
 Staging: [https://bkleinen.github.io/staging/](https://bkleinen.github.io/staging/)[![Deploy Staging](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging.yml)
 
+StagingDrafts (currently from branch ss22_info1): [https://bkleinen.github.io/stagingdrafts/](https://bkleinen.github.io/stagingdrafts/)[![Deploy Staging Drafts](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging-drafts.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging-drafts.yml)
+
 
 If you find information here - or on the staging server - that is not (yet) linked from your course's page - especially lab exercises -
 be aware that I haven't released them yet for the current term, so they might and probably will change at least a bit.

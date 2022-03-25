@@ -17,22 +17,22 @@ This week's lab work is intended to practice creating classes with data fields, 
 
 **P1.**
 Why does the following version of refundBalance not give the same results as what we saw in class?
-{% highlight java %}
+```java
 public int refundBalance() {
   balance = 0;
   return balance;
 }
-{% endhighlight %}
+```
 
 **P2.**
 
 What happens if you try to compile the TicketMachine class with the following version of refundBalance?
-{% highlight java %}
+```java
 public int refundBalance() {
   return balance;
   balance = 0;
 }
-{% endhighlight %}
+```
 
 **P3.** We have seen a few arithmetic operators in Java. Find a table with the Java operators and their priorities. Note down where you found this. What does the ternary operator in `x ? a : b` do?
 

@@ -1,9 +1,10 @@
 ---
-title: Lab Startup
+title: 'Exercise 00: Lab Startup'
 author: kleinen
-layout: lab
+source: https://github.com/htw-imi-info1/kara
+draft: true
 ---
-
+Source code for this exercise: {{< source >}}
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules ("Laborordnung") [here](https://imi-bachelor.htw-berlin.de/studium/labore/).
 
@@ -31,9 +32,17 @@ This week, you should prepare your own computer for the lab if you plan to use i
 
 ## Assignment
 
-### 0. Forming groups
+This lab is all about getting you started. It will not be graded.
+The main point of this assignment is to get you familiarized with the
+process of working on a lab, taking relevant notes, producing a report in pdf format
+and finally uploading your report to moodle to get all that out of the way for
+the first real exercise.
 
-Take something out of the bag near the entrance of the lab and find your lab group for today. Register to the group on Moodle.
+Don't be disappointed that you only need to work on one of the kara exercises
+for this lab report.
+Do them all later - if you have time during the lab, or during the following days.
+Make sure that you understand all of them and have at least a pseudo-code solution in
+your head or better yet on paper.
 
 ### 1. Logbook
 
@@ -45,9 +54,9 @@ You need to get used to keeping a logbook in the lab. It can be analog (i.e. on 
 
     > java -version
 
-1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/ws2016.zip). You will use the scenarios 01-01 through 01-08 for this lab.
+1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/refs/heads/main.zip). You will use the scenarios 01-01 through 01-08 for this lab.
 
-2.   Read through [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf) again. Remember what you did in class?
+2.   Read through [Worksheet 1](../material/info1-02-worksheet-kara-1.pdf).
 
 3.   Remember to have a logbook while working:
 Note down the steps you've taken, including those that failed. Read through the whole assignment first, before starting to work.
@@ -58,7 +67,7 @@ Note down the steps you've taken, including those that failed. Read through the 
 
 1.   Examine the Greenfoot environment. Right-Click on every object/actor in the World and the World and Actor
 classes on the right hand side. How can you call the Kara actions and sensors directly? What happens if you
-call a sensor directly? How do you find out the actual state of Kara apart from looking at the screen?
+call a sensor directly? How do you find out the current state of Kara apart from looking at the screen?
 How are the directions stored, e.g. if Kara faces upwards?
 
 2.   How do you change the World (e.g. add a mushroom) and save the changed World such that your changes are still there after a click on the reset or compile buttons?
@@ -76,15 +85,15 @@ Pick one exercise from the worksheet and solve it.
    by four times walking an edge, thus, each call to the act()-method should make Kara walk only one edge.
 
 Make use of ```Greenfoot.stop()``` or the method ```stopAfterStep(n)``` if you simply want the act-method execute 4 times if you press "run", for example:
-
+```java
      public void act()
        {
            move();
            stopAfterStep(4);
        }
-
+```
 For example, to simply move until you encounter a leaf:
-
+```java
      public void act()
        {
            // you might want to do something else in each step ...
@@ -93,7 +102,7 @@ For example, to simply move until you encounter a leaf:
               Greenfoot.stop();
            }
        }
-
+```
 
 
 ### 5. Logging Out
@@ -104,10 +113,14 @@ The proper way is to click on the icon that looks like a power button and select
 abmelden" or to click on the Start button (yes, Windows is a bit strange). You might be asked if you want to remember what you were doing, you can choose to do this, or not. Try out both sometime. This is also a choice "herunterfahren". Selecting this is the one and only way to safely prepare the machine for powering down.
 **Never** power down the machine without doing this first. Once you have logged out, please turn the machine and screen off if they didn't shut off automatically, **put your chair back under the table, and clean up any garbage that may have accumulated.**
 
-
 ### 6. Writeup - The Lab Report
 
-You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab). If you do not have a computer at home, you can use the lab computers during times when there is no class. Hmm, you saved some information on your login area on the school server, can you access this from home? Yes! Your home directory is on the HTW Cloud Server (https://webdrive.htw-berlin.de/login). You will need to login to the Cloud Server with your FB 4 login to see your files.
+You will be doing your writeup at ***home*** (or at least after finishing the assignment in the lab).
+If you do not have a computer at home, you can use the lab computers during times when there is no
+class. Hmm, you saved some information on your login area on the school server,
+can you access this from home? Yes! Your home directory is on the HTW Cloud Server
+(https://webdrive.htw-berlin.de/login). You will need to login to the Cloud Server with your FB 4
+login to see your files.
 
 Submit your writeup, explaining what you did and what you learned, as your Lab Report to the Moodle area, as a practice - it will not be graded.
 
@@ -115,6 +128,10 @@ Make sure to include your names at the top of your report.
 
 ## For the Bored
 
-This first lab is really about getting started, getting to know the infrastructure and make sure that you are able to work on the first exercise next week. If all this is quite easy for you, you might want to start working on next week's exercise.
+Work through [Worksheet 2](../material/info1-04-worksheet-kara-2.pdf).
+
+This first lab is really about getting started, getting to know the infrastructure
+and make sure that you are able to work on the first exercise next week.
+If all this is quite easy for you, you might want to start working on next week's exercise.
 
  [1]: https://github.com/htw-imi-info1/kara

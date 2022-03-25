@@ -3,16 +3,19 @@ name: Deploy Staging Drafts
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - ss22_info1  # Set a branch to deploy
     tags-ignore:
       - 'v*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
+          ref: ss22_info1
+      - run: |
+          git status
       - name: Install Bootstrap with npm
         uses: actions/setup-node@v2
         with:
@@ -26,14 +29,16 @@ jobs:
           hugo-version: 'latest'
           extended: true
       - name: Write gitinfo file
-        run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+        run: |
+          bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+          cat hugo/data/gitinfo.yml 
       - name: Build Hugo Site
         run: |
           hugo --source hugo  --minify --buildDrafts --environment stagingdrafts
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging Drafts on Github Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/ss22_info1'
         with:
           personal_token: ${{ secrets.OTHER_TOKEN }}
           external_repository: bkleinen/stagingdrafts
