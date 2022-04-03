@@ -18,7 +18,7 @@ courseNavInt:
   link: "/classes/ss2022/info1/material/"
 courseNavExt:
 - title: Moodle
-  link: https://moodle.htw-berlin.de/course/view.php?id=31142
+  link: https://moodle.htw-berlin.de/course/view.php?id=37251
 - title: SU in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=185915&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Labs in LSF
