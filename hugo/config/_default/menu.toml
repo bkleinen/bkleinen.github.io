@@ -1,17 +1,16 @@
-
 [[main]]
   identifier = 'home'
   name = 'Home'
   pageref = '/'
   weight = -300
 
-  [[main]]
-    weight = -289
-    #parent = 'classes'
-    # weight = 300
-    identifier = 'material'
-    name = 'Material'
-    pageref = '/material'
+[[main]]
+  weight = -289
+  #parent = 'classes'
+  # weight = 300
+  identifier = 'material'
+  name = 'Material'
+  pageref = '/material'
 
 ##
 ## Classes
@@ -33,6 +32,12 @@
   identifier = '/classes/ss2022/networks'
   name = 'B9 Networks'
   pageref = '/classes/ss2022/networks'
+  weight = 10
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ss2022/m1-web'
+  name = 'M1 Mediaprogramming'
+  pageref = '/classes/ss2022/m1-web'
   weight = 10
 [[main]]
   parent = 'classes'
@@ -100,8 +105,8 @@ weight = 30
 
 
 
-  [[main]]
-    identifier = 'contact'
-    name = 'Contact Info'
-    pageref = '/contact'
-    weight = -140
+[[main]]
+  identifier = 'contact'
+  name = 'Contact Info'
+  pageref = '/contact'
+  weight = -140

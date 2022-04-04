@@ -12,7 +12,7 @@ require_relative './lib_ruby_dates.rb'
 # )
 # WT4
 course_dates = CourseDates.new(
-  first_day: Date.parse("08.04.2022"),
+  first_day: Date.parse("06.04.2022"),
   day_diff: 1,
   two_lectures: false,
   step: 7
@@ -20,7 +20,7 @@ course_dates = CourseDates.new(
 
 # Semesterdaten
 semester_dates = SemesterDates.new(
-semester_start: Date.parse("02.04.2022"),
+semester_start: Date.parse("01.04.2022"),
 semester_end: Date.parse("30.07.2022"),
 holidays: {
   "15.04.2022" => "Ostern",

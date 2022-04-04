@@ -3,6 +3,7 @@ title: B1 Informatics 1 SoSe 2022
 author: kleinen
 weight: 1
 aliases: /info1/
+draft: true
 courseNavInt:
 - title: Info1
   link: "/classes/ss2022/info1/"
@@ -27,6 +28,7 @@ courseNavExt:
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=mittel&P.subc=plan&subdir=stg&week=&k_abstgv.abstgvnr=231&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1
 - title: Lecture Source Code
   link: https://github.com/htw-imi-info1
+
 ---
 
 ## Welcome!
