@@ -3,7 +3,7 @@ name: Deploy Staging Drafts
 on:
   push:
     branches:
-      - ss22_info1  # Set a branch to deploy
+      - main  # Set a branch to deploy
     tags-ignore:
       - 'v*'
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
-          ref: ss22_info1
+          ref: main
       - run: |
           git status
       - name: Install Bootstrap with npm
@@ -38,7 +38,7 @@ jobs:
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging Drafts on Github Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/ss22_info1'
+        if: github.ref == 'refs/heads/main'
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN_PROGWEBTEC }}
           external_repository: bkleinen/stagingdrafts

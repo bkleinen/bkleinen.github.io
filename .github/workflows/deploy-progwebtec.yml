@@ -1,14 +1,8 @@
 name: Deploy Production / progwebtec.github.io
 # git@github.com:progwebtec/progwebtec.github.io.git
-# on:
-#   push:
-#     tags:
-#       - 'v*'
 on:
   push:
-    branches:
-      - ss22_info1  # Set a branch to deploy
-    tags-ignore:
+    tags:
       - 'v*'
 jobs:
   deploy:
