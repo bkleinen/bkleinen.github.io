@@ -93,13 +93,14 @@ There will be a board to collect questions for the tutorial and the lecture.
 
 #### Tutorial
 
-There will be an additional tutorial on monday (specifics tba).
+There will be an additional tutorial on monday.
+14:00-15:30 in lab WH C 579
 
 ## Team
 
 - Veronika Bertels, LB, Software-Engineer, former IMI-Student
 - Lotte Unckell, LB, IMI-Master Student
-- Nermin Rustic, Tutor, IMI-Bachelor Student
+- [Nermin Rustic, Tutor, IMI-Bachelor Student](mailto:nermin.rustic@student.htw-berlin.de)
 - Prof. Dr. Barne Kleinen
 
 ## Grading
