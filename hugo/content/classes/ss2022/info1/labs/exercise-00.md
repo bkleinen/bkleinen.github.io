@@ -2,7 +2,7 @@
 title: 'Exercise 00: Lab Startup'
 author: kleinen
 source: https://github.com/htw-imi-info1/kara
-draft: true
+draft: false
 ---
 Source code for this exercise: {{< source >}}
 

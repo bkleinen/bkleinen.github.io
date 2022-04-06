@@ -1,7 +1,6 @@
 ---
 title: Info1 - Schedule
 author: kleinen
-layout: default
 weight: 10
 ---
 

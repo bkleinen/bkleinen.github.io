@@ -3,7 +3,7 @@ title: B1 Informatics 1 SoSe 2022
 author: kleinen
 weight: 1
 aliases: /info1/
-draft: true
+draft: false
 courseNavInt:
 - title: Info1
   link: "/classes/ss2022/info1/"
