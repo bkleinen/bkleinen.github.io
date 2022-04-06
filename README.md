@@ -28,15 +28,42 @@ Apart from that, feel free to browse and also send me a [pull request](https://d
 
 # Deployment
 
-- via github actions: https://github.com/bkleinen/bkleinen.github.io/actions
-- all pushes to main are pushed to https://bkleinen.github.io/staging/
-- deployment to both production servers is triggered by pushing a tag v0.0
-- see makefile for useful targets, e.g.
+Automatic deployment via github actions, see https://github.com/bkleinen/bkleinen.github.io/actions
+
+## Overview
+
+| branch/tag | config        | env        | drafts | target url                                |
+|:---------- |:------------- |:---------- |:------ |:----------------------------------------- |
+| main       | staging       | staging    | no     | https://bkleinen.github.io/staging/       |
+| main       | stagingdrafts | staging    | yes    | https://bkleinen.github.io/stagingdrafts/ |
+| v0.0       | production    | production | no     | http://bkleinen.github.io/             |
+| v0.0       | htw           | production | no     | https://home.htw-berlin.de/~kleinen/      |
+| v0.0       | progwebtec    | production | no     | http://progwebtec.github.io/              |
+
+
+
+## Deploy via Makefile
 
         make c m="commit message"
         make deploy
 
 (assuming access rights)
+
+See [makefile](makefile) for other useful targets.
+
+## overview
+
+ss22_info1 -> https://bkleinen.github.io/stagingdrafts/
+
+und gerade auch nach https://progwebtec.github.io/
+
+main -> https://bkleinen.github.io/staging/ (ohne drafts)
+
+version tag -> http://bkleinen.github.io/ und https://home.htw-berlin.de/~kleinen/
+
+(siehe makefile,  make deploy)
+
+.. und dann auch nach https://progwebtec.github.io/
 
 # Markdown
 
