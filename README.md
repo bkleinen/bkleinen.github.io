@@ -39,8 +39,8 @@ Automatic deployment via github actions, see https://github.com/bkleinen/bkleine
 
 ## Deploy via Makefile
 
- make c m="commit message"
- make deploy
+    make c m="commit message"
+    make deploy
 
 (assuming access rights)
 
