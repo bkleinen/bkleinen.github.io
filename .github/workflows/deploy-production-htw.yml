@@ -21,7 +21,7 @@ jobs:
       HOST1: ${{ secrets.HOST1 }}
       HOST2: ${{ secrets.HOST2 }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
       - name: Install Bootstrap with npm

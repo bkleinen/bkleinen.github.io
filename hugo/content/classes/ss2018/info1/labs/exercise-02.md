@@ -16,14 +16,14 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 **P1.** What could be wrong with the following constructor? Don't execute it, think about it in your head.
 
-{% highlight java %}
+```java
 public TicketMachine (int ticketCost)
 {
    int price = ticketCost;
    balance = 0;
    total = 0;
 }
-{% endhighlight %}
+```
 
 **P2.** How can you tell the difference between a method and a constructor just by looking at its header?
 

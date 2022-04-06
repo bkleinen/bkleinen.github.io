@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
       - name: Install Bootstrap with npm
@@ -35,7 +35,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.OTHER_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN_PROGWEBTEC }}
           external_repository: bkleinen/staging
           publish_dir: ./hugo/public
           publish_branch: hugo_staging

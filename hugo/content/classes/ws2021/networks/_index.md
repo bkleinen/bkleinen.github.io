@@ -4,7 +4,6 @@ author: kleinen
 date: 2021-10-01
 weight: 2
 layout: default
-aliases: /networks/
 courseNavInt:
 - title: Overview
   link: "/classes/ws2021/networks/"

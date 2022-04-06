@@ -1,0 +1,5 @@
+baseURL = 'https://progwebtec.github.io'
+title = 'Programming and Web Technology'
+[params]
+  subTitle = 'Website of the Programming and Web Technology Group at '
+  logoTitle = 'Programming and Web Technology @ IMI'

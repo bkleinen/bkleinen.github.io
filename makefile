@@ -1,15 +1,31 @@
 # https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html#Phony-Targets
-.PHONY : hugo
+# introduced port variable:
+# you can explicitely pass a port, e.g. $ make hugo port=1313
+# open a version with and without drafts in parallel:
+# make hugo hugoWOD
+.PHONY : hugo # only necessary if file with same name exists
 .RECIPEPREFIX = -
 
 hugo/node_modules :
 -  cd hugo ; npm install ; cd ..
 
-hugo :  hugo/node_modules open
--  hugo --buildDrafts --source hugo -p 4242 server
+ # default port
+port=4242
 
-hugoP : hugo/node_modules open # as published; there might be differences as there are isServer queries
--  hugo --environment production --source hugo -p 4242 server
+hugo :  hugo/node_modules openH
+-  hugo --buildDrafts --source hugo -p $(port) server
+
+hugoWT :  port = 4241
+hugoWT :  hugo/node_modules open
+-  hugo --buildDrafts --environment progwebtec --source hugo -p $(port) server
+
+hugoWOD :  port = 4243
+hugoWOD :  hugo/node_modules openH
+-  hugo  --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
+
+hugoP : port = 4244
+hugoP : hugo/node_modules openH # as published; there might be differences as there are isServer queries
+-  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
 
 hugoS : hugo/node_modules openS # staging; without drafts
 -  hugo --environment staging --source hugo -p 4242 server
@@ -48,8 +64,12 @@ ifneq ($(current_branch),main)
 - echo $(ERR)
 endif
 
+# openProd :
+# -  open http://localhost:$(port)/
+openH :
+-  open http://localhost:$(port)/~kleinen
 open :
--  open http://localhost:4242/~kleinen
+-  open http://localhost:$(port)
 openS :
 -  open http://localhost:4242/staging
 openSD :
@@ -64,6 +84,6 @@ openSites:
 - open https://bkleinen.github.io/staging/
 - open https://bkleinen.github.io/stagingdrafts/
 openI:
-- open 	http://localhost:4242/~kleinen/classes/ws2021/info2/
+- open 	http://localhost:4242/~kleinen/classes/ss2022/info1/
 openN:
-- open 	http://localhost:4242/~kleinen/classes/ws2021/networks/
+- open 	http://localhost:4242/~kleinen/classes/ss2022/networks/
