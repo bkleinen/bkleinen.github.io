@@ -12,15 +12,19 @@ hugo/node_modules :
  # default port
 port=4242
 
-hugo :  hugo/node_modules open
+hugo :  hugo/node_modules openH
 -  hugo --buildDrafts --source hugo -p $(port) server
 
+hugoWT :  port = 4241
+hugoWT :  hugo/node_modules open
+-  hugo --buildDrafts --environment progwebtec --source hugo -p $(port) server
+
 hugoWOD :  port = 4243
-hugoWOD :  hugo/node_modules open
+hugoWOD :  hugo/node_modules openH
 -  hugo  --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
 
 hugoP : port = 4244
-hugoP : hugo/node_modules open # as published; there might be differences as there are isServer queries
+hugoP : hugo/node_modules openH # as published; there might be differences as there are isServer queries
 -  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
 
 hugoS : hugo/node_modules openS # staging; without drafts
@@ -62,8 +66,10 @@ endif
 
 # openProd :
 # -  open http://localhost:$(port)/
-open :
+openH :
 -  open http://localhost:$(port)/~kleinen
+open :
+-  open http://localhost:$(port)
 openS :
 -  open http://localhost:4242/staging
 openSD :
