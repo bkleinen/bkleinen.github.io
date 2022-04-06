@@ -35,7 +35,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.OTHER_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN_PROGWEBTEC }}
           external_repository: bkleinen/staging
           publish_dir: ./hugo/public
           publish_branch: hugo_staging
