@@ -1,259 +1,41 @@
-<!doctype html><html>
-<head>
-<title>Assignment 07 - Web Apps with Node and Express II - Prof. Dr. Barne Kleinen</title>
-<link rel=icon href=https://bkleinen.github.io/favicon.ico>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=theme-color content="#1A94D2">
-<link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen>
-</head>
-<body>
-<div class=container-fluid>
-<header class="row m-b-5">
-<div class="col-md-2 c2">
-&nbsp;
-</div>
-<div class="col-md-10 c1 p-2"><div class=container-flex>
-<div class=row>
-<div class=col-9>
-<h1 class="c5 title"> Info3 - Labs and Exercises </h1>
-<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+<!doctype html><html><head><title>Assignment 07 - Web Apps with Node and Express II - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io/favicon.ico><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">Info3 - Labs and Exercises</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
-at <a href=https://www.htw-berlin.de>HTW Berlin</a>
-</small>
-</div>
-<div class=col-3>
-<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
-</div>
-</div>
-</div>
-</div>
-</header>
-<main class="row p-0"><nav class="col-md-2 c2">
-<div class=nav>
-<ul class="nav flex-md-column">
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/>Home</a>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/info2/>B7 Info 2</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/networks/>B9 Networks</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/project/>Project</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m1-web/>M1 Labs</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/theses/>Theses</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/>All WS 21/22</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/material/>Material</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
+at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-3><a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Programming and Web Technology @ IMI</a></div></div></div></div></header><main class="row p-0"><nav class="col-md-2 c2"><div class=nav><ul class="nav flex-md-column"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/>Home</a></li><li class=nav-item><a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/info1/>B1 Info 1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/networks/>B9 Networks</a>
+<a class=dropdown-item href>WTAT1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/m1-web/>M1 Mediaprogramming</a>
+<a class=dropdown-item href>Theses</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/>All SoSe 2022</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/material/>Material</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
 <a class=dropdown-item href=https://bkleinen.github.io/studies/ic/>IC</a>
-<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a>
-</div>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a></div></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
 <a class=dropdown-item href=https://bkleinen.github.io/misc/trans/>Trans@HTW</a>
-<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a>
-</li>
-<ul>
-</div>
-</nav>
-<div class="col-md-10 c3">
-<div class=outer>
-<nav aria-label=breadcrumb role=navigation>
-<ol class="breadcrumb breadcrumb-thin">
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/>ws2020</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/>info3</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/labs/>labs</a></li>
-<li class="breadcrumb-item active" aria-current=page>lab-08-express-3</li>
-</ol>
-</nav>
-</div>
-<div class=coursenav>
-<ul class="nav nav-tabs">
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2020/info3/>Info3</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2020/info3/continuous_assessment/>Assessment</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2020/info3/schedule/>Schedule</a>
-</li>
-<li class=nav-item>
-<a class="nav-link active" href=https://bkleinen.github.io/classes/ws2020/info3/labs/>Labs</a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a>
-<div class=dropdown-menu>
-<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=28123">Moodle</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a></li><ul></div></nav><div class="col-md-10 c3"><div class=outer><nav aria-label=breadcrumb role=navigation><ol class="breadcrumb breadcrumb-thin"><li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/>ws2020</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/>info3</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2020/info3/labs/>labs</a></li><li class="breadcrumb-item active" aria-current=page>lab-08-express-3</li></ol></nav></div><div class=coursenav><ul class="nav nav-tabs"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2020/info3/>Info3</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2020/info3/continuous_assessment/>Assessment</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2020/info3/schedule/>Schedule</a></li><li class=nav-item><a class="nav-link active" href=https://bkleinen.github.io/classes/ws2020/info3/labs/>Labs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a><div class=dropdown-menu><a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=28123">Moodle</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201">SU in LSF</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164935">Labs in LSF</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
-<a class=dropdown-item target=ex_link href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples>Lecture Source Code</a>
-</div>
-</li>
-</ul>
-</div>
-<div class=container-fluid>
-<h2 class=followed> Assignment 07 - Web Apps with Node and Express II</h2>
-<header class=following>
-<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
-Table of Contents
-</a>
+<a class=dropdown-item target=ex_link href=https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples>Lecture Source Code</a></div></li></ul></div><div class=container-fluid><h2 class=followed>Assignment 07 - Web Apps with Node and Express II</h2><header class=following><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href=https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-express-2/>&lt;prev</a>
-<a href=https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-casestudies/>next></a>
-</header>
-<div class=collapse id=tocContent>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#a-check-the-requirements>a) Check the requirements</a></li>
-<li><a href=#b-linting>b) Linting</a></li>
-</ul>
-<ul>
-<li><a href=#results-submission>Results Submission</a>
-<ul>
-<li><a href=#grading>Grading</a></li>
-</ul>
-</li>
-</ul>
-</nav>
-</div>
-<h1 id=from-lab07-to-lab08>From Lab07 to Lab08</h1>
-<p>You will continue working on your project from Lab07.
+<a href=https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-casestudies/>next></a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#a-check-the-requirements>a) Check the requirements</a></li><li><a href=#b-linting>b) Linting</a></li></ul><ul><li><a href=#results-submission>Results Submission</a><ul><li><a href=#grading>Grading</a></li></ul></li></ul></nav></div><h1 id=from-lab07-to-lab08>From Lab07 to Lab08</h1><p>You will continue working on your project from Lab07.
 However, it should be in a separate code base.
 So you should create a new empty repository on GitLab in the folder for Lab08 and add this new repo as the new origin of your local repository.
-For Lab08, only push to the project in the Lab08 folder!</p>
-<h1 id=assignment-1-clean-up>Assignment 1: Clean Up</h1>
-<h2 id=a-check-the-requirements>a) Check the requirements</h2>
-<p>Check the following questions and if the answer is no, fix it. Those were things that you should have done in Lab06 and Lab07, but if you haven&rsquo;t do them now. <strong>Document in your report what you needed to fix.</strong></p>
-<ol>
-<li>Do you have a clearly visible MVC structure?</li>
-<li>Do you transfer data a user inputs into an HTML form into your database, where it persists?</li>
-<li>Do you transfer from the database into a template?</li>
-<li>Do you use the HTTP methods correctly in your router?</li>
-<li>Did you implement one end-to-end test for each major feature?</li>
-<li>Do you have any mock data for testing?</li>
-<li>Do you use a test database?</li>
-</ol>
-<h2 id=b-linting>b) Linting</h2>
-<p>Install and configure <a href=https://eslint.org/>eslint</a> for your project. Lint your code.
+For Lab08, only push to the project in the Lab08 folder!</p><h1 id=assignment-1-clean-up>Assignment 1: Clean Up</h1><h2 id=a-check-the-requirements>a) Check the requirements</h2><p>Check the following questions and if the answer is no, fix it. Those were things that you should have done in Lab06 and Lab07, but if you haven&rsquo;t do them now. <strong>Document in your report what you needed to fix.</strong></p><ol><li>Do you have a clearly visible MVC structure?</li><li>Do you transfer data a user inputs into an HTML form into your database, where it persists?</li><li>Do you transfer from the database into a template?</li><li>Do you use the HTTP methods correctly in your router?</li><li>Did you implement one end-to-end test for each major feature?</li><li>Do you have any mock data for testing?</li><li>Do you use a test database?</li></ol><h2 id=b-linting>b) Linting</h2><p>Install and configure <a href=https://eslint.org/>eslint</a> for your project. Lint your code.
 For each error, decide whether you need to fix your code or your configuration.
 <strong>Are there any major issues in your code style that eslint detected and that you could fix?
-If so, document this in your report.</strong></p>
-<h1 id=assignment-2-deploy-the-app-to-heroku>Assignment 2: Deploy the App to Heroku</h1>
-<p>Deploy your app to heroku. Heroku is one the first
+If so, document this in your report.</strong></p><h1 id=assignment-2-deploy-the-app-to-heroku>Assignment 2: Deploy the App to Heroku</h1><p>Deploy your app to heroku. Heroku is one the first
 Platform-as-a-service providers, supporting a wide range of frameworks.
 See <a href=https://www.heroku.com/nodejs>Node on Heroku</a> for the documentation.
 As the package.json already specifies the correct start script, all I had to do was:
-(You will need to create an account and install the command-line client)</p>
-<pre><code>`heroku create`
-</code></pre>
-<p>and then</p>
-<pre><code>`heroku open`
-</code></pre>
-<p>If you want to, rename your app</p>
-<pre><code>`heroku rename timerpompom`
-</code></pre>
-<p>Now, the app should be running, but is missing a database. You will need a
-database available on the net, e.g. using <a href=https://cloud.mongodb.com/>Mongo Atlas</a>. The documentation &ldquo;<a href=https://developer.mongodb.com/how-to/use-atlas-on-heroku>Atlas on Heroku</a>&rdquo; is a bit bulky, but boils down the these steps:</p>
-<ul>
-<li>
-<p>create a mongodb cluster.</p>
-</li>
-<li>
-<p>find and copy the connection string, e.g. mongodb+srv://app03:@cluster0.giyi7.mongodb.net/?retryWrites=true&w=majority</p>
-</li>
-<li>
-<p>set the MONGODB_URI on heroku to this connection string (be sure to use the correct password and dbname)</p>
-<p><code>heroku config:set MONGODB_URI=...</code></p>
-</li>
-<li>
-<p>make sure the app picks up this environment variable to connect to the database, e.g.
-in mongoose.js:</p>
-<pre tabindex=0><code>const mongodbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/app04'
+(You will need to create an account and install the command-line client)</p><pre><code>`heroku create`
+</code></pre><p>and then</p><pre><code>`heroku open`
+</code></pre><p>If you want to, rename your app</p><pre><code>`heroku rename timerpompom`
+</code></pre><p>Now, the app should be running, but is missing a database. You will need a
+database available on the net, e.g. using <a href=https://cloud.mongodb.com/>Mongo Atlas</a>. The documentation &ldquo;<a href=https://developer.mongodb.com/how-to/use-atlas-on-heroku>Atlas on Heroku</a>&rdquo; is a bit bulky, but boils down the these steps:</p><ul><li><p>create a mongodb cluster.</p></li><li><p>find and copy the connection string, e.g. mongodb+srv://app03:@cluster0.giyi7.mongodb.net/?retryWrites=true&w=majority</p></li><li><p>set the MONGODB_URI on heroku to this connection string (be sure to use the correct password and dbname)</p><p><code>heroku config:set MONGODB_URI=...</code></p></li><li><p>make sure the app picks up this environment variable to connect to the database, e.g.
+in mongoose.js:</p><pre tabindex=0><code>const mongodbURI = process.env.MONGODB_URI || &#39;mongodb://localhost:27017/app04&#39;
 mongoose.connect(mongodbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-</code></pre></li>
-</ul>
-<p><strong>Document in your report any issues you had with deploying the app</strong></p>
-<h2 id=results-submission>Results Submission</h2>
-<ul>
-<li>Hand in a link to your repository together with your report.</li>
-<li>Hand in a lab report until March 28, 11pm. Make sure to answer the questions I put in this lab.</li>
-</ul>
-<h3 id=grading>Grading</h3>
-<p>You get 1 star for each of the exercises that you completed (assignment 1 a and b and assignment 2). If you additionally hand in a good report that documents everything I asked you to document, you get another star. There won&rsquo;t be any oral tests.</p>
-<h1 id=references>References</h1>
-<ul>
-<li><a href=https://cloud.mongodb.com/>Mongo Atlas</a></li>
-<li><a href=https://www.heroku.com/nodejs>Node on Heroku</a></li>
-<li><a href=https://developer.mongodb.com/how-to/use-atlas-on-heroku>Atlas on Heroku</a></li>
-</ul>
-</div>
-</div>
-</div>
-</main>
-<footer class="row p-0">
-<div class="col-md-2 c2">
-&nbsp;
-</div>
-<div class="col-md-10 c4">
-<small>
-<hr>
-<div class=container-fluid>
-<div class=row>
-<div class=col-9>
-<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+</code></pre></li></ul><p><strong>Document in your report any issues you had with deploying the app</strong></p><h2 id=results-submission>Results Submission</h2><ul><li>Hand in a link to your repository together with your report.</li><li>Hand in a lab report until March 28, 11pm. Make sure to answer the questions I put in this lab.</li></ul><h3 id=grading>Grading</h3><p>You get 1 star for each of the exercises that you completed (assignment 1 a and b and assignment 2). If you additionally hand in a good report that documents everything I asked you to document, you get another star. There won&rsquo;t be any oral tests.</p><h1 id=references>References</h1><ul><li><a href=https://cloud.mongodb.com/>Mongo Atlas</a></li><li><a href=https://www.heroku.com/nodejs>Node on Heroku</a></li><li><a href=https://developer.mongodb.com/how-to/use-atlas-on-heroku>Atlas on Heroku</a></li></ul></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
 <a href=https://www.htw-berlin.de>HTW Berlin</a>,
 <a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
-&nbsp;&nbsp;&dash;&nbsp;&nbsp;
-</div>
-<div class=col-3>
-<a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
-<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
-</div>
-</div>
-<div class=row>
-<div class=col-9>
-This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-<br><small>
-This page was authored by: kleinen
-</small>
-</div>
-<div class=col-3>
-<a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a>
-</div>
-</div>
-<div class=row>
-<div class=col-sm-12>
-</div>
-</div>
-</div>
-</small>
-</div>
-</footer>
-<script>let sortTables=!1,stripedTables=!0</script>
-<script src=https://bkleinen.github.io/js/bundle.min.2e77815b9f3f7be195f9d073bea8b3ba3c025f403d0e61ef06c5ba0d08fc7f09.js defer></script>
-</body>
-</html>
+&nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.42c884a02a332682a078cefec4fc8afae120ce2b54e8b7b1fb1cb5764cdeaa86.js defer></script></body></html>

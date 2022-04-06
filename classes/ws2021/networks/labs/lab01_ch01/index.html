@@ -1,237 +1,43 @@
-<!doctype html><html>
-<head>
-<title>Lab 01 - Nginx & HTTP - Prof. Dr. Barne Kleinen</title>
-<link rel=icon href=https://bkleinen.github.io/favicon.ico>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=theme-color content="#1A94D2">
-<link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen>
-</head>
-<body>
-<div class=container-fluid>
-<header class="row m-b-5">
-<div class="col-md-2 c2">
-&nbsp;
-</div>
-<div class="col-md-10 c1 p-2"><div class=container-flex>
-<div class=row>
-<div class=col-9>
-<h1 class="c5 title"> B9 Networks WS 2021/22 - Labs </h1>
-<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+<!doctype html><html><head><title>Lab 01 - Nginx & HTTP - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io/favicon.ico><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">B9 Networks WS 2021/22 - Labs</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
-at <a href=https://www.htw-berlin.de>HTW Berlin</a>
-</small>
-</div>
-<div class=col-3>
-<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
-</div>
-</div>
-</div>
-</div>
-</header>
-<main class="row p-0"><nav class="col-md-2 c2">
-<div class=nav>
-<ul class="nav flex-md-column">
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/>Home</a>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/info2/>B7 Info 2</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/networks/>B9 Networks</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/project/>Project</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m1-web/>M1 Labs</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/theses/>Theses</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/>All WS 21/22</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/material/>Material</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
+at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-3><a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Programming and Web Technology @ IMI</a></div></div></div></div></header><main class="row p-0"><nav class="col-md-2 c2"><div class=nav><ul class="nav flex-md-column"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/>Home</a></li><li class=nav-item><a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/info1/>B1 Info 1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/networks/>B9 Networks</a>
+<a class=dropdown-item href>WTAT1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/m1-web/>M1 Mediaprogramming</a>
+<a class=dropdown-item href>Theses</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/>All SoSe 2022</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/material/>Material</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
 <a class=dropdown-item href=https://bkleinen.github.io/studies/ic/>IC</a>
-<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a>
-</div>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a></div></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
 <a class=dropdown-item href=https://bkleinen.github.io/misc/trans/>Trans@HTW</a>
-<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a>
-</li>
-<ul>
-</div>
-</nav>
-<div class="col-md-10 c3">
-<div class=outer>
-<nav aria-label=breadcrumb role=navigation>
-<ol class="breadcrumb breadcrumb-thin">
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/>networks</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/labs/>labs</a></li>
-<li class="breadcrumb-item active" aria-current=page>lab01_ch01</li>
-</ol>
-</nav>
-</div>
-<div class=coursenav>
-<ul class="nav nav-tabs">
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/>Overview</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/schedule/>Schedule</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/flipped/>Flipped Classroom</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/resources/>Resources</a>
-</li>
-<li class=nav-item>
-<a class="nav-link active" href=https://bkleinen.github.io/classes/ws2021/networks/labs/>Labs</a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a>
-<div class=dropdown-menu>
-<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33323">Moodle</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a></li><ul></div></nav><div class="col-md-10 c3"><div class=outer><nav aria-label=breadcrumb role=navigation><ol class="breadcrumb breadcrumb-thin"><li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/>ws2021</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/>networks</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2021/networks/labs/>labs</a></li><li class="breadcrumb-item active" aria-current=page>lab01_ch01</li></ol></nav></div><div class=coursenav><ul class="nav nav-tabs"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/>Overview</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/schedule/>Schedule</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/flipped/>Flipped Classroom</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2021/networks/resources/>Resources</a></li><li class=nav-item><a class="nav-link active" href=https://bkleinen.github.io/classes/ws2021/networks/labs/>Labs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a><div class=dropdown-menu><a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33323">Moodle</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178930">SU in LSF</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=179397">Lab in LSF</a>
 <a class=dropdown-item target=ex_link href=https://github.com/htw-imi-networks>GitHub</a>
-<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
-</div>
-</li>
-</ul>
-</div>
-<div class=container-fluid>
-<h2 class=followed> Lab 01 - Nginx & HTTP</h2>
-<header class=following>
-<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
-Table of Contents
-</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a></div></li></ul></div><div class=container-fluid><h2 class=followed>Lab 01 - Nginx & HTTP</h2><header class=following><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href=https://bkleinen.github.io/classes/ws2021/networks/labs/lab00_intro/>&lt;prev</a>
-<a href=https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/>next></a>
-</header>
-<div class=collapse id=tocContent>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#part-1-set-up-a-real-web-server-on-a-virtual-machine>Part 1: Set up a Real Web Server on a Virtual Machine</a>
-<ul>
-<li><a href=#linux--shell-resources>Linux / Shell Resources</a></li>
-</ul>
-</li>
-<li><a href=#part-2-set-up-homepages>Part 2: Set up Homepages</a></li>
-<li><a href=#part-3-wireshark-lab-getting-started>Part 3: Wireshark Lab: Getting Started</a></li>
-<li><a href=#part-4-hack-http>Part 4: Hack http</a>
-<ul>
-<li><a href=#lab-report>Lab Report</a></li>
-</ul>
-</li>
-</ul>
-</nav>
-</div>
-<h2 id=part-1-set-up-a-real-web-server-on-a-virtual-machine>Part 1: Set up a Real Web Server on a Virtual Machine</h2>
-<p>We will do this part together in lab, where I will provide each group with
+<a href=https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/>next></a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#part-1-set-up-a-real-web-server-on-a-virtual-machine>Part 1: Set up a Real Web Server on a Virtual Machine</a><ul><li><a href=#linux--shell-resources>Linux / Shell Resources</a></li></ul></li><li><a href=#part-2-set-up-homepages>Part 2: Set up Homepages</a></li><li><a href=#part-3-wireshark-lab-getting-started>Part 3: Wireshark Lab: Getting Started</a></li><li><a href=#part-4-hack-http>Part 4: Hack http</a><ul><li><a href=#lab-report>Lab Report</a></li></ul></li></ul></nav></div><h2 id=part-1-set-up-a-real-web-server-on-a-virtual-machine>Part 1: Set up a Real Web Server on a Virtual Machine</h2><p>We will do this part together in lab, where I will provide each group with
 a virtual server hosted at the HTW - you will install and configure nginx
-on port 80 on these machines.</p>
-<h3 id=linux--shell-resources>Linux / Shell Resources</h3>
-<ul>
-<li>Here&rsquo;s the link to the very brief intro I wrote:
-<a href=https://bkleinen.github.io/material/ops/debian-server/>Setting up a Debian Webserver</a></li>
-<li>This is my recommendation for an introductionary book:
-<a href=https://linuxcommand.org/lc3_learning_the_shell.php#contents>LinuxCommand.org: Learning the shell.</a></li>
-<li>If you prefer videos, this
+on port 80 on these machines.</p><h3 id=linux--shell-resources>Linux / Shell Resources</h3><ul><li>Here&rsquo;s the link to the very brief intro I wrote:
+<a href=https://bkleinen.github.io/material/ops/debian-server/>Setting up a Debian Webserver</a></li><li>This is my recommendation for an introductionary book:
+<a href=https://linuxcommand.org/lc3_learning_the_shell.php#contents>LinuxCommand.org: Learning the shell.</a></li><li>If you prefer videos, this
 <a href="https://www.youtube.com/watch?v=1hvVcEhcbLM">Linux Essentials for Ethical Hackers - Full InfoSec Course - YouTube</a>
 and this <a href="https://www.youtube.com/watch?v=lZAoFs75_cs">Linux for Ethical Hackers (Kali Linux Tutorial) - YouTube</a>
-seem reasonable.</li>
-<li>Note that you are on Debian 11, commands may differ - check the <a href=https://www.debian.org/doc/manuals/debian-reference/>Debian Reference</a>.</li>
-</ul>
-<h2 id=part-2-set-up-homepages>Part 2: Set up Homepages</h2>
-<p>For each one in your group, set up a homepage that is accessible via
+seem reasonable.</li><li>Note that you are on Debian 11, commands may differ - check the <a href=https://www.debian.org/doc/manuals/debian-reference/>Debian Reference</a>.</li></ul><h2 id=part-2-set-up-homepages>Part 2: Set up Homepages</h2><p>For each one in your group, set up a homepage that is accessible via
 <code>http://&lt;servername>/~&lt;username></code> for each of your team members. The
-server roots should be under <code>~/.public_html</code> or ``~/public_html`</p>
-<h2 id=part-3-wireshark-lab-getting-started>Part 3: Wireshark Lab: Getting Started</h2>
-<p>We will be doing the <a href=http://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wiresharks Labs</a> from the book.
+server roots should be under <code>~/.public_html</code> or ``~/public_html`</p><h2 id=part-3-wireshark-lab-getting-started>Part 3: Wireshark Lab: Getting Started</h2><p>We will be doing the <a href=http://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wiresharks Labs</a> from the book.
 Get the &ldquo;<a href=http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.1.docx>Getting Started v8.1</a>&rdquo;
-Lab from Kurose&rsquo;s Website and work through it.</p>
-<p>Include the answers to the questions in your report; instead of printing the
+Lab from Kurose&rsquo;s Website and work through it.</p><p>Include the answers to the questions in your report; instead of printing the
 two packets, copy the text from a preview / pdf and include them in your report.
-You will need the first one for Part 4!</p>
-<h2 id=part-4-hack-http>Part 4: Hack http</h2>
-<p>Extract the first two lines of the HTTP GET requests issued in Part 2 (e.g. from
+You will need the first one for Part 4!</p><h2 id=part-4-hack-http>Part 4: Hack http</h2><p>Extract the first two lines of the HTTP GET requests issued in Part 2 (e.g. from
 the printouts), open a telnet session on the host on port 80 and send the get
 request manually. You&rsquo;ll need the first two lines (the get and the host) and
-issue two more empty lines.</p>
-<p>Try the same with your own nginx server. Include the results in your report.</p>
-<h3 id=lab-report>Lab Report</h3>
-<p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
-You may work on the reports in flexible teams of 2-3 students.</p>
-<p>Always put the names of all contributing people on your report.</p>
-<p>** put your server name in your report! **</p>
-<p>Each one of you has to hand in the completed Report individually in moodle
-by Friday 17:00 after the second lab meeting!</p>
-<p>In your report, describe what you did and what you found,
-as well as errors or problems you&rsquo;ve encountered.</p>
-</div>
-</div>
-</div>
-</main>
-<footer class="row p-0">
-<div class="col-md-2 c2">
-&nbsp;
-</div>
-<div class="col-md-10 c4">
-<small>
-<hr>
-<div class=container-fluid>
-<div class=row>
-<div class=col-9>
-<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+issue two more empty lines.</p><p>Try the same with your own nginx server. Include the results in your report.</p><h3 id=lab-report>Lab Report</h3><p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
+You may work on the reports in flexible teams of 2-3 students.</p><p>Always put the names of all contributing people on your report.</p><p>** put your server name in your report! **</p><p>Each one of you has to hand in the completed Report individually in moodle
+by Friday 17:00 after the second lab meeting!</p><p>In your report, describe what you did and what you found,
+as well as errors or problems you&rsquo;ve encountered.</p></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
 <a href=https://www.htw-berlin.de>HTW Berlin</a>,
 <a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
-&nbsp;&nbsp;&dash;&nbsp;&nbsp;
-</div>
-<div class=col-3>
-<a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
-<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
-</div>
-</div>
-<div class=row>
-<div class=col-9>
-This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-<br><small>
-This page was authored by: kleinen
-</small>
-</div>
-<div class=col-3>
-<a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a>
-</div>
-</div>
-<div class=row>
-<div class=col-sm-12>
-</div>
-</div>
-</div>
-</small>
-</div>
-</footer>
-<script>let sortTables=!1,stripedTables=!0</script>
-<script src=https://bkleinen.github.io/js/bundle.min.2e77815b9f3f7be195f9d073bea8b3ba3c025f403d0e61ef06c5ba0d08fc7f09.js defer></script>
-</body>
-</html>
+&nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.42c884a02a332682a078cefec4fc8afae120ce2b54e8b7b1fb1cb5764cdeaa86.js defer></script></body></html>

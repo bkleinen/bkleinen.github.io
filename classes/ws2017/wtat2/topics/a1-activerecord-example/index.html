@@ -1,343 +1,44 @@
-<!doctype html><html>
-<head>
-<title>A1 - Rails, ActiveRecord and Associations - Prof. Dr. Barne Kleinen</title>
-<link rel=icon href=https://bkleinen.github.io/favicon.ico>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=theme-color content="#1A94D2">
-<link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen>
-</head>
-<body>
-<div class=container-fluid>
-<header class="row m-b-5">
-<div class="col-md-2 c2">
-&nbsp;
-</div>
-<div class="col-md-10 c1 p-2"><div class=container-flex>
-<div class=row>
-<div class=col-9>
-<h1 class="c5 title"> WTAT2 Topics </h1>
-<small>Website of <a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
+<!doctype html><html><head><title>A1 - Rails, ActiveRecord and Associations - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io/favicon.ico><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">WTAT2 Topics</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
-at <a href=https://www.htw-berlin.de>HTW Berlin</a>
-</small>
-</div>
-<div class=col-3>
-<a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Prof. Dr. Barne Kleinen<br>HTW Berlin</a>
-</div>
-</div>
-</div>
-</div>
-</header>
-<main class="row p-0"><nav class="col-md-2 c2">
-<div class=nav>
-<ul class="nav flex-md-column">
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/>Home</a>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/info2/>B7 Info 2</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/networks/>B9 Networks</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/project/>Project</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m1-web/>M1 Labs</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/>M WT1 WebApps</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/theses/>Theses</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2021/>All WS 21/22</a>
-<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/material/>Material</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
+at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-3><a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Programming and Web Technology @ IMI</a></div></div></div></div></header><main class="row p-0"><nav class="col-md-2 c2"><div class=nav><ul class="nav flex-md-column"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/>Home</a></li><li class=nav-item><a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/info1/>B1 Info 1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/networks/>B9 Networks</a>
+<a class=dropdown-item href>WTAT1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/m1-web/>M1 Mediaprogramming</a>
+<a class=dropdown-item href>Theses</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2022/>All SoSe 2022</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/material/>Material</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/software_projects/>Software Projects</a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
 <a class=dropdown-item href=https://bkleinen.github.io/studies/ic/>IC</a>
-<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a>
-</div>
-</li>
-<li class=nav-item>
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a></div></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
 <a class=dropdown-item href=https://bkleinen.github.io/misc/trans/>Trans@HTW</a>
-<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a>
-</li>
-<ul>
-</div>
-</nav>
-<div class="col-md-10 c3">
-<div class=outer>
-<nav aria-label=breadcrumb role=navigation>
-<ol class="breadcrumb breadcrumb-thin">
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/>ws2017</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/wtat2/>wtat2</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/>topics</a></li>
-<li class="breadcrumb-item active" aria-current=page>a1-activerecord-example</li>
-</ol>
-</nav>
-</div>
-<div class=coursenav>
-<ul class="nav nav-tabs">
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2017/wtat2/>WTAT2</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/classes/ws2017/wtat2/schedule/>Schedule</a>
-</li>
-<li class=nav-item>
-<a class="nav-link active" href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/>Topics</a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a>
-<div class=dropdown-menu>
-<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=14388">Moodle</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/contact/>Contact Info</a></li><ul></div></nav><div class="col-md-10 c3"><div class=outer><nav aria-label=breadcrumb role=navigation><ol class="breadcrumb breadcrumb-thin"><li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/>ws2017</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/wtat2/>wtat2</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/>topics</a></li><li class="breadcrumb-item active" aria-current=page>a1-activerecord-example</li></ol></nav></div><div class=coursenav><ul class="nav nav-tabs"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2017/wtat2/>WTAT2</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ws2017/wtat2/schedule/>Schedule</a></li><li class=nav-item><a class="nav-link active" href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/>Topics</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a><div class=dropdown-menu><a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=14388">Moodle</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131102">LSF SU</a>
 <a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=131108">LSF Übung</a>
 <a class=dropdown-item target=ex_link href=https://github.com/htw-imi-wtat2>Github</a>
-<a class=dropdown-item target=ex_link href=https://github.com/bkleinen/bkleinen.github.io/wiki/Exam-Questions-Collected-in-Class>Wiki</a>
-</div>
-</li>
-</ul>
-</div>
-<div class=container-fluid>
-<h2 class=followed> A1 - Rails, ActiveRecord and Associations</h2>
-<header class=following>
-<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
-Table of Contents
-</a>
+<a class=dropdown-item target=ex_link href=https://github.com/bkleinen/bkleinen.github.io/wiki/Exam-Questions-Collected-in-Class>Wiki</a></div></li></ul></div><div class=container-fluid><h2 class=followed>A1 - Rails, ActiveRecord and Associations</h2><header class=following><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/a1-activerecord/>next></a>
-</header>
-<div class=collapse id=tocContent>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#assignment-1-example-imi-calendar>Assignment 1 Example: IMI-Calendar</a>
-<ul>
-<li><a href=#create-a-project-description-and-backlog>Create a project description and backlog</a></li>
-<li><a href=#number-your-stories-and-prioritize-the-backlog>Number your Stories and Prioritize the Backlog.</a></li>
-<li><a href=#find-and-define-2-or-3-model-classes-for-your-project-identify-stories-which-you-can-implement-with-crud-operations-on-these-resources>Find and define 2 or 3 model classes for your project. Identify stories which you can implement with CRUD operations on these resources.</a></li>
-<li><a href=#sketch--paper-prototype>Sketch / Paper Prototype</a></li>
-<li><a href=#implementation>Implementation.</a></li>
-</ul>
-</li>
-<li><a href=#roundup-and-report>Roundup and Report</a></li>
-</ul>
-</nav>
-</div>
-<h2 id=assignment-1-example-imi-calendar>Assignment 1 Example: IMI-Calendar</h2>
-<p>This is an example for <a href=../a1-activerecord/>Assignment 1</a></p>
-<h3 id=create-a-project-description-and-backlog>Create a project description and backlog</h3>
-<p>Currently, there is no channel to promote events offered for a range of IMI-Students across several classes.
+<a href=https://bkleinen.github.io/classes/ws2017/wtat2/topics/a1-activerecord/>next></a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#assignment-1-example-imi-calendar>Assignment 1 Example: IMI-Calendar</a><ul><li><a href=#create-a-project-description-and-backlog>Create a project description and backlog</a></li><li><a href=#number-your-stories-and-prioritize-the-backlog>Number your Stories and Prioritize the Backlog.</a></li><li><a href=#find-and-define-2-or-3-model-classes-for-your-project-identify-stories-which-you-can-implement-with-crud-operations-on-these-resources>Find and define 2 or 3 model classes for your project. Identify stories which you can implement with CRUD operations on these resources.</a></li><li><a href=#sketch--paper-prototype>Sketch / Paper Prototype</a></li><li><a href=#implementation>Implementation.</a></li></ul></li><li><a href=#roundup-and-report>Roundup and Report</a></li></ul></nav></div><h2 id=assignment-1-example-imi-calendar>Assignment 1 Example: IMI-Calendar</h2><p>This is an example for <a href=../a1-activerecord/>Assignment 1</a></p><h3 id=create-a-project-description-and-backlog>Create a project description and backlog</h3><p>Currently, there is no channel to promote events offered for a range of IMI-Students across several classes.
 The Web-Application should provide a simple interface for creating and promoting events. Events should be shown
 on a web site. In addition to that, it should be possible to subscribe to events via calendar applications or
-as an atom feed.</p>
-<h4 id=backlog---first-draft>Backlog - first draft</h4>
-<ul>
-<li>As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</li>
-<li>As an IMI-Student, I get an overview of events coming up within the next week.</li>
-<li>AS an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</li>
-<li>As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</li>
-<li>As a Student, I can filter events that are relevant for me (B/M, Semester).</li>
-<li>I can see the IMI-Calendar in my favourite Calendar Application.</li>
-</ul>
-<h3 id=number-your-stories-and-prioritize-the-backlog>Number your Stories and Prioritize the Backlog.</h3>
-<table>
-<thead>
-<tr>
-<th style=text-align:left>Nr</th>
-<th style=text-align:left>Story</th>
-<th style=text-align:left>Assignment</th>
-<th style=text-align:left>Sprint</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style=text-align:left>S003</td>
-<td style=text-align:left>As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S001</td>
-<td style=text-align:left>As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S002</td>
-<td style=text-align:left>As an IMI-Student, I get an overview of events coming up within the next week.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S004</td>
-<td style=text-align:left>As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S005</td>
-<td style=text-align:left>As a Student, I can filter events that are relevant for me (B/M, Semester).</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S006</td>
-<td style=text-align:left>I can see the IMI-Calendar in my favourite Calendar Application.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-</tbody>
-</table>
-<h3 id=find-and-define-2-or-3-model-classes-for-your-project-identify-stories-which-you-can-implement-with-crud-operations-on-these-resources>Find and define 2 or 3 model classes for your project. Identify stories which you can implement with CRUD operations on these resources.</h3>
-<p>For the calendar, the central resource clearly is an <code>Event</code>. For the second resource, I decide to implement the stories around event planning first. Thus, the second resource to implement will be <code>PlanningState</code>. There is a 1:n association between Event and PlanningState: Each Event has_a PlanningState
-and each PlanningState belongs_to an Event.</p>
-<p><img src=./../images/simple-model.jpg alt=Model>
-Very Simple First Domain Model</p>
-<table>
-<thead>
-<tr>
-<th style=text-align:left>Nr</th>
-<th style=text-align:left>Story</th>
-<th style=text-align:left>Assignment</th>
-<th style=text-align:left>Sprint</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style=text-align:left>S003</td>
-<td style=text-align:left>As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</td>
-<td style=text-align:left>A1</td>
-<td style=text-align:left>Sprint_1</td>
-</tr>
-<tr>
-<td style=text-align:left>S001</td>
-<td style=text-align:left>As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</td>
-<td style=text-align:left>A1</td>
-<td style=text-align:left>Sprint_1</td>
-</tr>
-<tr>
-<td style=text-align:left>S004</td>
-<td style=text-align:left>As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</td>
-<td style=text-align:left>A1</td>
-<td style=text-align:left>Sprint_1</td>
-</tr>
-<tr>
-<td style=text-align:left>S002</td>
-<td style=text-align:left>As an IMI-Student, I get an overview of events coming up within the next week.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S005</td>
-<td style=text-align:left>As a Student, I can filter events that are relevant for me (B/M, Semester).</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-<tr>
-<td style=text-align:left>S006</td>
-<td style=text-align:left>I can see the IMI-Calendar in my favourite Calendar Application.</td>
-<td style=text-align:left></td>
-<td style=text-align:left></td>
-</tr>
-</tbody>
-</table>
-<h3 id=sketch--paper-prototype>Sketch / Paper Prototype</h3>
-<p>This is a minimal example of how your screen sketches or simple paper prototype might look like.
-Again, don&rsquo;t hesitate to design more than you are able to implement right now.</p>
-<h4 id=s003-as-an-imi-student-i-can-see-events-that-will-be-important-for-me-eg-the-projektvergabe-or-the-showtime-well-ahead>S003: As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</h4>
-<p><img src=./../images/event-index-students.jpg alt=Event-Index>
-Event overview for students</p>
-<h4 id=s001-as-the-studiengangssprecher-i-want-to-announce-events-relevant-for-imi-students>S001: As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</h4>
-<p><img src=./../images/event-edit-sgs.jpg alt=Event-Edit>
-Event creation (SGS)</p>
-<p>The detailed view for an event for the SGS will be similar to the edit view.
-The detailed view of an event for students still needs to be detailed.</p>
-<h4 id=s004-as-the-studiengangssprecher-i-can-also-keep-an-overview-of-the-planning-status-date-set-room-booked-announced-etc-for-each-listed-event>S004: As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</h4>
-<p><img src=./../images/event-index-sgs.jpg alt=Event-Index-SGS>
-Event overview for students</p>
-<h3 id=implementation>Implementation.</h3>
-<p>The backend for S003, S001 and S004 have already implemented with the rails dash shown in last week&rsquo;s class. See
-<a href=https://github.com/htw-imi-wtat2/IMICalendar/commits/A1-Dash>https://github.com/htw-imi-wtat2/IMICalendar/commits/A1-Dash</a> and the individual commits for details: <a href=https://github.com/htw-imi-wtat2/IMICalendar/commits/master>https://github.com/htw-imi-wtat2/IMICalendar/commits/master</a></p>
-<h4 id=s003-as-an-imi-student-i-can-see-events-that-will-be-important-for-me-eg-the-projektvergabe-or-the-showtime-well-ahead-1>S003: As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</h4>
-<p>Don&rsquo;t get into the fine-tuning of the apperance yet, as we will do that later on with bootstrap.
+as an atom feed.</p><h4 id=backlog---first-draft>Backlog - first draft</h4><ul><li>As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</li><li>As an IMI-Student, I get an overview of events coming up within the next week.</li><li>AS an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</li><li>As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</li><li>As a Student, I can filter events that are relevant for me (B/M, Semester).</li><li>I can see the IMI-Calendar in my favourite Calendar Application.</li></ul><h3 id=number-your-stories-and-prioritize-the-backlog>Number your Stories and Prioritize the Backlog.</h3><table><thead><tr><th style=text-align:left>Nr</th><th style=text-align:left>Story</th><th style=text-align:left>Assignment</th><th style=text-align:left>Sprint</th></tr></thead><tbody><tr><td style=text-align:left>S003</td><td style=text-align:left>As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S001</td><td style=text-align:left>As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S002</td><td style=text-align:left>As an IMI-Student, I get an overview of events coming up within the next week.</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S004</td><td style=text-align:left>As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S005</td><td style=text-align:left>As a Student, I can filter events that are relevant for me (B/M, Semester).</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S006</td><td style=text-align:left>I can see the IMI-Calendar in my favourite Calendar Application.</td><td style=text-align:left></td><td style=text-align:left></td></tr></tbody></table><h3 id=find-and-define-2-or-3-model-classes-for-your-project-identify-stories-which-you-can-implement-with-crud-operations-on-these-resources>Find and define 2 or 3 model classes for your project. Identify stories which you can implement with CRUD operations on these resources.</h3><p>For the calendar, the central resource clearly is an <code>Event</code>. For the second resource, I decide to implement the stories around event planning first. Thus, the second resource to implement will be <code>PlanningState</code>. There is a 1:n association between Event and PlanningState: Each Event has_a PlanningState
+and each PlanningState belongs_to an Event.</p><p><img src=./../images/simple-model.jpg alt=Model>
+Very Simple First Domain Model</p><table><thead><tr><th style=text-align:left>Nr</th><th style=text-align:left>Story</th><th style=text-align:left>Assignment</th><th style=text-align:left>Sprint</th></tr></thead><tbody><tr><td style=text-align:left>S003</td><td style=text-align:left>As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</td><td style=text-align:left>A1</td><td style=text-align:left>Sprint_1</td></tr><tr><td style=text-align:left>S001</td><td style=text-align:left>As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</td><td style=text-align:left>A1</td><td style=text-align:left>Sprint_1</td></tr><tr><td style=text-align:left>S004</td><td style=text-align:left>As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</td><td style=text-align:left>A1</td><td style=text-align:left>Sprint_1</td></tr><tr><td style=text-align:left>S002</td><td style=text-align:left>As an IMI-Student, I get an overview of events coming up within the next week.</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S005</td><td style=text-align:left>As a Student, I can filter events that are relevant for me (B/M, Semester).</td><td style=text-align:left></td><td style=text-align:left></td></tr><tr><td style=text-align:left>S006</td><td style=text-align:left>I can see the IMI-Calendar in my favourite Calendar Application.</td><td style=text-align:left></td><td style=text-align:left></td></tr></tbody></table><h3 id=sketch--paper-prototype>Sketch / Paper Prototype</h3><p>This is a minimal example of how your screen sketches or simple paper prototype might look like.
+Again, don&rsquo;t hesitate to design more than you are able to implement right now.</p><h4 id=s003-as-an-imi-student-i-can-see-events-that-will-be-important-for-me-eg-the-projektvergabe-or-the-showtime-well-ahead>S003: As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</h4><p><img src=./../images/event-index-students.jpg alt=Event-Index>
+Event overview for students</p><h4 id=s001-as-the-studiengangssprecher-i-want-to-announce-events-relevant-for-imi-students>S001: As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</h4><p><img src=./../images/event-edit-sgs.jpg alt=Event-Edit>
+Event creation (SGS)</p><p>The detailed view for an event for the SGS will be similar to the edit view.
+The detailed view of an event for students still needs to be detailed.</p><h4 id=s004-as-the-studiengangssprecher-i-can-also-keep-an-overview-of-the-planning-status-date-set-room-booked-announced-etc-for-each-listed-event>S004: As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</h4><p><img src=./../images/event-index-sgs.jpg alt=Event-Index-SGS>
+Event overview for students</p><h3 id=implementation>Implementation.</h3><p>The backend for S003, S001 and S004 have already implemented with the rails dash shown in last week&rsquo;s class. See
+<a href=https://github.com/htw-imi-wtat2/IMICalendar/commits/A1-Dash>https://github.com/htw-imi-wtat2/IMICalendar/commits/A1-Dash</a> and the individual commits for details: <a href=https://github.com/htw-imi-wtat2/IMICalendar/commits/master>https://github.com/htw-imi-wtat2/IMICalendar/commits/master</a></p><h4 id=s003-as-an-imi-student-i-can-see-events-that-will-be-important-for-me-eg-the-projektvergabe-or-the-showtime-well-ahead-1>S003: As an IMI-Student, I can see events that will be important for me, e.g. the Projektvergabe, or the Showtime, well ahead.</h4><p>Don&rsquo;t get into the fine-tuning of the apperance yet, as we will do that later on with bootstrap.
 I couldn&rsquo;t resist to put a little bit of color into it, though.
 During the adaption of the view I realized that I would need some elements for S004 later on,
-thus I &ldquo;commented them out&rdquo; using <code>if false</code>.</p>
-<p>See commit <a href=https://github.com/htw-imi-wtat2/IMICalendar/commit/7fe58e390883f5f7024ad19452f1acae6f006f75>S003: adapted event index for students</a></p>
-<h4 id=s001-as-the-studiengangssprecher-i-want-to-announce-events-relevant-for-imi-students-1>S001: As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</h4>
-<p>The paper sketch reveals that when an event is created, the corresponding planning state should also be created. The Values should be shown and editable on the event page.</p>
-<p>Thus, the form on the new event page needs to send both attributes for the new event as for the new
+thus I &ldquo;commented them out&rdquo; using <code>if false</code>.</p><p>See commit <a href=https://github.com/htw-imi-wtat2/IMICalendar/commit/7fe58e390883f5f7024ad19452f1acae6f006f75>S003: adapted event index for students</a></p><h4 id=s001-as-the-studiengangssprecher-i-want-to-announce-events-relevant-for-imi-students-1>S001: As the Studiengangssprecher, I want to announce events relevant for IMI-Students.</h4><p>The paper sketch reveals that when an event is created, the corresponding planning state should also be created. The Values should be shown and editable on the event page.</p><p>Thus, the form on the new event page needs to send both attributes for the new event as for the new
 planning_state. This is documented in <a href=https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html>https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html</a> and
-<a href=https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for>https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for</a>.</p>
-<p>See commit <a href=https://github.com/htw-imi-wtat2/IMICalendar/commit/003f62fb43a8794f7b4c4baf17970a800ce26308>S001: planning state can be edited and is shown on the event page</a></p>
-<h4 id=s004-as-the-studiengangssprecher-i-can-also-keep-an-overview-of-the-planning-status-date-set-room-booked-announced-etc-for-each-listed-event-1>S004: As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</h4>
-<p>The Sketches for this story and S003 imply that the roles of &lsquo;Student&rsquo; and &lsquo;SGS&rsquo; will need different views for the Event list (event#index). As we don&rsquo;t have authentication yet,
-I simply introduced a toggle to switch between these views. The toggle can later be replaced to work depending of the role of the logged in user.</p>
-<p>See commit <a href=https://github.com/htw-imi-wtat2/IMICalendar/commit/8cc4db93e70ba70c0e4c42ce6eb250088b87de8d>S004: Overview of Planning Statuses in event index for SGS</a></p>
-<h2 id=roundup-and-report>Roundup and Report</h2>
-<p>Write a report that may be a bit more detailed than mine. Also, write about
+<a href=https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for>https://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for</a>.</p><p>See commit <a href=https://github.com/htw-imi-wtat2/IMICalendar/commit/003f62fb43a8794f7b4c4baf17970a800ce26308>S001: planning state can be edited and is shown on the event page</a></p><h4 id=s004-as-the-studiengangssprecher-i-can-also-keep-an-overview-of-the-planning-status-date-set-room-booked-announced-etc-for-each-listed-event-1>S004: As the Studiengangssprecher, I can also keep an overview of the planning status (date set, room booked, announced etc) for each listed event.</h4><p>The Sketches for this story and S003 imply that the roles of &lsquo;Student&rsquo; and &lsquo;SGS&rsquo; will need different views for the Event list (event#index). As we don&rsquo;t have authentication yet,
+I simply introduced a toggle to switch between these views. The toggle can later be replaced to work depending of the role of the logged in user.</p><p>See commit <a href=https://github.com/htw-imi-wtat2/IMICalendar/commit/8cc4db93e70ba70c0e4c42ce6eb250088b87de8d>S004: Overview of Planning Statuses in event index for SGS</a></p><h2 id=roundup-and-report>Roundup and Report</h2><p>Write a report that may be a bit more detailed than mine. Also, write about
 problems you&rsquo;ve encountered. What worked, what didn&rsquo;t work?
 Please label each commit with the story it belongs to.
 Also, tag the final version of this sprint with A1-Complete
-You submit your report to moodle as pdf and include the url of your git repository in your report.</p>
-</div>
-</div>
-</div>
-</main>
-<footer class="row p-0">
-<div class="col-md-2 c2">
-&nbsp;
-</div>
-<div class="col-md-10 c4">
-<small>
-<hr>
-<div class=container-fluid>
-<div class=row>
-<div class=col-9>
-<a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+You submit your report to moodle as pdf and include the url of your git repository in your report.</p></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
 <a href=https://www.htw-berlin.de>HTW Berlin</a>,
 <a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
-&nbsp;&nbsp;&dash;&nbsp;&nbsp;
-</div>
-<div class=col-3>
-<a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
-<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a>
-</div>
-</div>
-<div class=row>
-<div class=col-9>
-This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-<br><small>
-This page was authored by: kleinen
-</small>
-</div>
-<div class=col-3>
-<a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a>
-</div>
-</div>
-<div class=row>
-<div class=col-sm-12>
-</div>
-</div>
-</div>
-</small>
-</div>
-</footer>
-<script>let sortTables=!1,stripedTables=!0</script>
-<script src=https://bkleinen.github.io/js/bundle.min.2e77815b9f3f7be195f9d073bea8b3ba3c025f403d0e61ef06c5ba0d08fc7f09.js defer></script>
-</body>
-</html>
+&nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.42c884a02a332682a078cefec4fc8afae120ce2b54e8b7b1fb1cb5764cdeaa86.js defer></script></body></html>
