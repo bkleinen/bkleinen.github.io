@@ -81,9 +81,9 @@ Thursday will be a day-long open lab. We've combined rooms, lab and 2nd lecture 
 offer you a day long "Open Lab". These are the tentative specifics (those may be adapted
 during the term, changes will be announced via moodle):
 
-9:45-11:15 Lab Intro and Q&A for all (7.4.22 in WH-C 350 , room tba after that)
+9:45-11:15 Lab Intro, assigning teams and Q&A for all (7.4.22 in WH-C 350 , room tba after that)
 
-11:15-ca.15:30 Open Lab for all in Rooms WH-C 576, 577, 578
+11:15-ca.15:30 Open Lab and Lab Presentations for all in Rooms WH-C 576, 577, 578
 
 We will assign teams during the Lab Intro in the morning and will ask one half of you
 to have lunch early and the other half to have lunch later, such that not all 40+ (currently 61)

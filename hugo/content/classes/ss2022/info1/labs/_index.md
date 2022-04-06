@@ -28,6 +28,8 @@ Additionally, you upload a zip of your solution's source code.
 
 Both must be submitted individually to the Moodle area by 22.00 before the next lab.
 
+The results of your lab will be presented by one randomly selected member of the group in the next lab.
+
 [Here are some general guidelines on lab reports.](/studies/grading/guideline)
 
 ## Exercises
