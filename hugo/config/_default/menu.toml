@@ -35,10 +35,16 @@
   weight = 10
 [[main]]
   parent = 'classes'
+  identifier = '/classes/ss2022/wtat1'
+  name = 'WTAT1'
+  pageref = '/classes/ss2022/wtat1'
+  weight = 15
+[[main]]
+  parent = 'classes'
   identifier = '/classes/ss2022/m1-web'
   name = 'M1 Mediaprogramming'
   pageref = '/classes/ss2022/m1-web'
-  weight = 10
+  weight = 20
 [[main]]
   parent = 'classes'
   identifier = '/classes/ss2022/theses'
