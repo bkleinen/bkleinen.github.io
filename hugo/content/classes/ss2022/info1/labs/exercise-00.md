@@ -56,7 +56,7 @@ You need to get used to keeping a logbook in the lab. It can be analog (i.e. on 
 
 1.   [Download the Kara Scenarios][1] from github: use the "Download ZIP" button in the lower right corner if you're not familiar with git and github or use [this direct link](https://github.com/htw-imi-info1/kara/archive/refs/heads/main.zip). You will use the scenarios 01-01 through 01-08 for this lab.
 
-2.   Read through [Worksheet 1](../material/info1-02-worksheet-kara-1.pdf).
+2.   Read through [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf).
 
 3.   Remember to have a logbook while working:
 Note down the steps you've taken, including those that failed. Read through the whole assignment first, before starting to work.
