@@ -37,7 +37,7 @@ The results of your lab will be presented by one randomly selected member of the
 
 ## What happens in a lab?
 
-Programming is something you can&#8217;t learn out of a book &#8211; you have
+Programming is something you can&#8217;t learn out of a book &#8211; you have to
 try out things yourself and practice! Therefore, this class will have lots of
 exercises. In the Labs you will have opportunity to work on them, and, most
 importantly, **ask questions** or **discuss it with others** if something is
@@ -77,4 +77,4 @@ E.g. your group picked hearts 4, so you will present 11:00 - 11:10.
 We expect you to do the exercises anyway and hand in a lab report.
 
 ### I have another problem!
-Talk to us! You can even do it anonymousely on Moodle.
+Talk to us! You can even do it anonymously on Moodle.
