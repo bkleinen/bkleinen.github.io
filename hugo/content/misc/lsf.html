@@ -20,6 +20,13 @@ menu:
       // for longer list: "Teilnahme- und manuelle Zuteilungsliste" - nur für SGS
       matchRegEx = /^(\d{6})\s*([^\t]*?)\s\s(.*?)\s\s.*/;
       replaceString = "$2 $3 <s0$1@htw-berlin.de>";
+    } else {
+      let emailVersandListe = document.getElementById("emailVersandListe").checked;
+      if (emailVersandListe) {
+        // for longer list: "Teilnahme- und manuelle Zuteilungsliste" - nur für SGS
+        matchRegEx = /^(\d{6})\s*([^,]*),([^\t]*).*/;
+        replaceString = "$3 $2 <s0$1@htw-berlin.de>";
+      }
     }
 
     document.getElementById("whichRegex").innerHTML = "Used Default: "
@@ -72,6 +79,14 @@ menu:
             Use Replacement for "Teilnahme- und manuelle Zuteilungsliste"
           </label>
         </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="useRegExp" id="emailVersandListe">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Use Replacement for Email-Versandliste
+          </label>
+        </div>
+
     </div>
 
         <div class="col-6">
