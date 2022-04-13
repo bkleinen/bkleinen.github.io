@@ -128,7 +128,7 @@ Make sure to include your names at the top of your report.
 
 ## For the Bored
 
-Work through [Worksheet 2](../material/info1-04-worksheet-kara-2.pdf).
+Work through [Worksheet 2](../../material/info1-04-worksheet-kara-2.pdf).
 
 This first lab is really about getting started, getting to know the infrastructure
 and make sure that you are able to work on the first exercise next week.
