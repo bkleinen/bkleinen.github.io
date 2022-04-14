@@ -2,6 +2,9 @@
 title: 'Exercise 09: Testing with JUnit'
 author: kleinen
 source: https://github.com/htw-imi-info1/chapter09_testing
+bk_ok_to_publish: false
+source_ok: false
+solution_pushed: false
 draft: true
 ---
 

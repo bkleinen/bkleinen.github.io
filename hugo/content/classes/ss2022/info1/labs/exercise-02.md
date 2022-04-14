@@ -4,6 +4,9 @@ author: kleinen
 layout: lab
 source: https://github.com/htw-imi-info1/exercise02
 draft: true
+bk_ok_to_publish: true
+source_ok: false
+solution_pushed: false
 ---
 
 ![Book](../../images/ticket-5277919863_b741ccde84_b.jpg)

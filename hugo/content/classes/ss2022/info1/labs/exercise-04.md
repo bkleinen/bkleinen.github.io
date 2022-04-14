@@ -1,8 +1,11 @@
 ---
 title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
-draft: true
 source: https://github.com/htw-imi-info1/exercise04
+bk_ok_to_publish: false
+source_ok: false
+solution_pushed: false
+draft: true
 ---
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](https://www.flickr.com/photos/arjanrichter/6085686394)
 <small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](https://www.flickr.com/photos/arjanrichter/6085686394)</small>

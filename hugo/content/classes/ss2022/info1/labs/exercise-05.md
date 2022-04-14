@@ -1,8 +1,11 @@
 ---
 title: 'Exercise 05: A Better Notebook'
 author: kleinen
-draft: true
 source: https://github.com/htw-imi-info1/exercise05
+bk_ok_to_publish: false
+source_ok: false
+solution_pushed: false
+draft: true
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 ![Notebook](../../images/notebook-6783298985.jpg)

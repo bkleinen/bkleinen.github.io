@@ -2,6 +2,9 @@
 title: 'Exercise 12: Pick up and Carry'
 author: kleinen
 layout: lab
+bk_ok_to_publish: false
+source_ok: false
+solution_pushed: false
 draft: true
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
