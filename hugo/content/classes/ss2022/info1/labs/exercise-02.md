@@ -69,7 +69,7 @@ public void discount (int amount)
 
 ## What to hand in
 
-Hand in your lab report the night before the next lab, 10pm (22.00 Uhr). See [the Labs and Exercises page](../labs).
+Hand in your lab report (pdf) and your code (zip) the night before the next lab, 10pm (22.00 Uhr). See [the Labs and Exercises page](../).
 
 
 * * *
