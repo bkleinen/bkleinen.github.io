@@ -3,7 +3,7 @@ title: 'Exercise 02: TicketMachine'
 author: kleinen
 layout: lab
 source: https://github.com/htw-imi-info1/exercise02
-draft: true
+draft: false
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true
