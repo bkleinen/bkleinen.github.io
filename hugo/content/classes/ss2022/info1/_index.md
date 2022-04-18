@@ -11,8 +11,8 @@ courseNavInt:
   link: "/classes/ss2022/info1/schedule/"
 - title: Labs
   link: "/classes/ss2022/info1/labs/"
-- title: Notebook
-  link: "/classes/ss2022/info1/notebook/"
+- title: Workbook
+  link: "/classes/ss2022/info1/workbook/"
 - title: Code Examples
   link: "/classes/ss2022/info1/code/"
 - title: Material
@@ -69,10 +69,10 @@ See the [Schedule](./schedule) and the [Material](./material) pages for detailed
 On Friday at 12:15-13:45 we meet in WH-C 357 for a brief overview lecture, Q&A and
 additional practice exercises on the book chapter topics.
 
-#### Notebooks
+#### Workbooks
 
 We encourage you to maintain hand-written notes and sketches. For this, we've prepared
-a notebook template (available in moodle) containing additional exercises and room for your notes.
+a workbook template (available in moodle) containing additional exercises and room for your notes.
 You can hand in your weekly notes for additional points (see below).
 
 #### Open Labs
@@ -109,7 +109,7 @@ The grade will be a weighted mixture of the following parts:
 
 * 40% [Lab Reports](labs/)
 * 55% Exam
-* 10% [Notebook Chapters](notebook/)
+* 10% [Workbook Chapters](workbook/)
 
 
 This sums up to a total of 105 % and will be graded according to the
@@ -117,10 +117,10 @@ This sums up to a total of 105 % and will be graded according to the
 
 
 ### Further remarks
-Notebook Chapters and Lab Reports are simply counted - they are either present/marked as ok
+Workbook Chapters and Lab Reports are simply counted - they are either present/marked as ok
 or not.
 
-2 lab reports and 3 Notebook Chapters may be handed in late.
+2 lab reports and 3 Workbook Chapters may be handed in late.
 
 If you are unable to work on your assignments due to circumstances you are not
 accountable off - e.g. falling ill or family emergencies - talk to one of us

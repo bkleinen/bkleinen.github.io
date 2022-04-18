@@ -2,9 +2,9 @@
 title: "Working with HTW Machines"
 date: 2021-11-03
 draft: false
-tools: []
+tools: ['bash','hrz']
 tags: ['ops','htw']
-courses: ['networks','wt1','info2','bash','hrz']
+courses: ['networks','wt1','info2']
 toc: false
 ---
 

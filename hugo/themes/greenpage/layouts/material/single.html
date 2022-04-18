@@ -3,10 +3,12 @@
 
 {{ $section := .Section}}
 
-{{ with .Site.GetPage $section }}<a href="{{.Permalink}}">{{ $section | humanize }}</a>{{ end }}
-within Taxonomies:
+<h1>{{ .Title }}</h1>
 
-{{ $page := .}}
+<small>
+{{ with .Site.GetPage $section }}<a href="{{.Permalink}}">{{ $section | humanize }}</a>{{ end }}
+in
+{{- $page := .}}
 {{ range $taxonomy, $taxonomy_term_pages_map := .Site.Taxonomies }}
 &nbsp;
 {{ $terms := ($page.GetTerms $taxonomy ) }}
@@ -18,12 +20,12 @@ within Taxonomies:
     {{ end }}
 {{ end }}
 {{ end }}
+</small>
 
-<hr/>
+
 {{ partial "toc.html" (dict "context" . "nextPrevLinks" false) }}
 
 {{ .Content }}
-
 
 {{ end }}
 

@@ -67,3 +67,15 @@ See [makefile](makefile) for other useful targets.
 # Markdown
 
 Hugo uses [Goldmark markdown](https://www.markdownguide.org/tools/hugo/).
+
+
+# Hugo
+
+## find aliases
+
+    grep -R "aliases: " hugo/content
+
+
+## update aliases data file:
+
+    grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" > hugo/data/aliases.yml

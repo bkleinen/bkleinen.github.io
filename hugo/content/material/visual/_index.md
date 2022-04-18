@@ -1,8 +1,10 @@
 ---
-title: "Programming Languages"
+title: "Visual Things"
+date: 2022-04-18
 draft: false
-weight: 10
+weight: 100
 ---
+
 ### Material in this chapter:
 
 {{< subpages depth = "3">}}

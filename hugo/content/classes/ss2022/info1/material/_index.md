@@ -56,6 +56,10 @@ The autors have recorded videos for most lectures:
 
 ## Other Material
 
+### On this Website
+
+{{< course_material >}}
+
 ### Java Tutorials
 
 There are many Java Tutorials out there on the web on the topics we cover. Many will prove useful, however, do use them as practice to gauge the quality
