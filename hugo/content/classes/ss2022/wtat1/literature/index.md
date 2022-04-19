@@ -1,28 +1,29 @@
 ---
 title: WTAT1 Literature
 author: kerth
-draft: true
+draft: false
 ---
 
-
-# Literature and Resources
-
-## Textbook for Node, Express and Mongo
+##### Textbook for Node, Express and Mongo
 
 * Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning.
     * [Source Code for this book on Github](https://github.com/JonathanWexler/get-programming-with-nodejs).
 
-## JavaScript
+##### JavaScript
 
 * [Mozilla Developer Network - JavaScript Guide](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide)
 * [Eloquent JavaScript 3rd Edition](https://eloquentjavascript.net/)
 * [JavaScript Tutorial w3schools](https://www.w3schools.com/js/)
 
-## Vue
+##### Express
 
-* [Documentation on vue.js site](https://vuejs.org/v2/guide/) - concrete parts will be assigned to the vue sprints
+* [Express.js Home Page](https://expressjs.com/)
 
-## Agile Development and Scrum:
+##### Mongo DB
+
+* [Mongo DB Home Page](https://www.mongodb.com/)
+
+##### Agile Development and Scrum:
 
 * [Scrum Foundations eLearning Series on scrumalliance.org](https://www.scrumalliance.org/learn-about-scrum/scrum-elearning-series)
 * [The Scrum Guide](https://www.scrumguides.org/)
