@@ -1,6 +1,5 @@
 {{ define "meta" }}
 
-   {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
    {{ $termInfo := (apply (slice .Data.Singular .Data.Term) "humanize" ".") }}
    {{ $pageTitle := printf "Material for %s %s" (index $termInfo 0) (index $termInfo 1)  }}
    {{ .Scratch.Set "pageTitle" $pageTitle }}
@@ -8,8 +7,13 @@
 
 {{ define "main" }}
 
+{{ if and (eq .Kind "term" ) ( eq .Type "courses" ) }}
+  {{- partial "link_to_course.html" (dict "page" . "path" .Data.Term ) -}}
+{{ end }}
+
 <!-- {{ .Data.Plural | humanize }} for {{ .Data.Singular | humanize }} {{ .Data.Term | humanize }} -->
 <h2> {{ .Scratch.Get "pageTitle" }}</h2>
+
 {{ .Content }}
 <ul>
     {{ range .Pages }}
@@ -22,4 +26,4 @@
 
 {{ end }}
 
-{{ define "template" }}theme: layouts/taxonomy/terms.html{{ end }}
+{{ define "template" }}theme: layouts/taxonomy/term.html{{ end }}

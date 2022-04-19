@@ -1,7 +1,6 @@
 ---
 title: Barne Kleinen | Contact Info
 author: kleinen
-layout: page
 toc: true
 ---
 
@@ -16,7 +15,7 @@ toc: true
 
 Email: Barne.Kleinen@htw-berlin.de
 
-Office: WH C 645
+Office: WH-C 645
 
 Zoom: [My Personal Zoom-Room]({{< param zoomBK >}})
 <!--Skype&Twitter: drblinken-->

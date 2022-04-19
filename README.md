@@ -14,12 +14,29 @@ Apart from that, feel free to browse and also send me a [pull request](https://d
 
 # Now on Hugo
 
+Prerequisites:
+
+- git
+- [Hugo](https://gohugo.io/)
+- optional: make if using
+
+## Checkout
+
     git clone git@github.com:bkleinen/bkleinen.github.io.git
     cd bkleinen.github.io
 
+## Start with make
+
     make hugo
 
-(local installation of [Hugo](https://gohugo.io/) needed.)
+## Start without make
+
+    cd hugo ; npm install ; cd ..
+    hugo --buildDrafts --source hugo -p 4242 server
+
+## start options
+
+    See the [makefile](makefile) and the hugo doc for other startup options.
 
 # Deployment
 
@@ -50,3 +67,15 @@ See [makefile](makefile) for other useful targets.
 # Markdown
 
 Hugo uses [Goldmark markdown](https://www.markdownguide.org/tools/hugo/).
+
+
+# Hugo
+
+## find aliases
+
+    grep -R "aliases: " hugo/content
+
+
+## update aliases data file:
+
+    grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" > hugo/data/aliases.yml

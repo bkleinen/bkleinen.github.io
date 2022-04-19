@@ -1,8 +1,11 @@
 ---
 title: 'Exercise 07: Lotto and Technical Support'
 author: kleinen
-draft: true
 source: https://github.com/htw-imi-info1/exercise07
+bk_ok_to_publish: false
+source_ok: false
+solution_pushed: false
+draft: true
 ---
 
 <figure class = "figure">

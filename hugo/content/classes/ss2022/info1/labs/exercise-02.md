@@ -3,7 +3,10 @@ title: 'Exercise 02: TicketMachine'
 author: kleinen
 layout: lab
 source: https://github.com/htw-imi-info1/exercise02
-draft: true
+draft: false
+bk_ok_to_publish: true
+source_ok: true
+solution_pushed: true
 ---
 
 ![Book](../../images/ticket-5277919863_b741ccde84_b.jpg)
@@ -58,7 +61,7 @@ public void discount (int amount)
 ```
 
 7. Add a method called `prompt` to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print the following single line of output: `Please insert the correct amount of money.`
-8. Add the possibility to count the number of tickets sold. Include a method for outputting how many tickets have been sold, like we did in class.
+8. Add the possibility to count the number of tickets sold. Include a method for outputting how many tickets have been sold, like we did in class / as described in the textbook.
 9. Add a `printPrice` method to the TicketMachine class. This should have a void return type and take no parameters. The body of the method should print: `The price of a ticket is xyz cents.`  where xyz should be replaced by the value held in the price field when the method is called. Now create two ticket machines with differently priced tickets. Do calls to their `printPrice` methods show the same output, or different? How do you explain this effect?
 <!--10. Add and implement a method, `empty` , that simulates the effect of removing all money from the machine. This method should have a void return type, and its body should simply set the total field to zero. Does this method need to take any parameters? Test your method by creating a machine, inserting some money, printing some tickets, checking the total, and then emptying the machine. Is the empty method a mutator or an accessor?-->
 10. (For the bored) Can you make the better-ticket-machine give proper change with a minimal amount of Euro coins?
@@ -66,7 +69,7 @@ public void discount (int amount)
 
 ## What to hand in
 
-Hand in your lab report the night before the next lab, 10pm (22.00 Uhr). See [the Labs and Exercises page](../labs).
+Hand in your lab report (pdf) and your code (zip) the night before the next lab, 10pm (22.00 Uhr). See [the Labs and Exercises page](../).
 
 
 * * *
