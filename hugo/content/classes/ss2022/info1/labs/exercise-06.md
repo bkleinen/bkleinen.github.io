@@ -67,4 +67,4 @@ Lab assignments are due on the day before the next labs at 10pm.
 
 <hr />
 Adapted from:
-[https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab5.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab5.shtml)
+[https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab5.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab5.shtml)

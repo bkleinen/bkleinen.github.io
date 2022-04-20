@@ -2,9 +2,8 @@
 title: 'Exercise 03: Book Exercise'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise03
-bk_ok_to_publish: false
-source_ok: false
-solution_pushed: false
+source_ok: true
+solution_pushed: true
 draft: true
 ---
 
@@ -79,11 +78,11 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
         public String getRefNumber()
 
         public void setRefNumber (String ref)
-    ```
+  ```
 6. Modify your `printDetails` method to include printing the reference number. However, the method should print the reference number only if it has been set, and the exact string "no reference number" otherwise. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your `setRefNumber` mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
 
 
 * * *
 
-Exercise Adapted from https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab2.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009
+Exercise Adapted from https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab2.shtml , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael Kölling, 2009

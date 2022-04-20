@@ -74,7 +74,7 @@ Hand in your lab report (pdf) and your code (zip) the night before the next lab,
 
 * * *
 
-Adapted from [https://people.f4.htw-berlin.de/~weberwu/info1/Labs/Lab1.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab1.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
+Adapted from [https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab1.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/site/site/Labs/Lab1.shtml) , which was itself adapted from Objects First with Java, A Practical Introduction Using BlueJ. David Barnes & Michael K&ouml;lling, 2009
 
 [1]: https://github.com/htw-imi-info1/exercise02
 [2]: https://github.com/htw-imi-info1/exercise02/zipball/main
