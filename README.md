@@ -63,6 +63,14 @@ Automatic deployment via github actions, see https://github.com/bkleinen/bkleine
 
 See [makefile](makefile) for other useful targets.
 
+## Deploy w/o Makefile
+
+There have been some reports that make on Windows complains about the format of the makefile. In such cases, a deployment can also be triggered manually:
+
+    git pull
+    git tag (search the latest tag in the output and increment, e.g. if the latest tag is v1.94, use v1.95 in the subsequent steps)
+    git tag <incremented tag> (e.g. git tag v1.95)
+    git push origin <incremented tag> (e.g. git push origin v1.95)
 
 # Markdown
 
