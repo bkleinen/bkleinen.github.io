@@ -1,7 +1,7 @@
 ---
 title: Sprint 13 - Deployment to Heroku
 author: kerth
-draft: true
+draft: false
 ---
 
 #### Agile Topic
