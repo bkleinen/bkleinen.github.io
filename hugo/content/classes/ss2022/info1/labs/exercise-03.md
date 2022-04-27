@@ -56,7 +56,7 @@ public int refundBalance() {
 ## What to hand in
 
 0. A ZIP-file with your source code
-1. Your lab report
+1. Your lab report. For more Information on the report see [the Labs and Exercises page](../).
 
 Lab assignments are due the night before your next lab at 22:00. They may, of course, be turned in earlier.
 

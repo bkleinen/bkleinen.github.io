@@ -12,7 +12,8 @@ draft: true
 This week&#8217;s lab work will begin a larger project that will occupy us until the end of the semester. The groups you form today will stay groups for the remaining part of the semester!
 
 # Pre-lab
-Please bring these exercises printed out or written out with you to the lab.
+
+Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
 
 **P0**. Invent your own game scenario away from the computer. Don&#8217;t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:
 
@@ -33,17 +34,8 @@ Be creative! Give your game a name.
 
 # What To Hand In
 Please hand in:
-* zip-folder with your code
-* lab report as pdf (max. 5 pages)
-
-The lab report should have:
-* Answers to all pre-lab questions
-* Answers to the questions from the assigment (A1, A5)
-* Complete transparency on who did what
-* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
-* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* A summary of what you did & learned in the lab
-* A description of how you tested your code solutions
+* zip-folder with your code.
+* Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
 Lab assignments are due the day before your next lab at 10pm. That will be after the winter holidays in about three weeks!
 

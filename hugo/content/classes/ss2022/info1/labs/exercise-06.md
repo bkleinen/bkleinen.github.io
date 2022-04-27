@@ -18,7 +18,7 @@ This week's lab work is intended help you better understand lambda functions.
 
 ## Pre-lab
 
-Please bring these exercises printed out or written out and completed with you to lab. Doing the pre-lab will save you time during the lab.
+Please prepare these Exercises \*before\* coming to lab! Doing the pre-lab will save you time during the lab.
 
 **P0.** If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?
 
@@ -40,8 +40,8 @@ What is the equivalent lambda in Java? What syntax variations are possible?
 
 ## What To Hand In
 Please hand in:
-* zip-folder with your AnimalMonitor code
-* lab report as pdf
+* zip-folder with your AnimalMonitor code.
+* Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
 Lab assignments are due on the day before the next labs at 10pm.
 

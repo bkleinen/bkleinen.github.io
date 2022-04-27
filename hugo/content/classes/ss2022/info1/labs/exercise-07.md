@@ -19,7 +19,7 @@ This week's lab work is intended give you practice using the Random class.
 
 # Pre-Lab
 
-Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
+Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
 
 **P1**. How do you generate random numbers between 1 and 10 with Java? In what package is the library?
 
@@ -35,7 +35,7 @@ Please bring these exercises printed out or written out with you to lab. Please 
 
 # Post-Lab, AKA  What To Turn In
 
-* pdf: the lab report, including a table with your frequencies for the Lotto numbers picked.
+* pdf: the lab report, including a table with your frequencies for the Lotto numbers picked. For more Information on the report see [the Labs and Exercises page](../).
 * zip: the final version of your Lotto code, properly and thoroughly documented with javadoc.
 
 Lab assignments are due at 22:00 before your next lab.

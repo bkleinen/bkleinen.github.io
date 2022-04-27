@@ -16,7 +16,7 @@ This week's lab work is intended to get you to implement parts of a class that i
 ## Pre-lab
 
 <span class = "attention">
-Prepare your prelab before coming to class! We will talk about it briefly.
+Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
 </span>
 
 **P0.** Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.
@@ -49,18 +49,8 @@ Prepare your prelab before coming to class! We will talk about it briefly.
 
 You need to upload 2 Files to Moodle:
 
-- Your Lab Report as PDF with the extension .pdf (max. 5 pages)
+- Your Lab Report as PDF. For more Information on the report see [the Labs and Exercises page](../).
 - The source code folder containing all BlueJ projects compressed with ZIP and the extension .zip
-- As always, your Lab Report should include:
-
-    - A summary of what you did & learned in the lab
-    - Details on which challenges you encountered, how you tried to solve them & the solution
-    - The strategy you chose for working in a team & how it worked out
-    - Complete transparency on who contributed what
-
-- Additionally, this time your lab report should also include:
-
-    - A record of how long you needed for this lab
 
 Lab assignments are due before your next lab at 22:00. They may, of course, be turned in earlier.
 

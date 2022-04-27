@@ -12,7 +12,7 @@ This week's lab work is intended give you practice testing and writing assertion
 
 #### Pre Lab
 
-Please bring these exercises printed out or written out or in digital form with you to lab.
+Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
 
 **P1**. Write down six test cases for Day and Appointment that were not given in the book. Give each test case (and the ones from the lecture) a name.
 
@@ -20,10 +20,9 @@ Please bring these exercises printed out or written out or in digital form with 
 
 # Post-Lab, AKA  What To Turn In
 
-* A report of your completed assignment, submitted in Moodle as a pdf
-* Your BlueJ project as a zip file
-
-- For the tests you need to record what worked, what didn't, and perhaps make an occasional screenshot.
+* A report of your completed assignment, submitted in Moodle as a pdf. For more Information on the report see [the Labs and Exercises page](../).
+  * For the tests you need to record what worked, what didn't, and perhaps make an occasional screenshot.
+* Your BlueJ project as a zip file.
 
 Lab assignments are due on the day before the next lab at 22:00.
 

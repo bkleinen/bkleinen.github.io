@@ -16,7 +16,7 @@ This week's lab work is intended help you practice using loops.
 ## Pre-lab
 
 <span class = "attention">
-Please prepare these Exercises \*before\* coming to lab! We will talk about them briefly.
+Please prepare these Exercises \*before\* coming to lab! Doing the pre-lab will save you time during the lab.
 </span>
 
 **P0**. Write a loop on paper that prints out all multiples of 5 between 10 and 95.
@@ -29,8 +29,8 @@ Please prepare these Exercises \*before\* coming to lab! We will talk about them
 
 ## What To Turn In
 Please hand in:
-* zip-folder with your prelab-and-primes project and the Notebook project
-* lab report as pdf
+* zip-folder with your prelab-and-primes project and the Notebook project.
+* Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
 Lab assignments are due on the day before the next lab at 10pm.
 

@@ -17,7 +17,15 @@ in PDF format, with your name on it. The report must be in English or German. In
 1. The report on the lab assignment (Pre-Lab and Lab), spell-checked and using complete sentences,
 explaining what you did in the exercise session, that is, the process. Screenshots are welcome. This part
 may be written together with others in your team and exchanged within your team.
-Thus, include the name of all authors in this part.
+Thus, include the name of all authors in this part. The lab report should include:
+  * Answers to all pre-lab questions
+  * Answers to the questions from the assigments
+  * A description of how you tested your code solutions
+  * Complete transparency on who did what
+  * The strategy you chose for working in a team & how it worked out *(OR if you worked alone: a reflection on your own working strategy)*
+  * Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: a reflection on the exercises themselves)*
+  * A summary of what you did & learned in the lab
+
 
 2. A reflection on what you learned during the session, which is your personal,
 individual summary.

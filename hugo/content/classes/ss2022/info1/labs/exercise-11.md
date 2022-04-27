@@ -13,7 +13,7 @@ This week&#8217;s lab work will continue a larger project that will occupy us un
 
 # Pre-lab
 
-Please bring these exercises printed out or written out with you to lab.
+Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
 
 **P1**. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?
 
@@ -23,16 +23,7 @@ Please bring these exercises printed out or written out with you to lab.
 # What To Hand In
 Please hand in:
 * zip-folder with your code
-* lab report as pdf (max. 5 pages)
-
-The lab report should have:
-* Answers to all pre-lab questions
-* Answers to the explicit questions from the assigment
-* Complete transparency on who did what
-* The strategy you chose for working in a team & how it worked out *(OR if you worked alone: ) a reflection on your own working strategy*
-* Details on which challenges you encountered, how you tried to solve them & their solution *(OR if you did not encounter any challenges: ) a reflection on the exercises themselves*
-* A summary of what you did and a summary of what you learned in the lab
-* A description of how you tested your code solutions
+* Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
 Lab assignments are due the day before your next lab at 10pm.
 
