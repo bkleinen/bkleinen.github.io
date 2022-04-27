@@ -237,6 +237,10 @@ What happens if you try to compile the TicketMachine class with the following ve
 Pre-lab What to Bring to Lab Please finish these exercises before coming to lab.
 P1. Why does the following version of refundBalance not give the same results as what we saw in class?
 public int refundBalance() { balance = 0; return balance; } P2.
+What happens if you try to compile the TicketMachine class with the following version of refundBalance?</description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-03/</guid><description>Books. Abhi SharmaThis week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.
+Pre-lab What to Bring to Lab Please finish these exercises before coming to lab.
+P1. Why does the following version of refundBalance not give the same results as what we saw in class?
+public int refundBalance() { balance = 0; return balance; } P2.
 What happens if you try to compile the TicketMachine class with the following version of refundBalance?</description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ws2012/info1/assignments/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2012/info1/assignments/exercise-03/</guid><description>Book Exercise: Instance Variables, Getters and Setters and some Strings. Pre-lab This week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.
 What to Bring to Lab Please finish these exercises before coming to lab.
 P1. Why does the following version of refundBalance not give the same results as what we saw in class?
