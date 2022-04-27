@@ -2,14 +2,14 @@
 title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise04
-bk_ok_to_publish: false
-source_ok: false
-solution_pushed: false
+bk_ok_to_publish: true
+source_ok: true
+solution_pushed: true
 draft: true
 ---
+
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](https://www.flickr.com/photos/arjanrichter/6085686394)
 <small class = "float-right">Katarina Elevator in Stockholm, Foto by [Arjan Richter](https://www.flickr.com/photos/arjanrichter/6085686394)</small>
-
 
 This week's lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.
 
@@ -69,7 +69,19 @@ Lab assignments are due before your next lab at 22:00. They may, of course, be t
 # Assignment
 Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](https://github.com/htw-imi-info1/exercise04)
 
-**Clock time**
+You can use the **clock-display-with-gui** project which includes an auto-updating
+Graphical User Interface for the ClockDisplay; to get a reference to the
+ClockDisplay object instantiate the Clock first and call its getClockDisplay()
+method (do not create them seperately as they will not be linked!) - or paste
+the code below into BlueJ's Code Pad (View->Show Code Pad) and drag the red
+object reference into BlueJ's Object Bench:
+```java
+Clock clock = new Clock();
+clock.getClockDisplay()
+```
+
+
+## Clock time
 
 0. Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! Make sure your displayString has exactly this format:
     <pre>06:15 am</pre>
