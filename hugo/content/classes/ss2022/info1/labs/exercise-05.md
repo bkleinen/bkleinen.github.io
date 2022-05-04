@@ -2,9 +2,9 @@
 title: 'Exercise 05: A Better Notebook'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise05
-bk_ok_to_publish: false
-source_ok: false
-solution_pushed: false
+bk_ok_to_publish: true
+source_ok: true
+solution_pushed: true
 draft: true
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
@@ -38,13 +38,19 @@ Lab assignments are due on the day before the next lab at 10pm.
 
 **A Better Notebook**
 
-Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise05](https://github.com/htw-imi-info1/exercise05)
+Source Code for this exercise: {{< source  >}}
 
-You can use the notebook-gui which should ease testing. The ```Notebook.java``` file stays the same. If you use the GUI version you should start by adding the method signatures with empty method bodies (or you could return "not yet implemented") until NotebookGUI compiles enabling you to start using the GUI for testing. You can, however, just use Notebook.java.
+You can use the notebook-gui project which should ease testing.
+The ```Notebook.java``` file stays the same.
+If you use the GUI version you should start by adding the method signatures with
+ empty method bodies or returning a simple value (e.g. "", null, 0) where
+ necessary  (or you could return "not yet implemented") until
+ NotebookGUI compiles, enabling you to start using the GUI for testing.
+ You can, however, just use Notebook.java.
 
-0. Using the provided class `PreLab`in the prelab-and-primes project, test that your prelab work in P0-P1 is correct. What test cases did you have to create?
+0. Using the provided class `PreLab`  in the prelab-and-primes project, test that your prelab work in P0-P1 is correct. What test cases did you have to create?
 
-1. `printAll()`: Adapt the notebook project you find in the repository to list all notes in a method called `printAll()`, as done in class. Create a notebook and add some notes, checking that this method works as intended.
+1. ```printAll()```: Adapt the notebook project you find in the repository to list all notes in a method called `printAll()`, as done in class. Create a notebook and add some notes, checking that this method works as intended.
 2. `getAll()`: Now copy the method, name the copy ```getAll()```    and modify  such that instead of printing all notes directly, it returns a string containing all notes with a new line ( "\n" ) in between.
 If you don't like the idea of copying code rewrite the `printAll()` method to use `getAll()`.
 3. `getAllNumbered()` : copy and modify your `getAll()` method so that it adds a number in front of each note that corresponds to its index in the ArrayList. The new method should be called `getAllNumbered()`.

@@ -6,6 +6,7 @@ title = 'Prof. Dr. Barne Kleinen'
 theme = "greenpage"
 enableGitInfo = true
 canonifyURLs = true
+ignoreFiles = ['README\.MD$', 'readme\.md$']
 [module]
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
