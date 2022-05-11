@@ -2,8 +2,8 @@
 title: 'Exercise 06: Lambda Functions'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise06
-bk_ok_to_publish: false
-source_ok: false
+bk_ok_to_publish: true
+source_ok: true
 solution_pushed: false
 draft: true
 ---
@@ -48,7 +48,7 @@ Lab assignments are due on the day before the next labs at 10pm.
 
 ## Assignment
 
-0. Download the [animal-monitoring-v1](https://github.com/htw-imi-info1/exercise06) project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P1, compile them and run them. Did they all work? Record the results for your lab report.
+0. Download the animal-monitoring-v1 {{< source  >}} project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P1, compile them and run them. Did they all work? Record the results for your lab report.
 
 1. Rewrite the `printSightingsOf` method in the AnimalMonitor class to use streams and lambdas. Test to make sure that your project still works as before.
 
