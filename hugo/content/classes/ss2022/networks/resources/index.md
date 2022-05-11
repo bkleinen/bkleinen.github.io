@@ -4,7 +4,7 @@ author: kleinen
 layout: default
 ---
 {{< alert danger>}}
-Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Hariri, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Haririan, übernommen. Die Informationen hier sind derzeit nicht aktuell.
 {{</ alert >}}
 
 ## Textbook

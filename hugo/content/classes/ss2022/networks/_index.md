@@ -26,7 +26,7 @@ courseNavExt:
 ---
 
 {{< alert danger>}}
-Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Hariri, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Haririan, übernommen. Die Informationen hier sind derzeit nicht aktuell.
 {{</ alert >}}
 
 Welcome! This class will give you an introduction on how Computer Networks, especially the Internet, work.
