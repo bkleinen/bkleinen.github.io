@@ -25,6 +25,10 @@ courseNavExt:
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
 ---
 
+{{< alert danger>}}
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Hariri, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+{{</ alert >}}
+
 Welcome! This class will give you an introduction on how Computer Networks, especially the Internet, work.
 
 ## Module and Context

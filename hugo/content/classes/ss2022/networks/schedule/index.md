@@ -3,6 +3,10 @@ title: B9 Networks SoSe 2022 - Schedule
 author: kleinen
 layout: default
 ---
+{{< alert danger>}}
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Hariri, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+{{</ alert >}}
+
 This schedule is, as always, tentative and will be updated during the term.
 
 | W   | CW  | Date           |                | Read before class:                                                                             | Lab |

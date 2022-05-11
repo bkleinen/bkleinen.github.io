@@ -1,7 +1,10 @@
 ---
-title: B9 Networks WS 2021/22 - Labs
+title: B9 Networks SoSe 2022 - Labs
 author: kleinen
 ---
+{{< alert danger>}}
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Hariri, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+{{</ alert >}}
 
 ## Labs
 {{< subpages  >}}

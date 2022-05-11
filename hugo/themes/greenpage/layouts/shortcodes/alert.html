@@ -1,0 +1,6 @@
+{{ $class := "warning" }}
+{{ with .Get 0 }} {{ $class = . }} {{ end }}
+
+<div class="alert alert-{{- $class -}}" role="alert">
+  {{ .Inner }}
+</div>
