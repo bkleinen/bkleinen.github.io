@@ -14,4 +14,8 @@ What happens if you try to compile the TicketMachine class with the following ve
 Pre-lab P0. Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.</description></item><item><title>Exercise 05: A Better Notebook</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-05/</guid><description>Foto by waferboardThis week&amp;rsquo;s lab work is intended help you practice using loops.
 Pre-lab P0. Write a loop on paper that prints out all multiples of 5 between 10 and 95.
 P1. Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.
-P2. Assume you have a collection of students called imi1.</description></item></channel></rss>
+P2. Assume you have a collection of students called imi1.</description></item><item><title>Exercise 06: Lambda Functions</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-06/</guid><description>This week&amp;rsquo;s lab work is intended help you better understand lambda functions.
+Pre-lab Please prepare these Exercises *before* coming to lab! Doing the pre-lab will save you time during the lab.
+P0. If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?
+P1. Given the following code:
+public void printStudent (Student s) { System.</description></item></channel></rss>
