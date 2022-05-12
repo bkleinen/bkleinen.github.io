@@ -1,10 +1,9 @@
 ---
 title: Lab 00 - Intro
 author: kleinen
-draft: true
+draft: false
 ---
 
-** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**
 
 ## Part 1: Playing with Web Servers
 
@@ -38,16 +37,6 @@ https://nginx.org/en/docs/beginners_guide.html
 The bored can give docker a try:
 [https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)
 
-### 1.c Setting up a real server on a virtual machine
-
-We will do this part together in lab, where I will provide each group with
-a virtual server hosted at the HTW - you will install and configure nginx
-on port 80 on these machines.
-** update 21.10.2021: nur bis 1c bearbeiten, so weit wie Sie im lab gekommen sind.**
-
-
-~~##### 2. Wireshark Lab: Getting Started~~
-** moved to lab 01 **
 
 ### Lab Report
 
@@ -56,10 +45,8 @@ You may work on the reports in flexible teams of 2-3 students.
 
 Always put the names of all contributing people on your report.
 
-** put your server name in your report! **
-
-Each one of you has to hand in the completed Report individually in moodle
-by Friday 17:00 after your lab meeting!
+Each one of you has to hand in the completed Report
+individually in moodle at the date shown in moodle.
 
 In your report, describe what you did and what you found,
  as well as errors or problems you've encountered.
