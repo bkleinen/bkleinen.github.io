@@ -4,8 +4,13 @@ author: kleinen
 source: https://github.com/htw-imi-info1/exercise06
 bk_ok_to_publish: true
 source_ok: true
+<<<<<<< HEAD
 solution_pushed: true
 draft: true
+=======
+solution_pushed: false
+draft: false
+>>>>>>> 4a7832592 (publish lab 06)
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
