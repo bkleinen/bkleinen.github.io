@@ -2,9 +2,9 @@
 title: 'Exercise 07: Lotto and Technical Support'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise07
-bk_ok_to_publish: false
-source_ok: false
-solution_pushed: false
+bk_ok_to_publish: true
+source_ok: true
+solution_pushed: true
 draft: true
 ---
 
@@ -52,7 +52,8 @@ Lab assignments are due at 22:00 before your next lab.
 4. Repeat for 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and include it in your report.
 
 ## Technical Support
-0. Open the book chapter 6.2 for a refresher - this exercise is based on it. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as is done in the book.
+
+0. Open the book chapter 6.2 for a refresher - this exercise is based on it. Open the basic TechSupport project {{< source >}}. Expand it to give random responses as is done in the book.
 1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
 2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 3. Document your code with javadoc!
