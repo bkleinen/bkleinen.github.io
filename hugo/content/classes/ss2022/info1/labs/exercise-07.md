@@ -5,7 +5,7 @@ source: https://github.com/htw-imi-info1/exercise07
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true
-draft: true
+draft: false
 ---
 
 <figure class = "figure">
