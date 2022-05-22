@@ -24,7 +24,7 @@ draft: false
 | 11   | 26  | Scrum Event: Retrospective         | Unit 6 - Building an API Part I      | Sprint 10 - REST API         | Fri 01/07/2022     | 15:45-17:15     | Presentation Topic 9, JWT                                          |
 | 12   | 27  |                                    | Unit 6 - Building an API Part II     | Sprint 11 - Security         | Fri 08/07/2022     | 15:45-17:15     | Presentation Topic 10, gRPC                                        |
 | 13   | 28  |                                    | Unit 7 - Real-Time Communication     | Sprint 12 - Socket.io        | Fri 15/07/2022     | TBA             | [TBC: Presentation Topic 11, High Availability OR Exam]            |
-| 14   | 29  |                                    | Unit 8 - Test & Deployment           | Sprint 13 - Heroku           | Fri 22/07/2022     | TBA             | [TBC: Alternate Date for Exam                                      |
+| 14   | 29  |                                    | Unit 8 - Test & Deployment           | Sprint 13 - Heroku           | Fri 22/07/2022     | TBA             | [TBC: Alternate Date for Exam]                                     |
 
 This table is to be read as follows:
 During week 2 of the term - which is calendar week 16 - you need to study the agile and tech topic, first individually and then within the team. Furthermore, you need to work on the corresponding sprint and turn in the sprint report by Friday of that week, 22:00h.
@@ -36,13 +36,13 @@ For the agile topics, read the [scrum guides](https://scrumguides.org/index.html
 
 1. HTTP 1.1
 2. Data Models and Validation in Mongo
-3. Promises in JavaScript
+3. Promises in JavaScript / AJAX
 4. SQL vs. NoSql Databases
 5. Data Consistency in Mongo
 6. State Management
 7. PKI and TLS
 8. RESTful Applications
-9. AJAX
+9. <TBC>
 10. HTTP v2.0
 11. Scalability
 

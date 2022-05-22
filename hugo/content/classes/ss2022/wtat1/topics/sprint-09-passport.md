@@ -35,7 +35,7 @@ Write up a brief status report containing:
 - The backlog as a text file
 - The stories you've implemented in this sprint
 - A reflection on any technical issues that you have encountered and how you resolved them (or not)
-  - Can you ensure that an associated model instance is available on insert of the main model?
+  - What happens if you do not use a salt when hashing passwords? 
 - The url of your git repositories
 
 and submit it as .txt or .pdf to Moodle with the filename _Group\_\<X\>\_Project\_\<Y\>\_Sprint09.pdf_ or
