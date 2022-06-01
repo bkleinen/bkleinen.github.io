@@ -63,19 +63,25 @@ random at the beginning of each lab.
 
 During the lab after you handed in your report, one randomly selected member of each group will present the groups results to an instructor.
 See the below table to determine which time slot is associated with the game card your group picked.
-E.g. your group picked hearts 4, so you will present 11:00 - 11:10.
+E.g. your group picked hearts 4, so you will present 13:30 - 13:40.
 
-| Hearts Time Slots <br> 10:30 - 12:00 | Clubs Time Slots <br> 13:00 - 14:30 |  
-|:-------------------------------------|:------------------------------------|
-| **10:30** - ❤️ A                     | **13:00** - ♣️ A                    |
-| **10:40** - ❤️ 2                    | **13:10** - ♣️ 2                    |
-| **10:50** - ❤️ 3                     | **13:20** - ♣️ 3                    |
-| **11:00** - ❤️ 4                     | **13:30** - ♣️ 4                    |
-| **11:10** - ❤️ 5                     | **13:40** - ♣️ 5                    |
-| **11:20** - ❤️ 6                     | **13:50** - ♣️ 6                    |
-| **11:30** - ❤️ 7                     | **14:00** - ♣️ 7                    |
-| **11:40** - ❤️ 8                     | **14:10** - ♣️ 8                    |
-| **11:50** - ❤️ 9                     | **14:20** - ♣️ 9                    |
+| Card | Time Slot |
+|:---- |:--------- |
+| ❤️ A | **13:00*  |
+| ❤️ 2 | **13:10*  |
+| ❤️ 3 | **13:20*  |
+| ❤️ 4 | **13:30*  |
+| ❤️ 5 | **13:40*  |
+| ❤️ 6 | **13:50*  |
+| ❤️ 7 | **14:00*  |
+| ❤️ 8 | **14:10*  |
+| ❤️ 9 | **14:20*  |
+| ♣️ A | **14:30*  |
+| ♣️ 2 | **14:40*  |
+| ♣️ 3 | **14:50*  |
+| ♣️ 4 | **15:00*  |
+| ♣️ 5 | **15:10*  |
+| ♣️ 6 | **15:20*  |
 
 
 ## FAQ
