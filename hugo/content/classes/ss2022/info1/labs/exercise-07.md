@@ -44,6 +44,8 @@ Lab assignments are due at 22:00 before your next lab.
 
 # Assignment
 
+Code for both Assignments: {{< source >}}
+
 ## Lotto
 
 1. Create a class that will be doing some testing of random numbers. Make a method that picks the six numbers for next Saturday between 1 and 49. Note that no two numbers may be the same! How do you avoid this?
@@ -53,7 +55,7 @@ Lab assignments are due at 22:00 before your next lab.
 
 ## Technical Support
 
-0. Open the book chapter 6.2 for a refresher - this exercise is based on it. Open the basic TechSupport project {{< source >}}. Expand it to give random responses as is done in the book.
+0. Open the book chapter 6.2 for a refresher - this exercise is based on it. Open the basic TechSupport project. Expand it to give random responses as is done in the book.
 1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
 2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 3. Document your code with javadoc!
