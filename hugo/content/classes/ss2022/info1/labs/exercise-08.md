@@ -5,7 +5,7 @@ source: https://github.com/htw-imi-info1/exercise08
 bk_ok_to_publish: false
 source_ok: false
 solution_pushed: false
-draft: true
+draft: false
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 This week's lab work is intended give you practice working with the basic concepts of programming.
@@ -30,13 +30,10 @@ Please hand in:
 * zip-folder with your code.
 * Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
-Lab assignments are due tuesday at 10pm.
 
 * * *
 
-# Assignment
-
-# Bouncing Balls
+# Assignment - Bouncing Balls
 
 0. Install the Bouncing Balls project in the lab. Experiment with canvas operations by making changes to the drawDemo method BallDemo. Draw some more lines, shapes and text. What did you find out and how? Document your experiments in your lab report.
 
