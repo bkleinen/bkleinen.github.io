@@ -42,7 +42,7 @@ For the agile topics, read the [scrum guides](https://scrumguides.org/index.html
 6. State Management
 7. PKI and TLS
 8. RESTful Applications
-9. <TBC>
+9. Web 2.0
 10. HTTP v2.0
 11. Scalability
 
