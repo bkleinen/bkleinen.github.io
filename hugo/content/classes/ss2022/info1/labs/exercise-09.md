@@ -5,7 +5,7 @@ source: https://github.com/htw-imi-info1/chapter09_testing
 bk_ok_to_publish: false
 source_ok: false
 solution_pushed: false
-draft: true
+draft: false
 ---
 
 This week's lab work is intended give you practice testing and writing assertions.
@@ -20,7 +20,7 @@ Prepare your prelab before coming to class! Doing the pre-lab will save you time
 
 # Post-Lab, AKA  What To Turn In
 
-* A report of your completed assignment, submitted in Moodle as a pdf. For more Information on the report see [the Labs and Exercises page](../).
+* A report of your completed prelab and assignment as well as your reflection, submitted in Moodle as a pdf. For more Information on the report see [the Labs and Exercises page](../).
   * For the tests you need to record what worked, what didn't, and perhaps make an occasional screenshot.
 * Your BlueJ project as a zip file.
 
