@@ -5,7 +5,7 @@ source: https://github.com/htw-imi-info1/exercise10
 bk_ok_to_publish: false
 source_ok: false
 solution_pushed: false
-draft: true
+draft: false
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
@@ -38,18 +38,6 @@ Please hand in:
 * Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
 Lab assignments are due the day before your next lab at 10pm. That will be after the winter holidays in about three weeks!
-
-## Update on grading
-Until today, each requirement of the lab report gave you one star plus one star for complete working code. For Lab10 and the following labs, the grading will be updated:
-* 1 star for working code
-* 1 star for the challenges requirement
-* 0.5 stars for a summary of what you did
-* 0.5 stars for a summary of what you learned
-* 0.5 stars for the team work requirement
-* 0.5 stars for the test documentation requirement
-* 1 star for completing & reflecting on the *special challenge* of a lab
-
-* * *
 
 # Assignment
 
