@@ -83,7 +83,6 @@ Exam in SoSe 2022:
 * Weekly Reports 12 * 2,5P- 30 % (each one turned in counts 2%) (Berichte über Laborübungen)
 * Presentation 10 %
 * Exam - 60 % (Präsenzklausur, Programming)
-* 5 min Project Presentations - 5% Bonus
 
 Wiederholungsmöglichkeiten im 2.PZ:
 
