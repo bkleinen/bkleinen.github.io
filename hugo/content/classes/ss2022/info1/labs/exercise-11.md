@@ -5,7 +5,7 @@ layout: lab
 bk_ok_to_publish: false
 source_ok: false
 solution_pushed: false
-draft: true
+draft: false
 ---
 <!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
 
