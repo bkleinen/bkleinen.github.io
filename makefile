@@ -6,14 +6,13 @@
 .PHONY : hugo # only necessary if file with same name exists
 .RECIPEPREFIX = -
 
-hugo/node_modules :
--  cd hugo ; npm install ; cd ..
-
- # default port
+# default port
 port=4242
 
 hugo :  hugo/node_modules openH
 -  hugo --buildDrafts --source hugo -p $(port) server
+hugo/node_modules :
+-  cd hugo ; npm install ; cd ..
 
 hugoWT :  port = 4241
 hugoWT :  hugo/node_modules open
