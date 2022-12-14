@@ -22,9 +22,12 @@ die auch die Diskriminierung aufgrund geschlechtlicher Identität mit berücksic
 wird. [Derweil ist das Berliner Antidiskriminierungsgesetz, dass auch für die Hochschule gilt,
 in Kraft getreten.](https://www.berlin.de/sen/lads/recht/ladg/materialien/)
 
+https://www.berlin.de/sen/lads/recht/ladg/
+
+
 ## Änderung des Namens im LSF, Moodle und interner Kommunikation
 
-Sie können auf der Grundlage des [dgti-Ausweises](https://www.dgti.org/ergaenzungsausweis.html) Ihren Namen und Personenstand in den Systemen der HTW ändern lassen, siehe
+Studierende können auf der Grundlage des [dgti-Ausweises](https://www.dgti.org/ergaenzungsausweis.html) Ihren Namen und Personenstand in den Systemen der HTW ändern lassen, siehe
 [https://www.htw-berlin.de/studium/studienorganisation/immatrikulation-rueckmeldung/aenderungsmeldung/](https://www.htw-berlin.de/studium/studienorganisation/immatrikulation-rueckmeldung/aenderungsmeldung/)
 
 ## Trans-Tagung an der HTW
@@ -48,7 +51,7 @@ Liebe Lehrende an der HTW Berlin,
 
 für Trans*-Studierende kann es eine Hürde im Studium darstellen, an der Hochschule
 mit einem Namen und einer Anrede angesprochen zu werden, die Ihrer Identität und
-Persönlichkeit nicht entspricht.  
+Persönlichkeit nicht entspricht.
 
 Der Prozess einer amtlichen Namensänderung beruht auf dem veralteten Transsexuellengesetz, das bereits in Teilen als verfassungswidrig eingestuft wurde. Er ist kosten-, zeitaufwendig und psychisch belastend - nicht zuletzt weil er eine Begutachtung durch zwei Psychologen voraussetzt.
 [Teilweise oder vielleicht auch eher zeitweise war eine Änderung auch über § 45b PStG möglich](https://www.lsvd.de/recht/ratgeber/transgender/ratgeber-zum-transsexuellengesetz/hinweise-fuer-antragstellerinnen.html) - ich komme nicht hinterher, hier
