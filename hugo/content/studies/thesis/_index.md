@@ -33,7 +33,9 @@ The **Module-Handbook** was the basis of a the collaborative editorial process b
 several universities to create the initial curricula for the 12 study programs
 for the newly founded  German International University of Cairo. It is currently
 both beeing ported into the IT of the GIU in Cairo in order to be the basis for
-further content maintenance as well as the data source for information on the website.s
+further content maintenance as well as the data source for information on the website.
+It was supplemented with the **Study Plan** to plan a individual's student studies
+and manage registration for elective courses.
 
 See my
 [List of Software-Projects]({{< ref "/software_projects" >}}) for all projects and more info.
@@ -42,8 +44,8 @@ Ideas to extend the projects in any way are always welcome.
 
 The extensions of the existing projects- as well as maybe new projects -
 can have a focus either on functional extensions and technology, on usability,
-either user centered design or usability evaluations and improvement
-to support a special use case, or process design and support.
+(either user centered design or usability evaluations and improvement) or on
+process design and support.
 
 
 ## Module Handbook
@@ -65,7 +67,9 @@ for markdown editing exists. How can (some kind of) wysiwig editor be included
 in the module handbook? What needs to be done to generalize this approach?
 How can editing of module descriptions be made more intuitive?
 (here's a page where I tinkered a bit which might be a possible starting point:
-[Markdown Editor](/html/markdown-editor/markdown-editor.html"))
+[Markdown Editor](/markdown-editor/markdown-editor.html))
+
+[Markdown Editor](/markdown-editor/markdown-editor.html))
 
 ### Module Handbook Interface Overhaul
 
