@@ -15,6 +15,6 @@ jobs:
       with:
         fetch-depth: 1
     - name: Hugo Internal Broken Link Checker
-      uses: bkleinen/hugo-broken-link-checker
+      uses: bkleinen/hugo-broken-link-checker@HEAD
       with:
         hugo-source: hugo
