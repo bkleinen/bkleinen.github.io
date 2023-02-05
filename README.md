@@ -73,11 +73,37 @@ There have been some reports that make on Windows complains about the format of 
     git tag <incremented tag> (e.g. git tag v1.95)
     git push origin <incremented tag> (e.g. git push origin v1.95)
 
+# Link Checker
+
+Hugo Internal Broken Link Checker · Actions · GitHub Marketplace: https://github.com/marketplace/actions/hugo-internal-broken-link-checker?version=v1.1.0
+marojor/hugo-broken-link-checker: GitHub Action to check from broken links in an Hugo site: https://github.com/marojor/hugo-broken-link-checker
+
 # Markdown
 
 Hugo uses [Goldmark markdown](https://www.markdownguide.org/tools/hugo/).
 
-# Hugo
+# Notes on Hugo Setup
+
+The [Makefile](./Makefile) serves both as shortcuts and documentation for
+hugo build configurations.
+
+This sites uses an own theme contained in this repository.
+
+In development/debug mode [debug.html](hugo/themes/greenpage/layouts/partials/debug.html)
+shows many variables/values useful for debugging.
+
+
+## Classes logic
+
+All Class Sections have their own subnavigation, defined in
+[hugo/themes/greenpage/layouts/partials/classes/coursenav.html](hugo/themes/greenpage/layouts/partials/classes/coursenav.html)
+
+The Classes Subnavigation consists of an internal part (subpages) and external part
+(e.g. links to LSF, github, moodle). it can be configured in the section _index.md
+
+
+## Book Topology
+tbd
 
 ## find aliases
 

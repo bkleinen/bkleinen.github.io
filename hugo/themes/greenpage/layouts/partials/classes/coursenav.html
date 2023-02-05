@@ -1,5 +1,14 @@
+{{/* this partial generates the top row navigation for a course/class.
+  it has two parts:
+  - links to subdirectories in course folder
+  - external links (e.g. lsf, github) which need to be specified
+
+  */}}
 {{ $currentPage := . }}
 {{ $course_page := . }}
+
+
+{{/* only include coursenav if on course site */}}
 {{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}
 
   {{/* find course page for subpages */}}
@@ -7,7 +16,7 @@
     {{ $class_path := replaceRE ".*(/classes/[^/]*/[^/]*)/.+" "$1" .RelPermalink}}
     {{ .Scratch.Set "class_page_path"  $class_path}}
     {{ $course_page = .Site.GetPage $class_path }}
-  {{ end}}
+  {{ end }} {{/*if eq "class_subpage"*/}}
 
 <ul class="nav nav-tabs">
 

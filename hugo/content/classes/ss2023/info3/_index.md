@@ -4,13 +4,17 @@ author: kleinen
 layout: page
 courseNavInt:
 - title: Info3
-  link: "/classes/ws2020/info3/"
-- title: Assessment
-  link: "/classes/ws2020/info3/continuous_assessment/"
+  link: "/classes/ss2023/info3/"
 - title: Schedule
-  link: "/classes/ws2020/info3/schedule/"
+  link: "/classes/ss2023/info3/schedule/"
 - title: Labs
-  link: "/classes/ws2020/info3/labs/"
+  link: "/classes/ss2023/info3/labs/"
+- title: Assessment
+  link: "/classes/ss2023/info3/continuous_assessment/"
+
+
+
+
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=28123
@@ -102,7 +106,7 @@ The Labs grade is made up of three parts:
 
 ## Exam
 
-There will be a 2-hour online examination at the end of the semester.  
+There will be a 2-hour online examination at the end of the semester.
 
 ## I have already taken Info3 last semester and passed the labs!
 
