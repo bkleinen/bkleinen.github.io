@@ -37,6 +37,6 @@ jobs:
           echo "Hugo has started"
 
       - name: Check Links
-        uses: filiph/linkcheck@3.0.0
-        with:
-          arguments: http://host.docker.internal:1313
+        run: |
+          docker run --rm tennox/linkcheck host.docker.internal:1313 &
+          # --external
