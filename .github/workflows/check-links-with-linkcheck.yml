@@ -3,7 +3,7 @@ name: Check Links
 on:
   push:
     branches:
-      - 23s
+      - 23sx
     tags-ignore:
       - 'v*'
 jobs:

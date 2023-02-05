@@ -3,7 +3,7 @@ name: Hugo broken link check
 on:
   push:
     branches:
-      - 23s
+      - 23sx
 
 jobs:
   broken-link-check:
