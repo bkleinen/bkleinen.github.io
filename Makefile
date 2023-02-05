@@ -86,3 +86,14 @@ openI:
 - open 	http://localhost:4242/~kleinen/classes/ss2022/info1/
 openN:
 - open 	http://localhost:4242/~kleinen/classes/ss2022/networks/
+
+linkCheck:
+- hugo --source hugo  --minify --environment staging --baseUrl http://host.docker.internal:1415 --port 1415 server &
+- docker run --rm tennox/linkcheck --external host.docker.internal:1415 && \
+
+linkCheck2:
+- hugo --source hugo  --minify --environment staging --baseUrl http://host.docker.internal:1415 server & && \
+- HUGO_PID=$! && \
+- echo $HUGO_PID && \
+- docker run --rm tennox/linkcheck --external host.docker.internal:1415 && \
+-	kill $HUGO_PID
