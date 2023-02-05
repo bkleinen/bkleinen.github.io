@@ -1,0 +1,6 @@
+FROM dart
+
+RUN dart pub global activate linkcheck
+COPY linkcheck-entrypoint.sh /linkcheck-entrypoint.sh
+
+ENTRYPOINT ["/linkcheck-entrypoint.sh"]
