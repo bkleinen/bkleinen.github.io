@@ -1,7 +1,7 @@
 {{ if eq "all_classes" (.Scratch.Get "type") }}
     <h3>All Classes</h3>
     {{ range .Pages.ByWeight.Reverse }}
-        <h4>{{ .Title }}</h4>
+        <h4><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
         {{- partial "lectures.html" .}}
     {{ end }}
 {{ end }}

@@ -23,39 +23,40 @@
   weight = -290
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2022/info1'
-  name = 'B1 Info 1'
-  pageref = '/classes/ss2022/info1'
+  identifier = '/classes/ss2023/info3'
+  name = 'B 15 Informatik 3'
+  pageref = '/classes/ss2023/info3'
   weight = 5
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2022/networks'
-  name = 'B9 Networks'
-  pageref = '/classes/ss2022/networks'
+  identifier = '/classes/ss2023/aep'
+  name = 'B 20.1 Auswertung von Erfahrungen am Praxisplatz'
+  pageref = '/classes/ss2023/aep'
   weight = 10
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2022/wtat1'
-  name = 'WTAT1'
-  pageref = '/classes/ss2022/wtat1'
-  weight = 15
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ss2022/m1-web'
-  name = 'M1 Mediaprogramming'
-  pageref = '/classes/ss2022/m1-web'
+  identifier = '/classes/ss2023/m1-web'
+  name = 'M 1 Mediaprogramming'
+  pageref = '/classes/ss2023/m1-web'
   weight = 20
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2022/theses'
+  identifier = '/classes/ss2023/masterseminar'
+  name = 'M 17.1 Masterseminar'
+  pageref = '/classes/ss2023/masterseminar'
+  weight = 25
+
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ss2023/theses'
   name = 'Theses'
-  pageref = '/classes/ss2022/theses'
+  pageref = '/classes/ss2023/theses'
   weight = 35
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2022'
-  name = 'All SoSe 2022'
-  pageref = '/classes/ss2022'
+  identifier = '/classes/ss2023'
+  name = 'All SoSe 2023'
+  pageref = '/classes/ss2023'
   weight = 40
 [[main]]
   parent = 'classes'

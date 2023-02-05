@@ -2,10 +2,6 @@
 title: Summer Term 2023
 draft: true
 author: kleinen
-<<<<<<< HEAD:hugo/content/classes/23s/_index.md
-aliases: ["ss2022"]
-=======
->>>>>>> 0c52cb711 (schedule info3):hugo/content/classes/ss2023/_index.md
 ---
 
 
