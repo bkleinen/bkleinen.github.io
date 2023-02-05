@@ -31,6 +31,6 @@ jobs:
         run: |
           hugo --source hugo  --minify --environment staging --baseUrl http://localhost:1313 server
       - name: Check Links
-        uses: filiph/linkcheck@v2.0.23
+        uses: filiph/linkcheck@v3.0.0
         with:
           arguments: http://localhost:1313
