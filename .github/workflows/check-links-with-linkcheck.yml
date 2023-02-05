@@ -1,0 +1,36 @@
+name: Check Links
+
+on:
+  push:
+    branches:
+      - 23s
+    tags-ignore:
+      - 'v*'
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+      - name: Install Bootstrap with npm
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: |
+          cd hugo
+          npm install
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Write gitinfo file
+        run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
+      - name: Start Hugo Server
+        run: |
+          hugo --source hugo  --minify --environment staging --baseUrl http://localhost:1313 server
+      - name: Check Links
+        uses: filiph/linkcheck@v2.0.23
+        with:
+          arguments: http://localhost:1313
