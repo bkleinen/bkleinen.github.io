@@ -29,7 +29,7 @@ jobs:
         run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Start Hugo Server
         run: |
-          hugo --source hugo  --minify --environment staging --baseUrl http://localhost:1313 server
+          hugo --source hugo  --minify --environment staging --baseUrl http://localhost:1313 server & 
       - name: Check Links
         uses: filiph/linkcheck@3.0.0
         with:
