@@ -2,10 +2,11 @@
 {{- $link := .Get "link" -}}
 
 {{- $completeLink := printf "%s%s" .Page.RelPermalink $link -}}
+{{- .Page.Scratch.Add "completeLink" (slice $completeLink) -}}
 {{- $cleanLink := (replaceRE "/[^/]*/../" "/" $completeLink) -}}
 {{- .Page.Scratch.Add "linkornot" (slice $cleanLink) -}}
 
-{{- $page := .Page.GetPage $link -}}
+{{- $page := .Page.GetPage $cleanLink -}}
 
 {{- with $page -}}
   [{{- $title}}]({{$link}})
