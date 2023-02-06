@@ -10,7 +10,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
 {{< subpages  >}}
 The lab assignments will be published here one week before the topic starts.
 
-[More about Lab Reports and Grading](/grading/guideline/)
+[More about Lab Reports and Grading](/studies/grading/guideline/)
 <!--
 The Labs have an overlapping bi-weekly-rhythm.
 You will work on your Lab for each chapter starting

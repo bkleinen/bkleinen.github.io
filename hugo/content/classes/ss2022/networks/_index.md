@@ -80,7 +80,7 @@ to prepare for both meetings beforehand:
 watching the lecture videos for class meetings
 - by working on the lab assignments before you come to the actual lab meeting.
 
-See the [schedule](./schedule) and the [detailled week plan](./flipped) for more details on that.
+See the [schedule](./schedule) for more details on that.
 
 ### Lab Reports
 

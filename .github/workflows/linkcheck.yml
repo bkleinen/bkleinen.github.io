@@ -25,9 +25,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-      - name: Write gitinfo file
-        run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
-      - name: Start Hugo Server
+      - name: Check Hugo Links
       # from https://github.com/marojor/hugo-broken-link-checker/blob/main/entrypoint.sh
         run: |
-          .github/linkcheck.sh
+          ./linkcheck.sh

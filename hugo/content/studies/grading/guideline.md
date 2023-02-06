@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/tutorien/
+# General Info about Lab Reports and Grading
 
 ## What to hand in
 The assignments will clearly state wether you need to hand in a LabReport as PDF, source code or both.
