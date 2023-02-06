@@ -3,7 +3,7 @@ name: Linkcheck with Script
 on:
   push:
     branches:
-      - 23s
+      - 23s_disabled
     tags-ignore:
       - 'v*'
 jobs:

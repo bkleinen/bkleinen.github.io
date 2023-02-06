@@ -6,8 +6,9 @@ echo "Starting Hugo server..."
 # HUGO_SOURCE=hugo
 #
 # cd $GITHUB_WORKSPACE
-hugo server --source hugo --baseUrl http://host.docker.internal:1415 --port 1415 | tee /tmp/hugo.output &
+hugo server --source hugo --baseUrl http://host.docker.internal:1415 --port 1415 > /tmp/hugo.output &
 HUGO_PID=$!
+HUGO_PID2=$?
 sleep 1
 
 # Wait for Hugo to finish the startup process
@@ -21,7 +22,9 @@ echo "Hugo has started"
 ps -ax | grep hugo
 
 #docker run --rm tennox/linkcheck --external host.docker.internal:1415 && \
-docker run --rm tennox/linkcheck  host.docker.internal:1415
+# docker run --network host --rm tennox/linkcheck -v "$(pwd)/:/skipfiles/" --skip-file /skipfiles/linkcheck-skipfile.txt $1 host.docker.internal:1415
+# docker run --network host --rm tennox/linkcheck -v "$(pwd)/:/skipfiles/" --skip-file /skipfiles/linkcheck-skipfile.txt $1 host.docker.internal:1415
+docker run --network host --rm tennox/linkcheck   $1 host.docker.internal:1415
 LINK_CHECKER_RESULT=$?
 
 # SKIP_FILE=$1

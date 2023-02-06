@@ -18,7 +18,7 @@ in order to be the basis for their website.
 
 ____
 - Sourcecode Repository [on Github](https://github.com/modulehandbook/modulehandbook)
-- Staging Server [on Heroku](https://module-handbook.herokuapp.com/)
+- Staging Server [on Heroku](https://module-handbook-staging.f4.htw-berlin.de/)
 - Please collect Issues [as Github Issues](https://github.com/modulehandbook/modulehandbook/issues)
 ____
 

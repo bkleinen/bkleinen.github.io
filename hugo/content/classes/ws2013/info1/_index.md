@@ -36,7 +36,7 @@ There will be a 2-hour online examination on or about Feb 11. We will have 2 shi
 ## Tutorial and Lernzentrum
 
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
-There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studium/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
+There is a tutorial held by Alexander Becker and the Lernzentrum Informatik (discontinued) that offer opportunities to practice.
 
 * [Alexander Becker](https://bobafett2000.de), Time and Place TBA
 
@@ -62,4 +62,3 @@ Information about this course is dispersed in various places on the web - welcom
 * [Stundenplan](https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&missing=allTerms&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112) des 1. Semesters
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1460) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=85525),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86064) for official course information.
-
