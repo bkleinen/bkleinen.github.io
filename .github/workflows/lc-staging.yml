@@ -1,3 +1,4 @@
+name: Linkcheck Staging Drafts
 on:
   workflow_run:
     workflows: [Deploy Staging Drafts]
