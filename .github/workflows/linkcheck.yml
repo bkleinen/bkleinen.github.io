@@ -1,4 +1,4 @@
-name: linkcheck in docker
+name: Linkcheck with Script
 
 on:
   push:
