@@ -7,7 +7,7 @@ author: kleinen
 {{< subpages  >}}
 The lab assignments will be published here 1 week before the topic starts.
 
-[More about Lab Reports and Grading](/grading/guideline/)
+[More about Lab Reports and Grading](/studies/grading/guideline/)
 <!--
 The Labs have an overlapping bi-weekly-rhythm.
 You will work on your Lab for each chapter starting

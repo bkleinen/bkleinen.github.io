@@ -18,7 +18,7 @@ You need to include all parts in your lab report for this assignment.
 Write or find a simple TCP program for a server that accepts lines of input
 from a client and prints the lines onto the server's standard output.
 
-Note: you can use [step 01 of the Info2 chatterbox lab](/classes/ws2021/info2/labs/lab-04/step-1-client-sends-messages-to-server) for this - it does just
+Note: you can use [step 01 of the Info2 chatterbox lab](/classes/ws2021/info2/labs/lab-04#step-1-client-sends-messages-to-server) for this - it does just
 that! For those not attending Info2 this term, as your peers to help you out.
 Or write that simple program yourself.
 

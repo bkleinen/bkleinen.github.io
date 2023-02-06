@@ -6,7 +6,7 @@ layout: lab
 
 ## Pre-Lab
 
-***P1.*** Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the [hand out](lab-06-handout).
+***P1.*** Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the [hand out](../lab-06-handout).
 
 ***P2.*** What is the order of precedence for the operators "+", "-", "\*", "/", "^"? If we wanted to include "(" and ")" in this order, where would each of them be?
 
@@ -32,12 +32,12 @@ layout: lab
 ## Assignment
 
 ### Preparation
-1. Read through all of the exercises before starting. 
+1. Read through all of the exercises before starting.
 2. You can use this IntelliJ project [Lab06_ReversePolishNotation](https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab06_reversepolishnotation) as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces. Clone the repo and set it as upstream, while creating a new repo for you to work with in this week's GitLab folder.
 3. This is a lot of work, so I suggest that your group works on exercise 1 and exercise 2 in parallel. So split up the work.
 4. For each of the parallel exercises, create a separate git branch to work on (after you cloned the project, do `git checkout -b "stack-class"` ("stack-class" could be a name for a branch, but you could name it anything).
-5. After you both finished, push your branch and on GitLab, create a pull request (aka merge request). 
-6. Merge the two branches into `master`, one after the other. If you find merge conflicts you will need to resolve them. 
+5. After you both finished, push your branch and on GitLab, create a pull request (aka merge request).
+6. Merge the two branches into `master`, one after the other. If you find merge conflicts you will need to resolve them.
 7. Then you get back together to do the remaining exercises.
 
 ### Part 1: Stack Class
