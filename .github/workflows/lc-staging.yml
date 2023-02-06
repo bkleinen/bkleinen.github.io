@@ -11,5 +11,5 @@ jobs:
       - run: echo 'The triggering workflow passed'
       - name: Check links with linkcheck
         uses: filiph/linkcheck@3.0.0
-          with:
-            arguments: https://bkleinen.github.io/stagingdrafts/
+        with:
+          arguments: https://bkleinen.github.io/stagingdrafts/
