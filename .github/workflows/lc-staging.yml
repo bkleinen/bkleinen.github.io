@@ -1,9 +1,9 @@
 name: Linkcheck Staging Drafts
 on:
-  workflow_run:
-    workflows: [Deploy Staging Drafts]
-    types:
-      - completed
+  #workflow_run:
+  #  workflows: [Deploy Staging Drafts]
+  #  types:
+  #    - completed
   push:
     branches:
       - 23s
