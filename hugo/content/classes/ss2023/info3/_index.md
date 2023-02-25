@@ -17,7 +17,7 @@ courseNavInt:
 
 courseNavExt:
 - title: Moodle
-  link: https://moodle.htw-berlin.de/course/view.php?id=28123
+  link: # 
 - title: SU in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201
 - title: Labs in LSF

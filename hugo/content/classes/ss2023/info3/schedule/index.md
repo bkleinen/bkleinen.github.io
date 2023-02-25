@@ -9,7 +9,7 @@ The lecture dates are not set yet - this is tentative.
 
 | Week | KW  | Date           | Lecture Topic                                                                  | Lab (Thursdays)                                                                   |
 | :--- | :-- | :------------- | :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| 1    | 14  | Wed 05/04/2023 | Introduction to JavaScript (Linda Fernsel)                                     |                                                                                   |
+| 1    | 14  | Wed 05/04/2023 | Introduction to JavaScript                                  |                                                                                   |
 |      |     | Thu 06/04/2023 | Introduction to JavaScript (Linda Fernsel)                                     | [1 - Installation, Git and Javascript](../labs/lab-01-startup)                    |
 | 2    | 15  | Wed 12/04/2023 | Intro to Info3                                                                 |                                                                                   |
 |      |     | Thu 13/04/2023 | Software Engineering and Software Development Processes, Agile Development     | [1 - Installation, Git and Javascript](../labs/lab-01-startup)                    |
@@ -47,5 +47,3 @@ The lecture dates are not set yet - this is tentative.
 |      |     | Thu 03/08/2023 |                                                                                |                                                                                   |
 | 19   | 32  | Wed 09/08/2023 |                                                                                |                                                                                   |
 |      |     | Thu 10/08/2023 |                                                                                |                                                                                   |
-               
-
