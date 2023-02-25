@@ -1,0 +1,3739 @@
+simple = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/7ma7X/HugoTeX",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/aerohub/hugrid",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/athul/archie",
+    "github.com/austingebauer/devise",
+    "github.com/boratanrikulu/eternity",
+    "github.com/cathelijne/hugo-theme-huguette",
+    "github.com/cfrome77/hugo-theme-sky",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chipzoller/hugo-clarity",
+    "github.com/chollinger93/ink-free",
+    "github.com/colorchestra/smol",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/d-kusk/minimage",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/darshanbaral/khata",
+    "github.com/darshanbaral/sada",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/davidhampgonsalves/hugo-black-and-light-theme",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/EmielH/tale-hugo",
+    "github.com/felicianotech/hugo-theme-lean-launch-page",
+    "github.com/fourtyone11/origin-hugo-theme",
+    "github.com/garvincasimir/hugo-h5bp-simple",
+    "github.com/goodroot/hugo-classic",
+    "github.com/gundamew/hugo-bingo",
+    "github.com/hadisinaee/avicenna",
+    "github.com/heksagonnet/piko",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/hootan09/simple-cv",
+    "github.com/ineesalmeida/almeida-cv",
+    "github.com/invinciblycool/lekh",
+    "github.com/J-Siu/hugo-theme-sk1",
+    "github.com/J-Siu/hugo-theme-sk2",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/jacobsun/hugo-theme-cole",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/jsnjack/kraiklyn",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/knadh/hugo-ink",
+    "github.com/koirand/pulp",
+    "github.com/lasseborly/anybodyhome",
+    "github.com/leonardofaria/bento",
+    "github.com/leonstafford/accessible-minimalism-hugo-theme",
+    "github.com/LordMathis/hugo-theme-nix",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/LukasJoswiak/etch",
+    "github.com/matsuyoshi30/harbor",
+    "github.com/mavidser/hugo-rocinante",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/michimani/simplog",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/Nigh/tinyworks",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/olOwOlo/hugo-theme-even",
+    "github.com/onweru/hugo-swift-theme",
+    "github.com/onweru/newsroom",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/tella",
+    "github.com/opera7133/vnovel",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/progrhyme/hugo-theme-bootie-docs",
+    "github.com/qqhann/hugo-primer",
+    "github.com/qub1750ul/hugo-simpleIntro",
+    "github.com/queensferryme/hugo-theme-texify",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RainerChiang/simpleness",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/rhnvrm/bodhi",
+    "github.com/rmsubekti/the-roots-home",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/runningstream/hugograyscale",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/SAGGameDeveloper/hugo-minimalist-spa",
+    "github.com/salsysd/hugo-assembly",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/serkodev/holy",
+    "github.com/shankar/hugo-grapes",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/taikii/whiteplain",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/thegeeklab/hugo-geekblog",
+    "github.com/thegeeklab/hugo-geekdoc",
+    "github.com/ThemeTony/hugo-theme-tony",
+    "github.com/tohn/linkshrubbery",
+    "github.com/tylerjlawson/port-hugo",
+    "github.com/tylerjlawson/simple-snipcart-shop",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/wayjam/hugo-theme-mixedpaper",
+    "github.com/wlh320/hugo-theme-hulga",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/wtoll/venture",
+    "github.com/xianmin/hugo-theme-jane",
+    "github.com/xiaoheiAh/hugo-theme-pure",
+    "github.com/Y4er/hugo-theme-easybook",
+    "github.com/yanlinlin82/simple-style",
+    "github.com/yihui/hugo-xmag",
+    "github.com/yihui/hugo-xmin",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/yue1124/hero",
+    "github.com/yursan9/manis-hugo-theme",
+    "github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/gabmus/hugo-ficurinia",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/mertbakir/resume-a4",
+    "gitlab.com/VincentTam/huginn",
+]
+blog = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/4ever9/less",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/7ma7X/HugoTeX",
+    "github.com/aanupam23/hugo-sugoi",
+    "github.com/achary/engimo",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/airinghost/hugo-theme-icarus-lite",
+    "github.com/alanorth/hugo-theme-bootstrap4-blog",
+    "github.com/alexandrevicenzi/soho",
+    "github.com/allnightgrocery/hugo-theme-blueberry-detox",
+    "github.com/alloydwhitlock/huey",
+    "github.com/alloydwhitlock/huey",
+    "github.com/AmazingRise/hugo-theme-diary",
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/AngeloStavrow/indigo",
+    "github.com/appernetic/hugo-nederburg-theme",
+    "github.com/apvarun/blist-hugo-theme",
+    "github.com/apvarun/digital-garden-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/athul/archie",
+    "github.com/austingebauer/devise",
+    "github.com/azmelanar/hugo-theme-pixyll",
+    "github.com/bake/solar-theme-hugo",
+    "github.com/bjacquemet/personal-web",
+    "github.com/brycematheson/allegiant",
+    "github.com/bul-ikana/hugo-cards",
+    "github.com/calintat/minimal",
+    "github.com/canstand/compost",
+    "github.com/canhtran/maverick",
+    "github.com/capnfabs/paperesque",
+    "github.com/caressofsteel/hugo-story",
+    "github.com/carsonip/hugo-theme-minos",
+    "github.com/cfrome77/hugo-theme-sky",
+    "github.com/chaitanya4vedi/navada",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chipsenkbeil/grid-side",
+    "github.com/chipzoller/hugo-clarity",
+    "github.com/chollinger93/ink-free",
+    "github.com/cntrump/hugo-notepadium",
+    "github.com/colorchestra/smol",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/curtiscde/hugo-theme-dopetrope",
+    "github.com/curtiscde/hugo-theme-massively",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/damiencaselli/hugo-journal",
+    "github.com/damiencaselli/paperback",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/darshanbaral/aafu",
+    "github.com/darshanbaral/ghazal",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/de-souza/hugo-flex",
+    "github.com/devcows/hugo-universal-theme",
+    "github.com/dewittn/hugo-html5up-alpha",
+    "github.com/dillonzq/LoveIt",
+    "github.com/djuelg/Shapez-Theme",
+    "github.com/dldx/hpstr-hugo-theme",
+    "github.com/dplesca/purehugo",
+    "github.com/dsrkafuu/hugo-theme-fuji",
+    "github.com/edavidaja/docter",
+    "github.com/EmielH/tale-hugo",
+    "github.com/ertuil/erblog",
+    "github.com/eshlox/simplicity",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/fiatjaf/classless-hugo",
+    "github.com/forestryio/hugo-theme-novela",
+    "github.com/fourtyone11/origin-hugo-theme",
+    "github.com/funkydan2/hugo-kiera",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/geschke/hugo-tikva",
+    "github.com/gizak/nofancy",
+    "github.com/goodroot/hugo-classic",
+    "github.com/guangmean/Niello",
+    "github.com/gundamew/hugo-bingo",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/h-enk/doks",
+    "github.com/half-duplex/hugo-arcana",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/HEIGE-PCloud/DoIt",
+    "github.com/heksagonnet/piko",
+    "github.com/heyeshuang/hugo-theme-tokiwa",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/homecat805/hugo-theme-walden",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/httpsecure/kembang",
+    "github.com/httpsecure/hugo-theme-red-rose",
+    "github.com/hugcis/hugo-astatine-theme",
+    "github.com/hugo-fixit/FixIt",
+    "github.com/humrochagf/colordrop",
+    "github.com/huyb1991/hugo-lamp",
+    "github.com/ianrodrigues/hugo-tailwind-journal",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/iCyris/hugo-theme-yuki",
+    "github.com/ijsucceed/onepress",
+    "github.com/invinciblycool/lekh",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/IvanChou/hugo-theme-vec",
+    "github.com/J-Siu/hugo-theme-sk1",
+    "github.com/J-Siu/hugo-theme-sk2",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/jacobsun/edidor",
+    "github.com/jaden/twentyfourteen",
+    "github.com/jakewies/hugo-theme-codex",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jbub/ghostwriter",
+    "github.com/jeblister/bulma",
+    "github.com/jeremybise/twentynineteen-hugo",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/jimfrenette/hugo-starter",
+    "github.com/jmau111/hugo-theme-ava",
+    "github.com/jnjosh/internet-weblog",
+    "github.com/jonathanjanssens/hugo-casper3",
+    "github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/jpanther/congo",
+    "github.com/jpescador/hugo-future-imperfect",
+    "github.com/jrutheiser/hugo-lithium-theme",
+    "github.com/jyygithub/hugo-theme-onelou",
+    "github.com/kaiiiz/hugo-theme-monochrome",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/keichi/vienna",
+    "github.com/khusika/FeelIt",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/knadh/hugo-ink",
+    "github.com/knokmki612/hugo-fill-and-stroke",
+    "github.com/koirand/pulp",
+    "github.com/kritoke/darksimplicity",
+    "github.com/leafee98/hugo-theme-flat",
+    "github.com/leonhe/hugo_eiio",
+    "github.com/lingxz/er",
+    "github.com/liuzc/LeaveIt",
+    "github.com/LordMathis/hugo-theme-nightfall",
+    "github.com/LordMathis/hugo-theme-nix",
+    "github.com/loveminimal/hugo-theme-virgo",
+    "github.com/lubang/hugo-hello-programmer-theme",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/LukasJoswiak/etch",
+    "github.com/lukeorth/poison",
+    "github.com/lxndrblz/anatole",
+    "github.com/M1cR0xf7/kaslaanka",
+    "github.com/MarcusVirg/forty",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/marketempower/axiom",
+    "github.com/Masellum/hugo-theme-nostyleplease",
+    "github.com/matsuyoshi30/harbor",
+    "github.com/mavidser/hugo-rocinante",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/meibenny/elephants",
+    "github.com/MeiK2333/github-style",
+    "github.com/michimani/simplog",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/mikeblum/hugo-now",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/mmrath/hugo-bootstrap",
+    "github.com/monkeyWzr/hugo-theme-cactus",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/MunifTanjim/minimo",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/nathancday/min_night",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/nightswinger/hugo-theme-coyote",
+    "github.com/niklasbuschmann/contrast-hugo",
+    "github.com/nirocfz/arabica",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/NormandErwan/Blogpaper",
+    "github.com/nunocoracao/blowfish",
+    "github.com/nurlansu/hugo-sustain",
+    "github.com/okkur/syna",
+    "github.com/olOwOlo/hugo-theme-even",
+    "github.com/onweru/compose",
+    "github.com/onweru/hugo-swift-theme",
+    "github.com/onweru/newsroom",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/tella",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/pacollins/calligraphy",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/pavel-pi/kiss-em",
+    "github.com/pdevty/material-design",
+    "github.com/pdevty/polymer",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/pfadfinder-konstanz/hugo-dpsg",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/plopcas/papaya",
+    "github.com/pravin/hugo-theme-prav",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/qqhann/hugo-primer",
+    "github.com/queensferryme/hugo-theme-texify",
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+    "github.com/RainerChiang/simpleness",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/rhnvrm/bodhi",
+    "github.com/ribice/kiss",
+    "github.com/rijoth/rsimple",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/saadnpq/npq-hugo",
+    "github.com/salcan/BeyondNothing",
+    "github.com/sbruder/spectral",
+    "github.com/schnerring/hugo-theme-gruvbox",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/serkodev/holy",
+    "github.com/setsevireon/photophobia",
+    "github.com/shaform/hugo-theme-den",
+    "github.com/shankar/hugo-grapes",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/slashformotion/hugo-tufte",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/spf13/hyde",
+    "github.com/splch/hugo-simplecss",
+    "github.com/spookey/slick",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/syui/hugo-theme-air",
+    "github.com/syui/hugo-theme-wave",
+    "github.com/taikii/whiteplain",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/tcgriffith/hugo-owaraiclub",
+    "github.com/the2ne/hugo-frais",
+    "github.com/thegeeklab/hugo-geekblog",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+    "github.com/tosi29/inkblotty",
+    "github.com/Track3/hermit",
+    "github.com/tummychow/lanyon-hugo",
+    "github.com/uicardiodev/hugo-lime",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+    "github.com/uPagge/uBlogger",
+    "github.com/urjaacharya/redgood",
+    "github.com/vaga/hugo-theme-m10c",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/Vimux/Binario",
+    "github.com/vimux/blank",
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/wayjam/hugo-theme-mixedpaper",
+    "github.com/wd/hugo-fabric",
+    "github.com/willfaught/paige",
+    "github.com/WingLim/hugo-tania",
+    "github.com/wlh320/hugo-theme-hulga",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xianmin/hugo-theme-jane",
+    "github.com/xiaoheiAh/hugo-theme-pure",
+    "github.com/xioyito/NewBee",
+    "github.com/xslingcn/vno-hugo",
+    "github.com/Xzya/hugo-material-blog",
+    "github.com/yanlinlin82/simple-style",
+    "github.com/yihui/hugo-xmag",
+    "github.com/yihui/hugo-xmin",
+    "github.com/yoshiharuyamashita/blackburn",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/yursan9/manis-hugo-theme",
+    "github.com/zerostaticthemes/hugo-winston-theme",
+    "github.com/zhaohuabing/hugo-theme-cleanwhite",
+    "github.com/zhe/hugo-theme-slim",
+    "github.com/zwbetz-gh/cayman-hugo-theme",
+    "github.com/zwbetz-gh/cupper-hugo-theme",
+    "github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
+    "github.com/zwbetz-gh/papercss-hugo-theme",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/avron/gruvhugo",
+    "gitlab.com/gabmus/hugo-ficurinia",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/Kaligule/classless-blog",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/kskarthik/resto-hugo",
+    "gitlab.com/m-e-leypold/brutalist-minimalist-gohugo-theme",
+    "gitlab.com/maxlefou/hugo.386",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+    "gitlab.com/tmuguet/hugo-split-gallery",
+    "gitlab.com/VincentTam/huginn",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "github.com/nusserstudios/tailbliss",
+]
+responsive = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/aanupam23/hugo-sugoi",
+    "github.com/achary/engimo",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/aerohub/hugo-identity-theme",
+    "github.com/aerohub/hugrid",
+    "github.com/alex-shpak/hugo-book",
+    "github.com/alexandrevicenzi/soho",
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/AngeloStavrow/indigo",
+    "github.com/appernetic/hugo-nederburg-theme",
+    "github.com/apvarun/blist-hugo-theme",
+    "github.com/apvarun/digital-garden-hugo-theme",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/apvarun/showfolio-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/athul/archie",
+    "github.com/azmelanar/hugo-theme-pixyll",
+    "github.com/bake/solar-theme-hugo",
+    "github.com/balaramadurai/hugo-travelify-theme",
+    "github.com/Binary-Eater/hugo-theme-ghci",
+    "github.com/boratanrikulu/eternity",
+    "github.com/bul-ikana/hugo-cards",
+    "github.com/calintat/minimal",
+    "github.com/canstand/compost",
+    "github.com/capnfabs/paperesque",
+    "github.com/caressofsteel/hugo-story",
+    "github.com/cathelijne/hugo-theme-huguette",
+    "github.com/chaitanya4vedi/navada",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chollinger93/ink-free",
+    "github.com/colorchestra/smol",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/d-kusk/minimage",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/davidhampgonsalves/hugo-black-and-light-theme",
+    "github.com/de-souza/hugo-flex",
+    "github.com/devcows/hugo-universal-theme",
+    "github.com/dewittn/hugo-html5up-alpha",
+    "github.com/dillonzq/LoveIt",
+    "github.com/dldx/hpstr-hugo-theme",
+    "github.com/dsrkafuu/hugo-theme-fuji",
+    "github.com/eddiewebb/hugo-resume",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/EmielH/tale-hugo",
+    "github.com/ertuil/erblog",
+    "github.com/escalate/hugo-split-theme",
+    "github.com/eshlox/simplicity",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/fncnt/vncnt-hugo",
+    "github.com/fourtyone11/origin-hugo-theme",
+    "github.com/funkydan2/hugo-kiera",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/garvincasimir/hugo-h5bp-simple",
+    "github.com/geschke/hugo-tikva",
+    "github.com/gevhaz/hugo-theme-notrack",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/google/docsy",
+    "github.com/gundamew/hugo-bingo",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/hadisinaee/avicenna",
+    "github.com/half-duplex/hugo-arcana",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/HEIGE-PCloud/DoIt",
+    "github.com/heksagonnet/piko",
+    "github.com/heyeshuang/hugo-theme-tokiwa",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/hugcis/hugo-astatine-theme",
+    "github.com/hugo-fixit/FixIt",
+    "github.com/huyb1991/hugo-lamp",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/iCyris/hugo-theme-yuki",
+    "github.com/ijsucceed/onepress",
+    "github.com/invinciblycool/lekh",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/jeblister/bulma",
+    "github.com/jimfrenette/hugo-starter",
+    "github.com/jmau111/hugo-theme-ava",
+    "github.com/jnjosh/internet-weblog",
+    "github.com/joeroe/risotto",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/jpescador/hugo-future-imperfect",
+    "github.com/jweslley/hugo-conference",
+    "github.com/kaiiiz/hugo-theme-monochrome",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/kc0bfv/autophugo",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/khusika/FeelIt",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/kishaningithub/hugo-creative-portfolio-theme",
+    "github.com/kishaningithub/hugo-shopping-product-catalogue-simple",
+    "github.com/knadh/hugo-ink",
+    "github.com/knokmki612/hugo-fill-and-stroke",
+    "github.com/lingxz/er",
+    "github.com/liuzc/LeaveIt",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/LukasJoswiak/etch",
+    "github.com/lxndrblz/anatole",
+    "github.com/M1cR0xf7/kaslaanka",
+    "github.com/marcanuy/simpleit-hugo-theme",
+    "github.com/marketempower/axiom",
+    "github.com/mattstratton/castanet",
+    "github.com/mbrt-yeah/uwe-uwe-hugo",
+    "github.com/McShelby/hugo-theme-relearn",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/mikeblum/hugo-now",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/monkeyWzr/hugo-theme-cactus",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/MunifTanjim/minimo",
+    "github.com/nanxstats/hugo-tanka",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/Nigh/tinyworks",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/nunocoracao/blowfish",
+    "github.com/nurlansu/hugo-sustain",
+    "github.com/okkur/syna",
+    "github.com/olOwOlo/hugo-theme-even",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/tella",
+    "github.com/opera7133/vnovel",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/pacollins/calligraphy",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/pavel-pi/kiss-em",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/pfadfinder-konstanz/hugo-dpsg",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/pjbakker/flexible-seo-hugo",
+    "github.com/pravin/hugo-theme-prav",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/qub1750ul/hugo-simpleIntro",
+    "github.com/queensferryme/hugo-theme-texify",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/RCJacH/hugo-webslides",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/ribice/kiss",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/rullmann/hugo-theme-terminal-cookbook",
+    "github.com/runningstream/hugograyscale",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/saadnpq/npq-hugo",
+    "github.com/samrobbins85/hugo-developer-portfolio",
+    "github.com/schnerring/hugo-theme-gruvbox",
+    "github.com/schollz/onetwothree",
+    "github.com/seanlane/gochowdown",
+    "github.com/serg/yourfolio",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/serkodev/holy",
+    "github.com/shaform/hugo-theme-den",
+    "github.com/shankar/hugo-grapes",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/spookey/slick",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/SteveLane/hugo-icon",
+    "github.com/sudorook/capsule",
+    "github.com/the2ne/hugo-frais",
+    "github.com/thegeeklab/hugo-geekblog",
+    "github.com/thegeeklab/hugo-geekdoc",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+    "github.com/tnwhitwell/hugo-startpage-theme",
+    "github.com/tosi29/inkblotty",
+    "github.com/Track3/hermit",
+    "github.com/uicardiodev/hugo-lime",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/uPagge/uBlogger",
+    "github.com/urjaacharya/redgood",
+    "github.com/vaga/hugo-theme-m10c",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/Vimux/Binario",
+    "github.com/wileybaba/hugo-theme-robotico",
+    "github.com/willfaught/paige",
+    "github.com/WingLim/hugo-tania",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xaviablaza/hugo-lodi-theme",
+    "github.com/xianmin/hugo-theme-jane",
+    "github.com/xioyito/NewBee",
+    "github.com/xslingcn/vno-hugo",
+    "github.com/Xzya/hugo-material-blog",
+    "github.com/yihui/hugo-xmag",
+    "github.com/yoshiharuyamashita/blackburn",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/Yukuro/hugo-theme-shell",
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+    "github.com/zerostaticthemes/hugo-whisper-theme",
+    "github.com/zhaohuabing/hugo-theme-cleanwhite",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "github.com/zzzmisa/hugo-theme-doors",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/Kaligule/classless-blog",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+    "gitlab.com/tmuguet/hugo-split-gallery",
+    "gitlab.com/VincentTam/huginn",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "github.com/nusserstudios/tailbliss",
+]
+minimal = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/7ma7X/HugoTeX",
+    "github.com/achary/engimo",
+    "github.com/aerohub/hugo-identity-theme",
+    "github.com/akatiggerx04/graysx-hugo",
+    "github.com/allnightgrocery/hugo-theme-blueberry-detox",
+    "github.com/AngeloStavrow/indigo",
+    "github.com/appernetic/hugo-nederburg-theme",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/athul/archie",
+    "github.com/austingebauer/devise",
+    "github.com/azmelanar/hugo-theme-pixyll",
+    "github.com/Binary-Eater/hugo-theme-ghci",
+    "github.com/blankoworld/hugo_theme_adam_eve",
+    "github.com/boratanrikulu/eternity",
+    "github.com/calintat/minimal",
+    "github.com/canstand/compost",
+    "github.com/capnfabs/paperesque",
+    "github.com/carsonip/hugo-theme-minos",
+    "github.com/cathelijne/hugo-theme-huguette",
+    "github.com/cfrome77/hugo-theme-sky",
+    "github.com/chaitanya4vedi/navada",
+    "github.com/chollinger93/ink-free",
+    "github.com/colorchestra/smol",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/davidhampgonsalves/hugo-black-and-light-theme",
+    "github.com/de-souza/hugo-flex",
+    "github.com/devcows/hugo-universal-theme",
+    "github.com/dsrkafuu/hugo-theme-fuji",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/EmielH/tale-hugo",
+    "github.com/escalate/hugo-split-theme",
+    "github.com/eshlox/simplicity",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/fncnt/vncnt-hugo",
+    "github.com/funkydan2/hugo-kiera",
+    "github.com/geschke/hugo-tikva",
+    "github.com/gevhaz/hugo-theme-notrack",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/goodroot/hugo-classic",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/h-enk/doks",
+    "github.com/hadisinaee/avicenna",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/heyeshuang/hugo-theme-tokiwa",
+    "github.com/hootan09/simple-cv",
+    "github.com/hugcis/hugo-astatine-theme",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/ijsucceed/onepress",
+    "github.com/ineesalmeida/almeida-cv",
+    "github.com/invinciblycool/lekh",
+    "github.com/IvanChou/hugo-theme-vec",
+    "github.com/J-Siu/hugo-theme-sk1",
+    "github.com/J-Siu/hugo-theme-sk2",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/Jack-alope/sourgough-starter",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/jacobsun/hugo-theme-cole",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/jimfrenette/hugo-starter",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/jmau111/hugo-theme-ava",
+    "github.com/jnjosh/internet-weblog",
+    "github.com/joeroe/risotto",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/kaushalmodi/hugo-bare-min-theme",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/kishaningithub/hugo-creative-portfolio-theme",
+    "github.com/kishaningithub/hugo-shopping-product-catalogue-simple",
+    "github.com/knadh/hugo-ink",
+    "github.com/koirand/pulp",
+    "github.com/leonardofaria/bento",
+    "github.com/liuzc/LeaveIt",
+    "github.com/LordMathis/hugo-theme-nightfall",
+    "github.com/LordMathis/hugo-theme-nix",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/LukasJoswiak/etch",
+    "github.com/lukeorth/poison",
+    "github.com/lxndrblz/anatole",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/matsuyoshi30/harbor",
+    "github.com/mavidser/hugo-rocinante",
+    "github.com/mbrt-yeah/uwe-uwe-hugo",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/meibenny/elephants",
+    "github.com/michimani/simplog",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/MunifTanjim/minimo",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/nirocfz/arabica",
+    "github.com/ntk148v/hugo-toigian",
+    "github.com/nunocoracao/blowfish",
+    "github.com/nurlansu/hugo-sustain",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/vnovel",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/pacollins/calligraphy",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/pavel-pi/kiss-em",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/qqhann/hugo-primer",
+    "github.com/queensferryme/hugo-theme-texify",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/rhnvrm/bodhi",
+    "github.com/ribice/kiss",
+    "github.com/rullmann/hugo-theme-terminal-cookbook",
+    "github.com/runningstream/hugograyscale",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/schnerring/hugo-theme-gruvbox",
+    "github.com/schollz/onetwothree",
+    "github.com/serg/yourfolio",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/serkodev/holy",
+    "github.com/shenoybr/hugo-goa",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/slashformotion/hugo-tufte",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/spaghettiwews/hugonews",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/splch/hugo-simplecss",
+    "github.com/spookey/slick",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/tcgriffith/hugo-owaraiclub",
+    "github.com/the2ne/hugo-frais",
+    "github.com/tohn/linkshrubbery",
+    "github.com/Track3/hermit",
+    "github.com/uicardiodev/hugo-lime",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/urjaacharya/redgood",
+    "github.com/vaga/hugo-theme-m10c",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/willfaught/paige",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/yihui/hugo-xmag",
+    "github.com/yihui/hugo-xmin",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/Yukuro/hugo-theme-shell",
+    "github.com/yursan9/manis-hugo-theme",
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zerostaticthemes/hugo-whisper-theme",
+    "github.com/zerostaticthemes/hugo-winston-theme",
+    "github.com/zhaohuabing/hugo-theme-cleanwhite",
+    "github.com/zhe/hugo-theme-slim",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+    "gitlab.com/avron/gruvhugo",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/Kaligule/classless-blog",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/kskarthik/resto-hugo",
+    "github.com/nusserstudios/tailbliss",
+]
+clean = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/aanupam23/hugo-sugoi",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/alex-shpak/hugo-book",
+    "github.com/alexandrevicenzi/soho",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/athul/archie",
+    "github.com/austingebauer/devise",
+    "github.com/boratanrikulu/eternity",
+    "github.com/caressofsteel/hugo-story",
+    "github.com/cathelijne/hugo-theme-huguette",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chollinger93/ink-free",
+    "github.com/colorchestra/smol",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/dillonzq/LoveIt",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/EmielH/tale-hugo",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/goodroot/hugo-classic",
+    "github.com/gundamew/hugo-bingo",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/hadisinaee/avicenna",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/HEIGE-PCloud/DoIt",
+    "github.com/heksagonnet/piko",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/hugo-fixit/FixIt",
+    "github.com/iCyris/hugo-theme-yuki",
+    "github.com/invinciblycool/lekh",
+    "github.com/IvanChou/hugo-theme-vec",
+    "github.com/J-Siu/hugo-theme-sk1",
+    "github.com/J-Siu/hugo-theme-sk2",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/jeremybise/twentynineteen-hugo",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/jmau111/hugo-theme-ava",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/jyygithub/hugo-theme-onelou",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/knadh/hugo-ink",
+    "github.com/lasseborly/anybodyhome",
+    "github.com/leonardofaria/bento",
+    "github.com/liuzc/LeaveIt",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/LukasJoswiak/etch",
+    "github.com/lxndrblz/anatole",
+    "github.com/mavidser/hugo-rocinante",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/monkeyWzr/hugo-theme-cactus",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/Nigh/tinyworks",
+    "github.com/okkur/syna",
+    "github.com/olOwOlo/hugo-theme-even",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/tella",
+    "github.com/opera7133/vnovel",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/paulmartins/hugo-digital-garden-theme",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/qqhann/hugo-primer",
+    "github.com/qub1750ul/hugo-simpleIntro",
+    "github.com/queensferryme/hugo-theme-texify",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RainerChiang/simpleness",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/salcan/BeyondNothing",
+    "github.com/salsysd/hugo-assembly",
+    "github.com/seanlane/gochowdown",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/shaform/hugo-theme-den",
+    "github.com/shankar/hugo-grapes",
+    "github.com/shenoybr/hugo-goa",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/Somrat37/somrat",
+    "github.com/spaghettiwews/hugonews",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/spookey/slick",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/thomasheller/crab",
+    "github.com/tohn/linkshrubbery",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+    "github.com/uPagge/uBlogger",
+    "github.com/urjaacharya/redgood",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/wayjam/hugo-theme-mixedpaper",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/wtoll/venture",
+    "github.com/xianmin/hugo-theme-jane",
+    "github.com/xiaoheiAh/hugo-theme-pure",
+    "github.com/xioyito/NewBee",
+    "github.com/Xzya/hugo-material-blog",
+    "github.com/yihui/hugo-xmag",
+    "github.com/yihui/hugo-xmin",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/yursan9/manis-hugo-theme",
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zerostaticthemes/hugo-whisper-theme",
+    "github.com/zerostaticthemes/hugo-winston-theme",
+    "github.com/zhaohuabing/hugo-theme-cleanwhite",
+    "github.com/zhe/hugo-theme-slim",
+    "github.com/zwbetz-gh/cayman-hugo-theme",
+    "github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/kskarthik/resto-hugo",
+]
+light = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/7ma7X/HugoTeX",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/alloydwhitlock/huey",
+    "github.com/asurbernardo/amperage",
+    "github.com/bake/solar-theme-hugo",
+    "github.com/Binary-Eater/hugo-theme-ghci",
+    "github.com/canstand/compost",
+    "github.com/capnfabs/paperesque",
+    "github.com/cathelijne/hugo-theme-huguette",
+    "github.com/chaitanya4vedi/navada",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/colorchestra/smol",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/EmielH/tale-hugo",
+    "github.com/fourtyone11/origin-hugo-theme",
+    "github.com/geschke/hugo-tikva",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/heksagonnet/piko",
+    "github.com/hugo-fixit/FixIt",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/jacobsun/hugo-theme-cole",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jeremybise/twentynineteen-hugo",
+    "github.com/jonathanjanssens/hugo-casper3",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/jyygithub/hugo-theme-onelou",
+    "github.com/kaiiiz/hugo-theme-monochrome",
+    "github.com/khusika/FeelIt",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/koirand/pulp",
+    "github.com/leafee98/hugo-theme-flat",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/lukeorth/poison",
+    "github.com/McShelby/hugo-theme-relearn",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/Nigh/tinyworks",
+    "github.com/nunocoracao/blowfish",
+    "github.com/onweru/hugo-swift-theme",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/tella",
+    "github.com/opera7133/vnovel",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/pacollins/calligraphy",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/paulmartins/hugo-digital-garden-theme",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/qqhann/hugo-primer",
+    "github.com/qub1750ul/hugo-simpleIntro",
+    "github.com/queensferryme/hugo-theme-texify",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/rmsubekti/the-roots-home",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/serg/yourfolio",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/slashformotion/hugo-tufte",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/splch/hugo-simplecss",
+    "github.com/spookey/slick",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/wayjam/hugo-theme-mixedpaper",
+    "github.com/willfaught/paige",
+    "github.com/WingLim/hugo-tania",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xslingcn/vno-hugo",
+    "github.com/Yukuro/hugo-theme-shell",
+    "github.com/yursan9/manis-hugo-theme",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+    "github.com/zhaohuabing/hugo-theme-cleanwhite",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/avron/gruvhugo",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "github.com/nusserstudios/tailbliss",
+]
+personal = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/4s3ti/terminalcv",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/athul/archie",
+    "github.com/austingebauer/devise",
+    "github.com/azmelanar/hugo-theme-pixyll",
+    "github.com/Binary-Eater/hugo-theme-ghci",
+    "github.com/bjacquemet/personal-web",
+    "github.com/calintat/minimal",
+    "github.com/canstand/compost",
+    "github.com/capnfabs/paperesque",
+    "github.com/chaitanya4vedi/navada",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chollinger93/ink-free",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/darshanbaral/ghazal",
+    "github.com/davidhampgonsalves/hugo-black-and-light-theme",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/EmielH/tale-hugo",
+    "github.com/ertuil/erblog",
+    "github.com/escalate/hugo-split-theme",
+    "github.com/fiatjaf/classless-hugo",
+    "github.com/fncnt/vncnt-hugo",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/gevhaz/hugo-theme-notrack",
+    "github.com/gizak/nofancy",
+    "github.com/goodroot/hugo-classic",
+    "github.com/hadisinaee/avicenna",
+    "github.com/heksagonnet/piko",
+    "github.com/homecat805/hugo-theme-walden",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/hugcis/hugo-astatine-theme",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/invinciblycool/lekh",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/J-Siu/hugo-theme-sk1",
+    "github.com/J-Siu/hugo-theme-sk2",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/Jack-alope/sourgough-starter",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/jbub/ghostwriter",
+    "github.com/jnjosh/internet-weblog",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/jyygithub/hugo-theme-onelou",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/knadh/hugo-ink",
+    "github.com/koirand/pulp",
+    "github.com/leafee98/hugo-theme-flat",
+    "github.com/leonardofaria/bento",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/lukeorth/poison",
+    "github.com/lxndrblz/anatole",
+    "github.com/M1cR0xf7/kaslaanka",
+    "github.com/meibenny/elephants",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/mmrath/hugo-bootstrap",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/nunocoracao/blowfish",
+    "github.com/okkur/syna",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/vnovel",
+    "github.com/pacollins/calligraphy",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/paulmartins/hugo-digital-garden-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/qqhann/hugo-primer",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/rhnvrm/bodhi",
+    "github.com/rijoth/rsimple",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/saadnpq/npq-hugo",
+    "github.com/schnerring/hugo-theme-gruvbox",
+    "github.com/serg/yourfolio",
+    "github.com/serkodev/holy",
+    "github.com/slashformotion/hugo-tufte",
+    "github.com/splch/hugo-simplecss",
+    "github.com/spookey/slick",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/SteveLane/hugo-icon",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/tohn/linkshrubbery",
+    "github.com/tylerjlawson/port-hugo",
+    "github.com/urjaacharya/redgood",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wileybaba/hugo-theme-robotico",
+    "github.com/willfaught/paige",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xaviablaza/hugo-lodi-theme",
+    "github.com/yihui/hugo-xmin",
+    "github.com/yoshiharuyamashita/blackburn",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/Yukuro/hugo-theme-shell",
+    "github.com/yursan9/manis-hugo-theme",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "github.com/nusserstudios/tailbliss",
+]
+bootstrap = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/alanorth/hugo-theme-bootstrap4-blog",
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/bul-ikana/hugo-cards",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/gcaracuel/hugo-theme-gutenberg",
+    "github.com/geschke/hugo-tikva",
+    "github.com/h-enk/doks",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/keichi/vienna",
+    "github.com/marcanuy/simpleit-hugo-theme",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/mikeblum/hugo-now",
+    "github.com/nanxstats/hugo-tanka",
+    "github.com/okkur/syna",
+    "github.com/pjbakker/flexible-seo-hugo",
+    "github.com/progrhyme/hugo-theme-bootie-docs",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rafed/BlogRa",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/shenoybr/hugo-goa",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/tylerjlawson/port-hugo",
+    "github.com/uicardiodev/hugo-lime",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/wileybaba/hugo-theme-robotico",
+    "github.com/willfaught/paige",
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+    "github.com/zerostaticthemes/hugo-whisper-theme",
+    "github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+]
+customizable = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/aanupam23/hugo-sugoi",
+    "github.com/asurbernardo/amperage",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/google/docsy",
+    "github.com/h-enk/doks",
+    "github.com/heksagonnet/piko",
+    "github.com/humrochagf/colordrop",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/M1cR0xf7/kaslaanka",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/okkur/syna",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/paulmartins/hugo-digital-garden-theme",
+    "github.com/pfadfinder-konstanz/hugo-dpsg",
+    "github.com/pjbakker/flexible-seo-hugo",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/your-identity/hugo-theme-dimension",
+    "gitlab.com/avron/gruvhugo",
+    "gitlab.com/gabmus/hugo-ficurinia",
+]
+hugo = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/brycematheson/allegiant",
+    "github.com/djuelg/Shapez-Theme",
+    "github.com/hdcdstr8fwd/foundation-theme",
+    "github.com/huyb1991/hugo-lamp",
+    "github.com/lubang/hugo-hello-programmer-theme",
+    "github.com/NormandErwan/Blogpaper",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/sudorook/capsule",
+    "github.com/Y4er/hugo-theme-easybook",
+]
+theme = [
+    "github.com/10mohi6/hugo-theme-simple-blog",
+    "github.com/apvarun/blist-hugo-theme",
+    "github.com/apvarun/digital-garden-hugo-theme",
+    "github.com/apvarun/showfolio-hugo-theme",
+    "github.com/chringel21/chringel-hugo-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/dillonzq/LoveIt",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/geschke/hugo-tikva",
+    "github.com/HEIGE-PCloud/DoIt",
+    "github.com/heksagonnet/piko",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/hugo-fixit/FixIt",
+    "github.com/huyb1991/hugo-lamp",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/liuzc/LeaveIt",
+    "github.com/NormandErwan/Blogpaper",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/Somrat37/somrat",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/uPagge/uBlogger",
+    "github.com/xioyito/NewBee",
+]
+portfolio = [
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/aerohub/hugrid",
+    "github.com/apvarun/showfolio-hugo-theme",
+    "github.com/Binary-Eater/hugo-theme-ghci",
+    "github.com/bjacquemet/personal-web",
+    "github.com/boratanrikulu/eternity",
+    "github.com/caressofsteel/hugo-story",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chipsenkbeil/grid-side",
+    "github.com/chollinger93/ink-free",
+    "github.com/darshanbaral/aafu",
+    "github.com/darshanbaral/sada",
+    "github.com/devcows/hugo-universal-theme",
+    "github.com/eddiewebb/hugo-resume",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/heksagonnet/piko",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/invinciblycool/lekh",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/Jack-alope/sourgough-starter",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/kishaningithub/hugo-creative-portfolio-theme",
+    "github.com/knadh/hugo-ink",
+    "github.com/MarcusVirg/forty",
+    "github.com/mcrwfrd/hugo-frances-theme",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/okkur/syna",
+    "github.com/pacollins/calligraphy",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/samrobbins85/hugo-developer-portfolio",
+    "github.com/sbruder/spectral",
+    "github.com/schmanat/hugo-highlights-theme",
+    "github.com/serg/yourfolio",
+    "github.com/Somrat37/somrat",
+    "github.com/splch/hugo-simplecss",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/tylerjlawson/port-hugo",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+    "github.com/willfaught/paige",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xaviablaza/hugo-lodi-theme",
+    "github.com/Yukuro/hugo-theme-shell",
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zzzmisa/hugo-theme-doors",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "github.com/nusserstudios/tailbliss",
+]
+business = [
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/cowboysmall-tools/hugo-business-frontpage-theme",
+    "github.com/dewittn/hugo-html5up-alpha",
+    "github.com/half-duplex/hugo-arcana",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/SAGGameDeveloper/hugo-minimalist-spa",
+    "github.com/tylerjlawson/simple-snipcart-shop",
+    "gitlab.com/kskarthik/resto-hugo",
+]
+projects = [
+    "github.com/2-REC/hugo-myportfolio-theme",
+    "github.com/appernetic/hugo-nederburg-theme",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/chipsenkbeil/grid-side",
+    "github.com/devcows/hugo-universal-theme",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/kishaningithub/hugo-creative-portfolio-theme",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/okkur/syna",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzzmisa/hugo-theme-doors",
+]
+dark = [
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/526avijitgupta/gokarna",
+    "github.com/7ma7X/HugoTeX",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/akatiggerx04/graysx-hugo",
+    "github.com/bake/solar-theme-hugo",
+    "github.com/Binary-Eater/hugo-theme-ghci",
+    "github.com/canstand/compost",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chipzoller/hugo-clarity",
+    "github.com/chollinger93/ink-free",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/dillonzq/LoveIt",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/geschke/hugo-tikva",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/HEIGE-PCloud/DoIt",
+    "github.com/heksagonnet/piko",
+    "github.com/hugcis/hugo-astatine-theme",
+    "github.com/hugo-fixit/FixIt",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/invinciblycool/lekh",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/jmau111/hugo-theme-ava",
+    "github.com/jonathanjanssens/hugo-casper3",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/jyygithub/hugo-theme-onelou",
+    "github.com/kaiiiz/hugo-theme-monochrome",
+    "github.com/kc0bfv/autophugo",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/khusika/FeelIt",
+    "github.com/knadh/hugo-ink",
+    "github.com/knokmki612/hugo-fill-and-stroke",
+    "github.com/kritoke/darksimplicity",
+    "github.com/liuzc/LeaveIt",
+    "github.com/LordMathis/hugo-theme-nightfall",
+    "github.com/lukeorth/poison",
+    "github.com/lxndrblz/anatole",
+    "github.com/McShelby/hugo-theme-relearn",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/nunocoracao/blowfish",
+    "github.com/onweru/compose",
+    "github.com/onweru/hugo-swift-theme",
+    "github.com/onweru/newsroom",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/vnovel",
+    "github.com/pacollins/calligraphy",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/paulmartins/hugo-digital-garden-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/rullmann/hugo-theme-terminal-cookbook",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/saadnpq/npq-hugo",
+    "github.com/serkodev/holy",
+    "github.com/setsevireon/photophobia",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/splch/hugo-simplecss",
+    "github.com/Track3/hermit",
+    "github.com/uPagge/uBlogger",
+    "github.com/vaga/hugo-theme-m10c",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/Vimux/Binario",
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/willfaught/paige",
+    "github.com/WingLim/hugo-tania",
+    "github.com/wlh320/hugo-theme-hulga",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xiaoheiAh/hugo-theme-pure",
+    "github.com/xslingcn/vno-hugo",
+    "github.com/your-identity/hugo-theme-dimension",
+    "github.com/Yukuro/hugo-theme-shell",
+    "github.com/zwbetz-gh/cupper-hugo-theme",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/gabmus/hugo-ficurinia",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+    "github.com/nusserstudios/tailbliss",
+]
+highlighting = [
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/your-identity/hugo-theme-dimension",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+monochromatic = [
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/humrochagf/colordrop",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+]
+multilingual = [
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/alex-shpak/hugo-book",
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/de-souza/hugo-flex",
+    "github.com/google/docsy",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/kaiiiz/hugo-theme-monochrome",
+    "github.com/knokmki612/hugo-fill-and-stroke",
+    "github.com/LordMathis/hugo-theme-nix",
+    "github.com/McShelby/hugo-theme-relearn",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/setsevireon/photophobia",
+    "github.com/shaform/hugo-theme-den",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/willfaught/paige",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xianmin/hugo-theme-jane",
+    "github.com/Xzya/hugo-material-blog",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+technical = [
+    "github.com/4s3ti/hugo-theme-hello-4s3ti",
+    "github.com/asurbernardo/amperage",
+    "github.com/chipzoller/hugo-clarity",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/jbub/ghostwriter",
+    "github.com/mmrath/hugo-bootstrap",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/panr/hugo-theme-hello-friend",
+    "github.com/panr/hugo-theme-terminal",
+    "github.com/qqhann/hugo-primer",
+    "github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "github.com/rijoth/rsimple",
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+OnlineCV = [
+    "github.com/4s3ti/terminalcv",
+]
+Singlepage = [
+    "github.com/4s3ti/terminalcv",
+]
+LaTeX = [
+    "github.com/7ma7X/HugoTeX",
+]
+Minimal = [
+    "github.com/aanupam23/hugo-sugoi",
+    "github.com/ExchangeRate-API/strange-case",
+    "github.com/josephhutch/aether",
+    "github.com/leonhe/hugo_eiio",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/reuixiy/hugo-theme-meme",
+    "github.com/sefeng211/techlab-hugo-theme",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/tatsatb/TatBanTheme2.0",
+    "github.com/tblyler/light-hugo",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+modern = [
+    "github.com/aanupam23/hugo-sugoi",
+    "github.com/apvarun/blist-hugo-theme",
+    "github.com/apvarun/digital-garden-hugo-theme",
+    "github.com/apvarun/showfolio-hugo-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/geschke/hugo-tikva",
+    "github.com/h-enk/doks",
+    "github.com/heksagonnet/piko",
+    "github.com/jeblister/bulma",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/leonardofaria/bento",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/opera7133/tella",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/salsysd/hugo-assembly",
+    "github.com/Somrat37/somrat",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+    "github.com/wowchemy/starter-hugo-academic",
+    "gitlab.com/avron/gruvhugo",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+]
+minimalist = [
+    "github.com/achary/engimo",
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/alexandrevicenzi/soho",
+    "github.com/alloydwhitlock/huey",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/boratanrikulu/eternity",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/chollinger93/ink-free",
+    "github.com/damiencaselli/hugo-journal",
+    "github.com/damiencaselli/paperback",
+    "github.com/goodroot/hugo-classic",
+    "github.com/gundamew/hugo-bingo",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/hadisinaee/avicenna",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/httpsecure/kembang",
+    "github.com/ianrodrigues/hugo-tailwind-journal",
+    "github.com/invinciblycool/lekh",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/joway/hugo-theme-yinyang",
+    "github.com/kimcc/hugo-theme-noteworthy",
+    "github.com/knadh/hugo-ink",
+    "github.com/kritoke/darksimplicity",
+    "github.com/leonardofaria/bento",
+    "github.com/leonstafford/accessible-minimalism-hugo-theme",
+    "github.com/luizdepra/hugo-coder",
+    "github.com/lxndrblz/anatole",
+    "github.com/M1cR0xf7/kaslaanka",
+    "github.com/Masellum/hugo-theme-nostyleplease",
+    "github.com/mivinci/hugo-theme-minima",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/MunifTanjim/minimo",
+    "github.com/nanxstats/hugo-tanka",
+    "github.com/naro143/hugo-coder-portfolio",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/NormandErwan/Blogpaper",
+    "github.com/onweru/hugo-swift-theme",
+    "github.com/onweru/newsroom",
+    "github.com/pavel-pi/kiss-em",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rhnvrm/bodhi",
+    "github.com/ribice/kiss",
+    "github.com/SAGGameDeveloper/hugo-minimalist-spa",
+    "github.com/salcan/BeyondNothing",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/shankar/hugo-grapes",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/tylerjlawson/simple-resume",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wayjam/hugo-theme-mixedpaper",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/wtoll/venture",
+    "github.com/yihui/hugo-xmag",
+    "github.com/yihui/hugo-xmin",
+    "github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+engineering = [
+    "github.com/achary/engimo",
+]
+google-analytics = [
+    "github.com/achary/engimo",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/jweslley/hugo-conference",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/MunifTanjim/minimo",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/rhnvrm/bodhi",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/zzzmisa/hugo-theme-doors",
+]
+"highlight.js" = [
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/jpescador/hugo-future-imperfect",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/olOwOlo/hugo-theme-even",
+    "github.com/progrhyme/hugo-theme-bootie-docs",
+    "github.com/vantagedesign/ace-documentation",
+]
+search = [
+    "github.com/adityatelange/hugo-PaperMod",
+    "github.com/alex-shpak/hugo-book",
+    "github.com/asurbernardo/amperage",
+    "github.com/azmelanar/hugo-theme-pixyll",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/h-enk/doks",
+    "github.com/heksagonnet/piko",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/jeremybise/twentynineteen-hugo",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/koirand/pulp",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/matcornic/hugo-theme-learn",
+    "github.com/okkur/syna",
+    "github.com/onweru/compose",
+    "github.com/rhnvrm/bodhi",
+    "github.com/sergeyklay/gohugo-theme-ed",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/vjeantet/hugo-theme-docport",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/xiaoheiAh/hugo-theme-pure",
+    "github.com/yue1124/hero",
+    "github.com/zhaohuabing/hugo-theme-cleanwhite",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+faq = [
+    "github.com/aerohub/hugo-faq-theme",
+]
+"data files" = [
+    "github.com/aerohub/hugo-faq-theme",
+]
+configurable = [
+    "github.com/aerohub/hugo-identity-theme",
+]
+profile = [
+    "github.com/aerohub/hugo-identity-theme",
+    "github.com/mikeblum/hugo-now",
+]
+card = [
+    "github.com/aerohub/hugo-identity-theme",
+]
+contact = [
+    "github.com/aerohub/hugo-identity-theme",
+    "github.com/charlola/hugo-theme-charlolamode",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/serkodev/holy",
+    "github.com/willfaught/paige",
+]
+social = [
+    "github.com/aerohub/hugo-identity-theme",
+]
+"google analytics" = [
+    "github.com/aerohub/hugo-identity-theme",
+    "github.com/aerohub/hugrid",
+    "github.com/asurbernardo/amperage",
+    "github.com/balaramadurai/hugo-travelify-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/heksagonnet/piko",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/MarcusVirg/forty",
+    "github.com/MeiK2333/github-style",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/schmanat/hugo-highlights-theme",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/tosi29/inkblotty",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/Vimux/Binario",
+    "github.com/Xzya/hugo-material-blog",
+    "gitlab.com/toryanderson/hugo-icarus",
+]
+cv = [
+    "github.com/aerohub/hugo-orbit-theme",
+    "github.com/cowboysmall-tools/hugo-devresume-theme",
+    "github.com/cssandstuff/hugo-theme-winning",
+    "github.com/hootan09/simple-cv",
+    "github.com/ineesalmeida/almeida-cv",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/tylerjlawson/simple-resume",
+]
+resume = [
+    "github.com/aerohub/hugo-orbit-theme",
+    "github.com/cowboysmall-tools/hugo-devresume-theme",
+    "github.com/darshanbaral/aafu",
+    "github.com/darshanbaral/sada",
+    "github.com/eddiewebb/hugo-resume",
+    "github.com/heksagonnet/piko",
+    "github.com/ineesalmeida/almeida-cv",
+    "github.com/Jack-alope/sourgough-starter",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/tylerjlawson/simple-resume",
+    "github.com/wowchemy/starter-hugo-academic",
+    "gitlab.com/mertbakir/resume-a4",
+]
+"colour schemes" = [
+    "github.com/aerohub/hugo-orbit-theme",
+]
+grid = [
+    "github.com/aerohub/hugrid",
+    "github.com/mcrwfrd/hugo-frances-theme",
+]
+cards = [
+    "github.com/aerohub/hugrid",
+    "github.com/bul-ikana/hugo-cards",
+]
+collections = [
+    "github.com/aerohub/hugrid",
+]
+diary = [
+    "github.com/airinghost/hugo-theme-icarus-lite",
+]
+gray = [
+    "github.com/akatiggerx04/graysx-hugo",
+]
+"font awesome" = [
+    "github.com/alanorth/hugo-theme-bootstrap4-blog",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/geschke/hugo-tikva",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/jpescador/hugo-future-imperfect",
+    "github.com/marcanuy/simpleit-hugo-theme",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/mikeblum/hugo-now",
+    "github.com/shenoybr/hugo-goa",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/sudorook/capsule",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+]
+documentation = [
+    "github.com/alex-shpak/hugo-book",
+    "github.com/blankoworld/hugo_theme_adam_eve",
+    "github.com/cdeck3r/OneDly-Theme",
+    "github.com/darshanbaral/khata",
+    "github.com/edavidaja/docter",
+    "github.com/google/docsy",
+    "github.com/h-enk/doks",
+    "github.com/jsnjack/kraiklyn",
+    "github.com/markdumay/hugo-theme-hinode",
+    "github.com/matcornic/hugo-theme-learn",
+    "github.com/okkur/syna",
+    "github.com/onweru/compose",
+    "github.com/progrhyme/hugo-theme-bootie-docs",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/thegeeklab/hugo-geekdoc",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/vjeantet/hugo-theme-docport",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zwbetz-gh/cupper-hugo-theme",
+    "github.com/zzossig/hugo-theme-zdoc",
+]
+docs = [
+    "github.com/alex-shpak/hugo-book",
+    "github.com/google/docsy",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/jsnjack/kraiklyn",
+    "github.com/mbrt-yeah/uwe-uwe-hugo",
+    "github.com/McShelby/hugo-theme-relearn",
+    "github.com/onweru/compose",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/thegeeklab/hugo-geekdoc",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/zerostaticthemes/hugo-whisper-theme",
+]
+flexbox = [
+    "github.com/alex-shpak/hugo-book",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/de-souza/hugo-flex",
+    "github.com/gevhaz/hugo-theme-notrack",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/jeblister/bulma",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/unicef/inventory-hugo-theme",
+]
+mobile = [
+    "github.com/alex-shpak/hugo-book",
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/ertuil/erblog",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/heksagonnet/piko",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/kc0bfv/autophugo",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/okkur/syna",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/saadnpq/npq-hugo",
+    "github.com/schollz/onetwothree",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/spookey/slick",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "github.com/zzzmisa/hugo-theme-doors",
+    "gitlab.com/avron/gruvhugo",
+]
+disqus = [
+    "github.com/alex-shpak/hugo-book",
+    "github.com/asurbernardo/amperage",
+    "github.com/cfrome77/hugo-theme-sky",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/ijsucceed/onepress",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/onweru/newsroom",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/pravin/hugo-theme-prav",
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/tosi29/inkblotty",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/Vimux/Binario",
+]
+AlexFinn = [
+    "github.com/AlexFinn/simple-a",
+]
+ghost = [
+    "github.com/allnightgrocery/hugo-theme-blueberry-detox",
+]
+white = [
+    "github.com/allnightgrocery/hugo-theme-blueberry-detox",
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/davidhampgonsalves/hugo-black-and-light-theme",
+    "github.com/geschke/hugo-tikva",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/leonardofaria/bento",
+    "github.com/lingxz/er",
+    "github.com/mdashx/basicwebtheme",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/qqhann/hugo-primer",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/taikii/whiteplain",
+    "github.com/tylerjlawson/simple-snipcart-shop",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/xiaoheiAh/hugo-theme-pure",
+    "github.com/yanlinlin82/simple-style",
+]
+bulma = [
+    "github.com/alloydwhitlock/huey",
+    "github.com/jeblister/bulma",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/rafed/ramium",
+    "github.com/sudorook/capsule",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wlh320/hugo-theme-hulga",
+]
+hugo-theme = [
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/Somrat37/somrat",
+]
+hugo-templates = [
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+]
+contact-form = [
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/heksagonnet/piko",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+]
+gethugothemes = [
+    "github.com/ameio/hugo-arogya-theme",
+    "github.com/gcaracuel/hugo-theme-gutenberg",
+]
+herbs = [
+    "github.com/ameio/hugo-arogya-theme",
+]
+diseases = [
+    "github.com/ameio/hugo-arogya-theme",
+]
+health = [
+    "github.com/ameio/hugo-arogya-theme",
+]
+Hugo = [
+    "github.com/apvarun/blist-hugo-theme",
+    "github.com/apvarun/digital-garden-hugo-theme",
+    "github.com/apvarun/showfolio-hugo-theme",
+    "github.com/chringel21/chringel-hugo-theme",
+    "github.com/leonardofaria/bento",
+    "github.com/parsiya/Hugo-Octopress",
+    "github.com/saey55/hugo-elate-theme",
+]
+"digital garden" = [
+    "github.com/apvarun/digital-garden-hugo-theme",
+    "github.com/paulmartins/hugo-digital-garden-theme",
+]
+gallery = [
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/chipsenkbeil/grid-side",
+    "github.com/ertuil/erblog",
+    "github.com/Fastbyte01/KeepIt",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/kc0bfv/autophugo",
+    "github.com/liuzc/LeaveIt",
+    "github.com/mavidser/hugo-rocinante",
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/willfaught/paige",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzossig/hugo-theme-zzo",
+    "github.com/zzzmisa/hugo-theme-doors",
+    "gitlab.com/tmuguet/hugo-split-gallery",
+    "gitlab.com/toryanderson/hugo-icarus",
+    "github.com/nusserstudios/tailbliss",
+]
+"one page" = [
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/cssandstuff/hugo-theme-winning",
+    "github.com/escalate/hugo-split-theme",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/jsnjack/kraiklyn",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/schmanat/hugo-highlights-theme",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzzmisa/hugo-theme-doors",
+]
+"single page" = [
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/cdeck3r/OneDly-Theme",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/felicianotech/hugo-theme-lean-launch-page",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/SteveLane/hugo-icon",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzzmisa/hugo-theme-doors",
+    "gitlab.com/kskarthik/resto-hugo",
+    "gitlab.com/mertbakir/resume-a4",
+]
+tailwind = [
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/canstand/compost",
+    "github.com/darshanbaral/aafu",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/nunocoracao/blowfish",
+    "github.com/nusserstudios/tailbliss",
+]
+starter = [
+    "github.com/apvarun/showcase-hugo-theme",
+    "github.com/asurbernardo/amperage",
+    "github.com/cowboysmall-tools/hugo-business-frontpage-theme",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/EmielH/tale-hugo",
+    "github.com/goodroot/hugo-classic",
+    "github.com/gundamew/hugo-bingo",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/jakewies/hugo-theme-codex",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/jimfrenette/hugo-starter",
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/vimux/blank",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/yihui/hugo-xmin",
+]
+"syntax highlighting" = [
+    "github.com/asurbernardo/amperage",
+    "github.com/balaramadurai/hugo-travelify-theme",
+    "github.com/chipzoller/hugo-clarity",
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/gyorb/hugo-dusk",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/hivickylai/hugo-theme-sam",
+    "github.com/htr3n/hyde-hyde",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/olOwOlo/hugo-theme-even",
+    "github.com/onweru/newsroom",
+    "github.com/puresyntax71/hugo-theme-chunky-poster",
+    "github.com/qqhann/hugo-primer",
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/victoriadrake/hugo-theme-introduction",
+    "github.com/wayjam/hugo-theme-fluency",
+    "gitlab.com/toryanderson/hugo-icarus",
+]
+fast = [
+    "github.com/asurbernardo/amperage",
+    "github.com/colorchestra/smol",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/cyevgeniy/monday-theme",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/ertuil/erblog",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/heksagonnet/piko",
+    "github.com/jacksalici/salinger-theme",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/LukasJoswiak/etch",
+    "github.com/marketempower/axiom",
+    "github.com/Mitrichius/hugo-theme-anubis",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/onweru/hugo-swift-theme",
+    "github.com/onweru/newsroom",
+    "github.com/orf/bare-hugo-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/vantagedesign/ace-documentation",
+    "github.com/wileybaba/hugo-theme-robotico",
+    "github.com/wlh320/hugo-theme-hulga",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+minimalistic = [
+    "github.com/asurbernardo/amperage",
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/heksagonnet/piko",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jmablog/hugo-clinic-notes",
+    "github.com/jsnjack/kraiklyn",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/Somrat37/somrat",
+    "github.com/vaga/hugo-theme-m10c",
+]
+amp = [
+    "github.com/asurbernardo/amperage",
+    "github.com/huyb1991/hugo-lamp",
+    "github.com/zzzmisa/hugo-theme-doors",
+]
+tags = [
+    "github.com/athul/archie",
+    "github.com/hauke96/hugo-theme-hamburg",
+    "github.com/keichi/vienna",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/wd/hugo-fabric",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+]
+shortcodes = [
+    "github.com/athul/archie",
+]
+solarized = [
+    "github.com/bake/solar-theme-hugo",
+]
+rss = [
+    "github.com/balaramadurai/hugo-travelify-theme",
+    "github.com/invinciblycool/lekh",
+    "github.com/pavel-pi/kiss-em",
+    "github.com/pfadfinder-konstanz/hugo-dpsg",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "gitlab.com/toryanderson/hugo-icarus",
+]
+widgets = [
+    "github.com/balaramadurai/hugo-travelify-theme",
+    "github.com/ijsucceed/onepress",
+    "github.com/pfadfinder-konstanz/hugo-dpsg",
+    "github.com/wowchemy/starter-hugo-academic",
+    "gitlab.com/toryanderson/hugo-icarus",
+]
+carousel = [
+    "github.com/balaramadurai/hugo-travelify-theme",
+]
+slider = [
+    "github.com/balaramadurai/hugo-travelify-theme",
+]
+Gallery = [
+    "github.com/bep/gallerydeluxe",
+    "github.com/FarseaSH/hugo-theme-moments",
+    "github.com/hossainemruz/toha",
+]
+Responsive = [
+    "github.com/bep/gallerydeluxe",
+    "github.com/cloudwithchris/hugo-creator",
+    "github.com/coderzh/hugo-pacman-theme",
+    "github.com/ExchangeRate-API/strange-case",
+    "github.com/FarseaSH/hugo-theme-moments",
+    "github.com/gurusabarish/hugo-profile",
+    "github.com/hossainemruz/toha",
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/josephhutch/aether",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/nanxiaobei/hugo-paper",
+    "github.com/ph-ph/chalk",
+    "github.com/roninro/hugo-theme-puppet",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/tastaturtier/someparts-hugo",
+    "github.com/tatsatb/TatBanTheme2.0",
+    "github.com/tblyler/light-hugo",
+    "github.com/thingsym/hugo-theme-techdoc",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+post = [
+    "github.com/bjacquemet/personal-web",
+]
+freelancer = [
+    "github.com/bjacquemet/personal-web",
+]
+developer = [
+    "github.com/bjacquemet/personal-web",
+    "github.com/samrobbins85/hugo-developer-portfolio",
+]
+wiki-like = [
+    "github.com/blankoworld/hugo_theme_adam_eve",
+]
+allegiant = [
+    "github.com/brycematheson/allegiant",
+]
+jekyll = [
+    "github.com/bul-ikana/hugo-cards",
+]
+"dark mode" = [
+    "github.com/canstand/compost",
+    "github.com/colorchestra/smol",
+    "github.com/de-souza/hugo-flex",
+    "github.com/dsrkafuu/hugo-theme-fuji",
+    "github.com/fncnt/vncnt-hugo",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/h-enk/doks",
+    "github.com/heksagonnet/piko",
+    "github.com/J-Siu/hugo-theme-sk3",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/joeroe/risotto",
+    "github.com/jpanther/congo",
+    "github.com/jpanther/lynx",
+    "github.com/LukasJoswiak/etch",
+    "github.com/McShelby/hugo-theme-relearn",
+    "github.com/nunocoracao/blowfish",
+    "github.com/onweru/compose",
+    "github.com/razonyang/hugo-theme-bootstrap",
+    "github.com/schnerring/hugo-theme-gruvbox",
+    "github.com/serkodev/holy",
+    "github.com/softwareyoga/ronu-hugo-theme",
+    "github.com/splch/hugo-simplecss",
+    "github.com/willfaught/paige",
+    "gitlab.com/avron/gruvhugo",
+]
+html5up = [
+    "github.com/caressofsteel/hugo-story",
+    "github.com/curtiscde/hugo-theme-dopetrope",
+    "github.com/curtiscde/hugo-theme-massively",
+    "github.com/dewittn/hugo-html5up-alpha",
+    "github.com/half-duplex/hugo-arcana",
+]
+modular = [
+    "github.com/caressofsteel/hugo-story",
+    "github.com/marketempower/axiom",
+]
+one-page = [
+    "github.com/caressofsteel/hugo-story",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/runningstream/hugograyscale",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/tnwhitwell/hugo-startpage-theme",
+    "github.com/tylerjlawson/simple-snipcart-shop",
+]
+classlesscss = [
+    "github.com/cathelijne/hugo-theme-huguette",
+]
+netlifycms = [
+    "github.com/cathelijne/hugo-theme-huguette",
+]
+Bootstrap = [
+    "github.com/cboettig/hugo-now-ui",
+    "github.com/ExchangeRate-API/strange-case",
+    "github.com/hossainemruz/toha",
+    "github.com/leonhe/hugo_eiio",
+    "github.com/tastaturtier/someparts-hugo",
+    "github.com/tatsatb/TatBanTheme2.0",
+]
+"Bootstrap v4" = [
+    "github.com/cboettig/hugo-now-ui",
+]
+flat-ui = [
+    "github.com/cboettig/hugo-now-ui",
+]
+"Creative Tim" = [
+    "github.com/cboettig/hugo-now-ui",
+]
+Invision = [
+    "github.com/cboettig/hugo-now-ui",
+]
+"landing page" = [
+    "github.com/cdeck3r/OneDly-Theme",
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/h-enk/doks",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/RCJacH/hugo-webslides",
+    "github.com/wowchemy/starter-hugo-academic",
+    "gitlab.com/avron/gruvhugo",
+]
+opensource = [
+    "github.com/cdeck3r/OneDly-Theme",
+]
+privacy = [
+    "github.com/chollinger93/ink-free",
+    "github.com/chringel21/chringel-hugo-theme",
+    "github.com/colorchestra/smol",
+    "github.com/LukasJoswiak/etch",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+]
+Blog = [
+    "github.com/chringel21/chringel-hugo-theme",
+    "github.com/coderzh/hugo-pacman-theme",
+    "github.com/darshanbaral/mero",
+    "github.com/elkan1788/hugo-theme-next",
+    "github.com/ExchangeRate-API/strange-case",
+    "github.com/gurusabarish/hugo-profile",
+    "github.com/hossainemruz/toha",
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/josephhutch/aether",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/nanxiaobei/hugo-paper",
+    "github.com/ph-ph/chalk",
+    "github.com/reuixiy/hugo-theme-meme",
+    "github.com/roninro/hugo-theme-puppet",
+    "github.com/sefeng211/techlab-hugo-theme",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/tatsatb/TatBanTheme2.0",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+    "github.com/xaprb/story",
+]
+"Tailwind CSS" = [
+    "github.com/chringel21/chringel-hugo-theme",
+]
+"Content Creator" = [
+    "github.com/cloudwithchris/hugo-creator",
+]
+Pacman = [
+    "github.com/coderzh/hugo-pacman-theme",
+]
+monospace = [
+    "github.com/colorchestra/smol",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+    "gitlab.com/kskarthik/monopriv",
+]
+no-js = [
+    "github.com/colorchestra/smol",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+]
+no-tracking = [
+    "github.com/colorchestra/smol",
+    "gitlab.com/ian-s-mcb/smigle-hugo-theme",
+]
+home = [
+    "github.com/cowboysmall-tools/hugo-business-frontpage-theme",
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+]
+page = [
+    "github.com/cowboysmall-tools/hugo-business-frontpage-theme",
+]
+landing-page = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/felicianotech/hugo-theme-lean-launch-page",
+    "github.com/heksagonnet/piko",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/runningstream/hugograyscale",
+    "github.com/Somrat37/somrat",
+]
+cristianmarint = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+]
+creative = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/g1eny0ung/hugo-theme-dream",
+    "github.com/heksagonnet/piko",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/kc0bfv/autophugo",
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/kishaningithub/hugo-creative-portfolio-theme",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/StaticMania/roxo-hugo",
+]
+custom-themes = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/heksagonnet/piko",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+]
+pages = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/heksagonnet/piko",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/nodejh/hugo-theme-cactus-plus",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+]
+presentation = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/darshanbaral/prastoot",
+    "github.com/dzello/reveal-hugo",
+    "github.com/heksagonnet/piko",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/RCJacH/hugo-webslides",
+    "github.com/RealOrangeOne/hugo-theme-revealjs",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zzossig/hugo-theme-zzo",
+]
+product = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/gcaracuel/hugo-theme-gutenberg",
+    "github.com/heksagonnet/piko",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/miguelsimoni/hugo-initio",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/wowchemy/starter-hugo-academic",
+]
+typography = [
+    "github.com/cristianmarint/sicily-hugo-theme",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/EmielH/tale-hugo",
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/M1cR0xf7/kaslaanka",
+    "github.com/nanxstats/hugo-tanka",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/RononDex/interstellar-hugo",
+    "github.com/Somrat37/somrat",
+    "github.com/spookey/slick",
+]
+reading = [
+    "github.com/damiencaselli/hugo-journal",
+    "github.com/damiencaselli/paperback",
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/ianrodrigues/hugo-tailwind-journal",
+    "github.com/janraasch/hugo-bearblog",
+]
+sepia = [
+    "github.com/damiencaselli/paperback",
+]
+"contact form" = [
+    "github.com/danielkvist/hugo-piercer-theme",
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/MarcusVirg/forty",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/saadnpq/npq-hugo",
+    "github.com/schmanat/hugo-highlights-theme",
+    "github.com/StaticMania/portio-hugo",
+    "github.com/unicef/inventory-hugo-theme",
+    "github.com/wowchemy/starter-hugo-academic",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+"google fonts" = [
+    "github.com/danielkvist/hugo-piercer-theme",
+]
+company = [
+    "github.com/danielkvist/hugo-terrassa-theme",
+    "github.com/devcows/hugo-universal-theme",
+    "github.com/halogenica/beautifulhugo",
+    "github.com/heksagonnet/piko",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/MarcusVirg/forty",
+    "github.com/okkur/syna",
+    "github.com/opera7133/tella",
+    "github.com/runningstream/hugograyscale",
+    "github.com/salsysd/hugo-assembly",
+    "github.com/sbruder/spectral",
+    "github.com/spf13/hyde",
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/SteveLane/hugo-icon",
+    "github.com/wowchemy/starter-hugo-academic",
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+    "github.com/nusserstudios/tailbliss",
+]
+accessibility = [
+    "github.com/danielkvist/hugo-terrassa-theme",
+]
+accordion = [
+    "github.com/darshanbaral/aafu",
+]
+book = [
+    "github.com/darshanbaral/kitab",
+]
+Personal = [
+    "github.com/darshanbaral/mero",
+    "github.com/elkan1788/hugo-theme-next",
+    "github.com/gurusabarish/hugo-profile",
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template",
+    "github.com/josephhutch/aether",
+    "github.com/leonhe/hugo_eiio",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/sefeng211/techlab-hugo-theme",
+    "github.com/tatsatb/TatBanTheme2.0",
+]
+Dark = [
+    "github.com/darshanbaral/mero",
+    "github.com/elkan1788/hugo-theme-next",
+    "github.com/guangmean/Niello",
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+onepage = [
+    "github.com/darshanbaral/sada",
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+    "github.com/escalate/hugo-split-theme",
+    "github.com/gcaracuel/hugo-theme-gutenberg",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/lucperkins/hugo-fresh",
+    "github.com/negrel/hugo-theme-pico",
+    "github.com/schmanat/hugo-highlights-theme",
+    "github.com/zzzmisa/hugo-theme-doors",
+]
+tailwindcss = [
+    "github.com/darshanbaral/sada",
+    "github.com/ianrodrigues/hugo-tailwind-journal",
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/marketempower/axiom",
+    "github.com/opera7133/Blonde",
+    "github.com/opera7133/tella",
+    "github.com/opera7133/vnovel",
+    "github.com/nusserstudios/tailbliss",
+]
+commento = [
+    "github.com/dataCobra/hugo-vitae",
+]
+fontawesome = [
+    "github.com/dataCobra/hugo-vitae",
+    "github.com/fncnt/vncnt-hugo",
+    "github.com/ijsucceed/onepress",
+    "github.com/janraasch/hugo-scroll",
+    "github.com/kakawait/hugo-tranquilpeak-theme",
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/flex-bp-hugo-cv",
+    "github.com/spech66/materialize-bp-hugo-theme",
+]
+no-javascript = [
+    "github.com/de-souza/hugo-flex",
+]
+"" = [
+    "github.com/diwao/hestia-pure",
+    "github.com/diwao/hestia-pure",
+    "github.com/eliasson/liquorice",
+    "github.com/eliasson/liquorice",
+    "github.com/qub1750ul/hugo-simpleIntro",
+]
+Shapez = [
+    "github.com/djuelg/Shapez-Theme",
+]
+SVG = [
+    "github.com/djuelg/Shapez-Theme",
+]
+design = [
+    "github.com/djuelg/Shapez-Theme",
+]
+purecss = [
+    "github.com/dplesca/purehugo",
+    "github.com/yoshiharuyamashita/blackburn",
+]
+revealjs = [
+    "github.com/dzello/reveal-hugo",
+    "github.com/RealOrangeOne/hugo-theme-revealjs",
+]
+cms = [
+    "github.com/eddiewebb/hugo-resume",
+]
+Simple = [
+    "github.com/elkan1788/hugo-theme-next",
+    "github.com/ExchangeRate-API/strange-case",
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/jgazeau/shadocs",
+    "github.com/josephhutch/aether",
+    "github.com/leonhe/hugo_eiio",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/nanxiaobei/hugo-paper",
+    "github.com/ph-ph/chalk",
+    "github.com/sefeng211/techlab-hugo-theme",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/tastaturtier/someparts-hugo",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+Fast = [
+    "github.com/elkan1788/hugo-theme-next",
+    "github.com/leonardofaria/bento",
+]
+Theme = [
+    "github.com/elkan1788/hugo-theme-next",
+]
+"Font Awesome" = [
+    "github.com/EmielH/hallo-hugo",
+    "github.com/EmielH/stip-hugo",
+]
+journal = [
+    "github.com/epistemehealth/health-science-journal",
+]
+"health sciences" = [
+    "github.com/epistemehealth/health-science-journal",
+]
+Clean = [
+    "github.com/ExchangeRate-API/strange-case",
+    "github.com/josephhutch/aether",
+    "github.com/leonhe/hugo_eiio",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/nanxiaobei/hugo-paper",
+    "github.com/ph-ph/chalk",
+    "github.com/reuixiy/hugo-theme-meme",
+    "github.com/sefeng211/techlab-hugo-theme",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+Micro-blogging = [
+    "github.com/FarseaSH/hugo-theme-moments",
+]
+"launch page" = [
+    "github.com/felicianotech/hugo-theme-lean-launch-page",
+    "github.com/janraasch/hugo-product-launch",
+]
+landingpage = [
+    "github.com/fncnt/vncnt-hugo",
+]
+church = [
+    "github.com/funkydan2/alpha-church",
+]
+podcast = [
+    "github.com/funkydan2/alpha-church",
+    "github.com/mattstratton/castanet",
+]
+flip = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+"masonry layout" = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+i18n = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+copyright = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+avatar = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+motto = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+"social links" = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+"light mode" = [
+    "github.com/g1eny0ung/hugo-theme-dream",
+]
+html5 = [
+    "github.com/garvincasimir/hugo-h5bp-simple",
+]
+articles = [
+    "github.com/garvincasimir/hugo-h5bp-simple",
+]
+ecommerce = [
+    "github.com/gcaracuel/hugo-theme-gutenberg",
+    "github.com/kishaningithub/hugo-shopping-product-catalogue-simple",
+    "github.com/tylerjlawson/simple-snipcart-shop",
+]
+"single product" = [
+    "github.com/gcaracuel/hugo-theme-gutenberg",
+    "github.com/janraasch/hugo-product-launch",
+]
+conference = [
+    "github.com/GDGToulouse/devfest-theme-hugo",
+    "github.com/jweslley/hugo-conference",
+]
+DevFest = [
+    "github.com/GDGToulouse/devfest-theme-hugo",
+]
+core = [
+    "github.com/geschke/hugo-tikva",
+]
+speed-dial = [
+    "github.com/gesquive/slate",
+    "github.com/tnwhitwell/hugo-startpage-theme",
+]
+single-page = [
+    "github.com/gesquive/slate",
+    "github.com/Nigh/tinyworks",
+    "github.com/qub1750ul/hugo-simpleIntro",
+    "github.com/radity/raditian-free-hugo-theme",
+    "github.com/rz3n/hugo-theme-freshstart",
+    "github.com/spech66/bootstrap-bp-hugo-startpage",
+    "github.com/tnwhitwell/hugo-startpage-theme",
+]
+libre = [
+    "github.com/gevhaz/hugo-theme-notrack",
+]
+syntax-highlighting = [
+    "github.com/gkmngrgn/hugo-alageek-theme",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/PippoRJ/hugo-refresh",
+    "github.com/softwareyoga/ronu-hugo-theme",
+]
+"google adsense" = [
+    "github.com/gonnux/hugo-apps-theme",
+    "github.com/J-Siu/hugo-theme-sk3",
+]
+darkmode = [
+    "github.com/goodroot/hugo-classic",
+    "github.com/RononDex/interstellar-hugo",
+]
+"Syntax highlighting" = [
+    "github.com/guangmean/Niello",
+    "github.com/hossainemruz/toha",
+    "github.com/josephhutch/aether",
+    "github.com/leonardofaria/bento",
+]
+"Highlight.js" = [
+    "github.com/guangmean/Niello",
+]
+Portfolio = [
+    "github.com/gurusabarish/hugo-profile",
+    "github.com/hossainemruz/toha",
+]
+utterances = [
+    "github.com/gyorb/hugo-dusk",
+]
+"custom themes" = [
+    "github.com/gyorb/hugo-dusk",
+    "github.com/it-gro/hugo-theme-w3css-basic",
+]
+academic = [
+    "github.com/hadisinaee/avicenna",
+]
+university = [
+    "github.com/hadisinaee/avicenna",
+]
+seo = [
+    "github.com/halogenica/beautifulhugo",
+    "github.com/janraasch/hugo-bearblog",
+    "github.com/jmau111/hugo-theme-ava",
+    "github.com/marketempower/axiom",
+    "github.com/marketempower/axiom",
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+]
+foundation = [
+    "github.com/hdcdstr8fwd/foundation-theme",
+]
+forestry = [
+    "github.com/heksagonnet/piko",
+]
+heksagon = [
+    "github.com/heksagonnet/piko",
+]
+picco = [
+    "github.com/heksagonnet/piko",
+]
+archive = [
+    "github.com/heksagonnet/piko",
+    "github.com/Ice-Hazymoon/hugo-theme-luna",
+    "github.com/razonyang/hugo-theme-bootstrap",
+]
+website = [
+    "github.com/heyeshuang/hugo-theme-tokiwa",
+    "github.com/jakewies/hugo-theme-codex",
+    "github.com/jimfrenette/hugo-starter",
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/pravin/hugo-theme-prav",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+]
+"css grid" = [
+    "github.com/hivickylai/hugo-theme-sam",
+]
+resumes = [
+    "github.com/hootan09/simple-cv",
+]
+Resume = [
+    "github.com/hossainemruz/toha",
+]
+Projects = [
+    "github.com/hossainemruz/toha",
+    "github.com/tastaturtier/someparts-hugo",
+]
+Multilingual = [
+    "github.com/hossainemruz/toha",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/reuixiy/hugo-theme-meme",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+]
+Minimalist = [
+    "github.com/hossainemruz/toha",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/tastaturtier/someparts-hugo",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+Customizable = [
+    "github.com/hossainemruz/toha",
+]
+"Google analytics" = [
+    "github.com/hossainemruz/toha",
+    "github.com/josephhutch/aether",
+    "github.com/leonardofaria/bento",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/thingsym/hugo-theme-techdoc",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+Disqus = [
+    "github.com/hossainemruz/toha",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/josephhutch/aether",
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/leonardofaria/bento",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+hyde = [
+    "github.com/htr3n/hyde-hyde",
+]
+font-awesome = [
+    "github.com/htr3n/hyde-hyde",
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/natarajmb/charaka-hugo-theme",
+    "github.com/tylerjlawson/port-hugo",
+]
+graphcomment = [
+    "github.com/htr3n/hyde-hyde",
+]
+portofolio = [
+    "github.com/httpsecure/hugo-theme-red-rose",
+]
+"dark theme" = [
+    "github.com/httpsecure/hugo-theme-red-rose",
+]
+Documentation = [
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/jgazeau/shadocs",
+    "github.com/thingsym/hugo-theme-techdoc",
+]
+Light = [
+    "github.com/hugo-next/hugo-theme-next",
+    "github.com/nanxiaobei/hugo-paper",
+    "github.com/ph-ph/chalk",
+    "github.com/roninro/hugo-theme-puppet",
+    "github.com/sefeng211/techlab-hugo-theme",
+    "github.com/tatsatb/TatBanTheme2.0",
+    "github.com/tblyler/light-hugo",
+]
+mimimalist = [
+    "github.com/humrochagf/colordrop",
+]
+static-site-generator = [
+    "github.com/huyb1991/hugo-lamp",
+]
+highlight = [
+    "github.com/iCyris/hugo-theme-yuki",
+    "github.com/RainerChiang/simpleness",
+    "github.com/xianmin/hugo-theme-jane",
+]
+text-focussed = [
+    "github.com/invinciblycool/lekh",
+]
+dark-mode = [
+    "github.com/invinciblycool/lekh",
+    "github.com/lukeorth/poison",
+]
+products = [
+    "github.com/it-gro/hugo-theme-w3css-basic",
+]
+w3css = [
+    "github.com/it-gro/hugo-theme-w3css-basic",
+]
+neat = [
+    "github.com/IvanChou/hugo-theme-vec",
+    "github.com/zhe/hugo-theme-slim",
+]
+"black white" = [
+    "github.com/IvanChou/hugo-theme-vec",
+    "github.com/zhe/hugo-theme-slim",
+]
+twemoji = [
+    "github.com/jacksalici/salinger-theme",
+]
+recursion = [
+    "github.com/jacksalici/salinger-theme",
+]
+section = [
+    "github.com/jacksalici/salinger-theme",
+]
+editor = [
+    "github.com/jacobsun/edidor",
+]
+edidor = [
+    "github.com/jacobsun/edidor",
+]
+wordpress = [
+    "github.com/jaden/twentyfourteen",
+    "github.com/tosi29/inkblotty",
+]
+"coming soon" = [
+    "github.com/janraasch/hugo-product-launch",
+]
+netlify = [
+    "github.com/janraasch/hugo-product-launch",
+    "github.com/jpescador/hugo-future-imperfect",
+    "github.com/marketempower/axiom",
+    "github.com/peaceiris/hugo-theme-iris",
+]
+newsletter = [
+    "github.com/janraasch/hugo-product-launch",
+]
+forkawesome = [
+    "github.com/janraasch/hugo-scroll",
+]
+landing = [
+    "github.com/jeblister/bulma",
+    "github.com/KatamariJr/split-landing",
+    "github.com/willfaught/paige",
+    "gitlab.com/writeonlyhugo/up-business-theme",
+]
+themes = [
+    "github.com/jeblister/bulma",
+]
+"color configuration" = [
+    "github.com/jeremybise/twentynineteen-hugo",
+    "github.com/zwbetz-gh/cayman-hugo-theme",
+]
+"Google Analytics" = [
+    "github.com/jesselau76/hugo-w3-simple",
+    "github.com/lgaida/mediumish-gohugo-theme",
+    "github.com/tastaturtier/someparts-hugo",
+    "github.com/yihui/hugo-xmag",
+]
+Bulma = [
+    "github.com/jgazeau/shadocs",
+]
+Search = [
+    "github.com/jgazeau/shadocs",
+]
+Fontawesome = [
+    "github.com/jgazeau/shadocs",
+    "github.com/tastaturtier/someparts-hugo",
+]
+Intro = [
+    "github.com/jgazeau/shadocs",
+]
+Mermaid = [
+    "github.com/jgazeau/shadocs",
+]
+OpenAPI = [
+    "github.com/jgazeau/shadocs",
+]
+AsyncAPI = [
+    "github.com/jgazeau/shadocs",
+]
+development = [
+    "github.com/jimfrenette/hugo-starter",
+    "github.com/kaushalmodi/hugo-bare-min-theme",
+    "github.com/vimux/blank",
+]
+notes = [
+    "github.com/jmablog/hugo-clinic-notes",
+]
+microblog = [
+    "github.com/jnjosh/internet-weblog",
+]
+photoblog = [
+    "github.com/jnjosh/internet-weblog",
+    "github.com/kc0bfv/autophugo",
+]
+linkblog = [
+    "github.com/jnjosh/internet-weblog",
+]
+Modern = [
+    "github.com/josephhutch/aether",
+]
+Technical = [
+    "github.com/josephhutch/aether",
+]
+"Material Design" = [
+    "github.com/josephhutch/aether",
+]
+"personal page" = [
+    "github.com/jota-ele-ene/just-me",
+]
+backgrounds = [
+    "github.com/jota-ele-ene/just-me",
+]
+"fancybox 3" = [
+    "github.com/jpescador/hugo-future-imperfect",
+]
+staticman = [
+    "github.com/jpescador/hugo-future-imperfect",
+    "github.com/onweru/hugo-swift-theme",
+    "gitlab.com/VincentTam/huginn",
+]
+changelog = [
+    "github.com/jsnjack/hugo-changelog-theme",
+]
+l10n = [
+    "github.com/jweslley/hugo-conference",
+]
+split = [
+    "github.com/KatamariJr/split-landing",
+]
+debug = [
+    "github.com/kaushalmodi/hugo-bare-min-theme",
+]
+Tachyons = [
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+]
+Stackbit = [
+    "github.com/kaushikgopal/henry-hugo",
+    "github.com/theNewDynamic/gohugo-theme-ananke",
+]
+images = [
+    "github.com/kc0bfv/autophugo",
+    "github.com/kc0bfv/ticky_tacky_dark",
+]
+multipage = [
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+]
+accessible = [
+    "github.com/kc0bfv/ticky_tacky_dark",
+    "github.com/leonstafford/accessible-minimalism-hugo-theme",
+    "github.com/runningstream/hugograyscale",
+    "github.com/zwbetz-gh/cupper-hugo-theme",
+    "github.com/zzossig/hugo-theme-zdoc",
+    "github.com/zzossig/hugo-theme-zzo",
+    "gitlab.com/rmaguiar/hugo-theme-color-your-world",
+]
+multilangual = [
+    "github.com/khusika/FeelIt",
+]
+shopping = [
+    "github.com/kishaningithub/hugo-shopping-product-catalogue-simple",
+]
+catalogue = [
+    "github.com/kishaningithub/hugo-shopping-product-catalogue-simple",
+]
+"product catalogue" = [
+    "github.com/kishaningithub/hugo-shopping-product-catalogue-simple",
+]
+TailwindCSS = [
+    "github.com/leonardofaria/bento",
+]
+Mobile = [
+    "github.com/leonardofaria/bento",
+    "github.com/leonhe/hugo_eiio",
+]
+webmention = [
+    "github.com/leonardofaria/bento",
+]
+sass = [
+    "github.com/LordMathis/hugo-theme-nightfall",
+]
+unix = [
+    "github.com/LordMathis/hugo-theme-nix",
+]
+terminal = [
+    "github.com/LordMathis/hugo-theme-nix",
+    "github.com/mrmierzejewski/hugo-theme-console",
+]
+chinese = [
+    "github.com/loveminimal/hugo-theme-virgo",
+]
+pure = [
+    "github.com/loveminimal/hugo-theme-virgo",
+]
+lulab = [
+    "github.com/lubang/hugo-hello-programmer-theme",
+]
+donggeun = [
+    "github.com/lubang/hugo-hello-programmer-theme",
+]
+bang = [
+    "github.com/lubang/hugo-hello-programmer-theme",
+]
+lubang = [
+    "github.com/lubang/hugo-hello-programmer-theme",
+]
+programmer = [
+    "github.com/lubang/hugo-hello-programmer-theme",
+]
+organic-search = [
+    "github.com/marketempower/axiom",
+]
+structured-data = [
+    "github.com/marketempower/axiom",
+]
+cdn = [
+    "github.com/marketempower/axiom",
+]
+cloudinary = [
+    "github.com/marketempower/axiom",
+]
+jamstack = [
+    "github.com/marketempower/axiom",
+]
+responsive-images = [
+    "github.com/marketempower/axiom",
+]
+pagespeed-95 = [
+    "github.com/marketempower/axiom",
+]
+sharing = [
+    "github.com/marketempower/axiom",
+]
+atom-feed = [
+    "github.com/marketempower/axiom",
+]
+npm-scripts = [
+    "github.com/marketempower/axiom",
+]
+custom-css = [
+    "github.com/marketempower/axiom",
+]
+custom-js = [
+    "github.com/marketempower/axiom",
+]
+chroma = [
+    "github.com/marketempower/axiom",
+]
+alpinejs = [
+    "github.com/marketempower/axiom",
+]
+grav = [
+    "github.com/matcornic/hugo-theme-learn",
+]
+learn = [
+    "github.com/matcornic/hugo-theme-learn",
+]
+doc = [
+    "github.com/matcornic/hugo-theme-learn",
+]
+"blog, responsive, personal, bootstrap, disqus, google analytics, syntax highlighting, font awesome, landing page, flexbox" = [
+    "github.com/mattbutton/silhouette-hugo",
+]
+readable = [
+    "github.com/mdashx/basicwebtheme",
+    "github.com/RainerChiang/simpleness",
+    "github.com/xianmin/hugo-theme-jane",
+]
+"share this" = [
+    "github.com/miguelsimoni/hugo-initio",
+]
+jekyll-now = [
+    "github.com/mikeblum/hugo-now",
+]
+pygments = [
+    "github.com/mikeblum/hugo-now",
+]
+Tags = [
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+White = [
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/nanxiaobei/hugo-paper",
+    "github.com/ph-ph/chalk",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/tblyler/light-hugo",
+]
+Starter = [
+    "github.com/mismith0227/hugo_theme_pickles",
+    "github.com/surajmandalcell/potato-dark",
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+console = [
+    "github.com/mrmierzejewski/hugo-theme-console",
+]
+monotone = [
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/panr/hugo-theme-terminal",
+]
+retro = [
+    "github.com/mrmierzejewski/hugo-theme-console",
+    "github.com/panr/hugo-theme-terminal",
+    "gitlab.com/maxlefou/hugo.386",
+]
+animation = [
+    "github.com/mrmierzejewski/hugo-theme-console",
+]
+jssocials = [
+    "github.com/natarajmb/charaka-hugo-theme",
+]
+bluma = [
+    "github.com/natarajmb/charaka-hugo-theme",
+]
+night-mode = [
+    "github.com/nathancday/min_night",
+]
+"syntax highlightning" = [
+    "github.com/negrel/hugo-theme-pico",
+]
+beautiful = [
+    "github.com/nodejh/hugo-theme-cactus-plus",
+]
+graphical = [
+    "github.com/NormandErwan/Blogpaper",
+]
+slide = [
+    "github.com/opera7133/tella",
+    "github.com/peaceiris/hugo-theme-iris",
+    "github.com/RCJacH/hugo-webslides",
+    "github.com/vjeantet/hugo-theme-docport",
+    "github.com/wowchemy/starter-hugo-academic",
+]
+news = [
+    "github.com/pacollins/calligraphy",
+]
+Octopress = [
+    "github.com/parsiya/Hugo-Octopress",
+]
+two-column = [
+    "github.com/pravin/hugo-theme-prav",
+]
+"simple page" = [
+    "github.com/qqhann/hugo-primer",
+]
+latex = [
+    "github.com/queensferryme/hugo-theme-texify",
+]
+personal-website = [
+    "github.com/radity/raditian-free-hugo-theme",
+]
+fresh = [
+    "github.com/radity/raditian-free-hugo-theme",
+]
+custom-design = [
+    "github.com/radity/raditian-free-hugo-theme",
+]
+"google tag manager" = [
+    "github.com/radity/raditian-free-hugo-theme",
+]
+"google search" = [
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+]
+"social media share" = [
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+]
+code = [
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+]
+"math equations" = [
+    "github.com/rafed/BlogRa",
+    "github.com/rafed/ramium",
+]
+"mermaid diagrams" = [
+    "github.com/rafed/BlogRa",
+]
+tech = [
+    "github.com/rafed/BlogRa",
+]
+chords = [
+    "github.com/rafed/ramium",
+]
+Typography = [
+    "github.com/reuixiy/hugo-theme-meme",
+]
+GruvBox = [
+    "github.com/rijoth/rsimple",
+]
+folder = [
+    "github.com/rmsubekti/the-roots-home",
+]
+content = [
+    "github.com/rmsubekti/the-roots-home",
+]
+photography = [
+    "github.com/RononDex/interstellar-hugo",
+]
+astronomy = [
+    "github.com/RononDex/interstellar-hugo",
+]
+openseadragon = [
+    "github.com/RononDex/interstellar-hugo",
+]
+image-viewer = [
+    "github.com/RononDex/interstellar-hugo",
+]
+start-page = [
+    "github.com/rz3n/hugo-theme-freshstart",
+]
+timeline = [
+    "github.com/s4n7h0/hugo-theme-timeline",
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+]
+"micro blog" = [
+    "github.com/saadnpq/npq-hugo",
+]
+Elate = [
+    "github.com/saey55/hugo-elate-theme",
+]
+parallax = [
+    "github.com/saey55/hugo-elate-theme",
+]
+spa = [
+    "github.com/SAGGameDeveloper/hugo-minimalist-spa",
+]
+singlepage = [
+    "github.com/SAGGameDeveloper/hugo-minimalist-spa",
+]
+professional = [
+    "github.com/SAGGameDeveloper/hugo-minimalist-spa",
+    "github.com/Softorage/HugoTheme-VibrantShadows",
+]
+lander = [
+    "github.com/salcan/BeyondNothing",
+]
+uikit = [
+    "github.com/samrobbins85/hugo-developer-portfolio",
+]
+elegant = [
+    "github.com/schollz/onetwothree",
+]
+recipes = [
+    "github.com/seanlane/gochowdown",
+]
+cooking = [
+    "github.com/seanlane/gochowdown",
+]
+ed = [
+    "github.com/sergeyklay/gohugo-theme-ed",
+]
+Roboto = [
+    "github.com/shenoybr/hugo-goa",
+]
+Lato = [
+    "github.com/shenoybr/hugo-goa",
+]
+"Roboto Slab" = [
+    "github.com/shenoybr/hugo-goa",
+]
+tachyons = [
+    "github.com/siegerts/hugo-theme-basic",
+]
+plain = [
+    "github.com/siegerts/hugo-theme-basic",
+    "github.com/vimux/blank",
+]
+rstats = [
+    "github.com/siegerts/hugo-theme-basic",
+]
+blogdown = [
+    "github.com/siegerts/hugo-theme-basic",
+]
+recovery = [
+    "github.com/sieis/re-cover",
+]
+non-profit = [
+    "github.com/sieis/re-cover",
+]
+tufte = [
+    "github.com/slashformotion/hugo-tufte",
+]
+somratpro = [
+    "github.com/Somrat37/somrat",
+]
+bookmarking = [
+    "github.com/spaghettiwews/hugonews",
+]
+"syntax sighlighting" = [
+    "github.com/spech66/bootstrap-bp-hugo-theme",
+    "github.com/spech66/materialize-bp-hugo-theme",
+]
+printable = [
+    "github.com/spech66/flex-bp-hugo-cv",
+]
+"material design" = [
+    "github.com/spech66/materialize-bp-hugo-theme",
+    "github.com/Xzya/hugo-material-blog",
+]
+"high contrast" = [
+    "github.com/spookey/slick",
+]
+"modern design" = [
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+]
+pixel = [
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+]
+"spectre css framework" = [
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+]
+devicon = [
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+]
+pagination = [
+    "github.com/st-wong/hugo-spectre-pixel-theme",
+    "github.com/Tazeg/hugo-blog-jeffprod",
+]
+agency = [
+    "github.com/StaticMania/roxo-hugo",
+    "github.com/SteveLane/hugo-icon",
+]
+corporate = [
+    "github.com/StaticMania/roxo-hugo",
+]
+"creative agency" = [
+    "github.com/StaticMania/roxo-hugo",
+]
+"creative studio" = [
+    "github.com/StaticMania/roxo-hugo",
+]
+staticmania = [
+    "github.com/StaticMania/roxo-hugo",
+]
+"agency template" = [
+    "github.com/StaticMania/roxo-hugo",
+]
+icon = [
+    "github.com/SteveLane/hugo-icon",
+]
+hero = [
+    "github.com/SteveLane/hugo-icon",
+    "github.com/willfaught/paige",
+    "github.com/xaviablaza/hugo-lodi-theme",
+]
+"css only" = [
+    "github.com/sudorook/capsule",
+]
+Product = [
+    "github.com/tastaturtier/someparts-hugo",
+]
+archives = [
+    "github.com/Tazeg/hugo-blog-jeffprod",
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/wd/hugo-fabric",
+]
+nojs = [
+    "github.com/tblyler/light-hugo",
+]
+normalize = [
+    "github.com/tblyler/light-hugo",
+]
+Elegant = [
+    "github.com/ThemeTony/hugo-theme-tony",
+]
+transportation = [
+    "github.com/ThemeTony/hugo-theme-tony",
+]
+porting = [
+    "github.com/ThemeTony/hugo-theme-tony",
+]
+Docs = [
+    "github.com/thingsym/hugo-theme-techdoc",
+]
+"Table Of Contents" = [
+    "github.com/thingsym/hugo-theme-techdoc",
+]
+material-design = [
+    "github.com/tnwhitwell/hugo-startpage-theme",
+]
+offline = [
+    "github.com/tnwhitwell/hugo-startpage-theme",
+]
+linktree = [
+    "github.com/tohn/linkshrubbery",
+]
+services = [
+    "github.com/uicardiodev/hugo-lime",
+    "github.com/uicardiodev/hugo-uilite",
+]
+uicardio = [
+    "github.com/uicardiodev/hugo-lime",
+    "github.com/uicardiodev/hugo-sodium-theme",
+    "github.com/uicardiodev/hugo-uilite",
+]
+illustrations = [
+    "github.com/uicardiodev/hugo-lime",
+]
+gradients = [
+    "github.com/uicardiodev/hugo-sodium-theme",
+]
+colors = [
+    "github.com/uicardiodev/hugo-uilite",
+]
+skills = [
+    "github.com/uicardiodev/hugo-uilite",
+]
+experience = [
+    "github.com/uicardiodev/hugo-uilite",
+]
+formspree = [
+    "github.com/unicef/inventory-hugo-theme",
+]
+red = [
+    "github.com/urjaacharya/redgood",
+]
+blank = [
+    "github.com/vimux/blank",
+]
+menu = [
+    "github.com/vjeantet/hugo-theme-docport",
+]
+"Custom Themes" = [
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+Pink = [
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+Green = [
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+"Sortable Tables" = [
+    "github.com/VVelox/hugo-dusky-neon-potato",
+]
+fluent = [
+    "github.com/wayjam/hugo-theme-fluency",
+]
+writing = [
+    "github.com/wayjam/hugo-theme-fluency",
+    "github.com/wayjam/hugo-theme-mixedpaper",
+]
+paper = [
+    "github.com/wayjam/hugo-theme-mixedpaper",
+    "github.com/zwbetz-gh/papercss-hugo-theme",
+]
+bold = [
+    "github.com/wtoll/venture",
+]
+Presentation = [
+    "github.com/xaprb/story",
+]
+Slide = [
+    "github.com/xaprb/story",
+]
+Newsletter = [
+    "github.com/xaprb/story",
+]
+lodi = [
+    "github.com/xaviablaza/hugo-lodi-theme",
+]
+"case study" = [
+    "github.com/xaviablaza/hugo-lodi-theme",
+]
+ux = [
+    "github.com/xaviablaza/hugo-lodi-theme",
+]
+high-interaction = [
+    "github.com/xioyito/NewBee",
+]
+magazine = [
+    "github.com/yihui/hugo-xmag",
+]
+"Syntax Highlighting" = [
+    "github.com/yihui/hugo-xmag",
+]
+iconfont = [
+    "github.com/yue1124/hero",
+]
+"dark mode support" = [
+    "github.com/yue1124/hero",
+]
+explorer = [
+    "github.com/yue1124/hero",
+]
+zerostatic = [
+    "github.com/zerostaticthemes/hugo-hero-theme",
+    "github.com/zerostaticthemes/hugo-serif-theme",
+    "github.com/zerostaticthemes/hugo-whisper-theme",
+    "github.com/zerostaticthemes/hugo-winston-theme",
+]
+informal = [
+    "github.com/zwbetz-gh/papercss-hugo-theme",
+]
+feather = [
+    "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+]
+gruvbox = [
+    "gitlab.com/avron/gruvhugo",
+]
+geek = [
+    "gitlab.com/maxlefou/hugo.386",
+]
+"bootstra.386" = [
+    "gitlab.com/maxlefou/hugo.386",
+]
+"hugo.386" = [
+    "gitlab.com/maxlefou/hugo.386",
+]
+maxthjax = [
+    "gitlab.com/toryanderson/hugo-icarus",
+]
+isso = [
+    "gitlab.com/VincentTam/huginn",
+]
