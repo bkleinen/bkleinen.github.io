@@ -1,3 +1,4 @@
+#!ruby
 # frozen_string_literal: true
 
 require 'date'
@@ -32,7 +33,7 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("05.04.2023"),
+  first_day: Date.parse("04.04.2023"),
   day_diff: 1,
   two_lectures: true,
   step: 7

@@ -6,7 +6,10 @@ layout: page
 
 The German ''Gesellschaft für Informatik'' published Ethical Guidelines
 in 1994 that were updated in 2004. They are available online at
-https://fg-ie.gi.de/ethische-leitlinien.html.
+~~https://fg-ie.gi.de/ethische-leitlinien.html.~~
+
+[https://fg-ie.gi.de/publikationen/ethische-leitlinien](https://fg-ie.gi.de/publikationen/ethische-leitlinien)
+(they haven't read the part about why cool uris dont' change: [https://www.w3.org/Provider/Style/URI](https://www.w3.org/Provider/Style/URI))
 
 We will first have a closer look at the Ethical Guidelines, and then
 in groups of 3-4 persons you will choose one of the scenarios to

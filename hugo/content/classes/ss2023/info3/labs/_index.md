@@ -1,7 +1,7 @@
 ---
 title: Info3 - Labs and Exercises
 author: kleinen
-layout: page
+weight: 30
 ---
 
 ## Your time, your progress, your happyness, your responsibility
@@ -50,7 +50,7 @@ I trust you to have a feeling for what belongs in a good report. The following r
 
 Caro Track will give you feedback for the reports.
 
-**Late submissions** (Update): You may hand in one report (with code if applicable) in the late slot on Moodle until Feb 10, 11pm (each person hands in for themselves, but the report may have been produced in a team). However, you won't have the possibility to take an oral test or participate in a peer review for that report. As always, talk to me if there is a problem. 
+**Late submissions** (Update): You may hand in one report (with code if applicable) in the late slot on Moodle until Feb 10, 11pm (each person hands in for themselves, but the report may have been produced in a team). However, you won't have the possibility to take an oral test or participate in a peer review for that report. As always, talk to me if there is a problem.
 
 ### Oral Tests
 The progress you make in each lab except lab02 and lab05 will be verified with 10-minute oral tests (1 per group per assignment).
