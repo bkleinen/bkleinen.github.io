@@ -1,3 +1,4 @@
+{{- partial "filename_debug.html" (dict "pc" . "file" "classes/coursenav.html") -}}
 {{/* this partial generates the top row navigation for a course/class.
   it has two parts:
   - links to subdirectories in course folder
@@ -6,7 +7,6 @@
   */}}
 {{ $currentPage := . }}
 {{ $course_page := . }}
-
 
 {{/* only include coursenav if on course site */}}
 {{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}

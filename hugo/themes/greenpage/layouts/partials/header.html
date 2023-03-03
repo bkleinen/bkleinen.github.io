@@ -1,5 +1,5 @@
 <div class = "container-flex">
-
+{{- partial "filename_debug.html" (dict "pc" . "file" "header.html") }}
 <div class = "row">
   <div class ="col-9">
     <h1 class = "c5 title"> {{ .Scratch.Get "pageTitle" | default site.Title }} </h1>

@@ -1,3 +1,4 @@
+{{- partial "filename_debug.html" (dict "pc" . "file" "classes/all_classes.html") -}}
 {{ if eq "all_classes" (.Scratch.Get "type") }}
     <h3>All Classes</h3>
     {{ range .Pages.ByWeight.Reverse }}

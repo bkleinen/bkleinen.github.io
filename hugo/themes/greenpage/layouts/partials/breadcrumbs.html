@@ -1,6 +1,5 @@
-
+{{- partial "filename_debug.html" (dict "pc" . "file" "breadcrumbs.html") }}
 {{ $seperator :="&#187;" }}
-
 <nav aria-label="breadcrumb" role="navigation">
   <ol class="breadcrumb breadcrumb-thin">
   {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}

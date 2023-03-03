@@ -10,7 +10,12 @@
 port=4242
 
 hugo :  hugo/node_modules openH
--  hugo --buildDrafts --source hugo -p $(port) server
+-  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+
+debug :  hugo/node_modules
+-  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
+-  hugo --disableFastRender --buildDrafts --environment debug --source hugo -p $(port) server
+
 hugo/node_modules :
 -  cd hugo ; npm install ; cd ..
 
