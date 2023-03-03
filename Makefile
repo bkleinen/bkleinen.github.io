@@ -14,6 +14,7 @@ hugo :  hugo/node_modules openH
 
 debug :  hugo/node_modules
 -  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
+-  open http://localhost:4242/~kleinen/classes/
 -  hugo --disableFastRender --buildDrafts --environment debug --source hugo -p $(port) server
 
 hugo/node_modules :

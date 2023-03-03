@@ -1,5 +1,5 @@
 ---
-title: Informatics 3
+title:  B15 Informatik 3 (Info3)
 author: kleinen
 layout: page
 courseNavInt:
@@ -106,7 +106,7 @@ More info about the Lab Reports can be found on the [Labs](labs) page.
 
 ## Exam
 
-There will be a 2-hour online examination at the end of the semester.  
+There will be a 2-hour online examination at the end of the semester.
 The exam will be an on-line exam with two parts, a multiple-choice part
 and an essay / programming part.
 

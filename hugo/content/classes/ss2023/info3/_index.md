@@ -1,5 +1,5 @@
 ---
-title: Informatics 3
+title:  B15 Informatik 3 (Info3)
 author: kleinen
 layout: page
 courseNavInt:
@@ -17,7 +17,7 @@ courseNavInt:
 
 courseNavExt:
 - title: Moodle
-  link: # 
+  link: #
 - title: SU in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=161201
 - title: Labs in LSF
