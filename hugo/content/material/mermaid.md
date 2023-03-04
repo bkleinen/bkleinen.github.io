@@ -51,4 +51,4 @@ stateDiagram-v2
     Moving --> Crash
     Crash --> [*]
   ```
-[^1] hugo/themes/greenpage/layouts/_default/_markup/
+[^1]: hugo/themes/greenpage/layouts/_default/_markup/
