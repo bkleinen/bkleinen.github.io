@@ -1,7 +1,8 @@
 ---
-title: Info3 Schedule
+title: Schedule
 author: kleinen
 weight: 20
+CourseNav: Schedule
 ---
 
 This schedule is, as always, tentative.

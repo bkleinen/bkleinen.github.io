@@ -2,7 +2,10 @@
 title: Info3 - Labs and Exercises
 author: kleinen
 weight: 30
+CourseNav: Labs
 ---
+
+
 
 ## Your time, your progress, your happyness, your responsibility
  You study for your own profit and you spend a lot of time on it. So you are expected to take responsibility for your own learning and happyness, that includes
