@@ -11,7 +11,11 @@
   identifier = 'material'
   name = 'Material'
   pageref = '/material'
-
+[[main]]
+  identifier = 'debug'
+  name = 'Debug'
+  pageref = '/debug'
+  weight = -301
 ##
 ## Classes
 ##
