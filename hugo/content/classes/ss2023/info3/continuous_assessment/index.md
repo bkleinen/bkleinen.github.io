@@ -2,6 +2,7 @@
 title: 'Info 3 WS 20/21 Continuous Assessment'
 author: kleinen
 layout: page
+draft: true
 ---
 
 Due to the ongoing pandemic, the exam will be replaced by continuous assessment.

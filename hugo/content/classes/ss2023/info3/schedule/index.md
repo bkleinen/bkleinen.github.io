@@ -3,6 +3,7 @@ title: Schedule
 author: kleinen
 weight: 20
 CourseNav: Schedule
+draft: true
 ---
 
 This schedule is, as always, tentative.

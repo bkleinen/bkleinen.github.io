@@ -30,7 +30,7 @@ hugoWOD :  hugo/node_modules openH
 
 hugoP : port = 4244
 hugoP : hugo/node_modules openH # as published; there might be differences as there are isServer queries
--  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
+-  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/"  server --disableFastRender 
 
 hugoS : hugo/node_modules openS # staging; without drafts
 -  hugo --environment staging --source hugo -p 4242 server

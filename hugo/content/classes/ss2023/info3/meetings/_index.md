@@ -3,6 +3,7 @@ title: "Meetings"
 author: kleinen
 weight: 19
 CourseNav: "Meetings"
+draft: true
 ---
 
 ## Meetings and Due Dates

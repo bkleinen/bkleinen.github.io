@@ -2,6 +2,7 @@
 title: Info3 Material
 weight: 8
 CourseNav: Reading
+draft: true
 ---
 
 * [Refactoring](refactoring)

@@ -1,5 +1,6 @@
 {{- $title := .Get "title" -}}
 {{- $link := .Get "link" -}}
+{{- $nyp := .Get "nyp" -}}
 
 {{- $completeLink := printf "%s%s" .Page.RelPermalink $link -}}
 {{- .Page.Scratch.Add "completeLink" (slice $completeLink) -}}
@@ -12,4 +13,11 @@
   [{{- $title}}]({{$link}})
 {{- else }}
   {{- $title -}}
+  {{- with $nyp -}}
+      {{- if (eq $nyp true ) }}
+(not yet published)
+      {{ else }}
+          {{ $nyp }}
+      {{ end -}}
+  {{ end -}}
 {{- end -}}

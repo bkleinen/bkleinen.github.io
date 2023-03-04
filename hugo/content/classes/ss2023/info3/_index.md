@@ -62,4 +62,5 @@ Web Application Development has two main characteristics: it is a fast-changing
   look into best practices to support agile software development ("Best Practices")
    as well as designing for ease of change ("Clean Code" and "Advanced Object Oriented Design").
 
-Have a look at how this breaks down on this (tentative) [Schedule](schedule).
+Have a look at how this breaks down on this (tentative)
+{{% link title ="Schedule" link = "schedule" nyp = true %}}.

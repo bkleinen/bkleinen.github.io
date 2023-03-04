@@ -3,6 +3,7 @@ title: Lab Assignments
 author: kleinen
 weight: 31
 CourseNav: Assignments
+draft: true
 ---
 
 # https://iamnotmyself.com/refactor-this-the-gilded-rose-kata/

@@ -1,6 +1,6 @@
 ---
 title: Summer Term 2023
-draft: true
+draft: false
 author: kleinen
 ---
 
