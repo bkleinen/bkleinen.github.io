@@ -4,7 +4,6 @@ author: kleinen
 date: 2022-04-01
 weight: 2
 layout: default
-aliases: /networks/
 courseNavInt:
 - title: Overview
   link: "/classes/ss2022/networks/"

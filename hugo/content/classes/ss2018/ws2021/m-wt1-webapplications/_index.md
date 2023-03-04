@@ -4,7 +4,6 @@ author: kleinen
 weight: 5
 date: 2021-10-01
 layout: page
-aliases: /wt1/
 courseNavInt:
 - title: M-WT1
   link: "/classes/ws2021/m-wt1-webapplications/"
