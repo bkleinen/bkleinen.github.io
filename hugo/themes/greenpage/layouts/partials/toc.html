@@ -1,3 +1,4 @@
+{{- partial "filename_debug.html" (dict "pc" . "file" "toc.html") -}}
 {{ $page := .context }}
 {{ $nextPrevLinks := .nextPrevLinks }}
 {{ $showToc := (and (or $nextPrevLinks $page.Params.toc (gt $page.WordCount 400 )) (not $page.Params.notoc))  }}

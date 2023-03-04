@@ -1,4 +1,5 @@
-
+{{- partial "filename_debug.html" (dict "pc" . "file" "debug.html") }}
+{{ if .Site.Params.ShowSourceFilenames }}<small class="text-muted">debug.html</span>{{ end }}
 <li>
   hugo.Environment: {{ hugo.Environment }}
 </li><li>
@@ -29,7 +30,7 @@
 <li>
   <a href ="{{ .RelPermalink }}">
    {{ .Title }}
-   </a>
+   </a> ({{ .RelPermalink }})
 </li>
 {{ end }}
 </ul>

@@ -10,7 +10,13 @@
 port=4242
 
 hugo :  hugo/node_modules openH
--  hugo --buildDrafts --source hugo -p $(port) server
+-  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+
+debug :  hugo/node_modules
+-  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
+-  open http://localhost:4242/~kleinen/classes/
+-  hugo --disableFastRender --buildDrafts --environment debug --source hugo -p $(port) server
+
 hugo/node_modules :
 -  cd hugo ; npm install ; cd ..
 
@@ -24,7 +30,7 @@ hugoWOD :  hugo/node_modules openH
 
 hugoP : port = 4244
 hugoP : hugo/node_modules openH # as published; there might be differences as there are isServer queries
--  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
+-  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/"  server --disableFastRender 
 
 hugoS : hugo/node_modules openS # staging; without drafts
 -  hugo --environment staging --source hugo -p 4242 server
@@ -86,3 +92,9 @@ openI:
 - open 	http://localhost:4242/~kleinen/classes/ss2022/info1/
 openN:
 - open 	http://localhost:4242/~kleinen/classes/ss2022/networks/
+
+linkCheck:
+- ./linkcheck.sh
+
+ps:
+- ps -ax | grep hugo

@@ -2,6 +2,8 @@
 #[markup]
 # [markup.highlight]
 
+# https://www.markdownguide.org/tools/hugo/
+
 [highlight]
     anchorLineNos = false
     codeFences = true

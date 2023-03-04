@@ -1,5 +1,5 @@
 ---
-title: Info3 SS2014
+title:  B15 Informatik 3 (Info3)
 author: kleinen
 layout: page
 ---

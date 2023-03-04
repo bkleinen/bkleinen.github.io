@@ -1,5 +1,5 @@
 ---
-title: Informatics 3
+title:  B15 Informatik 3 (Info3)
 author: kleinen
 layout: page
 courseNavInt:
@@ -102,7 +102,7 @@ The Labs grade is made up of three parts:
 
 ## Exam
 
-There will be a 2-hour online examination at the end of the semester.  
+There will be a 2-hour online examination at the end of the semester.
 
 ## I have already taken Info3 last semester and passed the labs!
 

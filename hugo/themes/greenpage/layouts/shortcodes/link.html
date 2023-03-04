@@ -1,14 +1,23 @@
 {{- $title := .Get "title" -}}
 {{- $link := .Get "link" -}}
+{{- $nyp := .Get "nyp" -}}
 
 {{- $completeLink := printf "%s%s" .Page.RelPermalink $link -}}
+{{- .Page.Scratch.Add "completeLink" (slice $completeLink) -}}
 {{- $cleanLink := (replaceRE "/[^/]*/../" "/" $completeLink) -}}
 {{- .Page.Scratch.Add "linkornot" (slice $cleanLink) -}}
 
-{{- $page := .Page.GetPage $link -}}
+{{- $page := .Page.GetPage $cleanLink -}}
 
 {{- with $page -}}
   [{{- $title}}]({{$link}})
 {{- else }}
   {{- $title -}}
+  {{- with $nyp -}}
+      {{- if (eq $nyp true ) }}
+(not yet published)
+      {{ else }}
+          {{ $nyp }}
+      {{ end -}}
+  {{ end -}}
 {{- end -}}

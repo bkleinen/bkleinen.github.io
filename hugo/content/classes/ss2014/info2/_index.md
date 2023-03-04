@@ -60,7 +60,7 @@ More info about the Lab Reports can be found on the [Labs](labs) page.
 
 ### Handouts
 
-* [Euclid](handouts/euclid)
+* [Euclid](./handouts/euclid)
 
 ### Lecture summaries (15%)
 In the Moodle collaboration room you can find a section called "Lecture summaries". You are expected to write 5-10 complete sentences summarizing each lecture. They are due Mondays 10:00 a.m. You can, of course, hand them in earlier.

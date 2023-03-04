@@ -148,7 +148,7 @@ but without local installation.
 - Git as Versioning Backend: How can the power of Git be used as backend - e.g. for
   Versioning - within another app?
 
-- Operations and Monitoring concept for the [Software Projects]((/software_projects/)) and similar
+- Operations and Monitoring concept for the [Software Projects](/software_projects) and similar
 
 
 ## Gender Automation

@@ -4,7 +4,6 @@ author: kleinen
 date: 2022-04-01
 weight: 4
 layout: page
-aliases: /m1-web/
 courseNavInt:
 - title: M1
   link: "/classes/ss2022/m1-web/"

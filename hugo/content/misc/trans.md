@@ -72,7 +72,7 @@ Bei Fragen, Anregungen und Erfahrungen gerne bei mir melden.
   * [Lembke, Tischbirek: Kurzgutachten zum rechtlichen Spielraum der Hochschulen bei der Verwendung des gewählten Namens inter- und transgeschlechtlicher Studierender im Vorfeld der amtlichen Namensänderung](https://ag-trans-hopo.org/Materialsammlung/Material_Rechtliches/GutachtenTIN-Vornamen_2019-10-20_UL+AT.pdf)
   * Antidiskriminierungsstelle des Bundes: "[Verwendung des gewählten Namens von trans*Studierenden
   an Hochschulen unabhängig von einer amtlichen Namensänderung - rechtliche Einschätzung](https://www.antidiskriminierungsstelle.de/SharedDocs/Downloads/DE/Literatur_Bildung/Name_Trans_Studierende.html)"
-  * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](https://www.bv-trans.de/portfolio-item/wie-ein-gruenes-schaf/)
+  * Arn Sauer und Erik Meyer: Wie ein grünes Schaf in einer weißen Herde. Lebensituation und Bedarfe von jungen Trans*-Menschen in Deutschland. Berlin, 2016 [Publikation des BV Trans](https://www.bundesverband-trans.de/publikationen/lebenssituationen-und-bedarfe-von-jungen-trans-menschen-in-deutschland/)
   * [Materialsammlung der AG Transemanzipatorische Hochschulpolitik](https://ag-trans-hopo.org/Materialsammlung/)
 
 

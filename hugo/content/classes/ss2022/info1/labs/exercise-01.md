@@ -32,7 +32,7 @@ For all problems, make sure to extract methods where appropriate to make the sou
 Most of the problems here are extensions of problems we've already solved in class / within the two worksheets.
 So it's usually a good idea to first identify a similar problem we've done in class
 and modify the solution we did there.
-So get out your [Worksheet 2](../material/info1-04-worksheet-kara-2.pdf) and compare!
+So get out your [Worksheet 2](../../material/info1-04-worksheet-kara-2.pdf) and compare!
 Note that the solutions are also available:
 [https://github.com/htw-imi-info1/kara/tree/public-solution](https://github.com/htw-imi-info1/kara/tree/public-solution)
 And here's a link to the branch containing the exercises we did in class: [branch ss2022](https://github.com/htw-imi-info1/kara/tree/ss2022)

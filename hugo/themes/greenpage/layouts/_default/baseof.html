@@ -95,7 +95,7 @@
               </div>
 
            </small>
-        {{ if (or (.Site.IsServer) (in (slice "staging" "development") hugo.Environment )) }}
+        {{ if (or (.Site.IsServer) (in (slice "staging" "development" "debug") hugo.Environment )) }}
             <div><hr><small>  <h7>Debug Info</h7><ul>
                  <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
                  {{ partial "debug.html" . }}

@@ -49,4 +49,4 @@ be ported to the MEVN-Stack: [IMI-Map goes MEVN]({{< ref "/classes/ss2021/projec
 * [BVG-Graph](https://github.com/bkleinen/bvg-graph) (Rails)
 * [HTW Corona Update](https://github.com/htw-corona-update/htw-corona-update) (shell script, cron)
 * [Markdown Editor](/markdown-editor/markdown-editor.html)
-* [LSF-Emailcollector](/html/lsf-emailcollector.html)
+* [LSF-Emailcollector](/misc/lsf)

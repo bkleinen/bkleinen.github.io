@@ -1,8 +1,8 @@
-
+{{- partial "filename_debug.html" (dict "pc" . "file" "link_to_course.html") }}
 {{ $page := .page }}
 {{ $path := .path }}
 
-Back to Class:
+
 {{ with $page.GetPage $path }}
     <a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ else }}
@@ -10,7 +10,11 @@ Back to Class:
   {{ $dirFile := $path |  path.Clean | path.Split }}
   {{ $cleanPath := $dirFile.File }}
   {{ $realPath := index $page.Site.Data.aliases $cleanPath }}
-    {{ with $page.GetPage $realPath }}
-         <a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{ if eq $realPath nil}}
+      {{ warnf "Course alias %q needs to be added in hugo/data/aliases.yml" $cleanPath }}
+  {{ else }}
+         {{ with $page.GetPage $realPath }}
+            Back to Class: <a href="{{ .Permalink }}">{{ .Title }}</a>
+         {{ end }}
     {{ end }}
 {{ end }}

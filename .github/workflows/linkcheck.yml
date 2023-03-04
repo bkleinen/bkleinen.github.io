@@ -1,0 +1,31 @@
+name: Linkcheck with Script
+
+on:
+  push:
+    branches:
+      - 23s_disabled
+    tags-ignore:
+      - 'v*'
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+      - name: Install Bootstrap with npm
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: |
+          cd hugo
+          npm install
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Check Hugo Links
+      # from https://github.com/marojor/hugo-broken-link-checker/blob/main/entrypoint.sh
+        run: |
+          ./linkcheck.sh

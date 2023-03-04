@@ -2,7 +2,6 @@
 title: Summer Term 2023
 draft: false
 author: kleinen
-aliases: ["ss2022"]
 ---
 
 

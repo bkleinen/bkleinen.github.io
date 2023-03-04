@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<h2>Aliases</h2>
+<ul>
+<li>Defined in data/
+<li>.Site.Data.aliases
+
+{{ range .Site.Data.aliases }}
+<li><a href="{{ site.BaseURL }}{{ . }}">{{ . }}</a></li>
+{{ end }}
+</ul>
+
+{{ end }}

@@ -1,0 +1,5 @@
+baseURL = 'https://localhost:4242/~kleinen/'
+# https://gohugo.io/getting-started/configuration/#configuration-file
+# for cf in $(find . -name "config.toml"); do nn=$(echo $cf | sed -e "s/config/hugo/g"); git mv $cf $nn ; done
+[params]
+  showSourceFilenames = true

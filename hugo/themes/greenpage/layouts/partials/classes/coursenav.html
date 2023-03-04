@@ -1,5 +1,15 @@
+{{- partial "filename_debug.html" (dict "pc" . "file" "classes/coursenav.html") -}}
+{{/* this partial generates the top row navigation for a course/class.
+  it has two,5 parts:
+  - as specified in courseNavInt on the main course page
+  - links to subdirectories in course folder, only if CourseNav site param is set! 
+  - external links as specified in courseNavExt on the main course page (e.g. lsf, github)
+
+  */}}
 {{ $currentPage := . }}
 {{ $course_page := . }}
+
+{{/* only include coursenav if on course site */}}
 {{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}
 
   {{/* find course page for subpages */}}
@@ -7,7 +17,7 @@
     {{ $class_path := replaceRE ".*(/classes/[^/]*/[^/]*)/.+" "$1" .RelPermalink}}
     {{ .Scratch.Set "class_page_path"  $class_path}}
     {{ $course_page = .Site.GetPage $class_path }}
-  {{ end}}
+  {{ end }} {{/*if eq "class_subpage"*/}}
 
 <ul class="nav nav-tabs">
 
@@ -22,6 +32,7 @@
   {{ $menu_title := $course_page.Params.CourseNav | default ($course_page.Title) }}
   <a class="nav-link {{ if eq $currentPage.RelPermalink $course_page.RelPermalink }}active{{ end }}" href="{{ $course_page.Permalink }}">{{ $menu_title }}</a>
 </li>
+
 {{ range where $course_page.Pages "Params.CourseNav" "!=" nil}}
   {{ $menu_title := .Params.CourseNav | default (.Title) }}
   <li class="nav-item">
