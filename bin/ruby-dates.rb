@@ -33,16 +33,16 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("04.04.2023"),
+  first_day: Date.parse("12.04.2023"),
   day_diff: 1,
-  two_lectures: true,
+  two_lectures: false,
   step: 7
 )
 # 1. Prüfungszeitraum 17.07.2023 – 05.08.2023
 # 2. Prüfungszeitraum (Wiederholungsprüfungen) 21.09.2023 – 07.10.2023
 # Semesterdaten
 semester_dates = SemesterDates.new(
-semester_start: Date.parse("01.04.2023"),
+semester_start: Date.parse("1.04.2023"),
 semester_end: Date.parse("05.08.2023"),
 holidays: {
   "07.04.2023" => "Ostern",
