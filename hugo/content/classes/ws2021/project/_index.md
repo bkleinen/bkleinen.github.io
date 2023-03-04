@@ -7,6 +7,7 @@ draft: false
 tags: []
 courses: []
 languages: []
+aliases: /project/
 courseNavInt:
 - title: "Project"
   link: "/classes/ws2021/project/"

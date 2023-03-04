@@ -4,6 +4,7 @@ author: kleinen
 date: 2021-10-01
 weight: 1
 type: class
+aliases: /info2/
 courseNav: Info2
 courseNavExt:
 - title: Moodle
