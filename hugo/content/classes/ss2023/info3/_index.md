@@ -20,12 +20,12 @@ aliases: /info3/
 
 courseNavExt:
 - title: Moodle
-  link: #
+  link: https://moodle.htw-berlin.de/course/view.php?id=41543
 - title: SU in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=194925
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=194925&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 #  https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&publishContainer=lectureContainer&publishid=194925
 - title: Labs in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=194942
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=194942&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Semesterstundenplan im LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&k_abstgv.abstgvnr=231
 - title: Lecture Source Code
