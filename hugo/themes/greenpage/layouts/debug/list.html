@@ -2,13 +2,18 @@
 
 {{ .Content }}
 
+<h2>layouts/debug/list.html</h2>
+{{ .Site.Data.aliases }}
 <h2>Aliases</h2>
 <ul>
-<li>Defined in data/
+<li>Defined in data/aliases
 <li>.Site.Data.aliases
 
-{{ range .Site.Data.aliases }}
-<li><a href="{{ site.BaseURL }}{{ . }}">{{ . }}</a></li>
+aliases: /wt1/
+
+{{ .Site.Data.aliases }}
+{{ range $key, $value := .Site.Data.aliases }}
+<li><a href="{{ site.BaseURL }}{{ $key }}">{{ $key }}->{{ $value }}</a></li>
 {{ end }}
 </ul>
 

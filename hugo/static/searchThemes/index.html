@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Search Hugo Themes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
+  <body>
+  <div id="status">hello!</div>
+     <py-config>
+       packages = [  "tomlkit"]
+         [[fetch]]
+         files = ["./theme_tags.toml"]
+
+    [[fetch]]
+            files = ["./find_themes.py"]
+    </py-config>
+    <py-script src="./find_tags3_10.py">
+
+    </py-script>
+            <main>
+            <section>
+
+            <div class="text-center w-full mb-8">
+              <h1 class="text-3xl font-bold text-gray-800 uppercase tracking-tight">Search for Hugo Themes</h1>
+            </div>
+                <div class="text-center w-full mb-8">
+                    <p>
+                     enter tags seperated by comma, e.g.: bootstrap, minimal, blog<br/>
+                see <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+                </div>
+            <div>
+               <input id="tags-input" class="py-input" type="text"  list="tags">
+                <datalist id="tags">
+ <option value="Blog"></option>
+ <option value="Responsive"></option>
+ <option value="Minimal"></option>
+ <option value="Personal"></option>
+ <option value="Light"></option>
+ <option value="Dark"></option>
+ <option value="Multilingual"></option>
+ <option value="Portfolio"></option>
+ <option value="Bootstrap"></option>
+ <option value="Landing"></option>
+ <option value="Dark mode"></option>
+ <option value="Docs"></option>
+ <option value="Company"></option>
+ <option value="Gallery"></option>
+ <option value="Contact"></option>
+ <option value="Archive"></option>
+ </datalist>
+              <button id="find-themes-btn" class="py-button" type="submit" py-click="find_themes_with_tags()">
+                Search Tags
+              </button>
+            </div>
+
+            <py-list id="myList"></py-list>
+
+                 <div class="text-center w-full mb-8">
+                     <p id="result-header">...</p>
+                 </div>
+            <div id="list-themes-container" class="flex flex-col-reverse mt-4">
+                <div id="child-container">
+
+                </div>
+            </div>
+            <template id="child-template">
+                <div class = "wrapper " id="child-container">
+
+                </div>
+            </template>
+            <template id="theme-template">
+                <section class="theme py-li-element">
+                    <label for="flex items-center p-2 ">
+                        <a href="#">
+                        <p class="m-0 inline"></p>
+                        </a>
+                    </label>
+                </section>
+              </template>
+
+          </section>
+          </main>
+  </body>
+</html>

@@ -2,7 +2,6 @@
 # they do not work as an url alias.
   networks:    /classes/ss2022/networks
   info1:    /classes/ss2022/info1
-  m1-web:    /classes/ss2022/m1-web
   info2:    /classes/ws2021/info2
   theses:    /classes/ws2021/theses
   project:    /classes/ws2021/project

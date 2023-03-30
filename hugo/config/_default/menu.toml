@@ -33,12 +33,6 @@
   weight = 5
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2023/aep'
-  name = 'B 20.1 Auswertung von Erfahrungen am Praxisplatz'
-  pageref = '/classes/ss2023/aep'
-  weight = 10
-[[main]]
-  parent = 'classes'
   identifier = '/classes/ss2023/m1-web'
   name = 'M 1 Mediaprogramming'
   pageref = '/classes/ss2023/m1-web'
@@ -47,7 +41,7 @@
   parent = 'classes'
   identifier = '/classes/ss2023/masterseminar'
   name = 'M 17.1 Masterseminar'
-  pageref = '/classes/ss2023/masterseminar'
+  pageref = '/classes/ss2023/m17-masterseminar'
   weight = 25
 
 [[main]]

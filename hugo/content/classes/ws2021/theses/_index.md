@@ -6,6 +6,7 @@ weight: 6
 tags: []
 courses: []
 languages: []
+aliases: /theses/
 courseNavInt:
 - title: "Theses"
   link: "/classes/ws2021/theses/"
