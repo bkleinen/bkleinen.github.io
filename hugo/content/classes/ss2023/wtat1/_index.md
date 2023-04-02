@@ -74,13 +74,13 @@ There are several digital media offerings supporting this class. You find the li
 
 * The class structure, assignments and other things that can and should be publicly available are on this web page
 * Discussion forums, Material that can't be made publicly available, links to videos, quizzes etc are in Moodle
-* Source code should be on a shared git repository, such as https://gitlab.rz.htw-berlin.de/ or GitHub.com. For data privacy reasons, the HTW repository is recommended.
+* Source code should be on a shared git repository, such as https://gitlab.rz.htw-berlin.de/ or GitHub.com. 
 
 ##### Grades
 
 Exam in SoSe 2023:
 
-* Weekly Reports 12 * 2,5P = 30 % (each one turned in counts 2%) (Berichte über Laborübungen)
+* Weekly Reports 12 * 2,5P = 30 % (each one turned in counts 2%)
 * Presentation 10 %
 * Exam - 60 % (Präsenzklausur, Programming)
 
