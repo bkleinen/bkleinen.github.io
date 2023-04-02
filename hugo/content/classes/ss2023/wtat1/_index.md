@@ -14,11 +14,11 @@ courseNavInt:
   link: "/classes/ss2023/wtat1/literature/"
 courseNavExt:
 - title: Moodle
-  link: https://moodle.htw-berlin.de/course/view.php?id=37298
+  link: https://moodle.htw-berlin.de/course/view.php?id=42609
 - title: SL in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=185088
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=194328
 - title: Labs in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=185084
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=194324
 - title: Semesterstundenplan im LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&k_abstgv.dtxt=internationale&r_zuordabstgv.semvonint=5&r_zuordabstgv.sembisint=6&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112
 ---
