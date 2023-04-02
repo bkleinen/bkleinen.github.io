@@ -33,18 +33,30 @@ For the agile topics, read the [scrum guides](https://scrumguides.org/index.html
 ##### Presentation Topics
 
 A. HTTP 1.1/2.0/3.0
+
 B. Data Models and Validation in Mongo
+
 C. Promises in JavaScript / AJAX 
+
 D. SQL vs. NoSql Databases
+
 E. Data Consistency in Mongo
+
 F. State Management
+
 G. PKI and TLS
+
 H. RESTful Applications
+
 I. Scalability
+
 J. CI/CD
 
 ##### Additional Presentation Topics
 K. Web 2.0
+
 L. API Management
+
 M. Cloud Native Development
+
 N. Hyperscalers (IaaS vs PaaS vs FaaS)
