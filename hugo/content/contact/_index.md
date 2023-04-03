@@ -6,8 +6,6 @@ toc: true
 
 # Prof. Dr. Barne Kleinen
 
-{{< figure src="/images/bkleinen.jpg" alt="Barne Kleinen" class="float-right">}}
-
 [Impressum]({{< ref "/contact/impressum" >}}), [Datenschutzerklärung]({{< ref "/contact/datenschutzerklaerung" >}})
 
 
