@@ -3,6 +3,7 @@
 # [markup.highlight]
 
 # https://www.markdownguide.org/tools/hugo/
+
 # https://gohugo.io/getting-started/configuration-markup/#goldmark
 
 [highlight]
