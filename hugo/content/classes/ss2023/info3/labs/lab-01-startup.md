@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 01 - Lab Startup and JavaScript Finger Exercises'
+title: 'Exercise 01 - Lab Startup'
 author: kleinen
 layout: page
 ---
@@ -9,9 +9,11 @@ layout: page
 ## Pre-Lab (Do this BEFORE the lab)
 
 ### 1. Prepare your work environment
-The labs will be taught remote. You can either
-* work on the [lab computers from remote](https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/) (make sure to chose the lab that is given on your schedule)
-* or just work on your own computer.
+
+[lab computers from remote](https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/) 
+
+
+
 
 If you decide to work on your own computer:
 * [optional] **I recomment you work on a Linux or MacOS System**. From my experience, [setting up Dual Boot Windows/Linux](https://www.groovypost.com/howto/dual-boot-windows-10-linux/) is less troublesome than trying to manage Node.js on Windows. All my instructions will be taylored to Linux and will probably work on MacOS. So if you haven't already, now is the time to get Linux :)

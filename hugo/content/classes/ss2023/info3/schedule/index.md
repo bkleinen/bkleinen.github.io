@@ -9,9 +9,9 @@ draft: true
 This schedule is, as always, tentative.
 | Week | KW  | Date           | Lecture Topic                                                                  | Lab (Thursdays)                                                                   |
 |:---- |:--- |:-------------- |:------------------------------------------------------------------------------ |:--------------------------------------------------------------------------------- |
-| 1    | 14  | Tue 04/04/2023 | Introduction to Info3                                                          |                                                                                 |
+| 1    | 14  | Tue 04/04/2023 | Introduction to Info3                                                          |                                                                                   |
 |      |     | Wed 05/04/2023 | Introduction to JavaScript (Linda Fernsel)                                     | [1 - Installation, Git and Javascript](../labs/lab-01-startup)                    |
-| 2    | 15  | Tue 11/04/2023 | Intro to Info3                                                                 | {{% link title ="Exercise 01 - Intro to the Lab, Git and Python" link = "../labs/exercise-02" %}}                                                                           |
+| 2    | 15  | Tue 11/04/2023 | Intro to Info3                                                                 | {{% link title ="Exercise 01 - Intro to the Lab" link = "../labs/exercise-02" %}} |
 |      |     | Wed 12/04/2023 | Software Engineering and Software Development Processes, Agile Development     | [1 - Installation, Git and Javascript](../labs/lab-01-startup)                    |
 | 3    | 16  | Tue 18/04/2023 | UML & System Modeling: Requirements, Use Cases and User Stories                |                                                                                   |
 |      |     | Wed 19/04/2023 | UML & System Modeling                                                          | [2 - Use Cases and Class Diagrams](../labs/lab-02-usecases-class)                 |
