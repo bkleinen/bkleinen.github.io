@@ -3,7 +3,7 @@ title: Grading
 author: kleinen
 weight: 100
 CourseNav: Grading
-draft: true
+draft: false
 ---
 
 ## Course Requirements & Grading
