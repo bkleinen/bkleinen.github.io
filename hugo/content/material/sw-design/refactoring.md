@@ -2,6 +2,7 @@
 title: 'Refactoring e-learning'
 author: kleinen
 layout: page
+draft: true
 ---
 
 You already know refactoring since Info1 - we spent quite some time refactoring the Zuul project!

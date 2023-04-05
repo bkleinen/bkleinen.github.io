@@ -6,18 +6,18 @@ CourseNav: Grading
 draft: true
 ---
 
+## Course Requirements & Grading
 
-### Labs
-More Info about the parts that make up your lab grade can be found on the [Labs](labs) page.
+To pass Info3, you need to participate in the Labs and pass the written (Moodle) Exam:
 
-The Labs grade is made up of three parts:
+- handing in **all** the labs (12) is a pre-requirement for attending the exam.
+- you need to get an "ok" for at least 11 out of the 12 labs. This "ok" is dependent on your ability to be able to present/explain your work in the lab
+- your Points in the Exam will determine your grade according to the [Grading Scale](../../../../studies/grading/grading-scale).
 
-| Lab Part      |             | Points    |
-|:--------------|:------------|:----------|
-| Lab Hand ins: | (7 x 2P = ) | 14 Points |
-| Oral Tests:   | (7 x 3P = ) | 21 Points |
-| Peer Reviews: | (2 x 3P = ) | 6 Points  |
-| Sum           |             | 41        |
+## Late Slots and Not-Oks
+
+You can hand in one lab late and miss one time you needed to present (note that there is a 14:1 chance that you don't need to present that day).
+If you need to miss more than that for whatever reason, come talk to me.
 
 ## Exam
 
@@ -25,28 +25,12 @@ There will be a 2-hour online examination at the end of the semester.
 
 ## I have already taken Info3 last semester and passed the labs!
 
-Congrats! Tell Prof. Kleinen and Prof. Weber-Wulff that you would like to keep your grade for the lab. It is recommended that you still do the labs of this semester for yourself (you can ask for help/ feedback of course) so you can learn about JavaScript (the topics of the lab can be in the exam).
+Congrats! Tell Prof. Kleinen and the Prof that tought your previous Info3 you would like to use your lab results for this term.
 
 
-## Grades
+## Late Submissions
 
-Your grade in Info3 will be a weighted mixture of the evaluated graded elements of the course and the exam. The partial grades will be assessed as follows and then graded according to the [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale):
-
-**Update Dec 3: Due to the ongoing COVID-19 situation, the Exam will be replaced
-by an continuous assessment consisting of a couple of little project and report
-assignments which can and need to be done individually at home** These take the
-place of the exam, everything in the Lab and the complete grading scheme stays
-the same:
+**Late submissions** You may hand in one (1) report (with code if applicable) in the late slot on Moodle until a date to be specified, before the first Exam.
 
 
-Option 1: only Exam
-* ~~Exam~~ [Continuous Assessment](./continuous_assessment) 100%
-* all 7 lab reports need to be turned in before the exam
 
-Option 2: Labs & Exam
-* ~~Exam~~ [Continuous Assessment](./continuous_assessment) 50%
-* Labs 50%
-* all 7 lab reports need to be turned in before the exam
-
-You don't have to decide which option you choose, the one that results in the better grade for you at the end of the
-semester will automatically be picked.

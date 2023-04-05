@@ -4,7 +4,7 @@ date: 2021-10-08T21:32:10+02:00
 draft: false
 weight: 2
 tags: ['python']
-courses: ['info2']
+courses: ['info2', 'info3']
 languages: ['python']
 ---
 
