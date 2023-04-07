@@ -10,11 +10,11 @@ This exercise is about developing a linked list test driven.
 
 You can either do it in Java - completing the project we've started in class
 
- * [TestDrivenList in Java (Eclipse Project)](https://github.com/htw-imi-info3/TestDrivenList)
+ * [TestDrivenList in Java (Eclipse Project)](https://github.com/htw-imi-info3-archive/TestDrivenList)
 
 or in Ruby
 
- * [TestDrivenList in Ruby](https://github.com/htw-imi-info3/TestDrivenListRuby)
+ * [TestDrivenList in Ruby](https://github.com/htw-imi-info3-archive/TestDrivenListRuby)
 
 or, if interested or bored, or undecided, both. But one is sufficient.
 

@@ -32,7 +32,7 @@ you can import it as a new project into your Eclipse Workspace, either as Java P
 
 It contains:
 
-(note: the source code has changed and been moved to https://github.com/htw-imi-info3/ )
+(note: the source code has changed and been moved to https://github.com/htw-imi-info3-archive/ )
  *  the [original GildedRose implementation][4]
  *  [a stub for a GildedRose version with Inheritance][5]
  *  [a stub for a GildedRose version using the strategy pattern][6]

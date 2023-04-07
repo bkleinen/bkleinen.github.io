@@ -6,3 +6,4 @@ hugo/resources/_gen
 hugo/node_modules/
 .hugo_build.lock
 temp/
+tmp/

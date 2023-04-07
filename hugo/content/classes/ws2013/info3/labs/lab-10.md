@@ -10,7 +10,7 @@ Pick one simple thing that you can solve mainly with the provided CRUD (Create R
 
 We will do the steps together in the lab, this semester's example app  will be
 
-[https://github.com/htw-imi-info3/songbook](https://github.com/htw-imi-info3/songbook)
+[https://github.com/htw-imi-info3-archive/songbook](https://github.com/htw-imi-info3-archive/songbook)
 
 update 17.1.2014: had to move the rep to owner bkleinen to register it on travis.
 [https://github.com/bkleinen/songbook](https://github.com/bkleinen/songbook)

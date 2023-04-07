@@ -10,7 +10,7 @@ layout: page
 
 Each Group should add a sort or search functionality to one of the resources
 pages of the HTW app. We will coordinate the tasks using issues on the repository,
-see [https://github.com/htw-imi-info3/rails-dash-ws2017/issues](https://github.com/htw-imi-info3/rails-dash-ws2017/issues),
+see [https://github.com/htw-imi-info3-archive/rails-dash-ws2017/issues](https://github.com/htw-imi-info3-archive/rails-dash-ws2017/issues),
 and also coordinate within the lab.
 
 See the [Guide on the Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html) - it

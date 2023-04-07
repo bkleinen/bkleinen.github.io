@@ -28,7 +28,7 @@ If you want to explore your database, [MongoDB Compass] may be helpful.
 For development, Prof. Kleinen runs mongodb in [Docker](https://docs.docker.com/get-started/overview/).
 If you
 * have installed Docker on your machine (See https://docs.docker.com/engine/install/ubuntu/ and https://docs.docker.com/engine/install/linux-postinstall/)
-* and copied [docker-compose.yml](https://github.com/htw-imi-info3/express-app03/blob/master/docker-compose.yml) from
+* and copied [docker-compose.yml](https://github.com/htw-imi-info3-archive/express-app03/blob/master/docker-compose.yml) from
 the example app, you can run
 
     ` docker-compose up -d`
@@ -48,7 +48,7 @@ Although it's possible to work with the MongoDB directly, we will use Mongoose.
 from the database as well as Model creating and validation.
 
 As [Mongoose] acts as a [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern) to the MongoDB, we have to connect to the DB
-via Mongoose. [See commit](https://github.com/htw-imi-info3/express-app03/commit/ab2cc6775ac093948766fc7b3e88ad458e420f37).
+via Mongoose. [See commit](https://github.com/htw-imi-info3-archive/express-app03/commit/ab2cc6775ac093948766fc7b3e88ad458e420f37).
 
 * [Mongoose Doc]
 
@@ -64,7 +64,7 @@ via Mongoose. [See commit](https://github.com/htw-imi-info3/express-app03/commit
 
 Prof. Kleinen created the following simple examples:
 
-- index and show for all and one element [commit](https://github.com/htw-imi-info3/express-app03/commit/99f7d2541a21f18bbb03a85e9681e1e3db5c0bd0)
+- index and show for all and one element [commit](https://github.com/htw-imi-info3-archive/express-app03/commit/99f7d2541a21f18bbb03a85e9681e1e3db5c0bd0)
 
 ## Step 6: (Optional) Complete CRUD
 
@@ -78,14 +78,14 @@ You'll find the examples in single [App03 commit]s.
 In order to toggle the done / not done state on my todo items, Prof. Kleinen did not want to
 reload the entire page. Therefore, Prof. Kleinen introduce an API endpoint which allows
 to toggle the state by just issuing one get request.
-See [commit](https://github.com/htw-imi-info3/express-app03/commit/0bf3802ff971d9972d29fe21a3bddb513fe82ae8).
+See [commit](https://github.com/htw-imi-info3-archive/express-app03/commit/0bf3802ff971d9972d29fe21a3bddb513fe82ae8).
 
 Where in your app might an API endpoint make sense? Implement it.
 
 ## Step 8: Use the API Endpoint
 
 Finally, you need to use the endpoint in your app by adding some javascript
-that calls the endpoint and shows the response. [See the commit](https://github.com/htw-imi-info3/express-app03/commit/d8ae079fc6627b6662587984d3f12bdc8cb24095)
+that calls the endpoint and shows the response. [See the commit](https://github.com/htw-imi-info3-archive/express-app03/commit/d8ae079fc6627b6662587984d3f12bdc8cb24095)
 for an example.
 
 # Assignment 2: Testing your app
@@ -101,8 +101,8 @@ To set up end-to-end tests for follow the [Test Express with Jest Tutorial]. Som
 - **Install**: You might need to switch to *yarn* to get a successful install (npm got caught in an endless recursive call). Yarn is similar to npm. To switch to yarn if needed, delete package-lock.yml and run yarn install. Then install
 with yarn `yarn add --dev babel-preset-env jest supertest superagent`
 - **Separate your app and server**: already done if you used express-generator, the equivalent to server.js resides in /bin/www
-- **Create Test**:  Have at least one end-to end test checking that the correct data is shown on your page. The [root test](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/root/root.test.js): just checks if get / returns a 200 HTTP Response Code.
-Here is checked that todos in the db are listed: [todos/index](https://github.com/htw-imi-info3/express-app04/blob/master/test/feature/todos/index.test.js).
+- **Create Test**:  Have at least one end-to end test checking that the correct data is shown on your page. The [root test](https://github.com/htw-imi-info3-archive/express-app04/blob/master/test/feature/root/root.test.js): just checks if get / returns a 200 HTTP Response Code.
+Here is checked that todos in the db are listed: [todos/index](https://github.com/htw-imi-info3-archive/express-app04/blob/master/test/feature/todos/index.test.js).
 - **Callbacks vs Async/Await**: Use the async/await way of writing the tests - otherwise you will soon get nested then-chains. And with async/await you don't need to call end() and/or done(). However, when starting the tests, you should additionally pass the arguments "--forceExit --detectOpenHandles" (to force jest to exit even if some promises have not been resolved and to make jest show you which promises have not been resolved, if any).
 - **jest argument --verbose false**: passing "--verbose false" could help in the case that jest is not displaying your console logs
 - **db connection and clean up**: When - when running your test suite - should a db connection be established? When closed? When should the db be cleaned up (eg. all documents deleted)?
@@ -123,7 +123,7 @@ for tests and provisions it by tweaking the MONGODB_URI environment variable.
 * create beforeAll and afterAll hooks to setup the database before all tests are run
 * add configuration files (jest-mongodb-config.js and jest.config.js) as described in the doc
 
-* [see commit](https://github.com/htw-imi-info3/express-app04/commit/1e92be249506d57f2381c5e5ffd7353a453dcb14).
+* [see commit](https://github.com/htw-imi-info3-archive/express-app04/commit/1e92be249506d57f2381c5e5ffd7353a453dcb14).
 
 
 # Assignment 3 (Optional): Deploy the App to Heroku
@@ -182,9 +182,9 @@ More info on the [Labs](..) page.
 * [Node on Heroku]
 * [Atlas on Heroku]
 
-[App 03]: https://github.com/htw-imi-info3/express-app03
-[App 03 commits]: https://github.com/htw-imi-info3/express-app03/master/commits
-[App 04]: https://github.com/htw-imi-info3/express-app04
+[App 03]: https://github.com/htw-imi-info3-archive/express-app03
+[App 03 commits]: https://github.com/htw-imi-info3-archive/express-app03/master/commits
+[App 04]: https://github.com/htw-imi-info3-archive/express-app04
 [Mongo Atlas]: https://cloud.mongodb.com/
 [Docker]: https://www.docker.com/
 [MongoDB Compass]: https://docs.mongodb.com/compass/master/

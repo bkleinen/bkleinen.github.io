@@ -4,7 +4,7 @@ author: kleinen
 layout: page
 ---
 
-[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) | [Github](https://github.com/htw-imi-info3)
+[Schedule](schedule) | [Labs](labs) | [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) | [Github](https://github.com/htw-imi-info3-archive)
 
 # Welcome!
 
@@ -73,6 +73,6 @@ There is no textbook for this class. Here are the main books this class is based
 Information about this course is dispersed in various places on the web - welcome to the web 2.0. These are:
 
 * [These pages](({{ site.BaseURL }}/) for publicly accessible information: [Schedule](schedule), [Labs](labs), [Grading Scale]({{ site.BaseURL }}/studies/grading/grading-scale)
-* [Github](https://github.com/htw-imi-info3) for publicly accessible code examples for the lecture and the assignments
+* [Github](https://github.com/htw-imi-info3-archive) for publicly accessible code examples for the lecture and the assignments
 * [Moodle](https://moodle.htw-berlin.de/course/view.php?id=1461) for all Information that cannot be made publicly available and for handing in your lecture notes and lab reports
 *  last not least LSF: [Lecture (SU)](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86086),  [Labs](https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=86087) for official course information.

@@ -35,7 +35,7 @@ Build Teams, create a central repository within each team and add the team membe
 
 # Part 3: Ruby Finger Exercises
 
-You'll find Stubs, Tests and examples for this exercise on [github](https://github.com/htw-imi-info3/lab-01-ruby-exercise).
+You'll find Stubs, Tests and examples for this exercise on [github](https://github.com/htw-imi-info3-archive/lab-01-ruby-exercise).
 
 ## 1. Hobby Matcher
 
@@ -47,7 +47,7 @@ Program (or extend) a class "Person" that implements matching Persons for their 
 
 **Story 2:** As a User of the Service I want to see a list with People with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending).
 
-Implement this in a ruby class "Person" (use [Person](https://github.com/htw-imi-info3/lab-01-ruby-exercise/blob/master/lib/person.rb) as a starting point), holding the name and a list of hobbies in an Array of a single person.
+Implement this in a ruby class "Person" (use [Person](https://github.com/htw-imi-info3-archive/lab-01-ruby-exercise/blob/master/lib/person.rb) as a starting point), holding the name and a list of hobbies in an Array of a single person.
 
 It should be possible to pass the list of hobbies as a single comma-seperated String
 ("Go, Geocaching, Stunt Kites, Bicycles")

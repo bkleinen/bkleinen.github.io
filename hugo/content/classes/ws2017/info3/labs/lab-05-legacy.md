@@ -15,9 +15,9 @@ Source Code: There are three versions. Choose one. Have brief look at the
 readme and the GuildedRose class.
 
 
-* Ruby Version: [https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
-* Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
-* Original Version using Maven: [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose)
+* Ruby Version: [https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata)
+* Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose)
+* Original Version using Maven: [https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose)
 
 ### Write Characterization Tests
 
@@ -39,7 +39,7 @@ branches covered with your tests.
 
 #### Ruby Version
 
-* see instructions in the repo readme:  [https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
+* see instructions in the repo readme:  [https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata](https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata)
 
 Bundler will install simplecov. After running rspec, you'll find the html coverage report in
 
@@ -57,7 +57,7 @@ If you prefer to use another ide & code coverage tool, you can of course do so.
 
 Get the repository from
 
- * [https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3/lab-05-JavaEclipseGildedRose)
+ * [https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose](https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose)
 
 
 and import it (Import->General->Existing Projects into Workspace) to Eclipse.
@@ -67,7 +67,7 @@ look at it in the lab.
 
 If you want to use Maven, you might want to use the original version:
 
-* [https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3/lab-05-JavaMavenGildedRose)
+* [https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose)
 
 ### Write Characterization Tests
 In both the Ruby & Java Version I've already provided a stub for the tests.

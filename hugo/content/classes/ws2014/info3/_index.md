@@ -13,7 +13,7 @@ courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=4007
 - title: Github
-  link: https://github.com/htw-imi-info3
+  link: https://github.com/htw-imi-info3-archive
 - title: Term Schedule
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
 ---

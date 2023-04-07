@@ -32,7 +32,7 @@ If you feel like it, you can continue with a sequence diagram for additional use
 
 # Part 2: Ruby Finger Exercises
 
-You'll find Stubs, Tests and examples for this exercise on [github](https://github.com/htw-imi-info3/ruby-exercise).
+You'll find Stubs, Tests and examples for this exercise on [github](https://github.com/htw-imi-info3-archive/ruby-exercise).
 
 
 ## 1. Hobby Matcher
@@ -45,7 +45,7 @@ Story 1: As a User of the Service I want to be able to enter my Hobbies as a com
 
 Story 2: As a User of the Service I want to see a list with People with whom I share hobbies including the hobbies we share, ordered by the number of shared hobbies (descending).
 
-Implement this in a Ruby-Class "Person" (use [Person](https://github.com/htw-imi-info3/ruby-exercise/blob/master/lib/person.rb) as a starting point), holding the name and a list of hobbies
+Implement this in a Ruby-Class "Person" (use [Person](https://github.com/htw-imi-info3-archive/ruby-exercise/blob/master/lib/person.rb) as a starting point), holding the name and a list of hobbies
 in an Array of a single person.
 
 It should be possible to pass the list of hobbies as a single comma-seperated String

@@ -102,7 +102,7 @@ To do this, refer to the [express documentation](https://expressjs.com) and Prof
 ### Step 3: Add your HTML pages as static pages to your express app.
 
 * See the [Express.js site on serving static files](https://expressjs.com/en/starter/static-files.html)...
-* ...and Prof. Kleinen's [first example app on github](https://github.com/htw-imi-info3/express-app01). The [commits in the example app](https://github.com/htw-imi-info3/express-app01/commits/master) show the individual steps. Note that Prof. Kleinen sometimes uses [then-chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then#Chaining) for working with promises. Please use async-await combos with regular try-catch blocks whenever it makes sense (See also [async/await vs then](https://javascriptwebscrapingguy.com/jordan-promises-async-await-vs-then/)).
+* ...and Prof. Kleinen's [first example app on github](https://github.com/htw-imi-info3-archive/express-app01). The [commits in the example app](https://github.com/htw-imi-info3-archive/express-app01/commits/master) show the individual steps. Note that Prof. Kleinen sometimes uses [then-chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then#Chaining) for working with promises. Please use async-await combos with regular try-catch blocks whenever it makes sense (See also [async/await vs then](https://javascriptwebscrapingguy.com/jordan-promises-async-await-vs-then/)).
 
 ## Assignment 3: Your app
 
@@ -148,12 +148,12 @@ For ejs, see the [Documentation](https://ejs.co/)
 
 In the example the list (index) should be accessible via a get request (see also: [HTTP Methods]) to /todos, and the show should be accessible via a get request to /todo/<id> e.g. /todo/4711.
 
-See the [second example app](https://github.com/htw-imi-info3/express-app02/commits/master) for reference.
+See the [second example app](https://github.com/htw-imi-info3-archive/express-app02/commits/master) for reference.
 
 ## Step 4: Extract the data and put it in the controller for now.
 
 As we don't have a database connected yet, just use hard-coded data in the controller to experiment with getting data to the view.
-See the [App02] for reference, [especially this commit.](https://github.com/htw-imi-info3/express-app02/commit/7600b7d12e2976127df8ddd5acd8b986b93823d6)
+See the [App02] for reference, [especially this commit.](https://github.com/htw-imi-info3-archive/express-app02/commit/7600b7d12e2976127df8ddd5acd8b986b93823d6)
 
 ## Step 5 (optional): Extract common HTML-Stuff into a Layout
 
@@ -180,9 +180,9 @@ More info on the [Labs](..) page.
 - [ejs]
 - [HTTP Methods]
 
-<!--[1] [example app on github](https://github.com/htw-imi-info3/express-app01).-->
-[App01]: https://github.com/htw-imi-info3/express-app01 "Beispiel App App01"
-[App02]: https://github.com/htw-imi-info3/express-app02
-[App02 commits]: https://github.com/htw-imi-info3/express-app02/commits/master
+<!--[1] [example app on github](https://github.com/htw-imi-info3-archive/express-app01).-->
+[App01]: https://github.com/htw-imi-info3-archive/express-app01 "Beispiel App App01"
+[App02]: https://github.com/htw-imi-info3-archive/express-app02
+[App02 commits]: https://github.com/htw-imi-info3-archive/express-app02/commits/master
 [ejs]: https://ejs.co/
 [HTTP Methods]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods

@@ -37,7 +37,7 @@ It contains:
  *  [a stub for a GildedRose version using the strategy pattern][6]
  *  [an abstract parameterized test class with subclasses for all three implementations][7]
 
-(note: the source code has been updated and moved to https://github.com/htw-imi-info3/lab-05-ruby-gilded-rose-kata)
+(note: the source code has been updated and moved to https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata)
 
 Have a look at the provided classes and run the tests. The [GildedRoseTestOriginal][8] should pass, the others will fail as the stubs only implement a basic updateQuality.
 

@@ -18,7 +18,7 @@ bkleinen.github.io</a>
 
 # Prelab
 0. The Base Repo (referred to as main repository below) for this Lab is the HTW Application we've developed in class, see
-    [https://github.com/htw-imi-info3/rails-dash-ws2017](https://github.com/htw-imi-info3/rails-dash-ws2017) - first fork it on github (only one person in your team needs to do this) and then clone it to your local workspace (computer).
+    [https://github.com/htw-imi-info3-archive/rails-dash-ws2017](https://github.com/htw-imi-info3-archive/rails-dash-ws2017) - first fork it on github (only one person in your team needs to do this) and then clone it to your local workspace (computer).
 1. Read through two Rails Guides:
     1. [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)
     2. [Association Basics](https://guides.rubyonrails.org/association_basics.html)

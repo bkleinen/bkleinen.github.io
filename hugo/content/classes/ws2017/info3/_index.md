@@ -17,7 +17,7 @@ courseNavExt:
 - title: Semesterstundenplan im LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=3&r_zuordabstgv.sembisint=3&missing=allTerms&k_abstgv.abstgvnr=231
 - title: Github
-  link: https://github.com/htw-imi-info3
+  link: https://github.com/htw-imi-info3-archive
 ---
 
 # Welcome!
