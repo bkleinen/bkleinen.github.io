@@ -18,9 +18,9 @@ in
 &nbsp;
 <i><a href=https://bkleinen.github.io/tags/>Tags</a></i>:
 <a href=https://bkleinen.github.io/material/tags/python/>python</a>
-&nbsp;</small><header><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#suggested-path-for-info2>Suggested Path for Info2</a><ul><li><a href=#further-tips>Further Tips</a></li></ul></li><li><a href=#installing-packages>Installing packages</a></li><li><a href=#installing-python>Installing Python</a><ul><li><a href=#checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</a></li><li><a href=#checking-your-path>Checking your path</a></li><li><a href=#python-versions-on-my-machine>Python Versions on my machine</a></li><li><a href=#intellijvirtualenv>IntelliJ/Virtualenv</a></li></ul></li></ul></nav></div><h1 id=some-notes-and-tips-on-getting-started-with-the-python-programming-language>Some Notes and Tips on Getting Started with the Python Programming Language</h1><p>There are many, and many good Python resources available, many of them for
+&nbsp;</small><header><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#suggested-path-for-info3>Suggested Path for info3</a><ul><li><a href=#further-tips>Further Tips</a></li></ul></li><li><a href=#installing-packages>Installing packages</a></li><li><a href=#installing-python>Installing Python</a><ul><li><a href=#checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</a></li><li><a href=#checking-your-path>Checking your path</a></li><li><a href=#python-versions-on-my-machine>Python Versions on my machine</a></li><li><a href=#intellijvirtualenv>IntelliJ/Virtualenv</a></li></ul></li></ul></nav></div><h1 id=some-notes-and-tips-on-getting-started-with-the-python-programming-language>Some Notes and Tips on Getting Started with the Python Programming Language</h1><p>There are many, and many good Python resources available, many of them for
 free - after all, it&rsquo;s the most frequently used programming language for
-introductionary courses.</p><p><a href=../python-resources/>See Python Resources</a></p><h2 id=suggested-path-for-info2>Suggested Path for Info2</h2><p>As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
+introductionary courses.</p><p><a href=../python-resources/>See Python Resources</a></p><h2 id=suggested-path-for-info3>Suggested Path for info3</h2><p>As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
 Python Course. You can either install/use PyCharm Edu or install the EduTools
 plugin for PyCharm Professional.</p><ol><li>Video Intro: <a href="https://www.youtube.com/watch?v=LjecpkIvJFc">Start learning with PyCharm Edu - YouTube</a></li><li>Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
 or download it here: <a href=https://www.jetbrains.com/de-de/pycharm-edu/>PyCharm Edu</a></li><li>you will need a working python - see
@@ -47,19 +47,19 @@ I decided on the latter and installed Python 3.10. Some of my homebrew packages
 depend on Python 3.9, so I need to keep that version as well as the MacOS
 python installation.</p><p>This results in three different python installations and the need to always be
 sure which one you&rsquo;re using and to make sure that packages are indeed installed
-where you want them to be installed!</p><h3 id=checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</h3><p>To find out which python version will be used you can use the command <code>which</code>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ok htw/courses/info2 <span class=c1># which python3</span>
+where you want them to be installed!</p><h3 id=checking-your-python-installation-and-the-path>Checking your Python Installation and the Path</h3><p>To find out which python version will be used you can use the command <code>which</code>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ok htw/courses/info3 <span class=c1># which python3</span>
 </span></span><span class=line><span class=cl>/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-</span></span><span class=line><span class=cl>ok htw/courses/info2 <span class=c1># which pip3</span>
+</span></span><span class=line><span class=cl>ok htw/courses/info3 <span class=c1># which pip3</span>
 </span></span><span class=line><span class=cl>/Library/Frameworks/Python.framework/Versions/3.10/bin/pip3
 </span></span></code></pre></div><p>This looks about right - to check where pip installs its packages, you can list
-the packages and then get the path for one, e.g.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ok htw/courses/info2 <span class=c1># pip3 list</span>
+the packages and then get the path for one, e.g.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ok htw/courses/info3 <span class=c1># pip3 list</span>
 </span></span><span class=line><span class=cl>Package           Version
 </span></span><span class=line><span class=cl>----------------- --------
 </span></span><span class=line><span class=cl>attrs             21.2.0
 </span></span><span class=line><span class=cl>...
 </span></span><span class=line><span class=cl>Scrapy            2.5.1
 </span></span></code></pre></div><p>and then use pip show to check the installation location of the package:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>ok htw/courses/info2 <span class=c1># pip3 show Scrapy</span>
+</span></span><span class=line><span class=cl>ok htw/courses/info3 <span class=c1># pip3 show Scrapy</span>
 </span></span><span class=line><span class=cl>Name: Scrapy
 </span></span><span class=line><span class=cl>Version: 2.5.1
 </span></span><span class=line><span class=cl>Summary: A high-level Web Crawling and Web Scraping framework
