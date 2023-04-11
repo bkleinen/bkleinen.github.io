@@ -1,7 +1,7 @@
 ---
 title: 'Assignment 05 - Legacy Code - Refactoring to Patterns'
 author: kleinen
-layout: page
+draft: true
 ---
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://www.wowwiki.com/Gilded_Rose)</small>

@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 01 - Installation Instructions'
 author: kleinen
-layout: page
+draft: true
 ---
 
 (These are detailled instructions for the installation part of the [Info 3 Startup Lab](../lab-01-startup)).

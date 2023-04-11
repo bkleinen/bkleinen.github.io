@@ -2,6 +2,7 @@
 title: 'Assignment 03 - Sequence Diagrams and State Machine Diagrams'
 author: kleinen
 layout: page
+draft: true
 ---
 
 ![Launch Sequence](../images/sequence.jpg)

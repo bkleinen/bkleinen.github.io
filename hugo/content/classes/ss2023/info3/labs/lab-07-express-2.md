@@ -1,7 +1,7 @@
 ---
 title: 'Assignment 07 - Web Apps with Node and Express II'
 author: kleinen
-layout: page
+draft: true
 ---
 
 Example apps: [App 03] - Persistence and [App 04] - with testing

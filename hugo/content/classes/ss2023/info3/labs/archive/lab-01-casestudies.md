@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 01 - Case Studies of Ethical Questions'
 author: kleinen
-layout: page
+draft: true
 ---
 
 The German ''Gesellschaft für Informatik'' published Ethical Guidelines

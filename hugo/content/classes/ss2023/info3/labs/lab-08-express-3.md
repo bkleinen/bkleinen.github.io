@@ -1,7 +1,7 @@
 ---
 title: 'Assignment 07 - Web Apps with Node and Express II'
 author: kleinen
-layout: page
+draft: true
 ---
 
 # From Lab07 to Lab08

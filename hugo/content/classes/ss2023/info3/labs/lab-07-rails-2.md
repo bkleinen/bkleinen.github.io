@@ -1,7 +1,7 @@
 ---
 title: 'Assignment 07 - Search & Sort, Internationalization'
 author: kleinen
-layout: page
+draft: true
 ---
 
 ## Assignment

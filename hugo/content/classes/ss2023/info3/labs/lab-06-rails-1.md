@@ -1,7 +1,7 @@
 ---
 title: 'Assignment 06 - Rails - First Steps'
 author: kleinen
-layout: page
+draft: true
 ---
 
  ![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")

@@ -2,6 +2,7 @@
 title: 'Assignment 02 - Use Cases and Class Diagrams'
 author: kleinen
 layout: page
+draft: true
 ---
 
 ![Diagram](../images/effective-diagrams.jpg "pumpkins")

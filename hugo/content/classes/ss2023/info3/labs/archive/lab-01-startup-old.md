@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 01 - Lab Startup'
 author: kleinen
-layout: page
+draft: true
 ---
 ![Workplace](../images/workplace.jpg "pumpkins")
 <small class = "float-right">Nerd Workplace. Foto by [slworking2](https://www.flickr.com/photos/slworking/8539204081/)</small>
