@@ -5,8 +5,6 @@ CourseNav: References and Material
 draft: false
 ---
 
-* [Refactoring](refactoring)
-
 ## Material on This Site
 
 See the [Info3 Class Category in the Materials](/material/courses/info3/) of this Website.
@@ -28,3 +26,4 @@ outdated next year - some of them might even be the same age as some of you.
 | Sandi Metz: 99 Bottles of OOP - second Edition                                                                                                    | [Book Website](https://sandimetz.com/99bottles) If you consider purchasing this book, email me for a discount code.                                                                               |
 | Sandi Metz: _Practical Object Oriented Design in Ruby: An Agile Primer._ Addison Wesley, 2012.                                                    | [Book Website](https://www.poodr.com/)                                                                                                                                                            |
 | Ian Sommerville (2010). Software Engineering [9th edition]. Prentice Hall.                                                                        | [Available on Amazon](https://www.amazon.de/gp/product/0137053460/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0137053460&linkCode=as2&tag=plagiatundimi-21&linkId=7XBTKFV6QLC7AV2Q)  |
+

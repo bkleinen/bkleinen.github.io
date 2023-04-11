@@ -1,3 +1,6 @@
+---
+draft: true
+---
 
 https://kata-log.rocks/parallel-change-kata
 
