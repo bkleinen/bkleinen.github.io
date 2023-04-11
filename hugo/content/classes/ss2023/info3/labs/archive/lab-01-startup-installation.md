@@ -14,7 +14,7 @@ If you become more proficient with standard tools like the command line and git,
 
 
 ## Text Editor
-You need a good basic text editor. Wordpad, Word etc. are no options, as they add format information to the text. Eclipse is also not the best option, as it is rather heavyweight.
+You need a good basic text editor. Wordpad, Word etc. are no options, as they add format directives to the text. Eclipse is also not the best option, as it is rather heavyweight.
 Here are some suggestions:
 
   * Atom: [https://atom.io](https://atom.io)

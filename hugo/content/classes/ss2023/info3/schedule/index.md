@@ -11,12 +11,12 @@ This schedule is, more than always, tentative.
 | Week | KW  | Date           | Lecture Topic                                                                              |     | Lab (Tue & Wed)                                                                                       |
 | :--- | :-- | :------------- | :----------------------------------------------------------------------------------------- | --- | :---------------------------------------------------------------------------------------------------- |
 | 1    | 14  | Tue 04/04/2023 |                                                                                            |     |                                                                                                       |
-|      |     | Wed 05/04/2023 | Introduction to Info3                                                                      |     | No Lab.                                                                                               |
-| 2    | 15  | Tue 11/04/2023 | Introduction to Software Engineering and Software Development Processes, Agile Development |     | {{% link title ="1 - Intro to the Lab" link = "../labs/exercise-01-startup" %}}                       |
+|      |     | Wed 05/04/2023 | Introduction to Info3, Git and                                                                      |     | No Lab.                                                                                               |
+| 2    | 15  | Tue 11/04/2023 | Introduction to Software Engineering and Software Development Processes, Agile Development |     | {{% link title ="1 - Intro to the Lab" link = "../labs/lab-01-startup" %}}                       |
 |      |     | Wed 12/04/2023 | System Modeling, Architectural Design, Requirement Engineering                             |     |                                                                                                       |
 | 3    | 16  | Tue 18/04/2023 | UML & System Modeling: Requirements, Use Cases and User Stories                            |     |                                                                                                       |
 |      |     | Wed 19/04/2023 | UML & System Modeling, Product Owner Game                                                  |     |                                                                                                       |
-| 4    | 17  | Tue 25/04/2023 | Source Code Management (GIT)                                                               |     | {{% link title ="2 - Use Cases" link = "../labs/exercise-02" %}}                                      |
+| 4    | 17  | Tue 25/04/2023 | Source Code Management (GIT)                                                               |     | {{% link title ="3 - Use Cases" link = "../labs/exercise-02" %}}                                      |
 |      |     | Wed 26/04/2023 | Software Processes  II                                                                     |     |                                                                                                       |
 | 5    | 18  | Tue 02/05/2023 | Software Design Patterns (GOF)                                                             |     | {{% link title ="2 - Class Diagrams" link = "../labs/exercise-02" %}}                                 |
 |      |     | Wed 03/05/2023 | Software Design Patterns (GOF)                                                             |     |                                                                                                       |
@@ -53,4 +53,3 @@ This schedule is, more than always, tentative.
 
 
 
-   

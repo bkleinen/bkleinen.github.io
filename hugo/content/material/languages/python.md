@@ -16,7 +16,7 @@ introductionary courses.
 
 [See Python Resources](../python-resources/)
 
-## Suggested Path for Info2
+## Suggested Path for info3
 
 As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
 Python Course. You can either install/use PyCharm Edu or install the EduTools
@@ -86,9 +86,9 @@ where you want them to be installed!
 To find out which python version will be used you can use the command `which`:
 
 ```bash
-ok htw/courses/info2 # which python3
+ok htw/courses/info3 # which python3
 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-ok htw/courses/info2 # which pip3
+ok htw/courses/info3 # which pip3
 /Library/Frameworks/Python.framework/Versions/3.10/bin/pip3
 ```
 
@@ -96,7 +96,7 @@ This looks about right - to check where pip installs its packages, you can list
 the packages and then get the path for one, e.g.
 
 ```bash
-ok htw/courses/info2 # pip3 list
+ok htw/courses/info3 # pip3 list
 Package           Version
 ----------------- --------
 attrs             21.2.0
@@ -108,7 +108,7 @@ and then use pip show to check the installation location of the package:
 
 ```bash
 
-ok htw/courses/info2 # pip3 show Scrapy
+ok htw/courses/info3 # pip3 show Scrapy
 Name: Scrapy
 Version: 2.5.1
 Summary: A high-level Web Crawling and Web Scraping framework

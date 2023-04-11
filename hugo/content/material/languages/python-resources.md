@@ -11,11 +11,11 @@ This is a collection of Python Resources. See [Python Notes](../python/)
 
 ## The Official Python Documentation
 
-- [3.10.0 Documentation](https://docs.python.org/3/)
-- [The Python Standard Library — Python 3.10.0 documentation](https://docs.python.org/3/library/index.html)
-- [The Python Language Reference — Python 3.10.0 documentation](https://docs.python.org/3/reference/index.html)
-- [Python Setup and Usage — Python 3.10.0 documentation](https://docs.python.org/3/using/index.html)
-- [The Python Tutorial — Python 3.10.0 documentation](https://docs.python.org/3/tutorial/index.html)
+- [3 Documentation](https://docs.python.org/3/)
+- [The Python Standard Library — Python 3 documentation](https://docs.python.org/3/library/index.html)
+- [The Python Language Reference — Python 3 documentation](https://docs.python.org/3/reference/index.html)
+- [Python Setup and Usage — Python 3 documentation](https://docs.python.org/3/using/index.html)
+- [The Python Tutorial — Python 3 documentation](https://docs.python.org/3/tutorial/index.html)
 
 ## Books
 
@@ -27,7 +27,7 @@ This is a collection of Python Resources. See [Python Notes](../python/)
   - [Algorithms and Data Structures](https://introcs.cs.princeton.edu/python/40algorithms/)
 
   I've compiled the source code examples in the repo
-  [htw-imi-info2/python-programming-exercises](https://github.com/htw-imi-info2/python-programming-exercises) - this site contains an overview: [Python Programs in the Textbook](https://introcs.cs.princeton.edu/python/code/)
+  [htw-imi-info3/python-programming-exercises](https://github.com/htw-imi-info3/python-programming-exercises) - this site contains an overview: [Python Programs in the Textbook](https://introcs.cs.princeton.edu/python/code/)
 
 
 - Al Sweigart's [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/) is free to read under a Creative Commons license.
@@ -36,11 +36,11 @@ This is a collection of Python Resources. See [Python Notes](../python/)
 
 ## Source Code Repos
 
-### at [htw-imi-info2](https://github.com/htw-imi-info2)
+### at [htw-imi-info3](https://github.com/htw-imi-info3)
 
-- [htw-imi-info2/learn-python-with-tests](https://github.com/htw-imi-info2/learn-python-with-tests)
-- [htw-imi-info2/python-programming-exercises](https://github.com/htw-imi-info2/python-programming-exercises)
-- Compiled Examples from Sedgewick, Wayne and Dondero: [htw-imi-info2/programming-in-python-code-examples](https://github.com/htw-imi-info2/programming-in-python-code-examples)
+- [htw-imi-info3/learn-python-with-tests](https://github.com/htw-imi-info3/learn-python-with-tests)
+- [htw-imi-info3/python-programming-exercises](https://github.com/htw-imi-info3/python-programming-exercises)
+- Compiled Examples from Sedgewick, Wayne and Dondero: [htw-imi-info3/programming-in-python-code-examples](https://github.com/htw-imi-info3/programming-in-python-code-examples)
 
 
 ## Other interesting stuff & Libraries
