@@ -2,7 +2,7 @@
 title: GIT Intro
 author: kleinen
 tools: ['git']
-courses: ['info2']
+courses: ['info2', 'info3']
 ---
 
 ## Source Code Management mit GIT
