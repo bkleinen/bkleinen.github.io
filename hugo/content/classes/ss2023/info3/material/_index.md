@@ -7,7 +7,8 @@ draft: false
 
 ## Material on This Site
 
-See the [Info3 Class Category in the Materials](/material/courses/info3/) of this Website.
+See the [Info3 Class Category in the Materials](/material/courses/info3/) of this Website, 
+especially [Python](/material/tags/python/)
 
 ## Course Literature and References
 
