@@ -6,7 +6,9 @@ CourseNav: Labs
 draft: false
 ---
 
+## Lab Overview
 
+{{% link title ="1 - Intro to the Lab" link = "../labs/lab-01-startup" %}} 
 
 ## Your time, your progress, your happyness, your responsibility
  You study for your own profit and you spend a lot of time on it. So you are expected to take responsibility for your own learning and happyness, that includes
