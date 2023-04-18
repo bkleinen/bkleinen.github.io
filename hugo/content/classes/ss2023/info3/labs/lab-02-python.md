@@ -6,10 +6,11 @@ draft: false
 
 As always, you need to prepare a report together and each hand in this same report in moodle.
 
-
 ## Part 1: Python Learning with Unit Tests
 
-Continue the collaborative work on the Python Learning Repository: [https://github.com/htw-imi-info3/python-learning](https://github.com/htw-imi-info3/python-learning).
+Continue the collaborative work on the Python Learning Repository: [https://github.com/htw-imi-info3/python-learning](https://github.com/htw-imi-info3/python-learning). 
+
+** note that you need write permissions for the repository! I'll add everyone to the team on github in the labs. **
 
 This part can be done together, but each person must have their own topic/file and each one must commit a new file to the repo and review two other files. However, you can (and should) help each other and discuss them in your group. 
 
@@ -70,15 +71,12 @@ Feel free to do something else with files as long as your example contains glob 
 The next lab will be a larger python script project for which you can pick the topic (and team) freely. Use this week as preparation to collect some Ideas for what you would like to do, for inspiration read through
  the [Table of Contents](https://automatetheboringstuff.com/#toc) of [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) by Al Sweigart.
 
+You can pitch your project Idea in the next lab.
 
 # Write Up and Hand in.
 
-For this lab, you need to hand in a report for the 2nd Part:
-- include the url of your public or readable to me repo in the report and the designated field on moodle.
-- for each experiment, provide a brief documentation of 
-    - commands
-    - sketch (workflow, repos, etc.)
-    - obstacles and solutions if any
+Upload the Report as PDF and the link to your github repository for Part 2 & 3 in Moodle.
+Part 4 does not need to be included
 
 The lab is due at 22:00 on the evening before your next lab.
 
