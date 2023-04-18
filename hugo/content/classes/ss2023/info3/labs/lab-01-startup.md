@@ -4,7 +4,7 @@ author: kleinen
 draft: false
 ---
 
-![Workplace](../images/workplace.jpg "pumpkins")
+![Workplace](../images/workplace.jpg "workplace")
 <small class = "float-right">Nerd Workplace. Foto by [slworking2](https://www.flickr.com/photos/slworking/8539204081/)</small>
 
 
