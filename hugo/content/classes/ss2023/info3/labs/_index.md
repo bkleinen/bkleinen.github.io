@@ -13,7 +13,10 @@ draft: false
 {{% link title ="2 - Python Learning" link = "../labs/lab-02-python" %}} 
 
 {{% link title ="3 - Python Project" link = "../labs/lab-03-pythonproject" %}}
-
+                                                                               
+{{% link title ="4 - Use Cases" link = "../labs/lab-04-usecases" %}}           
+                                                                               
+{{% link title ="5 - Class Diagrams" link = "../labs/lab05-class-diagrams" %}} 
 
 ## Your time, your progress, your happyness, your responsibility
  You study for your own profit and you spend a lot of time on it. So you are expected to take responsibility for your own learning and happyness, that includes
