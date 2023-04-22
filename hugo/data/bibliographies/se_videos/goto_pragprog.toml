@@ -1,0 +1,24 @@
+key = "pragprog_anniversary_2020"
+title = "Anniversary Edition of The Pragmatic Programmer • Dave Thomas & Andy Hunt • GOTO 2020"
+author = "Dave Thomas, Andy Hunt"
+url = "https://www.youtube.com/watch?v=taCNjiiusRk"
+duration = "00:30"
+accessed = "2023-04-22"
+series = "GOTO Conferences"
+series2 = "GOTO book club"
+about = "Interview recorded for the GOTO Book Club, 2020"
+year = 2020
+notes = '''
+Dave Thomas and Andy Hunt talk about writing the first and second edition 
+of the Pragmatic Programmer. 
+
+They also mention the technique of creating a cheat sheet: writing 
+down the important bits and using unit tests to learn something new and 
+attribute it to Matt Clark.
+
+"people mention the dry principle all the time and they get it wrong!"
+
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = ['']

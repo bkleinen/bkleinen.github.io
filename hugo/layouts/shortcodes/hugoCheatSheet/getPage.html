@@ -21,7 +21,7 @@
   {{ $dirFile := $path |  path.Clean | path.Split }}
     {{ $cleanPath := $dirFile.File }}
     - cleanPath: {{ $cleanPath}}
-    - aliases: {{ .Site.Data.aliases}}
+    - aliases: {{ .Site.Data.aliases }}
     - index: {{ index .Site.Data.aliases "info1" }}
   {{ $realPath := index .Site.Data.aliases $cleanPath }}
     - realPath:   {{ $realPath }}

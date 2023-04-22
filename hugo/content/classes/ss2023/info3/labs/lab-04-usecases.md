@@ -1,5 +1,5 @@
 ---
-title: 'Assignment 02 - Use Cases and Class Diagrams'
+title: 'Lab 04 - Use Cases'
 author: kleinen
 layout: page
 draft: true
@@ -10,9 +10,11 @@ draft: true
 
 ## Pre-Lab
 
+
+### 0. 
 ### 1. Know what the lab is about
 
-In this exercise you will develop a detailed Scenario for a Use Case, and draw a Class Diagram for an application called "HTW" - Halloween Treats Worldwide. Have a look at the description of the system:
+In this exercise you will develop a detailed Scenario for a Use Casefor an application called "HTW" - Halloween Treats Worldwide. Have a look at the description of the system:
 
 ---
 

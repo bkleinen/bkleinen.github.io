@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+  <main id="main">
+
+    <div>
+      <h1 id="title">{{ .Title }}</h1>
+
+      <hr>
+      {{ range $.Site.Data.bibliographies.se_videos }}
+            {{- partial "bibentry.html" . }}
+      {{ end }}
+    </div>
+  </main>
+
+  {{ end }}
+
+  {{ define "template" }}theme: layouts/bibliography/list.html{{ end }}

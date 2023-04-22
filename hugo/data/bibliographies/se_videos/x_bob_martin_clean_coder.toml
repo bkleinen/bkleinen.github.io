@@ -1,0 +1,24 @@
+
+
+key = "bob_martin_clean_coder"
+author = "Bob Martin"
+title = "The Clean Coder"
+duration = "01:05"
+url = "https://www.youtube.com/watch?v=6wDoopbtEqk&t=531s"
+accessed = "2023-04-22"
+series = "Laracon US 2018 / StreamACon Streaming Conferences"
+series_url = "https://www.youtube.com/watch?v=3eyftAR5ilo&list=PL-yJve--iT5oM2LgF37VXsBb8Os4ZulIc"
+year = 2018
+about = "Talk at Laracon 2018"
+#c about_url = "https://www.youtube.com/watch?v=3eyftAR5ilo&list=PL-yJve--iT5oM2LgF37VXsBb8Os4ZulIc"
+notes = '''
+Entertaining Talk about the importance of software design
+and Clean Code, starting with the origins of object oriented design
+as described by Ivar Jacobson, Use Cases, the origins of MVC. 
+
+Not recommended as an introduction, rather for entertainment and reflection at the end of term 
+(Sai Dubbaka in the comments: ": You know you're a geek when you start to prefer these kind of talks to standup comedy.")
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = ['usecases', 'oo']

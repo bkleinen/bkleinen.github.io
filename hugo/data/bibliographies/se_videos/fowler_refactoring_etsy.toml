@@ -1,0 +1,19 @@
+key = "fowler_refactoring_etsy"
+author = "Martin Fowler"
+title = "Software Design in the 21st Century"
+duration = "01:00"
+url = "https://www.youtube.com/watch?v=6wDoopbtEqk&t=531s"
+accessed = "2023-04-22"
+series = "Etsy Eng"
+series_url = "https://www.youtube.com/@etsyengineering"
+year = 2020
+about = "Invited Talk at Etsy Brooklyn office on Feb 28, 2019"
+about_url = "https://www.etsy.com/codeascraft/events/martin-fowler-software-design-in-the-21st-century"
+
+notes = '''
+Introduction to Refactoring, based on the 2nd edition of the Refactoring Book by Martin Fowler.
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = ['refactoring']
+media = ['video']
