@@ -1,0 +1,14 @@
+<dt>
+    {{ .author }} ({{ .year }}): <i> <a href = "{{.url}}">{{ .title }}. </a></i> {{ .address}}: {{.publisher}}
+</dt>
+<dd>
+    {{  range .tags}}
+        {{ . }}, 
+    {{ end }}
+<br/>
+    {{ .notes}} (see <a href = "{{ .about_url }}">{{ .about_url }}</a>)
+
+</dd>
+
+
+<hr>

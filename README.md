@@ -118,3 +118,23 @@ tbd
     echo "# this file is generated! see README.md" > hugo/data/aliases.yml
     echo "# the source is the aliases front matter of the resp pages" > hugo/data/aliases.yml
     grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" > hugo/data/aliases.yml
+
+
+## empty bib entry
+type = "video"
+key =
+author =
+title =
+duration =
+url =
+accessed =
+series =
+series_url =
+year =
+about =
+# about_url =
+notes = '''
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = []

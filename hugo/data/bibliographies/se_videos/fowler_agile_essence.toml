@@ -1,0 +1,20 @@
+
+
+type = "video"
+key = "fowler_agile_essence"
+author = "Martin Fowler"
+title = "Agile Essence and Fluency"
+duration = "00:25"
+url = "https://www.youtube.com/watch?v=URlnxbaHhTs&list=RDLV6wDoopbtEqk&index=13"
+accessed = "2023-04-22"
+series = "ThoughtWorks XCONF 2014"
+series_url = "https://www.thoughtworks.com/about-us/events"
+year = 2015
+about = "Talk on ThoughtWorks XCONF 2014"
+# about_url =
+notes = '''
+Overview of the Agile Approach as opposed to Engineering and Taylorism.
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = ['agile']

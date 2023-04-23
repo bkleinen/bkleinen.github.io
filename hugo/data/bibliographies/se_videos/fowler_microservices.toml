@@ -1,0 +1,18 @@
+key = "fowler_microservices"
+author = "Martin Fowler"
+title = "Microservices"
+duration = "00:29"
+url = "https://www.youtube.com/watch?v=z8qhToMtYRc&list=RDLV6wDoopbtEqk&index=12"
+accessed = "2023-04-22"
+series = "YOW! 2016"
+# series_url =
+year = 2016
+about = "Talk on YOW! 2016"
+#c about_url =
+notes = '''
+Introduction to Microservices.
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = []
+draft = "true"

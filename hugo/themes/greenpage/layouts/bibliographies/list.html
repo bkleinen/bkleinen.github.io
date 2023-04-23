@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ .Content }}
-{{ range .Pages }}
- {{ . }}
-{{ end }}
+
+<hr/>
+{{ partial "sc_partials/subpages.html" (dict "page" . "depth" 4) }}
 
 {{ end }}

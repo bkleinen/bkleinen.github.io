@@ -1,0 +1,17 @@
+key = "agile_manifesto_retake"
+author = "Humble, Thomas, Badiceanu, Fowler & Kirk"
+title = "A Retake on the Agile Manifesto"
+duration = "01:45"
+url = "https://www.youtube.com/watch?v=zNvmjPzdqKc"
+accessed = "2023-04-22"
+series = "GOTO 2014"
+# series_url = 
+year = 2014
+about = "Panel at GoTo 2014"
+# about_url =
+notes = '''
+- Martin Fowler tells the history of the agile manifesto.
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = []

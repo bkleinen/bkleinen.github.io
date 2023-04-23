@@ -2,14 +2,16 @@
 
 {{ .Content }}
 
+{{ $entries := index $.Site.Data.bibliographies .Params.bibliography }}
+
   <main id="main">
 
     <div>
       <h1 id="title">{{ .Title }}</h1>
 
       <hr>
-      {{ range $.Site.Data.bibliographies.se_videos }}
-            {{- partial "bibentry.html" . }}
+      {{ range $entries }}
+            {{- partial "bibentry/switch.html" . }}
       {{ end }}
     </div>
   </main>

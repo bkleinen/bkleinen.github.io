@@ -1,9 +1,9 @@
 ---
-title: Videos Software Engineering
+title: Bibliography Software Engineering 
 date: 2023-04-22
-draft: false
+draft: true
 languages: []
 tags: [ 'refactoring', 'software-engineering' ]
 courses: [ 'info3']
-bibliography: se_videos
+bibliography: se_resources
 ---

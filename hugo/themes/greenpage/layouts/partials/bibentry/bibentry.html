@@ -2,6 +2,10 @@
     {{ .author }} ({{ .year }}): <i> <a href = "{{.url}}">{{ .title }}. ({{ .duration}})</a></i>
 </dt>
 <dd>
+    {{  range .tags}}
+        {{ . }}, 
+    {{ end }}
+<br/>
     {{ .notes}}
 
 <br/><br/>

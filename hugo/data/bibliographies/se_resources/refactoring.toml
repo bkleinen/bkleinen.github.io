@@ -1,0 +1,26 @@
+type = "book"
+key = "refactoring"
+author = "Martin Fowler"
+title = "Refactoring. Improving the Design of Existing Code (2nd Edition)"
+publisher = "Addison-Wesley Signature Series (Fowler)"
+address = "Boston"
+year = "2018"
+about = "*The* Refactoring Book, 2nd edition."
+url = "https://martinfowler.com/books/refactoring.html"
+about_url = "https://refactoring.com/"
+notes = '''
+*The* Refactoring Book, 2nd edition. The refactorings are listed on the Refactoring Web Site , 
+for the full text you need to read the book.
+'''
+
+tags = []
+
+
+# @book{CitekeyBook,
+#   author    = "Leonard Susskind and George Hrabovsky",
+#   title     = "Classical mechanics: the theoretical minimum",
+#   publisher = "Penguin Random House",
+#   address   = "New York, NY",
+#   year      = 2014
+# }
+

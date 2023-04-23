@@ -1,0 +1,15 @@
+key = "bob_martin_clean_code_lessons"
+author = "Bob Martin"
+title = "Clean Code"
+duration = "6 Videos of about 1-2h"
+url = "https://www.youtube.com/playlist?list=PLdpsE-GEhYVn_81kDPo1mwE73UgYCeMLu"
+accessed = "2023-04-22"
+series = "Clean Code - Robert C. Martin (Uncle Bob)"
+year = 2018
+about = "Detailed Clean Code Lessons"
+#c about_url = "https://www.youtube.com/watch?v=3eyftAR5ilo&list=PL-yJve--iT5oM2LgF37VXsBb8Os4ZulIc"
+notes = '''
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = ['usecases', 'oo']
