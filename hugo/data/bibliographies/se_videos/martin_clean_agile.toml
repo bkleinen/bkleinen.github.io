@@ -1,0 +1,17 @@
+key = "martin_clean_agile"
+type = "video"
+author = "Bob Martin"
+title = "Cl"
+duration = ""
+url = ""
+accessed = ""
+series = ""
+series_url = ""
+year = ""
+about = ""
+# about_url = ""
+notes = '''
+'''
+media_type = "Video"
+media_provider = "YouTube"
+tags = []

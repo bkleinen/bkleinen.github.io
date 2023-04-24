@@ -7,8 +7,11 @@ draft: false
 
 ## Material on This Site
 
-See the [Info3 Class Category in the Materials](/material/courses/info3/) of this Website, 
-especially [Python](/material/tags/python/)
+* the [Info3 Class Category in the Materials](/material/courses/info3/) on this Website, 
+* especially [Python](/material/tags/python/)
+* [Playlist UML](https://www.youtube.com/playlist?list=PL_GMRjCs0Ky3-36BkT3vRwdHb-0g3sgpO)
+* [Git Intro](http://localhost:4242/~kleinen/material/git-intro/)
+* I've started a collection on Software-Engineering Videos, they will become relevant later on: [SE-Videos](/bibliographies/se_videos/)
 
 ## Course Literature and References
 

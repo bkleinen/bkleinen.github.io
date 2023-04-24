@@ -2,11 +2,6 @@
 title: Info2 Sommersemester 2015
 author: kleinen
 layout: default
-courseNavInt:
-- title: Schedule
-  link: "/classes/ss2015/info2/schedule"
-- title: Labs
-  link: "/classes/ss2015/info2/labs"
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=5941
@@ -14,8 +9,8 @@ courseNavExt:
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=102655
 - title: Github
   link: https://github.com/htw-imi-info2
+CourseNav: Info2
 ---
-
 
 # News: Development of an Info1/2 Q&A Application
 

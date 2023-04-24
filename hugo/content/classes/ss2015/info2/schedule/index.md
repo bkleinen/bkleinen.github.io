@@ -2,7 +2,8 @@
 title:  Info2 SS2015 Schedule
 author: kleinen
 layout: default
-wide_layout: true
+CourseNav: Schedule
+weight: 20
 ---
 
 

@@ -2,6 +2,8 @@
 title: Info2 SS2015 - Labs and Exercises
 author: kleinen
 layout: page
+CourseNav: Labs
+weight: 40
 ---
 
 
