@@ -2,7 +2,7 @@
 title: WTAT 1
 author: kerth
 draft: false
-
+weight: 40
 courseNavInt:
 - title: WTAT1
   link: "/classes/ss2023/wtat1/"

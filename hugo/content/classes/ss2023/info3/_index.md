@@ -3,6 +3,7 @@ title:  B15 Informatik 3 (Info3)
 author: kleinen
 CourseNav: Info3
 aliases: /info3/
+weight: 10
 
 
 # ersetzt durch CourseNav: in pages

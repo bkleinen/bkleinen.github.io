@@ -1,52 +1,61 @@
 ---
-title: 'Lab 04 - Use Cases'
+title: 'Lab 04 - Use Cases and Class Diagrams Part I'
 author: kleinen
 layout: page
-draft: true
+draft: false
 ---
 
-![Diagram](../images/effective-diagrams.jpg "pumpkins")
-<small class = "float-right">The Art and Science of Diagramming. Foto by [Gary Barber](https://www.flickr.com/photos/cannedtuna/8115853847)</small>
+![Table](../images/study-partner.jpg "pumpkins")
+<small class = "float-right">Foto by [Marvin Meyer](https://unsplash.com/photos/SYTO3xs06fU)</small>
+
 
 ## Pre-Lab
 
-
-### 0. 
 ### 1. Know what the lab is about
 
-In this exercise you will develop a detailed Scenario for a Use Casefor an application called "HTW" - Halloween Treats Worldwide. Have a look at the description of the system:
+In this exercise you will do the first part of working on a 
+- Use Case Diagram
+- Scenarios
+- A Class Diagram
+for an application called "StudyPartner". 
 
----
 
-#### Halloween Treats Worldwide
 
-![Pumpkins](../images/pumpkins-wide.jpg "pumpkins")
-<small class = "float-right">Foto by [Pedro J. Ferreira](https://www.flickr.com/photos/pedroferrer/3615212504)</small>
+#### 2.  Study Partner App
 
-Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats.
-The product manager has asked you to design and develop the platform for their business.
+The Product Manager has asked you to design and develop the app for IMI:
 
-Users of the site need to be able to search the treats offers - mostly pumpkins, but also all other kinds of Halloween treats.
-For Pumpkins, they need to find information on the type of Pumpkin, it's size and weight,
-and of course it's price and whether it has been carved already.
+ **Study Partner** is planned to be an application where IMI-Students can find and meet fellow IMI-Students for various kinds of joint study activities. 
 
-Users should be able to buy a pumpkin online and have it delivered to an address of their choice.
-They can pay via various payment methods, at least money transfer, credit card and a popular online payment service called MoneyPal.
+IMI-Students can find other IMI-Students to study together. This can be either for
+1. Joint Study: study a specific topic or for a specific exam together
+2. Body Doubling: study / work together at the same time for mutual accountability and motivation, either in a face-to-face meeting or via video conferencing (called body-doubling in the ADHD community)
+3. Exchange: find other students for either exchange about a specific topic or even planning a joint project together (e.g. Independent Courework, practical project, bachelors/masters thesis)
+4. Tandem: find other student(s) that can help with one thing and offer help with something different as exchange.
 
-As this is an international service, treat/product descriptions should be available in various languages,
-for the first phase English and German should be made available.
 
-Users should also be able to rate the treats and post reviews and fotos. Administrators can edit and delete those reviews as needed.
+Users of the StudyPartner Application need to be able to search for existing offers on the site and post their own request/offer. These are called Requests, and according to the four abovementioned categories, they may be time-based or topic-based.
 
-Administrators are also responsible for maintaining the information about available products/treats.
+Depending on the Category of the Request, they need to be able to enter additional information for the Request:
+- Topic
+- Location or Video Conference information
+- TimeSlot for Body-Doubling (this should be a concrete short time span, which might be recurring weekly during a semester)
+- Topic and Longer Description for Exchange
+- Request and possible offers for Tandem
 
-The system should also support the back end, that is, the shipment and invoice processes.
-For the first phase, it will be sufficient if packers can print out order information with a list of items to pack for each order,
-and invoices can be printed from the system to be mailed out by administrative staff.
+Students can then take an Offer. After the offer is taken, it can be decided wether others can still join the group or if the group is closed.
 
----
+As the Study Partner app is exploratory, students should be asked to write a review about their experiences and improvement suggestions after the meeting has taken place.
 
-### 2. Learn about Use Cases
+Administrators can see anonymous overviews of requested and actual Meetings and Topics, to 
+reflect on the usage and requirements for support of IMI-Students.
+
+
+#### 3. CRC-Cards
+
+We will do the booch method and [crc cards](http://agilemodeling.com/artifacts/crcModel.htm) in class.
+
+### 4. Learn about Use Cases
 Read and understand the following information about Use Cases:
 
 Use-cases are a szenario-based technique for requirements elicitation. They were first proposed by Ivar Jacobsen as part of his Objectory methodology. There are many different variations on use cases, but the basic idea is to record the situation in which something happens, explain what should happen, and describe any exceptional circumstances which might arise.
@@ -94,27 +103,42 @@ You should realize that every author and every company have their own ways of de
 
 ## Assignment
 
-### Part 1: Use Cases & Scenarios
+This Assignment runs over two weeks, with the second week being a refinement of your work in the first week aided by our reviews in the second lab. Don't worry too much about
+what you do (and hand in) for the first week and for the second week, but make sure that
+you definitely start working in the first week to have something to review the week after!
 
-Identify the use cases in the Halloween Treats Worldwide description and draw a use case diagram.
+### Part 1: Use Cases
+
+#### Week 1: 
+Identify the use cases in the Study Partner App description and draw a use case diagram.
+
+In the pre-lab you read how to write the Use Case Scenarios. In addition to the use case scenarios, it might help if you draw a quick sketch (low fidelity, black and white) of the screen layout, as it is not as straightforward as with the ATM in the example.
+
+#### Week 2:
 
 Then, pick the most important (or interesting) use case. Write down a detailed scenario for that use case (see below). Choose a different use case for each person such that you get a couple covered (that is, everyone has to write a different use case scenario!)
 
-Hint: In the pre-lab you read how to write the Use Case Scenarios. In addition to the use case scenarios, it might help if you draw a quick sketch (low fidelity, black and white) of the screen layout, as it is not as straightforward as with the ATM in the example.
-
 ### Part 2: Class Diagram
 
-Then, draw a Class Diagram for your application. It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes. As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](https://www.agilemodeling.com/artifacts/classDiagram.htm).
+Then, draw a Class Diagram for your application.  As a good introduction to Class Diagrams, I recommend [the one on Scott Ambler's site](https://www.agilemodeling.com/artifacts/classDiagram.htm).
+
+#### Week 1:
+
+For week 1, it is sufficient that you put the classes identified so far in a class diagram.
+
+#### Week 2: 
+
+Refine your Class Diagram.
+It should contain associations (aggregations and compositions, association classes as needed), generalizations, as well as the most important fields and method names of the classes.
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
-* Take part in the peer review activity on Nov. 5 2020
 
 More info on the [Labs](..) page.
 
 ----
 
-Based on [Exercise01][3] by [Prof. Dr. Debora Weber-Wulff][4]
+Based on Exercise01 by Prof. Dr. Debora Weber-Wulff
 
 [2]: https://msdn.microsoft.com/en-us/library/dd409427.aspx
 [3]: https://people.f4.htw-berlin.de/~weberwu/se/Labs/Ex1.shtml
