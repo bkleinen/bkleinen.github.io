@@ -1,7 +1,7 @@
 ---
 title: Bibliographies
 date: 2023-04-22
-draft: true
+draft: false
 ---
 
 Available Bibliographies:

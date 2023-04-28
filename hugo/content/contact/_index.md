@@ -32,7 +32,7 @@ Visiting address:
 
 ## Pronoun
 
-My [pronoun is \"he\"](https://pronoun.is/he).
+My pronoun is he/him / er/ihm.
 
 ## Miscellany
 

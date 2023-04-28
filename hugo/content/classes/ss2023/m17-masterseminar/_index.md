@@ -40,4 +40,4 @@ Further resources:
 - [Abschlussarbeit / HTW](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/)
 - [Abschlussarbeit & Kolloquium / FB4](https://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)
 - [Masterarbeit & Kolloqium / IMI](https://imi-master.htw-berlin.de/studium/masterarbeit-kolloqium/)
-- [How to Abschlussarbeit / BK](https://home.htw-berlin.de/~kleinen/studies/thesis/anleitung/)
+- [How to Abschlussarbeit / BK](/studies/thesis/anleitung/)

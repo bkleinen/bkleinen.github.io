@@ -1,12 +1,11 @@
-# these shortcuts/aliases are used in the back to course link in material,
-# they do not work as an url alias.
-  networks:    /classes/ss2022/networks
+# this file is generated from front matter aliases with make aliases_update
+# these shortcuts/aliases are used in the back to course link in material, 
+# they do not work as an url alias!
   info1:    /classes/ss2022/info1
   info2:    /classes/ws2021/info2
   theses:    /classes/ws2021/theses
   project:    /classes/ws2021/project
-  m1-web:    /classes/ss2023/m1-web
-  wt1:    /classes/ws2021/m-wt1-webapplications
   info3:    /classes/ss2023/info3
-  theses:   /
-# hugo/content/material/visual/sketchnotes.md:aliases: 'sketchnotes'
+  m1-web:    /classes/ss2023/m1-web
+  m17-masterseminar:    /classes/ss2023/m17-masterseminar
+hugo/content/material/visual/sketchnotes.md:aliases: 'sketchnotes'

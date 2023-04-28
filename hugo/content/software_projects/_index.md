@@ -44,7 +44,7 @@ be ported to the MEVN-Stack: [IMI-Map goes MEVN]({{< ref "/classes/ss2021/projec
 
 
 ## Little Things and selected Class Demos
-* [MERN Prototype of the Module Handbook](https://github.com/htw-imi-wtat1/module-handbook), [Demo on Heroku](https://wtat1-module-handbook.herokuapp.com/)
+* [MERN Prototype of the Module Handbook](https://github.com/htw-imi-wtat1/module-handbook)
 * [Lehreinsatzplanungsparser](https://github.com/bkleinen/lehreinsatzplanungsparser) (MEN)
 * [BVG-Graph](https://github.com/bkleinen/bvg-graph) (Rails)
 * [HTW Corona Update](https://github.com/htw-corona-update/htw-corona-update) (shell script, cron)

@@ -3,7 +3,7 @@
 # you can explicitely pass a port, e.g. $ make hugo port=1313
 # open a version with and without drafts in parallel:
 # make hugo hugoWOD
-.PHONY : hugo # only necessary if file with same name exists
+.PHONY : hugo linkCheck
 .RECIPEPREFIX = -
 
 # default port
@@ -103,3 +103,13 @@ linkCheck:
 
 ps:
 - ps -ax | grep hugo
+
+aliases_list:
+- grep -R "aliases: " hugo/content
+
+aliases_update:
+- echo "# this file is generated from front matter aliases with make aliases_update" > hugo/data/aliases.yml
+- echo "# these shortcuts/aliases are used in the back to course link in material, " >> hugo/data/aliases.yml
+- echo "# they do not work as an url alias!"  >> hugo/data/aliases.yml
+- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" >> hugo/data/aliases.yml
+

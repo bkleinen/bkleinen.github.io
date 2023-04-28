@@ -3,7 +3,7 @@ title: "Learn Python with Tests"
 draft: false
 weight: 0
 tags: ['python']
-courses: [ 'info3']
+courses: [ 'info3', 'info2']
 languages: ['python']
 ---
 

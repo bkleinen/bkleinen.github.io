@@ -1,20 +1,23 @@
 {{ define "main" }}
 
+<h2>content/debug/_index.html</h2>
 {{ .Content }}
 
 <h2>layouts/debug/list.html</h2>
-{{ .Site.Data.aliases }}
+
 <h2>Aliases</h2>
 <ul>
 <li>Defined in data/aliases
-<li>.Site.Data.aliases
+<li>.Site.Data.aliases:<br/>
+    {{ .Site.Data.aliases }}
 
-aliases: /wt1/
-
-{{ .Site.Data.aliases }}
+<ul>
 {{ range $key, $value := .Site.Data.aliases }}
 <li><a href="{{ site.BaseURL }}{{ $key }}">{{ $key }}->{{ $value }}</a></li>
 {{ end }}
+</ul>
+
+
 </ul>
 
 {{ end }}

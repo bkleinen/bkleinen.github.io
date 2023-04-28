@@ -105,20 +105,21 @@ The Classes Subnavigation consists of an internal part (subpages) and external p
 ## Book Topology
 tbd
 
+# Useful Shortcuts
+
+```
+{{<alert info>}}
+
+{{</alert>}}
+
+```
 
 # Aliases
 
-## find aliases
-
-    grep -R "aliases: " hugo/content
+see Makefile and data/aliases.yml
 
 
-## update aliases data file:
-
-    echo "# this file is generated! see README.md" > hugo/data/aliases.yml
-    echo "# the source is the aliases front matter of the resp pages" > hugo/data/aliases.yml
-    grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" > hugo/data/aliases.yml
-
+# Bibliography
 
 ## empty bib entry
 type = "video"

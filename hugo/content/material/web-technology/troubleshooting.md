@@ -2,6 +2,9 @@
 title: Troubleshooting
 author: kleinen
 layout: page
+tools: []
+tags: ['practices']
+courses: []
 ---
 ## Troubleshooting Steps for Rails
 

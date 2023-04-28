@@ -21,6 +21,9 @@
 </div>
 <hr/>
 -->
+<div class = "box">
+{{ .Content }}
+</div>
 
 <div class = "box">
   <h4>Classes Summer Term 2023</h4>
@@ -37,6 +40,9 @@
   {{ end }}
 </div>
 -->
+
+
+
 <a href="{{ site.BaseURL }}/classes/">All Classes (Archive)</a>
 
 <br/><br/>
@@ -59,8 +65,6 @@
 
 </div>
 
-
-{{ .Content }}
 
 {{ if (and false (or (.Site.IsServer) (not (eq hugo.Environment "production")))) }}
 <h3>Complete Sitemap:</h3>
