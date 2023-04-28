@@ -113,3 +113,11 @@ aliases_update:
 - echo "# they do not work as an url alias!"  >> hugo/data/aliases.yml
 - grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" >> hugo/data/aliases.yml
 
+
+
+linkcheckmd_build_docker_image:
+- docker build linkcheck/linkcheckmd -t bkleinen/linkcheckmd
+
+pwd = $(shell pwd)
+linkcheckmd:
+- docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd /site/hugo/content
