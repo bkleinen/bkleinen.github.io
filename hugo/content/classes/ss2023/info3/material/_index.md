@@ -10,8 +10,8 @@ draft: false
 * the [Info3 Class Category in the Materials](/material/courses/info3/) on this Website, 
 * especially [Python](/material/tags/python/)
 * [Playlist UML](https://www.youtube.com/playlist?list=PL_GMRjCs0Ky3-36BkT3vRwdHb-0g3sgpO)
-* [Git Intro](material/git-intro/)
-* I've started a collection on Software-Engineering Videos, they will become relevant later on: [SE-Videos](bibliographies/se_videos/)
+* [Git Intro](/material/git-intro/)
+* I've started a collection on Software-Engineering Videos, they will become relevant later on: [SE-Videos](/bibliographies/se_videos/)
 
 ## Course Literature and References
 
@@ -24,7 +24,7 @@ outdated next year - some of them might even be the same age as some of you.
 | Reference                                                                                                                                         | Link                                                                                                                                                                                              |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Robert C. Martin: _Clean Code: A Handbook of Agile Software Craftsmanship_. Prentice Hall, 2008.                                                  | [Homepage der Clean-Code Initiative](https://www.clean-code-developer.de/) (german)                                                                                                               |
-| Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006                                         | [SOLID](https://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles                                                                                                                     |
+| Robert C. Martin and Micah Martin: _Agile Principles, Patterns, and Practices in C#_. Prentice Hall, 2006                                         | [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) Principles                                                                                                                     |
 | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: _Design Patterns. Elements of Reusable Object-Oriented Software._ Addison-Wesley, 1994. | [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern) is pretty good for them.                                                                                                       |
 | Martin Fowler: _Patterns of Enterprise Application Architecture_. Addison-Wesley, 2002.                                                           | [EAA Website](https://martinfowler.com/eaaCatalog/)                                                                                                                                               |
 | Sandi Metz: 99 Bottles of OOP - second Edition                                                                                                    | [Book Website](https://sandimetz.com/99bottles) If you consider purchasing this book, email me for a discount code.                                                                               |

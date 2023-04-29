@@ -1,82 +1,53 @@
 ---
-title: 'Assignment 04: Testing'
+title: 'Exercise 08 - Testing'
 author: kleinen
 draft: true
+weight: 80
 ---
 ![Test Button](../images/test-button.jpg)
 <small class = "float-right">Test Button in Car. [Foto by Mike Roberts](https://www.flickr.com/photos/cosmic_spanner/3766667411)</small>
 
-## Assignment
+## Download the source code snippets for this assignment.
+Source Code for this Assignment: [https://github.com/htw-imi-info3-archive/lab-04-testing](https://github.com/htw-imi-info3-archive/lab-04-testing)
 
-### Preparation
-1. Download the source code snippets for this assignment: [lab04-testing](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing)
-2. Prepare your project [like we did it in the first lab](../lab-01-startup) (Part 1: Set up the git repository and project). Note that this is now lab04, so  make sure you adapt your process to that! Eg. put the project into [the correct place on the gitlab server](https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab04).
-3. In addition to what you've covered in class, please have a look at [black-box][1] and [white-box][2] testing.
+## A. Black and White Box Tests
 
-### Part 1: Equivalence Classes
-4. Using the black-box methodology, what are the equivalence classes for testing *a method that determines the absolute value of an integer*? Don't look at the code yet.
-5. Now check out [`number.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/number.js). For a white-box test, what would be test cases covering each branch?
-6. Based on your analysis, define suitable test cases for `number.js` and implement them with jest in the `test` folder.
-7. Run your tests: `npm test number`. Report on the results.
-8. Lint and correct your code: `npm run lint test/number.test.js`.
+In addition to what we've covered in class, please have a look at [black-box](https://en.wikipedia.org/wiki/Black_box_testing) and white-box [Wikipedia](https://en.wikipedia.org/wiki/White_box_testing) [Article on geeksforgeeks](https://www.geeksforgeeks.org/software-engineering-white-box-testing/) testing.
 
-### Part 2: Black Box Tests
-9. **Black-box test**: Look at the following grading scale (which is not the grading scale for this course).
+1. **Getting started:**  Give the equivalence classes for testing a method that determines the absolute value of an integer using the black-box methodology. Don't peek at the code yet! Now check out [`absolute.java`](https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/absolute.java) in the repository and give test cases covering each branch for a white-box test. Define suitable test cases based on your analysis and implement them with JUnit.
+2. **Black-box test**: Look at the grading scale at the bottom of the page (Which is not the [grading scale for this course]({{ site.BaseURL }}/studies/grading/grading-scale)). Give the   equivalence classes for a program that loops until a "-1"  is entered, asking for the number   of points on this scale, prints the appropriate letter grade (A-F), and then prints the   average number of points when "-1" has been entered. Develop one test case for each   equivalence class. Test your test cases with [GradingScale.class](https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/GradingScale.class) - this is a java programm. No fair decompiling the   class! Report on the results. Did you find any errors?
+3. **White-box test** / path coverage: Examine the code for [TaxTime.java](https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java). Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
+4. **Reflection** Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?
 
-| Points | Grade | Letter Grade |
-|:-------|:------|:-------------|
-| 95-100 | 1,0   | A            |
-| 90-94  | 1,3   | A            |
-| 85-89  | 1,7   | B            |
-| 80-84  | 2,0   | B            |
-| 75-79  | 2,3   | B            |
-| 70-74  | 2,7   | C            |
-| 65-69  | 3,0   | C            |
-| 60-64  | 3,3   | C            |
-| 55-59  | 3,7   | D            |
-| 50-54  | 4,0   | D            |
-| 0-49   | 5,0   | F            |
-|        |       |              |
 
-What are the equivalence classes for *a program that loops until a "-1"  is entered, asking for the number of points on this scale; prints the appropriate letter grade (A-F), and then prints the average number of points when "-1" has been entered*? Let's call this program "Grading Scale Calculator"
+### Grading Scale (Points = Procent)
 
-10. Define one test case for each equivalence class.
+| Points | Grade | ECTS | Points | Grade | ECTS |
+|:-------|:------|:-----|:-------|:------|:-----|
+| 95-100 | 1,0   | A    | 65-69  | 3,0   | C    |
+| 90-94  | 1,3   | A    | 60-64  | 3,3   | C    |
+| 85-89  | 1,7   | B    | 55-59  | 3,7   | D    |
+| 80-84  | 2,0   | B    | 50-54  | 4,0   | D    |
+| 75-79  | 2,3   | B    | 0-49   | 5,0   | F    |
+| 70-74  | 2,7   | C    |        |       |      |
 
-11. Manually test your test cases by runnig the "Grading Scale Calculator": `node "cliTools/gradingScale.min.js"` (The sources of this program - [Command Line Interface](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/gradingScale.min.js) and [Module](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/gradingScale.min.js) - are [minified](https://www.npmjs.com/package/terser) JavaScript files - don't try to make sense of them). Report on the results. Did you find errors in the "Grading Scale Calculator"?
 
-### Part 3: White Box Tests / Path Coverage
-12. Examine the code for the program "Tax Time": [`cliTools/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/cliTools/taxTime.js). Draw a code graph of the main class. How many independent paths are there?
+## B. Test Driven Development
 
-13. What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions.
+Your task is to develop deletion and reversion of a simple linked list test driven. You can do this either in Java or in Ruby. You find stubs in both languages in the [github repostitory.](https://github.com/htw-imi-info3-archive/lab-04-testing/tree/master/b_test_driven).
 
-14. Define one test case for each path.
+Create a Class Node as Head of a Linked List and develop a method for deleting Nodes in it test driven, that is, develop the Unit Tests first, as we did in class.
 
-15. Manually test the test cases by running "Tax Time": `node "cliTools/taxTime.js"`. Report on your results. Did you find errors in "Tax Time"?
+Choose one of the two methods we discussed in class to help with the assertions/expectations - by either creating a helper (e.g. assert.java) or a toString method as in toString.java.
 
-### Part 4: Refactoring
-16. *Plan* (only plan!) how you would refactor "Tax Time" to make it's functionalities testable with jest. Hint: You would need to separate underlaying functionalities from the view (the part where user interaction happens, or CLI), putting the underlaying functionalities into [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js). But which methods should be in the [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js) module? Which field variables do you need?
+Then, do the same for reversing the list, that is, develop a method reverse() **test driven**. This is a bit tricky but doable with just one pass through the single linked list (in this method if you use a helper function, and it's also possible in one true pass through the whole list). Stick to the test cases, and give it a try - one node at a time!
 
-17. Implement the test cases from (Part 3, Ex 3) with jest in the `test` folder. Your tests should test [`lib/taxTime.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/taxTime.js). Run them with code coverage: `npm run coverage taxTime`. What do you think - is it necessary to reach 100% code coverage?
+Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did.
 
-18. Now actually refactor "Tax Time" so that your tests pass.
+For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list.
 
-19. Lint and improve your code: `npm run lint "cliTools/taxTime.js" "lib/taxTime.js"`.
 
-### Part 5: Test Driven Development
-Your task is to develop deletion and reversion of a simple linked list test driven. Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. You find a stub in [`node.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/node.js). Some tests are already available at [`node.test.js`](https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/test/node.test.js).
+## C. Lab Writeup
 
-20. Look at the class `Node` as a head of a Linked List. Develop the jest unit tests for *deleting Nodes* (which test cases do you need to check?) and then develop a delete method to make your tests pass. Lint and correct your code: `npm run lint lib/node.js`.
+Submit your Report as PDF to moodle. If you want to, you can include all source code in a single zip file. You can upload up to two files to moodle - the pdf and the source code zip file.
 
-21. Then, do the same for *reversing the list*. That is: Test-driven-develop a method reverse(). This is a bit tricky but doable with just one pass through the single linked list. Stick to the test cases, and give it a try - one node at a time! Don't forget to lint and correct your code.
-
-22. For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list. Report on your experiments.
-
-## Results Submission
-* Hand in a link to your repository
-* Hand in a lab report
-* Take part in the oral test on Dec. 10 2020
-
-More info on the [Labs](..) page.
-
-[1]: https://en.wikipedia.org/wiki/Black_box_testing
-[2]: https://en.wikipedia.org/wiki/White_box_testing

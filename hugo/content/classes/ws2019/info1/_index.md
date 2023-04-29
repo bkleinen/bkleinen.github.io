@@ -83,7 +83,7 @@ There will be a 2-hour online examination at the end of the term. The examinatio
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 6th edition.
 
-German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson,  2017, 6. Auflage. [Pearson](https://www.pearson-studium.de/java-lernen-mit-bluej_4.html)
+German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson,  2017, 6. Auflage. [Pearson](https://www.pearson.de/java-lernen-mit-bluej-9783868949117)
 
 There are copies available in the library, and you can also obtain an older edition - examples and chapter order vary, but the general content is mostly the same apart from the newer chapters on lambdas.
 

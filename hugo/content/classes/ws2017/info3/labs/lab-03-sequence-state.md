@@ -36,7 +36,7 @@ If you feel like it, you can continue with a sequence diagram for additional use
 # Part 2:  State Machine Diagrams
 
 ![Machine](../images/machine.jpg "machine")
-<small class = "float-right">Machine. Foto by [Jeff Kubina](https://www.flickr.com/photos/kubina/278696130)</small>
+<small class = "float-right">Machine. Foto by [Jeff Kubina](/broken_link)</small>
 
 For an introduction to state machine diagrams, see [https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm](https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm).
 

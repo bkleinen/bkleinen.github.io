@@ -88,7 +88,7 @@ Labor WHC 576
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
-German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
+German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson.de/java-lernen-mit-bluej-9783868949117)
 
 You can also obtain an older editions - example and chapter order vary, but the general information is the same.
 

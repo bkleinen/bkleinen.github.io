@@ -29,7 +29,7 @@ layout: lab
 
 * * *
 
-From [https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27](https://discuss.joelonsoftware.com/default.asp?joel.3.340775.27)
+From [/broken_link#discuss.joelonsoftware.com/default.asp?joel.3.340775.27](/broken_link)
 
 > Q. Do you know what iteration means?
 > A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and over...

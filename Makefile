@@ -3,7 +3,7 @@
 # you can explicitely pass a port, e.g. $ make hugo port=1313
 # open a version with and without drafts in parallel:
 # make hugo hugoWOD
-.PHONY : hugo linkCheck
+.PHONY : hugo linkCheck linkcheck
 .RECIPEPREFIX = -
 
 # default port
@@ -32,6 +32,13 @@ hugoWT :  hugo/node_modules open
 hugoWOD :  port = 4243
 hugoWOD :  hugo/node_modules openH
 -  hugo  --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
+
+
+hugoLC : port = 4244
+hugoLC : hugo/node_modules  
+-  hugo --environment production --source hugo -p $(port) --baseURL "http://host.docker.internal:4244/~kleinen/"  server --disableFastRender 
+
+
 
 hugoP : port = 4244
 hugoP : hugo/node_modules openH # as published; there might be differences as there are isServer queries
@@ -98,8 +105,7 @@ openI:
 openN:
 - open 	http://localhost:4242/~kleinen/classes/ss2022/networks/
 
-linkCheck:
-- ./linkcheck.sh
+
 
 ps:
 - ps -ax | grep hugo
@@ -111,13 +117,41 @@ aliases_update:
 - echo "# this file is generated from front matter aliases with make aliases_update" > hugo/data/aliases.yml
 - echo "# these shortcuts/aliases are used in the back to course link in material, " >> hugo/data/aliases.yml
 - echo "# they do not work as an url alias!"  >> hugo/data/aliases.yml
-- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)/\(_index.md\)*:aliases: /\([^/]*\)/*%  \3:    \1%g" >> hugo/data/aliases.yml
+#- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)\(/\.md\|\)\(_index.md\)*:aliases: /\([^/]*\)/*%\4:  \1%g" >> hugo/data/aliases.yml
+- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\):aliases: /\([^/]*\)/*%\2:  \1%g" >> hugo/data/aliases.yml
+
+aliases_update_try:
+- echo "# this file is generated from front matter aliases with make aliases_update" > hugo/data/aliases.yml
+- echo "# these shortcuts/aliases are used in the back to course link in material, " >> hugo/data/aliases.yml
+- echo "# they do not work as an url alias!"  >> hugo/data/aliases.yml
+- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\):aliases: /\([^/]*\)/*%\2:  \1%g" 
 
 
+
+# https://hub.docker.com/r/tennox/linkcheck
+
+
+
+# Linkcheckmd
 
 linkcheckmd_build_docker_image:
 - docker build linkcheck/linkcheckmd -t bkleinen/linkcheckmd
 
 pwd = $(shell pwd)
 linkcheckmd:
-- docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd /site/hugo/content
+- docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r /site/hugo/content
+# - docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r -local /site/hugo/content
+
+
+linkcheck:
+- linkcheck http://localhost:4242/~kleinen
+
+linkcheck_external:
+- linkcheck -e http://localhost:4242/~kleinen
+
+
+linkcheck_retired:
+- docker run -p 4244:4244  tennox/linkcheck --external host.docker.internal:4244/~kleinen/
+
+linkCheck_old:
+- ./linkcheck.sh

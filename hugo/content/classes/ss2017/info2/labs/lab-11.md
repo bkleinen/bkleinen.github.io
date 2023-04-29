@@ -31,7 +31,7 @@ can find them on github [https://github.com/htw-imi-info2/ScrabbleCheater](https
 initializes the ScrabbleCheater from a given file. For now, simply store the
 words in a suitable Collection of the Java Collections Framework.
 2. Implement the getNormalized() and equals() methods in [Permutation](https://github.com/htw-imi-info2/ScrabbleCheater/blob/master/src/scrabble/util/Permutation.java). Two Permutations should be equal if one is a permutation of the other - regardless of the actual words they represent. Having a look at the provided test cases and making them run might help with the implementation.
-3. To make the tests for Permutation work, also implement the methods that create Permutations in [PermutationUtilities](https://github.com/htw-imi-info2/ScrabbleCheater/blob/master/src/scrabble/util/PermutationUtilities.java)
+3. To make the tests for Permutation work, also implement the methods that create Permutations in [PermutationUtilities](https://github.com/htw-imi-info2/ScrabbleCheater/blob/version01/src/scrabble/util/PermutationUtilities.java)
 4. now implement the validWordsUsingAllTiles() method in SimpleWordList that returns a Set of
 all the Words that are permutations of a given tile rack. That is, all words of the
 same length of the tile rack that can be build with it and that are in the word list,

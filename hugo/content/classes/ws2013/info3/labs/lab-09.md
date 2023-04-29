@@ -6,7 +6,7 @@ layout: page
 
 
 ![The Gilded Rose](../../images/The_Gilded_Rose.jpg)
-<small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://www.wowwiki.com/Gilded_Rose)</small>
+<small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://wowwiki-archive.fandom.com/wiki/Gilded_Rose)</small>
 
 ## Assignment: Gilded Rose Kata
 
@@ -15,8 +15,8 @@ readme and the GuildedRose class.
 
 
 * Ruby Version: [https://github.com/htw-imi-info3-archive/gilded-rose-kata](https://github.com/htw-imi-info3-archive/gilded-rose-kata)
-* Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3-archive/GildedRoseJavaEclipse](https://github.com/htw-imi-info3-archive/GildedRoseJavaEclipse)
-* Original Version using Maven: [https://github.com/htw-imi-info3-archive/GildedRose](https://github.com/htw-imi-info3-archive/GildedRose)
+* Java/Eclipse Version with Test Stub: [https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRoseJavaEclipse](https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRoseJavaEclipse)
+* Original Version using Maven: [https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose)
 
 
 ### Write Characterization Tests
@@ -58,7 +58,7 @@ If you prefer to use another ide & code coverage tool, you can of course do so.
 
 Get the repository from
 
- * [https://github.com/htw-imi-info3-archive/GildedRoseJavaEclipse](https://github.com/htw-imi-info3-archive/GildedRoseJavaEclipse)
+ * [https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRoseJavaEclipse](https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRoseJavaEclipse)
 
 and import it (Import->General->Existing Projects into Workspace) to Eclipse.
 
@@ -67,7 +67,7 @@ look at it in the lab.
 
 If you want to use Maven, you might want to use the original version:
 
-* [https://github.com/htw-imi-info3-archive/GildedRose](https://github.com/htw-imi-info3-archive/GildedRose)
+* [https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose](https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose)
 
 ### Write Characterization Tests
 In both the Ruby & Java Version I've already provided a stub for the tests.

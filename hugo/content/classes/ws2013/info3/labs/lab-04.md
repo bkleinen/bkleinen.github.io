@@ -5,7 +5,7 @@ layout: page
 ---
 
  ![Machine](../../images/machine.jpg "machine")
- Foto by [Jeff Kubina](https://www.flickr.com/photos/kubina/278696130)
+ Foto by [Jeff Kubina](/broken_link)
 ## Prelab
 Please do read this Introduction to State Machine Diagrams before coming to lab!
 

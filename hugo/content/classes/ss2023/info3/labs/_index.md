@@ -8,6 +8,8 @@ draft: false
 
 ## Lab Overview
 
+{{< subpages  >}}
+
 {{% link title ="1 - Intro to the Lab" link = "../labs/lab-01-startup" %}} 
 
 {{% link title ="2 - Python Learning" link = "../labs/lab-02-python" %}} 

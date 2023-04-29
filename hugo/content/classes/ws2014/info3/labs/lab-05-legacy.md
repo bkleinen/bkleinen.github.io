@@ -6,7 +6,7 @@ layout: page
 
 
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
-<small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://www.wowwiki.com/Gilded_Rose)</small>
+<small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://wowwiki-archive.fandom.com/wiki/Gilded_Rose)</small>
 
 ## Assignment: Gilded Rose Kata
 

@@ -1,8 +1,9 @@
 ---
-title: 'Lab 04 - Use Cases and Class Diagrams Part I'
+title: 'Exercise 04 - Use Cases and Class Diagrams Part I'
 author: kleinen
 layout: page
 draft: false
+weight: 40
 ---
 
 ![Table](../images/study-partner.jpg "pumpkins")

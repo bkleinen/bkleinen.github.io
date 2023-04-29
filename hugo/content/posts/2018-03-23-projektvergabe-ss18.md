@@ -23,7 +23,7 @@ Master
 
 4.4.2018 von 16:00-18:00 im WH-C 348
 
-[https://imi-master.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2018/](https://imi-master.htw-berlin.de/studium/projekte/projekte-im-sommersemester-2018/)
+[https://imi-master.htw-berlin.de/studium/projekte/showtime-und-projekte-im-sommersemester-2018/](https://imi-master.htw-berlin.de/studium/projekte/showtime-und-projekte-im-sommersemester-2018/)
 
 Beide
 ----------

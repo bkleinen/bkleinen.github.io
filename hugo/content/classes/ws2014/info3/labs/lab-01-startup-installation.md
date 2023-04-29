@@ -40,7 +40,7 @@ As a software developer, you need to know the basics of the command line - prefe
 
 You should at least be able to navigate the file system, look at directories, files and their contents, and start commands, at least your text editor, directly from there (which saves you the time of finding first your text editor and then the file again from some dreadful file open dialog).
 
-See [Learning the Shell](https://linuxcommand.org/learning_the_shell.php) for an intro
+See [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) for an intro
 and [Tobi's Cheat Sheet](https://pragtob.github.io/rails-beginner-cheatsheet/) for the absolute basics including Windows specials -
 
 ### Windows
@@ -50,7 +50,7 @@ I have installed Cygwin and added the cygwin bin directory to the Windows path, 
 
 ### The Path
 
-Speaking of that, you should understand the [PATH](https://www.linfo.org/path_env_var.html) - basically a list of directories the shell (the program that reads your commands in the command line) searches for the command.
+Speaking of that, you should understand the [PATH](http://www.linfo.org/path_env_var.html) - basically a list of directories the shell (the program that reads your commands in the command line) searches for the command.
 
 Also, be aware that if you use Windows, programs like git, graphical git clients, cygwin and cmd have different opinions on where your 'home directory' is.
 

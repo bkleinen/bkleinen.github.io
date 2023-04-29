@@ -2,6 +2,7 @@
 title: 'Exercise 03 - Python Project'
 author: kleinen
 draft: false
+weight: 30
 ---
 
 As always, you need to prepare a report together and each hand in this same report in moodle.

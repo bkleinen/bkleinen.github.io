@@ -7,7 +7,7 @@ layout: page
 
 
 ![Machine](../../images/machine.jpg "machine")
-Foto by [Jeff Kubina](https://www.flickr.com/photos/kubina/278696130)
+Foto by [Jeff Kubina](/broken_link)
 
 
 # Pre-Lab

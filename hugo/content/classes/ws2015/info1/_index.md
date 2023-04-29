@@ -65,7 +65,7 @@ There will be a 2-hour online examination at the end of the term. We will have 2
 ## Tutorial and Lernzentrum
 
 If you struggle with this class, need more support with the exercises or simply don't like studying alone:
-There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](https://www.htw-berlin.de/studieninteressierte/lernzentren/lernzentrum-informatik/) that offer opportunities to practice.
+There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](/broken_link) that offer opportunities to practice.
 
 * Tutorial:  Thurdays 15:45-17:15 WH-C 576 (Alexander Becker) [Homepage](https://home.htw-berlin.de/~s0533351/informatik.html)
 
@@ -73,7 +73,7 @@ There is a tutorial held by Alexander Becker and the [Lernzentrum Informatik](ht
 
 Most of this lecture will be based on: D. Barnes; M. Kölling: **Objects first with Java. A Practical Introduction using BlueJ**; Pearson Education. 5th edition.
 
-German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson-studium.de/main/main.asp?page=bookdetails&ProductID=199389)
+German translation: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson, 2012, 5. Auflage. [Pearson](https://www.pearson.de/java-lernen-mit-bluej-9783868949117)
 
 You can also obtain an older edition - examples and chapter order vary, but the general content is the same.
 

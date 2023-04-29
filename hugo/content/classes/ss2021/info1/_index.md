@@ -146,7 +146,7 @@ This Class is based on the Textbook **Objects First with Java - A Practical
 Introduction using BlueJ**, Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
 [Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling). [Pearson Book Page](https://www.pearson-studium.de/objects-first-with-java-a-practical-introduction-using-bluej-global-edition.html)
 
-There is a German translation available: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson,  2017, 6. Auflage. [Pearson Book Page](https://www.pearson-studium.de/java-lernen-mit-bluej_4.html)
+There is a German translation available: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson,  2017, 6. Auflage. [Pearson Book Page](https://www.pearson.de/java-lernen-mit-bluej-9783868949117)
 
 There are copies available in the library, and you can also obtain an older edition - examples and chapter order vary, but the general content is mostly the same apart from the newer chapters on lambdas and streams.
 

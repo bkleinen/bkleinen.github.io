@@ -5,7 +5,7 @@ date: 2021-10-20
 tools: []
 tags: ['sketchnotes']
 courses: ['info1']
-aliases: 'sketchnotes'
+aliases: /sketchnotes/
 toc: true
 ---
 

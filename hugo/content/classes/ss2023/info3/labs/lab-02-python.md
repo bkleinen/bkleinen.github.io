@@ -2,6 +2,7 @@
 title: 'Exercise 02 - Learning Python'
 author: kleinen
 draft: false
+weight: 20
 ---
 
 As always, you need to prepare a report together and each hand in this same report in moodle.
