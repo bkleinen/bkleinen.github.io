@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 02 - Learning Python'
+title: '2 - Learning Python'
 author: kleinen
 draft: false
 weight: 20

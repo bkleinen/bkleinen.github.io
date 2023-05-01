@@ -1,8 +1,8 @@
 ---
-title: 'Exercise 07 - State Machine Diagrams'
+title: '7 - State Machine Diagrams'
 author: kleinen
 layout: page
-draft: true
+draft: false
 weight: 70
 ---
 
@@ -15,6 +15,8 @@ weight: 70
 
 * For an introduction to state machine diagrams, see [https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm](https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm).
 
+* for the parser exercise, have a look at [Finite Automata](https://en.wikipedia.org/wiki/Deterministic_finite_automaton) - in their context of formal languages their typical event is reading a character from an input stream, and can be (and usually are) represented by state machine diagrams.  
+
 
 ### Part 1: State Machine Diagrams
 1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.
@@ -24,6 +26,7 @@ weight: 70
 ```
     [sign] integerpart dot fractional part [E exponent]
 ```
+
 
 ### Part 2: StudyPartner Search States
 

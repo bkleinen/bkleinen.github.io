@@ -9,7 +9,7 @@
 # default port
 port=4242
 
-hugo1 :  hugo/node_modules openBib
+hugo1 :  hugo/node_modules openI
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 openBib:
 - open 	http://localhost:4242/~kleinen/bibliographies
@@ -101,7 +101,7 @@ openSites:
 - open https://bkleinen.github.io/staging/
 - open https://bkleinen.github.io/stagingdrafts/
 openI:
-- open 	http://localhost:4242/~kleinen/classes/ss2022/info1/
+- open 	http://localhost:4242/~kleinen/classes/ss2023/info3/labs
 openN:
 - open 	http://localhost:4242/~kleinen/classes/ss2022/networks/
 

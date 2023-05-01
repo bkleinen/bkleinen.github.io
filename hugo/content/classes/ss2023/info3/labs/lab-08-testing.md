@@ -1,23 +1,48 @@
 ---
-title: 'Exercise 08 - Testing'
+title: '8 - Testing'
 author: kleinen
-draft: true
+draft: false
 weight: 80
 ---
 ![Test Button](../images/test-button.jpg)
 <small class = "float-right">Test Button in Car. [Foto by Mike Roberts](https://www.flickr.com/photos/cosmic_spanner/3766667411)</small>
 
-## Download the source code snippets for this assignment.
-Source Code for this Assignment: [https://github.com/htw-imi-info3-archive/lab-04-testing](https://github.com/htw-imi-info3-archive/lab-04-testing)
+## Pre-Lab
 
-## A. Black and White Box Tests
+#### 1. Read about Closed and Open Box Tests.
 
-In addition to what we've covered in class, please have a look at [black-box](https://en.wikipedia.org/wiki/Black_box_testing) and white-box [Wikipedia](https://en.wikipedia.org/wiki/White_box_testing) [Article on geeksforgeeks](https://www.geeksforgeeks.org/software-engineering-white-box-testing/) testing.
+I chose "Closed and Open Box Tests" as a more inclusive replacement for the terms "closed and open Box" Tests as they are also a better, while still similar metaphor for the strategies they name:
 
-1. **Getting started:**  Give the equivalence classes for testing a method that determines the absolute value of an integer using the black-box methodology. Don't peek at the code yet! Now check out [`absolute.java`](https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/absolute.java) in the repository and give test cases covering each branch for a white-box test. Define suitable test cases based on your analysis and implement them with JUnit.
-2. **Black-box test**: Look at the grading scale at the bottom of the page (Which is not the [grading scale for this course]({{ site.BaseURL }}/studies/grading/grading-scale)). Give the   equivalence classes for a program that loops until a "-1"  is entered, asking for the number   of points on this scale, prints the appropriate letter grade (A-F), and then prints the   average number of points when "-1" has been entered. Develop one test case for each   equivalence class. Test your test cases with [GradingScale.class](https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/GradingScale.class) - this is a java programm. No fair decompiling the   class! Report on the results. Did you find any errors?
-3. **White-box test** / path coverage: Examine the code for [TaxTime.java](https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java). Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
-4. **Reflection** Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?
+- Closed Box Testing is a strategy to find Test Cases without the need to (or beeing able to) look in the Software-Box, that is, usually guided by the specification and the in- and outputs of a system. see [Wikipedia on closed_box_testing](https://en.wikipedia.org/wiki/closed_box_testing)
+- Open Box Testing is a strategy that considers the internal structure of the Software to find useful test cases.  [Wikipedia on open_box_testing](https://en.wikipedia.org/wiki/open_box_testing),  [Article on geeksforgeeks](https://www.geeksforgeeks.org/software-engineering-open-box-testing/))
+
+Why these terms are problematic is described [here](https://news.uoguelph.ca/guides/style-guide/inclusive-language/inclusive-it-language-replacement-terms/) and [here](https://www.acm.org/diversity-inclusion/words-matter).
+There seems to be no consensus about the best replacement, as it is the case for other terms,  e.g. with the new name "main" for the [main branch in git](https://sfconservancy.org/news/2020/jun/23/gitbranchname/), which has been enforced by [githubs change to main](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/) in 2020.
+
+
+#### 2.  Prepare the Source Code.
+
+
+- Download Source Code for this Assignment [https://github.com/htw-imi-info3/lab-testing](https://github.com/htw-imi-info3/lab-testing)
+- find a way to run the provided tests that works for you (command line, IDE, docker...)
+
+## A. Closed Box and Open Box Testing
+
+Remember, Closed and Open Box Testing is a strategy to find appropriate test cases. While some of the examples in these exercises operate on an input set so small it would allow for simply testing on all possible inputs, this exercise is about finding the most effective test cases, as 
+test suites should be kept as small and fast as possible.
+
+This exercise is about defining test cases (and finding bugs). You can do the tests by hand or use the provided examples how to test with pytest. If you use automated tests, make sure that all tests succeed,[ and mark found bugs with xfail(https://docs.pytest.org/en/7.1.x/how-to/skipping.html)].
+
+1. **Getting started:**  Give the equivalence classes for testing a method that determines the absolute value of an integer using the closed-box methodology. Don't peek at the code yet! Now check out [`absolute.py`](https://github.com/htw-imi-info3/lab-testing/blob/main/a_open_and_closed_box_tests/javasource/absolute.java) in the repository and give test cases covering each branch for a open-box test. Define suitable test cases based on your analysis.
+
+
+2. **closed-box test**: Look at the grading scale at the bottom of the page (Which is not the [grading scale for this course](/studies/grading/grading-scale)). Give the   equivalence classes for a program that loops until a "-1"  is entered, asking for the number   of points on this scale, prints the appropriate letter grade (A-F), and then prints the   average number of points when "-1" has been entered. Develop one test case for each   equivalence class. Test your test cases with [GradingScale.class](https://github.com/htw-imi-info3/lab-testing/blob/main/a_open_and_closed_box_tests/GradingScale.class) - this is a java programm. No fair decompiling the class! Report on the results. Did you find any errors?
+
+
+3. **open-box test** / path coverage: Examine the code for [TaxTime.py](https://github.com/htw-imi-info3/lab-testing/blob/main/a_open_and_closed_box_tests/python/tax_time.py). Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?
+
+
+4. **Reflection** Reflect on the differences of the two strategies to find test cases. 
 
 
 ### Grading Scale (Points = Procent)
@@ -34,17 +59,13 @@ In addition to what we've covered in class, please have a look at [black-box](ht
 
 ## B. Test Driven Development
 
-Your task is to develop deletion and reversion of a simple linked list test driven. You can do this either in Java or in Ruby. You find stubs in both languages in the [github repostitory.](https://github.com/htw-imi-info3-archive/lab-04-testing/tree/master/b_test_driven).
+Your task is to develop deletion in and reversion of a linked list using the TDD (Test Driven Development) Approach.  You find stubs in both languages in the [github repostitory.](https://github.com/htw-imi-info3/lab-testing/tree/main/b_test_driven_development/python).
+
+The tests are already there in a useful order, use pytest -x to see only the next failing test.
 
 Create a Class Node as Head of a Linked List and develop a method for deleting Nodes in it test driven, that is, develop the Unit Tests first, as we did in class.
 
-Choose one of the two methods we discussed in class to help with the assertions/expectations - by either creating a helper (e.g. assert.java) or a toString method as in toString.java.
-
-Then, do the same for reversing the list, that is, develop a method reverse() **test driven**. This is a bit tricky but doable with just one pass through the single linked list (in this method if you use a helper function, and it's also possible in one true pass through the whole list). Stick to the test cases, and give it a try - one node at a time!
-
-Note that you need to make decisions on the actual interface of the methods and the whole list while writing the test, as well as on how the anchor for the first element is stored and changed if necessary. Write a short note (possibly as comment in the Test Code) why you decided to do it as you did.
-
-For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion and reversion of a list.
+For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion in and reversion of a list.
 
 
 ## C. Lab Writeup

@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 05 - Use Cases and Class Diagrams Part II'
+title: '5 - Use Cases and Class Diagrams Part II'
 author: kleinen
 layout: page
 draft: false

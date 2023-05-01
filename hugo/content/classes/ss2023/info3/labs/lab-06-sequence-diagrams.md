@@ -1,8 +1,8 @@
 ---
-title: 'Exercise 06 - Sequence Diagrams'
+title: '6 - Sequence Diagrams'
 author: kleinen
 layout: page
-draft: true
+draft: false
 weight: 60
 ---
 
@@ -19,10 +19,13 @@ weight: 60
 
 ### Part 1: Sequence Diagrams of Known Classes
 
-As an introductionary exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:
-    * The [Clock Display](https://github.com/htw-imi-info1/chapter03/tree/master/clock-display-with-GUI) / Use case: timeTick() is called
-    * [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is entered (start() method in SupportSystem)
-    * The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /  Use case: user enters command (method: play() in Game.java)
+As an introductionary exercise for Sequence Diagrams, pick one of the following example projects from Info1 and draw a sequence diagram for the main use case:
+
+* The [Clock Display](https://github.com/htw-imi-info1/chapter03/tree/master/clock-display-with-GUI) / Use case: timeTick() is called
+* [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is entered (start() methodin SupportSystem)
+* The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /  Use case: user enters command (method: play() in Game.java)
+
+If you didn't do Info1 with me / do not know these projects: it doesn't really matter - just read the source code. 
 
 ### Part 2: Sequence Diagrams for the App
 

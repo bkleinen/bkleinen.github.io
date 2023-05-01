@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 01 - Lab Startup'
+title: '1 - Lab Startup'
 author: kleinen
 draft: false
 weight: 10
