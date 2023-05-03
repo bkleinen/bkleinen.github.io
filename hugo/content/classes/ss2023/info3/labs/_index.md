@@ -47,8 +47,6 @@ You are free to organize & switch your teams freely. The only requirement is tha
 You need to
 * work with **repositories** when producing code. Share a link to your repository in the Moodle hand in field (the text field)
 * write a **report** about what you did and your results. Upload your report in the Moodle hand in field (the file field)
-* participate in the **oral test** about the lab (not Lab02 and Lab05)
-* only Lab02 and Lab05: Take part in the **peer reviews**
 
 
 ### Reports

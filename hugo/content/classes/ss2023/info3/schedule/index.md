@@ -36,7 +36,7 @@ This schedule is, more than always, tentative.
 |      |     | Wed 14/06/2023 | SOLID Principles, Refactoring to Patterns                               |     |                                                              |
 | 12   | 25  | Tue 20/06/2023 | SOLID Principles, Refactoring to Patterns                               |     | {{% link use_filename = "True" link = "../labs/lab-10-legacy" %}}                 |
 |      |     | Wed 21/06/2023 | Code Reading                                                            |     |                                                              |
-| 13   | 26  | Tue 27/06/2023 | Application Architectures &  System Models (Ch. 5 ISSE)                 |     | {{% link use_filename = "True" link = "../labs/lab-11-code-reading" %}}           |
+| 13   | 26  | Tue 27/06/2023 | Application Architectures &  System Models                 |     | {{% link use_filename = "True" link = "../labs/lab-11-code-reading" %}}           |
 |      |     | Wed 28/06/2023 | Patterns of Enterprise Application Architecture (POEAA)                 |     |                                                              |
 | 14   | 27  | Tue 04/07/2023 | Web Applications                                                        |     | {{% link use_filename = "True" link = "../labs/lab-12-oo" %}}                     |
 |      |     | Wed 05/07/2023 | Web Applications                                                        |     |                                                              |
