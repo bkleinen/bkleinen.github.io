@@ -19,3 +19,7 @@ courseNavExt:
 LSF bildet die Belegung der Wahlpflichtkurse nicht gut ab; und an jedem Semester gibt es viel Sorge und Aufwand, bis alle Ihre Wahlpflichtkurse gut belegt haben.
 
 Ziel des Projektes ist es hier, durch technische und organisatorische Intervention die Kursbelegung zu verbessern.
+
+Projekt auf der Showtime-Webseite: 
+[https://showtime.f4.htw-berlin.de/ws21/bachelor/b4-bessere-wahlpflichtkursbelegung/](https://showtime.f4.htw-berlin.de/ws21/bachelor/b4-bessere-wahlpflichtkursbelegung/)
+

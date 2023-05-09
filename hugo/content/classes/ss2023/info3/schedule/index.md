@@ -24,8 +24,8 @@ This schedule is, more than always, tentative.
 |      |     | Wed 03/05/2023 | Software Design Patterns (GOF)                                          |     |                                                              |
 | 6    | 19  | Tue 09/05/2023 | Clean Code Intro &  Poster preparation                                  |     | {{% link  link = "../labs/lab-05-usecases-classdiagrams" %}} |
 |      |     | Wed 10/05/2023 | Clean Code Poster Session                                               |     |                                                              |
-| 7    | 20  | Tue 16/05/2023 | e-learning / Software Design Patterns (GOF)                             |     | **Himmelfahrt**                                              |
-|      |     | Wed 17/05/2023 | e-learning / Video Summary                                              |     |                                                              |
+| 7    | 20  | Tue 16/05/2023 | [e-learning / Software Design Patterns (GOF) or Clean Code](../material/e-learning-reviews.md)                           |     | **Himmelfahrt**                                              |
+|      |     | Wed 17/05/2023 | [e-learning / Video Summary](../material/e-learning-videos/)                                              |     |                                                              |
 | 8    | 21  | Tue 23/05/2023 | Software Testing                                                        |     | {{% link  link = "../labs/lab-06-sequence-diagrams" %}}      |
 |      |     | Wed 24/05/2023 | TDD, Code Quality                                                       |     |                                                              |
 | 9    | 22  | Tue 30/05/2023 | Agile Development, Scrum                                                |     | {{% link  link = "../labs/lab-07-state-machines" %}}         |
