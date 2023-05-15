@@ -6,8 +6,6 @@ CourseNav: Schedule
 draft: false
 ---
 
-{{% link  link = "../labs/lab-02-python" %}} 
-{{% link  link = "../labs/lab-03-pythonproject" %}}
 This schedule is, more than always, tentative.
 
 | Week | KW  | Date           | Lecture Topic                                                           |     | Lab (Tue & Wed)                                              |

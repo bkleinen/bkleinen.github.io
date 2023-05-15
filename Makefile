@@ -9,13 +9,15 @@
 # default port
 port=4242
 
+
+hugo :  hugo/node_modules openH
+-  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+
 hugo1 :  hugo/node_modules openI
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 openBib:
 - open 	http://localhost:4242/~kleinen/bibliographies
 
-hugo :  hugo/node_modules openH
--  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 
 debug :  hugo/node_modules
 -  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
