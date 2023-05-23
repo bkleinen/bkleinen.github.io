@@ -13,9 +13,10 @@
   pageref = '/material'
 [[main]]
   identifier = 'debug'
-  name = 'Debug'
+  name = 'Localhost'
   pageref = '/debug'
   weight = -301
+  alert = 'primary'
 ##
 ## Classes
 ##

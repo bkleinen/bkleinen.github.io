@@ -20,10 +20,16 @@
     </div>
 
     {{ else }}
-        {{ if (or (not (eq .Identifier "debug" )) $.Site.IsServer) }}
+        {{ $showNavItem :=  (or   $.Site.IsServer (not (eq .Identifier "debug" ) ) )  }}
+        {{ if $showNavItem }}
+       
         <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}" href="{{ .URL }}">
-          {{ .Name}}
+            {{ if (eq .Identifier "debug" ) }}<div class="alert alert-primary" role="alert">
+            {{ else }}<div>{{ end }} 
+                {{ .Name}}  
+            </div>
         </a>
+      
         {{ end }}
     {{ end }}
 
