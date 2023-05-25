@@ -32,10 +32,11 @@ I expect you to do the following during the course of the semester:
 - Visit a library and find material relevant to your thesis
 - Present a paper at our Journal Club session
 - Give a talk on one of your Independent Courseworks
-- Attend a (virtual) academic conference for at least one day
+- ~~Attend a (virtual) academic conference for at least one day~~~
+- Present a **scientific journal paper** at our Journal Club session
 
 
-Further resources:
+Important Links:
 
 - [Abschlussarbeit / HTW](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/)
 - [Abschlussarbeit & Kolloquium / FB4](https://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)
