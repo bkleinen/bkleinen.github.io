@@ -110,7 +110,8 @@ By toggling the xfail_bug_in_original and xfail_bug_fix flags in [tests/settings
 See [tests/gilded_rose_example_test.py](https://github.com/htw-imi-info3/gilded-rose/blob/main/) for the complete example.
 
 
-#### White Box Tests / Coverage
+
+#### Open Box Tests / Coverage
 
 9. When you cannot think of further tests, run a test coverage tool, e.g. [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) to check wether your tests hit all the branches in the `updateQuality` method:
 
@@ -121,112 +122,97 @@ See [tests/gilded_rose_example_test.py](https://github.com/htw-imi-info3/gilded-
         pytest --cov-report html:term-missing --cov gilded_rose tests
         open term-missing/index.html 
     
-    
+Note that ensuring every branch is hit is effectively the same as Open Box Testing. If needed, add missing test cases.
 
+#### Ensure Bug Toggles Work Correctly
 
-
-
-
-
-pytest --cov gilded_rose tests
-pytest --cov-report term-missing --cov gilded_rose tests
-
-In this first part and week you will develop a thourough test suite
-for the gilded rose to be able to do the refactoring later.
-
-These are Characterization Tests, as they test the behaviour of the
-app as is.
-
-Start by developing them from the specification (remember Closed Box tests from the testing exercise?). If you do this thoroughly, that is, by identifying equivalence classes and testing the boundaries, you will find
-things that do not correspond to the specification are at the least reveal things that are not specified clearly in the specification.
-
-Wether these bugs or inconsistencies should be fixed or not is a design decision depending on the context.
-
-### Mark Bugs and possible Bug Fixes
-pytest offers a possiblity to deal with this uncertainity.
-
-For each Test that you think should actually produce a different result, do the following:
-
-annotate the test with xfail_original_bug.
-create another test asserting the correct outcome and mark it with
-xfail_bug_fix.
-
-the test config (which must be imported from all tests) contains the configuration:
-
-so you start with 
-
+10. Before you start refactoring, make sure that your bug tests work correctly by switching xfail off for the 
+characterisation tests. Now the test should still be green, and you see only xfailing and no xpassing tests.
+```python
 xfail_bug_fix = True
 xfail_bug_in_original = False
+```
 
-which xfails the tests that show the desired, not yet implemented behaviour.
+### 2. Refactor to make the Change Easy
 
-for refactoring, you have various options:
-- open all 
+11. Now refactor `GuildedRose`. Do this in the [gilded_rose/refactored](https://github.com/htw-imi-info3/gilded-rose/tree/main/gilded_rose/refactored) directory (which initially contains a copy of gilded_rose/original).
 
+- Sketch a design that makes the needed change easy, e.g. such that you will only need to add one tiny new class.
+    But first, 
+    have another look at the part of the `Gilded Rose`'s Requirements sheet that concerns refactoring and limitations you face:
+
+```
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
+still works correctly. However, do not alter the Item class or Items property as those belong to the
+goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code
+ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover
+for you).
+
+Just for clarification, an item can never have its Quality increase above 50, however 
+"Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
+```
+
+- Hint: A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item "knowing" how to update it's quality. Unfortunately, you can't do that because the Item class belongs to the goblin. Thus, you will need another solution without the need to change the Item class. Which *programming patterns* can help adding different behaviour without needing to change the Item class itself?
+
+- do the Refactoring. Remember to 
+
+	- do this in tiny steps, keeping the test suite green at all times. 
+	- commit often to be able to revert without loosing too much if you mess things up (see the [Baby Steps](https://kata-log.rocks/baby-steps) constraint)
+
+- as mentioned above, you may find that it is easier change some behaviour towards a more consistent behaviour   during refactoring. Make sure that both flags are set to True during refactoring, so these changes in behaviour do not cause the tests to fail:
+```python
 xfail_bug_fix = True
 xfail_bug_in_original = True
+```
 
-which xfails all of them, so for each pair you should get either one
-xfail and one xpass.
+#### Consolidate Bugs and Bug fixes
 
-this is the easiest option for refactoring as the suite stays green
-no matter if you keep the bug or fix it during refactoring.
+With both variants - bug and no bug - set to xfail, you now cannot be certain of the behaviour of your code without examining the test result very closely. Thus you should
 
-#### for a strict path, you would do the following steps:
-
-xfail_bug_fix = True
-xfail_bug_in_original = False
-
-n xpass == n xfail
-
-- refactor
-
-xfail_bug_fix = True
-xfail_bug_in_original = True
-
-- fix bugs 
-- test first: you can activate them one by one by introducing a third flag like:
-
-xfail_bug_fix_done = False
-
-- arrive at n xpass = xfail with the other set spassing
-
+12. Consolidate the tests. If all bug characterization tests marked with `xfail_bug_in_original`
+fail and all marked with `xfail_bug_fix` succeed, you are good and can simple remove the old characterization tests.
 
 - let the bug fix tests fail by switching xfail off for them:
 
+```python
 xfail_bug_fix = False
 xfail_bug_in_original = True
+```
+
+If you have fixed all bugs, the test suite should now pass with only xfailing tests for the original bugs. 
+
+If not, decide on how to handle each case  - maybe
+it wasn't a bug after all, maybe your refactoring is missing something - and handle it.
+
+Last not least, you can remove the now obsolete bug characterization tests (all marked with  `xfail_bug_in_original`) as they are no longer needed.
+Although, as this is a practice exercise, you may want to keep them around instead without needing to dig in your git history. You may want to skip them now instead:
+For this, you can skip them with skipif() or gather them in a file to be able to skip them all using [skip module](https://docs.pytest.org/en/7.3.x/how-to/skipping.html#skip-all-test-functions-of-a-class-or-module) to exclude them from the test suite) (see [fix_bug branch](https://github.com/htw-imi-info3/gilded-rose/tree/fix_bug/tests) for an example)
+
+### 3. Implement the Easy Change
+
+13. Now, finally, it should be very easy to implement the change, as easy to change is the definition of good design. Read again the new requirements you are supposed to implement, together with the restraints:
 
 
-but the bugs are actually hard to maintain in a more clean code, 
-so going with 
+```
+We have recently signed a supplier of conjured items. This requires an update to our system:
 
-xfail_bug_fix = True
-xfail_bug_in_original = True
+	- "Conjured" items degrade in Quality twice as fast as normal items
 
-during the refactoring is fine.
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still 
+works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the
+corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the
+UpdateQuality method and Items property static if you like, we'll cover for you).
 
-
-
-
-
-
-
-(refactoring reproducing the original behaviour? remove the )
-
-the template hsa an example. copy files for each item class so that you can work in parallel on the tests if you want to.
-
-aged_brie_test.py ....
-
-
+Just for clarification, an item can never have its Quality increase above 50, however 
+"Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
+```
+14. Add test cases for the newly required functionality, mark them with 
+    ```python
+	@pytest.mark.xfail(xfail_new_features, reason="new feature: ... ")
+	```
+	
+15. Implement the new functionality so your tests xpass.
 
 
 
-hierarchy:
 
-QualityRestrictedItems
-  Sulfuras
-  AgingItems
-
-
-../images/The_Gilded_Rose.webp
