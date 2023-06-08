@@ -1,9 +1,9 @@
 ---
-title: '7 - State Machine Diagrams'
+title: '9 - State Machine Diagrams'
 author: kleinen
 layout: page
 draft: false
-weight: 70
+weight: 90
 ---
 
 ![Tape of a fancy Turing Machine](../images/turing-tape.jpg)
@@ -34,7 +34,7 @@ weight: 70
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
-* Take part in the oral test on Nov. 26 2020
+* present your lab in the following lab
 More info on the [Labs](..) page.
 
 ***
