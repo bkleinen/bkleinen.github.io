@@ -1,8 +1,8 @@
 ---
-title: '8 - Testing'
+title: '7 - Testing'
 author: kleinen
 draft: false
-weight: 80
+weight: 70
 ---
 ![Test Button](../images/test-button.jpg)
 <small class = "float-right">Test Button in Car. [Foto by Mike Roberts](https://www.flickr.com/photos/cosmic_spanner/3766667411)</small>

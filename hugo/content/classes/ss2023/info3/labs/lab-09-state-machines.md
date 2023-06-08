@@ -1,9 +1,9 @@
 ---
-title: '7 - State Machine Diagrams'
+title: '9 - State Machine Diagrams'
 author: kleinen
 layout: page
 draft: false
-weight: 70
+weight: 90
 ---
 
 ![Tape of a fancy Turing Machine](../images/turing-tape.jpg)

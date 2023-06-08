@@ -2,7 +2,7 @@
 title: '10 - Legacy Code - Refactoring to Patterns'
 author: kleinen
 draft: true
-weight: 100
+weight: 1000
 ---
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://wowwiki-archive.fandom.com/wiki/Gilded_Rose)</small>
