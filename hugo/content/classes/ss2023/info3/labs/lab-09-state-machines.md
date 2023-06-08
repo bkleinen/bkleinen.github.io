@@ -34,7 +34,7 @@ weight: 70
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
-* Take part in the oral test on Nov. 26 2020
+* present your lab in the following lab
 More info on the [Labs](..) page.
 
 ***
