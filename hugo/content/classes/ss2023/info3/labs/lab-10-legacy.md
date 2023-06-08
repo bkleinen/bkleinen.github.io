@@ -2,6 +2,7 @@
 title: '10 - Legacy Code - Refactoring to Patterns'
 author: kleinen
 draft: true
+toc: true
 weight: 1000
 ---
 ![The Gilded Rose](../images/The_Gilded_Rose.jpg)
