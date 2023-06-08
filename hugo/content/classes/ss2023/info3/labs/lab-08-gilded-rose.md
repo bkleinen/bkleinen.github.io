@@ -1,7 +1,7 @@
 ---
 title: '8 - Gilded Rose'
 author: kleinen
-draft: true
+draft: false
 weight: 80
 ---
 [![The Gilded Rose](../images/The_Gilded_Rose.jpg)](../images/The_Gilded_Rose.webp)

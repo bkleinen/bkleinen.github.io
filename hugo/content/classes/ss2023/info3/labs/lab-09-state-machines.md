@@ -2,7 +2,7 @@
 title: '9 - State Machine Diagrams'
 author: kleinen
 layout: page
-draft: false
+draft: true
 weight: 90
 ---
 
