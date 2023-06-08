@@ -9,15 +9,14 @@ weight: 70
 
 ## Pre-Lab
 
-#### 1. Read about Closed and Open Box Tests.
+#### 1. Read about Closed- and Open-Box Tests.
 
-I chose "Closed and Open Box Tests" as a more inclusive replacement for the terms "closed and open Box" Tests as they are also a better, while still similar metaphor for the strategies they name:
+I chose "Closed- and Open-Box Tests" as a more inclusive replacement for the terms "Black- and White-Box" Tests ([why?](#why-i-replaced-the-terms)). I could not find a general agreement on the best replacements, so I chose this terms as I think they are also even a better metaphor for the strategies to find test cases they describe:
 
-- Closed Box Testing is a strategy to find Test Cases without the need to (or beeing able to) look in the Software-Box, that is, usually guided by the specification and the in- and outputs of a system. see [Wikipedia on closed_box_testing](https://en.wikipedia.org/wiki/closed_box_testing)
-- Open Box Testing is a strategy that considers the internal structure of the Software to find useful test cases.  [Wikipedia on open_box_testing](https://en.wikipedia.org/wiki/open_box_testing),  [Article on geeksforgeeks](https://www.geeksforgeeks.org/software-engineering-open-box-testing/))
+- Closed-Box Testing is a strategy to find Test Cases without the need to (or beeing able to) look in the Source Code ("Software-Box"), that is, usually based on the specification and the in- and outputs of a system. see [Wikipedia on black-box testing](https://en.wikipedia.org/wiki/Black-box_testing)
+- Open-Box Testing is a strategy that considers the internal structure of the Software to find useful test cases.  [Wikipedia on White-Box Testing](https://en.wikipedia.org/wiki/white_box_testing),  [Article on geeksforgeeks](https://www.geeksforgeeks.org/software-engineering-white-box-testing/))
 
-Why these terms are problematic is described [here](https://news.uoguelph.ca/guides/style-guide/inclusive-language/inclusive-it-language-replacement-terms/) and [here](https://www.acm.org/diversity-inclusion/words-matter).
-There seems to be no consensus about the best replacement, as it is the case for other terms,  e.g. with the new name "main" for the [main branch in git](https://sfconservancy.org/news/2020/jun/23/gitbranchname/), which has been enforced by [githubs change to main](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/) in 2020.
+
 
 
 #### 2.  Prepare the Source Code.
@@ -26,12 +25,12 @@ There seems to be no consensus about the best replacement, as it is the case for
 - Download Source Code for this Assignment [https://github.com/htw-imi-info3/lab-testing](https://github.com/htw-imi-info3/lab-testing)
 - find a way to run the provided tests that works for you (command line, IDE, docker...)
 
-## A. Closed Box and Open Box Testing
+## A. Closed-Box and Open-Box Testing
 
-Remember, Closed and Open Box Testing is a strategy to find appropriate test cases. While some of the examples in these exercises operate on an input set so small it would allow for simply testing on all possible inputs, this exercise is about finding the most effective test cases, as 
+Remember, Closed- and Open-Box Testing is a strategy to find appropriate test cases. While some of the examples in these exercises operate on an input set so small it would allow for simply testing on all possible inputs, this exercise is about finding the most effective test cases, as 
 test suites should be kept as small and fast as possible.
 
-This exercise is about defining test cases (and finding bugs). You can do the tests by hand or use the provided examples how to test with pytest. If you use automated tests, make sure that all tests succeed,[ and mark found bugs with xfail(https://docs.pytest.org/en/7.1.x/how-to/skipping.html)].
+This exercise is about defining test cases (and finding bugs). You can do the tests by hand or use the provided examples how to test with pytest. If you use automated tests, make sure that all tests succeed, [and mark found bugs with xfail](https://docs.pytest.org/en/7.1.x/how-to/skipping.html).
 
 1. **Getting started:**  Give the equivalence classes for testing a method that determines the absolute value of an integer using the closed-box methodology. Don't peek at the code yet! Now check out [`absolute.py`](https://github.com/htw-imi-info3/lab-testing/blob/main/a_open_and_closed_box_tests/javasource/absolute.java) in the repository and give test cases covering each branch for a open-box test. Define suitable test cases based on your analysis.
 
@@ -59,16 +58,20 @@ This exercise is about defining test cases (and finding bugs). You can do the te
 
 ## B. Test Driven Development
 
-Your task is to develop deletion in and reversion of a linked list using the TDD (Test Driven Development) Approach.  You find stubs in both languages in the [github repostitory.](https://github.com/htw-imi-info3/lab-testing/tree/main/b_test_driven_development/python).
+Your task is to develop deletion in and reversion of a linked list data structure with a test driven approach.
+I've prepared tests that you can implement (make green) one-by-one - therefore it's not really full TDD (Test Driven Development), as you don't need to write the tests
+yourself. See the [github repostitory.](https://github.com/htw-imi-info3/lab-testing/tree/main/b_test_driven_development/python).
 
-The tests are already there in a useful order, use pytest -x to see only the next failing test.
-
-Create a Class Node as Head of a Linked List and develop a method for deleting Nodes in it test driven, that is, develop the Unit Tests first, as we did in class.
+The tests are already there in a order in which I think they should be implemented, use `pytest -x` to see only the next failing test.
 
 For the bored: Refactor your Code after the Tests are running, and experiment with different implementations for deletion in and reversion of a list.
 
 
 ## C. Lab Writeup
 
-Submit your Report as PDF to moodle. If you want to, you can include all source code in a single zip file. You can upload up to two files to moodle - the pdf and the source code zip file.
+Submit your Report as PDF to moodle, with a link to a repository for the source code.
 
+--
+#### Why I replaced the terms
+Why these terms are problematic is described [here](https://news.uoguelph.ca/guides/style-guide/inclusive-language/inclusive-it-language-replacement-terms/) and [here](https://www.acm.org/diversity-inclusion/words-matter).
+There seems to be no consensus about the best replacement, as it is the case for other terms,  e.g. with the new name "main" for the [main branch in git](https://sfconservancy.org/news/2020/jun/23/gitbranchname/), which has been enforced by [githubs change to main](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/) in 2020.
