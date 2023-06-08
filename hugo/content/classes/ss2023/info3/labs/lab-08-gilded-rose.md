@@ -213,6 +213,27 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 	
 15. Implement the new functionality so your tests xpass.
 
+ Did your new design allow for adding the new requirement by just adding new code, without changing existing code?
+    (Open-Closed Principle) 
+
+## Results Submission
+
+* Hand in a lab report. This can be short this time, only 
+  containing answers to the questions in the instructions above. 
+  (You may want to safe this page for your records, don't include all the steps in the report!)
+
+  Here they are the questions again for your report:
+
+  - Equivalence Classes for Gilded Rose
+  - Found Bugs / Inconsistencies, wether you kept or fixed them
+  - New Design: Class Diagram, Patterns
+  - What did you need to add/change to add the Conjured Items?
+  - Last not least, a link to your repository.
+   
+
+More info on the [Labs](..) page.
+
+
 
 
 
