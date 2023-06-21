@@ -28,13 +28,10 @@ We start on the second week, April 13, 2023!
 
 I expect you to do the following during the course of the semester:
 
-- Learn how to document things you read
+
 - Visit a library and find material relevant to your thesis
 - Present a paper at our Journal Club session
 - Give a talk on one of your Independent Courseworks
-- ~~Attend a (virtual) academic conference for at least one day~~~
-- Present a **scientific journal paper** at our Journal Club session
-
 
 Important Links:
 
