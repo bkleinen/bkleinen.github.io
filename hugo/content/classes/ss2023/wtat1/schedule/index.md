@@ -22,7 +22,8 @@ draft: false
 | 10   | 25  | Scrum Event: Sprint Review         | Unit 5 - Authentication Part II      | Sprint 09 - Passport         | Fri 23/06/2023     | 15:45-17:15     | Presentation Topic H, Microservice Architectures                   |
 | 11   | 26  | Scrum Event: Retrospective         | Unit 6 - Building an API Part I      | Sprint 10 - REST API         | Fri 30/06/2023     | 15:45-17:15     | Presentation Topic I, JWT                                          |
 | 12   | 27  |                                    | Unit 6 - Building an API Part II     | Sprint 11 - Security         | Fri 07/07/2023     | 15:45-17:15     | Presentation Topic J, gRPC                                         |
-| 13   | 28  |                                    | Unit 7 - Real-Time Communication     | Sprint 12 - Socket.io        | Fri 14/07/2023     | 15:45-17:15     | Exam (TBC)                                                         |
+| 13   | 28  |                                    | Unit 7 - Real-Time Communication     | Sprint 12 - Socket.io        | Fri 14/07/2023     | 15:45-17:15     | Presentation Topic D, Cloud Native Development                     |
+| 14   | 29  |                                    |                                      |                              | Fri 21/07/2023     | 15:45-18:45     | Exam                                                               |
 
 This table is to be read as follows:
 During week 2 of the term - which is calendar week 16 - you need to study the agile and tech topic, first individually and then within the team. Furthermore, you need to work on the corresponding sprint and turn in the sprint report by Friday of that week, 22:00h.
