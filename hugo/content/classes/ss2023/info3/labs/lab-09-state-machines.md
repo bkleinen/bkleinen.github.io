@@ -2,7 +2,7 @@
 title: '9 - State Machine Diagrams'
 author: kleinen
 layout: page
-draft: true
+draft: false
 weight: 90
 ---
 
@@ -19,18 +19,22 @@ weight: 90
 
 
 ### Part 1: State Machine Diagrams
+
 1. Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.
+
 2. Model the states an IMI student passes through from the first until the sixth semester. (Glory for the most humorous model that is not offensive.)
+
 3. Model the states of a parser that determines if a given string is a proper floating-point number, i.e. 
 
 ```
     [sign] integerpart dot fractional part [E exponent]
 ```
+Note: This state diagram exercises shows their close relation to Finite State Automata. If you haven't learned about them in Info2, or as a refresher, have a look at this [lab exercise](/classes/ws2021/info2/labs/lab-11/).
 
+### Part 2: StudyPartner Search State Diagram
 
-### Part 2: StudyPartner Search States
-
-1. Model the states of your main class of the app you worked on during the last exercises. 
+1. Where would the concept of States be applicable in the StudyPartner Application?
+2. Draw and Discuss (in the report) a State Diagramm for this Application.
 
 ## Results Submission
 * Hand in a lab report (including your diagrams)
