@@ -1,6 +1,11 @@
 name: Check Markdown links
 
-on: push
+on:
+  push:
+    branches:
+      - 23s_disabled
+    tags-ignore:
+      - 'v*'
 
 jobs:
   markdown-link-check:
