@@ -31,6 +31,12 @@ rssLimit =  10
 
 # disableKinds = ['taxonomy', 'term']
 [permalinks]
-   courses = "/material/courses/:slug/"
-   tools = "/material/tools/:slug/"
-   tags = "/material/tags/:slug/"
+[permalinks.page]
+   courses = "/material/courses/:filename/"
+   tools = "/material/tools/:filename/"
+   tags = "/material/tags/:filename/"
+
+[permalinks.section]
+   courses = "/material/courses/"
+   tools = "/material/tools/"
+   tags = "/material/tags/"
