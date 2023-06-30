@@ -27,4 +27,8 @@ The links to Django Resources are already available:
 
     - [https://github.com/bkleinen/django-tryout](https://github.com/bkleinen/django-tryout)
 
+...
+
+- https://www.tutorialspoint.com/django/django_overview.htm
+
 
