@@ -10,8 +10,12 @@
 port=4242
 
 
-hugo :  hugo/node_modules openH
+
+hugo :  hugo/node_modules open_current # openH
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+
+open_current:
+- open http://localhost:4242/~kleinen/classes/ss2023/info3/labs/lab-10-webapps-1/
 
 hugo1 :  hugo/node_modules openI
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
