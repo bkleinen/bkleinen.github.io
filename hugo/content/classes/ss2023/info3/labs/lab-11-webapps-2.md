@@ -1,7 +1,7 @@
 ---
 title: '11 - Web Applications 2'
 author: kleinen
-draft: true
+draft: false
 weight: 110
 ---
 
@@ -25,11 +25,9 @@ This exercise is about the basic mechanics of forms and handling form data/reque
 
 #### Step 1: Edit a single field.
 
-1. add path
-    - add a `.../<int:pk>/edit` path to `study_buddy_app/urls.py`
-    - import and implement the view
-    - use 
-2. add view: the edit and create views in meetup use Form classes and are quite generic, for now something simple like below would be enough:
+1. **add path:** add a `"resource/<int:pk>/edit"` path to `study_buddy_app/urls.py`
+ 
+2. **add view:** the edit and create views in meetup use Form classes and are quite generic, for the first tryout something simple like this is sufficient:
 
 ```python
     @login_required
@@ -46,11 +44,12 @@ This exercise is about the basic mechanics of forms and handling form data/reque
 
 ```
 
-3. Create a Form: copy the form from meetup and add one text input field for the field you want to edit.
+3. **create a form:** copy the form from meetup and add one text input field for the field you want to edit.
    the input field `name` attribute should match the field name you want to edit, as it will be the key in
    the POST dict.
 
-3. Process: add view to process the post: post on detail view
+3. **process request:** add a view to process the post: implement a 
+`post` method in your `DetailView`:
 The Rest convention is to post to resource/:pk to update an resource. Thus, add a post method to your DetailView, read the field out of the POST parameters, add it to your model and save it.  
 
 ```python
@@ -64,7 +63,7 @@ The Rest convention is to post to resource/:pk to update an resource. Thus, add 
 ```
 
 #### Step 2: Use django Forms 
-... for automatic form creating and validation.
+... for automatic form field rendering and validation.
 
 1. in studybuddy_app/forms.py add a ModelForm for your Resource:
 
@@ -102,7 +101,7 @@ The Rest convention is to post to resource/:pk to update an resource. Thus, add 
 6. examine the parameters in the POST
 open the debug toolbar (icon in the upper right), activate "Intercept redirects", send the edit form again and have a look at the request sent by the form.
 
-Note that the examples here include no error handling at all, they've been kept simple to make the process visible.
+Note that the examples here include no error handling at all, they've been kept simple to make the core process visible.
 If you want to, you can amend them with error handling as in the Meetup example.
        
 ### Write-Up
