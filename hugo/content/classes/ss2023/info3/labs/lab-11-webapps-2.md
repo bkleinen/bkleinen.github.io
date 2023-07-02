@@ -21,7 +21,7 @@ Change the index and home pages (Home and StudyBuddy in the navigation) if appro
 Last Week, you've created a Detail View for your Model. 
 make your model editable by adding the appropriate paths, views and last not least a template with a form for editing your model.
 
-This exercise is about the basic mechanics of forms and handling form data/requests in the app. You don't need to edit associations, and may restrict the number and type of fields if needed.
+This exercise is about the basic mechanics of forms and handling form data/requests in the app.
 
 #### Step 1: Edit a single field.
 
@@ -34,15 +34,15 @@ This exercise is about the basic mechanics of forms and handling form data/reque
 ```python
     @login_required
     def edit(request, pk):
-        proposal = get_object_or_404(Proposal, pk=pk)
-        context = {"proposal": proposal,
+        resource = get_object_or_404(Resource, pk=pk)
+        context = {"resource": resource,
                    "http_method": 'POST',
                    "action_url": reverse(
-                       'studybuddy_app:proposal.detail',
+                       'studybuddy_app:resource.detail',
                        args=(pk,)),
                    "button_text": 'Save'
                    }
-        return render(request, "studybuddy_app/proposal_form.html", context)
+        return render(request, "studybuddy_app/resource_form.html", context)
 
 ```
 
@@ -59,7 +59,7 @@ The Rest convention is to post to resource/:pk to update an resource. Thus, add 
         object.description = request.POST['description']
         object.save()
         return HttpResponseRedirect(
-            reverse("studybuddy_app:proposal.detail",
+            reverse("studybuddy_app:resource.detail",
                     args=[object.id]))
 ```
 
@@ -69,16 +69,16 @@ The Rest convention is to post to resource/:pk to update an resource. Thus, add 
 1. in studybuddy_app/forms.py add a ModelForm for your Resource:
 
 ```python
-    class ProposalForm(forms.ModelForm):
+    class ResourceForm(forms.ModelForm):
         class Meta:
-            model = Proposal
+            model = Resource
         exclude = ('some_field',)
 ```
 
 2. in the view, instantiate the form and add it to the context handed to the template:
 
 ```python
-   form = ProposalForm(instance=proposal)
+   form = ResourceForm(instance=resource)
 ```
 3. add it to the form template - this will render only the fields, keep the form and submit elements:
 
@@ -91,12 +91,16 @@ The Rest convention is to post to resource/:pk to update an resource. Thus, add 
 ```python
     def post(self, request, *args, **kwargs):
         object = self.get_object()
-        form = ProposalForm(request.POST, instance=object)
+        form = ResourceForm(request.POST, instance=object)
         form.save()
         return HttpResponseRedirect(
-            reverse("studybuddy_app:proposal.detail",
+            reverse("studybuddy_app:resource.detail",
                     args=[object.id]))
 ```
+
+5. examine the rendered form html in the browser.
+6. examine the parameters in the POST
+open the debug toolbar (icon in the upper right), activate "Intercept redirects", send the edit form again and have a look at the request sent by the form.
 
 Note that the examples here include no error handling at all, they've been kept simple to make the process visible.
 If you want to, you can amend them with error handling as in the Meetup example.
