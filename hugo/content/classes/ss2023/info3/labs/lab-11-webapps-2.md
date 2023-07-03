@@ -103,6 +103,23 @@ open the debug toolbar (icon in the upper right), activate "Intercept redirects"
 
 Note that the examples here include no error handling at all, they've been kept simple to make the core process visible.
 If you want to, you can amend them with error handling as in the Meetup example.
+
+### For the bored: add model creation
+
+This is done using the same flow as for editing. Instead of 
+
+    edit -> form -> update
+it is
+
+    new -> form -> create
+
+with some minor changes: 
+- new: you start with a new instance of the resource
+- form: you post to the **/resource list** instead to the **/resources/:pk detail** view
+- create: construct new resource from form data
+
+In the edit/update, the resource object is retrieved from the database - for the edit to populate the form, and for the update to
+keep fields that are not updated. This is not necessary (or possible) for create/update.
        
 ### Write-Up
 
