@@ -22,7 +22,13 @@ weight: 100
 ### Part 1: Improve Meetup List
 
 The Meetup Index View ([http://127.0.0.1:8000/studybuddy/meetups](http://127.0.0.1:8000/studybuddy/meetups)) contains a very rudimentary Meetup List.
-- Add the Start Time and number of current Participants to the Table.
+- Add the Start Time and number of current Participants to the Table. Hint: you get the full list of participants - which is a
+many to many associations - like this in the template:
+
+```python
+meetup.participants.all
+```
+
 - use the length and date template filters to format the date and get the length of participants - see the [template doc](https://docs.djangoproject.com/en/4.2/topics/templates/#filters) and the [filter reference](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#ref-templates-builtins-filters). For example:
 
 ```python
