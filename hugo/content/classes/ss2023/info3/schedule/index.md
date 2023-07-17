@@ -37,9 +37,9 @@ This schedule is, more than always, tentative.
 | 13   | 26 | Tue 27/06/2023 | Application Architectures &  System Models                                                   |   | {{% link  use_filename = "True" link = "../labs/lab-09-state-machines" %}} |
 |      |    | Wed 28/06/2023 | Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)              |   |                                                                            |
 | 14   | 27 | Tue 04/07/2023 | More on Inheritance, Composition and Inheritance (Poodr Chapter 8)                           |   | {{% link use_filename = "True" link = "../labs/lab-10-webapps-1" %}}       |
-|      |    | Wed 05/07/2023 | Continuous Integration & Deployment                                                          |   |                                                                            |
-| 15   | 28 | Tue 11/07/2023 | Dependencies & how to test and handle them, Internationalization and Localization            |   | {{% link use_filename = "True" link = "../labs/lab-11-webapps-2" %}}       |
-|      |    | Wed 12/07/2023 | Probeklausur (vorr. WH-C 576)                                                                |   |                                                                            |
+|      |    | Wed 05/07/2023 | Dependencies & how to test and handle them, Internationalization and Localization                                                    |   |                                                                            |
+| 15   | 28 | Tue 11/07/2023 | Continuous Integration & Deployment        |   | {{% link use_filename = "True" link = "../labs/lab-11-webapps-2" %}}       |
+|      |    | Wed 12/07/2023 | Probeklausur (vorr. WH-C 576/579)                                                                |   |                                                                            |
 | 16   | 29 | Tue 18/07/2023 | TBD/Repetition (Exam Period Starts)                                                          |   |                                                                            |
 |      |    | Wed 19/07/2023 | **Exam PZ1**   (refer to LSF for details and the definite time & date!!)                     |   |                                                                            |
 | 17   | 30 | Tue 25/07/2023 |                                                                                              |   |                                                                            |
