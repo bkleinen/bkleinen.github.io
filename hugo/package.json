@@ -18,5 +18,8 @@
   "homepage": "https://github.com/bkleinen/bkleinen.github.io#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "axe-core": "^4.7.2"
   }
 }
