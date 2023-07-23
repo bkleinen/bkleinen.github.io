@@ -6,6 +6,7 @@ CourseNav: Schedule
 draft: false
 ---
 
+
 This schedule is, more than always, tentative.
 
 | Week | KW | Date           | Lecture Topic                                                                                |   | Lab (Tue & Wed)                                                            |
@@ -44,11 +45,14 @@ This schedule is, more than always, tentative.
 |      |    | Wed 19/07/2023 | **Exam PZ1**   (refer to LSF for details and the definite time & date!!)                     |   |                                                                            |
 | 17   | 30 | Tue 25/07/2023 |                                                                                              |   |                                                                            |
 |      |    | Wed 26/07/2023 |                                                                                              |   |                                                                            |
+|      |    | Thu 27/07/2023 |  15:00-16:00 Klausureinsicht in einem der 3 Labs, alternativ ab 9.8. in der [Sprechstunde](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen)
+                  |   |                                                                            |
 | 18   | 31 | Tue 01/08/2023 |                                                                                              |   |                                                                            |
 |      |    | Wed 02/08/2023 |                                                                                              |   |                                                                            |
-|      |    | Fri 04/08/2023 | **[10:00 Showtime in H001!](https://showtime.f4.htw-berlin.de/)**                                                                                           |   |                                                                            |
+|      |    | Fri 04/08/2023 | **[10:00 Showtime in H001!](https://showtime.f4.htw-berlin.de/)**                                                                                           |   |       
+                                                                     |
 
----
+--- 
 
 #### Klausurtermine lt. LSF Stand 27.6.2023:
 
