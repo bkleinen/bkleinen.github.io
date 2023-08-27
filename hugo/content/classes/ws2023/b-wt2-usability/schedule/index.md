@@ -1,5 +1,5 @@
 ---
-title:  WT2 Usability WS 2019/20 Schedule
+title:  WT2 Usability WS 2023/24 Schedule
 author: kleinen
 layout: default
 ---

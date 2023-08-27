@@ -1,7 +1,7 @@
 ---
 title: M17.1 Masterseminar
 author: kleinen
-weight: 20
+weight: 3
 CourseNav: M17 Masterseminar
 aliases: /m17-masterseminar/
 courseNavExt:

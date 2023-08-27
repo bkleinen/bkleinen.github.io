@@ -1,7 +1,7 @@
 ---
-title: WT2 WS 2019/20
+title: B WT2 Usability WS 2023/24
 author: kleinen
-layout: default
+weight: 2
 courseNavInt:
 - title: WT2
   link: "/classes/ws2019/wt2-usability/"

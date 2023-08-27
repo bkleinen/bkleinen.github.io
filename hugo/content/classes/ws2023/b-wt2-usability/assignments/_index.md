@@ -1,5 +1,5 @@
 ---
-title: WT2 WS 2019/20
+title: WT2 WS 2023/24
 author: kleinen
 layout: default
 ---
