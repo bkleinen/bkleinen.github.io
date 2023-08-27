@@ -118,6 +118,8 @@ tbd
 
 see Makefile and data/aliases.yml
 
+    make aliases_update
+    make aliases_list
 
 # Bibliography
 

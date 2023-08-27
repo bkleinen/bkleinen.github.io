@@ -1,6 +1,7 @@
 ---
 title: B WT2 Usability WS 2023/24
 author: kleinen
+aliases: /b-wt2-usability
 weight: 2
 courseNavInt:
 - title: WT2
