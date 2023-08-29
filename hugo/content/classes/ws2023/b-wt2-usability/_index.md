@@ -3,6 +3,7 @@ title: B WT2 Usability WS 2023/24
 author: kleinen
 aliases: /b-wt2-usability
 weight: 2
+draft: true
 courseNavInt:
 - title: WT2
   link: "/classes/ws2019/wt2-usability/"

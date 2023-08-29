@@ -1,6 +1,6 @@
 ---
 title: Winter Term 2023
-draft: true
+draft: false
 author: kleinen
 ---
 

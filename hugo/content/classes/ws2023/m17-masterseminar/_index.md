@@ -1,9 +1,10 @@
 ---
 title: M17.1 Masterseminar
 author: kleinen
-weight: 3
+weight: 4
 CourseNav: M17 Masterseminar
 aliases: /m17-masterseminar/
+draft: true
 courseNavExt:
 - title: Moodle 
   link: https://moodle.htw-berlin.de/course/view.php?id=41542
