@@ -7,6 +7,8 @@ weight: 40
 
 First Draft and Subject to change!
 
+[Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/hugo/content/classes/ws2023/m1-web/schedule/index.md)
+
 Mi.	12:15 bis 13:45	 WH C 579
 | Week | KW  | Date                | Topic Area                              | Lecturer       |
 |:---- |:--- |:------------------- |:--------------------------------------- |:-------------- |
