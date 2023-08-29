@@ -38,7 +38,7 @@ For example, the walk-in-a-square exercise can be solved
 by four times walking an edge, thus, each call to the act()-method should make Kara walk only one edge.</p><p>Make use of <code>Greenfoot.stop()</code> or the method <code>stopAfterStep(n)</code> if you simply want the act-method execute 4 times if you press &ldquo;run&rdquo;, for example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl>     <span class=kd>public</span> <span class=kt>void</span> <span class=nf>act</span><span class=o>()</span>
 </span></span><span class=line><span class=cl>       <span class=o>{</span>
 </span></span><span class=line><span class=cl>           <span class=n>move</span><span class=o>();</span>
-</span></span><span class=line><span class=cl>           <span class=n>stopAfterStep</span><span class=o>(</span><span class=mi>4</span><span class=o>);</span>
+</span></span><span class=line><span class=cl>           <span class=n>stopAfterStep</span><span class=o>(</span><span class=n>4</span><span class=o>);</span>
 </span></span><span class=line><span class=cl>       <span class=o>}</span>
 </span></span></code></pre></div><p>For example, to simply move until you encounter a leaf:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl>     <span class=kd>public</span> <span class=kt>void</span> <span class=nf>act</span><span class=o>()</span>
 </span></span><span class=line><span class=cl>       <span class=o>{</span>
