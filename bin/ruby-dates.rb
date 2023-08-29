@@ -33,7 +33,7 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("06.04.2023"),
+  first_day: Date.parse("04.10.2023"),
   day_diff: 1,
   two_lectures: false,
   step: 7
@@ -42,16 +42,30 @@ course_dates = CourseDates.new(
 # 2. Prüfungszeitraum (Wiederholungsprüfungen) 21.09.2023 – 07.10.2023
 # Semesterdaten
 semester_dates = SemesterDates.new(
-semester_start: Date.parse("1.04.2023"),
-semester_end: Date.parse("05.08.2023"),
+semester_start: Date.parse("01.10.2023"),
+semester_end: Date.parse("03.02.2024"),
 holidays: {
-  "07.04.2023" => "Ostern",
-  "10.04.2023" => "Ostern",
-  "18.05.2023" => "Himmelfahrt",
-  "19.05.2023" => "Himmelfahrt",
-  "22.05.2023" => "Vorlesungsfrei",
-  "29.05.2023" => "Pfingsten",
-  "04.08.2023" => "Showtime",
+  "02.10.2023" => "Vorlesungsfrei",
+  "03.10.2023" => "Feiertag",
+  "04.10.2023" => "Hochschultag, Vorlesungsfrei",
+  "23.12.2023" => "Winterpause",
+  "24.12.2023" => "Winterpause",
+  "25.12.2023" => "Winterpause",
+  "26.12.2023" => "Winterpause",
+  "27.12.2023" => "Winterpause",
+  "28.12.2023" => "Winterpause",
+  "29.12.2023" => "Winterpause",
+  "30.12.2023" => "Winterpause",
+  "31.12.2023" => "Winterpause",
+  "01.01.2024" => "Neujahr",
+
+ #  "07.04.2023" => "Ostern",
+ #  "10.04.2023" => "Ostern",
+ #  "18.05.2023" => "Himmelfahrt",
+ #  "19.05.2023" => "Himmelfahrt",
+ #  "22.05.2023" => "Vorlesungsfrei",
+ #  "29.05.2023" => "Pfingsten",
+ #  "04.08.2023" => "Showtime",
   },
 reject_span:[]
 )
