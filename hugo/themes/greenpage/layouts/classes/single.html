@@ -1,5 +1,5 @@
 {{ define "meta" }}
-  {{ partial "classes/infertype.html" . }}
+  {{ partial "classes/set_class_variables.html" . }}
   {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
   {{ .Scratch.Set "pageTitle" .Parent.Title }}
 {{ end }}
