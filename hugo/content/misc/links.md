@@ -13,9 +13,16 @@ menu:
 * Wiki für Studium und Lehre: [https://wiki.htw-berlin.de/](https://wiki.htw-berlin.de/)
 * Sprechstunde: {{< officehours >}}
 * Wiki - Intranet:  [https://wiki.rz.htw-berlin.de/](https://wiki.rz.htw-berlin.de/)
+
 * HTW ServiceportalDienstreise, SHK, Wunschzeiten und Lehrplanung: [https://fb-service.htw-berlin.de/](https://fb-service.htw-berlin.de/)
 * Lehrabrechnung: [https://my.htw-berlin.de/](https://my.htw-berlin.de/)
 * Zoom: [https://htw-berlin.zoom.us/](https://htw-berlin.zoom.us/)
+
+* Account-Service: [https://account.htw-berlin.de](https://account.htw-berlin.de): 
+    - [Lehrabrechnung ("Proof of teaching commitment")](https://account.htw-berlin.de/lvn/newProof)
+    - Account
+    - Email bearbeiten
+    - Abwesenheitsnotiz
 
 ## LSF Modulhandbuch
 * [Bachelor ansehen](https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&moduleParameter=modDescr&struct=auswahlBaum&navigation=Y&next=tree.vm&nextdir=qispos/modulBeschr/gast&nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&expand=0&lastState=modulBeschrGast&asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584)
