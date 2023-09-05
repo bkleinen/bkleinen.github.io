@@ -1,7 +1,13 @@
 {{ define "meta" }}
   {{ partial "classes/infertype.html" . }}
-  {{   .Scratch.Add "trace" "layouts/classes/list.html" }}
-
+  {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
+  {{ $class_title := .Scratch.Get "class_title" }}
+  Class Title: {{ $class_title }}
+  {{ if (eq "class" (.Scratch.Get "type")) }}
+  {{ .Scratch.Set "pageTitle" .Title }}
+  {{ else }}
+  {{ .Scratch.Set "pageTitle" .Parent.Title }}
+  {{ end }}
 {{ end }}
 
 
