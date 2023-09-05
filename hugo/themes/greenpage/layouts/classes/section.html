@@ -1,12 +1,12 @@
+{{ define "template" }} theme: layouts/classes/xxx.html {{ end }}
 {{ define "meta" }}
   {{ partial "classes/set_class_variables.html" . }}
-  {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
+  {{ .Scratch.Add "trace" "layouts/classes/xxx.html" }}
   {{ $class_title := .Scratch.Get "class_title" }}
-  Section Class Title: {{ $class_title }}
   {{ if (eq "class" (.Scratch.Get "type")) }}
   {{ .Scratch.Set "pageTitle" .Title }}
   {{ else }}
-  {{ .Scratch.Set "pageTitle" .Parent.Title }}
+  {{ .Scratch.Set "pageTitle" $class_title }}
   {{ end }}
 {{ end }}
 
@@ -19,7 +19,8 @@
 
 {{ define "main" }}
 
-{{ partial "toc.html" (dict "context" . "nextPrevLinks" false) }}
+{{ $showNextPrev := eq .Kind "page" }}
+{{ partial "toc.html" (dict "context" . "nextPrevLinks" $showNextPrev) }}
 
   {{ partial "classes/semester_header.html" . }}
 
@@ -29,4 +30,4 @@
 
 {{end}}
 
-{{ define "template" }} theme: layouts/classes/list.html {{ end }}
+
