@@ -2,6 +2,7 @@
 title: Info1 - Schedule
 author: kleinen
 weight: 10
+layout: class_layout
 ---
 
 | Week        | Dates          |                | Topic                                                                                                                                                                                                                    |  |  |  |  |  |  |
