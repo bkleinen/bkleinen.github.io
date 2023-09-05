@@ -1,22 +1,22 @@
 ---
-title: B1 Informatics 1 SoSe 2022
+title: B1 Informatics 1 WS 2023/24
 author: kleinen
 weight: 1
 draft: true
 aliases: /info1/
 courseNavInt:
 - title: Info1
-  link: "/classes/ss2022/info1/"
+  link: "/classes/ws2023/info1/"
 - title: Schedule
-  link: "/classes/ss2022/info1/schedule/"
+  link: "/classes/ws2023/info1/schedule/"
 - title: Labs
-  link: "/classes/ss2022/info1/labs/"
+  link: "/classes/ws2023/info1/labs/"
 - title: Workbook
-  link: "/classes/ss2022/info1/workbook/"
+  link: "/classes/ws2023/info1/workbook/"
 - title: Code Examples
-  link: "/classes/ss2022/info1/code/"
+  link: "/classes/ws2023/info1/code/"
 - title: Material
-  link: "/classes/ss2022/info1/material/"
+  link: "/classes/ws2023/info1/material/"
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=37251
