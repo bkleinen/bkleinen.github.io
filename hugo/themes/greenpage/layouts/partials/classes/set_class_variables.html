@@ -18,3 +18,10 @@
       {{   $current_page.Scratch.Set "type" $type }}
     {{ end }}
 {{ end }}
+
+{{/* find course page and title */}}
+{{ $class_path := replaceRE ".*(/classes/[^/]*/[^/]*)/.+" "$1" .RelPermalink}}
+{{ .Scratch.Set "class_page_path"  $class_path}}
+{{ $course_page := .Site.GetPage $class_path }}
+{{ .Scratch.Set "class_title" $course_page.Title }}
+
