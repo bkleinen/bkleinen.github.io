@@ -25,4 +25,9 @@
 {{ .Scratch.Set "class_page_path"  $class_path}}
 {{ $course_page := .Site.GetPage $class_path }}
 {{ .Scratch.Set "class_title" $course_page.Title }}
-
+{{ $class_title := .Scratch.Get "class_title" }}
+{{ if (eq "class" (.Scratch.Get "type")) }}
+{{ .Scratch.Set "pageTitle" .Title }}
+{{ else }}
+{{ .Scratch.Set "pageTitle" $class_title }}
+{{ end }}
