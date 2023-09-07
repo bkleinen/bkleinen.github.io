@@ -2,6 +2,7 @@
 title: Info1 - Material
 author: kleinen
 weight: 50
+draft: true
 ---
 ## Kara
 
@@ -10,8 +11,8 @@ weight: 50
 * [Testareas for manual walkthroughs](../material/info1-02-kara-testareas.pdf)
 * Kara Sourcecode for the Worksheets:[https://github.com/htw-imi-info1/kara](https://github.com/htw-imi-info1/kara)
 * Solutions: [https://github.com/htw-imi-info1/kara/tree/public-solution](https://github.com/htw-imi-info1/kara/tree/public-solution)
-* [Kara Tutorial](https://code.makery.ch/library/greenfoot-kara/)
-* [Greenfoot Tutorial - YouTube](https://www.youtube.com/channel/UCvUHtaDXxKjtYGLZArX_zbQ)
+* [Kara Tutorial](https://code.makery.ch/library/greenfoot-kara/) (if you need more introduction to Kara)
+* [Greenfoot Tutorial - YouTube](https://www.youtube.com/channel/UCvUHtaDXxKjtYGLZArX_zbQ) (if you want to learn more about Greenfoot, not needed for this class)
 
 ## Textbook
 
@@ -27,10 +28,9 @@ There is a German translation available: Barnes, David J., Kölling, Michael: Ja
 There are copies available in the library, and you can also obtain an older edition - examples and chapter order vary, but the general content is mostly the same apart from the newer chapters on lambdas and streams.
 More material and info on the chapter order can be found on the book's web page: [https://www.bluej.org/objects-first/](https://www.bluej.org/objects-first/)
 
-The autors have recorded videos for most lectures:
-[Complete Video Playlist](https://www.youtube.com/playlist?list=PL8LRe866vedtl5vM5iheAKzltvu9qZyb_),
-[Older Video Notes](https://www.youtube.com/playlist?list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd) (with previous edition chapter numbers)
-
+The autors have recorded videos for most lectures (currently, up to chapter 8):
+[Complete Video Playlist](https://www.youtube.com/playlist?list=PL8LRe866vedtl5vM5iheAKzltvu9qZyb_), the
+[Older Video Notes](https://www.youtube.com/playlist?list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd) contain all chapters of the older edition, with previous edition chapter numbers, without lambdas.
 
 ## Textbook Chapters
 
@@ -65,8 +65,19 @@ The autors have recorded videos for most lectures:
 There are many Java Tutorials out there on the web on the topics we cover. Many will prove useful, however, do use them as practice to gauge the quality
 and applicability of your findings before relying on them.
 
-A comprehensive resource for the Java language are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8].
+A comprehensive resource for the Java language are the [Tutorials by Sun/now Oracle][7]; especially the [Trail &#8220;Learning the Java Language&#8221;][8]. This is definitely way more than you (probably ever) want to work through; but if you want to lookup and more thouroughly understand a certain topic, it is worth 
 
  [7]: https://download.oracle.com/javase/tutorial/
  [8]: https://download.oracle.com/javase/tutorial/java/
 Terms Crosswords - Rather old, you need to install an Applet Runner in your browser for them to work, like e.g. [this one for Chrome](https://chrome.google.com/webstore/detail/cheerpj-applet-runner/bbmolahhldcbngedljfadjlognfaaein?hl=en) - [https://cse.taylor.edu/~sbrandle/bluej/](https://cse.taylor.edu/~sbrandle/bluej/)
+
+### Artificial Intelligence(s)
+
+ChatGPT has proven to be quite good at many programming tasks, and you will most likely succeed by trying to have ChatGPT answer the questions and generate probable solutions to the programming assignments.
+
+**Please do not waste my time trying to give feedback on generated answers. Don't waste your time having to listen to that feedback because you need to pretend that it was your answer.**
+
+You may, and should however, use ChatGPT (and also plain googling) to help whenever you are stuck. If you do so, document that you were doing so by referring to it as a source, and check the validity of the answer. In fact, I am very much interested in learning through your reports in which way ChatGPT proved to be useful to you.
+ 
+
+

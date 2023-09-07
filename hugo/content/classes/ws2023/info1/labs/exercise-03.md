@@ -4,7 +4,7 @@ author: kleinen
 source: https://github.com/htw-imi-info1/exercise03
 source_ok: true
 solution_pushed: true
-draft: false
+draft: true
 ---
 
 ![Book](../../images/books-8314929977.jpg)

@@ -5,7 +5,7 @@ source: https://github.com/htw-imi-info1/exercise04
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true
-draft: false
+draft: true
 ---
 
 [![Clock](../../images/clock-stockholm-6085686394-320.jpg)](https://www.flickr.com/photos/arjanrichter/6085686394)

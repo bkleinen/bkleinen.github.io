@@ -1,9 +1,15 @@
 ---
-title: 'Exercise 00: Lab Startup'
+title: 'Exercise 00: Lab Startup for Info1'
 author: kleinen
 source: https://github.com/htw-imi-info1/kara
-draft: false
+draft: true
 ---
+
+Notes: remove programming, focus on knowing where the files are, file transfer and exchange, and beeing able to open bluej and greenfoot are
+
+
+
+
 Source code for this exercise: {{< source >}}
 
 Welcome to the laboratory - that's what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules ("Laborordnung") [here](https://imi-bachelor.htw-berlin.de/studium/labore/).

@@ -2,6 +2,7 @@
 title: Info1 - Labs and Exercises
 author: kleinen
 weight: 20
+draft: true
 ---
 
 ## Lab Exercises

@@ -2,7 +2,7 @@
 title: B1 Informatics 1 WS 2023/24
 author: kleinen
 weight: 1
-draft: true
+draft: false
 aliases: /info1/
 courseNavInt:
 - title: Info1

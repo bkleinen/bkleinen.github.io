@@ -2,7 +2,7 @@
 title: 'Exercise 01: Programming Kara'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise01-kara
-draft: false
+draft: true
 ---
 
 Source code for this exercise: {{< source >}}
