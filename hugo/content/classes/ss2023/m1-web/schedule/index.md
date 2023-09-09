@@ -17,11 +17,11 @@ Mi.	12:15 bis 13:45	woch	12.04.2023 bis 02.08.2023 WH Gebäude C 579
 | 4    | 18  | Wed 03/05/2023 | Visual Computing                        | Nico Hezel  |
 | 5    | 19  | Wed 10/05/2023 | Visual Computing                        | Nico Hezel  |
 | 6    | 20  | Wed 17/05/2023 | (Mittwoch vor Himmelfahrt)              |             |
-| 7    | 21  | Wed 24/05/2023 | Game Technology and Interactive Systems |             |
-| 8    | 22  | Wed 31/05/2023 | Game Technology and Interactive Systems |             |
-| 9    | 23  | Wed 07/06/2023 | Game Technology and Interactive Systems |             |
-| 10   | 24  | Wed 14/06/2023 | Game Technology and Interactive Systems |             |
-| 11   | 25  | Wed 21/06/2023 | Game Technology and Interactive Systems |             |
+| 7    | 21  | Wed 24/05/2023 | Game Technology and Interactive Systems | Philipp Bönsch  |
+| 8    | 22  | Wed 31/05/2023 | Game Technology and Interactive Systems | Philipp Bönsch  |
+| 9    | 23  | Wed 07/06/2023 | Game Technology and Interactive Systems | Philipp Bönsch  |
+| 10   | 24  | Wed 14/06/2023 | Game Technology and Interactive Systems | Philipp Bönsch  |
+| 11   | 25  | Wed 21/06/2023 | Game Technology and Interactive Systems | Philipp Bönsch  |
 | 12   | 26  | Wed 28/06/2023 | Web Technology                          | Gefei Zhang |
 | 13   | 27  | Wed 05/07/2023 | Web Technology                          | Gefei Zhang |
 | 14   | 28  | Wed 12/07/2023 | Web Technology                          | Gefei Zhang |
