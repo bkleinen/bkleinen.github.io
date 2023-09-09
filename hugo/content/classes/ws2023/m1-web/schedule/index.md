@@ -1,5 +1,5 @@
 ---
-title: M1 Labs Schedule
+title: M1 WS 2023/24 Labs Schedule
 author: kleinen
 CourseNav: Schedule
 weight: 40
