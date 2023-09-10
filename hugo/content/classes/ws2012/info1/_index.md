@@ -1,5 +1,5 @@
 ---
-title: Informatik 1 (WS2012/2013)
+title: Informatics 1 (WS2012/2013)
 author: kleinen
 layout: page
 ---

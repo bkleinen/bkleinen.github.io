@@ -1,5 +1,5 @@
 ---
-title: Informatik 1 (WS2011/2012)
+title: Informatics 1 (WS2011/2012)
 author: kleinen
 link_category:
   - Blogroll
