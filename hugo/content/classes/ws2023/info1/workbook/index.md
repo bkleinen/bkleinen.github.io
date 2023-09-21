@@ -2,6 +2,7 @@
 title: Info1 - Workbooks
 author: kleinen
 weight: 30
+draft: true
 ---
 
 ## Workbook: Chapter Summaries and Exercises

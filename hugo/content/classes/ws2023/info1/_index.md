@@ -4,7 +4,7 @@ author: kleinen
 weight: 1
 draft: false
 aliases: /info1/
-courseNavInt:
+courseNavIntXXX:
 - title: Info1
   link: "/classes/ws2023/info1/"
 - title: Schedule
@@ -21,9 +21,9 @@ courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=37251
 - title: SU in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=185915&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=200295&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Labs in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=185699&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=200090&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Semesterstundenplan im LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=mittel&P.subc=plan&subdir=stg&week=&k_abstgv.abstgvnr=231&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1
 - title: Lecture Source Code

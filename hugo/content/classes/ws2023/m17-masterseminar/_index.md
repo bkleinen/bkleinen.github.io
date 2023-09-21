@@ -4,10 +4,10 @@ author: kleinen
 weight: 4
 CourseNav: M17 Masterseminar
 aliases: /m17-masterseminar/
-draft: true
+draft: false
 courseNavExt:
 - title: Moodle 
-  link: https://moodle.htw-berlin.de/course/view.php?id=41542
+  link: https://moodle.htw-berlin.de/course/view.php?id=44055
 - title: LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=194588&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Term Schedule in LSF

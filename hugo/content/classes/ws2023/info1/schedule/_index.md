@@ -3,6 +3,7 @@ title: Info1 - Schedule
 author: kleinen
 weight: 10
 layout: class_layout
+draft: true
 ---
 Date
 
@@ -24,9 +25,9 @@ Date
 |      |    | Fri 17/11/2023 |                                                      | {{% link title ="Exercise 06 - Lambdas and Streams" link = "../labs/exercise-06" %}}                              |   |   |
 | 7    | 47 | Tue 21/11/2023 | Chapter 07 - Fixed-Size Collections                  |                                                                                                                   |   |   |
 |      |    | Fri 24/11/2023 |                                                      | {{% link title ="Exercise 07 - Lotto and Technical Support" link = "../labs/exercise-07" %}}                      |   |   |
-| 8    | 48 | Tue 28/11/2023 | Chapter 08 - Designing Classes                       |                                                                                                                   |   |   |
+| 8    | 48 | Tue 28/11/2023 | Chapter 09 - Well-Behaved Objects                    |                                                                                                                   |   |   |
 |      |    | Fri 01/12/2023 |                                                      | {{% link title ="Exercise 09 - Testing with JUnit" link = "../labs/exercise-09" %}}                               |   |   |
-| 9    | 49 | Tue 05/12/2023 | Chapter 09 - Well-Behaved Objects                    |                                                                                                                   |   |   |
+| 9    | 49 | Tue 05/12/2023 | Chapter 08 - Designing Classes                       |                                                                                                                   |   |   |
 |      |    | Fri 08/12/2023 |                                                      | Inheritance exercise instead of:  {{% link title ="Exercise 08 - Bouncing Balls" link = "../labs/exercise-08" %}} |   |   |
 | 10   | 50 | Tue 12/12/2023 | Chapter 10 - Improving Structure with Inheritance    |                                                                                                                   |   |   |
 |      |    | Fri 15/12/2023 |                                                      | {{% link title ="Exercise 10: The World of You" link = "../labs/exercise-10" %}}                                  |   |   |
