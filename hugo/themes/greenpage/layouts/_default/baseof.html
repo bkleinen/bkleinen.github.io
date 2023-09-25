@@ -1,7 +1,7 @@
 {{- block "meta" . }}{{- end }}
 <!DOCTYPE html>
 <html>
-
+{{ block "template20" .}}{{end}}
   <head>
     <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     {{- partial "head.html" . -}}
