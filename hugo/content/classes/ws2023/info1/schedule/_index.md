@@ -15,7 +15,7 @@ notoc: true
 |      | 40 | Tue 03/10/2023 | Feiertag                                             |                                                                                                                   |   |   |
 |      |    | Fri 06/10/2023 | Orientierungstage                                    | {{% link title ="Exercise 00 - Lab Startup" link = "../labs/exercise-00" %}} (not graded, parallel to lab intro ) |   |   |
 | 1    | 41 | Tue 10/10/2023 | Intro to Info1                                       |                                                                                                                   |   |   |
-|      |    | Fri 13/10/2023 | Chapter 01 - Objects and Classes                     | Figures (Messages) / Kara{{% link title ="Exercise 01 - Kara" link = "../labs/exercise-01" %}}                    |   |   |
+|      |    | Fri 13/10/2023 | Chapter 01 - Objects and Classes                     |  {{% link title ="Exercise 01 - Figures" link = "../labs/exercise-01" %}}                    |   |   |
 | 2    | 42 | Tue 17/10/2023 | Chapter 02 - Understanding Class Definitions         |                                                                                                                   |   |   |
 |      |    | Fri 20/10/2023 |                                                      | {{% link title ="Exercise 02 - Ticket Machine" link = "../labs/exercise-02" %}}                                   |   |   |
 | 3    | 43 | Tue 24/10/2023 | Chapter 03 - Object Interaction                      |                                                                                                                   |   |   |

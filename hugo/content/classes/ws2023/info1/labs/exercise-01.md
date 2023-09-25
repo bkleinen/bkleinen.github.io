@@ -8,6 +8,8 @@ draft: true
 Source code for this exercise: {{< source >}}
 
 ## Pre-Lab
+Each lab assignment comes with a pre-lab section. Usually, it includes excercises and research questions that prepare you for the lab assignment.
+You're expected to complete these *before* you come to the lab.
 
 1.   [Download the Scenarios][1] and read through the Kara programming exercises in the assignment.
 2.   Write down how Kara could solve the task for each one of them. For example, if the programming exercise was Exercise 4 from [Worksheet 1](../../material/info1-02-worksheet-kara-1.pdf), where Kara was to move in a Square and drop a leaf in each corner, you could write down something as this:
