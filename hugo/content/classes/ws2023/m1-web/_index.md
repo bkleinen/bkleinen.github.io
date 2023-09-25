@@ -2,7 +2,7 @@
 title: M1 Media Programming
 author: kleinen
 date: 2022-04-01
-weight: 30
+weight: 3
 CourseNav: M1 Lab
 aliases: /m1-web/
 courseNavExt:

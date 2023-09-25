@@ -2,25 +2,17 @@
 {{ $seperator :="&#187;" }}
 <nav aria-label="breadcrumb" role="navigation">
   <ol class="breadcrumb breadcrumb-thin">
-  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+
+  {{ range .Ancestors.Reverse }}
+   
+    {{ $name := (replaceRE ".*/([^/]+)/?" "$1" .RelPermalink) }}
+    {{if .IsHome }}{{ $name = "Home" }}{{ end }}
+     <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ $name }}</a></li>
+  {{ end }}
+
+
+  {{ $name := (replaceRE ".*/([^/]+)/?" "$1" .RelPermalink) }}
+  <li class="breadcrumb-item active" aria-current="page">{{  $name }}</li>
+ 
   </ol>
 </nav>
-
-
-{{ define "breadcrumbnav" }}
-{{ if .p1.Parent }}
-{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
-{{ else if not .p1.IsHome }}
-{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
-{{ end }}
-
-{{ $name := (replaceRE ".*/([^/]+)/?" "$1" .p1.RelPermalink) }}
-{{if .p1.IsHome }}{{ $name = "Home" }}{{ end }}
-
-{{ if eq .p1 .p2 }}
-<li class="breadcrumb-item active" aria-current="page">{{  $name }}</li>
-{{ else }}
-<li class="breadcrumb-item"><a href="{{ .p1.Permalink }}">{{  $name }}</a></li>
-{{ end }}
-
-{{ end }}

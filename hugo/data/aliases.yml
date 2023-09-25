@@ -2,13 +2,14 @@
 # these shortcuts/aliases are used in the back to course link in material, 
 # they do not work as an url alias!
 broken_link:  /misc/about.md
-info1:  /classes/ss2022/info1/_index.md
 info2:  /classes/ws2021/info2/_index.md
 theses:  /classes/ws2021/theses/_index.md
 project:  /classes/ws2021/project/_index.md
 networks:  /classes/ws2021/networks/_index.md
 wt1:  /classes/ws2021/m-wt1-webapplications/_index.md
 info3:  /classes/ss2023/info3/_index.md
-m1-web:  /classes/ss2023/m1-web/_index.md
-m17-masterseminar:  /classes/ss2023/m17-masterseminar/_index.md
+info1:  /classes/ws2023/info1/_index.md
+b-wt2-usability:  /classes/ws2023/b-wt2-usability/_index.md
+m1-web:  /classes/ws2023/m1-web/_index.md
+m17-masterseminar:  /classes/ws2023/m17-masterseminar/_index.md
 sketchnotes:  /material/visual/sketchnotes.md

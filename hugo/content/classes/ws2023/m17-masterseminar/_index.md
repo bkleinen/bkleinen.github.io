@@ -1,0 +1,43 @@
+---
+title: M17.1 Masterseminar
+short_title: Masterseminar
+author: kleinen
+weight: 4
+CourseNav: Overview
+aliases: /m17-masterseminar/
+draft: false
+courseNavExt:
+- title: Moodle 
+  link: https://moodle.htw-berlin.de/course/view.php?id=44055
+- title: LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=194588&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+- title: Term Schedule in LSF
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&k_abstgv.dtxt=internationale&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
+---
+
+This Seminar is Part of the Module 17 "Abschlusskolloquium" and should be attended while you are writing your Master's Thesis.
+(See StuPo § 7, (6): 
+"Die Masterarbeit wird von der Lehrveranstaltung Masterseminar - Scientific Communication im Modul Abschlusskolloquium begleitet."
+
+
+The learning goals stated in the syllabus are:
+
+- Die Studierenden lernen ihre eigene Arbeit vor einer Arbeitsgruppe auf Englisch zu präsentieren und zu verteidigen.
+- Sie erwerben Handlungskompetenzen im Bereich der Erstellung von wissenschaftlichen Schriften.
+- Sie lernen wissenschaftliche Ergebnisse kritisch zu hinterfragen. 
+
+So that is exactly what we intend to do! 
+
+## Grading
+
+There will be no grade, but as "unbewertete Teilmodulprüfung" you need to pass this seminar.
+
+Criteria will be published in Moodle.
+
+## Links
+
+- [Abschlussarbeit / HTW](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/)
+- [Abschlussarbeit & Kolloquium / FB4](https://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)
+- [Masterarbeit & Kolloqium / IMI](https://imi-master.htw-berlin.de/studium/masterarbeit-kolloqium/)
+- [How to Abschlussarbeit / BK](/studies/thesis/anleitung/)
+

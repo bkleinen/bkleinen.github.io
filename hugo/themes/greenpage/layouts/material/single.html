@@ -1,4 +1,6 @@
 
+{{ define "meta"}}{{.Scratch.Set "theme" "layouts/material/single.html"}}{{ end }}
+
 {{ define "main" }}
 
 {{ $section := .Section}}
@@ -28,5 +30,3 @@ in
 {{ .Content }}
 
 {{ end }}
-
-{{ define "template" }}theme: layouts/material/single.html{{ end }}

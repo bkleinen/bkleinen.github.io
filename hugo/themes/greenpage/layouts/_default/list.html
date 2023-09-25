@@ -1,4 +1,6 @@
+{{ define "meta"}}{{.Scratch.Set "theme" "layouts/_default/list.html"}}{{ end }}
 {{ define "main" }}
+<h1>{{.Scratch.Get "pageTitle" | default .Title}}</h1>
 
 {{ .Content }}
 
@@ -8,4 +10,3 @@
 
 {{ end }}
 
-{{ define "template" }}theme: layouts/_default/list.html{{ end }}

@@ -44,14 +44,14 @@ Automatic deployment via github actions, see https://github.com/bkleinen/bkleine
 
 ## Overview
 
-| branch/tag | config | env | drafts | target url | Status | GH Pages Deployment |
-|:---------- |:------------- |:---------- |:------ |:----------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| main | staging | staging    | no     | https://bkleinen.github.io/staging/ | [![Deploy Staging](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging.yml)| [![pages-build-deployment](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment)|
-| main | stagingdrafts | staging    | yes    | https://bkleinen.github.io/stagingdrafts/ | [![Deploy Staging Drafts](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging-drafts.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging-drafts.yml)| [![pages-build-deployment](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment)|
-| v0.0 | production    | production | no     | http://bkleinen.github.io/ | [![Deploy Production / Github](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-github.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-github.yml) | [![pages-build-deployment](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/pages/pages-build-deployment) |
-| v0.0 | htw | production | no     | https://home.htw-berlin.de/~kleinen/      | [![Deploy Production / HTW](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-htw.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-htw.yml) | |
-| v0.0 | progwebtec    | production | no     | http://progwebtec.github.io/ | [![Deploy Production / progwebtec.github.io](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-progwebtec.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-progwebtec.yml) | [![pages-build-deployment](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment)[![pages-build-deployment](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment)|
-| | | | | | | |
+| branch/tag | config        | env        | drafts | target url                                | Status                                                                                                                                                                                                                                  | GH Pages Deployment                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|:-----------|:--------------|:-----------|:-------|:------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| main       | staging       | staging    | no     | https://bkleinen.github.io/staging/       | [![Deploy Staging](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging.yml)                                 | [![pages-build-deployment](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment)                                                                                                                                                                                                                                                                          |
+| main       | stagingdrafts | staging    | yes    | https://bkleinen.github.io/stagingdrafts/ | [![Deploy Staging Drafts](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging-drafts.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-staging-drafts.yml)            | [![pages-build-deployment](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bkleinen/staging/actions/workflows/pages/pages-build-deployment)                                                                                                                                                                                                                                                                          |
+| v0.0       | production    | production | no     | http://bkleinen.github.io/                | [![Deploy Production / Github](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-github.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-github.yml) | [![pages-build-deployment](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/pages/pages-build-deployment)                                                                                                                                                                                                                                                    |
+| v0.0       | htw           | production | no     | https://home.htw-berlin.de/~kleinen/      | [![Deploy Production / HTW](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-htw.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-production-htw.yml)          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| v0.0       | progwebtec    | production | no     | http://progwebtec.github.io/              | [![Deploy Production / progwebtec.github.io](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-progwebtec.yml/badge.svg)](https://github.com/bkleinen/bkleinen.github.io/actions/workflows/deploy-progwebtec.yml) | [![pages-build-deployment](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment)[![pages-build-deployment](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/progwebtec/progwebtec.github.io/actions/workflows/pages/pages-build-deployment) |
+|            |               |            |        |                                           |                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 
 ## Deploy via Makefile
@@ -93,11 +93,38 @@ In development/debug mode [debug.html](hugo/themes/greenpage/layouts/partials/de
 shows many variables/values useful for debugging.
 
 
-## Classes logic
+## Classes section logic
+
+### subtypes within classes section
+
+| Path                      | classes_type  |
+|:--------------------------|:--------------|
+| /classes                  | all_classes   |
+| /classes/ss2023/          | semester      |
+| /classes/ss2023/info1     | class         |
+| /classes/ss2023/info1/... | class_subpage |
+
+
+{{
+  $types := (dict
+  "all_classes" "/classes/$"  
+  "class_subpage" "/classes/[^/]*/[^/]*/.+"
+  "semester" "/classes/[^/]*/$"
+  "class" "/classes/[^/]*/[^/]*/$")
+}}
+
+
 
 All Class Sections have their own subnavigation, defined in
 [hugo/themes/greenpage/layouts/partials/classes/coursenav.html](hugo/themes/greenpage/layouts/partials/classes/coursenav.html)
 
+### Courses page title
+
+- html title
+- header on top of page
+- page title below course navigation
+
+### Courses Subnavigation
 The Classes Subnavigation consists of an internal part (subpages) and external part
 (e.g. links to LSF, github, moodle). it can be configured in the section _index.md
 
@@ -118,6 +145,8 @@ tbd
 
 see Makefile and data/aliases.yml
 
+    make aliases_update
+    make aliases_list
 
 # Bibliography
 

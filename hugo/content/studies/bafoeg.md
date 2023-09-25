@@ -1,5 +1,5 @@
 ---
-title: Baf&ouml;g-Infos
+title: Bafög-Infos
 author: kleinen
 layout: post
 draft: true
@@ -8,16 +8,23 @@ categories:
   - bafoeg
 ---
 
-Vom langer Zeit war ich mal Baf&ouml;g-Beauftragter des Studiengangs IMI, und
-hatte damals diese Informationen zusammengetragen, Stand 2014, die hiermit von der Webseite
-in den Blog umziehe -
+## tl;dr:
+
+Die Rolle des BAFöG-Beauftragten ist es, den Mitwirkungs und Auskunftsflichten (BAFöG [§ 47 Auskunftspflichten](https://www.gesetze-im-internet.de/baf_g/__47.html) und [§48 Mitwirkung von Ausbildungsstätten](https://www.gesetze-im-internet.de/baf_g/__48.html)) nachzukommen, d.h. i.d.R. diverse Nachweise zu bestätigen.
+- als Leistungsnachweis nach dem 4. Semester können Sie einfach Ihren LSF-Nachweis an das Studierendenwerk schicken. **(Bei Verzögerungen aber Vorsicht, s.u.)**
+- für die für das Auslandspraktikum notwendige Bescheinigung kommen Sie bitte nach der Genehmigung des Praktikums mit dem vorbereiteten Formblatt 6 in meine Sprechstunde.
+
+- [Alle Formulare](https://www.xn--bafg-7qa.de/bafoeg/de/antrag-stellen/alle-antragsformulare/alle-antragsformulare_node.html)
+## More Information
+Vom langer Zeit war ich schon mal Baf&ouml;g-Beauftragter des Studiengangs IMI, und
+hatte damals diese Informationen zusammengetragen, **Stand 2014**.
 
 Wenn Sie Unterstützung bei der Beantragung des Bafögs brauchen, kann ich Ihnen diese Beratungs/Informationsstellen empfehlen:
 
 
 - [RefRat der HU](https://www.refrat.de/beratung.bafoeg.html?1401814142)
 - [Bafög-Rechner](https://www.bafoeg-rechner.de) (enthält viele gute Informationen)
-- [Bafög-Info-Seite der HTW](https://www.htw-berlin.de/studieninteressierte/finanzierung/bafoeg-bildungskredit/)
+- [Baf&ouml;g-Infoseite der HTW](https://www.htw-berlin.de/studium/studienorganisation/finanzierung/bafoeg-bildungskredit/)
 - [Arbeiterkind](https://www.arbeiterkind.de/)
 
 Leistungsbescheinigung nach &sect;48 Baf&ouml;g (Formblatt 5)

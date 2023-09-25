@@ -1,9 +1,9 @@
-{{- partial "filename_debug.html" (dict "pc" . "file" "classes/infertype.html") -}}
+{{- partial "filename_debug.html" (dict "pc" . "file" "classes/set_class_variables.html") -}}
 {{- /* infers the type of a page by the url and sets it in scratch
   /classes/<semester>/<classname> */ -}}
 {{
   $types := (dict
-  "all_classes" "/classes/$"
+  "all_classes" "/classes/$"  
   "class_subpage" "/classes/[^/]*/[^/]*/.+"
   "semester" "/classes/[^/]*/$"
   "class" "/classes/[^/]*/[^/]*/$")

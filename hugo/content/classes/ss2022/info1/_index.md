@@ -3,7 +3,6 @@ title: B1 Informatics 1 SoSe 2022
 author: kleinen
 weight: 1
 draft: false
-aliases: /info1/
 courseNavInt:
 - title: Info1
   link: "/classes/ss2022/info1/"
@@ -50,14 +49,14 @@ You are free to choose German or English for your written assignments.
 
 According to the curriculum, Informatics 1 is planned with 2 lectures and 1 lab
 per week. Lectures are called "Seminaristischer Unterricht" (SU) in the StuPo,
-90 min each with all 40+ students attenting the class. Labs are the "(Praktische) Übung" (PÜ)
+90 min each with all 40+ students attending the class. Labs are the "(Praktische) Übung" (PÜ)
 with smaller groups of 20 students.
 
 This will be organized as follows:
 
 ### Lectures
 
-Lectures cover the generall knowledge and understanding of the topic. We will be using the
+Lectures cover the general knowledge and understanding of the topic. We will be using the
 Textbook **Objects First with Java - A Practical
 Introduction using BlueJ**, Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
 [Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling).

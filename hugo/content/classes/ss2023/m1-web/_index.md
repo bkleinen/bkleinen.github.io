@@ -4,7 +4,6 @@ author: kleinen
 date: 2022-04-01
 weight: 30
 CourseNav: M1 Lab
-aliases: /m1-web/
 courseNavExt:
 - title: LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=194656&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung

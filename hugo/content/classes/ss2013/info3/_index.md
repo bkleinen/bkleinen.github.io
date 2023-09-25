@@ -1,5 +1,5 @@
 ---
-title: B15 Informatik 3 (Info3)
+title: B15 Informatics (Info3)
 author: kleinen
 layout: page
 weight: 1

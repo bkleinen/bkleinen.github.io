@@ -1,7 +1,7 @@
+
 {{ define "meta" }}
-  {{ partial "classes/infertype.html" . }}
-  {{ .Scratch.Add "trace" "layouts/classes/single.html" }}
-  {{ .Scratch.Set "pageTitle" .Parent.Title }}
+  {{ partial "classes/set_class_variables.html" . }}
+  {{.Scratch.Set "theme" "layouts/classes/single.html"}}
 {{ end }}
 
 
@@ -12,13 +12,15 @@
 
 {{ define "main" }}
 
-{{ partial "toc.html" (dict "context" . "nextPrevLinks" true) }}
+{{ $showNextPrev := eq .Kind "page" }}
+{{ partial "toc.html" (dict "context" . "nextPrevLinks" $showNextPrev) }}
 
+  {{ partial "classes/semester_header.html" . }}
 
   {{ .Content }}
 
+  {{ partial "classes/all_classes.html" . }}
+
+{{end}}
 
 
-{{ end }}
-
-{{ define "template" }}theme: layouts/classes/single.html {{ end }}

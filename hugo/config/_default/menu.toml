@@ -17,45 +17,42 @@
   pageref = '/debug'
   weight = -301
   alert = 'primary'
-##
-## Classes
-##
+
 
 [[main]]
   identifier = 'classes'
   name = 'Classes'
   pageref = '/classes'
   weight = -290
+
+##
+## Classes Submenu
+##
+
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2023/info3'
-  name = 'B 15 Informatik 3'
-  pageref = '/classes/ss2023/info3'
+  identifier = '/classes/ws2023/info1'
+  name = 'B 1 Informatik 1'
+  pageref = '/classes/ws2023/info1'
   weight = 5
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2023/m1-web'
+  identifier = '/classes/ws2023/m1-web'
   name = 'M 1 Mediaprogramming'
-  pageref = '/classes/ss2023/m1-web'
+  pageref = '/classes/ws2023/m1-web'
   weight = 20
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2023/masterseminar'
+  identifier = '/classes/ws2023/masterseminar'
   name = 'M 17.1 Masterseminar'
-  pageref = '/classes/ss2023/m17-masterseminar'
+  pageref = '/classes/ws2023/m17-masterseminar'
   weight = 25
 
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2023/theses'
-  name = 'Theses'
-  pageref = '/classes/ss2023/theses'
-  weight = 35
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ss2023'
-  name = 'All SoSe 2023'
-  pageref = '/classes/ss2023'
+  identifier = '/classes/ws2023'
+  name = 'All WS 2023/24'
+  pageref = '/classes/ws2023'
   weight = 40
 [[main]]
   parent = 'classes'

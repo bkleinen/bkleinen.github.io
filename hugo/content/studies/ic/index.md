@@ -4,8 +4,7 @@ author: kleinen
 layout: page
 ---
 
-Prof. Weber-Wulff compiled a [hand-out about ICs](https://people.f4.htw-berlin.de/~weberwu/PA/Independent-Coursework-Guide-2015-01-22.pdf) as Prüfungsausschussvorsitzende. I find it
-highly informative. Please read it!
+Prof. Weber-Wulff compiled a [hand-out about ICs](https://people.f4.htw-berlin.de/~weberwu/PA/Independent-Coursework-Guide-2015-01-22.pdf),  as Prüfungsausschussvorsitzende. ([Mirror on my site](./Independent-Coursework-Guide-2015-01-22.pdf)) I find it highly informative. Please read it!
 
 In addition to that, my specific rules about ICs are as follows:
 

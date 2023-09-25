@@ -1,3 +1,5 @@
+{{ define "meta"}}{{.Scratch.Set "theme" "layouts/_index.html"}}{{ end }}
+
 {{ define "section-navigation" }}
 <ul class="nav nav-tabs">
 <li class="nav-item">
@@ -8,7 +10,9 @@
   <a class="nav-link" href="https://wiki.htw-berlin.de/confluence/display/fb4imi/FB4+Internationale+Medieninformatik">IMI-Wiki</a>
 </li>
 </ul>
+
 {{ end }}
+
 
 {{ define "main" }}
   <!--
@@ -20,25 +24,33 @@
 <hr/>
 -->
 <div class = "box">
+  <h4>Thesis</h4>
+  <p>Information about writing your <a href="studies/thesis/">Thesis</a> or <a href="studies/ic/">Independent Coursework</a> with me.</p>
+  </div>
+  
+  <div class = "box">
+  <h4>Office Hours</h4>
+    {{- partial "sc_partials/officehours.html"}}
+  </div>
+
+<div class = "box">
 {{ .Content }}
+<br/>
 </div>
 
 <div class = "box">
-  <h4>Classes Summer Term 2023</h4>
+  <h4>Classes Winter Term 2023/2024</h4>
   <div>
+    {{ with .Site.GetPage "/classes/ws2023" }}
+    {{- partial "lectures.html" .}}
+    {{ end }}
+  </div>
+  <div class = "box"></div>
+  <h4>Classes Summer Term 2023</h4>
     {{ with .Site.GetPage "/classes/ss2023" }}
     {{- partial "lectures.html" .}}
     {{ end }}
   </div>
-<!--
-<h4>Classes Winter Term 2021</h4>
-<div>
-  {{ with .Site.GetPage "/classes/ws2021" }}
-  {{- partial "lectures.html" .}}
-  {{ end }}
-</div>
--->
-
 
 
 <a href="{{ site.BaseURL }}/classes/">All Classes (Archive)</a>
@@ -46,16 +58,7 @@
 <br/><br/>
 </div>
 
-<div class = "box">
-<h4>Thesis</h4>
-<p>Information about writing your <a href="studies/thesis/">Thesis</a> or <a href="studies/ic/">Independent Coursework</a> with me.</p>
-</div>
 
-<div class = "box">
-<h4>Office Hours</h4>
-  {{- partial "sc_partials/officehours.html"}}
-<br/>
-</div>
 
 
 <div class = "below">
@@ -82,4 +85,3 @@
 {{ end }}
 {{ end }}
 
-{{ define "template" }}theme: layouts/_index.html{{ end }}

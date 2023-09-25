@@ -1,5 +1,4 @@
-
-
+{{ define "meta"}}{{.Scratch.Set "theme" "layouts/posts/list.html"}}{{ end }}
 
 {{ define "main" }}
 {{ .Content }}
@@ -7,5 +6,3 @@
 <h2>Old Posts</h2>
 {{- partial "posts/onecategory.html" . }}
 {{ end }}
-
-{{ define "template" }}theme: layouts/posts/list.html{{ end }}
