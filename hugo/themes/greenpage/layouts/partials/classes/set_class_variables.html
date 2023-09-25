@@ -13,10 +13,11 @@
  {{ range $type, $type_re := $types }}
     {{ $result := findRE $type_re $current_page.RelPermalink }}
     {{ if gt (len $result) 0   }}
-      {{  with $current_page.Scratch.Get "type" }}
-       WARNING: page already had type {{ . }}  INFO: assigning type {{ $type }}
+      {{  with $current_page.Scratch.Get "classes_type" }}
+       WARNING: page already had type {{ . }}  INFO: assigning classes_type {{ $type }}
        {{ end }}
       {{   $current_page.Scratch.Set "type" $type }}
+      {{   $current_page.Scratch.Set "classes_type" $type }}
     {{ end }}
 {{ end }}
 
@@ -24,10 +25,16 @@
 {{ $class_path := replaceRE ".*(/classes/[^/]*/[^/]*)/.+" "$1" .RelPermalink}}
 {{ .Scratch.Set "class_page_path"  $class_path}}
 {{ $course_page := .Site.GetPage $class_path }}
-{{ .Scratch.Set "class_title" $course_page.Title }}
-{{ $class_title := .Scratch.Get "class_title" }}
-{{ if (eq "class" (.Scratch.Get "type")) }}
-{{ .Scratch.Set "pageTitle" .Title }}
+{{ $course_title := $course_page.Title }}
+{{ .Scratch.Set "course_title" $course_title }}
+{{ with .Params.short_title }}
+  {{ $current_page.Scratch.Set "classes_short_title" . }}
 {{ else }}
-{{ .Scratch.Set "pageTitle" $class_title }}
+  {{ $current_page.Scratch.Set "classes_short_title" $course_title }}
+{{ end }}
+
+{{ if (eq "class" (.Scratch.Get "type")) }}
+{{ .Scratch.Set "classes_page_title" "Overview" }}
+{{ else }}
+{{ .Scratch.Set "classes_page_title" .Title }}
 {{ end }}

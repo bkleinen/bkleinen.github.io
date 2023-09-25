@@ -1,5 +1,6 @@
 ---
 title: Info2 Sommersemester 2017
+short_title: Info2
 author: kleinen
 layout: default
 courseNavInt:

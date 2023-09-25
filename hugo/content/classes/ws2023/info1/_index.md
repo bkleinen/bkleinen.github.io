@@ -1,31 +1,20 @@
 ---
 title: B1 Informatics 1 WS 2023/24
+short_title: Info1
+pageTitle: Overview
 author: kleinen
 weight: 1
 draft: false
 aliases: /info1/
-courseNavIntXXX:
-- title: Info1
-  link: "/classes/ws2023/info1/"
-- title: Schedule
-  link: "/classes/ws2023/info1/schedule/"
-- title: Labs
-  link: "/classes/ws2023/info1/labs/"
-- title: Workbook
-  link: "/classes/ws2023/info1/workbook/"
-- title: Code Examples
-  link: "/classes/ws2023/info1/code/"
-- title: Material
-  link: "/classes/ws2023/info1/material/"
 courseNavExt:
 - title: Moodle
-  link: https://moodle.htw-berlin.de/course/view.php?id=37251
+  link: https://moodle.htw-berlin.de/course/view.php?id=44056
 - title: SU in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=200295&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Labs in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=200090&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Semesterstundenplan im LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=mittel&P.subc=plan&subdir=stg&week=&k_abstgv.abstgvnr=231&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=mittel&P.subc=plan&subdir=stg&week=-10&k_abstgv.abstgvnr=231&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=1
 - title: Lecture Source Code
   link: https://github.com/htw-imi-info1
 
@@ -34,8 +23,7 @@ courseNavExt:
 ## Welcome!
 
 Informatics 1 is an introduction to object-oriented programming using the Java
-programming language. In this class we will be using [BlueJ](https://bluej.org/)
-(and it's derivate [Greenfoot]() for the Kara exercises) as development environment.
+programming language. In this class we will be using [BlueJ](https://bluej.org/) and it's extension [Greenfoot](https://www.greenfoot.org/) (for the Kara exercises) as development environment.
 You will learn about writing programs, designing simple algorithms, about
 control structures, data types and data structures and last not least object oriented
 programming - about Objects and Classes.
@@ -50,58 +38,30 @@ You are free to choose German or English for your written assignments.
 
 According to the curriculum, Informatics 1 is planned with 2 lectures and 1 lab
 per week. Lectures are called "Seminaristischer Unterricht" (SU) in the StuPo,
-90 min each with all 40+ students attenting the class. Labs are the "(Praktische) Übung" (PÜ)
+90 min each with all 40+ students attending the class. Labs are the "(Praktische) Übung" (PÜ)
 with smaller groups of 20 students.
 
 This will be organized as follows:
 
 ### Lectures
 
-Lectures cover the generall knowledge and understanding of the topic. We will be using the
-Textbook **Objects First with Java - A Practical
-Introduction using BlueJ**, Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
-[Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling).
+Lectures cover the general knowledge and understanding of the topic.
+The actual lectures (talk and slides) will be rather compact with a 
+lot of practical exercises during the lecture time.
 
-We do lectures in a flipped classroom manner: You read the book chapter ahead during the first part of the week.
-There are also videos available from the author, and I may add some additional reading material or videos.
-See the [Schedule](./schedule) and the [Material](./material) pages for detailed information.
+If you feel you need more input & explanations, you can find plenty of resources
+online, see the [Resources](./resources) pages for an orientation.
+### Labs
 
-On Friday at 12:15-13:45 we meet in WH-C 357 for a brief overview lecture, Q&A and
-additional practice exercises on the book chapter topics.
+Currently, Labs are planned for Fri 12:15-13:45 and 14:00-15:30. A third lab may be opened if needed.
 
-#### Workbooks
+See the [Labs](./labs) page for more information.
 
-We encourage you to maintain hand-written notes and sketches. For this, we've prepared
-a workbook template (available in moodle) containing additional exercises and room for your notes.
-You can hand in your weekly notes for additional points (see below).
 
-#### Open Labs
-
-Thursday will be a day-long open lab. We've combined rooms, lab and 2nd lecture capacity to
-offer you a day long "Open Lab". These are the tentative specifics (those may be adapted
-during the term, changes will be announced via moodle):
-
-9:45-11:15 Lab Intro, assigning teams and Q&A for all (7.4.22 in WH-C 350 , room tba after that)
-
-11:15-ca.15:30 Open Lab and Lab Presentations for all in Rooms WH-C 576, 577, 578
-
-We will assign teams during the Lab Intro in the morning and will ask one half of you
-to have lunch early and the other half to have lunch later, such that not all 40+ (currently 61)
-start the lab and asking questions at the same time.
-
-There will be a board to collect questions for the tutorial and the lecture.
 
 #### Tutorial
 
-There will be an additional tutorial on monday.
-14:00-15:30 in lab WH C 579
-
-## Team
-
-- Veronika Bertels, LB, Software-Engineer, former IMI-Student
-- Lotte Unckell, LB, IMI-Master Student
-- [Nermin Rustic, Tutor, IMI-Bachelor Student](mailto:nermin.rustic@student.htw-berlin.de)
-- Prof. Dr. Barne Kleinen
+There will be an additional tutorial, tba.
 
 ## Grading
 

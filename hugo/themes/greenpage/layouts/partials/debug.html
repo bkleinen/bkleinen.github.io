@@ -1,19 +1,19 @@
-{{- partial "filename_debug.html" (dict "pc" . "file" "debug.html") }}
 {{ if .Site.Params.ShowSourceFilenames }}<small class="text-muted">debug.html</span>{{ end }}
 <li>
-  hugo.Environment: {{ hugo.Environment }}
-</li><li>
-  {{ with .File }}
-  Path: {{ .Path }}
-  {{ end }}
-</li><li>
   Section: {{ .Page.Section}}
 </li><li>
   Kind: {{ .Page.Kind }}
 </li><li>
   Type: {{ .Page.Type }}
 </li><li>
-  Scratch type: {{ .Scratch.Get "type"}}
+  Scratch type: {{ .Scratch.Get "classes_type"}} (relevant four course pages)
+</li><li>Path: 
+  {{ with .File }}
+    {{ .Path }}
+  {{ end }}
+</li><li>
+  hugo.Environment: {{ hugo.Environment }}
+
 </li>
 <li>.Scratch: <ul>{{ range $k, $v := .Scratch.Values }}
   <li>{{ $k }}: {{ $v }}</li>

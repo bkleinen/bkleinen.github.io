@@ -4,6 +4,8 @@ author: kleinen
 weight: 10
 layout: class_layout
 draft: true
+weight: 10
+CourseNav: Schedule
 ---
 Date
 

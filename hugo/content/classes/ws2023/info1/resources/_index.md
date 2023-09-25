@@ -1,9 +1,18 @@
 ---
-title: Info1 - Material
+title: Info1 - Resources
 author: kleinen
 weight: 50
 draft: true
+weight: 20
+CourseNav: Resources
 ---
+
+
+We will be using the [Textbook **Objects First with Java - A Practical
+Introduction using BlueJ**](https://www.bluej.org/objects-first/), Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
+[Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling).
+
+
 ## Kara
 
 * [Worksheet 1](../material/info1-02-worksheet-kara-1.pdf)
