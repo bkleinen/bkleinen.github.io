@@ -1,7 +1,6 @@
 ---
-title: Info1 - Resources
+title: Resources
 author: kleinen
-weight: 50
 draft: true
 weight: 20
 CourseNav: Resources

@@ -6,6 +6,7 @@ author: kleinen
 weight: 1
 draft: false
 aliases: /info1/
+CourseNav: Info 1
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=44056

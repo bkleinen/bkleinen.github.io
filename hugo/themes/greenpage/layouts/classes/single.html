@@ -1,8 +1,7 @@
 
-{{ define "template"}}{{.Scratch.Set "theme" "layouts/classes/single.html"}}{{ end }}
 {{ define "meta" }}
   {{ partial "classes/set_class_variables.html" . }}
-  {{ .Scratch.Add "trace" "layouts/classes/xxx.html" }}
+  {{.Scratch.Set "theme" "layouts/classes/single.html"}}
 {{ end }}
 
 

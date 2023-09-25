@@ -3,6 +3,7 @@
    {{ $termInfo := (apply (slice .Data.Singular .Data.Term) "humanize" ".") }}
    {{ $pageTitle := printf "Material for %s %s" (index $termInfo 0) (index $termInfo 1)  }}
    {{ .Scratch.Set "pageTitle" $pageTitle }}
+   {{.Scratch.Set "theme" "layouts/taxonomy/term.html"}}
 {{ end }}
 
 {{ define "main" }}
@@ -25,5 +26,3 @@
 
 
 {{ end }}
-
-{{ define "template"}}{{.Scratch.Set "theme" "layouts/taxonomy/term.html"}}{{ end }}

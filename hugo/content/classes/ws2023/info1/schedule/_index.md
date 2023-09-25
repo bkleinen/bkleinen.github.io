@@ -1,5 +1,5 @@
 ---
-title: Info1 - Schedule
+title: Schedule
 author: kleinen
 weight: 10
 layout: class_layout

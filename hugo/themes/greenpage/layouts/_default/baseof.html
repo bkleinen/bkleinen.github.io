@@ -1,8 +1,8 @@
+{{.Scratch.Set "theme" "layouts/_default/_baseof.html"}}
 {{- block "meta" . }}{{- end }}
 <!DOCTYPE html>
 <html>
-{{.Scratch.Set "theme" "layouts/_baseof.html"}}
-{{ block "template" . }}{{end}}
+
   <head>
     <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     {{- partial "head.html" . -}}
