@@ -1,5 +1,5 @@
 ---
-title: Baf&ouml;g-Infos
+title: Bafög-Infos
 author: kleinen
 layout: post
 draft: true
@@ -8,6 +8,12 @@ categories:
   - bafoeg
 ---
 
+## tl;dr: 
+Als Leistungsnachweis nach dem 4. Semester können Sie einfach Ihren LSF-Nachweis an das Studierendenwerk schicken.
+(Bei Verzögerungen vorsicht, s.u.)
+Für alle anderen Anliegen bitte in meine Sprechstunde kommen. []
+
+## 
 Vom langer Zeit war ich mal Baf&ouml;g-Beauftragter des Studiengangs IMI, und
 hatte damals diese Informationen zusammengetragen, Stand 2014, die hiermit von der Webseite
 in den Blog umziehe -
@@ -17,7 +23,7 @@ Wenn Sie Unterstützung bei der Beantragung des Bafögs brauchen, kann ich Ihnen
 
 - [RefRat der HU](https://www.refrat.de/beratung.bafoeg.html?1401814142)
 - [Bafög-Rechner](https://www.bafoeg-rechner.de) (enthält viele gute Informationen)
-- [Bafög-Info-Seite der HTW](https://www.htw-berlin.de/studieninteressierte/finanzierung/bafoeg-bildungskredit/)
+- Bafög-Info-Seite der HTW - hat mal wieder die URL geändert, ich geb's auf, stand ohnehin nichts was auf anderen Seiten nicht auch steht.
 - [Arbeiterkind](https://www.arbeiterkind.de/)
 
 Leistungsbescheinigung nach &sect;48 Baf&ouml;g (Formblatt 5)

@@ -9,3 +9,4 @@ studies:
 * [Thesis](thesis/) (Abschlussarbeit)
 * [Independent Coursework](ic/) (Master's Programme)
 * [General Grading Info](grading/)
+* [Bafög](bafoeg/)

@@ -2,7 +2,7 @@
 {{- partial "filename_debug.html" (dict "pc" . "file" "header.html") }}
 <div class = "row">
   <div class ="col-9">
-    <h1 class = "c5 title"> {{ .Scratch.Get "course_title" | default site.Title }} </h1>
+    <h1 class = "c5 title">{{ .Scratch.Get "course_title" | default site.Title }} </h1>
     <small>{{ site.Params.SubTitle }} Media Informatics
       (<a href="https://imi-bachelor.htw-berlin.de">Bachelor</a>/<a href="https://imi-master.htw-berlin.de">Master</a>)
        at <a href="https://www.htw-berlin.de">HTW Berlin</a>
