@@ -28,8 +28,8 @@
             {{ else }}<div>{{ end }} 
                 {{ .Name}}  
             {{ if eq .Identifier "debug"}}
-              {{ $currentPage.Scratch.Get "classes_type" }}
-              {{ $currentPage.Scratch.Get "theme" }}
+              <br/> classes_type: {{ $currentPage.Scratch.Get "classes_type" }}
+              <br/> {{ $currentPage.Scratch.Get "theme" }}
             {{ end }}
             </div>
         </a>

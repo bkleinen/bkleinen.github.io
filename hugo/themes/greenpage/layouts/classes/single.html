@@ -1,5 +1,5 @@
-{{ define "template20"}}{{.Scratch.Set "theme" "layouts/classes/single.html"}}{{ end }}
-{{ define "template" }} theme: layouts/classes/single.html {{ end }}
+
+{{ define "template"}}{{.Scratch.Set "theme" "layouts/classes/single.html"}}{{ end }}
 {{ define "meta" }}
   {{ partial "classes/set_class_variables.html" . }}
   {{ .Scratch.Add "trace" "layouts/classes/xxx.html" }}

@@ -8,4 +8,4 @@
 
 {{ end }}
 
-{{ define "template" }}theme: layouts/_default/list.html{{ end }}
+{{ define "template"}}{{.Scratch.Set "theme" "layouts/_default/list.html"}}{{ end }}

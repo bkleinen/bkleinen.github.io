@@ -46,4 +46,4 @@
 
 {{ end }}
 
-{{ define "template" }}theme: taxonomy/terms.html{{ end }}
+{{ define "template"}}{{.Scratch.Set "theme" "taxonomy/terms.html"}}{{ end }}

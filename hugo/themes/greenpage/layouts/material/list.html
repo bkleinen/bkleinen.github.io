@@ -45,4 +45,4 @@ The material on this page is organized into {{ len .Site.Taxonomies }} taxonomie
 </section>
 {{ end }}
 
-{{ define "template" }}theme: layouts/material/list.html{{ end }}
+{{ define "template"}}{{.Scratch.Set "theme" "layouts/material/list.html"}}{{ end }}

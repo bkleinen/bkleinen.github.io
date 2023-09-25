@@ -18,4 +18,4 @@
 
   {{ end }}
 
-  {{ define "template" }}theme: layouts/bibliography/list.html{{ end }}
+  {{ define "template"}}{{.Scratch.Set "theme" "layouts/bibliography/list.html"}}{{ end }}

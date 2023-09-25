@@ -88,4 +88,4 @@
 {{ end }}
 {{ end }}
 
-{{ define "template" }}theme: layouts/_index.html{{ end }}
+{{ define "template"}}{{.Scratch.Set "theme" "layouts/_index.html"}}{{ end }}

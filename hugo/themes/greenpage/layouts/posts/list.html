@@ -8,4 +8,4 @@
 {{- partial "posts/onecategory.html" . }}
 {{ end }}
 
-{{ define "template" }}theme: layouts/posts/list.html{{ end }}
+{{ define "template"}}{{.Scratch.Set "theme" "layouts/posts/list.html"}}{{ end }}

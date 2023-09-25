@@ -29,4 +29,4 @@ in
 
 {{ end }}
 
-{{ define "template" }}theme: layouts/material/single.html{{ end }}
+{{ define "template"}}{{.Scratch.Set "theme" "layouts/material/single.html"}}{{ end }}

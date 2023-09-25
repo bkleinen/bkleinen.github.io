@@ -1,7 +1,8 @@
 {{- block "meta" . }}{{- end }}
 <!DOCTYPE html>
 <html>
-{{ block "template20" .}}{{end}}
+{{.Scratch.Set "theme" "layouts/_baseof.html"}}
+{{ block "template" . }}{{end}}
   <head>
     <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     {{- partial "head.html" . -}}
@@ -107,7 +108,6 @@
            </small>
         {{ if (or (.Site.IsServer) (in (slice "staging" "development" "debug") hugo.Environment )) }}
             <div><hr><small>  <h7>Debug Info</h7><ul>
-                 <li>Template: {{ block "template" . }}block template not defined{{ end }}</li>
                  {{ partial "debug.html" . }}
           </ul></small><hr></div>
         {{ end }}
