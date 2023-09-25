@@ -1,22 +1,18 @@
 ---
 title: Resources
 author: kleinen
-draft: true
+draft: false
 weight: 20
 CourseNav: Resources
 ---
 
 
-We will be using the [Textbook **Objects First with Java - A Practical
-Introduction using BlueJ**](https://www.bluej.org/objects-first/), Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
-[Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling).
-
-
+This is a long page. You may want to open the Table of Contents above!
 ## Kara
 
-* [Worksheet 1](../material/info1-02-worksheet-kara-1.pdf)
-* [Worksheet 2](../material/info1-04-worksheet-kara-2.pdf)
-* [Testareas for manual walkthroughs](../material/info1-02-kara-testareas.pdf)
+* [Worksheet 1](../resources/info1-02-worksheet-kara-1.pdf)
+* [Worksheet 2](../resources/info1-04-worksheet-kara-2.pdf)
+* [Testareas for manual walkthroughs](../resources/info1-02-kara-testareas.pdf)
 * Kara Sourcecode for the Worksheets:[https://github.com/htw-imi-info1/kara](https://github.com/htw-imi-info1/kara)
 * Solutions: [https://github.com/htw-imi-info1/kara/tree/public-solution](https://github.com/htw-imi-info1/kara/tree/public-solution)
 * [Kara Tutorial](https://code.makery.ch/library/greenfoot-kara/) (if you need more introduction to Kara)
@@ -24,16 +20,16 @@ Introduction using BlueJ**](https://www.bluej.org/objects-first/), Pearson Educa
 
 ## Textbook
 
-We will be using the
-Textbook **Objects First with Java - A Practical
-Introduction using BlueJ**, Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
+
+We will be using the [Textbook **Objects First with Java - A Practical
+Introduction using BlueJ**](https://www.bluej.org/objects-first/), Pearson Education, 2016, 6th edition by [David Barnes](https://www.kent.ac.uk/computing/people/3070/barnes-david) and
 [Michael Kölling](https://www.kcl.ac.uk/people/michael-kolling).
-See the publishers [Pearson Book Page](https://www.pearson-studium.de/objects-first-with-java-a-practical-introduction-using-bluej-global-edition.html).
+
 
 There is a German translation available: Barnes, David J., Kölling, Michael: Java lernen mit BlueJ. Pearson,  2017, 6. Auflage.
 [Pearson Book Page](https://www.pearson.de/java-lernen-mit-bluej-9783868949117).
 
-There are copies available in the library, and you can also obtain an older edition - examples and chapter order vary, but the general content is mostly the same apart from the newer chapters on lambdas and streams.
+There are copies available in the library, and you can also obtain an older edition - examples and chapter order vary, but the general content is mostly the same except of the new chapter on lambdas and streams.
 More material and info on the chapter order can be found on the book's web page: [https://www.bluej.org/objects-first/](https://www.bluej.org/objects-first/)
 
 The autors have recorded videos for most lectures (currently, up to chapter 8):
@@ -42,11 +38,10 @@ The autors have recorded videos for most lectures (currently, up to chapter 8):
 
 ## Textbook Chapters
 
-### Chapter 01
 - **Chapter 01 - Objects and Classes** Objects, Classes, Methods, BlueJ, Parameters, Compiler | {{< video "Video Part 1" 101 >}}, {{< video 2 102 >}} |
 - Greenfoot and thus Greenfoot Kara as well builds on top of BlueJ; this videos shows working with Objects and Classes in Greenfoot: [Greenfoot Tutorial Teil 1 - Grundbegriffe Klasse und Objekt, Parameter - YouTube](https://www.youtube.com/watch?v=A2JiDwqr7Os&t=333s)
 
-### Chapter 01-14
+
 - **Chapter 02 - Understanding Class Definitions** - Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter, Printing to the command line, Conditional, Local Variables, Expressions | {{< video "Video Part 1" 201 >}}, {{< video 2 202 >}}, {{< video 3 203 >}}, {{< video 4 204 >}}, {{< video 5 205 >}}, {{< video 6 206 >}}, {{< video 7 207 >}}, {{< video 8 208 >}}, {{< video 9 209 >}} |
 - **Chapter 03 - Object Interaction** - Abstraction, Modularization, Object Interaction, Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger | {{< video "Video Part 1" 301 >}}, {{< video 2 302 >}} |
 - **Chapter 04 - Grouping Objects** Collections, Generics, for-each, While Loops, More Loops, Iterators, Arrays, For Loops | {{< video "Video Part 1" 401 >}}, {{< video 2 402 >}}, {{< video 3 403 >}}, {{< video 4 404 >}}, {{< video 5 405 >}} |

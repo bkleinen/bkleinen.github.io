@@ -1,13 +1,14 @@
 ---
-title: Schedule
+title: Tentative Schedule
 author: kleinen
 weight: 10
 layout: class_layout
-draft: true
+draft: false
 weight: 10
 CourseNav: Schedule
+notoc: true
 ---
-Date
+
 
 | Week | KW | Date           | Topic                                                | Lab                                                                                                               |   |   |
 |:-----|:---|:---------------|:-----------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|---|---|
@@ -56,7 +57,9 @@ Date
 
 
 
-| Chapter Overview                                                                                            | 
+## Chapter Overview   
+
+||
 |:--------------------------------------------------------------------------------------------|
 | **Chapter 01 - Objects and Classes** Objects, Classes, Methods, BlueJ, Parameters, Compiler |       |
 | **Chapter 02 - Understanding Class Definitions** - Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter, Printing to the command line, Conditional, Local Variables, Expressions |
@@ -73,5 +76,3 @@ Date
 | **Chapter 13 - Building Graphical User Interfaces** - Graphical User Interfaces                                                                                                                                          |
 | **Chapter 14 - Handling Errors** - Handling Errors, Exceptions, Assertions, File-based IO, Files, Command Line                                                                                                           |
 
-
-Exam period: 11/07/2022-30/07/2022

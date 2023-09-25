@@ -58,8 +58,6 @@ Currently, Labs are planned for Fri 12:15-13:45 and 14:00-15:30. A third lab may
 
 See the [Labs](./labs) page for more information.
 
-
-
 #### Tutorial
 
 There will be an additional tutorial, tba.
@@ -68,25 +66,12 @@ There will be an additional tutorial, tba.
 
 The grade will be a weighted mixture of the following parts:
 
-* 40% [Lab Reports](labs/)
-* 55% Exam
-* 10% [Workbook Chapters](workbook/)
+* 36% [Lab Reports](labs/)
+* 64% Exam
+*  8% Lecture Notes
 
-
-This sums up to a total of 105 % and will be graded according to the
+This sums up to a total of 108 % and will be graded according to the
 [Grading Scale](/studies/grading/grading-scale) .
-
-
-### Further remarks
-Workbook Chapters and Lab Reports are simply counted - they are either present/marked as ok
-or not.
-
-2 lab reports and 3 Workbook Chapters may be handed in late.
-
-If you are unable to work on your assignments due to circumstances you are not
-accountable off - e.g. falling ill or family emergencies - talk to one of us
-asap and we will work out a solution.
-
 
 ## Important Links and Further Information
 
@@ -96,7 +81,7 @@ The Course Navigation on top gives you access to all other relevant places via "
 These places are in detail:
 
 * This Web Page for all information that may and should be publicly accessible,
-  especially the [Schedule](schedule), [Lab](labs) exercises, or further general information as the [Grading Scale](/studies/grading/grading-scale).
+  especially the [Schedule](schedule), the [Resources](resources), and the [Lab](labs) exercises, and further general information as the [Grading Scale](/studies/grading/grading-scale).
 * [Moodle](https://moodle.htw-berlin.de) for all Information that cannot be made publicly available and for handing in your lecture summaries and lab reports.
 * the [LSF System](https://lsf.htw-berlin.de), where you can find class times and rooms. Note that is possible to see the general schedule for your Semester (Term Schedule above) and also Schedules for all people teaching (Dozentenpläne) - this is often the fastest way to find out the room for your next class.
 * [The lecture source code on Github](https://github.com/htw-imi-info1) for publicly accessible code examples used in the lecture and the assignments (you don't need to know how to use git to use github - note the "download as zip" buttons on the starting page of each repository!)
