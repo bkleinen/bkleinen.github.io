@@ -33,7 +33,7 @@ the first real exercise.
 
 0.   Now that you have your HTW username, you also have a home directory. This is where all your files can be placed. You can access it both from Windows and Linux (Ubuntu). After you have logged in, look around - where do you find a browser? How many browsers are there? How do you make a screen shot? How can you make a pdf file?
 
-### 2. Create a Dictionary for Info1
+### 2. Create a Director(Folder) for Info1
 
 Think about where you want to put your info1 files - notes, code examples, lab source code and reports, etc. - within your home directory here.
 
