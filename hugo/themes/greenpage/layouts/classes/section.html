@@ -22,6 +22,11 @@
 
   {{ .Content }}
 
+
+  {{ if .Params.subpages }}
+     {{ partial "sc_partials/subpages.html" (dict "page" . "depth" 4) }}
+  {{ end }}
+
   {{ partial "classes/all_classes.html" . }}
 
 {{end}}

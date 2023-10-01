@@ -1,64 +1,25 @@
 ---
 title: 'Exercise 01: Sending Messages to Objects'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise01
-draft: true
+source: https://github.com/htw-imi-info1/chapter01
+draft: false
 hasMermaid: true
 ---
-
 ```mermaid
 
 sequenceDiagram
     actor You
-    You->>+Object1:getAnswer
-    Object1->>+Object2: getAnswer
-    Object2->>+Object3: getAnswer
-    Object3-->>-Object2: 42
-    Object2-->>-Object1: 42
-    Object1-->>-You: 42
+    create Participant Picture
+    You->>+Picture:new()
+    You->>+Picture:draw()
+    create Participant Circle
+    Picture->>+Circle: new()
+    Circle-->>-Picture:circle
+    Picture->>+Circle: makeVisible()
+    Circle-->>-Picture:void
+    Picture-->>-You:void
     
 ```
-```mermaid
-
-sequenceDiagram
-    actor You
-    You->>+Object:  Hello John, how are you?
-    Object1->>+Object2: getAnswer
-    Object2->>+Object3: getAnswer
-    Object3-->>+Object2: 42
-    Object2-->>+Object1: 42
-    Object1-->>+You: 42
-    
-```
-```mermaid
-sequenceDiagram
-    actor Alice
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
-```
-
-```mermaid
-sequenceDiagram
-    actor You
-    You->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
-```
-
-
-```mermaid
-
-sequenceDiagram
-    actor You
-    You->>+Object:getAnswer
-    Object-->>-You:42
-
-    
-```
-
 ## What to bring to lab
 
 **P1.** In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.
@@ -77,18 +38,22 @@ sequenceDiagram
 
 **P3.** Pick up a book—you should have at least one at home. Is it an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.
 
-**P4.** What class does the following constructor belong to? How many formal parameters does it have? What are their types?
+**P4.** Consider the Car example we did in class. (You'll find it in the slides.) The examples shows two attributes of cars, color and location.
+collect some more attributes that would make sense for cars. Which of them will stay the same over a car's lifetime and which of them will probably change? (If you don't like cars, feel free to do the same for Bicycles).
+
+**P4.** What class does the following constructor (signature) belong to? How many formal parameters does it have? What are their types?
 
 ```java
-public Book (String title, double price)
+public Student(String fullName, String studentID)
 ```
-If you will be using your own laptop in the lab, please [install BlueJ 5.2.0 before you come to lab](https://www.bluej.org/). Downloads are available for all platforms—it's written in Java! Write once, run anywhere!
+If you will be using your own laptop in the lab, please [install BlueJ 5.2.0](https://www.bluej.org/) and [Greenfoot 3.8.0](https://www.greenfoot.org/download) before you come to lab. Downloads are available for all platforms—it's written in Java! Write once, run anywhere! 
+More Info on how to work in the Lab can be found in [last week's startup exercise](../exercise-00), which was part of the Erstis-Introduction.
 
 ## Post-Lab, AKA  What To Turn In
 
 Your completed assignment, submitted in Moodle as a pdf, should include:
 
-- a description of what you did during the lab, including a record of how you got BlueJ started and how you produced the pdf
+- a description of what you did during the lab, including a record of how you got BlueJ and Greenfoot started and how you produced the pdf
 - a screenshot of your scene. How did you get a screenshot produced?
 - A brief summary of what, if anything, you learned during this exercise.
 - the names and roles of any collaborators in any parts of the exercise.
@@ -100,31 +65,74 @@ Lab assignments are due as shown in Moodle. They may, of course, be turned in ea
 
 Remember to keep a logbook where you put down what you were doing.
 
-### 1. Figures
+### 1. Figures, House and Picture
 
-Download the projects file from Github: {{< source >}} and open up the figures project with BlueJ.
+Download the source code for chapter 1 (if you haven't already done so) from Github: {{< source >}} 
 
-3. Create a Circle, a Triangle, a Person, and two Squares. Oops, where is the second Square? How can you make both visible on the screen?
-4. Make all five figures have the same color. What did you have to do? Did you make any mistakes doing this?
-5. Now make an interesting picture using at least one of each of the shapes! 
-   Use at least seven objects. Record what you had to do to get your scene set up. Take a screenshot to include in your report.
-6. Did you make any errors? Could you delete a mistaken object? Explain how you think this worked—or didn't work. Did anything catastrophic happen? Keep records of this in your report!
-6. Now, find the draw() method in the Picture class. Try adding a second form to the picture. Call the Picture->draw() method - you've written your first Program! If you want to, put the sequence of messages recorded in 5. into this method automating the drawing of your picture.
-7. (For the bored) Okay, so you've been programming since before you could talk and this is child's play. Explore a little deeper—can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
-
-### 2. Kara
-
-Now we do the same with Kara - sending messages to the Kara object.
-
-1. Open the 01-01-walk project in greenfoot.
+1. In the figures project:
+    1. Create a Circle, a Square, a Triangle, and two Persons. 
+       Oops, where is the second Person? How can you make both visible on the screen?
+    2. Try out some more methods on the Figures. You are sending messages to objects!
 
 
+3. In the house project:
+    1. Create a Picture and call its draw() method.
+    2. Now, find the draw() method in the Picture class. What does it do?
+    3. Try to add a person to the Picture.
+    4. Alter the draw() method to modify your picture as you like, including the Person. 
 
-![Kara](./kara-methods.jpg)
-<small class = "float-right">Screenshot Greenfoot</small>
 
+### 2. Lab Class List
+
+By now, you have probably experienced that the objects in your Object Bench disappear whenever the Java Runtime is re-started.
+Objects are created dynamically by the program. They are not persistent. [There's a trick to store your object bench, however.](/material/info1/save_object_bench/)
+
+Open the lab-class project.
+
+1. Try out the Classes
+    1. create an Instance of Student.
+    2. create an LabClass.
+    3. enroll the Student in the Class by calling `enrollStudent(Student newStudent)`. You need     to provide an instance of class Student as a parameter. You can do so by either typing the 
+    instance name or just double-clicking on the object in the workbench.
+    4. call `printList()` on LabClass
+1. Complete the `createGroup()` method in `Info1LabGroup`: it should create a LabClass with Student objects for each in your Lab Group in it. (You do not need to examine or change the code of the other classes). 
+    1. create an instance of LabClass. don't forget to set all attributes!
+    1. create an instances of `Student` for each member of your group as you work together on    this exercise. Don't forget to add the pronouns they use by using `setPronouns()``.
+    3. enroll the students in the class 
+    4. call `printList()` on LabClass and check wether all information is complete. 
+
+Add a screenshot of your `createGroup()` method and the printout to your lab report. 
+### 3. Kara
+
+Now we do the same with Kara - sending messages to the Kara object, and then putting them together to write little programs.
+
+#### 1. Square-Drop
+
+1. Open the [01-04-square-drop](https://github.com/htw-imi-info1/chapter01/tree/main/kara/01-04-square-drop) project with Greenfoot.
+2. create an instance of the `Kara` class (the gray Kara).
+3. This class implements all of Kara's special methods. call it's `move()` method, and try out some more methods.
+
+      ![Methods are in gray Kara](./grayKara.jpg)
+
+ 2. Now, get back to the MyKara instance (the red Kara). It inherits all methods in its super class `Kara` (as well as from `Kara`´s super class `Actor` and its superclass `Object`) - thus, you find the methods under "inherited from Kara".
+ 
+ ![Call Parent Method](./call-parent-method.jpg)
+
+ 5. make MyKara walk 4 fields forward and then turn right. Put this in it's act() method!
+ 6. now, click on act() several times.
+ 7. click on run. This will call act() in an indefinite loop.
+ 8. (Challenge) - can you figure out how to make it stop after one round? After TwoRounds?
+ 9. (Challenge) - Now that it stops, you can drop a leaf in each corner.
+
+### 2. Around Tree
+
+1. open the [01-05-aroundTree](https://github.com/htw-imi-info1/chapter01/tree/mainkara/01-05-aroundTree) project in Greenfoot.
+2. make Kara walk around the tree by adding the necessary method calls to the act()method.
+
+Include Screenshots of your completed act() methods in your report.
 
 
 ### Writeup
 
-You will be doing your writeup at home. Use the notes that you took in your logbook. Submit your writeup as your post-lab to the Moodle area.
+You will be doing your writeup at home. Use the notes that you took in your logbook. 
+Submit your lab report to the Moodle area.
