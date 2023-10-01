@@ -1,0 +1,77 @@
+sequenceDiagram
+    Object1->>+Object2: message1
+    Object2->>+Object3: message2
+    Object3->>+Object4: message3
+    Object4->>+Object5: message4
+    Object5->>+Object6: message5
+    Object6->>-Object5: message6
+    Object5->>-Object4: message7
+    Object4->>-Object3: message8
+    Object3->>-Object2: message9
+    Object2->>-Object1: message9
+
+
+
+sequenceDiagram
+    actor You
+    You->>+Object1:message0
+    Object1->>+Object2: message1
+    Object2->>+Object3: message2
+    Object3->>+Object4: message3
+    Object4->>+Object5: message4
+    Object5->>+Object6: message5
+    Object6->>-Object5: message6
+    Object5->>-Object4: message7
+    Object4->>-Object3: message8
+    Object3->>-Object2: message9
+    Object2->>-Object1: message9
+
+
+sequenceDiagram
+    Object1->>+Object2: message1
+    Object2->>+Object3: message2
+    Object3->>+Object4: message3
+    Object4->>+Object5: message4
+    Object5->>+Object6: message5
+    Object6->>-Object5: message6
+    Object5->>-Object4: message7
+    Object4->>-Object3: message8
+    Object3->>-Object2: message9
+    Object2->>-Object1: message9
+
+sequenceDiagram
+    Kara->>+Kara: move()
+    Kara->>+Kara: move()
+    Kara->>+Kara: move()
+    Kara->>+Kara: move()
+    Kara->>+Kara: move()
+
+
+sequenceDiagram
+    actor You
+    You->>+Kara: act()
+    activate Kara
+    Kara-->>You: 
+
+
+sequenceDiagram
+    actor You
+    activate You
+    activate Kara
+    You->>+Kara: act()
+    activate Kara
+    Kara->>+Kara: move()
+    Kara->>+Kara: move()
+    
+    Kara-->>You: 
+
+
+sequenceDiagram
+    actor You
+    participant circle1
+    participant square1
+    participant triangle1
+    You->>+circle1: moveUp()
+    You->>+circle1: moveDown()
+    You->>+square1: moveUp()
+    You->>+triangle1: moveLeft()

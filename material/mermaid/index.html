@@ -19,30 +19,33 @@ in
 &nbsp;
 <i><a href=https://bkleinen.github.io/tools/>Tools</a></i>:
 <a href=https://bkleinen.github.io/material/tools/hugo/>hugo</a>
-<a href=https://bkleinen.github.io/material/tools/mermaid/>mermaid</a></small><p><a href=https://mermaid.js.org/>Mermaid</a> renders diagrams from simple markdown code. It can be used</p><ul><li>via integrating the available js library (yarn add mermaid),</li><li>online via <a href=https://mermaid.live/>Mermaid-Live</a>,</li><li>is available in <a href=https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams>Github markdown files</a> (and others)</li><li>and can be <a href=https://gohugo.io/content-management/diagrams/#mermaid-diagrams>easily integrated into hugo</a><sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></li></ul><p>Here are some examples taken from Mermaid Live:</p><div class=mermaid>stateDiagram-v2
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]</div><pre><code>flowchart TD
+<a href=https://bkleinen.github.io/material/tools/mermaid/>mermaid</a></small><p><a href=https://mermaid.js.org/>Mermaid</a> renders diagrams from simple markdown code. It can be used</p><ul><li>via integrating the available js library (yarn add mermaid),</li><li>online via <a href=https://mermaid.live/>Mermaid-Live</a>,</li><li>is available in <a href=https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams>Github markdown files</a> (and others)</li><li>and can be <a href=https://gohugo.io/content-management/diagrams/#mermaid-diagrams>easily integrated into hugo</a><sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></li></ul><p>Here are some examples taken from Mermaid Live:</p><pre class=mermaid>stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</pre><pre><code>flowchart TD
     A[Christmas] --&gt;|Get money| B(Go shopping)
     B --&gt; C{Let me think}
     C --&gt;|One| D[Laptop]
     C --&gt;|Two| E[iPhone]
     C --&gt;|Three| F[fa:fa-car Car]
-</code></pre><div class=mermaid>flowchart TD
-A[Christmas] -->|Get money| B(Go shopping)
-B --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[fa:fa-car Car]</div><div class=mermaid>stateDiagram-v2
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]</div><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>hugo/themes/greenpage/layouts/_default/_markup/&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
+</code></pre><pre class=mermaid>flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+</pre><pre class=mermaid>stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</pre><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>hugo/themes/greenpage/layouts/_default/_markup/&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
 <script>mermaid.initialize({startOnLoad:!0})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
 <a href=https://www.htw-berlin.de>HTW Berlin</a>,
 <a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
