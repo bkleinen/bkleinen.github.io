@@ -9,6 +9,15 @@ source_ok: true
 solution_pushed: true
 ---
 
+Notes: Class definitions go here - ticket machine!
+
+
+
+
+
+
+
+
 ![Book](../../images/ticket-5277919863_b741ccde84_b.jpg)
 <small class = "float-right">Printed Ticket. [Sludge G](https://www.flickr.com/photos/sludgeulper/5277919863/)</small>
 

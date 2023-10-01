@@ -4,10 +4,14 @@ author: kleinen
 draft: false
 weight: 20
 CourseNav: Resources
+subpages: false
 ---
 
-
 This is a long page. You may want to open the Table of Contents above!
+
+## Material on this Site
+
+{{< course_material >}}
 ## Kara
 
 * [Worksheet 1](../resources/info1-02-worksheet-kara-1.pdf)
@@ -82,5 +86,3 @@ ChatGPT has proven to be quite good at many programming tasks, and you will most
 
 You may, and should however, use ChatGPT (and also plain googling) to help whenever you are stuck. If you do so, document that you were doing so by referring to it as a source, and check the validity of the answer. In fact, I am very much interested in learning through your reports in which way ChatGPT proved to be useful to you.
  
-
-
