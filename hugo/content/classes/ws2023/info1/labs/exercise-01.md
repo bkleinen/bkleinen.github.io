@@ -3,7 +3,61 @@ title: 'Exercise 01: Sending Messages to Objects'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise01
 draft: true
+hasMermaid: true
 ---
+
+```mermaid
+
+sequenceDiagram
+    actor You
+    You->>+Object1:getAnswer
+    Object1->>+Object2: getAnswer
+    Object2->>+Object3: getAnswer
+    Object3-->>-Object2: 42
+    Object2-->>-Object1: 42
+    Object1-->>-You: 42
+    
+```
+```mermaid
+
+sequenceDiagram
+    actor You
+    You->>+Object:  Hello John, how are you?
+    Object1->>+Object2: getAnswer
+    Object2->>+Object3: getAnswer
+    Object3-->>+Object2: 42
+    Object2-->>+Object1: 42
+    Object1-->>+You: 42
+    
+```
+```mermaid
+sequenceDiagram
+    actor Alice
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+```
+
+```mermaid
+sequenceDiagram
+    actor You
+    You->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+```
+
+
+```mermaid
+
+sequenceDiagram
+    actor You
+    You->>+Object:getAnswer
+    Object-->>-You:42
+
+    
+```
 
 ## What to bring to lab
 
@@ -50,13 +104,25 @@ Remember to keep a logbook where you put down what you were doing.
 
 Download the projects file from Github: {{< source >}} and open up the figures project with BlueJ.
 
-1. What do Circles, Triangles, Squares and Persons have in common? Do they have any differences?
-2. How is a Person similar to Circles, Triangles and Squares?
 3. Create a Circle, a Triangle, a Person, and two Squares. Oops, where is the second Square? How can you make both visible on the screen?
 4. Make all five figures have the same color. What did you have to do? Did you make any mistakes doing this?
-5. Now make an interesting picture using at least one of each of the shapes! Use at least seven objects. Record what you had to do to get your scene set up. Take a screenshot to include in your report.
+5. Now make an interesting picture using at least one of each of the shapes! 
+   Use at least seven objects. Record what you had to do to get your scene set up. Take a screenshot to include in your report.
 6. Did you make any errors? Could you delete a mistaken object? Explain how you think this worked—or didn't work. Did anything catastrophic happen? Keep records of this in your report!
+6. Now, find the draw() method in the Picture class. Try adding a second form to the picture. Call the Picture->draw() method - you've written your first Program! If you want to, put the sequence of messages recorded in 5. into this method automating the drawing of your picture.
 7. (For the bored) Okay, so you've been programming since before you could talk and this is child's play. Explore a little deeper—can you make the shapes canvas larger? What happens when a figure hits the wall? How can you figure out where the wall is? Right, this is badly programmed. What would you have to do to get a shape to bounce off the wall? Can you do it?
+
+### 2. Kara
+
+Now we do the same with Kara - sending messages to the Kara object.
+
+1. Open the 01-01-walk project in greenfoot.
+
+
+
+![Kara](./kara-methods.jpg)
+<small class = "float-right">Screenshot Greenfoot</small>
+
 
 
 ### Writeup
