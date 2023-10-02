@@ -75,6 +75,7 @@ sequenceDiagram
     create Participant ClockDisplay
     YOU->>+ClockDisplay: new()
     create Participant hours_NumberDisplay
+  
     ClockDisplay->>+hours_NumberDisplay:new(24)
     hours_NumberDisplay-->>-ClockDisplay:hours
     create Participant minutes_NumberDisplay
