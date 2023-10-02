@@ -99,9 +99,12 @@ sequenceDiagram
     ClockDisplay->>+minutes_NumberDisplay:getValue()
     minutes_NumberDisplay-->>-ClockDisplay:value
 
+    alt [value == 0]
+
     ClockDisplay->>+hours_NumberDisplay:increment()
     hours_NumberDisplay-->>-ClockDisplay:void
-    
+    end
+
     ClockDisplay->>+ClockDisplay:updateDisplay()
     deactivate ClockDisplay
 
@@ -109,19 +112,3 @@ sequenceDiagram
 
 ```
 
-```mermaid
-
-sequenceDiagram
-    actor YOU
-    YOU->>+ClockDisplay: timeTick(13,45)
-    ClockDisplay->>+minutes_NumberDisplay:increment()
-    minutes_NumberDisplay-->>-ClockDisplay:void
-
-    ClockDisplay->>+minutes_NumberDisplay:getValue()
-    hours_NumberDisplay-->>-ClockDisplay:void
-    ClockDisplay->>+hours_NumberDisplay:increment()
-    hours_NumberDisplay-->>-ClockDisplay:void
-    ClockDisplay-->>-YOU:void
- 
-
-```
