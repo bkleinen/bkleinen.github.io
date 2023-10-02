@@ -38,7 +38,7 @@ sequenceDiagram
     Canvas-->>-LEDClockDisplay: canvas
     LEDClockDisplay-->>-ClockDisplay: leds
 
-    loop [ for each display part]
+    loop [ for each number display part]
     create participant NumberDisplay
     ClockDisplay->>+NumberDisplay:new()
     NumberDisplay-->>-ClockDisplay:aNumberDisplay
@@ -48,9 +48,18 @@ sequenceDiagram
     loop [ for each led digit]
     create participant LEDDigit
     NumberDisplay->>+LEDDigit:new(pos, canvas)
+
+    loop [ for each led segment]
+    create participant Segment
+    LEDDigit->>+Segment:new(pos, canvas)
+    Segment-->>-LEDDigit: segment
+    end
+
     LEDDigit-->>-NumberDisplay: digit
     end
-    
+
+    NumberDisplay-->>-LEDClockDisplay:void
+    LEDClockDisplay-->>-ClockDisplay:void
 
 
     end
