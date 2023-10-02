@@ -56,7 +56,20 @@ This makes the program way simpler:
 
 ## Original Version: Creation
 ```mermaid
-
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 sequenceDiagram
     actor YOU
     create Participant ClockDisplay
@@ -72,7 +85,20 @@ sequenceDiagram
 ```
 ## Original Version: setTime()
 ```mermaid
-
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 sequenceDiagram
     actor YOU
     YOU->>+ClockDisplay: setTime(13,45)
@@ -80,13 +106,35 @@ sequenceDiagram
     hours_NumberDisplay-->>-ClockDisplay:void
     ClockDisplay->>+minutes_NumberDisplay:setValue(45)
     minutes_NumberDisplay-->>-ClockDisplay:void
+    
+    ClockDisplay->>+ClockDisplay:updateDisplay()
+    ClockDisplay->>+hours_NumberDisplay:getDisplayValue()
+    hours_NumberDisplay-->>-ClockDisplay:displayString
+    ClockDisplay->>+minutes_NumberDisplay:getDisplayValue()
+    minutes_NumberDisplay-->>-ClockDisplay:displayString
+    
+    deactivate ClockDisplay
+
     ClockDisplay-->>-YOU:void
 
 ```
 ## Original Version: timeTick()
 
 ```mermaid
-
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 sequenceDiagram
     actor YOU
     participant ClockDisplay
@@ -107,7 +155,11 @@ sequenceDiagram
     end
 
     ClockDisplay->>+ClockDisplay:updateDisplay()
-    deactivate ClockDisplay
+    ClockDisplay->>+hours_NumberDisplay:getDisplayValue()
+    hours_NumberDisplay-->>-ClockDisplay:displayString
+    ClockDisplay->>+minutes_NumberDisplay:getDisplayValue()
+    minutes_NumberDisplay-->>-ClockDisplay:displayString
+    
 
     ClockDisplay-->>-YOU:void
 
