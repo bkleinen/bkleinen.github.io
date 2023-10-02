@@ -17,13 +17,13 @@ Now, call “Object Bench to Test Fixture” from the Test Class’ context menu
 ![](../save_object_bench/image_3.png)
 
 This will save all variables for the created objects as Field declarations, and all method calls in the method annotated with 
-@BeforeEach:
+@BeforeEach in the TestClass (StudentTestClass in this example):
 
 ![](../save_object_bench/image_6.png)
 
 You can then edit and expand this method - e.g. change student1&2 to better variable names, or even
 add more objects simply with copy&paste.
-Remember to adjust the variable declarations at the top of the class!
+Remember to adjust the field (variable) declarations at the top of the class!
 
 ![](../save_object_bench/image_7.png)
 

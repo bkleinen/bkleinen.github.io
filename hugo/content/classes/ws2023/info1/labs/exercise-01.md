@@ -20,6 +20,9 @@ sequenceDiagram
     Picture-->>-You:void
     
 ```
+
+This week's lab is all about exploring given Objects by sending them messages (aka in Java: calling methods) - 
+and writing your first programs by putting them into the source code.
 ## What to bring to lab
 
 **P1.** In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.
@@ -69,17 +72,17 @@ Remember to keep a logbook where you put down what you were doing.
 
 Download the source code for chapter 1 (if you haven't already done so) from Github: {{< source >}} 
 
-1. In the figures project:
-    1. Create a Circle, a Square, a Triangle, and two Persons. 
-       Oops, where is the second Person? How can you make both visible on the screen?
-    2. Try out some more methods on the Figures. You are sending messages to objects!
+#### 1. In the figures project:
+1. Create a Circle, a Square, a Triangle, and two Persons. 
+   Oops, where is the second Person? How can you make both visible on the screen?
+2. Try out some more methods on the Figures. You are sending messages to objects!
 
 
-3. In the house project:
-    1. Create a Picture and call its draw() method.
-    2. Now, find the draw() method in the Picture class. What does it do?
-    3. Try to add a person to the Picture.
-    4. Alter the draw() method to modify your picture as you like, including the Person. 
+#### 2. In the house project:
+1. Create a Picture and call its draw() method.
+2. Now, find the draw() method in the Picture class. What does it do?
+3. Try to add a person to the Picture.
+4. Alter the draw() method to modify your picture as you like, including the Person. 
 
 
 ### 2. Lab Class List
@@ -89,17 +92,19 @@ Objects are created dynamically by the program. They are not persistent. [There'
 
 Open the lab-class project.
 
-1. Try out the Classes
-    1. create an Instance of Student.
-    2. create an LabClass.
-    3. enroll the Student in the Class by calling `enrollStudent(Student newStudent)`. You need     to provide an instance of class Student as a parameter. You can do so by either typing the 
-    instance name or just double-clicking on the object in the workbench.
-    4. call `printList()` on LabClass
-1. Complete the `createGroup()` method in `Info1LabGroup`: it should create a LabClass with Student objects for each in your Lab Group in it. (You do not need to examine or change the code of the other classes). 
-    1. create an instance of LabClass. don't forget to set all attributes!
-    1. create an instances of `Student` for each member of your group as you work together on    this exercise. Don't forget to add the pronouns they use by using `setPronouns()``.
-    3. enroll the students in the class 
-    4. call `printList()` on LabClass and check wether all information is complete. 
+#### 1. Explore the Project a bit:
+1. create an Instance of Student.
+2. create an LabClass.
+3. enroll the Student in the Class by calling `enrollStudent(Student newStudent)`. You need     to provide aninstance of class Student as a parameter. You can do so by either typing the 
+instance name or just double-clicking on the object in the workbench.
+4. call `printList()` on LabClass
+#### 2. Use LabClass to print a list of your Group: 
+Complete the `createGroup()` method in `Info1LabGroup`: it should create a LabClass with Student objects for each of you (in your Lab Group) in it. (You do not need to examine or change the code of the other classes). 
+        
+1. create an instance of LabClass. don't forget to set all attributes!
+1. create an instances of `Student` for each member of your group as you work together on    thiexercise.     Don't forget to add the pronouns they use by using `setPronouns()``.
+3. enroll the students in the class 
+4. call `printList()` on LabClass and check wether all information is complete. 
 
 Add a screenshot of your `createGroup()` method and the printout to your lab report. 
 ### 3. Kara
@@ -114,15 +119,15 @@ Now we do the same with Kara - sending messages to the Kara object, and then put
 
       ![Methods are in gray Kara](./grayKara.jpg)
 
- 2. Now, get back to the MyKara instance (the red Kara). It inherits all methods in its super class `Kara` (as well as from `Kara`´s super class `Actor` and its superclass `Object`) - thus, you find the methods under "inherited from Kara".
+ 2. Now, get back to the `MyKara` instance (the red Kara). It inherits all methods from its super class `Kara` (as well as from `Kara`´s super class `Actor` and its superclass `Object`) - thus, you find the Kara methods in the submenu "inherited from Kara".
  
  ![Call Parent Method](./call-parent-method.jpg)
 
  5. make MyKara walk 4 fields forward and then turn right. Put this in it's act() method!
  6. now, click on act() several times.
  7. click on run. This will call act() in an indefinite loop.
- 8. (Challenge) - can you figure out how to make it stop after one round? After TwoRounds?
- 9. (Challenge) - Now that it stops, you can drop a leaf in each corner.
+ 8. Put a Leaf in each corner. What happens after the fourth call to act()? Explain in your report.
+ 8. (Challenge) - can you figure out how to make it stop after one round? 
 
 ### 2. Around Tree
 
