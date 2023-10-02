@@ -11,6 +11,8 @@ solution_pushed: true
 
 Notes: Class definitions go here - ticket machine!
 
+Ticket Machine is a wierd example, but you can do a lot more 
+with Kara now that you learned about conditional statements!
 
 
 
