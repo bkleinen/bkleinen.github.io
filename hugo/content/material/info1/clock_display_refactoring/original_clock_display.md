@@ -2,8 +2,8 @@
 title: Design of the Original ClockDisplay Example
 author: kleinen
 draft: true
-tags: ['bluej']
-courses: ['info1']
+tags: []
+courses: []
 weight: 10
 ---
 

@@ -2,7 +2,7 @@
 title: Kara ClockDisplays
 author: kleinen
 draft: true
-tags: ['bluej']
-courses: ['info1']
+tags: []
+courses: []
 weight: 40
 ---

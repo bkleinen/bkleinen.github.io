@@ -2,21 +2,24 @@
 title: A very simple ClockDisplay
 author: kleinen
 draft: true
-tags: ['bluej']
-courses: ['info1']
+tags: []
+courses: []
 weight: 40
 ---
 
 
 All the ClockDisplay example really does is returning a String like "13:45" from `getTime()`  after either the time has been set to 13:45 by calling `setTime()` or after calling the `timeTick()` method the appropriate amount of times.
 
-This can, of course, be implemented in a much simpler way. While this is most probably true for most of the small examples we use in Programming and Software Engineering classes, the original example teaches distributing the model over several view classes. 
+This can, of course, be implemented in a much simpler way. This is most probably true for most of the small examples we use in Programming and Software Engineering classes.
+But I feel that is has gone wrong with this one, because the combination of pointlessness with overcomplication 
+does not help students understand the concept of modularization to small communicating objects.
+
 
 The Interface is in `ClockDisplay`, `NumberDisplay` is an implementation detail.
 
 The Interface of `ClockDisplay` consists of three methods, as can be seen in the BlueJ menu:
 
-![](../cd_interface.jpg)
+![](../images/cd_interface.jpg)
 
 
 Here's a much simpler and shorter implementation of this Interface:
