@@ -1,9 +1,10 @@
 ---
-title: Reflections and Improvements on the Clock Display Example
+title: Design of the Original ClockDisplay Example
 author: kleinen
 draft: true
 tags: ['bluej']
 courses: ['info1']
+weight: 10
 ---
 
 The ClockDisplay project is used in the Book ...TBD ad the first example for modularizing a program 
