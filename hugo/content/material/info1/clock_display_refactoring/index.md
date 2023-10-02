@@ -53,6 +53,7 @@ The Interface is in `ClockDisplay`, `NumberDisplay` is an implementation detail.
 
 This makes the program way simpler:
 
+## Original Version: Creation
 ```mermaid
 
 sequenceDiagram
@@ -61,11 +62,66 @@ sequenceDiagram
     YOU->>+ClockDisplay: new()
     create Participant hours_NumberDisplay
     ClockDisplay->>+hours_NumberDisplay:new(24)
-    hours_NumberDisplay-->>-ClockDisplay:void
+    hours_NumberDisplay-->>-ClockDisplay:hours
     create Participant minutes_NumberDisplay
     ClockDisplay->>+minutes_NumberDisplay:new(60)
+    minutes_NumberDisplay-->>-ClockDisplay:minutes
+    ClockDisplay-->>-YOU:clockDisplay
+
+```
+## Original Version: setTime()
+```mermaid
+
+sequenceDiagram
+    actor YOU
+    YOU->>+ClockDisplay: setTime(13,45)
+    ClockDisplay->>+hours_NumberDisplay:setValue(13)
+    hours_NumberDisplay-->>-ClockDisplay:void
+    ClockDisplay->>+minutes_NumberDisplay:setValue(45)
     minutes_NumberDisplay-->>-ClockDisplay:void
     ClockDisplay-->>-YOU:void
 
 ```
+## Original Version: timeTick()
 
+```mermaid
+
+sequenceDiagram
+    actor YOU
+    participant ClockDisplay
+    participant hours_NumberDisplay
+    participant minutes_NumberDisplay
+
+    YOU->>+ClockDisplay: timeTick()
+    ClockDisplay->>+minutes_NumberDisplay:increment()
+    minutes_NumberDisplay-->>-ClockDisplay:void
+
+    ClockDisplay->>+minutes_NumberDisplay:getValue()
+    minutes_NumberDisplay-->>-ClockDisplay:value
+
+    ClockDisplay->>+hours_NumberDisplay:increment()
+    hours_NumberDisplay-->>-ClockDisplay:void
+    
+    ClockDisplay->>+ClockDisplay:updateDisplay()
+    deactivate ClockDisplay
+
+    ClockDisplay-->>-YOU:void
+
+```
+
+```mermaid
+
+sequenceDiagram
+    actor YOU
+    YOU->>+ClockDisplay: timeTick(13,45)
+    ClockDisplay->>+minutes_NumberDisplay:increment()
+    minutes_NumberDisplay-->>-ClockDisplay:void
+
+    ClockDisplay->>+minutes_NumberDisplay:getValue()
+    hours_NumberDisplay-->>-ClockDisplay:void
+    ClockDisplay->>+hours_NumberDisplay:increment()
+    hours_NumberDisplay-->>-ClockDisplay:void
+    ClockDisplay-->>-YOU:void
+ 
+
+```
