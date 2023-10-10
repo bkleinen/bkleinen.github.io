@@ -22,7 +22,7 @@ sequenceDiagram
 ```
 
 This week's lab is all about exploring given Objects by sending them messages (aka in Java: calling methods) - 
-and writing your first programs by putting them into the source code.
+and writing your first programs by putting them together in your own methods.
 ## What to bring to lab
 
 **P1.** In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.

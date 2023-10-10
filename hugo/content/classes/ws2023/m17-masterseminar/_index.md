@@ -22,9 +22,10 @@ This Seminar is Part of the Module 17 "Abschlusskolloquium" and should be attend
 
 The learning goals stated in the syllabus are:
 
-- Die Studierenden lernen ihre eigene Arbeit vor einer Arbeitsgruppe auf Englisch zu präsentieren und zu verteidigen.
-- Sie erwerben Handlungskompetenzen im Bereich der Erstellung von wissenschaftlichen Schriften.
-- Sie lernen wissenschaftliche Ergebnisse kritisch zu hinterfragen. 
+- Sie können wissenschaftliche Ergebnisse kritisch hinterfragen.
+- Sie verfügen über Handlungskompetenzen im Bereich der Erstellung von wissenschaftlichen Schriften.
+- Die Studierenden können eine wissenschaftliche Arbeit vor einem Fachpublikum präsentieren und verteidigen.
+- Sie sind in der Lage, Fragen rund um das Themengebiet ihrer Arbeit zu beantworten und die Entscheidungen in der Arbeit zu verteidigen.
 
 So that is exactly what we intend to do! 
 
