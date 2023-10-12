@@ -2,7 +2,7 @@
 title: Bafög-Infos
 author: kleinen
 layout: post
-draft: true
+draft: false
 categories:
   - studies
   - bafoeg
