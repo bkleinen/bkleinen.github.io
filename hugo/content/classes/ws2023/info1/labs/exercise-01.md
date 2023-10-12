@@ -93,16 +93,20 @@ Objects are created dynamically by the program. They are not persistent. [There'
 Open the lab-class project.
 
 #### 1. Explore the Project a bit:
+0. Enable Recording in the Terminal: View-> Show Terminal, in the Terminal Menu: Options->Record Method Calls
 1. create an Instance of Student.
-2. create an LabClass.
-3. enroll the Student in the Class by calling `enrollStudent(Student newStudent)`. You need     to provide aninstance of class Student as a parameter. You can do so by either typing the 
+2. create an Instance of LabClass.
+3. enroll the Student in the Class by calling `enrollStudent(Student newStudent)`. You need to provide an instance of class Student as a parameter. You can do so by either typing the 
 instance name or just double-clicking on the object in the workbench.
 4. call `printList()` on LabClass
 #### 2. Use LabClass to print a list of your Group: 
-Complete the `createGroup()` method in `Info1LabGroup`: it should create a LabClass with Student objects for each of you (in your Lab Group) in it. (You do not need to examine or change the code of the other classes). 
+Complete the `createGroup()` method in `Info1LabGroup`: it should create a LabClass with Student objects for each of you (in your Lab Group) in it.
+Using Terminal Recording, you can record the calls you made interactively in BlueJ and put the program together by copying them. 
+
+You do not need to examine or change the code of the other classes! 
         
 1. create an instance of LabClass. don't forget to set all attributes!
-1. create an instances of `Student` for each member of your group as you work together on    thiexercise.     Don't forget to add the pronouns they use by using `setPronouns()``.
+1. create an instances of `Student` for each member of your group as you work together on the exercise.  Don't forget to add the pronouns they use by using `setPronouns()`.
 3. enroll the students in the class 
 4. call `printList()` on LabClass and check wether all information is complete. 
 

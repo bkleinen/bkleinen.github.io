@@ -4,7 +4,7 @@ author: kleinen
 draft: false
 weight: 20
 CourseNav: Resources
-subpages: false
+subpages: true
 ---
 
 This is a long page. You may want to open the Table of Contents above!
