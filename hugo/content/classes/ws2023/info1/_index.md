@@ -66,8 +66,8 @@ There will be an additional tutorial, tba.
 
 The grade will be a weighted mixture of the following parts:
 
-* 36% [Lab Reports](labs/)
-* 64% Exam
+* 50% [Lab Reports](labs/)
+* 50% Exam
 *  8% Lecture Notes
 
 This sums up to a total of 108 % and will be graded according to the
