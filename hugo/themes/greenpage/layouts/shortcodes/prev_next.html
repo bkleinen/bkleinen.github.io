@@ -1,0 +1,12 @@
+{{ with .Page.NextInSection}}
+     <a href ="{{ .Permalink }}">&lt;prev</a>
+{{ end }}
+
+{{ with .Page.Next}}
+     <a href =".."> up </a>
+{{ end }}
+
+
+{{ with .Page.PrevInSection}}
+     <a href ="{{ .Permalink }}">next&gt;</a>
+{{ end }}

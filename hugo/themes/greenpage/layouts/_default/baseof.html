@@ -46,6 +46,11 @@
 
           <div class = "coursenav">{{- block "section-navigation" . }}{{- end}}</div>
       <div class = "container-fluid">
+        {{ if .Page.Draft }}
+          <div class="alert alert-danger" role="alert">
+            DRAFT
+          </div>
+        {{ end }}
           {{- block "main" . }}{{ .Content }}{{- end }}
 
 

@@ -40,7 +40,7 @@ The autors have recorded videos for most lectures (currently, up to chapter 8):
 [Complete Video Playlist](https://www.youtube.com/playlist?list=PL8LRe866vedtl5vM5iheAKzltvu9qZyb_), the
 [Older Video Notes](https://www.youtube.com/playlist?list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd) contain all chapters of the older edition, with previous edition chapter numbers, without lambdas.
 
-## Textbook Chapters
+## Textbook Videos
 
 - **Chapter 01 - Objects and Classes** Objects, Classes, Methods, BlueJ, Parameters, Compiler | {{< video "Video Part 1" 101 >}}, {{< video 2 102 >}} |
 - Greenfoot and thus Greenfoot Kara as well builds on top of BlueJ; this videos shows working with Objects and Classes in Greenfoot: [Greenfoot Tutorial Teil 1 - Grundbegriffe Klasse und Objekt, Parameter - YouTube](https://www.youtube.com/watch?v=A2JiDwqr7Os&t=333s)
@@ -86,3 +86,4 @@ ChatGPT has proven to be quite good at many programming tasks, and you will most
 
 You may, and should however, use ChatGPT (and also plain googling) to help whenever you are stuck. If you do so, document that you were doing so by referring to it as a source, and check the validity of the answer. In fact, I am very much interested in learning through your reports in which way ChatGPT proved to be useful to you.
  
+## Subpages
