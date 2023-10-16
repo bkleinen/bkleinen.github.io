@@ -2,13 +2,14 @@
 title: Design of the Original ClockDisplay Example
 author: kleinen
 draft: true
-tags: []
-courses: []
+tags: ['bluej']
+courses: ['info1']
 weight: 10
 ---
 
-The ClockDisplay project is used in the Book ...TBD ad the first example for modularizing a program 
-using communicating objects.
+{{<prev_next >}}
+
+The ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book ["Objects First with Java: A Practical Introduction Using Bluej." by David J Barnes and Michael Kölling][2]) 
 
 Here's a class diagram with the private fields and public methods (Constructors are omitted for clarity):
 
@@ -31,13 +32,16 @@ classDiagram
     class NumberDisplay
     ClockDisplay ..> NumberDisplay
     
-    ClockDisplay: -NumberDisplay hours
-    ClockDisplay: -NumberDisplay minutes
-    ClockDisplay: -String displayString
-    ClockDisplay: void timeTick()
-    ClockDisplay: void setTime(int hour, int minute)
-    ClockDisplay: String getTime()
-    
+
+    class ClockDisplay{
+      -NumberDisplay hours
+      -NumberDisplay minutes
+      -String displayString
+      void timeTick()
+      void setTime(int hour, int minute)
+      String getTime()
+      -void updateDisplay()
+    }
     
     NumberDisplay: -int limit
     NumberDisplay: -int value
@@ -48,11 +52,10 @@ classDiagram
 
 ```
 
-All this example really does is returning a String like "13:45" from `getTime()`  after either the time has been set to 13:45 by calling `setTime()` or by calling the `tick()` method the appropriate amount of times.
+Within the example the field `displayString` in ClockDisplay is used to simulate the digital display. It is updated after every change to the time by calling the private method `updateDisplay` after every change to the time. The two instances of NumberDisplay generate their part of the displayString in `getDisplayValue`.
+But they also hold their part of the model - the value for hours and minutes respectively.
 
-The Interface is in `ClockDisplay`, `NumberDisplay` is an implementation detail.
-
-This makes the program way simpler:
+The observable behavior of this example is returning a String like "13:45" from `getTime()` after either the time has been set to 13:45 by calling `setTime()` or by calling the `tick()` method the appropriate amount of times.
 
 ## Original Version: Creation
 ```mermaid
@@ -154,15 +157,43 @@ sequenceDiagram
     ClockDisplay->>+hours_NumberDisplay:increment()
     hours_NumberDisplay-->>-ClockDisplay:void
     end
+  
 
     ClockDisplay->>+ClockDisplay:updateDisplay()
     ClockDisplay->>+hours_NumberDisplay:getDisplayValue()
     hours_NumberDisplay-->>-ClockDisplay:displayString
     ClockDisplay->>+minutes_NumberDisplay:getDisplayValue()
     minutes_NumberDisplay-->>-ClockDisplay:displayString
-    
+    deactivate ClockDisplay
 
     ClockDisplay-->>-YOU:void
+```
+## Original Version: getTime()
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+    actor YOU
+    participant ClockDisplay
+
+    YOU->>+ClockDisplay: getTime()
+   
+    ClockDisplay-->>-YOU:displayString
 
 ```
 
+
+[2]: https://www.bluej.org/objects-first/

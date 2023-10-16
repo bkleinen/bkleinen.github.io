@@ -2,10 +2,11 @@
 title: LED ClockDisplay
 author: kleinen
 draft: true
-tags: []
-courses: []
+tags: ['bluej']
+courses: ['info1']
 weight: 80
 ---
+{{<prev_next >}}
 
 ## Documentation
 

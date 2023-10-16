@@ -2,10 +2,11 @@
 title: ClockDisplay Critique
 author: kleinen
 draft: true
-tags: []
-courses: []
+tags: ['bluej']
+courses: ['info1']
 weight: 30
 ---
+{{<prev_next >}}
 
 The ClockDisplay aims at showing object interaction, which it does.
 
@@ -52,7 +53,7 @@ A simple example is the goal counter from table soccer: it stores and displays t
 
 <small class = "float-right">Photo by Hans, [Pixabay](https://pixabay.com/de/photos/tischfu%C3%9Fball-z%C3%A4hler-z%C3%A4hleinheit-167869)</small>
 
-All of these displays can become full, where they may roll over, that is, reset to zero. The information may then be carried over to the next display/row, as with the Abacus, which even users overflow  in  two different ways.
+All of these displays can become full, where they may roll over, that is, reset to zero. The information may then be carried over to the next display/row, as with the Abacus, which even uses overflow  in  two different ways.
 
 ![](../images/abacus.jpg)
 
@@ -60,21 +61,26 @@ All of these displays can become full, where they may roll over, that is, reset 
 
 #### Water Clocks 
 [Water clocks](https://en.wikipedia.org/wiki/Water_clock), which use water both to measure and display time, are one of the oldest time keeping devices. 
-(Note that [Sandglasses](https://en.wikipedia.org/wiki/Marine_sandglass) are another common example for a device that measures & displays time with the same mechanism).
+[Sandglasses](https://en.wikipedia.org/wiki/Marine_sandglass) are another common example for a device that measures & displays time with the same mechanism.
 
-Last not leaset, Berlin has a great modern water clock, the [Uhr der fließenden Zeit](https://de.wikipedia.org/wiki/Uhr_der_flie%C3%9Fenden_Zeit). It actually measures time using the water flow, and it even has two rollovers!
+![](../images/255px-Simple_water_clock.svg.png)
+![](../images/Marine_sandglass_MMM.jpg) 
+##### Uhr der fließenden Zeit
+Last not least, Berlin has a great modern water clock, the ["Uhr der fließenden Zeit"](https://de.wikipedia.org/wiki/Uhr_der_flie%C3%9Fenden_Zeit). It actually measures time using the water flow, and it even has two rollovers!
 
-![](../images/255px-Simple_water_clock.svg.png)![](../images/Marine_sandglass_MMM.jpg) ![](../images/330px-Flow_of_time_clock_Berlin.jpeg)
+![](../images/330px-Flow_of_time_clock_Berlin.jpeg)
 
 ## Tracking and Displaying Time with Greenfoot Kara Leaves
 
-Back to the ClockDisplay Example. As storage and counting are straightforward even with the simplest computers,
-let alone available system time, it's hard to find a good example for collapsing storage and display on a computer, in the Java programming language.
-
+Back to the ClockDisplay Example. As storage of numerical values and counting are straightforward even with the simplest computers, the time tick does not really make sense. Also, to implement a clock, the available system time should be used.
+An Example of a device that keeps track and displays time with the same medium or device thus has to be somewhat artificial.
 
 However, in Kara's simple world, Kara may use leaves to keep track of the passing of time, with the leaves put down
-displaying the time at the same time. Here's a screenshot of an approach using two 12-step leaf counters, the first representing hours, the second minutes in 5min steps, and the last one am/pm. No state is stored, neither are the rollover limits - they are simply represented by the positioning of the trees.
-[See more on Kara ClockDisplays on the next page.](../images/kara-clock-display)
+being the display of the current time. Below is a screenshot of an approach using two 12-step leaf counters, the first representing hours, the second minutes in 5min steps, and the last one am/pm. No state is stored apart from the leaves in the world, and neither are the rollover limits - they are simply represented by the positions of the trees which constitute the limitation of space for leaves.
+[See more on Kara ClockDisplays on this page.](../kara-clock-display)
 
 
 ![Kara ClockDisplay](../images/kara-clockdisplay.jpg)
+
+
+[2]: https://www.bluej.org/objects-first/
