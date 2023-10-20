@@ -45,7 +45,7 @@ Don't execute this, just write down your expectations.
 Download the [exercise source code from GitHub][1] (you can download the whole [chapter02 repository as a zip here][2]).
 
 0. Download the Ticket-Machine project and open it in BlueJ. Experiment with it like we did in the lecture and record your observations.
-1. Replace the constructor with the constructor from pre-lab exercise 0 and try it out. Were you right? What about the change given in pre lab exercises 2 and 3? What happens? Record your results in your report.
+1. Replace the constructor with the constructor from pre-lab exercise 1 and try it out. Were you right? What about the change given in pre lab exercises 2 and 3? What happens? Record your results in your report.
 2. Is it always necessary to have a semicolon at the end of a field declaration? Experiment via the editor and record your results.
 3. If the name of `getBalance` is changed to `getAmount`, does the return statement in the body of the method also need to be changed for the code to compile? Try it out within BlueJ. What does this tell you about the name of an accessor method and the name of the field associated with it?
 4. Write an accessor method `getTotal` in the TicketMachine class. The new method should return the value of the total field.
