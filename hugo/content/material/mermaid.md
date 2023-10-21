@@ -51,4 +51,16 @@ stateDiagram-v2
     Moving --> Crash
     Crash --> [*]
   ```
+
+# Flowchart Cheatsheet
+```mermaid
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
+    id1>This is the text in the box]
+    id2{{This is the text in the box}}
+```
 [^1]: hugo/themes/greenpage/layouts/_default/_markup/

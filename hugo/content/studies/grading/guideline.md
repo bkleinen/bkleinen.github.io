@@ -49,7 +49,7 @@ adhere to the grammar and spelling rules of the respective language.
 
 | Stars         | Meaning                                                      |
 |:--------------|:-------------------------------------------------------------|
-| **\*\*\*\*+** | Exceptional: above and beyond the call of duty. Very seldom. Additional red star.                                                                                                                                                            |os |
+| **\*\*\*\*+** | Exceptional: above and beyond the call of duty. Very seldom. Additional red star.         |
 | **\*\*\*\*-** | Excellent: All of the exercises completed and an excellent report. |
 | **\*\*\*--**  | Very good: All of the exercises completed, and a good report that may have some minor problems. |
 | **\*\*---**   | Good: Something is missing, although the report is good, or the report has major problems. |
