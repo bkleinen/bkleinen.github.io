@@ -1,7 +1,7 @@
 ---
 title: "Conditional Statement"
 date: 2023-10-21
-draft: true
+draft: false
 weight: 100
 tags: ['bluej']
 courses: ['info1']
@@ -9,7 +9,7 @@ tags: ['info1-script', 'java']
 courses: ['info1']
 ---
 
-#### Conditional Statement (if-then-else statement)s
+#### Conditional Statement (if-then-else statement)
 
 A conditional statement allows you to conditionally execute code parts based on a condition, either true or false or something that results in true or false (see boolean expression).
 # Structure 

@@ -6,3 +6,5 @@ weight: 2000
 tags: ['info1-script', 'mermaid']
 courses: ['info1']
 ---
+
+- [Conditional Statement](01_basics/conditional)
