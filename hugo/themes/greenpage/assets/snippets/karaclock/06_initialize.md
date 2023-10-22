@@ -4,4 +4,4 @@ In order to be able to set the clock to a given time, each digit needs to be abl
 
 This could be achieved with the same number of ticks, but would take some time and not be as elegant.
 
-You can use the DecimalNumberWorld to test it. After completed, call DisplayKara's `setValue();` with 1234567890 - `setValue(1234567890);` to achieve the pattern in part 5.
+You can use the DecimalNumberWorld to test it. After completed, call DisplayKara's `setValue(1234567890);` to achieve the pattern in part 5.
