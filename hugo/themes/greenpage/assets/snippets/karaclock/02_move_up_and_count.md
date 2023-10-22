@@ -3,7 +3,7 @@
 1. Open TestWorld4. complete the method `public int moveUpAndCount()` in `DigitDisplayKara`.
    It should move up and count the leaves. It should stop either at the tree above or on the first free field. It returns the number of leaves counted.
    Test your method by calling it from Kara's context menu. 
-2. When you're done, test your method in TestWorld5, which contains some edge cases like a full row and one with zero leaves.
+2. When you're done, test your method in `TestWorld5`, which contains some edge cases like a full row and one with zero leaves.
 
 | TestWorld5 before| TestWorld5 output                           | TestWorld5 after act()                      |
 |:--|:----------------------------------------------|:--------------------------------------------|

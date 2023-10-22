@@ -1,10 +1,10 @@
 ---
 title: 'Exercise 03: Book Exercise'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise03
+source: https://github.com/htw-imi-info1/chapter02
 source_ok: true
 solution_pushed: true
-draft: true
+draft: false
 ---
 
 ![Book](../../images/books-8314929977.jpg)
@@ -82,11 +82,15 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
 6. Modify your `printDetails` method to include printing the reference number. However, the method should print the reference number only if it has been set, and the exact string "no reference number" otherwise. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your `setRefNumber` mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
 
+
 ### Part 3: KaraClock Preparation
+
 This builds on the first two preparation exercises,
 [1. Multi-Move](../karaclock-complete/#1-multi-move)
 and 
 [2. Move up and Count](../karaclock-complete/#2-move-up-and-count) which you should have done in last week's lab or in class.
+
+There is a special repo with the scaffold for all KaraClock exercises: [https://github.com/htw-imi-info1/kara-clock-lab](https://github.com/htw-imi-info1/kara-clock-lab) 
 
 {{< snippet "snippets/karaclock/03_count_leaves.md" >}}
 {{< snippet "snippets/karaclock/04_increment.md" >}}

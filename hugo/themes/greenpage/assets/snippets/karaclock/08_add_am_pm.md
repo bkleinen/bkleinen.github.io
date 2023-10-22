@@ -29,3 +29,4 @@ To enable the DisplayKara to find and walk  to the next DigitDisplayKara, each d
 negative as it is simple passed to multiMove() ) in its field `stepsToNextDigit` which can be set with the constructor.
 
 
+![KaraClock](/karaclock/08_add_am_pm/karaclock.jpg) 

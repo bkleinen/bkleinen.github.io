@@ -71,19 +71,18 @@ public void discount (int amount)
 
 ### Part 2: KaraClock Preparation
 
-Use the project `chapter02/kara/kara-clock-lab02` for these exercises.
+*update 23.10.2023*: there is a new special repo for all KaraClock exercises: [https://github.com/htw-imi-info1/kara-clock-lab](https://github.com/htw-imi-info1/kara-clock-lab)
+if you just start, use this one, otherwise just continue with the first one: 
+~~Use the project `chapter02/kara/kara-clock-lab02` in [chapter02](https://github.com/htw-imi-info1/chapter02) for these exercises.~~
 
-You will need `while`-loops for solving these exercises, which we will discuss in class, but are not part of chapter02 in the book.
+You will need `while`-loops to solve these exercises, which we will discuss in class, but are not part of chapter02 in the book.
 
 update 20.10.2023: as we did not do the while-loops today, the exercises 1. Multi-Move and 2. Count Leaves are OPTIONAL.
-
 
 {{< snippet "snippets/karaclock/00_count_leaves_in_act.md" >}}
 {{< snippet "snippets/karaclock/01_multi_move.md" >}}
 {{< snippet "snippets/karaclock/02_move_up_and_count.md" >}}
 
-#### 3. Preview
-The next step would be a `public int countLeaves()` method that combines  `public int moveUpAndCount()` and the `public void multiMove(int n)` methods: it counts the leaves and returns back to the home position. But we will do this next week!
 
 ## What to hand in
 

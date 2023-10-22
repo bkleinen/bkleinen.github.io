@@ -2,7 +2,6 @@
 
 #### 1. Multi-Move
 
-0. Open the project `chapter02/kara/kara-clock-lab02`. It contains several test worlds. Make sure you've instantiated the correct test world!
 1. copy the multiMove method we discussed in class from `chapter02/kara/kara-loop-examples` to DigitDisplayKara (the method definition is already there, you just need to fill it). Test it in TestWorld0 and TestWorld1. TestWorld1 contains a setup you don't need to understand just now - just click "act" once and all Karas should be aligned in the middle like this:
 
 | Initial TestWorld1                            | TestWorld1 after act()                      |

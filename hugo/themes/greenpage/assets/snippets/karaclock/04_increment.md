@@ -5,7 +5,7 @@
    a. add one more leaf, return to the original position using  `public int multiMove()` and return the new leaf count (including the leaf just added)
    b. if the tree is reached (no more space, overflow!) return to the original position and collect all leaves on its way (hint: this is exactly like multiMove with one addition!) and return a 0 as the new leaf count.
 
-2. When you're done, test your method in TestWorld7, which contains some edge cases like a full row and one with zero leaves.
+2. When you're done, test your method in `TestWorld7Increment`, which contains some edge cases like a full row and one with zero leaves.
 
 | before             | output                                                          | after act()                                                   |
 |:-------------------|:----------------------------------------------------------------|:--------------------------------------------------------------|
