@@ -7,4 +7,4 @@
 
 | TestWorld5 before| TestWorld5 output                           | TestWorld5 after act()                      |
 |:--|:----------------------------------------------|:--------------------------------------------|
-|  ![TestWorld5 before](./testworld5-before.jpg) | ![TestWorld5 output](./testworld5-output.jpg) | ![TestWorld5 after](./testworld5-after.jpg) |
+|  ![TestWorld5 before](/karaclock/02_count_leaves/testworld5-before.jpg) | ![TestWorld5 output](/karaclock/02_count_leaves/testworld5-output.jpg) | ![TestWorld5 after](/karaclock/02_count_leaves/testworld5-after.jpg) |

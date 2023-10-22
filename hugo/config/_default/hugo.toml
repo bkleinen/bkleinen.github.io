@@ -7,7 +7,7 @@ theme = "greenpage"
 enableGitInfo = true
 canonifyURLs = true
 ignoreFiles = ['README\.MD$', 'readme\.md$']
-staticDir2 = ['assets/snippets']
+staticDir2 = ['static-snippets']
 [module]
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
