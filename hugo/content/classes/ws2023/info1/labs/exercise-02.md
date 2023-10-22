@@ -80,8 +80,7 @@ update 20.10.2023: as we did not do the while-loops today, the exercises 1. Mult
 
 {{< snippet "snippets/karaclock/00_count_leaves_in_act.md" >}}
 {{< snippet "snippets/karaclock/01_multi_move.md" >}}
-{{< snippet "snippets/karaclock/02_count_leaves.md" >}}
-
+{{< snippet "snippets/karaclock/02_move_up_and_count.md" >}}
 
 #### 3. Preview
 The next step would be a `public int countLeaves()` method that combines  `public int moveUpAndCount()` and the `public void multiMove(int n)` methods: it counts the leaves and returns back to the home position. But we will do this next week!

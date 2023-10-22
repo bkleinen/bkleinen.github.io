@@ -39,18 +39,18 @@ public int refundBalance() {
 
 **P3.** We have seen a few arithmetic operators in Java. Find a table with the Java operators and their priorities. Note down where you found this. What does the ternary operator in `x ? a : b` do?
 
-**P4.** What do you expect the the following expressions to evaluate to? Do not use a compiler or the codepad, only your head!
+**P4.** What do you expect the the following expressions to evaluate to? What is the value, and of which type is the value? Do not use a compiler or the codepad, only your head!
 
 
-| Expression                      | Value                                                                                                                                                                                                        | Type                                                                                                                                                                                                         |
-|:--------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```99 + 3```                    | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| ```"cat" + "fish"```            |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
-| ```"cat" + 9```                 |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
-| ``` 9 + 3 + "cat" ```           |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
-| ```"cat" + 3 + 9 + "fish"```    |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
-| ```"catfish".substring(3,4)```  |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
-| ```"catfish".substring(3,8) ``` |                                                                                                                                                                                                              |                                                                                                                                                                                                              |
+| Expression                      | Value &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:--------------------------------|:------|:-----|
+| ```99 + 3```                    | ||
+| ```"cat + "fish"```             |       |      |
+| ```"cat" + 9```                 |       |      |
+| ``` 9 + 3 + "cat" ```           |       |      |
+| ```"cat" + 3 + 9 + "fish"```    |       |      |
+| ```"catfish".substring(3,4)```  |       |      |
+| ```"catfish".substring(3,8) ``` |       |      |
 
 
 ## What to hand in
@@ -63,11 +63,11 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
 
 # Assignment
 
-## CodePad
+## Part 1: CodePad
 
 1. Open BlueJ and find the CodePad. Use it to test your predictions for P4 and record where you were correct and where you made mistakes.
 
-## Making a Book
+## Part 2: Making a Book
 1. Open the [BookExercise project](https://github.com/htw-imi-info1/exercise03). Add two accessor methods to the class - `getAuthor` and `getTitle` - that return the author and title fields as their respective results. Test your class by creating some instances and calling the methods.
 2. Add two methods, `printAuthor` and `printTitle`, to the Book class. These should print the author and title fields, respectively, to the terminal window.
 3. Add a further field, `pages`, to the Book class to store the number of pages. This should be of type `int`, and its initial value should be passed to the single constructor, along with the author and title strings __as the third parameter__. Include an appropriate `getPages` accessor method for this field.
@@ -75,12 +75,43 @@ Lab assignments are due the night before your next lab at 22:00. They may, of co
 5. Add a further field, refNumber, to the Book class. This field can store a reference number for a library, for example. It should be of type String and initialized to the zero-length string (!) in the constructor. Add the corresponding accessor (getter) and the setter with the signatures below. The body of this method should assign the value of the parameter to the `refNumber` field.
 
   ```java
-        public String getRefNumber()
+    public String getRefNumber()
 
-        public void setRefNumber (String ref)
+    public void setRefNumber (String ref)
   ```
 6. Modify your `printDetails` method to include printing the reference number. However, the method should print the reference number only if it has been set, and the exact string "no reference number" otherwise. Hint: use a conditional! Note that Strings have a length method.
 7. Modify your `setRefNumber` mutator so that it sets the refNumber field only if the parameter is a string of at least three characters. If it is less than three, then print an error message and leave the field unchanged.
+
+### Part 3: KaraClock Preparation
+This builds on the first two preparation exercises,
+[1. Multi-Move](../karaclock-complete/#1-multi-move)
+and 
+[2. Move up and Count](../karaclock-complete/#2-move-up-and-count) which you should have done in last week's lab or in class.
+
+#### 3. Count Leaves (and go back)
+
+1. Open TestWorld4 again. Complete the method `public int count()` in `DigitDisplayKara`.
+   It should combine the `public int moveUpAndCount()` and `public int multiMove()` methods (that is, use them both by calling them) to walk up, count the leaves, return to the original position and return the number of leaves counted.
+
+2. When you're done, test your method in TestWorld6, which contains some edge cases like a full row and one with zero leaves.
+
+| before             | output             | after act()     |
+|:-------------------|:-------------------|:----------------|
+| same as TestWorld5 | same as TestWorld5 | same as before! |
+
+
+#### 4. Increment Leaves
+
+1. Open TestWorld4 again. Complete the method `public int increment()` in `DigitDisplayKara`.
+   It should call `public int moveUpAndCount()` and then either
+   a. add one more leaf, return to the original position using  `public int multiMove()` and return the new leaf count (including the leaf just added)
+   b. if the tree is reached (no more space, overflow!) return to the original position and collect all leaves on its way (hint: this is exactly like multiMove with one addition!) and return a 0 as the new leaf count.
+
+2. When you're done, test your method in TestWorld7, which contains some edge cases like a full row and one with zero leaves.
+
+| before             | output                                                          | after act()                                                   |
+|:-------------------|:----------------------------------------------------------------|:--------------------------------------------------------------|
+| same as TestWorld5 | ![TestWorld7 output](/karaclock/04_increment/world7-output.jpg) | ![TestWorld7 after](/karaclock/04_increment/world7_after.jpg) |
 
 
 * * *

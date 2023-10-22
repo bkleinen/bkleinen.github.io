@@ -1,4 +1,4 @@
-#### 2. Count Leaves
+#### 2. Move Up And Count
 
 1. Open TestWorld4. complete the method `public int moveUpAndCount()` in `DigitDisplayKara`.
    It should move up and count the leaves. It should stop either at the tree above or on the first free field. It returns the number of leaves counted.
