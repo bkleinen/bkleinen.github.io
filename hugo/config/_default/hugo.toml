@@ -7,6 +7,7 @@ theme = "greenpage"
 enableGitInfo = true
 canonifyURLs = true
 ignoreFiles = ['README\.MD$', 'readme\.md$']
+staticDir2 = ['assets/snippets']
 [module]
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -34,3 +35,4 @@ rssLimit =  10
    courses = "/material/courses/:slug/"
    tools = "/material/tools/:slug/"
    tags = "/material/tags/:slug/"
+
