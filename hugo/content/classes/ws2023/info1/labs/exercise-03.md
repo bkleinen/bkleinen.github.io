@@ -88,30 +88,8 @@ This builds on the first two preparation exercises,
 and 
 [2. Move up and Count](../karaclock-complete/#2-move-up-and-count) which you should have done in last week's lab or in class.
 
-#### 3. Count Leaves (and go back)
-
-1. Open TestWorld4 again. Complete the method `public int count()` in `DigitDisplayKara`.
-   It should combine the `public int moveUpAndCount()` and `public int multiMove()` methods (that is, use them both by calling them) to walk up, count the leaves, return to the original position and return the number of leaves counted.
-
-2. When you're done, test your method in TestWorld6, which contains some edge cases like a full row and one with zero leaves.
-
-| before             | output             | after act()     |
-|:-------------------|:-------------------|:----------------|
-| same as TestWorld5 | same as TestWorld5 | same as before! |
-
-
-#### 4. Increment Leaves
-
-1. Open TestWorld4 again. Complete the method `public int increment()` in `DigitDisplayKara`.
-   It should call `public int moveUpAndCount()` and then either
-   a. add one more leaf, return to the original position using  `public int multiMove()` and return the new leaf count (including the leaf just added)
-   b. if the tree is reached (no more space, overflow!) return to the original position and collect all leaves on its way (hint: this is exactly like multiMove with one addition!) and return a 0 as the new leaf count.
-
-2. When you're done, test your method in TestWorld7, which contains some edge cases like a full row and one with zero leaves.
-
-| before             | output                                                          | after act()                                                   |
-|:-------------------|:----------------------------------------------------------------|:--------------------------------------------------------------|
-| same as TestWorld5 | ![TestWorld7 output](/karaclock/04_increment/world7-output.jpg) | ![TestWorld7 after](/karaclock/04_increment/world7_after.jpg) |
+{{< snippet "snippets/karaclock/03_count_leaves.md" >}}
+{{< snippet "snippets/karaclock/04_increment.md" >}}
 
 
 * * *

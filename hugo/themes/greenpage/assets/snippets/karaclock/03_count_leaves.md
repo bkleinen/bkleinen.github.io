@@ -1,10 +1,11 @@
-#### 2. Count Leaves
 
-1. Open TestWorld4. complete the method `public int moveUpAndCount()` in `DigitDisplayKara`.
-   It should move up and count the leaves. It should stop either at the tree above or on the first free field. It returns the number of leaves counted.
-   Test your method by calling it from Kara's context menu. 
-2. When you're done, test your method in TestWorld5, which contains some edge cases like a full row and one with zero leaves.
+#### 3. Count Leaves (and go back)
 
-| TestWorld5 before| TestWorld5 output                           | TestWorld5 after act()                      |
-|:--|:----------------------------------------------|:--------------------------------------------|
-|  ![TestWorld5 before](/karaclock/02_count_leaves/testworld5-before.jpg) | ![TestWorld5 output](/karaclock/02_count_leaves/testworld5-output.jpg) | ![TestWorld5 after](/karaclock/02_count_leaves/testworld5-after.jpg) |
+1. Open TestWorld4 again. Complete the method `public int count()` in `DigitDisplayKara`.
+   It should combine the `public int moveUpAndCount()` and `public int multiMove()` methods (that is, use them both by calling them) to walk up, count the leaves, return to the original position and return the number of leaves counted.
+
+2. When you're done, test your method in TestWorld6, which contains some edge cases like a full row and one with zero leaves.
+
+| before             | output             | after act()     |
+|:-------------------|:-------------------|:----------------|
+| ![TestWorld5 before](/karaclock/03_count_leaves/testWorld6Before.jpg) | same as with TestWorld5:  ![TestWorld5 output](/karaclock/03_count_leaves/testWorld6Output.jpg) | exactly the same as before calling act! |
