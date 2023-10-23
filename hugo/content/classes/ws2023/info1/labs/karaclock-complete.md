@@ -13,6 +13,8 @@ The material section contains an article about why I made this addition to the C
 Open the Greenfoot-Kara project [`https://github.com/htw-imi-info1/kara-clock-lab`](https://github.com/htw-imi-info1/kara-clock-lab).
 It contains several test worlds. Make sure you've instantiated the correct test world!
 
+If you haven't already done so, you need to install [Greenfoot](https://www.greenfoot.org/download) to open the scenarios. The main file is `project.greenfoot`.
+
 
 ### Lab 02
 {{< snippet "snippets/karaclock/00_count_leaves_in_act.md" >}}
