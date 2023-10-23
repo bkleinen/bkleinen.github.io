@@ -8,7 +8,7 @@ for the hours, which shows a "12" instead of the "0". Find the `getDisplayText(i
 to see how this is implemented.
 
 Use `ClockDisplayWorldAmPm` (which is a copy of `ClockDisplayWorld12Hours`) to implement this.
-Find and read its `prepareColumns()` method to understand how the clock display is build and what you need
+Find and read its `prepareColumns()` method to understand how the clock display is built and what you need
 to do to add another digit. 
 
 Technically, the ClockDisplayWorld is just a number with different rollOverLimits for each digit. 
@@ -16,7 +16,7 @@ The place value has to be the product of the previous (mostly right) digit and i
 
 |            | am/pm | hours | ten minutes | minutes |
 |:-----------|:------|:------|:------------|:--------|
-| limit      | 1     | 12    | 6           | 10      |
+| limit      | 2     | 12    | 6           | 10      |
 | placeValue | 12*60 | 6*10  | 10*1        | 1       |
 
 Your task is to add the am/pm display.
@@ -26,7 +26,7 @@ and should show am/pm instead of 0 and 1.
 Also, it has a special (quite illogical) position at the end, eg. 12:00 am. 
 
 To enable the DisplayKara to find and walk  to the next DigitDisplayKara, each digit stores the number of steps (which may be 
-negative as it is simple passed to multiMove() ) in its field `stepsToNextDigit` which can be set with the constructor.
+negative as it is simply passed to multiMove() ) in its field `stepsToNextDigit` which can be set with the constructor.
 
 
 ![KaraClock](/karaclock/08_add_am_pm/karaclock.jpg) 
