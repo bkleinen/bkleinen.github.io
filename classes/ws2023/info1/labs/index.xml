@@ -12,4 +12,4 @@ public int refundBalance() { balance = 0; return balance; } P2.
 What happens if you try to compile the TicketMachine class with the following version of refundBalance?</description></item><item><title>KaraClock Complete</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/</guid><description>This is a complete overview of the KaraClock Exercises that lead to the implementation of the KaraClockDisplay-Example. The exercises are distributed through three Labs, as shown by the headlines here.
 The material section contains an article about why I made this addition to the ClockDisplay example: ClockDisplay Example: Reflections and Improvements.
 Open the Greenfoot-Kara project https://github.com/htw-imi-info1/kara-clock-lab. It contains several test worlds. Make sure you&amp;rsquo;ve instantiated the correct test world!
-Lab 02 0.</description></item></channel></rss>
+If you haven&amp;rsquo;t already done so, you need to install Greenfoot to open the scenarios.</description></item></channel></rss>
