@@ -1,7 +1,7 @@
 ---
 title: A very simple ClockDisplay
 author: kleinen
-draft: true
+draft: false
 tags: ['bluej']
 courses: ['info1']
 weight: 40

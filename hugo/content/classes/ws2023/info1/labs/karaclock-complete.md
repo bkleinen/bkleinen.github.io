@@ -4,11 +4,13 @@ author: kleinen
 source: #
 draft: false
 toc: true
-weight: 5000
 ---
 
+This is a complete overview of the KaraClock Exercises that lead to the implementation of the KaraClockDisplay-Example. The exercises are distributed through three Labs, as shown by the headlines here. 
 
-Open the project [`https://github.com/htw-imi-info1/kara-clock-lab`](https://github.com/htw-imi-info1/kara-clock-lab).
+The material section contains an article about why I made this addition to the ClockDisplay example: [ClockDisplay Example: Reflections and Improvements](/material/info1/clock_display_refactoring/).
+
+Open the Greenfoot-Kara project [`https://github.com/htw-imi-info1/kara-clock-lab`](https://github.com/htw-imi-info1/kara-clock-lab).
 It contains several test worlds. Make sure you've instantiated the correct test world!
 
 

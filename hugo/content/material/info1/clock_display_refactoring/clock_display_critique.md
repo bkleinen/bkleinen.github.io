@@ -1,7 +1,7 @@
 ---
 title: ClockDisplay Critique
 author: kleinen
-draft: true
+draft: false
 tags: ['bluej']
 courses: ['info1']
 weight: 30

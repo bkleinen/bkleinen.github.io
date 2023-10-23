@@ -1,7 +1,7 @@
 {{ define "meta"}}{{.Scratch.Set "theme" "layouts/material/list.html"}}{{ end }}
 
 {{ define "main" }}
-
+<h1>{{ .Title }}</h1>
 {{ .Content }}
 
 {{ if .Params.subpages }}

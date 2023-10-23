@@ -1,16 +1,16 @@
 ---
-title: Reflections and Improvements on the Clock Display Example
+title: "ClockDisplay Example: Reflections and Improvements"
 author: kleinen
-draft: true
-tags: ['bluej']
+draft: false
+tags: ['bluej', 'karaclock']
 courses: ['info1']
 subpages: true
 ---
-# Reflections and Improvements on the Clock Display Example
+
 {{<prev_next >}}
 
 I have been working with the ClockDisplay example as shown in the Textbook ["Objects First with Java: A Practical Introduction Using Bluej." by David J Barnes and Michael Kölling][2] (Barnes and Kölling 2017) for a while now. While the book contains many great examples that allow the discussion of a broad range of object oriented design,
-this example has some particular problems.
+this example has some issues that always bugged me. 
 
 This page is about my approach(es) to improve the ClockDisplay example.
 
