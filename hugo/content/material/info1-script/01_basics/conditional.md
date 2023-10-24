@@ -100,6 +100,43 @@ public void setPoints(int newPoints){
     System.out.println("after conditional");
     
 ```
+
+## shorter mermaid if/else
+
+```mermaid
+
+flowchart TD
+    S[Start]
+    C{cond?}
+    I(IF-PART)
+    E(ELSE-PART)
+    F(End)
+    S --> C
+    
+    C --true?--> I
+    C --false?--> E
+    I & E --> F
+
+```
+
+
+## shorter mermaid if only
+
+```mermaid
+
+flowchart TD
+    S[Start]
+    C{cond?}
+    I(IF-PART)
+    
+    F(End)
+    S --> C
+    C --true?--> I
+    
+    I --> F
+    C --false?--> F
+
+```
 ## Further Reading
 
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html

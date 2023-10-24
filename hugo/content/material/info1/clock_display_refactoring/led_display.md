@@ -2,8 +2,8 @@
 title: LED ClockDisplay
 author: kleinen
 draft: true
-tags: ['bluej']
-courses: ['info1']
+tags: ['bluej', 'karaclock']
+courses: []
 weight: 80
 ---
 {{<prev_next >}}
