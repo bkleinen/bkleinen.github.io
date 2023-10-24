@@ -4,7 +4,7 @@ author: kleinen
 weight: 20
 CourseNav: Schedule
 toc: false
-draft: true
+draft: false
 ---
 
 ## Tentative Schedule
