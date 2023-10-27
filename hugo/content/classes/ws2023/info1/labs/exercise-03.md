@@ -45,7 +45,7 @@ public int refundBalance() {
 | Expression                      | Value &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:--------------------------------|:------|:-----|
 | ```99 + 3```                    | ||
-| ```"cat + "fish"```             |       |      |
+| ```"cat" + "fish"```             |       |      |
 | ```"cat" + 9```                 |       |      |
 | ``` 9 + 3 + "cat" ```           |       |      |
 | ```"cat" + 3 + 9 + "fish"```    |       |      |
