@@ -76,13 +76,13 @@ The observable behavior of this example is returning a String like "13:45" from 
 sequenceDiagram
     actor YOU
     create Participant #colon;ClockDisplay
-    YOU->>+#colon;ClockDisplay: new()
+    YOU->>+#colon;ClockDisplay: new ClockDisplay()
     create Participant hours#colon;NumberDisplay
   
-    #colon;ClockDisplay->>+hours#colon;NumberDisplay:new(24)
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:new NumberDisplay(24)
     hours#colon;NumberDisplay-->>-#colon;ClockDisplay:hours
     create Participant minutes#colon;NumberDisplay
-    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:new(60)
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:new NumberDisplay(60)
     minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:minutes
     #colon;ClockDisplay-->>-YOU:#colon;ClockDisplay
 
