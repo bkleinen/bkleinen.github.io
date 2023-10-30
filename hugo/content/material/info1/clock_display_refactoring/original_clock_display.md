@@ -1,5 +1,5 @@
 ---
-title: Design of the Original ClockDisplay Example
+title: Design of the Original #colon;ClockDisplay Example
 author: kleinen
 draft: false
 tags: ['bluej', 'karaclock']
@@ -9,7 +9,7 @@ weight: 10
 
 {{<prev_next >}}
 
-The ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book ["Objects First with Java: A Practical Introduction Using Bluej." by David J Barnes and Michael Kölling][2]) 
+The #colon;ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book ["Objects First with Java: A Practical Introduction Using Bluej." by David J Barnes and Michael Kölling][2]) 
 
 Here's a class diagram with the private fields and public methods (Constructors are omitted for clarity):
 
@@ -75,16 +75,16 @@ The observable behavior of this example is returning a String like "13:45" from 
 }%%
 sequenceDiagram
     actor YOU
-    create Participant ClockDisplay
-    YOU->>+ClockDisplay: new()
-    create Participant hours_NumberDisplay
+    create Participant #colon;ClockDisplay
+    YOU->>+#colon;ClockDisplay: new()
+    create Participant hours#colon;NumberDisplay
   
-    ClockDisplay->>+hours_NumberDisplay:new(24)
-    hours_NumberDisplay-->>-ClockDisplay:hours
-    create Participant minutes_NumberDisplay
-    ClockDisplay->>+minutes_NumberDisplay:new(60)
-    minutes_NumberDisplay-->>-ClockDisplay:minutes
-    ClockDisplay-->>-YOU:clockDisplay
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:new(24)
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:hours
+    create Participant minutes#colon;NumberDisplay
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:new(60)
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:minutes
+    #colon;ClockDisplay-->>-YOU:#colon;ClockDisplay
 
 ```
 ## Original Version: setTime()
@@ -105,21 +105,21 @@ sequenceDiagram
 }%%
 sequenceDiagram
     actor YOU
-    YOU->>+ClockDisplay: setTime(13,45)
-    ClockDisplay->>+hours_NumberDisplay:setValue(13)
-    hours_NumberDisplay-->>-ClockDisplay:void
-    ClockDisplay->>+minutes_NumberDisplay:setValue(45)
-    minutes_NumberDisplay-->>-ClockDisplay:void
+    YOU->>+#colon;ClockDisplay: setTime(13,45)
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:setValue(13)
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:setValue(45)
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void
     
-    ClockDisplay->>+ClockDisplay:updateDisplay()
-    ClockDisplay->>+hours_NumberDisplay:getDisplayValue()
-    hours_NumberDisplay-->>-ClockDisplay:displayString
-    ClockDisplay->>+minutes_NumberDisplay:getDisplayValue()
-    minutes_NumberDisplay-->>-ClockDisplay:displayString
+    #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay()
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue()
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue()
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
     
-    deactivate ClockDisplay
+    deactivate #colon;ClockDisplay
 
-    ClockDisplay-->>-YOU:void
+    #colon;ClockDisplay-->>-YOU:void
 
 ```
 ## Original Version: timeTick()
@@ -141,32 +141,33 @@ sequenceDiagram
 }%%
 sequenceDiagram
     actor YOU
-    participant ClockDisplay
-    participant hours_NumberDisplay
-    participant minutes_NumberDisplay
 
-    YOU->>+ClockDisplay: timeTick()
-    ClockDisplay->>+minutes_NumberDisplay:increment()
-    minutes_NumberDisplay-->>-ClockDisplay:void
+    participant #colon;ClockDisplay
+    participant hours#colon;NumberDisplay
+    participant minutes#colon;NumberDisplay
 
-    ClockDisplay->>+minutes_NumberDisplay:getValue()
-    minutes_NumberDisplay-->>-ClockDisplay:value
+    YOU->>+#colon;ClockDisplay: timeTick()
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:increment()
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getValue()
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:value
 
     alt [value == 0]
 
-    ClockDisplay->>+hours_NumberDisplay:increment()
-    hours_NumberDisplay-->>-ClockDisplay:void
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:increment()
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void
     end
   
 
-    ClockDisplay->>+ClockDisplay:updateDisplay()
-    ClockDisplay->>+hours_NumberDisplay:getDisplayValue()
-    hours_NumberDisplay-->>-ClockDisplay:displayString
-    ClockDisplay->>+minutes_NumberDisplay:getDisplayValue()
-    minutes_NumberDisplay-->>-ClockDisplay:displayString
-    deactivate ClockDisplay
+    #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay()
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue()
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue()
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+    deactivate #colon;ClockDisplay
 
-    ClockDisplay-->>-YOU:void
+    #colon;ClockDisplay-->>-YOU:void
 ```
 ## Original Version: getTime()
 
@@ -187,11 +188,11 @@ sequenceDiagram
 }%%
 sequenceDiagram
     actor YOU
-    participant ClockDisplay
+    participant #colon;ClockDisplay
 
-    YOU->>+ClockDisplay: getTime()
+    YOU->>+#colon;ClockDisplay: getTime()
    
-    ClockDisplay-->>-YOU:displayString
+    #colon;ClockDisplay-->>-YOU:displayString
 
 ```
 
