@@ -44,6 +44,9 @@ Prepare your prelab before coming to class! Doing the pre-lab will save you time
 * What time is "03:00 am"?
 * What time is "05:30 pm"?
 
+**P5.** write a method that computes the 12hrs-clock hour value from the 24hrs-clock hour value.
+
+**P5.** write a method that takes the 24hrs-clock hour value as a parameter and returns the correct value for "am"/"pm" for the 12-hrs clock
 
 ## What To Hand In
 
