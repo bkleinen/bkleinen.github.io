@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 04: Rock Around the Clock'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise04
+source: https://github.com/htw-imi-info1/chapter03
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true
@@ -44,7 +44,7 @@ Prepare your prelab before coming to class! Doing the pre-lab will save you time
 * What time is "03:00 am"?
 * What time is "05:30 pm"?
 
-**P5.** write a method that computes the 12hrs-clock hour value from the 24hrs-clock hour value.
+**P5.** write a method that computes the 12hrs-clock **hour** value from the 24hrs-clock hour value.
 
 **P5.** write a method that takes the 24hrs-clock hour value as a parameter and returns the correct value for "am"/"pm" for the 12-hrs clock
 
@@ -60,7 +60,9 @@ Lab assignments are due before your next lab at 22:00. They may, of course, be t
 * * *
 
 # Assignment
-Source Code for this exercise:  [https://github.com/htw-imi-info1/exercise04](https://github.com/htw-imi-info1/exercise04)
+Source Code for this exercise: 
+{{<source>}}
+specifically the LED Display in the BlueJ Project [book-projects/clock-display-leds](https://github.com/htw-imi-info1/chapter03/tree/main/book-projects/clock-display-leds).
 
 You can use the **clock-display-with-gui** project which includes an auto-updating
 Graphical User Interface for the ClockDisplay; to get a reference to the
@@ -68,33 +70,57 @@ ClockDisplay object instantiate the Clock first and call its getClockDisplay()
 method (do not create them seperately as they will not be linked!) - or paste
 the code below into BlueJ's Code Pad (View->Show Code Pad) and drag the red
 object reference into BlueJ's Object Bench:
+
 ```java
-Clock clock = new Clock();
-clock.getClockDisplay()
+LedDisplay ld = new LedDisplay();
+ld.start();
+ld.toggleTicker();
+ld.setTickerSpeed(100);
+ld.setTickerSpeed(100);
+ld.stop();
+ld.setTime(11,59);
+ld.timeTick();
+ld.setTime(23,59);
+ld.timeTick();
 ```
 
+Note that - in difference to the original book example - the ClockDisplay stores the time in an int field `minutesInDay`, not in the various NumberDisplays!
 
-## Clock time
 
-0. Adapt the clock-display to display the time American-style (i.e. 12-hour clock and am / pm). You will have to include the am/pm in the time! Make sure your displayString has exactly this format: **06:15 am**. 
-Also, if you want to introduce a new parameter to the setTime method, make sure that the old setTime method is still working using 24h-Format. Same goes for the constructor - add a third constructor if you want an alternative parameter list.
-1. There are at least two ways in which you could have implemented exercise 0 - one keeps the time internally as a 24-hour clock and adapts the output, the other keeps the time internally as it is displayed. Whichever way you chose for exercise 0, implement the other in a new BlueJ project.
-Name the project folders "clock-display-ampm-24" and "clock-display-ampm-int" respectively.
-2. Which implementation was better? Why? Please elaborate.
+## Part 1: Clock time
+
+1. Adapt the simple ClockDisplay (Class ClockDisplay) to "display" the time American-style (i.e. 12-hour clock and am / pm) (display meaning store it in the field displayString) You will have to include the am/pm in the time! Make sure your displayString has exactly the format as in this example: `06:15 am`. 
+**Note that you only need to modify the method updateDisplay()!!**
+
+
+2. Now, do the same for LedDisplay. It only has two methods, now you need to extend both of them to add the am/pm part.
+    - note that there is a boolean constant  `WITH_AM_PM` in ClockDisplay that needs to be set to true to get a wider LEDDisplay with space for the am/pm part.
+    - you can also use it to be able to switch between both modes, but this is optional.
+    - NumberDisplay has a method `public void updateDisplay(String twoChars)`
+      that you can use to display the am/pm part - simply pass "am" or "pm".
+
+
 3. Make your clock into an alarm clock by adding an alarm. You should be able to set the alarm time and turn the alarm on and off. When the clock reaches the alarm time, it should ring (writing "Riiiiiiiing!" to the terminal is sufficient).
-4. (For the bored): Research "Threads" and make the clock increment automatically every second.
 
-**Hint**
-If you've completed Assignments 0-3, your ClockDisplay class should have these methods (possibly more):
 
-```java
-public class ClockDisplay
-    {
-        public ClockDisplay(){... }
-        public ClockDisplay(int hour, int minute){... }
-        public void timeTick(){... }
-        public void setTime(int hour, int minute){... }
-        public void setAlarmTime(int hour, int minute){... }
-        public String getTime(){... }
-    }
-```
+
+### Part 2: Completing the KaraClock
+
+This builds on the preparation exercises done during the last labs.
+The code repository is still [https://github.com/htw-imi-info1/kara-clock-lab](https://github.com/htw-imi-info1/kara-clock-lab) - the same as last week. You find an overview of all kara clock exercises in [karaclock-complete](../karaclock-complete)
+
+All you have to add is a method that can set the Digit's value to 
+enable the setTime() method: 
+
+{{< snippet "snippets/karaclock/06_initialize.md" >}}
+
+#### Now, your clock should work! 
+{{< snippet "snippets/karaclock/07_kara_clock.md" >}}
+{{< snippet "snippets/karaclock/08_add_am_pm.md" >}}
+
+Make sure 
+[1. Multi-Move](../karaclock-complete/#1-multi-move)
+and 
+[2. Move up and Count](../karaclock-complete/#2-move-up-and-count) which you should have done in last week's lab or in class.
+
+There is a special repo with the scaffold for all KaraClock exercises: [https://github.com/htw-imi-info1/kara-clock-lab](https://github.com/htw-imi-info1/kara-clock-lab) 

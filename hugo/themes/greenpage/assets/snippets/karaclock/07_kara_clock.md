@@ -1,4 +1,4 @@
-### 7. The first Kara Clock!
+#### 7. The first Kara Clock
 
 Now, with your completed DigitalDisplayKara, the first Kara Clock can be built.
 

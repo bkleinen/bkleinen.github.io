@@ -1,7 +1,7 @@
 ---
 title: LED ClockDisplay
 author: kleinen
-draft: true
+draft: false
 tags: ['bluej', 'karaclock']
 courses: []
 weight: 80
@@ -37,7 +37,7 @@ classDiagram
 
     class ClockDisplay{
       -String displayString
-      -int minutes
+      -int minutesInDay
       void timeTick()
       void setTime(int hour, int minute)
       String getTime()
@@ -57,7 +57,33 @@ classDiagram
     NumberDisplay: void setValue(int)
     
 ```
+## ClockDisplay: additional methods for clock and automatic Ticker
 
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f0cd91', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+classDiagram
+
+    class ClockDisplay{
+      void start()
+      void stop()
+      void toggleTicker()
+      void setTickerSpeed(int)
+    }
+
+```
 ## LEDDisplay: setTime() - complete 
 ```mermaid
 %%{
