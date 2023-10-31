@@ -1,4 +1,5 @@
-<!doctype html><html><head><title>Conditional Statement - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io/favicon.ico><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">Prof. Dr. Barne Kleinen</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
+<!doctype html><html><head><title>Conditional Statement - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io/favicon.ico>
+<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">Prof. Dr. Barne Kleinen</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
 at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-3><a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Programming and Web Technology @ IMI</a></div></div></div></div></header><main class="row p-0"><nav class="col-md-2 c2"><div class=nav><ul class="nav flex-md-column"><li class=nav-item></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/><div>Home<a href=https://home.htw-berlin.de/~kleinen/material/info1-script/01_basics/conditional/>
 link to production</a></div></a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/classes/ws2023/info1/>B 1 Informatik 1</a>
@@ -21,16 +22,16 @@ in
 <i><a href=https://bkleinen.github.io/tags/>Tags</a></i>:
 <a href=https://bkleinen.github.io/material/tags/info1-script/>info1-script</a>
 <a href=https://bkleinen.github.io/material/tags/java/>java</a>
-&nbsp;</small><h4 id=conditional-statement-if-then-else-statement>Conditional Statement (if-then-else statement)</h4><p>A conditional statement allows you to conditionally execute code parts based on a condition, either true or false or something that results in true or false (see boolean expression).</p><h1 id=structure>Structure</h1><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>// before conditional
-</span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=k>if</span><span class=o>(</span><span class=n>condition</span><span class=o>){</span>
-</span></span><span class=line><span class=cl>    <span class=c1>// if-part
-</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>}</span> <span class=k>else</span> <span class=o>{</span>
-</span></span><span class=line><span class=cl>    <span class=c1>// else-part
-</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>// after conditional
+&nbsp;</small><h4 id=conditional-statement-if-then-else-statement>Conditional Statement (if-then-else statement)</h4><p>A conditional statement allows you to conditionally execute code parts based on a condition, either true or false or something that results in true or false (see boolean expression).</p><h1 id=structure>Structure</h1><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c1>// before conditional</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>if</span><span class=p>(</span><span class=n>condition</span><span class=p>){</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c1>// if-part</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w> </span><span class=k>else</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c1>// else-part</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c1>// after conditional</span><span class=w>
 </span></span></span></code></pre></div><pre class=mermaid>flowchart TD
     A[Start]
     B(before conditional)
@@ -44,14 +45,14 @@ in
     C -->|false| E
     D & E --> F
     F -->G[End]
-</pre><h2 id=the-else-part-can-be-omitted>The else part can be omitted&mldr;</h2><p>&mldr; if you don&rsquo;t need it. If the condition is false, the execution continues directly with the statements after the if-statement.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>// before conditional
-</span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=k>if</span><span class=o>(</span><span class=n>condition</span><span class=o>){</span>
-</span></span><span class=line><span class=cl>    <span class=c1>// if-part
-</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>}</span> 
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>// after conditional
+</pre><h2 id=the-else-part-can-be-omitted>The else part can be omitted&mldr;</h2><p>&mldr; if you don&rsquo;t need it. If the condition is false, the execution continues directly with the statements after the if-statement.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c1>// before conditional</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>if</span><span class=p>(</span><span class=n>condition</span><span class=p>){</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c1>// if-part</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w> 
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c1>// after conditional</span><span class=w>
 </span></span></span></code></pre></div><pre class=mermaid>flowchart TD
     A[Start]
     B(before conditional)
@@ -65,24 +66,24 @@ in
     D --> F
     C -->|false| F
     F -->G[End]
-</pre><h2 id=examples>Examples</h2><h4 id=1-protective-setter-only-set-field-if-value-is-above-zero>1. protective setter: only set field if value is above zero:</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=kt>void</span> <span class=nf>setPoints</span><span class=o>(</span><span class=kt>int</span> <span class=n>newPoints</span><span class=o>){</span>
-</span></span><span class=line><span class=cl>    <span class=k>if</span><span class=o>(</span><span class=n>newPoints</span> <span class=o>&gt;=</span> <span class=mi>0</span><span class=o>){</span>
-</span></span><span class=line><span class=cl>        <span class=n>points</span> <span class=o>=</span> <span class=n>newPoints</span><span class=o>;</span> 
-</span></span><span class=line><span class=cl>    <span class=o>}</span>
-</span></span><span class=line><span class=cl><span class=o>}</span>
-</span></span></code></pre></div><h4 id=2-with-printing-to-the-command-line>2. with printing to the command line:</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl>    <span class=kt>boolean</span> <span class=n>condition</span> <span class=o>=</span> <span class=kc>true</span><span class=o>;</span> 
-</span></span><span class=line><span class=cl>    <span class=c1>// ...
-</span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=n>System</span><span class=o>.</span><span class=na>out</span><span class=o>.</span><span class=na>println</span><span class=o>(</span><span class=s>&#34;before conditional&#34;</span><span class=o>);</span>
-</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=o>(</span><span class=n>condition</span><span class=o>){</span>
-</span></span><span class=line><span class=cl>        <span class=n>System</span><span class=o>.</span><span class=na>out</span><span class=o>.</span><span class=na>println</span><span class=o>(</span><span class=s>&#34;if-part: condition was true!&#34;</span><span class=o>);</span>
-</span></span><span class=line><span class=cl>    <span class=o>}</span>
-</span></span><span class=line><span class=cl>    <span class=k>else</span> <span class=o>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>System</span><span class=o>.</span><span class=na>out</span><span class=o>.</span><span class=na>println</span><span class=o>(</span><span class=s>&#34;else-part: condition was false!&#34;</span><span class=o>);</span>
-</span></span><span class=line><span class=cl>    <span class=o>}</span>
-</span></span><span class=line><span class=cl>    <span class=n>System</span><span class=o>.</span><span class=na>out</span><span class=o>.</span><span class=na>println</span><span class=o>(</span><span class=s>&#34;after conditional&#34;</span><span class=o>);</span>
-</span></span><span class=line><span class=cl>    
-</span></span></code></pre></div><h2 id=shorter-mermaid-ifelse>shorter mermaid if/else</h2><pre class=mermaid>
+</pre><h2 id=examples>Examples</h2><h4 id=1-protective-setter-only-set-field-if-value-is-above-zero>1. protective setter: only set field if value is above zero:</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=kd>public</span><span class=w> </span><span class=kt>void</span><span class=w> </span><span class=nf>setPoints</span><span class=p>(</span><span class=kt>int</span><span class=w> </span><span class=n>newPoints</span><span class=p>){</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>if</span><span class=p>(</span><span class=n>newPoints</span><span class=w> </span><span class=o>&gt;=</span><span class=w> </span><span class=n>0</span><span class=p>){</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>points</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>newPoints</span><span class=p>;</span><span class=w> 
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><h4 id=2-with-printing-to-the-command-line>2. with printing to the command line:</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=w>    </span><span class=kt>boolean</span><span class=w> </span><span class=n>condition</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=kc>true</span><span class=p>;</span><span class=w> 
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c1>// ...</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=s>&#34;before conditional&#34;</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>if</span><span class=w> </span><span class=p>(</span><span class=n>condition</span><span class=p>){</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=s>&#34;if-part: condition was true!&#34;</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>else</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=s>&#34;else-part: condition was false!&#34;</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=s>&#34;after conditional&#34;</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span></code></pre></div><h2 id=shorter-mermaid-ifelse>shorter mermaid if/else</h2><pre class=mermaid>
 flowchart TD
     S[Start]
     C{cond?}
@@ -106,9 +107,8 @@ flowchart TD
     
     I --> F
     C --false?--> F
-</pre><h2 id=further-reading>Further Reading</h2><p><a href=https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html</a></p><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
-<script>mermaid.initialize({startOnLoad:!0})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+</pre><h2 id=further-reading>Further Reading</h2><p><a href=https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html</a></p><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script><script>mermaid.initialize({startOnLoad:!0})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
 <a href=https://www.htw-berlin.de>HTW Berlin</a>,
 <a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
 &nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
-<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: B. Kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.77967734019eb10fa056361c0d85fa41b84589a07440c80cf41e4cf010d992a6.js defer></script></body></html>
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: B. Kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.a69b27a48bd90e096b841772016dd704ae8e8d7882bffd22329ca8a626df8e40.js defer></script></body></html>

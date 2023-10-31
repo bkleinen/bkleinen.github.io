@@ -1,0 +1,324 @@
+<!doctype html><html><head><title>LED ClockDisplay - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io/favicon.ico>
+<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">Prof. Dr. Barne Kleinen</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
+at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-3><a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io/images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io/>Programming and Web Technology @ IMI</a></div></div></div></div></header><main class="row p-0"><nav class="col-md-2 c2"><div class=nav><ul class="nav flex-md-column"><li class=nav-item></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/><div>Home<a href=https://home.htw-berlin.de/~kleinen/material/info1/clock_display_refactoring/led_display/>
+link to production</a></div></a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/classes/ws2023/info1/>B 1 Informatik 1</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2023/m1-web/>M 1 Mediaprogramming</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2023/m17-masterseminar/>M 17.1 Masterseminar</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ws2023/>All WS 2023/24</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/>All Classes</a></div></li><li class=nav-item><a class="nav-link active" href=https://bkleinen.github.io/material/><div>Material<a href=https://home.htw-berlin.de/~kleinen/material/info1/clock_display_refactoring/led_display/>
+link to production</a></div></a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/software_projects/><div>Software Projects<a href=https://home.htw-berlin.de/~kleinen/material/info1/clock_display_refactoring/led_display/>
+link to production</a></div></a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/ic/>IC</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a></div></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/trans/>Trans@HTW</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/contact/><div>Contact Info<a href=https://home.htw-berlin.de/~kleinen/material/info1/clock_display_refactoring/led_display/>
+link to production</a></div></a></li><ul></div></nav><div class="col-md-10 c3"><div class=outer><nav aria-label=breadcrumb role=navigation><ol class="breadcrumb breadcrumb-thin"><li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/material/>material</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/material/info1/>info1</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/material/info1/clock_display_refactoring/>clock_display_refactoring</a></li><li class="breadcrumb-item active" aria-current=page>led_display</li></ol></nav></div><div class=coursenav></div><div class=container-fluid><h1>LED ClockDisplay</h1><small><a href=https://bkleinen.github.io/material/>Material</a>
+in
+&nbsp;
+&nbsp;
+<i><a href=https://bkleinen.github.io/tags/>Tags</a></i>:
+<a href=https://bkleinen.github.io/material/tags/bluej/>bluej</a>
+<a href=https://bkleinen.github.io/material/tags/karaclock/>karaclock</a>
+&nbsp;</small><header><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#documentation>Documentation</a></li><li><a href=#leddisplay-extends-clockdisplay>LEDDisplay extends ClockDisplay</a></li><li><a href=#clockdisplay-additional-methods-for-clock-and-automatic-ticker>ClockDisplay: additional methods for clock and automatic Ticker</a></li><li><a href=#leddisplay-settime---complete>LEDDisplay: setTime() - complete</a></li><li><a href=#leddisplay-settime---clockdisplay--numberdisplay>LEDDisplay: setTime() - ClockDisplay & NumberDisplay</a></li><li><a href=#leddisplay-settime---both-numberdisplays---leddigit>LEDDisplay: setTime() - both NumberDisplays & LEDDigit</a></li><li><a href=#clockdisplay-original-settime-copy>ClockDisplay original: setTime() copy</a></li><li><a href=#leddisplay-settime-numberdisplay-leddigit>LEDDisplay: setTime() NumberDisplay->LEDDigit</a><ul><li><a href=#initialization-maybe-old>Initialization (maybe old)</a></li></ul></li></ul></nav></div><a href=https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/>&lt;prev</a>
+<a href=..>up</a><h2 id=documentation>Documentation</h2><h2 id=leddisplay-extends-clockdisplay>LEDDisplay extends ClockDisplay</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f0cd91', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+classDiagram
+    class ClockDisplay
+    class LEDDisplay
+    class NumberDisplay
+    ClockDisplay <|-- LEDDisplay
+    LEDDisplay ..> NumberDisplay
+    
+
+    class ClockDisplay{
+      -String displayString
+      -int minutesInDay
+      void timeTick()
+      void setTime(int hour, int minute)
+      String getTime()
+      void updateDisplay()
+      String getDisplayValue(int value)
+      initRealDisplay(int hour, int minute)
+      updateRealDisplay()
+
+    }
+    class LEDDisplay{
+      -NumberDisplay hours
+      -NumberDisplay minutes
+      initRealDisplay(int hour, int minute)
+      updateRealDisplay()
+    }
+
+    NumberDisplay: void setValue(int)
+    
+</pre><h2 id=clockdisplay-additional-methods-for-clock-and-automatic-ticker>ClockDisplay: additional methods for clock and automatic Ticker</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f0cd91', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+classDiagram
+
+    class ClockDisplay{
+      void start()
+      void stop()
+      void toggleTicker()
+      void setTickerSpeed(int)
+    }
+</pre><h2 id=leddisplay-settime---complete>LEDDisplay: setTime() - complete</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+    actor YOU
+    activate #colon;LEDDisplay
+    YOU->>+#colon;LEDDisplay: setTime(13,45)
+    #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+    
+
+    activate #colon;LEDDisplay
+    #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+
+    activate hours#colon;NumberDisplay
+
+    #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+    activate lower#colon;LEDDigit
+    hours#colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+    deactivate lower#colon;LEDDigit
+    activate upper#colon;LEDDigit
+    hours#colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+    deactivate upper#colon;LEDDigit
+    deactivate hours#colon;NumberDisplay
+
+
+    activate minutes#colon;NumberDisplay
+    #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+
+    activate lower_m#colon;LEDDigit
+    minutes#colon;NumberDisplay->>+lower_m#colon;LEDDigit:display(5)
+    deactivate lower_m#colon;LEDDigit
+    activate upper_m#colon;LEDDigit
+    minutes#colon;NumberDisplay->>+upper_m#colon;LEDDigit:display(4)
+    deactivate upper_m#colon;LEDDigit
+
+    deactivate minutes#colon;NumberDisplay
+
+
+    deactivate #colon;LEDDisplay
+
+    deactivate #colon;LEDDisplay
+    deactivate #colon;LEDDisplay
+    #colon;LEDDisplay-->>-YOU:void
+</pre><h2 id=leddisplay-settime---clockdisplay--numberdisplay>LEDDisplay: setTime() - ClockDisplay & NumberDisplay</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+    actor YOU
+    activate #colon;LEDDisplay
+    YOU->>+#colon;LEDDisplay: setTime(13,45)
+    #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+    
+
+    activate #colon;LEDDisplay
+    #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+
+    activate hours#colon;NumberDisplay
+
+    #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+    
+    deactivate hours#colon;NumberDisplay
+
+
+    activate minutes#colon;NumberDisplay
+    #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+
+
+    deactivate minutes#colon;NumberDisplay
+
+
+    deactivate #colon;LEDDisplay
+
+    deactivate #colon;LEDDisplay
+    deactivate #colon;LEDDisplay
+    #colon;LEDDisplay-->>-YOU:void
+</pre><h2 id=leddisplay-settime---both-numberdisplays---leddigit>LEDDisplay: setTime() - both NumberDisplays & LEDDigit</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+  
+    #colon;LEDDisplay->>+#colon;NumberDisplay: updateDisplay(13)
+    activate lower#colon;LEDDigit
+    #colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+    deactivate lower#colon;LEDDigit
+    activate upper#colon;LEDDigit
+    #colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+    deactivate upper#colon;LEDDigit
+    deactivate #colon;NumberDisplay
+</pre><h2 id=clockdisplay-original-settime-copy>ClockDisplay original: setTime() copy</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+    actor YOU
+    YOU->>+#colon;ClockDisplay: setTime(13,45)
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:setValue(13)
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:setValue(45)
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+    
+    #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay()
+    #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue()
+    hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+    #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue()
+    minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+    
+    deactivate #colon;ClockDisplay
+
+    #colon;ClockDisplay-->>-YOU:void
+</pre><h2 id=leddisplay-settime-numberdisplay-leddigit>LEDDisplay: setTime() NumberDisplay->LEDDigit</h2><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+  activate #colon;LEDDigit
+  #colon;NumberDisplay->>+#colon;LEDDigit: display(9)
+  loop each Segment
+    alt segment needs to be shown for value
+      activate #colon;Segment
+      #colon;LEDDigit->>+#colon;Segment: makeVisible()
+      deactivate #colon;Segment
+    else
+      #colon;LEDDigit->>+#colon;Segment: makeInvisible()
+      deactivate #colon;Segment
+    end
+  end
+  deactivate #colon;LEDDigit
+</pre><h3 id=initialization-maybe-old>Initialization (maybe old)</h3><pre class=mermaid>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f69e9d', 
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#f4f4f4',
+      'activationBorderColor': '#000',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+    actor YOU
+    create participant ClockDisplay
+    YOU->>+ClockDisplay: new()
+
+    create participant LEDClockDisplay
+    ClockDisplay->>+LEDClockDisplay: new()
+    create participant Canvas
+    LEDClockDisplay->>+Canvas: new()
+    Canvas-->>-LEDClockDisplay: canvas
+    LEDClockDisplay-->>-ClockDisplay: leds
+
+    loop [ for each number display part]
+    create participant NumberDisplay
+    ClockDisplay->>+NumberDisplay:new()
+    NumberDisplay-->>-ClockDisplay:aNumberDisplay
+    ClockDisplay->>+LEDClockDisplay: add(aNumberDisplay)
+    LEDClockDisplay->>+NumberDisplay:initDisplay(pos, canvas)
+    
+    loop [ for each led digit]
+    create participant LEDDigit
+    NumberDisplay->>+LEDDigit:new(pos, canvas)
+
+    loop [ for each led segment]
+    create participant Segment
+    LEDDigit->>+Segment:new(pos, canvas)
+    Segment-->>-LEDDigit: segment
+    end
+
+    LEDDigit-->>-NumberDisplay: digit
+    end
+
+    NumberDisplay-->>-LEDClockDisplay:void
+    LEDClockDisplay-->>-ClockDisplay:void
+
+
+    end
+
+    ClockDisplay-->>-YOU:void
+</pre><p>loop [ for each display part]</p><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script><script>mermaid.initialize({startOnLoad:!0})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
+&nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io/contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.a69b27a48bd90e096b841772016dd704ae8e8d7882bffd22329ca8a626df8e40.js defer></script></body></html>
