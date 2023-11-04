@@ -61,20 +61,14 @@ Source Code for this exercise:
 {{<source>}}
 specifically the LED Display in the BlueJ Project [book-projects/clock-display-leds](https://github.com/htw-imi-info1/chapter03/tree/main/book-projects/clock-display-leds).
 
-You can use the **clock-display-with-gui** project which includes an auto-updating
-Graphical User Interface for the ClockDisplay; to get a reference to the
-ClockDisplay object instantiate the Clock first and call its getClockDisplay()
-method (do not create them seperately as they will not be linked!) - or paste
-the code below into BlueJ's Code Pad (View->Show Code Pad) and drag the red
-object reference into BlueJ's Object Bench:
+Here's an example how to use the LedDisplay:
 
 ```java
 LedDisplay ld = new LedDisplay();
-ld.start();
-ld.toggleTicker();
-ld.setTickerSpeed(100);
-ld.setTickerSpeed(100);
-ld.stop();
+ld.start(); // this starts the automatic clock update 
+ld.toggleTicker(); // toggles between timeTicks every second and faster timeTicks (for testing)
+ld.setTickerSpeed(100); // make it real fast - 100 ms
+ld.stop(); // to stop the automatic timeTicks for manual testing like so:
 ld.setTime(11,59);
 ld.timeTick();
 ld.setTime(23,59);
