@@ -81,6 +81,7 @@ And here's a link to the branch containing the exercises we did in class: [branc
 <small class = "float-right">End Image</small>
 
 ### 6.  Draw a Spiral
+(moved to lab 04)
  (lab01_kara06) Draw a Spiral like the one shown in the picture.
 ![spiral](../images/kara/kara-exercise01-spiral.jpg)
 

@@ -2,12 +2,9 @@
 title: 'Exercise 05: A Better Notebook'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise05
-bk_ok_to_publish: true
-source_ok: true
-solution_pushed: true
-draft: true
+draft: false
 ---
-<!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
+
 ![Notebook](../../images/notebook-6783298985.jpg)
 <small class = "float-right">Foto by [waferboard](https://www.flickr.com/photos/waferboard/6783298985)</small>
 
@@ -36,7 +33,7 @@ Lab assignments are due on the day before the next lab at 10pm.
 
 ## Assignment
 
-**A Better Notebook**
+### Part 1: A Better Notebook
 
 Source Code for this exercise: {{< source  >}}
 
@@ -56,7 +53,7 @@ If you don't like the idea of copying code rewrite the `printAll()` method to us
 3. `getAllNumbered()` : copy and modify your `getAll()` method so that it adds a number in front of each note that corresponds to its index in the ArrayList. The new method should be called `getAllNumbered()`.
 4. `getNotesWith(String searchString)`: implement a search method that returns a string with all the notes containing the search string, separated by "\n".
 
-5. `removeNote(String searchString)`: Implement a Method `removeNote()` that removes all notes containing a searchString passed as parameter (as seen in class) i by using an iterator and the remove() of the iterator method. The removeNote method returns nothing; it modifies the notes collection.
+5. `removeNote(String searchString)`: Implement a Method `removeNote()` that removes all notes containing a searchString passed as parameter (as seen in class) by using an iterator and the remove() of the iterator method. The removeNote method returns nothing; it modifies the notes collection.
 6. `removeNotesWithIndex(String searchString)` Implement a second remove method without an Iterator but using the indices of the notes. The removeNoteWithIndex method returns nothing; it modifies the notes collection.
 Did you run into problems? If not, what may be the possible problems with this compared to the solution using an iterator?
 7. Within a single execution of the two remove methods, the notes collection is asked repeatedly how many notes it is currently storing. Does the value returned by size vary from one check to the next? Rewrite your remove method so that the size is not checked unnecessarily, perhaps using a local variable. Check that your version gives the same results! What cases will you have to test?
@@ -65,3 +62,29 @@ Did you run into problems? If not, what may be the possible problems with this c
 
 9. (For the bored) Implement a search with '?' as a joker standing for any character, and '\*' standing for any number of characters.
 10. (For the really bored) Implement full regular expression search for the notebook.
+
+### Part2: Kara
+
+#### Kara in the Tunnel
+(kara/kara-tunnel): Kara is afraid of Tunnels. When entering the tunnel, Kara is scared and drops one leaf; then she walks through the tunnel (without dropping further leaves) and immediately stops after leaving the tunnel. Note that &#8220;in the tunnel&#8221; means that there is a tree on both sides, not just on one. Provide a general solution and Test it with both Worlds in the scenario.
+
+|       |                                                       |
+|:------|:------------------------------------------------------|
+| Start | ![Start](../images/kara/kara-exercise01-02-start.jpg) |
+| End   | ![End](../images/kara/kara-exercise01-02-end.jpg)     |
+####  Draw a Spiral
+ (kara/kara-spiral) Draw a Spiral like the one shown in the picture.
+
+ For each side of the spiral, how does the side length (number of leaves) change?
+
+![spiral](../images/kara/kara-exercise01-spiral.jpg)
+
+####  (for the bored:) Draw a Terse Spiral
+
+... like this: 
+
+![spiral](./terse-spiral.jpg)
+
+Hint: with this spiral, the relation between side number and length is a bit more complicated.
+
+
