@@ -7,7 +7,6 @@
 {{ range .Site.Menus.main }}
 <li class="nav-item">
     {{ if .HasChildren }}
-
     <a class="nav-link dropdown-toggle {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active {{ end}}"
     data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">{{ .Name }}</a>
 
@@ -20,15 +19,15 @@
     </div>
 
     {{ else }}
-        {{ $showNavItem :=  (or   $.Site.IsServer (not (eq .Identifier "debug" ) ) )  }}
+        {{ $showNavItem :=  (or $.Site.IsServer (not (eq .Identifier "debug" ) ) )  }}
         {{ if $showNavItem }}
-       
         <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}" href="{{ .URL }}">
             {{ if (eq .Identifier "debug" ) }}<div class="alert alert-warning" role="alert">
             {{ else }}<div>{{ end }} 
-              {{ .Name -}} <a href="{{- $.Site.Params.MainProductionURL -}}{{- $currentPage.RelPermalink -}}">
-                link to production</a>
+              {{ .Name -}} 
             {{ if eq .Identifier "debug"}}
+            <a href="{{- $.Site.Params.MainProductionURL -}}{{- $currentPage.RelPermalink -}}">
+              link to production</a>
               <br/> classes_type: {{ $currentPage.Scratch.Get "classes_type" }}
               <br/> {{ $currentPage.Scratch.Get "theme" }}
             {{ end }}
