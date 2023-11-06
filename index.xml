@@ -421,6 +421,10 @@ P3. Assume you have a collection of students called imi1.</description></item><i
 This week&amp;rsquo;s lab work is intended help you practice using loops.
 Pre-lab P0. Write a loop on paper that prints out all multiples of 5 between 10 and 95.
 P1. Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.
+P2. Assume you have a collection of students called imi1.</description></item><item><title>Exercise 05: A Better Notebook</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-05/</guid><description>Foto by waferboard
+This week&amp;rsquo;s lab work is intended help you practice using loops.
+Pre-lab P0. Write a loop on paper that prints out all multiples of 5 between 10 and 95.
+P1. Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.
 P2. Assume you have a collection of students called imi1.</description></item><item><title>Exercise 05: Rock Around the Clock - Part 2</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-05/</guid><description>Katarina Elevator in Stockholm, Foto by Arjan Richter
 This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.
 What To Hand In You need to upload 2 Files to Moodle:
