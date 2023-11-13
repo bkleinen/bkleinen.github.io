@@ -23,38 +23,37 @@ last update: 01.11.2023
 |      |    | Fri 27/10/2023 |                                                      | {{% link title ="Exercise 03 - Book Exercise" link = "../labs/exercise-03" %}}                                    |   |   |
 | 4    | 44 | Tue 31/10/2023 | Chapter 03 - Object Interaction                      |                                                                                                                   |   |   |
 |      |    | Fri 03/11/2023 |                                                      | {{% link title ="Exercise 04 - Rock Around the Clock" link = "../labs/exercise-04" %}}                            |   |   |
-| 5    | 45 | Tue 07/11/2023 | Chapter 04 - Grouping Objects                        |                                                                                                                   |   |   |
-|      |    | Fri 10/11/2023 |                                                      | {{% link title ="Exercise 05 - A Better Notebook" link = "../labs/exercise-05" %}}                                |   |   |
-| 6    | 46 | Tue 14/11/2023 | Chapter 05 - Functional Processing of Collections    |                                                                                                                   |   |   |
-|      |    | Fri 17/11/2023 |                                                      | {{% link title ="Exercise 06 - Lambdas and Streams" link = "../labs/exercise-06" %}}                              |   |   |
-| 7    | 47 | Tue 21/11/2023 | Chapter 06 - More-Sophisticated Behavior             |                                                                                                                   |   |   |
-|      |    | Fri 24/11/2023 |                                                      | {{% link title ="Exercise 07 - Lotto and Technical Support" link = "../labs/exercise-07" %}}                      |   |   |
-| 8    | 48 | Tue 28/11/2023 | Chapter 07 - Fixed-Size Collections                  |                                                                                                                   |   |   |
-|      |    | Fri 01/12/2023 |                                                      | {{% link title ="Exercise 09 - Testing with JUnit" link = "../labs/exercise-09" %}}                               |   |   |
+| 5    | 45 | Tue 07/11/2023 |                                                      |                                                                                                                   |   |   |
+|      |    | Fri 10/11/2023 |                                                      |                                                                                                                   |   |   |
+| 6    | 46 | Tue 14/11/2023 | Chapter 04 - Grouping Objects                        |                                                                                                                   |   |   |
+|      |    | Fri 17/11/2023 | Chapter 07 - Fixed-Size Collections                  | {{% link title ="Exercise 05 - A Better Notebook" link = "../labs/exercise-05" %}}                                |   |   |
+| 7    | 47 | Tue 21/11/2023 | Chapter 05 - Functional Processing of Collections    |                                                                                                                   |   |   |
+|      |    | Fri 24/11/2023 |                                                      | {{% link title ="Exercise 06 - Lambdas and Streams" link = "../labs/exercise-06" %}}                              |   |   |
+| 8    | 48 | Tue 28/11/2023 | Chapter 06 - More-Sophisticated Behavior             |                                                                                                                   |   |   |
+|      |    | Fri 01/12/2023 |                                                      | {{% link title ="Exercise 07 - Lotto and Technical Support" link = "../labs/exercise-07" %}}                      |   |   |
 | 9    | 49 | Tue 05/12/2023 | Chapter 09 - Well-Behaved Objects                    |                                                                                                                   |   |   |
-|      |    | Fri 08/12/2023 |                                                      | Inheritance exercise instead of:  {{% link title ="Exercise 08 - Bouncing Balls" link = "../labs/exercise-08" %}} |   |   |
+|      |    | Fri 08/12/2023 |                                                      | {{% link title ="Exercise 08 - Testing with JUnit" link = "../labs/exercise-09" %}}                               |   |   |
 | 10   | 50 | Tue 12/12/2023 | Chapter 08 - Designing Classes                       |                                                                                                                   |   |   |
-|      |    | Fri 15/12/2023 |                                                      | {{% link title ="Exercise 10: The World of You" link = "../labs/exercise-10" %}}                                  |   |   |
+|      |    | Fri 15/12/2023 |                                                      | {{% link title ="Exercise 09: The World of You" link = "../labs/exercise-10" %}}                                  |   |   |
 | 11   | 51 | Tue 19/12/2023 | Chapter 10 - Improving Structure with Inheritance    |                                                                                                                   |   |   |
-|      |    | Fri 22/12/2023 |                                                      | no lecture / lab (e-learning)                                                                                     |   |   |
+|      |    | Fri 22/12/2023 |                                                      | {{% link title ="Exercise 10: Keeping Track of Stuff" link = "../labs/exercise-11" %}}                            |   |   |
 |      | 52 | Tue 26/12/2023 | Winterpause                                          |                                                                                                                   |   |   |
-|      |    | Fri 29/12/2023 | Winterpause                                          |                                                                                                                   |   |   |
+|      |    | Fri 29/12/2023 | Winterpause                                          | no lecture / lab                                                                                                  |   |   |
 | 12   | 1  | Tue 02/01/2024 | Chapter 11 - More about Inheritance                  |                                                                                                                   |   |   |
-|      |    | Fri 05/01/2024 | Chapter 12 - Further Abstraction Techniques          | {{% link title ="Exercise 11: Keeping Track of Stuff" link = "../labs/exercise-11" %}}                            |   |   |
+|      |    | Fri 05/01/2024 | Chapter 12 - Further Abstraction Techniques          | {{% link title ="Exercise 11: Pick up and Carry" link = "../labs/exercise-12" %}}                                 |   |   |
 | 13   | 2  | Tue 09/01/2024 | Chapter 13 - Building Graphical User Interfaces      |                                                                                                                   |   |   |
-|      |    | Fri 12/01/2024 |                                                      | {{% link title ="Exercise 12: Pick up and Carry" link = "../labs/exercise-12" %}}                                 |   |   |
+|      |    | Fri 12/01/2024 |                                                      | {{% link title ="Exercise 12: Different Items" link = "../labs/exercise-12" %}}                                   |   |   |
 | 14   | 3  | Tue 16/01/2024 | Chapter 14 - Handling Errors                         |                                                                                                                   |   |   |
 |      |    | Fri 19/01/2024 |                                                      | Trial Exams in Labs & Feedback on last Exercise                                                                   |   |   |
 | 15   | 4  | Tue 23/01/2024 | Start Prüfungszeitraum / Repetition                  |                                                                                                                   |   |   |
-|      |    | Fri 26/01/2024 | **Exam (TBD)**                                       |                                                                                                                   |   |   |
+|      |    | Fri 26/01/2024 | **Exam**                                             | **Exam**                                                                                                          |   |   |
 | 16   | 5  | Tue 30/01/2024 |                                                      |                                                                                                                   |   |   |
 |      |    | Fri 02/02/2024 | **[Showtime](https://showtime.f4.htw-berlin.de/)!!** |                                                                                                                   |   |   |
 | 17   | 6  | Tue 06/02/2024 |                                                      |                                                                                                                   |   |   |
 |      |    | Fri 09/02/2024 |                                                      |                                                                                                                   |   |   |
 
 
-
-
+  Inheritance exercise instead of:  {{% link title ="Exercise 08 - Bouncing Balls" link = "../labs/exercise-08" %}}
 
 
 
