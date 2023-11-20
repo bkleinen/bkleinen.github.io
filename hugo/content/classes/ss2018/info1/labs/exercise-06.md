@@ -47,7 +47,7 @@ Lab assignments are due before your next lab at 22.00. They may, of course, be t
 
 ## Assignment
 
-1. Download the [animal-monitoring-v1](https://github.com/htw-imi-info1/exercise06) project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P2, compile them and run them. Did they all work? Record the results for your lab report.
+1. Download the [animal-monitoring-v1](https://github.com/htw-imi-info1/exercise06-archived) project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P2, compile them and run them. Did they all work? Record the results for your lab report.
 
 2. Rewrite the `printSightingsOf` method in the AnimalMonitor class to use streams and lambdas. Test to make sure that your project still works as before.
 

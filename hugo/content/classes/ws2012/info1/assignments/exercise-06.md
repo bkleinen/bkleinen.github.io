@@ -36,7 +36,7 @@ Lab assignments are due before your next lab at 23.00. They may, of course, be t
 
 # **Club Membership**
 
-1. Use the club project at [https://github.com/htw-imi-info1/exercise06-club-membership/](https://github.com/htw-imi-info1/exercise06-club-membership/) to complete the following exercises. There is an outline in the project, but it doesn't do anything useful. The club class is intended to store Membership objects in a collection. Define a field for an ArrayList for keeping track of club members. Make sure this compiles before moving on.
+1. Use the club project at [https://github.com/htw-imi-info1/exercise06-archived-club-membership/](https://github.com/htw-imi-info1/exercise06-archived-club-membership/) to complete the following exercises. There is an outline in the project, but it doesn't do anything useful. The club class is intended to store Membership objects in a collection. Define a field for an ArrayList for keeping track of club members. Make sure this compiles before moving on.
 2. Complete the numberOfMembers method to return the current size of the collection. Since you can't add anyone yet, this will, of course, at the moment always return 0.
 3. A complete version of Membership is supplied for you. It stores members names and the month and year that they joined the club. Complete the join method. Add some members and see if the numberOfMembers still works. What do you have to do in order to test this?
 4. Implement a method joinedInMonth that takes a month number and a year number as parameters and returns the number of persons who joined in that particular month of that year.

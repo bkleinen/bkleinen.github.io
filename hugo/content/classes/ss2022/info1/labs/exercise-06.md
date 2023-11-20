@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 06: Lambda Functions'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise06
+source: https://github.com/htw-imi-info1/exercise06-archived
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true
