@@ -24,7 +24,7 @@ Lab assignments are due on thursday at 10pm.
 * * *
 
 # Assignment - Technical Support
-0. Open the book chapter 6.2 for a refresher - this exercise is based on it. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as is done in the book.
+0. Open the book chapter 6.2 for a refresher - this exercise is based on it. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07-archived). Expand it to give random responses as is done in the book.
 1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
 2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 3. Document your code with javadoc!

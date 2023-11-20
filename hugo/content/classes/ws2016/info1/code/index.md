@@ -31,7 +31,7 @@ individual commit, and you see something like [this](https://github.com/htw-imi-
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04-ws2016)
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05-with-kara)
 * Lab 06: [Club Membership](https://github.com/htw-imi-info1/exercise06-club-membership)
-* Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)
+* Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07-archived)
 
 
 

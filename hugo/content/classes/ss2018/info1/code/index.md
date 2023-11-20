@@ -37,7 +37,7 @@ old: * [Kara Scenario 1](https://github.com/htw-imi-info1/kara-scenario1)
 * Lab 04: [Clock Display](https://github.com/htw-imi-info1/exercise04)
 * Lab 05: [Notebook](https://github.com/htw-imi-info1/exercise05)
 * Lab 06: [Lambdas](https://github.com/htw-imi-info1/exercise06)
-* Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07)
+* Lab 07: [Lotto and Technical Support](https://github.com/htw-imi-info1/exercise07-archived)
 
 
 

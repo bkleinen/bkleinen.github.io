@@ -22,7 +22,7 @@ weight: 60
 As an introductionary exercise for Sequence Diagrams, pick one of the following example projects from Info1 and draw a sequence diagram for the main use case:
 
 * The [Clock Display](https://github.com/htw-imi-info1/chapter03/tree/master/clock-display-with-GUI) / Use case: timeTick() is called
-* [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is entered (start() methodin SupportSystem)
+* [Tech Support](https://github.com/htw-imi-info1/exercise07-archived/tree/master/tech-support) / Use case: user command is entered (start() methodin SupportSystem)
 * The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /  Use case: user enters command (method: play() in Game.java)
 
 If you didn't do Info1 with me / do not know these projects: it doesn't really matter - just read the source code. 

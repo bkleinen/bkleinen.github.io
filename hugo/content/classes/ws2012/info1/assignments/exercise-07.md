@@ -38,7 +38,7 @@ Lab assignments are due the night before your next class at 23.00. They may, of 
 1. Create a class that will be doing some testing of random numbers. Make a method that picks the six numbers for next Saturday between 1 and 49. Note that no two numbers may be the same! How do you avoid this? 2. Expand the method to count how often each number is picked. 3. Now pick the 6 lotto numbers 1000 times. Print out the frequencies. 4. Repeat for 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table.
 
 ###Technical Support
-1. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
+1. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07-archived). Expand it to give random responses as we did in class.
 2. Now use the method split from String and a HashMap to give appropriate answers. Make up lots of cool responses.
 3. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 4. Document your code with javadoc!

@@ -54,7 +54,7 @@ Lab assignments are due the day before your next lab at 10pm.
 3. Repeat 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and attach it to your report (the table doesn't count as pages for the report).
 
 ## Technical Support
-0. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07). Expand it to give random responses as we did in class.
+0. [Open the basic TechSupport project](https://github.com/htw-imi-info1/exercise07-archived). Expand it to give random responses as we did in class.
 1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
 2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
 3. Document your code with javadoc!

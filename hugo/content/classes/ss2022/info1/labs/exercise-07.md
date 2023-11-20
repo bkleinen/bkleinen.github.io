@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 07: Lotto and Technical Support'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise07
+source: https://github.com/htw-imi-info1/exercise07-archived
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true

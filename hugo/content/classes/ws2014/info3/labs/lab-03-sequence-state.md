@@ -21,7 +21,7 @@ Read it as a preparation for the lab.
 1. As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:
     * The [Clock Display](https://github.com/htw-imi-info1/chapter03/tree/master/clock-display-with-GUI) / Use case:         timeTick() is called
     * [Auction](https://github.com/htw-imi-info1/chapter04/tree/master/auction) / Use case: makeABid() is called
-    * [Tech Support](https://github.com/htw-imi-info1/exercise07/tree/master/tech-support) / Use case: user command is         entered (start() method in SupportSystem)
+    * [Tech Support](https://github.com/htw-imi-info1/exercise07-archived/tree/master/tech-support) / Use case: user command is         entered (start() method in SupportSystem)
     * The [Zuul Project](https://github.com/htw-imi-info1/exercise10) /         Use case: user enters command (method: play() in Game.java)
 
 2. Now take your scenarios from [the second exercise](../lab-02-usecases-class)  and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
