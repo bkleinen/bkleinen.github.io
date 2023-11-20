@@ -1,5 +1,5 @@
 ---
-title: 'Exercise 07: Lotto and Technical Support'
+title: 'Exercise 06: Lotto and Technical Support'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise06-technical-support
 draft: false
