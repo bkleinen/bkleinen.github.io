@@ -27,10 +27,10 @@ last update: 01.11.2023
 |      |    | Fri 10/11/2023 |                                                      |                                                                                                                   |   |   |
 | 6    | 46 | Tue 14/11/2023 | Chapter 04 - Grouping Objects                        |                                                                                                                   |   |   |
 |      |    | Fri 17/11/2023 | Chapter 07 - Fixed-Size Collections                  | {{% link title ="Exercise 05 - A Better Notebook" link = "../labs/exercise-05" %}}                                |   |   |
-| 7    | 47 | Tue 21/11/2023 | Chapter 05 - Functional Processing of Collections    |                                                                                                                   |   |   |
-|      |    | Fri 24/11/2023 |                                                      | {{% link title ="Exercise 06 - Lambdas and Streams" link = "../labs/exercise-06" %}}                              |   |   |
-| 8    | 48 | Tue 28/11/2023 | Chapter 06 - More-Sophisticated Behavior             |                                                                                                                   |   |   |
-|      |    | Fri 01/12/2023 |                                                      | {{% link title ="Exercise 07 - Lotto and Technical Support" link = "../labs/exercise-07" %}}                      |   |   |
+| 7    | 47 | Tue 21/11/2023 | Chapter 06 - More-Sophisticated Behavior             |                                                                                                                   |   |   |
+|      |    | Fri 24/11/2023 |                                                      | {{% link title ="Exercise 06 - Lotto and Technical Support" link = "../labs/exercise-06" %}}                              |   |   |
+| 8    | 48 | Tue 28/11/2023 | Chapter 05 - Functional Processing of Collections    |                                                                                                                   |   |   |
+|      |    | Fri 01/12/2023 |                                                      | {{% link title ="Exercise 07 - Lambdas and Streams" link = "../labs/exercise-07" %}}                      |   |   |
 | 9    | 49 | Tue 05/12/2023 | Chapter 09 - Well-Behaved Objects                    |                                                                                                                   |   |   |
 |      |    | Fri 08/12/2023 |                                                      | {{% link title ="Exercise 08 - Testing with JUnit" link = "../labs/exercise-09" %}}                               |   |   |
 | 10   | 50 | Tue 12/12/2023 | Chapter 08 - Designing Classes                       |                                                                                                                   |   |   |
