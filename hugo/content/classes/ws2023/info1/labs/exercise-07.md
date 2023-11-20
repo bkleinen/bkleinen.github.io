@@ -1,7 +1,7 @@
 ---
-title: 'Exercise 07: Lotto and Technical Support'
+title: 'Exercise 06: Lambda Functions'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise07-archived
+source: https://github.com/htw-imi-info1/exercise06-archived
 bk_ok_to_publish: true
 source_ok: true
 solution_pushed: true
@@ -9,56 +9,61 @@ draft: true
 ---
 
 <figure class = "figure">
-   <img class="figure-img img-fluid" src="../../images/lotto.jpg"  alt="Lotto">
-  <figcaption class="figure-caption text-right">German Lotto Slip, <a href="https://www.flickr.com/photos/rene-germany/98668296">Foto by ReneS</a></figcaption>
+   <img class="figure-img img-fluid" src="../../images/topis-9552387589_392a9b51c7_k.jpg"  alt="Topis">
+  <figcaption class="figure-caption text-right">Foto of Topis by <a href="https://www.flickr.com/photos/maxh42/9552387589/"> Max Handelsman</a></figcaption>
 </figure>
 
-This week's lab work is intended give you practice using the Random class.
+This week's lab work is intended help you better understand lambda functions.
 
-* * *
+## Pre-lab
 
-# Pre-Lab
+Please prepare these Exercises \*before\* coming to lab! Doing the pre-lab will save you time during the lab.
 
-Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
+**P0.** If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?
 
-**P1**. How do you generate random numbers between 1 and 10 with Java? In what package is the library?
+**P1.** Given the following code:
 
-**P2.** How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.
+  ```java
+public void printStudent (Student s)
+{
+     System.out.println (s.getDetails());
+}
+```
 
-**P3.** Where can you find information about the lotto numbers that have been picked in Germany on the Internet?
+What is the equivalent lambda in Java? What syntax variations are possible?
 
-**P4.** Where can you find information about javadoc on the Internet?
+**P2.** Given the animal-monitoring-v1 example, write pseudo-code for determining how many elephants a particular spotter saw on a particular day.
 
-**P5** Try out http://med-ai.com/models/eliza.html. Experiment a little. Can you trick the bot? How might this program work?
+**P3.** Given the animal-monitoring-v1 example, write pseudo-code to create a stream containing only those sightings that have a count greater than 0.
 
-* * *
 
-# Post-Lab, AKA  What To Turn In
+## What To Hand In
+Please hand in:
+* zip-folder with your AnimalMonitor code.
+* Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
-* pdf: the lab report, including a table with your frequencies for the Lotto numbers picked. For more Information on the report see [the Labs and Exercises page](../).
-* zip: the final version of your Lotto code, properly and thoroughly documented with javadoc.
+Lab assignments are due on the day before the next labs at 10pm.
 
-Lab assignments are due at 22:00 before your next lab.
 
-* * *
+## Assignment
 
-# Assignment
+0. Download the animal-monitoring-v1 {{< source  >}} project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P1, compile them and run them. Did they all work? Record the results for your lab report.
 
-Code for both Assignments: {{< source >}}
+1. Rewrite the `printSightingsOf` method in the AnimalMonitor class to use streams and lambdas. Test to make sure that your project still works as before.
 
-## Lotto
+2. Write a method `printSightingsInPeriod` in the `AnimalMonitor` class to print the details of all the sightings recorded within a certain period `periodID`, which is passed as a parameter to the method.
 
-1. Create a class that will be doing some testing of random numbers. Make a method that picks the six numbers for next Saturday between 1 and 49. Note that no two numbers may be the same! How do you avoid this?
-2. Expand the method to count how often each number is picked.
-3. Now pick the 6 lotto numbers 1000 times. Print out the frequencies.
-4. Repeat for 10,000 times. And 100,000 times. And 1,000,000 times. Put your results in a nice table and include it in your report.
+3. Write a method `printSightingsOfInPeriod` that uses two filter calls to print details of all the sightings of a particular animal made in a particular period — the method takes the `animal` name and the `periodID` as parameters. Does the order of the two filter calls matter in your solution? Justify your answer.
 
-## Technical Support
+4. Write a method `printCounts` to print the counts of all sightings of a particular animal. Your method should use the map operations as part of the pipeline. If a pipeline contains a filter operation and a map operation, does the order of the operations matter to the final result? Justify your answer.
 
-0. Open the book chapter 6.2 for a refresher - this exercise is based on it. Open the basic TechSupport project. Expand it to give random responses as is done in the book.
-1. Now use the method `split` from `String` and a `HashMap` to give appropriate answers for keywords found in the questions/input. Make up lots of cool responses.
-2. How can you deal with punctuation marks? What if there is more than one space between words? Can your tech support system deal with this?
-3. Document your code with javadoc!
+5. Rewrite the `printEndangered` method in your project to use streams and test that it works correctly. Detail how you tested this method in your report.
 
-4. (For the bored) There are often synonyms that should provoke the same response. Can you figure out how to store only one response even if there are a number of different words that trigger this response?
-5. (For the really bored) Make your answers multilingual. At first you can just set the language at any point, but then you want to read the locale form the local machine to determine how to answer.
+6. (For the bored) There is a special "::" notation in Java that can be used with lambdas. Research the syntax, and rewrite printSightingsBy to use this syntax. Does the operation of the method change?
+
+7. (For the bored) Add a method to AnimalMonitor that takes two parameters, a spotter-ID and a day-ID and returns a String containing the names of the animals seen by the spotter on that particular day. You should include only animals whose sighting count is greater than zero. Now add a method that takes an animal and a day-ID and returns the spotters who saw this animal, if any, on that particular day.
+
+
+<hr />
+Adapted from:
+[https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab5.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab5.shtml)
