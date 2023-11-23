@@ -33,9 +33,9 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("03.10.2023"),
+  first_day: Date.parse("03.04.2024"),
   day_diff: 3,
-  two_lectures: true,
+  two_lectures: false,
   step: 7
 )
 # 1. Prüfungszeitraum 17.07.2023 – 05.08.2023
@@ -45,19 +45,15 @@ semester_dates = SemesterDates.new(
 semester_start: Date.parse("01.10.2023"),
 semester_end: Date.parse("03.02.2024"),
 holidays: {
-  "02.10.2023" => "Vorlesungsfrei",
-  "03.10.2023" => "Feiertag",
-  "04.10.2023" => "Hochschultag, Vorlesungsfrei",
-  "23.12.2023" => "Winterpause",
-  "24.12.2023" => "Winterpause",
-  "25.12.2023" => "Winterpause",
-  "26.12.2023" => "Winterpause",
-  "27.12.2023" => "Winterpause",
-  "28.12.2023" => "Winterpause",
-  "29.12.2023" => "Winterpause",
-  "30.12.2023" => "Winterpause",
-  "31.12.2023" => "Winterpause",
-  "01.01.2024" => "Neujahr",
+
+  "01.05.2024" => "Feiertag",
+  "09.05.2024" => "Feiertag",
+  "10.05.2024" => "Vorlesungsfrei",
+  "11.05.2024" => "Vorlesungsfrei",
+  "20.05.2024" => "Feiertag",
+
+
+  # "01.01.2024" => "Neujahr",
 
  #  "07.04.2023" => "Ostern",
  #  "10.04.2023" => "Ostern",
