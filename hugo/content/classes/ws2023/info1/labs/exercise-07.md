@@ -1,19 +1,20 @@
 ---
-title: 'Exercise 06: Lambda Functions'
+title: 'Exercise 07: Lambda Functions'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise06-archived
-bk_ok_to_publish: true
-source_ok: true
-solution_pushed: true
-draft: true
+source: https://github.com/htw-imi-info1/exercise07-lambda-expressions
+draft: false
 ---
 
-<figure class = "figure">
-   <img class="figure-img img-fluid" src="../../images/topis-9552387589_392a9b51c7_k.jpg"  alt="Topis">
-  <figcaption class="figure-caption text-right">Foto of Topis by <a href="https://www.flickr.com/photos/maxh42/9552387589/"> Max Handelsman</a></figcaption>
-</figure>
+![Kakapo and Aye-Aye](./kakapo-aye-aye.jpg)
 
-This week's lab work is intended help you better understand lambda functions.
+Sources:
+https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis).jpg
+https://en.m.wikipedia.org/wiki/File:Kakapo_Sirocco_1.jpg
+
+
+This week's lab work is intended help you better understand lambda functions, and Kara has a comeback to practice iterating through Lists.
+
+Source code for this exercise: {{< source >}}
 
 ## Pre-lab
 
@@ -47,6 +48,8 @@ Lab assignments are due on the day before the next labs at 10pm.
 
 ## Assignment
 
+### Part 1: Lambdas
+
 0. Download the animal-monitoring-v1 {{< source  >}} project and check that it runs. Now rewrite the `printList` method in the AnimalMonitor class to use a lambda, just as we did in the lecture. Now apply each of the variations that you recorded in P1, compile them and run them. Did they all work? Record the results for your lab report.
 
 1. Rewrite the `printSightingsOf` method in the AnimalMonitor class to use streams and lambdas. Test to make sure that your project still works as before.
@@ -63,7 +66,33 @@ Lab assignments are due on the day before the next labs at 10pm.
 
 7. (For the bored) Add a method to AnimalMonitor that takes two parameters, a spotter-ID and a day-ID and returns a String containing the names of the animals seen by the spotter on that particular day. You should include only animals whose sighting count is greater than zero. Now add a method that takes an animal and a day-ID and returns the spotters who saw this animal, if any, on that particular day.
 
+### Part 2: Kara Mirror
+
+Open the `kara-mirror` project. Kara should mirror all the leaves on the left hand of the world, like this:
+
+![Kara Screenshot ](./kara-mirror.jpg)
+
+This could be solved by copying each single leaf, but a `List<Boolean>`  makes it much easier - or at least more elegant.
+The `List<Boolean>` should store for each field in the row if it contains a leaf in a boolean variable.
+Use this as a starting point:
+
+```java
+    public void act() 
+    {
+        move();
+        mirrorRow();
+        if (treeFront())
+            Greenfoot.stop();
+    }  
+
+    public void mirrorRow(){
+        turnLeft();
+        List<Boolean> row = scanRow();
+        layRow(row);
+        turnRight();
+    }
+```
 
 <hr />
-Adapted from:
+Adapted and Extended from:
 [https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab5.shtml](https://people.f4.htw-berlin.de/~weberwu/info1/site/Labs/Lab5.shtml)
