@@ -34,26 +34,9 @@ This lab concerns chapter 9 in the book; in the 6th edition the example had been
 
 ## Documenting Bugs in Test Cases
 
-If you find bugs in the project, you will most probably have a failing (red) test case. Depending on the Test Framework, there are various methods to deactivate or skip certain tests. As JUnit doesn't offer a method without
-installing an extension, use this simple method as we did in class to replace the assertion:
+If you find bugs in the project, you will most probably have a failing (red) test case. Depending on the Test Framework, there are various methods to deactivate or skip certain tests. As JUnit requires extensions to exclude test cases, I've provided a simple helper with special assertions
 
-```java
-public static final boolean FAIL_BUGS = true;
-
-public void assertEqualsBug(Object expected, Object actual){
-        if (!FAIL_BUGS)
-            return;
-        StackTraceElement caller = Thread.currentThread().getStackTrace()[2];
-        String context = caller.toString();
-        assertEquals(expected,actual,"found BUG in "+caller+":");
-    }
-
-    @Test
-    public void testShowingBug()
-    {
-        assertEqualsBug(false, true);
-    }
-```
+See class `BugTestDemo` for examples how to use it!
 
 ## Instructions
 1. Install the [diary project in the lab](https://github.com/htw-imi-info1/chapter09_testing/tree/master/diary-prototype) - switch to the branch of the current term first to see the changes we did in class. Create a test method in DayTest to check that `findSpace` returns the value of 10 for a one-hour appointment, if a day already has a single one-hour appointment at 9 a.m. In essence, you need to perform similar steps to those used to create `testFindSpace9`  in the lecture, use `makeAppointment` for the test fixture and `findSpace` for the second appointment. If you want to add an assertion for the result of the makeAppointment call, you should do so in a separate test method as test method one should only have one assertion.
