@@ -1,47 +1,75 @@
 ---
-title: 'Exercise 08: Bouncing Balls'
+title: 'Exercise 08: Testing with JUnit'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise08
-bk_ok_to_publish: false
-source_ok: false
-solution_pushed: false
-draft: true
+source: https://github.com/htw-imi-info1/chapter09_testing
+draft: false
 ---
-<!--<span class = "attention">Not yet reviewed and published for SoSe 2021 Term!</span>-->
-This week's lab work is intended give you practice working with the basic concepts of programming.
 
-## Pre Lab
+This week's lab work is intended give you practice developing test cases and testing and writing Unit Tests.
+
+Source code for this lab: {{< source >}} - diary-prototype
+
+#### Pre Lab
 
 Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
 
-**P0**. Download and open the [Balls project](https://github.com/htw-imi-info1/exercise08) (concerns Chapter 06 in the book). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.
+**P1**. Write down six test cases for Day and Appointment that. Give each test case (and, if applicable the ones from the lecture) a name.
 
-**P1.** Read the documentation of the Canvas class. Then answer the following questions in writing, including fragments of Java code:
+**P2**. What assertions do you need in order to be able to automate the tests?
 
-  1. How do you create a Canvas?
-  2. How do you make it visible?
-  3. How do you draw a line?
-  4. How can you erase something?
-  5. What is the difference between draw and fill?
-  6. What does wait do?
+# Post-Lab, AKA  What To Turn In
 
-# What To Hand In
-Please hand in:
-* zip-folder with your code.
-* Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
+* A report of your completed prelab and assignment as well as your reflection, submitted in Moodle as a pdf. For more Information on the report see [the Labs and Exercises page](../).
+  * For the tests you need to record what worked, what didn't, and perhaps make an occasional screenshot.
+* Your BlueJ project as a zip file.
 
 
-* * *
+# Assignment
 
-# Assignment - Bouncing Balls
+## Diary
 
-0. Install the Bouncing Balls project in the lab. Experiment with canvas operations by making changes to the drawDemo method BallDemo. Draw some more lines, shapes and text. What did you find out and how? Document your experiments in your lab report.
+A diary is a system for keeping track of appointments on specific days and specific hours. We are going to work with a diary that only can take one appointment per hour, starting at 9 a.m. with the last appointment going from 5 p.m. to 6 p.m. You will be given an implementation that could contain errors. Your job is to find the errors. You are only to develop tests and to find and describe errors, not to fix them.
 
-1. Draw a frame around the canvas by drawing a rectangle 20 pixels inside the window borders. Put this functionality into a method called drawFrame in the BallDemo class.
-2. Improve your `drawFrame` method to adapt automatically to the current canvas's size -that is, do not hard-code the size of the canvas into this method. To do this, you need to find out how to make use of an object of class Dimension. (Hint: check the Java documentation). Test it by manually resizing the canvas and calling drawFrame again. (Note: you don't need drawFrame to be called automatically when the canvas is resized. Also: The frame does not to resize automatically when resizing the frame! This is an optional exercise - see below.)
+This lab concerns chapter 9 in the book; in the 6th edition the example had been changed to a similar example.
 
-3. Change the method bounce to let the user choose how many balls should be bouncing. The balls should initially be placed in a row along the top of the canvas. Use a collection to store the balls so that you can deal with one, three, or 75 balls at once.  But what kind of a collection? We know about lists, maps, sets and arrays. Explain in your report why you chose the collection you did.
-4. Change the method bounce to place the balls randomly anywhere in the top half of the screen.
+## Documenting Bugs in Test Cases
 
-5. (For the bored) Write a new method named boxBounce. This method draws a rectangle (the 'box') on the canvas, and one or more balls inside the box. For the balls, do not use BouncingBall, but create a new class BoxBall that moves around inside the box, bouncing off the walls of the box so that it always stays inside. The initial position and speed of the ball should be random. The boxBounce method should have a parameter that specifies how many balls are in the box.
-6. (For the really bored) Give the balls in boxBounce random colors. Include a method to change the size. Make balls that get larger and smaller. Make exploding balls that produce new ones when they disappear. Or whatever catches your fancy.
+If you find bugs in the project, you will most probably have a failing (red) test case. Depending on the Test Framework, there are various methods to deactivate or skip certain tests. As JUnit doesn't offer a method without
+installing an extension, use this simple method as we did in class to replace the assertion:
+
+```java
+public static final boolean FAIL_BUGS = true;
+
+public void assertEqualsBug(Object expected, Object actual){
+        if (!FAIL_BUGS)
+            return;
+        StackTraceElement caller = Thread.currentThread().getStackTrace()[2];
+        String context = caller.toString();
+        assertEquals(expected,actual,"found BUG in "+caller+":");
+    }
+
+    @Test
+    public void testShowingBug()
+    {
+        assertEqualsBug(false, true);
+    }
+```
+
+## Instructions
+1. Install the [diary project in the lab](https://github.com/htw-imi-info1/chapter09_testing/tree/master/diary-prototype) - switch to the branch of the current term first to see the changes we did in class. Create a test method in DayTest to check that `findSpace` returns the value of 10 for a one-hour appointment, if a day already has a single one-hour appointment at 9 a.m. In essence, you need to perform similar steps to those used to create `testFindSpace9`  in the lecture, use `makeAppointment` for the test fixture and `findSpace` for the second appointment. If you want to add an assertion for the result of the makeAppointment call, you should do so in a separate test method as test method one should only have one assertion.
+
+2. Create a test to check that findSpace returns a value of -1, if an attempt is made to find an appointment in a day that is already full.
+
+3. Create a test class that has Appointment as its reference class. Record, using the record button control, separate test methods within it, that check that the description and duration fields of an Appointment object are initialized correctly following its creation.
+
+4. Create a negative test in the DayTest class. For example, try and set up a one-hour appointment, and then put in a two-hour appointment at the same time. What happens when you run the test? Include a screenshot in your report.
+
+5. Set up a fixture for an additional test case from your pre-lab. What did you have to do?
+
+6. Add further automated tests (positive and negative) to theDayTest class, until you are reasonably confident of the correct operation of the classes. If you discover any errors, be sure to record tests that guard against recurrence of these errors in later versions.
+
+7. (For the bored) Correct any errors that you find and run a regression test. Document what you have to change and how you ran the regression test!
+
+8. (For the bored) Expand the diary to accept appointments on the half-hour. Test.
+
+9. (For the exceedingly bored) Expand the diary to permit overlap of appointments. Test.
