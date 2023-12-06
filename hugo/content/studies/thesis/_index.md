@@ -1,110 +1,61 @@
 ---
-title: Barne Kleinen | Information zu Abschlussarbeiten
+title: Information zu Abschlussarbeiten
 author: kleinen
 layout: default
 NoStripedTables: true
+toc: true
 ---
 
-# Topic Ideas for Theses
 
-| My main areas of interest are      |     |     | Weitere Informationen zu Abschlussarbeiten   |     |
-|:---------------------------------- |:--- |:--- |:--- |:--- |
-| * Web Technology                   |  &nbsp;&nbsp;&nbsp;&nbsp;   | &nbsp;&nbsp;&nbsp;&nbsp;    |     |     |
-| * Software Engineering             |     |     |* [Zur Betreuung von Abschlußarbeiten](./betreuung)     |     |
-| * Usability / User Centered Design |     |     |* [How to Abschlussarbeit](./anleitung)     |     |
-| * Continuous Delivery and DevOps   |     |     |* [Hinweise zum Kolloqium](./kolloquium)     |     |
-| * Agile Development                |     |     |* [Info auf FB4 Seite](https://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)     |     |
-| * Collaborative Learning           |     |     |* [Info auf HTW Seite](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/)     |     |
-|                                    |  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;    |     |     |     |
+| My main areas of interest are      |                                                                                                     |                          | Weitere Informationen zu Abschlussarbeiten                                                                          |
+|:-----------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| * Web Technology                   | &nbsp;&nbsp;&nbsp;&nbsp;                                                                            | &nbsp;&nbsp;&nbsp;&nbsp; | * [Zur Betreuung von Abschlußarbeiten](./betreuung)                                                                 |
+| * Software Engineering             |                                                                                                     |                          | * [How to Abschlussarbeit](./anleitung)                                                                             |
+| * Usability / User Centered Design |                                                                                                     |                          | * [Hinweise zum Kolloqium](./kolloquium)                                                                            |
+| * Web Accessability                |                                                                                                     |                          | * [Info auf FB4 Seite](https://www.f4.htw-berlin.de/studieren/abschlussarbeit-kolloquium/)                          |
+| * Continuous Delivery and DevOps   |                                                                                                     |                          | * [Info auf HTW Seite](https://www.htw-berlin.de/studium/studienorganisation/pruefungen-praktikum/abschlussarbeit/) |
+| * Agile Development                |                                                                                                     |                          |                                                                                                                     |
+| * Collaborative Learning           |                                                                                                     |                          |                                                                                                                     |
+|                                    | &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; |                          |                                                                                                                     |
 
-# Topic Ideas and Suggestions
+## Finding a Topic
 
-## Context: Existing Software Projects
+My main interest is supervising theses that are tackling a real-world question you encountered e.g. during your internship
+or at your workplace. These theses are typically supervised by someone from that company as the second supervisor.
 
-I've collected a range of projects that tackle processes and functionality needed
-at the HTW - with the aim of developing against a real use case which is
-accessible for students.
+Topics may be:
+- accessing and improving some part of a software development or delivery process
+- exploring new technology or a new combination of technology to achieve a certain goal (of interest within that company)
+- working on accessability or usability issues in the context of the company and their software
 
-The first version of the **IMI-Map** supports the Administration of Internships in
-our Bachelor's Program since the Summer Term of 2013 and has been developed
-and extended in various bachelor's theses and three practice projects.
-
-The **Module-Handbook** was the basis of a the collaborative editorial process between
-several universities to create the initial curricula for the 12 study programs
-for the newly founded  German International University of Cairo. It is currently
-both beeing ported into the IT of the GIU in Cairo in order to be the basis for
-further content maintenance as well as the data source for information on the website.
-It was supplemented with the **Study Plan** to plan a individual's student studies
-and manage registration for elective courses.
-
-See my
-[List of Software-Projects]({{< ref "/software_projects" >}}) for all projects and more info.
-
-Ideas to extend the projects in any way are always welcome.
-
-The extensions of the existing projects- as well as maybe new projects -
-can have a focus either on functional extensions and technology, on usability,
-(either user centered design or usability evaluations and improvement) or on
-process design and support.
+Theses topics should be clearly differentiated from typical development tasks within the company. They should explore a new
+topic or try to answer a previously unanswered question within the context of work.
 
 
-## Module Handbook
+---
 
-### Student Record
+If you want to write your thesis supervised by me, please register for my office hours: {{< officehours >}}
 
-Reusable and uniform course descriptions - as provided by the Module Handbook -
-can be the basis of a comprehensive student record: a nicely formatted list of
-all  classes taken including module and content descriptions, which can be included
-by students in their CVs, e.g. for job or grant applications.
-This should be combined with the "Study Plan", a Mevn-Based Application that
-allows for planning. Possible focus could be on technical solutions for verifying
-the reports, and integration of semester content and versioning thereof.
 
-### Markdown Editor and Wysiwig Editing
+## Some Topic Ideas
 
-While content in the module handbook can be provided using markdown, no support
-for markdown editing exists. How can (some kind of) wysiwig editor be included
-in the module handbook? What needs to be done to generalize this approach?
-How can editing of module descriptions be made more intuitive?
-(here's a page where I tinkered a bit which might be a possible starting point:
-[Markdown Editor](/markdown-editor/markdown-editor.html))
+These are rough ideas, which can be developed to a concrete thesis topic together.
 
-[Markdown Editor](/markdown-editor/markdown-editor.html))
-
-### Module Handbook Interface Overhaul
-
-A great part of the current Interface still consists of views generated by the
-rails scaffolding, including a direct access to the link table (CourseProgram).
-While this simple draft turned out to be quites useful, this can be done better.
-This Thesis can be done with a user centered design approach, detailing and
-differentiating various use cases and their requirements, or a have a focus
-on a systematic usability evaluation.
-
-### Module Handbook: Growing Faculties
-
-Since it's initial start in 2020 the GIU has grown, and the Module-Handbook needs
-to grow accordingly: Editorial Processes become more complex, and a layer of
-faculties needs to be built in.
-
-## IMI-Map Migration and Data Mining
-
-The IMI-Map has been ported to MEVN. The next step is to put the MEVN Version
-into Production, without
-
-## Word Wide Web
-
-### Homepage for All
+### Word Wide Web: Homepage for All
 
 30 years after the invention of the WWW publishing own content
-on web has actually become somewhat difficult: expectations of a high visual
-standard, legal reasons and pricing legal reasons, partly to pricing.
-While publishing a web site for free can be easy and fast (e.g. with github
-pages, Hugo and a free hosting service), these solutions are not really accessible
-without some coding background.
+on web has become rather difficult: expectations of a high visual
+standard and legal reasons mean that a lot more knowledge than a bit HTML
+is required to create a website. Finding a hosting solution that allows
+for easy content changes is also challenging, and/or costly.
+
+On the other hand, publishing a web site for free can be easy and fast (e.g. with github
+pages, Hugo and a free hosting service), but solutions like this are not accessible
+without some computer science / coding background.
 
 Content Management Systems like Wordpress are often the go-to solution, but are
 overly complex for most use cases. Commercial solutions exists, but will often
-lock in your content in a proprietary system.
+lock in your content into a proprietary system or vendor.
 
 How can this gap be closed?
 How can web publishing be made accessible again?
@@ -114,51 +65,19 @@ similar solutions are out there, like [HokusCMS](https://www.hokuscms.com/)
 but without local installation.
 (Here's a [list of Hugo frontends](https://gohugo.io/tools/frontends/))
 
-----------
+The goal of this thesis would be to access this topic further, and develop a possible solution, 
+and implement and test a proof of concept.
 
 
-# Former Topics
+### Sustainable Web Usage: Portable Bookmarks
 
-## Module Handbook
+How do you find a website again you remember having seen a while ago, or access web sites that you regularly visit?
+In many cases - even for url autocompletion - web searches are part of this process, as it is usually easier to "google"
+something again compared to remembering or even finding the url again. But: web searches consume way more energy compared
+to directly accessing a web site.
 
-- curricula and module descriptions underlie a complex versioning: part of the
-  module description as the actual contents change each term and depending on the
-  teacher, some information may only change with the official regulations.
-  If you need to prove what you've already done in your studies - e.g. in order
-  to get courses approved at another university - an exact record of your studies
-  would be helpful:
+All browsers allow the creating of a bookmark list. Who uses them for what? Are they usable - and portable - enough to
+be a replacement for just googling again? How can they be made more usable, portable and maybe even better than just
+searching and finding everything again?
 
-      - How can the different regulations be modelled?
-      - How can a versioning be implemented in the most simple and efficient way?
-
-## IMI-Map
-
-  Currently, the IMI-Map is migrated to MEVN. There most probably will be topics
-  open which can be addressed within a Bachelor's or Master's thesis.
-
-
-## Online Group Building
-
-  The [Missing Tool/Onboard](https://showtime.f4.htw-berlin.de/ss20/bachelor/b5-the-missing-tool-projekt/) offers the opportunity to create topics- based groups based
-  on brain-storming with post-its.
-  How usable is this approach? How can it be integrated with other collaboration/communication tools?
-
-## Web Applications
-
-- Git as Versioning Backend: How can the power of Git be used as backend - e.g. for
-  Versioning - within another app?
-
-- Operations and Monitoring concept for the [Software Projects](/software_projects) and similar
-
-
-## Gender Automation
-
-  - Der Artikel [Belohnungen und Lob: Das vergiftete Zuckerbrot](https://www.unerzogen-magazin.de/artikel/?articleID=842)
-    enthält einen Switch (das runde "G" rechts) mit dem die Art des Entgendern des
-    Textes frei gewählt werden kann. Die Idee stammt von [Sören Kirchner, der diese
-    und das zugehörige Script hier vorstellt](https://soeren-kirchner.medium.com/ent-gendern-von-online-publikationen-ec7c40f9e490). [https://github.com/soeren-kirchner/gendy](https://github.com/soeren-kirchner/gendy)
-    In Kooperation mit ihm könnten folgende Fragen bearbeitet werden:
-    - wie kann ein Editor für diese Seiten aussehen, der mit speziellen oder möglichst
-      vielen Veröffentlichungsmöglichkeiten zusammenarbeitet?
-    - wie könnte ein Dictionary für das Entgendern aufgebaut werden?
-    - und [Sarah Bosetti: Lasst uns nie wieder übers Gendern reden!](https://www.youtube.com/watch?v=_hqfMZnuUCI)
+There is a range of possible theses topics in these questions, which we can find and define together based on your interests.
