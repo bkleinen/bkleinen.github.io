@@ -32,7 +32,7 @@ last update: 01.11.2023
 | 8    | 48 | Tue 28/11/2023 | Chapter 05 - Functional Processing of Collections    |                                                                                                                   |   |   |
 |      |    | Fri 01/12/2023 |                                                      | {{% link title ="Exercise 07 - Lambdas and Streams" link = "../labs/exercise-07" %}}                      |   |   |
 | 9    | 49 | Tue 05/12/2023 | Chapter 09 - Well-Behaved Objects                    |                                                                                                                   |   |   |
-|      |    | Fri 08/12/2023 |                                                      | {{% link title ="Exercise 08 - Testing with JUnit" link = "../labs/exercise-09" %}}                               |   |   |
+|      |    | Fri 08/12/2023 |                                                      | {{% link title ="Exercise 08 - Testing with JUnit" link = "../labs/exercise-08" %}}                               |   |   |
 | 10   | 50 | Tue 12/12/2023 | Chapter 08 - Designing Classes                       |                                                                                                                   |   |   |
 |      |    | Fri 15/12/2023 |                                                      | {{% link title ="Exercise 09: The World of You" link = "../labs/exercise-10" %}}                                  |   |   |
 | 11   | 51 | Tue 19/12/2023 | Chapter 10 - Improving Structure with Inheritance    |                                                                                                                   |   |   |
