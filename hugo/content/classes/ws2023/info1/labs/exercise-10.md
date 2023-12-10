@@ -5,6 +5,35 @@ source: https://github.com/htw-imi-info1/exercise09
 draft: true
 ---
 
+```mermaid
+classDiagram
+    Command <|-- Go
+    Command <|-- Quit
+    Command <|-- Help
+    Command <|-- Look
+    Command <|-- Eat
+   
+    class Command{
+      processCommand(Player player)
+    }
+    class Go{
+      processCommand(Player player)
+    }
+    class Quit{
+      processCommand(Player player)
+    }
+    class Help{
+      processCommand(Player player)
+    }
+    class Look{
+      processCommand(Player player)
+    }
+    class Eat{
+      processCommand(Player player)
+    }
+```
+
+
 This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
 
 The Game class has become longer and longer every time you added a new command! Also, if you add a new CommandWord you need to add the new CommandWord in several places. As we expect even more Commands to be implemented, the Project should be refactored to ease the addition of new Commands. 
@@ -99,9 +128,28 @@ Change the remaining occurrences of currentRoom in Game to a new field `Player p
 
 Now, everything should work again - be sure to run the automated test!
 
-### Refactoring Part 2: Refactor Command to Command Hierarchy
+### Refactoring Part 2: Refactor Command
 
 Although the code is better than before, we actually just moved the growth of the Game class and the switch statement to the Command class if we continue to add more Commands. 
 
 Now we are finally tackling the large and larger-to-be switch statement.
 
+We will now introduce a special subclass of Command for each Command.
+
+#### 1. Split Command into Inheritance Hierarchy
+
+As the actual Commands will be Subclasses of Command, Command should be abstract.
+1. Add Temporary Subclass 
+
+```java
+public class TempCommand extends Command
+{
+    public TempCommand(CommandWord firstWord, String secondWord){
+        super(firstWord, secondWord);
+    }
+    ```
+
+
+1. Make Command abstract
+
+public abstract String processCommand(Player player);
