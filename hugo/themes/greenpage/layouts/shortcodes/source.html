@@ -1,1 +1,13 @@
-{{- with .Page.Params.source }}<a href="{{.}}">{{.}}</a>{{ end -}}
+
+{{- $path := .Get "path" -}}
+{{- $lab_repo := .Page.Params.source -}}
+{{- with $lab_repo }}
+   {{ $completeLink := $lab_repo }}
+   {{ $show := $lab_repo }}
+   {{ with $path }}
+        {{- $completeLink = printf "%s/tree/main/%s" $completeLink $path -}}
+        {{- $show = $path -}}
+    {{ end }}
+  
+    <a href="{{$completeLink}}">{{$show}}</a>
+{{ end -}}
