@@ -48,7 +48,10 @@ Lab assignments are due the day before your next lab at 10pm. That will be after
 2.  Add a `look` command to your game. It should show the room description
 again.
 3.  Add an additional command such as `eat`, which for now just prints out "You have eaten now and are not hungry any more". In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
-4.  Implement an improved version of printing out the command words.
+4.  Implement an improved version of printing out the command words. This should be a static method in CommandWord:
+```java
+public static String getCommandWords(){...}
+```
 5.  Add another command -- did you have to change the Game class? Why or Why not?
 
 6. (For the bored) Prepare a multi-lingual version and use enums. You find an Enum version of `CommandWords.java` in the subfolder {{< source path = "additions_01_CommandWords_Enum" >}}.

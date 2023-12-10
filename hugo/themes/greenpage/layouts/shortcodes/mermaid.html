@@ -1,0 +1,7 @@
+
+{{ $mm := .Inner | replaceRE  `<` "&lt;" | replaceRE `>` "&gt;" | safeHTML}}
+<!--<pre>   {{ $mm }}
+</pre>-->
+<div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
+    {{ $mm }}
+</div>

@@ -3,19 +3,23 @@ title: 'Exercise 10: Use Inheritance for Commands'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise09
 draft: true
----
+--- 
 
-```mermaid
+This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
+
+{{<mermaid>}} 
 classDiagram
+
     Command <|-- Go
     Command <|-- Quit
     Command <|-- Help
     Command <|-- Look
     Command <|-- Eat
-   
+    <<abstract>> Command
     class Command{
-      processCommand(Player player)
+      processCommand(Player player)*
     }
+    
     class Go{
       processCommand(Player player)
     }
@@ -31,15 +35,19 @@ classDiagram
     class Eat{
       processCommand(Player player)
     }
-```
+{{</ mermaid>}}
+
+The Class Hierarchy for Commands we will build.
 
 
-This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
 
 The Game class has become longer and longer every time you added a new command! Also, if you add a new CommandWord you need to add the new CommandWord in several places. As we expect even more Commands to be implemented, the Project should be refactored to ease the addition of new Commands. 
 
 First, we will move all Command stuff to Command and CommandWord.
 Then, we will introduce an inheritance hierarchy for the Command implementation.
+
+This will be quite a lot of refactoring. You can decide if you want to do everything yourself, or copy the classes from the addition_01 - addition_03 subfolders in the repo: {{<source >}} 
+
 # Pre-lab
 
 Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
@@ -60,30 +68,38 @@ Please hand in:
 
 * * *
 
-# Assignment
+# Assignment:  Refactoring
 
 
-
-## 1. Preparation
+### General Preparation
 1. Make sure that you have test cases for your new commands from the last lab (eat, look, etc) before you start the refactoring.
 They should be green, of course, before you start to change anything!
 
 2. It is a good idea to save intermediate stages. You can simply copy the whole your_zuul folder for every step to save the last working solution. (eg your_zuul_01, your_zuul_02 etc). 
 
-## 2. Refactoring
+### Code Preparation
 
+The following steps make the refactoring easier. (You can skip them for now, but will encounter that you need them during the following steps.)
 
-### Refactoring: Preparation
-1. If you haven't already done so in the last lab, copy the CommandWords Enum to your project. You find it in the subfolder {{< source path = "additions_01_CommandWords_Enum" >}}.
-
+1. If you haven't already done so in the last lab, copy the CommandWords Enum to your project. 
 
 2. Change the type of the `commandWord` field in `Command` from String to CommandWord and fix the resulting Compile errors. 
 Hint: you will need a static method in CommandWord that maps a String to a command Word. As it is the reverse of toString you can name it `fromString`. Check that your tests are still running.
 
 3. As some commands change the game status, introduce a Player class that holds the currentRoom of the player.
 
-It is sufficient to do only the steps that are necessary to make the code compile and the tests green again. E.g. the switch statement may still contain the literal strings. (case "help": etc).
-While this should be changed to complete this refactoring, you do not need to do so as the switch becomes obsolete in the last part, anyway!
+You can copy most of this preparation from the subfolder {{< source path = "additions_02_player_parser" >}}.
+
+You can fix the resulting error in `Game` like this:
+
+```diff
+-        String commandWord = command.getCommandWord();
++        String commandWord = command.getCommandWord().toString();
+```
+
+Do no more than is necessary to make the code compile and the tests green again. E.g. the switch statement may still contain the literal strings. (case "help": etc).
+While this should be changed to complete this refactoring, you do not need to do so as the switch becomes obsolete in the next parts, anyway!
+
 
 ### Refactoring Part 1: Move the Command Implementations from Game to Command
 
@@ -94,7 +110,7 @@ This will not compile. Have a look at all the resulting compile errors. They hav
 1. `currentRoom` is not available in `Command`
 2. `command` is now `this`
     
-To fix this, pass the Player object to processCommand and all command implementation methods (goRoom, printHelp, quit, etc) and remove the command parameter. The command parameter is no longer needed, as we are within the Command class. Thus, processCommand should start like this:
+To fix this, add a Player parameter to processCommand and the command implementation methods (goRoom, printHelp, quit, etc) that need the currentRoom and remove the command parameter. The command parameter is no longer needed, as we are within the Command class. Thus, processCommand in Command should start like this:
 
 ```java
 public String processCommand(Player player) 
@@ -113,7 +129,9 @@ and all command implementations:
     }
 ```
 
-Most command implementations do not need the Player parameter. Add it anyway to have the same interface.
+Most command implementations do not need the Player parameter. You can add it anyway because they will need have the same interface later.
+
+Make sure that Command compiles.
 
 #### Change currentRoom to player in Game
 
@@ -123,33 +141,67 @@ from Game. It should look like this:
 ```java 
 String output = command.processCommand(player);
 ```
+For this, Game needs a field `Player player` that replaces `currentRoom`.
+Change the remaining occurrences of currentRoom in Game to use the new field.
 
-Change the remaining occurrences of currentRoom in Game to a new field `Player player`.
+Now, everything should work again - be sure to run the automated tests!
 
-Now, everything should work again - be sure to run the automated test!
+### Refactoring Part 2: Introduce Command Inheritance Hierarchy
 
-### Refactoring Part 2: Refactor Command
+Although the code is already better than before, we actually just moved the growth of the Game class and the switch statement to the Command class.
+Now this class will become more and more complex if we continue to add more Commands, as well as the switch statement in processCommand.
 
-Although the code is better than before, we actually just moved the growth of the Game class and the switch statement to the Command class if we continue to add more Commands. 
+The switch statements distinguishes the different types of command. We will change that to split up the implementation into a separate Command subclass for each command.
 
-Now we are finally tackling the large and larger-to-be switch statement.
+#### 2.a Add Temporary Subclass 
 
-We will now introduce a special subclass of Command for each Command.
+To start and ease the refactoring process, we start by creating a temporary subclass that holds all the commands we have not migrated yet.
+move everything you moved from Game to this new Class, starting with processCommand, including all methods called by processCommand, which happen to be the command implementations.
 
-#### 1. Split Command into Inheritance Hierarchy
-
-As the actual Commands will be Subclasses of Command, Command should be abstract.
-1. Add Temporary Subclass 
 
 ```java
-public class TempCommand extends Command
+public class AllCommands extends Command
 {
-    public TempCommand(CommandWord firstWord, String secondWord){
+    public AllCommands(CommandWord firstWord, String secondWord){
         super(firstWord, secondWord);
     }
-    ```
+```
 
 
-1. Make Command abstract
+#### 2.b Make Command abstract
 
-public abstract String processCommand(Player player);
+As the actual Commands will be Subclasses of Command, Command itself should be abstract.
+To do so, add the abstract keyword to the class definition and add an abstract method processCommand:
+
+```java
+public abstract class Command
+{
+    // ...
+    public abstract String processCommand(Player player);
+}
+```
+
+#### 2.c move Command instantiation to CommandWord
+This results in a compile error in Parser, like this:
+
+![](./command-creation.jpg)
+
+This can no longer work, as now the correct subclass of command needs to be chosen depending on the firstWord/word1.
+Also, this should be done in CommandWord, as
+CommandWord is the class that holds the responsibility of knowing the correct command words for the commands and vice versa. Thus, the selection and creation of the correct command subclass should be delegated to CommandWord like this:
+
+```java
+return CommandWord.buildCommand(word1, word2)
+```
+
+Again, you can use prepared classes. Make sure to at least copy the new version of `CommandWord` with the buildCommand implementation. The bored can check out how this works, but you don't need to.
+See {{< source path = "additions_03_Command_Hierarchy" >}}.
+
+#### 2.d move Command implementations to Command subclasses
+
+Now, move the Command implementations command by command to the Command Subclasses:
+
+```diff
+- commandFactories.put(GO, (w1,w2)-> new AllCommands(w1,w2));
++ commandFactories.put(GO, (w1,w2)-> new Go(w1,w2));
+```

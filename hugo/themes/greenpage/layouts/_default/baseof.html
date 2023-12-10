@@ -54,10 +54,10 @@
           {{- block "main" . }}{{ .Content }}{{- end }}
 
 
-      {{ if .Page.Store.Get "hasMermaid" }}
-          <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      {{ if or true .Page.Store.Get "hasMermaid" }}
+          <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
           <script>
-            mermaid.initialize({ startOnLoad: true });
+            mermaid.initialize({ startOnLoad: true ,securityLevel: 'loose'});
           </script>
       {{ end }}
 
