@@ -10,7 +10,7 @@ draft: false
 Don't worry about noting down any code changes I make in class - I will upload everything to [github](https://github.com/htw-imi-info1)!
 
 If I make changes during class, I will push them to the branch with the semester name. 
-To switch to the branch, select the according semester in the branches menu in the upper left courner on each repositorie's main page.(it shows "main" usually)
+To switch to the branch, select the according semester in the branches menu in the upper left corner on each repository's main page.(it shows "main" usually - the default branch)
 Note that it might also be quite convenient to look at the code on the github page online,
 the commit history shows you the exact changes I made during class.
 Click on "commits" and then one individual commit, and you you'll see the changes.

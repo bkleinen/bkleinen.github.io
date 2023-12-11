@@ -18,23 +18,23 @@ classDiagram
     Command <|-- Eat
     <<abstract>> Command
     class Command{
-      processCommand(Player player)*
+      processCommand(Player)*
     }
     
     class Go{
-      processCommand(Player player)
+      processCommand(Player)
     }
     class Quit{
-      processCommand(Player player)
+      processCommand(Player)
     }
     class Help{
-      processCommand(Player player)
+      processCommand(Player)
     }
     class Look{
-      processCommand(Player player)
+      processCommand(Player)
     }
     class Eat{
-      processCommand(Player player)
+      processCommand(Player)
     }
 {{</ mermaid>}}
 
@@ -42,7 +42,7 @@ The Class Hierarchy for Commands we will build.
 
 
 
-The Game class has become longer and longer every time you added a new command! Also, if you add a new CommandWord you need to add the new CommandWord in several places. As we expect even more Commands to be implemented, the Project should be refactored to ease the addition of new Commands. 
+The Game class has become longer and longer every time we added a new command! Also, if you add a new Command, you need to add the new CommandWord in several places. As we expect even more Commands to be implemented, the Project should be refactored to ease the addition of new Commands. 
 
 First, we will move all Command stuff to Command and CommandWord.
 Then, we will introduce an inheritance hierarchy for the Command implementation.
@@ -59,7 +59,7 @@ Prepare your prelab before coming to class! Doing the pre-lab will save you time
 
 **P3.** Create an overview of all the places that "know" about valid command words.
 
-**P4.** Some commands - currently only the "go" command, but there will be more - alter the state of the game, which is for now only the players location. Where is this state stored? Is this a good place for it if you consider that we will add further information to that state, esp. Items a player carries at the moment?
+**P4.** Some commands - currently only the "go" command, but there will be more - alter the state of the game, which is for now only the players location. Where is this state stored? Is this a good place for it if you consider that we will add further information to that state, esp. Items a player carries?
 
 
 ##  What To Hand In
@@ -114,7 +114,7 @@ This will not compile. Have a look at all the resulting compile errors. They hav
 To fix this, add a Player parameter to processCommand and the command implementation methods (goRoom, printHelp, quit, etc) that need the currentRoom and remove the command parameter. The command parameter is no longer needed, as we are within the Command class. Thus, processCommand in Command should start like this:
 
 ```java
-public String processCommand(Player player) 
+public String processCommand(Player) 
     {
         Command command = this;
 ```
@@ -122,7 +122,7 @@ public String processCommand(Player player)
 and all command implementations:
 
 ```java
-  private String goRoom(Player player) 
+  private String goRoom(Player) 
     {
         Command command = this;
         Room currentRoom = player.getCurrentRoom();
@@ -142,7 +142,7 @@ from Game. It should look like this:
 ```java 
 String output = command.processCommand(player);
 ```
-For this, Game needs a field `Player player` that replaces `currentRoom`.
+For this, Game needs a field `Player` that replaces `currentRoom`.
 Change the remaining occurrences of currentRoom in Game to use the new field.
 
 Now, everything should work again - be sure to run the automated tests!
@@ -178,7 +178,7 @@ To do so, add the abstract keyword to the class definition and add an abstract m
 public abstract class Command
 {
     // ...
-    public abstract String processCommand(Player player);
+    public abstract String processCommand(Player);
 }
 ```
 
@@ -201,12 +201,12 @@ See {{< source path = "additions_03_Command_Hierarchy" >}}.
 #### 2.d move Command implementations to Command subclasses
 
 Now, move the Command implementations command by command to the Command Subclasses. To do so, 
-- move the implementation method (e.g. `goRoom(Player player)`) from AllCommands to the/a subclass,
+- move the implementation method (e.g. `goRoom(Player)`) from AllCommands to the/a subclass,
 and change the signature to 
 
 ```java
 @Override
-public String processCommand(Player player) 
+public String processCommand(Player) 
 ```
 - make the command factory in CommandWord instantiate the (new) Subclass, like so:
 

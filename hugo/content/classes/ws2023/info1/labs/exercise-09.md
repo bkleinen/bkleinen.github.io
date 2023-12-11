@@ -32,10 +32,16 @@ Be creative! Give your game a name.
 
 # What To Hand In
 Please hand in:
-* zip-folder with your code.
+* zip-folder with your code - just the your-zuul directory zipped.
 * Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
-Lab assignments are due the day before your next lab at 10pm. That will be after the winter holidays in about three weeks!
+## What should be in the lab report
+
+Now, that you advanced a bit in programming, you do not need to describe every little step anymore. Specifically for this lab, you should include:
+- a description of your world as done in the prelab.
+- screenshots/output of the start of your game and if applicable 1-2 other relevant parts.
+- the source code (screen shots or other) of your new commands and getCommandWords implementation.
+- Answers to any questions asked in the assignment below.
 
 # Assignment
 
@@ -46,14 +52,19 @@ Lab assignments are due the day before your next lab at 10pm. That will be after
 1.  Draw an  [object diagram](https://www.agilemodeling.com/artifacts/objectDiagram.htm) showing the state of your system just after it has been started. Does it change if you issue a `go` command?  (An [object diagram](https://www.agilemodeling.com/artifacts/objectDiagram.htm) shows the active instances of classes - objects - at a given time in the execution of a program, as opposed to a [class diagram](https://agilemodeling.com/artifacts/classDiagram.htm) that shows the classes defined in the program source code).
 
 2.  Add a `look` command to your game. It should show the room description
-again.
+again. Add a test for it.
+
 3.  Add an additional command such as `eat`, which for now just prints out "You have eaten now and are not hungry any more". In the next exercise, when we have added items, you can make it so that you can only eat if you have found food.
+Add a test for it.
+
 4.  Implement an improved version of printing out the command words. This should be a static method in CommandWord:
 ```java
 public static String getCommandWords(){...}
 ```
 5.  Add another command -- did you have to change the Game class? Why or Why not?
 
-6. (For the bored) Prepare a multi-lingual version and use enums. You find an Enum version of `CommandWords.java` in the subfolder {{< source path = "additions_01_CommandWords_Enum" >}}.
+6. Are there any code duplications left after your refactoring and introduction of the `getCommandWords`` method?
 
-7. (*Special Challenge* / For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
+7. (For the bored) Prepare a multi-lingual version and use enums. You find an Enum version of `CommandWords.java` in the subfolder {{< source path = "additions_01_CommandWords_Enum" >}}.
+
+8. (*Special Challenge* / For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
