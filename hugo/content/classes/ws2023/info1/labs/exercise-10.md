@@ -3,6 +3,7 @@ title: 'Exercise 10: Use Inheritance for Commands'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise09
 draft: true
+toc: true
 --- 
 
 This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
@@ -199,9 +200,45 @@ See {{< source path = "additions_03_Command_Hierarchy" >}}.
 
 #### 2.d move Command implementations to Command subclasses
 
-Now, move the Command implementations command by command to the Command Subclasses:
+Now, move the Command implementations command by command to the Command Subclasses. To do so, 
+- move the implementation method (e.g. `goRoom(Player player)`) from AllCommands to the/a subclass,
+and change the signature to 
+
+```java
+@Override
+public String processCommand(Player player) 
+```
+- make the command factory in CommandWord instantiate the (new) Subclass, like so:
 
 ```diff
 - commandFactories.put(GO, (w1,w2)-> new AllCommands(w1,w2));
 + commandFactories.put(GO, (w1,w2)-> new Go(w1,w2));
 ```
+- Test.
+
+#### 2.e Remove the `AllCommands` class.
+
+After migrating all command implementations, the AllCommands class should be empty and can be removed.
+
+
+### Create a new command
+
+Now, try out your refactored Zuul by creating a new command.
+
+# For the bored: further refactoring
+There are two commands that are hidden in the original implementation:
+Generating the output for `Unknown` and `Welcome`. `Quit` is implemented like the other commands, but it's output text is defined somewhere else.
+
+1. Unknown commands
+The handling of unknown commands is scattered over the Project.
+I've already included 'Unknown' in the Commands and CommandWord enumeration.
+Use this command to encapsulate the handling of unknown commands.
+
+2. Welcome text
+`Game.java` still contains 
+
+2. Quitting
+The Quit functionality is also distributed - null is returned, and the Command output is in the main game loop. Refactor this. 
+
+
+
