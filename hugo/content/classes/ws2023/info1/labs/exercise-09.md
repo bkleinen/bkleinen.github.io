@@ -68,3 +68,52 @@ public static String getCommandWords(){...}
 7. (For the bored) Prepare a multi-lingual version and use enums. You find an Enum version of `CommandWords.java` in the subfolder {{< source path = "additions_01_CommandWords_Enum" >}}.
 
 8. (*Special Challenge* / For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.
+
+
+{{<mermaid>}} 
+classDiagram
+    class Game{
+        Room currentRoom
+        +play()
+        +String processInputLine(String line) // for testing
+        - processCommand(Command)
+        - printHelp()
+        - goRoom(Command)
+        - quit(Command)
+    }
+
+    class Room{
+        northExit
+        southExit
+        eastExit
+        westExit
+    setExits()
+    getDescription()
+    }
+    class Command{
+    -String commandWord
+    -String secondWord
+
+    +Command(commandWord, secondWord)
+    +String getCommandWord()
+   
+    +String getSecondWord()
+   
+    +boolean isUnknown()
+   
+    +boolean hasSecondWord()
+}
+
+
+class CommandWord{
+    GO QUIT HELP
+  +boolean isCommand(String)
+
+}
+<<enum>> CommandWord
+
+class Parser{
+    Command getCommand() 
+    Command getCommand(String) // for testing
+}
+{{</mermaid>}} 
