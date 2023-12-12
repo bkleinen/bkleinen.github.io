@@ -24,7 +24,42 @@ again. Add a test for it.</p></li><li><p>Add an additional command such as <code
 Add a test for it.</p></li><li><p>Implement an improved version of printing out the command words. This should be a static method in CommandWord:</p></li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span><span class=w> </span><span class=kd>static</span><span class=w> </span><span class=n>String</span><span class=w> </span><span class=nf>getCommandWords</span><span class=p>(){...}</span><span class=w>
 </span></span></span></code></pre></div><ol start=5><li><p>Add another command &ndash; did you have to change the Game class? Why or Why not?</p></li><li><p>Are there any code duplications left after your refactoring and introduction of the `getCommandWords`` method?</p></li><li><p>(For the bored) Prepare a multi-lingual version and use enums. You find an Enum version of <code>CommandWords.java</code> in the subfolder
 <a href=https://github.com/htw-imi-info1/exercise09-zuul/tree/main/additions_01_CommandWords_Enum>additions_01_CommandWords_Enum</a>
-.</p></li><li><p>(<em>Special Challenge</em> / For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.</p></li></ol><script src=https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js></script><script>mermaid.initialize({startOnLoad:!0,securityLevel:"loose"})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
+.</p></li><li><p>(<em>Special Challenge</em> / For the bored) What is an model-view-controller architecture? Adapt your code to follow this architecture pattern.</p></li></ol><div class=mermaid align=center>classDiagram
+class Game{
+Room currentRoom
++play()
++String processInputLine(String line) // for testing
+- processCommand(Command)
+- printHelp()
+- goRoom(Command)
+- quit(Command)
+}
+class Room{
+northExit
+southExit
+eastExit
+westExit
+setExits()
+getDescription()
+}
+class Command{
+-String commandWord
+-String secondWord
++Command(commandWord, secondWord)
++String getCommandWord()
++String getSecondWord()
++boolean isUnknown()
++boolean hasSecondWord()
+}
+class CommandWord{
+GO QUIT HELP
++boolean isCommand(String)
+}
+&lt;&lt;enum>> CommandWord
+class Parser{
+Command getCommand()
+Command getCommand(String) // for testing
+}</div><script src=https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js></script><script>mermaid.initialize({startOnLoad:!0,securityLevel:"loose"})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io/contact>Prof. Dr. Barne Kleinen</a>,
 <a href=https://www.htw-berlin.de>HTW Berlin</a>,
 <a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
 &nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io/contact/impressum>Impressum</a>,
