@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 09: The World of You'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise09
+source: https://github.com/htw-imi-info1/exercise09-zuul
 draft: false
 ---
 

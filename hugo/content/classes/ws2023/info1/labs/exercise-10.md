@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 10: Use Inheritance for Commands'
 author: kleinen
-source: https://github.com/htw-imi-info1/exercise09
+source: https://github.com/htw-imi-info1/exercise09-zuul
 draft: true
 toc: true
 --- 
