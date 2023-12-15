@@ -48,6 +48,8 @@ Now, that you advanced a bit in programming, you do not need to describe every l
 **World of You**
 
 0.  Start with the bad Zuul game with tests - {{< source path = "your-zuul" >}} -  and **refactor it as discussed in the lectures**. If you are doing mole burrows instead of rooms, you can change the variable names as needed. Don't forget to update the test cases whenever needed.
+    
+    Note: depending on the Map implementation you choose for the Room::exit field, the order of exits may be different. [LinkedHashMap](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/LinkedHashMap.html) retains the order of insertion - the SortableMap I chose in class, [TreeMap](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/TreeMap.html), sorts them alphabetically.
 
 1.  Draw an  [object diagram](https://www.agilemodeling.com/artifacts/objectDiagram.htm) showing the state of your system just after it has been started. Does it change if you issue a `go` command?  (An [object diagram](https://www.agilemodeling.com/artifacts/objectDiagram.htm) shows the active instances of classes - objects - at a given time in the execution of a program, as opposed to a [class diagram](https://agilemodeling.com/artifacts/classDiagram.htm) that shows the classes defined in the program source code).
 
