@@ -7,15 +7,14 @@
 {{ if .Params.subpages }}
 {{ partial "sc_partials/subpages.html" (dict "page" . "depth" 4) }}
 {{ else }}
-
+<p>
 The material on this page is organized into {{ len .Site.Taxonomies }} taxonomies:
 
-{{ $tax_names := partial "taxonomies/names.slice.md" . }}
-{{ $tax_links := apply $tax_names "partial" "taxonomies/local_link.html" "." -}}
-{{ delimit $tax_links ", " " and " -}}.
-
-
-<br/><hr>
+<a href="#courses">Courses</a>
+, <a href="#tags">Tags</a>
+and <a href="#tools">Tools</a> .
+<!-- see debug for original version -->
+</p>
 <!-- taken from https://gohugo.io/templates/taxonomy-templates/ -->
 <section>
     <ul id="all-taxonomies">

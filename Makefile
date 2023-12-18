@@ -162,3 +162,6 @@ linkcheck_retired:
 
 linkCheck_old:
 - ./linkcheck.sh
+
+build:
+- hugo --environment production --source hugo --baseURL "http://localhost:$(port)/~kleinen/"  
