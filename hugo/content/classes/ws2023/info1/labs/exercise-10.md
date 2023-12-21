@@ -2,11 +2,11 @@
 title: 'Exercise 10: Use Inheritance for Commands'
 author: kleinen
 source: https://github.com/htw-imi-info1/exercise09-zuul
-draft: true
+draft: false
 toc: true
 --- 
 
-This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
+This week&#8217;s lab work will continue the zuul project.
 
 {{<mermaid>}} 
 classDiagram
@@ -38,16 +38,16 @@ classDiagram
     }
 {{</ mermaid>}}
 
-The Class Hierarchy for Commands we will build.
+The Class Hierarchy for Commands.
 
-
+### Overview
 
 The Game class has become longer and longer every time we added a new command! Also, if you add a new Command, you need to add the new CommandWord in several places. As we expect even more Commands to be implemented, the Project should be refactored to ease the addition of new Commands. 
 
-First, we will move all Command stuff to Command and CommandWord.
-Then, we will introduce an inheritance hierarchy for the Command implementation.
+First, all functionality concerning commands is moved to Command and CommandWord.
+Then, an inheritance hierarchy for the Command implementations is created.
 
-This will be quite a lot of refactoring. You can decide if you want to do everything yourself, or copy the classes from the addition_01 - addition_03 subfolders in the repo: {{<source >}} 
+This will be quite a lot of refactoring. You can decide if you want to do everything yourself, or copy the classes from the addition_01 - addition_03 subfolders in the repo {{<source >}}, or anything in-between (do the refactoring, but use the files in additions as hints or copy parts of it to speed up the process). The repo contains instructions how to copy the classes and the necessary adjustments: {{< source path = "additions-readme.md" >}}
 
 # Pre-lab
 
@@ -63,6 +63,7 @@ Prepare your prelab before coming to class! Doing the pre-lab will save you time
 
 
 ##  What To Hand In
+
 Please hand in:
 * zip-folder with your code
 * Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
@@ -71,6 +72,7 @@ Please hand in:
 
 # Assignment:  Refactoring
 
+(as stated above, you can copy the classes in the additions_0n.. subfolders instead of implementing everything yourself. Do read through the description, though.)
 
 ### General Preparation
 1. Make sure that you have test cases for your new commands from the last lab (eat, look, etc) before you start the refactoring.
@@ -114,7 +116,7 @@ This will not compile. Have a look at all the resulting compile errors. They hav
 To fix this, add a Player parameter to processCommand and the command implementation methods (goRoom, printHelp, quit, etc) that need the currentRoom and remove the command parameter. The command parameter is no longer needed, as we are within the Command class. Thus, processCommand in Command should start like this:
 
 ```java
-public String processCommand(Player) 
+public String processCommand(Player player) 
     {
         Command command = this;
 ```
@@ -122,7 +124,7 @@ public String processCommand(Player)
 and all command implementations:
 
 ```java
-  private String goRoom(Player) 
+  private String goRoom(Player player) 
     {
         Command command = this;
         Room currentRoom = player.getCurrentRoom();
@@ -157,7 +159,7 @@ The switch statements distinguishes the different types of command. We will chan
 #### 2.a Add Temporary Subclass 
 
 To start and ease the refactoring process, we start by creating a temporary subclass that holds all the commands we have not migrated yet.
-move everything you moved from Game to this new Class, starting with processCommand, including all methods called by processCommand, which happen to be the command implementations.
+move everything you moved from Game to this new Class, named e.g. `AllCommands` like in the example below, starting with processCommand, including all methods called by processCommand, which happen to be the command implementations.
 
 
 ```java
@@ -171,14 +173,14 @@ public class AllCommands extends Command
 
 #### 2.b Make Command abstract
 
-As the actual Commands will be Subclasses of Command, Command itself should be abstract.
+As all actual Commands will be Subclasses of Command, Command itself should be abstract.
 To do so, add the abstract keyword to the class definition and add an abstract method processCommand:
 
 ```java
 public abstract class Command
 {
     // ...
-    public abstract String processCommand(Player);
+    public abstract String processCommand(Player player);
 }
 ```
 
@@ -206,26 +208,39 @@ and change the signature to
 
 ```java
 @Override
-public String processCommand(Player) 
+public String processCommand(Player player) 
 ```
-- make the command factory in CommandWord instantiate the (new) Subclass, like so:
+- replace AllCommands with the new class in the `commandFactories` HashMap in 
+  `CommandWord` such that the `buildCommand` method instantiates the new Subclass, `Go`:
 
 ```diff
 - commandFactories.put(GO, (w1,w2)-> new AllCommands(w1,w2));
 + commandFactories.put(GO, (w1,w2)-> new Go(w1,w2));
 ```
-- Test.
+- Run the tests again to check wether the refactored command works.
 
-#### 2.e Remove the `AllCommands` class.
+#### 2.e Remove the Temporary Command Subclass.
 
-After migrating all command implementations, the AllCommands class should be empty and can be removed.
-
+After migrating all command implementations, the `AllCommands` 
+(the temporary class) class should be empty and can be removed.
 
 ### Create a new command
 
-Now, try out your refactored Zuul by creating a new command.
+Now, try out your refactored Zuul by creating a new command!
+
+## Writeup - your report
+
+For your report, you don't need to describe the whole refactoring - 
+just describe what you needed to do to move your commands into the new 
+design.
+
+Reflection Question: Try to answer this question:
+
+Why is it necessary to add a Player class/field and pass this to processCommand
+instead of simply passing the former currentRoom field?
 
 # For the bored: further refactoring
+
 There are two commands that are hidden in the original implementation:
 Generating the output for `Unknown` and `Welcome`. `Quit` is implemented like the other commands, but it's output text is defined somewhere else.
 
@@ -235,10 +250,11 @@ I've already included 'Unknown' in the Commands and CommandWord enumeration.
 Use this command to encapsulate the handling of unknown commands.
 
 2. Welcome text
-`Game.java` still contains 
+`Game.java` still contains the welcome method, which could be implemented as a command that is executed at the start of the Game for consistency. 
 
 2. Quitting
-The Quit functionality is also distributed - null is returned, and the Command output is in the main game loop. Refactor this. 
+The Quit functionality is also distributed - null is returned, and the Command output is in the main game loop. Refactor this. You will need to add a boolean flag to 
+Player to indicate that Quit was called.
 
 
 
