@@ -45,8 +45,9 @@ The Class Hierarchy for Commands.
 As the refactoring described below - even with the provided parts - is still quite difficult as you might get a lot of compilation errors along the way,
 here's a third alternative:
 Re-do the last lab - the refactoring described in Chapter 08, Designing Classes, again (or for the first time, as a lot of you have missed that part! ) based on this version that already has the Command Hierarchy:
-{{< source path = "your-zuul-command-hierarchy" >}}
-Note that your commands must be built in following the new design.s
+{{< source path = "your-zuul-command-hierarchy" >}}.
+
+Note that your commands must be built in following the new design!
 
 ### Overview
 
