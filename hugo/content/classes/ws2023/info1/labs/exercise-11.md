@@ -8,7 +8,7 @@ This week&#8217;s lab work will continue a larger project that will occupy us un
 
 # Pre-lab
 
-Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.
+Prepare your pre-lab before coming to class! Doing the pre-lab will save you time during the lab.
 
 **P1**. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?
 

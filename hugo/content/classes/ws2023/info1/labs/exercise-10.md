@@ -40,6 +40,14 @@ classDiagram
 
 The Class Hierarchy for Commands.
 
+### Update 28/12/2023
+
+As the refactoring described below - even with the provided parts - is still quite difficult as you might get a lot of compilation errors along the way,
+here's a third alternative:
+Re-do the last lab - the refactoring described in Chapter 08, Designing Classes, again (or for the first time, as a lot of you have missed that part! ) based on this version that already has the Command Hierarchy:
+{{< source path = "your-zuul-command-hierarchy" >}}
+Note that your commands must be built in following the new design.s
+
 ### Overview
 
 The Game class has become longer and longer every time we added a new command! Also, if you add a new Command, you need to add the new CommandWord in several places. As we expect even more Commands to be implemented, the Project should be refactored to ease the addition of new Commands. 
