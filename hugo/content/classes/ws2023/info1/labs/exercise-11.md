@@ -1,8 +1,13 @@
 ---
 title: 'Exercise 11: Keeping Track of Stuff'
 author: kleinen
-draft: true
+draft: false
 ---
+
+![Game Items](./game-items.jpg)
+[Image by upklyak](https://www.freepik.com/free-vector/game-icons-with-signs-key-playing-cards-money_26689359.htm#query=game%20items&position=0&from_view=keyword&track=ais&uuid=bc732565-c659-4120-85ff-8cea9a1bf92a)
+on Freepik
+
 
 This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
 
@@ -20,7 +25,6 @@ Please hand in:
 * zip-folder with your code
 * Your lab report as a pdf. For more Information on the report see [the Labs and Exercises page](../).
 
-Lab assignments are due the day before your next lab at 10pm.
 
 * * *
 
@@ -28,11 +32,11 @@ Lab assignments are due the day before your next lab at 10pm.
 
 **Adding Items**
 
-1. If you haven't already done so in the last lab, refactor Zuul further to hold the command words in just one place: the CommandWord enum as discussed in class. You find the CommandWord.java enum and the adapted CommandWords.java classes in the subfolder [enums](https://github.com/htw-imi-info1/exercise10/tree/master/enums) in the repository.
+1. If you haven't already done so in the last lab, refactor Zuul further to hold the command words in just one place: the CommandWord enum as discussed in class. 
 
 2.  Extend your project so that a room can contain a single item. Items have descriptions and weights. When creating rooms and setting their exits, items for this game should also be created. When a player enters a room, information about an item present in this room should be displayed.
 3.  How should the information about an item present in a room be produced? Which class should produce the string describing the item? Which class should print it? Why? If answering this exercise makes you feel you should change your implementation, go ahead and do so &#8211; and explain in your report why.
-4.  Modify the project so that a room can hold any number of items. Use a collection to do this! Make sure the room has an `addItem` method that places an item into the room. Make sure all items get shown when a player enters a room. Set up a fixture to thoroughly test this!
+4.  Modify the project so that a room can hold any number of items. Use a collection to do this! Make sure the room has an `addItem` method that places an item into the room. Make sure all items get shown when a player enters a room. Create Test Cases and set up a fixture to thoroughly test this!
 
 5.  Implement a &#8220;back&#8221; command that does not have a second word and takes the player back into the previous location. Test this! What happens if a second word is given?
 
