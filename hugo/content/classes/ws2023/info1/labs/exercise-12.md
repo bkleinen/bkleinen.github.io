@@ -1,7 +1,7 @@
 ---
 title: 'Exercise 12: Pick up and Carry'
 author: kleinen
-draft: true
+draft: false
 ---
 
 This week's lab work will finish up your project.

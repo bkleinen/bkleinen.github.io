@@ -8,6 +8,7 @@ draft: false
 [Image by upklyak](https://www.freepik.com/free-vector/game-icons-with-signs-key-playing-cards-money_26689359.htm#query=game%20items&position=0&from_view=keyword&track=ais&uuid=bc732565-c659-4120-85ff-8cea9a1bf92a)
 on Freepik
 
+**update: re-check this page for JSONWorld additions. They will be optional.**
 
 This week&#8217;s lab work will continue a larger project that will occupy us until the end of the semester.
 
