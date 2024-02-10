@@ -6,9 +6,9 @@ courseNavInt:
 - title: M1
   link: "/classes/ss2020/m1-web/"
 - title: Complete Schedule
-  link: "/classes/ss2020/m1-web/complete-schedule/"
-- title: WT Schedule
   link: "/classes/ss2020/m1-web/schedule/"
+- title: WT Schedule
+  link: "/classes/ss2020/m1-web/schedule-web/"
 - title: Topics
   link: "/classes/ss2020/m1-web/topics/"
 - title: Assignments
@@ -26,7 +26,7 @@ courseNavExt:
 
 This pages introduce you to the web application part of the "Epochenunterricht" in M1 Mediaprogramming.
 The Epochenunterricht consists of 3 x 5 laboratory sessions for the three study focuses Web Technology,
-Visual Computing and Game Technology respectively. Have a look at the [tentative complete schedule](complete-schedule) to
+Visual Computing and Game Technology respectively. Have a look at the [tentative complete schedule](schedule) to
 see how this breaks down.
 
 ## What we will do in the Web Technology Part

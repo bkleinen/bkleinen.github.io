@@ -11,11 +11,23 @@ port=4242
 
 
 
-hugo :  hugo/node_modules open_current # openH
+hugo :  hugo/node_modules open_current open_m1 # openH
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1
+
+open_m1:
+- open http://localhost:$(port)/~kleinen/classes/ws2019/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ss2020/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ws2020/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ss2021/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ws2021/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ss2022/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ws2022/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ss2023/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ws2023/m1-web/
+- open http://localhost:$(port)/~kleinen/classes/ss2024/m1-web/
 
 hugo1 :  hugo/node_modules openI
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
