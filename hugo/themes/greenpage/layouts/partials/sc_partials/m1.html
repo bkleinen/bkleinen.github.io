@@ -1,0 +1,17 @@
+
+<h2>All Pages</h2>
+
+  {{ $baseURL:= .Site.BaseURL}}
+  {{ $baseURL }}
+  {{ .Site.AllPages }}
+  <ul>
+{{ range .Site.AllPages }}
+    {{  if (strings.Contains .RelPermalink "m1-web") }}
+
+    {{  if or (hasSuffix .RelPermalink "m1-web/schedule/") (hasSuffix .RelPermalink "m1-web/complete-schedule/")}}
+   <li><a href= "{{$baseURL}}{{ .RelPermalink }}">{{.RelPermalink }} --- ({{.Kind}}/{{.Type}}- {{ .Weight}})</a>
+
+{{ end }}
+{{ end }}
+{{ end }}
+</ul>

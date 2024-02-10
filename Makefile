@@ -15,8 +15,7 @@ hugo :  hugo/node_modules open_current # openH
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 
 open_current:
-- open http://localhost:$(port)/~kleinen/classes/ws2023/info1/
-- open http://localhost:4242/~kleinen/classes/ws2023/info1/labs/exercise-10
+- open http://localhost:$(port)/~kleinen/classes/m1
 
 hugo1 :  hugo/node_modules openI
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
