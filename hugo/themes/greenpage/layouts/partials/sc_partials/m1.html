@@ -1,0 +1,24 @@
+
+  {{ $baseURL:= .Site.BaseURL}}
+
+  <ul>
+{{ range sort .Site.AllPages ".Weight" "desc" }}
+    {{  if (strings.Contains .RelPermalink "m1-web") }}
+        {{  if or (hasSuffix .RelPermalink "m1-web/schedule/") (hasSuffix .RelPermalink "m1-web/complete-schedule/")}}
+        
+        <li>
+        
+          {{ $part1:=index (findRE "/classes/([^/]*)/" .RelPermalink) 0}}
+          {{ $semester:= index (findRE "(w|s)+[0-9]+" $part1) 0 }}
+          {{ $wss:= index (findRE "(ws|ss)" $semester) 0 }}
+          {{ $year:= index (findRE "[0-9]+" $semester) 0 }}
+          
+          <a href= "{{$baseURL}}{{ .RelPermalink }}">{{ upper $wss }} {{ $year }}:&nbsp;&nbsp;&nbsp;{{.Title }}</a>
+        </li>
+        <!--
+           <li><a href= "{{$baseURL}}{{ .RelPermalink }}">{{.RelPermalink }} --- ({{.Kind}}/{{.Type}}- {{ .Weight}})</a>
+-->
+        {{ end }}
+    {{ end }}
+{{ end }}
+</ul>

@@ -2,7 +2,7 @@
 title: Hugo Cheatsheet
 author: B. Kleinen
 tools: ['hugo']
-tags: ['markdown']
+tags: ['markdown', 'hugo']
 courses: []
 draft: true
 toc: true
@@ -12,11 +12,28 @@ toc: true
 
 ## Shortcodes and Partials
 
-Shortcodes are for markdown content, partials for templates.
+- **Difference:**
+Shortcodes can be included in Markdown, partials only in Layouts.
+For reuse (usage of partials both in layout templates and directly from markdown)
+a shortcode needs to be defined that references the partial.
 
 - [Partial Templates | Hugo](https://gohugo.io/templates/partials/)
-
+### Documentation
+* [Shortcodes | Hugo](https://gohugo.io/content-management/shortcodes/)
+* [Create Your Own Shortcodes | Hugo](https://gohugo.io/templates/shortcode-templates/)
 ### Shortcodes
+Syntax: example:
+
+  \{\{\<alert warning\>\}\}
+      warning level alert
+  \{\{\</alert\>\}\}
+
+
+{{<alert warning>}}
+    warning level alert
+{{</alert>}}
+
+--
 
 #### Render Markdown
 

@@ -2,7 +2,7 @@
 title: M1 SoSe 2024 Labs Schedule
 author: kleinen
 CourseNav: Schedule
-weight: 40
+weight: 20241
 ---
 
 First Draft and Subject to change!

@@ -1,6 +1,7 @@
 ---
 title: M1 Labs Overall Schedule
 author: kleinen
+weight: 20221
 ---
 
 tentative schedule
