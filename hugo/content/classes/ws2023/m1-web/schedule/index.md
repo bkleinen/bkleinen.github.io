@@ -5,8 +5,11 @@ CourseNav: Schedule
 weight: 20232
 ---
 
-First Draft and Subject to change!
 
+First Draft and Subject to change! 
+/ 
+[M1 Schedule Overview](/classes/m1)
+/
 [Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/hugo/content/classes/ws2023/m1-web/schedule/index.md)
 
 Mi.	12:15 bis 13:45	 WH C 579
