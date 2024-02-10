@@ -2,7 +2,7 @@
 title: M1 Labs Overall Schedule
 author: kleinen
 layout: default
-wide_layout: true
+weight: 20201
 ---
 This schedule is, as always, tentative. 
 

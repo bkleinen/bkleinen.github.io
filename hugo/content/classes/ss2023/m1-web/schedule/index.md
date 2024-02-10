@@ -2,7 +2,7 @@
 title: M1 SS 2023 Labs Schedule
 author: kleinen
 CourseNav: Schedule
-weight: 40
+weight: 20231
 ---
 
 First Draft and Subject to change!

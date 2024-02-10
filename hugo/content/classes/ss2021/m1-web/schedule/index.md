@@ -2,7 +2,7 @@
 title: M1 Labs Overall Schedule
 author: kleinen
 layout: default
-wide_layout: true
+weight: 20211
 ---
 
 | Week | KW | Date           | Topic Area                              | Lecturer        |

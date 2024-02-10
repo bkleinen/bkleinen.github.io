@@ -11,7 +11,7 @@ port=4242
 
 
 
-hugo :  hugo/node_modules open_current open_m1 # openH
+hugo :  hugo/node_modules open_current # open_m1 # openH
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 
 open_current:
