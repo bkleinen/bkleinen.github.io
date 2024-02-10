@@ -26,7 +26,7 @@ Lab assignments are due the day before your next lab at 10pm.
 # Assignment
 
 ## Picking up Items
-0. If not already there, make sure there is an Item class in the project. Items have names, descriptions, and weights. Make sure you can print out an item's description.
+0. If not already there, make sure there is an Item class in the project. Items have names, descriptions, and weights. Make sure you can ~~print out~~ generate an item's description to be printed out by the main loop.
 1. Implement a command "take" that has the name of the item as the second parameter. What happens if the item to be taken is not in the room?
 2. Implement the command "drop" to get rid of an item. "drop all" should do just that, drop all items currently carried.
 
