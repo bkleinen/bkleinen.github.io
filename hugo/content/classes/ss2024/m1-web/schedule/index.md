@@ -5,28 +5,28 @@ CourseNav: Schedule
 weight: 20241
 ---
 
-First Draft and Subject to change! 
-/ 
+
+Stand: 14.2.2024 / 
 [M1 Schedule Overview](/classes/m1)
 /
 [Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/hugo/content/classes/ss2024/m1-web/schedule/index.md) (ask BK for repo permissions first)
 
-TBD: Mi.	12:15 bis 13:45	 WH C 579
+Time and Room TBD
 
-| Week | KW | Date                 | Topic Area                              | Lecturer       |
-|:-----|:---|:---------------------|:----------------------------------------|:---------------|
-| 1    | 14 | Wed 03/04/2024       | (erster Vorlesungstag)                  |                |
-| 2    | 15 | Wed 10/04/2024       | Web Technology                          | Barne Kleinen  |
-| 3    | 16 | Wed 17/04/2024       | Web Technology                          | Barne Kleinen  |
-| 4    | 17 | Wed 24/04/2024       | Web Technology                          | Barne Kleinen  |
-|      | 18 | Wed 01/05/2024       | Feiertag                                |                |
-| 5    | 19 | Wed 08/05/2024       | Web Technology                          | Barne Kleinen  |
-| 6    | 20 | Wed 15/05/2024       | Web Technology                          | Barne Kleinen  |
-| 7    | 21 | Wed 22/05/2024       | Game Technology and Interactive Systems | Philipp Bönsch |
-| 8    | 22 | Wed 29/05/2024       | Game Technology and Interactive Systems | Philipp Bönsch |
-| 9    | 23 | Wed 05/06/2024       | Game Technology and Interactive Systems | Philipp Bönsch |
-| 10   | 24 | Wed 12/06/2024       | Game Technology and Interactive Systems | Philipp Bönsch |
-| 11   | 25 | Wed 19/06/2024       | Game Technology and Interactive Systems | Philipp Bönsch |
+| Week | KW | Date           | Topic Area             | Lecturer |
+|:-----|:---|:---------------|:-----------------------|:---------|
+| 1    | 14 | Wed 03/04/2024 | (erster Vorlesungstag) |          |
+| 2    | 15 | Wed 10/04/2024       | Web Technology | Barne Kleinen
+| 3    | 16 | Wed 17/04/2024       | Web Technology | Barne Kleinen |
+| 4    | 17 | Wed 24/04/2024       | Web Technology | Barne Kleinen |
+|      | 18 | Wed 01/05/2024       | Feiertag                                |   |
+| 5    | 19 | Wed 08/05/2024       | Web Technology |Barne Kleinen  |
+| 6    | 20 | Wed 15/05/2024       | Web Technology |Barne Kleinen |
+| 7    | 21 | Wed 22/05/2024       | Game Technology and Interactive Systems                         | David Strippgen   |
+| 8    | 22 | Wed 29/05/2024       | Game Technology and Interactive Systems                         | Guido Pagliettini |
+| 9    | 23 | Wed 05/06/2024       | Game Technology and Interactive Systems                         | Guido Pagliettini                  |
+| 10   | 24 | Wed 12/06/2024       | Game Technology and Interactive Systems                          | Guido Pagliettini |
+| 11   | 25 | Wed 19/06/2024       | Game Technology and Interactive Systems                          | Guido Pagliettini |
 | 12   | 26 | Wed 26/06/2024       | Visual Computing                        | Klaus Jung     |
 | 13   | 27 | Wed 03/07/2024       | Visual Computing                        | Nico Hezel     |
 | 14   | 28 | Wed 10/07/2024       | Visual Computing                        | Kai Barthel    |
