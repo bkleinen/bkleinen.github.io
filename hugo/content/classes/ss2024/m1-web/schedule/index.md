@@ -33,3 +33,4 @@ Time and Room TBD
 | 15   | 29 | Wed 17/07/2024 (PZ1) | Visual Computing                        | Nico Hezel     |
 | 16   | 30 | Wed 24/07/2024 (PZ1) | Visual Computing                        | Nico Hezel     |
 | 17   | 31 | Wed 31/07/2024 (PZ1) |                                         |                |
+x
