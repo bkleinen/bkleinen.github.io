@@ -36,12 +36,12 @@ hierzu finden Sie Informationen z.B. unter
     - https://www.refrat.de/beratung.bafoeg.html?1401814142
     - https://www.bafoeg-rechner.de
 
-- wenn Sie Auslandsbaf&ouml;g beantragen, brauchen Sie das Formblatt, da die Beantragung je nach Land, in das Sie reisen, über ein anderes Studentenwerk läuft, Lesen Sie bitte auch die weiteren Hinweise zum Auslandspraktikum.
+- wenn Sie Auslandsbaf&ouml;g beantragen, brauchen Sie das Formblatt, da die Beantragung je nach Land, in das Sie reisen, über ein anderes Studentenwerk läuft, lesen Sie bitte auch die weiteren Hinweise zum Auslandspraktikum.
 
 Auslandspraktikum
 -----------------
 
-Disclaimer: Hier stehen nur einige Infos/Hinweise, von denen ich annehme, dass Sie für IMIs wichtig sind, ohne Anspruch auf Vollständigkeit und Richtigkeit - Regelungen ändern sich, Sie sind selbst dafür verantwortlich, sich bei den geeigneten Stellen (aktuelle Gesetze, Ämter...) kundig zu machen!
+**Disclaimer:** Hier stehen Infos/Hinweise, von denen ich annehme, dass Sie für IMIs wichtig sind, ohne Anspruch auf Vollständigkeit und Richtigkeit - Regelungen ändern sich, Sie sind selbst dafür verantwortlich, sich bei den geeigneten Stellen (aktuelle Gesetze, Ämter...) kundig zu machen! Falls Sie hier veraltete oder falsche Informationen finden, schicken Sie mir gerne eine email oder einen Pull-Request.
 
 Für das Auslandspraktikum können Sie Auslandsbafög bekommen, evtl. sogar, wenn Sie im Inland kein Bafög bekommen. Sie sollten sich so früh wie möglich um die Beantragung kümmern. Wichtig ist, dass Sie meines Wissens nicht einfach das Inlandsbafög weiter beziehen können.
 
