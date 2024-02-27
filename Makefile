@@ -11,8 +11,12 @@ port=4242
 
 
 
-hugo :  hugo/node_modules open_current # open_m1 # openH
+hugo :  hugo/node_modules open_ss24 # open_current # open_m1 # openH
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+
+open_ss24:
+- open http://localhost:$(port)/~kleinen/classes/ss2024
+- open http://localhost:$(port)/~kleinen/classes/ss2024/info2
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1
