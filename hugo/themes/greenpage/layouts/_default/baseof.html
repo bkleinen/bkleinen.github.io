@@ -135,11 +135,11 @@
 
          {{ if .Site.IsServer }}
            {{ range $js_resources }}
-           <script type="text/javascript" src="{{ .RelPermalink }}"></script>
+           <script type="text/javascript" src="{{ .Permalink }}"></script>
            {{ end }}
          {{ else }}
            {{ $js :=  $js_resources  | resources.Concat "js/bundle.js" | resources.Minify | fingerprint }}
-            <script src="{{$js.RelPermalink}}" defer></script>
+            <script src="{{$js.Permalink}}" defer></script>
          {{ end }}
      
     </body>

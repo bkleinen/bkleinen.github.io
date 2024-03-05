@@ -1,4 +1,19 @@
 {{ define "main" }}
+<h2>baseURL</h2>
+<dl>
+    <dt>site.BaseURL</dt>
+    <dd>{{ site.BaseURL }}</dd>
+    <dt>site.BaseURL/contact</dt>
+    <dd>{{ site.BaseURL }}/contact</dd>
+    {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
+    {{ $style := resources.Get "scss/main.scss" | toCSS  $options | minify }}
+    <dt>$style.RelPermalink</dt>
+    <dd>{{ $style.RelPermalink }}</dd>
+    <dt>$style.Permalink</dt>
+    <dd>{{ $style.Permalink }}</dd>
+</dl>
+
+<link rel="stylesheet" href="http://localhost:4242/~kleinen/~kleinen/css/styles-dev.css" media="screen">
 
 <h2>content/debug/_index.html</h2>
 {{ .Content }}
