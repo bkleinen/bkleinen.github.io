@@ -28,7 +28,7 @@ staticDir2 = ['static-snippets']
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 languageCode = 'en-us'
 rssLimit =  10
-[author]
+[ params.author ]
   name = 'Barne Kleinen'
 ### 10:27
 
