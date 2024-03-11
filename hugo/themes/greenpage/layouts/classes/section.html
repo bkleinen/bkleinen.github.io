@@ -14,7 +14,7 @@
 {{ define "main" }}
 
 <h1>{{.Scratch.Get "classes_page_title"}}</h1>
-
+{{ .Content }}
 {{ $showNextPrev := eq .Kind "page" }}
 {{ partial "toc.html" (dict "context" . "nextPrevLinks" $showNextPrev) }}
 

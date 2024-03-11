@@ -1,5 +1,5 @@
 ---
-title: Info 2 WS 2021/22 - Handouts
+title: Info 2 SS 2024 - Handouts
 author: kleinen
 layout: page
 ---

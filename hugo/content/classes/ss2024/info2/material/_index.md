@@ -1,9 +1,9 @@
 ---
-title: Info 2 WS 2021/22 - Material
+title: Info 2 SS 2024 - Material
 author: kleinen
 layout: page
 courseNav: Material
-weight: 3
+weight: 300
 draft: false
 sortTables: true
 ---

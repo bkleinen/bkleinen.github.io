@@ -1,7 +1,7 @@
 ---
-title: B7 Informatics 2 WS 2021/22
+title: B7 Informatics 2 SS 2024
 author: kleinen
-date: 2021-10-01
+date: 2024-04-01
 weight: 1
 type: class
 aliases: /info2/
@@ -18,7 +18,7 @@ courseNavExt:
 - title: Github
   link: https://github.com/htw-imi-info2
 ---
-
+asfa
 # Welcome!
 
 This course is an introduction to *algorithms and data structures*. It will be

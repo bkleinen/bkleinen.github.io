@@ -311,7 +311,7 @@ I picked out three textbooks:
     <h3 class="notes">Notes:</h3>
     <ul class="notes">
       <li id="item_L29GIDW8">
-<div><p>Cuvid is open during WS 2021/22 and contains all instructional videos that are also part of the Algorithms 1+2 Coursera Class.</p></div>
+<div><p>Cuvid is open during SS 2024 and contains all instructional videos that are also part of the Algorithms 1+2 Coursera Class.</p></div>
       </li>
     </ul>
     <h3 class="attachments">Attachments</h3>
