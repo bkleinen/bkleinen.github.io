@@ -4,7 +4,7 @@ short_title: Masterseminar
 author: kleinen
 weight: 4
 CourseNav: Overview
-draft: false
+draft: true
 courseNavExt:
 - title: Moodle 
   link: https://moodle.htw-berlin.de/course/view.php?id=44055

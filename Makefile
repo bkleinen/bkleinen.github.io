@@ -11,10 +11,10 @@ port=4242
 
 
 
-hugo :  hugo/node_modules open_ss24 # open_current # open_m1 # openH
+hugo :  hugo/node_modules open # open_current # open_m1 # openH
 -  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
 
-open_ss24:
+open:
 - open http://localhost:$(port)/~kleinen/classes/ss2024
 - open http://localhost:$(port)/~kleinen/classes/ss2024/info2
 
@@ -107,7 +107,7 @@ endif
 # -  open http://localhost:$(port)/
 openH :
 -  open http://localhost:$(port)/~kleinen
-open :
+openRoot :
 -  open http://localhost:$(port)
 openS :
 -  open http://localhost:4242/staging

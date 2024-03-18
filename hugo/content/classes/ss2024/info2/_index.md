@@ -1,11 +1,10 @@
 ---
 title: B7 Informatics 2 SS 2024
 author: kleinen
-date: 2024-04-01
 weight: 1
-type: class
-aliases: /info2/
-courseNav: Info2
+aliases: /info1/
+draft: true
+CourseNav: Info 2
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=33324
@@ -18,7 +17,7 @@ courseNavExt:
 - title: Github
   link: https://github.com/htw-imi-info2
 ---
-asfa
+
 # Welcome!
 
 This course is an introduction to *algorithms and data structures*. It will be

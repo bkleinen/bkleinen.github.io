@@ -5,6 +5,7 @@ date: 2022-04-01
 weight: 3
 CourseNav: M1 Lab
 aliases: /m1-web/
+draft: false
 courseNavExt:
 - title: Moodle
   link: https://moodle.htw-berlin.de/course/view.php?id=44494
