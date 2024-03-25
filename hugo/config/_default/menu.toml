@@ -88,6 +88,12 @@ pageref = '/studies/ic'
 weight = 20
 [[main]]
 parent = 'studies'
+identifier = '/studies/bafoeg/'
+name = 'Bafoeg'
+pageref = '/studies/bafoeg'
+weight = 25
+[[main]]
+parent = 'studies'
 identifier = '/studies/grading/'
 name = 'Grading Info'
 pageref = '/studies/grading'

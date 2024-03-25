@@ -29,10 +29,10 @@ Wenn Sie Unterstützung bei der Beantragung des Bafögs brauchen, kann ich Ihnen
 
 Leistungsbescheinigung nach &sect;48 Baf&ouml;g (Formblatt 5)
 -----------------
-- wenn es in Ihrem Studium keine nennenswerten Verzögerungen gab, d.h. Sie so gut wie alle Kurse des 4. Semesters haben und vorraussichtlich in der Regelstudienzeit abschliessen, können Sie beim Studentenwerk Berlin/Brandenburg direkt den vom Studierendenservice gestempelten LSF- Leistungsnachweis über die erreichten ECTS einreichen. Da gibt es eine Vereinbarung. Falls das nicht akzeptiert wird, bitten Sie bitte die Mitarbeiter/in sich mit mir in Verbindung zu setzen bzw. teilen mir das einfach per email mit, und ich hake nochmal nach.
+- wenn es in Ihrem Studium keine nennenswerten Verzögerungen gab, d.h. Sie so gut wie alle Kurse des 4. Semesters haben und vorraussichtlich in der Regelstudienzeit abschliessen, können Sie beim Studentenwerk Berlin/Brandenburg direkt den vom Studierendenservice gestempelten LSF- Leistungsnachweis über die erreichten ECTS einreichen. Da gibt es eine Vereinbarung (80 ECTS sind ausreichend, s.u.). Falls das nicht akzeptiert wird, bitten Sie bitte die Mitarbeiter/in sich mit mir in Verbindung zu setzen bzw. teilen mir das einfach per email mit, und ich hake nochmal nach.
 
-- falls es größere Verzögerungen in Ihrem Studium gab, sollten Sie sich beraten lassen / selbst nachlesen, da es, falls Sie Verlängerungsgründe haben, besser ist, diese schon jetzt und nicht erst später geltend zu machen! -
-hierzu finden Sie Informationen z.B. unter
+- falls es größere Verzögerungen in Ihrem Studium gab - und 80 von 120 ECTS ist ja eine Differenz von 40 ECTS - sollten Sie sich beraten lassen oder selbst nachlesen, wie Sie am Besten vorgehen. Falls Sie Gründe für die Verzögerung angeben können, die als Verlängerungsgründe für den Bafög-Bezug berücksichtigt werden, sollten Sie diese schon jetzt und nicht erst später geltend machen.
+Hierzu finden Sie Informationen z.B. unter
     - https://www.refrat.de/beratung.bafoeg.html?1401814142
     - https://www.bafoeg-rechner.de
 
