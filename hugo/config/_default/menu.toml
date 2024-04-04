@@ -31,28 +31,28 @@
 
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2023/info1'
-  name = 'B 1 Informatik 1'
-  pageref = '/classes/ws2023/info1'
+  identifier = '/classes/ss2024/info2'
+  name = 'B 1 Informatik 2'
+  pageref = '/classes/ss2024/info2'
   weight = 5
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2023/m1-web'
+  identifier = '/classes/ss2024/m1-web'
   name = 'M 1 Mediaprogramming'
-  pageref = '/classes/ws2023/m1-web'
+  pageref = '/classes/ss2024/m1-web'
   weight = 20
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2023/masterseminar'
+  identifier = '/classes/ss2024/masterseminar'
   name = 'M 17.1 Masterseminar'
-  pageref = '/classes/ws2023/m17-masterseminar'
+  pageref = '/classes/ss2024/m17-masterseminar'
   weight = 25
 
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ws2023'
-  name = 'All WS 2023/24'
-  pageref = '/classes/ws2023'
+  identifier = '/classes/ss2024'
+  name = 'All SoSe 2024'
+  pageref = '/classes/ss2024'
   weight = 40
 [[main]]
   parent = 'classes'

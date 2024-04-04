@@ -7,12 +7,21 @@
 .RECIPEPREFIX = -
 
 # default port
-port=4242
 
+port=4000
+hugo :  hugo/node_modules open # open_current # open_m1 # openH
+-  hugo --disableFastRender --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
 
+hugoP: port=4444
+hugoP :  hugo/node_modules open # open_current # open_m1 # openH
+-  hugo --disableFastRender --buildFuture --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
 
-hugo :  hugo/node_modules open_current # open_m1 # openH
--  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+openProd :
+-  open http://localhost:$(portP)/
+
+open:
+- open http://localhost:$(port)/~kleinen/classes/ss2024
+- open http://localhost:$(port)/~kleinen/classes/ss2024/info2
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1
@@ -58,9 +67,6 @@ hugoLC : hugo/node_modules
 
 
 
-hugoP : port = 4244
-hugoP : hugo/node_modules openH # as published; there might be differences as there are isServer queries
--  hugo --environment production --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/"  server --disableFastRender 
 
 hugoS : hugo/node_modules openS # staging; without drafts
 -  hugo --environment staging --source hugo -p 4242 server
@@ -99,11 +105,9 @@ ifneq ($(current_branch),main)
 - echo $(ERR)
 endif
 
-# openProd :
-# -  open http://localhost:$(port)/
 openH :
 -  open http://localhost:$(port)/~kleinen
-open :
+openRoot :
 -  open http://localhost:$(port)
 openS :
 -  open http://localhost:4242/staging

@@ -4,7 +4,6 @@ short_title: Masterseminar
 author: kleinen
 weight: 4
 CourseNav: Overview
-aliases: /m17-masterseminar/
 draft: false
 courseNavExt:
 - title: Moodle 
