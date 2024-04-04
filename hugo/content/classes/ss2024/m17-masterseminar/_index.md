@@ -3,14 +3,13 @@ title: M17.1 Masterseminar
 short_title: Masterseminar
 author: kleinen
 weight: 4
-CourseNav: Overview
+CourseNav: M17
 aliases: /m17-masterseminar/
-draft: true
 courseNavExt:
 - title: Moodle 
-  link: https://moodle.htw-berlin.de/course/view.php?id=44055
+  link: https://moodle.htw-berlin.de/course/view.php?id=48173
 - title: LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=194588&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204434&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Term Schedule in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&k_abstgv.dtxt=internationale&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
 ---

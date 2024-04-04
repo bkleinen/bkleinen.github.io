@@ -33,9 +33,9 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("02.04.2024"),
+  first_day: Date.parse("04.04.2024"),
   day_diff: 2,
-  two_lectures: true,
+  two_lectures: false,
   step: 7
 )
 # 1. Prüfungszeitraum 17.07.2023 – 05.08.2023

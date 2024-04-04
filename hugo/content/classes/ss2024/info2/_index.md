@@ -3,7 +3,8 @@ title: B7 Informatics 2 SS 2024
 author: kleinen
 weight: 1
 aliases: /info1/
-draft: true
+cascade:
+- draft: true
 CourseNav: Info 2
 courseNavExt:
 - title: Moodle

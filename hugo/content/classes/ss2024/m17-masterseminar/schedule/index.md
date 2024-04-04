@@ -4,48 +4,31 @@ author: kleinen
 weight: 20
 CourseNav: Schedule
 toc: false
-draft: false
 ---
 
-|  | 14 | Mon 01/04/2024 | Ostermontag
-|1 | 15 | Mon 08/04/2024 |
-|2 | 16 | Mon 15/04/2024 |
-|3 | 17 | Mon 22/04/2024 |
-|4 | 18 | Mon 29/04/2024 |
-|5 | 19 | Mon 06/05/2024 |
-|6 | 20 | Mon 13/05/2024 |
-|  | 21 | Mon 20/05/2024 | Feiertag
-|7 | 22 | Mon 27/05/2024 |
-|8 | 23 | Mon 03/06/2024 |
-|9 | 24 | Mon 10/06/2024 |
-|10 | 25 | Mon 17/06/2024 |
-|11 | 26 | Mon 24/06/2024 |
-|12 | 27 | Mon 01/07/2024 |
-|13 | 28 | Mon 08/07/2024 |
-|14 | 29 | Mon 15/07/2024 |
-|15 | 30 | Mon 22/07/2024 |
-|16 | 31 | Mon 29/07/2024 |
+This Term, the Masterseminar will be held with three Day-Long Meetings
+in Person @ HTW Wilhelminenhof and Zoom-Sessions.
 
-
-| Week | KW | Date           | Lecture Topic                                                              |
-|:-----|:---|:---------------|:---------------------------------------------------------------------------|
-|      | 40 | Tue 03/10/2023 | -- Feiertag: no class --                                                   |
-| 1    | 41 | Tue 10/10/2023 | Introduction                                                               |
-| 2    | 42 | Tue 17/10/2023 | Planung                                                                    |
-| 3    | 43 | Tue 24/10/2023 | Zeitplanung, Literaturliste, Zitieren                                      |
-| 4    | 44 | Tue 31/10/2023 | Wissenschaftliches Schreiben "How to..." Blockaden etc. / bis dahin Journal Club Paper raussuchen                  |
-| 5    | 45 | Tue 07/11/2023 | -ausgefallen-                                                 |
-| 6    | 46 | Tue 14/11/2023 |   \*\*  Lightning Talks "Fokus"  + **Journal   Club**                                      |
-| 7    | 47 | Tue 21/11/2023 | Kolloquium - Präsentationsstruktur Planen Vorbereitung Schwerpunkt Theorie |
-| 8    | 48 | Tue 28/11/2023 | Q+A 30 min 1/2 Termin & Wie macht man wiss. Umfragen?                                                     |
-| 9    | 49 | Tue 05/12/2023 | \*\* **Talks 1/2** (Pflicht),  Q+A 30min                                            |
-| 10   | 50 | Tue 12/12/2023 |  \*\* **Journal Club second edition**                                    |
-| 11   | 51 | Tue 19/12/2023 | Glühwein und Ethik                                                         |
-|      | 52 | Tue 26/12/2023 | -- no class -- Winterpause                                                 |
-| 12   | 1  | Tue 02/01/2024 | e-learning (TBD)                                                           |
-| 13   | 2  | Tue 09/01/2024 |\*\* Zitieren, **gegenseitig textteile lesen** (Pflicht)                                                                   |
-| 14   | 3  | Tue 16/01/2024 | \*\* **Talks 2/2** (Pflicht),   Q&A 30min                                           |
-| 15   | 4  | Tue 23/01/2024 | TBD                                                                        |
-| 16   | 5  | Tue 30/01/2024 | TBD                                                                        |
-
-
+| Week | KW  | Date           | Time                            |
+| :--- | :-- | :------------- | :-| :------------------------- |
+| 1    | 14  | Thu 04/04/2024 | 17:00-18:30 | Zoom           |
+| 2    | 15  | Thu 11/04/2024 |                            |
+| 3    | 16  | **Mon 15/04/2024** | **09:00-18:00** | **1. Blocktermin** |
+|      |     | Thu 18/04/2024 |                            |
+| 4    | 17  | Thu 25/04/2024 | 17:00-18:30 | Zoom           |
+| 5    | 18  | Thu 02/05/2024 | 
+|      | 19  | Thu 09/05/2024 | | *Himmelfahrt*               |
+| 6    | 20  | Thu 16/05/2024 |                            |
+|    |   | **Fri 17/05/2024** | **09:00-18:00** | **2. Blocktermin** |
+| 7    | 21  | Thu 23/05/2024 | 17:00-18:30 | Zoom           |
+| 8    | 22  | Thu 30/05/2024 |                            |
+| 9    | 23  | Thu 06/06/2024 | 17:00-18:30 | Zoom           |
+| 10   | 24  | Thu 13/06/2024 |                            |
+| 11   | 25  | Thu 20/06/2024 |                            |
+| 12   | 26  | Thu 27/06/2024 | 17:00-18:30 | Zoom           |
+| 13   | 27  | Thu 04/07/2024 |                            |
+| 14   | 28  | **Mon 08/07/2024** | **09:00-18:00** | **3. Blocktermin** |
+|    |   | Thu 11/07/2024 |                            |
+| 15   | 29  | Thu 18/07/2024 | 17:00-18:30 | Zoom           |
+| 16   | 30  | Thu 25/07/2024 |                            |
+| 17   | 31  | Thu 01/08/2024 | 17:00-18:30 | Zoom           |
