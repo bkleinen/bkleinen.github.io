@@ -17,6 +17,7 @@ Die Projekte werden NUR beim Projektvergabetermin verteilt! D.h. um an einem Pro
 1. Intro und Organisatorisches (ca. 15 min)
 2. Projekt-Pitches: Die Projektbetreuer:innen stellen die Projekte in jeweils 5-8 min vor und beantworten Fragen zum Projekt
 3. Projektverteilung: Studierende können in ausgeloster Reihenfolge das Projekt wählen. Wenn ihr Wunschprojekt keine Plätze mehr hat, muss eine Alternative gewählt werden.
+4. Projektgruppen und Projektbetreuer_innen tauschen Kontaktinformationen aus und legen Termine für die wöchentlichen Projektbesprechungen fest. Es hat sich bewährt, dass sich die Projektgruppe einen Tag pro Woche z.B. in einem unserer Projekträume (siehe Wiki) gemeinsam arbeitet, auch hierfür sollten die Termine möglichst sofort festgelegt werden. 
 
 ### Todos nach der Projektvergabe
 
