@@ -1,0 +1,13 @@
+
+{{- $sem := .Get "semester" -}}
+{{ range $.Site.Data.showtime.projects.s24 }}
+  {{ $projects := . }}
+##### Bachelor-Projekte
+{{ range $projects.bachelor}}
+{{ upper .id  }}: {{ .title }} ({{ .lp }})
+{{ end}}
+##### Master-Projekte
+  {{ range $projects.master}}
+  {{ upper .id  }}: {{ .title }} ({{ .lp }})
+{{ end }}
+{{ end }}

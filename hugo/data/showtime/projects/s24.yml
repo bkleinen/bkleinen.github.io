@@ -1,0 +1,45 @@
+projects:
+  bachelor:
+    - id: b1
+      lp: Tobias Lenz
+      title: Infinite Zom in 3D 
+    - id: b2
+      lp: Barne Kleinen
+      title: Digital Signage für den Makerspace
+    - id: b3
+      lp: David Koschnick
+      title: Entwicklung einer Anwendung zur zyklusadaptierten Leistungsoptimierung im Sport
+    - id: b4
+      lp: Jakob Panten, Tilo Nitze
+      title: "AI-driven product research agent: Enable informed decisions on idealo"
+    - id: b5
+      lp: Martin Singer
+      title: PAM - Process Modelling and Management (Weiterentwicklung des Tools)
+    - id: b6
+      lp: Alexander Kramer
+      title: AR und Videomapping
+
+  master:
+    - id: m1
+      lp: David Müller
+      title: "Gaming for Future II: Turning the simulation into a game"
+
+    - id: m2
+      lp: Carsten Busch
+      title: "Food4Future: Interaktive Lernanwendung(en) für die Nahrung der Zukunft"
+
+    - id: m3
+      lp: David Koschnick
+      title: MindCraft - Entwicklung einer Serious Game-Suite zur Förderung der kognitiven Leistungsfähigkeit bei psychischen Erkrankungen
+
+    - id: m4
+      lp: Kara Engelhardt
+      title: Frag den Staat - Organigramm
+
+    - id: m5
+      lp: Timo Walter
+      title: "CapSearch: Interne Job-Suchmaschine"
+
+    - id: m6
+      lp: Tobias Lenz
+      title: Finde 10 Unterschiede - Ein Rätselklassiker mit prozeduralem Inhalt dank moderner Bilder-KI

@@ -34,7 +34,7 @@
 {{ end }}
 
 {{ if (eq "class" (.Scratch.Get "type")) }}
-{{ .Scratch.Set "classes_page_title" "Overview" }}
+{{ .Scratch.Set "classes_page_title" "" }}
 {{ else }}
 {{ .Scratch.Set "classes_page_title" .Title }}
 {{ end }}

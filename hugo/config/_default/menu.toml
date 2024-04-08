@@ -37,6 +37,12 @@
   weight = 5
 [[main]]
   parent = 'classes'
+  identifier = '/classes/ss2024/projects'
+  name = 'Praxisprojekte'
+  pageref = '/classes/ss2024/projects'
+  weight = 10
+[[main]]
+  parent = 'classes'
   identifier = '/classes/ss2024/m1-web'
   name = 'M 1 Mediaprogramming'
   pageref = '/classes/ss2024/m1-web'
