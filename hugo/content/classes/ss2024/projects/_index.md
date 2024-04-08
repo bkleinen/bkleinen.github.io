@@ -17,8 +17,6 @@ courseNavExt:
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204920&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 ---
 
-## Übersicht Organisation Praxisprojekte & Showtime
-
 ### Wichtige Termine:
 - Mi. 10.04.2024 12:15 Bachelor und 14:00 Master: **[Projektvergabe](https://wiki.htw-berlin.de/confluence/display/fb4imi/Projekte+im+SoSe+2024)**
 - TBD: Showtime Kick-Off (üblicherweise im Rahmen des Kurses Projektmanagement (B), Master werden dazu eingeladen)
