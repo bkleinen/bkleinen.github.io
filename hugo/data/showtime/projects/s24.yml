@@ -1,0 +1,44 @@
+b1:
+  lp: Tobias Lenz
+  title: Infinite Zom in 3D 
+b2:
+  lp: Barne Kleinen
+  title: Digital Signage für den Makerspace
+b3:
+  lp: David Koschnick
+  title: Entwicklung einer Anwendung zur zyklusadaptierten Leistungsoptimierung im Sport
+b4:
+  lp:
+    - Jakob Panten
+    - Tilo Nitze
+  title: AI-driven Product Research Agent
+b5:
+  lp: Martin Singer
+  title: PAM - Process Modelling and Management (Weiterentwicklung des Tools)
+b6:
+  lp: Alexander Kramer
+  title: AR und Videomapping
+
+m1:
+  lp: David Müller
+  title: "Gaming for Future II: Turning the simulation into a game"
+
+m2:
+  lp: Carsten Busch
+  title: "Food4Future: Interaktive Lernanwendung(en) für die Nahrung der Zukunft"
+
+m3:
+  lp: David Koschnick
+  title: MindCraft - Entwicklung einer Serious Game-Suite zur Förderung der kognitiven Leistungsfähigkeit bei psychischen Erkrankungen
+
+m4:
+  lp: Kara Engelhardt
+  title: Frag den Staat - Organigramm
+
+m5:
+  lp: Timo Walter
+  title: "CapSearch: Capgemini Interne Job-Suchmaschine"
+
+m6:
+  lp: Tobias Lenz
+  title: Finde 10 Unterschiede - Ein Rätselklassiker mit prozeduralem Inhalt dank moderner Bilder-KI

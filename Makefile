@@ -21,7 +21,6 @@ openProd :
 
 open:
 - open http://localhost:$(port)/~kleinen/classes/ss2024
-- open http://localhost:$(port)/~kleinen/classes/ss2024/info2
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1
