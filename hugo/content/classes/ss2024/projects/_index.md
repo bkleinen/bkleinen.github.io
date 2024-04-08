@@ -3,7 +3,7 @@ title: Praxisprojekte und Showtime im SoSe 2024
 author: kleinen
 weight: 3
 cascade:
-- draft: true
+- draft: false
 CourseNav: Praxisprojekte
 aliases: /projects/
 courseNavExt:

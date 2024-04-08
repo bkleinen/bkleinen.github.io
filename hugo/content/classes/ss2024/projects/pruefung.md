@@ -5,8 +5,6 @@ weight: 30
 CourseNav: Benotung
 ---
 
-### Benotung und Modulprüfung
-
 Das Modul Praxisprojekt besteht sowohl im Bachelor als auch im Master zwei benoteten Teilmodulprüfungen - der Durchführung und der Showtime. Im Bachelor kommt Projektmanagement als undifferenziert bewertetes Teilmodul dazu:
 
 #### Bachelor
