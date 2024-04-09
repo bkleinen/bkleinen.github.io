@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 13: Scrabble Cheater - Deluxe'
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
 ## Pre-Lab

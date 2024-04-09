@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 12: Scrabble Cheater - Basic Edition '
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
  ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")

@@ -2,6 +2,7 @@
 title: 'Info2: Exercise 07: Recursive Triangles'
 author: kleinen
 layout: lab
+draft: true
 ---
 
 ![Machine](../images/SierpinskiTriangle.png "Sierpinski Triangle")
