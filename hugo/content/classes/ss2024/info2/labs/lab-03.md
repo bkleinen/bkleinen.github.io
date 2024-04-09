@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 03: Histogram '
+title: 'Info2: Exercise 02: Implementing CRC Cards'
 author: kleinen
 layout: lab
 draft: true
@@ -7,70 +7,90 @@ draft: true
 
 ## Learning Goals
 
-After this lab you should be able to agree with each of the following statements.
+After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab. 
 
-I can handle File-based IO with Java:
-* I can read from a text file using a Reader, eg. BufferedReader. 
-* I can write to a text file using a Writer, eg. BufferedWriter. 
-* I close my streams after I finished reading or writing. 
-* I can use try-with-resources to make sure that in the end, a resource is always closed
+I remember programming concepts concerning classes and objects:
+* I know the difference between classes and objects. 
+* I can instantiate an object. 
 
-I can handle Exceptions:
-* When a method could throw an exception, I know how to handle it with a try-catch-block. 
-* When a method could throw an exception, I know how to pass it on to whatever calls the method. 
-* I can throw a fitting exception (eg. IllegalArgumentException) if I detect user input that does not fit my use case. 
-* I can look up exceptions I don't know yet in the Java Documentation 
+I remember programming concepts concerning fields and variable types:
+* I can add fields to a class. 
+* I can manage modification of fields with mutator methods. 
+* I can manage reading of fields with accessor methods. 
+* I can use collections for storing elements. 
+* I am familiar with the idea of a linked list. 
+* I am familiar with the idea of a map. 
 
-I can effectively use the data type "char":
-* I know how to cast a char to an int. 
-* I know how to cast an int to a char. 
-* I know how to normalize a letter from the alphabet. 
-* I can find out which letter corresponds to which ASCII code and vice versa. 
+I remember programming concepts concerning methods:
+* I can define the return type of a method. 
+* I can set the visibility modifier of a method. 
+* I can add parameters to a method signature. 
+* I can call methods of objects. 
+* I can call static methods of classes. 
+
+I remember concepts concerning program design:
+* I use separate classes for separate concerns. 
+* I can abstract from concrete scenarios. 
+* I can apply modularization, creating classes that can be reused in various scenarios. 
+* I have a strategy for refactoring given code to make it fit new needs. 
 
 ## Pre-Lab
-Please think through the following questions before coming to the lab. Write down your answers and be prepared to answer them in class.
 
-***P1.***  In some programming languages, such as Ada, you can define an array of characters with any discrete type as the index:
+This exercise builds on the design you did last week using CRC cards. Please think through the following questions together with your team before coming to the lab and write down your answers somewhere.
 
-        someArray : ARRAY ['A' .. 'Z'] of INTEGER;
+***P1.*** What part of the data do you need to save in order to persist the game status for one player?
 
-You can then access the array, for example, using a value of character type: someArray['T']. Java does not have this feature. How would you go about making an array in Java for representing counters for the letters 'A' to 'Z'?
+***P2.***  Re-consider your CRC cards and sort the requirements in sections that should be implemented together,
+e.g. because they all deal with Items or with Exits.
 
-***P2.*** Normalization of Strings means transforming all Strings to either uppercase or lowercase before comparing them. Write a method that takes a character as a parameter and returns a normalized version of the character without using the methods available in the Java String class.
+***P3.*** Prepare a prioritized subset of features that you would like to implement.
 
-***P3.*** What is a "carriage return"? Where does the name come from?
-
-***P4.*** What is a "histogram" again?
+You will only need to implement a part of the requested features (the bored may do all if they wish).
 
 ## Assignment
 
-1. Write and test a method that returns the next character in a file. Note that you have to do something with the carriage returns - such as ignoring them - and that you have to decide what to do when there are no characters to be returned. Make sure that you will be able to read large files, as well.
+*Note: Remember to use GitLab for the development of your project. Clone the source project, add a new project in GitLab 
+and push to that project like it was done in Lab00.*
 
-2. Find out how to write a String to a file, how to write an Integer and an int to a file. Find out how to create a file.
+1. Compare and Discuss your CRC Cards with other teams during the Lab.
 
-3. Now the fun begins! Write a Java application to read in a file character by character, counting the frequencies with which each normalized character occurs. When there are no more characters, create a file frequency.txt and output the frequencies for each character. Note that you should only count the ASCII characters between 'A' and 'Z' and 'a' and 'z', using the char type.
+2. Implement the features you prepared with CRC Cards in the [previous lab]({{<ref "./lab-01/#cool-zuul">}} "Lab 01").
 
-4. Write a test method to see whether your program counts correctly. The test method can contain multiple test cases. For testing it is useful to have a count() method that counts from a parameter of a type that you can feed both a String to from the tests as well as an input source from a file. [Reader](https://docs.oracle.com/javase/7/docs/api/java/io/Reader.html) is one possible solution, use it with a [BufferedReader](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html) for reading the file, and with a [StringReader](https://docs.oracle.com/javase/7/docs/api/java/io/StringReader.html) from the tests:
+3. You may team up with other teams to implement parts of the whole feature set together, which will
+   require agreement on the design and some communication about the exact interfaces (method signatures) of
+   shared classes.
 
-        ```public void count(Reader reader)```
+4. Make sure that all your code is within one or two or more neatly named *packages* and you have at least one unit test.
 
-5. Write a method that returns the most frequent character, include a test for it.
+### Important Notes
 
-6. Output a histogram of the character frequencies. One simple kind of histogram has horizontal lines proportional to the magnitude of the number it represents. For example:
+- If you implement a **Multiplayer**  
+  A note on the Multiple Players requirement: we will turn CoolZuul in a real
+  online multiplayer dungeon using threads and socket communication in
+  {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}.  
 
-        A : **********
-        B : *****
-        C : ******
+  For this lab, if you chose to implement the multiplayer requirement, it suffices if you prepare this by implementing a
+  mechanism to store multiple players in the game and the notion of executing
+  all commands in the context of an active player.  
 
-7. Try out your program with a big file, fpr example the 1M english news file from the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download).
+  If you want to try it out, you might add a command "player xy" which switches
+  to the player with the (user)name xy.
 
-## For the bored
+- If you implement **Persistence**  
+  The repository already contains a mechanism to load the world from a [YAML](https://en.wikipedia.org/wiki/YAML)
+  file and store it back. You can and should extend this solution.
 
-8. Extend your program such that it either takes input and output file names as
-parameters, or use standard in  and standard out if no parameters were given.
+### For the bored:
+
+5. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
+   the work of several teams to get a full solution.
+
+## Repository for this lab
+
+[https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Additional requirements for this lab:
-* Answer the following questions: What is the complexity of your program? Why?
+* Answer the following questions: Did you end up using all of the classes you specified? Did you miss any classes? Discuss!

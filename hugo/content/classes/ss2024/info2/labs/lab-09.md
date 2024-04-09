@@ -1,57 +1,53 @@
 ---
-title: 'Info2: Exercise 09: Probabilistic Algorithms'
+title: 'Info2: Exercise 08: Eight Queens'
 author: kleinen
 layout: lab
 draft: true
 ---
 
 ## Pre-Lab
-***P1.*** How do you compute the area of a circle and a rectangle?
+***P1.*** Make a chess board and mark how a Queen moves and threatens.
 
-***P2.*** Draw an circle that matches exactly into a square. How do the areas of the
-circle and the square relate to each other?
+***P2.*** Define a matrix (two-dimensional array) of integers in Java. Write a method to put a *-1* in every cell of the matrix.
 
-***P3.*** How can you represent points in a plane?
+***P3.*** Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
+      a) the cells are in the same row?
+      b) the cells are in the same column?
+      c) the cells are in the same ascending diagonal (lower left to upper right)?
+      d) the cells are in the same descending diagonal (upper left to lower right)?
 
-***P4.*** Prepare a sketch with formulas about the ratio of the areas and how to determine
-if a given point in the square is as well within the circle.
+***P4.*** Implement the recursive solution to the *Towers of Hanoi* so that you can review how recursion works using the debugger.
 
 ## Assignment
+Our goal is to write a program to determine if 8 queens can be placed on an 8 x 8 chess board without them threatening each other!
 
-### Part I: Computation of Pi
-Use an probabilistic algorithm to approximate the Number Pi:
-1. prepare a method computePi that takes an integer parameter for the number of
-random points to consider.
-2. create a method that creates a random point within the square bounds.
-3. for each point, determine wether it is also within the circle - create a third
-method for that.
-4. complete your method computePi: calculate the ratio of points within the circle to the whole number of points within the
-square approximates the ratio of the areas. Use it to approximate Pi.
-5. make a statistic about how many accurate digits of Pi you get for how many
-random points.
+1. Decide how to represent a chess board with a data structure. Don't worry about the colors of the board yet. Write a Chessboard class. What methods will you need?
 
-### Part II: Dining Philosophers
-Using Threads, create a simple simulation for the Dining Philosophers Problem:
-1. For each Philosopher, create a Thread within this Philosopher dines. The implementation
-should just create some outputs like:
-    ```
-        Philosopher 1 takes his right fork.
-        Philosopher 1 takes his left fork.
-        Philosopher 1 eats.
-        Philosopher 1 puts down his right fork.
-        Philosopher 1 puts down his left fork.
-              ...or...
-        Philosopher 1 takes his right fork.
-        Philosopher 1 waits for left fork.
-    ```
-2. Test your implementation to find out whether it could lead to a deadlock.
-3. Provide more implementations with a sensible way to switch between them;
-at least one creating a deadlock and one using a probabilistic solution to avoid the
-deadlock.
+2. Write a method for determining if the current board state contains a queen that is threatening another one. If the complexity in terms of N (rows on the board) of your algorithm is worse than linear, try to improve your algorithm.
+
+3. We speak of "backtracking" when we go back to a previous state and try a different branch. Use some coins on your paper chess board to figure out what to do when you reach a state in which one queen is threatened by another. There are iterative, recursive, and random solutions to this problem. Try and implement a recursive solution.
+
+4. Now implement a search routine that looks for a state in which the queens don't threaten each other. If there is a solution, print it to System.out. If there is more than one solution, print them as well.
+
+## For the bored
+5. Design a Chessboard GUI with a queen figure. Output the result of the program using your Chessboard GUI.
+
+6. Animate the search by showing the positions as they are tested, illuminating the threats. How long does it take to show such an attempt? How long will the program need for the exhaustive search?
+
+7. How many knights can be put on an 8 x 8 board without threatening each other?
+
+8. For which N is it possible to put N queens on an N x N board? Example: 2 queens cannot be placed on a 2 x 2 board, 3 cannot be placed on a 3 x 3 board. But 4 queens can be placed on a 4 x 4 board, for example at B1, D2, A3, C4. Can you prove this?
 
 ## Lab Report / What to turn in
+
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
-* Part I, Ex. 5: How many accurate digits of Pi you get for how many random points? Report your statistic.
-* Part II, Ex. 2: Can your current implementation lead to a deadlock? Why?
+
+* Ex. 2: What is the complexity of your final method in terms of N (the number of rows on the board)? Did you need to improve your algorithm?
+
+* Ex. 4: Does your program work for 10 queens on a 10 x 10 board? 13 on a 13 x 13 board?
+
+----
+
+based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW

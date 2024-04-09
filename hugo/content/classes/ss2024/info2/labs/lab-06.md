@@ -1,75 +1,127 @@
 ---
-title: 'Info2: Exercise 06: Reverse Polish Notation'
+title: 'Info2: Exercise 05: Execution times'
 author: kleinen
 layout: lab
 draft: true
 ---
 
+## Learning Goals
+
+After this lab you should be able to agree with each of the following statements.
+
+I can evaluate the efficiency of algorithms:
+* I understand the correlation between input and running time for different program structures
+* I can use big-o-notation to describe the running time of algorithms
+* I can calculate the running time of algorithms by adding up running times of different structures
+* I can compare running times based on their running time in big-o-notation
+
 ## Pre-Lab
 
-***P1.*** Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the [hand out](../lab-06-handout).
+***P1.*** Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
 
-***P2.*** What is the order of precedence for the operators "+", "-", "\*", "/", "^"? If we wanted to include "(" and ")" in this order, where would each of them be?
+a) Which program has the better guarantee on the running time for large values of N (N > 10 000)?
 
-***P3.*** &#321;ukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
+b) Which program has the better guarantee on the running time for small values of N (N < 100)?
 
-1. 1 * 2 + 3
-2. 1 + 2 * 3
-3. 1 + 2 - 3 ^ 4
-4. 1 ^ 2 - 3 * 4
-5. 1 + 2 * 3 - 4 ^ 5 + 6
-6. ( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )
-7. 1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )
-8. 9 - 1 - 2 - 3 * 2 - 1
-  
+c) Which program will run faster on average for N = 1000?
 
-***P4.*** For the infix expression `a + b ^ c * d ^ e ^ f - g - h / ( i + j )`, do the following:
+d) Is it possible that program B will run faster than program A on all possible inputs?
 
-1. Show how to generate the corresponding postfix expression.
-2. Show how to evaluate the resulting postfix expression.
+***P2.*** An algorithm takes 0.5 ms for input size 100. How long will it take for input size 500 if the running time is the following:
 
-***P5.*** Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.
+a) linear
+
+b) O (N log N)
+
+c) quadratic
+
+d) 4. cubic
+
+***P3.*** An algorithm takes 0.5 ms for input size 100. How large a problem can be solved in 1 min if the running time is the following:
+
+a) linear
+
+b) O (N log N)
+
+c) quadratic
+
+d) cubic
+
+***P4.*** Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
+- N
+- square root of N
+- N<sup>1.5</sup>
+- N<sup>2</sup>
+- N log N
+- N log log N
+- N log2 N
+- N log (N<sup>2</sup>)
+- 2/N
+- 2N
+- 2N/2
+- 37
+- N<sup>3</sup>
+- N<sup>2</sup> log N
+
 
 ## Assignment
 
-### Preparation
-1. Read through all of the exercises before starting.
-2. You can use this IntelliJ project [Lab06_ReversePolishNotation](https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab06_reversepolishnotation) as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces. Clone the repo and set it as upstream, while creating a new repo for you to work with in this week's GitLab folder.
-3. This is a lot of work, so I suggest that your group works on exercise 1 and exercise 2 in parallel. So split up the work.
-4. For each of the parallel exercises, create a separate git branch to work on (after you cloned the project, do `git checkout -b "stack-class"` ("stack-class" could be a name for a branch, but you could name it anything).
-5. After you both finished, push your branch and on GitLab, create a pull request (aka merge request).
-6. Merge the two branches into `master`, one after the other. If you find merge conflicts you will need to resolve them.
-7. Then you get back together to do the remaining exercises.
+### Part 1: Analysis of Algorithms
+For each of the following seven program fragments, do the following:
 
-### Part 1: Stack Class
-  - Implement a class Stack.java as discussed in the lecture, using a *linked list* of objects that you implement yourself.
-  - Your class should include both an exception on stack underflow as well as stack overflow.
-  - Override the ```toString()```method to provide a useful way of printing a stack.
-  - Now make it generic, so it can take values of any type. Coordinate your interface with your partner.
+1. Do a Big-Oh analysis of the running time.
+2. Implement the code in a simple main class and run it for several interesting values of N.
 
-  Attention:
-  - Don't use the Stack or LinkedList that is already available in the Java Collections Library.
-  - Try and type it in yourself, not just copy the handout.
+#### Code Fragments
 
-### Part 2: Postfix Class
-  - Implement a class ```Postfix.java```that has a method public int evaluate (String pfx){...}
-  that takes a `String` representing a postfix expression and determines the value represented by that expression.
-  You will need to access the individual characters of the string and store them in a stack.
-  This is necessary for the evaluation, luckily your partner is currently in the process of making a stack.
-  - Build a testclass and check the postfix expressions you did in the finger exercises. If there is a difference between the value computed and the value expected, either you were wrong, or the implementation is wrong or both.
+     // Fragment #1
+     for ( int i = 0; i < n; i ++)
+         sum++;
 
-***Do not go on before you are sure that this is working correctly!***
+     // Fragment #2
+     for ( int i = 0; i < n; i ++)
+         for ( int j = 0; j < n; j ++)
+             sum++;
 
-### Part 3: Infix to Postfix
-Now add another method to the ```Postfix.java```class: ```public String infixToPostfix (String ifx){...}``` that converts an infix expression which is presented as a ```String```to a``` String```representing a postfix expression. Throw an exception if your input is not well-formed.
+     // Fragment #3
+     for ( int i = 0; i < n; i ++)
+         for ( int j = i; j < n; j ++)
+             sum++;
 
-### Part 4: UI
-Now add another method that reads a string from the console, evaluates the result and prints the result to the console.
+     // Fragment #4
+     for ( int i = 0; i < n; i ++)
+         sum ++;
+         for ( int j = 0; j < n; j ++)
+             sum ++;
 
-## For the bored
-  5. Once this works for digits, go on and parse multidigit ```Integers``` out of the ```String```. Can you do it for ```double```  values as well? If you are still bored, parse mixed expressions (```doubles```  and ```ints```  in the same expression).
+     // Fragment #5
+     for ( int i = 0; i < n; i ++)
+         for ( int j = 0; j < n*n; j ++)
+         sum++;
 
-  6. How can you convert prefix to postfix? Find an algorithm and implement it. Can you handle unary operators like - or ! as well?
+     // Fragment #6
+     for ( int i = 0; i < n; i ++)
+         for ( int j = 0; j < i; j ++)
+             sum++;
+
+     // Fragment #7
+     for ( int i = 1; i < n; i ++)
+         for ( int j = 0; j < n*n; j ++)
+             if (j % i == 0)
+                for (int k = 0; k < j; k++)
+                    sum++;
+
+### Part 2: Prime Numbers
+A  *prime number* has no factors besides 1 and itself. Do the following:
+
+3. Write a simple method `public static bool isPrime (int n) {...}` to determine if a positive integer N is prime.
+4. Compare the running times needed to determine if a 20-bit number and a 40-bit number are prime by running 100 examples of each through your program.
+
+### For the bored:
+
+The Sieve of Eratosthenes is a method used to compute all primes less than N. Begin by making a table of integers 2 to N.
+Find the smallest integer i that is not crossed out - i is prime! (you might want to print it here to see the progress, but really you shouln't mix output within the algorithm) - and cross out all multiples of i (i , 2i , 3i , ....)
+Terminate when i is greater than the square root of N. The running time has been shown to be O (N log log N). Write a program to implement the Sieve and verify that the running time is as claimed. If you are *really* bored, animate this with a GUI like on the Wikipedia!
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
@@ -77,6 +129,11 @@ All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}})
 Also answer the following questions in your report.
 
 Additional questions for part 1:
-- Will you really need both exceptions? Why or why not?
+- Which are interesting values for N?
+- Compare your analysis with the actual number of steps (i.e. the value of sum after the loop).
 
-Please do not put answers for the pre-lab into the lab report. I will not look at them. The lab is for discussing the pre-lab.
+Additional questions for part 2:
+- In terms of N, what is the worst-case running time of your program?
+- Let B equal the number of bits in the binary representation of N. What is relationship between B and N?
+- In terms of B, what is the worst-case running time of your program?
+- Present the results of your experiment

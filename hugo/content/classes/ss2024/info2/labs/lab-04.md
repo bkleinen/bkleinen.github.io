@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 04: Chatterbox'
+title: 'Info2: Exercise 03: Histogram '
 author: kleinen
 layout: lab
 draft: true
@@ -9,60 +9,68 @@ draft: true
 
 After this lab you should be able to agree with each of the following statements.
 
-I can use the Socket API for TCP connections:
-* I can create a server that listens for and accepts connections
-* I can create a client that makes a connection request to the server
-* I can send text from a client to a server via streams
-* I can send text from a server to a client via streams
-* I can use multithreading to simultaneously process tcp requests and input from the user
-* (if you do the "for the bored" part: I can use multithreading for the server to handle multiple connection requests)
+I can handle File-based IO with Java:
+* I can read from a text file using a Reader, eg. BufferedReader. 
+* I can write to a text file using a Writer, eg. BufferedWriter. 
+* I close my streams after I finished reading or writing. 
+* I can use try-with-resources to make sure that in the end, a resource is always closed
+
+I can handle Exceptions:
+* When a method could throw an exception, I know how to handle it with a try-catch-block. 
+* When a method could throw an exception, I know how to pass it on to whatever calls the method. 
+* I can throw a fitting exception (eg. IllegalArgumentException) if I detect user input that does not fit my use case. 
+* I can look up exceptions I don't know yet in the Java Documentation 
+
+I can effectively use the data type "char":
+* I know how to cast a char to an int. 
+* I know how to cast an int to a char. 
+* I know how to normalize a letter from the alphabet. 
+* I can find out which letter corresponds to which ASCII code and vice versa. 
 
 ## Pre-Lab
-Write down the code for the following questions and be able to explain what is happening.
+Please think through the following questions before coming to the lab. Write down your answers and be prepared to answer them in class.
 
-***P1.*** How do you set up a connection with Sockets between two computers in Java?
+***P1.***  In some programming languages, such as Ada, you can define an array of characters with any discrete type as the index:
 
-***P2.*** Write a method to read from a connection in Java.
+        someArray : ARRAY ['A' .. 'Z'] of INTEGER;
 
-***P3.*** Write a method to write to a connection in Java.
+You can then access the array, for example, using a value of character type: someArray['T']. Java does not have this feature. How would you go about making an array in Java for representing counters for the letters 'A' to 'Z'?
 
-***P4.*** How do you create concurrent threads?
+***P2.*** Normalization of Strings means transforming all Strings to either uppercase or lowercase before comparing them. Write a method that takes a character as a parameter and returns a normalized version of the character without using the methods available in the Java String class.
 
-Note: use the plain TCP Socket and ServerSocket classes for this exercise!
-See:
-[Lesson: All About Sockets (The Java™ Tutorials > Custom Networking)](https://docs.oracle.com/javase/tutorial/networking/sockets/index.html)
+***P3.*** What is a "carriage return"? Where does the name come from?
+
+***P4.*** What is a "histogram" again?
 
 ## Assignment
 
-Note that you can also use telnet to test your Server implementations without
-having the Client ready.
+1. Write and test a method that returns the next character in a file. Note that you have to do something with the carriage returns - such as ignoring them - and that you have to decide what to do when there are no characters to be returned. Make sure that you will be able to read large files, as well.
 
-### Step 1: Client sends messages to Server
-1. Start your chatterbox by writing a method that listens for a Socket connection on a port. This is your Chatterbox server. For now, just echo what you have read to the console.
-2. Now write a client that connects to it and writes to a port.
-3. Test your methods on your own machine.
-4. If you are not in the lab with the others: Follow the instructions to connect to an HTW lab computer at https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/ and copy your code onto your lab computer. It is recommended you use a ganymed computer. Share your address and port with others and see whether you can chat with each other. You might need to change the default ports of your program to ports between 8000 and 8010.
+2. Find out how to write a String to a file, how to write an Integer and an int to a file. Find out how to create a file.
 
-### Step 2: Server can send message
-5. Extend your Server such that you can enter messages on the Server side as well, and extend your Client to receive and display those messages.
+3. Now the fun begins! Write a Java application to read in a file character by character, counting the frequencies with which each normalized character occurs. When there are no more characters, create a file frequency.txt and output the frequencies for each character. Note that you should only count the ASCII characters between 'A' and 'Z' and 'a' and 'z', using the char type.
 
-### Step 3: Simultaneous sending and receiving
-6. Now extend your Chatterbox such that it can *simultaneously* receive and send messages using Java Threads.
+4. Write a test method to see whether your program counts correctly. The test method can contain multiple test cases. For testing it is useful to have a count() method that counts from a parameter of a type that you can feed both a String to from the tests as well as an input source from a file. [Reader](https://docs.oracle.com/javase/7/docs/api/java/io/Reader.html) is one possible solution, use it with a [BufferedReader](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html) for reading the file, and with a [StringReader](https://docs.oracle.com/javase/7/docs/api/java/io/StringReader.html) from the tests:
 
-### Step 4: Make Zuul Playable via Telnet
-The Zuul Game uses standard input and output as user interface. This can easily be
-exchanged with the Input- and Output Stream comming from a Socket!
+        ```public void count(Reader reader)```
 
-1. Extract the input- and output streams System.in and System.out as fields initialized by parameters
-e.g. in the Game constructor.
-2. Take the Server from Step 2 and attach a Game instance for processing the messages received by the client.
-3. There isn't really a need to implement a special client, telnet works just fine.
-4. Done! you now can play Zuul remotely. In order to move it towards a multiplayer game, you would need a
-   thread running a game instance for each connected client - just like for a multiuser chat in the "for the bored" part.
+5. Write a method that returns the most frequent character, include a test for it.
 
-## For the bored::
-1. Create a Chat Server that can handle connections from more than one client using one Thread for each connected client.
-2. Change the Server to dispatch incoming messages to all connected clients.
+6. Output a histogram of the character frequencies. One simple kind of histogram has horizontal lines proportional to the magnitude of the number it represents. For example:
+
+        A : **********
+        B : *****
+        C : ******
+
+7. Try out your program with a big file, fpr example the 1M english news file from the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download).
+
+## For the bored
+
+8. Extend your program such that it either takes input and output file names as
+parameters, or use standard in  and standard out if no parameters were given.
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
+
+Additional requirements for this lab:
+* Answer the following questions: What is the complexity of your program? Why?

@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 05: Execution times'
+title: 'Info2: Exercise 04: Chatterbox'
 author: kleinen
 layout: lab
 draft: true
@@ -9,131 +9,60 @@ draft: true
 
 After this lab you should be able to agree with each of the following statements.
 
-I can evaluate the efficiency of algorithms:
-* I understand the correlation between input and running time for different program structures
-* I can use big-o-notation to describe the running time of algorithms
-* I can calculate the running time of algorithms by adding up running times of different structures
-* I can compare running times based on their running time in big-o-notation
+I can use the Socket API for TCP connections:
+* I can create a server that listens for and accepts connections
+* I can create a client that makes a connection request to the server
+* I can send text from a client to a server via streams
+* I can send text from a server to a client via streams
+* I can use multithreading to simultaneously process tcp requests and input from the user
+* (if you do the "for the bored" part: I can use multithreading for the server to handle multiple connection requests)
 
 ## Pre-Lab
+Write down the code for the following questions and be able to explain what is happening.
 
-***P1.*** Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N<sup>2</sup>, respectively. Answer the following questions, if possible:
+***P1.*** How do you set up a connection with Sockets between two computers in Java?
 
-a) Which program has the better guarantee on the running time for large values of N (N > 10 000)?
+***P2.*** Write a method to read from a connection in Java.
 
-b) Which program has the better guarantee on the running time for small values of N (N < 100)?
+***P3.*** Write a method to write to a connection in Java.
 
-c) Which program will run faster on average for N = 1000?
+***P4.*** How do you create concurrent threads?
 
-d) Is it possible that program B will run faster than program A on all possible inputs?
-
-***P2.*** An algorithm takes 0.5 ms for input size 100. How long will it take for input size 500 if the running time is the following:
-
-a) linear
-
-b) O (N log N)
-
-c) quadratic
-
-d) 4. cubic
-
-***P3.*** An algorithm takes 0.5 ms for input size 100. How large a problem can be solved in 1 min if the running time is the following:
-
-a) linear
-
-b) O (N log N)
-
-c) quadratic
-
-d) cubic
-
-***P4.*** Order the following functions by growth rate, and indicate which, if any, grow at the same rate.:
-- N
-- square root of N
-- N<sup>1.5</sup>
-- N<sup>2</sup>
-- N log N
-- N log log N
-- N log2 N
-- N log (N<sup>2</sup>)
-- 2/N
-- 2N
-- 2N/2
-- 37
-- N<sup>3</sup>
-- N<sup>2</sup> log N
-
+Note: use the plain TCP Socket and ServerSocket classes for this exercise!
+See:
+[Lesson: All About Sockets (The Java™ Tutorials > Custom Networking)](https://docs.oracle.com/javase/tutorial/networking/sockets/index.html)
 
 ## Assignment
 
-### Part 1: Analysis of Algorithms
-For each of the following seven program fragments, do the following:
+Note that you can also use telnet to test your Server implementations without
+having the Client ready.
 
-1. Do a Big-Oh analysis of the running time.
-2. Implement the code in a simple main class and run it for several interesting values of N.
+### Step 1: Client sends messages to Server
+1. Start your chatterbox by writing a method that listens for a Socket connection on a port. This is your Chatterbox server. For now, just echo what you have read to the console.
+2. Now write a client that connects to it and writes to a port.
+3. Test your methods on your own machine.
+4. If you are not in the lab with the others: Follow the instructions to connect to an HTW lab computer at https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/ and copy your code onto your lab computer. It is recommended you use a ganymed computer. Share your address and port with others and see whether you can chat with each other. You might need to change the default ports of your program to ports between 8000 and 8010.
 
-#### Code Fragments
+### Step 2: Server can send message
+5. Extend your Server such that you can enter messages on the Server side as well, and extend your Client to receive and display those messages.
 
-     // Fragment #1
-     for ( int i = 0; i < n; i ++)
-         sum++;
+### Step 3: Simultaneous sending and receiving
+6. Now extend your Chatterbox such that it can *simultaneously* receive and send messages using Java Threads.
 
-     // Fragment #2
-     for ( int i = 0; i < n; i ++)
-         for ( int j = 0; j < n; j ++)
-             sum++;
+### Step 4: Make Zuul Playable via Telnet
+The Zuul Game uses standard input and output as user interface. This can easily be
+exchanged with the Input- and Output Stream comming from a Socket!
 
-     // Fragment #3
-     for ( int i = 0; i < n; i ++)
-         for ( int j = i; j < n; j ++)
-             sum++;
+1. Extract the input- and output streams System.in and System.out as fields initialized by parameters
+e.g. in the Game constructor.
+2. Take the Server from Step 2 and attach a Game instance for processing the messages received by the client.
+3. There isn't really a need to implement a special client, telnet works just fine.
+4. Done! you now can play Zuul remotely. In order to move it towards a multiplayer game, you would need a
+   thread running a game instance for each connected client - just like for a multiuser chat in the "for the bored" part.
 
-     // Fragment #4
-     for ( int i = 0; i < n; i ++)
-         sum ++;
-         for ( int j = 0; j < n; j ++)
-             sum ++;
-
-     // Fragment #5
-     for ( int i = 0; i < n; i ++)
-         for ( int j = 0; j < n*n; j ++)
-         sum++;
-
-     // Fragment #6
-     for ( int i = 0; i < n; i ++)
-         for ( int j = 0; j < i; j ++)
-             sum++;
-
-     // Fragment #7
-     for ( int i = 1; i < n; i ++)
-         for ( int j = 0; j < n*n; j ++)
-             if (j % i == 0)
-                for (int k = 0; k < j; k++)
-                    sum++;
-
-### Part 2: Prime Numbers
-A  *prime number* has no factors besides 1 and itself. Do the following:
-
-3. Write a simple method `public static bool isPrime (int n) {...}` to determine if a positive integer N is prime.
-4. Compare the running times needed to determine if a 20-bit number and a 40-bit number are prime by running 100 examples of each through your program.
-
-### For the bored:
-
-The Sieve of Eratosthenes is a method used to compute all primes less than N. Begin by making a table of integers 2 to N.
-Find the smallest integer i that is not crossed out - i is prime! (you might want to print it here to see the progress, but really you shouln't mix output within the algorithm) - and cross out all multiples of i (i , 2i , 3i , ....)
-Terminate when i is greater than the square root of N. The running time has been shown to be O (N log log N). Write a program to implement the Sieve and verify that the running time is as claimed. If you are *really* bored, animate this with a GUI like on the Wikipedia!
+## For the bored::
+1. Create a Chat Server that can handle connections from more than one client using one Thread for each connected client.
+2. Change the Server to dispatch incoming messages to all connected clients.
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
-
-Also answer the following questions in your report.
-
-Additional questions for part 1:
-- Which are interesting values for N?
-- Compare your analysis with the actual number of steps (i.e. the value of sum after the loop).
-
-Additional questions for part 2:
-- In terms of N, what is the worst-case running time of your program?
-- Let B equal the number of bits in the binary representation of N. What is relationship between B and N?
-- In terms of B, what is the worst-case running time of your program?
-- Present the results of your experiment

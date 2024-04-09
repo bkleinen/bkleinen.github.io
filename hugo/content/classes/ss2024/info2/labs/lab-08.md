@@ -1,53 +1,59 @@
 ---
-title: 'Info2: Exercise 08: Eight Queens'
+title: 'Info2: Exercise 07: Recursive Triangles'
 author: kleinen
 layout: lab
 draft: true
 ---
 
+![Machine](../images/SierpinskiTriangle.png "Sierpinski Triangle")
+
 ## Pre-Lab
-***P1.*** Make a chess board and mark how a Queen moves and threatens.
 
-***P2.*** Define a matrix (two-dimensional array) of integers in Java. Write a method to put a *-1* in every cell of the matrix.
+***P1.*** What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?
 
-***P3.*** Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
-      a) the cells are in the same row?
-      b) the cells are in the same column?
-      c) the cells are in the same ascending diagonal (lower left to upper right)?
-      d) the cells are in the same descending diagonal (upper left to lower right)?
+***P2.*** What is the mathematical formula for finding the midpoint of a line segment that connects two Points?
 
-***P4.*** Implement the recursive solution to the *Towers of Hanoi* so that you can review how recursion works using the debugger.
+***P3.*** What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?
+
+***P4.*** Briefly describe what a <a href="https://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski Triangle</a> is.
 
 ## Assignment
-Our goal is to write a program to determine if 8 queens can be placed on an 8 x 8 chess board without them threatening each other!
 
-1. Decide how to represent a chess board with a data structure. Don't worry about the colors of the board yet. Write a Chessboard class. What methods will you need?
+1. First set up a Window that can handle drawing. Get the Window to draw an equilateral triangle. You can use this scaffold: [SierpinskyTriangleStart](https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/sierpinskytrianglestart).
 
-2. Write a method for determining if the current board state contains a queen that is threatening another one. If the complexity in terms of N (rows on the board) of your algorithm is worse than linear, try to improve your algorithm.
+2. Once you can draw the triangle, now draw a triangle that connects the midpoints of each of the lines. You now have 4 triangles. For each of the *three outer triangles*, recursively draw a triangle that connects the midpoints.
 
-3. We speak of "backtracking" when we go back to a previous state and try a different branch. Use some coins on your paper chess board to figure out what to do when you reach a state in which one queen is threatened by another. There are iterative, recursive, and random solutions to this problem. Try and implement a recursive solution.
+3. Expand your triangle drawing algorithm to draw in a specific color. Choose a different color for every level of the algorithm.
 
-4. Now implement a search routine that looks for a state in which the queens don't threaten each other. If there is a solution, print it to System.out. If there is more than one solution, print them as well.
+4. Fill the middle triangle on each step with an appropriate color. Choose the size of the first triangle depending on what size the window is. Redraw the triangle when the window is resized.
 
 ## For the bored
-5. Design a Chessboard GUI with a queen figure. Output the result of the program using your Chessboard GUI.
 
-6. Animate the search by showing the positions as they are tested, illuminating the threats. How long does it take to show such an attempt? How long will the program need for the exhaustive search?
+5. Start a new project with a drawing Window and draw a square in the bottom left-hand quadrant of your window. Now draw one square that is half the size on top and left-justified and one to the right of the square and bottom-justified. And for each of these half-size boxes, put two more boxes half their size on top and to the right. This is recursion - what is your measure? What is the termination condition? What is the depth of the recursion? Put a screen shot in your report!
 
-7. How many knights can be put on an 8 x 8 board without threatening each other?
+6. Look up the [Sierpinski Carpet](ttp://en.wikipedia.org/wiki/Sierpinski_carpeth) on the Wikipedia - I think the code is not quite right. What goes wrong? Can you fill the screen with a multicolored Sierpinski Carpet?
 
-8. For which N is it possible to put N queens on an N x N board? Example: 2 queens cannot be placed on a 2 x 2 board, 3 cannot be placed on a 3 x 3 board. But 4 queens can be placed on a 4 x 4 board, for example at B1, D2, A3, C4. Can you prove this?
+7. Look up some fractal algorithms - are they all recursive? Can you program any of them yourself (i.e. not using Copy & Paste on the code you find on the Internet).
+
+* * *
+
+From [/broken_link#discuss.joelonsoftware.com/default.asp?joel.3.340775.27](/broken_link)
+
+    > Q. Do you know what iteration means?
+    > A. It's when you do something over and over and over and over and over and over and over and over and over and over and over and over and over and     over...
+    >
+    > Q. Do you know what's recursion?
+    > A. It's recursion.
+    > ByTeEaTeR
+    > Tuesday, May 09, 2006
 
 ## Lab Report / What to turn in
 
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
+* Ex.1: What is the largest equilateral triangle you can get on the screen?
+* Ex.2: How many lines of code did you write for Ex. 1 and 2?
+* Ex.2: What is your termination condition, what is the measure?
 
-* Ex. 2: What is the complexity of your final method in terms of N (the number of rows on the board)? Did you need to improve your algorithm?
-
-* Ex. 4: Does your program work for 10 queens on a 10 x 10 board? 13 on a 13 x 13 board?
-
-----
-
-based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW
+{{< figure src="/images/classes/info2/sierpinsky.png" caption="Colorful Sierpinsky Triangle">}}

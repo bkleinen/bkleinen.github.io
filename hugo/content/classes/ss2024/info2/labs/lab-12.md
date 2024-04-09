@@ -1,70 +1,72 @@
 ---
-title: 'Info2: Exercise 12: Scrabble Cheater - Basic Edition '
+title: 'Info2: Exercise 11: Finite State Automata and Sorting Algorithms'
 author: kleinen
 layout: lab
 draft: true
 ---
 
- ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
-Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
-
-<!--
-- Permutation#equals method should check on equal words, not on equality based on permutation.
-
-debbies version:
-Review the rules of Scrabble, if you have never played it before.
-What would the exact data structure be for a hash table that stores Strings and chains the collisions?
-What would a normalization function for words look like for a hash? That is, "JAVA" and "VAJA" are permutations, what would a normalized permutation look like?
-How do you determine if two strings are permutations of each other?
-Review the construction of a hash function. Note that you will need prime numbers. Does your isPrime method work? If not, fix it now.
-Can you find lists of valid words for Scrabble in English online? Are there perhaps any sorted by number of letters in the word? Or maybe one file for each word size? Note down the URLs!
-In class:
-Write a dictionary class that upon instantiation reads in a file of words and creates a hash table for storing them. Use chaining of collisions in your hash table. How many entries does your table have? How many collisions were there? What is the longest chain in your hash table? It might be useful to implement some statistical methods in order to see if your hash table is "okay". Can you fix your hash function in order to only have chains of 16 or less?
-(For the bored) Can you make a perfect hash? Describe how you went about finding a perfect hash!
-You will need to have a lookup method in your class that takes a word (i.e. a String) and returns an array of Strings corresponding to all the words at the hash location, if any. You may need to normalize the word to look up, depending on your hash function.
-Now make the basic Scrabble cheater: construct a 7-letter-word hash dictionary, set a String to 7 letters, and output the array of Strings found that might be permutations of these 7 letters. Your users can check if there is a permutation to be found. Or you can implement isPermutation and only output the ones that are permutations.
--->
-
 ## Pre-Lab
+***P1.*** What is the difference between an NFA and an DFA?
 
-***P1.*** Review the rules of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), if you have never played it before.
+***P2.*** Which sorting algorithms have you learned about so far? Review their algorithms.
 
-***P2.*** What is a permutation?
+[Geeks for Geeks](https://www.geeksforgeeks.org/) has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/).
 
-***P3.*** What would a normalization function for different permutations of words look like? That is, "JAVA" and "VAJA" are permutations, what would a normalized permutation look like?
+Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:
+* [Insertion Sort](https://youtu.be/ufIET8dMnus)
+* [Merge Sort](https://youtu.be/alJswNJ4P3U)
+* [Quick Sort](https://youtu.be/uXBnyYuwPe8)
+* [Heap Sort](https://youtu.be/k72DtCnY4MU)
 
-***P4.*** How do you determine if two Strings are permutations of each other?
+## Assignment 1: Finite Automata
+This is to get some practice with Finite Automata.
 
-***P5.*** For the bored: How can you generate all permutations of the characters in a String? See [Back to Back SWE "How To Permute A String - Generate All Permutations Of A String"](https://www.youtube.com/watch?v=GCm7m5671Ps) for a clear explanation of a backtracking solution. See [Sedgewick 1977](https://dl.acm.org/doi/10.1145/356689.356692) (available with VPN) for theoretical details on several different solutions. What if some of the letters are the same?  Hint: Look at the [multinomial coefficient](https://de.wikipedia.org/wiki/Multinomialkoeffizient).
+### Exercise 1: Understand Finite Automata
+The following two Finite Automata are given by their transition tables:
 
-## Assignment
+**Automaton A**
+Start state: q0, accept state: q0
 
-You will implement a simple scrabble cheater that will read in words from a scrabble word list, and find all permutations for a 7-letter tile rack.
+|    | 0  | 1  |
+|:---|:---|:---|
+| q0 | q0 | q1 |
+| q1 | q2 | q3 |
+| q2 | q0 | q1 |
+| q3 | q2 | q3 |
 
-There is a lot to do, so you might want to split up the work in your group.
+**Automaton B**
+Start state: q1, accept states: q2, q4
 
-0. Use the prepared scaffold for the interfaces. It also contains some testcases. You can find it on GitHub [https://github.com/htw-imi-info2/ScrabbleCheater](https://github.com/htw-imi-info2/ScrabbleCheater).
+|    | 0  | 1  |
+|:---|:---|:---|
+| q1 | q2 | q4 |
+| q2 | q1 | q3 |
+| q3 | q4 | q2 |
+| q4 | q3 | q1 |
 
-1. Implement *initFromFile* in *[SimpleWordList](https://github.com/htw-imi-info2/ScrabbleCheater/blob/master/src/scrabble/data/SimpleWordList.java)* that
-initializes the ScrabbleCheater from a given file. For now, simply store the words in a suitable Collection of the Java Collections Framework.
+a) Draw transition diagrams for all two Finite Automatas and describe the language they accept in English (or German) sentences. Are they DFA or NFA?
+b) What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab11_DFA](https://github.com/htw-imi-info2/Lab11_DFA).
 
-2. Implement the *getNormalized* and *equals* methods in *[Permutation](https://github.com/htw-imi-info2/ScrabbleCheater/blob/master/src/scrabble/util/Permutation.java)*. Two Permutation instances should be equal if one is a permutation of the other - regardless of the actual words they represent. Having a look at the provided test cases and making them run might help with the implementation.
+### Exercise 2: Design Finite Automata
+The following three Finite Automata are given by their description:
 
-3. Implement the *validWordsUsingAllTiles* method in *SimpleWordList* that returns a Set of all the Words that are permutations of a given tile rack. That is, all words of the same length of the tile rack that can be build with it and that are in the word list, thus valid scrabble words.
+**Automaton C**: The Finite Automaton accepts all strings of 0's and 1's not containing 010 as a substring.
 
-5. Use the Permutation class to make looking up the *validWordsUsingAllTiles()* more efficient.
-Hint: how often will *normalize()* be called a) for initialisation and b) for a lookup in your WordList?
+**Automaton D**: The Finite Automaton that accepts all strings with at most one pair of consecutive 0's and at most one pair of consecutive 1's.
 
-6. Provide a second implementation of *WordList* using a HashMap as the underlying collection for storing the words. Note that you need to make sure that *equals()* and *hashCode()* work correctly on permutations in order to store Permutations at the same place in the HashMap.
+**Automaton E**: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
 
-7. Add a main method or some sort of interface to input words that should be looked up by your scrabble cheater (e.g. taking a parameter or reading in tile racks from standard in).
+a) Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata. Are they DFA or NFA?
+b) Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
 
-8. *For the bored*: Measure the time improvement introduced by the HashMap implementation. The measured time might be small, so chose an adequate unit or use a loop to execute the code often.
+## Assignment 2: Sorting
+Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each person should do at least one walkthrough. Use the exact algorithms from the repository. 
 
-## Lab Report
+## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
-<!--
-now part of lab 13:
-1. In preparation of the final ScrabbleCheater, which will also find shorter words that can be built with the tile rack, implement the method "subsets" in PermutationUtilities which should determine all of the Strings that are substrings in the sense that they only contain letters from the given String, with multiples only up to the number of multiples available. The order of the letters is irrelevant, so this is a bag. For example with 4 letters "JAVA" this would be {"AAJV", "AJV", "AAJ", "AAV", "AA", "AJ", "AV", "JV"}.
--->
+Also answer the following questions in your report:
+* Part 1, A, 1: Put the transition diagrams in your report, as well as the description of the languages
+* Part 1, A, 2: Which test cases did you chose?
+* Part 1, B: Put the transition diagrams in your report.
+* Part 2: Each of the algorithms has a location marked with //step. In your report, note down the state of the array at this location for each time the algorithm passes this line.

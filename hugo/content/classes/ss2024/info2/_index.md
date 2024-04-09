@@ -2,16 +2,16 @@
 title: B7 Informatik 2 Summer 2024
 author: kleinen
 weight: 1
-aliases: /info1/
+aliases: /info2/
 draft: false
 CourseNav: Info 2
 courseNavExt:
 - title: Moodle
-  link: https://moodle.htw-berlin.de/course/view.php?id=33324
+  link: https://moodle.htw-berlin.de/course/view.php?id=48175
 - title: SU in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=179751&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204740&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Labs in LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=176899
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204411&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Semesterstundenplan im LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231
 - title: Github

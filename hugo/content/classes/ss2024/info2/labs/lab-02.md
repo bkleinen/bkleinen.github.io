@@ -1,96 +1,109 @@
 ---
-title: 'Info2: Exercise 02: Implementing CRC Cards'
-author: kleinen
+title: 'Info2: Exercise 02: Programming & Tools, Review of CRC Model'
+author: Linda Fernsel
 layout: lab
-draft: true
+draft: false
 ---
 
+
 ## Learning Goals
+After this lab you should be able to agree with each of the following statements
 
-After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab. 
+I am familiar with programming in IntelliJ:
+* I can create a new Java project in IntelliJ 
+* I remember most of the concepts from A1 Ex1 
+* I can run my new Java project in IntelliJ 
 
-I remember programming concepts concerning classes and objects:
-* I know the difference between classes and objects. 
-* I can instantiate an object. 
+I am ready to use Git:
+* I can clone an online repository 
+* I can create an empty repository on GitLab or GitHub
+* I can update my local repository's remotes 
+* I can add changes to be committed 
+* I can commit changes 
+* I can push changes 
 
-I remember programming concepts concerning fields and variable types:
-* I can add fields to a class. 
-* I can manage modification of fields with mutator methods. 
-* I can manage reading of fields with accessor methods. 
-* I can use collections for storing elements. 
-* I am familiar with the idea of a linked list. 
-* I am familiar with the idea of a map. 
+I have reviewed the Domain Model
+* I have reviewed and improved the CRC Card Model
+* I feel ready to implement the application in Java using IntelliJ
 
-I remember programming concepts concerning methods:
-* I can define the return type of a method. 
-* I can set the visibility modifier of a method. 
-* I can add parameters to a method signature. 
-* I can call methods of objects. 
-* I can call static methods of classes. 
 
-I remember concepts concerning program design:
-* I use separate classes for separate concerns. 
-* I can abstract from concrete scenarios. 
-* I can apply modularization, creating classes that can be reused in various scenarios. 
-* I have a strategy for refactoring given code to make it fit new needs. 
 
-## Pre-Lab
+## Pre-Lab (Do this BEFORE the lab)
 
-This exercise builds on the design you did last week using CRC cards. Please think through the following questions together with your team before coming to the lab and write down your answers somewhere.
+### 1. Prepare your work environment
+The labs will be taught on campus. You can either
+* work on a lab computer
+* or work on the [lab computers from remote](https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/) (make sure to chose the lab that is given on your schedule)
+* or just work on your own laptop that you bring to class
 
-***P1.*** What part of the data do you need to save in order to persist the game status for one player?
+If you decide to work on your own computer:
+* Install and set up git (You will use git to hand in code - you will be added to the Info2 group when you get added on Moodle). You don't need a Git GUI, you can use it via the command line or git bash.
+* Install and set up [IntelliJ](https://www.jetbrains.com/de-de/idea/download/). Get an [educational license](https://www.jetbrains.com/community/education/#students).
 
-***P2.***  Re-consider your CRC cards and sort the requirements in sections that should be implemented together,
-e.g. because they all deal with Items or with Exits.
+### 2. Prepare some more...
+* Sign in to [GitHub](https://github.com). You can use any (nick)name you want, these must be handed in in moodle so I can recognize you.
+* Read through the entire info page on the labs and note down any questions.
+* Bring headphones to the lab - you will watch a video.
 
-***P3.*** Prepare a prioritized subset of features that you would like to implement.
+## Lab
 
-You will only need to implement a part of the requested features (the bored may do all if they wish).
+### Assignment 1 - IntelliJ
+In this assignment you will get to know the IDE we will be using: IntelliJ.
 
-## Assignment
+1) Work through IntelliJ's [Create your first Java Program with IntelliJ](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html). It will have a few new concepts or ones that you have not looked at in detail before! Find out the answers to the following questions:
 
-*Note: Remember to use GitLab for the development of your project. Clone the source project, add a new project in GitLab 
-and push to that project like it was done in Lab00.*
+  a) What is an "IDE"?
 
-1. Compare and Discuss your CRC Cards with other teams during the Lab.
+  b) What is a "JDK"?
 
-2. Implement the features you prepared with CRC Cards in the [previous lab]({{<ref "./lab-01/#cool-zuul">}} "Lab 01").
+  c) What is a "package"?
 
-3. You may team up with other teams to implement parts of the whole feature set together, which will
-   require agreement on the design and some communication about the exact interfaces (method signatures) of
-   shared classes.
+  d) What is a "library"?
 
-4. Make sure that all your code is within one or two or more neatly named *packages* and you have at least one unit test.
+  e) Recap: What is the "main()" method in Java?
 
-### Important Notes
+  f) What is a "compiler"?
 
-- If you implement a **Multiplayer**  
-  A note on the Multiple Players requirement: we will turn CoolZuul in a real
-  online multiplayer dungeon using threads and socket communication in
-  {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}.  
+g) What is a "JAR"?
 
-  For this lab, if you chose to implement the multiplayer requirement, it suffices if you prepare this by implementing a
-  mechanism to store multiple players in the game and the notion of executing
-  all commands in the context of an active player.  
+2) Compare your answers with those of other people. What did they find out? Do you agree? Post any open questions in the class' Moodle Forum. If you see any questions in the forum that you can answer, please answer them!
 
-  If you want to try it out, you might add a command "player xy" which switches
-  to the player with the (user)name xy.
+These Assignments will be published soon:
+### Assignment 2 - Git
+### Assignment 3 - Model Review
+<!-- 
+In this assignment you will take first steps with git and learn about how to hand in code for the lab.
 
-- If you implement **Persistence**  
-  The repository already contains a mechanism to load the world from a [YAML](https://en.wikipedia.org/wiki/YAML)
-  file and store it back. You can and should extend this solution.
+3) Clone the repository (WILL BE ADDED). Now you have a **local** clone of the template repository.
+4) Rename the repository directory **locally** to lab00-YOURLSFGROUP-YOURSTUDENTID (it will be something like "lab01-group1-s0123456"). Update **.git/description**.
+5) Create a **new** empty repository lab00-YOURLSFGROUP-YOURSTUDENTID online in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools).
+6) Look at your **local** git project's "remotes": `git remote -v` in the root folder of the project. You should see an "origin" that is the url of the project you just cloned in ex. 3. Rename the "origin" to "upstream": `git remote rename origin upstream`. This way you keep a link to the project you cloned, while making space for a link to the new project your created in ex 5.
+7) Set the remote origin of your local repository to YOUR newly created repository on the IMI GitLab Server:
+`git remote add origin https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools/lab00-YOURLSFGROUP-YOURSTUDENTID.git`
+8) Check the status of your local repository: `git status`. Do you have any uncommitted changes? If so, [commit](https://www.jetbrains.com/help/idea/commit-and-push-changes.html#commit) them: `git commit -m "my commit message"`.
+9) Push your repository:
+```
+git add .
+git commit -m "initialize project"
+git push
+```
+(You might need to vary the previous command to something like `git push -u origin main`)
 
-### For the bored:
+10) Update the message printed by the Java program using IntelliJ!
+11) Commit your changes and push your committed changes.
+13) Did it work? You should now see your project files online and locally, and be able to push any changes you make locally. If anything is not working, ask your peers.
+14) Answer the following questions:
 
-5. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
-   the work of several teams to get a full solution.
+  a) What does it mean to clone a repository?
 
-## Repository for this lab
+  b) What is a "remote" of a repository?
 
-[https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
+  c) What does it mean to "commit changes"?
 
-## Lab Report / What to turn in
-All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
+  d) What happens if you "push" committed changes?
 
-Additional requirements for this lab:
-* Answer the following questions: Did you end up using all of the classes you specified? Did you miss any classes? Discuss!
+15) Post any open questions in the Moodle Forum. See any questions there you can answer? Please try and answer them!
+-->
+## Submission
+Submit your lab report and the link to your repository on Moodle. Make sure that the link is put in the available text field.
+Deadline is 10pm before your next lab.

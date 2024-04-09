@@ -1,72 +1,85 @@
 ---
-title: 'Info2: Exercise 11: Finite State Automata and Sorting Algorithms'
+title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
 draft: true
 ---
 
+![S-Bahn-Ring](/images/s-bahn.jpg)
+<small class = "float-right">S-Bahn Ring generated with https://github.com/bkleinen/bvg-graph based on OpenStreetMap</small>
+
+
 ## Pre-Lab
-***P1.*** What is the difference between an NFA and an DFA?
 
-***P2.*** Which sorting algorithms have you learned about so far? Review their algorithms.
+***P1.*** Define an interface data type for a weighted graph. What methods does it need? What are the signatures?
 
-[Geeks for Geeks](https://www.geeksforgeeks.org/) has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. [Selection Sort](https://www.geeksforgeeks.org/selection-sort/).
+***P2.*** Read up on Depth-First-Search to compute a path in a given graph. Sketch the algorithm on paper. Do you have an idea how you could find the *shortest* path, instead of just a path?
 
-Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:
-* [Insertion Sort](https://youtu.be/ufIET8dMnus)
-* [Merge Sort](https://youtu.be/alJswNJ4P3U)
-* [Quick Sort](https://youtu.be/uXBnyYuwPe8)
-* [Heap Sort](https://youtu.be/k72DtCnY4MU)
+***P3.*** Read up un Dijkstra Algorithm to compute the shortest path in a given graph. Sketch the algorithm on paper.
 
-## Assignment 1: Finite Automata
-This is to get some practice with Finite Automata.
+***P4.*** Your algorithm will probably need an adjacency matrix or an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?
 
-### Exercise 1: Understand Finite Automata
-The following two Finite Automata are given by their transition tables:
+## Assignment
 
-**Automaton A**
-Start state: q0, accept state: q0
+Read through everything first and think about who will do what. Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.
 
-|    | 0  | 1  |
-|:---|:---|:---|
-| q0 | q0 | q1 |
-| q1 | q2 | q3 |
-| q2 | q0 | q1 |
-| q3 | q2 | q3 |
+1. Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix.
+2. While one partner is doing this, the other one should write a class that reads a graph from a file. See notes on the file format and the example file below!
+3. Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the shortest path, that is, the one with the least travelling time.  Make a method to print out the path in a readable format.
+4. Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.
+<pre>
+    060192001006, S Schöneweide Bhf (Berlin)
 
-**Automaton B**
-Start state: q1, accept states: q2, q4
+    060068201511, S+U Tempelhof (Berlin) (15 min Fahrtzeit laut BVG)
+    060066102852, S Botanischer Garten (Berlin) 33 min
+    060053301433, S Wannsee Bhf (Berlin) 43 min
+    060120003653, S Ostkreuz Bhf (Berlin) 9 min
 
-|    | 0  | 1  |
-|:---|:---|:---|
-| q1 | q2 | q4 |
-| q2 | q1 | q3 |
-| q3 | q4 | q2 |
-| q4 | q3 | q1 |
+    060068201511, 060066102852, 060053301433, 060120003653
+</pre>
 
-a) Draw transition diagrams for all two Finite Automatas and describe the language they accept in English (or German) sentences. Are they DFA or NFA?
-b) What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab11_DFA](https://github.com/htw-imi-info2/Lab11_DFA).
+Your Dijkstra implementations should yield the following travel times:
+<pre>
+    [[60068201511, 660], [60066102852, 1224], [60053301433, 1950], [60120003653, 504]]
+</pre>
 
-### Exercise 2: Design Finite Automata
-The following three Finite Automata are given by their description:
+(Which is a plausible result given that the graph doesn't consider time spent in atations.)
 
-**Automaton C**: The Finite Automaton accepts all strings of 0's and 1's not containing 010 as a substring.
+## For the bored
+5. Use your data structure to print out all the vertices n steps from a given vertex.
+6. List the travel times to all stations from S Schöneweide.
+7. Are there multiple minimal paths? Print them all (this is *very* tricky!).
 
-**Automaton D**: The Finite Automaton that accepts all strings with at most one pair of consecutive 0's and at most one pair of consecutive 1's.
+## Graph Example and Test Data
+### Test Data
+[graph1.txt](../lab-10-data/graph1.txt) contains a small example graph to test both algorithms. For the Dijkstra Algorithm, [result1.txt](../lab-10-data/result1.txt) contains the cheapest path costs if you start at vertex 1.
 
-**Automaton E**: The Finite Automaton that accepts the language of all Strings of 0 and 1s, that when interpreted as a binary number, are divisible by three.
+### BVG U+S Bahn
 
-a) Define the given Finite Automata and fitting test cases. Draw transition diagrams for all three Finite Automata. Are they DFA or NFA?
-b) Test your automata by using the simulator above. Again, you can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java) as an example.
+The graph data in [bvg.txt](../lab-10-data/bvg.txt) contains a simple extract of the Berlin U+S Map and has the following format:
 
-## Assignment 2: Sorting
-Generate an array (on paper) containing 10 random integers between 1 and 100 and perform *manual* walkthroughs of the 5 sorting algorithms given at [https://github.com/htw-imi-info2/Lab11_Sorting](https://github.com/htw-imi-info2/Lab11_Sorting). Each person should do at least one walkthrough. Use the exact algorithms from the repository. 
+    <from-vertex> <to-vertex2>,<weight2> <to-vertex2>,<weight2>
+
+That is, each line represents a vertex with all its outgoing edges, e.g.
+
+    060049202852 060049201862,90 060066101852,108
+
+means that there is an edge from 060049202852 to 060049201862 with weight 90, that is, the travel time from
+
+060049202852, S Sundgauer Str. (Berlin) to 060049201862, S Zehlendorf (Berlin) is 90 sec.
+
+You find the station names in [stations.txt](../lab-10-data/stations.txt)
+
+The graph data was extracted from the GTFS-Data provided at [https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html](https://www.vbb.de/de/article/fahrplan/webservices/datensaetze/1186967.html) using the rails app [https://github.com/bkleinen/bvg-graph](https://github.com/bkleinen/bvg-graph)
+
+Update WS 20/21: I've found the current data at [https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs),
+you can read about the GTFS format on [Wikipedia](https://de.wikipedia.org/wiki/General_Transit_Feed_Specification) or on the [GTFS für Deutschland](https://gtfs.de/)site. 
+
 
 ## Lab Report / What to turn in
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
 Also answer the following questions in your report:
-* Part 1, A, 1: Put the transition diagrams in your report, as well as the description of the languages
-* Part 1, A, 2: Which test cases did you chose?
-* Part 1, B: Put the transition diagrams in your report.
-* Part 2: Each of the algorithms has a location marked with //step. In your report, note down the state of the array at this location for each time the algorithm passes this line.
+* Ex. 1: How are you going to store the weights?
+* Ex. 3: What class will these methods belong to?
+* Do your implementations return the correct results?
