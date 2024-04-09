@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 08: Eight Queens'
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
 ## Pre-Lab

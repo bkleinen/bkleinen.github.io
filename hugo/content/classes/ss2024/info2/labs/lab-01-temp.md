@@ -2,8 +2,22 @@
 title: 'Info2: Exercise 00: Programming & Tools'
 author: Linda Fernsel
 layout: lab
-draft: false
+draft: true
 ---
+
+
+
+
+review of model, here's an example
+
+* [Example CRC cards and how to create CRC Cards](http://agilemodeling.com/artifacts/crcModel.htm)
+
+compare
+
+
+
+
+
 
 ## Learning Goals
 After this lab you should be able to agree with each of the following statements

@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 04: Chatterbox'
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
 ## Learning Goals

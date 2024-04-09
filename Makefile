@@ -20,7 +20,7 @@ openProd :
 -  open http://localhost:$(portP)/
 
 open:
-- open http://localhost:$(port)/~kleinen/classes/ss2024/projects
+- open http://localhost:$(port)/~kleinen/classes/ss2024/info2
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1

@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 09: Probabilistic Algorithms'
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
 ## Pre-Lab

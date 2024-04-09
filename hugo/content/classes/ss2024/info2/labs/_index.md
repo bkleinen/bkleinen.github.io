@@ -1,8 +1,9 @@
 ---
-title: Info 2 SS 2024 - Labs and Exercises
+title: B7 Informatik 2 Summer 2024 - Labs and Exercises
 author: kleinen
 layout: page
 courseNav: Labs
+draft: false
 weight: 200
 ---
 
@@ -14,30 +15,19 @@ It is IMPORTANT that you are familiar with the exercise before the lab starts. B
 * do the pre-lab
 * recap on what you did in the lecture
 * note down any questions
-* (register for a team on Moodle - see below)
 
 ## During the lab:
 There are two lab groups. LSF tells you which group you are in, and when and in which room the lab takes place. The labs will usually take place at the HTW. The labs may occasionally happen online - in that case I will warn you in advance. During the lab you will be working on exercises in teams (see below).
 
 Please be there on time. Please note that food and open beverages are not allowed inside the lab.
 
-### Communication
-Ask questions that can't wait in the Moodle Forum. That's better than writing an email, because this way, all people can see the answer. Of course you can also ask during the lab.
 
 ### Lab Assignments
 
 {{< subpages >}}
 
 ## Teams
-You will work in teams of two or three. You will switch teams after three or four labs.
-That means you should form new teams before the following labs:
-
-* {{% link title ="Exercise 01 - Application Design" link = "lab-01" %}}
-* {{% link title ="Exercise 05 - Execution Times" link = "lab-05" %}}
-* {{% link title ="Exercise 08 - Eight Queens" link = "lab-08" %}}
-* {{% link title ="Exercise 11 - Finite State Automata and Sorting Algorithms" link = "lab-11" %}}
-
-You can chose your team mates but they should be in the same LSF group (1 or 2, aka Tuesday or Thursday group). Each team mate needs to register for the team on Moodle. I will not form teams for you, this is your own responsability. If you have not signed up for a team, you won't be able to hand anything in.
+You will work in teams of two or three. 
 
 ## Reports
 ### Deadline
@@ -78,22 +68,16 @@ Please submit to Moodle *only*:
 * A pdf with your report
 * As a text answer: a link to your team's git repository (see below)
 
-Only one team member should upload the report. If team members upload different reports (or different repos), I'll chose one at random to review.
+All team members need to upload the report (the same report done together).
 
 ### Git
-You will use Git to manage your team's code. Code can only be handed in for grading via a link to the repository in the correct folder in this class' group on the IMI GitLab Server.
-
-The IMI GitLab Server can be found at: https://gl-imi.f4.htw-berlin.de. It can only be reached via the HTW network. So if you are at home, use VPN (see https://rz.htw-berlin.de/anleitungen/vpn/).
-
-The class group can be found at: https://gl-imi.f4.htw-berlin.de/groups/info2-wise2021. If you registered for the course I will have added your email address. Tell me if have not been added.
-
-There will be folders for each lab. Create the repository for a lab inside that folder (Click on "new project"). Name it something like: "group01-team03-lab00" (so that it includes your group number from LSF, your team number and the lab number).
+You will use Git to manage your team's code. 
 
 ### Late reports
-You can hand in 4 reports after their deadline, until Febuary 10th, 10pm.
+You can hand in 4 reports after their deadline, until TBD.
 
 *How to hand in late reports*
-There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before Febuary 10. Each person has to upload the late report by themselves, even if you worked in a team.
+There are 4 "late slots" for handing in reports after the deadline, but they have to be handed in before the deadline above. Each person has to upload the late report by themselves, even if you worked in a team.
 
 *But ...!*
 If you fall ill for more than a week or are unable to continuously work on

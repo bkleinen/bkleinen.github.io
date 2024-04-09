@@ -1,10 +1,9 @@
 ---
-title: B7 Informatics 2 SS 2024
+title: B7 Informatik 2 Summer 2024
 author: kleinen
 weight: 1
 aliases: /info1/
-cascade:
-- draft: true
+draft: false
 CourseNav: Info 2
 courseNavExt:
 - title: Moodle
@@ -36,22 +35,14 @@ language and learn something about differences in programming languages.
 
 Have a look at how this breaks down on this (tentative) [Schedule](schedule).
 
-## Back to Campus
-
-It seems as if we will be finally back on campus this term - or: you will actually get
-to be on campus - finally!
-
-Please check the [Corona FAQ](https://www.htw-berlin.de/coronavirus/faq-fuer-studierende/) regularly.
-
 ## Meetings/Weekly Schedule
 
-The class consists of 2x2h of lectures and 2h of lab. The Lab will be held by
-Linda Fernsel. Please refer to the LSF
+The class consists of 2x2h of lectures and 2h of lab. Please refer to the LSF
 for time and location information (link above in the External Links menu).
 
 ## Tutorial
 
-The tutorial will be held every Monday, 13:00 - 14:30, by Jonas Fichtmüller via Zoom. The link to the Zoom room can be found in Moodle.
+The tutorial will be held by Nico, more information to be provided
 
 
 ## Grades & Exam
@@ -59,16 +50,16 @@ The tutorial will be held every Monday, 13:00 - 14:30, by Jonas Fichtmüller via
 As in Informatics 1, there will be a Lab, and there will be an Exam.
 | Part | Weight | Role                                             | Type      |
 |:-----|:-------|:-------------------------------------------------|:----------|
-| Exam | 50%    | schriftliche Modulabschlussprüfung (§ 10 RStPO)  | Moodle Quizz and Programming Assignments in Java and Python |
-| Labs | 50%    | studienbegleitende Teilmodulprüfung (§ 12 RStPO) | Weekly Lab Reports |
+| Exam | 60/100 Points   | schriftliche Modulabschlussprüfung (§ 10 RStPO)  | Moodle Quizz and Programming Assignments in Java and Python |
+| Labs | 40/100 Points    | studienbegleitende Teilmodulprüfung (§ 12 RStPO) | Weekly Lab Reports |
 
 
 ### Grading of Lab Reports
 
-If you hand in all Lab Reports and get an "ok", you will receive 100%
-for the Lab part.
+The grading of the lab reports depends on how many lab reports you hand in and get an "ok" for:
 
-With N=14 Labs alltogether, this results in 7.2 Points/Percent per lab.
+Less or equal to 60% of labs with an ok:  0% for the lab part.
+61%-100% of lab reports with an ok:, you will receive 1-40 Points of the maximum of 40 Points for the labs.
 
 You may hand in a lab a second time using one of the late slots.
 
@@ -78,7 +69,7 @@ You can participate in the class with or without registering in LSF. Make
 sure you're in the Moodle Course to be able to access all information.
 
 If you already took an Info2 class (with Prof. Zhang or Prof. Weber-Wulff) and
-completed the lab reports/exercise part there, you may skip the lab reports.
+completed the lab reports/exercise part there, you may skip the lab reports:
 
 To do so, you have to
 - send an email to the other Professor asking them to send your lab grades to me

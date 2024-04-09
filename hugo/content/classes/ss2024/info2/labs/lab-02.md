@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 02: Implementing CRC Cards'
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
 ## Learning Goals

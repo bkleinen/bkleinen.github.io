@@ -2,7 +2,7 @@
 title: 'Info2: Exercise 03: Histogram '
 author: kleinen
 layout: lab
-draft: false
+draft: true
 ---
 
 ## Learning Goals

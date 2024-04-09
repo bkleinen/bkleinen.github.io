@@ -2,6 +2,7 @@
 title: 'Info2: Exercise 11: Finite State Automata and Sorting Algorithms'
 author: kleinen
 layout: lab
+draft: true
 ---
 
 ## Pre-Lab
