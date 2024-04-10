@@ -8,9 +8,9 @@ aliases: /m1-web/
 draft: false
 courseNavExt:
 - title: Moodle
-  link: https://moodle.htw-berlin.de/course/view.php?id=44494
+  link: https://moodle.htw-berlin.de/course/view.php?id=49133
 - title: LSF
-  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=199814&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
+  link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204497&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung
 - title: Term Schedule in LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&k_abstgv.dtxt=internationale&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162
 

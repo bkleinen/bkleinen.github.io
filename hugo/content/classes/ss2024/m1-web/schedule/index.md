@@ -16,7 +16,7 @@ Time and Room: See [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=verpublis
 | Week | KW  | Date                 | Topic Area                              | Lecturer          |
 | :--- | :-- | :------------------- | :-------------------------------------- | :---------------- |
 | 1    | 14  | Wed 03/04/2024       | (erster Vorlesungstag)                  |                   |
-| 2    | 15  | Wed 10/04/2024       | [Projektvergabe Bachelor parallel (Master gleich im Anschluss!)](https://wiki.htw-berlin.de/confluence/display/fb4imi/Projekte+im+SS+2024)                      |  siehe [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204920&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)    |
+| 2    | 15  | Wed 10/04/2024       | [Projektvergabe Bachelor parallel (Master gleich im Anschluss!)](https://wiki.htw-berlin.de/confluence/display/fb4imi/Projekte+im+SoSe+2024)                      |  siehe [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204920&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)    |
 | 3    | 16  | Wed 17/04/2024       | Web Technology                          | Barne Kleinen     |
 | 4    | 17  | Wed 24/04/2024       | Web Technology                          | Barne Kleinen     |
 |      | 18  | Wed 01/05/2024       | Feiertag                                |                   |

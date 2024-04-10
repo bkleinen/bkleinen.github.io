@@ -2,7 +2,7 @@ projects:
   bachelor:
     - id: b1
       lp: Tobias Lenz
-      title: Infinite Zom in 3D 
+      title: Infinite Zoom in 3D 
     - id: b2
       lp: Barne Kleinen
       title: Digital Signage für den Makerspace
@@ -42,4 +42,4 @@ projects:
 
     - id: m6
       lp: Tobias Lenz
-      title: Finde 10 Unterschiede - Ein Rätselklassiker mit prozeduralem Inhalt dank moderner Bilder-KI
+      title: Finde 10 Unterschiede - Prozedurale KI-Variante eines Rätselklassikers
