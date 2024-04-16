@@ -68,31 +68,27 @@ g) What is a "JAR"?
 
 2) Compare your answers with those of other people. What did they find out? Do you agree? Post any open questions in the class' Moodle Forum. If you see any questions in the forum that you can answer, please answer them!
 
-These Assignments will be published soon:
 ### Assignment 2 - Git
-### Assignment 3 - Model Review
-<!-- 
-In this assignment you will take first steps with git and learn about how to hand in code for the lab.
 
-3) Clone the repository (WILL BE ADDED). Now you have a **local** clone of the template repository.
-4) Rename the repository directory **locally** to lab00-YOURLSFGROUP-YOURSTUDENTID (it will be something like "lab01-group1-s0123456"). Update **.git/description**.
-5) Create a **new** empty repository lab00-YOURLSFGROUP-YOURSTUDENTID online in [this week's lab group](https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools).
-6) Look at your **local** git project's "remotes": `git remote -v` in the root folder of the project. You should see an "origin" that is the url of the project you just cloned in ex. 3. Rename the "origin" to "upstream": `git remote rename origin upstream`. This way you keep a link to the project you cloned, while making space for a link to the new project your created in ex 5.
-7) Set the remote origin of your local repository to YOUR newly created repository on the IMI GitLab Server:
-`git remote add origin https://gl-imi.f4.htw-berlin.de/info2-wise2021/lab00-programming-tools/lab00-YOURLSFGROUP-YOURSTUDENTID.git`
-8) Check the status of your local repository: `git status`. Do you have any uncommitted changes? If so, [commit](https://www.jetbrains.com/help/idea/commit-and-push-changes.html#commit) them: `git commit -m "my commit message"`.
-9) Push your repository:
-```
-git add .
-git commit -m "initialize project"
-git push
-```
-(You might need to vary the previous command to something like `git push -u origin main`)
+1) create Central Repo on [Github](https://github.com/) or HTW Gitlab [https://gitlab.htw-berlin.de/](https://gitlab.htw-berlin.de/) as we did in class
+2) clone the repo to your local file system.
+3) how can you give the other members in your group access to your repo - first read, then write access?
+4) When everyone in your team has write access to the repo, practice exchanging little files via your central repo. 
 
-10) Update the message printed by the Java program using IntelliJ!
-11) Commit your changes and push your committed changes.
-13) Did it work? You should now see your project files online and locally, and be able to push any changes you make locally. If anything is not working, ask your peers.
-14) Answer the following questions:
+Here's a brief list of the commands you will need in alphabetical order:
+
+```
+    git add 
+    git commit -m "your commit message"
+    git checkout <filename>
+    git clone
+    git pull [<remote> <branch>]
+    git push [<remote> <branch>]
+    git status
+```
+
+
+5) Answer the following questions:
 
   a) What does it mean to clone a repository?
 
@@ -102,8 +98,13 @@ git push
 
   d) What happens if you "push" committed changes?
 
-15) Post any open questions in the Moodle Forum. See any questions there you can answer? Please try and answer them!
--->
+6) Post any open questions in the Moodle Forum. See any questions there you can answer? Please try and answer them!
+
+### Assignment 3 - Model Review
+
+We will talk about the models (CRC cars) you did last week in the lab. Submit your refined model as part of your lab report.
+
 ## Submission
 Submit your lab report and the link to your repository on Moodle. Make sure that the link is put in the available text field.
+
 Deadline is 10pm before your next lab.
