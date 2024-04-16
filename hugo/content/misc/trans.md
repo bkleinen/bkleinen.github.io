@@ -23,7 +23,7 @@ Informationen über Antidiskriminierungs-Aktivitäten an der HTW finden sich hie
 
 [Das Berliner Antidiskriminierungsgesetz gilt auch für die Hochschule](https://www.berlin.de/sen/lads/recht/ladg/materialien/)
 
-Mir ist so, als hätte das Referat für Gleichstellung mal Infos für TIN* auf der Webseite gehabt, falls die jemand findet gerne Bescheid sagen oder einen Pull Request.
+Mir ist so, als hätte das [Referat für Gleichstellung](https://www.htw-berlin.de/einrichtungen/zentrale-referate/gleichstellung-antidiskriminierung/) mal Infos für TIN* auf der Webseite gehabt, falls die jemand findet gerne Bescheid sagen oder einen Pull Request.
 
 Wie Sie Ihren Namen mithilfe des [DGTI-Ergänzungsausweis](https://dgti.org/2021/09/05/der-ergaenzungsausweis-der-dgti-e-v/)es in den IT-Systemen der HTW ändern lassen können, 
 steht hier: [](https://www.htw-berlin.de/studium/studienorganisation/rueckmeldung/aenderungsmeldung/#:~:text=Wenn%20sich%20Ihre%20Wohnadresse%20%C3%A4ndert,der%20HTW%20Berlin%20%C3%A4ndern%20lassen.) 
