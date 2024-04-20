@@ -30,7 +30,6 @@ languageCode = 'en-us'
 rssLimit =  10
 [ params.author ]
   name = 'Barne Kleinen'
-### 10:27
 
 # disableKinds = ['taxonomy', 'term']
 [permalinks]

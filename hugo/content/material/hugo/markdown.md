@@ -10,6 +10,14 @@ toc: true
 
 This is something in between a playground and a cheatsheet for hugo markdown.
 
+## Markdown in Hugo
+
+https://gohugo.io/getting-started/configuration-markup/
+
+1. ~~strikethrough~~
+2. ~~~strikethrough~~~ <- disappears
+3. ~not strikethrough~
+
 [https://www.markdownguide.org/](https://www.markdownguide.org/)
 
 [https://www.markdownguide.org/tools/hugo/](https://www.markdownguide.org/tools/hugo/)

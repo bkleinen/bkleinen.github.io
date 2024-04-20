@@ -179,3 +179,7 @@ linkCheck_old:
 
 build:
 - hugo --environment production --source hugo --baseURL "http://localhost:$(port)/~kleinen/"  
+
+
+audit: 
+- HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo --source hugo && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" hugo/public/

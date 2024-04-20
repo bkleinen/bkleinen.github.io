@@ -28,6 +28,7 @@ I have reviewed the Domain Model
 
 
 
+
 ## Pre-Lab (Do this BEFORE the lab)
 
 ### 1. Prepare your work environment
@@ -37,11 +38,11 @@ The labs will be taught on campus. You can either
 * or just work on your own laptop that you bring to class
 
 If you decide to work on your own computer:
-* Install and set up git (You will use git to hand in code - you will be added to the Info2 group when you get added on Moodle). You don't need a Git GUI, you can use it via the command line or git bash.
-* Install and set up [IntelliJ](https://www.jetbrains.com/de-de/idea/download/). Get an [educational license](https://www.jetbrains.com/community/education/#students).
+* Install and set up git. You don't need a Git GUI, you can use it via the command line or git bash.
+* Install and set up [IntelliJ](https://www.jetbrains.com/idea/download). The community edition should be sufficient (scroll down to see it), you can get an [educational license](https://www.jetbrains.com/community/education/#students) for the IDEA Ultimate. 
 
 ### 2. Prepare some more...
-* Sign in to [GitHub](https://github.com). You can use any (nick)name you want, these must be handed in in moodle so I can recognize you.
+* Sign in to [GitHub](https://github.com) or [GitLab]()ou can use any (nick)name you want, these must be handed in in moodle so I can recognize you.
 * Read through the entire info page on the labs and note down any questions.
 * Bring headphones to the lab - you will watch a video.
 

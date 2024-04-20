@@ -1,11 +1,9 @@
-# as it's in markup.toml, this needs to be replaced:
-#[markup]
-# [markup.highlight]
 
+#[markup] # already ias it's in markup.toml, this needs to be replaced:
 # https://www.markdownguide.org/tools/hugo/
-
 # https://gohugo.io/getting-started/configuration-markup/#goldmark
 
+defaultMarkdownHandler = 'goldmark'
 [highlight]
     anchorLineNos = false
     codeFences = true

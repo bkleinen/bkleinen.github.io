@@ -1,6 +1,6 @@
 ---
-title: 'Info2: Exercise 02: Implementing CRC Cards'
-author: kleinen
+title: 'Lab 03: Implementing CRC Cards'
+author: kleinen/fernsel
 layout: lab
 draft: true
 ---
@@ -15,10 +15,10 @@ I remember programming concepts concerning classes and objects:
 
 I remember programming concepts concerning fields and variable types:
 * I can add fields to a class. 
-* I can manage modification of fields with mutator methods. 
-* I can manage reading of fields with accessor methods. 
+* I can manage modification of fields with mutator(setter) methods. 
+* I can manage reading of fields with accessor(getter) methods. 
 * I can use collections for storing elements. 
-* I am familiar with the idea of a linked list. 
+*  ~~I am familiar with the idea of a linked list.~~
 * I am familiar with the idea of a map. 
 
 I remember programming concepts concerning methods:

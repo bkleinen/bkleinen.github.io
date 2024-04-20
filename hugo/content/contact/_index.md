@@ -16,7 +16,6 @@ Email: Barne.Kleinen@htw-berlin.de
 Office: WH-C 645
 
 Zoom: [My Personal Zoom-Room]({{< param zoomBK >}})
-<!--Skype&Twitter: drblinken-->
 
 Phone: +49 30 5019-3499
 
