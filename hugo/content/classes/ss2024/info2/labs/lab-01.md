@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 01: Application Design'
+title: 'Lab 01: Application Design'
 author: kleinen
 draft: false
 weight: 010
