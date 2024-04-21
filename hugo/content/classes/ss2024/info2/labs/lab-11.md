@@ -3,6 +3,7 @@ title: 'Info2: Exercise 10: Getting from A to B'
 author: kleinen
 layout: lab
 draft: true
+weight: 110
 ---
 
 ![S-Bahn-Ring](/images/s-bahn.jpg)

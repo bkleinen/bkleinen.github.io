@@ -1,9 +1,9 @@
 ---
-title: 'Lab 03: Implementing CRC Cards'
+title: 'Lab 03: Implementing CRC Cards - Cool Zuul Version'
 author: kleinen/fernsel
 layout: lab
-draft: false
-weight: 030
+draft: true
+weight: 930
 ---
 
 ## Learning Goals

@@ -3,6 +3,7 @@ title: 'Info2: Exercise 02: Programming & Tools, Review of CRC Model'
 author: Linda Fernsel
 layout: lab
 draft: false
+weight: 020
 ---
 
 

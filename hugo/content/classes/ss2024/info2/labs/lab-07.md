@@ -3,6 +3,7 @@ title: 'Info2: Exercise 06: Reverse Polish Notation'
 author: kleinen
 layout: lab
 draft: true
+weight: 70
 ---
 
 ## Pre-Lab

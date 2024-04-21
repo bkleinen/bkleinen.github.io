@@ -3,6 +3,7 @@ title: 'Info2: Exercise 08: Multi-Threaded Chat Application'
 author: kleinen
 layout: lab
 draft: true
+weight: 80
 ---
 
 ## Pre-Lab

@@ -2,6 +2,7 @@
 title: 'Info2: Exercise 01: Application Design'
 author: kleinen
 draft: false
+weight: 010
 ---
 {{< figure src="/images/classes/info2/crc-cards.jpg" caption="CRC Cards">}}
 
