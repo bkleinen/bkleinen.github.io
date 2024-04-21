@@ -3,6 +3,7 @@ title: 'Info2: Exercise 05: Execution times'
 author: kleinen
 layout: lab
 draft: true
+weight: 60
 ---
 
 ## Learning Goals

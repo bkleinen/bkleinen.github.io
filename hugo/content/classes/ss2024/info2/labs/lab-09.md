@@ -3,6 +3,7 @@ title: 'Info2: Exercise 08: Eight Queens'
 author: kleinen
 layout: lab
 draft: true
+weight: 90
 ---
 
 ## Pre-Lab

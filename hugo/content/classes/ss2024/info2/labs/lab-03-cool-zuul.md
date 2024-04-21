@@ -1,9 +1,9 @@
 ---
-title: 'Lab 03: Implementing CRC Cards'
+title: 'Lab 03: Implementing CRC Cards - Cool Zuul Version'
 author: kleinen/fernsel
 layout: lab
-draft: false
-weight: 030
+draft: true
+weight: 930
 ---
 
 ## Learning Goals
@@ -39,22 +39,19 @@ I remember concepts concerning program design:
 
 This exercise builds on the design you did last week using CRC cards. Please think through the following questions together with your team before coming to the lab and write down your answers somewhere.
 
-***P1.*** Prepare a prioritized subset of features that you would like to implement.
+***P1.*** What part of the data do you need to save in order to persist the game status for one player?
 
-***P2.*** Re-consider your CRC cards and sort the requirements in sections that should be implemented together,
-e.g. because they all deal with Students and/or with Courses.
+***P2.***  Re-consider your CRC cards and sort the requirements in sections that should be implemented together,
+e.g. because they all deal with Items or with Exits.
 
-***P3.*** Prepare a repository either on github or gitlab which is private (not publicly visible):
-- On GitHub, you need to register as a student/in the educational program to get free access to private repositories.
-- Instructions for GitLab will follow.
-
-***P4.*** We've discussed in class wether Students should store a list of their classes or Classes should store a list of their students.
-   If Classes store a list of students, how many items need to be searched if you want to compose a list of classes for one student?
+***P3.*** Prepare a prioritized subset of features that you would like to implement.
 
 You will only need to implement a part of the requested features (the bored may do all if they wish).
 
 ## Assignment
 
+*Note: Remember to use GitLab for the development of your project. Clone the source project, add a new project in GitLab 
+and push to that project like it was done in Lab00.*
 
 1. Compare and Discuss your CRC Cards with other teams during the Lab.
 
@@ -66,21 +63,35 @@ You will only need to implement a part of the requested features (the bored may 
 
 4. Make sure that all your code is within one or two or more neatly named *packages* and you have at least one unit test.
 
-5. Answer the following questions: Did you end up using all of the classes you specified? Did you miss any classes? Discuss!
+### Important Notes
 
-6. Include your answer for P4 in your lab report.
+- If you implement a **Multiplayer**  
+  A note on the Multiple Players requirement: we will turn CoolZuul in a real
+  online multiplayer dungeon using threads and socket communication in
+  {{% link title ="Exercise 04 - Chatterbox" link = "lab-04" %}}.  
+
+  For this lab, if you chose to implement the multiplayer requirement, it suffices if you prepare this by implementing a
+  mechanism to store multiple players in the game and the notion of executing
+  all commands in the context of an active player.  
+
+  If you want to try it out, you might add a command "player xy" which switches
+  to the player with the (user)name xy.
+
+- If you implement **Persistence**  
+  The repository already contains a mechanism to load the world from a [YAML](https://en.wikipedia.org/wiki/YAML)
+  file and store it back. You can and should extend this solution.
 
 ### For the bored:
 
-7. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
+5. Implement [more or all features]({{<ref "./lab-01/#cool-zuul" >}}) or integrate
    the work of several teams to get a full solution.
 
+## Repository for this lab
+
+[https://github.com/htw-imi-info2/lab02-cool-zuul](https://github.com/htw-imi-info2/lab02-cool-zuul)
 
 ## Lab Report / What to turn in
-
 All info on the lab reports can be found on the [Labs]({{< relref "../labs" >}}) page.
 
-For this lab, you need to hand in 
-- a lab report in pdf
-- the link to your git repository as plain text
-
+Additional requirements for this lab:
+* Answer the following questions: Did you end up using all of the classes you specified? Did you miss any classes? Discuss!
