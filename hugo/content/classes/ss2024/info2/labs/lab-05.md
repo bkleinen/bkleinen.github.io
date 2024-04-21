@@ -1,8 +1,7 @@
 ---
-title: 'Info2: Exercise 04: Chatterbox'
+title: 'Lab 05: Chatterbox'
 author: kleinen
-layout: lab
-draft: true
+draft: false
 weight: 50
 ---
 
@@ -42,7 +41,7 @@ having the Client ready.
 1. Start your chatterbox by writing a method that listens for a Socket connection on a port. This is your Chatterbox server. For now, just echo what you have read to the console.
 2. Now write a client that connects to it and writes to a port.
 3. Test your methods on your own machine.
-4. If you are not in the lab with the others: Follow the instructions to connect to an HTW lab computer at https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/ and copy your code onto your lab computer. It is recommended you use a ganymed computer. Share your address and port with others and see whether you can chat with each other. You might need to change the default ports of your program to ports between 8000 and 8010.
+4. If you are not in the lab with the others: Instructions TBD. You might need to change the default ports of your program to ports between 8000 and 8010.
 
 ### Step 2: Server can send message
 5. Extend your Server such that you can enter messages on the Server side as well, and extend your Client to receive and display those messages.
@@ -52,7 +51,7 @@ having the Client ready.
 
 ### Step 4: Make Zuul Playable via Telnet
 The Zuul Game uses standard input and output as user interface. This can easily be
-exchanged with the Input- and Output Stream comming from a Socket!
+exchanged with the Input- and Output Stream coming from a Socket!
 
 1. Extract the input- and output streams System.in and System.out as fields initialized by parameters
 e.g. in the Game constructor.

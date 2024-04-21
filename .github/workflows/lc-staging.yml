@@ -4,9 +4,9 @@ on:
   #   workflows: ["Deploy Staging Drafts"]
   #   types:
   #     - completed
-  #push:
-  #  branches:
-  #    - 23s
+  push:
+    branches:
+      - xxxxxxx
 jobs:
   on-success:
     runs-on: ubuntu-latest

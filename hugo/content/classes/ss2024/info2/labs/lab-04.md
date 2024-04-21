@@ -1,8 +1,8 @@
 ---
-title: 'Info2: Exercise 03: Histogram '
+title: 'Lab 04: Histogram'
 author: kleinen
 layout: lab
-draft: true
+draft: false
 weight: 40
 ---
 
