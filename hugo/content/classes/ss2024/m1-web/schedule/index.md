@@ -6,7 +6,7 @@ weight: 20241
 ---
 
 
-Stand: 18.3.2024 / 
+Stand: 24.4.2024 / 
 [M1 Schedule Overview](/classes/m1)
 /
 [Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/hugo/content/classes/ss2024/m1-web/schedule/index.md) (ask BK for repo permissions first)
