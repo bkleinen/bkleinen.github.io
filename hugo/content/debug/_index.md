@@ -2,8 +2,13 @@
 title: page debugging site
 author: kleinen
 draft: false
+params:
+  math: true
+  toc: true
 ---
 
+This page has two parts - Markdown and html stuff 
+starting [below](#debuglisthtml)
 ### Shortcodes
 
 - [Shortcodes](https://gohugo.io/content-management/shortcodes/)
@@ -76,3 +81,45 @@ Info
     Dark
 {{</alert>}}
 
+
+
+# Math
+
+see https://gohugo.io/content-management/mathematics/
+
+This is an inline \(a^*=x-b^*\) equation.
+This is an inline $a^*=x-b^*$ equation.
+$$a^*=x-b^*$$
+
+These are block equations:
+
+\[a^*=x-b^*\]
+
+\[ a^*=x-b^* \]
+
+\[
+a^*=x-b^*
+\]
+
+These are block equations using alternate delimiters:
+
+$$a^*=x-b^*$$
+
+$$ a^*=x-b^* $$
+
+$$
+a^*=x-b^*
+$$
+
+
+
+\[
+\begin{aligned}
+KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
+JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}
+\]
+
+---
+
+# debug/list.html

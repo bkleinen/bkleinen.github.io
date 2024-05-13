@@ -20,6 +20,9 @@
    </div>
 {{ end }}
 
+  {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+  {{ end }}
 
         <div class = "container-fluid">
 

@@ -173,3 +173,16 @@ tags = []
 
 
 <script src="node_modules/axe-core/axe.min.js"></script>
+
+
+# Changelog
+
+## Add Math
+Monday, 13.May 2024 
+add tex / math: 
+https://gohugo.io/content-management/mathematics/
+
+	modified:   hugo/content/debug/_index.md
+	modified:   hugo/layouts/debug/list.html
+	modified:   hugo/themes/greenpage/layouts/_default/baseof.html
+	new file:   hugo/themes/greenpage/layouts/partials/math.html
