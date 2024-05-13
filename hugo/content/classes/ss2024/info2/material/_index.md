@@ -12,4 +12,5 @@ sortTables: true
 
 {{< subpages  >}}
 
+## Material tagged with "info2" in this site's [Material Section](/material)
 {{< course_material >}}

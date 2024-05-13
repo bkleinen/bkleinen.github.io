@@ -8,19 +8,25 @@
 
 # default port
 
+
 port=4000
+
 hugo :  hugo/node_modules open # open_current # open_m1 # openH
--  hugo --disableFastRender --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
+-  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)" --source hugo -p $(port) server
+
+
+hugo2 :  hugo/node_modules open # open_current # open_m1 # openH
+-  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
 
 hugoP: port=4444
 hugoP :  hugo/node_modules open # open_current # open_m1 # openH
--  hugo --disableFastRender --buildFuture --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
+-  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
 
 openProd :
 -  open http://localhost:$(portP)/
 
 open:
-- open http://localhost:$(port)/~kleinen/classes/ss2024/info2
+- open http://localhost:$(port)/classes/ss2024/info2
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1
@@ -38,7 +44,7 @@ open_m1:
 - open http://localhost:$(port)/~kleinen/classes/ss2024/m1-web/
 
 hugo1 :  hugo/node_modules openI
--  hugo --disableFastRender --buildDrafts --source hugo -p $(port) server
+-  hugo --disableFastRender --navigateToChanged --buildDrafts --source hugo -p $(port) server
 openBib:
 - open 	http://localhost:4242/~kleinen/bibliographies
 
@@ -46,7 +52,7 @@ openBib:
 debug :  hugo/node_modules
 -  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
 -  open http://localhost:4242/~kleinen/classes/
--  hugo --disableFastRender --buildDrafts --environment debug --source hugo -p $(port) server
+-  hugo --disableFastRender --buildDrafts --navigateToChanged --environment debug --source hugo -p $(port) server
 
 hugo/node_modules :
 -  cd hugo ; npm install ; cd ..

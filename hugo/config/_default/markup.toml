@@ -23,3 +23,11 @@ defaultMarkdownHandler = 'goldmark'
     #style = 'tango'
     # style = 'solarized-dark'
     noClasses=false
+# see https://gohugo.io/content-management/mathematics/   
+[goldmark]
+    [goldmark.extensions]
+      [goldmark.extensions.passthrough]
+        enable = true
+        [goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['§§', '§§'], ['$', '$']]

@@ -1,5 +1,5 @@
 ---
-title: 'Lab 03: Implementing CRC Cards - Cool Zuul Version'
+title: 'outtake --- Lab 03: Implementing CRC Cards - Cool Zuul Version'
 author: kleinen/fernsel
 layout: lab
 draft: true

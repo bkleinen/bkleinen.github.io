@@ -21,7 +21,7 @@ staticDir2 = ['static-snippets']
   generatedLinks = true # set this to false to detect unlinked pages
   zoomBK = "https://htw-berlin.zoom.us/j/3165395630"
   mainProductionURL = 'https://home.htw-berlin.de/~kleinen'
-
+  math = false
 # rss feed
 # https://gohugo.io/templates/rss/#the-embedded-rssxml
 # https://gohugo.io/templates/rss/
