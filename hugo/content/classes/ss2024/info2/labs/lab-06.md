@@ -1,5 +1,5 @@
 ---
-title: 'Info2: Exercise 06: Execution times'
+title: 'Lab 06: Execution times'
 author: kleinen
 layout: lab
 draft: false
