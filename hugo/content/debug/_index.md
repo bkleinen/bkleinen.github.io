@@ -24,6 +24,12 @@ https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shor
 
 ## My own Shortcodes
 
+### Embed HTML in Markdown page (unsafe_html)
+- unsafe_html with <>
+  {{< unsafe_html  >}} <h5>I'm a header five</h5> {{< /unsafe_html >}}
+- unsafe_html with %%:
+  {{% unsafe_html  %}} <h5>I'm a header five</h5>  {{% /unsafe_html %}}
+
 ##### alerts (or shortcodes in general) with rendered md
 
 [Emcke, Carolin. Gegen den Hass](https://www.fischerverlage.de/buch/carolin-emcke-gegen-den-hass-9783596296873)

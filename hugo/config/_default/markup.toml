@@ -31,3 +31,7 @@ defaultMarkdownHandler = 'goldmark'
         [goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)'], ['§§', '§§'], ['$', '$']]
+
+
+    [goldmark.renderer]
+      unsafe = false
