@@ -20,7 +20,12 @@
 {{- end -}}
 
 {{- with $page -}}
-  [{{- $title}}]({{$link}})
+  [
+  {{- if .Draft }}(draft!) 
+    {{- $title -}}
+    {{ else }}
+  {{- .Title -}}
+  {{ end -}}]({{$link}})
 {{- else }}
   {{- $title -}}
   {{- with $nyp -}}

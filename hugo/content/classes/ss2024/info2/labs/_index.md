@@ -7,6 +7,7 @@ draft: false
 weight: 200
 ---
 
+
 Welcome! On this page you find important information about the labs: How to prepare, how to communicate, what to work on, how to submit. Read through it carefully and ask if anything is unclear.
 
 ## Before the lab: Pre-Labs
@@ -21,11 +22,10 @@ There are two lab groups. LSF tells you which group you are in, and when and in 
 
 Please be there on time. Please note that food and open beverages are not allowed inside the lab.
 
-
 ### Lab Assignments
 
-{{< subpages >}}
-
+{{< subpages sort = "weight" >}}
+ 
 ## Teams
 You will work in teams of two or three. 
 

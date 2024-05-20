@@ -33,7 +33,7 @@ Wenn ich Ihre Klasse als Grundlage nehme und bei paintSierpinskiTriangle eine Li
 
 ### Answer
 
-Ist ohne Ihren Source Code zu sehen für mich nicht nachzuvollziehen - ich habe im [Branch line](https://github.com/htw-imi-info2/SierpinskyTriangleStart/blob/line/src/triangle/SierpinskiTriangle.java) eine Linie und ein Dreieck hinzugefügt und beide resizen mit. (das Dreieck das hier gezeichnet wird ist <font face = "bold">nicht</font> gleichseitig!)
+Ist ohne Ihren Source Code zu sehen für mich nicht nachzuvollziehen - ich habe im [Branch line](https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle/blob/line/src/triangle/SierpinskiTriangle.java) eine Linie und ein Dreieck hinzugefügt und beide resizen mit. (das Dreieck das hier gezeichnet wird ist <font face = "bold">nicht</font> gleichseitig!)
 
 ## Question 3 .:  how can I draw a Rectangle on the screen?
 
@@ -41,7 +41,7 @@ This question was asked on May 26, 2015 10:57.
 
 ### Answer:
 I've provided a scaffold project which can be found here in case you can't find your sources from last
-semester ;-) - [https://github.com/htw-imi-info2/SierpinskyTriangleStart](https://github.com/htw-imi-info2/SierpinskyTriangleStart)
+semester ;-) - [https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle/tree/ss2015](https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle/tree/ss2015)
 
 ## Question 4+5: static context
 
@@ -94,7 +94,7 @@ Wie schafft man es, dass ein 'Canvas' darauf reagiert, dass man das umgebene Fen
 
 ### Answer:
 
-Sie finden ein Beispiel hier: [https://github.com/htw-imi-info2/SierpinskyTriangleStart](https://github.com/htw-imi-info2/SierpinskyTriangleStart) - das funktioniert über das Observer/Listener-Pattern:
+Sie finden ein Beispiel hier: [https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle/tree/ss2015](https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle/tree/ss2015) - das funktioniert über das Observer/Listener-Pattern:
 
 Zunächst wird Hauptpanel die paint() Methode überschrieben und durch den Aufruf von paintSierpinskiTriangle() ergänzt:
 
