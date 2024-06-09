@@ -6,7 +6,7 @@ CourseNav: Schedule
 toc: false
 ---
 
-This Term, the Masterseminar will be held with three Day-Long Meetings
+This Term, the Master Seminar will be held with three Day-Long Meetings
 in Person @ HTW Wilhelminenhof and Zoom-Sessions.
 
 | Week | KW  | Date           | Time                            |

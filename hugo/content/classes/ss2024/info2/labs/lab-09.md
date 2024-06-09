@@ -1,8 +1,8 @@
 ---
-title: 'Info2: Exercise 08: Eight Queens'
+title: 'Lab 09: Eight Queens'
 author: kleinen
 layout: lab
-draft: true
+draft: false
 weight: 90
 ---
 
@@ -17,7 +17,7 @@ weight: 90
       c) the cells are in the same ascending diagonal (lower left to upper right)?
       d) the cells are in the same descending diagonal (upper left to lower right)?
 
-***P4.*** Implement the recursive solution to the *Towers of Hanoi* so that you can review how recursion works using the debugger.
+***P4.*** Implement or [review](https://github.com/htw-imi-info2/su09-recursion) the recursive solution to the *Towers of Hanoi* so that you can review how recursion works using the debugger.
 
 ## Assignment
 Our goal is to write a program to determine if 8 queens can be placed on an 8 x 8 chess board without them threatening each other!
@@ -50,5 +50,3 @@ Also answer the following questions in your report:
 * Ex. 4: Does your program work for 10 queens on a 10 x 10 board? 13 on a 13 x 13 board?
 
 ----
-
-based on [Exercise 13](https://people.f4.htw-berlin.de/~weberwu/info2/labs/ExerD.shtml) by DWW
