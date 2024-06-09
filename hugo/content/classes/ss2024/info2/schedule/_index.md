@@ -8,97 +8,51 @@ weight: 1000
 This schedule is, as always, tentative.
 
 
-| Week | KW  | Lecture        |             |                                                                                                                      | Lab                                                                                |
-| :--- | :-- | :------------- | :---------- | :------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| 1    | 14  | Tue 02/04/2024 |             | No Class: Erstsemesterwoche and Exams                                                                                |                                                                                    |
-|      |     | Thu 04/04/2024 |             |                                                                                                                      |                                                                                    |
-| 2    | 15  | Tue 09/04/2024 |             | Introduction to the course.                                                                                          | {{% link title ="Designing an Application, CRC Cards " link = "../labs/lab-01" %}} |
-|      |     | Thu 11/04/2024 |             | Review: Java Program, Interfaces, Parameters, Data Types and Control Structures, Classes, Arrays, Collections        |                                                                                    |
-| 3    | 16  | Tue 16/04/2024 |             | Intro to the shell(bash), git, github                                                                                | {{% link title ="Getting back to programming, Tools" link = "../labs/lab-02" %}}   |
-|      |     | Thu 18/04/2024 |             | Designing Applications                                                                                               |                                                                                    |
-| 4    | 17  | Tue 23/04/2024 |             | Designing Applications                                                                                               | {{% link title ="Implementing CRC cards " link = "../labs/lab-03" %}}              |
-|      |     | Thu 25/04/2024 |             | File-based IO, Exceptions (Prep. Lab 04, Histogram)                                                                  |                                                                                    |
-| 5    | 18  | Tue 30/04/2024 |             | Concurrency, Networking in Java (Prep. Lab 05, Chatterbox)                                                           | {{% link title ="Histogram" link = "../labs/lab-04" %}}                            |
-|      |     | Thu 02/05/2024 |             | Properties of Algorithms, Execution Times                                                                            |                                                                                    |
-| 6    | 19  | Tue 07/05/2024 |             | Data Types:Lists /  Data Types: Sets, Bags, Maps                                                                     | {{% link title ="Chatterbox" link = "../labs/lab-05" %}}                           |
-|      |     | Thu 09/05/2024 | Himmelfahrt | *No Class*                                                                                                           |                                                                                    |
-| 7    | 20  | Tue 14/05/2024 |             | Data Types: Stacks                                                                                                   | {{% link title ="Execution Times" link = "../labs/lab-06" %}}                      |
-|      |     | Thu 16/05/2024 |             |                        |                                                                                    |
-| 8    | 21  | Tue 21/05/2024 |             | Recursion                                                                                                            | {{% link title ="Reverse Polish Notation" link = "../labs/lab-07" %}}              |
-|      |     | Thu 23/05/2024 |             | Queues, Priority Queues                                                                                              |                                                                                    |
-| 9    | 22  | Tue 28/05/2024 |             | Sorting [see Chapter in Algorithms Book: Sorting](https://algs4.cs.princeton.edu/20sorting/)                                                                                                                       | {{% link title ="Recursive Triangles" link = "../labs/lab-08" %}}                  |
-|      |     | Thu 30/05/2024 |             | Permutations (Permutations.java), Backtracking (TicTacToe.java),                                                     |                                                                                    |
-| 10   | 23  | Tue 04/06/2024 |             | Random numbers - Probabilistic Algorithms                                                                            | {{% link title ="Eight Queens" link = "../labs/lab-09" %}}                         |
-|      |     | Thu 06/06/2024 |             | Hashing, see also [Hash Tables](https://algs4.cs.princeton.edu/34hash/)                                              |                                                                                    |
-| 11   | 24  | Tue 11/06/2024 |             | Data Structures: Graphs, Graph Algorithms - [S./W.: Algorithms Ch. 4](https://algs4.cs.princeton.edu/40graphs/)      | {{% link title ="Probabilistic Algorithms" link = "../labs/lab-10" %}}             |
-|      |     | Thu 13/06/2024 |             | Graph Algorithms -  [S./W.: Algorithms Ch. 4](https://algs4.cs.princeton.edu/40graphs/)                              |                                                                                    |
-| 12   | 25  | Tue 18/06/2024 |             | *--TBD--*                                                                                                            | {{% link title ="Getting from A to B" link = "../labs/lab-11" %}}                  |
-|      |     | Thu 20/06/2024 |             | Finite State Automata [see below](#finite-state-automata)                                                            |                                                                                    |
-| 13   | 26  | Tue 25/06/2024 |             | Searching  + String Searching                                                                                        |                                                                                    |
-|      |     | Thu 27/06/2024 |             | Data Structures: Trees, AVL-Trees                                                                                    |                                                                                    |
-| 14   | 27  | Tue 02/07/2024 |             | Python Intro                                                                                                         | {{% link title ="Finite State Automata and Sorting" link = "../labs/lab-12" %}}    |
-|      |     | Thu 04/07/2024 |             | Fun with Python                                                                                                      |                                                                                    |
-| 15   | 28  | Tue 09/07/2024 |             | Cryptographic Algorithms                                                                                             | {{% link title ="Scrabble Cheater" link = "../labs/lab-13" %}}                     |
-|      |     | Thu 11/07/2024 |             | Character Encodings/Unicode (The Absolute Minimum Every Software Developer ... Must Know About Unicode ...)   , I18n |                                                                                    |
-| 16   | 29  | Tue 16/07/2024 |             | Exam Info & Preparation                                                                                              | {{% link title ="Scrabble Cheater Deluxe" link = "../labs/lab-14" %}}              |
-|      |     | Thu 18/07/2024 |             |                                                                                                                      |                                                                                    |
-| 17   | 30  | Tue 23/07/2024 |             | Exam PZ 1?                                                                                                           |                                                                                    |
-|      |     | Thu 25/07/2024 |             |                                                                                                                      |                                                                                    |
-| 18   | 31  | Tue 30/07/2024 |             | Klausureinsicht?                                                                                                     |                                                                                    |
-|      |     | Thu 01/08/2024 |             |                                                                                                                      |                                                                                    |
-|      |     | Fri 02/08/2024 |             | Showtime                                                                                                             |                                                                                    |
-|      |     |                |             |                                                                                                                      |                                                                                    |
+| Week | KW | Lecture        |             |                                                                                                                      | Lab                                                                                |
+|:-----|:---|:---------------|:------------|:---------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+| 1    | 14 | Tue 02/04/2024 |             | No Class: Erstsemesterwoche and Exams                                                                                |                                                                                    |
+|      |    | Thu 04/04/2024 |             |                                                                                                                      |                                                                                    |
+| 2    | 15 | Tue 09/04/2024 |             | Introduction to the course.                                                                                          | {{% link title ="Designing an Application, CRC Cards " link = "../labs/lab-01" %}} |
+|      |    | Thu 11/04/2024 |             | Review: Java Program, Interfaces, Parameters, Data Types and Control Structures, Classes, Arrays, Collections        |                                                                                    |
+| 3    | 16 | Tue 16/04/2024 |             | Intro to the shell(bash), git, github                                                                                | {{% link title ="Getting back to programming, Tools" link = "../labs/lab-02" %}}   |
+|      |    | Thu 18/04/2024 |             | Designing Applications                                                                                               |                                                                                    |
+| 4    | 17 | Tue 23/04/2024 |             | Designing Applications                                                                                               | {{% link title ="Implementing CRC cards " link = "../labs/lab-03" %}}              |
+|      |    | Thu 25/04/2024 |             | File-based IO, Exceptions (Prep. Lab 04, Histogram)                                                                  |                                                                                    |
+| 5    | 18 | Tue 30/04/2024 |             | Concurrency, Networking in Java (Prep. Lab 05, Chatterbox)                                                           | {{% link title ="Histogram" link = "../labs/lab-04" %}}                            |
+|      |    | Thu 02/05/2024 |             | Properties of Algorithms, Execution Times                                                                            |                                                                                    |
+| 6    | 19 | Tue 07/05/2024 |             | Data Types:Lists /  Data Types: Sets, Bags, Maps                                                                     | {{% link title ="Chatterbox" link = "../labs/lab-05" %}}                           |
+|      |    | Thu 09/05/2024 | Himmelfahrt | *No Class*                                                                                                           |                                                                                    |
+| 7    | 20 | Tue 14/05/2024 |             | Data Types: Stacks                                                                                                   | {{% link title ="Execution Times" link = "../labs/lab-06" %}}                      |
+|      |    | Thu 16/05/2024 |             | --                                                                                                                   |                                                                                    |
+| 8    | 21 | Tue 21/05/2024 |             | Recursion                                                                                                            | {{% link title ="Reverse Polish Notation" link = "../labs/lab-07" %}}              |
+|      |    | Thu 23/05/2024 |             | Graphs & Graph Algorithms Part I                                                                                     |                                                                                    |
+| 9    | 22 | Tue 28/05/2024 |             | Sorting [see Chapter in Algorithms Book: Sorting](https://algs4.cs.princeton.edu/20sorting/)                         | {{% link title ="Recursive Triangles" link = "../labs/lab-08" %}}                  |
+|      |    | Thu 30/05/2024 |             | --                                                                                                                   |                                                                                    |
+| 10   | 23 | Tue 04/06/2024 |             | --                                                                                                                   |                                                                                    |
+|      |    | Thu 06/06/2024 |             | --                                                                                                                   |                                                                                    |
+| 11   | 24 | Tue 11/06/2024 |             | Recursion Part II: Permutations (Permutations.java), Backtracking (TicTacToe.java), Sorting Part II: Heapsort        | {{% link title ="Eight Queens" link = "../labs/lab-09" %}}                         |
+|      |    | Thu 13/06/2024 |             |   e-learning Assignment: Trees, Queues, Priority Queues: Implement a Priority Queue with a Heap! see for instance [2.4 Priority Queues](https://algs4.cs.princeton.edu/24pq/) in Sedgewick: Algorithms                 |
+| 12   | 25 | Tue 18/06/2024 |             | Finite State Automata                                                                                                                     |  {{% link title ="Finite State Automata and Sorting" link = "../labs/lab-12" %}}                                                                                   |
+|      |    | Thu 20/06/2024 |             |    Graphs & Graph Algorithms Part II (Dijkstra)  - [S./W.: Algorithms Ch. 4](https://algs4.cs.princeton.edu/40graphs/)       |
+| 13   | 26 | Tue 25/06/2024 |             |  Searching  + String Searching                                                                                       | {{% link title ="Getting from A to B" link = "../labs/lab-11" %}}                  |
+|      |    | Thu 27/06/2024 |             | Data Structures: Trees, AVL-Trees                                                                                    |                                                                                    |
+| 14   | 27 | Tue 02/07/2024 |             |  Hashing, see also [Hash Tables](https://algs4.cs.princeton.edu/34hash/)                                                                                                     | {{% link title ="Scrabble Cheater" link = "../labs/lab-13" %}}                                                                                           |
+|      |    | Thu 04/07/2024 |             | Python Intro                                                                                                         |                                                                                                                                                          |
+| 15   | 28 | Tue 09/07/2024 |             | Fun with Python                                                                                              | {{% link title ="Scrabble Cheater Deluxe" link = "../labs/lab-14" %}}              |
+|      |    | Thu 11/07/2024 |             | Character Encodings/Unicode (The Absolute Minimum Every Software Developer ... Must Know About Unicode ...)   , I18n |              |
+| 16   | 29 | Tue 16/07/2024 |             | Exam Info & Preparation                                                                                              | Trial Exams             |
+|      |    | Thu 18/07/2024 |             |                                                                                                                      |                                                                                    |
+| 17   | 30 | Tue 23/07/2024 |             | Exam PZ 1                                                                                                           |                                                                                    |
+|      |    | Thu 25/07/2024 |             | --                                                                                                                     |                                                                                    |
+| 18   | 31 | Tue 30/07/2024 |             | Klausureinsicht?                                                                                                     |                                                                                    |
+|      |    | Thu 01/08/2024 |             |                                                                                                                      |                                                                                    |
+|      |    | Fri 02/08/2024 |             | Showtime                                                                                                             |                                                                                    |
+|      |    |                |             |                                                                                                                      |                                                                                    |
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-## Finite State Automata
-Material:
-
-- The course [Computer Science: Algorithms, Theory, and Machines](https://www.coursera.org/learn/cs-algorithms-theory-machines),
-[Week 4](https://www.coursera.org/learn/cs-algorithms-theory-machines/home/week/4) on Coursera contains an introduction video on Deterministic Finita Automata (DFA)s:
-[DFAs | Coursera](https://www.coursera.org/learn/cs-algorithms-theory-machines/lecture/Jydy3/dfas) (you will need to register, but accessing the material is free)
-- neat example in Python which makes use of Pythons ability to pass functions as pameters for the state transitions: [Finite State Machine in Python | Applications Python | python-course.eu](https://python-course.eu/applications-python/finite-state-machine.php)
-- Note that Finite Automatas are structurally equivalent to State Machines, for an introduction see: [UML 2 State Machine Diagrams: An Agile Introduction](http://agilemodeling.com/artifacts/stateMachineDiagram.htm)
-
--->
 
 
 <!--
