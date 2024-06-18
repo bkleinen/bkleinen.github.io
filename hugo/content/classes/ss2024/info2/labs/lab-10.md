@@ -6,6 +6,10 @@ draft: false
 weight: 100
 ---
 
+{{<alert warning>}}
+    As we haven't discussed Heapsort in enough detail yet, you can postpone the Heapsort walkthroughs to a later lab/time after we discussed Trees, Heaps and Heapsort in more detail. 
+{{</alert>}}
+
 ## Pre-Lab
 ***P1.*** What is the difference between an NFA and an DFA?
 
@@ -47,7 +51,7 @@ Start state: q1, accept states: q2, q4
 
 
 1. Draw transition diagrams for both Finite Automata and describe the language they accept in English (or German) sentences. Are they DFA or NFA?
-2. What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab10_FiniteAutomata/blob/main/test/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab10_FiniteAutomata](https://github.com/htw-imi-info2/Lab10_FiniteAutomata).
+2. What are words in and not in the language? Create Simulations for both Finite Automata with fitting words as test cases. You can use [NFA1AtThirdFromLast.java](https://github.com/htw-imi-info2/Lab10_FiniteAutomata/blob/main/test/nfa/examples/NFA1AtThirdFromLast.java) as an example. You find an NFA Simulator in [https://github.com/htw-imi-info2/Lab10_FiniteAutomata](https://github.com/htw-imi-info2/Lab10_FiniteAutomata).
 
 ### Exercise 2: Design Finite Automata
 The following three Finite Automata are given by their description:
