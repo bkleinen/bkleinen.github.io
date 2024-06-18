@@ -16,7 +16,7 @@ Time and Room: See [LSF](#tbd)
 | Week | KW | Date                  | Topic Area                              | Lecturer          |
 |:-----|:---|:----------------------|:----------------------------------------|:------------------|
 | 1    | 40 | Wed 02/10/2024        | (erster Vorlesungstag)                  |                   |
-| 2    | 41 | Wed 09/10/2024        | Visual Computing                        | Nico Hezel        |
+| 2    | 41 | Wed 09/10/2024        | Visual Computing                        | Klaus Jung        |
 | 3    | 42 | Wed 16/10/2024        | Visual Computing                        | Nico Hezel        |
 | 4    | 43 | Wed 23/10/2024        | Visual Computing                        | Kai Barthel       |
 | 5    | 44 | Wed 30/10/2024        | Visual Computing                        | Nico Hezel        |
