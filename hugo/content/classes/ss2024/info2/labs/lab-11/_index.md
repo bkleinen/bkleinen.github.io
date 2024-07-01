@@ -1,5 +1,5 @@
 ---
-title: 'Lab11: Getting from A to B'
+title: 'Lab 11: Getting from A to B'
 author: kleinen
 layout: lab
 draft: false

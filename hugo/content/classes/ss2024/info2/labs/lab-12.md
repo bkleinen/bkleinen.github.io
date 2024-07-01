@@ -1,8 +1,9 @@
 ---
-title: 'Info2: Exercise 12: Scrabble Cheater - Basic Edition '
+title: 'Lab 12: Scrabble Cheater - Basic Edition '
 author: kleinen
 layout: lab
-draft: true
+draft: false
+weight: 120
 ---
 
  ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
