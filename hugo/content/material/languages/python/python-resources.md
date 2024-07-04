@@ -1,12 +1,12 @@
 ---
 title: "Python Resources"
-date: 2021-10-09T18:56:38+02:00
 draft: false
 weight: 0
 tags: ['python']
 courses: ['info2', 'info3']
 languages: ['python']
 ---
+
 This is a collection of Python Resources. See [Python Notes](../python/)
 
 ## The Official Python Documentation

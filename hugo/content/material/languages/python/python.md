@@ -8,7 +8,8 @@ courses: ['info2', 'info3']
 languages: ['python']
 ---
 
-# Some Notes and Tips on Getting Started with the Python Programming Language
+
+## Some Notes and Tips on Getting Started with the Python Programming Language
 
 There are many, and many good Python resources available, many of them for
 free - after all, it's the most frequently used programming language for
@@ -16,12 +17,17 @@ introductionary courses.
 
 [See Python Resources](../python-resources/)
 
-## Suggested Path for info3
+## Suggested Path for Info3 & Info3
 
-As we are already using IntelliJ IDEA: PyCharm Edu comes with a nice interactive
-Python Course. You can either install/use PyCharm Edu or install the EduTools
+As we are already using IntelliJ IDEA, using the Python Flavour of IntelliJ IDEA called "PyCharm" doesn't have that steep of a learning curve.
+
+https://www.jetbrains.com/pycharm-edu/
+
+ PyCharm Community Edition comes with a nice interactive
+Python Course. You can ~~either install/use PyCharm Edu or~~ install the EduTools
 plugin for PyCharm Professional.
 
+0. Go to [https://www.jetbrains.com/pycharm-edu/](https://www.jetbrains.com/pycharm-edu/) for a pointer to the interactive course
 1. Video Intro: [Start learning with PyCharm Edu - YouTube](https://www.youtube.com/watch?v=LjecpkIvJFc)
 2. Install Pycharm Edu - via the JetBrains Toolbox if you already have that,
    or download it here: [PyCharm Edu](https://www.jetbrains.com/de-de/pycharm-edu/)
@@ -29,7 +35,7 @@ plugin for PyCharm Professional.
    [https://www.python.org/downloads/](https://www.python.org/downloads/) -
    installation and select it in
    Preferences -> Python Interpreter -> Preferences (gears upper right) Add… or Show All…
-4. PyCharm will install a virtualenv for the project under `.idea/VirtualEnv`
+4. PyCharm will install a virtualenv for the project under `.venv`
 
 While Python might be a beginner-friendly language, installing Python properly certainly is not.
 While the basic installation steps are straightforward, you most probably will
