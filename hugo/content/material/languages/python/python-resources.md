@@ -32,7 +32,7 @@ This is a collection of Python Resources. See [Python Notes](../python/)
 
 - Al Sweigart's [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/) is free to read under a Creative Commons license.
    - The source code is available here: [asweigart/automateboringstuff: This package installs the modules used in "Automate the Boring Stuff with Python", 2nd Edition.](https://github.com/asweigart/automateboringstuff)
-
+- https://nostarch.com/impracticalpythonprojects
 
 ## Source Code Repos
 
