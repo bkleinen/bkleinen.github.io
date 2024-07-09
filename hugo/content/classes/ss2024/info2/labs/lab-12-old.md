@@ -2,17 +2,15 @@
 title: 'Lab 12: Scrabble Cheater - Basic Edition '
 author: kleinen
 layout: lab
-draft: draft # with improvements for next round
+draft: false
 weight: 120
 ---
 
  ![Scrabble](./../images/scrabble_4468636695_2434bc60ff_b.jpg "scrabble tile rack")
 Foto by [Mags_cat](https://www.flickr.com/photos/mk1971/4468636695)
 
-TBD!!!!
-- Permutation#equals method should check on equal words, not on equality based on permutation.
-
 <!--
+- Permutation#equals method should check on equal words, not on equality based on permutation.
 
 debbies version:
 Review the rules of Scrabble, if you have never played it before.

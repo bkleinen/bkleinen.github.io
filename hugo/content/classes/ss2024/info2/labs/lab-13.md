@@ -10,7 +10,7 @@ draft: true
  ![Scrabble](../../images/scrabble_331161309_a8e6c6c3fd_o.jpg "scrabble 1")
 Foto by [Piotr](https://www.flickr.com/photos/derbeth/331161309/)
 
-1. What would the exact data structure be for a hash table that stores  Strings and chains the collisions?
+1. What would the exact data structure be for a hash map that stores  Strings and chains the collisions?
 1. Review the construction of a hash function. Note that you will need prime numbers. Does your isPrime method work? If not, fix it now.
 
 ## Assignment
@@ -22,7 +22,7 @@ Also, you will add an *own* Hash Map implementation trying to optimize the hash 
 and maybe be able to make the lookup even more efficient.
 
 1. Get out your solution to Exercise 12 (The basic edition of the scrabble cheater) - or borrow a working one from someone. Remember to give them credit.
-1. create a new implementation of the WordList interface - maybe call it OwnHashWordList - that creates a hash table for storing the words. Use chaining of collisions. How many entries does your table have? How many collisions were there? What is the longest chain in your hash table? Some statistical methods might be nice. Can you fix your hash function to have chains of 16 or less?
+1. create a new implementation of the WordList interface - maybe call it OwnHashWordList - that creates a hash map for storing the words. Use chaining of collisions. How many entries does your map have? How many collisions were there? What is the longest chain in your hash map? Some statistical methods might be nice. Can you fix your hash function to have chains of 16 or less?
 1.   Implement the validWordsUsingAllTiles() method in your OwnHashWordList.
 1. Implement allValidWords() in both your SimpleWordList as well as the OwnHashWordList:
 based on the tile rack with 7 letters, split them into collections of 7-, then 6-, then 5-, ... words contained in the input bag of letters using the subset function you implemented last week. Look up each word in each collection and add it to the result.
