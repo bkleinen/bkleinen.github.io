@@ -18,7 +18,7 @@ for the newly founded  German International University of Cairo. It is currently
 ( [GIU AS Project](https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2839).
 the data source for information on the website as well as extended to support
 basis for further curricula maintenance and development.
-More Information: [Modulehandbook]({{< ref "software_projects/modulehandbook.md" >}} "Modulehandbook") (Rails)
+More Information: [Modulehandbook](https://https://modulehandbook.github.io/) (Rails)
 
 ### The **[StudyPlan](https://github.com/htw-imi-projects/studyplan)** (MEVN)
 is a service working on top of the Module-Handbook data (exported in json) which

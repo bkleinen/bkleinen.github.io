@@ -1,8 +1,10 @@
 ---
 title: Modulehandbook
 author: unckell
+draft: true
 ---
 
+- deprecated, moved to https://modulehandbook.github.io/
 # Writing and Developing Module Handbooks Together
 
 Module handbooks are a very important basis for the planning and organization of studies and for the recognition of credits already earned. The planning of completely new study programs and modules as well as their further development are based on the module handbooks.
