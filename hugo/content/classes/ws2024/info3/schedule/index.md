@@ -7,50 +7,96 @@ draft: false
 ---
 
 
+
+| 1   | 40  | Mon 30/09/2024 |
+| u-- | u-- | F------------4 |
+| 2   | 41  | Mon 07/10/2024 |
+|     |     | Fri 11/10/2024 |
+| 3   | 42  | Mon 14/10/2024 |
+|     |     | Fri 18/10/2024 |
+| 4   | 43  | Mon 21/10/2024 |
+|     |     | Fri 25/10/2024 |
+| 5   | 44  | Mon 28/10/2024 |
+|     |     | Fri 01/11/2024 |
+| 6   | 45  | Mon 04/11/2024 |
+|     |     | Fri 08/11/2024 |
+| 7   | 46  | Mon 11/11/2024 |
+|     |     | Fri 15/11/2024 |
+| 8   | 47  | Mon 18/11/2024 |
+|     |     | Fri 22/11/2024 |
+| 9   | 48  | Mon 25/11/2024 |
+|     |     | Fri 29/11/2024 |
+| 10  | 49  | Mon 02/12/2024 |
+|     |     | Fri 06/12/2024 |
+| 11  | 50  | Mon 09/12/2024 |
+|     |     | Fri 13/12/2024 |
+| 12  | 51  | Mon 16/12/2024 |
+|     |     | Fri 20/12/2024 |
+|     | 52  | Mon 23/12/2024 | Winterpause
+|     |     | Fri 27/12/2024 | Winterpause
+|     | 1   | Mon 30/12/2024 | Winterpause
+|     |     | Fri 03/01/2025 | Winterpause
+| 13  | 2   | Mon 06/01/2025 |
+|     |     | Fri 10/01/2025 |
+| 14  | 3   | Mon 13/01/2025 |
+|     |     | Fri 17/01/2025 |
+| 15  | 4   | Mon 20/01/2025 |
+|     |     | Fri 24/01/2025 |
+| 16  | 5   | Mon 27/01/2025 |
+|     |     | Fri 31/01/2025 |
+| 17  | 6   | Mon 03/02/2025 |
+|     |     | Fri 07/02/2025 | Showtime
+| 18  | 7   | Mon 10/02/2025 |
+|     |     | Fri 14/02/2025 |
+
+
 This schedule is, more than always, tentative.
 
-| Week | KW | Date           | Lecture Topic                                                                                |   | Lab (Tue & Wed)                                                            |
-|:-----|:---|:---------------|:---------------------------------------------------------------------------------------------|---|:---------------------------------------------------------------------------|
-| 1    | 14 | Tue 04/04/2023 |                                                                                              |   |                                                                            |
-|      |    | Wed 05/04/2023 | Introduction to Info3, Source Code Management                                                |   | No Lab.                                                                    |
-| 2    | 15 | Tue 11/04/2023 | Source Code Management (GIT)                                                                 |   | {{% link link = "../labs/lab-01-startup" %}}                               |
-|      |    | Wed 12/04/2023 | Introduction to Software Engineering and Software Development Processes                      |   |                                                                            |
-| 3    | 16 | Tue 18/04/2023 | System Modeling, Architectural Design, Requirement Engineering                               |   | {{% link  link = "../labs/lab-02-python" %}}                               |
-|      |    | Wed 19/04/2023 | UML & System Modeling, Use Cases and User Stories                                            |   |                                                                            |
-| 4    | 17 | Tue 25/04/2023 | UML & System Modeling: Requirements,  Product Owner Game                                     |   | {{% link  link = "../labs/lab-03-pythonproject" %}}                        |
-|      |    | Wed 26/04/2023 | -- no lecture --                                                                             |   |                                                                            |
-| 5    | 18 | Tue 02/05/2023 | Software Processes  II / Requirements Analysis                                               |   | {{% link  link = "../labs/lab-04-usecases-classdiagrams" %}}               |
-|      |    | Wed 03/05/2023 | Software Design Patterns (GOF)                                                               |   |                                                                            |
-| 6    | 19 | Tue 09/05/2023 | Clean Code Intro &  Poster preparation                                                       |   | {{% link  link = "../labs/lab-05-usecases-classdiagrams" %}}               |
-|      |    | Wed 10/05/2023 | Clean Code Poster Session                                                                    |   |                                                                            |
-| 7    | 20 | Tue 16/05/2023 | [e-learning / Software Design Patterns (GOF) or Clean Code](../material/e-learning-reviews/) |   | **Himmelfahrt**                                                            |
-|      |    | Wed 17/05/2023 | [e-learning / Video Summary](../material/e-learning-videos/)                                 |   |                                                                            |
-| 8    | 21 | Tue 23/05/2023 | Agile Development, Scrum                                                                     |   | {{% link  link = "../labs/lab-06-sequence-diagrams" %}}                    |
-|      |    | Wed 24/05/2023 | Legacy Code & Refactoring                                                                    |   |                                                                            |
-| 9    | 22 | Tue 30/05/2023 |                                                                                              |   |                                                                            |
-|      |    | Wed 31/05/2023 |                                                                                              |   |                                                                            |
-| 10   | 23 | Tue 06/06/2023 |                                                                                              |   |                                                                            |
-|      |    | Wed 07/06/2023 |                                                                                              |   |                                                                            |
-| 11   | 24 | Tue 13/06/2023 | Software Testing, TDD, Code Quality                                                          |   | {{% link use_filename = "True" link = "../labs/lab-07-testing" %}}         |
-|      |    | Wed 14/06/2023 | SOLID Principles, Refactoring to Patterns                                                    |   |                                                                            |
-| 12   | 25 | Tue 20/06/2023 | OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing                       |   | {{% link use_filename = "True" link = "../labs/lab-08-gilded-rose" %}}     |
-|      |    | Wed 21/06/2023 | More on Design                                                                               |   |                                                                            |
-| 13   | 26 | Tue 27/06/2023 | Application Architectures &  System Models                                                   |   | {{% link  use_filename = "True" link = "../labs/lab-09-state-machines" %}} |
-|      |    | Wed 28/06/2023 | Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)              |   |                                                                            |
-| 14   | 27 | Tue 04/07/2023 | More on Inheritance, Composition and Inheritance (Poodr Chapter 8)                           |   | {{% link use_filename = "True" link = "../labs/lab-10-webapps-1" %}}       |
-|      |    | Wed 05/07/2023 | Dependencies & how to test and handle them, Internationalization and Localization                                                    |   |                                                                            |
-| 15   | 28 | Tue 11/07/2023 | Continuous Integration & Deployment        |   | {{% link use_filename = "True" link = "../labs/lab-11-webapps-2" %}}       |
-|      |    | Wed 12/07/2023 | Probeklausur (vorr. WH-C 576/579)                                                                |   |                                                                            |
-| 16   | 29 | Tue 18/07/2023 | TBD/Repetition (Exam Period Starts)                                                          |   |                                                                            |
-|      |    | Wed 19/07/2023 | **Exam PZ1**   (refer to LSF for details and the definite time & date!!)                     |   |                                                                            |
-| 17   | 30 | Tue 25/07/2023 |                                                                                              |   |                                                                            |
-|      |    | Wed 26/07/2023 |                                                                                              |   |                                                                            |
-|      |    | Thu 27/07/2023 |  15:00-16:00 Klausureinsicht in einem der 3 Labs, alternativ ab 9.8. in der [Sprechstunde](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen)
-                  |   |                                                                            |
-| 18   | 31 | Tue 01/08/2023 |                                                                                              |   |                                                                            |
-|      |    | Wed 02/08/2023 |                                                                                              |   |                                                                            |
-|      |    | Fri 04/08/2023 | **[10:00 Showtime in H001!](https://showtime.f4.htw-berlin.de/)**                                                                                           |   |       
-                                                                     |
+
+
+
+
+| Week | KW  | Date           |     | Lecture Topic                                                                                                                                                                     | |Lab (Tue & Wed) |
+| :--- | -: | :------------- | -: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--| :-------------- |
+| 1    | 40  |  30/09/2024 Mon |     |                                                                                                                                                                                 |                 |
+|      |     |  04/10/2024 Fri |     |   -- no lecture --                                                                                                            |                 | No Lab.
+| 2    | 41  |  07/10/2024 Mon |     | Introduction to Info3, Source Code Management                                                                                                                                     |                 | {{% link link = "../labs/lab-01-startup" %}}
+|      |     |  11/10/2024 Fri |     | Source Code Management (GIT)                                                                                                                                                      |                 |
+| 3    | 42  |  14/10/2024 Mon |     | Introduction to Software Engineering and Software Development Processes                                                                                                           |                 | {{% link  link = "../labs/lab-02-python" %}}
+|      |     |  18/10/2024 Fri |     | System Modeling, Architectural Design, Requirement Engineering                                                                                                                    |                 |
+| 4    | 43  |  21/10/2024 Mon |     | UML & System Modeling, Use Cases and User Stories                                                                                                                                 |                 | {{% link  link = "../labs/lab-03-pythonproject" %}}
+|      |     |  25/10/2024 Fri |     | UML & System Modeling: Requirements,  Product Owner Game                                                                                                                                                                                |                 |
+| 5    | 44  |  28/10/2024 Mon |     | Software Processes  II / Requirements Analysis                                                                                                                                    |                 | {{% link  link = "../labs/lab-04-usecases-classdiagrams" %}}
+|      |     |  01/11/2024 Fri |     | Software Design Patterns (GOF)                                                                                                                                                    |                 |
+| 6    | 45  |  04/11/2024 Mon |     | Clean Code Intro &  Poster preparation                                                                                                                                            |                 | {{% link  link = "../labs/lab-05-usecases-classdiagrams" %}}
+|      |     |  08/11/2024 Fri |     | Clean Code Poster Session                                                                                                                                                         |                 |
+| 7    | 46  |  11/11/2024 Mon |     | [e-learning / Software Design Patterns (GOF) or Clean Code](../material/e-learning-reviews/)                                                                                      |                 | {{% link  link = "../labs/lab-06-sequence-diagrams" %}}
+|      |     |  15/11/2024 Fri |     | [e-learning / Video Summary](../material/e-learning-videos/)                                                                                                                      |                 |
+| 8    | 47  |  18/11/2024 Mon |     | Agile Development, Scrum                                                                                                                                                          |                 | {{% link use_filename = "True" link = "../labs/lab-07-testing" %}}
+|      |     |  22/11/2024 Fri |     | Legacy Code & Refactoring                                                                                                                                                         |                 |
+| 9    | 48  |  25/11/2024 Mon |     | Software Testing, TDD, Code Quality                                                                                                                                               |                 |{{% link use_filename = "True" link = "../labs/lab-08-gilded-rose" %}}
+|      |     |  29/11/2024 Fri |     | SOLID Principles, Refactoring to Patterns                                                                                                                                         |                 |
+| 10   | 49  |  02/12/2024 Mon |     | OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing                                                                                                            |                 |{{% link  use_filename = "True" link = "../labs/lab-09-state-machines" %}}
+|      |     |  06/12/2024 Fri |     | More on Design                                                                                                                                                                    |                 |
+| 11   | 50  |  09/12/2024 Mon |     | Application Architectures &  System Models                                                                                                                                        |                 | {{% link use_filename = "True" link = "../labs/lab-10-webapps-1" %}}
+|      |     |  13/12/2024 Fri |     | Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)                                                                                                   |                 |
+| 12   | 51  |  16/12/2024 Mon |     | More on Inheritance, Composition and Inheritance (Poodr Chapter 8)                                                                                                                |                 | {{% link use_filename = "True" link = "../labs/lab-11-webapps-2" %}}
+|      |     |  20/12/2024 Fri |     | Dependencies & how to test and handle them, Internationalization and                                                                                                              |                 |
+|      | 52  |  23/12/2024 Mon | X   | Winterpause                                                                                                                                                                       |                 | 
+|      |     |  27/12/2024 Fri | X   | Winterpause                                                                                                                                                                       |                 |
+|      | 1   |  30/12/2024 Mon | X   | Winterpause                                                                                                                                                                       |                 | 
+|      |     |  03/01/2025 Fri | X   | Winterpause                                                                                                                                                                       |                 |
+| 13   | 2   |  06/01/2025 Mon |     | Continuous Integration & Deployment                                                                                                                                               |                 | {{% link use_filename = "True" link = "../labs/lab-12-review" %}}
+|      |     |  10/01/2025 Fri |     | Probeklausur (vorr. WH-C 576/579)                                                                                                                                                 |                 |
+| 14   | 3   |  13/01/2025 Mon |     | TBD/Repetition (Exam Period Starts)                                                                                                                                               |                 |
+|      |     |  17/01/2025 Fri |     |                                                                                                         |                 |
+| 15   | 4   |  20/01/2025 Mon |  1.PZ   | TBD **Exam PZ1**   (refer to LSF for details and the definite time & date!!)                                                                                                                                                                                    |                 |
+|      |     |  24/01/2025 Fri |   1.PZ   |                                                                                                                                                                                   |                 |
+| 16   | 5   |  27/01/2025 Mon |   1.PZ   | TBD Klausureinsicht in einem der 3 Labs, alternativ in der [Sprechstunde](https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen) |                 |
+|      |     |  31/01/2025 Fri |   1.PZ   |                                                                                                                                                                                   |                 |
+| 17   | 6   |  03/02/2025 Mon |   1.PZ   |                                                                                                                                                                                   |                 |
+|      |     |  07/02/2025 Fri | X   | **[10:00 Showtime in H001!](https://showtime.f4.htw-berlin.de/)**                                                                                                                 |                 |
+                                                                                                                                                                                |                 |
 
 --- 
 

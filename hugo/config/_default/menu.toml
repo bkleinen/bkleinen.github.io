@@ -18,10 +18,15 @@
   weight = -301
   alert = 'primary'
 
+[[main]]
+  identifier = 'classes_ws'
+  name = 'Classes WS24/25'
+  pageref = '/classes/ws2024'
+  weight = -295
 
 [[main]]
   identifier = 'classes'
-  name = 'Classes'
+  name = 'Classes SS24'
   pageref = '/classes'
   weight = -290
 
