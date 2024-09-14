@@ -18,9 +18,12 @@ hugo :  hugo/node_modules open # open_current # open_m1 # openH
 hugo2 :  hugo/node_modules open # open_current # open_m1 # openH
 -  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
 
+#baseURL=http://localhost:$(port)/~kleinen/
+baseURL=http://localhost:$(port)
+
 hugoP: port=4444
 hugoP :  hugo/node_modules open # open_current # open_m1 # openH
--  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
+-  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURL)" --source hugo -p $(port) server
 
 openProd :
 -  open http://localhost:$(portP)/
