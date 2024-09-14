@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#1A94D2" />
 
 
-  {{ if .Site.IsServer }}
+  {{ if hugo.IsServer }}
       {{ $options := (dict "targetPath" "css/styles-dev.css" "outputStyle" "expanded") }}
       {{ $style := resources.Get "scss/main.scss" | toCSS  $options  }}
       <link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">

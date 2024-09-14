@@ -114,7 +114,7 @@
               </div>
 
            </small>
-        {{ if (or (.Site.IsServer) (in (slice "staging" "development" "debug") hugo.Environment )) }}
+        {{ if (or (hugo.IsServer) (in (slice "staging" "development" "debug") hugo.Environment )) }}
             <div><hr><small>  <h7>Debug Information</h7><ul>
                  {{ partial "debug.html" . }}
           </ul></small><hr></div>
@@ -136,7 +136,7 @@
        {{ $tableSorter := resources.Get "js/sorttables.js" }}
        {{ $js_resources := slice $tableSorter $bootstrap }}
 
-         {{ if .Site.IsServer }}
+         {{ if hugo.IsServer }}
            {{ range $js_resources }}
            <script type="text/javascript" src="{{ .Permalink }}"></script>
            {{ end }}

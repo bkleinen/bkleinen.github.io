@@ -19,7 +19,7 @@
     </div>
 
     {{ else }}
-        {{ $showNavItem :=  (or $.Site.IsServer (not (eq .Identifier "debug" ) ) )  }}
+        {{ $showNavItem :=  (or hugo.IsServer (not (eq .Identifier "debug" ) ) )  }}
         {{ if $showNavItem }}
         <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}" href="{{ .URL }}">
             {{ if (eq .Identifier "debug" ) }}<div class="alert alert-warning" role="alert">

@@ -64,7 +64,7 @@
 </div>
 
 
-{{ if (and false (or (.Site.IsServer) (not (eq hugo.Environment "production")))) }}
+{{ if (and false (or (hugo.IsServer) (not (eq hugo.Environment "production")))) }}
 <h3>Complete Sitemap:</h3>
 <ul>
 {{- partial "sitemap.html" .Site.Home -}}
