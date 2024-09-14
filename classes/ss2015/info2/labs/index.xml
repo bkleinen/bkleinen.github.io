@@ -1,30 +1,200 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 SS2015 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/</link><description>Recent content in Info2 SS2015 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2015/info2/labs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08-chat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08-chat/</guid><description>chat&amp;mdash; title: &amp;lsquo;Info2: Exercise 08: Multi-Threaded Chat Application&amp;rsquo; author: kleinen layout: lab Pre-Lab Experiment with the Source Code Examples for Concurrency.
-Do a Class Design for your Chat Application: Don&amp;rsquo;t put all of the Server in one and all of the Client in another class; design small classes with one responsibility and small methods. Especially the user interface should not be intermingled with the rest of the application.
-Assignment: Multi-Threaded Chat This builds on Assignment 3, Chatterbox, where you built a little Chat Application that was only able to handle one connection from one client.</description></item><item><title>Info2: Exercise 00:</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-14/</guid><description>Pre-Lab Assignment Lab Report / What to turn in Your report is due the day before your next lab (for exact times, please refer to moodle).
-Submit a Report in PDF Format and the Source Code as Zipped file.
-As in Informatics 1, I am more interested in process than in product, although we are now getting more interested in products as well. Your report should include any collaborators on top of the first page, summarize what you learned, and note the time you invested in this exercise.</description></item><item><title>Info2: Exercise 01: Dealing with Objects and Toolbox</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-01/</guid><description>Pre-Lab Please bring these exercises P1 and P2 printed out or written out with you to lab. Please have your name on your page.
-P1. How do you obtain tickets to go see a movie? Write down the steps that you take, in order.
-P2. If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.
-P3. Read up on the Class-Responsibility-Collaboration Card method (CRC Cards).</description></item><item><title>Info2: Exercise 02: Implementing CRC Cards</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-02/</guid><description>Pre-Lab Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.
-This exercise builds on the design you did last week using CRC cards. What properties should a data structure have that can model movie theater seats? Given an n x m matrix and a cell c in (r, c). How do I reference the neighboring cells in the same row?</description></item><item><title>Info2: Exercise 03: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-03/</guid><description>Pre-Lab Please research the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in. There are many sites that will show you the code for this.
-How do you set up a connection between two computers in Java? Write a method to read from a connection in Java. Write a method to write to a connection in Java. How do you create concurrent threads?</description></item><item><title>Info2: Exercise 05: Execution times</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-05/</guid><description>Pre-Lab Please have these completed before coming to the lab. BTW, I like questions like this on the exam&amp;hellip;
-Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N2, respectively. Answer the following questions, if possible:
-Which program has the better guarantee on the running time for large values of N (N &amp;gt; 10 000)?
-Which program has the better guarantee on the running time for small values of N (N &amp;lt; 100)?</description></item><item><title>Info2: Exercise 06: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06/</guid><description>Pre-Lab Make sure that you understand postfix evaluation.
-Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?
-1. &amp;lt;tt&amp;gt;1 * 2 + 3 &amp;lt;/tt&amp;gt; 2. &amp;lt;tt&amp;gt;1 + 2 * 3 &amp;lt;/tt&amp;gt; 3. &amp;lt;tt&amp;gt;1 + 2 - 3 ^ 4&amp;lt;/tt&amp;gt; 4. &amp;lt;tt&amp;gt;1 ^ 2 - 3 * 4&amp;lt;/tt&amp;gt; 5.</description></item><item><title>Info2: Exercise 07: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-07/</guid><description>Pre-Lab What exactly is an equilateral triangle? Can you write a class that draws a triangle? What data do you need to know in order to put a triangle at a particular position on the screen?
-What is the mathematical formula for finding the midpoint of a line segment that connects two Points?
-What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?</description></item><item><title>Info2: Exercise 08: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08/</guid><description>Pre-Lab This is one of the standard exercises that all computer science students have to solve at least once in their lifetimes! If you have never played chess, find someone who does or find a book and look up how a Queen moves and threatens in chess. Find out what a chess board looks like. Define a matrix (two-dimensional array) of integers in Java. Write a method to put a -1 in every cell of the matrix.</description></item><item><title>Info2: Exercise 09: Probabilistic Algorithms</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-09/</guid><description>Pre-Lab How do you compute the area of a circle and a rectangle? Draw an circle that matches exactly into a square. How do the areas of the circle and the square relate to each other? How can you represent points in a plane? Prepare a sketch with formulas about the ratio of the areas and how to determine if a given point in the square is as well within the circle.</description></item><item><title>Info2: Exercise 10: Getting from A to B</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-10/</guid><description>Pre-Lab Define an abstract data type for a weighted graph. What methods does your ADT need? What are the signatures for the operators? Find algorithms for determining the minimum path and the cheapest path between two nodes in a directed graph. I strongly suggest visiting a library (that is one of these places that keeps ancient books around). There are Algorithm and Data Structure books available in many languages. There is also an example in the Wikipedia, but it is not really easy to understand.</description></item><item><title>Info2: Exercise 11: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-11/</guid><description>Pre-Lab No Pre-Lab this time.
-Assignment Part 1: Finite Automata This is to get some practice with Finite Automata.
-Which Languages do these Automata accept? For the following two Finite Automata given by their transition tables, draw the transition diagram and describe the language they accept in English (or German) sentences. Give examples for words in and not in the language.
-You find a NFA Simulator in https://github.com/htw-imi-info2/Lab11_DFA. Create Simulations for them with test cases from the words you found.</description></item><item><title>Info2: Exercise 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-12/</guid><description>Foto by Mags_cat
-Pre-Lab Review the rules of Scrabble, if you have never played it before. What was a permutation? What would a normalization function for different permutations of characters words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like? How do you determine if two strings are permutations of each other? How can you generate all permutations of the characters in a String?</description></item><item><title>Info2: Exercise 13: Scrabble Cheater - Deluxe</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-13/</guid><description>Pre-Lab Foto by Piotr
-What would the exact data structure be for a hash table that stores Strings and chains the collisions? Review the construction of a hash function. Note that you will need prime numbers. Does your isPrime method work? If not, fix it now. Assignment This week we will improve the Scrabble Cheater by storing the Words in a Hash Map, making the lookup of permutations way more efficient.</description></item><item><title>Info2: Exercise 4: Histogram</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-04/</guid><description>Pre-Lab Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.
-In some programming languages, such as Ada, you can define an array of characters with any discrete type as the index:
-someArray : ARRAY ['A' .. 'Z'] of INTEGER; You can then access the array, for example, using a value of character type: someArray[&amp;lsquo;T&amp;rsquo;]. Java does not have this feature.</description></item><item><title>Info2: Handout for Exercise 6: Infix/Prefix/Postfix</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06-handout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06-handout/</guid><description>##Definitions
-Infix: The operator is placed between the two operands: 3 + 5
-Prefix: The operator is placed before the two operands: + 3 5
-Postfix: The operator is placed after the two operands: 3 5 +
-##Calculator algorithm
-Convert infix to postfix Use stack to evaluate postfix Output top of stack (should be the only element) ##Evaluate postfix algorithm##
-Given a sequence of tokens s While s is not empty: Let t = next token.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 SS2015 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/</link><description>Recent content in Info2 SS2015 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2015/info2/labs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08-chat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08-chat/</guid><description>&lt;h2 id="layout-lab">chat&amp;mdash;
+title: &amp;lsquo;Info2: Exercise 08: Multi-Threaded Chat Application&amp;rsquo;
+author: kleinen
+layout: lab&lt;/h2>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Experiment with the Source Code Examples for Concurrency.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Do a Class Design for your Chat Application: Don&amp;rsquo;t put all of the Server in one and all of the Client in another class; design small classes with one responsibility and small methods. Especially the user interface should not be intermingled with the rest of the application.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment-multi-threaded-chat">Assignment: Multi-Threaded Chat&lt;/h2>
+&lt;p>This builds on &lt;a href="../lab-03">Assignment 3, Chatterbox&lt;/a>, where you built a little Chat Application that was only able to handle one connection from one client. Now you are required to build a full Chat Application with a Server that allows multiple clients to connect, and sends chat messages to all connected clients. To do this simultaneously, e.g. accept user input in the client and receive messages from the server, you will need multiple threads both in the client and the server.&lt;/p></description></item><item><title>Info2: Exercise 00:</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-14/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h2 id="lab-report--what-to-turn-in">Lab Report / What to turn in&lt;/h2>
+&lt;p>Your report is due the day before your next lab (for exact times, please refer to moodle).&lt;/p>
+&lt;p>Submit a Report in PDF Format and the Source Code as Zipped file.&lt;/p>
+&lt;p>As in Informatics 1, I am more interested in process than in product,
+although we are now getting more interested in products as well.
+Your report should include any collaborators on top of the first page,
+summarize what you learned,
+and note the time you invested in this exercise.
+Both of you need to upload the same report in PDF format to Moodle before the
+deadline.&lt;/p></description></item><item><title>Info2: Exercise 01: Dealing with Objects and Toolbox</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-01/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Please bring these exercises P1 and P2 printed out or written out with you to lab.
+Please have your name on your page.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> How do you obtain tickets to go see a movie? Write down the steps that you take, in order.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> If you have tickets and have to cancel, what do you have to do? Write down the steps, in order.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> Read up on the
+&lt;a href="https://c2.com/doc/oopsla89/paper.html">Class-Responsibility-Collaboration Card method (CRC Cards)&lt;/a>.
+This must be read before class, as you will not be able to do the exercise if you have no idea what this is.&lt;/p></description></item><item><title>Info2: Exercise 02: Implementing CRC Cards</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-02/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.&lt;/p>
+&lt;ol>
+&lt;li>This exercise builds on the design you did last week using CRC cards.&lt;/li>
+&lt;li>What properties should a data structure have that can model movie theater seats?&lt;/li>
+&lt;li>Given an n x m matrix and a cell c in (r, c). How do I reference the neighboring cells in the same row? In the same column? How do I reference the diagonal cells?&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>These are the required exercises for this week. We are going to see if we can get our minds back into Java-Mode. Work in groups of two, &lt;em>&lt;strong>each&lt;/strong>&lt;/em> of you hands in the same report. Remember to put both of your names on the report. Groups of three are only possible if one of the three is new, i.e. did not take Info 1 last semester. You can continue to use BlueJ, or move to Eclipse, if you wish.&lt;/p></description></item><item><title>Info2: Exercise 03: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-03/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Please research the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in. There are many sites that will show you the code for this.&lt;/p>
+&lt;ol>
+&lt;li>How do you set up a connection between two computers in Java?&lt;/li>
+&lt;li>Write a method to read from a connection in Java.&lt;/li>
+&lt;li>Write a method to write to a connection in Java.&lt;/li>
+&lt;li>How do you create concurrent threads?&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>These are the required exercises for this week. Work in groups of two, each of you hands in the same report. Remember to put both your names on the report. You can continue to use BlueJ, or move to Eclipse, if you wish. We will be practicing much programming in the small this semester.&lt;/p></description></item><item><title>Info2: Exercise 05: Execution times</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-05/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Please have these completed before coming to the lab. BTW, I like questions like this on the exam&amp;hellip;&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Programs A and B are analyzed and are found to have worst-case running times no greater than 150 N log N and N&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->, respectively. Answer the following questions, if possible:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Which program has the better guarantee on the running time for large values of N (N &amp;gt; 10 000)?&lt;/p></description></item><item><title>Info2: Exercise 06: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Make sure that you understand &lt;a href="../lab-06-handout">postfix evaluation&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://bkleinen.github.io/broken_link"> 	Łukasiewicz&lt;/a> was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>1. &amp;lt;tt&amp;gt;1 * 2 + 3 &amp;lt;/tt&amp;gt;
+2. &amp;lt;tt&amp;gt;1 + 2 * 3 &amp;lt;/tt&amp;gt;
+3. &amp;lt;tt&amp;gt;1 + 2 - 3 ^ 4&amp;lt;/tt&amp;gt;
+4. &amp;lt;tt&amp;gt;1 ^ 2 - 3 * 4&amp;lt;/tt&amp;gt;
+5. &amp;lt;tt&amp;gt;1 + 2 * 3 - 4 ^ 5 + 6&amp;lt;/tt&amp;gt;
+6. &amp;lt;tt&amp;gt;( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )&amp;lt;/tt&amp;gt;
+7. &amp;lt;tt&amp;gt;1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )&amp;lt;/tt&amp;gt;
+8. &amp;lt;tt&amp;gt;9 - 1 - 2 - 3 * 2 - 1&amp;lt;/tt&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p> &lt;/p></description></item><item><title>Info2: Exercise 07: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-07/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Machine" title="Sierpinski Triangle">&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>What exactly is an equilateral
+triangle? Can you write a class that draws a triangle? What data do you need to know in order to put a triangle at a particular position on the screen?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What is the mathematical formula for finding the midpoint of a line segment that connects two Points?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p></description></item><item><title>Info2: Exercise 08: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-08/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ol>
+&lt;li>This is one of the standard exercises that all computer science students have to solve at least once in their lifetimes! If you have never played chess, find someone who does or find a book and look up how a Queen moves and threatens in chess. Find out what a chess board looks like.&lt;/li>
+&lt;li>Define a matrix (two-dimensional array) of integers in Java. Write a method to put a -1 in every cell of the matrix.&lt;/li>
+&lt;li>Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
+&lt;ol>
+&lt;li>the cells are in the same row?&lt;/li>
+&lt;li>the cells are in the same column?&lt;/li>
+&lt;li>the cells are in the same ascending diagonal?&lt;/li>
+&lt;li>the cells are in the same descending diagonal?&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Implement the recursive solution to the Towers of Hanoi so that you can review how recursion works using the debugger.&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;ol start="9">
+&lt;li>Our goal is to write a program to determine if eight queens can be placed on an 8 x 8 chess board without them threatening each other! Start by deciding how to represent a chess board with a data structure. Don&amp;rsquo;t worry about the colors of the board yet. Write a Chessboard class! What methods will you need?&lt;/li>
+&lt;li>Write a method for determining if the current board state contains a queen that is threatening another one. What is the complexity of your method in terms of N, the number of rows on the board? If your algorithm is worse than linear, you might want to look for something better.&lt;/li>
+&lt;li>We speak of &amp;ldquo;backtracking&amp;rdquo; when we go back to a previous state and try a different branch. Use some coins on a paper chess board to figure out what to do when you reach a state in which one queen is threatened by another. There are iterative, recursive, and random solutions to this problem. Try and implement a recursive solution!&lt;/li>
+&lt;li>Now implement a search routine that looks for a state in which the queens don&amp;rsquo;t threaten each other. If there is a solution, print it to System.out. If there is more than one solution, print them as well. What is the complexity of your algorithm? Does your program work for 10 queens on a 10 x 10 board? 13 on a 13 x 13 board?&lt;/li>
+&lt;li>(For the bored) Design a Chessboard GUI with a queen figure. Output the result of the program using your Chessboard GUI.&lt;/li>
+&lt;li>(For the really bored) Animate the search by showing the positions as they are tested, illuminating the threats. How long does it take to show such an attempt? How long will the program need for the exhaustive search?&lt;/li>
+&lt;li>(If you are already finished with all of this and have time on your hands) How many knights can be put on an 8 x 8 board without threatening each other?&lt;/li>
+&lt;li>(For the mathematically curious) For which N is it possible to put N queens on an N x N board? Example: 2 queens cannot be placed on a 2 x 2 board, 3 cannot be placed on a 3 x 3 board. But 4 queens can be placed on a 4 x 4 board, for example at B1, D2, A3, C4. Can you prove this?&lt;/li>
+&lt;/ol>
+&lt;h2 id="lab-report--what-to-turn-in">Lab Report / What to turn in&lt;/h2>
+&lt;p>Your report is due the day before your next lab (for exact times, please refer to moodle).&lt;/p></description></item><item><title>Info2: Exercise 09: Probabilistic Algorithms</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-09/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ol>
+&lt;li>How do you compute the area of a circle and a rectangle?&lt;/li>
+&lt;li>Draw an circle that matches exactly into a square. How do the areas of the
+circle and the square relate to each other?&lt;/li>
+&lt;li>How can you represent points in a plane?&lt;/li>
+&lt;li>Prepare a sketch with formulas about the ratio of the areas and how to determine
+if a given point in the square is as well within the circle.&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="computation-of-pi">Computation of Pi&lt;/h3>
+&lt;p>Use an probabilistic algorithm to approximate the Number Pi:&lt;/p></description></item><item><title>Info2: Exercise 10: Getting from A to B</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-10/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ol>
+&lt;li>Define an abstract data type for a weighted graph. What methods does your ADT need? What are the signatures for the operators?&lt;/li>
+&lt;li>Find algorithms for determining the minimum path and the cheapest path between two nodes in a directed graph. I strongly suggest visiting a library (that is one of these places that keeps ancient books around). There are Algorithm and Data Structure books available in many languages. There is also an example in the Wikipedia, but it is not really easy to understand.&lt;/li>
+&lt;li>Your algorithm will probably need an adjacency matrix oder an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?&lt;/li>
+&lt;li>Briefly review generating random numbers.&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.&lt;/p></description></item><item><title>Info2: Exercise 11: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-11/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>No Pre-Lab this time.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="part-1-finite-automata">Part 1: Finite Automata&lt;/h3>
+&lt;p>This is to get some practice with Finite Automata.&lt;/p>
+&lt;h4 id="which-languages-do-these-automata-accept">Which Languages do these Automata accept?&lt;/h4>
+&lt;p>For the following two Finite Automata given by their transition tables, draw the transition diagram and describe the language they accept in English (or German) sentences.
+Give examples for words in and not in the language.&lt;/p>
+&lt;p>You find a NFA Simulator in &lt;a href="https://github.com/htw-imi-info2/Lab11_DFA">https://github.com/htw-imi-info2/Lab11_DFA&lt;/a>.
+Create Simulations for them with test cases from the words you found. You can use &lt;a href="https://github.com/htw-imi-info2/Lab11_DFA/blob/master/test/examples/NFA1AtThirdFromLast.java">NFA1AtThirdFromLast.java&lt;/a> as an example.&lt;/p></description></item><item><title>Info2: Exercise 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-12/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ol>
+&lt;li>Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/li>
+&lt;li>What was a permutation?&lt;/li>
+&lt;li>What would a normalization function for different permutations of characters words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/li>
+&lt;li>How do you determine if two strings are permutations of each other?&lt;/li>
+&lt;li>How can you generate all permutations of the characters in a String? What if some of the letters are the same. Hint: Look at the binomial coefficient.&lt;/li>
+&lt;li>how many different 2,3,4,5 and 6-letter subsets are there for each 7-letters?&lt;/li>
+&lt;li>Can you find lists of valid words for Scrabble in English online? Are there perhaps any sorted by number of letters in the word? Or maybe one file for each word size? Note down the URLs!&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>This week you will implement a simple scrabble cheater that will read in words from a scrabble word list, and find all permutations for a 7 letter tile rack.
+Next week you will extend this cheater by also searching for subsets (that is, shorter words) as well as optimizing the underlying data structure for performance.&lt;/p></description></item><item><title>Info2: Exercise 13: Scrabble Cheater - Deluxe</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-13/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;img src="../../images/scrabble_331161309_a8e6c6c3fd_o.jpg" alt="Scrabble" title="scrabble 1">
+Foto by &lt;a href="https://www.flickr.com/photos/derbeth/331161309/">Piotr&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>What would the exact data structure be for a hash table that stores Strings and chains the collisions?&lt;/li>
+&lt;li>Review the construction of a hash function. Note that you will need prime numbers. Does your isPrime method work? If not, fix it now.&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>This week we will improve the Scrabble Cheater by storing the Words in a Hash Map,
+making the lookup of permutations way more efficient.&lt;/p></description></item><item><title>Info2: Exercise 4: Histogram</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-04/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Please think through the following questions before coming to the lab. Write down your answers and bring them with you for pre-lab check-in.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>In some programming languages, such as Ada, you can
+define an array of characters with any discrete type as the index:&lt;/p>
+&lt;pre>&lt;code>someArray : ARRAY ['A' .. 'Z'] of INTEGER;
+&lt;/code>&lt;/pre>
+&lt;p>You can then access the array, for example, using a value of character type: someArray[&amp;lsquo;T&amp;rsquo;]. Java does not have this feature. How would you go about making an array in Java for representing counters for the letters &amp;lsquo;A&amp;rsquo; to &amp;lsquo;Z&amp;rsquo;?&lt;/p></description></item><item><title>Info2: Handout for Exercise 6: Infix/Prefix/Postfix</title><link>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06-handout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/labs/lab-06-handout/</guid><description>&lt;p>##Definitions&lt;/p>
+&lt;p>&lt;strong>Infix:&lt;/strong> The operator is placed between the two operands: 3 + 5&lt;/p>
+&lt;p>&lt;strong>Prefix:&lt;/strong> The operator is placed before the two operands: + 3 5&lt;/p>
+&lt;p>&lt;strong>Postfix:&lt;/strong> The operator is placed after the two operands: 3 5 +&lt;/p>
+&lt;p>##Calculator algorithm&lt;/p>
+&lt;ol>
+&lt;li>Convert infix to postfix&lt;/li>
+&lt;li>Use stack to evaluate postfix&lt;/li>
+&lt;li>Output top of stack (should be the only element)&lt;/li>
+&lt;/ol>
+&lt;p>##Evaluate postfix algorithm##&lt;/p>
+&lt;ol>
+&lt;li>Given a sequence of tokens s&lt;/li>
+&lt;li>While s is not empty:
+&lt;ol>
+&lt;li>Let t = next token.&lt;/li>
+&lt;li>If t is an operand, push it;&lt;/li>
+&lt;li>If t is an operator:
+&lt;ol>
+&lt;li>put the top into rhs, pop it;&lt;/li>
+&lt;li>put the top into lhs, pop it;&lt;/li>
+&lt;li>calculate lhs t rhs;&lt;/li>
+&lt;li>push the result&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>The top of the stack is the result.&lt;/li>
+&lt;/ol>
+&lt;p>##Convert infix to postfix algorithm&lt;/p></description></item></channel></rss>

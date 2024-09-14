@@ -1,2 +1,339 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatics 2 SoSe 2020 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/info2/</link><description>Recent content in B7 Informatics 2 SoSe 2020 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 SoSe 2020 Schedule</title><link>https://bkleinen.github.io/classes/ss2020/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/info2/schedule/</guid><description>Tentative Schedule. Material for flipped remote classrooms is provided the week before. The overall topic of Info2 is Algorithms &amp;amp; Data Structures. We&amp;rsquo;ll go through 8 broader Topics during the term:
-Topic 01: Object Oriented Design Topic 02: Java Fundamentals and Repetition Topic 03: Properties of Algorithms Topic 04: Data Structures Topic 05: Sorting Topic 06: Searching Topic 07: Theoretical Foundations Topic 08: Python Week KW Lecture Quizz Topic Lecture Lab # Lab Topic 1 14 Thu 02/04/2020 &amp;mdash; No lectures in the first week &amp;mdash; &amp;mdash; No labs in the first week &amp;mdash; 2 15 Tue 07/04/2020 01 Welcome Back, Overview, Designing Applications 1 Designing an Application, CRC Cards (Pre-Lab!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatics 2 SoSe 2020 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/info2/</link><description>Recent content in B7 Informatics 2 SoSe 2020 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 SoSe 2020 Schedule</title><link>https://bkleinen.github.io/classes/ss2020/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule">Tentative Schedule.&lt;/h2>
+&lt;p>Material for flipped remote classrooms is provided the week before. The overall topic of Info2 is Algorithms &amp;amp; Data Structures.
+We&amp;rsquo;ll go through 8 broader Topics during the term:&lt;/p>
+&lt;ul>
+&lt;li>Topic 01: Object Oriented Design&lt;/li>
+&lt;li>Topic 02: Java Fundamentals and Repetition&lt;/li>
+&lt;li>Topic 03: Properties of Algorithms&lt;/li>
+&lt;li>Topic 04: Data Structures&lt;/li>
+&lt;li>Topic 05: Sorting&lt;/li>
+&lt;li>Topic 06: Searching&lt;/li>
+&lt;li>Topic 07: Theoretical Foundations&lt;/li>
+&lt;li>Topic 08: Python&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Quizz&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Lab #&lt;/th>
+ &lt;th style="text-align: left">Lab Topic&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Thu 02/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; No lectures in the first week &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; No labs in the first week &amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Tue 07/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">Welcome Back, Overview, Designing Applications&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-01">Designing an Application, CRC Cards (Pre-Lab!)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 09/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">IntelliJ, Programming Exercises, Intro to Recursion.&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(OO Design)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Tue 14/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">Recursion&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-02">Implementing CRC cards (Pre-Lab!)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 16/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">Source Code Management with GIT&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(OO Design)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Tue 21/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">Networking and File I/O in Java&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Extra Time for GIT&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 23/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">Concurrency&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Tue 28/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">Random numbers, Probabilistic Algorithms&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-03">Histogram&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 30/04/2020&lt;/td>
+ &lt;td style="text-align: left">Random Algorithms&lt;/td>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">Complexity of Algorithms, Binary Search&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Java Fundamentals)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Tue 05/05/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 02&lt;/td>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">Properties of Algorithms, Maximum Contiguous Subsequence Sum&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-04">Chatterbox&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 07/05/2020&lt;/td>
+ &lt;td style="text-align: left">Complexity, B. Search&lt;/td>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">Arrays, Lists and Stacks&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Java Networking, Concurrency)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Tue 12/05/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 03&lt;/td>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">Stacks &amp;amp; ADTs&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-05">Execution Times&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 14/05/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">PZ 2 Break, Contextual Interviews&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Properties of Algorithms)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Tue 19/05/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">PZ 2 Break&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 21/05/2020&lt;/td>
+ &lt;td style="text-align: left">Stacks and Queues&lt;/td>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Himmelfahrt (Bank Holiday) &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Tue 26/05/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">Stacks, Postfix and Enums&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-06">Reverse Polish Notation&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 28/05/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 04&lt;/td>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">Queues, Priority Queues, Collections: Sets, Bags, Maps. The Java Collection Framework&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Recursion)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Tue 02/06/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 05&lt;/td>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">-no lecture-&lt;/td>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-07">Recursive Triangles&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 04/06/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">Recursion, Maximum Contiguous Subsequence revisited&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Recursion)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Tue 09/06/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 06&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">Sorting Algorithms, Divide &amp;amp; Conquer&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-08">Eight Queens&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 11/06/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">Sorting Algorithms: Quicksort, Radix Sort&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Recursion, Backtracking)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Tue 16/06/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 07&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">Searching, Scanning and Parsing Algorithms&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-09">Probabilistic Algorithms&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 18/06/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">Graphs, Graph Algorithms&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Concurrency, Random)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Tue 23/06/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 08&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">String Searching and Pattern Matching&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-10">Getting from A to B&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 25/06/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Graphs and Graph Algorithms)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Tue 30/06/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 09&lt;/td>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">Hash Functions and HashMaps&lt;/td>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-11">Finite State Automata and Sorting&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 02/07/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">Searching, Nearest Neighbor, Branch and Bound,AVL Trees&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Theoretical Foundations, FSA)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Tue 07/07/2020&lt;/td>
+ &lt;td style="text-align: left">Lab 10&lt;/td>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">Trees, Heapsort, Sorting Algorithms Conclusion&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-12">Scrabble Cheater&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 09/07/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Trial Exam, Exam Preparation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(Hashes)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Tue 14/07/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 16/07/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Klausureinsicht&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

@@ -1,35 +1,222 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatik 2 Summer 2024 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/</link><description>Recent content in B7 Informatik 2 Summer 2024 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2024/info2/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01: Application Design</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-01/</guid><description>CRC Cards
-Learning Goals After this lab you should be able to agree with each of the following statements.
-I can use CRC Cards to design an application:
-Using the underline methods, I can identify candidates for classes, methods and fields. By working through scenarios I can identify cases where a class needs to be split up. By working through scenarios I can identify cases where classes need to be merged.</description></item><item><title>Lab 02: Programming &amp; Tools, Review of CRC Model</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</guid><description>Learning Goals After this lab you should be able to agree with each of the following statements
-I am familiar with programming in IntelliJ:
-I can create a new Java project in IntelliJ I remember most of the concepts from A1 Ex1 I can run my new Java project in IntelliJ I am ready to use Git:
-I can clone an online repository I can create an empty repository on GitLab or GitHub I can update my local repository&amp;rsquo;s remotes I can add changes to be committed I can commit changes I can push changes I have reviewed the Domain Model</description></item><item><title>Lab 03: Implementing CRC Cards</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-03/</guid><description>Learning Goals After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab.
-I remember programming concepts concerning classes and objects:
-I know the difference between classes and objects. I can instantiate an object. I remember programming concepts concerning fields and variable types:</description></item><item><title>Lab 03 Handout: A Note on the Notation of CRC Cards</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/note-on-crc-cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/note-on-crc-cards/</guid><description>We&amp;rsquo;ve discussed the relationship between the Classes &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Course&amp;rdquo; (aka Module, Class) in last week&amp;rsquo;s lab and lecture.
-I&amp;rsquo;ve pointed out that if you change the syntax of the representation, e.g. because you use some kind of diagramming tool, you have to be careful not to loose any information.
-if you consider these two CRC cards below, a CRC card contains information about these three things1:
-Class Name Responsibilities Collaborators Dependencies (see below) CRC-Cards Consider these two CRC-Cards: Student Stores Information about Student (e.</description></item><item><title>Lab 04: Histogram</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-04/</guid><description>Learning Goals After this lab you should be able to agree with each of the following statements.
-I can handle File-based IO with Java:
-I can read from a text file using a Reader, eg. BufferedReader. I can write to a text file using a Writer, eg. BufferedWriter. I close my streams after I finished reading or writing. I can use try-with-resources to make sure that in the end, a resource is always closed I can handle Exceptions:</description></item><item><title>Lab 05: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-05/</guid><description>Learning Goals After this lab you should be able to agree with each of the following statements.
-I can use the Socket API for TCP connections:
-I can create a server that listens for and accepts connections I can create a client that makes a connection request to the server I can send text from a client to a server via streams I can send text from a server to a client via streams I can use multithreading to simultaneously process tcp requests and input from the user (if you do the &amp;ldquo;for the bored&amp;rdquo; part: I can use multithreading for the server to handle multiple connection requests) Pre-Lab Write down the code for the following questions and be able to explain what is happening.</description></item><item><title>Lab 06: Execution times</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-06/</guid><description>Learning Goals After this lab you should be able to agree with each of the following statements.
-I can evaluate the efficiency of algorithms:
-I understand the correlation between input and running time for different program structures I can use big-o-notation to describe the running time of algorithms I can calculate the running time of algorithms by adding up running times of different structures I can compare running times based on their running time in big-o-notation Pre-Lab P1.</description></item><item><title>Lab 07: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07/</guid><description>Pre-Lab Source code scaffold for this exercise: https://github.com/htw-imi-info2/Lab07_ReversePolishNotation P1. Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the hand out.
-P2. What is the order of precedence for the operators &amp;ldquo;+&amp;rdquo;, &amp;ldquo;-&amp;rdquo;, &amp;ldquo;*&amp;rdquo;, &amp;ldquo;/&amp;rdquo;, &amp;ldquo;^&amp;rdquo;? If we wanted to include &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo; in this order, where would each of them be?
-P3. Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation.</description></item><item><title>Lab 07 Handout: Infix/Prefix/Postfix</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07-handout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07-handout/</guid><description>Definitions Infix: The operator is placed between the two operands: 3 + 5
-Prefix: The operator is placed before the two operands: + 3 5
-Postfix: The operator is placed after the two operands: 3 5 +
-Calculator algorithm Convert infix to postfix Use stack to evaluate postfix Output top of stack (should be the only element) Convert infix to postfix algorithm Given a sequence of tokens s and a result r While s is not empty: Let t = next token.</description></item><item><title>Lab 08: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</guid><description>Source code scaffold for this exercise: https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle Pre-Lab P1. What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?
-P2. What is the mathematical formula for finding the midpoint of a line segment that connects two Points?
-P3. What is the resolution of your computer screen? How can you find out?</description></item><item><title>Lab 09: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-09/</guid><description>Pre-Lab P1. Make a chess board and mark how a Queen moves and threatens.
-P2. Define a matrix (two-dimensional array) of integers in Java. Write a method to put a -1 in every cell of the matrix.
-P3. Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if a) the cells are in the same row? b) the cells are in the same column? c) the cells are in the same ascending diagonal (lower left to upper right)?</description></item><item><title>Lab 10: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</guid><description>As we haven't discussed Heapsort in enough detail yet, you can postpone the Heapsort walkthroughs to a later lab/time after we discussed Trees, Heaps and Heapsort in more detail. Pre-Lab P1. What is the difference between an NFA and an DFA?
-P2. Which sorting algorithms have you learned about so far? Review their algorithms.
-Geeks for Geeks has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms.</description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12/</guid><description>Foto by Mags_cat
-Pre-Lab P1. Review the rules of Scrabble, if you have never played it before.
-P2. What is a permutation?
-P3. What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?
-P4. How do you determine if two Strings are permutations of each other?
-P5. For the bored: How can you generate all permutations of the characters in a String?</description></item><item><title>Lab 13: Scrabble Cheater - Deluxe</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-14/</guid><description>Pre-Lab Foto by Piotr
-What would the exact data structure be for a hash table that stores Strings and chains the collisions? Review the construction of a hash function. Note that you will need prime numbers. Does your isPrime method work? If not, fix it now. Assignment This week we will improve the Scrabble Cheater by finding matches for shorter Words that can be build with your tile rack (method allValidWords()).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatik 2 Summer 2024 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/</link><description>Recent content in B7 Informatik 2 Summer 2024 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2024/info2/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01: Application Design</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-01/</guid><description>&lt;figure>&lt;img src="https://bkleinen.github.io/images/classes/info2/crc-cards.jpg"
+ alt="CRC Cards">&lt;figcaption>
+ &lt;p>CRC Cards&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can use CRC Cards to design an application:&lt;/p>
+&lt;ul>
+&lt;li>Using the underline methods, I can identify candidates for classes, methods and fields.&lt;/li>
+&lt;li>By working through scenarios I can identify cases where a class needs to be split up.&lt;/li>
+&lt;li>By working through scenarios I can identify cases where classes need to be merged.&lt;/li>
+&lt;li>By working through scenarios I can identify cases where additional classes need to be added.&lt;/li>
+&lt;li>By working through scenarios I can identify what data needs to be stored.&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Find out what the &lt;em>Class-Responsibility-Collaboration Card method&lt;/em> is, what the use of CRC Cards is and how they are created. The following resources can be of help:&lt;/p></description></item><item><title>Lab 02: Programming &amp; Tools, Review of CRC Model</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements&lt;/p>
+&lt;p>I am familiar with programming in IntelliJ:&lt;/p>
+&lt;ul>
+&lt;li>I can create a new Java project in IntelliJ&lt;/li>
+&lt;li>I remember most of the concepts from A1 Ex1&lt;/li>
+&lt;li>I can run my new Java project in IntelliJ&lt;/li>
+&lt;/ul>
+&lt;p>I am ready to use Git:&lt;/p>
+&lt;ul>
+&lt;li>I can clone an online repository&lt;/li>
+&lt;li>I can create an empty repository on GitLab or GitHub&lt;/li>
+&lt;li>I can update my local repository&amp;rsquo;s remotes&lt;/li>
+&lt;li>I can add changes to be committed&lt;/li>
+&lt;li>I can commit changes&lt;/li>
+&lt;li>I can push changes&lt;/li>
+&lt;/ul>
+&lt;p>I have reviewed the Domain Model&lt;/p></description></item><item><title>Lab 03: Implementing CRC Cards</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-03/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab.&lt;/p>
+&lt;p>I remember programming concepts concerning classes and objects:&lt;/p>
+&lt;ul>
+&lt;li>I know the difference between classes and objects.&lt;/li>
+&lt;li>I can instantiate an object.&lt;/li>
+&lt;/ul>
+&lt;p>I remember programming concepts concerning fields and variable types:&lt;/p></description></item><item><title>Lab 03 Handout: A Note on the Notation of CRC Cards</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/note-on-crc-cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/note-on-crc-cards/</guid><description>&lt;p>We&amp;rsquo;ve discussed the relationship between the Classes &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Course&amp;rdquo; (aka Module, Class) in last week&amp;rsquo;s lab and lecture.&lt;/p>
+&lt;p>I&amp;rsquo;ve pointed out that if you change the syntax of the representation, e.g. because you use some kind of diagramming tool, you have to be careful not to loose any information.&lt;/p>
+&lt;p>if you consider these two CRC cards below, a CRC card contains information about these three things&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>:&lt;/p>
+&lt;ul>
+&lt;li>Class Name&lt;/li>
+&lt;li>Responsibilities&lt;/li>
+&lt;li>&lt;del>Collaborators&lt;/del> Dependencies (&lt;a href="#why-i-use-the-termdependencies-instead-of-collaborators">see below&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;h4 id="crc-cards">CRC-Cards&lt;/h4>
+&lt;p>Consider these two CRC-Cards:
+&lt;div class="card border text-dark bg-light mb-3" style="max-width: 26rem;">
+ &lt;div class="card-header">&lt;h5 class="card-title">Student&lt;/h5>&lt;/div>
+ 
+ &lt;div class="card-body">
+ &lt;div class="row g-0">
+ &lt;div class="col-md-8">
+ &lt;div class="card-body">
+ &lt;p class="card-text fs-6">Stores Information about Student (e.g. Matrikel, email, name, &amp;hellip;)&lt;/p></description></item><item><title>Lab 04: Histogram</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-04/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can handle File-based IO with Java:&lt;/p>
+&lt;ul>
+&lt;li>I can read from a text file using a Reader, eg. BufferedReader.&lt;/li>
+&lt;li>I can write to a text file using a Writer, eg. BufferedWriter.&lt;/li>
+&lt;li>I close my streams after I finished reading or writing.&lt;/li>
+&lt;li>I can use try-with-resources to make sure that in the end, a resource is always closed&lt;/li>
+&lt;/ul>
+&lt;p>I can handle Exceptions:&lt;/p></description></item><item><title>Lab 05: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-05/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can use the Socket API for TCP connections:&lt;/p>
+&lt;ul>
+&lt;li>I can create a server that listens for and accepts connections&lt;/li>
+&lt;li>I can create a client that makes a connection request to the server&lt;/li>
+&lt;li>I can send text from a client to a server via streams&lt;/li>
+&lt;li>I can send text from a server to a client via streams&lt;/li>
+&lt;li>I can use multithreading to simultaneously process tcp requests and input from the user&lt;/li>
+&lt;li>(if you do the &amp;ldquo;for the bored&amp;rdquo; part: I can use multithreading for the server to handle multiple connection requests)&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Write down the code for the following questions and be able to explain what is happening.&lt;/p></description></item><item><title>Lab 06: Execution times</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-06/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can evaluate the efficiency of algorithms:&lt;/p>
+&lt;ul>
+&lt;li>I understand the correlation between input and running time for different program structures&lt;/li>
+&lt;li>I can use big-o-notation to describe the running time of algorithms&lt;/li>
+&lt;li>I can calculate the running time of algorithms by adding up running times of different structures&lt;/li>
+&lt;li>I can compare running times based on their running time in big-o-notation&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Programs A and B are analyzed and are found to have worst-case running times no greater than $150 N \log N$ and $N^2$, respectively. Answer the following questions, if possible:&lt;/p></description></item><item><title>Lab 07: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Source code scaffold for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info2/Lab07_ReversePolishNotation">https://github.com/htw-imi-info2/Lab07_ReversePolishNotation&lt;/a>
+&lt;/p>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the &lt;a href="../lab-07-handout">hand out&lt;/a>.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is the order of precedence for the operators &amp;ldquo;+&amp;rdquo;, &amp;ldquo;-&amp;rdquo;, &amp;ldquo;*&amp;rdquo;, &amp;ldquo;/&amp;rdquo;, &amp;ldquo;^&amp;rdquo;? If we wanted to include &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo; in this order, where would each of them be?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?&lt;/p></description></item><item><title>Lab 07 Handout: Infix/Prefix/Postfix</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07-handout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-07-handout/</guid><description>&lt;h2 id="definitions">Definitions&lt;/h2>
+&lt;p>&lt;strong>Infix:&lt;/strong> The operator is placed between the two operands: 3 + 5&lt;/p>
+&lt;p>&lt;strong>Prefix:&lt;/strong> The operator is placed before the two operands: + 3 5&lt;/p>
+&lt;p>&lt;strong>Postfix:&lt;/strong> The operator is placed after the two operands: 3 5 +&lt;/p>
+&lt;h2 id="calculator-algorithm">Calculator algorithm&lt;/h2>
+&lt;ol>
+&lt;li>Convert infix to postfix&lt;/li>
+&lt;li>Use stack to evaluate postfix&lt;/li>
+&lt;li>Output top of stack (should be the only element)&lt;/li>
+&lt;/ol>
+&lt;h3 id="convert-infix-to-postfix-algorithm">Convert infix to postfix algorithm&lt;/h3>
+&lt;ol>
+&lt;li>Given a sequence of tokens s and a result r&lt;/li>
+&lt;li>While s is not empty:
+&lt;ol>
+&lt;li>Let t = next token.&lt;/li>
+&lt;li>If t is an operand, r = r + t;&lt;/li>
+&lt;li>If t is an open parenthesis, push it.&lt;/li>
+&lt;li>If t is a close parenthesis:
+&lt;ol>
+&lt;li>while top &amp;lt;&amp;gt; open parenthesis
+&lt;ol>
+&lt;li>r = r + top&lt;/li>
+&lt;li>pop&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>pop // removes the open parenthesis&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>If t is an operator
+&lt;ol>
+&lt;li>while not (top is of lower precedence than t OR t is right associative and top is of equal precedence)
+&lt;ol>
+&lt;li>r = r + top&lt;/li>
+&lt;li>pop&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>push t&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>while stack not empty
+&lt;ol>
+&lt;li>r = r + top&lt;/li>
+&lt;li>pop&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="evaluate-postfix-algorithm">Evaluate postfix algorithm&lt;/h3>
+&lt;ol>
+&lt;li>Given a sequence of tokens s&lt;/li>
+&lt;li>While s is not empty:
+&lt;ol>
+&lt;li>Let t = next token.&lt;/li>
+&lt;li>If t is an operand, push it;&lt;/li>
+&lt;li>If t is an operator:
+&lt;ol>
+&lt;li>put the top into rhs, pop it;&lt;/li>
+&lt;li>put the top into lhs, pop it;&lt;/li>
+&lt;li>calculate lhs t rhs;&lt;/li>
+&lt;li>push the result&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>The top of the stack is the result.&lt;/li>
+&lt;/ol></description></item><item><title>Lab 08: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
+&lt;p>Source code scaffold for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle">https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle&lt;/a>
+&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is the mathematical formula for finding the midpoint of a line segment that connects two Points?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p></description></item><item><title>Lab 09: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-09/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Make a chess board and mark how a Queen moves and threatens.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Define a matrix (two-dimensional array) of integers in Java. Write a method to put a &lt;em>-1&lt;/em> in every cell of the matrix.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
+a) the cells are in the same row?
+b) the cells are in the same column?
+c) the cells are in the same ascending diagonal (lower left to upper right)?
+d) the cells are in the same descending diagonal (upper left to lower right)?&lt;/p></description></item><item><title>Lab 10: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</guid><description>&lt;div class="alert alert-warning" role="alert">
+ 
+ As we haven't discussed Heapsort in enough detail yet, you can postpone the Heapsort walkthroughs to a later lab/time after we discussed Trees, Heaps and Heapsort in more detail. 
+
+&lt;/div>
+
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What is the difference between an NFA and an DFA?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Which sorting algorithms have you learned about so far? Review their algorithms.&lt;/p>
+&lt;p>&lt;a href="https://www.geeksforgeeks.org/">Geeks for Geeks&lt;/a> has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. &lt;a href="https://www.geeksforgeeks.org/selection-sort/">Selection Sort&lt;/a>.&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is a permutation?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P4.&lt;/strong>&lt;/em> How do you determine if two Strings are permutations of each other?&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
+&lt;p>TBD!!!!&lt;/p>
+&lt;ul>
+&lt;li>Permutation#equals method should check on equal words, not on equality based on permutation.&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is a permutation?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p></description></item><item><title>Lab 13: Scrabble Cheater - Deluxe</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-14/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;img src="../../images/scrabble_331161309_a8e6c6c3fd_o.jpg" alt="Scrabble" title="scrabble 1">
+Foto by &lt;a href="https://www.flickr.com/photos/derbeth/331161309/">Piotr&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>What would the exact data structure be for a hash table that stores Strings and chains the collisions?&lt;/li>
+&lt;li>Review the construction of a hash function. Note that you will need prime numbers. Does your isPrime method work? If not, fix it now.&lt;/li>
+&lt;/ol>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>This week we will improve the Scrabble Cheater by finding matches for shorter
+Words that can be build with your tile rack (method &lt;code>allValidWords()&lt;/code>).&lt;/p></description></item></channel></rss>

@@ -1,3 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/m1-web/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 08:45:49 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ss2023/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 SS 2023 Labs Schedule</title><link>https://bkleinen.github.io/classes/ss2023/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/m1-web/schedule/</guid><description>First Draft and Subject to change!
-Mi.	12:15 bis 13:45	woch	12.04.2023 bis 02.08.2023 WH Gebäude C 579
-Week KW Date Topic Area Lecturer 1 15 Wed 12/04/2023 Visual Computing Klaus Jung 2 16 Wed 19/04/2023 Visual Computing Nico Hezel 3 17 Wed 26/04/2023 Visual Computing Kai Barthel 4 18 Wed 03/05/2023 Visual Computing Nico Hezel 5 19 Wed 10/05/2023 Visual Computing Nico Hezel 6 20 Wed 17/05/2023 (Mittwoch vor Himmelfahrt) 7 21 Wed 24/05/2023 Game Technology and Interactive Systems Philipp Bönsch 8 22 Wed 31/05/2023 Game Technology and Interactive Systems Philipp Bönsch 9 23 Wed 07/06/2023 Game Technology and Interactive Systems Philipp Bönsch 10 24 Wed 14/06/2023 Game Technology and Interactive Systems Philipp Bönsch 11 25 Wed 21/06/2023 Game Technology and Interactive Systems Philipp Bönsch 12 26 Wed 28/06/2023 Web Technology Gefei Zhang 13 27 Wed 05/07/2023 Web Technology Gefei Zhang 14 28 Wed 12/07/2023 Web Technology Gefei Zhang 15 29 Wed 19/07/2023 Web Technology Gefei Zhang 16 30 Wed 26/07/2023 Web Technology Gefei Zhang 17 31 Wed 02/08/2023</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/m1-web/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ss2023/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 SS 2023 Labs Schedule</title><link>https://bkleinen.github.io/classes/ss2023/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/m1-web/schedule/</guid><description>&lt;p>First Draft and Subject to change!&lt;/p>
+&lt;p>Mi.	12:15 bis 13:45	woch	12.04.2023 bis 02.08.2023 WH Gebäude C 579&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Wed 12/04/2023&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Wed 19/04/2023&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Wed 26/04/2023&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Wed 03/05/2023&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Wed 10/05/2023&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Wed 17/05/2023&lt;/td>
+ &lt;td style="text-align: left">(Mittwoch vor Himmelfahrt)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Wed 24/05/2023&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Philipp Bönsch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Wed 31/05/2023&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Philipp Bönsch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Wed 07/06/2023&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Philipp Bönsch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Wed 14/06/2023&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Philipp Bönsch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Wed 21/06/2023&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Philipp Bönsch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Wed 28/06/2023&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Wed 05/07/2023&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Wed 12/07/2023&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Wed 19/07/2023&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Wed 26/07/2023&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">31&lt;/td>
+ &lt;td style="text-align: left">Wed 02/08/2023&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

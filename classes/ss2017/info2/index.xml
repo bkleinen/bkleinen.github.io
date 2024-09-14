@@ -1,7 +1,415 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 Sommersemester 2017 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2017/info2/</link><description>Recent content in Info2 Sommersemester 2017 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2017/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 SS2017 Klausurfragen</title><link>https://bkleinen.github.io/classes/ss2017/info2/klausurfragen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/info2/klausurfragen/</guid><description>Klausurfragen gesammelt am 18.7.2017
-001-info2-application-development keine gesammelt
-002-info2-Tooling keine gesammelt
-003-info2-networking-fileio-exceptions &amp;hellip; die API für Datei öffnen müssen Sie nicht auswendig kennen.
-Programmieraufgabe: Datei öffnen und etwas mit der Datei machen etwas in Datei reinschreiben 004-info2-concurrency &amp;hellip; das kommt erst in Info3 dran :) :
-selbst Thread implementieren Deadlock in Programm mit Threads finden 005-info2-algorithms Wie ist der Aufwand eines gegebenen Algorithmus? 006-info2-lists was ist die Komplexität für folgende Operationen für ArrayList und LinkedList?</description></item><item><title>Info2 SS2017 Schedule</title><link>https://bkleinen.github.io/classes/ss2017/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/info2/schedule/</guid><description>Tentative Schedule - Lab Topics are subject to change! Lab Assignments not linked here have not released for this term yet and might be changed.
-Week KW Lecture Lecture Topic Group Lab Lab Topic 1 14 Tue, 2017-04-04 Welcome Back, Overview, Designing Applications Group 2 1 Designing an Application, CRC Cards (Pre-Lab!) Fri, 2017-04-07 Toolbox: Java, Eclipse Group 1 1 Designing an Application, CRC Cards (Pre-Lab!) 2 15 Tue, 2017-04-11 Error Handling and Exceptions reviewed Group 2 2 Implementing CRC cards (Pre-Lab!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 Sommersemester 2017 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2017/info2/</link><description>Recent content in Info2 Sommersemester 2017 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2017/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 SS2017 Klausurfragen</title><link>https://bkleinen.github.io/classes/ss2017/info2/klausurfragen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/info2/klausurfragen/</guid><description>&lt;p>Klausurfragen gesammelt am 18.7.2017&lt;/p>
+&lt;h2 id="001-info2-application-development">001-info2-application-development&lt;/h2>
+&lt;p>keine gesammelt&lt;/p>
+&lt;h2 id="002-info2-tooling">002-info2-Tooling&lt;/h2>
+&lt;p>keine gesammelt&lt;/p>
+&lt;h2 id="003-info2-networking-fileio-exceptions">003-info2-networking-fileio-exceptions&lt;/h2>
+&lt;p>&amp;hellip; die API für Datei öffnen müssen Sie nicht auswendig kennen.&lt;/p>
+&lt;ul>
+&lt;li>Programmieraufgabe: Datei öffnen und etwas mit der Datei machen&lt;/li>
+&lt;li>etwas in Datei reinschreiben&lt;/li>
+&lt;/ul>
+&lt;h2 id="004-info2-concurrency">004-info2-concurrency&lt;/h2>
+&lt;p>&amp;hellip; das kommt erst in Info3 dran :) :&lt;/p>
+&lt;ul>
+&lt;li>selbst Thread implementieren&lt;/li>
+&lt;li>Deadlock in Programm mit Threads finden&lt;/li>
+&lt;/ul>
+&lt;h2 id="005-info2-algorithms">005-info2-algorithms&lt;/h2>
+&lt;ul>
+&lt;li>Wie ist der Aufwand eines gegebenen Algorithmus?&lt;/li>
+&lt;/ul>
+&lt;h2 id="006-info2-lists">006-info2-lists&lt;/h2>
+&lt;ul>
+&lt;li>was ist die Komplexität für folgende Operationen für ArrayList und LinkedList? (Tabelle ergänzen)&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">search&lt;/th>
+ &lt;th style="text-align: left">add&lt;/th>
+ &lt;th style="text-align: left">get(k)&lt;/th>
+ &lt;th style="text-align: left">contains&lt;/th>
+ &lt;th style="text-align: left">next&lt;/th>
+ &lt;th style="text-align: left">remove&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ArrayList&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LinkedList&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">search&lt;/th>
+ &lt;th style="text-align: left">add to front&lt;/th>
+ &lt;th style="text-align: left">get(k)&lt;/th>
+ &lt;th style="text-align: left">contains&lt;/th>
+ &lt;th style="text-align: left">next&lt;/th>
+ &lt;th style="text-align: left">remove&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ArrayList&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LinkedList&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>vorr. für next und remove: index (ArrayList) bzw. Pointer (LinkedList) auf jeweiliges Element.&lt;/p></description></item><item><title>Info2 SS2017 Schedule</title><link>https://bkleinen.github.io/classes/ss2017/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
+&lt;p>Lab Assignments not linked here have not released for this term yet and
+might be changed.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Group&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;th style="text-align: left">Lab Topic&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-04-04&lt;/td>
+ &lt;td style="text-align: left">Welcome Back, Overview, Designing Applications&lt;/td>
+ &lt;td style="text-align: left">Group 2&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-01">Designing an Application, CRC Cards (Pre-Lab!)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-04-07&lt;/td>
+ &lt;td style="text-align: left">Toolbox: Java, Eclipse&lt;/td>
+ &lt;td style="text-align: left">Group 1&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-01">Designing an Application, CRC Cards (Pre-Lab!)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-04-11&lt;/td>
+ &lt;td style="text-align: left">Error Handling and Exceptions reviewed&lt;/td>
+ &lt;td style="text-align: left">Group 2&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-02">Implementing CRC cards (Pre-Lab!)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-04-14&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;- Feiertag: Karfreitag &amp;mdash;&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- no lab -&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-04-18&lt;/td>
+ &lt;td style="text-align: left">Networking in Java. File I/O.&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- no lab -&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-04-21&lt;/td>
+ &lt;td style="text-align: left">Concurrency&lt;/td>
+ &lt;td style="text-align: left">Group 1&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-02">Implementing CRC cards (Pre-Lab!)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-04-25&lt;/td>
+ &lt;td style="text-align: left">Complexity of Algorithms, Binary Search&lt;/td>
+ &lt;td style="text-align: left">Group 2&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-03">Histogram&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-04-28&lt;/td>
+ &lt;td style="text-align: left">Properties of Algorithms, Maximum Contiguous Subsequence Sum&lt;/td>
+ &lt;td style="text-align: left">Group 1&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-03">Histogram&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-05-02&lt;/td>
+ &lt;td style="text-align: left">Arrays and Lists&lt;/td>
+ &lt;td style="text-align: left">Group 2&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-04">Chatterbox&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-05-05&lt;/td>
+ &lt;td style="text-align: left">Stacks&lt;/td>
+ &lt;td style="text-align: left">Group 1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-04">Chatterbox&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-05-09&lt;/td>
+ &lt;td style="text-align: left">Recursion&lt;/td>
+ &lt;td style="text-align: left">Group 2&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-05">Execution Times&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-05-12&lt;/td>
+ &lt;td style="text-align: left">Queues, Priority Queues, Collections: Sets, Bags, Maps.&lt;/td>
+ &lt;td style="text-align: left">Group 1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-05">Execution Times&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-05-16&lt;/td>
+ &lt;td style="text-align: left">Recursion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-06">Reverse Polish Notation&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-05-19&lt;/td>
+ &lt;td style="text-align: left">Sorting, Divide &amp;amp; Conquer, Maximum Contiguous Subsequence revisited&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-06">Reverse Polish Notation&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-05-23&lt;/td>
+ &lt;td style="text-align: left">&amp;hellip;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- no lab -&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-05-26&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;- Frei: Freitag nach Himmelfahrt &amp;mdash;-&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- no lab -&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-05-30&lt;/td>
+ &lt;td style="text-align: left">&amp;hellip;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-07">Recursive Triangles&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-06-02&lt;/td>
+ &lt;td style="text-align: left">SortingQuicksort, Radix Sort&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-07">Recursive Triangles&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-06-06&lt;/td>
+ &lt;td style="text-align: left">TWO Lectures! Sorting Condinued, Random numbers, Probabilistic Algorithms&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-08">Eight Queens&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-06-09&lt;/td>
+ &lt;td style="text-align: left">Graphs, Graph Algorithms&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-08">Eight Queens&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-06-13&lt;/td>
+ &lt;td style="text-align: left">Searching, Nearest Neighbor, Branch and Bound&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-09">Probablistic Algorithms&lt;/a> (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-06-16&lt;/td>
+ &lt;td style="text-align: left">Trees, Heapsort, Sorting Algorithms Conclusion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-09">Probablistic Algorithms&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-06-20&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-10">Getting from A to B&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-06-23&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-06-27&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-10">Getting from A to B&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-06-30&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-07-04&lt;/td>
+ &lt;td style="text-align: left">Hashs&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-11">Scrabble Cheater&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-07-07&lt;/td>
+ &lt;td style="text-align: left">String Searching and Pattern Matching&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-11">Scrabble Cheater&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-07-11&lt;/td>
+ &lt;td style="text-align: left">Searching,Scanning and Parsing Algorithms&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Trial Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-07-14&lt;/td>
+ &lt;td style="text-align: left">AVL Trees&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Trial Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Tue, 2017-07-18&lt;/td>
+ &lt;td style="text-align: left">Repetition / Trial Exam Review&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-07-21&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">&lt;!-- raw HTML omitted -->Wed, 2017-07-26&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td style="text-align: left">Exam Review 26. Jul 2017, 12:30 to 14:00 &lt;!-- raw HTML omitted -->Day changed!&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2017-07-28&lt;/td>
+ &lt;td style="text-align: left">IMI Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

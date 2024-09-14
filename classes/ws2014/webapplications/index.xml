@@ -1,2 +1,180 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/webapplications/</link><description>Recent content in WT1 Web Applications on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/webapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Applications WS2014/2015 - Schedule</title><link>https://bkleinen.github.io/classes/ws2014/webapplications/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/webapplications/schedule/</guid><description>||| |a|b|
-Topics - general Thoughts do Web Application Frameworks first: Rails, Angular, Meteor. With an emphasis on Rails and Angular. I could do one lecture about Tools: Scrum, POEAA, TDD, SCM/Git, Continuous Integration Security should be part of all topics General Topics Security, Security, Security Week KW Thursday Orga Lecture Topic Group Source 1 41 10/10/2014 Intro to Web Applications bentobox 2 42 16/10/2014 Referatsthemen festlegen Projekt Topics Pitch 3 43 23/10/2014 Web Projekt Themen festlegen Ruby on Rails B.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/webapplications/</link><description>Recent content in WT1 Web Applications on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/webapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Applications WS2014/2015 - Schedule</title><link>https://bkleinen.github.io/classes/ws2014/webapplications/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/webapplications/schedule/</guid><description>&lt;p>|||
+|a|b|&lt;/p>
+&lt;h1 id="topics---general-thoughts">Topics - general Thoughts&lt;/h1>
+&lt;ul>
+&lt;li>do Web Application Frameworks first: Rails, Angular, Meteor. With an emphasis on Rails and Angular.&lt;/li>
+&lt;li>I could do one lecture about Tools: Scrum, POEAA, TDD, SCM/Git, Continuous Integration&lt;/li>
+&lt;li>&lt;strong>Security should be part of all topics&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h1 id="general-topics">General Topics&lt;/h1>
+&lt;ul>
+&lt;li>Security, Security, Security&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Thursday&lt;/th>
+ &lt;th style="text-align: left">Orga&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Group&lt;/th>
+ &lt;th style="text-align: left">Source&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">10/10/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Intro to Web Applications&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-webapplications/bentobox">bentobox&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">16/10/2014&lt;/td>
+ &lt;td style="text-align: left">Referatsthemen festlegen&lt;/td>
+ &lt;td style="text-align: left">Projekt Topics Pitch&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">23/10/2014&lt;/td>
+ &lt;td style="text-align: left">Web Projekt Themen festlegen&lt;/td>
+ &lt;td style="text-align: left">Ruby on Rails&lt;/td>
+ &lt;td style="text-align: left">B. Kleinen&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">30/10/2014&lt;/td>
+ &lt;td style="text-align: left">Backlogs&lt;/td>
+ &lt;td style="text-align: left">Tools&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">06/11/2014&lt;/td>
+ &lt;td style="text-align: left">Sprint Planning&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">13/11/2014&lt;/td>
+ &lt;td style="text-align: left">Q&amp;amp;A&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">20/11/2014&lt;/td>
+ &lt;td style="text-align: left">Review, Backlog Grooming&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">27/11/2014&lt;/td>
+ &lt;td style="text-align: left">Sprint Planning&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">04/12/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">11/12/2014&lt;/td>
+ &lt;td style="text-align: left">Review&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">18/12/2015&lt;/td>
+ &lt;td style="text-align: left">Sprint Planning&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">08/01/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">15/01/2015&lt;/td>
+ &lt;td style="text-align: left">Review&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">22/01/2015&lt;/td>
+ &lt;td style="text-align: left">Sprint Planning&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">29/01/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">06/02/2015&lt;/td>
+ &lt;td style="text-align: left">Review&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">12/02/2015&lt;/td>
+ &lt;td style="text-align: left">Tre&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

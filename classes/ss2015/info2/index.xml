@@ -1,4 +1,251 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 Sommersemester 2015 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2015/info2/</link><description>Recent content in Info2 Sommersemester 2015 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2015/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 SS2015 Schedule</title><link>https://bkleinen.github.io/classes/ss2015/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/schedule/</guid><description>Tentative Schedule - Lab Topics are subject to change! Week Lecture Lecture Topic Lab Lab Topic 1/15 Fri, 10 Apr 2015 Welcome Back, Overview, Designing Applications 2/16 Tue, 14 Apr 2015 Toolbox: Java, Eclipse 1 Designing an Application, CRC Cards (Pre-Lab!) Fri, 17 Apr 2015 Error Handling and Exceptions reviewed, 3/17 Tue, 21 Apr 2015 Networking in Java. File I/O. 2 Implementing CRC cards (Pre-Lab!) Fri, 24 Apr 2015 Double Lecture: Concurrency; Binary Search, Complexity 4/18 Tue, 28 Apr 2015 Properties of Algorithms, Maximum Contiguous Subsequence Sum 3 Networking Exercise (Pre-Lab!</description></item><item><title>Info2 Questions &amp; Answers Sommersemester 2015</title><link>https://bkleinen.github.io/classes/ss2015/info2/quame/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/quame/</guid><description>Questions See [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions)
-Ask new questions here: [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions)
-Answers ##Question #11 This question was asked on May 29, 2015 22:29.
-Ich habe ein Problem mit der Anpassung des Dreiecks an die Fenstergröße, dies soll entweder abhängig von der Höhe oder der Breite von Dreieck und Fenster geschehen. Das Problem ist nun, dass sich das Dreieck entweder nicht wirklich proportional der Fenstergröße anpasst, oder sich die Seitenverhältnisse ändern, sodass die Grundseite kürzer erscheint als die zum oberen Punkt führenden Seiten.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 Sommersemester 2015 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2015/info2/</link><description>Recent content in Info2 Sommersemester 2015 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2015/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 SS2015 Schedule</title><link>https://bkleinen.github.io/classes/ss2015/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;th style="text-align: left">Lab Topic&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1/15&lt;/td>
+ &lt;td style="text-align: left">Fri, 10 Apr 2015&lt;/td>
+ &lt;td style="text-align: left">Welcome Back, Overview, Designing Applications&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2/16&lt;/td>
+ &lt;td style="text-align: left">Tue, 14 Apr 2015&lt;/td>
+ &lt;td style="text-align: left">Toolbox: Java, Eclipse&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Designing an Application, CRC Cards (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 17 Apr 2015&lt;/td>
+ &lt;td style="text-align: left">Error Handling and Exceptions reviewed,&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3/17&lt;/td>
+ &lt;td style="text-align: left">Tue, 21 Apr 2015&lt;/td>
+ &lt;td style="text-align: left">Networking in Java. File I/O.&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Implementing CRC cards (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 24 Apr 2015&lt;/td>
+ &lt;td style="text-align: left">Double Lecture: Concurrency; Binary Search, Complexity&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4/18&lt;/td>
+ &lt;td style="text-align: left">Tue, 28 Apr 2015&lt;/td>
+ &lt;td style="text-align: left">Properties of Algorithms, Maximum Contiguous Subsequence Sum&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Networking Exercise (Pre-Lab!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 01 May 2015&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; NO LECTURE - 1. Mai - Bank Holiday &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5/19&lt;/td>
+ &lt;td style="text-align: left">Tue, 05 May 2015&lt;/td>
+ &lt;td style="text-align: left">Arrays and Lists&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Histogram (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 08 May 2015&lt;/td>
+ &lt;td style="text-align: left">Stacks&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6/20&lt;/td>
+ &lt;td style="text-align: left">Tue, 12 May 2015&lt;/td>
+ &lt;td style="text-align: left">Recursion&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Execution Times (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 15 May 2015&lt;/td>
+ &lt;td style="text-align: left">e-learning (find the exercise in moodle)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7/21&lt;/td>
+ &lt;td style="text-align: left">Tue, 19 May 2015&lt;/td>
+ &lt;td style="text-align: left">Queues, Priority Queues, Collections: Sets, Bags, Maps.&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Reverse Polish Notation (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 22 May 2015&lt;/td>
+ &lt;td style="text-align: left">Recursion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8/22&lt;/td>
+ &lt;td style="text-align: left">Tue, 26 May 2015&lt;/td>
+ &lt;td style="text-align: left">Sorting, Divide &amp;amp; Conquer, Maximum Contiguous Subsequence revisited&lt;/td>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">Recursive Triangles (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 29 May 2015&lt;/td>
+ &lt;td style="text-align: left">Quicksort, Radix Sort&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9/23&lt;/td>
+ &lt;td style="text-align: left">Tue, 02 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Random numbers, Probabilistic Algorithms&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">Eight Queens (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 05 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Graphs, Graph Algorithms&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10/24&lt;/td>
+ &lt;td style="text-align: left">Tue, 09 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Searching, Nearest Neighbor, Branch and Bound&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">Probablistic Algorithms (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 12 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Trees, Heapsort, Sorting Algorithms Conclusion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11/25&lt;/td>
+ &lt;td style="text-align: left">Tue, 16 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">(ausgefallen)&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">(ausgefallen)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 19 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12/26&lt;/td>
+ &lt;td style="text-align: left">Tue, 23 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata + AVL Trees&lt;/td>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">Getting from A to B&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 26 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">(ausgefallen)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13/27&lt;/td>
+ &lt;td style="text-align: left">Tue, 30 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Hashs / String Searching and Pattern Matching&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata and Sorting&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Tue, 30 Jun 2015&lt;/td>
+ &lt;td style="text-align: left">Scanning and Parsing Algorithms&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14/28&lt;/td>
+ &lt;td style="text-align: left">Tue, 07 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">Ruby&lt;/td>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">Scrabble Cheater Basic Edition (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Tue, 07 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">Ruby&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15/29&lt;/td>
+ &lt;td style="text-align: left">Tue, 14 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">Trial Exam&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Scrabble Cheater Deluxe (Pre-Lab!)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 17 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">Repetition / Trial Exam Review&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16/30&lt;/td>
+ &lt;td style="text-align: left">Tue, 21 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 24 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17/31&lt;/td>
+ &lt;td style="text-align: left">Tue, 28 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;-&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 31 Jul 2015&lt;/td>
+ &lt;td style="text-align: left">IMI Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Info2 Questions &amp; Answers Sommersemester 2015</title><link>https://bkleinen.github.io/classes/ss2015/info2/quame/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/quame/</guid><description>&lt;h1 id="questions">Questions&lt;/h1>
+&lt;p>See [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions)&lt;/p>
+&lt;p>Ask new questions here: [https://ba-thesis.herokuapp.com/questions]({{ site.BaseURL }}/miscellany/grasp/questions)&lt;/p>
+&lt;h1 id="answers">Answers&lt;/h1>
+&lt;p>##Question #11
+This question was asked on May 29, 2015 22:29.&lt;/p>
+&lt;p>Ich habe ein Problem mit der Anpassung des Dreiecks an die Fenstergröße, dies soll entweder abhängig von der Höhe oder der Breite von Dreieck und Fenster geschehen. Das Problem ist nun, dass sich das Dreieck entweder nicht wirklich proportional der Fenstergröße anpasst, oder sich die Seitenverhältnisse ändern, sodass die Grundseite kürzer erscheint als die zum oberen Punkt führenden Seiten. Wie könnte man dafür sorgen, dass die Seiten wirklich immer gleichlang bleiben ?&lt;/p></description></item></channel></rss>

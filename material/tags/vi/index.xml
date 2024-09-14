@@ -1,3 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vi on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/vi/</link><description>Recent content in Vi on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 08:45:49 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tags/vi/index.xml" rel="self" type="application/rss+xml"/><item><title>VI</title><link>https://bkleinen.github.io/material/ops/vi/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/vi/</guid><description>VI You should learn a couple of vi commands to survive, as vi is available on most *nix computers.
-The absolute minimum There are two modes in vi: normal and insert. You need to know which mode you are in, as different commands are available. (Why this may be problematic has been discussed thoroughly in the UX field)
-Normal Mode: vi starts there get there with ESC start command with: :w write (save) file :q quit (without save, won’t quit if there are changes) :wq quit and save :q!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vi on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/vi/</link><description>Recent content in Vi on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tags/vi/index.xml" rel="self" type="application/rss+xml"/><item><title>VI</title><link>https://bkleinen.github.io/material/ops/vi/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/vi/</guid><description>&lt;h1 id="vi">VI&lt;/h1>
+&lt;p>You should learn a couple of vi commands to survive, as vi is available on most *nix computers.&lt;/p>
+&lt;h2 id="the-absolute-minimum">The absolute minimum&lt;/h2>
+&lt;p>There are two modes in vi: normal and insert.
+You need to know which mode you are in, as different commands are available.
+&lt;a href="https://www.nngroup.com/articles/modes/">(Why this may be problematic has been discussed thoroughly in the UX field)&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Normal Mode:
+&lt;ul>
+&lt;li>vi starts there&lt;/li>
+&lt;li>&lt;strong>get there with &lt;code>ESC&lt;/code>&lt;/strong>&lt;/li>
+&lt;li>start command with&lt;code>:&lt;/code>&lt;/li>
+&lt;li>&lt;code>:w&lt;/code> write (save) file&lt;/li>
+&lt;li>&lt;code>:q&lt;/code> quit (without save, won’t quit if there are changes)&lt;/li>
+&lt;li>&lt;strong>&lt;code>:wq&lt;/code> quit and save&lt;/strong>&lt;/li>
+&lt;li>&lt;code>:q!&lt;/code> quit without save no matter what&lt;/li>
+&lt;li>&amp;lt; &lt;code>h&lt;/code> ^&lt;code> j&lt;/code> v &lt;code>k &lt;/code> &amp;gt;&lt;code>l&lt;/code> the keys under your right hand double as cursor keys; this makes editing fast!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Insert Mode:
+&lt;ul>
+&lt;li>type to insert text&lt;/li>
+&lt;li>get there with any insert command, eg
+&lt;ul>
+&lt;li>&lt;strong>&lt;code>i&lt;/code> insert before cursor&lt;/strong>&lt;/li>
+&lt;li>&lt;code>a&lt;/code> insert after cursor&lt;/li>
+&lt;li>&lt;code>o&lt;/code> insert in new line after this one&lt;/li>
+&lt;li>&lt;code>O&lt;/code> insert in new line before this one&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="some-links-and-further-resources">Some Links and further Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">Graphical vi-vim Cheat Sheet and Tutorial&lt;/a>, &lt;a href="https://www.glump.net/_media/howto/desktop/vim-graphical-cheat-sheet-and-tutorial/vi-vim-cheat-sheet-and-tutorial.pdf">also available in one PDF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.viemu.com/a-why-vi-vim.html">Why, oh WHY, do those #?@! nutheads use vi?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes">Learning the vi Editor/Vim/Modes - Wikibooks, open books for an open world&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,3 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/</link><description>Recent content in M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</guid><description>This schedule is, as always, tentative.
-Week KW Date JF Topic Area Lecturer 1 14 Wed 01/04/2020 no class 2 15 Wed 08/04/2020 * Web Technology Barne Kleinen 3 16 Wed 15/04/2020 Web Technology Barne Kleinen 4 17 Wed 22/04/2020 * Web Technology Barne Kleinen 5 18 Wed 29/04/2020 Web Technology Barne Kleinen 6 19 Wed 06/05/2020 * Web Technology Barne Kleinen 7 20 Wed 13/05/2020 Visual Computing Nico Hezel 8 21 Wed 20/05/2020 * Visual Computing Nico Hezel 9 22 Wed 27/05/2020 Visual Computing Kai Barthel 10 23 Wed 03/06/2020 * Visual Computing Nico Hezel 11 24 Wed 10/06/2020 Visual Computing Nico Hezel 12 25 Wed 17/06/2020 * Game Technology and Interactive Systems David Strippgen 13 26 Wed 24/06/2020 Game Technology and Interactive Systems David Strippgen 14 27 Wed 01/07/2020 * Game Technology and Interactive Systems David Strippgen 15 28 Wed 08/07/2020 Game Technology and Interactive Systems David Strippgen 16 29 Wed 15/07/2020 * Game Technology and Interactive Systems David Strippgen</description></item><item><title>M1 Assignments</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</guid><description>You will do quite a lot of web development in the lecture part of this class. Thus, this lab is not about web technology or development, but rather introduces you to three other topics related to web development: Usability, publishing on the web and devops and agile. As we start off with the web part this term I&amp;rsquo;ve decided to try a new approach: Rather than working on toy-assignments within a week, I ask you to learn about the theory now, and apply them to any project later during the term.</description></item><item><title>M1 Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</guid><description>tentative.
-Week KW Date Topic Assignment 12 25 Wed 08/04/2020 Web Dev &amp;amp; Usability: Intro 13 26 Wed 15/04/2020 Discount Usability 14 27 Wed 22/04/2020 Static Web Site Publishing 15 28 Wed 29/04/2020 Continuous Deployment and Agile Development 16 29 Wed 06/05/2020 Individual Consultations</description></item><item><title>M1 Web Technology Topics</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</guid><description>Discount Usability The Nielsen Norman Group maintains a great web site with a wealth of information and material about Usability, User Centered Design and User Experience. Starting with Discount Usability 30 Years read about either - or all - the three mentioned methods: simplified user testing with 5 users, early test of paper prototypes, and heuristic evaluation. Your goal is to learn enough about either one of this three methods to apply it within a project.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/</link><description>Recent content in M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</guid><description>&lt;p>This schedule is, as always, tentative.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">JF&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Wed 01/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">no class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Wed 08/04/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Wed 15/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Wed 22/04/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Wed 29/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Wed 06/05/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Wed 13/05/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Wed 20/05/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Wed 27/05/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Wed 03/06/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Wed 10/06/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Wed 17/06/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Wed 24/06/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Wed 01/07/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Wed 08/07/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Wed 15/07/2020&lt;/td>
+ &lt;td style="text-align: left">*&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>M1 Assignments</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</guid><description>&lt;p>You will do quite a lot of web development in the lecture part of this class.
+Thus, this lab is not about web technology or development, but rather introduces
+you to three other topics related to web development: Usability, publishing on the web
+and devops and agile.
+As we start off with the web part this term I&amp;rsquo;ve decided to try a new approach:
+Rather than working on toy-assignments within a week, I ask you to learn about the
+theory now, and apply them to any project later during the term.&lt;/p></description></item><item><title>M1 Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</guid><description>&lt;p>tentative.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">Assignment&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Wed 08/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Dev &amp;amp; Usability: Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Wed 15/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Discount Usability&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Wed 22/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Static Web Site Publishing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Wed 29/04/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Continuous Deployment and Agile Development&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Wed 06/05/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Individual Consultations&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>M1 Web Technology Topics</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</guid><description>&lt;h1 id="discount-usability">Discount Usability&lt;/h1>
+&lt;p>The Nielsen Norman Group maintains a great web site with a wealth of information and material about Usability, User Centered Design and User Experience. Starting with &lt;a href="https://www.nngroup.com/videos/discount-usability-30-years/">Discount Usability 30 Years&lt;/a> read about either - or all - the three mentioned methods: simplified user testing with 5 users, early test of paper prototypes, and heuristic evaluation. Your goal is to learn enough about either one of this three methods to apply it within a project.&lt;/p></description></item></channel></rss>

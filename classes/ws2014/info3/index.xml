@@ -1,2 +1,353 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/info3/</link><description>Recent content in B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/info3/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 3 Code Overview</title><link>https://bkleinen.github.io/classes/ws2014/info3/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info3/code/</guid><description>All code examples can be found on the github organization htw-imi-info3-archive - please note that there&amp;rsquo;s also stuff form former semesters, this is the list of repositories &amp;ldquo;released&amp;rdquo; for this term WS2014/15:
-Lectures 01: Ruby Learning https://github.com/htw-imi-info3-archive/rubylearning 02: Git Demo https://github.com/htw-imi-info3-archive/su-03-gitdemo Labs Lab 01 Ruby Exercise Lab 04 Testing Lab 05 Legacy Code: Ruby Version Lab 05 Legacy Code: Java Eclipse Version Lab 05 Legacy Code: Java Maven Version Lab 06 Rails 1: HTW</description></item><item><title>Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2014/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info3/schedule/</guid><description>Week KW Tuesday Friday Lecture Topic Lab Group - &amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;- Part 1: Intro, Tools &amp;amp; Ruby 1 41 09/10/2014 Intro to Info3 10/10/2014 Ruby Intro Installation Party 14:00-15:30 WH-C 537 for both groups! both 2 42 16/10/2014 Source Code Management and Continuous Integration 17/10/2014 More Ruby, Pair Programming and Code Review 1 - Lab Startup and Ruby Finger Exercises 1. Gruppe - &amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;- Part 2: Software Engineering, Processes and Software Design 3 43 23/10/2014 Practical Git 24/10/2014 Software Engineering and Software Development Processes 1 - Lab Startup and Ruby Finger Exercises 2.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/info3/</link><description>Recent content in B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/info3/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 3 Code Overview</title><link>https://bkleinen.github.io/classes/ws2014/info3/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info3/code/</guid><description>&lt;p>All code examples can be found on the github organization &lt;a href="https://github.com/htw-imi-info3-archive">htw-imi-info3-archive&lt;/a> - please note that there&amp;rsquo;s also stuff form former semesters, this is the list of repositories &amp;ldquo;released&amp;rdquo; for this term WS2014/15:&lt;/p>
+&lt;h2 id="lectures">Lectures&lt;/h2>
+&lt;ul>
+&lt;li>01: Ruby Learning &lt;a href="https://github.com/htw-imi-info3-archive/rubylearning">https://github.com/htw-imi-info3-archive/rubylearning&lt;/a>&lt;/li>
+&lt;li>02: Git Demo &lt;a href="https://github.com/htw-imi-info3-archive/su-03-gitdemo">https://github.com/htw-imi-info3-archive/su-03-gitdemo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="labs">Labs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/htw-imi-info3-archive/lab-01-ruby-exercise">Lab 01 Ruby Exercise&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/htw-imi-info3-archive/lab-04-testing">Lab 04 Testing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata">Lab 05 Legacy Code: Ruby Version&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose">Lab 05 Legacy Code: Java Eclipse Version&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose">Lab 05 Legacy Code: Java Maven Version&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/htw-imi-info3-archive/lab-06-railsapp-HTW">Lab 06 Rails 1: HTW&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2014/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info3/schedule/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Tuesday&lt;/th>
+ &lt;th style="text-align: left">Friday&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;th style="text-align: left">Group&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Part 1: Intro, Tools &amp;amp; Ruby&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">09/10/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Intro to Info3&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">10/10/2014&lt;/td>
+ &lt;td style="text-align: left">Ruby Intro&lt;/td>
+ &lt;td style="text-align: left">Installation Party 14:00-15:30 WH-C 537 for both groups!&lt;/td>
+ &lt;td style="text-align: left">both&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">16/10/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Source Code Management and Continuous Integration&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">17/10/2014&lt;/td>
+ &lt;td style="text-align: left">More Ruby, Pair Programming and Code Review&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-01-startup">1 - Lab Startup and Ruby Finger Exercises&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Part 2: Software Engineering, Processes and Software Design&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">23/10/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Practical Git&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">24/10/2014&lt;/td>
+ &lt;td style="text-align: left">Software Engineering and Software Development Processes&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-01-startup">1 - Lab Startup and Ruby Finger Exercises&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">30/10/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Manifesto, Scrum (Scrum Ceremonies and Sprints)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">31/10/2014&lt;/td>
+ &lt;td style="text-align: left">The Rational Unified Process, Requirements Engineering&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-02-usecases-class">2 - Use Cases and Class Diagrams&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">06/11/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">System Modelling and Architectural Design&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">07/11/2014&lt;/td>
+ &lt;td style="text-align: left">Software Design Patterns&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-02-usecases-class">2 - Use Cases and Class Diagrams&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">13/11/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">e-learning: &lt;a href="../material/refactoring">Refactoring&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">14/11/2014&lt;/td>
+ &lt;td style="text-align: left">Application Architectures&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-03-sequence-state">3 - Sequence Diagrams and State Machine Diagrams&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">20/11/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Patterns of Enterprise Application Architecture(POEAA)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">21/11/2014&lt;/td>
+ &lt;td style="text-align: left">Distributed Systems and SOA&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-03-sequence-state">3 - Sequence Diagrams and State Machine Diagrams&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">27/11/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Testing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">28/11/2014&lt;/td>
+ &lt;td style="text-align: left">Working with Legacy Code&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-04-testing">4 - Testing&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">04/12/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">05/12/2014&lt;/td>
+ &lt;td style="text-align: left">Clean Code&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-04-testing">4 - Testing&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">11/12/2014&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">SOLID Principles, Refactoring to Patterns&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">12/12/2014&lt;/td>
+ &lt;td style="text-align: left">OO In Depth 1: Composition and Inheritance&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-05-legacy">5 - Legacy Code - Refactoring to Patterns&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">18/12/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">fällt aus&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">19/12/2014&lt;/td>
+ &lt;td style="text-align: left">fällt aus&lt;/td>
+ &lt;td style="text-align: left">fällt aus - bitte am 12.12. oder 9.1. in die Übung kommen &lt;a href="../labs/lab-05-legacy">5 - Legacy Code - Refactoring to Patterns&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">08/01/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">OO In Depth 2: Ruby Dynamic Typing, Duck Typing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">09/01/2015&lt;/td>
+ &lt;td style="text-align: left">Rails Dash and Preparation for the Rails Project&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-06-rails-1">6 - Rails First Steps&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">15/01/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction to Rails, POEAA Revisited, Model View Controller&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">16/01/2015&lt;/td>
+ &lt;td style="text-align: left">ORM and Associations in Rails&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-06-rails-1">6 - Rails First Steps&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">22/01/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Internationalization and Localization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">23/01/2015&lt;/td>
+ &lt;td style="text-align: left">Dependency Management and Working with APIs&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-07-rails-2">7 - Rails Associations and Internationalization&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">29/01/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Build Management, Continuous Deployment&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">30/01/2015&lt;/td>
+ &lt;td style="text-align: left">Klausurvorbereitung&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab-07-rails-2">7 - Rails Associations and Internationalization&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2. Gruppe&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">05/02/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">No Lecture (Prüfungszeit)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">06/02/2015&lt;/td>
+ &lt;td style="text-align: left">Klausur 14:00 - 17:15 (vor. 2 Gruppen; genaue Zeit wird kurzfristig festgelegt)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">07&lt;/td>
+ &lt;td style="text-align: left">12/02/2015&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Klausureinsicht&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">13/02/2015&lt;/td>
+ &lt;td style="text-align: left">Showtime ?&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

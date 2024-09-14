@@ -1,1 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>User-Centered Web Technology SS2017 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/</link><description>Recent content in User-Centered Web Technology SS2017 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/index.xml" rel="self" type="application/rss+xml"/><item><title>User-Centered Web Technology SS2017 Schedule</title><link>https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/schedule/</guid><description>Tentative Schedule - Lab Topics are subject to change! Week KW Date Lab Assignment Work during the Week Milestones Reading 1 13 Thu, 2018-04-05 Introduction 2 14 Thu, 2018-04-12 Groups, Topics, Planning of the Interviews Interview Planning 3 15 Thu, 2018-04-19 Interviews: Important Points, Planning of Interpretation Sessions User Interviews 4 16 Thu, 2018-04-26 Interpretation Sessions User Interviews 5 17 Thu, 2018-05-03 Interpretation Sessions Interpretation Sessions 7 19 Thu, 2018-05-17 &amp;mdash;&amp;mdash; Himmelfahrt &amp;mdash;&amp;mdash; Write-Up Report I 8 20 Thu, 2018-05-24 Creating the Affinity Diagram Affinity Diagram cont' 9 21 Thu, 2018-05-31 no class 10 22 Thu, 2018-06-07 Wall Walk 11 23 Thu, 2018-06-14 Visioning, Planning of Paper Prototypes Create Visions &amp;amp; Product Concepts 12 24 Thu, 2018-06-21 Creating the Paper Prototypes Paper Prototypes Creation 13 25 Thu, 2018-06-28 Creating Paper Prototypes, Evaluation Developing the Prototype Report II 14 26 Thu, 2018-07-05 Paper Prototype Evaluation &amp;amp; Retrospective Further Evaluation &amp;amp; Concept, Presentation Preparation 15 27 Thu, 2018-07-12 Final Presentations 8:45-12 Uhr!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>User-Centered Web Technology SS2017 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/</link><description>Recent content in User-Centered Web Technology SS2017 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/index.xml" rel="self" type="application/rss+xml"/><item><title>User-Centered Web Technology SS2017 Schedule</title><link>https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/user-centered-web-technology/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Lab Assignment&lt;/th>
+ &lt;th style="text-align: left">Work during the Week&lt;/th>
+ &lt;th style="text-align: left">Milestones&lt;/th>
+ &lt;th style="text-align: left">Reading&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-04-05&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-04-12&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Groups, Topics, Planning of the Interviews&lt;/td>
+ &lt;td style="text-align: left">Interview Planning&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-04-19&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Interviews: Important Points, Planning of Interpretation Sessions&lt;/td>
+ &lt;td style="text-align: left">User Interviews&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-04-26&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Interpretation Sessions&lt;/td>
+ &lt;td style="text-align: left">User Interviews&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-05-03&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Interpretation Sessions&lt;/td>
+ &lt;td style="text-align: left">Interpretation Sessions&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-05-17&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&amp;mdash; Himmelfahrt &amp;mdash;&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">Write-Up&lt;/td>
+ &lt;td style="text-align: left">Report I&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-05-24&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Creating the Affinity Diagram&lt;/td>
+ &lt;td style="text-align: left">Affinity Diagram cont'&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-05-31&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">no class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-06-07&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Wall Walk&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-06-14&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visioning, Planning of Paper Prototypes&lt;/td>
+ &lt;td style="text-align: left">Create Visions &amp;amp; Product Concepts&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-06-21&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Creating the Paper Prototypes&lt;/td>
+ &lt;td style="text-align: left">Paper Prototypes Creation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-06-28&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Creating Paper Prototypes, Evaluation&lt;/td>
+ &lt;td style="text-align: left">Developing the Prototype&lt;/td>
+ &lt;td style="text-align: left">Report II&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-07-05&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Paper Prototype Evaluation &amp;amp; Retrospective&lt;/td>
+ &lt;td style="text-align: left">Further Evaluation &amp;amp; Concept, Presentation Preparation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-07-12&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Final Presentations 8:45-12 Uhr!&lt;/td>
+ &lt;td style="text-align: left">Write-Up&lt;/td>
+ &lt;td style="text-align: left">Presentation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-07-19&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Report III&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-07-26&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Report II - Due Sun July &lt;!-- raw HTML omitted -->2nd&lt;!-- raw HTML omitted --> 9th, 23:00 - Vision and Paper Prototypes (before Evaluation or with Evaluation Steps if already performed)&lt;/p></description></item></channel></rss>

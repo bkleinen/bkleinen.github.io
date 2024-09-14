@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 1 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/</link><description>Recent content in WTAT 1 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/wtat1/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/wtat1/literature/</guid><description>You will develop an application using the MERN - Stack: Mongo, Express, React and Node.
-During the Term, we will mainly use these books:
-MERN Stack Fischer, Ludovico (2017): React for Real. Raleigh: The Pragmatic Bookshelf. Redmond, Eric, Wilson, Jim R. (2012): Seven Databases in Seven Weeks. Raleigh: The Pragmatic Bookshelf. Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning. Source Code for this book on Github. Agile Development and Scrum: Scrum Foundations eLearning Series on scrumalliance.</description></item><item><title>WTAT1 Schedule</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/wtat1/schedule/</guid><description>Tentative Schedule. Agile Track: please read or watch the according material in the Scrum Guide. Lecture: Brief input about the topic as BBB lecture. Tech Track: Please read the provided material (moodle) before the lecture, such that you can start with the according sprint right away.
-Week KW Date Agile Track Lecture Tech Track (According Sprints are due one week later) Due 1 15 Tue 07/04/2020 Intro Node.js Unit 0 - Installation and Setup A0: Project Ideas 2 16 Tue 14/04/2020 Product Backlog A1: Proposals 3 17 Tue 21/04/2020 Scrum Theory and Values Node.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 1 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/</link><description>Recent content in WTAT 1 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/wtat1/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/wtat1/literature/</guid><description>&lt;p>You will develop an application using the MERN - Stack: Mongo, Express, React and Node.&lt;/p>
+&lt;p>During the Term, we will mainly use these books:&lt;/p>
+&lt;h2 id="mern-stack">MERN Stack&lt;/h2>
+&lt;ul>
+&lt;li>Fischer, Ludovico (2017): React for Real. Raleigh: The Pragmatic Bookshelf.&lt;/li>
+&lt;li>Redmond, Eric, Wilson, Jim R. (2012): Seven Databases in Seven Weeks. Raleigh: The Pragmatic Bookshelf.&lt;/li>
+&lt;li>Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning.
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/JonathanWexler/get-programming-with-nodejs">Source Code for this book on Github&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="agile-development-and-scrum">Agile Development and Scrum:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.scrumalliance.org/learn-about-scrum/scrum-elearning-series">Scrum Foundations eLearning Series on scrumalliance.org&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.scrumguides.org/">The Scrum Guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="javascript">JavaScript&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://eloquentjavascript.net/">Eloquent JavaScript 3rd Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.w3schools.com/js/">JavaScript Tutorial w3schools&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>WTAT1 Schedule</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/wtat1/schedule/</guid><description>&lt;p>Tentative Schedule.
+Agile Track: please read or watch the according material in &lt;a href="https://www.scrumguides.org/">the Scrum Guide&lt;/a>.
+Lecture: Brief input about the topic as BBB lecture.
+Tech Track: Please read the provided material (moodle) before the lecture, such that you can start with the according sprint right away.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Agile Track&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Tech Track (According Sprints are due one week later)&lt;/th>
+ &lt;th style="text-align: left">Due&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Tue 07/04/2020&lt;/td>
+ &lt;td style="text-align: left">Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 0 - Installation and Setup&lt;/td>
+ &lt;td style="text-align: left">A0: Project Ideas&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Tue 14/04/2020&lt;/td>
+ &lt;td style="text-align: left">Product Backlog&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A1: Proposals&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Tue 21/04/2020&lt;/td>
+ &lt;td style="text-align: left">Scrum Theory and Values&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 1 - Getting Started&lt;/td>
+ &lt;td style="text-align: left">Backlog&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Tue 28/04/2020&lt;/td>
+ &lt;td style="text-align: left">Scrum Roles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 2 - Express.js&lt;/td>
+ &lt;td style="text-align: left">Sprint 1 - First Node App&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Tue 05/05/2020&lt;/td>
+ &lt;td style="text-align: left">Scrum Events&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 3 - Database and the first Model&lt;/td>
+ &lt;td style="text-align: left">Sprint 2 - Express&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Tue 12/05/2020&lt;/td>
+ &lt;td style="text-align: left">Scrum Artifacts&lt;/td>
+ &lt;td style="text-align: left">CI/CD&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 8 - Test &amp;amp; Deployment&lt;/td>
+ &lt;td style="text-align: left">Sprint 3 - Model&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Tue 19/05/2020&lt;/td>
+ &lt;td style="text-align: left">Distance Retrospective I&lt;/td>
+ &lt;td style="text-align: left">Retro&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 4 - User Model Part I&lt;/td>
+ &lt;td style="text-align: left">Sprint 4 - CI/CD&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Tue 26/05/2020&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">Restful&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 4 - User Model Part II&lt;/td>
+ &lt;td style="text-align: left">(Sprint 5 - CR)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Tue 02/06/2020&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 5 - Authentication&lt;/td>
+ &lt;td style="text-align: left">Sprint 5 - UD&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Tue 09/06/2020&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 6 - Building an API&lt;/td>
+ &lt;td style="text-align: left">Sprint 6 - Authentication&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Tue 16/06/2020&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Node.js Unit 7 - Real-Time Communication&lt;/td>
+ &lt;td style="text-align: left">Sprint 7 - API&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Tue 23/06/2020&lt;/td>
+ &lt;td style="text-align: left">Distance Retrospective II&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">React 1 - TBD&lt;/td>
+ &lt;td style="text-align: left">Sprint 9 - Socket.io&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Tue 30/06/2020&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">React 2 - TBD&lt;/td>
+ &lt;td style="text-align: left">Sprint 10 - React 1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Tue 07/07/2020&lt;/td>
+ &lt;td style="text-align: left">Trial Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">React 3 - TBD&lt;/td>
+ &lt;td style="text-align: left">Sprint 11 - React 2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Tue 14/07/2020&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Sprint 12 - React 3&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

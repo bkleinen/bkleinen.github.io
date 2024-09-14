@@ -1,7 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ops on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/ops/</link><description>Recent content in Ops on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 08:45:49 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tags/ops/index.xml" rel="self" type="application/rss+xml"/><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>Copy files from your HRZ Home Directory (aka HTW-Space) There are rather verbose manuals about various ways to copy files from your HTW-RZ home directory to somewhere else. (see Freigabe von Dateien und Ordner über den Webdrive )
-The gist is: you may connect via SSH File Transfer Protocol to the server webdrive.htw-berlin.de (on default port 22)- see example below. The sftp program used in the example is included in the OpenSSH Package; most probably you&amp;rsquo;ll already have it installed on your computer, e.</description></item><item><title>Debian Server</title><link>https://bkleinen.github.io/material/ops/debian-server/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/debian-server/</guid><description>This is a short Manual on how to configure a Debian virtual Server hosted at HTW FB4.
-General Things Snowflakes Configuring a server manually results in a Snowflake Server.
-I&amp;rsquo;ve logged the config changes as best I could in this repo, check the commits: https://github.com/htw-imi-networks/example-config
-Shell &amp;amp; Path &amp;hellip; TBD
-Path # echo $PATH Editor You should be able to survive in one of the available editors, e.g. VI
-Set the default editor to ensure it is used eg.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ops on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/ops/</link><description>Recent content in Ops on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tags/ops/index.xml" rel="self" type="application/rss+xml"/><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
+&lt;p>There are rather verbose manuals about various ways to
+copy files from your HTW-RZ home directory to somewhere else.
+(see
+&lt;a href="https://rz.htw-berlin.de/anleitungen/speicherplatz/htw-space/webdrive/freigabe-dateien-und-ordner/">Freigabe von Dateien und Ordner über den Webdrive&lt;/a>
+)&lt;/p>
+&lt;p>The gist is: you may connect via SSH File Transfer Protocol to the server
+webdrive.htw-berlin.de (on default port 22)- see example below.
+The &lt;a href="https://man.openbsd.org/sftp">sftp&lt;/a> program used in the example is included in
+the &lt;a href="https://www.openssh.com/manual.html">OpenSSH Package&lt;/a>; most probably you&amp;rsquo;ll
+already have it installed on your computer, e.g. in git-bash on a windows machine.&lt;/p></description></item><item><title>Debian Server</title><link>https://bkleinen.github.io/material/ops/debian-server/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/debian-server/</guid><description>&lt;p>This is a short Manual on how to configure a Debian virtual Server hosted at HTW FB4.&lt;/p>
+&lt;h1 id="general-things">General Things&lt;/h1>
+&lt;h2 id="snowflakes">Snowflakes&lt;/h2>
+&lt;p>Configuring a server manually results in a &lt;a href="https://martinfowler.com/bliki/SnowflakeServer.html">Snowflake Server&lt;/a>.&lt;/p>
+&lt;p>I&amp;rsquo;ve logged the config changes as best I could in this repo, check the &lt;a href="https://github.com/htw-imi-networks/example-config/commits/main">commits&lt;/a>:
+&lt;a href="https://github.com/htw-imi-networks/example-config">https://github.com/htw-imi-networks/example-config&lt;/a>&lt;/p>
+&lt;h2 id="shell--path">Shell &amp;amp; Path&lt;/h2>
+&lt;p>&amp;hellip; TBD&lt;/p>
+&lt;h3 id="path">Path&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># echo $PATH&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="editor">Editor&lt;/h2>
+&lt;p>You should be able to survive in one of the available editors, e.g. &lt;a href="https://bkleinen.github.io/material/ops/vi/">VI&lt;/a>&lt;/p>
+&lt;p>Set the default editor to ensure it is used eg. by visudo:&lt;/p></description></item></channel></rss>

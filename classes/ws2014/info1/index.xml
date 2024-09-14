@@ -1,11 +1,302 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 WS 2014/15 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/info1/</link><description>Recent content in Informatics 1 WS 2014/15 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ws2014/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info1/code/</guid><description>Lectures Kara Scenario 1
-Kara Scenarios for Worksheet - WS2014
-Chapter 01 - Changes in WS2014 - ZIP
-Chapter 02 - Changes in WS2014 - ZIP
-Chapter 03 - Changes in WS2014 - ZIP
-Chapter 04 - Changes in WS2014 - ZIP - 18.11.2014: in music organizer v3
-Chapter 05 - Changes in WS2014 - ZIP
-Chapter 06/07 (Testing) - Changes in WS2014 - ZIP
-You can download the whole archives by using the ZIP Button present on the repository sites.</description></item><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ws2014/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info1/schedule/</guid><description>Please note that there will be no Info1 classes in the first week due to introductionary things. In the second week, there will be no lecture and lab on Tuesday due to a conference - I found no sensible time slot to move our first lab to, so we&amp;rsquo;ll be starting off in the third week.
-This schedule is tentative and subject to change!
-Week Lecture Date (Tue) Lecture Book Lab (Tue) 1 1 14-Oct-2014 no lecture no lab 2 Introduction to Class 2 3 20-Oct-2014 Kara Programming: Instructions, Methods, Variables, Loops, Conditionals Lab Startup 4 Kara Programming: Instructions, Methods, Variables, Loops, Conditionals 3 5 28-Oct-2014 Kara Roundup, Kara and its World as Objects Exercise 01 6 Objects, Classes, Methods, BlueJ, Parameters, Compiler (Chapter 1) Ch.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 WS 2014/15 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2014/info1/</link><description>Recent content in Informatics 1 WS 2014/15 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2014/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ws2014/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info1/code/</guid><description>&lt;h2 id="lectures">Lectures&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/kara-scenario1">Kara Scenario 1&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/kara/tree/master">Kara Scenarios for Worksheet&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/kara/tree/ws2014">WS2014&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/chapter01">Chapter 01&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter01/tree/ws2014">Changes in WS2014&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter01/archive/ws2014.zip">ZIP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/chapter02">Chapter 02&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter02/tree/ws2014">Changes in WS2014&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter02/archive/ws2014.zip">ZIP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/chapter03">Chapter 03&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter03/tree/ws2014">Changes in WS2014&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter03/archive/ws2014.zip">ZIP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/chapter04">Chapter 04&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter04/tree/ws2014">Changes in WS2014&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter04/archive/ws2014.zip">ZIP&lt;/a> - 18.11.2014: in music organizer v3&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/chapter05">Chapter 05&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter05/tree/ws2014">Changes in WS2014&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter05/archive/ws2014.zip">ZIP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/htw-imi-info1/chapter07_testing">Chapter 06/07 (Testing)&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter07_testing/tree/ws2014">Changes in WS2014&lt;/a> - &lt;a href="https://github.com/htw-imi-info1/chapter07_testing/archive/ws2014.zip">ZIP&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can download the whole archives by using the ZIP Button present on the repository sites.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can also look at single files online on github.&lt;/p></description></item><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ws2014/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2014/info1/schedule/</guid><description>&lt;p>Please note that there will be no Info1 classes in the first week due to introductionary things. In the second week, there will be no lecture and lab on Tuesday due to a conference - I found no sensible time slot to move our first lab to, so we&amp;rsquo;ll be starting off in the third week.&lt;/p>
+&lt;p>This schedule is tentative and subject to change!&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Date (Tue)&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Book&lt;/th>
+ &lt;th style="text-align: left">Lab (Tue)&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14-Oct-2014&lt;/td>
+ &lt;td style="text-align: left">no lecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">no lab&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction to Class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">20-Oct-2014&lt;/td>
+ &lt;td style="text-align: left">Kara Programming: Instructions, Methods, Variables, Loops, Conditionals&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-00">Lab Startup&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Kara Programming: Instructions, Methods, Variables, Loops, Conditionals&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">28-Oct-2014&lt;/td>
+ &lt;td style="text-align: left">Kara Roundup, Kara and its World as Objects&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-01">Exercise 01&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Objects, Classes, Methods, BlueJ, Parameters, Compiler (Chapter 1)&lt;/td>
+ &lt;td style="text-align: left">Ch. 1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">04-Nov-2014&lt;/td>
+ &lt;td style="text-align: left">Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setters (Chapter 2)&lt;/td>
+ &lt;td style="text-align: left">Ch. 2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-02">Exercise 02&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Printing to the command line, Conditional, Local Variables, Expressions, (Chapter 2)&lt;/td>
+ &lt;td style="text-align: left">Ch. 2&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">11-Nov-2014&lt;/td>
+ &lt;td style="text-align: left">Abstraction, Modularization, Object Interaction&lt;/td>
+ &lt;td style="text-align: left">Ch. 3&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-03">Exercise 03&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Object Creation, Object and Class Diagrams, Primitive Types,&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">18-Nov-2014&lt;/td>
+ &lt;td style="text-align: left">Object Types, Multiple Constructors, Debugger&lt;/td>
+ &lt;td style="text-align: left">Ch. 4&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-04">Exercise 04&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Collections, Generics, for-each, While Loops&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">25-Nov-2014&lt;/td>
+ &lt;td style="text-align: left">More Loops, Iterators, Arrays, For Loops,&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-05">Exercise 05&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Library Classes, Reading Class Documentation, Random, Packages, Maps&lt;/td>
+ &lt;td style="text-align: left">Ch. 5&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">02-Dec-2014&lt;/td>
+ &lt;td style="text-align: left">Public vs. Private, Interfaces, Class Variables&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-06">Exercise 06&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Writing Class Documentation, Unit Testing, Test Automation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">09-Dec-2014&lt;/td>
+ &lt;td style="text-align: left">Modularization, Interfaces, Debugging, Walkthroughs&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-07">Exercise 07&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Designing Classes, Coupling, Cohesion, Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">16-Dec-2014&lt;/td>
+ &lt;td style="text-align: left">Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-08">Exercise 08&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(ausgefallen)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">06-Jan-2015&lt;/td>
+ &lt;td style="text-align: left">Welcome to the new year: Repetition&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-09">Exercise 09&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">13-Jan-2015&lt;/td>
+ &lt;td style="text-align: left">Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-10">Exercise 10&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Using the main, Inheritance, Subtyping, Polymorphism, Protected&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">20-Jan-2015&lt;/td>
+ &lt;td style="text-align: left">Casting, Polymorphism, Static vs. dynamic typing, Overriding, Object equality&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-11">Exercise 11&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Abstract Classes, Abstract Methods, A word about the Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">27-Jan-2015&lt;/td>
+ &lt;td style="text-align: left">Multiple Inheritance vs. Java Interfaces, GUIs, AWT and Swing, Event handler&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-12">Exercise 12&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">An Example: The Image Viewer&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">03-Feb-2015&lt;/td>
+ &lt;td style="text-align: left">Errors, Exceptions, Assertions&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Reflexion Ex. 12, Trial Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Exam Preparation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">31&lt;/td>
+ &lt;td style="text-align: left">10-Feb-2015&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">32&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Klausureinsicht&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

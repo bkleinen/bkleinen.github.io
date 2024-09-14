@@ -1,2 +1,167 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications WS 2021/22 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/</link><description>Recent content in WT1 Web Applications WS 2021/22 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 08:45:49 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Applications WS2020/2021 - Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/schedule/</guid><description>The schedule is, as always, tentative.
-Week KW Date The App Hand-Ins (mon before) 1 41 Tue 12/10/2021 Class Intro 2 42 Tue 19/10/2021 no class 3 43 Tue 26/10/2021 Design Sprint: Monday - Map &amp;amp; Target 4 44 Tue 02/11/2021 Design Sprint: Tuesday - Sketch 5 45 Tue 09/11/2021 Design Sprint: Wednesday - Decide 6 46 Tue 16/11/2021 Design Sprint: Thursday - Prototype 7 47 Tue 23/11/2021 Design Sprint: Friday - Test 8 48 Tue 30/11/2021 Tech Pitch, Decision &amp;amp; Dev Planning 9 49 Tue 07/12/2021 (cancelled) 10 50 Tue 14/12/2021 Development / CI/CD Pipeline 11 51 Tue 21/12/2021 Development / Containers Project Descriptions / Technical Challenge 52 Tue 28/12/2021 &amp;mdash; Vorlesungsfrei &amp;mdash; 12 1 Tue 04/01/2022 13 2 Tue 11/01/2022 Development / Usability 10.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications WS 2021/22 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/</link><description>Recent content in WT1 Web Applications WS 2021/22 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Applications WS2020/2021 - Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/m-wt1-webapplications/schedule/</guid><description>&lt;p>The schedule is, as always, tentative.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">The App&lt;/th>
+ &lt;th style="text-align: left">Hand-Ins (mon before)&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Tue 12/10/2021&lt;/td>
+ &lt;td style="text-align: left">Class Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Tue 19/10/2021&lt;/td>
+ &lt;td style="text-align: left">no class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Tue 26/10/2021&lt;/td>
+ &lt;td style="text-align: left">Design Sprint: Monday - Map &amp;amp; Target&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Tue 02/11/2021&lt;/td>
+ &lt;td style="text-align: left">Design Sprint: Tuesday - Sketch&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Tue 09/11/2021&lt;/td>
+ &lt;td style="text-align: left">Design Sprint: Wednesday - Decide&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Tue 16/11/2021&lt;/td>
+ &lt;td style="text-align: left">Design Sprint: Thursday - Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Tue 23/11/2021&lt;/td>
+ &lt;td style="text-align: left">Design Sprint: Friday - Test&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Tue 30/11/2021&lt;/td>
+ &lt;td style="text-align: left">Tech Pitch, Decision &amp;amp; Dev Planning&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Tue 07/12/2021&lt;/td>
+ &lt;td style="text-align: left">(cancelled)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Tue 14/12/2021&lt;/td>
+ &lt;td style="text-align: left">Development / CI/CD Pipeline&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Tue 21/12/2021&lt;/td>
+ &lt;td style="text-align: left">Development / Containers&lt;/td>
+ &lt;td style="text-align: left">Project Descriptions / Technical Challenge&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Tue 28/12/2021&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Vorlesungsfrei &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Tue 04/01/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Tue 11/01/2022&lt;/td>
+ &lt;td style="text-align: left">Development / Usability&lt;/td>
+ &lt;td style="text-align: left">10.1. Book Chapters for Review&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Tue 18/01/2022&lt;/td>
+ &lt;td style="text-align: left">Development / Security&lt;/td>
+ &lt;td style="text-align: left">17.1. (Peer-) Reviews of Book Chapters&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Tue 25/01/2022 PZ1&lt;/td>
+ &lt;td style="text-align: left">Usability Assessment&lt;/td>
+ &lt;td style="text-align: left">24.1.-7.2. 2. CI/CD Documentation 8. Documentation of Infrastructure-Part&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Tue 01/02/2022 PZ1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">31.1. 5. Usability Assessments ~~Security Assessments ~~&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Tue 08/02/2022 PZ1&lt;/td>
+ &lt;td style="text-align: left">Group Consultations?&lt;/td>
+ &lt;td style="text-align: left">7. Final Book Chapters&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Tue 15/02/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">9. Final Project Documentation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Tue 22/02/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;ol start="2">
+&lt;li>CI/CD Documentation&lt;/li>
+&lt;li>Project Descriptions / Technical Challenge&lt;/li>
+&lt;li>CI/CD Documentation&lt;/li>
+&lt;li>10.1. Book Chapters for Review&lt;/li>
+&lt;li>17.1. (Peer-) Reviews of Book Chapters&lt;/li>
+&lt;li>31.1. Usability Assessments
+&lt;del>6. Security Assessments&lt;/del>&lt;/li>
+&lt;li>Final Book Chapters&lt;/li>
+&lt;li>Documentation of Infrastructure-Part&lt;/li>
+&lt;li>Final Project Documentation&lt;/li>
+&lt;/ol>
+&lt;p>Verbuchungsfrist 1. PZ 28.2.&lt;/p></description></item></channel></rss>

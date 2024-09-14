@@ -1,19 +1,246 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellany on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/misc/</link><description>Recent content in Miscellany on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>Links to frequently used pages</title><link>https://bkleinen.github.io/misc/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/links/</guid><description>Tägliche Arbeit Moodle: https://moodle.htw-berlin.de/
-Wiki für Studium und Lehre: https://wiki.htw-berlin.de/
-Sprechstunde: Office Hours can be found in the WIKI. Please register there for appointments. Wiki - Intranet: https://wiki.rz.htw-berlin.de/
-HTW ServiceportalDienstreise, SHK, Wunschzeiten und Lehrplanung: https://fb-service.htw-berlin.de/
-Lehrabrechnung: https://my.htw-berlin.de/
-Zoom: https://htw-berlin.zoom.us/
-Account-Service: https://account.htw-berlin.de:
-Lehrabrechnung (&amp;ldquo;Proof of teaching commitment&amp;rdquo;) Account Email bearbeiten Abwesenheitsnotiz LSF Modulhandbuch Bachelor ansehen
-Bachelor editieren
-Master ansehen
-Master bearbeiten
-Gelegentlich Logos und Folien im HTW-Design: https://corporatedesign.htw-berlin.de/logos/ Speiseplan der Mensa Gastzugänge Wifi - funktioniert nicht mehr https://account.</description></item><item><title>Trans@HTW</title><link>https://bkleinen.github.io/misc/trans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/trans/</guid><description>"Artikel 2 des Grundgesetzes garantiert das Recht auf freie Entfaltung der Persönlichkeit, auf Leben, auf körperliche Unversehrtheit und schützt die Freiheit der Person. Da steht nicht: garantiert »die halb-freie Entfaltung der Persönlichkeit«, da steht auch nicht: »die freie Entfaltung nur jener Persönlichkeiten, die sich an ihre bei der Geburt festgestellte Geschlechtszugehörigkeit halten«, da steht nicht: »die Freiheit nur jener Personen, die den traditionellen Vorstellungen von ›natürlicher‹ Männlichkeit und Weiblichkeit entsprechen«.</description></item><item><title>Email Collector for LSF</title><link>https://bkleinen.github.io/misc/lsf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/lsf/</guid><description>Email Collector for LSF Use Default Replacement Use Replacement for "Teilnahme- und manuelle Zuteilungsliste" Use Replacement for Email-Versandliste Show Email Adresses Ignored Lines RegExp used: Paste list from LSF here here be dragons Links Liste aus "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"pasten. mehr info unten. Anleitung In die Box links den Inhalt der Tabelle "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)" pasten. Weg dorthin: Unten auf "Anmeldezahlen" und dann "</description></item><item><title>About this Site</title><link>https://bkleinen.github.io/misc/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/about/</guid><description>About this site Broken Links Old links to to pages that have disappeared end up here - this site contains an archive of more than 10 years.</description></item><item><title>Some Work in Progress</title><link>https://bkleinen.github.io/misc/ak-wip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/ak-wip/</guid><description>Ein paar links zu Arbeiterkind/HTW (in Vorbereitung)
-Anne Stalfort, Mitabeiterin bei ArbeiterKind.de, für www.ersteanderuni.de
-ArbeiterKind.de in Hessen
-Allgemeine Studienberatung
-Match deinen Master - online Q&amp;amp;A session
-Frag Özgün! | FAQ für Studieninteressierte | HTW Berlin
-Hochschule für Technik und Wirtschaft Berlin auf LinkedIn: #studienberatung
-Antidiskriminierung | HTW Berlin</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellany on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/misc/</link><description>Recent content in Miscellany on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>Links to frequently used pages</title><link>https://bkleinen.github.io/misc/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/links/</guid><description>&lt;h1 id="tägliche-arbeit">Tägliche Arbeit&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Moodle: &lt;a href="https://moodle.htw-berlin.de/">https://moodle.htw-berlin.de/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wiki für Studium und Lehre: &lt;a href="https://wiki.htw-berlin.de/">https://wiki.htw-berlin.de/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sprechstunde: &lt;p >Office Hours can be found in the
+ &lt;a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen">
+ WIKI&lt;/a>.
+ Please register there for appointments.
+&lt;/p>
+
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wiki - Intranet: &lt;a href="https://wiki.rz.htw-berlin.de/">https://wiki.rz.htw-berlin.de/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>HTW ServiceportalDienstreise, SHK, Wunschzeiten und Lehrplanung: &lt;a href="https://fb-service.htw-berlin.de/">https://fb-service.htw-berlin.de/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Lehrabrechnung: &lt;a href="https://my.htw-berlin.de/">https://my.htw-berlin.de/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Zoom: &lt;a href="https://htw-berlin.zoom.us/">https://htw-berlin.zoom.us/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Account-Service: &lt;a href="https://account.htw-berlin.de">https://account.htw-berlin.de&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://account.htw-berlin.de/lvn/newProof">Lehrabrechnung (&amp;ldquo;Proof of teaching commitment&amp;rdquo;)&lt;/a>&lt;/li>
+&lt;li>Account&lt;/li>
+&lt;li>Email bearbeiten&lt;/li>
+&lt;li>Abwesenheitsnotiz&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="lsf-modulhandbuch">LSF Modulhandbuch&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&amp;amp;moduleParameter=modDescr&amp;amp;struct=auswahlBaum&amp;amp;navigation=Y&amp;amp;next=tree.vm&amp;amp;nextdir=qispos/modulBeschr/gast&amp;amp;nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&amp;amp;expand=0&amp;amp;lastState=modulBeschrGast&amp;amp;asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584">Bachelor ansehen&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrBearbeiter&amp;amp;moduleParameter=modDescr&amp;amp;struct=auswahlBaum&amp;amp;navigation=Y&amp;amp;next=tree.vm&amp;amp;nextdir=qispos/modulBeschr/bearbeiter&amp;amp;nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584&amp;amp;expand=0&amp;amp;lastState=modulBeschrBearbeiter&amp;amp;asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D84%7Cstudiengang%3Astg%3D919%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20112%7CkontoOnTop%3Apordnr%3D28584">Bachelor editieren&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrGast&amp;amp;moduleParameter=modDescr&amp;amp;struct=auswahlBaum&amp;amp;navigation=Y&amp;amp;next=tree.vm&amp;amp;nextdir=qispos/modulBeschr/gast&amp;amp;nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419&amp;amp;expand=0&amp;amp;lastState=modulBeschrGast&amp;amp;asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419">Master ansehen&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://lsf.htw-berlin.de/qisserver/rds?state=modulBeschrBearbeiter&amp;amp;moduleParameter=modDescr&amp;amp;struct=auswahlBaum&amp;amp;navigation=Y&amp;amp;next=tree.vm&amp;amp;nextdir=qispos/modulBeschr/bearbeiter&amp;amp;nodeID=auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419&amp;amp;expand=0&amp;amp;lastState=modulBeschrBearbeiter&amp;amp;asi=dTGrTIWIid9e5.VndJR.#auswahlBaum%7Cabschluss%3Aabschl%3D90%7Cstudiengang%3Astg%3D920%7CstgSpecials%3Avert%3D%2Cschwp%3D%2Ckzfa%3DH%2Cpversion%3D20162%7CkontoOnTop%3Apordnr%3D37419">Master bearbeiten&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="gelegentlich">Gelegentlich&lt;/h2>
+&lt;ul>
+&lt;li>Logos und Folien im HTW-Design: &lt;a href="https://corporatedesign.htw-berlin.de/logos/">https://corporatedesign.htw-berlin.de/logos/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.stw.berlin/mensen/mensa-htw-wilhelminenhof.html">Speiseplan der Mensa&lt;/a>&lt;/li>
+&lt;li>Gastzugänge Wifi - funktioniert nicht mehr &lt;a href="https://account.htw-berlin.de/guestwifi/index">https://account.htw-berlin.de/guestwifi/index&lt;/a>&lt;/li>
+&lt;li>Account / Email bearbeiten: &lt;a href="https://account.htw-berlin.de/">https://account.htw-berlin.de/&lt;/a>&lt;/li>
+&lt;li>VPN Anleitung: - weg&lt;/li>
+&lt;li>VPN Wenn Client schon installiert ist: Cisco AnyConnect Secure Mobility Client starten, verbinden&lt;/li>
+&lt;/ul>
+&lt;h2 id="bibliothek">Bibliothek&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://bibliothek.htw-berlin.de">Bibliothek&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&amp;amp;SEARCHType=2&amp;amp;BaseURL=this">Opac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sisis.rz.htw-berlin.de/InfoGuideClient/loginpage.do?methodToCall=showLogin">Login&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do?Login=opacWH&amp;amp;SEARCHType=2&amp;amp;BaseURL=this">Verlängern &amp;amp; Suchen: WebOpac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sisis.rz.htw-berlin.de/InfoGuideClient/start.do">Direkt zur Anmeldung&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bibliothek.htw-berlin.de/literatur-suchen/anschaffungsvorschlag/?no_cache=1">Anschaffungsvorschlag&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="intranet-links">Intranet Links&lt;/h2>
+&lt;p>(vorher ins VPN!)&lt;/p></description></item><item><title>Trans@HTW</title><link>https://bkleinen.github.io/misc/trans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/trans/</guid><description>&lt;div class="alert alert-light" role="alert">
+ 
+"Artikel 2 des Grundgesetzes garantiert das Recht auf freie Entfaltung der Persönlichkeit, auf Leben, auf körperliche Unversehrtheit und schützt die Freiheit der Person. Da steht nicht: garantiert »die halb-freie Entfaltung der Persönlichkeit«, da steht auch nicht: »die freie Entfaltung nur jener Persönlichkeiten, die sich an ihre bei der Geburt festgestellte Geschlechtszugehörigkeit halten«, da steht nicht: »die Freiheit nur jener Personen, die den traditionellen Vorstellungen von ›natürlicher‹ Männlichkeit und Weiblichkeit entsprechen«. Da steht: »das Recht auf freie Entfaltung der Persönlichkeit«."
+ &lt;br/>&lt;a href="https://www.fischerverlage.de/buch/carolin-emcke-gegen-den-hass-9783596296873">Emcke, Carolin. &lt;i>Gegen den Hass&lt;/i>.&lt;/a>(German Edition) (Kindle Locations 1666-1671). FISCHER E-Books. Kindle Edition.
+
+&lt;/div>
+
+&lt;h1 id="transtin-an-der-htw">Trans*/TIN* an der HTW:&lt;/h1>
+&lt;p>Last update 14.4.2024&lt;/p></description></item><item><title>Email Collector for LSF</title><link>https://bkleinen.github.io/misc/lsf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/lsf/</guid><description>&lt;script>
+
+ function convert(){
+ const source = document.getElementById("lsfstuff").value;
+ const arrayOfLines = source.match(/[^\r\n]+/g);
+
+ let matchRegEx = /.*\d{6}\s*([^\t]*?)\s*\t\s*([^\t]*?)\s*s0(\d{6})@htw-berlin.de.*/
+ let replaceString = "$2 $1 &lt;s0$3@htw-berlin.de>";
+
+ let useManuelleZuteilungsliste = document.getElementById("manuelleZuteilungsliste").checked;
+ if (useManuelleZuteilungsliste) {
+ // for longer list: "Teilnahme- und manuelle Zuteilungsliste" - nur für SGS
+ matchRegEx = /^(\d{6})\s*([^\t]*?)\s\s(.*?)\s\s.*/;
+ replaceString = "$2 $3 &lt;s0$1@htw-berlin.de>";
+ } else {
+ let emailVersandListe = document.getElementById("emailVersandListe").checked;
+ if (emailVersandListe) {
+ // for longer list: "Teilnahme- und manuelle Zuteilungsliste" - nur für SGS
+ matchRegEx = /^(\d{6})\s*([^,]*),([^\t]*).*/;
+ replaceString = "$3 $2 &lt;s0$1@htw-berlin.de>";
+ }
+ }
+
+ document.getElementById("whichRegex").innerHTML = "Used Default: "
+ + !useManuelleZuteilungsliste
+ + "&lt;br>RE: " + matchRegEx
+ + "&lt;br>Replaced with: " + replaceString.replace('&lt;','&amp;lt;').replace('>','&amp;gt;');
+
+
+
+ //let matchRegEx = document.getElementById("regex-select").value;
+ //matchRegEx = new RegExp(matchRegEx);
+ //const replaceString = document.getElementById("replace-select").value;
+
+
+ const yesNo = { 'student' : [], 'ignore' : []};
+ const reduceFunct = (acc,line) => {
+ acc[line.match(matchRegEx) ? 'student' : 'ignore'].push(line);
+ return acc;
+ }
+ arrayOfLines.reduce( reduceFunct,yesNo);
+ console.log(yesNo.student)
+ const emails = yesNo.student.map(x => x.replace(matchRegEx, replaceString));
+ console.log(emails)
+ const emailSet = new Set(emails);
+ const emailsSingle = Array.from(emailSet).sort();
+ document.getElementById("emailarea").innerHTML = emailsSingle.join("\n");
+ document.getElementById("number_emails").innerHTML = arrayOfLines.length + " lines read, "+emailsSingle.length + " unique addresses";
+ document.getElementById("ignored").innerHTML = yesNo.ignore.join("\n");
+ document.getElementById("ignoredNumber").innerHTML = yesNo.ignore.length + " ignored lines"
+ }
+&lt;/script>
+
+
+&lt;h2>Email Collector for LSF&lt;/h2>
+
+&lt;div class="container-fluid">
+ &lt;div class="row">
+
+ &lt;div class="col-6" >
+
+ &lt;div class="form-check">
+ &lt;input class="form-check-input" type="radio" name="useRegExp" id="regexpDefault" checked>
+ &lt;label class="form-check-label" for="flexRadioDefault2">
+ Use Default Replacement
+ &lt;/label>
+ &lt;/div>
+ &lt;div class="form-check">
+ &lt;input class="form-check-input" type="radio" name="useRegExp" id="manuelleZuteilungsliste">
+ &lt;label class="form-check-label" for="flexRadioDefault1">
+ Use Replacement for "Teilnahme- und manuelle Zuteilungsliste"
+ &lt;/label>
+ &lt;/div>
+
+ &lt;div class="form-check">
+ &lt;input class="form-check-input" type="radio" name="useRegExp" id="emailVersandListe">
+ &lt;label class="form-check-label" for="flexRadioDefault1">
+ Use Replacement for Email-Versandliste
+ &lt;/label>
+ &lt;/div>
+
+ &lt;/div>
+
+ &lt;div class="col-6">
+ &lt;button onclick="convert()" class="btn btn-primary">Show Email Adresses&lt;/button>
+ &lt;/div>
+ &lt;/div>
+
+ &lt;/div>
+
+ &lt;div class="row">
+ &lt;div class="col-6">
+ &lt;div id ="ignoredNumber">Ignored Lines&lt;/div>
+ &lt;textarea id = "ignored" cols="60" rows="4">&lt;/textarea>
+ &lt;/div>
+ &lt;div class="col-6">
+ RegExp used:
+ &lt;div id ="whichRegex"> &lt;/div>
+ &lt;/div>
+ &lt;/div>
+
+ &lt;div class="row">
+ &lt;div class="col-6">
+ &lt;div>Paste list from LSF here&lt;/div>
+ &lt;textarea id = "lsfstuff" cols="60" rows="100" onchange="convert()" >&lt;/textarea>
+ &lt;/div>
+ &lt;div class="col-6">
+ &lt;div id = "number_emails">here be dragons&lt;/div>
+ &lt;textarea id = "emailarea" cols="60" rows="100">&lt;/textarea>
+ &lt;/div>
+ &lt;/div>
+
+
+&lt;/div>
+
+
+
+Links Liste aus "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"pasten.
+&lt;a href="#anleitung">mehr info unten.&lt;/a>
+ &lt;table>
+ &lt;tr>
+ &lt;tr valign="top">
+ &lt;td>
+
+
+ &lt;/td>
+
+ &lt;td>
+ &lt;/td>
+ &lt;/tr>
+ &lt;/table>
+&lt;hr/>
+&lt;h2 id ="anleitung">Anleitung&lt;/h2>
+&lt;p>In die Box links den Inhalt der Tabelle "Spezielle Information (Namenliste mit Anmeldungen und Ablehnungen)"
+ pasten.&lt;br/> Weg dorthin: Unten auf "Anmeldezahlen" und dann "Spezielle Information" klicken.&lt;/p></description></item><item><title>About this Site</title><link>https://bkleinen.github.io/misc/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/about/</guid><description>&lt;h1 id="about-this-site">About this site&lt;/h1>
+&lt;h2 id="broken-links">Broken Links&lt;/h2>
+&lt;p>Old links to to pages that have disappeared end up here -
+this site contains an archive of more than 10 years.&lt;/p></description></item><item><title>Some Work in Progress</title><link>https://bkleinen.github.io/misc/ak-wip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/ak-wip/</guid><description>&lt;p>Ein paar links zu Arbeiterkind/HTW
+(in Vorbereitung)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=J-56iRih88E">Anne Stalfort, Mitabeiterin bei ArbeiterKind.de, für www.ersteanderuni.de&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.arbeiterkind.de/hessen">ArbeiterKind.de in Hessen&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.htw-berlin.de/einrichtungen/zentrale-referate/studienberatung-career-service/allgemeine-studienberatung/">Allgemeine Studienberatung&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://events.htw-berlin.de/index.php?id=10079&amp;amp;no_cache=1">Match deinen Master - online Q&amp;amp;A session&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=ACp40J34imo">Frag Özgün! | FAQ für Studieninteressierte | HTW Berlin&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.linkedin.com/posts/htwberlin_studienberatung-activity-6934412768733237248-KSMk/?trk=public_profile_like_view&amp;amp;originalSubdomain=de">Hochschule für Technik und Wirtschaft Berlin auf LinkedIn: #studienberatung&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.htw-berlin.de/einrichtungen/zentrale-referate/gleichstellung-antidiskriminierung/antidiskriminierung/">Antidiskriminierung | HTW Berlin&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,2 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 1 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/</link><description>Recent content in WTAT 1 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/wtat1/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/literature/</guid><description>Literature and Resources Textbook for Node, Express and Mongo Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning. Source Code for this book on Github. JavaScript Mozilla Developer Network - JavaScript Guide Eloquent JavaScript 3rd Edition JavaScript Tutorial w3schools Vue Documentation on vue.js site - concrete parts will be assigned to the vue sprints Agile Development and Scrum: Scrum Foundations eLearning Series on scrumalliance.org The Scrum Guide</description></item><item><title>WTAT1 Schedule Summer Term 2021</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/schedule/</guid><description>This is to be read as follows: For example: During Week 2 of the term - which is Calendar Week 15 - you need to study the agile and tech topic, first individually and then within the team. Furthermore, you need to work on the corresponding sprint and turn in the sprint report by Friday, 22:00
-Reading Material for the Tech Topics can be found in Moodle. For the Agile Topics, read the scrum guides and watch these short videos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 1 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/</link><description>Recent content in WTAT 1 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/wtat1/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/literature/</guid><description>&lt;h1 id="literature-and-resources">Literature and Resources&lt;/h1>
+&lt;h2 id="textbook-for-node-express-and-mongo">Textbook for Node, Express and Mongo&lt;/h2>
+&lt;ul>
+&lt;li>Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning.
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/JonathanWexler/get-programming-with-nodejs">Source Code for this book on Github&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="javascript">JavaScript&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://developer.mozilla.org/de/docs/Web/JavaScript/Guide">Mozilla Developer Network - JavaScript Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eloquentjavascript.net/">Eloquent JavaScript 3rd Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.w3schools.com/js/">JavaScript Tutorial w3schools&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vue">Vue&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://vuejs.org/v2/guide/">Documentation on vue.js site&lt;/a> - concrete parts will be assigned to the vue sprints&lt;/li>
+&lt;/ul>
+&lt;h2 id="agile-development-and-scrum">Agile Development and Scrum:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.scrumalliance.org/learn-about-scrum/scrum-elearning-series">Scrum Foundations eLearning Series on scrumalliance.org&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.scrumguides.org/">The Scrum Guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>WTAT1 Schedule Summer Term 2021</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/schedule/</guid><description>&lt;p>This is to be read as follows:
+For example: During Week 2 of the term - which is Calendar Week 15 - you need to study the agile and tech topic, first individually and then within the team. Furthermore, you need to work on the corresponding sprint and turn in the sprint report by Friday, 22:00&lt;/p>
+&lt;p>Reading Material for the Tech Topics can be found in Moodle.
+For the Agile Topics, read the &lt;a href="https://scrumguides.org/index.html">scrum guides&lt;/a> and &lt;a href="https://www.scrumalliance.org/learn-about-scrum/scrum-elearning-series/">watch these short videos&lt;/a>.&lt;/p></description></item></channel></rss>

@@ -1,5 +1,302 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 SS 2018 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2018/info1/</link><description>Recent content in Informatics 1 SS 2018 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2018/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ss2018/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/schedule/</guid><description>This schedule is tentative and subject to change.
-Week KW Date Lecture Chapter Lab 1 13 Tue, 2018-04-03 no class Fri, 2018-04-06 Introduction to Class 2 14 Tue, 2018-04-10 Objects, Classes, Methods, BlueJ, Parameters, Compiler 1 Exercise 01 Fri, 2018-04-13 Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter 2 3 15 Tue, 2018-04-17 Printing to the command line, Conditional, Local Variables,Expressions 2 Exercise 02 Fri, 2018-04-20 Abstraction, Modularization, Object Interaction 3 4 16 Tue, 2018-04-24 Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger 3 Exercise 03 Fri, 2018-04-27 Collections, Generics, for-each, While Loops 4 5 17 Tue, 2018-05-01 * &amp;mdash;- no class &amp;mdash;&amp;ndash; Exercise 04 Fri, 2018-05-04 More Loops, Iterators, Arrays, For Loops 4 6 18 Tue, 2018-05-08 Loops 5 &amp;ndash; week 17: no lab on Tue, week 18: no lab on Fri &amp;ndash; Fri, 2018-05-11 * &amp;mdash;- no class &amp;mdash;&amp;ndash; 7 19 Tue, 2018-05-15 Graphical User Interfaces, Lambda Functions 5 (13) Exercise 05 Fri, 2018-05-18 Lambda Functions, Filter, Map, Reduce 5 8 20 Tue, 2018-05-22 Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps 6 Exercise 06 Fri, 2018-05-25 Public vs.</description></item><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ss2018/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/code/</guid><description>Lecture Code Examples Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to github! The &amp;ldquo;Changes in ws2018&amp;rdquo; links will only work after I&amp;rsquo;ve uploaded those changes.
-Note that it might also be quite convenient to look at the code on the github page online, the commit history shows you the exact changes I made. Click on &amp;ldquo;commits&amp;rdquo; and then one individual commit, and you you&amp;rsquo;ll see the changes.</description></item><item><title>Info1 Zusatzkurse</title><link>https://bkleinen.github.io/classes/ss2018/info1/extra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/extra/</guid><description>Zusatzmodule Informatik1 SoSe 2018 Worum geht es? In Informatik 1 wird es dieses Semester zwei Zusatzkurse geben, die euch mit kleinen Projekten die Möglichkeit geben, Programmieren anders zu lernen bzw. zu vertiefen. Die Kurse sind optional, ihr könnt aber durch erfolgreichen Abschluss eines Kurses zusätzliche Credits erwerben die im Umfang ungefähr zwei Lab Reports entsprechen.
-Es stehen zwei Kurse zur Auswahl, die auf dieser Seite kurz vorgestellt werden.
-Introduction to Creative Computing Graphical User Interface Introduction to Creative Computing Zielgruppe: Studierende ohne/mit wenig Programmiererfahrung</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 SS 2018 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2018/info1/</link><description>Recent content in Informatics 1 SS 2018 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2018/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ss2018/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/schedule/</guid><description>&lt;p>This schedule is tentative and subject to change.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Chapter&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-04-03&lt;/td>
+ &lt;td style="text-align: left">no class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-04-06&lt;/td>
+ &lt;td style="text-align: left">Introduction to Class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-04-10&lt;/td>
+ &lt;td style="text-align: left">Objects, Classes, Methods, BlueJ, Parameters, Compiler&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-01">Exercise 01&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-04-13&lt;/td>
+ &lt;td style="text-align: left">Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-04-17&lt;/td>
+ &lt;td style="text-align: left">Printing to the command line, Conditional, Local Variables,Expressions&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-02">Exercise 02&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-04-20&lt;/td>
+ &lt;td style="text-align: left">Abstraction, Modularization, Object Interaction&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-04-24&lt;/td>
+ &lt;td style="text-align: left">Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-03">Exercise 03&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-04-27&lt;/td>
+ &lt;td style="text-align: left">Collections, Generics, for-each, While Loops&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-05-01 *&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;- no class &amp;mdash;&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-04">Exercise 04&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-05-04&lt;/td>
+ &lt;td style="text-align: left">More Loops, Iterators, Arrays, For Loops&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-05-08&lt;/td>
+ &lt;td style="text-align: left">Loops&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; week 17: no lab on Tue, week 18: no lab on Fri &amp;ndash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-05-11 *&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;- no class &amp;mdash;&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-05-15&lt;/td>
+ &lt;td style="text-align: left">Graphical User Interfaces, Lambda Functions&lt;/td>
+ &lt;td style="text-align: left">5 (13)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-05">Exercise 05&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-05-18&lt;/td>
+ &lt;td style="text-align: left">Lambda Functions, Filter, Map, Reduce&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-05-22&lt;/td>
+ &lt;td style="text-align: left">Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-06">Exercise 06&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-05-25&lt;/td>
+ &lt;td style="text-align: left">Public vs. Private, Interfaces, Class Variables, Writing Class Documentation&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-05-29&lt;/td>
+ &lt;td style="text-align: left">Arrays&lt;/td>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-07">Exercise 07&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-06-01&lt;/td>
+ &lt;td style="text-align: left">Unit Testing, Test Automation&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-06-05&lt;/td>
+ &lt;td style="text-align: left">Modularization, Interfaces, Debugging, Walkthroughs, Testing and Interfaces&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-08">Exercise 08&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-06-08&lt;/td>
+ &lt;td style="text-align: left">Designing Classes, Coupling, Cohesion, Refactoring&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-06-12&lt;/td>
+ &lt;td style="text-align: left">Refactoring&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-09">Exercise 09&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-06-15&lt;/td>
+ &lt;td style="text-align: left">Refactoring, Using the main method&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-06-19&lt;/td>
+ &lt;td style="text-align: left">Inheritance, Subtyping, Polymorphism, Protected, Casting&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-10">Exercise 10&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-06-22&lt;/td>
+ &lt;td style="text-align: left">Polymorphism, Static vs. dynamic typing, Overriding, Object equality&lt;/td>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-06-26&lt;/td>
+ &lt;td style="text-align: left">Abstract Classes, Interfaces&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-11">Exercise 11&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-06-29&lt;/td>
+ &lt;td style="text-align: left">Handling Errors, Exceptions, Assertions,&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-07-03&lt;/td>
+ &lt;td style="text-align: left">File-based IO, Files, Command Line&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-12">Exercise 12&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-07-06&lt;/td>
+ &lt;td style="text-align: left">Trial Exams&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-07-10&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; Start of the exam period &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">reports due - Trial Exams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-07-13&lt;/td>
+ &lt;td style="text-align: left">EXAM&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-07-17&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-07-20&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-07-24&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-07-27&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ss2018/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/code/</guid><description>&lt;h2 id="lecture-code-examples">Lecture Code Examples&lt;/h2>
+&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to github!
+The &amp;ldquo;Changes in ws2018&amp;rdquo; links will only work after I&amp;rsquo;ve uploaded those changes.&lt;/p>
+&lt;p>Note that it might also be quite convenient to look at the code on the github page online,
+the commit history shows you the exact changes I made. Click on &amp;ldquo;commits&amp;rdquo; and then one
+individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description></item><item><title>Info1 Zusatzkurse</title><link>https://bkleinen.github.io/classes/ss2018/info1/extra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/extra/</guid><description>&lt;h1 id="zusatzmodule-informatik1-sose-2018">Zusatzmodule Informatik1 SoSe 2018&lt;/h1>
+&lt;h2 id="worum-geht-es">Worum geht es?&lt;/h2>
+&lt;p>In Informatik 1 wird es dieses Semester zwei Zusatzkurse geben, die euch mit kleinen Projekten die Möglichkeit geben, Programmieren anders zu lernen bzw. zu vertiefen.
+Die Kurse sind optional, ihr könnt aber durch erfolgreichen Abschluss eines Kurses zusätzliche Credits erwerben die im Umfang ungefähr zwei Lab Reports entsprechen.&lt;/p>
+&lt;p>Es stehen zwei Kurse zur Auswahl, die auf dieser Seite kurz vorgestellt werden.&lt;/p>
+&lt;ul>
+&lt;li>Introduction to Creative Computing&lt;/li>
+&lt;li>Graphical User Interface&lt;/li>
+&lt;/ul>
+&lt;h2 id="introduction-to-creative-computing">Introduction to Creative Computing&lt;/h2>
+&lt;p>&lt;strong>Zielgruppe&lt;/strong>: Studierende ohne/mit wenig Programmiererfahrung&lt;/p></description></item></channel></rss>

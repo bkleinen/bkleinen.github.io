@@ -1,3 +1,171 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B9 Networks SoSe 2022 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2022/networks/</link><description>Recent content in B9 Networks SoSe 2022 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 08:45:49 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ss2022/networks/index.xml" rel="self" type="application/rss+xml"/><item><title>B9 Networks SoSe 2022 - Resources</title><link>https://bkleinen.github.io/classes/ss2022/networks/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/networks/resources/</guid><description>Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Haririan, übernommen. Die Informationen hier sind derzeit nicht aktuell. Textbook Kurose, James F; Ross, Keith W.: Computer Networking. A Top-Down Approach, 8th ed., Pearson Global Editions, Harlow UK, 2021. ISBN: 978-1-292-40546-9
-The class is based on Jim Kurose&amp;rsquo;s Textbook &amp;ldquo;Computer Networking. A Top-Down Approach&amp;rdquo;. The textbook has an accompanying website with a lot of resources, especially lecture videos.</description></item><item><title>B9 Networks SoSe 2022 - Schedule</title><link>https://bkleinen.github.io/classes/ss2022/networks/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/networks/schedule/</guid><description>Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Haririan, übernommen. Die Informationen hier sind derzeit nicht aktuell. This schedule is, as always, tentative and will be updated during the term.
-W CW Date Read before class: Lab 1 14 Fri 08/04/2022 Class Intro / Server Setup and the Shell Lab 00 - Intro 15 Fri 15/04/2022 Ostern 2 16 Fri 22/04/2022 Computer Networks and the Internet: 1.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B9 Networks SoSe 2022 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2022/networks/</link><description>Recent content in B9 Networks SoSe 2022 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ss2022/networks/index.xml" rel="self" type="application/rss+xml"/><item><title>B9 Networks SoSe 2022 - Resources</title><link>https://bkleinen.github.io/classes/ss2022/networks/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/networks/resources/</guid><description>&lt;div class="alert alert-danger" role="alert">
+ 
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Haririan, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+
+&lt;/div>
+
+&lt;h2 id="textbook">Textbook&lt;/h2>
+&lt;p>Kurose, James F; Ross, Keith W.: &lt;strong>Computer Networking. A Top-Down Approach&lt;/strong>, 8th ed., Pearson Global Editions, Harlow UK, 2021.
+ISBN: 978-1-292-40546-9&lt;/p>
+&lt;p>The class is based on Jim Kurose&amp;rsquo;s Textbook &amp;ldquo;Computer Networking. A Top-Down Approach&amp;rdquo;.
+The textbook has an &lt;a href="https://gaia.cs.umass.edu/kurose_ross/index.php">accompanying website with a lot of resources&lt;/a>,
+especially &lt;a href="https://gaia.cs.umass.edu/kurose_ross/lectures.php">lecture videos&lt;/a>.&lt;/p>
+&lt;p>You can aquire a printed copy or read the book online using licences aquired
+through our library - just &lt;a href="https://elibrary.pearson.de/book/99.150005/9781292405513">access the publisher&amp;rsquo;s book site&lt;/a> from within the HTW
+Network (from home, use the &lt;a href="(https://rz.htw-berlin.de/anleitungen/vpn/)">VPN&lt;/a> and make sure not to use split access)&lt;/p></description></item><item><title>B9 Networks SoSe 2022 - Schedule</title><link>https://bkleinen.github.io/classes/ss2022/networks/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/networks/schedule/</guid><description>&lt;div class="alert alert-danger" role="alert">
+ 
+Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham Haririan, übernommen. Die Informationen hier sind derzeit nicht aktuell.
+
+&lt;/div>
+
+&lt;p>This schedule is, as always, tentative and will be updated during the term.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">W&lt;/th>
+ &lt;th style="text-align: left">CW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Read before class:&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Fri 08/04/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Class Intro / Server Setup and the Shell&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab00">Lab 00 - Intro&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Fri 15/04/2022&lt;/td>
+ &lt;td style="text-align: left">Ostern&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Fri 22/04/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Computer Networks and the Internet: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/1/">1.1-1.7&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab00">Lab 00 - Intro&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Fri 29/04/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Application Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/2/">2.1-2.3, 2.7&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Fri 06/05/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Application Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/2/">2.4-2.6&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Fri 13/05/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Transport Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/3/">3.1-3.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Fri 20/05/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Transport Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/3/">3.5-3.8&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Fri 27/05/2022&lt;/td>
+ &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Fri 03/06/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Data Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/4/">4.1-4.2&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Fri 10/06/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Data Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/4/">4.3-4.5&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Fri 17/06/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Control Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/5/">5.1-5.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Fri 24/06/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Control Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/5/">5.5-5.7&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Fri 01/07/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">The Link Layer and LANs &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/6/">6.1-6.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Fri 08/07/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">The Link Layer and LANs &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/6/">6.3-6.8&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Fri 15/07/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Exam?&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Fri 22/07/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Exam?&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Fri 29/07/2022&lt;/td>
+ &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

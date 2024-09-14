@@ -1,3 +1,276 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 WS 2019 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/info1/</link><description>Recent content in Informatics 1 WS 2019 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ws2019/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/info1/schedule/</guid><description>This schedule is tentative and subject to change.
-Week KW Date Part Lecture Lab 1 41 Tue, 2019-10-08 I Introduction to Class Exercise Startup II Introduction to Java, Programming with Kara 2 42 Tue, 2019-10-15 I Introduction to Programming with Kara Exercise 01 II Introduction to Programming with Kara 3 43 Tue, 2019-10-22 I Objects, Classes, Methods, BlueJ, Parameters, Compiler (Chapter 01) Exercise 02 II Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter (Chapter 02) 4 44 Tue, 2019-10-29 I Printing to the command line, Conditional, Local Variables,Expressions (Chapter 02) Exercise 03 II Abstraction, Modularization, Object Interaction (Chapter 03) 5 45 Tue, 2019-11-05 I Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger (Chapter 03) Exercise 04 II Collections, Generics, for-each, While Loops (Chapter 04) 6 46 Tue, 2019-11-12 I More Loops, Iterators, Arrays, For Loops (Chapter 04) Exercise 05 II Loop Practice 7 47 Tue, 2019-11-19 I Graphical User Interfaces, Lambda Functions (Chapter 13, Chapter 05) Exercise 06 II Lambda Functions, Filter, Map, Reduce (Chapter 05) 8 48 Tue, 2019-11-26 I Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps (Chapter 06) Exercise 07 II Public vs.</description></item><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ws2019/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/info1/code/</guid><description>Lecture Code Examples Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to github! The &amp;ldquo;Changes in ws2019&amp;rdquo; links will only work after I&amp;rsquo;ve uploaded those changes.
-Note that it might also be quite convenient to look at the code on the github page online, the commit history shows you the exact changes I made. Click on &amp;ldquo;commits&amp;rdquo; and then one individual commit, and you you&amp;rsquo;ll see the changes.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 WS 2019 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/info1/</link><description>Recent content in Informatics 1 WS 2019 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ws2019/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/info1/schedule/</guid><description>&lt;p>This schedule is tentative and subject to change.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Part&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-10-08&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Introduction to Class&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-00">Exercise Startup&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Introduction to Java, Programming with Kara&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-10-15&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Introduction to Programming with Kara&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-01">Exercise 01&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Introduction to Programming with Kara&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-10-22&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Objects, Classes, Methods, BlueJ, Parameters, Compiler (Chapter 01)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-02">Exercise 02&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter (Chapter 02)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-10-29&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Printing to the command line, Conditional, Local Variables,Expressions (Chapter 02)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-03">Exercise 03&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Abstraction, Modularization, Object Interaction (Chapter 03)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-11-05&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger (Chapter 03)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-04">Exercise 04&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Collections, Generics, for-each, While Loops (Chapter 04)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-11-12&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">More Loops, Iterators, Arrays, For Loops (Chapter 04)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-05">Exercise 05&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Loop Practice&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-11-19&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Graphical User Interfaces, Lambda Functions (Chapter 13, Chapter 05)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-06">Exercise 06&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Lambda Functions, Filter, Map, Reduce (Chapter 05)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-11-26&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps (Chapter 06)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-07">Exercise 07&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Public vs. Private, Interfaces, Class Variables, Writing Class Documentation (Chapter 06)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-12-03&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Arrays (Chapter 07)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-08">Exercise 08&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Evaluation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-12-10&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Unit Testing, Test Automation (Chapter 09)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-09">Exercise 09&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-09">Exercise 09&lt;/a>, Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Tue, 2019-12-17&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Designing Classes, Coupling, Cohesion, Refactoring (Chapter 08)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-10">Exercise 10&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Refactoring, Using the main method (Chapter 08), Modularization, Interfaces, Debugging, Walkthroughs, Testing and Interfaces (Chapter 09)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Tue, 2020-01-07&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Inheritance, Subtyping, Polymorphism, Protected, Casting (Chapter 10)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-11">Exercise 11&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Polymorphism, Static vs. dynamic typing, Overriding, Object equality (Chapter 10)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Tue, 2020-01-14&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Abstract Classes, Interfaces (Chapter 11)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-12">Exercise 12&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Handling Errors, Exceptions, Assertions (Chapter 14)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Tue, 2020-01-21&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">File-based IO, Files, Command Line (Chapter 14)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">Exam Preparation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Tue, 2020-01-28&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">Q&amp;amp;A&lt;/td>
+ &lt;td style="text-align: left">Trial Exams in KW 5 (Mo+Mi)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Tue, 2020-02-04&lt;/td>
+ &lt;td style="text-align: left">I&lt;/td>
+ &lt;td style="text-align: left">EXAM&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">II&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ws2019/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/info1/code/</guid><description>&lt;h2 id="lecture-code-examples">Lecture Code Examples&lt;/h2>
+&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to github!
+The &amp;ldquo;Changes in ws2019&amp;rdquo; links will only work after I&amp;rsquo;ve uploaded those changes.&lt;/p>
+&lt;p>Note that it might also be quite convenient to look at the code on the github page online,
+the commit history shows you the exact changes I made. Click on &amp;ldquo;commits&amp;rdquo; and then one
+individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description></item></channel></rss>

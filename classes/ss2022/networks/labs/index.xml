@@ -1,3 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B9 Networks SoSe 2022 - Labs on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2022/networks/labs/</link><description>Recent content in B9 Networks SoSe 2022 - Labs on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2022/networks/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 00 - Intro</title><link>https://bkleinen.github.io/classes/ss2022/networks/labs/lab00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/networks/labs/lab00/</guid><description>Part 1: Playing with Web Servers As the Web and Web applications are a central part of networked applications, we will use the time before really getting started to play around with basic web servers.
-You should be able to do most or all of this with your own computers. We will build Teams during the first lab, but feel free to start working on the exercises
-1.a Simple Web Server in Java: NanoWebServer Have a look at these examples of very simple webservers implemented in Java: https://github.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B9 Networks SoSe 2022 - Labs on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2022/networks/labs/</link><description>Recent content in B9 Networks SoSe 2022 - Labs on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2022/networks/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 00 - Intro</title><link>https://bkleinen.github.io/classes/ss2022/networks/labs/lab00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/networks/labs/lab00/</guid><description>&lt;h2 id="part-1-playing-with-web-servers">Part 1: Playing with Web Servers&lt;/h2>
+&lt;p>As the Web and Web applications are a central part of networked applications,
+we will use the time before really getting started to play around with basic
+web servers.&lt;/p>
+&lt;p>You should be able to do most or all of this with your own computers.
+We will build Teams during the first lab, but feel free to start working
+on the exercises&lt;/p>
+&lt;h3 id="1a-simple-web-server-in-java-nanowebserver">1.a Simple Web Server in Java: NanoWebServer&lt;/h3>
+&lt;p>Have a look at these examples of very simple webservers implemented
+in Java:
+&lt;a href="https://github.com/htw-imi-networks/lab00-nanoHttpServer">https://github.com/htw-imi-networks/lab00-nanoHttpServer&lt;/a>&lt;/p></description></item></channel></rss>

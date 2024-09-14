@@ -1,5 +1,343 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B9 Networks WS 2021/22 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2021/networks/</link><description>Recent content in B9 Networks WS 2021/22 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 08:45:49 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2021/networks/index.xml" rel="self" type="application/rss+xml"/><item><title>B9 Networks WS 2021/22 - Resources</title><link>https://bkleinen.github.io/classes/ws2021/networks/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/resources/</guid><description>Material on this Site Title Tag Tools Working with HTW Machines ops, htw bash, hrz Debian Server web, ops Nginx web nginx VI vi vi Textbook If you can afford it, consider aquiring your own copy of the text book:
-Kurose, James F; Ross, Keith W.: Computer Networking. A Top-Down Approach, 8th ed., Pearson Global Editions, Harlow UK, 2021. ISBN: 978-1-292-40546-9
-AvailablePearson, Lehmanns, Amazon.
-Access to the ebook is be available through the Library from within the HTW network (use the VPN from outside).</description></item><item><title>B9 Networks WS 2021/22 - Schedule</title><link>https://bkleinen.github.io/classes/ws2021/networks/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/schedule/</guid><description>This schedule is, as always, tentative and will be updated during the term.
-W KW Datum Lecture Lab 1 40 Wed 06/10/2021 none Thu 07/10/2021 Class Intro 2 41 Wed 13/10/2021 Lab 00 - Intro Thu 14/10/2021 Computer Networks and the Internet: 1.1-1.4 3 42 Wed 20/10/2021 Lab 00 - Intro Thu 21/10/2021 Computer Networks and the Internet: 1.5-1.7 4 43 Wed 27/10/2021 1 Thu 28/10/2021 Server Setup and the Shell 5 44 Wed 03/11/2021 1 Thu 04/11/2021 Application Layer: 2.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B9 Networks WS 2021/22 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2021/networks/</link><description>Recent content in B9 Networks WS 2021/22 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2021/networks/index.xml" rel="self" type="application/rss+xml"/><item><title>B9 Networks WS 2021/22 - Resources</title><link>https://bkleinen.github.io/classes/ws2021/networks/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/resources/</guid><description>&lt;h2 id="material-on-this-site">Material on this Site&lt;/h2>
+
+
+
+ 
+ 
+ 
+
+ &lt;table class="table">
+ &lt;thead>
+ &lt;tr>
+ &lt;th scope="col">Title&lt;/th>
+ &lt;th scope="col">Tag&lt;/th>
+ &lt;th scope="col">Tools&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ &lt;tr>
+ &lt;td>&lt;a href="https://bkleinen.github.io/material/ops/hrz/">Working with HTW Machines&lt;/a>&lt;/th>
+ &lt;td> ops, htw&lt;/td>
+ &lt;td> bash, hrz&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr>
+ &lt;td>&lt;a href="https://bkleinen.github.io/material/ops/debian-server/">Debian Server&lt;/a>&lt;/th>
+ &lt;td> web, ops&lt;/td>
+ &lt;td> &lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr>
+ &lt;td>&lt;a href="https://bkleinen.github.io/material/ops/nginx/">Nginx&lt;/a>&lt;/th>
+ &lt;td> web&lt;/td>
+ &lt;td> nginx&lt;/td>
+ &lt;/tr>
+ 
+ &lt;tr>
+ &lt;td>&lt;a href="https://bkleinen.github.io/material/ops/vi/">VI&lt;/a>&lt;/th>
+ &lt;td> vi&lt;/td>
+ &lt;td> vi&lt;/td>
+ &lt;/tr>
+ 
+ &lt;/tbody>
+ &lt;/table>
+
+ 
+
+
+
+&lt;h2 id="textbook">Textbook&lt;/h2>
+&lt;p>If you can afford it, consider aquiring your own copy of the text book:&lt;/p>
+&lt;p>Kurose, James F; Ross, Keith W.: &lt;strong>Computer Networking. A Top-Down Approach&lt;/strong>, 8th ed., Pearson Global Editions, Harlow UK, 2021.
+ISBN: 978-1-292-40546-9&lt;/p>
+&lt;p>Available&lt;a href="https://www.pearson.de/computer-networking-global-edition">Pearson&lt;/a>,
+&lt;a href="https://www.lehmanns.de/shop/mathematik-informatik/56287656-9781292405469-computer-networking-global-edition">Lehmanns&lt;/a>,
+&lt;a href="https://www.amazon.de/Computer-Networking-Global-James-Kurose/dp/1292405465?source=ps-sl-shoppingads-lpcontext&amp;amp;psc=1?th=1&amp;amp;psc=1">Amazon&lt;/a>.&lt;/p>
+&lt;p>Access to the ebook is be available &lt;a href="https://sisis.rz.htw-berlin.de/search?bvnr=BV047350002">through the Library&lt;/a> from within the HTW network (use the &lt;a href="https://rz.htw-berlin.de/anleitungen/vpn/">VPN&lt;/a> from outside).&lt;/p></description></item><item><title>B9 Networks WS 2021/22 - Schedule</title><link>https://bkleinen.github.io/classes/ws2021/networks/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/schedule/</guid><description>&lt;p>This schedule is, as always, tentative and will be updated during the term.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">W&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Datum&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">40&lt;/td>
+ &lt;td style="text-align: left">Wed 06/10/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">none&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 07/10/2021&lt;/td>
+ &lt;td style="text-align: left">Class Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Wed 13/10/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab00_intro">Lab 00 - Intro&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 14/10/2021&lt;/td>
+ &lt;td style="text-align: left">Computer Networks and the Internet: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/1/">1.1-1.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Wed 20/10/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/lab00_intro">Lab 00 - Intro&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 21/10/2021&lt;/td>
+ &lt;td style="text-align: left">Computer Networks and the Internet: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/1/">1.5-1.7&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Wed 27/10/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 28/10/2021&lt;/td>
+ &lt;td style="text-align: left">Server Setup and the Shell&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Wed 03/11/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 04/11/2021&lt;/td>
+ &lt;td style="text-align: left">Application Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/2/">2.1-2.3, 2.7&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Wed 10/11/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 11/11/2021&lt;/td>
+ &lt;td style="text-align: left">Application Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/2/">2.4-2.6&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Wed 17/11/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">(2)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 18/11/2021&lt;/td>
+ &lt;td style="text-align: left">Transport Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/3/">3.1-3.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Wed 24/11/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">2 Abgabe : Fr&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 25/11/2021&lt;/td>
+ &lt;td style="text-align: left">Transport Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/3/">3.5-3.8&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Wed 01/12/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 02/12/2021&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Data Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/4/">4.1-4.2&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Wed 08/12/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">3/4 Abgabe : Fr&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 09/12/2021&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Data Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/4/">4.3-4.5&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Wed 15/12/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">4 Abgabe: Tue&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 16/12/2021&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Control Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/5/">5.1-5.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Wed 22/12/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 23/12/2021&lt;/td>
+ &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Wed 29/12/2021&lt;/td>
+ &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 30/12/2021&lt;/td>
+ &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Wed 05/01/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 06/01/2022&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Wed 12/01/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 13/01/2022&lt;/td>
+ &lt;td style="text-align: left">The Network Layer: Control Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/5/">5.5-5.7&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Wed 19/01/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 20/01/2022&lt;/td>
+ &lt;td style="text-align: left">The Link Layer and LANs &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/6/">6.1-6.4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Wed 26/01/2022 PZ 1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 27/01/2022 PZ 1&lt;/td>
+ &lt;td style="text-align: left">Exam Info / The Link Layer and LANs &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/6/">6.3-6.8&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Wed 02/02/2022 PZ 1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 03/02/2022&lt;/td>
+ &lt;td style="text-align: left">Exam PZ 1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Wed 09/02/2022&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Thu 10/02/2022&lt;/td>
+ &lt;td style="text-align: left">Exam PZ 1: Klausureinsicht&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

@@ -1,20 +1,304 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/</link><description>Recent content in Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2020/info3/labs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ws2020/info3/labs/labs-notes-fuer-naechstes-mal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/labs-notes-fuer-naechstes-mal/</guid><description>in lab01 klar schreiben ob source code mit abgegeben werden soll oder nicht</description></item><item><title>Assignment 02 - Use Cases and Class Diagrams</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-02-usecases-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-02-usecases-class/</guid><description>The Art and Science of Diagramming. Foto by Gary Barber
-Pre-Lab 1. Know what the lab is about In this exercise you will develop a detailed Scenario for a Use Case, and draw a Class Diagram for an application called &amp;ldquo;HTW&amp;rdquo; - Halloween Treats Worldwide. Have a look at the description of the system:
-Halloween Treats Worldwide Foto by Pedro J. Ferreira
-Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats.</description></item><item><title>Assignment 03 - Sequence Diagrams and State Machine Diagrams</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-03-sequence-state/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-03-sequence-state/</guid><description>Pelican launch sequence. Foto by Don McCullough Pre-Lab Read Martin Fowler&amp;rsquo;s Chapter about Sequence Diagrams from the book &amp;ldquo;UML Distilled&amp;rdquo; is available as a sample chapter online. For an introduction to state machine diagrams, see https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm. Assignment Part 1: Sequence Diagrams As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case: The Clock Display / Use case: timeTick() is called Tech Support / Use case: user command is entered (start() method in SupportSystem) The Zuul Project / Use case: user enters command (method: play() in Game.</description></item><item><title>Assignment 04: Testing</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-04-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-04-testing/</guid><description>Test Button in Car. Foto by Mike Roberts
-Assignment Preparation Download the source code snippets for this assignment: lab04-testing Prepare your project like we did it in the first lab (Part 1: Set up the git repository and project). Note that this is now lab04, so make sure you adapt your process to that! Eg. put the project into the correct place on the gitlab server. In addition to what you&amp;rsquo;ve covered in class, please have a look at black-box and white-box testing.</description></item><item><title>Assignment 05 - Legacy Code - Refactoring to Patterns</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-05-legacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-05-legacy/</guid><description>The Gilded Rose, Trade District, World of Warcraft.
-Assignment: Gilded Rose Kata Preparation Clone the Gilded Rose Repository. Set up the project like we did it in the first lab (Part 1: Set up the git repository and project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use WebStorm and it&amp;rsquo;s automatic refactoring features. You can get an educational license.</description></item><item><title>Assignment 06 - Rails - First Steps</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-rails-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-rails-1/</guid><description>Foto by Pedro J. Ferreira
-Revised - without significant changes to the assignment itself except taking out Factory Girl/Bot - on 1/1/18. If you&amp;rsquo;ve started working on this assignment before, you can view the changes in the commit &amp;ldquo;info3 - revised lab 06&amp;rdquo; on bkleinen.github.io
-Prelab The Base Repo (referred to as main repository below) for this Lab is the HTW Application we&amp;rsquo;ve developed in class, see https://github.com/htw-imi-info3-archive/rails-dash-ws2017 - first fork it on github (only one person in your team needs to do this) and then clone it to your local workspace (computer).</description></item><item><title>Assignment 06 - Web Apps with Node and Express I</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-express-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-express-1/</guid><description>Overview In the course of this and the following Lab Assignment, you will implement a rudimentary web application based on node and express.js.
-The goal of the exercises is gain first experiences with fundamental steps of web application development, rather than completing the app!
-In the end, your app is expected to have the following features:
-Lab 06 - Express 1 contain at least 1 view template displaying data that is hard-coded in the controller process parameters sent from an HTML form in the controller MVC: View and Controller should be clearly separated, e.</description></item><item><title>Assignment 07 - Search &amp; Sort, Internationalization</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-rails-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-rails-2/</guid><description>Assignment Part 1: Add a Sort or Search Functionality Each Group should add a sort or search functionality to one of the resources pages of the HTW app. We will coordinate the tasks using issues on the repository, see https://github.com/htw-imi-info3-archive/rails-dash-ws2017/issues, and also coordinate within the lab.
-See the Guide on the Active Record Query Interface - it contains all necessary information on how to query and sort Pumpkins and other stuff.</description></item><item><title>Assignment 07 - Web Apps with Node and Express II</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-express-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-express-2/</guid><description>Example apps: App 03 - Persistence and App 04 - with testing
-(This builds on app02)
-From Lab06 to Lab07 You will continue working on your project from Lab06. However, it should be in a separate code base. So you should create a new empty repository on GitLab in the folder for Lab07 and add this new repo as the new origin of your local repository. For Lab07, only push to the project in the Lab07 folder!</description></item><item><title>Assignment 07 - Web Apps with Node and Express II</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-08-express-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-08-express-3/</guid><description>From Lab07 to Lab08 You will continue working on your project from Lab07. However, it should be in a separate code base. So you should create a new empty repository on GitLab in the folder for Lab08 and add this new repo as the new origin of your local repository. For Lab08, only push to the project in the Lab08 folder!
-Assignment 1: Clean Up a) Check the requirements Check the following questions and if the answer is no, fix it.</description></item><item><title>Exercise 01 - Case Studies of Ethical Questions</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-casestudies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-casestudies/</guid><description>The German &amp;lsquo;&amp;lsquo;Gesellschaft für Informatik&amp;rsquo;&amp;rsquo; published Ethical Guidelines in 1994 that were updated in 2004. They are available online at https://fg-ie.gi.de/ethische-leitlinien.html.
-We will first have a closer look at the Ethical Guidelines, and then in groups of 3-4 persons you will choose one of the scenarios to read, discuss, and present to the class. Every member of the group will submit their own PDF version with a reflection on the scenario and how the Ethical Guidelines apply to this case.</description></item><item><title>Exercise 01 - Installation Instructions</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup-installation/</guid><description>(These are detailled instructions for the installation part of the Info 3 Startup Lab).
-Which Computer to use? As most of your colleagues in the former semesters completely ignored the new iMacs in our Web Technology lab and rather unfolded tiny notebooks in front of the 27&amp;rsquo;&amp;rsquo; screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises.</description></item><item><title>Exercise 01 - Lab Startup and JavaScript Finger Exercises</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup/</guid><description>Nerd Workplace. Foto by slworking2
-Pre-Lab (Do this BEFORE the lab) 1. Prepare your work environment The labs will be taught remote. You can either
-work on the lab computers from remote (make sure to chose the lab that is given on your schedule) or just work on your own computer. If you decide to work on your own computer:
-[optional] I recomment you work on a Linux or MacOS System.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/</link><description>Recent content in Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2020/info3/labs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ws2020/info3/labs/labs-notes-fuer-naechstes-mal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/labs-notes-fuer-naechstes-mal/</guid><description>&lt;p>in lab01 klar schreiben ob source code mit abgegeben werden soll oder nicht&lt;/p></description></item><item><title>Assignment 02 - Use Cases and Class Diagrams</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-02-usecases-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-02-usecases-class/</guid><description>&lt;p>&lt;img src="../images/effective-diagrams.jpg" alt="Diagram" title="pumpkins">
+&lt;!-- raw HTML omitted -->The Art and Science of Diagramming. Foto by &lt;a href="https://www.flickr.com/photos/cannedtuna/8115853847">Gary Barber&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;h3 id="1-know-what-the-lab-is-about">1. Know what the lab is about&lt;/h3>
+&lt;p>In this exercise you will develop a detailed Scenario for a Use Case, and draw a Class Diagram for an application called &amp;ldquo;HTW&amp;rdquo; - Halloween Treats Worldwide. Have a look at the description of the system:&lt;/p>
+&lt;hr>
+&lt;h4 id="halloween-treats-worldwide">Halloween Treats Worldwide&lt;/h4>
+&lt;p>&lt;img src="../images/pumpkins-wide.jpg" alt="Pumpkins" title="pumpkins">
+&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/pedroferrer/3615212504">Pedro J. Ferreira&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title>Assignment 03 - Sequence Diagrams and State Machine Diagrams</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-03-sequence-state/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-03-sequence-state/</guid><description>&lt;p>&lt;img src="../images/sequence.jpg" alt="Launch Sequence">
+&lt;!-- raw HTML omitted -->Pelican launch sequence. &lt;a href="https://www.flickr.com/photos/69214385@N04/9172233502">Foto by Don McCullough &lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;ul>
+&lt;li>Read Martin Fowler&amp;rsquo;s Chapter about Sequence Diagrams from the book &amp;ldquo;UML Distilled&amp;rdquo; &lt;a href="https://www.informit.com/articles/article.aspx?p=169507">is available as a sample chapter online.&lt;/a>&lt;/li>
+&lt;li>For an introduction to state machine diagrams, see &lt;a href="https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm">https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="part-1-sequence-diagrams">Part 1: Sequence Diagrams&lt;/h3>
+&lt;ol>
+&lt;li>As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:
+&lt;ul>
+&lt;li>The &lt;a href="https://github.com/htw-imi-info1/chapter03/tree/master/clock-display-with-GUI">Clock Display&lt;/a> / Use case: timeTick() is called&lt;/li>
+&lt;li>&lt;a href="https://github.com/htw-imi-info1/exercise07-archived/tree/master/tech-support">Tech Support&lt;/a> / Use case: user command is entered (start() method in SupportSystem)&lt;/li>
+&lt;li>The &lt;a href="https://github.com/htw-imi-info1/exercise10">Zuul Project&lt;/a> / Use case: user enters command (method: play() in Game.java)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Take your scenarios from &lt;a href="../lab-02-usecases-class">the second exercise&lt;/a> and have a good look at them. There are a number of processes that you should have detailed in your scenarios - if not, now you learn how to be thorough :) You need to draw sequence diagrams for the following use cases:
+&lt;ul>
+&lt;li>Ordering a Pumpkin/Treat&lt;/li>
+&lt;li>one other use case of your choosing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>If you feel like it, you can continue with a sequence diagram for additional use cases.&lt;/p></description></item><item><title>Assignment 04: Testing</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-04-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-04-testing/</guid><description>&lt;p>&lt;img src="../images/test-button.jpg" alt="Test Button">
+&lt;!-- raw HTML omitted -->Test Button in Car. &lt;a href="https://www.flickr.com/photos/cosmic_spanner/3766667411">Foto by Mike Roberts&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="preparation">Preparation&lt;/h3>
+&lt;ol>
+&lt;li>Download the source code snippets for this assignment: &lt;a href="https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing">lab04-testing&lt;/a>&lt;/li>
+&lt;li>Prepare your project &lt;a href="../lab-01-startup">like we did it in the first lab&lt;/a> (Part 1: Set up the git repository and project). Note that this is now lab04, so make sure you adapt your process to that! Eg. put the project into &lt;a href="https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab04">the correct place on the gitlab server&lt;/a>.&lt;/li>
+&lt;li>In addition to what you&amp;rsquo;ve covered in class, please have a look at &lt;a href="https://en.wikipedia.org/wiki/Black_box_testing">black-box&lt;/a> and &lt;a href="https://en.wikipedia.org/wiki/White_box_testing">white-box&lt;/a> testing.&lt;/li>
+&lt;/ol>
+&lt;h3 id="part-1-equivalence-classes">Part 1: Equivalence Classes&lt;/h3>
+&lt;ol start="4">
+&lt;li>Using the black-box methodology, what are the equivalence classes for testing &lt;em>a method that determines the absolute value of an integer&lt;/em>? Don&amp;rsquo;t look at the code yet.&lt;/li>
+&lt;li>Now check out &lt;a href="https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab04-testing/blob/master/lib/number.js">&lt;code>number.js&lt;/code>&lt;/a>. For a white-box test, what would be test cases covering each branch?&lt;/li>
+&lt;li>Based on your analysis, define suitable test cases for &lt;code>number.js&lt;/code> and implement them with jest in the &lt;code>test&lt;/code> folder.&lt;/li>
+&lt;li>Run your tests: &lt;code>npm test number&lt;/code>. Report on the results.&lt;/li>
+&lt;li>Lint and correct your code: &lt;code>npm run lint test/number.test.js&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;h3 id="part-2-black-box-tests">Part 2: Black Box Tests&lt;/h3>
+&lt;ol start="9">
+&lt;li>&lt;strong>Black-box test&lt;/strong>: Look at the following grading scale (which is not the grading scale for this course).&lt;/li>
+&lt;/ol>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Points&lt;/th>
+ &lt;th style="text-align: left">Grade&lt;/th>
+ &lt;th style="text-align: left">Letter Grade&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">95-100&lt;/td>
+ &lt;td style="text-align: left">1,0&lt;/td>
+ &lt;td style="text-align: left">A&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">90-94&lt;/td>
+ &lt;td style="text-align: left">1,3&lt;/td>
+ &lt;td style="text-align: left">A&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">85-89&lt;/td>
+ &lt;td style="text-align: left">1,7&lt;/td>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">80-84&lt;/td>
+ &lt;td style="text-align: left">2,0&lt;/td>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">75-79&lt;/td>
+ &lt;td style="text-align: left">2,3&lt;/td>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">70-74&lt;/td>
+ &lt;td style="text-align: left">2,7&lt;/td>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">65-69&lt;/td>
+ &lt;td style="text-align: left">3,0&lt;/td>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">60-64&lt;/td>
+ &lt;td style="text-align: left">3,3&lt;/td>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">55-59&lt;/td>
+ &lt;td style="text-align: left">3,7&lt;/td>
+ &lt;td style="text-align: left">D&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">50-54&lt;/td>
+ &lt;td style="text-align: left">4,0&lt;/td>
+ &lt;td style="text-align: left">D&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">0-49&lt;/td>
+ &lt;td style="text-align: left">5,0&lt;/td>
+ &lt;td style="text-align: left">F&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>What are the equivalence classes for &lt;em>a program that loops until a &amp;ldquo;-1&amp;rdquo; is entered, asking for the number of points on this scale; prints the appropriate letter grade (A-F), and then prints the average number of points when &amp;ldquo;-1&amp;rdquo; has been entered&lt;/em>? Let&amp;rsquo;s call this program &amp;ldquo;Grading Scale Calculator&amp;rdquo;&lt;/p></description></item><item><title>Assignment 05 - Legacy Code - Refactoring to Patterns</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-05-legacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-05-legacy/</guid><description>&lt;p>&lt;img src="../images/The_Gilded_Rose.jpg" alt="The Gilded Rose">
+&lt;!-- raw HTML omitted -->The Gilded Rose, Trade District, &lt;a href="https://wowwiki-archive.fandom.com/wiki/Gilded_Rose">World of Warcraft.&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="assignment-gilded-rose-kata">Assignment: Gilded Rose Kata&lt;/h2>
+&lt;h3 id="preparation">Preparation&lt;/h3>
+&lt;ol>
+&lt;li>Clone the &lt;a href="https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata">Gilded Rose Repository&lt;/a>.&lt;/li>
+&lt;li>Set up the project &lt;a href="../lab-01-startup">like we did it in the first lab&lt;/a> (Part 1: Set up the git repository and project). Of course this is now lab05, put your project into the correct place on the gitlab server! Hint: If you like you can use &lt;a href="https://www.jetbrains.com/help/webstorm/installation-guide.html#snap">WebStorm&lt;/a> and it&amp;rsquo;s automatic refactoring features. You can &lt;a href="https://www.jetbrains.com/community/education/#students">get an educational license&lt;/a>.&lt;/li>
+&lt;li>Imagine you just joined a the company &lt;code>Gilded Rose&lt;/code> as software developers. They wrote a requirements sheet for your first job. You can find the whole sheet &lt;a href="https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/blob/master/GildedRoseRequirements.txt">here&lt;/a>. Read through it. In this lab you will be working through it step by step.&lt;/li>
+&lt;li>Read the introduction again:&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
+prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
+Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We
+have a system in place that updates our inventory for us. It was developed by a no-nonsense person named
+Leeroy, who has moved on to new adventures.
+&lt;/code>&lt;/pre>&lt;h3 id="part-1-characterization-tests">Part 1: Characterization Tests&lt;/h3>
+&lt;ol start="5">
+&lt;li>Read again what the system is currently supposed to be doing, according to the &lt;code>Team Gilded Rose&lt;/code>&amp;rsquo;s Requirements Sheet:&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>Your task is to add the new feature to our system so that
+we can begin selling a new category of items. First an introduction to our system:
+
+	- All items have a SellIn value which denotes the number of days we have to sell the item
+	- All items have a Quality value which denotes how valuable the item is
+	- At the end of each day our system lowers both values for every item
+
+Pretty simple, right? Well this is where it gets interesting:
+
+	- Once the sell by date has passed, Quality degrades twice as fast
+	- The Quality of an item is never negative
+	- &amp;#34;Aged Brie&amp;#34; actually increases in Quality the older it gets
+	- The Quality of an item is never more than 50
+	- &amp;#34;Sulfuras&amp;#34;, being a legendary item, never has to be sold or decreases in Quality
+	- &amp;#34;Backstage passes&amp;#34;, like aged brie, increases in Quality as its SellIn value approaches;
+	Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but
+	Quality drops to 0 after the concert
+&lt;/code>&lt;/pre>&lt;ol start="6">
+&lt;li>Look at &lt;a href="https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata/tree/master/test">the stubs for the tests&lt;/a> and run them with coverage &lt;code>npm run coverage&lt;/code>.&lt;/li>
+&lt;li>Implement &lt;a href="https://en.wikipedia.org/wiki/Characterization_test">Characterization Tests&lt;/a> (also known as &amp;ldquo;Approval Tests&amp;rdquo;). That is, write tests that pass with the current behavior of the app.
+Is the current system functionality different from the requirements sheet or are the specifications ambiguous somewhere? Document these cases in comments next to your test cases. As the current system is what &lt;code>Gilded Rose&lt;/code> has used so far you can expect that it behaves in a way that works for them, so don&amp;rsquo;t change the current behavior. While you implement your tests run them with coverage (&lt;code>npm run coverage&lt;/code>) to check wether your tests hit all the branches in the &lt;code>updateQuality&lt;/code> method.
+Hint: &lt;a href="https://www.valentinog.com/blog/jest/#code-coverage-in-jest">This section&lt;/a> of Valentino Gagliardi&amp;rsquo;s tutorial on Jest might help you learn more about effective code coverage with Jest
+Hint: You can use &lt;a href="https://jestjs.io/docs/en/api#describeeachtablename-fn-timeout">Jest&amp;rsquo;s &amp;ldquo;describe.each&amp;rdquo;&lt;/a> to simplify your tests.
+For the bored: &lt;a href="https://jestjs.io/docs/en/snapshot-testing">Snapshot Testing&lt;/a> can make it easier to understand what the legacy code is actually doing and write the appropriate tests (see also &lt;a href="https://youtu.be/zyM2Ep28ED8">a video on how the Snapshot method is used with Java&lt;/a>).&lt;/li>
+&lt;/ol>
+&lt;h3 id="part-2-refactoring">Part 2: Refactoring&lt;/h3>
+&lt;ol start="8">
+&lt;li>Have another look at the part of the &lt;code>Gilded Rose&lt;/code>&amp;rsquo;s Requirements sheet that concerns refactoring and limitations you face:&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
+still works correctly. However, do not alter the Item class or Items property as those belong to the
+goblin in the corner who will insta-rage and one-shot you as he doesn&amp;#39;t believe in shared code
+ownership (you can make the UpdateQuality method and Items property static if you like, we&amp;#39;ll cover
+for you).
+&lt;/code>&lt;/pre>&lt;ol start="9">
+&lt;li>Now refactor the available legacy code. Don&amp;rsquo;t forget to do this step by step and to test often.
+Hint: A straightforward solution for refactoring the Gilded Rose would be an item hierarchy with each item &amp;ldquo;knowing&amp;rdquo; how to update it&amp;rsquo;s quality. Unfortunately, you can&amp;rsquo;t do that because the Item class belongs to the goblin. Thus, you will need another solution without the need to change the Item class. Which &lt;em>programming patterns&lt;/em> can help adding different behaviour without needing to change the Item class itself?&lt;/li>
+&lt;li>Lint and improve your code: &lt;code>npm run lint .&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h3 id="part-3-adding-new-functionality">Part 3: Adding new functionality&lt;/h3>
+&lt;ol start="11">
+&lt;li>Read again the new requirements you are supposed to implement:&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>We have recently signed a supplier of conjured items. This requires an update to our system:
+
+	- &amp;#34;Conjured&amp;#34; items degrade in Quality twice as fast as normal items
+
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn&amp;#39;t believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we&amp;#39;ll cover for you).
+
+Just for clarification, an item can never have its Quality increase above 50, however &amp;#34;Sulfuras&amp;#34; is a legendary item and as such its Quality is 80 and it never alters.
+&lt;/code>&lt;/pre>&lt;ol start="12">
+&lt;li>Add test cases for the newly required functionality.&lt;/li>
+&lt;li>Implement the new functionality so your tests pass.&lt;/li>
+&lt;li>Don&amp;rsquo;t forget to lint and improve your code.&lt;/li>
+&lt;/ol>
+&lt;h2 id="results-submission">Results Submission&lt;/h2>
+&lt;ul>
+&lt;li>Hand in a link to your repository&lt;/li>
+&lt;li>Hand in a lab report until Dec. 17, 11pm&lt;/li>
+&lt;li>Take part in the peer review activity on &lt;!-- raw HTML omitted -->Dec. 17 2020&lt;!-- raw HTML omitted --> Jan. 7 2021 (rescheduled)&lt;/li>
+&lt;/ul>
+&lt;p>More info on the &lt;a href="..">Labs&lt;/a> page.&lt;/p></description></item><item><title>Assignment 06 - Rails - First Steps</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-rails-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-rails-1/</guid><description>&lt;p>&lt;img src="../images/pumpkins-wide.jpg" alt="Pumpkins" title="pumpkins">
+&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/pedroferrer/3615212504">Pedro J. Ferreira&lt;/a>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Revised - without significant changes to the assignment itself except taking
+out Factory Girl/Bot - on 1/1/18.
+If you&amp;rsquo;ve started working on this assignment before, you can view the changes
+in the commit &amp;ldquo;info3 - revised lab 06&amp;rdquo; on &lt;!-- raw HTML omitted -->
+bkleinen.github.io&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h1 id="prelab">Prelab&lt;/h1>
+&lt;ol start="0">
+&lt;li>The Base Repo (referred to as main repository below) for this Lab is the HTW Application we&amp;rsquo;ve developed in class, see
+&lt;a href="https://github.com/htw-imi-info3-archive/rails-dash-ws2017">https://github.com/htw-imi-info3-archive/rails-dash-ws2017&lt;/a> - first fork it on github (only one person in your team needs to do this) and then clone it to your local workspace (computer).&lt;/li>
+&lt;li>Read through two Rails Guides:
+&lt;ol>
+&lt;li>&lt;a href="https://guides.rubyonrails.org/active_record_basics.html">Active Record Basics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://guides.rubyonrails.org/association_basics.html">Association Basics&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="assignment">Assignment&lt;/h1>
+&lt;h2 id="part-0-creating-testdata">Part 0: Creating Testdata&lt;/h2>
+&lt;p>You should never be attached to manually created test data living in your
+development or test database. Instead, you should have scripts that generate and re-generate this test data on demand.&lt;/p></description></item><item><title>Assignment 06 - Web Apps with Node and Express I</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-express-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-06-express-1/</guid><description>&lt;h1 id="overview">Overview&lt;/h1>
+&lt;p>In the course of this and the following Lab Assignment, you will implement a rudimentary web application
+based on node and express.js.&lt;/p>
+&lt;p>The goal of the exercises is gain first experiences with fundamental steps
+of web application development, rather than completing the app!&lt;/p>
+&lt;p>In the end, your app is expected to have the following features:&lt;/p>
+&lt;h2 id="lab-06---express-1">Lab 06 - Express 1&lt;/h2>
+&lt;ul>
+&lt;li>contain at least 1 view template displaying data that is hard-coded in the controller&lt;/li>
+&lt;li>process parameters sent from an HTML form in the controller&lt;/li>
+&lt;li>MVC: View and Controller should be clearly separated, e.g. in specific folders&lt;/li>
+&lt;/ul>
+&lt;h2 id="lab-07---express-2">Lab 07 - Express 2&lt;/h2>
+&lt;ul>
+&lt;li>display at least 1 piece of data retrieved from the database&lt;/li>
+&lt;li>trigger at least 1 change in the database&lt;/li>
+&lt;li>implement and use at least 1 API endpoint&lt;/li>
+&lt;li>MVC structure is clearly visible&lt;/li>
+&lt;/ul>
+&lt;p>The goal is not to complete the application but to practice these
+basic elements of web application development.&lt;/p></description></item><item><title>Assignment 07 - Search &amp; Sort, Internationalization</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-rails-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-rails-2/</guid><description>&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="part-1-add-a-sort-or-search-functionality">Part 1: Add a Sort or Search Functionality&lt;/h3>
+&lt;p>Each Group should add a sort or search functionality to one of the resources
+pages of the HTW app. We will coordinate the tasks using issues on the repository,
+see &lt;a href="https://github.com/htw-imi-info3-archive/rails-dash-ws2017/issues">https://github.com/htw-imi-info3-archive/rails-dash-ws2017/issues&lt;/a>,
+and also coordinate within the lab.&lt;/p>
+&lt;p>See the &lt;a href="https://guides.rubyonrails.org/active_record_querying.html">Guide on the Active Record Query Interface&lt;/a> - it
+contains all necessary
+information on how to query and sort Pumpkins and other stuff.&lt;/p>
+&lt;p>*** remember to make use of all the great pumpkins (and other test data)
+all of you added with their
+pull request you can use to populate your database! ***&lt;/p></description></item><item><title>Assignment 07 - Web Apps with Node and Express II</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-express-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-07-express-2/</guid><description>&lt;p>Example apps: &lt;a href="https://github.com/htw-imi-info3-archive/express-app03">App 03&lt;/a> - Persistence and &lt;a href="https://github.com/htw-imi-info3-archive/express-app04">App 04&lt;/a> - with testing&lt;/p>
+&lt;p>(This builds on app02)&lt;/p>
+&lt;h1 id="from-lab06-to-lab07">From Lab06 to Lab07&lt;/h1>
+&lt;p>You will continue working on your project from Lab06. However, it should be in a separate code base. So you should create a new empty repository on GitLab in the folder for Lab07 and add this new repo as the new origin of your local repository. For Lab07, only push to the project in the Lab07 folder!&lt;/p></description></item><item><title>Assignment 07 - Web Apps with Node and Express II</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-08-express-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-08-express-3/</guid><description>&lt;h1 id="from-lab07-to-lab08">From Lab07 to Lab08&lt;/h1>
+&lt;p>You will continue working on your project from Lab07.
+However, it should be in a separate code base.
+So you should create a new empty repository on GitLab in the folder for Lab08 and add this new repo as the new origin of your local repository.
+For Lab08, only push to the project in the Lab08 folder!&lt;/p>
+&lt;h1 id="assignment-1-clean-up">Assignment 1: Clean Up&lt;/h1>
+&lt;h2 id="a-check-the-requirements">a) Check the requirements&lt;/h2>
+&lt;p>Check the following questions and if the answer is no, fix it. Those were things that you should have done in Lab06 and Lab07, but if you haven&amp;rsquo;t do them now. &lt;strong>Document in your report what you needed to fix.&lt;/strong>&lt;/p></description></item><item><title>Exercise 01 - Case Studies of Ethical Questions</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-casestudies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-casestudies/</guid><description>&lt;p>The German &amp;lsquo;&amp;lsquo;Gesellschaft für Informatik&amp;rsquo;&amp;rsquo; published Ethical Guidelines
+in 1994 that were updated in 2004. They are available online at
+&lt;a href="https://fg-ie.gi.de/ethische-leitlinien.html">https://fg-ie.gi.de/ethische-leitlinien.html&lt;/a>.&lt;/p>
+&lt;p>We will first have a closer look at the Ethical Guidelines, and then
+in groups of 3-4 persons you will choose one of the scenarios to
+read, discuss, and present to the class. Every member of the group
+will submit their own PDF version with a reflection on the scenario
+and how the Ethical Guidelines apply to this case. These are not
+group work, but will be done individually and submitted to the
+Moodle area.&lt;/p></description></item><item><title>Exercise 01 - Installation Instructions</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup-installation/</guid><description>&lt;p>(These are detailled instructions for the installation part of the &lt;a href="../lab-01-startup">Info 3 Startup Lab&lt;/a>).&lt;/p>
+&lt;h2 id="which-computer-to-use">Which Computer to use?&lt;/h2>
+&lt;p>As most of your colleagues in the former semesters completely ignored the new &lt;a href="https://imi-bachelor.htw-berlin.de/studium/labore/web-technology/">iMacs in our Web Technology lab&lt;/a> and rather unfolded tiny notebooks in front of the 27&amp;rsquo;&amp;rsquo; screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.&lt;/p></description></item><item><title>Exercise 01 - Lab Startup and JavaScript Finger Exercises</title><link>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2020/info3/labs/lab-01-startup/</guid><description>&lt;p>&lt;img src="../images/workplace.jpg" alt="Workplace" title="pumpkins">
+&lt;!-- raw HTML omitted -->Nerd Workplace. Foto by &lt;a href="https://www.flickr.com/photos/slworking/8539204081/">slworking2&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="pre-lab-do-this-before-the-lab">Pre-Lab (Do this BEFORE the lab)&lt;/h2>
+&lt;h3 id="1-prepare-your-work-environment">1. Prepare your work environment&lt;/h3>
+&lt;p>The labs will be taught remote. You can either&lt;/p>
+&lt;ul>
+&lt;li>work on the &lt;a href="https://imi-bachelor.htw-berlin.de/studium/labore/hinweise/entfernter-zugriff-auf-labor-pcs-ueber-vpn-und-remote-desktop/">lab computers from remote&lt;/a> (make sure to chose the lab that is given on your schedule)&lt;/li>
+&lt;li>or just work on your own computer.&lt;/li>
+&lt;/ul>
+&lt;p>If you decide to work on your own computer:&lt;/p>
+&lt;ul>
+&lt;li>[optional] &lt;strong>I recomment you work on a Linux or MacOS System&lt;/strong>. From my experience, &lt;a href="https://www.groovypost.com/howto/dual-boot-windows-10-linux/">setting up Dual Boot Windows/Linux&lt;/a> is less troublesome than trying to manage Node.js on Windows. All my instructions will be taylored to Linux and will probably work on MacOS. So if you haven&amp;rsquo;t already, now is the time to get Linux :)&lt;/li>
+&lt;li>Install and set up git (You will use git to hand in code - you will be added to the Info3 group when you get added on Moodle). You don&amp;rsquo;t need a Git GUI, you can use it via the command line or git bash.&lt;/li>
+&lt;li>Install the &lt;a href="https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating">Node Version Manager&lt;/a> (nvm). &lt;a href="https://www.cyberithub.com/install-nvm-for-node-js/">This installation guide (for Ubuntu)&lt;/a> can help. We&amp;rsquo;ll use Node.js so we can program JavaScript command line applications and don&amp;rsquo;t need to use a browser console or even a front end (for now).&lt;/li>
+&lt;li>Install Node.js using nvm: &lt;code>nvm install node&lt;/code>. Verify you installed version 14.6.0 or higher &lt;a href="https://node.green/">for compatibility reasons&lt;/a>: &lt;code>node --version&lt;/code>.&lt;/li>
+&lt;li>The &lt;a href="https://docs.npmjs.com/">Node Package Manager&lt;/a> (npm) comes with Node.js, so no need to install it separately. We will use npm to manage libraries we use for Node.js&lt;/li>
+&lt;li>Install and set up a code editor suitable for JavaScript. I recommend &lt;a href="https://atom.io">Atom&lt;/a>. &lt;a href="https://wiki.ubuntuusers.de/Atom/">This guide&lt;/a> can help you with the installation.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-prepare-some-more">2. Prepare some more&amp;hellip;&lt;/h3>
+&lt;ul>
+&lt;li>Sign in to &lt;a href="https://gl-imi.f4.htw-berlin.de">the IMI GitLab&lt;/a> and give yourself a name with which I can recognize you (something else than your Matrikelnummer! A nickname is enough.)&lt;/li>
+&lt;li>Find a team of three and sign up for it using Moodle. I&amp;rsquo;ll not accept work that has not been done in a group.&lt;/li>
+&lt;/ul>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>In this assignment you will program a &amp;ldquo;Hobby Matcher&amp;rdquo;. &amp;ldquo;Hobby Matcher&amp;rdquo; should help people find other people with the same hobbies. Prof. Kleinen already thought of two &lt;a href="https://en.wikipedia.org/wiki/User_story">user stories&lt;/a>.&lt;/p></description></item></channel></rss>

@@ -1,11 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming Languages on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/languages/</link><description>Recent content in Programming Languages on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/languages/index.xml" rel="self" type="application/rss+xml"/><item><title>Backus-Naur-Form</title><link>https://bkleinen.github.io/material/languages/bnf/</link><pubDate>Fri, 08 Oct 2021 21:32:10 +0200</pubDate><guid>https://bkleinen.github.io/material/languages/bnf/</guid><description>The Gist You might see something like&amp;hellip;.
-if your repository is
-https://github.com/&amp;lt;organisation&amp;gt;/&amp;lt;repo&amp;gt; the entry in your .git/config would be
-[remote &amp;quot;origin&amp;quot;] url = git@github.com:&amp;lt;organisation&amp;gt;/&amp;lt;repo&amp;gt;.git Where \&amp;lt;organisation\&amp;gt; should be replaced with the github organisation, e.g. &amp;ldquo;htw-imi-info2&amp;rdquo; and \&amp;lt;repo\&amp;gt; with the name of the respective git repository, e.g. &amp;ldquo;python-jupyter-notebooks&amp;rdquo;, yielding at this concrete text:
-https://github.com/htw-imi-info2/python-jupyter-notebooks [remote &amp;quot;origin&amp;quot;] url = git@github.com:htw-imi-info2/python-jupyter-notebooks.git Rewrite Rules The convention of informally marking placeholders that should be replaced with the delimiters &amp;lt; and &amp;gt; stems from the Backus-Naur-Form (BNF).</description></item><item><title>Notes on Learning Python</title><link>https://bkleinen.github.io/material/languages/python/python/</link><pubDate>Fri, 08 Oct 2021 21:32:10 +0200</pubDate><guid>https://bkleinen.github.io/material/languages/python/python/</guid><description>Some Notes and Tips on Getting Started with the Python Programming Language There are many, and many good Python resources available, many of them for free - after all, it&amp;rsquo;s the most frequently used programming language for introductionary courses.
-See Python Resources
-Suggested Path for Info3 &amp;amp; Info3 As we are already using IntelliJ IDEA, using the Python Flavour of IntelliJ IDEA called &amp;ldquo;PyCharm&amp;rdquo; doesn&amp;rsquo;t have that steep of a learning curve.</description></item><item><title>Learn Python with Tests</title><link>https://bkleinen.github.io/material/languages/python/learn-with-tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/languages/python/learn-with-tests/</guid><description>I often recommend to write a suite of (automatic) tests to explore a programming language and compile your own &amp;ldquo;cheat sheet&amp;rdquo; for the language.
-By keeping the test suite &amp;ldquo;green&amp;rdquo;, you can be sure that everything you see in the source code is actually working.
-I drew this idea from two sources: Jim Weirich&amp;rsquo;s Ruby Koans and the recommendation of API Testing by Michael Feathers.
-Jim Weirich&amp;rsquo;s Ruby Koans, are a big suite of prepared test cases where you have to fill out the test expectations to learn ruby with a strong emphasis on edge cases - where ruby works in a special way that may not be totally clear or deductible from other programming languages.</description></item><item><title>Python Resources</title><link>https://bkleinen.github.io/material/languages/python/python-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/languages/python/python-resources/</guid><description>This is a collection of Python Resources. See Python Notes
-The Official Python Documentation 3 Documentation The Python Standard Library — Python 3 documentation The Python Language Reference — Python 3 documentation Python Setup and Usage — Python 3 documentation The Python Tutorial — Python 3 documentation Books Robert Sedgewick, Kevin Wayne, Robert Dondero: Introduction to Programming in Python: An Interdisciplinary Approach. Pearson, 2015 The linked companion website contains excerpts and lots of examples:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming Languages on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/languages/</link><description>Recent content in Programming Languages on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/languages/index.xml" rel="self" type="application/rss+xml"/><item><title>Backus-Naur-Form</title><link>https://bkleinen.github.io/material/languages/bnf/</link><pubDate>Fri, 08 Oct 2021 21:32:10 +0200</pubDate><guid>https://bkleinen.github.io/material/languages/bnf/</guid><description>&lt;h2 id="the-gist">The Gist&lt;/h2>
+&lt;p>You might see something like&amp;hellip;.&lt;/p>
+&lt;p>if your repository is&lt;/p>
+&lt;pre>&lt;code> https://github.com/&amp;lt;organisation&amp;gt;/&amp;lt;repo&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>the entry in your &lt;code>.git/config&lt;/code> would be&lt;/p>
+&lt;pre>&lt;code> [remote &amp;quot;origin&amp;quot;]
+ url = git@github.com:&amp;lt;organisation&amp;gt;/&amp;lt;repo&amp;gt;.git
+&lt;/code>&lt;/pre>
+&lt;p>Where &lt;code>\&amp;lt;organisation\&amp;gt;&lt;/code> should be replaced with the github organisation, e.g. &amp;ldquo;htw-imi-info2&amp;rdquo; and
+&lt;code>\&amp;lt;repo\&amp;gt;&lt;/code> with the name of the respective git repository, e.g. &amp;ldquo;python-jupyter-notebooks&amp;rdquo;, yielding at this concrete text:&lt;/p>
+&lt;pre>&lt;code>https://github.com/htw-imi-info2/python-jupyter-notebooks
+
+[remote &amp;quot;origin&amp;quot;]
+ url = git@github.com:htw-imi-info2/python-jupyter-notebooks.git
+&lt;/code>&lt;/pre>
+&lt;h2 id="rewrite-rules">Rewrite Rules&lt;/h2>
+&lt;p>The convention of informally marking placeholders
+that should be replaced with the delimiters &lt;code>&amp;lt;&lt;/code> and &lt;code>&amp;gt;&lt;/code> stems from the Backus-Naur-Form (BNF).&lt;/p></description></item><item><title>Notes on Learning Python</title><link>https://bkleinen.github.io/material/languages/python/python/</link><pubDate>Fri, 08 Oct 2021 21:32:10 +0200</pubDate><guid>https://bkleinen.github.io/material/languages/python/python/</guid><description>&lt;h2 id="some-notes-and-tips-on-getting-started-with-the-python-programming-language">Some Notes and Tips on Getting Started with the Python Programming Language&lt;/h2>
+&lt;p>There are many, and many good Python resources available, many of them for
+free - after all, it&amp;rsquo;s the most frequently used programming language for
+introductionary courses.&lt;/p>
+&lt;p>&lt;a href="../python-resources/">See Python Resources&lt;/a>&lt;/p>
+&lt;h2 id="suggested-path-for-info3--info3">Suggested Path for Info3 &amp;amp; Info3&lt;/h2>
+&lt;p>As we are already using IntelliJ IDEA, using the Python Flavour of IntelliJ IDEA called &amp;ldquo;PyCharm&amp;rdquo; doesn&amp;rsquo;t have that steep of a learning curve.&lt;/p></description></item><item><title>Learn Python with Tests</title><link>https://bkleinen.github.io/material/languages/python/learn-with-tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/languages/python/learn-with-tests/</guid><description>&lt;p>I often recommend to write a suite of (automatic) tests to explore a programming language
+and compile your own &amp;ldquo;cheat sheet&amp;rdquo; for the language.&lt;/p>
+&lt;p>By keeping the test suite &amp;ldquo;green&amp;rdquo;, you can be sure that everything you see in the
+source code is actually working.&lt;/p>
+&lt;p>I drew this idea from two sources: &lt;a href="https://www.rubykoans.com/">Jim Weirich&amp;rsquo;s Ruby Koans&lt;/a> and the
+recommendation of API Testing by Michael Feathers.&lt;/p>
+&lt;p>&lt;a href="https://www.rubykoans.com/">Jim Weirich&amp;rsquo;s Ruby Koans&lt;/a>, are a big
+suite of prepared test cases where you have to fill out the test expectations to learn ruby
+with a strong emphasis on edge cases - where ruby works in a special way that may not be
+totally clear or deductible from other programming languages. This idea has been transferred to
+many other programming languages, e.g. &lt;a href="https://github.com/gregmalcolm/python_koans">Greg Malcoms Python Koans&lt;/a>.&lt;/p></description></item><item><title>Python Resources</title><link>https://bkleinen.github.io/material/languages/python/python-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/languages/python/python-resources/</guid><description>&lt;p>This is a collection of Python Resources. See &lt;a href="../python/">Python Notes&lt;/a>&lt;/p>
+&lt;h2 id="the-official-python-documentation">The Official Python Documentation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.python.org/3/">3 Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/library/index.html">The Python Standard Library — Python 3 documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/reference/index.html">The Python Language Reference — Python 3 documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/using/index.html">Python Setup and Usage — Python 3 documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3/tutorial/index.html">The Python Tutorial — Python 3 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="books">Books&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://introcs.cs.princeton.edu/python/home/">Robert Sedgewick, Kevin Wayne, Robert Dondero: Introduction to Programming in Python: An Interdisciplinary Approach. Pearson, 2015&lt;/a>
+The linked companion website contains excerpts and lots of examples:&lt;/p></description></item></channel></rss>

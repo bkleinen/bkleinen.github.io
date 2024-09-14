@@ -1,10 +1,111 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info 2 Handouts on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/</link><description>Recent content in Info 2 Handouts on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2018/info2/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 - Comparators Handout</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/comparator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/comparator/</guid><description>These are the links to the sources of the various handouts regarding
-Interfaces Comparator Comparable Total Order How they are used?</description></item><item><title>Info2 - Euclid Handout</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/euclid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/euclid/</guid><description>Euclid of Alexandria( Greek:Εὐκλείδης, Euclides; * ca. 365 † 275 BC) was a Greek mathematician, now known as &amp;ldquo;the father of geometry&amp;rdquo;. His most famous work is Elements, widely considered to be history&amp;rsquo;s most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1
-Elements: Book VII, Proposition 2: To find the greatest common measure of two given numbers not relatively prime.</description></item><item><title>Info2 SS2017 Klausurfragen</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/klausurfragen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/klausurfragen/</guid><description>Klausurfragen gesammelt am 18.7.2017
-001-info2-application-development keine gesammelt
-002-info2-Tooling keine gesammelt
-003-info2-networking-fileio-exceptions &amp;hellip; die API für Datei öffnen müssen Sie nicht auswendig kennen.
-Programmieraufgabe: Datei öffnen und etwas mit der Datei machen etwas in Datei reinschreiben 004-info2-concurrency &amp;hellip; das kommt erst in Info3 dran :) :
-selbst Thread implementieren Deadlock in Programm mit Threads finden 005-info2-algorithms Wie ist der Aufwand eines gegebenen Algorithmus? 006-info2-lists was ist die Komplexität für folgende Operationen für ArrayList und LinkedList?</description></item><item><title>Java Collection Library e-learning WS 2018/19</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/collections/</guid><description>Overview Your task is to get yourself more aquaintaned with the java collection library. It&amp;rsquo;s a powerful, stable and reliable library providing collections for many use cases.
-We already have looked at the main interfaces, List, Set and Map, in Info1 as well as the most common implementations, ArrayList, HashSet and HashMap.
-In Info2, you&amp;rsquo;ll learn more about alternative implementations and how to assess which one to use regarding their properties in terms of time and space consumption as well as their behaviour within concurrent applications.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info 2 Handouts on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/</link><description>Recent content in Info 2 Handouts on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2018/info2/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 - Comparators Handout</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/comparator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/comparator/</guid><description>&lt;p>These are the links to the sources of the various handouts regarding&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/concepts/interface.html">Interfaces&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html">Comparator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html">Comparable&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Total_order">Total Order&lt;/a>&lt;/li>
+&lt;li>How they are used?&lt;/li>
+&lt;/ul></description></item><item><title>Info2 - Euclid Handout</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/euclid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/euclid/</guid><description>&lt;p>Euclid of Alexandria( Greek:Εὐκλείδης, Euclides;
+* ca. 365
+† 275 BC) was a Greek mathematician, now known as &amp;ldquo;the father of geometry&amp;rdquo;. His most famous work is Elements, widely considered to be history&amp;rsquo;s most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1&lt;/p>
+&lt;h2 id="elements-book-vii-proposition-2">Elements: Book VII, Proposition 2:&lt;/h2>
+&lt;p>To find the greatest common measure of two given numbers not relatively prime.&lt;/p></description></item><item><title>Info2 SS2017 Klausurfragen</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/klausurfragen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/klausurfragen/</guid><description>&lt;p>Klausurfragen gesammelt am 18.7.2017&lt;/p>
+&lt;h2 id="001-info2-application-development">001-info2-application-development&lt;/h2>
+&lt;p>keine gesammelt&lt;/p>
+&lt;h2 id="002-info2-tooling">002-info2-Tooling&lt;/h2>
+&lt;p>keine gesammelt&lt;/p>
+&lt;h2 id="003-info2-networking-fileio-exceptions">003-info2-networking-fileio-exceptions&lt;/h2>
+&lt;p>&amp;hellip; die API für Datei öffnen müssen Sie nicht auswendig kennen.&lt;/p>
+&lt;ul>
+&lt;li>Programmieraufgabe: Datei öffnen und etwas mit der Datei machen&lt;/li>
+&lt;li>etwas in Datei reinschreiben&lt;/li>
+&lt;/ul>
+&lt;h2 id="004-info2-concurrency">004-info2-concurrency&lt;/h2>
+&lt;p>&amp;hellip; das kommt erst in Info3 dran :) :&lt;/p>
+&lt;ul>
+&lt;li>selbst Thread implementieren&lt;/li>
+&lt;li>Deadlock in Programm mit Threads finden&lt;/li>
+&lt;/ul>
+&lt;h2 id="005-info2-algorithms">005-info2-algorithms&lt;/h2>
+&lt;ul>
+&lt;li>Wie ist der Aufwand eines gegebenen Algorithmus?&lt;/li>
+&lt;/ul>
+&lt;h2 id="006-info2-lists">006-info2-lists&lt;/h2>
+&lt;ul>
+&lt;li>was ist die Komplexität für folgende Operationen für ArrayList und LinkedList? (Tabelle ergänzen)&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">search&lt;/th>
+ &lt;th style="text-align: left">add&lt;/th>
+ &lt;th style="text-align: left">get(k)&lt;/th>
+ &lt;th style="text-align: left">contains&lt;/th>
+ &lt;th style="text-align: left">next&lt;/th>
+ &lt;th style="text-align: left">remove&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ArrayList&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LinkedList&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">search&lt;/th>
+ &lt;th style="text-align: left">add to front&lt;/th>
+ &lt;th style="text-align: left">get(k)&lt;/th>
+ &lt;th style="text-align: left">contains&lt;/th>
+ &lt;th style="text-align: left">next&lt;/th>
+ &lt;th style="text-align: left">remove&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ArrayList&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LinkedList&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>vorr. für next und remove: index (ArrayList) bzw. Pointer (LinkedList) auf jeweiliges Element.&lt;/p></description></item><item><title>Java Collection Library e-learning WS 2018/19</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/collections/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Your task is to get yourself more aquaintaned with the java collection library.
+It&amp;rsquo;s a powerful, stable and reliable library providing collections for many
+use cases.&lt;/p>
+&lt;p>We already have looked at the main interfaces, List, Set and Map, in Info1 as
+well as the most common implementations, ArrayList, HashSet and HashMap.&lt;/p>
+&lt;p>In Info2, you&amp;rsquo;ll learn more about alternative implementations and how to
+assess which one to use regarding their properties in terms of time and space
+consumption as well as their behaviour within concurrent applications.&lt;/p></description></item></channel></rss>

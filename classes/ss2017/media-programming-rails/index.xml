@@ -1,3 +1,174 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Media Programming: Web Technology on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2017/media-programming-rails/</link><description>Recent content in Media Programming: Web Technology on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2017/media-programming-rails/index.xml" rel="self" type="application/rss+xml"/><item><title>Media Programming Schedule</title><link>https://bkleinen.github.io/classes/ss2017/media-programming-rails/overall-schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/media-programming-rails/overall-schedule/</guid><description>Tentative. Aka subject to possible change.
-Week KW Date Topic Area Lecturer 1 15 Wed, 2017-04-12 Visual Computing Klaus Jung 2 16 Wed, 2017-04-19 Visual Computing Nico Hezel 3 17 Wed, 2017-04-26 Visual Computing Kai Barthel 4 18 Wed, 2017-05-03 Visual Computing Nico Hezel 5 19 Wed, 2017-05-10 Visual Computing Nico Hezel 6 20 Wed, 2017-05-17 Game Technology and Interactive Systems David Strippgen 7 21 Wed, 2017-05-24 Game Technology and Interactive Systems David Strippgen 8 22 Wed, 2017-05-31 Game Technology and Interactive Systems David Strippgen 9 23 Wed, 2017-06-07 Game Technology and Interactive Systems David Strippgen 10 24 Wed, 2017-06-14 Game Technology and Interactive Systems David Strippgen 11 25 Wed, 2017-06-21 Web Technology Barne Kleinen 12 26 Wed, 2017-06-28 Web Technology Barne Kleinen 13 27 Wed, 2017-07-05 Web Technology Barne Kleinen 14 28 Wed, 2017-07-12 Web Technology Barne Kleinen 15 29 Wed, 2017-07-19 Web Technology Barne Kleinen 16 30 Wed, 2017-07-26 TBD</description></item><item><title>Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2017/media-programming-rails/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/media-programming-rails/schedule/</guid><description>Tentative. Aka subject to possible change.
-Week KW Date Topic Assignment 1 15 Wed, 2017-06-21 Ruby and Ruby on Rails, Project Start Week1 2 16 Wed, 2017-07-05 Active Record, Associations and Migrations Week2 3 17 Wed, 2017-07-12 Testing, Deployment Workflow Week3 4 18 Wed, 2017-07-19 User Authentication and Templates, AJAX Week4 5 19 Wed, 2017-07-26 Open Practice Week5</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Media Programming: Web Technology on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2017/media-programming-rails/</link><description>Recent content in Media Programming: Web Technology on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2017/media-programming-rails/index.xml" rel="self" type="application/rss+xml"/><item><title>Media Programming Schedule</title><link>https://bkleinen.github.io/classes/ss2017/media-programming-rails/overall-schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/media-programming-rails/overall-schedule/</guid><description>&lt;p>Tentative. Aka subject to possible change.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-04-12&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-04-19&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-04-26&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-05-03&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-05-10&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-05-17&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-05-24&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-05-31&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-06-07&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-06-14&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-06-21&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-06-28&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-05&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-12&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-19&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-26&lt;/td>
+ &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2017/media-programming-rails/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/media-programming-rails/schedule/</guid><description>&lt;p>Tentative. Aka subject to possible change.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">Assignment&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-06-21&lt;/td>
+ &lt;td style="text-align: left">Ruby and Ruby on Rails, Project Start&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/week-1">Week1&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-05&lt;/td>
+ &lt;td style="text-align: left">Active Record, Associations and Migrations&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/week-2">Week2&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-12&lt;/td>
+ &lt;td style="text-align: left">Testing, Deployment Workflow&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/week-3">Week3&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-19&lt;/td>
+ &lt;td style="text-align: left">User Authentication and Templates, AJAX&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/week-4-5">Week4&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Wed, 2017-07-26&lt;/td>
+ &lt;td style="text-align: left">Open Practice&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/week-4-5">Week5&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

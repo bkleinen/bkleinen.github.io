@@ -1,8 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tools/hugo/</link><description>Recent content in Hugo on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tools/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>Mermaid renders diagrams from simple markdown code. It can be used
-via integrating the available js library (yarn add mermaid), online via Mermaid-Live, is available in Github markdown files (and others) and can be easily integrated into hugo1 Here are some examples taken from Mermaid Live:
-stateDiagram-v2 [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] flowchart TD A[Christmas] --&amp;gt;|Get money| B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] flowchart TD A[Christmas] -->|Get money| B(Go shopping) B --> C{Let me think} C -->|One| D[Laptop] C -->|Two| E[iPhone] C -->|Three| F[fa:fa-car Car] stateDiagram-v2 [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] Flowchart Cheatsheet flowchart TD A[Start] --> B{Is it?</description></item><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/hugo/markdown/</guid><description>This is something in between a playground and a cheatsheet for hugo markdown.
-Markdown in Hugo https://gohugo.io/getting-started/configuration-markup/
-strikethrough not strikethrough https://www.markdownguide.org/
-https://www.markdownguide.org/tools/hugo/
-Ordered Lists https://www.markdownguide.org/basic-syntax#ordered-lists
-One Ident Sublists 4 Spaces or 1 Tab more Numbering does not have to be correct in the source But the first number matters second 42 is not a 42 Without a one it is not even recognized as a list 42. But the first number matters 42.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tools/hugo/</link><description>Recent content in Hugo on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tools/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>&lt;p>&lt;a href="https://mermaid.js.org/">Mermaid&lt;/a> renders diagrams from simple markdown code. It can be used&lt;/p>
+&lt;ul>
+&lt;li>via integrating the available js library (yarn add mermaid),&lt;/li>
+&lt;li>online via &lt;a href="https://mermaid.live/">Mermaid-Live&lt;/a>,&lt;/li>
+&lt;li>is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams">Github markdown files&lt;/a> (and others)&lt;/li>
+&lt;li>and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams">easily integrated into hugo&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;p>Here are some examples taken from Mermaid Live:&lt;/p>
+&lt;pre class="mermaid">stateDiagram-v2
+ [*] --> Still
+ Still --> [*]
+ Still --> Moving
+ Moving --> Still
+ Moving --> Crash
+ Crash --> [*]
+&lt;/pre>
+
+&lt;pre>&lt;code>flowchart TD
+ A[Christmas] --&amp;gt;|Get money| B(Go shopping)
+ B --&amp;gt; C{Let me think}
+ C --&amp;gt;|One| D[Laptop]
+ C --&amp;gt;|Two| E[iPhone]
+ C --&amp;gt;|Three| F[fa:fa-car Car]
+&lt;/code>&lt;/pre>
+&lt;pre class="mermaid">flowchart TD
+ A[Christmas] -->|Get money| B(Go shopping)
+ B --> C{Let me think}
+ C -->|One| D[Laptop]
+ C -->|Two| E[iPhone]
+ C -->|Three| F[fa:fa-car Car]
+&lt;/pre>
+
+&lt;pre class="mermaid">stateDiagram-v2
+ [*] --> Still
+ Still --> [*]
+ Still --> Moving
+ Moving --> Still
+ Moving --> Crash
+ Crash --> [*]
+&lt;/pre>
+
+&lt;h1 id="flowchart-cheatsheet">Flowchart Cheatsheet&lt;/h1>
+&lt;pre class="mermaid">flowchart TD
+ A[Start] --> B{Is it?}
+ B -->|Yes| C[OK]
+ C --> D[Rethink]
+ D --> B
+ B ---->|No| E[End]
+ id1>This is the text in the box]
+ id2{{This is the text in the box}}
+&lt;/pre>
+
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>hugo/themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/hugo/markdown/</guid><description>&lt;p>This is something in between a playground and a cheatsheet for hugo markdown.&lt;/p>
+&lt;h2 id="markdown-in-hugo">Markdown in Hugo&lt;/h2>
+&lt;p>&lt;a href="https://gohugo.io/getting-started/configuration-markup/">https://gohugo.io/getting-started/configuration-markup/&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>&lt;del>strikethrough&lt;/del>&lt;/li>
+&lt;li>
+&lt;pre tabindex="0">&lt;code class="language-strikethrough~~~" data-lang="strikethrough~~~">&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>&lt;del>not strikethrough&lt;/del>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.markdownguide.org/tools/hugo/">https://www.markdownguide.org/tools/hugo/&lt;/a>&lt;/p>
+&lt;h2 id="ordered-lists">Ordered Lists&lt;/h2>
+&lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists">https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>One
+&lt;ol>
+&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
+&lt;li>Numbering does not have to be correct in the source
+&lt;ol>
+&lt;li>But the first number matters&lt;/li>
+&lt;li>second 42 is not a 42&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Without a one it is not even recognized as a list
+42. But the first number matters
+42. second 42 is not a 43&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Two&lt;/li>
+&lt;/ol>
+&lt;h2 id="code-in-lists">Code in Lists&lt;/h2>
+&lt;ol>
+&lt;li>One
+&lt;ol>
+&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
+&lt;li>Numbering does not have to be correct in the source
+&lt;ol>
+&lt;li>
+&lt;p>But the first number matters&lt;/p></description></item></channel></rss>

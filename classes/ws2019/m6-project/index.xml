@@ -1,2 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project IN_VISIBLE (Master) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/m6-project/</link><description>Recent content in Project IN_VISIBLE (Master) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/m6-project/index.xml" rel="self" type="application/rss+xml"/><item><title>Project IN_VISIBLE (Master)</title><link>https://bkleinen.github.io/classes/ws2019/m6-project/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m6-project/schedule/</guid><description>The Tentative Schedule.
-W CW Date Topic 1 42 Wed 16/10/2019 Contextual Interviews Technology Brainstorming 2 43 Wed 23/10/2019 Affinity Tech. Proof of Concept 3 44 Wed 30/10/2019 Visions Tech. Proof of Concept 4 45 Wed 06/11/2019 Product Concepts Tech. Proof of Concept 5 46 Wed 13/11/2019 Prototype 6 47 Wed 20/11/2019 Prototype 7 48 Wed 27/11/2019 Prototype 8 49 Wed 04/12/2019 Prototype 9 50 Wed 11/12/2019 1. Evaluation 10 51 Wed 18/12/2019 Prototype 11 2 Wed 08/01/2020 Prototype 12 3 Wed 15/01/2020 Prototype 13 4 Wed 22/01/2020 2.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project IN_VISIBLE (Master) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/m6-project/</link><description>Recent content in Project IN_VISIBLE (Master) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/m6-project/index.xml" rel="self" type="application/rss+xml"/><item><title>Project IN_VISIBLE (Master)</title><link>https://bkleinen.github.io/classes/ws2019/m6-project/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m6-project/schedule/</guid><description>&lt;p>The &lt;strong>Tentative&lt;/strong> Schedule.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">W&lt;/th>
+ &lt;th style="text-align: left">CW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Wed 16/10/2019&lt;/td>
+ &lt;td style="text-align: left">Contextual Interviews&lt;/td>
+ &lt;td style="text-align: left">Technology Brainstorming&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Wed 23/10/2019&lt;/td>
+ &lt;td style="text-align: left">Affinity&lt;/td>
+ &lt;td style="text-align: left">Tech. Proof of Concept&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Wed 30/10/2019&lt;/td>
+ &lt;td style="text-align: left">Visions&lt;/td>
+ &lt;td style="text-align: left">Tech. Proof of Concept&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Wed 06/11/2019&lt;/td>
+ &lt;td style="text-align: left">Product Concepts&lt;/td>
+ &lt;td style="text-align: left">Tech. Proof of Concept&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Wed 13/11/2019&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Wed 20/11/2019&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Wed 27/11/2019&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Wed 04/12/2019&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Wed 11/12/2019&lt;/td>
+ &lt;td style="text-align: left">1. Evaluation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Wed 18/12/2019&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Wed 08/01/2020&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Wed 15/01/2020&lt;/td>
+ &lt;td style="text-align: left">Prototype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Wed 22/01/2020&lt;/td>
+ &lt;td style="text-align: left">2. Evaluation/Presentation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Wed 29/01/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

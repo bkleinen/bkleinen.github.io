@@ -1,22 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/</link><description>Recent content in Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2015/info3/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Assignment 02 - Use Cases and Class Diagrams</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-02-usecases-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-02-usecases-class/</guid><description>The Art and Science of Diagramming. Foto by Gary Barber
-In this exercise you will develop a detailed Scenario for a Use Case, and draw a Class Diagram for an application called &amp;ldquo;HTW&amp;rdquo; - Halloween Treats Worldwide.
-First, have a look at the description of the system:
-Halloween Treats Worldwide Foto by Pedro J. Ferreira
-Halloween Treats Worldwide (HTW) is planned to be an online-shop where people can buy original Halloween Treats.</description></item><item><title>Assignment 03 - Sequence Diagrams and State Machine Diagrams</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-03-sequence-state/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-03-sequence-state/</guid><description>Part 1: Sequence Diagrams Pelican launch sequence. Foto by Don McCullough Prelab Martin Fowler&amp;rsquo;s Chapter about Sequence Diagrams from the book &amp;ldquo;UML Distilled&amp;rdquo; is available as a sample chapter online.
-Read it as a preparation for the lab.
-Assignment As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:
-The Clock Display / Use case: timeTick() is called Auction / Use case: makeABid() is called Tech Support / Use case: user command is entered (start() method in SupportSystem) The Zuul Project / Use case: user enters command (method: play() in Game.</description></item><item><title>Assignment 04: Testing</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-04-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-04-testing/</guid><description>Test Button in Car. Foto by Mike Roberts
-Download the source code snippets for this assignment. Source Code for this Assignment: https://github.com/htw-imi-info3-archive/lab-04-testing
-##A. Black and White Box Tests
-In addition to what we&amp;rsquo;ve covered in class, please have a look at black-box and white-box testing.
-Getting started: Give the equivalence classes for testing a method that determines the absolute value of an integer using the black-box methodology. Don&amp;rsquo;t peek at the code yet!</description></item><item><title>Assignment 05 - Legacy Code - Refactoring to Patterns</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-05-legacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-05-legacy/</guid><description>The Gilded Rose, Trade District, World of Warcraft.
-Assignment: Gilded Rose Kata Source Code: There are three versions. Choose one. Have brief look at the readme and the GuildedRose class.
-Ruby Version: https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata Java/Eclipse Version with Test Stub: https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose Original Version using Maven: https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose Write Characterization Tests To be able to add the new functionality as requested you should write Characterization tests first. You will not yet refactor or add the required new functionality!</description></item><item><title>Assignment 06 - Rails - First Steps</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-06-rails-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-06-rails-1/</guid><description>Foto by Pedro J. Ferreira
-Prelab Read through two Rails Guides: https://guides.rubyonrails.org/active_record_basics.html https://guides.rubyonrails.org/association_basics.html Assignment Part 0: Show the Customer with it&amp;rsquo;s Name On the orders#show page, show the associated customer with its name rather than the ID - Test driven! You can use the :order1 factory for this, see Part 1 for more info on FactoryGirl test data.
-Part 1: Creating Testdata You should never be attached to manually created test data living in your development or test database.</description></item><item><title>Assignment 07 - Internationalization, n:m Associations and a Bit of Functionality</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-07-rails-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-07-rails-2/</guid><description>Assignment Sort or Search Pumpkins On the Pumpkin index site, add either a sort function for at least one pumpkin attribute or a search functionality. You will need to add a link or form to the index site, and perform the ordering/searching from the controller altering the @pumpkins variable. [https://guides.rubyonrails.org/active_record_querying.html] (https://guides.rubyonrails.org/active_record_querying.html) contains all necessary information on how to query Pumpkins.
-*** remember to make use of all the great pumpkins all of you added with their pull request you can use to populate your database!</description></item><item><title>Exercise 01 - Case Studies of Ethical Questions</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-casestudies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-casestudies/</guid><description>The German &amp;lsquo;&amp;lsquo;Gesellschaft für Informatik&amp;rsquo;&amp;rsquo; published Ethical Guidelines in 1994 that were updated in 2004. They are available online at https://fg-ie.gi.de/ethische-leitlinien.html.
-We will first have a closer look at the Ethical Guidelines, and then in groups of 3-4 persons you will choose one of the scenarios to read, discuss, and present to the class. Every member of the group will submit their own PDF version with a reflection on the scenario and how the Ethical Guidelines apply to this case.</description></item><item><title>Exercise 01 - Installation Instructions</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup-installation/</guid><description>(These are detailled instructions for the installation part of the Info 3 Startup Lab).
-Note on Eclipse, 06/Oct/2014 startup bug on Mavericks
-Which Computer to use? As most of your colleagues in the former semesters completely ignored the new iMacs in our Web Technology lab and rather unfolded tiny notebooks in front of the 27&amp;rsquo;&amp;rsquo; screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises.</description></item><item><title>Exercise 01 - Lab Startup and Ruby Finger Exercises</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup/</guid><description>Nerd Workplace. Foto by slworking2
-PreLab if you plan on using your own computer in the lab, make sure that you do the installation of at least ruby and a decent editor before coming to lab. Part 1: Setting up your environment Make sure that you have
-ruby, rails, git, a decent text editor installed on the computer you intend to use (or know how to run all these on the lab machines).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/</link><description>Recent content in Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2015/info3/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Assignment 02 - Use Cases and Class Diagrams</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-02-usecases-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-02-usecases-class/</guid><description>&lt;p>&lt;img src="../images/effective-diagrams.jpg" alt="Diagram" title="pumpkins">
+&lt;!-- raw HTML omitted -->The Art and Science of Diagramming. Foto by &lt;a href="https://www.flickr.com/photos/cannedtuna/8115853847">Gary Barber&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>In this exercise you will develop a &lt;strong>detailed Scenario for a Use Case&lt;/strong>, and &lt;strong>draw a Class Diagram&lt;/strong> for an application called &amp;ldquo;HTW&amp;rdquo; - Halloween Treats Worldwide.&lt;/p>
+&lt;p>First, have a look at the description of the system:&lt;/p>
+&lt;hr>
+&lt;h2 id="halloween-treats-worldwide">Halloween Treats Worldwide&lt;/h2>
+&lt;p>&lt;img src="../images/pumpkins-wide.jpg" alt="Pumpkins" title="pumpkins">
+&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/pedroferrer/3615212504">Pedro J. Ferreira&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title>Assignment 03 - Sequence Diagrams and State Machine Diagrams</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-03-sequence-state/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-03-sequence-state/</guid><description>&lt;h1 id="part-1-sequence-diagrams">Part 1: Sequence Diagrams&lt;/h1>
+&lt;p>&lt;img src="../images/sequence.jpg" alt="Launch Sequence">
+&lt;!-- raw HTML omitted -->Pelican launch sequence. &lt;a href="https://www.flickr.com/photos/69214385@N04/9172233502">Foto by Don McCullough &lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="prelab">Prelab&lt;/h2>
+&lt;p>Martin Fowler&amp;rsquo;s Chapter about Sequence Diagrams from the book &amp;ldquo;UML Distilled&amp;rdquo; &lt;a href="https://www.informit.com/articles/article.aspx?p=169507">is available as a sample chapter online.&lt;/a>&lt;/p>
+&lt;p>Read it as a preparation for the lab.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:&lt;/p></description></item><item><title>Assignment 04: Testing</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-04-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-04-testing/</guid><description>&lt;p>&lt;img src="../images/test-button.jpg" alt="Test Button">
+&lt;!-- raw HTML omitted -->Test Button in Car. &lt;a href="https://www.flickr.com/photos/cosmic_spanner/3766667411">Foto by Mike Roberts&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="download-the-source-code-snippets-for-this-assignment">Download the source code snippets for this assignment.&lt;/h2>
+&lt;p>Source Code for this Assignment: &lt;a href="https://github.com/htw-imi-info3-archive/lab-04-testing">https://github.com/htw-imi-info3-archive/lab-04-testing&lt;/a>&lt;/p>
+&lt;p>##A. Black and White Box Tests&lt;/p>
+&lt;p>In addition to what we&amp;rsquo;ve covered in class, please have a look at &lt;a href="https://en.wikipedia.org/wiki/Black_box_testing">black-box&lt;/a> and &lt;a href="https://en.wikipedia.org/wiki/White_box_testing">white-box&lt;/a> testing.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Getting started:&lt;/strong> Give the equivalence classes for testing a method that determines the absolute value of an integer using the black-box methodology. Don&amp;rsquo;t peek at the code yet! Now check out &lt;a href="https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/absolute.java">&lt;code>absolute.java&lt;/code>&lt;/a> in the repository and give the equivalence classes for a white-box test. Develop one test case for each equivalence class using JUnit.&lt;/li>
+&lt;li>&lt;strong>Black-box test&lt;/strong>: Look at this grading scale at the bottom of the page (Which is not the [grading scale for this course]({{ site.BaseURL }}/studies/grading/grading-scale)). Give the equivalence classes for a program that loops until a -1 is entered, asking for the number of points on this scale, prints the appropriate letter grade (A-F), and then prints the average number of points when -1 has been entered. Develop one test case for each equivalence class. Test your test cases with &lt;a href="https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/GradingScale.class">GradingScale.class&lt;/a> - this is a java programm. No fair decompiling the class! Report on the results. Did you find any errors?&lt;/li>
+&lt;li>&lt;strong>White-box test&lt;/strong> / path coverage: Examine the code for [TaxTime.java](&lt;a href="https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java">https://github.com/htw-imi-info3-archive/lab-04-testing/blob/master/a_black_and_white_box_tests/TaxTime.java&lt;/a>. Draw a code graph of the main class! How many independent paths are there? What are the conditions that cause each of the paths to be taken? Draw up a table giving you an overview of the conditions. Give test cases that exercise each path. Are there any errors in the program (besides the size of the tax bite)?&lt;/li>
+&lt;li>&lt;strong>Reflection&lt;/strong> Consider the last two examples, especially TaxTime. What makes this programs hard to test? How would you refactor TaxTime to make it testable automatically with JUnit?&lt;/li>
+&lt;/ol>
+&lt;h3 id="grading-scale-points--procent">Grading Scale (Points = Procent)&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Points&lt;/th>
+ &lt;th style="text-align: left">Grade&lt;/th>
+ &lt;th style="text-align: left">ECTS&lt;/th>
+ &lt;th style="text-align: left">Points&lt;/th>
+ &lt;th style="text-align: left">Grade&lt;/th>
+ &lt;th style="text-align: left">ECTS&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">95-100&lt;/td>
+ &lt;td style="text-align: left">1,0&lt;/td>
+ &lt;td style="text-align: left">A&lt;/td>
+ &lt;td style="text-align: left">65-69&lt;/td>
+ &lt;td style="text-align: left">3,0&lt;/td>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">90-94&lt;/td>
+ &lt;td style="text-align: left">1,3&lt;/td>
+ &lt;td style="text-align: left">A&lt;/td>
+ &lt;td style="text-align: left">60-64&lt;/td>
+ &lt;td style="text-align: left">3,3&lt;/td>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">85-89&lt;/td>
+ &lt;td style="text-align: left">1,7&lt;/td>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;td style="text-align: left">55-59&lt;/td>
+ &lt;td style="text-align: left">3,7&lt;/td>
+ &lt;td style="text-align: left">D&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">80-84&lt;/td>
+ &lt;td style="text-align: left">2,0&lt;/td>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;td style="text-align: left">50-54&lt;/td>
+ &lt;td style="text-align: left">4,0&lt;/td>
+ &lt;td style="text-align: left">D&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">75-79&lt;/td>
+ &lt;td style="text-align: left">2,3&lt;/td>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;td style="text-align: left">0-49&lt;/td>
+ &lt;td style="text-align: left">5,0&lt;/td>
+ &lt;td style="text-align: left">F&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">70-74&lt;/td>
+ &lt;td style="text-align: left">2,7&lt;/td>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="b-test-driven-development">B. Test Driven Development&lt;/h2>
+&lt;p>Your task is to develop deletion and reversion of a simple linked list test driven. You can do this either in Java or in Ruby. You find stubs in both languages on &lt;a href="https://github.com/htw-imi-info3-archive/lab-04-testing/tree/master/b_test_driven">github&lt;/a>.&lt;/p></description></item><item><title>Assignment 05 - Legacy Code - Refactoring to Patterns</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-05-legacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-05-legacy/</guid><description>&lt;p>&lt;img src="../images/The_Gilded_Rose.jpg" alt="The Gilded Rose">
+&lt;!-- raw HTML omitted -->The Gilded Rose, Trade District, &lt;a href="https://wowwiki-archive.fandom.com/wiki/Gilded_Rose">World of Warcraft.&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="assignment-gilded-rose-kata">Assignment: Gilded Rose Kata&lt;/h2>
+&lt;p>Source Code: There are three versions. Choose one. Have brief look at the
+readme and the GuildedRose class.&lt;/p>
+&lt;ul>
+&lt;li>Ruby Version: &lt;a href="https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata">https://github.com/htw-imi-info3-archive/lab-05-ruby-gilded-rose-kata&lt;/a>&lt;/li>
+&lt;li>Java/Eclipse Version with Test Stub: &lt;a href="https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose">https://github.com/htw-imi-info3-archive/lab-05-JavaEclipseGildedRose&lt;/a>&lt;/li>
+&lt;li>Original Version using Maven: &lt;a href="https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose">https://github.com/htw-imi-info3-archive/lab-05-JavaMavenGildedRose&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="write-characterization-tests">Write Characterization Tests&lt;/h3>
+&lt;p>To be able to add the new functionality as requested you should write
+Characterization tests first.
+You will not yet refactor or add the required new functionality!&lt;/p></description></item><item><title>Assignment 06 - Rails - First Steps</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-06-rails-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-06-rails-1/</guid><description>&lt;p>&lt;img src="../images/pumpkins-wide.jpg" alt="Pumpkins" title="pumpkins">
+Foto by &lt;a href="https://www.flickr.com/photos/pedroferrer/3615212504">Pedro J. Ferreira&lt;/a>&lt;/p>
+&lt;h1 id="prelab">Prelab&lt;/h1>
+&lt;ol>
+&lt;li>Read through two Rails Guides:
+&lt;ol>
+&lt;li>&lt;a href="https://guides.rubyonrails.org/active_record_basics.html">https://guides.rubyonrails.org/active_record_basics.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://guides.rubyonrails.org/association_basics.html">https://guides.rubyonrails.org/association_basics.html&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="assignment">Assignment&lt;/h1>
+&lt;h2 id="part-0-show-the-customer-with-its-name">Part 0: Show the Customer with it&amp;rsquo;s Name&lt;/h2>
+&lt;p>On the orders#show page, show the associated customer with its name rather than the ID -
+Test driven! You can use the :order1 factory for
+this, see Part 1 for more info on FactoryGirl test
+data.&lt;/p>
+&lt;h2 id="part-1-creating-testdata">Part 1: Creating Testdata&lt;/h2>
+&lt;p>You should never be attached to manually created test data living in your development or test database. Instead, you should have scripts that generate and re-generate this test data on demand.&lt;/p></description></item><item><title>Assignment 07 - Internationalization, n:m Associations and a Bit of Functionality</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-07-rails-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-07-rails-2/</guid><description>&lt;h1 id="assignment">Assignment&lt;/h1>
+&lt;h3 id="sort-or-search-pumpkins">Sort or Search Pumpkins&lt;/h3>
+&lt;p>On the Pumpkin index site, add either a sort function for at least one pumpkin
+attribute &lt;strong>or&lt;/strong> a search functionality. You will need to add a link or form to
+the index site, and perform the ordering/searching from the controller altering
+the @pumpkins variable. [https://guides.rubyonrails.org/active_record_querying.html]
+(&lt;a href="https://guides.rubyonrails.org/active_record_querying.html">https://guides.rubyonrails.org/active_record_querying.html&lt;/a>) contains all necessary
+information on how to query Pumpkins.&lt;/p>
+&lt;p>*** remember to make use of all the great pumpkins all of you added with their
+pull request you can use to populate your database! ***&lt;/p></description></item><item><title>Exercise 01 - Case Studies of Ethical Questions</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-casestudies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-casestudies/</guid><description>&lt;p>The German &amp;lsquo;&amp;lsquo;Gesellschaft für Informatik&amp;rsquo;&amp;rsquo; published Ethical Guidelines
+in 1994 that were updated in 2004. They are available online at
+&lt;a href="https://fg-ie.gi.de/ethische-leitlinien.html">https://fg-ie.gi.de/ethische-leitlinien.html&lt;/a>.&lt;/p>
+&lt;p>We will first have a closer look at the Ethical Guidelines, and then
+in groups of 3-4 persons you will choose one of the scenarios to
+read, discuss, and present to the class. Every member of the group
+will submit their own PDF version with a reflection on the scenario
+and how the Ethical Guidelines apply to this case. These are not
+group work, but will be done individually and submitted to the
+Moodle area.&lt;/p></description></item><item><title>Exercise 01 - Installation Instructions</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup-installation/</guid><description>&lt;p>(These are detailled instructions for the installation part of the &lt;a href="../lab-01-startup">Info 3 Startup Lab&lt;/a>).&lt;/p>
+&lt;h2 id="note-on-eclipse-06oct2014">Note on Eclipse, 06/Oct/2014&lt;/h2>
+&lt;p>&lt;a href="https://imi-bachelor.htw-berlin.de/studium/labore/hinweise//#c36938">startup bug on Mavericks&lt;/a>&lt;/p>
+&lt;h2 id="which-computer-to-use">Which Computer to use?&lt;/h2>
+&lt;p>As most of your colleagues in the former semesters completely ignored the new &lt;a href="https://imi-bachelor.htw-berlin.de/studium/labore/web-technology/">iMacs in our Web Technology lab&lt;/a> and rather unfolded tiny notebooks in front of the 27&amp;rsquo;&amp;rsquo; screens (which unfortunatley even cannot be used as an external monitor), I expect that you will also mainly use your personal computers for working on the exercises. If doing so, you need to make sure to have a set of software available.&lt;/p></description></item><item><title>Exercise 01 - Lab Startup and Ruby Finger Exercises</title><link>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/info3/labs/lab-01-startup/</guid><description>&lt;p>&lt;img src="../images/workplace.jpg" alt="Workplace" title="pumpkins">
+&lt;!-- raw HTML omitted -->Nerd Workplace. Foto by &lt;a href="https://www.flickr.com/photos/slworking/8539204081/">slworking2&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="prelab">PreLab&lt;/h2>
+&lt;ul>
+&lt;li>if you plan on using your own computer in the lab, make sure that you do the installation of at least ruby and a decent editor &lt;strong>before coming to lab&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h1 id="part-1-setting-up-your-environment">Part 1: Setting up your environment&lt;/h1>
+&lt;p>Make sure that you have&lt;/p>
+&lt;ul>
+&lt;li>ruby,&lt;/li>
+&lt;li>rails,&lt;/li>
+&lt;li>git,&lt;/li>
+&lt;li>a decent text editor&lt;/li>
+&lt;/ul>
+&lt;p>installed on the computer you intend to use (or know how to run all these on the lab machines).&lt;/p></description></item></channel></rss>

@@ -1,47 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info1 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/</link><description>Recent content in Info1 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/info1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Exercise 01: Getting Started and Shapes</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-01/</guid><description>Pre-Lab Preparation Download and install BlueJ 5 as described on the BlueJ page: https://bluej.org.
-P1. Which primitive data types are there in Java? Record where you found this information.
-P2. What are the types of the following values (constants)?
-0 &amp;ldquo;hello&amp;rdquo; 101 -1 true &amp;ldquo;true&amp;rdquo; &amp;ldquo;33&amp;rdquo; &amp;lsquo;3&amp;rsquo; 3.1415 P3. Pick up a book - you should have at least one at home. Is this book an object or a class? If it is a class, name some objects.</description></item><item><title>Exercise 02: TicketMachine</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-02/</guid><description>Printed Ticket. Sludge G
-Pre-lab 0. What could be wrong with the following constructor? Don&amp;rsquo;t execute it, think about it in your head.
-public TicketMachine (int ticketCost) { int price = ticketCost; balance = 0; total = 0; } 1. How can you tell the difference between a method and a constructor just by looking at its header?
-2. What do you think would be printed if you altered the fourth statement of printTicket so that price also has quotes around it, as follows: System.</description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-03/</guid><description>Books. Abhi Sharma
-This week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.
-Pre-lab What to Bring to Lab Please finish these exercises before coming to lab.
-P1. Why does the following version of refundBalance not give the same results as what we saw in class?
-public int refundBalance() { balance = 0; return balance; } P2.
-What happens if you try to compile the TicketMachine class with the following version of refundBalance?</description></item><item><title>Exercise 04: Rock Around the Clock - Part 1</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-04/</guid><description>Katarina Elevator in Stockholm, Foto by Arjan Richter
-This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.
-Pre-lab P0. Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.</description></item><item><title>Exercise 05: Rock Around the Clock - Part 2</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-05/</guid><description>Katarina Elevator in Stockholm, Foto by Arjan Richter
-This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.
-What To Hand In You need to upload 2 Files to Moodle:
-Your Lab Report as PDF with the extension .pdf (max. 5 pages) The source code folder containing all BlueJ projects compressed with ZIP and the extension .</description></item><item><title>Exercise 06: A Better Notebook</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-06/</guid><description>Foto by waferboard
-This week&amp;rsquo;s lab work is intended help you practice using loops.
-Pre-lab P0. Write a loop on paper that prints out all multiples of 5 between 10 and 95.
-P1. Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.
-P2. Assume you have a collection of students called imi1.</description></item><item><title>Exercise 07: Lambda Functions</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</guid><description>This week&amp;rsquo;s lab work is intended help you better understand lambda functions.
-Pre-lab Please bring these exercises printed out or written out and completed with you to lab. Doing the pre-lab will save you time during the lab.
-P0. If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?
-P1. Given the following code:</description></item><item><title>Exercise 08: Lotto and ...</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-08/</guid><description>This week&amp;rsquo;s lab work is intended give you practice using the Random class.
-Pre-Lab Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
-P1. How do you generate random numbers between 1 and 10 with Java? In what package is the library?
-P2. How do you define an array that can count how often the numbers between 1 and 10 are generated?</description></item><item><title>Exercise 09: Technical Support</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-09/</guid><description>This week&amp;rsquo;s lab work is intended give you practice using the Random class and HashMaps.
-Pre-Lab P0 Try out http://med-ai.com/models/eliza.html. Experiment a little. Can you trick the bot? How might this program work?
-What To Hand In Please hand in:
-zip-folder with your (documented) TechSupport code lab report as pdf Lab assignments are due on thursday at 10pm.
-Assignment - Technical Support Open the book chapter 6.2 for a refresher - this exercise is based on it.</description></item><item><title>Exercise 10: Bouncing Balls</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-10/</guid><description>This week&amp;rsquo;s lab work is intended give you practice working with the basic concepts of programming.
-Pre Lab P0. Download and open the Balls project (concerns Chapter 06 in the book). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.
-P1. Read the documentation of the Canvas class. Then answer the following questions in writing, including fragments of Java code:</description></item><item><title>Exercise 11: Testing with JUnit</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-11/</guid><description>This week&amp;rsquo;s lab work is intended give you practice testing and writing assertions.
-Pre Lab Please bring these exercises printed out or written out or in digital form with you to lab.
-P1. Write down six test cases for Day and Appointment that were not given in the book. Give each test case (and the ones from the lecture) a name.
-P2. What assertions do you need in order to be able to automate the tests?</description></item><item><title>Exercise 12 a: The World of You</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12-a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12-a/</guid><description>Pre-lab This week’s lab work will begin a larger project that will occupy us until the end of the semester.
-What to Bring to Lab Please bring these exercises printed out or written out with you to lab.
-P1. Design your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations.</description></item><item><title>Exercise 12: The World of You</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12/</guid><description>This week’s lab work will begin a larger project that will occupy us until the end of the semester. The groups you form today will stay groups for the remaining part of the semester!
-Pre-lab Please bring these exercises printed out or written out with you to the lab.
-P0. Invent your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting.</description></item><item><title>Exercise 13: Keeping Track of Stuff</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-13/</guid><description>This week’s lab work will continue a larger project that will occupy us until the end of the semester.
-Pre-lab Please bring these exercises printed out or written out with you to lab.
-P1. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?
-P2. What will the starting position of the items be?</description></item><item><title>Exercise 14: Pick up and Carry</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-14/</guid><description>This week&amp;rsquo;s lab work will finish up your project.
-Pre-lab Please bring these exercises printed out or written out with you to lab. Please have your name on your page.
-P0. Here are some informal specifications: A player must be able to pick up items from the current room. They can carry any number of items, but only up to a maximum weight limit. Some items are too heavy to be picked up.</description></item><item><title>Exercise Drölf: Inheritance</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-inheritance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-inheritance/</guid><description>This week&amp;rsquo;s lab work is intended give you practice working with inheritance. It combines content from various chapters in the book, including this week&amp;rsquo;s chapter, chapter 12.
-Post-Lab, AKA What To Turn In A report of your completed assignment, submitted in Moodle as a pdf Your BlueJ project as a zip file Lab assignments are due on Thursday at 22:00.
-Assignment Pokemon You are part of the team that develops the logic behind a Pokemon game.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info1 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/</link><description>Recent content in Info1 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/info1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Exercise 01: Getting Started and Shapes</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-01/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;strong>Preparation&lt;/strong> Download and install BlueJ 5 as described on the BlueJ page: &lt;a href="https://bluej.org">https://bluej.org&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong> Which primitive data types are there in Java? Record where you found this information.&lt;/p>
+&lt;p>&lt;strong>P2.&lt;/strong> What are the types of the following values (constants)?&lt;/p>
+&lt;ul>
+&lt;li>0&lt;/li>
+&lt;li>&amp;ldquo;hello&amp;rdquo;&lt;/li>
+&lt;li>101&lt;/li>
+&lt;li>-1&lt;/li>
+&lt;li>true&lt;/li>
+&lt;li>&amp;ldquo;true&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;33&amp;rdquo;&lt;/li>
+&lt;li>&amp;lsquo;3&amp;rsquo;&lt;/li>
+&lt;li>3.1415&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>P3.&lt;/strong> Pick up a book - you should have at least one at home. Is this book an object or a class? If it is a class, name some objects. If it is an object, name the class. Give your reasoning.&lt;/p></description></item><item><title>Exercise 02: TicketMachine</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-02/</guid><description>&lt;p>&lt;img src="../../images/ticket-5277919863_b741ccde84_b.jpg" alt="Book">
+&lt;!-- raw HTML omitted -->Printed Ticket. &lt;a href="https://www.flickr.com/photos/sludgeulper/5277919863/">Sludge G&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;p>&lt;strong>0.&lt;/strong> What could be wrong with the following constructor? Don&amp;rsquo;t execute it, think about it in your head.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">TicketMachine&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ticketCost&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">price&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ticketCost&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">total&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>1.&lt;/strong> How can you tell the difference between a method and a constructor just by looking at its header?&lt;/p>
+&lt;p>&lt;strong>2.&lt;/strong> What do you think would be printed if you altered the fourth statement of printTicket so that price also has quotes around it, as follows:
+System.out.println(&amp;quot;# &amp;quot; + &amp;ldquo;price&amp;rdquo; + &amp;quot; cents.&amp;quot;);
+Don&amp;rsquo;t execute this, just write down your expectations.&lt;/p></description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-03/</guid><description>&lt;p>&lt;img src="../../images/books-8314929977.jpg" alt="Book">
+&lt;!-- raw HTML omitted -->Books. &lt;a href="https://www.flickr.com/photos/abee5/8314929977/">Abhi Sharma&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
+&lt;p>&lt;strong>Please finish these exercises before coming to lab.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong>
+Why does the following version of refundBalance not give the same results as what we saw in class?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">refundBalance&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">return&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>P2.&lt;/strong>&lt;/p></description></item><item><title>Exercise 04: Rock Around the Clock - Part 1</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-04/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>&lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">&lt;img src="../../images/clock-stockholm-6085686394-320.jpg" alt="Clock">&lt;/a>
+&lt;!-- raw HTML omitted -->Katarina Elevator in Stockholm, Foto by &lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">Arjan Richter&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0.&lt;/strong> Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.&lt;/p></description></item><item><title>Exercise 05: Rock Around the Clock - Part 2</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-05/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>&lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">&lt;img src="../../images/clock-stockholm-6085686394-320.jpg" alt="Clock">&lt;/a>
+&lt;!-- raw HTML omitted -->Katarina Elevator in Stockholm, Foto by &lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">Arjan Richter&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.&lt;/p>
+&lt;h2 id="what-to-hand-in">What To Hand In&lt;/h2>
+&lt;p>You need to upload 2 Files to Moodle:&lt;/p></description></item><item><title>Exercise 06: A Better Notebook</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-06/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>&lt;img src="../../images/notebook-6783298985.jpg" alt="Notebook">
+&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/waferboard/6783298985">waferboard&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended help you practice using loops.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0&lt;/strong>. Write a loop on paper that prints out all multiples of 5 between 10 and 95.&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong> Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.&lt;/p></description></item><item><title>Exercise 07: Lambda Functions</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>This week&amp;rsquo;s lab work is intended help you better understand lambda functions.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;p>Please bring these exercises printed out or written out and completed with you to lab. Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0.&lt;/strong> If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?&lt;/p></description></item><item><title>Exercise 08: Lotto and ...</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-08/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week&amp;rsquo;s lab work is intended give you practice using the Random class.&lt;/p>
+&lt;hr>
+&lt;h1 id="pre-lab">Pre-Lab&lt;/h1>
+&lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. How do you generate random numbers between 1 and 10 with Java? In what package is the library?&lt;/p>
+&lt;p>&lt;strong>P2.&lt;/strong> How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.&lt;/p></description></item><item><title>Exercise 09: Technical Support</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-09/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice using the Random class and HashMaps.&lt;/p>
+&lt;hr>
+&lt;h1 id="pre-lab">Pre-Lab&lt;/h1>
+&lt;p>&lt;strong>P0&lt;/strong> Try out &lt;a href="http://med-ai.com/models/eliza.html">http://med-ai.com/models/eliza.html&lt;/a>. Experiment a little. Can you trick the bot? How might this program work?&lt;/p>
+&lt;hr>
+&lt;h1 id="what-to-hand-in">What To Hand In&lt;/h1>
+&lt;p>Please hand in:&lt;/p>
+&lt;ul>
+&lt;li>zip-folder with your (documented) TechSupport code&lt;/li>
+&lt;li>lab report as pdf&lt;/li>
+&lt;/ul>
+&lt;p>Lab assignments are due on thursday at 10pm.&lt;/p>
+&lt;hr>
+&lt;h1 id="assignment---technical-support">Assignment - Technical Support&lt;/h1>
+&lt;ol start="0">
+&lt;li>
+&lt;p>Open the book chapter 6.2 for a refresher - this exercise is based on it. &lt;a href="https://github.com/htw-imi-info1/exercise07-archived">Open the basic TechSupport project&lt;/a>. Expand it to give random responses as is done in the book.&lt;/p></description></item><item><title>Exercise 10: Bouncing Balls</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-10/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week&amp;rsquo;s lab work is intended give you practice working with the basic concepts of programming.&lt;/p>
+&lt;h2 id="pre-lab">Pre Lab&lt;/h2>
+&lt;p>&lt;strong>P0&lt;/strong>. Download and open the &lt;a href="https://github.com/htw-imi-info1/exercise08">Balls project&lt;/a> (concerns Chapter 06 in the book). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong> Read the documentation of the Canvas class. Then answer the following questions in writing, including fragments of Java code:&lt;/p></description></item><item><title>Exercise 11: Testing with JUnit</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-11/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice testing and writing assertions.&lt;/p>
+&lt;h4 id="pre-lab">Pre Lab&lt;/h4>
+&lt;p>Please bring these exercises printed out or written out or in digital form with you to lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. Write down six test cases for Day and Appointment that were not given in the book. Give each test case (and the ones from the lecture) a name.&lt;/p>
+&lt;p>&lt;strong>P2&lt;/strong>. What assertions do you need in order to be able to automate the tests?&lt;/p></description></item><item><title>Exercise 12 a: The World of You</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12-a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12-a/</guid><description>&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
+&lt;p>Please bring these exercises printed out or written out with you to lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. Design your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 12: The World of You</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-12/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester. The groups you form today will stay groups for the remaining part of the semester!&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Please bring these exercises printed out or written out with you to the lab.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Invent your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 13: Keeping Track of Stuff</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-13/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week’s lab work will continue a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Please bring these exercises printed out or written out with you to lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?&lt;/p>
+&lt;p>&lt;strong>P2.&lt;/strong> What will the starting position of the items be? List which items are going to be in which place.&lt;/p></description></item><item><title>Exercise 14: Pick up and Carry</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-14/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week&amp;rsquo;s lab work will finish up your project.&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Here are some informal specifications: A player must be able to pick up items from the current room. They can carry any number of items, but only up to a maximum weight limit. Some items are too heavy to be picked up. The player can drop one or all items in the current location. What changes are you going to have to make to your game? Don&amp;rsquo;t program them yet, just specify the changes that need to be made to each class in writing.&lt;/p></description></item><item><title>Exercise Drölf: Inheritance</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-inheritance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-inheritance/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice working with inheritance. It combines content from various chapters in the book, including this week&amp;rsquo;s chapter, chapter 12.&lt;/p>
+&lt;h1 id="post-lab-aka--what-to-turn-in">Post-Lab, AKA What To Turn In&lt;/h1>
+&lt;ul>
+&lt;li>A report of your completed assignment, submitted in Moodle as a pdf&lt;/li>
+&lt;li>Your BlueJ project as a zip file&lt;/li>
+&lt;/ul>
+&lt;p>Lab assignments are due on Thursday at 22:00.&lt;/p>
+&lt;hr>
+&lt;h1 id="assignment">Assignment&lt;/h1>
+&lt;h2 id="pokemon">Pokemon&lt;/h2>
+&lt;p>You are part of the team that develops the logic behind a Pokemon game.&lt;/p></description></item></channel></rss>

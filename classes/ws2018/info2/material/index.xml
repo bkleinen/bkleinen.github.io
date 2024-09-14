@@ -1,12 +1,396 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info 2 Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/</link><description>Recent content in Info 2 Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2018/info2/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 2 Python</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/python/</guid><description>Intro Learn python with unit tests: https://github.com/htw-imi-info2/learn-python-with-tests/tree/ws2018
-Algorithms and Datastructure Examples from &amp;ldquo;Introduction to Programming in Python&amp;rdquo; Home Page of the Book: Introduction to Programming in Python
-Installation You need to install a couple of additional packages to be able to run most of the examples in the book. See the To get started section on the Home Page - you can stop above &amp;ldquo;Configuring IDLE&amp;rdquo; if you already have a way to edit and run python programs on your computer.</description></item><item><title>Info2 WS2018 Topics and Grading</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading/</guid><description>With questions
-Sum: 115% - There might be questions that count in two categories - eg. the Complexity of a searching algorithm.
-115 Lecture Topic 10 Properties, especially Complexity of Algorithms 20 Abstract Data Types / Data Structures - Queue, Stack, List, Set, Directory/Map, Bags, Trees, Binary Search Trees, AVL Trees - The Java Collection Framework 15 Graphs and Graph Algorithms Graph Data Structure Graph Algorithms: Breath-First and Depth-First Search paths Dijkstra: cheapest path between start and end 20 2-3 aus: File I/O andNetworking in Java (Sockets) Maximum Contiguous Subsequence Sum Concurrency Rekursion Divide &amp;amp; Conquer Random numbers, Probabilistic Algorithms Finite State Automata (Grammars) 25 Sorting: pseudocode / in worten beschreiben oder daran erkennen, manual - Radixsort l * n - Mergesort n log n - Quicksort n log n - Heapsort n log n - Insertion Sort - Bogo Sort - Selection Sort - Cocktail Shaker 15 Searching and String Searching - Binary Search - Linear Search - String Searching - KMP (Skip Searching) 10 Python Draft done in class 4.</description></item><item><title>Info2 WS2018 Topics and Grading</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_questions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_questions/</guid><description>Sum: 115% - There might be questions that count in two categories - eg. the Complexity of a searching algorithm.
-115 Lecture Topic A 10 Properties, especially Complexity of Algorithms B 20 Abstract Data Types / Data Structures - Queue, Stack, List, Set, Directory/Map, Bags, Trees, Binary Search Trees, AVL Trees - The Java Collection Framework C 15 Graphs and Graph Algorithms Graph Data Structure Graph Algorithms: Breath-First and Depth-First Search paths Dijkstra: cheapest path between start and end D 20 2-3 aus: File I/O andNetworking in Java (Sockets) Maximum Contiguous Subsequence Sum Concurrency Rekursion Divide &amp;amp; Conquer Random numbers, Probabilistic Algorithms Finite State Automata (Grammars) E 25 Sorting: pseudocode / in worten beschreiben oder daran erkennen, manual - Radixsort l * n - Mergesort n log n - Quicksort n log n - Heapsort n log n - Insertion Sort - Bogo Sort - Selection Sort - Cocktail Shaker F 15 Searching and String Searching - Binary Search - Linear Search - String Searching - KMP (Skip Searching) G 10 Python Draft done in class 4.</description></item><item><title>Info2 WS2018 Topics and Grading Draft</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_class_draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_class_draft/</guid><description>This is just the draft!! see the final version
-Rough Overview: Percent and Topic Properties(Complexity) of Algorithms
-10-15 Abstract Data Types / Data Structures
-Queue, Stack, List, Set, Directory/Map, Bags, Trees, Binary Search Trees The Java Collection Framework 10 Graphs
-Graph Algorithms: Breath-First and Depth-First Search Dijkstra: cheapest path between start and end 10 Complexity of Algorithms Maximum Contiguous Subsequence Sum
-File I/O 5 Networking in Java (Sockets)
-Concurrency 5 Rekursion</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info 2 Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/</link><description>Recent content in Info 2 Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2018/info2/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 2 Python</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/python/</guid><description>&lt;h1 id="intro">Intro&lt;/h1>
+&lt;p>Learn python with unit tests: &lt;a href="https://github.com/htw-imi-info2/learn-python-with-tests/tree/ws2018">https://github.com/htw-imi-info2/learn-python-with-tests/tree/ws2018&lt;/a>&lt;/p>
+&lt;h1 id="algorithms-and-datastructure-examples-from-introduction-to-programming-in-python">Algorithms and Datastructure Examples from &amp;ldquo;Introduction to Programming in Python&amp;rdquo;&lt;/h1>
+&lt;p>Home Page of the Book: &lt;a href="https://introcs.cs.princeton.edu/python/home">Introduction to Programming in Python&lt;/a>&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>You need to install a couple of additional packages to be able to run most
+of the examples in the book. See the To get started
+section on the &lt;a href="https://introcs.cs.princeton.edu/python/home">Home Page&lt;/a> -
+you can stop above &amp;ldquo;Configuring IDLE&amp;rdquo; if you already have a way to edit and
+run python programs on your computer.&lt;/p></description></item><item><title>Info2 WS2018 Topics and Grading</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading/</guid><description>&lt;p>&lt;a href="../topics_and_grading_questions">With questions&lt;/a>&lt;/p>
+&lt;p>Sum: 115% - There might be questions that count in two categories - eg. the Complexity of a
+searching algorithm.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">115&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">Properties, especially Complexity of Algorithms&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Abstract Data Types / Data Structures&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Queue, Stack, List, Set, Directory/Map, Bags, Trees, Binary Search Trees, AVL Trees&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- The Java Collection Framework&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Graphs and Graph Algorithms&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Graph Data Structure&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Graph Algorithms: Breath-First and Depth-First Search&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">paths Dijkstra: cheapest path between start and end&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">2-3 aus:&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">File I/O andNetworking in Java (Sockets)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Maximum Contiguous Subsequence Sum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Concurrency&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Rekursion&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Divide &amp;amp; Conquer&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Random numbers, Probabilistic Algorithms&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata (Grammars)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Sorting: pseudocode / in worten beschreiben oder daran erkennen, manual&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Radixsort l * n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Mergesort n log n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Quicksort n log n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Heapsort n log n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Insertion Sort&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Bogo Sort&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Selection Sort&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Cocktail Shaker&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Searching and String Searching&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Binary Search&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Linear Search&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- String Searching&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- KMP (Skip Searching)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">Python&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;a href="../topics_and_grading_class_draft/">Draft done in class 4.1.2019&lt;/a>&lt;/p></description></item><item><title>Info2 WS2018 Topics and Grading</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_questions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_questions/</guid><description>&lt;p>Sum: 115% - There might be questions that count in two categories - eg. the Complexity of a
+searching algorithm.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">115&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">A&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">Properties, especially Complexity of Algorithms&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">B&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Abstract Data Types / Data Structures&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Queue, Stack, List, Set, Directory/Map, Bags, Trees, Binary Search Trees, AVL Trees&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- The Java Collection Framework&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">C&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Graphs and Graph Algorithms&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Graph Data Structure&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Graph Algorithms: Breath-First and Depth-First Search&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">paths Dijkstra: cheapest path between start and end&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">D&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">2-3 aus:&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">File I/O andNetworking in Java (Sockets)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Maximum Contiguous Subsequence Sum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Concurrency&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Rekursion&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Divide &amp;amp; Conquer&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Random numbers, Probabilistic Algorithms&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Finite State Automata (Grammars)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">E&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Sorting: pseudocode / in worten beschreiben oder daran erkennen, manual&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Radixsort l * n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Mergesort n log n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Quicksort n log n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Heapsort n log n&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Insertion Sort&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Bogo Sort&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Selection Sort&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Cocktail Shaker&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">F&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Searching and String Searching&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Binary Search&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- Linear Search&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- String Searching&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">- KMP (Skip Searching)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">G&lt;/td>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">Python&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;a href="../topics_and_grading_class_draft/">Draft done in class 4.1.2019&lt;/a>&lt;/p></description></item><item><title>Info2 WS2018 Topics and Grading Draft</title><link>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_class_draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/material/topics_and_grading_class_draft/</guid><description>&lt;p>This is just the draft!! &lt;a href="../topics_and_grading/">see the final version&lt;/a>&lt;/p>
+&lt;h2 id="rough-overview-percent-and-topic">Rough Overview: Percent and Topic&lt;/h2>
+&lt;p>Properties(Complexity) of Algorithms&lt;/p>
+&lt;p>10-15 Abstract Data Types / Data Structures&lt;/p>
+&lt;ul>
+&lt;li>Queue, Stack, List, Set, Directory/Map, Bags, Trees, Binary Search Trees&lt;/li>
+&lt;li>The Java Collection Framework&lt;/li>
+&lt;/ul>
+&lt;p>10 Graphs&lt;/p>
+&lt;ul>
+&lt;li>Graph Algorithms: Breath-First and Depth-First Search&lt;/li>
+&lt;li>Dijkstra: cheapest path between start and end&lt;/li>
+&lt;/ul>
+&lt;p>10 Complexity of Algorithms
+Maximum Contiguous Subsequence Sum&lt;/p>
+&lt;p>File I/O
+5 Networking in Java (Sockets)&lt;/p>
+&lt;p>Concurrency
+5 Rekursion&lt;/p></description></item></channel></rss>

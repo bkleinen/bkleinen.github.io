@@ -1,1 +1,166 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 2 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2017/wtat2/</link><description>Recent content in WTAT 2 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2017/wtat2/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT2 Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2017/wtat2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2017/wtat2/schedule/</guid><description>Week KW Date Lecture Topic Required Reading read this before the corresponding class! Lab 1 40 Thu, 2017-10-05 Agile Web Development - Intro Time Box, Topics, Rails Installation 2 41 Thu, 2017-10-12 Rails Dash, Ruby * Getting Started with Rails Definition of Topics &amp;amp; Groups, Installation cont&amp;rsquo;ed 3 42 Thu, 2017-10-19 Web Applications Overview, Active Record Associations and Migrations * Active Record Basics Topic 1: Rails and Active Record 4 43 Thu, 2017-10-26 Domain Models, Associations in the View * Active Record Associations Topic 1: Rails and Active Record 5 44 Thu, 2017-11-02 Testing and Bootstrap Ch.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 2 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2017/wtat2/</link><description>Recent content in WTAT 2 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2017/wtat2/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT2 Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2017/wtat2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2017/wtat2/schedule/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Required Reading &lt;!-- raw HTML omitted -->read this before the corresponding class!&lt;!-- raw HTML omitted -->&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">40&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-10-05&lt;/td>
+ &lt;td style="text-align: left">Agile Web Development - Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Time Box, Topics, Rails Installation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-10-12&lt;/td>
+ &lt;td style="text-align: left">Rails Dash, Ruby&lt;/td>
+ &lt;td style="text-align: left">* &lt;a href="https://guides.rubyonrails.org/getting_started.html">Getting Started with Rails&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Definition of Topics &amp;amp; Groups, Installation cont&amp;rsquo;ed&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-10-19&lt;/td>
+ &lt;td style="text-align: left">Web Applications Overview, Active Record Associations and Migrations&lt;/td>
+ &lt;td style="text-align: left">* &lt;a href="https://guides.rubyonrails.org/active_record_basics.html">Active Record Basics&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a1-activerecord/">Topic 1: Rails and Active Record&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-10-26&lt;/td>
+ &lt;td style="text-align: left">Domain Models, Associations in the View&lt;/td>
+ &lt;td style="text-align: left">* &lt;a href="https://guides.rubyonrails.org/association_basics.html">Active Record Associations&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a1-activerecord/">Topic 1: Rails and Active Record&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-11-02&lt;/td>
+ &lt;td style="text-align: left">Testing and Bootstrap&lt;/td>
+ &lt;td style="text-align: left">Ch. 7 Testing: Only &amp;ldquo;Installing RSpec for Testing&amp;rdquo;, Chapter 9 (Bootstrap)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a2-authentication/">Topic 2: Authentication &amp;amp; Testing&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-11-09&lt;/td>
+ &lt;td style="text-align: left">(no lecture)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-11-16&lt;/td>
+ &lt;td style="text-align: left">Authentication with Devise&lt;/td>
+ &lt;td style="text-align: left">(*) Chapter 2 (Devise)&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a2-authentication/">Topic 2: Authentication &amp;amp; Testing&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-11-23&lt;/td>
+ &lt;td style="text-align: left">Docker &amp;amp; Database&lt;/td>
+ &lt;td style="text-align: left">Laura Frank: &lt;a href="https://blog.codeship.com/using-docker-for-rails-development/">Using Docker for Rails Development&lt;/a>. Codeship-Blog, 19.6.2017&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a3-search-database-docker/">Topic 3: Search Functionality, Database &amp;amp; Docker&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-11-30&lt;/td>
+ &lt;td style="text-align: left">Active Record Queries&lt;/td>
+ &lt;td style="text-align: left">* &lt;a href="https://guides.rubyonrails.org/active_record_querying.html">Rails Guides: Active Record Query Interface&lt;/a> or Chapter 4, Chapter 5 for all&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a3-search-database-docker/">Topic 3: Search Functionality, Database &amp;amp; Docker&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-12-07&lt;/td>
+ &lt;td style="text-align: left">Rails Deployment and Continuous Integration&lt;/td>
+ &lt;td style="text-align: left">Martin Fowler&amp;rsquo;s Bliki Article on &lt;a href="https://martinfowler.com/articles/continuousIntegration.html">Continuous Integration&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a4-ci-cd-javascript/">Topic 4: Deployment &amp;amp; Javascript&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-12-14&lt;/td>
+ &lt;td style="text-align: left">Java Script&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks">Rails Guides: Working with JavaScript in Rails&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a4-ci-cd-javascript/">Topic 4: Deployment &amp;amp; Javascript&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Thu, 2017-12-21&lt;/td>
+ &lt;td style="text-align: left">no class&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-01-04&lt;/td>
+ &lt;td style="text-align: left">External APIs&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a5-api-security/">Topic 5: External APIs &amp;amp; Security&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-01-11&lt;/td>
+ &lt;td style="text-align: left">Securing Web Applications&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://guides.rubyonrails.org/security.html">Ruby on Rails Security Guide&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../topics/a5-api-security/">Topic 5: External APIs &amp;amp; Security&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-01-18&lt;/td>
+ &lt;td style="text-align: left">Exam Preparation, Planning of Own Topic &amp;amp; Project Finalization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Topic 6: choose one yourself&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-01-25&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Topic 6: choose one yourself&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Thu, 2018-02-01&lt;/td>
+ &lt;td style="text-align: left">No Lecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri, 2018-02-01&lt;/td>
+ &lt;td style="text-align: left">SHOWTIME! 10:00 H001&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Tue, 2018-02-06&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Final Reports/Projects due&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

@@ -1,1 +1,715 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flipped Classroom Week on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2021/networks/flipped/</link><description>Recent content in Flipped Classroom Week on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2021/networks/flipped/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ws2021/networks/flipped/weekplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/flipped/weekplan/</guid><description>Week 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 starting 07.10.21 14.10.21 21.10.21 28.10.21 04.11.21 11.11.21 18.11.21 25.11.21 02.12.21 09.12.21 16.12.21 23.12.21 30.12.21 06.01.22 13.01.22 20.01.22 27.01.22 03.02.22 10.02.22 Intro Lab Intro G1 Lab Intro G2 Chapter 1 Computer Networks and the Internet R 1 R 2 Lab G1 Lab G2 Chapter 2 Application Layer &amp;nbsp; &amp;nbsp; R1 R2 L1 L2 Chapter 3 Transport Layer &amp;nbsp; &amp;nbsp; R1 R2 L1 L2 Chapter 4 The Network Layer: Data Plane R1 R2 L1 L2 Chapter 5 The Network Layer: Control Plane &amp;nbsp; &amp;nbsp; R1 R2 L1 L2 Chapter 6 The Link Layer and LANs &amp;nbsp; R1 R2 L1 L2 R 1 read/watch Part 1 of this Chapter during this week R 2 read/watch Part 2 of this Chapter during this week Lab G1 L1 Group 1 prepares lab for this Chapter during the week Lab G2 L2 Group 2 prepares lab for this Chapter during the week &lt;!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flipped Classroom Week on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2021/networks/flipped/</link><description>Recent content in Flipped Classroom Week on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2021/networks/flipped/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ws2021/networks/flipped/weekplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/flipped/weekplan/</guid><description>&lt;html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+&lt;head>
+&lt;meta http-equiv=Content-Type content="text/html; charset=utf-8">
+&lt;meta name=ProgId content=Excel.Sheet>
+&lt;meta name=Generator content="Microsoft Excel 15">
+&lt;link rel=File-List href="schedule.fld/filelist.xml">
+&lt;style id="schedule_1553_Styles">
+&lt;!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:"\.";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#FFC000;
+	mso-pattern:black none;}
+.xl66
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#70AD47;
+	mso-pattern:black none;}
+.xl67
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#5B9BD5;
+	mso-pattern:black none;}
+.xl68
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.xl69
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;}
+.xl70
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"Short Date";}
+.xl71
+	{mso-style-parent:style0;
+	color:#ED7D31;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#FFC000;
+	mso-pattern:black none;}
+.xl72
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#70AD47;
+	mso-pattern:black none;}
+.xl73
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#5B9BD5;
+	mso-pattern:black none;}
+.xl74
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#FFC000;
+	mso-pattern:black none;}
+.xl75
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#FFE699;
+	mso-pattern:black none;}
+.xl76
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#A9D08E;
+	mso-pattern:black none;}
+.xl77
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#9BC2E6;
+	mso-pattern:black none;}
+.xl78
+	{mso-style-parent:style0;
+	color:#212529;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	background:#FFD966;
+	mso-pattern:black none;}
+.xl79
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:"Helvetica Neue", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"Short Date";
+	background:#9BC2E6;
+	mso-pattern:black none;}
+-->
+&lt;/style>
+&lt;/head>
+
+&lt;body link="#0563C1" vlink="#954F72" class=xl69>
+&lt;!--[if !excel]>&amp;nbsp;&amp;nbsp;&lt;![endif]-->
+&lt;!--The following information was generated by Microsoft Excel's Publish as Web
+Page wizard.-->
+&lt;!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.-->
+&lt;!----------------------------->
+&lt;!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+&lt;!----------------------------->
+
+&lt;div id="schedule_1553" align=center x:publishsource="Excel">
+
+&lt;table border=0 cellpadding=0 cellspacing=0 width=1995 style='border-collapse:
+ collapse;table-layout:fixed;width:1492pt'>
+ &lt;col class=xl69 width=127 style='mso-width-source:userset;mso-width-alt:4053;
+ width:95pt'>
+ &lt;col class=xl69 width=132 style='mso-width-source:userset;mso-width-alt:4224;
+ width:99pt'>
+ &lt;col class=xl69 width=121 style='mso-width-source:userset;mso-width-alt:3882;
+ width:91pt'>
+ &lt;col class=xl69 width=95 span=17 style='mso-width-source:userset;mso-width-alt:
+ 3029;width:71pt'>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 width=127 style='height:20.0pt;width:95pt'>&lt;/td>
+ &lt;td class=xl69 width=132 style='width:99pt'>&lt;/td>
+ &lt;td class=xl69 width=121 style='width:91pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;td class=xl69 width=95 style='width:71pt'>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Week&lt;/td>
+ &lt;td class=xl69 align=right>1&lt;/td>
+ &lt;td class=xl69 align=right>2&lt;/td>
+ &lt;td class=xl69 align=right>3&lt;/td>
+ &lt;td class=xl69 align=right>4&lt;/td>
+ &lt;td class=xl69 align=right>5&lt;/td>
+ &lt;td class=xl69 align=right>6&lt;/td>
+ &lt;td class=xl69 align=right>7&lt;/td>
+ &lt;td class=xl69 align=right>8&lt;/td>
+ &lt;td class=xl69 align=right>9&lt;/td>
+ &lt;td class=xl69 align=right>10&lt;/td>
+ &lt;td class=xl69 align=right>11&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69 align=right>12&lt;/td>
+ &lt;td class=xl69 align=right>13&lt;/td>
+ &lt;td class=xl69 align=right>14&lt;/td>
+ &lt;td class=xl69 align=right>15&lt;/td>
+ &lt;td class=xl69 align=right>16&lt;/td>
+ &lt;td class=xl69 align=right>17&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>starting&lt;/td>
+ &lt;td class=xl70 align=right>07.10.21&lt;/td>
+ &lt;td class=xl70 align=right>14.10.21&lt;/td>
+ &lt;td class=xl70 align=right>21.10.21&lt;/td>
+ &lt;td class=xl70 align=right>28.10.21&lt;/td>
+ &lt;td class=xl70 align=right>04.11.21&lt;/td>
+ &lt;td class=xl70 align=right>11.11.21&lt;/td>
+ &lt;td class=xl70 align=right>18.11.21&lt;/td>
+ &lt;td class=xl70 align=right>25.11.21&lt;/td>
+ &lt;td class=xl70 align=right>02.12.21&lt;/td>
+ &lt;td class=xl70 align=right>09.12.21&lt;/td>
+ &lt;td class=xl70 align=right>16.12.21&lt;/td>
+ &lt;td class=xl70 align=right>23.12.21&lt;/td>
+ &lt;td class=xl70 align=right>30.12.21&lt;/td>
+ &lt;td class=xl70 align=right>06.01.22&lt;/td>
+ &lt;td class=xl70 align=right>13.01.22&lt;/td>
+ &lt;td class=xl70 align=right>20.01.22&lt;/td>
+ &lt;td class=xl70 align=right>27.01.22&lt;/td>
+ &lt;td class=xl70 align=right>03.02.22&lt;/td>
+ &lt;td class=xl70 align=right>10.02.22&lt;/td>
+ &lt;/tr>
+ &lt;tr height=53 style='mso-height-source:userset;height:40.0pt'>
+ &lt;td height=53 class=xl69 style='height:40.0pt'>Intro&lt;/td>
+ &lt;td class=xl79>Lab Intro G1&lt;/td>
+ &lt;td class=xl79>Lab Intro G2&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;td class=xl70>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Chapter 1&lt;/td>
+ &lt;td class=xl65 colspan=4 style='mso-ignore:colspan'>Computer Networks and the
+ Internet&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl65>R 1&lt;/td>
+ &lt;td class=xl65>R 2&lt;/td>
+ &lt;td class=xl75>Lab G1&lt;/td>
+ &lt;td class=xl75>Lab G2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Chapter 2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl66 colspan=2 style='mso-ignore:colspan'>Application Layer&lt;/td>
+ &lt;td class=xl72>&amp;nbsp;&lt;/td>
+ &lt;td class=xl72>&amp;nbsp;&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl66>R1&lt;/td>
+ &lt;td class=xl66>R2&lt;/td>
+ &lt;td class=xl76>L1&lt;/td>
+ &lt;td class=xl76>L2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Chapter 3&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl67 colspan=2 style='mso-ignore:colspan'>Transport Layer&lt;/td>
+ &lt;td class=xl73>&amp;nbsp;&lt;/td>
+ &lt;td class=xl73>&amp;nbsp;&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl67>R1&lt;/td>
+ &lt;td class=xl67>R2&lt;/td>
+ &lt;td class=xl77>L1&lt;/td>
+ &lt;td class=xl77>L2&lt;/td>
+ &lt;td class=xl68>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Chapter 4&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl65 colspan=4 style='mso-ignore:colspan'>The Network Layer: Data
+ Plane&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl65>R1&lt;/td>
+ &lt;td class=xl65>R2&lt;/td>
+ &lt;td class=xl78>L1&lt;/td>
+ &lt;td class=xl78>L2&lt;/td>
+ &lt;td class=xl68>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Chapter 5&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl66 colspan=4 style='mso-ignore:colspan'>The Network Layer:
+ Control Plane&lt;/td>
+ &lt;td class=xl72>&amp;nbsp;&lt;/td>
+ &lt;td class=xl72>&amp;nbsp;&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl66>R1&lt;/td>
+ &lt;td class=xl66>R2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl76>L1&lt;/td>
+ &lt;td class=xl76>L2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>Chapter 6&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl67 colspan=3 style='mso-ignore:colspan'>The Link Layer and LANs&lt;/td>
+ &lt;td class=xl73>&amp;nbsp;&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl67>R1&lt;/td>
+ &lt;td class=xl67>R2&lt;/td>
+ &lt;td class=xl77>L1&lt;/td>
+ &lt;td class=xl77>L2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl65>R 1&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69 colspan=6 style='mso-ignore:colspan'>read/watch Part 1 of this
+ Chapter during this week&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl65>R 2&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69 colspan=6 style='mso-ignore:colspan'>read/watch Part 2 of this
+ Chapter during this week&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl65>Lab G1&lt;/td>
+ &lt;td class=xl66>L1&lt;/td>
+ &lt;td class=xl68 colspan=6 style='mso-ignore:colspan'>Group 1 prepares lab for
+ this Chapter during the week&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;tr height=27 style='height:20.0pt'>
+ &lt;td height=27 class=xl69 style='height:20.0pt'>&lt;/td>
+ &lt;td class=xl65>Lab G2&lt;/td>
+ &lt;td class=xl66>L2&lt;/td>
+ &lt;td class=xl68 colspan=6 style='mso-ignore:colspan'>Group 2 prepares lab for
+ this Chapter during the week&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;td class=xl69>&lt;/td>
+ &lt;/tr>
+ &lt;![if supportMisalignedColumns]>
+ &lt;tr height=0 style='display:none'>
+ &lt;td width=127 style='width:95pt'>&lt;/td>
+ &lt;td width=132 style='width:99pt'>&lt;/td>
+ &lt;td width=121 style='width:91pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;td width=95 style='width:71pt'>&lt;/td>
+ &lt;/tr>
+ &lt;![endif]>
+&lt;/table>
+
+&lt;/div>
+
+
+&lt;!----------------------------->
+&lt;!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+&lt;!----------------------------->
+&lt;/body>
+
+&lt;/html></description></item></channel></rss>

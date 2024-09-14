@@ -1,6 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/markdown/</link><description>Recent content in Markdown on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/hugo/markdown/</guid><description>This is something in between a playground and a cheatsheet for hugo markdown.
-Markdown in Hugo https://gohugo.io/getting-started/configuration-markup/
-strikethrough not strikethrough https://www.markdownguide.org/
-https://www.markdownguide.org/tools/hugo/
-Ordered Lists https://www.markdownguide.org/basic-syntax#ordered-lists
-One Ident Sublists 4 Spaces or 1 Tab more Numbering does not have to be correct in the source But the first number matters second 42 is not a 42 Without a one it is not even recognized as a list 42. But the first number matters 42.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/markdown/</link><description>Recent content in Markdown on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/hugo/markdown/</guid><description>&lt;p>This is something in between a playground and a cheatsheet for hugo markdown.&lt;/p>
+&lt;h2 id="markdown-in-hugo">Markdown in Hugo&lt;/h2>
+&lt;p>&lt;a href="https://gohugo.io/getting-started/configuration-markup/">https://gohugo.io/getting-started/configuration-markup/&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>&lt;del>strikethrough&lt;/del>&lt;/li>
+&lt;li>
+&lt;pre tabindex="0">&lt;code class="language-strikethrough~~~" data-lang="strikethrough~~~">&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>&lt;del>not strikethrough&lt;/del>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.markdownguide.org/tools/hugo/">https://www.markdownguide.org/tools/hugo/&lt;/a>&lt;/p>
+&lt;h2 id="ordered-lists">Ordered Lists&lt;/h2>
+&lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists">https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>One
+&lt;ol>
+&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
+&lt;li>Numbering does not have to be correct in the source
+&lt;ol>
+&lt;li>But the first number matters&lt;/li>
+&lt;li>second 42 is not a 42&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Without a one it is not even recognized as a list
+42. But the first number matters
+42. second 42 is not a 43&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Two&lt;/li>
+&lt;/ol>
+&lt;h2 id="code-in-lists">Code in Lists&lt;/h2>
+&lt;ol>
+&lt;li>One
+&lt;ol>
+&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
+&lt;li>Numbering does not have to be correct in the source
+&lt;ol>
+&lt;li>
+&lt;p>But the first number matters&lt;/p></description></item></channel></rss>

@@ -1,1 +1,257 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT2 WS 2019/20 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/</link><description>Recent content in WT2 WS 2019/20 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/wt2-usability/index.xml" rel="self" type="application/rss+xml"/><item><title>WT2 Poster Session</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/postersession/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/wt2-usability/postersession/</guid><description>Topics Chapter Pages Who? 0 Chapter 07: A Basis for Good Product Behavior 12 BK 1 Chapter 08: Digital Etiquette 26 2 Chapter 09: Platform and Posture 31 3 Chapter 10: Optimizing for Intermediates 11 4 Chapter 11: Orchestration and Flow 22 5 Chapter 12: Reducing Work and Eliminating Excise 27 6 Chapter 13: Metaphors, Idioms, and Affordances 25 7 Chapter 14: Rethinking Data Entry, Storage, and Retrieval 31 8 Chapter 15: Preventing Errors and Informing Decisions 22 9 Chapter 16: Designing for Different Needs 26 10 Chapter 17: Integrating Visual Design 28 Timetable Min Topic 30 Introduction 60 Reading &amp;amp; Self-Study Break 30 Poster Creation 60 Poster Session Relevanz und Auswertung (Chapter 08-17) Eine Klausur-Frage zu Ihrem eigenen Kapitel Eine Klausur-Frage zu einem von Ihnen gewählten anderen Kapitel</description></item><item><title>WT2 Usability WS 2019/20</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/wt2-usability/literature/</guid><description/></item><item><title>WT2 Usability WS 2019/20 Schedule</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/wt2-usability/schedule/</guid><description>Week KW Date Due Lecture Lab 1 41 Fri 11/10/2019 Introduction, Guidelines Usability Heuristics Topic Brainstorming 2 42 Fri 18/10/2019 Overview UCD Process, Introduction e-learning Finalization of Topics and Project Focus 3 43 Fri 25/10/2019 Usability Heuristics e-learning Heuristical Analysis of Example Applications 4 44 Fri 01/11/2019 A1 Contextual Inquiry. Required Reading: About Face Ch.1+2 (Moodle) Contextual Interviews &amp;amp; Interpretation Sessions 5 45 Fri 08/11/2019 Personas. Required Reading: About Face Ch.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT2 WS 2019/20 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/</link><description>Recent content in WT2 WS 2019/20 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/wt2-usability/index.xml" rel="self" type="application/rss+xml"/><item><title>WT2 Poster Session</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/postersession/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/wt2-usability/postersession/</guid><description>&lt;h2 id="topics">Topics&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Chapter&lt;/th>
+ &lt;th style="text-align: left">Pages&lt;/th>
+ &lt;th style="text-align: left">Who?&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">Chapter 07: A Basis for Good Product Behavior&lt;/td>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">BK&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Chapter 08: Digital Etiquette&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Chapter 09: Platform and Posture&lt;/td>
+ &lt;td style="text-align: left">31&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Chapter 10: Optimizing for Intermediates&lt;/td>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Chapter 11: Orchestration and Flow&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Chapter 12: Reducing Work and Eliminating Excise&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Chapter 13: Metaphors, Idioms, and Affordances&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">Chapter 14: Rethinking Data Entry, Storage, and Retrieval&lt;/td>
+ &lt;td style="text-align: left">31&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">Chapter 15: Preventing Errors and Informing Decisions&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">Chapter 16: Designing for Different Needs&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">Chapter 17: Integrating Visual Design&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="timetable">Timetable&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Min&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Introduction&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">60&lt;/td>
+ &lt;td style="text-align: left">Reading &amp;amp; Self-Study&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Break&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Poster Creation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">60&lt;/td>
+ &lt;td style="text-align: left">Poster Session&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="relevanz-und-auswertung-chapter-08-17">Relevanz und Auswertung (Chapter 08-17)&lt;/h2>
+&lt;ul>
+&lt;li>Eine Klausur-Frage zu Ihrem eigenen Kapitel&lt;/li>
+&lt;li>Eine Klausur-Frage zu einem von Ihnen gewählten anderen Kapitel&lt;/li>
+&lt;/ul></description></item><item><title>WT2 Usability WS 2019/20</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/wt2-usability/literature/</guid><description>&lt;!-- raw HTML omitted --></description></item><item><title>WT2 Usability WS 2019/20 Schedule</title><link>https://bkleinen.github.io/classes/ws2019/wt2-usability/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/wt2-usability/schedule/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Due&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Fri 11/10/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction, Guidelines Usability Heuristics&lt;/td>
+ &lt;td style="text-align: left">Topic Brainstorming&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Fri 18/10/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Overview UCD Process, Introduction e-learning&lt;/td>
+ &lt;td style="text-align: left">Finalization of Topics and Project Focus&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Fri 25/10/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/assignment_01/#e-learning-usability-heuristics">Usability Heuristics e-learning&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Heuristical Analysis of Example Applications&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Fri 01/11/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/assignment_01/">A1&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Contextual Inquiry. Required Reading: About Face Ch.1+2 (Moodle)&lt;/td>
+ &lt;td style="text-align: left">Contextual Interviews &amp;amp; Interpretation Sessions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Fri 08/11/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Personas. Required Reading: About Face Ch. 3 (Moodle)&lt;/td>
+ &lt;td style="text-align: left">Contextual Interviews &amp;amp; Interpretation Sessions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Fri 15/11/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Methods for User Research in User Centered Design&lt;/td>
+ &lt;td style="text-align: left">Affinity&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Fri 22/11/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visioning and Product Concepts&lt;/td>
+ &lt;td style="text-align: left">Affinity, Wall Walk and Personas.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Fri 29/11/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/assignment_02/">A2&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">(ausgefallen)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Fri 06/12/2019&lt;/td>
+ &lt;td style="text-align: left">RESCHEDULED!!&lt;/td>
+ &lt;td style="text-align: left">RESCHEDULED to Fri 29/11/2019 and Fri 10/01/20 15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">RESCHEDULED&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Fri 13/12/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../postersession/">Making Well-Behaved Products Poster Session (About Face Part II)&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Poster Session&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Fri 20/12/2019&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Storyboards and Paper Prototypes&lt;/td>
+ &lt;td style="text-align: left">Visioning, Product Concepts, Storyboards&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Fri 10/01/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/assignment_03/">A3&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Usability Testing 12:15-17:15!&lt;/td>
+ &lt;td style="text-align: left">Usability Testing 12:15-17:15!!&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Fri 17/01/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Usabiltity&lt;/td>
+ &lt;td style="text-align: left">Paper Prototypes Interviews&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Fri 24/01/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Contextual Design Roundup &amp;amp; Exam Preparation&lt;/td>
+ &lt;td style="text-align: left">Exam Preparation &amp;amp; Moodle Trial Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Fri 31/01/2020&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../assignments/assignment_04/">A4&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">SHOWTIME&lt;/td>
+ &lt;td style="text-align: left">SHOWTIME&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Wed, 2019-02-05&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Interface Design Principles /Don Norman: The Design of Everyday Things&lt;/p></description></item></channel></rss>

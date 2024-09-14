@@ -1,10 +1,436 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bluej on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/bluej/</link><description>Recent content in Bluej on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/bluej/index.xml" rel="self" type="application/rss+xml"/><item><title>Design of the Original</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</guid><description>up next&amp;gt; The #colon;ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book &amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling)
-Here&amp;rsquo;s a class diagram with the private fields and public methods (Constructors are omitted for clarity):
-%%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f0cd91', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#006100', 'tertiaryColor': '#fff' } } }%% classDiagram class ClockDisplay class NumberDisplay ClockDisplay .</description></item><item><title>ClockDisplay Critique</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</guid><description>&amp;lt;prev up next&amp;gt; The ClockDisplay aims at showing object interaction, which it does.
-The problems I see are: it mixes Model and Representation. Furthermore, the Model or more simply put the stored state, which is the time the clocks shows at the moment, is distributed between three objects - a NumberDisplay for hours and minutes respectively, and the ClockDisplay holding the knowledge how to combine the two.
-also, the construction of the displayString is distributed between all objects - see the updateDisplay() part of the timeTick sequence diagram.</description></item><item><title>A very simple ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</guid><description>&amp;lt;prev up next&amp;gt; All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from getTime() after either the time has been set to 13:45 by calling setTime() or after calling the timeTick() method the appropriate amount of times.
-This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays in combination with the timeTick / increment makes little sense and seems to be quite confusing for students.</description></item><item><title>Kara ClockDisplays</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</guid><description>&amp;lt;prev up next&amp;gt; &amp;hellip; not yet here, see KaraClock Exercises for now</description></item><item><title>LED ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</guid><description>&amp;lt;prev up Documentation LEDDisplay extends ClockDisplay %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f0cd91', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#006100', 'tertiaryColor': '#fff' } } }%% classDiagram class ClockDisplay class LEDDisplay class NumberDisplay ClockDisplay &lt;|-- LEDDisplay LEDDisplay ..> NumberDisplay class ClockDisplay{ -String displayString -int minutesInDay void timeTick() void setTime(int hour, int minute) String getTime() void updateDisplay() String getDisplayValue(int value) initRealDisplay(int hour, int minute) updateRealDisplay() } class LEDDisplay{ -NumberDisplay hours -NumberDisplay minutes initRealDisplay(int hour, int minute) updateRealDisplay() } NumberDisplay: void setValue(int) ClockDisplay: additional methods for clock and automatic Ticker %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f0cd91', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#006100', 'tertiaryColor': '#fff' } } }%% classDiagram class ClockDisplay{ void start() void stop() void toggleTicker() void setTickerSpeed(int) } LEDDisplay: setTime() - complete %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f69e9d', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#f4f4f4', 'activationBorderColor': '#000', 'tertiaryColor': '#fff' } } }%% sequenceDiagram actor YOU activate #colon;LEDDisplay YOU->>+#colon;LEDDisplay: setTime(13,45) #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay() activate #colon;LEDDisplay #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay() activate hours#colon;NumberDisplay #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13) activate lower#colon;LEDDigit hours#colon;NumberDisplay->>+lower#colon;LEDDigit:display(3) deactivate lower#colon;LEDDigit activate upper#colon;LEDDigit hours#colon;NumberDisplay->>+upper#colon;LEDDigit:display(1) deactivate upper#colon;LEDDigit deactivate hours#colon;NumberDisplay activate minutes#colon;NumberDisplay #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45) activate lower_m#colon;LEDDigit minutes#colon;NumberDisplay->>+lower_m#colon;LEDDigit:display(5) deactivate lower_m#colon;LEDDigit activate upper_m#colon;LEDDigit minutes#colon;NumberDisplay->>+upper_m#colon;LEDDigit:display(4) deactivate upper_m#colon;LEDDigit deactivate minutes#colon;NumberDisplay deactivate #colon;LEDDisplay deactivate #colon;LEDDisplay deactivate #colon;LEDDisplay #colon;LEDDisplay-->>-YOU:void LEDDisplay: setTime() - ClockDisplay &amp;amp; NumberDisplay %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f69e9d', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#f4f4f4', 'activationBorderColor': '#000', 'tertiaryColor': '#fff' } } }%% sequenceDiagram actor YOU activate #colon;LEDDisplay YOU->>+#colon;LEDDisplay: setTime(13,45) #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay() activate #colon;LEDDisplay #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay() activate hours#colon;NumberDisplay #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13) deactivate hours#colon;NumberDisplay activate minutes#colon;NumberDisplay #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45) deactivate minutes#colon;NumberDisplay deactivate #colon;LEDDisplay deactivate #colon;LEDDisplay deactivate #colon;LEDDisplay #colon;LEDDisplay-->>-YOU:void LEDDisplay: setTime() - both NumberDisplays &amp;amp; LEDDigit %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f69e9d', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#f4f4f4', 'activationBorderColor': '#000', 'tertiaryColor': '#fff' } } }%% sequenceDiagram #colon;LEDDisplay->>+#colon;NumberDisplay: updateDisplay(13) activate lower#colon;LEDDigit #colon;NumberDisplay->>+lower#colon;LEDDigit:display(3) deactivate lower#colon;LEDDigit activate upper#colon;LEDDigit #colon;NumberDisplay->>+upper#colon;LEDDigit:display(1) deactivate upper#colon;LEDDigit deactivate #colon;NumberDisplay ClockDisplay original: setTime() copy %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f69e9d', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#f4f4f4', 'activationBorderColor': '#000', 'tertiaryColor': '#fff' } } }%% sequenceDiagram actor YOU YOU->>+#colon;ClockDisplay: setTime(13,45) #colon;ClockDisplay->>+hours#colon;NumberDisplay:setValue(13) hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void #colon;ClockDisplay->>+minutes#colon;NumberDisplay:setValue(45) minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay() #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue() hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue() minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString deactivate #colon;ClockDisplay #colon;ClockDisplay-->>-YOU:void LEDDisplay: setTime() NumberDisplay-&amp;gt;LEDDigit %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f69e9d', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#f4f4f4', 'activationBorderColor': '#000', 'tertiaryColor': '#fff' } } }%% sequenceDiagram activate #colon;LEDDigit #colon;NumberDisplay->>+#colon;LEDDigit: display(9) loop each Segment alt segment needs to be shown for value activate #colon;Segment #colon;LEDDigit->>+#colon;Segment: makeVisible() deactivate #colon;Segment else #colon;LEDDigit->>+#colon;Segment: makeInvisible() deactivate #colon;Segment end end deactivate #colon;LEDDigit Initialization (maybe old) %%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#f69e9d', 'primaryTextColor': '#000', 'primaryBorderColor': '#000', 'lineColor': '#F8B229', 'secondaryColor': '#f4f4f4', 'activationBorderColor': '#000', 'tertiaryColor': '#fff' } } }%% sequenceDiagram actor YOU create participant ClockDisplay YOU->>+ClockDisplay: new() create participant LEDClockDisplay ClockDisplay->>+LEDClockDisplay: new() create participant Canvas LEDClockDisplay->>+Canvas: new() Canvas-->>-LEDClockDisplay: canvas LEDClockDisplay-->>-ClockDisplay: leds loop [ for each number display part] create participant NumberDisplay ClockDisplay->>+NumberDisplay:new() NumberDisplay-->>-ClockDisplay:aNumberDisplay ClockDisplay->>+LEDClockDisplay: add(aNumberDisplay) LEDClockDisplay->>+NumberDisplay:initDisplay(pos, canvas) loop [ for each led digit] create participant LEDDigit NumberDisplay->>+LEDDigit:new(pos, canvas) loop [ for each led segment] create participant Segment LEDDigit->>+Segment:new(pos, canvas) Segment-->>-LEDDigit: segment end LEDDigit-->>-NumberDisplay: digit end NumberDisplay-->>-LEDClockDisplay:void LEDClockDisplay-->>-ClockDisplay:void end ClockDisplay-->>-YOU:void loop [ for each display part]</description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/save_object_bench/</guid><description>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:
-1. Save the state of your object bench Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class: Now, call “Object Bench to Test Fixture” from the Test Class’ context menu.</description></item><item><title>ClockDisplay Example: Reflections and Improvements</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/</guid><description>I have been working with the ClockDisplay example as shown in the Textbook &amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling (Barnes and Kölling 2017) for a while now. While the book contains many great examples that allow the discussion of a broad range of object oriented design, this example has some issues that always bugged me.
-This page is about my approach(es) to improve the ClockDisplay example.</description></item><item><title>JUnit in BlueJ</title><link>https://bkleinen.github.io/material/info1/junit_in_bluej/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/junit_in_bluej/</guid><description>Monday, 04.December 2023 JUnit is not part of the Java API, it is a third-party software. You find all information about JUnit, including a user guide and information about and download of the latest version on https://junit.org.
-As of this writing, the current version is 5.10.1, but the version included in BlueJ 5.2.1 is JUnit 5.5.2, as you can check within the installation of BlueJ:
-BlueJ.app/Contents/Java&amp;gt;ls junit* junit-4.12.jar	junit-jupiter-params-5.5.2.jar	junit-platform-suite-api-1.5.2.jar junit-jupiter-5.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bluej on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/bluej/</link><description>Recent content in Bluej on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/bluej/index.xml" rel="self" type="application/rss+xml"/><item><title>Design of the Original</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</guid><description>&lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/">next&amp;gt;&lt;/a>
+
+
+&lt;p>The #colon;ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book &lt;a href="https://www.bluej.org/objects-first/">&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a>)&lt;/p>
+&lt;p>Here&amp;rsquo;s a class diagram with the private fields and public methods (Constructors are omitted for clarity):&lt;/p>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f0cd91', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#006100',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+ class ClockDisplay
+ class NumberDisplay
+ ClockDisplay ..> NumberDisplay
+ 
+
+ class ClockDisplay{
+ -NumberDisplay hours
+ -NumberDisplay minutes
+ -String displayString
+ void timeTick()
+ void setTime(int hour, int minute)
+ String getTime()
+ -void updateDisplay()
+ }
+ 
+ NumberDisplay: -int limit
+ NumberDisplay: -int value
+ NumberDisplay: int getValue()
+ NumberDisplay: String getDisplayValue()
+ NumberDisplay: void setValue(int)
+ NumberDisplay: void increment()
+&lt;/pre>
+
+&lt;p>Within the example the field &lt;code>displayString&lt;/code> in ClockDisplay is used to simulate the digital display. It is updated after every change to the time by calling the private method &lt;code>updateDisplay&lt;/code> after every change to the time. The two instances of NumberDisplay generate their part of the displayString in &lt;code>getDisplayValue&lt;/code>.
+But they also hold their part of the model - the value for hours and minutes respectively.&lt;/p></description></item><item><title>ClockDisplay Critique</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/">next&amp;gt;&lt;/a>
+
+
+&lt;p>The ClockDisplay aims at showing object interaction, which it does.&lt;/p>
+&lt;h2 id="the-problems-i-see-are">The problems I see are:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>it mixes Model and Representation. Furthermore, the Model or more simply put the stored state, which is the time the clocks shows at the moment, is distributed between three objects - a NumberDisplay for hours and minutes respectively, and the ClockDisplay holding the knowledge how to combine the two.&lt;/p></description></item><item><title>A very simple ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/">next&amp;gt;&lt;/a>
+
+
+&lt;p>All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from &lt;code>getTime()&lt;/code> after either the time has been set to 13:45 by calling &lt;code>setTime()&lt;/code> or after calling the &lt;code>timeTick()&lt;/code> method the appropriate amount of times.&lt;/p>
+&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="./clock_display_critique">general critique on the last page&lt;/a>.&lt;/p></description></item><item><title>Kara ClockDisplays</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/">next&amp;gt;&lt;/a>
+
+
+&lt;p>&amp;hellip; not yet here, see &lt;a href="https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/">KaraClock Exercises&lt;/a> for now&lt;/p></description></item><item><title>LED ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/">&amp;lt;prev&lt;/a>
+
+
+
+ &lt;a href =".."> up &lt;/a>
+
+
+
+
+
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;h2 id="leddisplay-extends-clockdisplay">LEDDisplay extends ClockDisplay&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f0cd91', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#006100',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+ class ClockDisplay
+ class LEDDisplay
+ class NumberDisplay
+ ClockDisplay &lt;|-- LEDDisplay
+ LEDDisplay ..> NumberDisplay
+ 
+
+ class ClockDisplay{
+ -String displayString
+ -int minutesInDay
+ void timeTick()
+ void setTime(int hour, int minute)
+ String getTime()
+ void updateDisplay()
+ String getDisplayValue(int value)
+ initRealDisplay(int hour, int minute)
+ updateRealDisplay()
+
+ }
+ class LEDDisplay{
+ -NumberDisplay hours
+ -NumberDisplay minutes
+ initRealDisplay(int hour, int minute)
+ updateRealDisplay()
+ }
+
+ NumberDisplay: void setValue(int)
+ 
+&lt;/pre>
+
+&lt;h2 id="clockdisplay-additional-methods-for-clock-and-automatic-ticker">ClockDisplay: additional methods for clock and automatic Ticker&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f0cd91', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#006100',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+
+ class ClockDisplay{
+ void start()
+ void stop()
+ void toggleTicker()
+ void setTickerSpeed(int)
+ }
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime---complete">LEDDisplay: setTime() - complete&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ activate #colon;LEDDisplay
+ YOU->>+#colon;LEDDisplay: setTime(13,45)
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+ 
+
+ activate #colon;LEDDisplay
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+
+ activate hours#colon;NumberDisplay
+
+ #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+ activate lower#colon;LEDDigit
+ hours#colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+ deactivate lower#colon;LEDDigit
+ activate upper#colon;LEDDigit
+ hours#colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+ deactivate upper#colon;LEDDigit
+ deactivate hours#colon;NumberDisplay
+
+
+ activate minutes#colon;NumberDisplay
+ #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+
+ activate lower_m#colon;LEDDigit
+ minutes#colon;NumberDisplay->>+lower_m#colon;LEDDigit:display(5)
+ deactivate lower_m#colon;LEDDigit
+ activate upper_m#colon;LEDDigit
+ minutes#colon;NumberDisplay->>+upper_m#colon;LEDDigit:display(4)
+ deactivate upper_m#colon;LEDDigit
+
+ deactivate minutes#colon;NumberDisplay
+
+
+ deactivate #colon;LEDDisplay
+
+ deactivate #colon;LEDDisplay
+ deactivate #colon;LEDDisplay
+ #colon;LEDDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime---clockdisplay--numberdisplay">LEDDisplay: setTime() - ClockDisplay &amp;amp; NumberDisplay&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ activate #colon;LEDDisplay
+ YOU->>+#colon;LEDDisplay: setTime(13,45)
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+ 
+
+ activate #colon;LEDDisplay
+ #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+
+ activate hours#colon;NumberDisplay
+
+ #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+ 
+ deactivate hours#colon;NumberDisplay
+
+
+ activate minutes#colon;NumberDisplay
+ #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+
+
+ deactivate minutes#colon;NumberDisplay
+
+
+ deactivate #colon;LEDDisplay
+
+ deactivate #colon;LEDDisplay
+ deactivate #colon;LEDDisplay
+ #colon;LEDDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime---both-numberdisplays---leddigit">LEDDisplay: setTime() - both NumberDisplays &amp;amp; LEDDigit&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ 
+ #colon;LEDDisplay->>+#colon;NumberDisplay: updateDisplay(13)
+ activate lower#colon;LEDDigit
+ #colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+ deactivate lower#colon;LEDDigit
+ activate upper#colon;LEDDigit
+ #colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+ deactivate upper#colon;LEDDigit
+ deactivate #colon;NumberDisplay
+&lt;/pre>
+
+&lt;h2 id="clockdisplay-original-settime-copy">ClockDisplay original: setTime() copy&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ YOU->>+#colon;ClockDisplay: setTime(13,45)
+ #colon;ClockDisplay->>+hours#colon;NumberDisplay:setValue(13)
+ hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+ #colon;ClockDisplay->>+minutes#colon;NumberDisplay:setValue(45)
+ minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+ 
+ #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay()
+ #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue()
+ hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+ #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue()
+ minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+ 
+ deactivate #colon;ClockDisplay
+
+ #colon;ClockDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;h2 id="leddisplay-settime-numberdisplay-leddigit">LEDDisplay: setTime() NumberDisplay-&amp;gt;LEDDigit&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ activate #colon;LEDDigit
+ #colon;NumberDisplay->>+#colon;LEDDigit: display(9)
+ loop each Segment
+ alt segment needs to be shown for value
+ activate #colon;Segment
+ #colon;LEDDigit->>+#colon;Segment: makeVisible()
+ deactivate #colon;Segment
+ else
+ #colon;LEDDigit->>+#colon;Segment: makeInvisible()
+ deactivate #colon;Segment
+ end
+ end
+ deactivate #colon;LEDDigit
+&lt;/pre>
+
+&lt;h3 id="initialization-maybe-old">Initialization (maybe old)&lt;/h3>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+sequenceDiagram
+ actor YOU
+ create participant ClockDisplay
+ YOU->>+ClockDisplay: new()
+
+ create participant LEDClockDisplay
+ ClockDisplay->>+LEDClockDisplay: new()
+ create participant Canvas
+ LEDClockDisplay->>+Canvas: new()
+ Canvas-->>-LEDClockDisplay: canvas
+ LEDClockDisplay-->>-ClockDisplay: leds
+
+ loop [ for each number display part]
+ create participant NumberDisplay
+ ClockDisplay->>+NumberDisplay:new()
+ NumberDisplay-->>-ClockDisplay:aNumberDisplay
+ ClockDisplay->>+LEDClockDisplay: add(aNumberDisplay)
+ LEDClockDisplay->>+NumberDisplay:initDisplay(pos, canvas)
+ 
+ loop [ for each led digit]
+ create participant LEDDigit
+ NumberDisplay->>+LEDDigit:new(pos, canvas)
+
+ loop [ for each led segment]
+ create participant Segment
+ LEDDigit->>+Segment:new(pos, canvas)
+ Segment-->>-LEDDigit: segment
+ end
+
+ LEDDigit-->>-NumberDisplay: digit
+ end
+
+ NumberDisplay-->>-LEDClockDisplay:void
+ LEDClockDisplay-->>-ClockDisplay:void
+
+
+ end
+
+ ClockDisplay-->>-YOU:void
+&lt;/pre>
+
+&lt;p>loop [ for each display part]&lt;/p></description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/save_object_bench/</guid><description>&lt;p>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p>
+&lt;h3 id="1-save-the-state-of-your-object-bench">1. Save the state of your object bench&lt;/h3>
+&lt;p>Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class:
+&lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>ClockDisplay Example: Reflections and Improvements</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/</guid><description>&lt;p>I have been working with the ClockDisplay example as shown in the Textbook &lt;a href="https://www.bluej.org/objects-first/">&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a> (Barnes and Kölling 2017) for a while now. While the book contains many great examples that allow the discussion of a broad range of object oriented design,
+this example has some issues that always bugged me.&lt;/p>
+&lt;p>This page is about my approach(es) to improve the ClockDisplay example.&lt;/p></description></item><item><title>JUnit in BlueJ</title><link>https://bkleinen.github.io/material/info1/junit_in_bluej/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/junit_in_bluej/</guid><description>&lt;h2 id="monday-04december-2023">Monday, 04.December 2023&lt;/h2>
+&lt;p>JUnit is not part of the Java API, it is a third-party software.
+You find all information about JUnit, including a &lt;a href="https://junit.org/junit5/docs/current/user-guide/">user guide&lt;/a> and information about and download of the latest version on &lt;a href="https://junit.org">https://junit.org&lt;/a>.&lt;/p>
+&lt;p>As of this writing, the current version is 5.10.1, but the version included in BlueJ 5.2.1 is JUnit 5.5.2, as you can check within the installation of BlueJ:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">BlueJ.app/Contents/Java&amp;gt;ls junit*
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-4.12.jar				junit-jupiter-params-5.5.2.jar		junit-platform-suite-api-1.5.2.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-5.5.2.jar			junit-platform-commons-1.5.2.jar	junit-vintage-engine-5.5.2.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-api-5.5.2.jar		junit-platform-engine-1.5.2.jar
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-engine-5.5.2.jar		junit-platform-launcher-1.5.2.jar
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As we only use a &lt;em>very&lt;/em> small portion of JUnit this should not matter - but if you look something up
+in the BlueJ documentation, keep this in mind. (you could also try updating JUnit in the above directory, of course. I haven&amp;rsquo;t tried it.)&lt;/p></description></item></channel></rss>

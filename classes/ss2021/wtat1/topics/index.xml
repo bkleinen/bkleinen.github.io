@@ -1,34 +1,143 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT1 Topics on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/</link><description>Recent content in WTAT1 Topics on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/wtat1/topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Sprint 02 - Persistence with Mongo</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-02-mongo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-02-mongo/</guid><description>Sprint 02: Persistence with Mongo Based on Unit 3, &amp;ldquo;Connecting to a Database&amp;rdquo;, you&amp;rsquo;ll implement persistence with Mongo DB and Mongoose. The functionality implemented will be showing listings and single items of one resource, as well as creating new records (no editing yet).
-As usual, select a story or two you will implement using the new technological features. You will create a full CRUD (Create/read/update/delete) in later Sprints.
-Example Application With this sprint, you can pretty much follow the book.</description></item><item><title>Sprint 03 - Deployment</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-03-deployment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-03-deployment/</guid><description>As this Sprint is about creating tests and setting up an CI/CD pipeline. you will not implement any new functionality in this sprint.
-It&amp;rsquo;s arguable if this weeks work should be called a sprint, as you will not implement any new features that are of interest to users or customers.
-Nonetheless, automatic testing and continuously deploying your app such that the users and customers will be able to see and test the deliverables is a crucial part of agile development.</description></item><item><title>Sprint 04 &amp; 05 - CRUD Part 1 and 2</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-04-05-crud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-04-05-crud/</guid><description>Unit 4 - Building a User Model - is a rather long unit, thus we will take two sprints to work through it. The technical topics are:
-CRUD - Create, Read, Update, Delete actions on Models in the Rest architectural style Validations Model Associations It discusses CRUD by creating CRUD functionality via model, views, controller and routes for the User model.
-You will need a user model for authentication in addition to your individual models.</description></item><item><title>Sprint 06 User Authentication</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-06-authentication/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-06-authentication/</guid><description>Sprint 06 User Authentication Build in a User Authentication and some extras according to
-Unit 5 - &amp;ldquo;User Authentication&amp;rdquo;.
-Sprint 06 in the Module-Handbook example application:
-https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_06
-Note that this unit only covers authentication - establishing the identity of the user - but no authorisation. Restricting access to parts of the application will be handled during the next sprint.
-Sprint 06 Extras To add some more protection against attacs, add helmet.</description></item><item><title>Sprint 07 API and JWT</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-07-api-jwt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-07-api-jwt/</guid><description>Sprint 07 API and JWT Pick or create user stories that make use of an api delivering JSON data. Build in one form of api authentication/authorisation (API Token or JWT) Unit 6 - &amp;ldquo;Building an API&amp;rdquo;.
-Sprint 07 in the Module-Handbook example application:
-https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_07
-Sprint 07 - Testing Testing APIs with Jest and Superagent is straightforward. Testing Routes that need authentication See the documentation in the Example app: https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/authentication_authorization.md Backlog and Report make sure to define your stories and connect them to the appropriate technical topic in the Backlog -</description></item><item><title>Sprint 08 - Vue 1 - Tutorial</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-08-vue1-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-08-vue1-tutorial/</guid><description>Sprint 08: Work through the Vue Tutorial Work through the Vue Tutorial, at least the Introduction and Components In-Depth: https://v3.vuejs.org/guide/introduction.html (make sure you hit vue 3!)
-Play around with component that might be useful/used within your app - this is just a preparation sprint, you won&amp;rsquo;t be implementing any new functionality for your app.
-Backlog and Report write a summary of what worked, what didn&amp;rsquo;t work and what you&amp;rsquo;ve learned as your report and upload it in the moodle area.</description></item><item><title>Sprint 08 - Vue 3 - Implementation</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-10-vue3-implementation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-10-vue3-implementation/</guid><description>Finally: Implement something with Vue. Implement your (possibly revised) concept you&amp;rsquo;ve created during the last sprint.
-Backlog and Report make sure to define your stories and connect them to the appropriate technical topic in the Backlog -
-write a summary of what worked, what didn&amp;rsquo;t work and what you&amp;rsquo;ve learned as your report and upload it in the moodle area.
-include a personal reflection about the sprint and what you&amp;rsquo;ve learned from each team member in the report.</description></item><item><title>Sprint 09 - Vue 2 - Concept</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-vue2-concept/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-vue2-concept/</guid><description>Sprint 09: More Vue and Concept for using it in your app Continue learning Vue by working through the tutorial. You won&amp;rsquo;t need everything, skim through parts, but make sure to set up some tests.
-Think about how Vue can be used within your app and write down a concept for the components you will develop. You&amp;rsquo;ll add real time communication during the last sprint - maybe there&amp;rsquo;s an useful application for that within your app.</description></item><item><title>Sprint 09-12 - Real Time Communication and React</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-12/</guid><description>Sprint 09-12: Real Time Communication and React You should plan the remaining 4 sprints together, as you may want to postpone Sprint 09 to combine it with a React frontend.
-Thus, the following order is tentative:
-Sprint 09: Real-Time-Communication (Unit 7, &amp;ldquo;Adding Chat Functionality&amp;rdquo;) Sprint 10: React Tutorial (Main Concepts in the React Doc) Sprint 11-12: Implement Stories with React Please plan the following sprints using the backlog planning tool at:</description></item><item><title>Sprint 11 - Real Time Communication</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-11-realtime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-11-realtime/</guid><description>Sprint 11: Real-Time-Communication with socket.io Find something in your app that may benefit from real-time communication, as described in Unit 7 - Real-Time Communication possibly combined with vue, and implement it.
-Alternatively, you may decide on another JavaScript Library that would be useful within your app and implement some functionality using that library.
-Backlog and Report make sure to define your stories and connect them to the appropriate technical topic in the Backlog -</description></item><item><title>Startup - Project Idea</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-00-project-ideas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-00-project-ideas/</guid><description>Project Ideas Collect and Discuss your project ideas in the Forum &amp;ldquo;Project Ideas&amp;rdquo; in Moodle.
-You will be working on one project throughout the term in a small, 3 person team.
-You can submit and discuss any ideas for now.
-You will write Project Proposals as Assignment for week 02, and the teams will be formed during class in week 02.</description></item><item><title>Topic 01 - Project Proposal</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-proposal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-proposal/</guid><description>Proposal Write down your project Idea as a short proposal. (1-2 Pages). You can use any kind of format. You can also include sketches how the user interface might look like.
-Scope Working through different topics of web development with node and react, you will develop a web application that has
-at least one model class that can be created, read, updated and deleted a user model user authentication something with real-time communication (e.</description></item><item><title>Topic 02 - Product Backlog</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-02-backlog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-02-backlog/</guid><description>Backlog Write a simple Product Backlog for Your Project.
-Don&amp;rsquo;t worry about writing too many stories, or too complex ones. You don&amp;rsquo;t need to implement all of them - and it will be easier if you have several to choose from for the sprints. You order your backlog by business value now; but you will pick stories that can be implemented with the technologies we learn(ed) during the week for each sprint.</description></item><item><title>Topic 03 - Sprint 01 - First Node App</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-first-node-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-first-node-app/</guid><description>Sprint 01: Project Ideas &amp;amp; First Node App During the first week, you will work individually. Install Node and create a first (pure) node app that serves at least one static html file.
-Use the week to think about an app idea that you would like to use during the term. You can pitch your idea next week in class.
-If you want to, you could use your static html site to show your idea what the app might look like.</description></item><item><title>Topic 04 - Sprint 02 - First Express App with view templates and dynamic content</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-01/</guid><description>Sprint 01: First Express App with View Templates and Dynamic Content In the first sprint, you will mainly set up your express application and get set up with your backlog and project.
-Set up the project and the backlog set up your project and backlog in the Topic Driven Backlog Tool. choose and implement stories according to this weeks topic work with git. create a branch for each story and merge it into master with a merge commit like &amp;ldquo;Story_001 Overview of Study Program&amp;rdquo; you may also clean your git history to just have one commit per story.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT1 Topics on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/</link><description>Recent content in WTAT1 Topics on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/wtat1/topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Sprint 02 - Persistence with Mongo</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-02-mongo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-02-mongo/</guid><description>&lt;h2 id="sprint-02-persistence-with-mongo">Sprint 02: Persistence with Mongo&lt;/h2>
+&lt;p>Based on Unit 3, &amp;ldquo;Connecting to a Database&amp;rdquo;, you&amp;rsquo;ll implement persistence with Mongo DB and Mongoose.
+The functionality implemented will be showing listings and single items of one resource, as well as creating new records (no editing yet).&lt;/p>
+&lt;p>As usual, select a story or two you will implement using the new technological features.
+You will create a full CRUD (Create/read/update/delete) in later Sprints.&lt;/p>
+&lt;h3 id="example-application">Example Application&lt;/h3>
+&lt;p>With this sprint, you can pretty much follow the book. See my doc in the readme for the example app:&lt;/p></description></item><item><title>Sprint 03 - Deployment</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-03-deployment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-03-deployment/</guid><description>&lt;p>As this Sprint is about creating tests and setting up an CI/CD pipeline.
+you will not implement any new functionality in this sprint.&lt;/p>
+&lt;p>It&amp;rsquo;s arguable if this weeks work should be called a sprint, as you will not implement any new
+features that are of interest to users or customers.&lt;/p>
+&lt;p>Nonetheless, automatic testing and continuously deploying your app such that the users
+and customers will be able to see and test the deliverables is a crucial part of agile development.&lt;/p></description></item><item><title>Sprint 04 &amp; 05 - CRUD Part 1 and 2</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-04-05-crud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-04-05-crud/</guid><description>&lt;p>Unit 4 - Building a User Model - is a rather long unit, thus we will take two
+sprints to work through it. The technical topics are:&lt;/p>
+&lt;ul>
+&lt;li>CRUD - Create, Read, Update, Delete actions on Models in the Rest architectural style&lt;/li>
+&lt;li>Validations&lt;/li>
+&lt;li>Model Associations&lt;/li>
+&lt;/ul>
+&lt;p>It discusses CRUD by creating CRUD functionality via model, views, controller and routes for
+the User model.&lt;/p>
+&lt;p>You will need a user model for authentication in addition to your individual models.
+You can just copy and adapt the model from the example application,
+and adapt it such that it fits to your application domain.&lt;/p></description></item><item><title>Sprint 06 User Authentication</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-06-authentication/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-06-authentication/</guid><description>&lt;h1 id="sprint-06-user-authentication">Sprint 06 User Authentication&lt;/h1>
+&lt;p>Build in a User Authentication and some extras according to&lt;br>
+Unit 5 - &amp;ldquo;User Authentication&amp;rdquo;.&lt;/p>
+&lt;p>Sprint 06 in the Module-Handbook example application:&lt;br>
+&lt;a href="https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_06">https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_06&lt;/a>&lt;/p>
+&lt;p>Note that this unit only covers authentication - establishing the identity of
+the user - but no authorisation. Restricting access to parts of the application
+will be handled during the next sprint.&lt;/p>
+&lt;h1 id="sprint-06-extras">Sprint 06 Extras&lt;/h1>
+&lt;p>To add some more protection against attacs, add helmet.js.&lt;/p></description></item><item><title>Sprint 07 API and JWT</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-07-api-jwt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-07-api-jwt/</guid><description>&lt;h1 id="sprint-07-api-and-jwt">Sprint 07 API and JWT&lt;/h1>
+&lt;p>Pick or create user stories that make use of an api delivering JSON data.
+Build in one form of api authentication/authorisation (API Token or JWT)
+Unit 6 - &amp;ldquo;Building an API&amp;rdquo;.&lt;/p>
+&lt;p>Sprint 07 in the Module-Handbook example application:&lt;br>
+&lt;a href="https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_07">https://github.com/htw-imi-wtat1/module-handbook/releases/tag/Sprint_07&lt;/a>&lt;/p>
+&lt;h1 id="sprint-07---testing">Sprint 07 - Testing&lt;/h1>
+&lt;ul>
+&lt;li>Testing APIs with Jest and Superagent is straightforward.&lt;/li>
+&lt;li>Testing Routes that need authentication&lt;/li>
+&lt;li>See the documentation in the Example app: &lt;a href="https://github.com/htw-imi-wtat1/module-handbook-2021/blob/master/doc/authentication_authorization.md">https://github.com/htw-imi-wtat1/module-handbook/blob/master/doc/authentication_authorization.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="backlog-and-report">Backlog and Report&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>make sure to define your stories and connect them to the appropriate technical
+topic in the &lt;a href="https://backlog.f4.htw-berlin.de/#/courses/4-web-technology-aktuelle-themen-agile-web-development">Backlog&lt;/a> -&lt;/p></description></item><item><title>Sprint 08 - Vue 1 - Tutorial</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-08-vue1-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-08-vue1-tutorial/</guid><description>&lt;h2 id="sprint-08-work-through-the-vue-tutorial">Sprint 08: Work through the Vue Tutorial&lt;/h2>
+&lt;p>Work through the Vue Tutorial, at least the Introduction and Components In-Depth: &lt;a href="https://v3.vuejs.org/guide/introduction.html">https://v3.vuejs.org/guide/introduction.html&lt;/a> (make sure you hit vue 3!)&lt;/p>
+&lt;p>Play around with component that might be useful/used within your app - this is
+just a preparation sprint, you won&amp;rsquo;t be implementing any new functionality for your app.&lt;/p>
+&lt;h2 id="backlog-and-report">Backlog and Report&lt;/h2>
+&lt;ul>
+&lt;li>write a summary of what worked, what didn&amp;rsquo;t work and what you&amp;rsquo;ve learned as your report and upload it in the moodle area.&lt;/li>
+&lt;li>include a personal reflection about the sprint and what you&amp;rsquo;ve learned from each team member in the report.&lt;/li>
+&lt;/ul></description></item><item><title>Sprint 08 - Vue 3 - Implementation</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-10-vue3-implementation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-10-vue3-implementation/</guid><description>&lt;h2 id="finally-implement-something-with-vue">Finally: Implement something with Vue.&lt;/h2>
+&lt;p>Implement your (possibly revised) concept you&amp;rsquo;ve created during the last sprint.&lt;/p>
+&lt;h2 id="backlog-and-report">Backlog and Report&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>make sure to define your stories and connect them to the appropriate technical
+topic in the &lt;a href="https://backlog.f4.htw-berlin.de/#/courses/4-web-technology-aktuelle-themen-agile-web-development">Backlog&lt;/a> -&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>write a summary of what worked, what didn&amp;rsquo;t work and what you&amp;rsquo;ve learned as your report and upload it in the moodle area.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>include a personal reflection about the sprint and what you&amp;rsquo;ve learned from each team member in the report.&lt;/p></description></item><item><title>Sprint 09 - Vue 2 - Concept</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-vue2-concept/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-vue2-concept/</guid><description>&lt;h2 id="sprint-09-more-vue-and-concept-for-using-it-in-your-app">Sprint 09: More Vue and Concept for using it in your app&lt;/h2>
+&lt;p>Continue learning Vue by working through the tutorial. You won&amp;rsquo;t need
+everything, skim through parts, but make sure to &lt;a href="https://v3.vuejs.org/guide/testing.html">set up some tests&lt;/a>.&lt;/p>
+&lt;p>Think about how Vue can be used within your app and write down a concept
+for the components you will develop. You&amp;rsquo;ll add real time communication
+during the last sprint - maybe there&amp;rsquo;s an useful application for that within your app.&lt;/p></description></item><item><title>Sprint 09-12 - Real Time Communication and React</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-09-12/</guid><description>&lt;h2 id="sprint-09-12-real-time-communication-and-react">Sprint 09-12: Real Time Communication and React&lt;/h2>
+&lt;p>You should plan the remaining 4 sprints together, as you may want to
+postpone Sprint 09 to combine it with a React frontend.&lt;/p>
+&lt;p>Thus, the following order is tentative:&lt;/p>
+&lt;ul>
+&lt;li>Sprint 09: Real-Time-Communication (Unit 7, &amp;ldquo;Adding Chat Functionality&amp;rdquo;)&lt;/li>
+&lt;li>Sprint 10: React Tutorial (&lt;a href="https://reactjs.org/docs/hello-world.html">Main Concepts in the React Doc&lt;/a>)&lt;/li>
+&lt;li>Sprint 11-12: Implement Stories with React&lt;/li>
+&lt;/ul>
+&lt;p>Please plan the following sprints using the backlog planning tool at:&lt;/p></description></item><item><title>Sprint 11 - Real Time Communication</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-11-realtime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-11-realtime/</guid><description>&lt;h2 id="sprint-11-real-time-communication--with-socketio">Sprint 11: Real-Time-Communication with socket.io&lt;/h2>
+&lt;p>Find something in your app that may benefit from real-time communication,
+as described in Unit 7 - Real-Time Communication
+possibly combined with vue, and implement it.&lt;/p>
+&lt;p>Alternatively, you may decide on another JavaScript Library that would be
+useful within your app and implement some functionality using that library.&lt;/p>
+&lt;h2 id="backlog-and-report">Backlog and Report&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>make sure to define your stories and connect them to the appropriate technical
+topic in the &lt;a href="https://backlog.f4.htw-berlin.de/#/courses/4-web-technology-aktuelle-themen-agile-web-development">Backlog&lt;/a> -&lt;/p></description></item><item><title>Startup - Project Idea</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-00-project-ideas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-00-project-ideas/</guid><description>&lt;h2 id="project-ideas">Project Ideas&lt;/h2>
+&lt;p>Collect and Discuss your project ideas in the Forum &amp;ldquo;Project Ideas&amp;rdquo; in Moodle.&lt;/p>
+&lt;p>You will be working on one project throughout the term in a small, 3 person team.&lt;/p>
+&lt;p>You can submit and discuss any ideas for now.&lt;/p>
+&lt;p>You will write Project Proposals as Assignment for week 02,
+and the teams will be formed during class in week 02.&lt;/p></description></item><item><title>Topic 01 - Project Proposal</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-proposal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-proposal/</guid><description>&lt;h2 id="proposal">Proposal&lt;/h2>
+&lt;p>Write down your project Idea as a short proposal. (1-2 Pages). You can use any
+kind of format. You can also include sketches how the user interface might look
+like.&lt;/p>
+&lt;h2 id="scope">Scope&lt;/h2>
+&lt;p>Working through different topics of web development with node and react, you
+will develop a web application that has&lt;/p>
+&lt;ul>
+&lt;li>at least one model class that can be created, read, updated and deleted&lt;/li>
+&lt;li>a user model&lt;/li>
+&lt;li>user authentication&lt;/li>
+&lt;li>something with real-time communication (e.g. a chat or notification service)&lt;/li>
+&lt;li>and some interactive elements created with Rest&lt;/li>
+&lt;/ul>
+&lt;p>Thus, try to sketch something that has these elements in it. It&amp;rsquo;s ok if your idea
+is more complex - you will not need to implement all aspects that you describe now.&lt;/p></description></item><item><title>Topic 02 - Product Backlog</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-02-backlog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-02-backlog/</guid><description>&lt;h2 id="backlog">Backlog&lt;/h2>
+&lt;p>Write a simple Product Backlog for Your Project.&lt;/p>
+&lt;p>Don&amp;rsquo;t worry about writing too many stories, or too complex ones. You don&amp;rsquo;t need
+to implement all of them - and it will be easier if you have several to choose from for the
+sprints. You order your backlog by business value now; but you will pick stories
+that can be implemented with the technologies we learn(ed) during the week
+for each sprint. I copy the scope of the projects again such that you get an
+idea of what will be implemented:&lt;/p></description></item><item><title>Topic 03 - Sprint 01 - First Node App</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-first-node-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/topic-01-first-node-app/</guid><description>&lt;h2 id="sprint-01-project-ideas--first-node-app">Sprint 01: Project Ideas &amp;amp; First Node App&lt;/h2>
+&lt;p>During the first week, you will work individually. Install Node and create
+a first (pure) node app that serves at least one static html file.&lt;/p>
+&lt;p>Use the week to think about an app idea that you would like to use during the
+term. You can pitch your idea next week in class.&lt;/p>
+&lt;p>If you want to, you could use your static html site to show your idea
+what the app might look like.&lt;/p></description></item><item><title>Topic 04 - Sprint 02 - First Express App with view templates and dynamic content</title><link>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/wtat1/topics/sprint-01/</guid><description>&lt;h2 id="sprint-01-first-express-app-with-view-templates-and-dynamic-content">Sprint 01: First Express App with View Templates and Dynamic Content&lt;/h2>
+&lt;p>In the first sprint, you will mainly set up your express application and get
+set up with your backlog and project.&lt;/p>
+&lt;h2 id="set-up-the-project-and-the-backlog">Set up the project and the backlog&lt;/h2>
+&lt;ul>
+&lt;li>set up your project and backlog in the &lt;a href="https://backlog.f4.htw-berlin.de/#/courses/4-web-technology-aktuelle-themen-agile-web-development">Topic Driven Backlog Tool&lt;/a>.&lt;/li>
+&lt;li>choose and implement stories according to this weeks topic&lt;/li>
+&lt;li>work with git. create a branch for each story and merge it into master with a merge commit like &amp;ldquo;Story_001 Overview of Study Program&amp;rdquo;&lt;/li>
+&lt;li>you may also clean your git history to just have one commit per story.&lt;/li>
+&lt;li>tag the version where the sprint was completed with &amp;ldquo;Sprint_01&amp;rdquo;&lt;/li>
+&lt;li>include the repo url in your status report (you can use any service, e.g. &lt;a href="https://gitlab.rz.htw-berlin.de/">https://gitlab.rz.htw-berlin.de/&lt;/a>)
+&lt;ul>
+&lt;li>if you have a private repository, make sure to grant me read access&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="step-1-using-express">Step 1: Using Express&lt;/h2>
+&lt;p>Create a new application using express as described in the book.
+If you&amp;rsquo;ve already created views in Sprint 0, you can migrate them to the express app.&lt;/p></description></item></channel></rss>

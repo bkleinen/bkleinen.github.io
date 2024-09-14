@@ -1,3 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/design/</link><description>Recent content in Design on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>Mermaid renders diagrams from simple markdown code. It can be used
-via integrating the available js library (yarn add mermaid), online via Mermaid-Live, is available in Github markdown files (and others) and can be easily integrated into hugo1 Here are some examples taken from Mermaid Live:
-stateDiagram-v2 [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] flowchart TD A[Christmas] --&amp;gt;|Get money| B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] flowchart TD A[Christmas] -->|Get money| B(Go shopping) B --> C{Let me think} C -->|One| D[Laptop] C -->|Two| E[iPhone] C -->|Three| F[fa:fa-car Car] stateDiagram-v2 [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] Flowchart Cheatsheet flowchart TD A[Start] --> B{Is it?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/design/</link><description>Recent content in Design on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>&lt;p>&lt;a href="https://mermaid.js.org/">Mermaid&lt;/a> renders diagrams from simple markdown code. It can be used&lt;/p>
+&lt;ul>
+&lt;li>via integrating the available js library (yarn add mermaid),&lt;/li>
+&lt;li>online via &lt;a href="https://mermaid.live/">Mermaid-Live&lt;/a>,&lt;/li>
+&lt;li>is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams">Github markdown files&lt;/a> (and others)&lt;/li>
+&lt;li>and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams">easily integrated into hugo&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;p>Here are some examples taken from Mermaid Live:&lt;/p>
+&lt;pre class="mermaid">stateDiagram-v2
+ [*] --> Still
+ Still --> [*]
+ Still --> Moving
+ Moving --> Still
+ Moving --> Crash
+ Crash --> [*]
+&lt;/pre>
+
+&lt;pre>&lt;code>flowchart TD
+ A[Christmas] --&amp;gt;|Get money| B(Go shopping)
+ B --&amp;gt; C{Let me think}
+ C --&amp;gt;|One| D[Laptop]
+ C --&amp;gt;|Two| E[iPhone]
+ C --&amp;gt;|Three| F[fa:fa-car Car]
+&lt;/code>&lt;/pre>
+&lt;pre class="mermaid">flowchart TD
+ A[Christmas] -->|Get money| B(Go shopping)
+ B --> C{Let me think}
+ C -->|One| D[Laptop]
+ C -->|Two| E[iPhone]
+ C -->|Three| F[fa:fa-car Car]
+&lt;/pre>
+
+&lt;pre class="mermaid">stateDiagram-v2
+ [*] --> Still
+ Still --> [*]
+ Still --> Moving
+ Moving --> Still
+ Moving --> Crash
+ Crash --> [*]
+&lt;/pre>
+
+&lt;h1 id="flowchart-cheatsheet">Flowchart Cheatsheet&lt;/h1>
+&lt;pre class="mermaid">flowchart TD
+ A[Start] --> B{Is it?}
+ B -->|Yes| C[OK]
+ C --> D[Rethink]
+ D --> B
+ B ---->|No| E[End]
+ id1>This is the text in the box]
+ id2{{This is the text in the box}}
+&lt;/pre>
+
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>hugo/themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item></channel></rss>

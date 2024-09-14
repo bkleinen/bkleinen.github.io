@@ -1,4 +1,326 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 SoSe 2021 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/info1/</link><description>Recent content in Informatics 1 SoSe 2021 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ss2021/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/schedule/</guid><description>Week / KW KW Kick Off Date Topic Lab Assignment Material 1 14 Fri 09/04/2021 Introduction to Class &amp;amp; Labs, Chapter 01 - Objects and Classes Exercise 01 - Getting Started and Shapes Source Code, 15 Objects, Classes, Methods, BlueJ, Parameters, Compiler [Video Part 1][101], [2][102] 2 Fri 16/04/2021 Chapter 02 - Understanding Class Definitions Exercise 02 - Ticket Machine Source Code 16 Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter, Printing to the command line, Conditional, Local Variables, Expressions [Video Part 1][201], [2][202], [3][203], [4][204], [5][205], [6][206], [7][207], [8][208], [9][209] 3 Fri 23/04/2021 Chapter 03 - Object Interaction Exercise 03 - Book Exercise Source Code 17 Abstraction, Modularization, Object Interaction, Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger [Video Part 1][301], [2][302] 4 Fri 30/04/2021 Chapter 04 - Grouping Objects Exercise 04 - Rock Around the Clock - Part 1 Source Code 18 Collections, Generics, for-each, While Loops, More Loops, Iterators, Arrays, For Loops [Video Part 1][401], [2][402], [3][403], [4][404], [5][405] 5 Fri 07/05/2021 Chapter 05 - Functional Processing of Collections (Advanced) Exercise 05 - Rock Around the Clock - Part 2 Source Code 19 Lambda Functions, Filter, Map, Reduce [Video Part 1][501], [2][502] 6 Fri 14/05/2021 * Vorlesungsfrei - Chapter 06 - More-Sophisticated Behavior Exercise 06 - A Better Notebook Source Code 20 Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps, Public vs.</description></item><item><title>Info1 - Class Material Overview</title><link>https://bkleinen.github.io/classes/ss2021/info1/material/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/material/</guid><description>Video Overview Chapter Link Length Time Sum 1 2 Part 9 Variables [9][209] 20 3 [Part 1][301] Exercise Overview Chapter 01 Exercise 1.1 - 1.3 1.30 - 1.35 Prelab Lab 01</description></item><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ss2021/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/code/</guid><description>Lecture Code Examples Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to github! The &amp;ldquo;Changes in ss2021&amp;rdquo; links will only work after I&amp;rsquo;ve uploaded those changes.
-Note that it might also be quite convenient to look at the code on the github page online, the commit history shows you the exact changes I made. Click on &amp;ldquo;commits&amp;rdquo; and then one individual commit, and you you&amp;rsquo;ll see the changes.</description></item><item><title>Info1 Notebooks</title><link>https://bkleinen.github.io/classes/ss2021/info1/notebook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/notebook/</guid><description>Notebook: Chapter Summaries and Exercises We will provide Paper Worksheets for each Chapter and encourage you to print them out and work on them with real pens.
-They will be provided in a format that allows you to bind them as a book later if you wish to.
-See Frau Schimpf: DIY: Buchbinden – Offene Fadenheftung for an easy german instruction how this might be done, or How to Make a Sketchbook | DIY Coptic Stitch Bookbinding Tutorial | Sea Lemon for an english one which also shows a different way to attach the cover.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatics 1 SoSe 2021 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/info1/</link><description>Recent content in Informatics 1 SoSe 2021 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/info1/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ss2021/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/schedule/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week / KW&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Kick Off Date&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">Lab Assignment&lt;/th>
+ &lt;th style="text-align: left">Material&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Fri 09/04/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Introduction to Class &amp;amp; Labs, Chapter 01 - Objects and Classes&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-01">Exercise 01 - Getting Started and Shapes&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter%5C1/tree/ss2021">Source Code&lt;/a>,&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Objects, Classes, Methods, BlueJ, Parameters, Compiler&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][101], [2][102]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 16/04/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 02 - Understanding Class Definitions&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-02">Exercise 02 - Ticket Machine&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter02/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Class Definitions, Fields, Constructors, Methods, Parameters, Assignment, Getters and Setter, Printing to the command line, Conditional, Local Variables, Expressions&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][201], [2][202], [3][203], [4][204], [5][205], [6][206], [7][207], [8][208], [9][209]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 23/04/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 03 - Object Interaction&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-03">Exercise 03 - Book Exercise&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter03/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Abstraction, Modularization, Object Interaction, Object Creation, Object and Class Diagrams, Primitive Types, Object Types, Multiple Constructors, Debugger&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][301], [2][302]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 30/04/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 04 - Grouping Objects&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-04">Exercise 04 - Rock Around the Clock - Part 1&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter04/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Collections, Generics, for-each, While Loops, More Loops, Iterators, Arrays, For Loops&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][401], [2][402], [3][403], [4][404], [5][405]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 07/05/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 05 - Functional Processing of Collections (Advanced)&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-05">Exercise 05 - Rock Around the Clock - Part 2&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter05/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Lambda Functions, Filter, Map, Reduce&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][501], [2][502]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 14/05/2021 *&lt;/td>
+ &lt;td style="text-align: left">&lt;em>Vorlesungsfrei&lt;/em> - &lt;strong>Chapter 06 - More-Sophisticated Behavior&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-06">Exercise 06 - A Better Notebook&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter06/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Library Classes, Reading Class Documentation, Random, Packages, (Hash)Maps, Public vs. Private, Interfaces, Class Variables, Writing Class Documentation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][601], [2][602], [3][603]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 21/05/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 07 - Fixed-Size Collections—Arrays&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-07">Exercise 07 - Lambdas and Streams&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter07/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Arrays&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][701], [2][702]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 28/05/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 08 - Designing Classes&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-08">Exercise 08 - Lotto&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter08/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Designing Classes, Coupling, Cohesion, Refactoring, Using the main method&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][801], [2][802], [3][803], [4][804]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 04/06/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 09 - Well-Behaved Objects&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-09">Exercise 09 - Technical Support&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter09/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Modularization, Interfaces, Debugging, Walkthroughs, Testing and Interfaces, Unit Testing, Test Automation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][901], [2][902], [3][903]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 11/06/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 10 - Improving Structure with Inheritance&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-10">Exercise 10 - Bouncing Balls&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter10/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Inheritance, Subtyping, Polymorphism, Protected, Casting, Polymorphism, Static vs. dynamic typing, Overriding, Object equality&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][1001], [2][1002], [3][1003]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 18/06/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 11 - More about Inheritance&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-11">Exercise 11 - Testing with JUnit&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter11/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Abstract Classes, Interfaces&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][1101], [2][1102], [3][1103]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 25/06/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 12 - Further Abstraction Techniques&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../labs/exercise-inheritance">Joker Exercise&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter12/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Abstract Classes, Abstract Methods, Multiple inheritance, Interfaces&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video Part 1][1201], [2][1202]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 02/07/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 13 - Building Graphical User Interfaces&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">PA 1 6.7.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter13/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Graphical User Interfaces&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video][1301]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 09/07/2021&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Chapter 14 - Handling Errors&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">PA 2 13.7.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/htw-imi-info1/chapter14/tree/ss2021">Source Code&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Handling Errors, Exceptions, Assertions, File-based IO, Files, Command Line&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">[Video][1401]&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Fri 16/07/2021&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">PA 3 20.7.&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Exam period: 05/07/2021-24/07/2021&lt;/p></description></item><item><title>Info1 - Class Material Overview</title><link>https://bkleinen.github.io/classes/ss2021/info1/material/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/material/</guid><description>&lt;h1 id="video-overview">Video Overview&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Chapter&lt;/th>
+ &lt;th style="text-align: left">Link&lt;/th>
+ &lt;th style="text-align: left">Length&lt;/th>
+ &lt;th style="text-align: left">Time Sum&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Part 9&lt;/td>
+ &lt;td style="text-align: left">Variables [9][209]&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">[Part 1][301]&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h1 id="exercise-overview">Exercise Overview&lt;/h1>
+&lt;h2 id="chapter-01">Chapter 01&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Exercise&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1.1 - 1.3&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">1.30 - 1.35&lt;/td>
+ &lt;td style="text-align: left">Prelab Lab 01&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Info1 - Code Examples Overview</title><link>https://bkleinen.github.io/classes/ss2021/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/code/</guid><description>&lt;h2 id="lecture-code-examples">Lecture Code Examples&lt;/h2>
+&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to github!
+The &amp;ldquo;Changes in ss2021&amp;rdquo; links will only work after I&amp;rsquo;ve uploaded those changes.&lt;/p>
+&lt;p>Note that it might also be quite convenient to look at the code on the github page online,
+the commit history shows you the exact changes I made. Click on &amp;ldquo;commits&amp;rdquo; and then one
+individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description></item><item><title>Info1 Notebooks</title><link>https://bkleinen.github.io/classes/ss2021/info1/notebook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/notebook/</guid><description>&lt;h2 id="notebook-chapter-summaries-and-exercises">Notebook: Chapter Summaries and Exercises&lt;/h2>
+&lt;p>We will provide Paper Worksheets for each Chapter and encourage you to print
+them out and work on them with real pens.&lt;/p>
+&lt;p>They will be provided in a format that allows you to bind them as a book
+later if you wish to.&lt;/p>
+&lt;p>See &lt;a href="https://www.youtube.com/watch?v=s5iMJxdN5KE">Frau Schimpf: DIY: Buchbinden – Offene Fadenheftung&lt;/a>
+for an easy german instruction how this might be done, or
+&lt;a href="https://www.youtube.com/watch?v=S2FRKbQI2kY&amp;amp;t=307s">How to Make a Sketchbook | DIY Coptic Stitch Bookbinding Tutorial | Sea Lemon&lt;/a> for
+an english one which also shows a different way to attach the cover.&lt;/p></description></item></channel></rss>

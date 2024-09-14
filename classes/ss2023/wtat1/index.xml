@@ -1,1 +1,205 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 1 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/wtat1/</link><description>Recent content in WTAT 1 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2023/wtat1/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2023/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/wtat1/literature/</guid><description>Textbook for Node, Express and Mongo Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning. Source Code for this book on Github. JavaScript Mozilla Developer Network - JavaScript Guide Eloquent JavaScript 3rd Edition JavaScript Tutorial w3schools Express Express.js Home Page Mongo DB Mongo DB Home Page Agile Development and Scrum: Scrum Foundations eLearning Series on scrumalliance.org The Scrum Guide</description></item><item><title>WTAT1 Schedule Summer Term 2023</title><link>https://bkleinen.github.io/classes/ss2023/wtat1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/wtat1/schedule/</guid><description>Overview Summer Term 2023 Week KW Agile Topic Tech Topic Development Date Time Presentations/Class Topics 1 15 Scrum Theory and Values Unit 0 - Installation and Setup Fri 14/04/2023 15:45-17:15 Introduction to Class, Scrum Overview, Product Backlogs 2 16 Scrum Artifacts: Product Backlog Unit 1 - Getting Started Sprint 01 - Static Node App Fri 21/04/2023 15:45-17:15 Project Proposals and Teams, Presentation Assignments, Node.js 3 17 Scrum Roles: Product Owner Unit 2 - Express.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT 1 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/wtat1/</link><description>Recent content in WTAT 1 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2023/wtat1/index.xml" rel="self" type="application/rss+xml"/><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2023/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/wtat1/literature/</guid><description>&lt;h5 id="textbook-for-node-express-and-mongo">Textbook for Node, Express and Mongo&lt;/h5>
+&lt;ul>
+&lt;li>Wexler, Jonathan (2019): Get Programming with Node.js. Shelter Island: Manning.
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/JonathanWexler/get-programming-with-nodejs">Source Code for this book on Github&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="javascript">JavaScript&lt;/h5>
+&lt;ul>
+&lt;li>&lt;a href="https://developer.mozilla.org/de/docs/Web/JavaScript/Guide">Mozilla Developer Network - JavaScript Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eloquentjavascript.net/">Eloquent JavaScript 3rd Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.w3schools.com/js/">JavaScript Tutorial w3schools&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="express">Express&lt;/h5>
+&lt;ul>
+&lt;li>&lt;a href="https://expressjs.com/">Express.js Home Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="mongo-db">Mongo DB&lt;/h5>
+&lt;ul>
+&lt;li>&lt;a href="https://www.mongodb.com/">Mongo DB Home Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="agile-development-and-scrum">Agile Development and Scrum:&lt;/h5>
+&lt;ul>
+&lt;li>&lt;a href="https://www.scrumalliance.org/learn-about-scrum/scrum-elearning-series">Scrum Foundations eLearning Series on scrumalliance.org&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.scrumguides.org/">The Scrum Guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>WTAT1 Schedule Summer Term 2023</title><link>https://bkleinen.github.io/classes/ss2023/wtat1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/wtat1/schedule/</guid><description>&lt;h5 id="overview-summer-term-2023">Overview Summer Term 2023&lt;/h5>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Agile Topic&lt;/th>
+ &lt;th style="text-align: left">Tech Topic&lt;/th>
+ &lt;th style="text-align: left">Development&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Time&lt;/th>
+ &lt;th style="text-align: left">Presentations/Class Topics&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Scrum Theory and Values&lt;/td>
+ &lt;td style="text-align: left">Unit 0 - Installation and Setup&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 14/04/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Introduction to Class, Scrum Overview, Product Backlogs&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Scrum Artifacts: Product Backlog&lt;/td>
+ &lt;td style="text-align: left">Unit 1 - Getting Started&lt;/td>
+ &lt;td style="text-align: left">Sprint 01 - Static Node App&lt;/td>
+ &lt;td style="text-align: left">Fri 21/04/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Project Proposals and Teams, Presentation Assignments, Node.js&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Scrum Roles: Product Owner&lt;/td>
+ &lt;td style="text-align: left">Unit 2 - Express.js Part I&lt;/td>
+ &lt;td style="text-align: left">Sprint 02 - Express Routes&lt;/td>
+ &lt;td style="text-align: left">Fri 28/04/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic A, Design Patterns&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Scrum Roles: Scrum Master&lt;/td>
+ &lt;td style="text-align: left">Unit 2 - Express.js Part II&lt;/td>
+ &lt;td style="text-align: left">Sprint 03 - Express Views&lt;/td>
+ &lt;td style="text-align: left">Fri 05/05/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic B, Data Models, Database Connectivity&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Scrum Event: Daily Stand Up&lt;/td>
+ &lt;td style="text-align: left">Unit 3 - Database Access Part I&lt;/td>
+ &lt;td style="text-align: left">Sprint 04 - Mongo&lt;/td>
+ &lt;td style="text-align: left">Fri 12/05/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic C, Concurrency and Race Conditions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">** Pentecost **&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 19/05/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">No class&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Scrum Artifacts: Sprint Backlog&lt;/td>
+ &lt;td style="text-align: left">Unit 3 - Database Access Part II&lt;/td>
+ &lt;td style="text-align: left">Sprint 05 - Promises&lt;/td>
+ &lt;td style="text-align: left">Fri 26/05/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic D, Big Data Persistence&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Scrum Event: Planning&lt;/td>
+ &lt;td style="text-align: left">Unit 4 - User Model Part I&lt;/td>
+ &lt;td style="text-align: left">Sprint 06 - Complex Models&lt;/td>
+ &lt;td style="text-align: left">Fri 02/06/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic E, Data Consistency Strategies&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Scrum Event: Estimation&lt;/td>
+ &lt;td style="text-align: left">Unit 4 - User Model Part II&lt;/td>
+ &lt;td style="text-align: left">Sprint 07 - CRUD&lt;/td>
+ &lt;td style="text-align: left">Fri 09/06/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic F, 12factor Applications&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Scrum Artifacts: Definition of Done&lt;/td>
+ &lt;td style="text-align: left">Unit 5 - Authentication Part I&lt;/td>
+ &lt;td style="text-align: left">Sprint 08 - Login&lt;/td>
+ &lt;td style="text-align: left">Fri 16/06/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic G, Common Security Protocols&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Scrum Event: Sprint Review&lt;/td>
+ &lt;td style="text-align: left">Unit 5 - Authentication Part II&lt;/td>
+ &lt;td style="text-align: left">Sprint 09 - Passport&lt;/td>
+ &lt;td style="text-align: left">Fri 23/06/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic H, Microservice Architectures&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Scrum Event: Retrospective&lt;/td>
+ &lt;td style="text-align: left">Unit 6 - Building an API Part I&lt;/td>
+ &lt;td style="text-align: left">Sprint 10 - REST API&lt;/td>
+ &lt;td style="text-align: left">Fri 30/06/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic I, JWT&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Unit 6 - Building an API Part II&lt;/td>
+ &lt;td style="text-align: left">Sprint 11 - Security&lt;/td>
+ &lt;td style="text-align: left">Fri 07/07/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic J, gRPC&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Unit 7 - Real-Time Communication&lt;/td>
+ &lt;td style="text-align: left">Sprint 12 - Socket.io&lt;/td>
+ &lt;td style="text-align: left">Fri 14/07/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-17:15&lt;/td>
+ &lt;td style="text-align: left">Presentation Topic D, Cloud Native Development&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 21/07/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-18:45&lt;/td>
+ &lt;td style="text-align: left">Exam (Raum WH C355)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">38&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 22/09/2023&lt;/td>
+ &lt;td style="text-align: left">15:45-18:45&lt;/td>
+ &lt;td style="text-align: left">Exam (Raum WH C354)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>This table is to be read as follows:
+During week 2 of the term - which is calendar week 16 - you need to study the agile and tech topic, first individually and then within the team. Furthermore, you need to work on the corresponding sprint and turn in the sprint report by Friday of that week, 22:00h.&lt;/p></description></item></channel></rss>
