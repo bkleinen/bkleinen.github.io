@@ -3,7 +3,7 @@ name: Deploy Production / progwebtec.github.io
 on:
   push:
     tags:
-      - 'v*'
+      - 'xxxxv*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
