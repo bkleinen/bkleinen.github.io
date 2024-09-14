@@ -1,7 +1,7 @@
 ---
 title: '7 - Testing'
 author: kleinen
-draft: false
+draft: true
 weight: 70
 ---
 ![Test Button](../images/test-button.jpg)

@@ -1,7 +1,7 @@
 ---
 title: '1 - Lab Startup'
 author: kleinen
-draft: false
+draft: true
 weight: 10
 ---
 

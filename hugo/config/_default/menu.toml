@@ -19,51 +19,63 @@
   alert = 'primary'
 
 [[main]]
-  identifier = 'classes_ws'
-  name = 'Classes WS24/25'
+  identifier = 'classes'
+  name = 'Classes'
   pageref = '/classes/ws2024'
-  weight = -295
+  weight = -290
+
+
 
 [[main]]
-  identifier = 'classes'
-  name = 'Classes SS24'
-  pageref = '/classes'
-  weight = -290
+  identifier = 'software_projects'
+  name = 'Software Projects'
+  pageref = '/software_projects'
+  weight = -175
+
+[[main]]
+  identifier = 'misc'
+  name = 'Misc'
+  pageref = '/misc'
+  weight = -150
+
+
+
+[[main]]
+  identifier = 'contact'
+  name = 'Contact Info'
+  pageref = '/contact'
+  weight = -140
 
 ##
 ## Classes Submenu
 ##
 
+# [[main]]
+#   parent = 'classes'
+#   identifier = '/classes/ws2024/info1'
+#   name = 'B1 Info1'
+#   pageref = '/classes/ws2024/info1'
+#   weight = 10
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2024/info2'
-  name = 'B 1 Informatik 2'
-  pageref = '/classes/ss2024/info2'
-  weight = 5
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ss2024/projects'
-  name = 'Praxisprojekte'
-  pageref = '/classes/ss2024/projects'
-  weight = 10
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ss2024/m1-web'
-  name = 'M 1 Mediaprogramming'
-  pageref = '/classes/ss2024/m1-web'
+  identifier = '/classes/ws2024/info3'
+  name = 'B15 Info3'
+  pageref = '/classes/ws2024/info3'
   weight = 20
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ss2024/masterseminar'
-  name = 'M 17.1 Masterseminar'
-  pageref = '/classes/ss2024/m17-masterseminar'
-  weight = 25
 
 [[main]]
   parent = 'classes'
-  identifier = '/classes/ss2024'
-  name = 'All SoSe 2024'
-  pageref = '/classes/ss2024'
+  identifier = '/classes/ws2024/m1-web'
+  name = 'M1 Mediaprogramming'
+  pageref = '/classes/ws2024/m1-web'
+  weight = 30
+
+
+[[main]]
+  parent = 'classes'
+  identifier = '/classes/ws2024'
+  name = 'All WS 2024/25'
+  pageref = '/classes/ws2024'
   weight = 40
 [[main]]
   parent = 'classes'
@@ -73,10 +85,8 @@
   weight = 50
 
   ##
-  ## Other
+  ## Other Submenues
   ##
-
-
 
 
 [[main]]
@@ -110,23 +120,3 @@ name = 'Grading Info'
 pageref = '/studies/grading'
 weight = 30
 
-
-[[main]]
-  identifier = 'software_projects'
-  name = 'Software Projects'
-  pageref = '/software_projects'
-  weight = -175
-
-[[main]]
-  identifier = 'misc'
-  name = 'Misc'
-  pageref = '/misc'
-  weight = -150
-
-
-
-[[main]]
-  identifier = 'contact'
-  name = 'Contact Info'
-  pageref = '/contact'
-  weight = -140

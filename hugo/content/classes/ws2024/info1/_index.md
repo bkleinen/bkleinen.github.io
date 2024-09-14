@@ -4,7 +4,7 @@ short_title: Info1
 pageTitle: Overview
 author: kleinen
 weight: 1
-draft: false
+draft: true
 aliases: /info1/
 CourseNav: Info 1
 courseNavExt:

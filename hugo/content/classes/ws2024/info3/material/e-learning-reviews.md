@@ -1,7 +1,7 @@
 ---
 title: e-learning reviews - Software Design Patterns (GOF) or Clean Code
 weight: 20
-draft: false
+draft: true
 ---
 
 This e-learning is about watching reviewing your own and another python project and apply

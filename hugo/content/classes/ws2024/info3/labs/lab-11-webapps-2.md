@@ -1,7 +1,7 @@
 ---
 title: '11 - Web Applications 2'
 author: kleinen
-draft: false
+draft: true
 weight: 110
 ---
 

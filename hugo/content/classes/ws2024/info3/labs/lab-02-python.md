@@ -1,7 +1,7 @@
 ---
 title: '2 - Learning Python'
 author: kleinen
-draft: false
+draft: true
 weight: 20
 ---
 

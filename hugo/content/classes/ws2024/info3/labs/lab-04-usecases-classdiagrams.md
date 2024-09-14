@@ -2,7 +2,7 @@
 title: '4 - Use Cases and Class Diagrams Part I'
 author: kleinen
 layout: page
-draft: false
+draft: true
 weight: 40
 ---
 

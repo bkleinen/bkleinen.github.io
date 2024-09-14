@@ -3,7 +3,7 @@ title: Info3 - Labs and Exercises
 author: kleinen
 weight: 30
 CourseNav: Labs
-draft: false
+draft: true
 ---
 
 ## Lab Overview

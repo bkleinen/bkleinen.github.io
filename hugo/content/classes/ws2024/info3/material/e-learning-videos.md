@@ -1,7 +1,7 @@
 ---
 title: e-Learning Video Summary
 weight: 10
-draft: false
+draft: true
 ---
 
 This e-learning is about watching one of the many talks about Agile Software Development / Software Craftship / S.O.L.I.D. or TDD principles

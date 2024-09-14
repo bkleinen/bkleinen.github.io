@@ -2,7 +2,7 @@
 title: '6 - Sequence Diagrams'
 author: kleinen
 layout: page
-draft: false
+draft: true
 weight: 60
 ---
 

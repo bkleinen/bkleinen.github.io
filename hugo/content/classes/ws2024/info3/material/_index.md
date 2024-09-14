@@ -2,8 +2,7 @@
 title: Info3 Material
 weight: 90
 CourseNav: Resources
-
-draft: false
+draft: true
 toc: true
 ---
 
