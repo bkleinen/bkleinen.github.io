@@ -12,18 +12,18 @@
 port=4000
 
 hugo :  node_modules open # open_current # open_m1 # openH
--  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)" --source hugo -p $(port) server
+-  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)"  -p $(port) server
 
 
 hugo2 :  node_modules open # open_current # open_m1 # openH
--  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
+-  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/"  -p $(port) server
 
 #baseURL=http://localhost:$(port)/~kleinen/
 baseURL=http://localhost:$(port)
 
 hugoP: port=4444
 hugoP :  node_modules open # open_current # open_m1 # openH
--  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURL)" --source hugo -p $(port) server
+-  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURL)"  -p $(port) server
 
 openProd :
 -  open http://localhost:$(portP)/
@@ -47,7 +47,7 @@ open_m1:
 - open http://localhost:$(port)/~kleinen/classes/ss2024/m1-web/
 
 hugo1 :  node_modules openI
--  hugo --disableFastRender --navigateToChanged --buildDrafts --source hugo -p $(port) server
+-  hugo --disableFastRender --navigateToChanged --buildDrafts  -p $(port) server
 openBib:
 - open 	http://localhost:4242/~kleinen/bibliographies
 
@@ -55,32 +55,32 @@ openBib:
 debug :  node_modules
 -  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
 -  open http://localhost:4242/~kleinen/classes/
--  hugo --disableFastRender --buildDrafts --navigateToChanged --environment debug --source hugo -p $(port) server
+-  hugo --disableFastRender --buildDrafts --navigateToChanged --environment debug  -p $(port) server
 
 node_modules :
 -  cd hugo ; npm install ; cd ..
 
 hugoWT :  port = 4241
 hugoWT :  node_modules open
--  hugo --buildDrafts --environment progwebtec --source hugo -p $(port) server
+-  hugo --buildDrafts --environment progwebtec  -p $(port) server
 
 hugoWOD :  port = 4243
 hugoWOD :  node_modules openH
--  hugo  --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
+-  hugo   -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
 
 
 hugoLC : port = 4244
 hugoLC : node_modules  
--  hugo --environment production --source hugo -p $(port) --baseURL "http://host.docker.internal:4244/~kleinen/"  server --disableFastRender 
+-  hugo --environment production  -p $(port) --baseURL "http://host.docker.internal:4244/~kleinen/"  server --disableFastRender 
 
 
 
 
 hugoS : node_modules openS # staging; without drafts
--  hugo --environment staging --source hugo -p 4242 server
+-  hugo --environment staging  -p 4242 server
 
 hugoSD : node_modules openSD # staging; like production but with drafts
--  hugo --buildDrafts --environment stagingdrafts --source hugo -p 4242 server
+-  hugo --buildDrafts --environment stagingdrafts  -p 4242 server
 
 c :
 -	git add .
@@ -187,8 +187,8 @@ linkCheck_old:
 - ./linkcheck.sh
 
 build:
-- hugo --environment production --source hugo --baseURL "http://localhost:$(port)/~kleinen/"  
+- hugo --environment production  --baseURL "http://localhost:$(port)/~kleinen/"  
 
 
 audit: 
-- HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo --source hugo && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" public/
+- HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo  && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" public/

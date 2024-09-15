@@ -27,7 +27,7 @@ if [ $? -ne 0 ]; then
 fi
 
 <<<<<<< HEAD:bin/deploy-htw.sh
-hugo  --source hugo --destination ../public-htw --environment htw
+hugo   --destination ../public-htw --environment htw
 =======
 git log --pretty=format:'%h' -n 1 > commit.txt
 jekyll build --config _config.yml,_htwconfigrz.yml
