@@ -11,18 +11,18 @@
 
 port=4000
 
-hugo :  hugo/node_modules open # open_current # open_m1 # openH
+hugo :  node_modules open # open_current # open_m1 # openH
 -  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)" --source hugo -p $(port) server
 
 
-hugo2 :  hugo/node_modules open # open_current # open_m1 # openH
+hugo2 :  node_modules open # open_current # open_m1 # openH
 -  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/" --source hugo -p $(port) server
 
 #baseURL=http://localhost:$(port)/~kleinen/
 baseURL=http://localhost:$(port)
 
 hugoP: port=4444
-hugoP :  hugo/node_modules open # open_current # open_m1 # openH
+hugoP :  node_modules open # open_current # open_m1 # openH
 -  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURL)" --source hugo -p $(port) server
 
 openProd :
@@ -46,40 +46,40 @@ open_m1:
 - open http://localhost:$(port)/~kleinen/classes/ws2023/m1-web/
 - open http://localhost:$(port)/~kleinen/classes/ss2024/m1-web/
 
-hugo1 :  hugo/node_modules openI
+hugo1 :  node_modules openI
 -  hugo --disableFastRender --navigateToChanged --buildDrafts --source hugo -p $(port) server
 openBib:
 - open 	http://localhost:4242/~kleinen/bibliographies
 
 
-debug :  hugo/node_modules
+debug :  node_modules
 -  open http://localhost:$(port)/~kleinen/classes/ss2023/info3
 -  open http://localhost:4242/~kleinen/classes/
 -  hugo --disableFastRender --buildDrafts --navigateToChanged --environment debug --source hugo -p $(port) server
 
-hugo/node_modules :
+node_modules :
 -  cd hugo ; npm install ; cd ..
 
 hugoWT :  port = 4241
-hugoWT :  hugo/node_modules open
+hugoWT :  node_modules open
 -  hugo --buildDrafts --environment progwebtec --source hugo -p $(port) server
 
 hugoWOD :  port = 4243
-hugoWOD :  hugo/node_modules openH
+hugoWOD :  node_modules openH
 -  hugo  --source hugo -p $(port) --baseURL "http://localhost:$(port)/~kleinen/" server
 
 
 hugoLC : port = 4244
-hugoLC : hugo/node_modules  
+hugoLC : node_modules  
 -  hugo --environment production --source hugo -p $(port) --baseURL "http://host.docker.internal:4244/~kleinen/"  server --disableFastRender 
 
 
 
 
-hugoS : hugo/node_modules openS # staging; without drafts
+hugoS : node_modules openS # staging; without drafts
 -  hugo --environment staging --source hugo -p 4242 server
 
-hugoSD : hugo/node_modules openSD # staging; like production but with drafts
+hugoSD : node_modules openSD # staging; like production but with drafts
 -  hugo --buildDrafts --environment stagingdrafts --source hugo -p 4242 server
 
 c :
@@ -141,20 +141,20 @@ ps:
 - ps -ax | grep hugo
 
 aliases_list:
-- grep -R "aliases: " hugo/content
+- grep -R "aliases: " content
 
 aliases_update:
-- echo "# this file is generated from front matter aliases with make aliases_update" > hugo/data/aliases.yml
-- echo "# these shortcuts/aliases are used in the back to course link in material, " >> hugo/data/aliases.yml
-- echo "# they do not work as an url alias!"  >> hugo/data/aliases.yml
-#- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\)\(/\.md\|\)\(_index.md\)*:aliases: /\([^/]*\)/*%\4:  \1%g" >> hugo/data/aliases.yml
-- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\):aliases: /\([^/]*\)/*%\2:  \1%g" >> hugo/data/aliases.yml
+- echo "# this file is generated from front matter aliases with make aliases_update" > data/aliases.yml
+- echo "# these shortcuts/aliases are used in the back to course link in material, " >> data/aliases.yml
+- echo "# they do not work as an url alias!"  >> data/aliases.yml
+#- grep -R "aliases: " content | sed -e "s%content\(.*\)\(/\.md\|\)\(_index.md\)*:aliases: /\([^/]*\)/*%\4:  \1%g" >> data/aliases.yml
+- grep -R "aliases: " content | sed -e "s%content\(.*\):aliases: /\([^/]*\)/*%\2:  \1%g" >> data/aliases.yml
 
 aliases_update_try:
-- echo "# this file is generated from front matter aliases with make aliases_update" > hugo/data/aliases.yml
-- echo "# these shortcuts/aliases are used in the back to course link in material, " >> hugo/data/aliases.yml
-- echo "# they do not work as an url alias!"  >> hugo/data/aliases.yml
-- grep -R "aliases: " hugo/content | sed -e "s%hugo/content\(.*\):aliases: /\([^/]*\)/*%\2:  \1%g" 
+- echo "# this file is generated from front matter aliases with make aliases_update" > data/aliases.yml
+- echo "# these shortcuts/aliases are used in the back to course link in material, " >> data/aliases.yml
+- echo "# they do not work as an url alias!"  >> data/aliases.yml
+- grep -R "aliases: " content | sed -e "s%content\(.*\):aliases: /\([^/]*\)/*%\2:  \1%g" 
 
 
 
@@ -169,8 +169,8 @@ linkcheckmd_build_docker_image:
 
 pwd = $(shell pwd)
 linkcheckmd:
-- docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r /site/hugo/content
-# - docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r -local /site/hugo/content
+- docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r /site/content
+# - docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r -local /site/content
 
 
 linkcheck:
@@ -191,4 +191,4 @@ build:
 
 
 audit: 
-- HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo --source hugo && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" hugo/public/
+- HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo --source hugo && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" public/
