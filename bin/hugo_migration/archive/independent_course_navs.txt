@@ -1,8 +1,0 @@
-directly_included =["classes/ss2014/info2.md",
-"classes/ss2015/info2.md",
-"classes/ss2017/media-programming-rails.md",
-"classes/ss2017/ucd.md",
-"classes/ss2017/info2.md",
-"classes/ws2014/info1.md",
-"classes/ws2014/wt1wa.md",
-"classes/ws2014/info3.md"]

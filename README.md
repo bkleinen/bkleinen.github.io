@@ -32,7 +32,7 @@ Prerequisites:
 ## Start without make
 
     cd hugo ; npm install ; cd ..
-    hugo --buildDrafts --source hugo -p 4242 server
+    hugo --buildDrafts  -p 4242 server
 
 ## start options
 
@@ -80,7 +80,7 @@ marojor/hugo-broken-link-checker: GitHub Action to check from broken links in an
 
 # Markdown
 
-Hugo uses [Goldmark markdown](https://www.markdownguide.org/tools/hugo/).
+Hugo uses [Goldmark markdown](https://www.markdownguide.org/tools/).
 
 # Notes on Hugo Setup
 
@@ -89,7 +89,7 @@ hugo build configurations.
 
 This sites uses an own theme contained in this repository.
 
-In development/debug mode [debug.html](hugo/themes/greenpage/layouts/partials/debug.html)
+In development/debug mode [debug.html](themes/greenpage/layouts/partials/debug.html)
 shows many variables/values useful for debugging.
 
 
@@ -116,7 +116,7 @@ shows many variables/values useful for debugging.
 
 
 All Class Sections have their own subnavigation, defined in
-[hugo/themes/greenpage/layouts/partials/classes/coursenav.html](hugo/themes/greenpage/layouts/partials/classes/coursenav.html)
+[themes/greenpage/layouts/partials/classes/coursenav.html](themes/greenpage/layouts/partials/classes/coursenav.html)
 
 ### Courses page title
 
@@ -182,7 +182,7 @@ Monday, 13.May 2024
 add tex / math: 
 https://gohugo.io/content-management/mathematics/
 
-	modified:   hugo/content/debug/_index.md
-	modified:   hugo/layouts/debug/list.html
-	modified:   hugo/themes/greenpage/layouts/_default/baseof.html
-	new file:   hugo/themes/greenpage/layouts/partials/math.html
+	modified:   content/debug/_index.md
+	modified:   layouts/debug/list.html
+	modified:   themes/greenpage/layouts/_default/baseof.html
+	new file:   themes/greenpage/layouts/partials/math.html

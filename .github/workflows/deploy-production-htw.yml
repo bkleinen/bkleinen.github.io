@@ -47,7 +47,7 @@ jobs:
         run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
-          hugo  --source hugo --destination ../public-htw --minify --environment htw
+          hugo   --destination ../public-htw --minify --environment htw
       - name: Zip
         run: |
           zip -r website ./public-htw

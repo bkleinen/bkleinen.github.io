@@ -29,7 +29,7 @@ jobs:
         run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
-          hugo --source hugo  --minify --environment staging
+          hugo   --minify --environment staging
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging on Github Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -37,7 +37,7 @@ jobs:
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN_PROGWEBTEC }}
           external_repository: bkleinen/staging
-          publish_dir: ./hugo/public
+          publish_dir: ./public
           publish_branch: hugo_staging
           commit_message: ${{ github.event.head_commit.message }}
           #full_commit_message: ${{ github.event.head_commit.message }}
@@ -47,7 +47,7 @@ jobs:
 #        env:
 #          API_TOKEN_GITHUB: ${{ secrets.OTHER_TOKEN }}
 #        with:
-#          source-directory: 'hugo/public'
+#          source-directory: 'public'
 #          destination-github-username: 'bkleinen'
 #          destination-repository-name: 'staging'
 #          user-email: barne.kleinen@htw-berlin.de

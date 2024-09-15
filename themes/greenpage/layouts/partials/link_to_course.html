@@ -1,0 +1,20 @@
+{{- partial "filename_debug.html" (dict "pc" . "file" "link_to_course.html") }}
+{{ $page := .page }}
+{{ $path := .path }}
+
+
+{{ with $page.GetPage $path }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ else }}
+
+  {{ $dirFile := $path |  path.Clean | path.Split }}
+  {{ $cleanPath := $dirFile.File }}
+  {{ $realPath := index $page.Site.Data.aliases $cleanPath }}
+  {{ if eq $realPath nil}}
+      {{ warnf "Course alias %q needs to be added in data/aliases.yml" $cleanPath }}
+  {{ else }}
+         {{ with $page.GetPage $realPath }}
+            Back to Class: <a href="{{ .Permalink }}">{{ .Title }}</a>
+         {{ end }}
+    {{ end }}
+{{ end }}

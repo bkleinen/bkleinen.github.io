@@ -1,7 +1,7 @@
 # How to switch semester / term
 
 - update link aktuelles_semester
-- update main menu in hugo/config/_default/menu.toml
+- update main menu in config/_default/menu.toml
 - Daten für LV generieren: (anpassen und ausführen) ruby bin/ruby-dates.rb,
 mit multi-column selection in den schedule kopieren
 

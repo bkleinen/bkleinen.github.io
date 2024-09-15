@@ -1,3 +1,0 @@
-# Lines starting with a hash are comments.
-
-# http://host.docker.internal:1415.*

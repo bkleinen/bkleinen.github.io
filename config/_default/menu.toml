@@ -1,0 +1,96 @@
+[[main]]
+  identifier = 'home'
+  name = 'Home'
+  pageref = '/'
+  weight = -300
+
+[[main]]
+  weight = -289
+  #parent = 'classes'
+  # weight = 300
+  identifier = 'material'
+  name = 'Material'
+  pageref = '/material'
+[[main]]
+  identifier = 'debug'
+  name = 'Localhost'
+  pageref = '/debug'
+  weight = -301
+  alert = 'primary'
+
+[[main]]
+  identifier = 'classes'
+  name = 'Class Archive'
+  pageref = '/classes'
+  weight = -290
+
+
+
+[[main]]
+  identifier = 'software_projects'
+  name = 'Software Projects'
+  pageref = '/software_projects'
+  weight = -175
+
+[[main]]
+  identifier = 'misc'
+  name = 'Misc'
+  pageref = '/misc'
+  weight = -150
+
+
+
+[[main]]
+  identifier = 'contact'
+  name = 'Contact Info'
+  pageref = '/contact'
+  weight = -140
+
+##
+## Classes Submenu
+##
+
+# [[main]]
+#   parent = 'classes'
+#   identifier = '/classes/ws2024/info1'
+#   name = 'B1 Info1'
+#   pageref = '/classes/ws2024/info1'
+#   weight = 10
+
+
+  ##
+  ## Other Submenues
+  ##
+
+
+[[main]]
+  identifier = 'studies'
+  name = 'Studies'
+  pageref = '/studies'
+  weight = -170
+
+[[main]]
+parent = 'studies'
+identifier = '/studies/thesis/'
+name = 'Thesis'
+pageref = '/studies/thesis'
+weight = 10
+[[main]]
+parent = 'studies'
+identifier = '/studies/ic/'
+name = 'IC'
+pageref = '/studies/ic'
+weight = 20
+[[main]]
+parent = 'studies'
+identifier = '/studies/bafoeg/'
+name = 'Bafoeg'
+pageref = '/studies/bafoeg'
+weight = 25
+[[main]]
+parent = 'studies'
+identifier = '/studies/grading/'
+name = 'Grading Info'
+pageref = '/studies/grading'
+weight = 30
+
