@@ -56,7 +56,7 @@ Syntax: example:
 
 ## GetPage
 
-- getPage: {{% hugoCheatSheet/getPage  path = "/material/hugo/hugocheatsheet" %}}
+- getPage: {{% hugoCheatSheet/getPage  path = "/material/hugocheatsheet" %}}
 
 ## Aliases
 

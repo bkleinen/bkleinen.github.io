@@ -35,7 +35,7 @@ all_markdown.each do | markdown_file|
       else
         puts "int link"
           if image_link[0] == "/"
-            local_file = File.join("hugo/static",image_link)
+            local_file = File.join("static",image_link)
           else
             image_link = image_link.sub("../","")
             local_file = File.join(File.dirname(markdown_file),image_link)

@@ -11,7 +11,7 @@
   {{ $cleanPath := $dirFile.File }}
   {{ $realPath := index $page.Site.Data.aliases $cleanPath }}
   {{ if eq $realPath nil}}
-      {{ warnf "Course alias %q needs to be added in hugo/data/aliases.yml" $cleanPath }}
+      {{ warnf "Course alias %q needs to be added in data/aliases.yml" $cleanPath }}
   {{ else }}
          {{ with $page.GetPage $realPath }}
             Back to Class: <a href="{{ .Permalink }}">{{ .Title }}</a>

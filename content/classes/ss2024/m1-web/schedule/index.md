@@ -9,7 +9,7 @@ weight: 20241
 Stand: 24.4.2024 / 
 [M1 Schedule Overview](/classes/m1)
 /
-[Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/hugo/content/classes/ss2024/m1-web/schedule/index.md) (ask BK for repo permissions first)
+[Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/content/classes/ss2024/m1-web/schedule/index.md) (ask BK for repo permissions first)
 
 Time and Room: See [LSF](https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=204497&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 

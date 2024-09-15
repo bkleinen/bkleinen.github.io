@@ -1,6 +1,6 @@
 
 #[markup] # already ias it's in markup.toml, this needs to be replaced:
-# https://www.markdownguide.org/tools/hugo/
+# https://www.markdownguide.org/tools/
 # https://gohugo.io/getting-started/configuration-markup/#goldmark
 
 defaultMarkdownHandler = 'goldmark'

@@ -426,8 +426,8 @@ blog = [
     "gitlab.com/rmaguiar/hugo-theme-color-your-world",
     "gitlab.com/tmuguet/hugo-split-gallery",
     "gitlab.com/VincentTam/huginn",
-    "gitlab.com/writeonlyhugo/up-business-theme",
-    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "gitlab.com/writeonlyup-business-theme",
+    "gitlab.com/writeonlywriteonlyhugo-theme",
     "github.com/nusserstudios/tailbliss",
 ]
 responsive = [
@@ -661,8 +661,8 @@ responsive = [
     "gitlab.com/rmaguiar/hugo-theme-color-your-world",
     "gitlab.com/tmuguet/hugo-split-gallery",
     "gitlab.com/VincentTam/huginn",
-    "gitlab.com/writeonlyhugo/up-business-theme",
-    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "gitlab.com/writeonlyup-business-theme",
+    "gitlab.com/writeonlywriteonlyhugo-theme",
     "github.com/nusserstudios/tailbliss",
 ]
 minimal = [
@@ -1072,8 +1072,8 @@ light = [
     "gitlab.com/ian-s-mcb/smigle-hugo-theme",
     "gitlab.com/kskarthik/monopriv",
     "gitlab.com/rmaguiar/hugo-theme-color-your-world",
-    "gitlab.com/writeonlyhugo/up-business-theme",
-    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "gitlab.com/writeonlyup-business-theme",
+    "gitlab.com/writeonlywriteonlyhugo-theme",
     "github.com/nusserstudios/tailbliss",
 ]
 personal = [
@@ -1191,8 +1191,8 @@ personal = [
     "github.com/yursan9/manis-hugo-theme",
     "github.com/zerostaticthemes/hugo-serif-theme",
     "gitlab.com/rmaguiar/hugo-theme-color-your-world",
-    "gitlab.com/writeonlyhugo/up-business-theme",
-    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "gitlab.com/writeonlyup-business-theme",
+    "gitlab.com/writeonlywriteonlyhugo-theme",
     "github.com/nusserstudios/tailbliss",
 ]
 bootstrap = [
@@ -1239,8 +1239,8 @@ bootstrap = [
     "github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
     "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
     "gitlab.com/kskarthik/monopriv",
-    "gitlab.com/writeonlyhugo/up-business-theme",
-    "gitlab.com/writeonlyhugo/writeonlyhugo-theme",
+    "gitlab.com/writeonlyup-business-theme",
+    "gitlab.com/writeonlywriteonlyhugo-theme",
 ]
 customizable = [
     "github.com/10mohi6/hugo-theme-simple-blog",
@@ -1377,7 +1377,7 @@ portfolio = [
     "github.com/zerostaticthemes/hugo-hero-theme",
     "github.com/zzzmisa/hugo-theme-doors",
     "gitlab.com/ian-s-mcb/smigle-hugo-theme",
-    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyup-business-theme",
     "github.com/nusserstudios/tailbliss",
 ]
 business = [
@@ -1621,7 +1621,7 @@ modern = [
     "github.com/wowchemy/starter-hugo-academic",
     "gitlab.com/avron/gruvhugo",
     "gitlab.com/rmaguiar/hugo-theme-color-your-world",
-    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyup-business-theme",
 ]
 minimalist = [
     "github.com/achary/engimo",
@@ -2608,7 +2608,7 @@ company = [
     "github.com/wowchemy/starter-hugo-academic",
     "github.com/zerostaticthemes/hugo-hero-theme",
     "github.com/zerostaticthemes/hugo-serif-theme",
-    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyup-business-theme",
     "github.com/nusserstudios/tailbliss",
 ]
 accessibility = [
@@ -3061,7 +3061,7 @@ landing = [
     "github.com/jeblister/bulma",
     "github.com/KatamariJr/split-landing",
     "github.com/willfaught/paige",
-    "gitlab.com/writeonlyhugo/up-business-theme",
+    "gitlab.com/writeonlyup-business-theme",
 ]
 themes = [
     "github.com/jeblister/bulma",

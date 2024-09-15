@@ -20,7 +20,7 @@ https://gohugo.io/getting-started/configuration-markup/
 
 [https://www.markdownguide.org/](https://www.markdownguide.org/)
 
-[https://www.markdownguide.org/tools/hugo/](https://www.markdownguide.org/tools/hugo/)
+[https://www.markdownguide.org/tools/](https://www.markdownguide.org/tools/)
 
 ## Ordered Lists
 

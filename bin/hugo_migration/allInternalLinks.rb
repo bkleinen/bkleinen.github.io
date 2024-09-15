@@ -1,12 +1,12 @@
 # run hugo -e staging -s hugo first
 
 # usage: find missing files / internal broken links:
-# for f in $(ruby bin/hugo_migration/allInternalLinks.rb); do ls hugo/public/$f/index.html; done 2> missing.log
+# for f in $(ruby bin/hugo_migration/allInternalLinks.rb); do ls public/$f/index.html; done 2> missing.log
 
-# for f in $(ruby bin/hugo_migration/allInternalLinks.rb); do ls hugo/public/$f/index.html; done 2> missing.log > linked.log
+# for f in $(ruby bin/hugo_migration/allInternalLinks.rb); do ls public/$f/index.html; done 2> missing.log > linked.log
 
 
-SITE_DIR="hugo/public/"
+SITE_DIR="public/"
 HTMLFILE="index.html"
 
 #BASEURL_SUBDIR ="staging/"
@@ -71,8 +71,8 @@ def self_link(link,file_name)
   puts "file_name_from_link: #{file_name_from_link}" if DEBUG > 3
   puts "file_name: #{file_name}"if DEBUG > 3
   file_name_from_link == file_name
-#   --------- processing  in hugo/public/classes/ss2020/info2/labs/lab-08-chat/index.html
-#   rel  in hugo/public/classes/ss2020/info2/labs/lab-08-chat/index.html classes/ss2020/info2/labs/lab-08-chat/
+#   --------- processing  in public/classes/ss2020/info2/labs/lab-08-chat/index.html
+#   rel  in public/classes/ss2020/info2/labs/lab-08-chat/index.html classes/ss2020/info2/labs/lab-08-chat/
 #   result: classes/ss2020/info2/labs/lab-08-chat/ type: internal
 #   found: classes/ss2020/info2/labs/lab-08-chat/
 end

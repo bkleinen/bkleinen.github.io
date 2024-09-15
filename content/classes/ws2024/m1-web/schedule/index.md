@@ -8,7 +8,7 @@ weight: 20242
 Stand: 09.06.2024 - first draft!!
 [M1 Schedule Overview](/classes/m1)
 /
-[Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/hugo/content/classes/ws2024/m1-web/schedule/index.md) (ask BK for repo permissions first)
+[Edit this page via github](https://github.com/bkleinen/bkleinen.github.io/blob/main/content/classes/ws2024/m1-web/schedule/index.md) (ask BK for repo permissions first)
 
 Time and Room: See [LSF](#tbd)
 

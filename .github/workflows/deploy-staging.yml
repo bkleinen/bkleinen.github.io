@@ -47,7 +47,7 @@ jobs:
 #        env:
 #          API_TOKEN_GITHUB: ${{ secrets.OTHER_TOKEN }}
 #        with:
-#          source-directory: 'hugo/public'
+#          source-directory: 'public'
 #          destination-github-username: 'bkleinen'
 #          destination-repository-name: 'staging'
 #          user-email: barne.kleinen@htw-berlin.de

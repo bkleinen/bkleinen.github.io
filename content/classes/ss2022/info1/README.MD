@@ -34,7 +34,7 @@ The subpages shortcut
 
 uses this field. see the according partial definition in
 
-hugo/themes/greenpage/layouts/partials/sc_partials/subpages.html
+themes/greenpage/layouts/partials/sc_partials/subpages.html
 
 ## Add solution to intern repository
 

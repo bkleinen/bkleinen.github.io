@@ -15,7 +15,7 @@ starting [below](#debuglisthtml)
 
 ## Embedded Shortcodes
 
-https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/highlight.html
+https://github.com/gohugoio/blob/master/tpl/tplimpl/embedded/templates/shortcodes/highlight.html
 
 {{< highlight go >}} A bunch of code here {{< /highlight >}}
 {{< highlight go >}} Stuff to `process` in the *center*. {{< /highlight >}}

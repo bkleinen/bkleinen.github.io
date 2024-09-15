@@ -63,4 +63,4 @@ flowchart TD
     id1>This is the text in the box]
     id2{{This is the text in the box}}
 ```
-[^1]: hugo/themes/greenpage/layouts/_default/_markup/
+[^1]: themes/greenpage/layouts/_default/_markup/
