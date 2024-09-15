@@ -20,8 +20,8 @@
 
 [[main]]
   identifier = 'classes'
-  name = 'Classes'
-  pageref = '/classes/ws2024'
+  name = 'Class Archive'
+  pageref = '/classes'
   weight = -290
 
 
@@ -56,33 +56,7 @@
 #   name = 'B1 Info1'
 #   pageref = '/classes/ws2024/info1'
 #   weight = 10
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ws2024/info3'
-  name = 'B15 Info3'
-  pageref = '/classes/ws2024/info3'
-  weight = 20
 
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ws2024/m1-web'
-  name = 'M1 Mediaprogramming'
-  pageref = '/classes/ws2024/m1-web'
-  weight = 30
-
-
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/ws2024'
-  name = 'All WS 2024/25'
-  pageref = '/classes/ws2024'
-  weight = 40
-[[main]]
-  parent = 'classes'
-  identifier = '/classes/'
-  name = 'All Classes'
-  pageref = '/classes'
-  weight = 50
 
   ##
   ## Other Submenues
