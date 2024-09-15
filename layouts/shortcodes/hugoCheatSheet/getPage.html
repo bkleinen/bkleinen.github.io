@@ -25,7 +25,7 @@
     - index: {{ index .Site.Data.aliases "info1" }}
   {{ $realPath := index .Site.Data.aliases $cleanPath }}
     - realPath:   {{ $realPath }}
-    {{ with .Page.GetPage $realPath }}
+    {{ with .Page.GetPage "$realPath" }}
        {{ . }}
     {{ end }}
 
