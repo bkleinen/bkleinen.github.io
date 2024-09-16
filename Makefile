@@ -18,18 +18,19 @@ hugo :  node_modules open # open_current # open_m1 # openH
 hugo2 :  node_modules open # open_current # open_m1 # openH
 -  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/"  -p $(port) server
 
-#baseURL=http://localhost:$(port)/~kleinen/
-baseURL=http://localhost:$(port)
+baseURL=http://localhost:$(port)/~kleinen/
+#baseURL=http://localhost:$(port)
 
 hugoP: port=4444
 hugoP :  node_modules open # open_current # open_m1 # openH
 -  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURL)"  -p $(port) server
 
-openProd :
--  open http://localhost:$(portP)/
+
+build:
+- hugo --environment production  --baseURL "$(baseURL)" 
 
 open:
-- open http://localhost:$(port)/classes/ss2024/info2
+- open "$(baseURL)"
 
 open_current:
 - open http://localhost:$(port)/~kleinen/classes/m1
@@ -162,33 +163,35 @@ aliases_update_try:
 
 
 
-# Linkcheckmd
+links: build
+- grep -rn "a href" public | sed -E "s/([0-9]+:).*href\s*=\s*\"/\1  /g" | sed -E "s/\".*//g"
 
-linkcheckmd_build_docker_image:
-- docker build linkcheck/linkcheckmd -t bkleinen/linkcheckmd
+internal: build
+- grep -rn "a href" public | grep "localhost:4000" | sed -E "s/([0-9]+:).*href\s*=\s*\"/\1  /g" | sed -E "s/\".*//g"
+internal2:
+- grep -rn "http://localhost:4000/~kleinen" public | sed -E "s#([0-9]:).*http://localhost:4000/~kleinen/*#\1  #g" | sed -E "s/\"*>.*//g"
 
-pwd = $(shell pwd)
-linkcheckmd:
-- docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r /site/content
-# - docker run -v $(pwd):/site -w /site -t bkleinen/linkcheckmd python -m linkcheckmd -r -local /site/content
-
-
-linkcheck:
-- linkcheck http://localhost:4242/~kleinen
-
-linkcheck_external:
-- linkcheck -e http://localhost:4242/~kleinen
-
-
-linkcheck_retired:
-- docker run -p 4244:4244  tennox/linkcheck --external host.docker.internal:4244/~kleinen/
-
-linkCheck_old:
-- ./linkcheck.sh
-
-build:
-- hugo --environment production  --baseURL "http://localhost:$(port)/~kleinen/"  
-
-
+internal3:
+- grep -rn "http://localhost:4000/~kleinen" public | sed -E "s#.*http://localhost:4000/~kleinen/*##g" | sed -E "s/\"*>.*//g"
+- grep -rn "http://localhost:4000/~kleinen" public | sed -E "s#.*http://localhost:4000/~kleinen/*##g" | sed -E "s/\".*//g" | sed -E "s/<.*//g" | sort -u
+- grep -rn "http://localhost:4000/~kleinen" public | sed -E "s#.*http://localhost:4000/~kleinen/*##g" | sed -E "s/\".*//g" | sed -E "s/<.*//g" | grep -v "&#" | sort -u
 audit: 
 - HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo  && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" public/
+
+
+
+wget-linkcheck: # build hugoP
+- wget --input-file=public/index.html --force-html --spider -nv --base=http://localhost:4444/~kleinen/ -r -D localhost 2&> tmp/wget-error.log
+# note: das automatische seitenöffnen funktioniert nur mit ohne ~kleinen in der baseURL.
+wget-linkcheck-verbose:
+- wget --input-file=public/index.html --force-html --spider  --base=http://localhost:4444/~kleinen/ -r -D localhost 2&> tmp/wget-error-verbose.log
+
+wget-brief:
+- grep -B 1 "Die Datei auf dem Server existiert nicht" tmp/wget-error.log | grep http | sort -u
+
+wget-loop:
+- wget --input-file=public/index.html --force-html --spider  --base=http://localhost:4444/~kleinen/ -r -D localhost 2&> tmp/wget-error-verbose.log
+
+
+hugoP-wget :  node_modules open # open_current # open_m1 # openH
+-  hugo --disableFastRender --baseURL "$(baseURL)"  -p $(port) server

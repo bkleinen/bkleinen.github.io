@@ -8,7 +8,7 @@ courseNavInt:
 - title: M1
   link: "/classes/ss2022/m1-web/"
 - title: Complete Schedule
-  link: "/classes/ss2022/m1-web/complete-schedule/"
+  link: "/classes/ss2022/m1-web/schedule/"
 courseNavExt:
 - title: LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=185379&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung

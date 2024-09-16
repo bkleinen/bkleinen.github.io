@@ -14,7 +14,7 @@ The ClockDisplay aims at showing object interaction, which it does.
 
 - it mixes Model and Representation. Furthermore, the Model or more simply put the stored state, which is the time the clocks shows at the moment, is distributed between three objects - a NumberDisplay for hours and minutes respectively, and the ClockDisplay holding the knowledge how to combine the two.
 
-- also, the construction of the displayString is distributed between all objects - [see the updateDisplay() part of the timeTick sequence diagram.](../images/original_clock_display#original-version-timetick). Creating a String representation may of course be delegated, but for this example with the focus of displaying the whole clock, altering the display results in shotgun surgery.
+- also, the construction of the displayString is distributed between all objects - [see the updateDisplay() part of the timeTick sequence diagram.](../original_clock_display#original-version-timetick). Creating a String representation may of course be delegated, but for this example with the focus of displaying the whole clock, altering the display results in shotgun surgery.
 
 - although examples need to be small, I feel that the simplification has gone too far, as the modularization does not only make sense any more, it also turns out to be quite complicated with two instances of the same class which
 have to be used very differently. 

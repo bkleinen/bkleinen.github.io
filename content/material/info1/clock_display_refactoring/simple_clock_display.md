@@ -11,7 +11,7 @@ weight: 40
 
 All the ClockDisplay example really does is returning a String like "13:45" from `getTime()`  after either the time has been set to 13:45 by calling `setTime()` or after calling the `timeTick()` method the appropriate amount of times.
 
-This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays **in combination with the timeTick / increment** makes little sense and seems to be quite confusing for students. Also, see the [general critique on the last page](./clock_display_critique).
+This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays **in combination with the timeTick / increment** makes little sense and seems to be quite confusing for students. Also, see the [general critique on the previous page](../clock_display_critique).
 
 ## Refactoring to a simple solution
 
