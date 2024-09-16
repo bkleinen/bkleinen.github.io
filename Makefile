@@ -177,3 +177,21 @@ internal3:
 - grep -rn "http://localhost:4000/~kleinen" public | sed -E "s#.*http://localhost:4000/~kleinen/*##g" | sed -E "s/\".*//g" | sed -E "s/<.*//g" | grep -v "&#" | sort -u
 audit: 
 - HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo  && grep -inorE "<\!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" public/
+
+
+
+wget-linkcheck: # build hugoP
+- wget --input-file=public/index.html --force-html --spider -nv --base=http://localhost:4444/~kleinen/ -r -D localhost 2&> tmp/wget-error.log
+# note: das automatische seitenöffnen funktioniert nur mit ohne ~kleinen in der baseURL.
+wget-linkcheck-verbose:
+- wget --input-file=public/index.html --force-html --spider  --base=http://localhost:4444/~kleinen/ -r -D localhost 2&> tmp/wget-error-verbose.log
+
+wget-brief:
+- grep -B 1 "Die Datei auf dem Server existiert nicht" tmp/wget-error.log | grep http | sort -u
+
+wget-loop:
+- wget --input-file=public/index.html --force-html --spider  --base=http://localhost:4444/~kleinen/ -r -D localhost 2&> tmp/wget-error-verbose.log
+
+
+hugoP-wget :  node_modules open # open_current # open_m1 # openH
+-  hugo --disableFastRender --baseURL "$(baseURL)"  -p $(port) server

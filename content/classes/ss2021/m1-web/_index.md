@@ -6,7 +6,7 @@ courseNavInt:
 - title: M1
   link: "/classes/ss2021/m1-web/"
 - title: Complete Schedule
-  link: "/classes/ss2021/m1-web/complete-schedule/"
+  link: "/classes/ss2021/m1-web/schedule/"
 courseNavExt:
 - title: LSF
   link: https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=164577

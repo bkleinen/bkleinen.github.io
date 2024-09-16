@@ -6,6 +6,7 @@ subpages: true
 
 Welcome!
 
+[https://www.wqerqwer.com/](https://www.wqerqwer.com/)
 ### All Class Information has been moved to a new page!
 
 [https://progwebtec.github.io/](https://progwebtec.github.io/)
