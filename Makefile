@@ -59,7 +59,7 @@ debug :  node_modules
 -  hugo --disableFastRender --buildDrafts --navigateToChanged --environment debug  -p $(port) server
 
 node_modules :
--  cd hugo ; npm install ; cd ..
+-  npm install
 
 hugoWT :  port = 4241
 hugoWT :  node_modules open

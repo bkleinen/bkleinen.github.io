@@ -31,7 +31,7 @@ Prerequisites:
 
 ## Start without make
 
-    cd hugo ; npm install ; cd ..
+    npm install
     hugo --buildDrafts  -p 4242 server
 
 ## start options
