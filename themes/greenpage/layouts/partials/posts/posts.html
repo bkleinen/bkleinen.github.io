@@ -1,8 +1,0 @@
-
-<ul class="posts">
-{{ $posts :=.Site.GetPage "section" "posts"}}
-{{ range where $posts.Pages "old" "not in" "categories" }}
-
-<  li><small>{{ .Date  }} &raquo; </small><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-{{end}}
-</ul>

@@ -1,5 +1,0 @@
-
-{{ $type := or .type "video"}}
-{{ $partial_path := printf "bibentry/%s.html" $type  }}
-
-{{- partial $partial_path . }}

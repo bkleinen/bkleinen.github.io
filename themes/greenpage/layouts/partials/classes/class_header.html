@@ -1,6 +1,0 @@
-{{- partial "filename_debug.html" (dict "pc" . "file" "classes/class_header.html") -}}
-<p>class header</p>
-{{ if (or (eq "class" (.Scratch.Get "type")) (eq "class_subpage" (.Scratch.Get "type"))) }}
-<h3>Subpages: </h3>
-{{- partial "sitemap.html" . -}}
-{{ end }}

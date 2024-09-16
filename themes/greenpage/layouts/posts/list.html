@@ -1,8 +1,0 @@
-{{ define "meta"}}{{.Scratch.Set "theme" "layouts/posts/list.html"}}{{ end }}
-
-{{ define "main" }}
-{{ .Content }}
-{{-  partial "posts/posts-with-excerpts.html" (dict "show" "all" "exclude" (slice "old") "Context" .) }}
-<h2>Old Posts</h2>
-{{- partial "posts/onecategory.html" . }}
-{{ end }}

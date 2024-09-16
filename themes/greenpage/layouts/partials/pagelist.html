@@ -1,7 +1,0 @@
-{{- partial "filename_debug.html" (dict "pc" . "file" "pagelist.html") }}
-<h2>All Pages</h2>
-<ul>
-{{ range .Site.AllPages }}
-   <li><a href= "{{ .RelPermalink }}">{{.RelPermalink }}({{.Kind}}/{{.Type}}- {{ .Weight}})</a>
-{{ end }}
-</ul>

@@ -1,6 +1,0 @@
-{{- partial "filename_debug.html" (dict "pc" . "file" "classes/semester_header.html") -}}
-
-{{ if eq "semester" (.Scratch.Get "type") }}
-    <h3>Classes {{ .Title}}</h3>
-        {{- partial "lectures.html" .}}
-{{ end }}
