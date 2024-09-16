@@ -9,17 +9,17 @@
 # default port
 
 
-port=4000
-
+port=4545
+#baseURL=http://localhost:$(port)/~kleinen/
+baseURL=http://localhost:$(port)
 hugo :  node_modules open # open_current # open_m1 # openH
--  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)"  -p $(port) server
+-  hugo --navigateToChanged --buildDrafts --baseURL $(baseURL)  -p $(port) server
 
 
 hugo2 :  node_modules open # open_current # open_m1 # openH
 -  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/"  -p $(port) server
 
-baseURL=http://localhost:$(port)/~kleinen/
-#baseURL=http://localhost:$(port)
+
 
 hugoP: port=4444
 hugoP :  node_modules open # open_current # open_m1 # openH
