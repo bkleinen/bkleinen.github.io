@@ -36,7 +36,7 @@ jobs:
           hugo   --minify --buildDrafts --environment stagingdrafts
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging Drafts on Github Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN_PROGWEBTEC }}

@@ -31,7 +31,7 @@ jobs:
           node-version: 'lts'
       - run: |
           npm install
-      - uses: webfactory/ssh-agent@v0.5.3
+      - uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.WEBSSHKEY }}
       - name: Create Known Hosts File
