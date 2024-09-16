@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/</link><description>Recent content in Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 16:31:53 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlighting</title><link>https://bkleinen.github.io/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://bkleinen.github.io/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout">Syntax Highlighting Tryout&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/</link><description>Recent content in Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 16 Sep 2024 13:38:29 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlighting</title><link>https://bkleinen.github.io/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://bkleinen.github.io/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout">Syntax Highlighting Tryout&lt;/h2>
 &lt;p>Notes:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -113,7 +113,7 @@ with the setting &lt;code>noClasses=false&lt;/code> via stylesheets. see &lt;cod
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>hugo/themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>GIT Intro</title><link>https://bkleinen.github.io/material/git-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/git-intro/</guid><description>&lt;h2 id="source-code-management-mit-git">Source Code Management mit GIT&lt;/h2>
+&lt;p>themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>GIT Intro</title><link>https://bkleinen.github.io/material/git-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/git-intro/</guid><description>&lt;h2 id="source-code-management-mit-git">Source Code Management mit GIT&lt;/h2>
 &lt;p>Für Info2 hatte ich im letzten Semester eine GIT-Introduction aufgenomen:&lt;/p>
 &lt;p>(Zugänglich mit HTW-Login)&lt;/p>
 &lt;ul>
@@ -135,7 +135,7 @@ gibt es gute Hinweise dazu.&lt;/p></description></item><item><title>Hugo Markdow
 &lt;li>&lt;del>not strikethrough&lt;/del>&lt;/li>
 &lt;/ol>
 &lt;p>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.markdownguide.org/tools/hugo/">https://www.markdownguide.org/tools/hugo/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.markdownguide.org/tools/">https://www.markdownguide.org/tools/&lt;/a>&lt;/p>
 &lt;h2 id="ordered-lists">Ordered Lists&lt;/h2>
 &lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists">https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a>&lt;/p>
 &lt;ol>

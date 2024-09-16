@@ -8,7 +8,7 @@
 &lt;li>&lt;del>not strikethrough&lt;/del>&lt;/li>
 &lt;/ol>
 &lt;p>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.markdownguide.org/tools/hugo/">https://www.markdownguide.org/tools/hugo/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.markdownguide.org/tools/">https://www.markdownguide.org/tools/&lt;/a>&lt;/p>
 &lt;h2 id="ordered-lists">Ordered Lists&lt;/h2>
 &lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists">https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a>&lt;/p>
 &lt;ol>
