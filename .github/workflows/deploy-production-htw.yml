@@ -26,9 +26,9 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
       - name: Install Bootstrap with npm
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: 'lts'
       - run: |
           npm install
       - uses: webfactory/ssh-agent@v0.5.3
@@ -38,7 +38,7 @@ jobs:
         run: |
           cp bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
