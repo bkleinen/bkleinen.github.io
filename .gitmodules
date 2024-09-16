@@ -1,3 +1,3 @@
 [submodule "themes/greenpage"]
 	path = themes/greenpage
-	url = https://github.com/progwebtec/greenpage-theme
+	url = git@github.com:progwebtec/greenpage-theme.git
