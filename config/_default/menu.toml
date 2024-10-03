@@ -20,8 +20,8 @@
 
 [[main]]
   identifier = 'classes'
-  name = 'Class Archive'
-  pageref = '/classes'
+  name = 'Classes'
+  pageref = '/classes/ws2024'
   weight = -290
 
 
