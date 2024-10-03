@@ -2616,7 +2616,333 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="intranet-links">Intranet Links&lt;/h2>
-&lt;p>(vorher ins VPN!)&lt;/p></description></item><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ss2023/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/schedule/</guid><description>&lt;p>This schedule is, more than always, tentative.&lt;/p>
+&lt;p>(vorher ins VPN!)&lt;/p></description></item><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ws2024/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info3/schedule/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: right">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: right">40&lt;/td>
+ &lt;td style="text-align: left">Tue 01/10/2024&lt;/td>
+ &lt;td style="text-align: left">Hochschultag&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 03/10/2024&lt;/td>
+ &lt;td style="text-align: left">Feiertag&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: right">41&lt;/td>
+ &lt;td style="text-align: left">Tue 08/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction to Info3, Source Code Management&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 10/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Source Code Management (GIT) and How to learn Python&lt;/td>
+ &lt;td style="text-align: left">Lab 1: Python and Git Practice&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: right">42&lt;/td>
+ &lt;td style="text-align: left">Tue 15/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Introduction to Software Engineering and Software Development Processes&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 17/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">System Modeling and Architectural Design&lt;/td>
+ &lt;td style="text-align: left">Lab 1: Python and Git Practice&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: right">43&lt;/td>
+ &lt;td style="text-align: left">Tue 22/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Requirements Engineering&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 24/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Use Cases and Class Diagrams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: right">44&lt;/td>
+ &lt;td style="text-align: left">Tue 29/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">UML &amp;amp; System Modeling: Requirements, Product Owner Game&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 31/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Design Patterns (GOF)&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Use Cases and Class Diagrams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: right">45&lt;/td>
+ &lt;td style="text-align: left">Tue 05/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Testing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 07/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
+ &lt;td style="text-align: left">Lab 3: Sequence Diagrams and State Machines&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: right">46&lt;/td>
+ &lt;td style="text-align: left">Tue 12/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 14/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: right">47&lt;/td>
+ &lt;td style="text-align: left">Tue 19/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
+ &lt;td style="text-align: left">Lab 3: Sequence Diagrams and State Machines&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: right">48&lt;/td>
+ &lt;td style="text-align: left">Tue 26/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Testing Practices, Code Quality&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 28/11/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
+ &lt;td style="text-align: left">Lab 4: Testing and Refactoring&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: right">49&lt;/td>
+ &lt;td style="text-align: left">Tue 03/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">SOLID Principles, Refactoring to Patterns&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 05/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing&lt;/td>
+ &lt;td style="text-align: left">Lab 4: Testing and Refactoring&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: right">50&lt;/td>
+ &lt;td style="text-align: left">Tue 10/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">More on Design&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 12/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Application Architectures &amp;amp; System Models&lt;/td>
+ &lt;td style="text-align: left">Lab 5: Enterprise Applications&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: right">51&lt;/td>
+ &lt;td style="text-align: left">Tue 17/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 19/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
+ &lt;td style="text-align: left">Lab 5: Enterprise Applications&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">52&lt;/td>
+ &lt;td style="text-align: left">Tue 24/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 26/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">1&lt;/td>
+ &lt;td style="text-align: left">Tue 31/12/2024&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 02/01/2025&lt;/td>
+ &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: right">2&lt;/td>
+ &lt;td style="text-align: left">Tue 07/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Continuous Integration &amp;amp; Deployment&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 09/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Dependencies &amp;amp; how to test and handle them&lt;/td>
+ &lt;td style="text-align: left">Lab 6: Refactoring to Patterns&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: right">3&lt;/td>
+ &lt;td style="text-align: left">Tue 14/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Internationalization and Localization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 16/01/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Repetition&lt;/td>
+ &lt;td style="text-align: left">Lab 6: Refactoring to Patterns&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: right">4&lt;/td>
+ &lt;td style="text-align: left">Tue 21/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; the dates below are subject to change depending on the exam date &amp;ndash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 23/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">Probeklausur (TBD)&lt;/td>
+ &lt;td style="text-align: left">Trail Exam and Late Lab Reviews&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: right">5&lt;/td>
+ &lt;td style="text-align: left">Tue 28/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 30/01/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">Exam (TBD - refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: right">6&lt;/td>
+ &lt;td style="text-align: left">Tue 04/02/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 06/02/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Lab 6 Reviews&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
+ &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">Lab 7: Showtime&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ss2023/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/schedule/</guid><description>&lt;p>This schedule is, more than always, tentative.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -3858,7 +4184,103 @@ You can hand in your weekly notes for additional points .&lt;/p>
 them out and work on them with real pens.&lt;/p>
 &lt;h2 id="bind-them-to-an-a5-workbook">Bind them to an A5 Workbook&lt;/h2>
 &lt;p>They will be provided in a format that allows you to bind them as a book
-later if you wish to.&lt;/p></description></item><item><title>Kara Class Diagram</title><link>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/kara-class-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/kara-class-diagram/</guid><description>&lt;h2 id="kara-class-diagram">Kara Class Diagram&lt;/h2>
+later if you wish to.&lt;/p></description></item><item><title>Kara Class Diagram</title><link>https://bkleinen.github.io/classes/ws2024/info1/resources/mermaid/kara-class-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/resources/mermaid/kara-class-diagram/</guid><description>&lt;h2 id="kara-class-diagram">Kara Class Diagram&lt;/h2>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+ Kara &lt;|-- MyKara
+ Actor &lt;|-- Kara
+ 
+ class Actor{
+ -int x
+ -int y
+ -int rotation
+ +int getX()
+ +int getY()
+ +int getRotation()
+ }
+ class Kara{
+
+ void move()
+ void turnLeft()
+ void turnRight()
+ void putLeaf()
+ void removeLeaf()
+ boolean onLeaf()
+ boolean treeFront()
+ boolean treeLeft()
+ boolean treeRight()
+ boolean mushroomFront()
+ }
+ class MyKara{
+ void act()
+ void aroundTree()
+ }
+&lt;/pre>
+
+&lt;h3 id="with-object-top-of-inheritance-hierarchy">With Object (top of inheritance hierarchy)&lt;/h3>
+&lt;pre class="mermaid">%%{
+ init: {
+ 'theme': 'base',
+ 'themeVariables': {
+ 'primaryColor': '#f69e9d', 
+ 'primaryTextColor': '#000',
+ 'primaryBorderColor': '#000',
+ 'lineColor': '#F8B229',
+ 'secondaryColor': '#f4f4f4',
+ 'activationBorderColor': '#000',
+ 'tertiaryColor': '#fff'
+ }
+ }
+}%%
+classDiagram
+
+ Kara &lt;|-- MyKara
+ Actor &lt;|-- Kara
+ Object &lt;|-- Actor
+ 
+ class Object{
+ String toString()
+ ...()
+ }
+ class Actor{
+ -int x
+ -int y
+ -int rotation
+ +int getX()
+ +int getY()
+ +int getRotation()
+ }
+ class Kara{
+
+ void move()
+ void turnLeft()
+ void turnRight()
+ void putLeaf()
+ void removeLeaf()
+ boolean onLeaf()
+ boolean treeFront()
+ boolean treeLeft()
+ boolean treeRight()
+ boolean mushroomFront()
+ }
+ class MyKara{
+ void act()
+ void aroundTree()
+ }
+&lt;/pre></description></item><item><title>Kara Class Diagram</title><link>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/kara-class-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/kara-class-diagram/</guid><description>&lt;h2 id="kara-class-diagram">Kara Class Diagram&lt;/h2>
 &lt;pre class="mermaid">%%{
  init: {
  'theme': 'base',
@@ -3980,7 +4402,7 @@ for an application called &amp;ldquo;StudyPartner&amp;rdquo;.&lt;/li>
 
 
 &lt;p>All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from &lt;code>getTime()&lt;/code> after either the time has been set to 13:45 by calling &lt;code>setTime()&lt;/code> or after calling the &lt;code>timeTick()&lt;/code> method the appropriate amount of times.&lt;/p>
-&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="../clock_display_critique">general critique on the previous page&lt;/a>.&lt;/p></description></item><item><title>Book Diagrams</title><link>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</guid><description>&lt;pre>&lt;code>classDiagram
+&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="../clock_display_critique">general critique on the previous page&lt;/a>.&lt;/p></description></item><item><title>Book Diagrams</title><link>https://bkleinen.github.io/classes/ws2024/info1/resources/mermaid/all-mermaid-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/resources/mermaid/all-mermaid-diagrams/</guid><description>&lt;pre>&lt;code>classDiagram
 
  class TicketMachine{
  TicketMachine(int ticketPrice)
@@ -3989,7 +4411,21 @@ for an application called &amp;ldquo;StudyPartner&amp;rdquo;.&lt;/li>
  void insertMoney(int amount)
  void printTicket()
  }
-&lt;/code>&lt;/pre></description></item><item><title>Code Examples</title><link>https://bkleinen.github.io/classes/ws2023/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/code/</guid><description>&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to &lt;a href="https://github.com/htw-imi-info1">github&lt;/a>!&lt;/p>
+&lt;/code>&lt;/pre></description></item><item><title>Book Diagrams</title><link>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</guid><description>&lt;pre>&lt;code>classDiagram
+
+ class TicketMachine{
+ TicketMachine(int ticketPrice)
+ int getPrice()
+ int getBalance()
+ void insertMoney(int amount)
+ void printTicket()
+ }
+&lt;/code>&lt;/pre></description></item><item><title>Code Examples</title><link>https://bkleinen.github.io/classes/ws2024/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/code/</guid><description>&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to &lt;a href="https://github.com/htw-imi-info1">github&lt;/a>!&lt;/p>
+&lt;p>If I make changes during class, I will push them to the branch with the semester name.
+To switch to the branch, select the according semester in the branches menu in the upper left corner on each repository&amp;rsquo;s main page.(it shows &amp;ldquo;main&amp;rdquo; usually - the default branch)
+Note that it might also be quite convenient to look at the code on the github page online,
+the commit history shows you the exact changes I made during class.
+Click on &amp;ldquo;commits&amp;rdquo; and then one individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description></item><item><title>Code Examples</title><link>https://bkleinen.github.io/classes/ws2023/info1/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/code/</guid><description>&lt;p>Don&amp;rsquo;t worry about noting down any code changes I make in class - I will upload everything to &lt;a href="https://github.com/htw-imi-info1">github&lt;/a>!&lt;/p>
 &lt;p>If I make changes during class, I will push them to the branch with the semester name.
 To switch to the branch, select the according semester in the branches menu in the upper left corner on each repository&amp;rsquo;s main page.(it shows &amp;ldquo;main&amp;rdquo; usually - the default branch)
 Note that it might also be quite convenient to look at the code on the github page online,
@@ -5887,145 +6323,69 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 &lt;/table></description></item><item><title>M1 Schedules - History</title><link>https://bkleinen.github.io/classes/m1/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/m1/</guid><description>&lt;ul>
 
  
- 
- 
- &lt;li>
- 
- 
- 
- 
+
  
  
- &lt;a href= "https://bkleinen.github.io//classes/ss2024/m1-web/schedule/">SS 2024:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 SoSe 2024 Labs Schedule&lt;/a>
- &lt;/li>
  
+
  
  
-
  
 
  
 
- 
- 
- 
- &lt;li>
- 
- 
  
  
  
- 
- &lt;a href= "https://bkleinen.github.io//classes/ws2023/m1-web/schedule/">WS 2023:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 WS 2023/24 Labs Schedule&lt;/a>
- &lt;/li>
+
  
  
  
 
  
 
- 
- 
- 
- &lt;li>
- 
- 
  
  
  
- 
- &lt;a href= "https://bkleinen.github.io//classes/ss2023/m1-web/schedule/">SS 2023:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 SS 2023 Labs Schedule&lt;/a>
- &lt;/li>
- 
- 
- 
 
  
 
- 
- 
- 
- &lt;li>
- 
  
  
  
- 
- 
- &lt;a href= "https://bkleinen.github.io//classes/ws2022/m1-web/schedule/">WS 2022:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 WS 2022 Labs Schedule&lt;/a>
- &lt;/li>
- 
- 
- 
 
  
 
- 
- 
  
- &lt;li>
  
  
- 
- 
- 
- 
- &lt;a href= "https://bkleinen.github.io//classes/ss2022/m1-web/schedule/">SS 2022:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
- &lt;/li>
- 
- 
- 
 
  
 
- 
  
  
- &lt;li>
  
- 
- 
- 
- 
- 
- &lt;a href= "https://bkleinen.github.io//classes/ws2021/m1-web/schedule/">WS 2021:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
- &lt;/li>
- 
- 
- 
 
  
 
- 
- 
- 
- &lt;li>
- 
- 
- 
- 
  
  
- &lt;a href= "https://bkleinen.github.io//classes/ss2021/m1-web/schedule/">SS 2021:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
- &lt;/li>
  
- 
- 
 
  
 
- 
  
  
- &lt;li>
  
+
  
+
  
  
  
+
  
- &lt;a href= "https://bkleinen.github.io//classes/ws2020/m1-web/schedule/">WS 2020:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
- &lt;/li>
+
  
  
  
@@ -6033,37 +6393,53 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+
  
+
  
- &lt;li>
+
  
+
  
+
  
+
  
+
  
+
  
- &lt;a href= "https://bkleinen.github.io//classes/ss2020/m1-web/schedule/">SS 2020:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
- &lt;/li>
+
  
+
  
+
  
 
  
 
  
+
  
+
  
- &lt;li>
+
  
+
  
+
  
+
  
+
  
+
  
- &lt;a href= "https://bkleinen.github.io//classes/ws2019/m1-web/schedule/">WS 2019:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
- &lt;/li>
+
  
+
  
+
  
 
  
@@ -6131,8 +6507,12 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+ 
+ 
 
+ 
  
+ 
 
  
 
@@ -6168,7 +6548,9 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
 
+ 
  
+ 
 
  
 
@@ -6185,9 +6567,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
-
  
-
  
 
  
@@ -6233,39 +6613,45 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
-
  
-
  
 
  
-
  
-
  
 
  
 
  
-
  
-
  
 
+ 
  
+ 
 
+ 
+ 
  
 
  
+ 
+ 
 
+ 
+ 
  
 
  
+
  
+
  
 
  
+
  
+
  
 
  
@@ -6275,11 +6661,15 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+
  
+
  
 
  
+
  
+
  
 
  
@@ -8031,6 +8421,156 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;td style="text-align: left">Wed 31/07/2024 (PZ1)&lt;/td>
  &lt;td style="text-align: left">Web Technology /TBD&lt;/td>
  &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>M1 WS 2024/2025 Labs Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1-web/schedule/</guid><description>&lt;p>Stand: 09.06.2024 - first draft!!
+&lt;a href="https://bkleinen.github.io/classes/m1">M1 Schedule Overview&lt;/a>
+/
+&lt;a href="https://github.com/progwebtec/progwebtec.github.io/blob/main/content/classes/ws2024/m1-web/schedule/index.md">Edit this page via github&lt;/a> (ask BK for repo permissions first)&lt;/p>
+&lt;p>Time and Room: See &lt;a href="#tbd">LSF&lt;/a>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">40&lt;/td>
+ &lt;td style="text-align: left">Wed 02/10/2024&lt;/td>
+ &lt;td style="text-align: left">(erster Vorlesungstag)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Wed 09/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Wed 16/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Wed 23/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Wed 30/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Wed 06/11/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Wed 13/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Wed 20/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Wed 27/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Wed 04/12/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Wed 11/12/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Wed 18/12/2024&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Wed 25/12/2024&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Wed 01/01/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Wed 08/01/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Wed 15/01/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Wed 22/01/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Wed 29/01/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Wed 05/02/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Videos Software Engineering</title><link>https://bkleinen.github.io/bibliographies/se_videos/</link><pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/bibliographies/se_videos/</guid><description/></item><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
@@ -10680,7 +11220,21 @@ anmelden (Full, nicht split&amp;hellip;), dann über die UTB-Seite suchen:
 &lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>Datenschutzerklärung</title><link>https://bkleinen.github.io/contact/datenschutzerklaerung/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/contact/datenschutzerklaerung/</guid><description>&lt;p>Angepasst auf Basis der &lt;a href="https://www.htw-berlin.de/datenschutz/">Datenschutzerklärung der HTW-Berlin&lt;/a>&lt;/p>
 &lt;h2 id="datenschutzerklärung">Datenschutzerklärung&lt;/h2>
 &lt;p>Vielen Dank für Ihr Interesse an unserer Hochschule. Der Schutz Ihrer Daten ist uns ein wichtiges Anliegen. Deshalb verarbeiten wir die Daten, die Sie beim Besuch auf unseren Webseiten hinterlassen, nur nach den Vorgaben der relevanten datenschutzrechtlichen Bestimmungen, insbesondere der Datenschutzgrundverordnung und des Bundesdatenschutzgesetzes. An dieser Stelle möchten wir Sie über Art, Umfang und Zweck der Verarbeitung Ihrer personenbezogenen Daten informieren.
-Verantwortlicher und Datenschutzbeauftragter&lt;/p></description></item><item><title>e-learning for 2/1/2024</title><link>https://bkleinen.github.io/classes/ws2023/info1/schedule/e-learning-newyear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/schedule/e-learning-newyear/</guid><description>&lt;ol>
+Verantwortlicher und Datenschutzbeauftragter&lt;/p></description></item><item><title>e-learning for 2/1/2024</title><link>https://bkleinen.github.io/classes/ws2024/info1/schedule/e-learning-newyear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/schedule/e-learning-newyear/</guid><description>&lt;ol>
+&lt;li>Read up on Inheritance in the book - Chapter 10 mainly, we also already covered parts of Chapter 11&amp;amp;12.&lt;/li>
+&lt;li>You may also or instead watch the videos for the respective chapters &lt;a href="../../resources#textbook-videos">linked from the resources page&lt;/a>.&lt;/li>
+&lt;li>Practice and test your understanding of inheritance using the 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/chapter10-inheritance/tree/main/InheritancePlayground">InheritancePlayground&lt;/a>
+ project.&lt;/li>
+&lt;li>Work on &lt;a href="../../labs/exercise-10/">Lab10&lt;/a>. It is sufficient if you use the version in &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul/tree/main/your-zuul-command-hierarchy">your-zuul-command-hierarchy&lt;/a>
+Read the source code of &lt;code>Command.java&lt;/code> and it&amp;rsquo;s subclasses (Go, Help, Quit&amp;hellip;) to see how the command hierarchy cleans up the code by moving all commands to their respective small subclass of &lt;code>Command&lt;/code>. Study &lt;code>CommandWord.java&lt;/code> to see how the correct class is instantiated.&lt;/li>
+&lt;li>If you missed the Refactoring Part for Lab09, make sure you also read Chapter 08 and do the refactoring of Rooms &amp;amp; their exits for Lab10.&lt;/li>
+&lt;li>Provide a brief summary of what you did as lecture notes for 2/1/2024 in Moodle.&lt;/li>
+&lt;/ol></description></item><item><title>e-learning for 2/1/2024</title><link>https://bkleinen.github.io/classes/ws2023/info1/schedule/e-learning-newyear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/schedule/e-learning-newyear/</guid><description>&lt;ol>
 &lt;li>Read up on Inheritance in the book - Chapter 10 mainly, we also already covered parts of Chapter 11&amp;amp;12.&lt;/li>
 &lt;li>You may also or instead watch the videos for the respective chapters &lt;a href="../../resources#textbook-videos">linked from the resources page&lt;/a>.&lt;/li>
 &lt;li>Practice and test your understanding of inheritance using the 
@@ -10780,7 +11334,9 @@ following the example &lt;a href="https://guides.rubyonrails.org/working_with_ja
 &lt;p>It&amp;rsquo;s just an app with one resource, Note, which has one attribute, content.&lt;/p>
 &lt;p>I used JavaScript to add Notes on the notes#index page without reloading the page,
 following the example &lt;a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#a-simple-example">&amp;ldquo;A Simple Example&amp;rdquo; in the Rails Guides on AJAX&lt;/a>.&lt;/p>
-&lt;p>&lt;a href="https://github.com/media-programming-rails/notebook/commit/0318b1f97abd8f3cf8314c59372243dba6e5ba93">This is the commit&lt;/a> where I added the changes described in the tutorial.&lt;/p></description></item><item><title>Exercise 00: Lab Startup</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</guid><description>&lt;p>Source code for this exercise: 
+&lt;p>&lt;a href="https://github.com/media-programming-rails/notebook/commit/0318b1f97abd8f3cf8314c59372243dba6e5ba93">This is the commit&lt;/a> where I added the changes described in the tutorial.&lt;/p></description></item><item><title>Exercise 00: Lab Startup</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-00/</guid><description>&lt;p>This page contains instructions on how you can prepare for the Info1 labs, that is, opening source code in greenfoot (or bluej) and uploading reports to moodle.&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>Welcome to the laboratory - that&amp;rsquo;s what we call these rooms filled with computer equipment. We have lots of rules for the labs, as they are used by many different people during the week. You find a link to the rules (&amp;ldquo;Laborordnung&amp;rdquo;) &lt;a href="https://imi-bachelor.htw-berlin.de/studium/labore/">here&lt;/a>.&lt;/p></description></item><item><title>Exercise 00: Lab Startup</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</guid><description>&lt;p>Source code for this exercise: 
  
  
  
@@ -11025,7 +11581,25 @@ Moodle area.&lt;/p></description></item><item><title>Exercise 01 - Installation 
 &lt;/ol>
 &lt;h2 id="assignment">Assignment&lt;/h2>
 &lt;p>We&amp;rsquo;ve already started working on Worksheet 1 in class. Remember to have a logbook as in the previous exercise:
-Note down the steps you&amp;rsquo;ve taken, including those that failed. Read through the whole assignment first, before starting to work.&lt;/p></description></item><item><title>Exercise 01: Sending Messages to Objects</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-01/</guid><description>&lt;pre class="mermaid">
+Note down the steps you&amp;rsquo;ve taken, including those that failed. Read through the whole assignment first, before starting to work.&lt;/p></description></item><item><title>Exercise 01: Sending Messages to Objects</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-01/</guid><description>&lt;pre class="mermaid">
+sequenceDiagram
+ actor You
+ create Participant Picture
+ You->>+Picture:new()
+ You->>+Picture:draw()
+ create Participant Circle
+ Picture->>+Circle: new()
+ Circle-->>-Picture:circle
+ Picture->>+Circle: makeVisible()
+ Circle-->>-Picture:void
+ Picture-->>-You:void
+ 
+&lt;/pre>
+
+&lt;p>This week&amp;rsquo;s lab is all about exploring given Objects by sending them messages (aka in Java: calling methods) -
+and writing your first programs by putting them together in your own methods.&lt;/p>
+&lt;h2 id="what-to-bring-to-lab">What to bring to lab&lt;/h2>
+&lt;p>&lt;strong>P1.&lt;/strong> In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.&lt;/p></description></item><item><title>Exercise 01: Sending Messages to Objects</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-01/</guid><description>&lt;pre class="mermaid">
 sequenceDiagram
  actor You
  create Participant Picture
@@ -11093,7 +11667,24 @@ Foto by &lt;a href="https://www.flickr.com/photos/pedroferrer/3615212504">Pedro 
 &lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
 &lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p>
 &lt;p>&lt;strong>P1.&lt;/strong> In the lecture we have talked about data types called int and String. Java has more predefined primitive data types. What are they? Record where you found this information.&lt;/p>
-&lt;p>&lt;strong>P2.&lt;/strong> What are the types of the following values (constants)?&lt;/p></description></item><item><title>Exercise 02: TicketMachine</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-02/</guid><description>&lt;p>&lt;img src="../../images/ticket-5277919863_b741ccde84_b.jpg" alt="Book">
+&lt;p>&lt;strong>P2.&lt;/strong> What are the types of the following values (constants)?&lt;/p></description></item><item><title>Exercise 02: TicketMachine</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-02/</guid><description>&lt;p>&lt;img src="../../images/ticket-5277919863_b741ccde84_b.jpg" alt="Old Ticket">
+&lt;!-- raw HTML omitted -->Printed Ticket. &lt;a href="https://www.flickr.com/photos/sludgeulper/5277919863/">Sludge G&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Source code for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/chapter02">https://github.com/htw-imi-info1/chapter02&lt;/a>
+&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;p>&lt;strong>1.&lt;/strong> What could be wrong with the following constructor? Don&amp;rsquo;t execute it, think about it in your head.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">TicketMachine&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ticketCost&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">price&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">ticketCost&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">total&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>2.&lt;/strong> How can you tell the difference between a method and a constructor just by looking at its header?&lt;/p></description></item><item><title>Exercise 02: TicketMachine</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-02/</guid><description>&lt;p>&lt;img src="../../images/ticket-5277919863_b741ccde84_b.jpg" alt="Book">
 &lt;!-- raw HTML omitted -->Printed Ticket. &lt;a href="https://www.flickr.com/photos/sludgeulper/5277919863/">Sludge G&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;h2 id="pre-lab">Pre-lab&lt;/h2>
 &lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
@@ -11170,7 +11761,19 @@ Don&amp;rsquo;t execute this, just write down your expectations.&lt;/p></descrip
 You should work on this exercise in a team of 2-4 people.&lt;/p>
 &lt;p>Based on the system description in the &lt;a href="../lab-02">last exercise&lt;/a> and the use
 cases you&amp;rsquo;ve developed,
-draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.&lt;/p></description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-03/</guid><description>&lt;p>&lt;img src="../../images/books-8314929977.jpg" alt="Book">
+draw a Class Diagram for your Application. It should contain associations (aggregations and compositions, association classes as needed), generalizations (inheritance), as well as the most important fields and method names of the classes.&lt;/p></description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-03/</guid><description>&lt;p>&lt;img src="../../images/books-8314929977.jpg" alt="Book">
+&lt;!-- raw HTML omitted -->Books. &lt;a href="https://www.flickr.com/photos/abee5/8314929977/">Abhi Sharma&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
+&lt;p>&lt;strong>Please finish these exercises before coming to lab.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong>
+Why does the following version of refundBalance not give the same results as what we saw in class?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">refundBalance&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">return&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">balance&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>P2.&lt;/strong>&lt;/p></description></item><item><title>Exercise 03: Book Exercise</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-03/</guid><description>&lt;p>&lt;img src="../../images/books-8314929977.jpg" alt="Book">
 &lt;!-- raw HTML omitted -->Books. &lt;a href="https://www.flickr.com/photos/abee5/8314929977/">Abhi Sharma&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>This week&amp;rsquo;s lab work is intended to practice creating classes with data fields, constructors, methods, assignments and conditional statements.&lt;/p>
 &lt;h2 id="pre-lab">Pre-lab&lt;/h2>
@@ -11308,7 +11911,12 @@ Foto by &lt;a href="https://bkleinen.github.io/broken_link">Jeff Kubina&lt;/a>&l
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted -->
 &lt;p>For the Tuesday group: we will be talking about boolean expressions in class on Tuesday. Therefore, I will set some time apart to let you work on the prelab in class as an exercise; you may however if you haven&amp;rsquo;t already done so for programming Kara do some reading about boolean expressions and prepare it before or at least give it a first try:
-&lt;a href="https://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions">https://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions&lt;/a>&lt;/p></description></item><item><title>Exercise 04: Rock Around the Clock</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-04/</guid><description>&lt;p>&lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">&lt;img src="../../images/clock-stockholm-6085686394-320.jpg" alt="Clock">&lt;/a>
+&lt;a href="https://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions">https://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions&lt;/a>&lt;/p></description></item><item><title>Exercise 04: Rock Around the Clock</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-04/</guid><description>&lt;p>&lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">&lt;img src="../../images/clock-stockholm-6085686394-320.jpg" alt="Clock">&lt;/a>
+&lt;!-- raw HTML omitted -->Katarina Elevator in Stockholm, Foto by &lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">Arjan Richter&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0.&lt;/strong> Which of the following expressions returns true? After writing your answers on paper, open the CodePad in BlueJ and try it out.&lt;/p></description></item><item><title>Exercise 04: Rock Around the Clock</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-04/</guid><description>&lt;p>&lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">&lt;img src="../../images/clock-stockholm-6085686394-320.jpg" alt="Clock">&lt;/a>
 &lt;!-- raw HTML omitted -->Katarina Elevator in Stockholm, Foto by &lt;a href="https://www.flickr.com/photos/arjanrichter/6085686394">Arjan Richter&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>This week&amp;rsquo;s lab work is intended to get you to implement parts of a class that is given for you. You are also to begin to see the idea of modularization, that is, splitting up code into classes.&lt;/p>
 &lt;h2 id="pre-lab">Pre-lab&lt;/h2>
@@ -11375,7 +11983,13 @@ Foto by &lt;a href="https://bkleinen.github.io/broken_link">Jeff Kubina&lt;/a>&l
 &lt;h2 id="assignment">Assignment&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:&lt;/p></description></item><item><title>Exercise 05: A Better Notebook</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-05/</guid><description>&lt;p>&lt;img src="../../images/notebook-6783298985.jpg" alt="Notebook">
+&lt;p>As a finger exercise for Sequence Diagrams, pick one of the following example projects from the first semester and draw a sequence diagram for the main use case:&lt;/p></description></item><item><title>Exercise 05: A Better Notebook</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-05/</guid><description>&lt;p>&lt;img src="../../images/notebook-6783298985.jpg" alt="Notebook">
+&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/waferboard/6783298985">waferboard&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended help you practice using loops.&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0&lt;/strong>. Write a loop on paper that prints out all multiples of 5 between 10 and 95.&lt;/p>
+&lt;p>&lt;strong>P1.&lt;/strong> Write a method called sumBetween that adds up all numbers between two numbers, a and b, that are passed into the method as parameters. Include a but not b in the sum.&lt;/p></description></item><item><title>Exercise 05: A Better Notebook</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-05/</guid><description>&lt;p>&lt;img src="../../images/notebook-6783298985.jpg" alt="Notebook">
 &lt;!-- raw HTML omitted -->Foto by &lt;a href="https://www.flickr.com/photos/waferboard/6783298985">waferboard&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>This week&amp;rsquo;s lab work is intended help you practice using loops.&lt;/p>
 &lt;h2 id="pre-lab">Pre-lab&lt;/h2>
@@ -11530,7 +12144,13 @@ data.&lt;/p>
 &lt;p>This week&amp;rsquo;s lab work is intended help you better understand lambda functions.&lt;/p>
 &lt;h2 id="pre-lab">Pre-lab&lt;/h2>
 &lt;p>Please bring these exercises printed out or written out and completed with you to lab. Doing the pre-lab will save you time during the lab.&lt;/p>
-&lt;p>&lt;strong>P0.&lt;/strong> If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?&lt;/p></description></item><item><title>Exercise 06: Lotto and Technical Support</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-06/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>P0.&lt;/strong> If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?&lt;/p></description></item><item><title>Exercise 06: Lotto and Technical Support</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-06/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>This week&amp;rsquo;s lab work is intended give you practice using more classes from the Java API: the Random class, Sets and Maps.&lt;/p>
+&lt;hr>
+&lt;h1 id="pre-lab">Pre-Lab&lt;/h1>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. How do you generate random numbers between 1 and 10 with Java? In what package is the library?&lt;/p>
+&lt;p>&lt;strong>P2.&lt;/strong> How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.&lt;/p></description></item><item><title>Exercise 06: Lotto and Technical Support</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-06/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;p>This week&amp;rsquo;s lab work is intended give you practice using more classes from the Java API: the Random class, Sets and Maps.&lt;/p>
 &lt;hr>
 &lt;h1 id="pre-lab">Pre-Lab&lt;/h1>
@@ -11545,7 +12165,21 @@ the @pumpkins variable. [https://guides.rubyonrails.org/active_record_querying.h
 (&lt;a href="https://guides.rubyonrails.org/active_record_querying.html">https://guides.rubyonrails.org/active_record_querying.html&lt;/a>) contains all necessary
 information on how to query Pumpkins.&lt;/p>
 &lt;p>*** remember to make use of all the great pumpkins all of you added with their
-pull request you can use to populate your database! ***&lt;/p></description></item><item><title>Exercise 07: Lambda Functions</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</guid><description>&lt;!-- raw HTML omitted -->
+pull request you can use to populate your database! ***&lt;/p></description></item><item><title>Exercise 07: Lambda Functions</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-07/</guid><description>&lt;p>&lt;img src="./kakapo-aye-aye.jpg" alt="Kakapo and Aye-Aye">&lt;/p>
+&lt;p>Sources:
+&lt;a href="https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis).jpg">https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis).jpg&lt;/a>
+&lt;a href="https://en.m.wikipedia.org/wiki/File:Kakapo_Sirocco_1.jpg">https://en.m.wikipedia.org/wiki/File:Kakapo_Sirocco_1.jpg&lt;/a>&lt;/p>
+&lt;p>This week&amp;rsquo;s lab work is intended help you better understand lambda functions, and Kara has a comeback to practice iterating through Lists.&lt;/p>
+&lt;p>Source code for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/exercise07-lambda-expressions">https://github.com/htw-imi-info1/exercise07-lambda-expressions&lt;/a>
+&lt;/p>
+&lt;h2 id="pre-lab">Pre-lab&lt;/h2>
+&lt;p>Please prepare these Exercises *before* coming to lab! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0.&lt;/strong> If you have a collection called myList, what Java code would you have to write to apply some code to each of the members in the list?&lt;/p></description></item><item><title>Exercise 07: Lambda Functions</title><link>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/info1/labs/exercise-07/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted -->
 &lt;p>This week&amp;rsquo;s lab work is intended help you better understand lambda functions.&lt;/p>
 &lt;h2 id="pre-lab">Pre-lab&lt;/h2>
@@ -11730,7 +12364,18 @@ pull request you can use to populate your database! ***&lt;/p></description></it
 &lt;h1 id="pre-lab">Pre-Lab&lt;/h1>
 &lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p>
 &lt;p>&lt;strong>P1&lt;/strong>. How do you generate random numbers between 1 and 10 with Java? In what package is the library?&lt;/p>
-&lt;p>&lt;strong>P2.&lt;/strong> How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.&lt;/p></description></item><item><title>Exercise 08: Testing with JUnit</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-08/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice developing test cases and testing and writing Unit Tests.&lt;/p>
+&lt;p>&lt;strong>P2.&lt;/strong> How do you define an array that can count how often the numbers between 1 and 10 are generated? We call this a frequency table.&lt;/p></description></item><item><title>Exercise 08: Testing with JUnit</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-08/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice developing test cases and testing and writing Unit Tests.&lt;/p>
+&lt;p>Source code for this lab: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/chapter09_testing">https://github.com/htw-imi-info1/chapter09_testing&lt;/a>
+ - diary-prototype&lt;/p>
+&lt;h4 id="pre-lab">Pre Lab&lt;/h4>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. Write down six test cases for Day and Appointment that. Give each test case (and, if applicable the ones from the lecture) a name.&lt;/p>
+&lt;p>&lt;strong>P2&lt;/strong>. What assertions do you need in order to be able to automate the tests?&lt;/p></description></item><item><title>Exercise 08: Testing with JUnit</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-08/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice developing test cases and testing and writing Unit Tests.&lt;/p>
 &lt;p>Source code for this lab: 
  
  
@@ -11807,7 +12452,17 @@ You will not yet refactor or add the required new functionality!&lt;/p></descrip
 &lt;li>lab is graded with 4* for participation, 0* for no participation&lt;/li>
 &lt;/ul>
 &lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
-&lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p></description></item><item><title>Exercise 09: The World of You</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-09/</guid><description>&lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p></description></item><item><title>Exercise 09: The World of You</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-09/</guid><description>&lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;p>Source code for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul">https://github.com/htw-imi-info1/exercise09-zuul&lt;/a>
+&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Invent your own game scenario away from the computer. Don&amp;rsquo;t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 09: The World of You</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-09/</guid><description>&lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester.&lt;/p>
 &lt;p>Source code for this exercise: 
  
  
@@ -11873,7 +12528,7 @@ or [Lab Index]({{ site.BaseURL }}/classes/ws2016/info1/labs/) for the correct ex
 &lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester. The groups you form today will stay groups for the remaining part of the semester!&lt;/p>
 &lt;h1 id="pre-lab">Pre-lab&lt;/h1>
 &lt;p>Please bring these exercises printed out or written out with you to the lab.&lt;/p>
-&lt;p>&lt;strong>P0&lt;/strong>. Invent your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 10: Use Inheritance for Commands</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-10/</guid><description>&lt;p>This week’s lab work will continue the zuul project.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Invent your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 10: Use Inheritance for Commands</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-10/</guid><description>&lt;p>This week’s lab work will continue the zuul project.&lt;/p>
 
 
 
@@ -11920,7 +12575,61 @@ Re-do the last lab - the refactoring described in Chapter 08, Designing Classes,
  
  
  &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul/tree/main/your-zuul-command-hierarchy">your-zuul-command-hierarchy&lt;/a>
-.&lt;/p></description></item><item><title>Exercise 11 - Associations and Internationalization</title><link>https://bkleinen.github.io/classes/ws2013/info3/labs/lab-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2013/info3/labs/lab-11/</guid><description>&lt;p>In this assignment, you will add some functionality to your rails app and try out a couple of the principles and practices we covered in the lectures. For this, you need to add some functionality that you can choose yourself. Read through the whole assignment and decide on the functionality you want to add before starting to implement it. It does not have to be the most important functionality of your app – the goal here is to try out the different aspects of rails.&lt;/p></description></item><item><title>Exercise 11: Keeping Track of Stuff</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-11/</guid><description>&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+.&lt;/p></description></item><item><title>Exercise 10: Use Inheritance for Commands</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/exercise-10/</guid><description>&lt;p>This week’s lab work will continue the zuul project.&lt;/p>
+
+
+
+&lt;div class="mermaid" align="center">
+ 
+classDiagram
+
+ Command &amp;lt;|-- Go
+ Command &amp;lt;|-- Quit
+ Command &amp;lt;|-- Help
+ Command &amp;lt;|-- Look
+ Command &amp;lt;|-- Eat
+ &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt; Command
+ class Command{
+ processCommand(Player)*
+ }
+ 
+ class Go{
+ processCommand(Player)
+ }
+ class Quit{
+ processCommand(Player)
+ }
+ class Help{
+ processCommand(Player)
+ }
+ class Look{
+ processCommand(Player)
+ }
+ class Eat{
+ processCommand(Player)
+ }
+
+&lt;/div>
+
+&lt;p>The Class Hierarchy for Commands.&lt;/p>
+&lt;h3 id="update-28122023">Update 28/12/2023&lt;/h3>
+&lt;p>As the refactoring described below - even with the provided parts - is still quite difficult as you might get a lot of compilation errors along the way,
+here&amp;rsquo;s a third alternative:
+Re-do the last lab - the refactoring described in Chapter 08, Designing Classes, again (or for the first time, as a lot of you have missed that part! ) based on this version that already has the Command Hierarchy:
+
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info1/exercise09-zuul/tree/main/your-zuul-command-hierarchy">your-zuul-command-hierarchy&lt;/a>
+.&lt;/p></description></item><item><title>Exercise 11 - Associations and Internationalization</title><link>https://bkleinen.github.io/classes/ws2013/info3/labs/lab-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2013/info3/labs/lab-11/</guid><description>&lt;p>In this assignment, you will add some functionality to your rails app and try out a couple of the principles and practices we covered in the lectures. For this, you need to add some functionality that you can choose yourself. Read through the whole assignment and decide on the functionality you want to add before starting to implement it. It does not have to be the most important functionality of your app – the goal here is to try out the different aspects of rails.&lt;/p></description></item><item><title>Exercise 11: Keeping Track of Stuff</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-11/</guid><description>&lt;p>&lt;img src="./game-items.jpg" alt="Game Items">
+&lt;a href="https://www.freepik.com/free-vector/game-icons-with-signs-key-playing-cards-money_26689359.htm#query=game%20items&amp;amp;position=0&amp;amp;from_view=keyword&amp;amp;track=ais&amp;amp;uuid=bc732565-c659-4120-85ff-8cea9a1bf92a">Image by upklyak&lt;/a>
+on Freepik&lt;/p>
+&lt;p>&lt;strong>update: re-check this page for JSONWorld additions. They will be optional.&lt;/strong>&lt;/p>
+&lt;p>This week’s lab work will continue a larger project that will occupy us until the end of the semester.&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Prepare your pre-lab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P1&lt;/strong>. What items could be kept in the locations in your game? Come up with a list of at least 10 items. How heavy is each item?&lt;/p></description></item><item><title>Exercise 11: Keeping Track of Stuff</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-11/</guid><description>&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
 &lt;p>This week’s lab work will continue a larger project that will occupy us until the end of the semester.&lt;/p>
 &lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
 &lt;p>Please bring these exercises printed out or written out with you to lab.&lt;/p>
@@ -11990,7 +12699,10 @@ on Freepik&lt;/p>
 &lt;p>This week’s lab work will begin a larger project that will occupy us until the end of the semester.&lt;/p>
 &lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
 &lt;p>Please bring these exercises printed out or written out with you to lab.&lt;/p>
-&lt;p>&lt;strong>P1&lt;/strong>. Design your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 12: Pick up and Carry</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-12/</guid><description>&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>&lt;strong>P1&lt;/strong>. Design your own game scenario away from the computer. Don’t worry about implementation or classes or programming. Just try and come up with something interesting. It needs to be the basic structure of a player moving through different locations. Possible examples:&lt;/p></description></item><item><title>Exercise 12: Pick up and Carry</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/exercise-12/</guid><description>&lt;p>This week&amp;rsquo;s lab work will finish up your project.&lt;/p>
+&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
+&lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
+&lt;p>&lt;strong>P0&lt;/strong>. Here are some informal specifications: A player must be able to pick up items from the current room. They can carry any number of items, but only up to a maximum weight limit. Some items are too heavy to be picked up. The player can drop one or all items in the current location. What changes are you going to have to make to your game? Don&amp;rsquo;t program them yet, just specify the changes that need to be made to each class in writing.&lt;/p></description></item><item><title>Exercise 12: Pick up and Carry</title><link>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/labs/exercise-12/</guid><description>&lt;h1 id="pre-lab">Pre-lab&lt;/h1>
 &lt;p>This week&amp;rsquo;s lab work will finish up your project.&lt;/p>
 &lt;h4 id="what-to-bring-to-lab">What to Bring to Lab&lt;/h4>
 &lt;p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.&lt;/p>
@@ -18598,7 +19310,11 @@ You find all information about JUnit, including a &lt;a href="https://junit.org/
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-api-5.5.2.jar		junit-platform-engine-1.5.2.jar
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-engine-5.5.2.jar		junit-platform-launcher-1.5.2.jar
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As we only use a &lt;em>very&lt;/em> small portion of JUnit this should not matter - but if you look something up
-in the BlueJ documentation, keep this in mind. (you could also try updating JUnit in the above directory, of course. I haven&amp;rsquo;t tried it.)&lt;/p></description></item><item><title>KaraClock Complete</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/</guid><description>&lt;p>This is a complete overview of the KaraClock Exercises that lead to the implementation of the KaraClockDisplay-Example. The exercises are distributed through three Labs, as shown by the headlines here.&lt;/p>
+in the BlueJ documentation, keep this in mind. (you could also try updating JUnit in the above directory, of course. I haven&amp;rsquo;t tried it.)&lt;/p></description></item><item><title>KaraClock Complete</title><link>https://bkleinen.github.io/classes/ws2024/info1/labs/karaclock-complete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/info1/labs/karaclock-complete/</guid><description>&lt;p>This is a complete overview of the KaraClock Exercises that lead to the implementation of the KaraClockDisplay-Example. The exercises are distributed through three Labs, as shown by the headlines here.&lt;/p>
+&lt;p>The material section contains an article about why I made this addition to the ClockDisplay example: &lt;a href="https://bkleinen.github.io/material/info1/clock_display_refactoring/">ClockDisplay Example: Reflections and Improvements&lt;/a>.&lt;/p>
+&lt;p>Open the Greenfoot-Kara project &lt;a href="https://github.com/htw-imi-info1/kara-clock-lab">&lt;code>https://github.com/htw-imi-info1/kara-clock-lab&lt;/code>&lt;/a>.
+It contains several test worlds. Make sure you&amp;rsquo;ve instantiated the correct test world!&lt;/p>
+&lt;p>If you haven&amp;rsquo;t already done so, you need to install &lt;a href="https://www.greenfoot.org/download">Greenfoot&lt;/a> to open the scenarios. The main file is &lt;code>project.greenfoot&lt;/code>.&lt;/p></description></item><item><title>KaraClock Complete</title><link>https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/</guid><description>&lt;p>This is a complete overview of the KaraClock Exercises that lead to the implementation of the KaraClockDisplay-Example. The exercises are distributed through three Labs, as shown by the headlines here.&lt;/p>
 &lt;p>The material section contains an article about why I made this addition to the ClockDisplay example: &lt;a href="https://bkleinen.github.io/material/info1/clock_display_refactoring/">ClockDisplay Example: Reflections and Improvements&lt;/a>.&lt;/p>
 &lt;p>Open the Greenfoot-Kara project &lt;a href="https://github.com/htw-imi-info1/kara-clock-lab">&lt;code>https://github.com/htw-imi-info1/kara-clock-lab&lt;/code>&lt;/a>.
 It contains several test worlds. Make sure you&amp;rsquo;ve instantiated the correct test world!&lt;/p>

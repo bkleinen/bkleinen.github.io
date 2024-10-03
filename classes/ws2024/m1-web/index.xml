@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2024/m1-web/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2024/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 WS 2024/2025 Labs Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1-web/schedule/</guid><description>&lt;p>Stand: 09.06.2024 - first draft!!
+&lt;a href="https://bkleinen.github.io/classes/m1">M1 Schedule Overview&lt;/a>
+/
+&lt;a href="https://github.com/progwebtec/progwebtec.github.io/blob/main/content/classes/ws2024/m1-web/schedule/index.md">Edit this page via github&lt;/a> (ask BK for repo permissions first)&lt;/p>
+&lt;p>Time and Room: See &lt;a href="#tbd">LSF&lt;/a>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">40&lt;/td>
+ &lt;td style="text-align: left">Wed 02/10/2024&lt;/td>
+ &lt;td style="text-align: left">(erster Vorlesungstag)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Wed 09/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Wed 16/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Wed 23/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Wed 30/10/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Wed 06/11/2024&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Wed 13/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Wed 20/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Wed 27/11/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Wed 04/12/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Wed 11/12/2024&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Barne Kleinen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Wed 18/12/2024&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Wed 25/12/2024&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Wed 01/01/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Wed 08/01/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Wed 15/01/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Wed 22/01/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Wed 29/01/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">Guido Pagliettini&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Wed 05/02/2025 (1.PZ)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>
