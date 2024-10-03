@@ -8,7 +8,7 @@ on:
        - 'v*'
 
   repository_dispatch:
-    types: ["trigger-deploy"]
+    types: ["classes-module-changed"]
 
 jobs:
   deploy:

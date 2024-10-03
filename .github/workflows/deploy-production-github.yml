@@ -5,7 +5,7 @@ on:
     tags:
       - 'v*'
   repository_dispatch:
-    types: ["trigger-deploy"]
+    types: ["classes-module-tagged"]
     
 jobs:
   deploy:
