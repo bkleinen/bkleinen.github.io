@@ -1,0 +1,1 @@
+export HUGO_MODULE_REPLACEMENTS="github.com/progwebtec/classes-module -> ../../classes-module"

@@ -1,5 +1,5 @@
 #baseURL = 'https://localhost:4242/~kleinen/'
 #baseURL = 'https://localhost:4242/'
 
-[module]
-  replacements = 'github.com/progwebtec/classes-module -> ../../classes-module'
+#[module]
+#  replacements = 'github.com/progwebtec/classes-module -> ../../classes-module'
