@@ -43,6 +43,7 @@ jobs:
         run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
+          hugo mod get github.com/progwebtec/classes-module
           hugo   --destination ./public-htw --minify --environment htw
       - name: Zip
         run: |
