@@ -30,6 +30,7 @@ jobs:
         run: bin/hugo_deployment/gitversion.sh ${{ github.ref }} ${{ github.sha }} "${{ github.workflow }}"
       - name: Build Hugo Site
         run: |
+          hugo mod get
           hugo   --minify --environment staging
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging on Github Pages

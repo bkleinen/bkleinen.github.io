@@ -37,6 +37,7 @@ jobs:
           cat data/gitinfo.yml
       - name: Build Hugo Site
         run: |
+          hugo mod get
           hugo   --minify --buildDrafts --environment stagingdrafts
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to Staging Drafts on Github Pages

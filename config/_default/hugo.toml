@@ -14,8 +14,7 @@ staticDir2 = ['static-snippets']
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
   [[module.imports]]
-    path = '../classes-module'
-    #path = 'github.com/progwebtec/courses-module'
+    path = 'github.com/progwebtec/classes-module'
     disabled = false
 
   [[module.imports.mounts]]
