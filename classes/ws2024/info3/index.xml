@@ -40,7 +40,7 @@
  &lt;td style="text-align: left">Thu 10/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Source Code Management (GIT) and How to learn Python&lt;/td>
- &lt;td style="text-align: left">Lab 1: Python and Git Practice&lt;/td>
+ &lt;td style="text-align: left">Lab 1: Python, Git, Project Concept&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
@@ -56,7 +56,7 @@
  &lt;td style="text-align: left">Thu 17/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">System Modeling and Architectural Design&lt;/td>
- &lt;td style="text-align: left">Lab 1: Python and Git Practice&lt;/td>
+ &lt;td style="text-align: left">Lab 1: Python, Git, Project Concept&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -72,7 +72,7 @@
  &lt;td style="text-align: left">Thu 24/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
- &lt;td style="text-align: left">Lab 2: Use Cases and Class Diagrams&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Django&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
@@ -88,14 +88,14 @@
  &lt;td style="text-align: left">Thu 31/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Software Design Patterns (GOF)&lt;/td>
- &lt;td style="text-align: left">Lab 2: Use Cases and Class Diagrams&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Django&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: right">45&lt;/td>
  &lt;td style="text-align: left">Tue 05/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Testing&lt;/td>
+ &lt;td style="text-align: left">SOLID Principles,&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -103,8 +103,8 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 07/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
- &lt;td style="text-align: left">Lab 3: Sequence Diagrams and State Machines&lt;/td>
+ &lt;td style="text-align: left">OO In Depth: Composition and Inheritance, Dynamic Typing, Duck Typing&lt;/td>
+ &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenarios&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
@@ -120,60 +120,12 @@
  &lt;td style="text-align: left">Thu 14/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenario&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: right">47&lt;/td>
  &lt;td style="text-align: left">Tue 19/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
- &lt;td style="text-align: left">Lab 3: Sequence Diagrams and State Machines&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: right">48&lt;/td>
- &lt;td style="text-align: left">Tue 26/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Agile Testing Practices, Code Quality&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: left">Thu 28/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
- &lt;td style="text-align: left">Lab 4: Testing and Refactoring&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: right">49&lt;/td>
- &lt;td style="text-align: left">Tue 03/12/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">SOLID Principles, Refactoring to Patterns&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: left">Thu 05/12/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing&lt;/td>
- &lt;td style="text-align: left">Lab 4: Testing and Refactoring&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: right">50&lt;/td>
- &lt;td style="text-align: left">Tue 10/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">More on Design&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -181,15 +133,15 @@
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: left">Thu 12/12/2024&lt;/td>
+ &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Application Architectures &amp;amp; System Models&lt;/td>
- &lt;td style="text-align: left">Lab 5: Enterprise Applications&lt;/td>
+ &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: right">51&lt;/td>
- &lt;td style="text-align: left">Tue 17/12/2024&lt;/td>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: right">48&lt;/td>
+ &lt;td style="text-align: left">Tue 26/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -197,10 +149,58 @@
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: left">Thu 19/12/2024&lt;/td>
+ &lt;td style="text-align: left">Thu 28/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
- &lt;td style="text-align: left">Lab 5: Enterprise Applications&lt;/td>
+ &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: right">49&lt;/td>
+ &lt;td style="text-align: left">Tue 03/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 05/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
+ &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: right">50&lt;/td>
+ &lt;td style="text-align: left">Tue 10/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 12/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Agile Testing Practices, Code Quality&lt;/td>
+ &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: right">51&lt;/td>
+ &lt;td style="text-align: left">Tue 17/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Thu 19/12/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Testing, Refactoring to Patterns&lt;/td>
+ &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -248,7 +248,7 @@
  &lt;td style="text-align: left">Thu 09/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Dependencies &amp;amp; how to test and handle them&lt;/td>
- &lt;td style="text-align: left">Lab 6: Refactoring to Patterns&lt;/td>
+ &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
@@ -264,7 +264,7 @@
  &lt;td style="text-align: left">Thu 16/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Repetition&lt;/td>
- &lt;td style="text-align: left">Lab 6: Refactoring to Patterns&lt;/td>
+ &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
@@ -280,7 +280,7 @@
  &lt;td style="text-align: left">Thu 23/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
  &lt;td style="text-align: left">Probeklausur (TBD)&lt;/td>
- &lt;td style="text-align: left">Trail Exam and Late Lab Reviews&lt;/td>
+ &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">16&lt;/td>
@@ -312,7 +312,7 @@
  &lt;td style="text-align: left">Thu 06/02/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Lab 6 Reviews&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -320,7 +320,7 @@
  &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
  &lt;td style="text-align: left">&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">Lab 7: Showtime&lt;/td>
+ &lt;td style="text-align: left">Lab 8: Showtime&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
