@@ -1,0 +1,3 @@
+
+[module]
+  replacements = 'github.com/progwebtec/classes-module -> ../../classes-module'

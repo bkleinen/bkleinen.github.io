@@ -13,7 +13,7 @@ port=4545
 #baseURL=http://localhost:$(port)/~kleinen/
 baseURL=http://localhost:$(port)
 hugo :  node_modules open # open_current # open_m1 # openH
--  hugo --navigateToChanged --buildDrafts --baseURL $(baseURL)  -p $(port) server
+-  hugo --config bin/local-modules.toml  --navigateToChanged --buildDrafts --baseURL $(baseURL)  -p $(port) server
 
 
 hugo2 :  node_modules open # open_current # open_m1 # openH
