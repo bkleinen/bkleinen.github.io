@@ -5,6 +5,7 @@
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -13,108 +14,126 @@
  &lt;td style="text-align: left">41&lt;/td>
  &lt;td style="text-align: left">Fri 11/10/2024&lt;/td>
  &lt;td style="text-align: left">Class Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">2&lt;/td>
  &lt;td style="text-align: left">42&lt;/td>
  &lt;td style="text-align: left">Fri 18/10/2024&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
+ &lt;td style="text-align: left">Kata&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
  &lt;td style="text-align: left">43&lt;/td>
  &lt;td style="text-align: left">Fri 25/10/2024&lt;/td>
  &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">44&lt;/td>
  &lt;td style="text-align: left">Fri 01/11/2024&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">45&lt;/td>
  &lt;td style="text-align: left">Fri 08/11/2024&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">46&lt;/td>
  &lt;td style="text-align: left">Fri 15/11/2024&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
  &lt;td style="text-align: left">47&lt;/td>
  &lt;td style="text-align: left">Fri 22/11/2024&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: left">48&lt;/td>
  &lt;td style="text-align: left">Fri 29/11/2024&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
  &lt;td style="text-align: left">49&lt;/td>
  &lt;td style="text-align: left">Fri 06/12/2024&lt;/td>
  &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">10&lt;/td>
  &lt;td style="text-align: left">50&lt;/td>
  &lt;td style="text-align: left">Fri 13/12/2024&lt;/td>
  &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
  &lt;td style="text-align: left">51&lt;/td>
  &lt;td style="text-align: left">Fri 20/12/2024&lt;/td>
  &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">52&lt;/td>
  &lt;td style="text-align: left">Fri 27/12/2024&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">1&lt;/td>
  &lt;td style="text-align: left">Fri 03/01/2025&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
  &lt;td style="text-align: left">2&lt;/td>
  &lt;td style="text-align: left">Fri 10/01/2025&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">13&lt;/td>
  &lt;td style="text-align: left">3&lt;/td>
  &lt;td style="text-align: left">Fri 17/01/2025&lt;/td>
  &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">Fri 24/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">Fri 31/01/2025&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>M1 WS 2024/2025 Wednesday Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/schedule/</guid><description>&lt;p>Stand: 10.10.2024 -

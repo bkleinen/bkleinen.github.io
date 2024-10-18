@@ -7,7 +7,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">Time&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
+ &lt;th>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -23,7 +23,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">Thu 11/04/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
@@ -37,7 +37,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Thu 18/04/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -50,8 +50,8 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">18&lt;/td>
  &lt;td style="text-align: left">Thu 02/05/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -65,7 +65,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">20&lt;/td>
  &lt;td style="text-align: left">Thu 16/05/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -86,7 +86,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">22&lt;/td>
  &lt;td style="text-align: left">Thu 30/05/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
@@ -100,14 +100,14 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">24&lt;/td>
  &lt;td style="text-align: left">Thu 13/06/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
  &lt;td style="text-align: left">25&lt;/td>
  &lt;td style="text-align: left">Thu 20/06/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
@@ -121,7 +121,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">27&lt;/td>
  &lt;td style="text-align: left">Thu 04/07/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
@@ -135,7 +135,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Thu 11/07/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
@@ -149,7 +149,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">30&lt;/td>
  &lt;td style="text-align: left">Thu 25/07/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">17&lt;/td>

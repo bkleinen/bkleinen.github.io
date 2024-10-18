@@ -2469,6 +2469,7 @@ introductionary courses.&lt;/p>
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -2477,108 +2478,126 @@ introductionary courses.&lt;/p>
  &lt;td style="text-align: left">41&lt;/td>
  &lt;td style="text-align: left">Fri 11/10/2024&lt;/td>
  &lt;td style="text-align: left">Class Intro&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">2&lt;/td>
  &lt;td style="text-align: left">42&lt;/td>
  &lt;td style="text-align: left">Fri 18/10/2024&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
+ &lt;td style="text-align: left">Kata&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
  &lt;td style="text-align: left">43&lt;/td>
  &lt;td style="text-align: left">Fri 25/10/2024&lt;/td>
  &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">44&lt;/td>
  &lt;td style="text-align: left">Fri 01/11/2024&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">45&lt;/td>
  &lt;td style="text-align: left">Fri 08/11/2024&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">46&lt;/td>
  &lt;td style="text-align: left">Fri 15/11/2024&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
  &lt;td style="text-align: left">47&lt;/td>
  &lt;td style="text-align: left">Fri 22/11/2024&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: left">48&lt;/td>
  &lt;td style="text-align: left">Fri 29/11/2024&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
  &lt;td style="text-align: left">49&lt;/td>
  &lt;td style="text-align: left">Fri 06/12/2024&lt;/td>
  &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">10&lt;/td>
  &lt;td style="text-align: left">50&lt;/td>
  &lt;td style="text-align: left">Fri 13/12/2024&lt;/td>
  &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
  &lt;td style="text-align: left">51&lt;/td>
  &lt;td style="text-align: left">Fri 20/12/2024&lt;/td>
  &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">52&lt;/td>
  &lt;td style="text-align: left">Fri 27/12/2024&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">1&lt;/td>
  &lt;td style="text-align: left">Fri 03/01/2025&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
  &lt;td style="text-align: left">2&lt;/td>
  &lt;td style="text-align: left">Fri 10/01/2025&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">13&lt;/td>
  &lt;td style="text-align: left">3&lt;/td>
  &lt;td style="text-align: left">Fri 17/01/2025&lt;/td>
  &lt;td style="text-align: left">TBD&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">Fri 24/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">Fri 31/01/2025&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>Microcontroller Programmierung mit Arduino</title><link>https://bkleinen.github.io/classes/ss2013/if1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2013/if1/</guid><description>&lt;p>Microcontroller Programmierung mit Arduino
@@ -2743,7 +2762,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">Lecture Topic&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
+ &lt;th>&lt;/th>
  &lt;th style="text-align: left">Lab (Tue &amp;amp; Wed)&lt;/th>
  &lt;/tr>
  &lt;/thead>
@@ -2753,7 +2772,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">Tue 04/04/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2761,7 +2780,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 05/04/2023&lt;/td>
  &lt;td style="text-align: left">Introduction to Info3, Source Code Management&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">No Lab.&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2769,7 +2788,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">Tue 11/04/2023&lt;/td>
  &lt;td style="text-align: left">Source Code Management (GIT)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-01-startup">1 - Lab Startup&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2777,7 +2796,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 12/04/2023&lt;/td>
  &lt;td style="text-align: left">Introduction to Software Engineering and Software Development Processes&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2785,7 +2804,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">Tue 18/04/2023&lt;/td>
  &lt;td style="text-align: left">System Modeling, Architectural Design, Requirement Engineering&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-02-python">2 - Learning Python&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2793,7 +2812,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 19/04/2023&lt;/td>
  &lt;td style="text-align: left">UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2801,7 +2820,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">17&lt;/td>
  &lt;td style="text-align: left">Tue 25/04/2023&lt;/td>
  &lt;td style="text-align: left">UML &amp;amp; System Modeling: Requirements, Product Owner Game&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-03-pythonproject">3 - Python Project&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2809,7 +2828,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 26/04/2023&lt;/td>
  &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2817,7 +2836,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">18&lt;/td>
  &lt;td style="text-align: left">Tue 02/05/2023&lt;/td>
  &lt;td style="text-align: left">Software Processes II / Requirements Analysis&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-04-usecases-classdiagrams">4 - Use Cases and Class Diagrams Part I&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2825,7 +2844,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 03/05/2023&lt;/td>
  &lt;td style="text-align: left">Software Design Patterns (GOF)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2833,7 +2852,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">19&lt;/td>
  &lt;td style="text-align: left">Tue 09/05/2023&lt;/td>
  &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-05-usecases-classdiagrams">5 - Use Cases and Class Diagrams Part II&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2841,7 +2860,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 10/05/2023&lt;/td>
  &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2849,7 +2868,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">20&lt;/td>
  &lt;td style="text-align: left">Tue 16/05/2023&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;strong>Himmelfahrt&lt;/strong>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2857,7 +2876,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 17/05/2023&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2865,7 +2884,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">21&lt;/td>
  &lt;td style="text-align: left">Tue 23/05/2023&lt;/td>
  &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-06-sequence-diagrams">6 - Sequence Diagrams&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2873,7 +2892,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 24/05/2023&lt;/td>
  &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2881,7 +2900,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">22&lt;/td>
  &lt;td style="text-align: left">Tue 30/05/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2889,7 +2908,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 31/05/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2897,7 +2916,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">23&lt;/td>
  &lt;td style="text-align: left">Tue 06/06/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2905,7 +2924,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 07/06/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2913,7 +2932,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">24&lt;/td>
  &lt;td style="text-align: left">Tue 13/06/2023&lt;/td>
  &lt;td style="text-align: left">Software Testing, TDD, Code Quality&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-07-testing">7 - Testing&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2921,7 +2940,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 14/06/2023&lt;/td>
  &lt;td style="text-align: left">SOLID Principles, Refactoring to Patterns&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2929,7 +2948,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">25&lt;/td>
  &lt;td style="text-align: left">Tue 20/06/2023&lt;/td>
  &lt;td style="text-align: left">OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-08-gilded-rose">8 - Gilded Rose&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2937,7 +2956,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 21/06/2023&lt;/td>
  &lt;td style="text-align: left">More on Design&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2945,7 +2964,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">26&lt;/td>
  &lt;td style="text-align: left">Tue 27/06/2023&lt;/td>
  &lt;td style="text-align: left">Application Architectures &amp;amp; System Models&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-09-state-machines">9 - State Machine Diagrams&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2953,7 +2972,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 28/06/2023&lt;/td>
  &lt;td style="text-align: left">Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2961,7 +2980,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">27&lt;/td>
  &lt;td style="text-align: left">Tue 04/07/2023&lt;/td>
  &lt;td style="text-align: left">More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-10-webapps-1">10 - Web Applications 1&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2969,7 +2988,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 05/07/2023&lt;/td>
  &lt;td style="text-align: left">Dependencies &amp;amp; how to test and handle them, Internationalization and Localization&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2977,7 +2996,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">28&lt;/td>
  &lt;td style="text-align: left">Tue 11/07/2023&lt;/td>
  &lt;td style="text-align: left">Continuous Integration &amp;amp; Deployment&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="../labs/lab-11-webapps-2">11 - Web Applications 2&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2985,7 +3004,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 12/07/2023&lt;/td>
  &lt;td style="text-align: left">Probeklausur (vorr. WH-C 576/579)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -2993,7 +3012,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">29&lt;/td>
  &lt;td style="text-align: left">Tue 18/07/2023&lt;/td>
  &lt;td style="text-align: left">TBD/Repetition (Exam Period Starts)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3001,7 +3020,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 19/07/2023&lt;/td>
  &lt;td style="text-align: left">&lt;strong>Exam PZ1&lt;/strong> (refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3009,7 +3028,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">30&lt;/td>
  &lt;td style="text-align: left">Tue 25/07/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3017,7 +3036,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 26/07/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3025,23 +3044,23 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Thu 27/07/2023&lt;/td>
  &lt;td style="text-align: left">15:00-16:00 Klausureinsicht in einem der 3 Labs, alternativ ab 9.8. in der &lt;a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen">Sprechstunde&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">18&lt;/td>
  &lt;td style="text-align: left">31&lt;/td>
  &lt;td style="text-align: left">Tue 01/08/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3049,7 +3068,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Wed 02/08/2023&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3057,16 +3076,16 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 04/08/2023&lt;/td>
  &lt;td style="text-align: left">&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -3079,7 +3098,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;th style="text-align: right">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Lecture Topic&lt;/th>
+ &lt;th>Lecture Topic&lt;/th>
  &lt;th style="text-align: left">Lab&lt;/th>
  &lt;/tr>
  &lt;/thead>
@@ -3089,7 +3108,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">40&lt;/td>
  &lt;td style="text-align: left">Tue 01/10/2024&lt;/td>
  &lt;td style="text-align: left">Hochschultag&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; no lecture &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3097,7 +3116,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 03/10/2024&lt;/td>
  &lt;td style="text-align: left">Feiertag&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; no lecture &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3105,7 +3124,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">41&lt;/td>
  &lt;td style="text-align: left">Tue 08/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Introduction to Info3, Source Code Management&lt;/td>
+ &lt;td>Introduction to Info3, Source Code Management&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3113,7 +3132,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 10/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Source Code Management (GIT) and How to learn Python&lt;/td>
+ &lt;td>Source Code Management (GIT) and How to learn Python&lt;/td>
  &lt;td style="text-align: left">Lab 1: Python, Git, Project Concept&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3121,7 +3140,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">42&lt;/td>
  &lt;td style="text-align: left">Tue 15/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Introduction to Software Engineering and Software Development Processes&lt;/td>
+ &lt;td>Introduction to Software Engineering and Software Development Processes&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3129,7 +3148,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 17/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">System Modeling and Architectural Design&lt;/td>
+ &lt;td>UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
  &lt;td style="text-align: left">Lab 1: Python, Git, Project Concept&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3137,7 +3156,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">43&lt;/td>
  &lt;td style="text-align: left">Tue 22/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Requirements Engineering&lt;/td>
+ &lt;td>Requirements Engineering&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3145,7 +3164,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 24/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
+ &lt;td>More UML&lt;/td>
  &lt;td style="text-align: left">Lab 2: Django&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3153,7 +3172,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">44&lt;/td>
  &lt;td style="text-align: left">Tue 29/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">UML &amp;amp; System Modeling: Requirements, Product Owner Game&lt;/td>
+ &lt;td>Application Architectures &amp;amp; System Models&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3161,7 +3180,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 31/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Design Patterns (GOF)&lt;/td>
+ &lt;td>Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
  &lt;td style="text-align: left">Lab 2: Django&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3169,7 +3188,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">45&lt;/td>
  &lt;td style="text-align: left">Tue 05/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">SOLID Principles,&lt;/td>
+ &lt;td>e-learning TBD&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3177,7 +3196,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 07/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">OO In Depth: Composition and Inheritance, Dynamic Typing, Duck Typing&lt;/td>
+ &lt;td>e-learning TBD&lt;/td>
  &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenarios&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3185,7 +3204,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">46&lt;/td>
  &lt;td style="text-align: left">Tue 12/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3193,7 +3212,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 14/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
  &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenario&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3201,7 +3220,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">47&lt;/td>
  &lt;td style="text-align: left">Tue 19/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">More on Design&lt;/td>
+ &lt;td>Software Design Patterns (GOF)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3209,7 +3228,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Application Architectures &amp;amp; System Models&lt;/td>
+ &lt;td>SOLID Principles&lt;/td>
  &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3217,7 +3236,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">48&lt;/td>
  &lt;td style="text-align: left">Tue 26/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
+ &lt;td>OO In Depth: Composition and Inheritance, Dynamic Typing, Duck Typing&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3225,7 +3244,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 28/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
+ &lt;td>More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
  &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3233,7 +3252,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">49&lt;/td>
  &lt;td style="text-align: left">Tue 03/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
+ &lt;td>Agile Development, Scrum&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3241,7 +3260,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 05/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
+ &lt;td>Clean Code Intro &amp;amp; Poster preparation&lt;/td>
  &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3249,7 +3268,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">50&lt;/td>
  &lt;td style="text-align: left">Tue 10/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
+ &lt;td>Clean Code Poster Session&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3257,7 +3276,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 12/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Agile Testing Practices, Code Quality&lt;/td>
+ &lt;td>Agile Testing Practices, Code Quality&lt;/td>
  &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3265,7 +3284,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">51&lt;/td>
  &lt;td style="text-align: left">Tue 17/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
+ &lt;td>Legacy Code &amp;amp; Refactoring&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3273,7 +3292,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 19/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Testing, Refactoring to Patterns&lt;/td>
+ &lt;td>Software Testing, Refactoring to Patterns&lt;/td>
  &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3281,7 +3300,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">52&lt;/td>
  &lt;td style="text-align: left">Tue 24/12/2024&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; no lecture &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3289,7 +3308,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 26/12/2024&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; no lecture &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3297,7 +3316,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">1&lt;/td>
  &lt;td style="text-align: left">Tue 31/12/2024&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; no lecture &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3305,7 +3324,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 02/01/2025&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; no lecture &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3313,7 +3332,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">2&lt;/td>
  &lt;td style="text-align: left">Tue 07/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Continuous Integration &amp;amp; Deployment&lt;/td>
+ &lt;td>Continuous Integration &amp;amp; Deployment&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3321,7 +3340,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 09/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Dependencies &amp;amp; how to test and handle them&lt;/td>
+ &lt;td>Dependencies &amp;amp; how to test and handle them&lt;/td>
  &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3329,7 +3348,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">3&lt;/td>
  &lt;td style="text-align: left">Tue 14/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Internationalization and Localization&lt;/td>
+ &lt;td>Internationalization and Localization&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3337,7 +3356,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 16/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Repetition&lt;/td>
+ &lt;td>Repetition&lt;/td>
  &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3345,7 +3364,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">4&lt;/td>
  &lt;td style="text-align: left">Tue 21/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; the dates below are subject to change depending on the exam date &amp;ndash;&lt;/td>
+ &lt;td>&amp;ndash; the dates below are subject to change depending on the exam date &amp;ndash;&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3353,7 +3372,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 23/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">Probeklausur (TBD)&lt;/td>
+ &lt;td>Probeklausur (TBD)&lt;/td>
  &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3361,7 +3380,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">5&lt;/td>
  &lt;td style="text-align: left">Tue 28/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3369,7 +3388,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 30/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">Exam (TBD - refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
+ &lt;td>Exam (TBD - refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3377,7 +3396,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">6&lt;/td>
  &lt;td style="text-align: left">Tue 04/02/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3385,7 +3404,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 06/02/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3393,7 +3412,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
  &lt;td style="text-align: left">Lab 8: Showtime&lt;/td>
  &lt;/tr>
  &lt;/tbody>
@@ -3810,7 +3829,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">Time&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
+ &lt;th>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -3826,7 +3845,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">Thu 11/04/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
@@ -3840,7 +3859,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Thu 18/04/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -3853,8 +3872,8 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">18&lt;/td>
  &lt;td style="text-align: left">Thu 02/05/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -3868,7 +3887,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">20&lt;/td>
  &lt;td style="text-align: left">Thu 16/05/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -3889,7 +3908,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">22&lt;/td>
  &lt;td style="text-align: left">Thu 30/05/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
@@ -3903,14 +3922,14 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">24&lt;/td>
  &lt;td style="text-align: left">Thu 13/06/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
  &lt;td style="text-align: left">25&lt;/td>
  &lt;td style="text-align: left">Thu 20/06/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
@@ -3924,7 +3943,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">27&lt;/td>
  &lt;td style="text-align: left">Thu 04/07/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
@@ -3938,7 +3957,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Thu 11/07/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
@@ -3952,7 +3971,7 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
  &lt;td style="text-align: left">30&lt;/td>
  &lt;td style="text-align: left">Thu 25/07/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">17&lt;/td>
@@ -4495,7 +4514,22 @@ classDiagram
  void act()
  void aroundTree()
  }
-&lt;/pre></description></item><item><title>4 - Use Cases and Class Diagrams Part I</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</guid><description>&lt;p>&lt;img src="../images/study-partner.jpg" alt="Table" title="pumpkins">
+&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/labs/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/labs/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;p>You can work alone on this or in pairs.&lt;/p>
+&lt;h2 id="hand-in">Hand-In&lt;/h2>
+&lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
+Make sure to keep a logbook with notes of anything that you observe to ease writing the report later.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>You can do the kata in any programming language. Start with a project setup with a running xUnit-Test,
+and a convenient way to automatically re-rerun the all tests after a code change. I find running
+the tests in an extra shell window outside the ide most useful for that - see the &lt;code>testloop.sh&lt;/code>
+script in my python-kata scaffold: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-media-programming/kata-scaffold">https://github.com/htw-imi-media-programming/kata-scaffold&lt;/a>
+&lt;/p></description></item><item><title>4 - Use Cases and Class Diagrams Part I</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</guid><description>&lt;p>&lt;img src="../images/study-partner.jpg" alt="Table" title="pumpkins">
 &lt;!-- raw HTML omitted -->Foto by &lt;a href="https://unsplash.com/photos/SYTO3xs06fU">Marvin Meyer&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;h3 id="1-know-what-the-lab-is-about">1. Know what the lab is about&lt;/h3>
@@ -6665,6 +6699,14 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
  
 
  
@@ -10682,7 +10724,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">&lt;/th>
  &lt;th style="text-align: left">Read before class:&lt;/th>
- &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;th>Lab&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -10692,7 +10734,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 08/04/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Class Intro / Server Setup and the Shell&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab00">Lab 00 - Intro&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="../labs/lab00">Lab 00 - Intro&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -10700,7 +10742,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 15/04/2022&lt;/td>
  &lt;td style="text-align: left">Ostern&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">2&lt;/td>
@@ -10708,7 +10750,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 22/04/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Computer Networks and the Internet: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/1/">1.1-1.7&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab00">Lab 00 - Intro&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="../labs/lab00">Lab 00 - Intro&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
@@ -10716,7 +10758,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 29/04/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Application Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/2/">2.1-2.3, 2.7&lt;/a>&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
+ &lt;td>1&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -10724,7 +10766,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 06/05/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Application Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/2/">2.4-2.6&lt;/a>&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
+ &lt;td>1&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
@@ -10732,7 +10774,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 13/05/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Transport Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/3/">3.1-3.4&lt;/a>&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
+ &lt;td>2&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
@@ -10740,7 +10782,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 20/05/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Transport Layer: &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/3/">3.5-3.8&lt;/a>&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
+ &lt;td>2&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -10748,7 +10790,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 27/05/2022&lt;/td>
  &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
@@ -10756,7 +10798,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 03/06/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">The Network Layer: Data Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/4/">4.1-4.2&lt;/a>&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
+ &lt;td>3&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
@@ -10764,7 +10806,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 10/06/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">The Network Layer: Data Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/4/">4.3-4.5&lt;/a>&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
+ &lt;td>3&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
@@ -10772,7 +10814,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 17/06/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">The Network Layer: Control Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/5/">5.1-5.4&lt;/a>&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
+ &lt;td>4&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">10&lt;/td>
@@ -10780,7 +10822,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 24/06/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">The Network Layer: Control Plane &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/5/">5.5-5.7&lt;/a>&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
+ &lt;td>4&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
@@ -10788,7 +10830,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 01/07/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">The Link Layer and LANs &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/6/">6.1-6.4&lt;/a>&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
+ &lt;td>5&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
@@ -10796,7 +10838,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 08/07/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">The Link Layer and LANs &lt;a href="https://gaia.cs.umass.edu/kurose_ross/videos/6/">6.3-6.8&lt;/a>&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
+ &lt;td>5&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">13&lt;/td>
@@ -10804,7 +10846,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 15/07/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Exam?&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
+ &lt;td>6&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
@@ -10812,7 +10854,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 22/07/2022&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Exam?&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
+ &lt;td>6&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -10820,7 +10862,7 @@ Hinweis: die LV wird im Sommersemester 2022 von einem Lehrbeauftragten, Parham H
  &lt;td style="text-align: left">Fri 29/07/2022&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>B9 Networks WS 2021/22 - Resources</title><link>https://bkleinen.github.io/classes/ws2021/networks/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/resources/</guid><description>&lt;h2 id="material-on-this-site">Material on this Site&lt;/h2>
@@ -13054,7 +13096,8 @@ Wilhelminenhofstr. 75A&lt;br>
 &lt;ul>
 &lt;li>
 &lt;p>You need to talk to me - preferably during the office hours (see below) - about your topic
-and register in LSF for the correct semester and course (IC1 or IC2). You will be rejected first and accepted later manually, please re-register as long as possible/necessary (Neuanmeldung). (Don&amp;rsquo;t ask. Or do ask learn about possible clashes of business processes and supporting IT.)&lt;/p></description></item><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ss2018/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/schedule/</guid><description>&lt;p>This schedule is tentative and subject to change.&lt;/p>
+and register in LSF for the correct semester and course (IC1 or IC2). You will be rejected
+automatically, and accepted later manually, which is possible until Phase IV, so no worries.&lt;/p></description></item><item><title>Info 1 - Schedule</title><link>https://bkleinen.github.io/classes/ss2018/info1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/info1/schedule/</guid><description>&lt;p>This schedule is tentative and subject to change.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -25963,8 +26006,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;th style="text-align: left">Reading Schedule (Tentative)&lt;/th>
  &lt;th style="text-align: left">Work during the Week&lt;/th>
  &lt;th style="text-align: left">Course Meeting&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -25975,8 +26018,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">&lt;a href="https://www.youtube.com/watch?v=e3vxW1SiNSU">Video: Karen Holtzblatt - Contextual Design &amp;amp; The Cool Concepts&lt;/a>&lt;/td>
  &lt;td style="text-align: left">&lt;a href="https://www.witops.org/ux-yall-2020/">Karen Holtzblatt: UX Y’All 2020 – Remote Contextual Design&lt;/a>&lt;/td>
  &lt;td style="text-align: left">Introduction to class&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">2&lt;/td>
@@ -25985,8 +26028,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 1 - Introduction &amp;amp; Chapter 2 - User Data Drives Design (27 + 11 P.)&lt;/td>
  &lt;td style="text-align: left">Interview logistics&lt;/td>
  &lt;td style="text-align: left">Finalizaton of Topics &amp;amp; Groups&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
@@ -25995,8 +26038,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 3 - Principles of Contextual Inquiry (43-80, 37 P.)&lt;/td>
  &lt;td style="text-align: left">Interview Planning &amp;amp; Preparation (Interviewee Info, Qualification Questions )&lt;/td>
  &lt;td style="text-align: left">Practice Interviews&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -26005,8 +26048,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 4 - The Interpretation Session (P81-105, 26P.)&lt;/td>
  &lt;td style="text-align: left">Interviewees recruitement&lt;/td>
  &lt;td style="text-align: left">Practice Interpretation Session&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
@@ -26015,8 +26058,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Rapid Contextual Design Chapter 3 &amp;amp; 4&lt;/td>
  &lt;td style="text-align: left">Interviews &amp;amp; Interpretation Sessions&lt;/td>
  &lt;td style="text-align: left">Lernteamcoaching&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -26025,8 +26068,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
  &lt;td style="text-align: left">Interviews &amp;amp; Interpretation Sessions&lt;/td>
  &lt;td style="text-align: left">no class, Report 1 due 17/5/2021&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
@@ -26035,8 +26078,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 5 - From Data to Insight: Contextual Design Models &amp;amp; Chapter 6 - The Affinity Diagram (P127-146, 19 P.)&lt;/td>
  &lt;td style="text-align: left">Affinity Diagram&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
@@ -26045,8 +26088,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 10 - The Bridge From Data to Design: The Wall Walk (P. 253-275, 22P)&lt;/td>
  &lt;td style="text-align: left">Wall Walk&lt;/td>
  &lt;td style="text-align: left">Wall Walk&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
@@ -26055,8 +26098,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 11 Ideation for Visioning Session Excerpt from Chapters 7 &amp;amp; 8: Personas, Chapter 9 - Inventing the Next Product Concept (P. 233- 251, 18P. )&lt;/td>
  &lt;td style="text-align: left">Create Visions &amp;amp; Product Concepts&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
@@ -26065,8 +26108,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 12 The Challenge of Product Design&lt;/td>
  &lt;td style="text-align: left">Create Visions &amp;amp; Product Concepts&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">10&lt;/td>
@@ -26075,8 +26118,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 17 - Validating the Design (P. 413-441, 28P) (Paper Prototypes!)&lt;/td>
  &lt;td style="text-align: left">Paper Prototypes&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
@@ -26085,8 +26128,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Chapter 19 - Project Planning and execution&lt;/td>
  &lt;td style="text-align: left">Paper Prototypes, maybe Interviews&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
@@ -26095,8 +26138,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Paper Prototype Interviews&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">13&lt;/td>
@@ -26105,8 +26148,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Write Up&lt;/td>
  &lt;td style="text-align: left">Project Presentations&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
@@ -26115,8 +26158,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">Write Up&lt;/td>
  &lt;td style="text-align: left">Showtime/Write Up&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -26125,8 +26168,8 @@ somewhere else and just provide a link in your reports.&lt;/p></description></it
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table></description></item><item><title>WTAT1 Literature</title><link>https://bkleinen.github.io/classes/ss2020/wtat1/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/wtat1/literature/</guid><description>&lt;p>You will develop an application using the MERN - Stack: Mongo, Express, React and Node.&lt;/p>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2024/m1/labs/</link><description>Recent content in M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2024/m1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/labs/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/labs/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;p>You can work alone on this or in pairs.&lt;/p>
+&lt;h2 id="hand-in">Hand-In&lt;/h2>
+&lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
+Make sure to keep a logbook with notes of anything that you observe to ease writing the report later.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>You can do the kata in any programming language. Start with a project setup with a running xUnit-Test,
+and a convenient way to automatically re-rerun the all tests after a code change. I find running
+the tests in an extra shell window outside the ide most useful for that - see the &lt;code>testloop.sh&lt;/code>
+script in my python-kata scaffold: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-media-programming/kata-scaffold">https://github.com/htw-imi-media-programming/kata-scaffold&lt;/a>
+&lt;/p></description></item></channel></rss>
