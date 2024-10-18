@@ -9,7 +9,8 @@ Prof. Weber-Wulff compiled a [hand-out about ICs](https://people.f4.htw-berlin.d
 In addition to that, my specific rules about ICs are as follows:
 
 * You need to talk to me - preferably during the office hours (see below)  - about your topic
-  and register in LSF for the correct semester and course (IC1 or IC2). You will be rejected first and accepted later manually, please re-register as long as possible/necessary (Neuanmeldung). (Don't ask. Or do ask learn about possible clashes of business processes and supporting IT.)
+  and register in LSF for the correct semester and course (IC1 or IC2). You will be rejected 
+  automatically, and accepted later manually, which is possible until Phase IV, so no worries.
 
 * You need to **maintain and hand in** a timesheet documenting what you did for your IC (a simple excel sheet
   summing up hours and tasks will do) - it should be around 180 hrs according to the 6 ECTS.
