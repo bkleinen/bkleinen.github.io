@@ -63,15 +63,29 @@
  &lt;td style="text-align: right">43&lt;/td>
  &lt;td style="text-align: left">Tue 22/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Requirements Engineering&lt;/td>
+ &lt;td>More UML&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Wed 23/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td>Agile Development, Scrum&lt;/td>
+ &lt;td style="text-align: left">
+ 
+
+&lt;div class="alert alert-danger" role="alert">
+ Zusätzlicher Termin: Wed 23/10/2024, 12:15-13:45 
+&lt;/div>
+&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 24/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>More UML&lt;/td>
+ &lt;td>Requirements Engineering&lt;/td>
  &lt;td style="text-align: left">Lab 2: Django&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -79,23 +93,37 @@
  &lt;td style="text-align: right">44&lt;/td>
  &lt;td style="text-align: left">Tue 29/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Application Architectures &amp;amp; System Models&lt;/td>
+ &lt;td>Software Design Patterns (GOF)&lt;/td>
+ &lt;td style="text-align: left">
+ 
+
+&lt;div class="alert alert-danger" role="alert">
+ Zusätzlicher Termin: Tue 29/10/2024, 14:00-15:30
+&lt;/div>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: left">Tue 29/10/2024&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td>Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
+ &lt;td style="text-align: left">Lab 2: Django&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 31/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
- &lt;td style="text-align: left">Lab 2: Django&lt;/td>
+ &lt;td>Agile Testing Practices, Code Quality&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: right">45&lt;/td>
  &lt;td style="text-align: left">Tue 05/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>e-learning TBD&lt;/td>
+ &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -103,7 +131,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 07/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>e-learning TBD&lt;/td>
+ &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenarios&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -111,7 +139,7 @@
  &lt;td style="text-align: right">46&lt;/td>
  &lt;td style="text-align: left">Tue 12/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
+ &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -119,7 +147,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 14/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
+ &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenario&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -127,7 +155,7 @@
  &lt;td style="text-align: right">47&lt;/td>
  &lt;td style="text-align: left">Tue 19/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Software Design Patterns (GOF)&lt;/td>
+ &lt;td>TBD&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -135,7 +163,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>SOLID Principles&lt;/td>
+ &lt;td>e-learning reviews&lt;/td>
  &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -143,7 +171,7 @@
  &lt;td style="text-align: right">48&lt;/td>
  &lt;td style="text-align: left">Tue 26/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>OO In Depth: Composition and Inheritance, Dynamic Typing, Duck Typing&lt;/td>
+ &lt;td>TBD&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -151,7 +179,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 28/11/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
+ &lt;td>SOLID Principles&lt;/td>
  &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -159,7 +187,7 @@
  &lt;td style="text-align: right">49&lt;/td>
  &lt;td style="text-align: left">Tue 03/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Agile Development, Scrum&lt;/td>
+ &lt;td>OO In Depth: Composition and Inheritance, Dynamic Typing, Duck Typing&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -167,7 +195,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 05/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Clean Code Intro &amp;amp; Poster preparation&lt;/td>
+ &lt;td>More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
  &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -175,7 +203,7 @@
  &lt;td style="text-align: right">50&lt;/td>
  &lt;td style="text-align: left">Tue 10/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Clean Code Poster Session&lt;/td>
+ &lt;td>Legacy Code &amp;amp; Refactoring&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -183,7 +211,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 12/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Agile Testing Practices, Code Quality&lt;/td>
+ &lt;td>Refactoring to Patterns&lt;/td>
  &lt;td style="text-align: left">Lab5: User Stories, Project Set-Up, Implementation&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -191,7 +219,7 @@
  &lt;td style="text-align: right">51&lt;/td>
  &lt;td style="text-align: left">Tue 17/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Legacy Code &amp;amp; Refactoring&lt;/td>
+ &lt;td>Continuous Integration &amp;amp; Deployment&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -199,7 +227,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 19/12/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Software Testing, Refactoring to Patterns&lt;/td>
+ &lt;td>Internationalization and Localization&lt;/td>
  &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -239,7 +267,7 @@
  &lt;td style="text-align: right">2&lt;/td>
  &lt;td style="text-align: left">Tue 07/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Continuous Integration &amp;amp; Deployment&lt;/td>
+ &lt;td>Dependencies &amp;amp; how to test and handle them&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -247,7 +275,7 @@
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 09/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Dependencies &amp;amp; how to test and handle them&lt;/td>
+ &lt;td>Software Testing&lt;/td>
  &lt;td style="text-align: left">Lab6: Implementation (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -255,7 +283,7 @@
  &lt;td style="text-align: right">3&lt;/td>
  &lt;td style="text-align: left">Tue 14/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Internationalization and Localization&lt;/td>
+ &lt;td>Repetition&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
