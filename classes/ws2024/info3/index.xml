@@ -76,7 +76,7 @@
  
 
 &lt;div class="alert alert-danger" role="alert">
- Zusätzlicher Termin: Wed 23/10/2024, 12:15-13:45 
+ Zusätzlicher Termin: Wed 23/10/2024, 12:15-13:45 Raum siehe LSF
 &lt;/div>
 &lt;/td>
  &lt;/tr>
@@ -98,7 +98,7 @@
  
 
 &lt;div class="alert alert-danger" role="alert">
- Zusätzlicher Termin: Tue 29/10/2024, 14:00-15:30
+ Zusätzlicher Termin: Tue 29/10/2024, 14:00-15:30 Raum siehe LSF
 &lt;/div>
 &lt;/td>
  &lt;/tr>
@@ -122,7 +122,7 @@
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: right">45&lt;/td>
  &lt;td style="text-align: left">Tue 05/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>keine Vorlesung!&lt;/strong>&lt;/td>
  &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -130,7 +130,7 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 07/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>keine Vorlesung!&lt;/strong>&lt;/td>
  &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenarios&lt;/td>
  &lt;/tr>
@@ -138,7 +138,7 @@
  &lt;td style="text-align: left">7&lt;/td>
  &lt;td style="text-align: right">46&lt;/td>
  &lt;td style="text-align: left">Tue 12/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>keine Vorlesung!&lt;/strong>&lt;/td>
  &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -146,7 +146,7 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 14/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>keine Vorlesung!&lt;/strong>&lt;/td>
  &lt;td>e-learning&lt;/td>
  &lt;td style="text-align: left">Lab 3: Personas, Use Case Diagrams, Scenario&lt;/td>
  &lt;/tr>
@@ -154,7 +154,7 @@
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: right">47&lt;/td>
  &lt;td style="text-align: left">Tue 19/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>keine Vorlesung!&lt;/strong>&lt;/td>
  &lt;td>vorverlegt auf Wed 23/10/2024&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -162,7 +162,7 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 21/11/2024&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>keine Vorlesung!&lt;/strong>&lt;/td>
  &lt;td>vorverlegt auf Tue 29/10/2024&lt;/td>
  &lt;td style="text-align: left">Lab4: Class Diagrams, Sequence Diagrams&lt;/td>
  &lt;/tr>
