@@ -4308,7 +4308,7 @@ classDiagram
  void act()
  void aroundTree()
  }
-&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/labs/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/labs/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
 &lt;p>You can work alone on this or in pairs.&lt;/p>
 &lt;h2 id="hand-in">Hand-In&lt;/h2>
 &lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
@@ -4398,7 +4398,19 @@ individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description
 &lt;p>B5: PAM - Process Modelling and Management (Weiterentwicklung des Tools) (Martin Singer)&lt;/p>
 &lt;p>B6: AR und Videomapping (Alexander Kramer)&lt;/p>
 &lt;h5 id="master-projekte">Master-Projekte&lt;/h5>
-&lt;p>M1: Gaming for Future II: Turning the simulation into a game (David Müller)&lt;/p></description></item><item><title>5 - Use Cases and Class Diagrams Part II</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</guid><description>&lt;p>This is part 2 - refer to &lt;a href="../lab-04-usecases">Part 1&lt;/a> for the assignment.&lt;/p>
+&lt;p>M1: Gaming for Future II: Turning the simulation into a game (David Müller)&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
+&lt;p>This exercise is about refactoring to patterns, guided from
+issues found by static code analysis tools.&lt;/p>
+&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
+&lt;ul>
+&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
+&lt;li>static code analysers are not yet part of the build process (or at
+least not sufficiently)&lt;/li>
+&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
+&lt;li>you want to put some work in it&lt;/li>
+&lt;li>is written in a programming language that you want to practice more&lt;/li>
+&lt;/ul>
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>5 - Use Cases and Class Diagrams Part II</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</guid><description>&lt;p>This is part 2 - refer to &lt;a href="../lab-04-usecases">Part 1&lt;/a> for the assignment.&lt;/p>
 &lt;p>Don&amp;rsquo;t worry too much about the differentiation of Part 1 and 2, just add
 missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;/p>
 &lt;p>Depending on the reviews of Part1, additional guidance might be added here.&lt;/p>
@@ -6440,6 +6452,14 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+ 
+ 
+
+ 
+ 
+ 
+
+ 
 
  
 
@@ -6454,6 +6474,10 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+ 
+ 
+
+ 
 
  
  
@@ -6463,6 +6487,10 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
+ 
+
+ 
+ 
  
 
  
@@ -8493,6 +8521,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;th style="text-align: left">Week&lt;/th>
  &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Tentative Due Dates (will be fixed in class 1.11.)&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">Topic Area&lt;/th>
  &lt;th style="text-align: left">Lab&lt;/th>
@@ -8502,6 +8531,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">1&lt;/td>
  &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 11/10/2024&lt;/td>
  &lt;td style="text-align: left">Class Intro&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8509,6 +8539,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">2&lt;/td>
  &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 18/10/2024&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
  &lt;td style="text-align: left">Kata&lt;/td>
@@ -8516,6 +8547,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
  &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 25/10/2024&lt;/td>
  &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8523,6 +8555,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 01/11/2024&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8530,6 +8563,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">A_01: 7.11.&lt;/td>
  &lt;td style="text-align: left">Fri 08/11/2024&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8537,6 +8571,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">A_03: 18.11. Project Selection&lt;/td>
  &lt;td style="text-align: left">Fri 15/11/2024&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8544,6 +8579,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
  &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">A_02: 21.11.&lt;/td>
  &lt;td style="text-align: left">Fri 22/11/2024&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8551,6 +8587,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 29/11/2024&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8558,6 +8595,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">9&lt;/td>
  &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 06/12/2024&lt;/td>
  &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8565,6 +8603,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">10&lt;/td>
  &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">A_03: 12.12.&lt;/td>
  &lt;td style="text-align: left">Fri 13/12/2024&lt;/td>
  &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8572,6 +8611,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">11&lt;/td>
  &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 20/12/2024&lt;/td>
  &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world (TBD)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8579,6 +8619,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 27/12/2024&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8586,6 +8627,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 03/01/2025&lt;/td>
  &lt;td style="text-align: left">Winterpause&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8593,6 +8635,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
  &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">A_04?&lt;/td>
  &lt;td style="text-align: left">Fri 10/01/2025&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns (TBD)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8600,6 +8643,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">13&lt;/td>
  &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 17/01/2025&lt;/td>
  &lt;td style="text-align: left">TBD&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8607,6 +8651,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">A_05?&lt;/td>
  &lt;td style="text-align: left">Fri 24/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8614,6 +8659,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 31/01/2025&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
@@ -8621,6 +8667,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;tr>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
