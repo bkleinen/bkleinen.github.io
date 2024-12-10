@@ -54,4 +54,11 @@
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Gilded Rose Kata for Info3</title><link>https://bkleinen.github.io/material/info3/gilded-rose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info3/gilded-rose/</guid><description>&lt;p>&lt;img src="./The_Gilded_Rose.jpg" alt="The Gilded Rose">&lt;/p>
+&lt;p>&lt;!-- raw HTML omitted -->The Gilded Rose, Trade District, &lt;a href="https://wowpedia.fandom.com/wiki/Gilded_Rose">World of Warcraft.&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>This has been a lab exercise for info3 for many years.&lt;/p>
+&lt;h1 id="the-gilded-rose-kata">The Gilded Rose Kata&lt;/h1>
+&lt;p>&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;h3 id="about-coding-katas">About Coding Katas&lt;/h3>
+&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item></channel></rss>
