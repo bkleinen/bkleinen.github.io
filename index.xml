@@ -3222,7 +3222,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">2&lt;/td>
  &lt;td style="text-align: left">Tue 07/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Dependencies &amp;amp; how to test and handle them&lt;/td>
+ &lt;td>(ausgefallen)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3230,7 +3230,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 09/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Software Testing&lt;/td>
+ &lt;td>(ausgefallen)&lt;/td>
  &lt;td style="text-align: left">Lab6: Implementation (asynchronous - start earlier if you can)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3238,7 +3238,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">3&lt;/td>
  &lt;td style="text-align: left">Tue 14/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Repetition&lt;/td>
+ &lt;td>Software Testing&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3246,7 +3246,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 16/01/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td>Repetition&lt;/td>
+ &lt;td>Dependencies &amp;amp; how to test and handle them&lt;/td>
  &lt;td style="text-align: left">Lab7: Review, Retrospective (asynchronous)&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3270,7 +3270,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">5&lt;/td>
  &lt;td style="text-align: left">Tue 28/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>Repetition&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3278,7 +3278,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 30/01/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td>Exam (TBD - refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
+ &lt;td>Exam 10-12&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -3294,7 +3294,7 @@ Upload your summary/sketchnote together with the video reference &amp;amp; link 
  &lt;td style="text-align: right">&lt;/td>
  &lt;td style="text-align: left">Thu 06/02/2025&lt;/td>
  &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td>&lt;/td>
+ &lt;td>Klausureinsicht WH-C 537&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -4308,7 +4308,22 @@ classDiagram
  void act()
  void aroundTree()
  }
-&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;p>You can work alone on this or in pairs.&lt;/p>
+&lt;h2 id="hand-in">Hand-In&lt;/h2>
+&lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
+Make sure to keep a logbook with notes of anything that you observe to ease writing the report later.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>You can do the kata in any programming language. Start with a project setup with a running xUnit-Test,
+and a convenient way to automatically re-rerun the all tests after a code change. I find running
+the tests in an extra shell window outside the ide most useful for that - see the &lt;code>testloop.sh&lt;/code>
+script in my python-kata scaffold: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-media-programming/kata-scaffold">https://github.com/htw-imi-media-programming/kata-scaffold&lt;/a>
+&lt;/p></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
 &lt;p>You can work alone on this or in pairs.&lt;/p>
 &lt;h2 id="hand-in">Hand-In&lt;/h2>
 &lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
@@ -4398,7 +4413,19 @@ individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description
 &lt;p>B5: PAM - Process Modelling and Management (Weiterentwicklung des Tools) (Martin Singer)&lt;/p>
 &lt;p>B6: AR und Videomapping (Alexander Kramer)&lt;/p>
 &lt;h5 id="master-projekte">Master-Projekte&lt;/h5>
-&lt;p>M1: Gaming for Future II: Turning the simulation into a game (David Müller)&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
+&lt;p>M1: Gaming for Future II: Turning the simulation into a game (David Müller)&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
+&lt;p>This exercise is about refactoring to patterns, guided from
+issues found by static code analysis tools.&lt;/p>
+&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
+&lt;ul>
+&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
+&lt;li>static code analysers are not yet part of the build process (or at
+least not sufficiently)&lt;/li>
+&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
+&lt;li>you want to put some work in it&lt;/li>
+&lt;li>is written in a programming language that you want to practice more&lt;/li>
+&lt;/ul>
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
 &lt;p>This exercise is about refactoring to patterns, guided from
 issues found by static code analysis tools.&lt;/p>
 &lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
@@ -6270,6 +6297,22 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
  
+ &lt;li>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href= "https://bkleinen.github.io//classes/ss2025/m1/schedule/">SS 2025:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 SoSe 2025 Wednesday Schedule&lt;/a>
+ &lt;/li>
+ 
+ 
+ 
+
+ 
+ 
+ 
 
  
  
@@ -6460,53 +6503,7 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
-
  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
- 
- 
-
- 
-
- 
- 
- 
-
- 
- 
- 
-
- 
-
- 
- 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
  
 
  
@@ -6532,11 +6529,19 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+ 
+ 
 
  
 
  
  
+ 
+
+ 
+ 
+ 
+
  
 
  
@@ -6564,6 +6569,46 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
 
  
 
@@ -6586,13 +6631,35 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
 
  
+
  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
  
 
  
  
  
 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
  
 
  
@@ -8677,7 +8744,147 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Videos Software Engineering</title><link>https://bkleinen.github.io/bibliographies/se_videos/</link><pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/bibliographies/se_videos/</guid><description/></item><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
+&lt;/table>
+&lt;p>Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item><title>M1 SoSe 2025 Wednesday Schedule</title><link>https://bkleinen.github.io/classes/ss2025/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/schedule/</guid><description>&lt;p>&lt;a href="https://bkleinen.github.io/classes/m1">M1 Schedule Overview&lt;/a>
+/
+&lt;a href="https://github.com/progwebtec/classes-module/blob/main/content/classes/ss2025/m1/schedule/index.md">Edit this page via github&lt;/a> (ask BK for rsepo permissions first)&lt;/p>
+&lt;p>Time and Room: See LSF (link in external links above)&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14 &lt;/td>
+ &lt;td style="text-align: left">Wed 02/04/2025&lt;/td>
+ &lt;td style="text-align: left">(erster Vorlesungstag)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15 &lt;/td>
+ &lt;td style="text-align: left">Wed 09/04/2025&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">16 &lt;/td>
+ &lt;td style="text-align: left">Wed 16/04/2025&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">17 &lt;/td>
+ &lt;td style="text-align: left">Wed 23/04/2025&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">18 &lt;/td>
+ &lt;td style="text-align: left">Wed 30/04/2025&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">19 &lt;/td>
+ &lt;td style="text-align: left">Wed 07/05/2025&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">20 &lt;/td>
+ &lt;td style="text-align: left">Wed 14/05/2025&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">21 &lt;/td>
+ &lt;td style="text-align: left">Wed 21/05/2025&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">22 &lt;/td>
+ &lt;td style="text-align: left">Wed 28/05/2025&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">23 &lt;/td>
+ &lt;td style="text-align: left">Wed 04/06/2025&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">24 &lt;/td>
+ &lt;td style="text-align: left">Wed 11/06/2025&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td style="text-align: left">Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">25 &lt;/td>
+ &lt;td style="text-align: left">Wed 18/06/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">26 &lt;/td>
+ &lt;td style="text-align: left">Wed 25/06/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">27 &lt;/td>
+ &lt;td style="text-align: left">Wed 02/07/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">28 &lt;/td>
+ &lt;td style="text-align: left">Wed 09/07/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">29 &lt;/td>
+ &lt;td style="text-align: left">Wed 16/07/2025&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">30 &lt;/td>
+ &lt;td style="text-align: left">Wed 23/07/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;ol>
+&lt;li>Prüfungszeitraum	14.07. – 02.08.2025&lt;/li>
+&lt;li>Prüfungszeitraum	24.09. – 08.10.2025&lt;/li>
+&lt;/ol></description></item><item><title>Videos Software Engineering</title><link>https://bkleinen.github.io/bibliographies/se_videos/</link><pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/bibliographies/se_videos/</guid><description/></item><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
 &lt;p>There are rather verbose manuals about various ways to
 copy files from your HTW-RZ home directory to somewhere else.
 (see
