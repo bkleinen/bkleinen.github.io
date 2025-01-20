@@ -6301,6 +6301,8 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 &lt;/table></description></item><item><title>M1 Schedules - History</title><link>https://bkleinen.github.io/classes/m1/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/m1/</guid><description>&lt;ul>
 
  
+
+ 
  
  
  &lt;li>
@@ -6498,10 +6500,6 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
 
- 
-
- 
- 
  
 
  
@@ -8777,36 +8775,36 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;td style="text-align: left">2&lt;/td>
  &lt;td style="text-align: left">15 &lt;/td>
  &lt;td style="text-align: left">Wed 09/04/2025&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Klaus Jung&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">3&lt;/td>
  &lt;td style="text-align: left">16 &lt;/td>
  &lt;td style="text-align: left">Wed 16/04/2025&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">17 &lt;/td>
  &lt;td style="text-align: left">Wed 23/04/2025&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">5&lt;/td>
  &lt;td style="text-align: left">18 &lt;/td>
  &lt;td style="text-align: left">Wed 30/04/2025&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">19 &lt;/td>
  &lt;td style="text-align: left">Wed 07/05/2025&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td style="text-align: left">David Strippgen&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
@@ -8847,36 +8845,36 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  &lt;td style="text-align: left">12&lt;/td>
  &lt;td style="text-align: left">25 &lt;/td>
  &lt;td style="text-align: left">Wed 18/06/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">13&lt;/td>
  &lt;td style="text-align: left">26 &lt;/td>
  &lt;td style="text-align: left">Wed 25/06/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">27 &lt;/td>
  &lt;td style="text-align: left">Wed 02/07/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Kai Barthel&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">28 &lt;/td>
  &lt;td style="text-align: left">Wed 09/07/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">29 &lt;/td>
  &lt;td style="text-align: left">Wed 16/07/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td style="text-align: left">Nico Hezel&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">17&lt;/td>
@@ -8928,8 +8926,8 @@ with the setting &lt;code>noClasses=false&lt;/code> via stylesheets. see &lt;cod
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="hl">&lt;span class="lnt">199
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line hl">&lt;span class="cl">&lt;span class="c1">// ... code
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line hl">&lt;span class="cl">&lt;span class="c1">// ... code&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;hr>
 &lt;h3 id="without-anything">Without anything&lt;/h3>
