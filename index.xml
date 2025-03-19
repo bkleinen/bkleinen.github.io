@@ -17,6 +17,14 @@ programming java, and to get to know your new programming environment.&lt;/p>
 &lt;p>Write a method that takes an integer array as parameter and returns the number of 0 contained in it.&lt;/p>
 &lt;h3 id="finger-exercise-2-count-occurrences-of-an-character-in-a-string">Finger Exercise 2: Count occurrences of an character in a String&lt;/h3>
 &lt;p>Write a method that takes a String s and a character c as parameters and returns
+the number of occurrences of c in s.&lt;/p></description></item><item><title>Repetition - Finger Exercises</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/00_repetition_info1_finger_exercises/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/00_repetition_info1_finger_exercises/</guid><description>&lt;p>This is a small collection of programming finger exercises to get you back to
+programming java, and to get to know your new programming environment.&lt;/p>
+&lt;p>I&amp;rsquo;ve numbered them for easier referencing in the Q&amp;amp;A.&lt;/p>
+&lt;h2 id="basic-exercises">Basic Exercises&lt;/h2>
+&lt;h3 id="finger-exercise-1-count-0s-in-an-array">Finger Exercise 1: Count 0s in an array&lt;/h3>
+&lt;p>Write a method that takes an integer array as parameter and returns the number of 0 contained in it.&lt;/p>
+&lt;h3 id="finger-exercise-2-count-occurrences-of-an-character-in-a-string">Finger Exercise 2: Count occurrences of an character in a String&lt;/h3>
+&lt;p>Write a method that takes a String s and a character c as parameters and returns
 the number of occurrences of c in s.&lt;/p></description></item><item><title>Repetition - Finger Exercises</title><link>https://bkleinen.github.io/classes/ws2021/info2/material/00_repetition_info1_finger_exercises/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/info2/material/00_repetition_info1_finger_exercises/</guid><description>&lt;p>This is a small collection of programming finger exercises to get you back to
 programming java, and to get to know your new programming environment.&lt;/p>
 &lt;p>I&amp;rsquo;ve numbered them for easier referencing in the Q&amp;amp;A.&lt;/p>
@@ -51,6 +59,1212 @@ introductionary courses.&lt;/p>
 &lt;h2 id="suggested-path-for-info3--info3">Suggested Path for Info3 &amp;amp; Info3&lt;/h2>
 &lt;p>As we are already using IntelliJ IDEA, using the Python Flavour of IntelliJ IDEA called &amp;ldquo;PyCharm&amp;rdquo; doesn&amp;rsquo;t have that steep of a learning curve.&lt;/p></description></item><item><title>Aktuelle Themen II Agile Entwicklung mit Ruby on Rails</title><link>https://bkleinen.github.io/classes/ws2011/wtat1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2011/wtat1/</guid><description>Aktuelle Themen II Agile Entwicklung mit Ruby on Rails
 - no further content here</description></item><item><title>Info 3</title><link>https://bkleinen.github.io/classes/ws2012/info3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2012/info3/</guid><description/></item><item><title>Praxisprojekt Wheelmap Spiel MapATag</title><link>https://bkleinen.github.io/classes/ss2012/praxisprojekt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2012/praxisprojekt/</guid><description>&lt;p>&lt;a href="https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2012/#c11190">-&amp;gt; SG-Seite&lt;/a>&lt;/p></description></item><item><title>Repetition - Terms</title><link>https://bkleinen.github.io/classes/ss2024/info2/material/02_terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/material/02_terms/</guid><description>&lt;h2 id="these-are-the-terms-from-the-info1-book">These are the Terms from the Info1 Book.&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Chapter&lt;/th>
+ &lt;th style="text-align: left">Term&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 01&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">object&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">instance&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">method&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">signature&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">parameter&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">type&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">state&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">source code&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">return value / result&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">method calling&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01&lt;/td>
+ &lt;td style="text-align: left">compiler&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 02&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">field / instance variable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">constructor&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">method&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">method signature&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">method body&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">parameter&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">accessor method&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">mutator method&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">declaration&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">initialization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">block&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">statement&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">assignment statement&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">conditional statement&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">return statement&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">result type&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">comment&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">expression&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">boolean expression&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">operator&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">variable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">local variable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">scope&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">lifetime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">actual parameter&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02&lt;/td>
+ &lt;td style="text-align: left">formal parameters&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 03&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">abstraction&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">object creation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">modularization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">divide and conquer&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">class diagram&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">object diagram&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">instance diagram&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">object reference&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">overloading&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">internal method call&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">external method call&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">dot notation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">debugger&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">breakpoint&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">classes define types&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03&lt;/td>
+ &lt;td style="text-align: left">primitive type&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 04 + 07&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">collection&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">array&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">iterator&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">for-each-loop&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">while loop&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">for loop&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">index&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">import statement&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">library&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">package&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">anonymous object&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04&lt;/td>
+ &lt;td style="text-align: left">null&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">chapter 05&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">lambda&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">functional style&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">streams&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">filter&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">map&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">reduce&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05&lt;/td>
+ &lt;td style="text-align: left">pipeline&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 06&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">interface&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">implementation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">map&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">set&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">javadoc&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">access modifier&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">information hiding&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">coupling&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">class variable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">static&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">constant&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">final&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">java library&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">library documentation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">documentation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">immutable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06&lt;/td>
+ &lt;td style="text-align: left">static variables&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 09&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">testing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">debugging&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">positive testing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">negative testing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">assertion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">fixture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09&lt;/td>
+ &lt;td style="text-align: left">walkthrough&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 08&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">coupling&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">cohesion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">code duplication&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">encapsulation&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">responsibility-driven design&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">localizing change&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">method cohesion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">class cohesion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">refactoring&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08&lt;/td>
+ &lt;td style="text-align: left">switch statement&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 10&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">inheritance&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">superclass (parent),&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">subclass (child)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">is-a&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">inheritance hierarchy&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">superclass constructors&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">reuse&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">abstract class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">subtype&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">substituion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">variables and subtypes&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">polymorphic variable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">cast&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">object&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">autoboxing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">wrapper classes&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 11&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">static type&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">dynamic type&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">overriding&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">method polymorphism&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">toString&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">protected&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">redefinition&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">method lookup&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">method dispatch&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">method polymorphism&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 11&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">abstract method&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">abstract class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">concrete class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">abstract subclass&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">multiple inheritance&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">interface (java construct)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">implements (keyword)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 13 (not covered)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">swing&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">component&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">layout&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">event&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">event handling&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">event listener&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">frame&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">menu bar&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">menu menu item&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">content pane&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">modal dialog&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">anonymous inner class&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">final variable&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">image formats&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">chapter 14&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">exception&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">unchecked exception&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">checked exception&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">exception handler&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">assertion&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">serialization&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Repetition - Terms</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/02_terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/02_terms/</guid><description>&lt;h2 id="these-are-the-terms-from-the-info1-book">These are the Terms from the Info1 Book.&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -4998,6 +6212,16 @@ Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt
 &lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
 &lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is a permutation?&lt;/p>
 &lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P4.&lt;/strong>&lt;/em> How do you determine if two Strings are permutations of each other?&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/lab-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/lab-12/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
+&lt;p>TBD!!!!&lt;/p>
+&lt;ul>
+&lt;li>Permutation#equals method should check on equal words, not on equality based on permutation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is a permutation?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p>
 &lt;p>&lt;em>&lt;strong>P4.&lt;/strong>&lt;/em> How do you determine if two Strings are permutations of each other?&lt;/p></description></item><item><title>While Loop</title><link>https://bkleinen.github.io/material/info1-script/01_basics/while-loop/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1-script/01_basics/while-loop/</guid><description>&lt;h4 id="while-loop">While Loop&lt;/h4>
 &lt;h1 id="structure">Structure&lt;/h1>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="w">
@@ -6300,6 +7524,11 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+ 
+ 
+
+ 
+ 
 
  
  
@@ -6675,6 +7904,15 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
  
  
 
@@ -6760,19 +7998,28 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+ 
+ 
+
  
  
 
  
  
+ 
+ 
 
+ 
  
  
  
+
  
+ 
 
  
  
+
  
  
 
@@ -6793,20 +8040,26 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+ 
+ 
 
+ 
  
  
+ 
 
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -6816,8 +8069,10 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
+ 
  
  
+ 
 
  
  
@@ -6825,11 +8080,15 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
+ 
+ 
  
  
 
  
  
+ 
+ 
 
  
  
@@ -6844,16 +8103,19 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -6890,18 +8152,26 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
+ 
  
  
+ 
 
+ 
  
  
+ 
 
  
  
 
+ 
  
  
+ 
 
+ 
+ 
  
  
 
@@ -6910,9 +8180,13 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+ 
+ 
 
+ 
  
  
+ 
 
  
  
@@ -6929,11 +8203,13 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -6945,21 +8221,25 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -9963,7 +11243,180 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
 &lt;ol>
 &lt;li>Prüfungszeitraum	14.07. – 02.08.2025&lt;/li>
 &lt;li>Prüfungszeitraum	24.09. – 08.10.2025&lt;/li>
-&lt;/ol></description></item><item><title>Videos Software Engineering</title><link>https://bkleinen.github.io/bibliographies/se_videos/</link><pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/bibliographies/se_videos/</guid><description/></item><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
+&lt;/ol></description></item><item><title>M1 SoSe 2025 Main Schedule (Fridays)</title><link>https://bkleinen.github.io/classes/ss2025/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/main/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Tentative Due Dates (will be fixed in class 1.11.)&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Fri 04/04/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Fri 11/04/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Class Intro&lt;/td>
+ &lt;td style="text-align: left">Kata&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Fri 18/04/2025&lt;/td>
+ &lt;td style="text-align: left">Karfreitag&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Fri 25/04/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Fri 02/05/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_01: 7.11.&lt;/td>
+ &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Fri 09/05/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_03: 18.11. Project Selection&lt;/td>
+ &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Fri 16/05/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_02: 21.11.&lt;/td>
+ &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Fri 23/05/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Fri 30/05/2025&lt;/td>
+ &lt;td style="text-align: left">Brückentag&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Fri 06/06/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_03: 12.12.&lt;/td>
+ &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Fri 13/06/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Fri 20/06/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Fri 27/06/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Fri 04/07/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_04?&lt;/td>
+ &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Fri 11/07/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Fri 18/07/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_05?&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Fri 25/07/2025&lt;/td>
+ &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
+&lt;p>Im Dokumentarfilm von Kyra Bartley: &amp;ldquo;Losing Lena&amp;rdquo; 2019, 26 Min.
+&lt;a href="https://www.imdb.com/de/title/tt11337268/">auf imdb&lt;/a> veröffentlicht auf
+&lt;a href="https://www.facebook.com/codelikeagirlau/videos/985614161797010/">Facebook Watch&lt;/a>
+wird gut deutlich, warum dies problematisch und diskriminierend ist.&lt;/p>
+&lt;p>In den letzten 10 Jahren sind einige Artikel veröffentlicht worden und wieder verschwunden, insbesondere kann ich die Seite, auf der sich &lt;a href="https://en.wikipedia.org/wiki/Lena_Fors%C3%A9n">Lena Forsén (Soderberg)&lt;/a> selbst
+gegen die Verwendung ihres Bildes ausspricht, nicht mehr finden. Daher nur diese wenigen Links zum Weiterlesen:&lt;/p></description></item><item><title>Videos Software Engineering</title><link>https://bkleinen.github.io/bibliographies/se_videos/</link><pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/bibliographies/se_videos/</guid><description/></item><item><title>Working with HTW Machines</title><link>https://bkleinen.github.io/material/ops/hrz/</link><pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/hrz/</guid><description>&lt;h2 id="copy-files-from-your-hrz-home-directory-aka-htw-space">Copy files from your HRZ Home Directory (aka HTW-Space)&lt;/h2>
 &lt;p>There are rather verbose manuals about various ways to
 copy files from your HTW-RZ home directory to somewhere else.
 (see
@@ -14985,6 +16438,14 @@ I picked out three textbooks:&lt;/p>
 the companion website:
 &lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a>&lt;/p>
 &lt;p>This is a Coursera Course based on this Textbook: &lt;a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I&lt;/a>, &lt;a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II&lt;/a>
+as well as &lt;a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines&lt;/a> by the same author which we will use for finite state automata.&lt;/p></description></item><item><title>Info 2 Textbooks - Algorithms and Data Structures</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/algorithms_and_datastructures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/algorithms_and_datastructures/</guid><description>&lt;h2 id="textbooks-and-material">Textbooks and Material&lt;/h2>
+&lt;p>The broader topic of this course is Algorithms and Data Structures. You&amp;rsquo;ll find lots of textbooks and other material on this general and all of it singular topics.
+I picked out three textbooks:&lt;/p>
+&lt;h2 id="1-robert-sedgewick-and-kevin-wayne-algorithms-4th-ed">1. Robert Sedgewick and Kevin Wayne: Algorithms, 4th ed.&lt;/h2>
+&lt;p>Excellent Textbook. A condensed version of the text is available on
+the companion website:
+&lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a>&lt;/p>
+&lt;p>This is a Coursera Course based on this Textbook: &lt;a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I&lt;/a>, &lt;a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II&lt;/a>
 as well as &lt;a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines&lt;/a> by the same author which we will use for finite state automata.&lt;/p></description></item><item><title>Info 2 Worksheet 01 - Files</title><link>https://bkleinen.github.io/classes/ss2017/info2/worksheets/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2017/info2/worksheets/files/</guid><description>&lt;h1 id="a-how-long-can-a-string-be">A. How long can a String be?&lt;/h1>
 &lt;p>In the lecture, I showed you a method for reading small files directly into a String,
 which can only be used for small files. But what exactly is small? As it creates a String holding the whole file content,
@@ -15034,6 +16495,30 @@ mark interfaces, and dotted lines to show that a class implements an interface. 
 depend on matching test files residing (and be found) on the file system.
 Let&amp;rsquo;s say you want to write a program that counts the number of words contained in a
 given file.&lt;/p></description></item><item><title>Info 2 Worksheet 01 - Files</title><link>https://bkleinen.github.io/classes/ss2024/info2/worksheets/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/worksheets/files/</guid><description>&lt;h1 id="a-how-long-can-a-string-be">A. How long can a String be?&lt;/h1>
+&lt;p>In the lecture, I showed you a method for reading small files directly into a String,
+which can only be used for small files. But what exactly is small? As it creates a String holding the whole file content,
+it can&amp;rsquo;t be bigger than the maximum length of a String in Java. But how long can
+a String in Java be?&lt;/p>
+&lt;ol>
+&lt;li>Find answers for that on the internet.&lt;/li>
+&lt;li>How would you go about just trying out how large a String can be on your machine?
+Write down a program for determining the maximum String size.&lt;/li>
+&lt;li>Implement the Program. How big can the String be? How long does it take to run?&lt;/li>
+&lt;li>How do you influence the Heap size of your java virtual machine?&lt;/li>
+&lt;li>Inspect the memory usage of your program using &lt;a href="https://docs.oracle.com/javase/7/docs/technotes/guides/visualvm/intro.html">Java VisualVM&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h1 id="b-nio-classes-and-interfaces">B. NIO Classes and Interfaces&lt;/h1>
+&lt;ol>
+&lt;li>Find all the classes and interfaces mentioned in the examples in the last lecture.&lt;/li>
+&lt;li>What classes are System.out and System.in instances of?&lt;/li>
+&lt;li>Draw a diagram showing the relations between all those classes and interfaces. Use &amp;laquo;interface&amp;raquo; to
+mark interfaces, and dotted lines to show that a class implements an interface. If you want to see examples, see &lt;a href="https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/">Figure 10 here&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;h1 id="c-how-to-test-a-program-working-on-a-file">C. How to test a program working on a file?&lt;/h1>
+&lt;p>(Unit-)Testing programs that work on files is somewhat difficult, because the tests will
+depend on matching test files residing (and be found) on the file system.
+Let&amp;rsquo;s say you want to write a program that counts the number of words contained in a
+given file.&lt;/p></description></item><item><title>Info 2 Worksheet 01 - Files</title><link>https://bkleinen.github.io/classes/ss2025/info2/worksheets/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/worksheets/files/</guid><description>&lt;h1 id="a-how-long-can-a-string-be">A. How long can a String be?&lt;/h1>
 &lt;p>In the lecture, I showed you a method for reading small files directly into a String,
 which can only be used for small files. But what exactly is small? As it creates a String holding the whole file content,
 it can&amp;rsquo;t be bigger than the maximum length of a String in Java. But how long can
@@ -15142,6 +16627,24 @@ Thread A running
 &lt;h1 id="c-is-java-hashmap-thread-safe">C. Is Java HashMap Thread Safe?&lt;/h1>
 &lt;h1 id="d-atomic-and-non-atomic-operations">D. Atomic and non-Atomic Operations&lt;/h1>
 &lt;p>What will be the sum? Why might this not be safe?&lt;/p></description></item><item><title>Info 2 Worksheet 02 - Threads</title><link>https://bkleinen.github.io/classes/ss2024/info2/worksheets/threads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/worksheets/threads/</guid><description>&lt;h1 id="a-visualize-concurrency">A. Visualize Concurrency&lt;/h1>
+&lt;p>Write a little program that starts some threads (2-6 maybe) that create
+an output visualizing the switch between the threads.
+e.g.&lt;/p>
+&lt;pre>&lt;code>Thread A running
+Thread A running
+Thread A running
+Thread B running
+Thread B running
+Thread C running
+Thread C running
+Thread C running
+Thread A running
+&lt;/code>&lt;/pre>
+&lt;h1 id="b-create-a-deadlock">B. Create a Deadlock&lt;/h1>
+&lt;p>Write a little Program that creates a deadlock.&lt;/p>
+&lt;h1 id="c-is-java-hashmap-thread-safe">C. Is Java HashMap Thread Safe?&lt;/h1>
+&lt;h1 id="d-atomic-and-non-atomic-operations">D. Atomic and non-Atomic Operations&lt;/h1>
+&lt;p>What will be the sum? Why might this not be safe?&lt;/p></description></item><item><title>Info 2 Worksheet 02 - Threads</title><link>https://bkleinen.github.io/classes/ss2025/info2/worksheets/threads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/worksheets/threads/</guid><description>&lt;h1 id="a-visualize-concurrency">A. Visualize Concurrency&lt;/h1>
 &lt;p>Write a little program that starts some threads (2-6 maybe) that create
 an output visualizing the switch between the threads.
 e.g.&lt;/p>
@@ -15386,6 +16889,13 @@ Die Kurse sind optional, ihr könnt aber durch erfolgreichen Abschluss eines Kur
 &lt;li>&lt;a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html">Comparable&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Total_order">Total Order&lt;/a>&lt;/li>
 &lt;li>How they are used?&lt;/li>
+&lt;/ul></description></item><item><title>Info2 - Comparators Handout</title><link>https://bkleinen.github.io/classes/ss2025/info2/misc/comparator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/misc/comparator/</guid><description>&lt;p>These are the links to the sources of the various handouts regarding&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/concepts/interface.html">Interfaces&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html">Comparator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html">Comparable&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Total_order">Total Order&lt;/a>&lt;/li>
+&lt;li>How they are used?&lt;/li>
 &lt;/ul></description></item><item><title>Info2 - Comparators Handout</title><link>https://bkleinen.github.io/classes/ws2018/info2/misc/comparator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/misc/comparator/</guid><description>&lt;p>These are the links to the sources of the various handouts regarding&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/concepts/interface.html">Interfaces&lt;/a>&lt;/li>
@@ -15415,6 +16925,10 @@ Die Kurse sind optional, ihr könnt aber durch erfolgreichen Abschluss eines Kur
 † 275 BC) was a Greek mathematician, now known as &amp;ldquo;the father of geometry&amp;rdquo;. His most famous work is Elements, widely considered to be history&amp;rsquo;s most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1&lt;/p>
 &lt;h2 id="elements-book-vii-proposition-2">Elements: Book VII, Proposition 2:&lt;/h2>
 &lt;p>To find the greatest common measure of two given numbers not relatively prime.&lt;/p></description></item><item><title>Info2 - Euclid Handout</title><link>https://bkleinen.github.io/classes/ss2024/info2/misc/euclid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/misc/euclid/</guid><description>&lt;p>Euclid of Alexandria( Greek:Εὐκλείδης, Euclides;
+* ca. 365
+† 275 BC) was a Greek mathematician, now known as &amp;ldquo;the father of geometry&amp;rdquo;. His most famous work is Elements, widely considered to be history&amp;rsquo;s most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1&lt;/p>
+&lt;h2 id="elements-book-vii-proposition-2">Elements: Book VII, Proposition 2:&lt;/h2>
+&lt;p>To find the greatest common measure of two given numbers not relatively prime.&lt;/p></description></item><item><title>Info2 - Euclid Handout</title><link>https://bkleinen.github.io/classes/ss2025/info2/misc/euclid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/misc/euclid/</guid><description>&lt;p>Euclid of Alexandria( Greek:Εὐκλείδης, Euclides;
 * ca. 365
 † 275 BC) was a Greek mathematician, now known as &amp;ldquo;the father of geometry&amp;rdquo;. His most famous work is Elements, widely considered to be history&amp;rsquo;s most successful textbook. Within it, the properties of geometrical objects and integers are deduced from a small set of axioms, thereby anticipating (and partly inspiring) the axiomatic method of modern mathematics.1&lt;/p>
 &lt;h2 id="elements-book-vii-proposition-2">Elements: Book VII, Proposition 2:&lt;/h2>
@@ -16583,6 +18097,97 @@ We&amp;rsquo;ll go through 8 broader Topics during the term:&lt;/p>
  &lt;/tbody>
 &lt;/table>
 &lt;p>vorr. für next und remove: index (ArrayList) bzw. Pointer (LinkedList) auf jeweiliges Element.&lt;/p></description></item><item><title>Info2 SS2017 Klausurfragen</title><link>https://bkleinen.github.io/classes/ss2024/info2/misc/klausurfragen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/misc/klausurfragen/</guid><description>&lt;p>Klausurfragen gesammelt am 18.7.2017&lt;/p>
+&lt;h2 id="001-info2-application-development">001-info2-application-development&lt;/h2>
+&lt;p>keine gesammelt&lt;/p>
+&lt;h2 id="002-info2-tooling">002-info2-Tooling&lt;/h2>
+&lt;p>keine gesammelt&lt;/p>
+&lt;h2 id="003-info2-networking-fileio-exceptions">003-info2-networking-fileio-exceptions&lt;/h2>
+&lt;p>&amp;hellip; die API für Datei öffnen müssen Sie nicht auswendig kennen.&lt;/p>
+&lt;ul>
+&lt;li>Programmieraufgabe: Datei öffnen und etwas mit der Datei machen&lt;/li>
+&lt;li>etwas in Datei reinschreiben&lt;/li>
+&lt;/ul>
+&lt;h2 id="004-info2-concurrency">004-info2-concurrency&lt;/h2>
+&lt;p>&amp;hellip; das kommt erst in Info3 dran :) :&lt;/p>
+&lt;ul>
+&lt;li>selbst Thread implementieren&lt;/li>
+&lt;li>Deadlock in Programm mit Threads finden&lt;/li>
+&lt;/ul>
+&lt;h2 id="005-info2-algorithms">005-info2-algorithms&lt;/h2>
+&lt;ul>
+&lt;li>Wie ist der Aufwand eines gegebenen Algorithmus?&lt;/li>
+&lt;/ul>
+&lt;h2 id="006-info2-lists">006-info2-lists&lt;/h2>
+&lt;ul>
+&lt;li>was ist die Komplexität für folgende Operationen für ArrayList und LinkedList? (Tabelle ergänzen)&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">search&lt;/th>
+ &lt;th style="text-align: left">add&lt;/th>
+ &lt;th style="text-align: left">get(k)&lt;/th>
+ &lt;th style="text-align: left">contains&lt;/th>
+ &lt;th style="text-align: left">next&lt;/th>
+ &lt;th style="text-align: left">remove&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ArrayList&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LinkedList&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">search&lt;/th>
+ &lt;th style="text-align: left">add to front&lt;/th>
+ &lt;th style="text-align: left">get(k)&lt;/th>
+ &lt;th style="text-align: left">contains&lt;/th>
+ &lt;th style="text-align: left">next&lt;/th>
+ &lt;th style="text-align: left">remove&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ArrayList&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LinkedList&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(n)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;td style="text-align: left">O(1)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>vorr. für next und remove: index (ArrayList) bzw. Pointer (LinkedList) auf jeweiliges Element.&lt;/p></description></item><item><title>Info2 SS2017 Klausurfragen</title><link>https://bkleinen.github.io/classes/ss2025/info2/misc/klausurfragen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/misc/klausurfragen/</guid><description>&lt;p>Klausurfragen gesammelt am 18.7.2017&lt;/p>
 &lt;h2 id="001-info2-application-development">001-info2-application-development&lt;/h2>
 &lt;p>keine gesammelt&lt;/p>
 &lt;h2 id="002-info2-tooling">002-info2-Tooling&lt;/h2>
@@ -20479,6 +22084,14 @@ well as the most common implementations, ArrayList, HashSet and HashMap.&lt;/p>
 &lt;p>In Info2, you&amp;rsquo;ll learn more about alternative implementations and how to
 assess which one to use regarding their properties in terms of time and space
 consumption as well as their behaviour within concurrent applications.&lt;/p></description></item><item><title>Java Collection Library e-learning WS 2018/19</title><link>https://bkleinen.github.io/classes/ss2024/info2/misc/collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/misc/collections/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Your task is to get yourself more aquaintaned with the java collection library.
+It&amp;rsquo;s a powerful, stable and reliable library providing collections for many
+use cases.&lt;/p>
+&lt;p>We already have looked at the main interfaces, List, Set and Map, in Info1 as
+well as the most common implementations, ArrayList, HashSet and HashMap.&lt;/p>
+&lt;p>In Info2, you&amp;rsquo;ll learn more about alternative implementations and how to
+assess which one to use regarding their properties in terms of time and space
+consumption as well as their behaviour within concurrent applications.&lt;/p></description></item><item><title>Java Collection Library e-learning WS 2018/19</title><link>https://bkleinen.github.io/classes/ss2025/info2/misc/collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/misc/collections/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Your task is to get yourself more aquaintaned with the java collection library.
 It&amp;rsquo;s a powerful, stable and reliable library providing collections for many
 use cases.&lt;/p>
