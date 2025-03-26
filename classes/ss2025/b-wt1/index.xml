@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B WT1 Verteilte Systeme on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/b-wt1/</link><description>Recent content in B WT1 Verteilte Systeme on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/b-wt1/index.xml" rel="self" type="application/rss+xml"/><item><title>B WT1 Verteilte Systeme Summer 2025 - Schedule</title><link>https://bkleinen.github.io/classes/ss2025/b-wt1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/b-wt1/schedule/</guid><description>&lt;p>This schedule is, as always, tentative and will be adapted throughout the term if necessary.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Woche&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Labs (Thu+Tue)&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Thu 03/04/2025, Tue 08/04/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Einführungswoche &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Thu 10/04/2025, Tue 15/04/2025&lt;/td>
+ &lt;td style="text-align: left">Intro to the class, Introduction to distributed Systems&lt;/td>
+ &lt;td style="text-align: left">Lab 01: Building a Static Web Application&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Thu 17/04/2025, Tue 22/04/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 2, Architectures&lt;/td>
+ &lt;td style="text-align: left">Lab 02: Building a First Express Application&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Thu 24/04/2025, Tue 29/04/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 2, Architectures&lt;/td>
+ &lt;td style="text-align: left">Lab 04: Adding Mongo Support&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">x&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Thu 01/05/2025, Tue 06/05/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Tag der Arbeit &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">x&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Thu 08/05/2025, Tue 13/05/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Feiertag* &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Thu 15/05/2025, Tue 20/05/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 3, Processes&lt;/td>
+ &lt;td style="text-align: left">Lab 05: Understanding Promises&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Thu 22/05/2025, Tue 27/05/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 4, Communication&lt;/td>
+ &lt;td style="text-align: left">Lab 06: Supporting Complex Models&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">x&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Thu 29/05/2025, Tue 03/06/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Himmelfahrt &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Thu 05/06/2025, Tue 10/06/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 5, Coordination&lt;/td>
+ &lt;td style="text-align: left">Lab 07: Adding CRUD Support&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Thu 12/06/2025, Tue 17/06/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 5, Coordination&lt;/td>
+ &lt;td style="text-align: left">Lab 08: Adding Login Support&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Thu 19/06/2025, Tue 24/06/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 6, Naming&lt;/td>
+ &lt;td style="text-align: left">Lab 09: Adding Support for Passport.js&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Thu 26/06/2025, Tue 01/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 7, Consistency and Replication&lt;/td>
+ &lt;td style="text-align: left">Lab 10: Building a REST API&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Thu 03/07/2025, Tue 08/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 8, Fault Tolerance&lt;/td>
+ &lt;td style="text-align: left">Lab 11: Securing a REST API&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Thu 10/07/2025, Tue 15/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 8, Fault Tolerance&lt;/td>
+ &lt;td style="text-align: left">Lab 12: Adding Support for Socket.io&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Thu 17/07/2025, Tue 22/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 9, Security&lt;/td>
+ &lt;td style="text-align: left">Trial Exams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Thu 24/07/2025, Tue 29/07/2025&lt;/td>
+ &lt;td style="text-align: left">Exam (tentative date, check LSF!)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 25/07/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://showtime.f4.htw-berlin.de/">Showtime!&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;p>* 8.5.2025: einmaliger Feiertag anlässlich des 80. Jahrestags der Befreiung vom Nationalsozialismus und des Endes des zweiten Weltkriegs&lt;/p></description></item></channel></rss>

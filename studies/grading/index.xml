@@ -51,7 +51,10 @@
 &lt;p>The assignments will clearly state wether you need to hand in a LabReport as PDF, source code or both.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>if both PDF and source code have to be submitted, upload two files: a PDF and a zip with the source code. Please do &lt;strong>not&lt;/strong> include the PDF in the ZIP file.&lt;/p>
+&lt;p>if both PDF and source code have to be submitted, always upload the PDF report as a separate file.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>If only a PDF has to be submitted, hand in the PDF. If only source code has to be submitted, hand in only the zip file.&lt;/p></description></item></channel></rss>
+&lt;p>depending on the class, source code will be submitted using a zip file or via a shared git repo.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>in any case, &lt;strong>do not&lt;/strong> include the pdf in the source code. Upload it seperately to Moodle.&lt;/p></description></item></channel></rss>
