@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatik 2 Summer 2025 - Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/</link><description>Recent content in B7 Informatik 2 Summer 2025 - Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ss2025/info2/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Repetition - Finger Exercises</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/00_repetition_info1_finger_exercises/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/00_repetition_info1_finger_exercises/</guid><description>&lt;p>This is a small collection of programming finger exercises to get you back to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatik 2 Summer 2025 - Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/</link><description>Recent content in B7 Informatik 2 Summer 2025 - Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ss2025/info2/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 2 Textbooks - Algorithms and Data Structures</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/algorithms_and_datastructures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/algorithms_and_datastructures/</guid><description>&lt;h2 id="textbooks-and-material">Textbooks and Material&lt;/h2>
+&lt;p>The broader topic of this course is Algorithms and Data Structures. You&amp;rsquo;ll find lots of textbooks and other material on this general and all of it singular topics.
+I picked out three textbooks:&lt;/p>
+&lt;h2 id="1-robert-sedgewick-and-kevin-wayne-algorithms-4th-ed">1. Robert Sedgewick and Kevin Wayne: Algorithms, 4th ed.&lt;/h2>
+&lt;p>Excellent Textbook. A condensed version of the text is available on
+the companion website:
+&lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a>&lt;/p>
+&lt;p>This is a Coursera Course based on this Textbook: &lt;a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I&lt;/a>, &lt;a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II&lt;/a>
+as well as &lt;a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines&lt;/a> by the same author which we will use for finite state automata.&lt;/p></description></item><item><title>Cool Zuul Example for Application Design</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/cool-zuul-application-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/cool-zuul-application-design/</guid><description>&lt;p>
+ 
+
+&lt;div class="alert alert-danger" role="alert">
+ 
+This is an old(er) version of the Application Design Lab using the Zuul Project introduced in Info1 as an example.
+
+&lt;/div>
+
+&lt;figure>&lt;img src="https://bkleinen.github.io/images/classes/info2/crc-cards.jpg"
+ alt="CRC Cards">&lt;figcaption>
+ &lt;p>CRC Cards&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can use CRC Cards to design an application:&lt;/p>
+&lt;ul>
+&lt;li>Using the Booch method, I can identify candidates for classes, methods and fields.&lt;/li>
+&lt;li>By working through scenarios I can identify cases where a class needs to be split up.&lt;/li>
+&lt;li>By working through scenarios I can identify cases where classes need to be merged.&lt;/li>
+&lt;li>By working through scenarios I can identify cases where additional classes need to be added.&lt;/li>
+&lt;li>By working through scenarios I can identify what data needs to be stored.&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Remember to do all the necessary steps listed on the &lt;a href="..">Labs&lt;/a> page, including the following exercises:&lt;/p></description></item><item><title>Repetition - Finger Exercises</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/00_repetition_info1_finger_exercises/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/00_repetition_info1_finger_exercises/</guid><description>&lt;p>This is a small collection of programming finger exercises to get you back to
 programming java, and to get to know your new programming environment.&lt;/p>
 &lt;p>I&amp;rsquo;ve numbered them for easier referencing in the Q&amp;amp;A.&lt;/p>
 &lt;h2 id="basic-exercises">Basic Exercises&lt;/h2>
@@ -1212,12 +1246,4 @@ the number of occurrences of c in s.&lt;/p></description></item><item><title>Rep
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Info 2 Textbooks - Algorithms and Data Structures</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/algorithms_and_datastructures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/algorithms_and_datastructures/</guid><description>&lt;h2 id="textbooks-and-material">Textbooks and Material&lt;/h2>
-&lt;p>The broader topic of this course is Algorithms and Data Structures. You&amp;rsquo;ll find lots of textbooks and other material on this general and all of it singular topics.
-I picked out three textbooks:&lt;/p>
-&lt;h2 id="1-robert-sedgewick-and-kevin-wayne-algorithms-4th-ed">1. Robert Sedgewick and Kevin Wayne: Algorithms, 4th ed.&lt;/h2>
-&lt;p>Excellent Textbook. A condensed version of the text is available on
-the companion website:
-&lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a>&lt;/p>
-&lt;p>This is a Coursera Course based on this Textbook: &lt;a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I&lt;/a>, &lt;a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II&lt;/a>
-as well as &lt;a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines&lt;/a> by the same author which we will use for finite state automata.&lt;/p></description></item></channel></rss>
+&lt;/table></description></item></channel></rss>
