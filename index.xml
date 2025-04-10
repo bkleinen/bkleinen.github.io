@@ -2522,7 +2522,10 @@ This is an old(er) version of the Application Design Lab using the Zuul Project 
 &lt;p>This Startup Lab is about installing the tools you need for Python Programming and getting some (more) hands-on experience with git, so start with that. If bored, move on to try python.&lt;/p>
 &lt;h3 id="which-computer-to-use">Which Computer to use?&lt;/h3>
 &lt;p>In my experience, all Students prefer to use their own computers, which is possible as all Software
-we&amp;rsquo;ll use and need is free to use (at least for Students).&lt;/p></description></item><item><title>Design of the Original</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</guid><description>&lt;a href =".."> up &lt;/a>
+we&amp;rsquo;ll use and need is free to use (at least for Students).&lt;/p></description></item><item><title>Assignment 01 - TDD Kata</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;p>Please work on this exercise in pairs. Both of you need to hand in the same report.&lt;/p>
+&lt;h2 id="hand-in">Hand-In&lt;/h2>
+&lt;p>You will hand in a written report in pdf format and a link to the source code repo. Make sure to keep a logbook with notes of anything that you observe to ease writing the report later.&lt;/p></description></item><item><title>Design of the Original</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</guid><description>&lt;a href =".."> up &lt;/a>
 
 
 
@@ -3376,7 +3379,20 @@ the number of occurrences of c in s.&lt;/p></description></item><item><title>Sch
 &lt;h2 id="part-1-python-learning-with-unit-tests">Part 1: Python Learning with Unit Tests&lt;/h2>
 &lt;p>Continue the collaborative work on the Python Learning Repository: &lt;a href="https://github.com/htw-imi-info3/python-learning">https://github.com/htw-imi-info3/python-learning&lt;/a>.&lt;/p>
 &lt;p>** note that you need write permissions for the repository! I&amp;rsquo;ll add everyone to the team on github in the labs. **&lt;/p>
-&lt;p>This part can be done together, but each person must have their own topic/file and each one must commit a new file to the repo and review two other files. However, you can (and should) help each other and discuss them in your group.&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
+&lt;p>This part can be done together, but each person must have their own topic/file and each one must commit a new file to the repo and review two other files. However, you can (and should) help each other and discuss them in your group.&lt;/p></description></item><item><title>Assignment 02 - Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_02/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
+All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
+&lt;p>This exercise is about refactoring to patterns, guided from
+issues found by static code analysis tools.&lt;/p>
+&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
+&lt;ul>
+&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
+&lt;li>static code analysers are not yet part of the build process (or at
+least not sufficiently)&lt;/li>
+&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
+&lt;li>(optional) you want to put some work in it&lt;/li>
+&lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
+&lt;/ul>
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
 clean code principles and/or find patterns that are worth applying for the project.&lt;/p>
 &lt;p>I will add instructions on how to upload your project later this week
 and will do a raffle on saturday for the &amp;ldquo;other&amp;rdquo; project.&lt;/p></description></item><item><title>Info2 SS2015 Schedule</title><link>https://bkleinen.github.io/classes/ss2015/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
@@ -5562,22 +5578,7 @@ classDiagram
  void act()
  void aroundTree()
  }
-&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
-&lt;p>You can work alone on this or in pairs.&lt;/p>
-&lt;h2 id="hand-in">Hand-In&lt;/h2>
-&lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
-Make sure to keep a logbook with notes of anything that you observe to ease writing the report later.&lt;/p>
-&lt;h2 id="assignment">Assignment&lt;/h2>
-&lt;p>You can do the kata in any programming language. Start with a project setup with a running xUnit-Test,
-and a convenient way to automatically re-rerun the all tests after a code change. I find running
-the tests in an extra shell window outside the ide most useful for that - see the &lt;code>testloop.sh&lt;/code>
-script in my python-kata scaffold: 
- 
- 
- 
- 
- &lt;a href="https://github.com/htw-imi-media-programming/kata-scaffold">https://github.com/htw-imi-media-programming/kata-scaffold&lt;/a>
-&lt;/p></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;/pre></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
 &lt;p>You can work alone on this or in pairs.&lt;/p>
 &lt;h2 id="hand-in">Hand-In&lt;/h2>
 &lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
@@ -5667,19 +5668,7 @@ individual commit, and you you&amp;rsquo;ll see the changes.&lt;/p></description
 &lt;p>B5: PAM - Process Modelling and Management (Weiterentwicklung des Tools) (Martin Singer)&lt;/p>
 &lt;p>B6: AR und Videomapping (Alexander Kramer)&lt;/p>
 &lt;h5 id="master-projekte">Master-Projekte&lt;/h5>
-&lt;p>M1: Gaming for Future II: Turning the simulation into a game (David Müller)&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
-&lt;p>This exercise is about refactoring to patterns, guided from
-issues found by static code analysis tools.&lt;/p>
-&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
-&lt;ul>
-&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
-&lt;li>static code analysers are not yet part of the build process (or at
-least not sufficiently)&lt;/li>
-&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
-&lt;li>you want to put some work in it&lt;/li>
-&lt;li>is written in a programming language that you want to practice more&lt;/li>
-&lt;/ul>
-&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
+&lt;p>M1: Gaming for Future II: Turning the simulation into a game (David Müller)&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
 &lt;p>This exercise is about refactoring to patterns, guided from
 issues found by static code analysis tools.&lt;/p>
 &lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
@@ -7553,6 +7542,11 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+ 
+ 
+
+ 
+ 
 
  
  
@@ -7981,8 +7975,6 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
- 
- 
 
  
  
@@ -7999,14 +7991,6 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
- 
- 
-
- 
- 
-
- 
- 
  
  
 
@@ -8038,8 +8022,6 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
- 
- 
 
  
  
@@ -8064,14 +8046,6 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
-
- 
- 
- 
- 
-
- 
- 
  
  
 
@@ -8084,6 +8058,11 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
+ 
+ 
+
+ 
+ 
  
  
 
@@ -8134,6 +8113,11 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
  
  
 
+ 
+ 
+
+ 
+ 
  
  
 
@@ -11292,9 +11276,9 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Tentative Due Dates (will be fixed in class 1.11.)&lt;/th>
  &lt;th style="text-align: left">Topic Area&lt;/th>
  &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;th style="text-align: left">Due Dates (night before)&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -11312,17 +11296,17 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">Fri 11/04/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Class Intro, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
+ &lt;td style="text-align: left">A_01&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Class Intro&lt;/td>
- &lt;td style="text-align: left">Kata&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">Fri 18/04/2025&lt;/td>
  &lt;td style="text-align: left">Karfreitag&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11330,17 +11314,17 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">17&lt;/td>
  &lt;td style="text-align: left">Fri 25/04/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_02&lt;/td>
+ &lt;td style="text-align: left">A_01&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">18&lt;/td>
  &lt;td style="text-align: left">Fri 02/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_01: 7.11.&lt;/td>
  &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
+ &lt;td style="text-align: left">A_03&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11348,17 +11332,17 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">19&lt;/td>
  &lt;td style="text-align: left">Fri 09/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_03: 18.11. Project Selection&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_04&lt;/td>
+ &lt;td style="text-align: left">A_02, A_03&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">20&lt;/td>
  &lt;td style="text-align: left">Fri 16/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_02: 21.11.&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11366,8 +11350,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">21&lt;/td>
  &lt;td style="text-align: left">Fri 23/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11375,17 +11359,17 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">22&lt;/td>
  &lt;td style="text-align: left">Fri 30/05/2025&lt;/td>
  &lt;td style="text-align: left">Brückentag&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_05&lt;/td>
+ &lt;td style="text-align: left">A_04&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: left">23&lt;/td>
  &lt;td style="text-align: left">Fri 06/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_03: 12.12.&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11393,8 +11377,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">24&lt;/td>
  &lt;td style="text-align: left">Fri 13/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11402,8 +11386,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">25&lt;/td>
  &lt;td style="text-align: left">Fri 20/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11411,8 +11395,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">26&lt;/td>
  &lt;td style="text-align: left">Fri 27/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11420,8 +11404,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">27&lt;/td>
  &lt;td style="text-align: left">Fri 04/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_04?&lt;/td>
  &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11429,8 +11413,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">28&lt;/td>
  &lt;td style="text-align: left">Fri 11/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11438,8 +11422,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">29&lt;/td>
  &lt;td style="text-align: left">Fri 18/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_05?&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -11447,7 +11431,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">30&lt;/td>
  &lt;td style="text-align: left">Fri 25/07/2025&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
- &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>

@@ -144,9 +144,9 @@
  &lt;th style="text-align: left">KW&lt;/th>
  &lt;th style="text-align: left">Date&lt;/th>
  &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Tentative Due Dates (will be fixed in class 1.11.)&lt;/th>
  &lt;th style="text-align: left">Topic Area&lt;/th>
  &lt;th style="text-align: left">Lab&lt;/th>
+ &lt;th style="text-align: left">Due Dates (night before)&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
@@ -164,17 +164,17 @@
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">Fri 11/04/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Class Intro, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
+ &lt;td style="text-align: left">A_01&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Class Intro&lt;/td>
- &lt;td style="text-align: left">Kata&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">Fri 18/04/2025&lt;/td>
  &lt;td style="text-align: left">Karfreitag&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -182,17 +182,17 @@
  &lt;td style="text-align: left">17&lt;/td>
  &lt;td style="text-align: left">Fri 25/04/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_02&lt;/td>
+ &lt;td style="text-align: left">A_01&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
  &lt;td style="text-align: left">18&lt;/td>
  &lt;td style="text-align: left">Fri 02/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_01: 7.11.&lt;/td>
  &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
+ &lt;td style="text-align: left">A_03&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -200,17 +200,17 @@
  &lt;td style="text-align: left">19&lt;/td>
  &lt;td style="text-align: left">Fri 09/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_03: 18.11. Project Selection&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_04&lt;/td>
+ &lt;td style="text-align: left">A_02, A_03&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
  &lt;td style="text-align: left">20&lt;/td>
  &lt;td style="text-align: left">Fri 16/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_02: 21.11.&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -218,8 +218,8 @@
  &lt;td style="text-align: left">21&lt;/td>
  &lt;td style="text-align: left">Fri 23/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -227,17 +227,17 @@
  &lt;td style="text-align: left">22&lt;/td>
  &lt;td style="text-align: left">Fri 30/05/2025&lt;/td>
  &lt;td style="text-align: left">Brückentag&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_05&lt;/td>
+ &lt;td style="text-align: left">A_04&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
  &lt;td style="text-align: left">23&lt;/td>
  &lt;td style="text-align: left">Fri 06/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_03: 12.12.&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -245,8 +245,8 @@
  &lt;td style="text-align: left">24&lt;/td>
  &lt;td style="text-align: left">Fri 13/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -254,8 +254,8 @@
  &lt;td style="text-align: left">25&lt;/td>
  &lt;td style="text-align: left">Fri 20/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -263,8 +263,8 @@
  &lt;td style="text-align: left">26&lt;/td>
  &lt;td style="text-align: left">Fri 27/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -272,8 +272,8 @@
  &lt;td style="text-align: left">27&lt;/td>
  &lt;td style="text-align: left">Fri 04/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_04?&lt;/td>
  &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -281,8 +281,8 @@
  &lt;td style="text-align: left">28&lt;/td>
  &lt;td style="text-align: left">Fri 11/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -290,8 +290,8 @@
  &lt;td style="text-align: left">29&lt;/td>
  &lt;td style="text-align: left">Fri 18/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">A_05?&lt;/td>
  &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -299,7 +299,7 @@
  &lt;td style="text-align: left">30&lt;/td>
  &lt;td style="text-align: left">Fri 25/07/2025&lt;/td>
  &lt;td style="text-align: left">Showtime&lt;/td>
- &lt;td style="text-align: left">Showtime&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
