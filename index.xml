@@ -10045,6 +10045,12 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+
+ 
+ 
+
+ 
+ 
  
  
 
@@ -11656,7 +11662,13 @@ layout: lab&lt;/h2>
 &lt;p>Starting next week, You will work on your project within the lab.
 I will publish the next assignment by monday, enabling you to
 start working on it and have your questions ready in the lab.
-For preparation, please read through&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=Q1BuFi4UvpQ">(1) Chapter 1, video 2: exploring fundamental concepts via BlueJ. - YouTube&lt;/a>&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</guid><description>&lt;h1 id="themen-für-rails-projekte">Themen für Rails-Projekte&lt;/h1>
+For preparation, please read through&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=Q1BuFi4UvpQ">(1) Chapter 1, video 2: exploring fundamental concepts via BlueJ. - YouTube&lt;/a>&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</guid><description>&lt;h4 id="development-topic-building-a-static-web-application">Development Topic: Building a Static Web Application&lt;/h4>
+&lt;p>During the first week, you will work individually, but are free to help each other.&lt;/p>
+&lt;p>Install Node and create a first (pure)
+node app that serves at least one static html file. Follow the tutorial in unit 01 (lessons 3-7) in the book.&lt;/p>
+&lt;p>If you want, you can use your static html site to visualize your project idea.&lt;/p>
+&lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
+&lt;p>Building a static web app:&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</guid><description>&lt;h1 id="themen-für-rails-projekte">Themen für Rails-Projekte&lt;/h1>
 &lt;ul>
 &lt;li>Shop&lt;/li>
 &lt;li>Terminmanagement für Gruppen, z.B. für Sportverein&lt;/li>
@@ -22196,7 +22208,11 @@ seem reasonable.&lt;/li>
 &lt;h2 id="part-2-set-up-homepages">Part 2: Set up Homepages&lt;/h2>
 &lt;p>For each one in your group, set up a homepage that is accessible via
 &lt;code>http://&amp;lt;servername&amp;gt;/~&amp;lt;username&amp;gt;&lt;/code> for each of your team members. The
-server roots should be under &lt;code>~/.public_html&lt;/code> or ``~/public_html`&lt;/p></description></item><item><title>Lab 02 - Application Layer</title><link>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</guid><description>&lt;p>This lab summarizes all assignments related to chapter 2 - we will be working on
+server roots should be under &lt;code>~/.public_html&lt;/code> or ``~/public_html`&lt;/p></description></item><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
+&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
+Collect and discuss your project ideas with other students. Project Teams will be
+consolidated in the next lab.&lt;/p>
+&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 02 - Application Layer</title><link>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</guid><description>&lt;p>This lab summarizes all assignments related to chapter 2 - we will be working on
 Part 1 + 2 during the lectures, work on your own on Part 3.
 The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions.&lt;/p>
 &lt;p>You need to include all parts in your lab report for this assignment.&lt;/p>
