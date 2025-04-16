@@ -6225,7 +6225,11 @@ d) the cells are in the same descending diagonal (upper left to lower right)?&lt
 &lt;h3 id="part-2-make-your-model-editable">Part 2: Make your Model Editable&lt;/h3>
 &lt;p>Last Week, you&amp;rsquo;ve created a Detail View for your Model.
 make your model editable by adding the appropriate paths, views and last not least a template with a form for editing your model.&lt;/p>
-&lt;p>This exercise is about the basic mechanics of forms and handling form data/requests in the app.&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+&lt;p>This exercise is about the basic mechanics of forms and handling form data/requests in the app.&lt;/p></description></item><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
+&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
+Collect and discuss your project ideas with other students. Project Teams will be
+consolidated in the next lab.&lt;/p>
+&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
 Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
 &lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
@@ -6287,7 +6291,15 @@ flowchart TD
 ## Further Reading
 
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
-&lt;/code>&lt;/pre></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;/code>&lt;/pre></description></item><item><title>Lab 02 - Simple Express App &amp; Setting up Docker</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</guid><description>&lt;p>We will form the Project groups in this second lab.
+This lab is - apart from the naming - not specific to your chosen theme,
+but has to be done in groups of 3-4 students nonetheless.&lt;/p>
+&lt;h2 id="group-numbering">Group Numbering&lt;/h2>
+&lt;p>Use the &lt;a href="https://moodle.htw-berlin.de/mod/grouptool/view.php?id=1947815">Grouptool in Moodle&lt;/a> to register for a group.
+This is solely to issue unique group numbers for the project teams.&lt;/p>
+&lt;h2 id="textbook">Textbook&lt;/h2>
+&lt;p>We will use this textbook for the app development in the labs:
+&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -7941,8 +7953,14 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
+
+ 
+ 
+
  
  
+ 
+ 
 
  
  
@@ -8228,9 +8246,6 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
  
  
- 
- 
-
  
  
 
@@ -22202,11 +22217,7 @@ seem reasonable.&lt;/li>
 &lt;h2 id="part-2-set-up-homepages">Part 2: Set up Homepages&lt;/h2>
 &lt;p>For each one in your group, set up a homepage that is accessible via
 &lt;code>http://&amp;lt;servername&amp;gt;/~&amp;lt;username&amp;gt;&lt;/code> for each of your team members. The
-server roots should be under &lt;code>~/.public_html&lt;/code> or ``~/public_html`&lt;/p></description></item><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
-&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
-Collect and discuss your project ideas with other students. Project Teams will be
-consolidated in the next lab.&lt;/p>
-&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 02 - Application Layer</title><link>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</guid><description>&lt;p>This lab summarizes all assignments related to chapter 2 - we will be working on
+server roots should be under &lt;code>~/.public_html&lt;/code> or ``~/public_html`&lt;/p></description></item><item><title>Lab 02 - Application Layer</title><link>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2021/networks/labs/lab02_ch02/</guid><description>&lt;p>This lab summarizes all assignments related to chapter 2 - we will be working on
 Part 1 + 2 during the lectures, work on your own on Part 3.
 The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions.&lt;/p>
 &lt;p>You need to include all parts in your lab report for this assignment.&lt;/p>

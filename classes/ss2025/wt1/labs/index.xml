@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT1 Topics on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/</link><description>Recent content in WTAT1 Topics on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/wt1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</guid><description>&lt;h4 id="development-topic-building-a-static-web-application">Development Topic: Building a Static Web Application&lt;/h4>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT1 Topics on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/</link><description>Recent content in WTAT1 Topics on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/wt1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
+&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
+Collect and discuss your project ideas with other students. Project Teams will be
+consolidated in the next lab.&lt;/p>
+&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 02 - Simple Express App &amp; Setting up Docker</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</guid><description>&lt;p>We will form the Project groups in this second lab.
+This lab is - apart from the naming - not specific to your chosen theme,
+but has to be done in groups of 3-4 students nonetheless.&lt;/p>
+&lt;h2 id="group-numbering">Group Numbering&lt;/h2>
+&lt;p>Use the &lt;a href="https://moodle.htw-berlin.de/mod/grouptool/view.php?id=1947815">Grouptool in Moodle&lt;/a> to register for a group.
+This is solely to issue unique group numbers for the project teams.&lt;/p>
+&lt;h2 id="textbook">Textbook&lt;/h2>
+&lt;p>We will use this textbook for the app development in the labs:
+&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</guid><description>&lt;h4 id="development-topic-building-a-static-web-application">Development Topic: Building a Static Web Application&lt;/h4>
 &lt;p>During the first week, you will work individually, but are free to help each other.&lt;/p>
 &lt;p>Install Node and create a first (pure)
 node app that serves at least one static html file. Follow the tutorial in unit 01 (lessons 3-7) in the book.&lt;/p>
 &lt;p>If you want, you can use your static html site to visualize your project idea.&lt;/p>
 &lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
-&lt;p>Building a static web app:&lt;/p></description></item><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
-&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
-Collect and discuss your project ideas with other students. Project Teams will be
-consolidated in the next lab.&lt;/p>
-&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item></channel></rss>
+&lt;p>Building a static web app:&lt;/p></description></item></channel></rss>
