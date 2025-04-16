@@ -10057,9 +10057,6 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 
  
  
-
- 
- 
  
  
 
@@ -11671,13 +11668,7 @@ layout: lab&lt;/h2>
 &lt;p>Starting next week, You will work on your project within the lab.
 I will publish the next assignment by monday, enabling you to
 start working on it and have your questions ready in the lab.
-For preparation, please read through&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=Q1BuFi4UvpQ">(1) Chapter 1, video 2: exploring fundamental concepts via BlueJ. - YouTube&lt;/a>&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/rest-01/</guid><description>&lt;h4 id="development-topic-building-a-static-web-application">Development Topic: Building a Static Web Application&lt;/h4>
-&lt;p>During the first week, you will work individually, but are free to help each other.&lt;/p>
-&lt;p>Install Node and create a first (pure)
-node app that serves at least one static html file. Follow the tutorial in unit 01 (lessons 3-7) in the book.&lt;/p>
-&lt;p>If you want, you can use your static html site to visualize your project idea.&lt;/p>
-&lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
-&lt;p>Building a static web app:&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</guid><description>&lt;h1 id="themen-für-rails-projekte">Themen für Rails-Projekte&lt;/h1>
+For preparation, please read through&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/material/videos/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=Q1BuFi4UvpQ">(1) Chapter 1, video 2: exploring fundamental concepts via BlueJ. - YouTube&lt;/a>&lt;/p></description></item><item><title/><link>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</guid><description>&lt;h1 id="themen-für-rails-projekte">Themen für Rails-Projekte&lt;/h1>
 &lt;ul>
 &lt;li>Shop&lt;/li>
 &lt;li>Terminmanagement für Gruppen, z.B. für Sportverein&lt;/li>
