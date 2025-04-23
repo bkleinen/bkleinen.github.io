@@ -1246,4 +1246,240 @@ the number of occurrences of c in s.&lt;/p></description></item><item><title>Rep
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table></description></item><item><title>Concurrency and Socket Streams</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/concurrency-and-socketstreams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/concurrency-and-socketstreams/</guid><description>&lt;h2 id="1-sending-lines-to-server-from-client-console-input">1. Sending lines to server from client console input&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+
+
+subgraph send
+prompt{{show prompt}}
+subgraph read
+bolt@{ shape: bolt, label: "blocking!" }
+ read_console@{ shape: lean-l, label: "read line from stdin" }
+ 
+end
+send_line{{send line}}
+done@{ shape: decision, label: "done?"}
+
+
+start-->prompt
+prompt-->read_console
+read_console-->send_line
+send_line-->done
+end
+
+start@{ shape: circle, label: "Start" }
+
+stop@{ shape: framed-circle, label: "Stop" }
+done--yes -->stop
+done-- no -->read_console
+&lt;/pre>
+
+&lt;h2 id="2-receiving-lines">2. Receiving Lines&lt;/h2>
+&lt;pre class="mermaid">
+flowchart LR
+subgraph receive
+
+ subgraph listen
+ r_bolt@{ shape: bolt, label: "blocking!" }
+ listen_socket@{ shape: lean-l, label: "read line from socket" } 
+ end
+ print_console{{print recieved line to console}}
+ 
+ r_start-->listen_socket
+ r_done@{ shape: decision, label: "done?"}
+
+ listen_socket-->print_console
+ print_console-->r_done
+end
+
+r_start@{ shape: circle, label: "Start" }
+
+r_stop@{ shape: framed-circle, label: "Stop" }
+r_done--yes -->r_stop
+r_done-- no -->listen_socket
+&lt;/pre>
+
+&lt;h2 id="3-send--receive-in-1-thread">3. Send &amp;amp; Receive in 1 Thread&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+
+
+subgraph one_thread
+ prompt{{show prompt}}
+ subgraph read
+ bolt@{ shape: bolt, label: "blocking!" }
+ read_console@{ shape: lean-l, label: "read line from stdin" }
+ 
+ end
+ send_line{{write line to socket = send}}
+
+
+ subgraph listen
+ r_bolt@{ shape: bolt, label: "blocking!" }
+ listen_socket@{ shape: lean-l, label: "read line from socket" } 
+ end
+ print_console{{print receveid line to console}}
+ 
+ 
+
+
+ start-->prompt
+ prompt-->read_console
+ read_console-->send_line
+ send_line-->listen_socket
+ r_done@{ shape: decision, label: "done?"}
+end
+
+start@{ shape: circle, label: "Start" }
+
+
+ listen_socket-->print_console
+ print_console-->r_done
+
+
+r_stop@{ shape: framed-circle, label: "Stop" }
+r_done--yes -->r_stop
+r_done-- no -->prompt
+&lt;/pre>
+
+&lt;h2 id="4-send--receive-in-2-threads">4. Send &amp;amp; Receive in 2 Threads&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+start@{ shape: circle, label: "Start" }
+fork@{ shape: fork, label: "Fork" }
+start-->socket
+socket-->fork
+fork-->read_console
+socket{{connect socket}}
+subgraph send
+ subgraph read
+ bolt@{ shape: bolt, label: "blocking!" }
+ read_console@{ shape: lean-l, label: "read line from stdin" }
+ 
+ end
+ send_line{{write line to socket = send}}
+ done@{ shape: decision, label: "done?"}
+
+
+ read_console-->send_line
+ send_line-->done
+end
+
+
+stop@{ shape: framed-circle, label: "Stop" }
+done--yes -->join
+join-->stop
+done-- no -->read_console
+
+
+fork-->listen_socket
+subgraph receive
+ subgraph listen
+ r_bolt@{ shape: bolt, label: "blocking!" }
+ listen_socket@{ shape: lean-l, label: "read line from socket" } 
+ end
+ print_console{{print recieved line to console}}
+ 
+ 
+ r_done@{ shape: decision, label: "done?"}
+
+ listen_socket-->print_console
+ print_console-->r_done
+end
+
+r_done--yes -->join
+r_done-- no -->listen_socket
+
+join@{ shape: fork, label: "Join" }
+&lt;/pre>
+
+&lt;h2 id="socket-streams">Socket Streams&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+ 
+ S@{ shape: das, label: "Socket connection" }
+ 
+ subgraph client
+ ISC@{label: "Input Stream Client"}
+ OSC@{label: "Output Stream Client"}
+ end
+
+ 
+ 
+ subgraph server
+ ISS@{label: "Input Stream Server"}
+ OSS@{label: "Output Stream Server"}
+ end
+ S-->ISS
+ OSS-->S
+ S-->ISC
+ OSC-->S
+&lt;/pre></description></item><item><title>Exceptions</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/exceptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/exceptions/</guid><description>&lt;h2 id="sequence-of-methods-calling-methods-calling-other-methods">Sequence of methods calling methods calling other methods&amp;hellip;.&lt;/h2>
+&lt;pre class="mermaid">sequenceDiagram
+ A->>+B: message_call()
+ B->>+C: message_call()
+ C->>+D: message_call()
+ D->>+E: message_call()
+ E->>+F: message_call()
+ F->>+G: message_call()
+ G->>+H: message_call()
+ H->>+I: message_call()
+ I-->>-H: return
+ H-->>-G: return
+ G-->>-F: return
+ F-->>-E: return
+ E-->>-D: return
+ D-->>-C: return
+ C-->>-B: return
+ B-->>-A: return
+&lt;/pre>
+
+&lt;h2 id="something-goes-wrong">Something goes wrong&lt;/h2>
+&lt;p>&lt;strong>very&lt;/strong> deep down the call sequence&amp;hellip;&lt;/p>
+&lt;pre class="mermaid">sequenceDiagram
+ A->>+B: message_call()
+ B->>+C: message_call()
+ C->>+D: message_call()
+ D->>+E: message_call()
+ E->>+F: message_call()
+ F->>+G: message_call()
+ G->>+H: message_call()
+ H->>+I: message_call()
+ I-->>-H: return 
+ Note right of I: Something goes wrong!!
+ H-->>-G: return
+ G-->>-F: return
+ F-->>-E: return
+ E-->>-D: return
+ D-->>-C: return
+ C-->>-B: return
+ B-->>-A: return
+&lt;/pre>
+
+&lt;h2 id="where-it-could-be-fixedhandled">Where it could be fixed/handled&lt;/h2>
+&lt;pre class="mermaid">sequenceDiagram
+ A->>+B: message_call()
+ B->>+C: message_call()
+ C->>+D: message_call()
+ D->>+E: message_call()
+ 
+ E->>+F: message_call()
+ F->>+G: message_call()
+ 
+ G->>+H: message_call()
+ H->>+I: message_call()
+ Note right of I: Something goes&lt;br/>WRONG!!
+ 
+ I-->>-H: return 
+ 
+ H-->>-G: return
+ G-->>-F: return
+ Note right of E: &lt;- This method can&lt;br/>retry in a loop
+ F-->>-E: return
+ E-->>-D: return
+ D-->>-C: return
+ Note right of B: &lt;- This method&lt;br/>can tell/ask user
+ C-->>-B: return
+ 
+ B-->>-A: return
+ 
+&lt;/pre>
+
+&lt;p>But&amp;hellip;. how to tell the methods / propagate the error??&lt;/p></description></item></channel></rss>

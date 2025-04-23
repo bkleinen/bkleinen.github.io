@@ -10060,6 +10060,12 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 
  
  
+
+ 
+ 
+
+ 
+ 
  
  
 
@@ -14108,7 +14114,172 @@ anmelden (Full, nicht split&amp;hellip;), dann über die UTB-Seite suchen:
 &lt;a href="https://elibrary.utb.de/">https://elibrary.utb.de/&lt;/a> - Bücher sind als PDF verfügbar.&lt;/p></description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/save_object_bench/</guid><description>&lt;p>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p>
 &lt;h3 id="1-save-the-state-of-your-object-bench">1. Save the state of your object bench&lt;/h3>
 &lt;p>Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class:
-&lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>Datenschutzerklärung</title><link>https://bkleinen.github.io/contact/datenschutzerklaerung/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/contact/datenschutzerklaerung/</guid><description>&lt;p>Angepasst auf Basis der &lt;a href="https://www.htw-berlin.de/datenschutz/">Datenschutzerklärung der HTW-Berlin&lt;/a>&lt;/p>
+&lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>Concurrency and Socket Streams</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/concurrency-and-socketstreams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/concurrency-and-socketstreams/</guid><description>&lt;h2 id="1-sending-lines-to-server-from-client-console-input">1. Sending lines to server from client console input&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+
+
+subgraph send
+prompt{{show prompt}}
+subgraph read
+bolt@{ shape: bolt, label: "blocking!" }
+ read_console@{ shape: lean-l, label: "read line from stdin" }
+ 
+end
+send_line{{send line}}
+done@{ shape: decision, label: "done?"}
+
+
+start-->prompt
+prompt-->read_console
+read_console-->send_line
+send_line-->done
+end
+
+start@{ shape: circle, label: "Start" }
+
+stop@{ shape: framed-circle, label: "Stop" }
+done--yes -->stop
+done-- no -->read_console
+&lt;/pre>
+
+&lt;h2 id="2-receiving-lines">2. Receiving Lines&lt;/h2>
+&lt;pre class="mermaid">
+flowchart LR
+subgraph receive
+
+ subgraph listen
+ r_bolt@{ shape: bolt, label: "blocking!" }
+ listen_socket@{ shape: lean-l, label: "read line from socket" } 
+ end
+ print_console{{print recieved line to console}}
+ 
+ r_start-->listen_socket
+ r_done@{ shape: decision, label: "done?"}
+
+ listen_socket-->print_console
+ print_console-->r_done
+end
+
+r_start@{ shape: circle, label: "Start" }
+
+r_stop@{ shape: framed-circle, label: "Stop" }
+r_done--yes -->r_stop
+r_done-- no -->listen_socket
+&lt;/pre>
+
+&lt;h2 id="3-send--receive-in-1-thread">3. Send &amp;amp; Receive in 1 Thread&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+
+
+subgraph one_thread
+ prompt{{show prompt}}
+ subgraph read
+ bolt@{ shape: bolt, label: "blocking!" }
+ read_console@{ shape: lean-l, label: "read line from stdin" }
+ 
+ end
+ send_line{{write line to socket = send}}
+
+
+ subgraph listen
+ r_bolt@{ shape: bolt, label: "blocking!" }
+ listen_socket@{ shape: lean-l, label: "read line from socket" } 
+ end
+ print_console{{print receveid line to console}}
+ 
+ 
+
+
+ start-->prompt
+ prompt-->read_console
+ read_console-->send_line
+ send_line-->listen_socket
+ r_done@{ shape: decision, label: "done?"}
+end
+
+start@{ shape: circle, label: "Start" }
+
+
+ listen_socket-->print_console
+ print_console-->r_done
+
+
+r_stop@{ shape: framed-circle, label: "Stop" }
+r_done--yes -->r_stop
+r_done-- no -->prompt
+&lt;/pre>
+
+&lt;h2 id="4-send--receive-in-2-threads">4. Send &amp;amp; Receive in 2 Threads&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+start@{ shape: circle, label: "Start" }
+fork@{ shape: fork, label: "Fork" }
+start-->socket
+socket-->fork
+fork-->read_console
+socket{{connect socket}}
+subgraph send
+ subgraph read
+ bolt@{ shape: bolt, label: "blocking!" }
+ read_console@{ shape: lean-l, label: "read line from stdin" }
+ 
+ end
+ send_line{{write line to socket = send}}
+ done@{ shape: decision, label: "done?"}
+
+
+ read_console-->send_line
+ send_line-->done
+end
+
+
+stop@{ shape: framed-circle, label: "Stop" }
+done--yes -->join
+join-->stop
+done-- no -->read_console
+
+
+fork-->listen_socket
+subgraph receive
+ subgraph listen
+ r_bolt@{ shape: bolt, label: "blocking!" }
+ listen_socket@{ shape: lean-l, label: "read line from socket" } 
+ end
+ print_console{{print recieved line to console}}
+ 
+ 
+ r_done@{ shape: decision, label: "done?"}
+
+ listen_socket-->print_console
+ print_console-->r_done
+end
+
+r_done--yes -->join
+r_done-- no -->listen_socket
+
+join@{ shape: fork, label: "Join" }
+&lt;/pre>
+
+&lt;h2 id="socket-streams">Socket Streams&lt;/h2>
+&lt;pre class="mermaid">flowchart LR
+ 
+ S@{ shape: das, label: "Socket connection" }
+ 
+ subgraph client
+ ISC@{label: "Input Stream Client"}
+ OSC@{label: "Output Stream Client"}
+ end
+
+ 
+ 
+ subgraph server
+ ISS@{label: "Input Stream Server"}
+ OSS@{label: "Output Stream Server"}
+ end
+ S-->ISS
+ OSS-->S
+ S-->ISC
+ OSC-->S
+&lt;/pre></description></item><item><title>Datenschutzerklärung</title><link>https://bkleinen.github.io/contact/datenschutzerklaerung/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/contact/datenschutzerklaerung/</guid><description>&lt;p>Angepasst auf Basis der &lt;a href="https://www.htw-berlin.de/datenschutz/">Datenschutzerklärung der HTW-Berlin&lt;/a>&lt;/p>
 &lt;h2 id="datenschutzerklärung">Datenschutzerklärung&lt;/h2>
 &lt;p>Vielen Dank für Ihr Interesse an unserer Hochschule. Der Schutz Ihrer Daten ist uns ein wichtiges Anliegen. Deshalb verarbeiten wir die Daten, die Sie beim Besuch auf unseren Webseiten hinterlassen, nur nach den Vorgaben der relevanten datenschutzrechtlichen Bestimmungen, insbesondere der Datenschutzgrundverordnung und des Bundesdatenschutzgesetzes. An dieser Stelle möchten wir Sie über Art, Umfang und Zweck der Verarbeitung Ihrer personenbezogenen Daten informieren.
 Verantwortlicher und Datenschutzbeauftragter&lt;/p></description></item><item><title>e-learning for 2/1/2024</title><link>https://bkleinen.github.io/classes/ws2023/info1/schedule/e-learning-newyear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/schedule/e-learning-newyear/</guid><description>&lt;ol>
@@ -14211,7 +14382,78 @@ following the example &lt;a href="https://guides.rubyonrails.org/working_with_ja
 &lt;p>It&amp;rsquo;s just an app with one resource, Note, which has one attribute, content.&lt;/p>
 &lt;p>I used JavaScript to add Notes on the notes#index page without reloading the page,
 following the example &lt;a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#a-simple-example">&amp;ldquo;A Simple Example&amp;rdquo; in the Rails Guides on AJAX&lt;/a>.&lt;/p>
-&lt;p>&lt;a href="https://github.com/media-programming-rails/notebook/commit/0318b1f97abd8f3cf8314c59372243dba6e5ba93">This is the commit&lt;/a> where I added the changes described in the tutorial.&lt;/p></description></item><item><title>Exercise 00: Lab Startup</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</guid><description>&lt;p>Source code for this exercise: 
+&lt;p>&lt;a href="https://github.com/media-programming-rails/notebook/commit/0318b1f97abd8f3cf8314c59372243dba6e5ba93">This is the commit&lt;/a> where I added the changes described in the tutorial.&lt;/p></description></item><item><title>Exceptions</title><link>https://bkleinen.github.io/classes/ss2025/info2/material/exceptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/material/exceptions/</guid><description>&lt;h2 id="sequence-of-methods-calling-methods-calling-other-methods">Sequence of methods calling methods calling other methods&amp;hellip;.&lt;/h2>
+&lt;pre class="mermaid">sequenceDiagram
+ A->>+B: message_call()
+ B->>+C: message_call()
+ C->>+D: message_call()
+ D->>+E: message_call()
+ E->>+F: message_call()
+ F->>+G: message_call()
+ G->>+H: message_call()
+ H->>+I: message_call()
+ I-->>-H: return
+ H-->>-G: return
+ G-->>-F: return
+ F-->>-E: return
+ E-->>-D: return
+ D-->>-C: return
+ C-->>-B: return
+ B-->>-A: return
+&lt;/pre>
+
+&lt;h2 id="something-goes-wrong">Something goes wrong&lt;/h2>
+&lt;p>&lt;strong>very&lt;/strong> deep down the call sequence&amp;hellip;&lt;/p>
+&lt;pre class="mermaid">sequenceDiagram
+ A->>+B: message_call()
+ B->>+C: message_call()
+ C->>+D: message_call()
+ D->>+E: message_call()
+ E->>+F: message_call()
+ F->>+G: message_call()
+ G->>+H: message_call()
+ H->>+I: message_call()
+ I-->>-H: return 
+ Note right of I: Something goes wrong!!
+ H-->>-G: return
+ G-->>-F: return
+ F-->>-E: return
+ E-->>-D: return
+ D-->>-C: return
+ C-->>-B: return
+ B-->>-A: return
+&lt;/pre>
+
+&lt;h2 id="where-it-could-be-fixedhandled">Where it could be fixed/handled&lt;/h2>
+&lt;pre class="mermaid">sequenceDiagram
+ A->>+B: message_call()
+ B->>+C: message_call()
+ C->>+D: message_call()
+ D->>+E: message_call()
+ 
+ E->>+F: message_call()
+ F->>+G: message_call()
+ 
+ G->>+H: message_call()
+ H->>+I: message_call()
+ Note right of I: Something goes&lt;br/>WRONG!!
+ 
+ I-->>-H: return 
+ 
+ H-->>-G: return
+ G-->>-F: return
+ Note right of E: &lt;- This method can&lt;br/>retry in a loop
+ F-->>-E: return
+ E-->>-D: return
+ D-->>-C: return
+ Note right of B: &lt;- This method&lt;br/>can tell/ask user
+ C-->>-B: return
+ 
+ B-->>-A: return
+ 
+&lt;/pre>
+
+&lt;p>But&amp;hellip;. how to tell the methods / propagate the error??&lt;/p></description></item><item><title>Exercise 00: Lab Startup</title><link>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2022/info1/labs/exercise-00/</guid><description>&lt;p>Source code for this exercise: 
  
  
  

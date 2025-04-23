@@ -1,0 +1,176 @@
+<!doctype html><html><head><title>Concurrency and Socket Streams - Prof. Dr. Barne Kleinen</title><link rel=icon href=https://bkleinen.github.io//favicon.ico>
+<meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=theme-color content="#1A94D2"><link rel=stylesheet href=https://bkleinen.github.io/css/styles.min.css media=screen></head><body><div class=container-fluid><header class="row m-b-5"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c1 p-2"><div class=container-flex><div class=row><div class=col-9><h1 class="c5 title">B7 Informatik 2 Summer 2025</h1><small>Website of Prof. Dr. Barne Kleinen, Professor for Media Informatics
+(<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
+at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-3><a href=https://www.htw-berlin.de><img src=https://bkleinen.github.io//images/htw_logo_green.gif alt="HTW Berlin" title="HTW Berlin"></a><br><a href=https://bkleinen.github.io//>Programming and Web Technology @ IMI</a></div></div></div></div></header><main class="row p-0"><nav class="col-md-2 c2"><div class=nav><ul class="nav flex-md-column"><li class=nav-item></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/><div>Home</div></a></li><li class=nav-item><a class="nav-link dropdown-toggle active" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Classes</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/classes/ss2025/info2/>B7 Informatik 2</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2025/wt1/>B21 WT1 Verteilte Systeme</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2025/m1/>M1 Media Programming</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2025/buddyprogramm/>AWE Buddyprogramm</a>
+<a class=dropdown-item href=https://bkleinen.github.io/classes/ss2025/>All SoSe 2025</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/material/><div>Material</div></a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/software_projects/><div>Software Projects</div></a></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Studies</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/studies/thesis/>Thesis</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/ic/>IC</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/bafoeg/>Bafoeg</a>
+<a class=dropdown-item href=https://bkleinen.github.io/studies/grading/>Grading Info</a></div></li><li class=nav-item><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://bkleinen.github.io/misc/links/>Links to frequently used pages</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/trans/>Trans@HTW</a>
+<a class=dropdown-item href=https://bkleinen.github.io/misc/lsf/>Email Collector for LSF</a></div></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/contact/><div>Contact Info</div></a></li><ul></div></nav><div class="col-md-10 c3"><div class=outer><nav aria-label=breadcrumb role=navigation><ol class="breadcrumb breadcrumb-thin"><li class=breadcrumb-item><a href=https://bkleinen.github.io/>Home</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/>classes</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2025/>ss2025</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2025/info2/>info2</a></li><li class=breadcrumb-item><a href=https://bkleinen.github.io/classes/ss2025/info2/material/>material</a></li><li class="breadcrumb-item active" aria-current=page>concurrency-and-socketstreams</li></ol></nav></div><div class=coursenav><ul class="nav nav-tabs"><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ss2025/info2/>Info 2</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ss2025/info2/labs/>Labs</a></li><li class=nav-item><a class="nav-link active" href=https://bkleinen.github.io/classes/ss2025/info2/material/>Material</a></li><li class=nav-item><a class=nav-link href=https://bkleinen.github.io/classes/ss2025/info2/schedule/>Schedule</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a><div class=dropdown-menu><a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=52377">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=214081&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=213788&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung">Labs in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&amp;act=stg&amp;pool=stg&amp;show=plan&amp;P.vx=kurz&amp;r_zuordabstgv.semvonint=2&amp;r_zuordabstgv.sembisint=2&amp;k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-info2>Github</a></div></li></ul></div><div class=container-fluid><h2 class=followed>Concurrency and Socket Streams</h2><header class=following><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=https://bkleinen.github.io/classes/ss2025/info2/material/02_terms/>&lt;prev</a>
+<a href=https://bkleinen.github.io/classes/ss2025/info2/material/exceptions/>next></a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#1-sending-lines-to-server-from-client-console-input>1. Sending lines to server from client console input</a></li><li><a href=#2-receiving-lines>2. Receiving Lines</a></li><li><a href=#3-send--receive-in-1-thread>3. Send & Receive in 1 Thread</a></li><li><a href=#4-send--receive-in-2-threads>4. Send & Receive in 2 Threads</a></li><li><a href=#socket-streams>Socket Streams</a></li></ul></nav></div><h2 id=1-sending-lines-to-server-from-client-console-input>1. Sending lines to server from client console input</h2><pre class=mermaid>flowchart LR
+
+
+subgraph send
+prompt{{show prompt}}
+subgraph read
+bolt@{ shape: bolt, label: "blocking!" }
+    read_console@{ shape: lean-l, label: "read line from stdin" }
+    
+end
+send_line{{send line}}
+done@{ shape: decision, label: "done?"}
+
+
+start-->prompt
+prompt-->read_console
+read_console-->send_line
+send_line-->done
+end
+
+start@{ shape: circle, label: "Start" }
+
+stop@{ shape: framed-circle, label: "Stop" }
+done--yes -->stop
+done-- no -->read_console
+</pre><h2 id=2-receiving-lines>2. Receiving Lines</h2><pre class=mermaid>
+flowchart LR
+subgraph receive
+
+    subgraph listen
+        r_bolt@{ shape: bolt, label: "blocking!" }
+        listen_socket@{ shape: lean-l, label: "read line from socket" }  
+    end
+    print_console{{print recieved line to console}}
+    
+    r_start-->listen_socket
+    r_done@{ shape: decision, label: "done?"}
+
+    listen_socket-->print_console
+    print_console-->r_done
+end
+
+r_start@{ shape: circle, label: "Start" }
+
+r_stop@{ shape: framed-circle, label: "Stop" }
+r_done--yes -->r_stop
+r_done-- no -->listen_socket
+</pre><h2 id=3-send--receive-in-1-thread>3. Send & Receive in 1 Thread</h2><pre class=mermaid>flowchart LR
+
+
+subgraph one_thread
+    prompt{{show prompt}}
+    subgraph read
+        bolt@{ shape: bolt, label: "blocking!" }
+        read_console@{ shape: lean-l, label: "read line from stdin" }
+    
+    end
+    send_line{{write line to socket = send}}
+
+
+    subgraph listen
+        r_bolt@{ shape: bolt, label: "blocking!" }
+        listen_socket@{ shape: lean-l, label: "read line from socket" }  
+    end
+    print_console{{print receveid line to console}}
+    
+   
+
+
+    start-->prompt
+    prompt-->read_console
+    read_console-->send_line
+    send_line-->listen_socket
+    r_done@{ shape: decision, label: "done?"}
+end
+
+start@{ shape: circle, label: "Start" }
+
+
+    listen_socket-->print_console
+    print_console-->r_done
+
+
+r_stop@{ shape: framed-circle, label: "Stop" }
+r_done--yes -->r_stop
+r_done-- no -->prompt
+</pre><h2 id=4-send--receive-in-2-threads>4. Send & Receive in 2 Threads</h2><pre class=mermaid>flowchart LR
+start@{ shape: circle, label: "Start" }
+fork@{ shape: fork, label: "Fork" }
+start-->socket
+socket-->fork
+fork-->read_console
+socket{{connect socket}}
+subgraph send
+    subgraph read
+        bolt@{ shape: bolt, label: "blocking!" }
+        read_console@{ shape: lean-l, label: "read line from stdin" }
+    
+    end
+    send_line{{write line to socket = send}}
+    done@{ shape: decision, label: "done?"}
+
+
+    read_console-->send_line
+    send_line-->done
+end
+
+
+stop@{ shape: framed-circle, label: "Stop" }
+done--yes -->join
+join-->stop
+done-- no -->read_console
+
+
+fork-->listen_socket
+subgraph receive
+    subgraph listen
+        r_bolt@{ shape: bolt, label: "blocking!" }
+        listen_socket@{ shape: lean-l, label: "read line from socket" }  
+    end
+    print_console{{print recieved line to console}}
+    
+    
+    r_done@{ shape: decision, label: "done?"}
+
+    listen_socket-->print_console
+    print_console-->r_done
+end
+
+r_done--yes -->join
+r_done-- no -->listen_socket
+
+join@{ shape: fork, label: "Join" }
+</pre><h2 id=socket-streams>Socket Streams</h2><pre class=mermaid>flowchart LR
+ 
+    S@{ shape: das, label: "Socket connection" }
+    
+    subgraph client
+    ISC@{label: "Input Stream Client"}
+    OSC@{label: "Output Stream Client"}
+    end
+
+   
+  
+     subgraph server
+     ISS@{label: "Input Stream Server"}
+        OSS@{label: "Output Stream Server"}
+    end
+    S-->ISS
+    OSS-->S
+    S-->ISC
+    OSC-->S
+</pre><script src=https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js></script><script>mermaid.initialize({startOnLoad:!0,securityLevel:"loose"})</script></div></div></div></main><footer class="row p-0"><div class="col-md-2 c2">&nbsp;</div><div class="col-md-10 c4"><small><hr><div class=container-fluid><div class=row><div class=col-9><a href=https://bkleinen.github.io//contact>Prof. Dr. Barne Kleinen</a>,
+<a href=https://www.htw-berlin.de>HTW Berlin</a>,
+<a href=https://www.f4.htw-berlin.de/>FB4</a>, <a href=https://imi-bachelor.htw-berlin.de/>International Media and Computing</a>.
+&nbsp;&nbsp;&dash;&nbsp;&nbsp;</div><div class=col-3><a href=https://bkleinen.github.io//contact/impressum>Impressum</a>,
+<a href=https://bkleinen.github.io//contact/datenschutzerklaerung>Datenschutzerklärung</a></div></div><div class=row><div class=col-9>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><small>This page was authored by: kleinen</small></div><div class=col-3><a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/><img alt="Creative Commons Licence" style=border-width:0 src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></a></div></div><div class=row><div class=col-sm-12></div></div></div></small></div></footer><script>let sortTables=!1,stripedTables=!0</script><script src=https://bkleinen.github.io/js/bundle.min.2721f47f55933ce4a06dc93775ca4863359ad6e20761146e0dbe709c9d7a426b.js defer></script></body></html>
