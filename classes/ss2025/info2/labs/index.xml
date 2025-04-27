@@ -5,4 +5,13 @@
 &lt;li>I know the difference between classes and objects.&lt;/li>
 &lt;li>I can instantiate an object.&lt;/li>
 &lt;/ul>
-&lt;p>I remember programming concepts concerning fields and variable types:&lt;/p></description></item></channel></rss>
+&lt;p>I remember programming concepts concerning fields and variable types:&lt;/p></description></item><item><title>Lab 02: Histogram</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-02/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can handle file-based IO with Java:&lt;/p>
+&lt;ul>
+&lt;li>I can read from a text file using a Reader, eg. BufferedReader.&lt;/li>
+&lt;li>I can write to a text file using a Writer, eg. BufferedWriter.&lt;/li>
+&lt;li>I close my streams after I finished reading or writing.&lt;/li>
+&lt;li>I can use try-with-resources to make sure that in the end, a resource is always closed.&lt;/li>
+&lt;/ul>
+&lt;p>I can handle exceptions:&lt;/p></description></item></channel></rss>
