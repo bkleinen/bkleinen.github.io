@@ -3358,7 +3358,49 @@ the number of occurrences of c in s.&lt;/p></description></item><item><title>Sch
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;hr></description></item><item><title>Lab 02: Programming &amp; Tools, Review of CRC Model</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;hr></description></item><item><title>web apps</title><link>https://bkleinen.github.io/classes/ss2025/wt1/material/web-apps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/material/web-apps/</guid><description>&lt;pre class="mermaid">flowchart LR
+subgraph thecms["WebApp CMS"]
+direction LR
+
+
+subgraph Client["Client Side"]
+ed1((Editor))
+re1((Reader))
+re2((Reader))
+ browser1
+ browser2
+ browser3
+end
+
+
+ed1 --> browser1["Browser"]
+re1 --> browser2["Browser"]
+re2 --> browser3["Browser"]
+
+subgraph Server["Server Side"]
+direction TB
+ subgraph webserver["Webserver"]
+ httpd["`
+ **App Server**
+ `"]
+ 
+ templates[/HTML Templates/]
+ 
+ httpd -..->templates
+ httpd -..->|SQL|db
+ db[("Database")]
+ 
+ end
+
+end
+
+browser1 &lt;-..->|http/HTML| httpd
+
+browser2 &lt;-..->|http/HTML| httpd
+
+browser3 &lt;-..->|http/HTML| httpd
+end
+&lt;/pre></description></item><item><title>Lab 02: Programming &amp; Tools, Review of CRC Model</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-02/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
 &lt;p>After this lab you should be able to agree with each of the following statements&lt;/p>
 &lt;p>I am familiar with programming in IntelliJ:&lt;/p>
 &lt;ul>
@@ -8220,6 +8262,9 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 
  
  
+
+ 
+ 
  
  
 
@@ -11359,7 +11404,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
  &lt;td style="text-align: left">A_02&lt;/td>
- &lt;td style="text-align: left">A_01&lt;/td>
+ &lt;td style="text-align: left">Due: A_01&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -11377,7 +11422,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
  &lt;td style="text-align: left">A_04&lt;/td>
- &lt;td style="text-align: left">A_02, A_03&lt;/td>
+ &lt;td style="text-align: left">Due: A_02&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
@@ -11385,8 +11430,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">Fri 16/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_05&lt;/td>
+ &lt;td style="text-align: left">Due: A_03&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
@@ -11403,8 +11448,8 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">Fri 30/05/2025&lt;/td>
  &lt;td style="text-align: left">Brückentag&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
- &lt;td style="text-align: left">A_05&lt;/td>
- &lt;td style="text-align: left">A_04&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Due: A_04&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
@@ -11479,7 +11524,17 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
+&lt;/table>
+&lt;ol>
+&lt;li>FizzBuzz Kata&lt;/li>
+&lt;li>Refactoring &amp;amp; Static Code Analysis&lt;/li>
+&lt;li>Setting up CI/CD Pipelines&lt;/li>
+&lt;li>Proposal for Open Source Project Contribution&lt;/li>
+&lt;li>99 Bottles - Report on Refactoring Exercise, including source code&lt;/li>
+&lt;li>Report on Open Source Project, including source code&lt;/li>
+&lt;li>Report and Reflection on Software Development and Design at your Workplace (as written Reports or Talks?) OR Algorithms &amp;amp; Data Structures&lt;/li>
+&lt;li>Report and Sketchnotes on 3 Books or 2 Books and 3 Videos.&lt;/li>
+&lt;/ol></description></item><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
 &lt;p>Im Dokumentarfilm von Kyra Bartley: &amp;ldquo;Losing Lena&amp;rdquo; 2019, 26 Min.
 &lt;a href="https://www.imdb.com/de/title/tt11337268/">auf imdb&lt;/a> veröffentlicht auf
 &lt;a href="https://www.facebook.com/codelikeagirlau/videos/985614161797010/">Facebook Watch&lt;/a>

@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B WT1 Verteilte Systeme on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/wt1/</link><description>Recent content in B WT1 Verteilte Systeme on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/wt1/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B WT1 Verteilte Systeme on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/wt1/</link><description>Recent content in B WT1 Verteilte Systeme on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/wt1/index.xml" rel="self" type="application/rss+xml"/><item><title>web apps</title><link>https://bkleinen.github.io/classes/ss2025/wt1/material/web-apps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/material/web-apps/</guid><description>&lt;pre class="mermaid">flowchart LR
+subgraph thecms["WebApp CMS"]
+direction LR
+
+
+subgraph Client["Client Side"]
+ed1((Editor))
+re1((Reader))
+re2((Reader))
+ browser1
+ browser2
+ browser3
+end
+
+
+ed1 --> browser1["Browser"]
+re1 --> browser2["Browser"]
+re2 --> browser3["Browser"]
+
+subgraph Server["Server Side"]
+direction TB
+ subgraph webserver["Webserver"]
+ httpd["`
+ **App Server**
+ `"]
+ 
+ templates[/HTML Templates/]
+ 
+ httpd -..->templates
+ httpd -..->|SQL|db
+ db[("Database")]
+ 
+ end
+
+end
+
+browser1 &lt;-..->|http/HTML| httpd
+
+browser2 &lt;-..->|http/HTML| httpd
+
+browser3 &lt;-..->|http/HTML| httpd
+end
+&lt;/pre></description></item></channel></rss>

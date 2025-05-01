@@ -184,7 +184,7 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
  &lt;td style="text-align: left">A_02&lt;/td>
- &lt;td style="text-align: left">A_01&lt;/td>
+ &lt;td style="text-align: left">Due: A_01&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">4&lt;/td>
@@ -202,7 +202,7 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
  &lt;td style="text-align: left">A_04&lt;/td>
- &lt;td style="text-align: left">A_02, A_03&lt;/td>
+ &lt;td style="text-align: left">Due: A_02&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">6&lt;/td>
@@ -210,8 +210,8 @@
  &lt;td style="text-align: left">Fri 16/05/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">A_05&lt;/td>
+ &lt;td style="text-align: left">Due: A_03&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">7&lt;/td>
@@ -228,8 +228,8 @@
  &lt;td style="text-align: left">Fri 30/05/2025&lt;/td>
  &lt;td style="text-align: left">Brückentag&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
- &lt;td style="text-align: left">A_05&lt;/td>
- &lt;td style="text-align: left">A_04&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Due: A_04&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
@@ -304,4 +304,14 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table>
+&lt;ol>
+&lt;li>FizzBuzz Kata&lt;/li>
+&lt;li>Refactoring &amp;amp; Static Code Analysis&lt;/li>
+&lt;li>Setting up CI/CD Pipelines&lt;/li>
+&lt;li>Proposal for Open Source Project Contribution&lt;/li>
+&lt;li>99 Bottles - Report on Refactoring Exercise, including source code&lt;/li>
+&lt;li>Report on Open Source Project, including source code&lt;/li>
+&lt;li>Report and Reflection on Software Development and Design at your Workplace (as written Reports or Talks?) OR Algorithms &amp;amp; Data Structures&lt;/li>
+&lt;li>Report and Sketchnotes on 3 Books or 2 Books and 3 Videos.&lt;/li>
+&lt;/ol></description></item></channel></rss>
