@@ -3434,7 +3434,30 @@ least not sufficiently)&lt;/li>
 &lt;li>(optional) you want to put some work in it&lt;/li>
 &lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
 &lt;/ul>
-&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Assignment 03 - Setting up CI/CD Pipelines</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_03/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
+All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
+&lt;p>This exercise is about getting to know ci/cd pipelines with the examples of github actions.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="1-pick-2-3-examples">1. Pick 2-3 examples&lt;/h3>
+&lt;ol>
+&lt;li>find 2-3 examples of build pipelines in existing open source projects.&lt;/li>
+&lt;li>you may use your project from assignment 02, as well as any of the candidates for the open source project&lt;/li>
+&lt;li>you may choose another platform/tool instead of github actions.&lt;/li>
+&lt;li>if the actions are simple, you should look at three projects.&lt;/li>
+&lt;/ol>
+&lt;h3 id="2-analyse-and-understand-the-build-pipelines--github-actions">2. Analyse and understand the Build Pipelines / Github Actions&lt;/h3>
+&lt;ol>
+&lt;li>read and try to understand the github actions. What are they doing? is this an automated build, tests, or /and deployment?&lt;/li>
+&lt;li>how is the pipeline built?&lt;/li>
+&lt;li>write a brief summary and reflection&lt;/li>
+&lt;/ol>
+&lt;h3 id="3-build-your-own-pipeline">3. Build your own pipeline&lt;/h3>
+&lt;ol>
+&lt;li>build at least one pipeline/github action -
+either for the static code analysers in assignment 02, or, if this is not feasible (e.g. if the used tools have licence restrictions), for another project.&lt;/li>
+&lt;/ol>
+&lt;h3 id="4-write-up">4. Write Up&lt;/h3>
+&lt;p>As always, write up everything in your report, put your names on top and the sources used in the reference section.&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
 clean code principles and/or find patterns that are worth applying for the project.&lt;/p>
 &lt;p>I will add instructions on how to upload your project later this week
 and will do a raffle on saturday for the &amp;ldquo;other&amp;rdquo; project.&lt;/p></description></item><item><title>Info2 SS2015 Schedule</title><link>https://bkleinen.github.io/classes/ss2015/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
@@ -5668,7 +5691,14 @@ for an application called &amp;ldquo;StudyPartner&amp;rdquo;.&lt;/li>
 
 
 &lt;p>All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from &lt;code>getTime()&lt;/code> after either the time has been set to 13:45 by calling &lt;code>setTime()&lt;/code> or after calling the &lt;code>timeTick()&lt;/code> method the appropriate amount of times.&lt;/p>
-&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="../clock_display_critique">general critique on the previous page&lt;/a>.&lt;/p></description></item><item><title>Book Diagrams</title><link>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</guid><description>&lt;pre>&lt;code>classDiagram
+&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="../clock_display_critique">general critique on the previous page&lt;/a>.&lt;/p></description></item><item><title>Assignment 04 &amp; 06 - Contribution to an Open Source Project</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_04/</guid><description>&lt;h2 id="assignment-04---proposal-for-open-source-project-contribution">Assignment 04 - Proposal for Open Source Project Contribution&lt;/h2>
+&lt;p>This Assignment is simply to document your selection for the open source project.&lt;/p>
+&lt;h2 id="assignment-06---contribution-to-an-open-source-project">Assignment 06 - Contribution to an Open Source Project&lt;/h2>
+&lt;p>The actual work &amp;amp; report.&lt;/p>
+&lt;p>tl;dr:
+Select an &lt;strong>existing&lt;/strong> open source project, create an overview of its design and submit a merge / pull request to the project.&lt;/p>
+&lt;p>This assignment is mainly about code reading and understanding legacy code bases.
+It&amp;rsquo;s not about creating your own project!&lt;/p></description></item><item><title>Book Diagrams</title><link>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2023/info1/resources/mermaid/all-mermaid-diagrams/</guid><description>&lt;pre>&lt;code>classDiagram
 
  class TicketMachine{
  TicketMachine(int ticketPrice)
@@ -8054,51 +8084,6 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 
  
  
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
- 
- 
- 
-
- 
- 
-
- 
- 
  
  
 
@@ -8136,6 +8121,21 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 
  
  
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
 
  
  
@@ -8143,6 +8143,46 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
  
  
 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
  
  
 
@@ -11440,7 +11480,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Due: A_04&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">&lt;/td>
@@ -11449,7 +11489,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">Brückentag&lt;/td>
  &lt;td style="text-align: left">&lt;em>&lt;strong>no class&lt;/strong>&lt;/em>&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Due: A_04&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">8&lt;/td>
