@@ -3,6 +3,8 @@ name: Deploy Production / HTW
 on:
   workflow_dispatch:
   push:
+    branches:
+      - 'fix_production_deployment'  
     tags:
       - 'v*'
 #    branches:
