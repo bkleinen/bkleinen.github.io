@@ -71,5 +71,5 @@ jobs:
 
       - name: Copy to Server
         run: |
-            echo "::add-mask::$SSH_KEY_2" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
+            echo "$SSH_KEY_2" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
             ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1

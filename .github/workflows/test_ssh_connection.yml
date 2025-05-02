@@ -22,4 +22,4 @@ jobs:
             echo $KNOWN_HOST > ~/.ssh/known_hosts
       - name: Test Connection
         run: |
-          ssh $HOST1 "ls -lart ; pwd"
+          ssh $HOST1 "ls -lart"
