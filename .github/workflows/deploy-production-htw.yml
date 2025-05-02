@@ -62,6 +62,11 @@ jobs:
       - name: Copy Copy Script
         run: |
             scp  bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
+      - name: Show Hosts
+        run: |
+            echo HOST1 $HOST1
+            echo HOST2 $HOST2
+
       - name: Copy to Server
         run: |
             echo "::add-mask::$WEBSSHKEY" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
