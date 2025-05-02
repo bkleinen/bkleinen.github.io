@@ -52,6 +52,12 @@ jobs:
         run: |
           zip -r website ./public-htw
           pwd
+
+      - name: Show Hosts
+        run: |
+            echo HOST1 $HOST1
+            echo HOST2 $HOST2
+            
       - name: Copy Github->HTW
         run: |
           ssh $HOST1 "mkdir -p ~/hugo-tunnel"
@@ -62,10 +68,7 @@ jobs:
       - name: Copy Copy Script
         run: |
             scp  bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
-      - name: Show Hosts
-        run: |
-            echo HOST1 $HOST1
-            echo HOST2 $HOST2
+
 
       - name: Copy to Server
         run: |
