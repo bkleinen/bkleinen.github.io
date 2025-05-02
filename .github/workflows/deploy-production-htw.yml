@@ -64,5 +64,5 @@ jobs:
             scp  bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
       - name: Copy to Server
         run: |
-            echo "$WEBSSHKEY" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
+            echo "::add-mask::$WEBSSHKEY" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
             ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1
