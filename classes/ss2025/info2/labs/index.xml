@@ -14,4 +14,16 @@
 &lt;li>I close my streams after I finished reading or writing.&lt;/li>
 &lt;li>I can use try-with-resources to make sure that in the end, a resource is always closed.&lt;/li>
 &lt;/ul>
-&lt;p>I can handle exceptions:&lt;/p></description></item></channel></rss>
+&lt;p>I can handle exceptions:&lt;/p></description></item><item><title>Lab 03: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-03/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can use the Socket API for TCP connections:&lt;/p>
+&lt;ul>
+&lt;li>I can create a server that listens for and accepts connections&lt;/li>
+&lt;li>I can create a client that makes a connection request to the server&lt;/li>
+&lt;li>I can send text from a client to a server via streams&lt;/li>
+&lt;li>I can send text from a server to a client via streams&lt;/li>
+&lt;li>I can use multithreading to simultaneously process tcp requests and input from the user&lt;/li>
+&lt;li>(if you do the &amp;ldquo;for the bored&amp;rdquo; part: I can use multithreading for the server to handle multiple connection requests)&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>Write down the code for the following questions and be able to explain what is happening.&lt;/p></description></item></channel></rss>
