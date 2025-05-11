@@ -26,4 +26,14 @@
 &lt;li>(if you do the &amp;ldquo;for the bored&amp;rdquo; part: I can use multithreading for the server to handle multiple connection requests)&lt;/li>
 &lt;/ul>
 &lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>Write down the code for the following questions and be able to explain what is happening.&lt;/p></description></item></channel></rss>
+&lt;p>Write down the code for the following questions and be able to explain what is happening.&lt;/p></description></item><item><title>Lab 04: Execution times</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-04/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
+&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
+&lt;p>I can evaluate the efficiency of algorithms:&lt;/p>
+&lt;ul>
+&lt;li>I understand the correlation between input and running time for different program structures&lt;/li>
+&lt;li>I can use big-o-notation to describe the running time of algorithms&lt;/li>
+&lt;li>I can calculate the running time of algorithms by adding up running times of different structures&lt;/li>
+&lt;li>I can compare running times based on their running time in big-o-notation&lt;/li>
+&lt;/ul>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Programs A and B are analyzed and are found to have worst-case running times no greater than $150 N \log N$ and $N^2$, respectively. Answer the following questions, if possible:&lt;/p></description></item></channel></rss>
