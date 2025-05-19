@@ -51,7 +51,7 @@ jobs:
       - name: Add SSH Key
         uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-private-key: ${{ secrets.SSH_KEY_1 }}
+          ssh-private-key: ${{ env.SSH_KEY_1 }}
           log-public-key: false
       - name: Create Known Hosts File
         run: |
