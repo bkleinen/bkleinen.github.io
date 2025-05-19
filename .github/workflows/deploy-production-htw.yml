@@ -3,12 +3,13 @@ name: Deploy Production / HTW
 on:
   workflow_dispatch:
   push:
+    branches:
+      - 'fix_production_deployment'  
     tags:
       - 'v*'
 #    branches:
 #      - 'main'
   repository_dispatch:
-    #types: ["classes-module-tagged"]
     types: ["classes-module-changed"]
 
 jobs:
@@ -16,9 +17,10 @@ jobs:
     #if: github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
-      WEBSSHKEY: ${{ secrets.WEBSSHKEY }}
       HOST1: ${{ secrets.HOST1 }}
       HOST2: ${{ secrets.HOST2 }}
+      SSH_KEY_1: ${{ secrets.SSH_KEY_1 }}
+      SSH_KEY_2: ${{ secrets.SSH_KEY_2 }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,12 +31,6 @@ jobs:
           node-version: 'latest'
       - run: |
           npm install
-      - uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.WEBSSHKEY }}
-      - name: Create Known Hosts File
-        run: |
-          cp bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -50,6 +46,17 @@ jobs:
         run: |
           zip -r website ./public-htw
           pwd
+          ls -lart
+
+      - name: Add SSH Key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ env.SSH_KEY_1 }}
+          log-public-key: false
+      - name: Create Known Hosts File
+        run: |
+          cp bin/hugo_deployment/known_hosts ~/.ssh/known_hosts
+           
       - name: Copy Github->HTW
         run: |
           ssh $HOST1 "mkdir -p ~/hugo-tunnel"
@@ -60,7 +67,9 @@ jobs:
       - name: Copy Copy Script
         run: |
             scp  bin/hugo_deployment/steps.sh $HOST1:~/steps.sh
+
+
       - name: Copy to Server
         run: |
-            echo "$WEBSSHKEY" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
+            echo "$SSH_KEY_2" | ssh $HOST1 'cat >  ~/.tmp; chmod 600  ~/.tmp'
             ssh $HOST1 "export set HOST2=$HOST2; . ~/steps.sh" 2>&1

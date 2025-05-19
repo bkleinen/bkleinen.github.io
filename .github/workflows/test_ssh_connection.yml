@@ -9,17 +9,17 @@ jobs:
   infrastructure:
     runs-on: ubuntu-latest
     env:
-      SSH_KEY: ${{ secrets.WEBSSHKEY }}
-      SSH_HOST: ${{ secrets.HOST1 }}
+      SSH_KEY_1: ${{ secrets.SSH_KEY_1 }}
+      HOST1: ${{ secrets.HOST1 }}
       KNOWN_HOST: 'infrastructure.f4.htw-berlin.de ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFrJk3IjoJf61+rHU/ZMyD4ud488roXMJaa2NEeBiNruZGIw7k4YBLaZgCgfQNk+T/vzXTls+XIuY5S6rI8FD2I='
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-private-key: ${{ env.SSH_KEY }}
+          ssh-private-key: ${{ secrets.SSH_KEY_1 }}
       - name: Create Known Hosts File
         run: |
             echo $KNOWN_HOST > ~/.ssh/known_hosts
       - name: Test Connection
         run: |
-          ssh $SSH_HOST "ls -lart"
+          ssh $HOST1 "ls -lart"
