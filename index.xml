@@ -6412,7 +6412,17 @@ but has to be done in groups of 3-4 students nonetheless.&lt;/p>
 This is solely to issue unique group numbers for the project teams.&lt;/p>
 &lt;h2 id="textbook">Textbook&lt;/h2>
 &lt;p>We will use this textbook for the app development in the labs:
-&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p></description></item><item><title>Lab 04 - Next.js and Bento Boxes</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-04-next-bento/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-04-next-bento/</guid><description>&lt;p>Continue in the same 3-4 person group.&lt;/p>
+&lt;h2 id="group-numbering">Group Numbering&lt;/h2>
+&lt;p>Use your group number from the last lab. If you need a new number for some reason (usually team reconfigurations), talk to me.&lt;/p>
+&lt;h2 id="textbook">Textbook&lt;/h2>
+&lt;p>We will use this textbook for the app development in the labs:
+&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>all chapter notions refer to this book.&lt;/li>
+&lt;/ul>
+&lt;h2 id="1-bento-box-i">1. Bento Box I&lt;/h2>
+&lt;p>Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em>not&lt;/em> count!) and try to&lt;/p></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -7926,6 +7936,9 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
  &lt;a href= "https://bkleinen.github.io//classes/ws2019/m1-web/schedule/">WS 2019:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
  &lt;/li>
  
+ 
+ 
+
  
  
 
