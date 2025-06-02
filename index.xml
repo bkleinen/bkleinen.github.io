@@ -5925,7 +5925,18 @@ missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;
 &lt;p>&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;h3 id="about-coding-katas">About Coding Katas&lt;/h3>
-&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item><item><title>Lab 08: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
+&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item><item><title>Lab 06: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
+&lt;p>Source code scaffold for this exercise: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle">https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle&lt;/a>
+&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is the mathematical formula for finding the midpoint of a line segment that connects two Points?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p></description></item><item><title>Lab 08: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-08/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
 &lt;p>Source code scaffold for this exercise: 
  
  
@@ -7936,6 +7947,9 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
  &lt;a href= "https://bkleinen.github.io//classes/ws2019/m1-web/schedule/">WS 2019:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
  &lt;/li>
  
+ 
+ 
+
  
  
 
