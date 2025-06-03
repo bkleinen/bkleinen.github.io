@@ -11564,7 +11564,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">23&lt;/td>
  &lt;td style="text-align: left">Fri 06/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
+ &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -11591,9 +11591,9 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">26&lt;/td>
  &lt;td style="text-align: left">Fri 27/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Due: A_07&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">12&lt;/td>
@@ -11611,14 +11611,14 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Due: A_06&lt;/td>
+ &lt;td style="text-align: left">Due: A_06 ?&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">29&lt;/td>
  &lt;td style="text-align: left">Fri 18/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Exam&lt;/td>
+ &lt;td style="text-align: left">Exam??&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -11631,6 +11631,15 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">TBD: Due: A_08&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
  &lt;/tbody>
 &lt;/table>
 &lt;ol>
@@ -11640,7 +11649,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
 &lt;li>Proposal for Open Source Project Contribution&lt;/li>
 &lt;li>99 Bottles - Report on Refactoring Exercise, including source code&lt;/li>
 &lt;li>Report on Open Source Project, including source code&lt;/li>
-&lt;li>Report and Reflection on Software Development and Design at your Workplace (as written Reports or Talks?) OR Algorithms &amp;amp; Data Structures&lt;/li>
+&lt;li>Algorithms &amp;amp; Data Structures OR: Report and Reflection on Software Development and Design at your Workplace (as written Reports or Talks?)&lt;/li>
 &lt;li>Report and Sketchnotes on 3 Books or 2 Books and 3 Videos.&lt;/li>
 &lt;/ol></description></item><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
 &lt;p>Im Dokumentarfilm von Kyra Bartley: &amp;ldquo;Losing Lena&amp;rdquo; 2019, 26 Min.
