@@ -6376,11 +6376,7 @@ d) the cells are in the same descending diagonal (upper left to lower right)?&lt
 &lt;h3 id="part-2-make-your-model-editable">Part 2: Make your Model Editable&lt;/h3>
 &lt;p>Last Week, you&amp;rsquo;ve created a Detail View for your Model.
 make your model editable by adding the appropriate paths, views and last not least a template with a form for editing your model.&lt;/p>
-&lt;p>This exercise is about the basic mechanics of forms and handling form data/requests in the app.&lt;/p></description></item><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
-&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
-Collect and discuss your project ideas with other students. Project Teams will be
-consolidated in the next lab.&lt;/p>
-&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+&lt;p>This exercise is about the basic mechanics of forms and handling form data/requests in the app.&lt;/p></description></item><item><title>Lab 12: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-12-old/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
 Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
 &lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
@@ -6442,7 +6438,11 @@ flowchart TD
 ## Further Reading
 
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
-&lt;/code>&lt;/pre></description></item><item><title>Lab 02 - Simple Express App &amp; Setting up Docker</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</guid><description>&lt;p>We will form the Project groups in this second lab.
+&lt;/code>&lt;/pre></description></item><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
+&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
+Collect and discuss your project ideas with other students. Project Teams will be
+consolidated in the next lab.&lt;/p>
+&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 02 - Simple Express App &amp; Setting up Docker</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</guid><description>&lt;p>We will form the Project groups in this second lab.
 This lab is - apart from the naming - not specific to your chosen theme,
 but has to be done in groups of 3-4 students nonetheless.&lt;/p>
 &lt;h2 id="group-numbering">Group Numbering&lt;/h2>
@@ -6460,7 +6460,18 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 &lt;li>all chapter notions refer to this book.&lt;/li>
 &lt;/ul>
 &lt;h2 id="1-bento-box-i">1. Bento Box I&lt;/h2>
-&lt;p>Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em>not&lt;/em> count!) and try to&lt;/p></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em>not&lt;/em> count!) and try to&lt;/p></description></item><item><title>Lab 05 - Persistence and Consistency</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</guid><description>&lt;p>In this lab you will consider the persistency aspects of your app:&lt;/p>
+&lt;ul>
+&lt;li>which data model supports your use cases best?&lt;/li>
+&lt;li>which database should you choose?&lt;/li>
+&lt;li>based on your use cases, which are the requirements for consistency?&lt;/li>
+&lt;li>last not least you will get some hands-on experience with Mongo and Mongoose.&lt;/li>
+&lt;/ul>
+&lt;p>This is a lot - material for 2 weeks.&lt;/p>
+&lt;h2 id="1-use-cases">1. Use Cases&lt;/h2>
+&lt;p>All decisions regarding both your data/domain model as well as consistency requirements depend on your use cases. Create a story on how your application will be used - be creative, tell the story together and take notes. Don&amp;rsquo;t shy away from complex ideas - you will not need to implement them!
+Give your users a name (make sure to have one for each role if your app will be used by different roles) and be sure to describe in detail when, where, how and especially why your user
+uses your application. Make sure to be clear on their intention, the goals they pursue.&lt;/p></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -7727,6 +7738,23 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 
  
  
+ 
+ 
+ &lt;li>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href= "https://bkleinen.github.io//classes/ws2025/m1/schedule/">WS 2025:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 WS 2025/2026 Wednesday Schedule&lt;/a>
+ &lt;/li>
+ 
+ 
+ 
+
+ 
+ 
 
  
  
@@ -7770,23 +7798,6 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
  
  
  &lt;a href= "https://bkleinen.github.io//classes/ws2024/m1/schedule/">WS 2024:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 WS 2024/2025 Wednesday Schedule&lt;/a>
- &lt;/li>
- 
- 
- 
-
- 
- 
- 
- 
- &lt;li>
- 
- 
- 
- 
- 
- 
- &lt;a href= "https://bkleinen.github.io//classes/ws2025/m1/schedule/">WS 2025:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 WS 2025/2026 Wednesday Schedule&lt;/a>
  &lt;/li>
  
  
@@ -7991,6 +8002,9 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
  &lt;a href= "https://bkleinen.github.io//classes/ws2019/m1-web/schedule/">WS 2019:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
  &lt;/li>
  
+ 
+ 
+
  
  
 
@@ -11226,192 +11240,6 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>M1 WS 2025/2026 Wednesday Schedule</title><link>https://bkleinen.github.io/classes/ws2025/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/schedule/</guid><description>&lt;p>Draft! - Dates and Order are not set. 11.6.2025&lt;/p>
-&lt;p>&lt;a href="https://bkleinen.github.io/classes/m1">M1 Schedule Overview&lt;/a>
-/
-&lt;a href="https://github.com/progwebtec/classes-module/blob/main/content/classes/ws2025/m1/schedule/index.md">Edit this page via github&lt;/a> (ask BK for repo permissions first)&lt;/p>
-&lt;p>Time and Room: See LSF (link in external links above)&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Topic Area&lt;/th>
- &lt;th>Lecturer&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">40&lt;/td>
- &lt;td style="text-align: left">Wed 01/10/2025&lt;/td>
- &lt;td style="text-align: left">Hochschultag&lt;/td>
- &lt;td style="text-align: left">keine Lehrveranstaltungen&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">Wed 08/10/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td>Klaus Jung&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">Wed 15/10/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td>Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">Wed 22/10/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td>Kai Barthel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">Wed 29/10/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td>Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">Wed 05/11/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td>Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">Wed 12/11/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td>Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">Wed 19/11/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td>Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">Wed 26/11/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td>Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">Wed 03/12/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td>Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">Wed 10/12/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td>Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">51&lt;/td>
- &lt;td style="text-align: left">Wed 17/12/2025&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">52&lt;/td>
- &lt;td style="text-align: left">Wed 24/12/2025&lt;/td>
- &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;td>&amp;mdash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">Wed 31/12/2025&lt;/td>
- &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;td>&amp;mdash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">Wed 07/01/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td>David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">Wed 14/01/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td>David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">Wed 21/01/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td>David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">Wed 28/01/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td>David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">Wed 04/02/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td>David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">Wed 11/02/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">Wed 18/02/2026&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
 &lt;/table></description></item><item><title>M1 WS 2024/2025 Labs Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/main/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
@@ -11710,7 +11538,193 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
 &lt;ol>
 &lt;li>Prüfungszeitraum	14.07. – 02.08.2025&lt;/li>
 &lt;li>Prüfungszeitraum	24.09. – 08.10.2025&lt;/li>
-&lt;/ol></description></item><item><title>M1 SoSe 2025 Main Schedule (Fridays)</title><link>https://bkleinen.github.io/classes/ss2025/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/main/</guid><description>&lt;table>
+&lt;/ol></description></item><item><title>M1 WS 2025/2026 Wednesday Schedule</title><link>https://bkleinen.github.io/classes/ws2025/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/schedule/</guid><description>&lt;p>Draft! - Dates and Order are not set. 11.6.2025&lt;/p>
+&lt;p>&lt;a href="https://bkleinen.github.io/classes/m1">M1 Schedule Overview&lt;/a>
+/
+&lt;a href="https://github.com/progwebtec/classes-module/blob/main/content/classes/ws2025/m1/schedule/index.md">Edit this page via github&lt;/a> (ask BK for repo permissions first)&lt;/p>
+&lt;p>Time and Room: See LSF (link in external links above)&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Week&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">Topic Area&lt;/th>
+ &lt;th>Lecturer&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">40&lt;/td>
+ &lt;td style="text-align: left">Wed 01/10/2025&lt;/td>
+ &lt;td style="text-align: left">Hochschultag&lt;/td>
+ &lt;td style="text-align: left">keine Lehrveranstaltungen&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">41&lt;/td>
+ &lt;td style="text-align: left">Wed 08/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td>Klaus Jung&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">42&lt;/td>
+ &lt;td style="text-align: left">Wed 15/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td>Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">43&lt;/td>
+ &lt;td style="text-align: left">Wed 22/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td>Kai Barthel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">44&lt;/td>
+ &lt;td style="text-align: left">Wed 29/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td>Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">45&lt;/td>
+ &lt;td style="text-align: left">Wed 05/11/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Visual Computing&lt;/td>
+ &lt;td>Nico Hezel&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">46&lt;/td>
+ &lt;td style="text-align: left">Wed 12/11/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td>Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">47&lt;/td>
+ &lt;td style="text-align: left">Wed 19/11/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td>Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">48&lt;/td>
+ &lt;td style="text-align: left">Wed 26/11/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td>Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">49&lt;/td>
+ &lt;td style="text-align: left">Wed 03/12/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td>Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">50&lt;/td>
+ &lt;td style="text-align: left">Wed 10/12/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Web Technology&lt;/td>
+ &lt;td>Gefei Zhang&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">51&lt;/td>
+ &lt;td style="text-align: left">Wed 17/12/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">52&lt;/td>
+ &lt;td style="text-align: left">Wed 24/12/2025&lt;/td>
+ &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td>&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Wed 31/12/2025&lt;/td>
+ &lt;td style="text-align: left">Vorlesungsfrei&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash;&lt;/td>
+ &lt;td>&amp;mdash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Wed 07/01/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td>David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">Wed 14/01/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td>David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">Wed 21/01/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td>David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">Wed 28/01/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td>David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">Wed 04/02/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
+ &lt;td>David Strippgen&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">Wed 11/02/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">Wed 18/02/2026&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>M1 SoSe 2025 Main Schedule (Fridays)</title><link>https://bkleinen.github.io/classes/ss2025/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/main/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
  &lt;th style="text-align: left">Week&lt;/th>

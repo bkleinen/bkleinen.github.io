@@ -20,4 +20,15 @@ This is solely to issue unique group numbers for the project teams.&lt;/p>
 &lt;li>all chapter notions refer to this book.&lt;/li>
 &lt;/ul>
 &lt;h2 id="1-bento-box-i">1. Bento Box I&lt;/h2>
-&lt;p>Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em>not&lt;/em> count!) and try to&lt;/p></description></item></channel></rss>
+&lt;p>Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em>not&lt;/em> count!) and try to&lt;/p></description></item><item><title>Lab 05 - Persistence and Consistency</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</guid><description>&lt;p>In this lab you will consider the persistency aspects of your app:&lt;/p>
+&lt;ul>
+&lt;li>which data model supports your use cases best?&lt;/li>
+&lt;li>which database should you choose?&lt;/li>
+&lt;li>based on your use cases, which are the requirements for consistency?&lt;/li>
+&lt;li>last not least you will get some hands-on experience with Mongo and Mongoose.&lt;/li>
+&lt;/ul>
+&lt;p>This is a lot - material for 2 weeks.&lt;/p>
+&lt;h2 id="1-use-cases">1. Use Cases&lt;/h2>
+&lt;p>All decisions regarding both your data/domain model as well as consistency requirements depend on your use cases. Create a story on how your application will be used - be creative, tell the story together and take notes. Don&amp;rsquo;t shy away from complex ideas - you will not need to implement them!
+Give your users a name (make sure to have one for each role if your app will be used by different roles) and be sure to describe in detail when, where, how and especially why your user
+uses your application. Make sure to be clear on their intention, the goals they pursue.&lt;/p></description></item></channel></rss>
