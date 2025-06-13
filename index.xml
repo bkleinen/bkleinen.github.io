@@ -3434,30 +3434,7 @@ least not sufficiently)&lt;/li>
 &lt;li>(optional) you want to put some work in it&lt;/li>
 &lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
 &lt;/ul>
-&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Assignment 03 - Setting up CI/CD Pipelines</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_03/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
-All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
-&lt;p>This exercise is about getting to know ci/cd pipelines with the examples of github actions.&lt;/p>
-&lt;h2 id="assignment">Assignment&lt;/h2>
-&lt;h3 id="1-pick-2-3-examples">1. Pick 2-3 examples&lt;/h3>
-&lt;ol>
-&lt;li>find 2-3 examples of build pipelines in existing open source projects.&lt;/li>
-&lt;li>you may use your project from assignment 02, as well as any of the candidates for the open source project&lt;/li>
-&lt;li>you may choose another platform/tool instead of github actions.&lt;/li>
-&lt;li>if the actions are simple, you should look at three projects.&lt;/li>
-&lt;/ol>
-&lt;h3 id="2-analyse-and-understand-the-build-pipelines--github-actions">2. Analyse and understand the Build Pipelines / Github Actions&lt;/h3>
-&lt;ol>
-&lt;li>read and try to understand the github actions. What are they doing? is this an automated build, tests, or /and deployment?&lt;/li>
-&lt;li>how is the pipeline built?&lt;/li>
-&lt;li>write a brief summary and reflection&lt;/li>
-&lt;/ol>
-&lt;h3 id="3-build-your-own-pipeline">3. Build your own pipeline&lt;/h3>
-&lt;ol>
-&lt;li>build at least one pipeline/github action -
-either for the static code analysers in assignment 02, or, if this is not feasible (e.g. if the used tools have licence restrictions), for another project.&lt;/li>
-&lt;/ol>
-&lt;h3 id="4-write-up">4. Write Up&lt;/h3>
-&lt;p>As always, write up everything in your report, put your names on top and the sources used in the reference section.&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
 clean code principles and/or find patterns that are worth applying for the project.&lt;/p>
 &lt;p>I will add instructions on how to upload your project later this week
 and will do a raffle on saturday for the &amp;ldquo;other&amp;rdquo; project.&lt;/p></description></item><item><title>Info2 SS2015 Schedule</title><link>https://bkleinen.github.io/classes/ss2015/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2015/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
@@ -5377,7 +5354,30 @@ in Person @ HTW Wilhelminenhof and Zoom-Sessions.&lt;/p>
 This can be done together or individually.&lt;/li>
 &lt;/ul>
 &lt;h2 id="part-0-python-project-ideas-pitch-and-group-selection">Part 0: Python Project Ideas Pitch and Group Selection&lt;/h2>
-&lt;p>Bring your Project Ideas to the Lab. You can pitch your project ideas in the beginning of the lab and form teams based on interest just for this project.&lt;/p></description></item><item><title>Benotung und Modulprüfung</title><link>https://bkleinen.github.io/classes/ss2024/projects/pruefung/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/projects/pruefung/</guid><description>&lt;p>Das Modul Praxisprojekt besteht sowohl im Bachelor als auch im Master zwei benoteten Teilmodulprüfungen - der Durchführung und der Showtime. Im Bachelor kommt Projektmanagement als undifferenziert bewertetes Teilmodul dazu:&lt;/p>
+&lt;p>Bring your Project Ideas to the Lab. You can pitch your project ideas in the beginning of the lab and form teams based on interest just for this project.&lt;/p></description></item><item><title>Assignment 03 - Setting up CI/CD Pipelines</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_03/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
+All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
+&lt;p>This exercise is about getting to know ci/cd pipelines with the examples of github actions.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;h3 id="1-pick-2-3-examples">1. Pick 2-3 examples&lt;/h3>
+&lt;ol>
+&lt;li>find 2-3 examples of build pipelines in existing open source projects.&lt;/li>
+&lt;li>you may use your project from assignment 02, as well as any of the candidates for the open source project&lt;/li>
+&lt;li>you may choose another platform/tool instead of github actions.&lt;/li>
+&lt;li>if the actions are simple, you should look at three projects.&lt;/li>
+&lt;/ol>
+&lt;h3 id="2-analyse-and-understand-the-build-pipelines--github-actions">2. Analyse and understand the Build Pipelines / Github Actions&lt;/h3>
+&lt;ol>
+&lt;li>read and try to understand the github actions. What are they doing? is this an automated build, tests, or /and deployment?&lt;/li>
+&lt;li>how is the pipeline built?&lt;/li>
+&lt;li>write a brief summary and reflection&lt;/li>
+&lt;/ol>
+&lt;h3 id="3-build-your-own-pipeline">3. Build your own pipeline&lt;/h3>
+&lt;ol>
+&lt;li>build at least one pipeline/github action -
+either for the static code analysers in assignment 02, or, if this is not feasible (e.g. if the used tools have licence restrictions), for another project.&lt;/li>
+&lt;/ol>
+&lt;h3 id="4-write-up">4. Write Up&lt;/h3>
+&lt;p>As always, write up everything in your report, put your names on top and the sources used in the reference section.&lt;/p></description></item><item><title>Benotung und Modulprüfung</title><link>https://bkleinen.github.io/classes/ss2024/projects/pruefung/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/projects/pruefung/</guid><description>&lt;p>Das Modul Praxisprojekt besteht sowohl im Bachelor als auch im Master zwei benoteten Teilmodulprüfungen - der Durchführung und der Showtime. Im Bachelor kommt Projektmanagement als undifferenziert bewertetes Teilmodul dazu:&lt;/p>
 &lt;h4 id="bachelor">Bachelor&lt;/h4>
 &lt;ul>
 &lt;li>B24 (siehe Anlage 4B der StuPo) 15 LP&lt;/li>
@@ -5859,7 +5859,19 @@ missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;
 &lt;!-- raw HTML omitted -->Test Button in Car. &lt;a href="https://www.flickr.com/photos/cosmic_spanner/3766667411">Foto by Mike Roberts&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;h4 id="1-read-about-closed--and-open-box-tests">1. Read about Closed- and Open-Box Tests.&lt;/h4>
-&lt;p>I chose &amp;ldquo;Closed- and Open-Box Tests&amp;rdquo; as a more inclusive replacement for the terms &amp;ldquo;Black- and White-Box&amp;rdquo; Tests (&lt;a href="#why-i-replaced-the-terms">why?&lt;/a>). I could not find a general agreement on the best replacements, so I chose this terms as I think they are also even a better metaphor for the strategies to find test cases they describe:&lt;/p></description></item><item><title>Lab 05: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>I chose &amp;ldquo;Closed- and Open-Box Tests&amp;rdquo; as a more inclusive replacement for the terms &amp;ldquo;Black- and White-Box&amp;rdquo; Tests (&lt;a href="#why-i-replaced-the-terms">why?&lt;/a>). I could not find a general agreement on the best replacements, so I chose this terms as I think they are also even a better metaphor for the strategies to find test cases they describe:&lt;/p></description></item><item><title>Assignment 07 - One Algorithm</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_07/</guid><description>&lt;p>Pick an algorithm that you don&amp;rsquo;t know yet from about the last third part of an algorithm textbook (that is, not the basic ones done in a bachelor&amp;rsquo;s curriculum), learn about it, write a brief summary containing some sort of diagram and create an implementation.&lt;/p>
+&lt;p>If you find an application from within a project or other course you&amp;rsquo;re working on, the better!&lt;/p>
+&lt;h2 id="algorithm-textbooks">Algorithm Textbooks&lt;/h2>
+&lt;ul>
+&lt;li>Cormen, T.H. et al. (2009) Introduction to Algorithms, Third Edition. 3rd edn. The MIT Press.&lt;/li>
+&lt;li>Roughgarden, T. (2017) Algorithms Illuminated: Part 1: The Basics. Illustrated edition. San Francisco, CA: Soundlikeyourself Publishing.&lt;/li>
+&lt;li>Roughgarden, T. (2018) Algorithms Illuminated (Part 2): Graph Algorithms and Data Structures. 1st edition. San Francisco, CA: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2019) Algorithms Illuminated (Part 3): Greedy Algorithms and Dynamic Programming. Illustrated edition. San Francisco, CA: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2020) Algorithms Illuminated (Part 4): Algorithms for NP-Hard Problems. New York, NY: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2022) Algorithms Illuminated: Omnibus Edition. New York, N.Y: Cambridge University Pr.&lt;/li>
+&lt;li>Sedgewick, R. and Wayne, K. (2011) Algorithms. 4th edn. Addison-Wesley Professional.&lt;/li>
+&lt;li>Sedgewick, R. and Wayne, K. (no date) Companion Webpage for Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne. Available at: &lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a> (Accessed: 20 March 2020).&lt;/li>
+&lt;/ul></description></item><item><title>Lab 05: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;p>Source code scaffold for this exercise: 
  
  
@@ -5952,7 +5964,8 @@ missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;
 &lt;p>&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;h3 id="about-coding-katas">About Coding Katas&lt;/h3>
-&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item><item><title>Lab 06: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
+&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item><item><title>Assignment 08 - Read and Summarize a Book</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_08/</guid><description>&lt;p>Read and Summarize one of the Books below. If you&amp;rsquo;d rather read a book not on the list(with a comparable scope and relevance) send me an email and I may add it to the list.&lt;/p>
+&lt;p>The summary can be short - more of an overview with only the main parts or examples summarized in greater detail. Do at least a part of it as a sketchnote. If you haven&amp;rsquo;t worked with Sketchnotes before, the video from the intro at re:publica 2016 should provide you with enough information.&lt;/p></description></item><item><title>Lab 06: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
 &lt;p>Source code scaffold for this exercise: 
  
  
@@ -8139,7 +8152,6 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
-
  
  
 
@@ -8160,14 +8172,6 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
-
- 
- 
- 
- 
-
- 
- 
  
  
 
@@ -8177,29 +8181,6 @@ uses your application. Make sure to be clear on their intention, the goals they 
  
  
 
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
  
  
 
@@ -8239,27 +8220,9 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
- 
- 
 
  
  
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
- 
- 
- 
-
  
  
 
@@ -8312,6 +8275,31 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
 
  
  
@@ -8324,6 +8312,41 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
  
  
 
