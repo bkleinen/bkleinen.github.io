@@ -57,4 +57,11 @@
 &lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?&lt;/p>
 &lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is the mathematical formula for finding the midpoint of a line segment that connects two Points?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p></description></item></channel></rss>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p></description></item><item><title>Lab 07: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-07/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Make a chess board and mark how a Queen moves and threatens.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Define a matrix (two-dimensional array) of integers in Java. Write a method to put a &lt;em>-1&lt;/em> in every cell of the matrix.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
+a) the cells are in the same row?
+b) the cells are in the same column?
+c) the cells are in the same ascending diagonal (lower left to upper right)?
+d) the cells are in the same descending diagonal (upper left to lower right)?&lt;/p></description></item></channel></rss>
