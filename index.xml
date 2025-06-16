@@ -5871,6 +5871,18 @@ missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;
 &lt;li>Roughgarden, T. (2022) Algorithms Illuminated: Omnibus Edition. New York, N.Y: Cambridge University Pr.&lt;/li>
 &lt;li>Sedgewick, R. and Wayne, K. (2011) Algorithms. 4th edn. Addison-Wesley Professional.&lt;/li>
 &lt;li>Sedgewick, R. and Wayne, K. (no date) Companion Webpage for Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne. Available at: &lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a> (Accessed: 20 March 2020).&lt;/li>
+&lt;/ul></description></item><item><title>Assignment 07 - One Algorithm</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_07/</guid><description>&lt;p>Pick an algorithm that you don&amp;rsquo;t know yet from about the last third part of an algorithm textbook (that is, not the basic ones done in a bachelor&amp;rsquo;s curriculum), learn about it, write a brief summary containing some sort of diagram and create an implementation.&lt;/p>
+&lt;p>If you find an application from within a project or other course you&amp;rsquo;re working on, the better!&lt;/p>
+&lt;h2 id="algorithm-textbooks">Algorithm Textbooks&lt;/h2>
+&lt;ul>
+&lt;li>Cormen, T.H. et al. (2009) Introduction to Algorithms, Third Edition. 3rd edn. The MIT Press.&lt;/li>
+&lt;li>Roughgarden, T. (2017) Algorithms Illuminated: Part 1: The Basics. Illustrated edition. San Francisco, CA: Soundlikeyourself Publishing.&lt;/li>
+&lt;li>Roughgarden, T. (2018) Algorithms Illuminated (Part 2): Graph Algorithms and Data Structures. 1st edition. San Francisco, CA: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2019) Algorithms Illuminated (Part 3): Greedy Algorithms and Dynamic Programming. Illustrated edition. San Francisco, CA: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2020) Algorithms Illuminated (Part 4): Algorithms for NP-Hard Problems. New York, NY: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2022) Algorithms Illuminated: Omnibus Edition. New York, N.Y: Cambridge University Pr.&lt;/li>
+&lt;li>Sedgewick, R. and Wayne, K. (2011) Algorithms. 4th edn. Addison-Wesley Professional.&lt;/li>
+&lt;li>Sedgewick, R. and Wayne, K. (no date) Companion Webpage for Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne. Available at: &lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a> (Accessed: 20 March 2020).&lt;/li>
 &lt;/ul></description></item><item><title>Lab 05: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;p>Source code scaffold for this exercise: 
  
@@ -5965,6 +5977,7 @@ missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;h3 id="about-coding-katas">About Coding Katas&lt;/h3>
 &lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item><item><title>Assignment 08 - Read and Summarize a Book</title><link>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/m1/assignments/assignment_08/</guid><description>&lt;p>Read and Summarize one of the Books below. If you&amp;rsquo;d rather read a book not on the list(with a comparable scope and relevance) send me an email and I may add it to the list.&lt;/p>
+&lt;p>The summary can be short - more of an overview with only the main parts or examples summarized in greater detail. Do at least a part of it as a sketchnote. If you haven&amp;rsquo;t worked with Sketchnotes before, the video from the intro at re:publica 2016 should provide you with enough information.&lt;/p></description></item><item><title>Assignment 08 - Read and Summarize a Book</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_08/</guid><description>&lt;p>Read and Summarize one of the Books below. If you&amp;rsquo;d rather read a book not on the list(with a comparable scope and relevance) send me an email and I may add it to the list.&lt;/p>
 &lt;p>The summary can be short - more of an overview with only the main parts or examples summarized in greater detail. Do at least a part of it as a sketchnote. If you haven&amp;rsquo;t worked with Sketchnotes before, the video from the intro at re:publica 2016 should provide you with enough information.&lt;/p></description></item><item><title>Lab 06: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
 &lt;p>Source code scaffold for this exercise: 
  
@@ -7760,6 +7773,11 @@ uses your application. Make sure to be clear on their intention, the goals they 
  
  
  
+
+ 
+ 
+ 
+ 
  &lt;li>
  
  
@@ -8167,52 +8185,6 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
- 
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
  
  
 
@@ -8243,6 +8215,23 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
  
  
 
@@ -8282,6 +8271,32 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
 
  
  
@@ -8298,6 +8313,14 @@ uses your application. Make sure to be clear on their intention, the goals they 
 
  
  
+ 
+ 
+
+ 
+ 
+ 
+ 
+
  
  
 
@@ -11874,7 +11897,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">25&lt;/td>
  &lt;td style="text-align: left">Fri 20/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
+ &lt;td style="text-align: left">SOLID Principles, Reflection on FizzBuzz Kata / Clean Code&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -11883,7 +11906,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">26&lt;/td>
  &lt;td style="text-align: left">Fri 27/06/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Due: A_07&lt;/td>
  &lt;/tr>

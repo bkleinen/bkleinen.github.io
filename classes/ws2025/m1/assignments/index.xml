@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/</link><description>Recent content in M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2025/m1/assignments/index.xml" rel="self" type="application/rss+xml"/><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+&lt;p>You can work alone on this or in pairs.&lt;/p>
+&lt;h2 id="hand-in">Hand-In&lt;/h2>
+&lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
+Make sure to keep a logbook with notes of anything that you observe to ease writing the report later.&lt;/p>
+&lt;h2 id="assignment">Assignment&lt;/h2>
+&lt;p>You can do the kata in any programming language. Start with a project setup with a running xUnit-Test,
+and a convenient way to automatically re-rerun the all tests after a code change. I find running
+the tests in an extra shell window outside the ide most useful for that - see the &lt;code>testloop.sh&lt;/code>
+script in my python-kata scaffold: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-media-programming/kata-scaffold">https://github.com/htw-imi-media-programming/kata-scaffold&lt;/a>
+&lt;/p></description></item><item><title>Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/refactoring/</guid><description>&lt;h2 id="part-2-refactoring-to-patterns-static-code-analysis">Part 2: Refactoring to Patterns, Static Code Analysis&lt;/h2>
+&lt;p>This exercise is about refactoring to patterns, guided from
+issues found by static code analysis tools.&lt;/p>
+&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
+&lt;ul>
+&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
+&lt;li>static code analysers are not yet part of the build process (or at
+least not sufficiently)&lt;/li>
+&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
+&lt;li>you want to put some work in it&lt;/li>
+&lt;li>is written in a programming language that you want to practice more&lt;/li>
+&lt;/ul>
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Assignment 07 - One Algorithm</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_07/</guid><description>&lt;p>Pick an algorithm that you don&amp;rsquo;t know yet from about the last third part of an algorithm textbook (that is, not the basic ones done in a bachelor&amp;rsquo;s curriculum), learn about it, write a brief summary containing some sort of diagram and create an implementation.&lt;/p>
+&lt;p>If you find an application from within a project or other course you&amp;rsquo;re working on, the better!&lt;/p>
+&lt;h2 id="algorithm-textbooks">Algorithm Textbooks&lt;/h2>
+&lt;ul>
+&lt;li>Cormen, T.H. et al. (2009) Introduction to Algorithms, Third Edition. 3rd edn. The MIT Press.&lt;/li>
+&lt;li>Roughgarden, T. (2017) Algorithms Illuminated: Part 1: The Basics. Illustrated edition. San Francisco, CA: Soundlikeyourself Publishing.&lt;/li>
+&lt;li>Roughgarden, T. (2018) Algorithms Illuminated (Part 2): Graph Algorithms and Data Structures. 1st edition. San Francisco, CA: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2019) Algorithms Illuminated (Part 3): Greedy Algorithms and Dynamic Programming. Illustrated edition. San Francisco, CA: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2020) Algorithms Illuminated (Part 4): Algorithms for NP-Hard Problems. New York, NY: Soundlikeyourself Publishing, LLC.&lt;/li>
+&lt;li>Roughgarden, T. (2022) Algorithms Illuminated: Omnibus Edition. New York, N.Y: Cambridge University Pr.&lt;/li>
+&lt;li>Sedgewick, R. and Wayne, K. (2011) Algorithms. 4th edn. Addison-Wesley Professional.&lt;/li>
+&lt;li>Sedgewick, R. and Wayne, K. (no date) Companion Webpage for Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne. Available at: &lt;a href="https://algs4.cs.princeton.edu/home/">https://algs4.cs.princeton.edu/home/&lt;/a> (Accessed: 20 March 2020).&lt;/li>
+&lt;/ul></description></item><item><title>Assignment 08 - Read and Summarize a Book</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_08/</guid><description>&lt;p>Read and Summarize one of the Books below. If you&amp;rsquo;d rather read a book not on the list(with a comparable scope and relevance) send me an email and I may add it to the list.&lt;/p>
+&lt;p>The summary can be short - more of an overview with only the main parts or examples summarized in greater detail. Do at least a part of it as a sketchnote. If you haven&amp;rsquo;t worked with Sketchnotes before, the video from the intro at re:publica 2016 should provide you with enough information.&lt;/p></description></item></channel></rss>
