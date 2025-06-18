@@ -1,16 +1,16 @@
 name: Deploy Production / HTW
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - 'fix_production_deployment'  
-    tags:
-      - 'v*'
+#  workflow_dispatch:
+#  push:
 #    branches:
-#      - 'main'
-  repository_dispatch:
-    types: ["classes-module-changed"]
+#      - 'fix_production_deployment'  
+#    tags:
+#      - 'v*'
+##    branches:
+##      - 'main'
+#  repository_dispatch:
+#    types: ["classes-module-changed"]
 
 jobs:
   deploy:
