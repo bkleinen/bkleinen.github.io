@@ -6392,7 +6392,19 @@ d) the cells are in the same descending diagonal (upper left to lower right)?&lt
 &lt;p>&lt;strong>P1.&lt;/strong> Make sure the &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/">scaffold app&lt;/a> is installed and running on your machine. Refer to the &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/blob/main/README.md">README.md&lt;/a> for instructions. &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/">https://github.com/htw-imi-info3/django_lab_scaffold/&lt;/a>&lt;/p>
 &lt;p>&lt;strong>P2.&lt;/strong> Startup the app, and create some testdata, using both the studybuddy_app app and the admin app.&lt;/p>
 &lt;p>&lt;strong>P3.&lt;/strong> Have a look at the sourcecode, especially the studybuddy_app part and the Meetup model. Can you make sense of the source code? Take notes of things that are unclear and questions.&lt;/p>
-&lt;p>&lt;strong>P4.&lt;/strong> How does rsvp (participate in meetup) work?&lt;/p></description></item><item><title>Lab 10: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</guid><description>&lt;div class="alert alert-warning" role="alert">
+&lt;p>&lt;strong>P4.&lt;/strong> How does rsvp (participate in meetup) work?&lt;/p></description></item><item><title>Lab 08: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What is the difference between an NFA and an DFA?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Which sorting algorithms have you learned about so far? Review their algorithms.&lt;/p>
+&lt;p>&lt;a href="https://www.geeksforgeeks.org/">Geeks for Geeks&lt;/a> has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. &lt;a href="https://www.geeksforgeeks.org/selection-sort/">Selection Sort&lt;/a>.&lt;/p>
+&lt;p>Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/ufIET8dMnus">Insertion Sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/alJswNJ4P3U">Merge Sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/uXBnyYuwPe8">Quick Sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/k72DtCnY4MU">Heap Sort&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="assignment-1-finite-automata">Assignment 1: Finite Automata&lt;/h2>
+&lt;p>This is to get some practice with Finite Automata.&lt;/p></description></item><item><title>Lab 10: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2024/info2/labs/lab-10/</guid><description>&lt;div class="alert alert-warning" role="alert">
  
  As we haven't discussed Heapsort in enough detail yet, you can postpone the Heapsort walkthroughs to a later lab/time after we discussed Trees, Heaps and Heapsort in more detail. 
 
@@ -8040,6 +8052,9 @@ uses your application. Make sure to be clear on their intention, the goals they 
  &lt;a href= "https://bkleinen.github.io//classes/ws2019/m1-web/schedule/">WS 2019:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
  &lt;/li>
  
+ 
+ 
+
  
  
 

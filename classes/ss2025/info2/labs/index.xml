@@ -64,4 +64,16 @@
 a) the cells are in the same row?
 b) the cells are in the same column?
 c) the cells are in the same ascending diagonal (lower left to upper right)?
-d) the cells are in the same descending diagonal (upper left to lower right)?&lt;/p></description></item></channel></rss>
+d) the cells are in the same descending diagonal (upper left to lower right)?&lt;/p></description></item><item><title>Lab 08: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What is the difference between an NFA and an DFA?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Which sorting algorithms have you learned about so far? Review their algorithms.&lt;/p>
+&lt;p>&lt;a href="https://www.geeksforgeeks.org/">Geeks for Geeks&lt;/a> has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. &lt;a href="https://www.geeksforgeeks.org/selection-sort/">Selection Sort&lt;/a>.&lt;/p>
+&lt;p>Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/ufIET8dMnus">Insertion Sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/alJswNJ4P3U">Merge Sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/uXBnyYuwPe8">Quick Sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/k72DtCnY4MU">Heap Sort&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="assignment-1-finite-automata">Assignment 1: Finite Automata&lt;/h2>
+&lt;p>This is to get some practice with Finite Automata.&lt;/p></description></item></channel></rss>
