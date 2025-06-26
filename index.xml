@@ -6520,7 +6520,8 @@ uses your application. Make sure to be clear on their intention, the goals they 
 &lt;h2 id="identify-resources">Identify Resources&lt;/h2>
 &lt;p>You will build an api in the Rest architectural pattern level 2 - using http, resources and http verbs.
 (See &lt;a href="https://martinfowler.com/articles/richardsonMaturityModel.html">Fowler: Richardson Maturity Model&lt;/a> and the lecture slides).&lt;/p>
-&lt;p>Try to model your use cases as far as possible with CRUD operations on the appropriate resources.
+&lt;p>Try to model your use cases as far as possible with CRUD operations on the appropriate resources,
+to be able to create an api following the Rest Architectural style.
 If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p></description></item><item><title>Lab 07 - Testing</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p>
  
 
