@@ -3434,19 +3434,6 @@ least not sufficiently)&lt;/li>
 &lt;li>(optional) you want to put some work in it&lt;/li>
 &lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
 &lt;/ul>
-&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Assignment 02 - Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_02/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
-All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
-&lt;p>This exercise is about refactoring to patterns, guided from
-issues found by static code analysis tools.&lt;/p>
-&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
-&lt;ul>
-&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
-&lt;li>static code analysers are not yet part of the build process (or at
-least not sufficiently)&lt;/li>
-&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
-&lt;li>(optional) you want to put some work in it&lt;/li>
-&lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
-&lt;/ul>
 &lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
 clean code principles and/or find patterns that are worth applying for the project.&lt;/p>
 &lt;p>I will add instructions on how to upload your project later this week
@@ -6535,17 +6522,32 @@ uses your application. Make sure to be clear on their intention, the goals they 
 (See &lt;a href="https://martinfowler.com/articles/richardsonMaturityModel.html">Fowler: Richardson Maturity Model&lt;/a> and the lecture slides).&lt;/p>
 &lt;p>Try to model your use cases as far as possible with CRUD operations on the appropriate resources,
 to be able to create an api following the Rest Architectural style.
-If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p></description></item><item><title>Lab 07 - Testing</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p>
+If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p></description></item><item><title>Lab 07 - Testing &amp; Lab 08 CI/CD</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p>Example source code for this lab: 
  
-
-&lt;div class="alert alert-danger" role="alert">
  
-Preview: 
-
-&lt;/div>
-
-this lab will be about testing your main use cases and all api-endpoints with jest.&lt;/p>
-&lt;p>Include at least one snapshot test.&lt;/p></description></item><item><title>Lab 10 - Frontend</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</guid><description>&lt;div class="alert alert-danger" role="alert">
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-wt1/lab-07-testing">https://github.com/htw-imi-wt1/lab-07-testing&lt;/a>
+&lt;/p>
+&lt;h2 id="part-1--lab-07">Part 1 / Lab 07&lt;/h2>
+&lt;p>Read through Chapter 8 (Testing).&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>set up jest. see the 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/htw-imi-wt1/lab-07-testing/tree/main/README-JEST.md">README-JEST.md&lt;/a>
+ for my log and hints for the example project&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>create unit tests for your services (see &amp;ldquo;Testing the Middleware with Spies&amp;rdquo;) - if
+you do not have services like in the example in your app, test another component
+that depends on mongoose using the Model/Mongoose Spies.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add an End-to-End Test of the REST API.&lt;/p></description></item><item><title>Lab 10 - Frontend</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</guid><description>&lt;div class="alert alert-danger" role="alert">
  
 Preview: 
 
@@ -8443,11 +8445,6 @@ Preview:
  
  
 
- 
- 
-
- 
- 
  
  
 
