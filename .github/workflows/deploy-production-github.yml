@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - 'v*'
+    branches:
+      - 'main'
   repository_dispatch:
     #types: ["classes-module-tagged"]
     types: ["classes-module-changed"]

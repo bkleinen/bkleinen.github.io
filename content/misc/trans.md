@@ -14,7 +14,7 @@ menu:
 
 # Trans*/TIN* an der HTW:
 
-Last update 14.4.2024 
+**Stand/letztes Update 14.4.2024** - und da man ja aufhören soll, [wenn es am schönsten ist](#1242024-selbstbestimmungsgesetz), wird diese Seite auch nicht mehr weiter aktualisiert werden.
 
 ##### Antidiskriminierung an der HTW
 
@@ -42,10 +42,9 @@ abgesagt werden musste: [http://ag-trans-hopo.org/tin_universities/index.html](h
 
 Es kann immer wieder notwendig sein, z.B. eine Lehrpersonen um Unterstützung, bspw. Änderung des Namens in der Ansprache oder einer Liste zu bitten - 
 Dann können Sie zur Unterstützung die Lehrperson gerne auf diese Seite
-verweisen: [https://home.htw-berlin.de/~kleinen/misc/trans/#liebe-lehrende-an-der-htw-berlin](https://home.htw-berlin.de/~kleinen/misc/trans/#liebe-lehrende-an-der-htw-berlin)
+verweisen: [#liebe-lehrende-an-der-htw-berlin](#liebe-lehrende-an-der-htw-berlin)
 
 Sie können sich bei weiteren Fragen, oder wenn Sie Unterstützung brauchen, auch gerne [bei mir melden](/contact).
-
 
 ### Liebe Lehrende an der HTW Berlin,
 
