@@ -82,7 +82,7 @@
 &lt;/div>
 
 &lt;h1 id="transtin-an-der-htw">Trans*/TIN* an der HTW:&lt;/h1>
-&lt;p>Last update 14.4.2024&lt;/p></description></item><item><title>Email Collector for LSF</title><link>https://bkleinen.github.io/misc/lsf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/lsf/</guid><description>&lt;script>
+&lt;p>&lt;strong>Stand/letztes Update 14.4.2024&lt;/strong> - und da man ja aufhören soll, &lt;a href="#1242024-selbstbestimmungsgesetz">wenn es am schönsten ist&lt;/a>, wird diese Seite auch nicht mehr weiter aktualisiert werden.&lt;/p></description></item><item><title>Email Collector for LSF</title><link>https://bkleinen.github.io/misc/lsf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/misc/lsf/</guid><description>&lt;script>
 
  function convert(){
  const source = document.getElementById("lsfstuff").value;
