@@ -76,4 +76,11 @@ d) the cells are in the same descending diagonal (upper left to lower right)?&lt
 &lt;li>&lt;a href="https://youtu.be/k72DtCnY4MU">Heap Sort&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="assignment-1-finite-automata">Assignment 1: Finite Automata&lt;/h2>
-&lt;p>This is to get some practice with Finite Automata.&lt;/p></description></item></channel></rss>
+&lt;p>This is to get some practice with Finite Automata.&lt;/p></description></item><item><title>Lab 10: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-10/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
+Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
+&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
+&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is a permutation?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P4.&lt;/strong>&lt;/em> How do you determine if two Strings are permutations of each other?&lt;/p>
+&lt;p>&lt;em>&lt;strong>P5.&lt;/strong>&lt;/em> For the bored: How can you generate all permutations of the characters in a String? See &lt;a href="https://www.youtube.com/watch?v=GCm7m5671Ps">Back to Back SWE &amp;ldquo;How To Permute A String - Generate All Permutations Of A String&amp;rdquo;&lt;/a> for a clear explanation of a backtracking solution. See &lt;a href="https://dl.acm.org/doi/10.1145/356689.356692">Sedgewick 1977&lt;/a> (available with VPN) for theoretical details on several different solutions. What if some of the letters are the same? Hint: Look at the &lt;a href="https://de.wikipedia.org/wiki/Multinomialkoeffizient">multinomial coefficient&lt;/a>.&lt;/p></description></item></channel></rss>
