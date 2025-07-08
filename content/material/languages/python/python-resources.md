@@ -53,4 +53,6 @@ This is a collection of Python Resources. See [Python Notes](../python/)
 
 ### Monty Python's Flying Circus
 
-- if you haven't watched it, you should do so: https://www.youtube.com/results?search_query=monty+python%27s+flying+circus
+Python was named after the british comedy group Monty Python:
+- https://docs.python.org/3/faq/general.html#why-is-it-called-python
+- if you haven't watched it, here's a link: https://www.youtube.com/results?search_query=monty+python%27s+flying+circus
