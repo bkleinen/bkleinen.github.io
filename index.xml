@@ -3434,6 +3434,19 @@ least not sufficiently)&lt;/li>
 &lt;li>(optional) you want to put some work in it&lt;/li>
 &lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
 &lt;/ul>
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Assignment 02 - Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_02/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
+All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
+&lt;p>This exercise is about refactoring to patterns, guided from
+issues found by static code analysis tools.&lt;/p>
+&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
+&lt;ul>
+&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
+&lt;li>static code analysers are not yet part of the build process (or at
+least not sufficiently)&lt;/li>
+&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
+&lt;li>(optional) you want to put some work in it&lt;/li>
+&lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
+&lt;/ul>
 &lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>e-learning reviews - Software Design Patterns (GOF) or Clean Code</title><link>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/material/e-learning-reviews/</guid><description>&lt;p>This e-learning is about watching reviewing your own and another python project and apply
 clean code principles and/or find patterns that are worth applying for the project.&lt;/p>
 &lt;p>I will add instructions on how to upload your project later this week
@@ -8465,6 +8478,11 @@ Preview:
 
  
  
+ 
+ 
+
+ 
+ 
 
  
  
@@ -12001,14 +12019,14 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Due: A_06 ?&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">29&lt;/td>
  &lt;td style="text-align: left">Fri 18/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Exam??&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -12022,7 +12040,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">TBD: Due: A_08&lt;/td>
+ &lt;td style="text-align: left">15.8. Due: A_06 Due: A_08&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
@@ -12032,16 +12050,7 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;ol>
-&lt;li>FizzBuzz Kata&lt;/li>
-&lt;li>Refactoring &amp;amp; Static Code Analysis&lt;/li>
-&lt;li>Setting up CI/CD Pipelines&lt;/li>
-&lt;li>Proposal for Open Source Project Contribution&lt;/li>
-&lt;li>99 Bottles - Report on Refactoring Exercise, including source code&lt;/li>
-&lt;li>Report on Open Source Project, including source code&lt;/li>
-&lt;li>Algorithms &amp;amp; Data Structures OR: Report and Reflection on Software Development and Design at your Workplace (as written Reports or Talks?)&lt;/li>
-&lt;li>Report and Sketchnotes on 3 Books or 2 Books and 3 Videos.&lt;/li>
-&lt;/ol></description></item><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
+&lt;p>A_09 2.8.&lt;/p></description></item><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
 &lt;p>Im Dokumentarfilm von Kyra Bartley: &amp;ldquo;Losing Lena&amp;rdquo; 2019, 26 Min.
 &lt;a href="https://www.imdb.com/de/title/tt11337268/">auf imdb&lt;/a> veröffentlicht auf
 &lt;a href="https://www.facebook.com/codelikeagirlau/videos/985614161797010/">Facebook Watch&lt;/a>

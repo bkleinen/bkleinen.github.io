@@ -283,14 +283,14 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Due: A_06 ?&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">29&lt;/td>
  &lt;td style="text-align: left">Fri 18/07/2025&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Exam??&lt;/td>
+ &lt;td style="text-align: left">Exam&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
@@ -304,7 +304,7 @@
  &lt;td style="text-align: left">&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">TBD: Due: A_08&lt;/td>
+ &lt;td style="text-align: left">15.8. Due: A_06 Due: A_08&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
  &lt;td>&lt;/td>
@@ -314,13 +314,4 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;ol>
-&lt;li>FizzBuzz Kata&lt;/li>
-&lt;li>Refactoring &amp;amp; Static Code Analysis&lt;/li>
-&lt;li>Setting up CI/CD Pipelines&lt;/li>
-&lt;li>Proposal for Open Source Project Contribution&lt;/li>
-&lt;li>99 Bottles - Report on Refactoring Exercise, including source code&lt;/li>
-&lt;li>Report on Open Source Project, including source code&lt;/li>
-&lt;li>Algorithms &amp;amp; Data Structures OR: Report and Reflection on Software Development and Design at your Workplace (as written Reports or Talks?)&lt;/li>
-&lt;li>Report and Sketchnotes on 3 Books or 2 Books and 3 Videos.&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;p>A_09 2.8.&lt;/p></description></item></channel></rss>

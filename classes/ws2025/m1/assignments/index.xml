@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/</link><description>Recent content in M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2025/m1/assignments/index.xml" rel="self" type="application/rss+xml"/><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/</link><description>Recent content in M1 Media Programming - Lab Assignments on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2025/m1/assignments/index.xml" rel="self" type="application/rss+xml"/><item><title>Assignment 02 - Refactoring to Patterns Guided by Static Code Analysis</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_02/</guid><description>&lt;p>Please hand in this exercise in teams of three to four.
+All of you need to hand in the same PDF report with clear indications of your individual contributions.&lt;/p>
+&lt;p>This exercise is about refactoring to patterns, guided from
+issues found by static code analysis tools.&lt;/p>
+&lt;p>For this, you need a software project (e.g.one that you&amp;rsquo;ve created during your previous studies, private project, work project) that meets the following criteria:&lt;/p>
+&lt;ul>
+&lt;li>it is probably in need of some code improvements / refactorings&lt;/li>
+&lt;li>static code analysers are not yet part of the build process (or at
+least not sufficiently)&lt;/li>
+&lt;li>you have permission to work on it and share the code - at least the parts you&amp;rsquo;ve worked on - in class&lt;/li>
+&lt;li>(optional) you want to put some work in it&lt;/li>
+&lt;li>(optional) is written in a programming language that you want to practice more&lt;/li>
+&lt;/ul>
+&lt;p>If you cannot find such a project, talk to me:&lt;/p></description></item><item><title>Learn TDD with a Code Kata</title><link>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/kata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2025/m1/assignments/assignment_01/kata/</guid><description>&lt;p>In this assignment you work on a simple Coding Kata - FizzBuzz - to practice Test Driven Design.&lt;/p>
 &lt;p>You can work alone on this or in pairs.&lt;/p>
 &lt;h2 id="hand-in">Hand-In&lt;/h2>
 &lt;p>You will hand in a report and the source code for this assignment as part of the first lab report.
