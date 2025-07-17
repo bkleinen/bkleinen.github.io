@@ -6529,7 +6529,7 @@ uses your application. Make sure to be clear on their intention, the goals they 
 (See &lt;a href="https://martinfowler.com/articles/richardsonMaturityModel.html">Fowler: Richardson Maturity Model&lt;/a> and the lecture slides).&lt;/p>
 &lt;p>Try to model your use cases as far as possible with CRUD operations on the appropriate resources,
 to be able to create an api following the Rest Architectural style.
-If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p></description></item><item><title>Lab 07 - Testing &amp; Lab 08 CI/CD</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p>Example source code for this lab: 
+If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p></description></item><item><title>Lab 07 - Testing</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p>Example source code for this lab: 
  
  
  
@@ -6554,7 +6554,19 @@ you do not have services like in the example in your app, test another component
 that depends on mongoose using the Model/Mongoose Spies.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Add an End-to-End Test of the REST API.&lt;/p></description></item><item><title>Lab 10 - Frontend</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</guid><description>&lt;div class="alert alert-danger" role="alert">
+&lt;p>Add an End-to-End Test of the REST API.&lt;/p></description></item><item><title>Lab 08 - CI/CD</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-08-cicd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-08-cicd/</guid><description>&lt;p>Example source code for this lab: 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/bkleinen/next">https://github.com/bkleinen/next&lt;/a>
+&lt;/p>
+&lt;h2 id="continuous-integration--github-action">Continuous Integration / GitHub Action&lt;/h2>
+&lt;p>Build an automated test workflow into an gh action or gitlab CI/CD&lt;/p>
+&lt;p>The example below uses github actions. you can do the same with other continuous integration tools/services, e.g. Gitlab.
+Feel free to use them instead of github actions.&lt;/p>
+&lt;h3 id="set-up-a-github-action">Set up a Github Action&lt;/h3>
+&lt;p>To run automated tests on github after each push to main (or any other specific or all branches), you need to&lt;/p></description></item><item><title>Lab 10 - Frontend</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</guid><description>&lt;div class="alert alert-danger" role="alert">
  
 Preview: 
 
@@ -8097,6 +8109,9 @@ Preview:
  &lt;a href= "https://bkleinen.github.io//classes/ws2019/m1-web/schedule/">WS 2019:&amp;nbsp;&amp;nbsp;&amp;nbsp;M1 Labs Overall Schedule&lt;/a>
  &lt;/li>
  
+ 
+ 
+
  
  
 
