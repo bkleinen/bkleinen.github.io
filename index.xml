@@ -6572,8 +6572,15 @@ Preview:
 
 &lt;/div>
 
-&lt;p>Add a React Frontend for your (main) Use Cases.&lt;/p>
-&lt;p>Did you need to change/adapt the api?&lt;/p></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;p>Add a React Frontend for your (main) Use Cases.
+The scope should be or of a similar scope to an interface
+for CRUD operations for one Resource.&lt;/p>
+&lt;p>Write a brief report on the structure of your next pages / react
+components and answer the following question:&lt;/p>
+&lt;p>Did you need to change/adapt the api?&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>&lt;strong>tag the final version for this lab with the tag LAB_10&lt;/strong>&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m1-web/schedule/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;table>
  &lt;thead>
  &lt;tr>
