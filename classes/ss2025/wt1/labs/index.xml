@@ -1,91 +1,91 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT1 Topics on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/</link><description>Recent content in WTAT1 Topics on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/wt1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas">1. Project Ideas&lt;/h2>
-&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WTAT1 Topics on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/</link><description>Recent content in WTAT1 Topics on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/wt1/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01 - Project Ideas, Dev Environment Setup, Building a Static Web Site</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-01-static-site/</guid><description>&lt;h2 id="1-project-ideas"&gt;1. Project Ideas&lt;/h2&gt;
+&lt;p&gt;You will be working on one project throughout the term in a small, 3-5 person team.
 Collect and discuss your project ideas with other students. Project Teams will be
-consolidated in the next lab.&lt;/p>
-&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 02 - Simple Express App &amp; Setting up Docker</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</guid><description>&lt;p>We will form the Project groups in this second lab.
+consolidated in the next lab.&lt;/p&gt;
+&lt;p&gt;Write up a short project proposal for discussion in the next lab meeting, possibly together with other students. Develop some user stories for the product backlog. After this discussion we will decide on the different projects and the associated teams for the remainder of this class.&lt;/p&gt;</description></item><item><title>Lab 02 - Simple Express App &amp; Setting up Docker</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-02-first-express-app/</guid><description>&lt;p&gt;We will form the Project groups in this second lab.
 This lab is - apart from the naming - not specific to your chosen theme,
-but has to be done in groups of 3-4 students nonetheless.&lt;/p>
-&lt;h2 id="group-numbering">Group Numbering&lt;/h2>
-&lt;p>Use the &lt;a href="https://moodle.htw-berlin.de/mod/grouptool/view.php?id=1947815">Grouptool in Moodle&lt;/a> to register for a group.
-This is solely to issue unique group numbers for the project teams.&lt;/p>
-&lt;h2 id="textbook">Textbook&lt;/h2>
-&lt;p>We will use this textbook for the app development in the labs:
-&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p></description></item><item><title>Lab 04 - Next.js and Bento Boxes</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-04-next-bento/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-04-next-bento/</guid><description>&lt;p>Continue in the same 3-4 person group.&lt;/p>
-&lt;h2 id="group-numbering">Group Numbering&lt;/h2>
-&lt;p>Use your group number from the last lab. If you need a new number for some reason (usually team reconfigurations), talk to me.&lt;/p>
-&lt;h2 id="textbook">Textbook&lt;/h2>
-&lt;p>We will use this textbook for the app development in the labs:
-&lt;a href="https://nostarch.com/complete-developer">https://nostarch.com/complete-developer&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>all chapter notions refer to this book.&lt;/li>
-&lt;/ul>
-&lt;h2 id="1-bento-box-i">1. Bento Box I&lt;/h2>
-&lt;p>Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em>not&lt;/em> count!) and try to&lt;/p></description></item><item><title>Lab 05 - Persistence and Consistency</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</guid><description>&lt;p>In this lab you will consider the persistency aspects of your app:&lt;/p>
-&lt;ul>
-&lt;li>which data model supports your use cases best?&lt;/li>
-&lt;li>which database should you choose?&lt;/li>
-&lt;li>based on your use cases, which are the requirements for consistency?&lt;/li>
-&lt;li>last not least you will get some hands-on experience with Mongo and Mongoose.&lt;/li>
-&lt;/ul>
-&lt;p>This is a lot - material for 2 weeks.&lt;/p>
-&lt;h2 id="1-use-cases">1. Use Cases&lt;/h2>
-&lt;p>All decisions regarding both your data/domain model as well as consistency requirements depend on your use cases. Create a story on how your application will be used - be creative, tell the story together and take notes. Don&amp;rsquo;t shy away from complex ideas - you will not need to implement them!
+but has to be done in groups of 3-4 students nonetheless.&lt;/p&gt;
+&lt;h2 id="group-numbering"&gt;Group Numbering&lt;/h2&gt;
+&lt;p&gt;Use the &lt;a href="https://moodle.htw-berlin.de/mod/grouptool/view.php?id=1947815"&gt;Grouptool in Moodle&lt;/a&gt; to register for a group.
+This is solely to issue unique group numbers for the project teams.&lt;/p&gt;
+&lt;h2 id="textbook"&gt;Textbook&lt;/h2&gt;
+&lt;p&gt;We will use this textbook for the app development in the labs:
+&lt;a href="https://nostarch.com/complete-developer"&gt;https://nostarch.com/complete-developer&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Lab 04 - Next.js and Bento Boxes</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-04-next-bento/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-04-next-bento/</guid><description>&lt;p&gt;Continue in the same 3-4 person group.&lt;/p&gt;
+&lt;h2 id="group-numbering"&gt;Group Numbering&lt;/h2&gt;
+&lt;p&gt;Use your group number from the last lab. If you need a new number for some reason (usually team reconfigurations), talk to me.&lt;/p&gt;
+&lt;h2 id="textbook"&gt;Textbook&lt;/h2&gt;
+&lt;p&gt;We will use this textbook for the app development in the labs:
+&lt;a href="https://nostarch.com/complete-developer"&gt;https://nostarch.com/complete-developer&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;all chapter notions refer to this book.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="1-bento-box-i"&gt;1. Bento Box I&lt;/h2&gt;
+&lt;p&gt;Collect at least 15 Web-App related Technologies, Acronyms, Buzz Words etc - (browser, client, server, html, css, http(s) do &lt;em&gt;not&lt;/em&gt; count!) and try to&lt;/p&gt;</description></item><item><title>Lab 05 - Persistence and Consistency</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-05-persistence/</guid><description>&lt;p&gt;In this lab you will consider the persistency aspects of your app:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;which data model supports your use cases best?&lt;/li&gt;
+&lt;li&gt;which database should you choose?&lt;/li&gt;
+&lt;li&gt;based on your use cases, which are the requirements for consistency?&lt;/li&gt;
+&lt;li&gt;last not least you will get some hands-on experience with Mongo and Mongoose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a lot - material for 2 weeks.&lt;/p&gt;
+&lt;h2 id="1-use-cases"&gt;1. Use Cases&lt;/h2&gt;
+&lt;p&gt;All decisions regarding both your data/domain model as well as consistency requirements depend on your use cases. Create a story on how your application will be used - be creative, tell the story together and take notes. Don&amp;rsquo;t shy away from complex ideas - you will not need to implement them!
 Give your users a name (make sure to have one for each role if your app will be used by different roles) and be sure to describe in detail when, where, how and especially why your user
-uses your application. Make sure to be clear on their intention, the goals they pursue.&lt;/p></description></item><item><title>Lab 06 - REST API</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-06-apis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-06-apis/</guid><description>&lt;p>In this lab you will build a REST api for your app and finally connect it to the database.&lt;/p>
-&lt;h2 id="identify-resources">Identify Resources&lt;/h2>
-&lt;p>You will build an api in the Rest architectural pattern level 2 - using http, resources and http verbs.
-(See &lt;a href="https://martinfowler.com/articles/richardsonMaturityModel.html">Fowler: Richardson Maturity Model&lt;/a> and the lecture slides).&lt;/p>
-&lt;p>Try to model your use cases as far as possible with CRUD operations on the appropriate resources,
+uses your application. Make sure to be clear on their intention, the goals they pursue.&lt;/p&gt;</description></item><item><title>Lab 06 - REST API</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-06-apis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-06-apis/</guid><description>&lt;p&gt;In this lab you will build a REST api for your app and finally connect it to the database.&lt;/p&gt;
+&lt;h2 id="identify-resources"&gt;Identify Resources&lt;/h2&gt;
+&lt;p&gt;You will build an api in the Rest architectural pattern level 2 - using http, resources and http verbs.
+(See &lt;a href="https://martinfowler.com/articles/richardsonMaturityModel.html"&gt;Fowler: Richardson Maturity Model&lt;/a&gt; and the lecture slides).&lt;/p&gt;
+&lt;p&gt;Try to model your use cases as far as possible with CRUD operations on the appropriate resources,
 to be able to create an api following the Rest Architectural style.
-If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p></description></item><item><title>Lab 07 - Testing</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p>Example source code for this lab: 
+If you decide to deviate from this style or expand it, discuss your decision in your report.&lt;/p&gt;</description></item><item><title>Lab 07 - Testing</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-07-testing/</guid><description>&lt;p&gt;Example source code for this lab: 
  
  
  
  
- &lt;a href="https://github.com/htw-imi-wt1/lab-07-testing">https://github.com/htw-imi-wt1/lab-07-testing&lt;/a>
-&lt;/p>
-&lt;h2 id="part-1--lab-07">Part 1 / Lab 07&lt;/h2>
-&lt;p>Read through Chapter 8 (Testing).&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>set up jest. see the 
+ &lt;a href="https://github.com/htw-imi-wt1/lab-07-testing"&gt;https://github.com/htw-imi-wt1/lab-07-testing&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id="part-1--lab-07"&gt;Part 1 / Lab 07&lt;/h2&gt;
+&lt;p&gt;Read through Chapter 8 (Testing).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;set up jest. see the 
  
  
  
  
- &lt;a href="https://github.com/htw-imi-wt1/lab-07-testing/tree/main/README-JEST.md">README-JEST.md&lt;/a>
- for my log and hints for the example project&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>create unit tests for your services (see &amp;ldquo;Testing the Middleware with Spies&amp;rdquo;) - if
+ &lt;a href="https://github.com/htw-imi-wt1/lab-07-testing/tree/main/README-JEST.md"&gt;README-JEST.md&lt;/a&gt;
+ for my log and hints for the example project&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;create unit tests for your services (see &amp;ldquo;Testing the Middleware with Spies&amp;rdquo;) - if
 you do not have services like in the example in your app, test another component
-that depends on mongoose using the Model/Mongoose Spies.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Add an End-to-End Test of the REST API.&lt;/p></description></item><item><title>Lab 08 - CI/CD</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-08-cicd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-08-cicd/</guid><description>&lt;p>Example source code for this lab: 
+that depends on mongoose using the Model/Mongoose Spies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add an End-to-End Test of the REST API.&lt;/p&gt;</description></item><item><title>Lab 08 - CI/CD</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-08-cicd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-08-cicd/</guid><description>&lt;p&gt;Example source code for this lab: 
  
  
  
  
- &lt;a href="https://github.com/bkleinen/next">https://github.com/bkleinen/next&lt;/a>
-&lt;/p>
-&lt;h2 id="continuous-integration--github-action">Continuous Integration / GitHub Action&lt;/h2>
-&lt;p>Build an automated test workflow into an gh action or gitlab CI/CD&lt;/p>
-&lt;p>The example below uses github actions. you can do the same with other continuous integration tools/services, e.g. Gitlab.
-Feel free to use them instead of github actions.&lt;/p>
-&lt;h3 id="set-up-a-github-action">Set up a Github Action&lt;/h3>
-&lt;p>To run automated tests on github after each push to main (or any other specific or all branches), you need to&lt;/p></description></item><item><title>Lab 10 - Frontend</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</guid><description>&lt;div class="alert alert-danger" role="alert">
+ &lt;a href="https://github.com/bkleinen/next"&gt;https://github.com/bkleinen/next&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id="continuous-integration--github-action"&gt;Continuous Integration / GitHub Action&lt;/h2&gt;
+&lt;p&gt;Build an automated test workflow into an gh action or gitlab CI/CD&lt;/p&gt;
+&lt;p&gt;The example below uses github actions. you can do the same with other continuous integration tools/services, e.g. Gitlab.
+Feel free to use them instead of github actions.&lt;/p&gt;
+&lt;h3 id="set-up-a-github-action"&gt;Set up a Github Action&lt;/h3&gt;
+&lt;p&gt;To run automated tests on github after each push to main (or any other specific or all branches), you need to&lt;/p&gt;</description></item><item><title>Lab 10 - Frontend</title><link>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/wt1/labs/sprint-10-frontend/</guid><description>&lt;div class="alert alert-danger" role="alert"&gt;
  
 Preview: 
 
-&lt;/div>
+&lt;/div&gt;
 
-&lt;p>Add a React Frontend for your (main) Use Cases.
+&lt;p&gt;Add a React Frontend for your (main) Use Cases.
 The scope should be or of a similar scope to an interface
-for CRUD operations for one Resource.&lt;/p>
-&lt;p>Write a brief report on the structure of your next pages / react
-components and answer the following question:&lt;/p>
-&lt;p>Did you need to change/adapt the api?&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>&lt;strong>tag the final version for this lab with the tag LAB_10&lt;/strong>&lt;/em>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+for CRUD operations for one Resource.&lt;/p&gt;
+&lt;p&gt;Write a brief report on the structure of your next pages / react
+components and answer the following question:&lt;/p&gt;
+&lt;p&gt;Did you need to change/adapt the api?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;tag the final version for this lab with the tag LAB_10&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

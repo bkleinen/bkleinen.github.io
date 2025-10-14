@@ -1,193 +1,193 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>User-Centered Web Technology SS2018 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2018/wt4/</link><description>Recent content in User-Centered Web Technology SS2018 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2018/wt4/index.xml" rel="self" type="application/rss+xml"/><item><title>User-Centered Web Technology SS2018</title><link>https://bkleinen.github.io/classes/ss2018/wt4/reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/wt4/reports/</guid><description>&lt;h1 id="report-1">Report 1&lt;/h1>
-&lt;h2 id="start-a-project-template">Start a Project Template&lt;/h2>
-&lt;p>You will have many iterations of the project template! Do not delete anything,
-strikeout with date.&lt;/p>
-&lt;ol>
-&lt;li>Project Details: These include the summary of the Project&lt;/li>
-&lt;li>Title: The Title or codename of the project.&lt;/li>
-&lt;li>Description: A summary defining the objective of the project.&lt;/li>
-&lt;li>Stakeholders: Members who are involved with or have requested the project.&lt;/li>
-&lt;li>Impact Assessment: The observed or intended impact of the project deliverable: Who will be affected by this project? How many users? What business processes will be changed as a result of this project?&lt;/li>
-&lt;li>User Requirements: The requirements of the project, as specified by the user.&lt;/li>
-&lt;li>Specifications Sheet (Functional Requirements): The technical details of the project, or the deliverables that will be developed and/or designed to meet the user requirements.&lt;/li>
-&lt;li>Data Models: Data Flow Diagrams and/or Data Structure Diagrams&lt;/li>
-&lt;li>Data Processes: These are data processes or scripts that the project depends on. The list includes the process name, a description of where it&amp;rsquo;s located, what it does, etc. and runtime/duration. This table will be updated throughout the life of the product.&lt;/li>
-&lt;li>Prototypes: Copies of low- or high fidelity screenshots, mockups, models, etc.&lt;/li>
-&lt;li>Maintenance Notes: Additional notes that would be pertinent to the support of this product.&lt;/li>
-&lt;/ol>
-&lt;h1 id="report-2">Report 2&lt;/h1>
-&lt;h2 id="product-design-report">Product Design Report&lt;/h2>
-&lt;ul>
-&lt;li>Results of Visioning&lt;/li>
-&lt;li>Product Concepts&lt;/li>
-&lt;li>Paper Prototypes&lt;/li>
-&lt;/ul>
-&lt;h1 id="report-3">Report 3&lt;/h1>
-&lt;h2 id="evaluation-iterations">Evaluation Iterations&lt;/h2>
-&lt;ul>
-&lt;li>2 Iterations on Evaluating the Paper Prototypes&lt;/li>
-&lt;li>High Fidelity Prototypes on two Aspects:
-&lt;ul>
-&lt;li>1 Usability Test&lt;/li>
-&lt;li>1 A/B Test&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Reflection on Experience with Testing Methods&lt;/li>
-&lt;li>Continue the Project Template from Report 1!&lt;/li>
-&lt;li>Final Presentation of your Product Concept&lt;/li>
-&lt;/ul></description></item><item><title>User-Centered Web Technology SS2018 Schedule</title><link>https://bkleinen.github.io/classes/ss2018/wt4/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/wt4/schedule/</guid><description>&lt;h2 id="tentative-schedule">Tentative Schedule&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Topic&lt;/th>
- &lt;th style="text-align: left">Reading&lt;/th>
- &lt;th style="text-align: left">Reports Due&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-04-12&lt;/td>
- &lt;td style="text-align: left">Introduction to class &amp;amp; Topics&lt;/td>
- &lt;td style="text-align: left">Chapter 2: What is User-Centered Design &amp;amp; 3 Working with Users&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-04-19&lt;/td>
- &lt;td style="text-align: left">Introduction to UCD&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-04-26&lt;/td>
- &lt;td style="text-align: left">User Research&lt;/td>
- &lt;td style="text-align: left">up to 3/5: &lt;a href="#personas">Personas&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-05-03&lt;/td>
- &lt;td style="text-align: left">User Research: Personas&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-05-10&lt;/td>
- &lt;td style="text-align: left">&amp;mdash; no class &amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-05-17&lt;/td>
- &lt;td style="text-align: left">Design the Product&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">User Research Report&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">20&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-05-24&lt;/td>
- &lt;td style="text-align: left">Design the Product&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">21&lt;/td>
- &lt;td style="text-align: left">Mon, 2018-06-04&lt;/td>
- &lt;td style="text-align: left">Low Fidelity Prototype&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">22&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-06-07&lt;/td>
- &lt;td style="text-align: left">Low Fidelity Prototype&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">23&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-06-14&lt;/td>
- &lt;td style="text-align: left">User Testing I&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Product Design Report&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-06-21&lt;/td>
- &lt;td style="text-align: left">User Testing I&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-06-28&lt;/td>
- &lt;td style="text-align: left">High Fidelity Prototype&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-07-05&lt;/td>
- &lt;td style="text-align: left">Input on A/B Tests and Prototype Tests / High Fidelity Prototype&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-07-12&lt;/td>
- &lt;td style="text-align: left">Input on Usability Tests / User Testing II&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-07-19&lt;/td>
- &lt;td style="text-align: left">User Testing II&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">29&lt;/td>
- &lt;td style="text-align: left">Thu, 2018-07-26&lt;/td>
- &lt;td style="text-align: left">Final Presentations&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Final Report (tbd)&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="resources">Resources&lt;/h2>
-&lt;h3 id="personas">Personas&lt;/h3>
-&lt;h4 id="required-reading-about-personas">Required Reading about Personas:&lt;/h4>
-&lt;ul>
-&lt;li>Chapter 4: Personas. In: Mathis, Lukas: Designed for Use, 2nd ed. Pragmatic Programmers, 2016. in Moodle.&lt;/li>
-&lt;li>Aurora Harley: &lt;a href="https://www.nngroup.com/articles/persona/">Personas Make Users Memorable for Product Team Members&lt;/a>. Article on the Nielsen Norman Group Site, 2015.&lt;/li>
-&lt;li>Laubheimer, Page: &lt;a href="https://www.nngroup.com/articles/personas-jobs-be-done/">Personas vs. Jobs-to-Be-Done&lt;/a>, 2017 - article on the Nielsen Norman Group Site.&lt;/li>
-&lt;/ul>
-&lt;h4 id="optional-reading-about-personas">Optional Reading about Personas:&lt;/h4>
-&lt;ul>
-&lt;li>
-&lt;p>Charles G. Hill, Maren Haag, Alannah Oleson, Chris Mendez, Nicola Marsden, Anita Sarma, and Margaret Burnett. 2017. Gender-Inclusiveness Personas vs. Stereotyping: Can We Have it Both Ways?. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &amp;lsquo;17). ACM, New York, NY, USA, 6658-6671. DOI: &lt;a href="https://doi.org/10.1145/3025453.3025609">https://doi.org/10.1145/3025453.3025609&lt;/a>
-Article in Moodle, &lt;a href="https://www.youtube.com/watch?v=6f1aJhWGfLM">Talk also available as video&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>User-Centered Web Technology SS2018 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2018/wt4/</link><description>Recent content in User-Centered Web Technology SS2018 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2018/wt4/index.xml" rel="self" type="application/rss+xml"/><item><title>User-Centered Web Technology SS2018</title><link>https://bkleinen.github.io/classes/ss2018/wt4/reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/wt4/reports/</guid><description>&lt;h1 id="report-1"&gt;Report 1&lt;/h1&gt;
+&lt;h2 id="start-a-project-template"&gt;Start a Project Template&lt;/h2&gt;
+&lt;p&gt;You will have many iterations of the project template! Do not delete anything,
+strikeout with date.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Project Details: These include the summary of the Project&lt;/li&gt;
+&lt;li&gt;Title: The Title or codename of the project.&lt;/li&gt;
+&lt;li&gt;Description: A summary defining the objective of the project.&lt;/li&gt;
+&lt;li&gt;Stakeholders: Members who are involved with or have requested the project.&lt;/li&gt;
+&lt;li&gt;Impact Assessment: The observed or intended impact of the project deliverable: Who will be affected by this project? How many users? What business processes will be changed as a result of this project?&lt;/li&gt;
+&lt;li&gt;User Requirements: The requirements of the project, as specified by the user.&lt;/li&gt;
+&lt;li&gt;Specifications Sheet (Functional Requirements): The technical details of the project, or the deliverables that will be developed and/or designed to meet the user requirements.&lt;/li&gt;
+&lt;li&gt;Data Models: Data Flow Diagrams and/or Data Structure Diagrams&lt;/li&gt;
+&lt;li&gt;Data Processes: These are data processes or scripts that the project depends on. The list includes the process name, a description of where it&amp;rsquo;s located, what it does, etc. and runtime/duration. This table will be updated throughout the life of the product.&lt;/li&gt;
+&lt;li&gt;Prototypes: Copies of low- or high fidelity screenshots, mockups, models, etc.&lt;/li&gt;
+&lt;li&gt;Maintenance Notes: Additional notes that would be pertinent to the support of this product.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="report-2"&gt;Report 2&lt;/h1&gt;
+&lt;h2 id="product-design-report"&gt;Product Design Report&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Results of Visioning&lt;/li&gt;
+&lt;li&gt;Product Concepts&lt;/li&gt;
+&lt;li&gt;Paper Prototypes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="report-3"&gt;Report 3&lt;/h1&gt;
+&lt;h2 id="evaluation-iterations"&gt;Evaluation Iterations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2 Iterations on Evaluating the Paper Prototypes&lt;/li&gt;
+&lt;li&gt;High Fidelity Prototypes on two Aspects:
+&lt;ul&gt;
+&lt;li&gt;1 Usability Test&lt;/li&gt;
+&lt;li&gt;1 A/B Test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reflection on Experience with Testing Methods&lt;/li&gt;
+&lt;li&gt;Continue the Project Template from Report 1!&lt;/li&gt;
+&lt;li&gt;Final Presentation of your Product Concept&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>User-Centered Web Technology SS2018 Schedule</title><link>https://bkleinen.github.io/classes/ss2018/wt4/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/wt4/schedule/</guid><description>&lt;h2 id="tentative-schedule"&gt;Tentative Schedule&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Reading&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Reports Due&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-04-12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Introduction to class &amp;amp; Topics&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 2: What is User-Centered Design &amp;amp; 3 Working with Users&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-04-19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Introduction to UCD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-04-26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Research&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;up to 3/5: &lt;a href="#personas"&gt;Personas&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-05-03&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Research: Personas&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-05-10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash; no class &amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-05-17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Design the Product&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Research Report&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-05-24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Design the Product&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Mon, 2018-06-04&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Low Fidelity Prototype&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-06-07&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Low Fidelity Prototype&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-06-14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Testing I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Product Design Report&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-06-21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Testing I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-06-28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;High Fidelity Prototype&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-07-05&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Input on A/B Tests and Prototype Tests / High Fidelity Prototype&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-07-12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Input on Usability Tests / User Testing II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-07-19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Testing II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2018-07-26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Final Presentations&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Final Report (tbd)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;h3 id="personas"&gt;Personas&lt;/h3&gt;
+&lt;h4 id="required-reading-about-personas"&gt;Required Reading about Personas:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Chapter 4: Personas. In: Mathis, Lukas: Designed for Use, 2nd ed. Pragmatic Programmers, 2016. in Moodle.&lt;/li&gt;
+&lt;li&gt;Aurora Harley: &lt;a href="https://www.nngroup.com/articles/persona/"&gt;Personas Make Users Memorable for Product Team Members&lt;/a&gt;. Article on the Nielsen Norman Group Site, 2015.&lt;/li&gt;
+&lt;li&gt;Laubheimer, Page: &lt;a href="https://www.nngroup.com/articles/personas-jobs-be-done/"&gt;Personas vs. Jobs-to-Be-Done&lt;/a&gt;, 2017 - article on the Nielsen Norman Group Site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="optional-reading-about-personas"&gt;Optional Reading about Personas:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Charles G. Hill, Maren Haag, Alannah Oleson, Chris Mendez, Nicola Marsden, Anita Sarma, and Margaret Burnett. 2017. Gender-Inclusiveness Personas vs. Stereotyping: Can We Have it Both Ways?. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI &amp;lsquo;17). ACM, New York, NY, USA, 6658-6671. DOI: &lt;a href="https://doi.org/10.1145/3025453.3025609"&gt;https://doi.org/10.1145/3025453.3025609&lt;/a&gt;
+Article in Moodle, &lt;a href="https://www.youtube.com/watch?v=6f1aJhWGfLM"&gt;Talk also available as video&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

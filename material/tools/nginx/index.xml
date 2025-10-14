@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nginx on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tools/nginx/</link><description>Recent content in Nginx on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 09:40:59 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tools/nginx/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx</title><link>https://bkleinen.github.io/material/ops/nginx/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/nginx/</guid><description>&lt;h2 id="nginx">nginX&lt;/h2>
-&lt;ul>
-&lt;li>Website: &lt;a href="https://nginx.org/">https://nginx.org/&lt;/a>&lt;/li>
-&lt;li>Documentation: &lt;a href="https://nginx.org/en/docs/">https://nginx.org/en/docs/&lt;/a>&lt;/li>
-&lt;li>Download: &lt;a href="https://nginx.org/en/download.html">nginx: download&lt;/a>&lt;/li>
-&lt;li>Installation: &lt;a href="https://nginx.org/en/docs/install.html">https://nginx.org/en/docs/install.html&lt;/a>
-&lt;ul>
-&lt;li>Windows: &lt;a href="http://nginx.org/en/docs/windows.html">http://nginx.org/en/docs/windows.html&lt;/a>&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Beginner&amp;rsquo;s guide: &lt;a href="http://nginx.org/en/docs/beginners_guide.html">http://nginx.org/en/docs/beginners_guide.html&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>ءBy default, the configuration file is named nginx.conf and placed in the
-directory &lt;code>/usr/local/nginx/conf&lt;/code>, &lt;code>/etc/nginx&lt;/code>, or &lt;code>/usr/local/etc/nginx&lt;/code>.&lt;/p>
-&lt;h3 id="notes--macos">Notes / MacOs&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>installation with homebrew:&lt;/p>
-&lt;pre>&lt;code> brew install nginx
-&lt;/code>&lt;/pre>
-&lt;/li>
-&lt;li>
-&lt;p>start nginx&lt;/p>
-&lt;pre>&lt;code> nginx -s
-&lt;/code>&lt;/pre>
-&lt;/li>
-&lt;li>
-&lt;p>Where signal may be one of the following:&lt;/p>
-&lt;pre>&lt;code> stop — fast shutdown
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nginx on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tools/nginx/</link><description>Recent content in Nginx on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 09:40:59 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tools/nginx/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx</title><link>https://bkleinen.github.io/material/ops/nginx/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/ops/nginx/</guid><description>&lt;h2 id="nginx"&gt;nginX&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Website: &lt;a href="https://nginx.org/"&gt;https://nginx.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documentation: &lt;a href="https://nginx.org/en/docs/"&gt;https://nginx.org/en/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download: &lt;a href="https://nginx.org/en/download.html"&gt;nginx: download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Installation: &lt;a href="https://nginx.org/en/docs/install.html"&gt;https://nginx.org/en/docs/install.html&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows: &lt;a href="http://nginx.org/en/docs/windows.html"&gt;http://nginx.org/en/docs/windows.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Beginner&amp;rsquo;s guide: &lt;a href="http://nginx.org/en/docs/beginners_guide.html"&gt;http://nginx.org/en/docs/beginners_guide.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ءBy default, the configuration file is named nginx.conf and placed in the
+directory &lt;code&gt;/usr/local/nginx/conf&lt;/code&gt;, &lt;code&gt;/etc/nginx&lt;/code&gt;, or &lt;code&gt;/usr/local/etc/nginx&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id="notes--macos"&gt;Notes / MacOs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;installation with homebrew:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; brew install nginx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;start nginx&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; nginx -s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Where signal may be one of the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; stop — fast shutdown
  quit — graceful shutdown
  reload — reloading the configuration file
  reopen — reopening the log files
-&lt;/code>&lt;/pre>
-&lt;/li>
-&lt;li>
-&lt;p>put configuration under version control:&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;put configuration under version control:&lt;/p&gt;</description></item></channel></rss>

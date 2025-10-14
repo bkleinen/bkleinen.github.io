@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bluej on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/bluej/</link><description>Recent content in Bluej on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/bluej/index.xml" rel="self" type="application/rss+xml"/><item><title>Design of the Original</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</guid><description>&lt;a href =".."> up &lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bluej on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/bluej/</link><description>Recent content in Bluej on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/bluej/index.xml" rel="self" type="application/rss+xml"/><item><title>Design of the Original</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/</guid><description>&lt;a href =".."&gt; up &lt;/a&gt;
 
 
 
 
- &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/">next&amp;gt;&lt;/a>
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/"&gt;next&amp;gt;&lt;/a&gt;
 
 
-&lt;p>The #colon;ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book &lt;a href="https://www.bluej.org/objects-first/">&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a>)&lt;/p>
-&lt;p>Here&amp;rsquo;s a class diagram with the private fields and public methods (Constructors are omitted for clarity):&lt;/p>
-&lt;pre class="mermaid">%%{
+&lt;p&gt;The #colon;ClockDisplay project is the first example for solving a problem using communicating objects. (in the Book &lt;a href="https://www.bluej.org/objects-first/"&gt;&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a class diagram with the private fields and public methods (Constructors are omitted for clarity):&lt;/p&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -24,7 +24,7 @@
 classDiagram
  class ClockDisplay
  class NumberDisplay
- ClockDisplay ..> NumberDisplay
+ ClockDisplay ..&gt; NumberDisplay
  
 
  class ClockDisplay{
@@ -43,63 +43,63 @@ classDiagram
  NumberDisplay: String getDisplayValue()
  NumberDisplay: void setValue(int)
  NumberDisplay: void increment()
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;p>Within the example the field &lt;code>displayString&lt;/code> in ClockDisplay is used to simulate the digital display. It is updated after every change to the time by calling the private method &lt;code>updateDisplay&lt;/code> after every change to the time. The two instances of NumberDisplay generate their part of the displayString in &lt;code>getDisplayValue&lt;/code>.
-But they also hold their part of the model - the value for hours and minutes respectively.&lt;/p></description></item><item><title>ClockDisplay Critique</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/">&amp;lt;prev&lt;/a>
-
-
-
- &lt;a href =".."> up &lt;/a>
+&lt;p&gt;Within the example the field &lt;code&gt;displayString&lt;/code&gt; in ClockDisplay is used to simulate the digital display. It is updated after every change to the time by calling the private method &lt;code&gt;updateDisplay&lt;/code&gt; after every change to the time. The two instances of NumberDisplay generate their part of the displayString in &lt;code&gt;getDisplayValue&lt;/code&gt;.
+But they also hold their part of the model - the value for hours and minutes respectively.&lt;/p&gt;</description></item><item><title>ClockDisplay Critique</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/original_clock_display/"&gt;&amp;lt;prev&lt;/a&gt;
 
 
 
-
- &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/">next&amp;gt;&lt;/a>
-
-
-&lt;p>The ClockDisplay aims at showing object interaction, which it does.&lt;/p>
-&lt;h2 id="the-problems-i-see-are">The problems I see are:&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>it mixes Model and Representation. Furthermore, the Model or more simply put the stored state, which is the time the clocks shows at the moment, is distributed between three objects - a NumberDisplay for hours and minutes respectively, and the ClockDisplay holding the knowledge how to combine the two.&lt;/p></description></item><item><title>A very simple ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/">&amp;lt;prev&lt;/a>
-
-
-
- &lt;a href =".."> up &lt;/a>
+ &lt;a href =".."&gt; up &lt;/a&gt;
 
 
 
 
- &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/">next&amp;gt;&lt;/a>
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/"&gt;next&amp;gt;&lt;/a&gt;
 
 
-&lt;p>All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from &lt;code>getTime()&lt;/code> after either the time has been set to 13:45 by calling &lt;code>setTime()&lt;/code> or after calling the &lt;code>timeTick()&lt;/code> method the appropriate amount of times.&lt;/p>
-&lt;p>This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong>in combination with the timeTick / increment&lt;/strong> makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="../clock_display_critique">general critique on the previous page&lt;/a>.&lt;/p></description></item><item><title>Kara ClockDisplays</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/">&amp;lt;prev&lt;/a>
-
-
-
- &lt;a href =".."> up &lt;/a>
-
-
-
-
- &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/">next&amp;gt;&lt;/a>
-
-
-&lt;p>&amp;hellip; not yet here, see &lt;a href="https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/">KaraClock Exercises&lt;/a> for now&lt;/p></description></item><item><title>LED ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/">&amp;lt;prev&lt;/a>
+&lt;p&gt;The ClockDisplay aims at showing object interaction, which it does.&lt;/p&gt;
+&lt;h2 id="the-problems-i-see-are"&gt;The problems I see are:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;it mixes Model and Representation. Furthermore, the Model or more simply put the stored state, which is the time the clocks shows at the moment, is distributed between three objects - a NumberDisplay for hours and minutes respectively, and the ClockDisplay holding the knowledge how to combine the two.&lt;/p&gt;</description></item><item><title>A very simple ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/clock_display_critique/"&gt;&amp;lt;prev&lt;/a&gt;
 
 
 
- &lt;a href =".."> up &lt;/a>
+ &lt;a href =".."&gt; up &lt;/a&gt;
 
 
 
 
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/"&gt;next&amp;gt;&lt;/a&gt;
 
-&lt;h2 id="documentation">Documentation&lt;/h2>
-&lt;h2 id="leddisplay-extends-clockdisplay">LEDDisplay extends ClockDisplay&lt;/h2>
-&lt;pre class="mermaid">%%{
+
+&lt;p&gt;All the ClockDisplay example really does is returning a String like &amp;ldquo;13:45&amp;rdquo; from &lt;code&gt;getTime()&lt;/code&gt; after either the time has been set to 13:45 by calling &lt;code&gt;setTime()&lt;/code&gt; or after calling the &lt;code&gt;timeTick()&lt;/code&gt; method the appropriate amount of times.&lt;/p&gt;
+&lt;p&gt;This can, of course, be implemented in a much simpler way. While this may be true for most of the small examples we use for programming and software engineering classes, I feel that the way the display is split into two NumberDisplays &lt;strong&gt;in combination with the timeTick / increment&lt;/strong&gt; makes little sense and seems to be quite confusing for students. Also, see the &lt;a href="../clock_display_critique"&gt;general critique on the previous page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Kara ClockDisplays</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/simple_clock_display/"&gt;&amp;lt;prev&lt;/a&gt;
+
+
+
+ &lt;a href =".."&gt; up &lt;/a&gt;
+
+
+
+
+ &lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/"&gt;next&amp;gt;&lt;/a&gt;
+
+
+&lt;p&gt;&amp;hellip; not yet here, see &lt;a href="https://bkleinen.github.io/classes/ws2023/info1/labs/karaclock-complete/"&gt;KaraClock Exercises&lt;/a&gt; for now&lt;/p&gt;</description></item><item><title>LED ClockDisplay</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/led_display/</guid><description>&lt;a href ="https://bkleinen.github.io/material/info1/clock_display_refactoring/kara-clock-display/"&gt;&amp;lt;prev&lt;/a&gt;
+
+
+
+ &lt;a href =".."&gt; up &lt;/a&gt;
+
+
+
+
+
+&lt;h2 id="documentation"&gt;Documentation&lt;/h2&gt;
+&lt;h2 id="leddisplay-extends-clockdisplay"&gt;LEDDisplay extends ClockDisplay&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -117,7 +117,7 @@ classDiagram
  class LEDDisplay
  class NumberDisplay
  ClockDisplay &lt;|-- LEDDisplay
- LEDDisplay ..> NumberDisplay
+ LEDDisplay ..&gt; NumberDisplay
  
 
  class ClockDisplay{
@@ -141,10 +141,10 @@ classDiagram
 
  NumberDisplay: void setValue(int)
  
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;h2 id="clockdisplay-additional-methods-for-clock-and-automatic-ticker">ClockDisplay: additional methods for clock and automatic Ticker&lt;/h2>
-&lt;pre class="mermaid">%%{
+&lt;h2 id="clockdisplay-additional-methods-for-clock-and-automatic-ticker"&gt;ClockDisplay: additional methods for clock and automatic Ticker&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -165,10 +165,10 @@ classDiagram
  void toggleTicker()
  void setTickerSpeed(int)
  }
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;h2 id="leddisplay-settime---complete">LEDDisplay: setTime() - complete&lt;/h2>
-&lt;pre class="mermaid">%%{
+&lt;h2 id="leddisplay-settime---complete"&gt;LEDDisplay: setTime() - complete&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -185,33 +185,33 @@ classDiagram
 sequenceDiagram
  actor YOU
  activate #colon;LEDDisplay
- YOU->>+#colon;LEDDisplay: setTime(13,45)
- #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+ YOU-&gt;&gt;+#colon;LEDDisplay: setTime(13,45)
+ #colon;LEDDisplay-&gt;&gt;+#colon;LEDDisplay: updateDisplay()
  
 
  activate #colon;LEDDisplay
- #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+ #colon;LEDDisplay-&gt;&gt;+#colon;LEDDisplay: updateRealDisplay()
 
  activate hours#colon;NumberDisplay
 
- #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+ #colon;LEDDisplay-&gt;&gt;+hours#colon;NumberDisplay: updateDisplay(13)
  activate lower#colon;LEDDigit
- hours#colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+ hours#colon;NumberDisplay-&gt;&gt;+lower#colon;LEDDigit:display(3)
  deactivate lower#colon;LEDDigit
  activate upper#colon;LEDDigit
- hours#colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+ hours#colon;NumberDisplay-&gt;&gt;+upper#colon;LEDDigit:display(1)
  deactivate upper#colon;LEDDigit
  deactivate hours#colon;NumberDisplay
 
 
  activate minutes#colon;NumberDisplay
- #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+ #colon;LEDDisplay-&gt;&gt;+minutes#colon;NumberDisplay: updateDisplay(45)
 
  activate lower_m#colon;LEDDigit
- minutes#colon;NumberDisplay->>+lower_m#colon;LEDDigit:display(5)
+ minutes#colon;NumberDisplay-&gt;&gt;+lower_m#colon;LEDDigit:display(5)
  deactivate lower_m#colon;LEDDigit
  activate upper_m#colon;LEDDigit
- minutes#colon;NumberDisplay->>+upper_m#colon;LEDDigit:display(4)
+ minutes#colon;NumberDisplay-&gt;&gt;+upper_m#colon;LEDDigit:display(4)
  deactivate upper_m#colon;LEDDigit
 
  deactivate minutes#colon;NumberDisplay
@@ -221,11 +221,11 @@ sequenceDiagram
 
  deactivate #colon;LEDDisplay
  deactivate #colon;LEDDisplay
- #colon;LEDDisplay-->>-YOU:void
-&lt;/pre>
+ #colon;LEDDisplay--&gt;&gt;-YOU:void
+&lt;/pre&gt;
 
-&lt;h2 id="leddisplay-settime---clockdisplay--numberdisplay">LEDDisplay: setTime() - ClockDisplay &amp;amp; NumberDisplay&lt;/h2>
-&lt;pre class="mermaid">%%{
+&lt;h2 id="leddisplay-settime---clockdisplay--numberdisplay"&gt;LEDDisplay: setTime() - ClockDisplay &amp;amp; NumberDisplay&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -242,22 +242,22 @@ sequenceDiagram
 sequenceDiagram
  actor YOU
  activate #colon;LEDDisplay
- YOU->>+#colon;LEDDisplay: setTime(13,45)
- #colon;LEDDisplay->>+#colon;LEDDisplay: updateDisplay()
+ YOU-&gt;&gt;+#colon;LEDDisplay: setTime(13,45)
+ #colon;LEDDisplay-&gt;&gt;+#colon;LEDDisplay: updateDisplay()
  
 
  activate #colon;LEDDisplay
- #colon;LEDDisplay->>+#colon;LEDDisplay: updateRealDisplay()
+ #colon;LEDDisplay-&gt;&gt;+#colon;LEDDisplay: updateRealDisplay()
 
  activate hours#colon;NumberDisplay
 
- #colon;LEDDisplay->>+hours#colon;NumberDisplay: updateDisplay(13)
+ #colon;LEDDisplay-&gt;&gt;+hours#colon;NumberDisplay: updateDisplay(13)
  
  deactivate hours#colon;NumberDisplay
 
 
  activate minutes#colon;NumberDisplay
- #colon;LEDDisplay->>+minutes#colon;NumberDisplay: updateDisplay(45)
+ #colon;LEDDisplay-&gt;&gt;+minutes#colon;NumberDisplay: updateDisplay(45)
 
 
  deactivate minutes#colon;NumberDisplay
@@ -267,11 +267,11 @@ sequenceDiagram
 
  deactivate #colon;LEDDisplay
  deactivate #colon;LEDDisplay
- #colon;LEDDisplay-->>-YOU:void
-&lt;/pre>
+ #colon;LEDDisplay--&gt;&gt;-YOU:void
+&lt;/pre&gt;
 
-&lt;h2 id="leddisplay-settime---both-numberdisplays---leddigit">LEDDisplay: setTime() - both NumberDisplays &amp;amp; LEDDigit&lt;/h2>
-&lt;pre class="mermaid">%%{
+&lt;h2 id="leddisplay-settime---both-numberdisplays---leddigit"&gt;LEDDisplay: setTime() - both NumberDisplays &amp;amp; LEDDigit&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -287,18 +287,18 @@ sequenceDiagram
 }%%
 sequenceDiagram
  
- #colon;LEDDisplay->>+#colon;NumberDisplay: updateDisplay(13)
+ #colon;LEDDisplay-&gt;&gt;+#colon;NumberDisplay: updateDisplay(13)
  activate lower#colon;LEDDigit
- #colon;NumberDisplay->>+lower#colon;LEDDigit:display(3)
+ #colon;NumberDisplay-&gt;&gt;+lower#colon;LEDDigit:display(3)
  deactivate lower#colon;LEDDigit
  activate upper#colon;LEDDigit
- #colon;NumberDisplay->>+upper#colon;LEDDigit:display(1)
+ #colon;NumberDisplay-&gt;&gt;+upper#colon;LEDDigit:display(1)
  deactivate upper#colon;LEDDigit
  deactivate #colon;NumberDisplay
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;h2 id="clockdisplay-original-settime-copy">ClockDisplay original: setTime() copy&lt;/h2>
-&lt;pre class="mermaid">%%{
+&lt;h2 id="clockdisplay-original-settime-copy"&gt;ClockDisplay original: setTime() copy&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -314,25 +314,25 @@ sequenceDiagram
 }%%
 sequenceDiagram
  actor YOU
- YOU->>+#colon;ClockDisplay: setTime(13,45)
- #colon;ClockDisplay->>+hours#colon;NumberDisplay:setValue(13)
- hours#colon;NumberDisplay-->>-#colon;ClockDisplay:void
- #colon;ClockDisplay->>+minutes#colon;NumberDisplay:setValue(45)
- minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:void
+ YOU-&gt;&gt;+#colon;ClockDisplay: setTime(13,45)
+ #colon;ClockDisplay-&gt;&gt;+hours#colon;NumberDisplay:setValue(13)
+ hours#colon;NumberDisplay--&gt;&gt;-#colon;ClockDisplay:void
+ #colon;ClockDisplay-&gt;&gt;+minutes#colon;NumberDisplay:setValue(45)
+ minutes#colon;NumberDisplay--&gt;&gt;-#colon;ClockDisplay:void
  
- #colon;ClockDisplay->>+#colon;ClockDisplay:updateDisplay()
- #colon;ClockDisplay->>+hours#colon;NumberDisplay:getDisplayValue()
- hours#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
- #colon;ClockDisplay->>+minutes#colon;NumberDisplay:getDisplayValue()
- minutes#colon;NumberDisplay-->>-#colon;ClockDisplay:displayString
+ #colon;ClockDisplay-&gt;&gt;+#colon;ClockDisplay:updateDisplay()
+ #colon;ClockDisplay-&gt;&gt;+hours#colon;NumberDisplay:getDisplayValue()
+ hours#colon;NumberDisplay--&gt;&gt;-#colon;ClockDisplay:displayString
+ #colon;ClockDisplay-&gt;&gt;+minutes#colon;NumberDisplay:getDisplayValue()
+ minutes#colon;NumberDisplay--&gt;&gt;-#colon;ClockDisplay:displayString
  
  deactivate #colon;ClockDisplay
 
- #colon;ClockDisplay-->>-YOU:void
-&lt;/pre>
+ #colon;ClockDisplay--&gt;&gt;-YOU:void
+&lt;/pre&gt;
 
-&lt;h2 id="leddisplay-settime-numberdisplay-leddigit">LEDDisplay: setTime() NumberDisplay-&amp;gt;LEDDigit&lt;/h2>
-&lt;pre class="mermaid">%%{
+&lt;h2 id="leddisplay-settime-numberdisplay-leddigit"&gt;LEDDisplay: setTime() NumberDisplay-&amp;gt;LEDDigit&lt;/h2&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -348,22 +348,22 @@ sequenceDiagram
 }%%
 sequenceDiagram
  activate #colon;LEDDigit
- #colon;NumberDisplay->>+#colon;LEDDigit: display(9)
+ #colon;NumberDisplay-&gt;&gt;+#colon;LEDDigit: display(9)
  loop each Segment
  alt segment needs to be shown for value
  activate #colon;Segment
- #colon;LEDDigit->>+#colon;Segment: makeVisible()
+ #colon;LEDDigit-&gt;&gt;+#colon;Segment: makeVisible()
  deactivate #colon;Segment
  else
- #colon;LEDDigit->>+#colon;Segment: makeInvisible()
+ #colon;LEDDigit-&gt;&gt;+#colon;Segment: makeInvisible()
  deactivate #colon;Segment
  end
  end
  deactivate #colon;LEDDigit
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;h3 id="initialization-maybe-old">Initialization (maybe old)&lt;/h3>
-&lt;pre class="mermaid">%%{
+&lt;h3 id="initialization-maybe-old"&gt;Initialization (maybe old)&lt;/h3&gt;
+&lt;pre class="mermaid"&gt;%%{
  init: {
  'theme': 'base',
  'themeVariables': {
@@ -380,57 +380,57 @@ sequenceDiagram
 sequenceDiagram
  actor YOU
  create participant ClockDisplay
- YOU->>+ClockDisplay: new()
+ YOU-&gt;&gt;+ClockDisplay: new()
 
  create participant LEDClockDisplay
- ClockDisplay->>+LEDClockDisplay: new()
+ ClockDisplay-&gt;&gt;+LEDClockDisplay: new()
  create participant Canvas
- LEDClockDisplay->>+Canvas: new()
- Canvas-->>-LEDClockDisplay: canvas
- LEDClockDisplay-->>-ClockDisplay: leds
+ LEDClockDisplay-&gt;&gt;+Canvas: new()
+ Canvas--&gt;&gt;-LEDClockDisplay: canvas
+ LEDClockDisplay--&gt;&gt;-ClockDisplay: leds
 
  loop [ for each number display part]
  create participant NumberDisplay
- ClockDisplay->>+NumberDisplay:new()
- NumberDisplay-->>-ClockDisplay:aNumberDisplay
- ClockDisplay->>+LEDClockDisplay: add(aNumberDisplay)
- LEDClockDisplay->>+NumberDisplay:initDisplay(pos, canvas)
+ ClockDisplay-&gt;&gt;+NumberDisplay:new()
+ NumberDisplay--&gt;&gt;-ClockDisplay:aNumberDisplay
+ ClockDisplay-&gt;&gt;+LEDClockDisplay: add(aNumberDisplay)
+ LEDClockDisplay-&gt;&gt;+NumberDisplay:initDisplay(pos, canvas)
  
  loop [ for each led digit]
  create participant LEDDigit
- NumberDisplay->>+LEDDigit:new(pos, canvas)
+ NumberDisplay-&gt;&gt;+LEDDigit:new(pos, canvas)
 
  loop [ for each led segment]
  create participant Segment
- LEDDigit->>+Segment:new(pos, canvas)
- Segment-->>-LEDDigit: segment
+ LEDDigit-&gt;&gt;+Segment:new(pos, canvas)
+ Segment--&gt;&gt;-LEDDigit: segment
  end
 
- LEDDigit-->>-NumberDisplay: digit
+ LEDDigit--&gt;&gt;-NumberDisplay: digit
  end
 
- NumberDisplay-->>-LEDClockDisplay:void
- LEDClockDisplay-->>-ClockDisplay:void
+ NumberDisplay--&gt;&gt;-LEDClockDisplay:void
+ LEDClockDisplay--&gt;&gt;-ClockDisplay:void
 
 
  end
 
- ClockDisplay-->>-YOU:void
-&lt;/pre>
+ ClockDisplay--&gt;&gt;-YOU:void
+&lt;/pre&gt;
 
-&lt;p>loop [ for each display part]&lt;/p></description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/save_object_bench/</guid><description>&lt;p>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p>
-&lt;h3 id="1-save-the-state-of-your-object-bench">1. Save the state of your object bench&lt;/h3>
-&lt;p>Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class:
-&lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>ClockDisplay Example: Reflections and Improvements</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/</guid><description>&lt;p>I have been working with the ClockDisplay example as shown in the Textbook &lt;a href="https://www.bluej.org/objects-first/">&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a> (Barnes and Kölling 2017) for a while now. While the book contains many great examples that allow the discussion of a broad range of object oriented design,
-this example has some issues that always bugged me.&lt;/p>
-&lt;p>This page is about my approach(es) to improve the ClockDisplay example.&lt;/p></description></item><item><title>JUnit in BlueJ</title><link>https://bkleinen.github.io/material/info1/junit_in_bluej/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/junit_in_bluej/</guid><description>&lt;h2 id="monday-04december-2023">Monday, 04.December 2023&lt;/h2>
-&lt;p>JUnit is not part of the Java API, it is a third-party software.
-You find all information about JUnit, including a &lt;a href="https://junit.org/junit5/docs/current/user-guide/">user guide&lt;/a> and information about and download of the latest version on &lt;a href="https://junit.org">https://junit.org&lt;/a>.&lt;/p>
-&lt;p>As of this writing, the current version is 5.10.1, but the version included in BlueJ 5.2.1 is JUnit 5.5.2, as you can check within the installation of BlueJ:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">BlueJ.app/Contents/Java&amp;gt;ls junit*
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-4.12.jar				junit-jupiter-params-5.5.2.jar		junit-platform-suite-api-1.5.2.jar
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-5.5.2.jar			junit-platform-commons-1.5.2.jar	junit-vintage-engine-5.5.2.jar
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-api-5.5.2.jar		junit-platform-engine-1.5.2.jar
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">junit-jupiter-engine-5.5.2.jar		junit-platform-launcher-1.5.2.jar
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As we only use a &lt;em>very&lt;/em> small portion of JUnit this should not matter - but if you look something up
-in the BlueJ documentation, keep this in mind. (you could also try updating JUnit in the above directory, of course. I haven&amp;rsquo;t tried it.)&lt;/p></description></item></channel></rss>
+&lt;p&gt;loop [ for each display part]&lt;/p&gt;</description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/save_object_bench/</guid><description>&lt;p&gt;You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p&gt;
+&lt;h3 id="1-save-the-state-of-your-object-bench"&gt;1. Save the state of your object bench&lt;/h3&gt;
+&lt;p&gt;Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class:
+&lt;img src="../save_object_bench/image_2.png" alt=""&gt;&lt;/p&gt;</description></item><item><title>ClockDisplay Example: Reflections and Improvements</title><link>https://bkleinen.github.io/material/info1/clock_display_refactoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/clock_display_refactoring/</guid><description>&lt;p&gt;I have been working with the ClockDisplay example as shown in the Textbook &lt;a href="https://www.bluej.org/objects-first/"&gt;&amp;ldquo;Objects First with Java: A Practical Introduction Using Bluej.&amp;rdquo; by David J Barnes and Michael Kölling&lt;/a&gt; (Barnes and Kölling 2017) for a while now. While the book contains many great examples that allow the discussion of a broad range of object oriented design,
+this example has some issues that always bugged me.&lt;/p&gt;
+&lt;p&gt;This page is about my approach(es) to improve the ClockDisplay example.&lt;/p&gt;</description></item><item><title>JUnit in BlueJ</title><link>https://bkleinen.github.io/material/info1/junit_in_bluej/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info1/junit_in_bluej/</guid><description>&lt;h2 id="monday-04december-2023"&gt;Monday, 04.December 2023&lt;/h2&gt;
+&lt;p&gt;JUnit is not part of the Java API, it is a third-party software.
+You find all information about JUnit, including a &lt;a href="https://junit.org/junit5/docs/current/user-guide/"&gt;user guide&lt;/a&gt; and information about and download of the latest version on &lt;a href="https://junit.org"&gt;https://junit.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As of this writing, the current version is 5.10.1, but the version included in BlueJ 5.2.1 is JUnit 5.5.2, as you can check within the installation of BlueJ:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-zsh" data-lang="zsh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;BlueJ.app/Contents/Java&amp;gt;ls junit*
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;junit-4.12.jar				junit-jupiter-params-5.5.2.jar		junit-platform-suite-api-1.5.2.jar
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;junit-jupiter-5.5.2.jar			junit-platform-commons-1.5.2.jar	junit-vintage-engine-5.5.2.jar
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;junit-jupiter-api-5.5.2.jar		junit-platform-engine-1.5.2.jar
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;junit-jupiter-engine-5.5.2.jar		junit-platform-launcher-1.5.2.jar
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As we only use a &lt;em&gt;very&lt;/em&gt; small portion of JUnit this should not matter - but if you look something up
+in the BlueJ documentation, keep this in mind. (you could also try updating JUnit in the above directory, of course. I haven&amp;rsquo;t tried it.)&lt;/p&gt;</description></item></channel></rss>

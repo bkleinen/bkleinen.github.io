@@ -1,65 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/design/</link><description>Recent content in Design on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>&lt;p>&lt;a href="https://mermaid.js.org/">Mermaid&lt;/a> renders diagrams from simple markdown code. It can be used&lt;/p>
-&lt;ul>
-&lt;li>via integrating the available js library (yarn add mermaid),&lt;/li>
-&lt;li>online via &lt;a href="https://mermaid.live/">Mermaid-Live&lt;/a>,&lt;/li>
-&lt;li>is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams">Github markdown files&lt;/a> (and others)&lt;/li>
-&lt;li>and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams">easily integrated into hugo&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
-&lt;/ul>
-&lt;p>Here are some examples taken from Mermaid Live:&lt;/p>
-&lt;pre class="mermaid">stateDiagram-v2
- [*] --> Still
- Still --> [*]
- Still --> Moving
- Moving --> Still
- Moving --> Crash
- Crash --> [*]
-&lt;/pre>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/design/</link><description>Recent content in Design on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/material/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>&lt;p&gt;&lt;a href="https://mermaid.js.org/"&gt;Mermaid&lt;/a&gt; renders diagrams from simple markdown code. It can be used&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;via integrating the available js library (yarn add mermaid),&lt;/li&gt;
+&lt;li&gt;online via &lt;a href="https://mermaid.live/"&gt;Mermaid-Live&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams"&gt;Github markdown files&lt;/a&gt; (and others)&lt;/li&gt;
+&lt;li&gt;and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams"&gt;easily integrated into hugo&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are some examples taken from Mermaid Live:&lt;/p&gt;
+&lt;pre class="mermaid"&gt;stateDiagram-v2
+ [*] --&gt; Still
+ Still --&gt; [*]
+ Still --&gt; Moving
+ Moving --&gt; Still
+ Moving --&gt; Crash
+ Crash --&gt; [*]
+&lt;/pre&gt;
 
-&lt;pre>&lt;code>flowchart TD
+&lt;pre&gt;&lt;code&gt;flowchart TD
  A[Christmas] --&amp;gt;|Get money| B(Go shopping)
  B --&amp;gt; C{Let me think}
  C --&amp;gt;|One| D[Laptop]
  C --&amp;gt;|Two| E[iPhone]
  C --&amp;gt;|Three| F[fa:fa-car Car]
-&lt;/code>&lt;/pre>
-&lt;pre class="mermaid">flowchart TD
- A[Christmas] -->|Get money| B(Go shopping)
- B --> C{Let me think}
- C -->|One| D[Laptop]
- C -->|Two| E[iPhone]
- C -->|Three| F[fa:fa-car Car]
-&lt;/pre>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class="mermaid"&gt;flowchart TD
+ A[Christmas] --&gt;|Get money| B(Go shopping)
+ B --&gt; C{Let me think}
+ C --&gt;|One| D[Laptop]
+ C --&gt;|Two| E[iPhone]
+ C --&gt;|Three| F[fa:fa-car Car]
+&lt;/pre&gt;
 
-&lt;pre class="mermaid">stateDiagram-v2
- [*] --> Still
- Still --> [*]
- Still --> Moving
- Moving --> Still
- Moving --> Crash
- Crash --> [*]
-&lt;/pre>
+&lt;pre class="mermaid"&gt;stateDiagram-v2
+ [*] --&gt; Still
+ Still --&gt; [*]
+ Still --&gt; Moving
+ Moving --&gt; Still
+ Moving --&gt; Crash
+ Crash --&gt; [*]
+&lt;/pre&gt;
 
-&lt;h1 id="flowchart-cheatsheet">Flowchart Cheatsheet&lt;/h1>
-&lt;pre class="mermaid">flowchart TD
- A[Start] --> B{Is it?}
- B -->|Yes| C[OK]
- C --> D[Rethink]
- D --> B
- B ---->|No| E[End]
- id1>This is the text in the box]
+&lt;h1 id="flowchart-cheatsheet"&gt;Flowchart Cheatsheet&lt;/h1&gt;
+&lt;pre class="mermaid"&gt;flowchart TD
+ A[Start] --&gt; B{Is it?}
+ B --&gt;|Yes| C[OK]
+ C --&gt; D[Rethink]
+ D --&gt; B
+ B ----&gt;|No| E[End]
+ id1&gt;This is the text in the box]
  id2{{This is the text in the box}}
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Gilded Rose Kata for Info3</title><link>https://bkleinen.github.io/material/info3/gilded-rose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info3/gilded-rose/</guid><description>&lt;p>&lt;img src="./The_Gilded_Rose.jpg" alt="The Gilded Rose">&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->The Gilded Rose, Trade District, &lt;a href="https://wowpedia.fandom.com/wiki/Gilded_Rose">World of Warcraft.&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>This has been a lab exercise for info3 for many years.&lt;/p>
-&lt;p>Python Scaffold: &lt;a href="https://github.com/htw-imi-info3/gilded-rose">https://github.com/htw-imi-info3/gilded-rose&lt;/a>&lt;/p>
-&lt;h1 id="the-gilded-rose-kata">The Gilded Rose Kata&lt;/h1>
-&lt;p>&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;h3 id="about-coding-katas">About Coding Katas&lt;/h3>
-&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item></channel></rss>
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gilded Rose Kata for Info3</title><link>https://bkleinen.github.io/material/info3/gilded-rose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/info3/gilded-rose/</guid><description>&lt;p&gt;&lt;img src="./The_Gilded_Rose.jpg" alt="The Gilded Rose"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;The Gilded Rose, Trade District, &lt;a href="https://wowpedia.fandom.com/wiki/Gilded_Rose"&gt;World of Warcraft.&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;This has been a lab exercise for info3 for many years.&lt;/p&gt;
+&lt;p&gt;Python Scaffold: &lt;a href="https://github.com/htw-imi-info3/gilded-rose"&gt;https://github.com/htw-imi-info3/gilded-rose&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="the-gilded-rose-kata"&gt;The Gilded Rose Kata&lt;/h1&gt;
+&lt;p&gt;&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;h3 id="about-coding-katas"&gt;About Coding Katas&lt;/h3&gt;
+&lt;p&gt;The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata"&gt;Wikipedia:Kata&lt;/a&gt;). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata"&gt;Wikipedia:Kata&lt;/a&gt;), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/"&gt;Dave Thomas in his blog&lt;/a&gt;, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata"&gt;Kata-Log&lt;/a&gt; for an example that can be browsed by topic and constraint.&lt;/p&gt;</description></item></channel></rss>

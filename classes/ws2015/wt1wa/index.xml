@@ -1,280 +1,280 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2015/wt1wa/</link><description>Recent content in WT1 Web Applications on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2015/wt1wa/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</guid><description>&lt;h1 id="themen-für-rails-projekte">Themen für Rails-Projekte&lt;/h1>
-&lt;ul>
-&lt;li>Shop&lt;/li>
-&lt;li>Terminmanagement für Gruppen, z.B. für Sportverein&lt;/li>
-&lt;li>Forensystem&lt;/li>
-&lt;li>CMS&lt;/li>
-&lt;li>Todo-App&lt;/li>
-&lt;li>Rezepte&lt;/li>
-&lt;li>Live-Chat&lt;/li>
-&lt;li>Twitter-Clone&lt;/li>
-&lt;li>Bug-Reporting&lt;/li>
-&lt;li>Wiki&lt;/li>
-&lt;li>(Fußball-)Tipp-Spiel&lt;/li>
-&lt;li>Trainingstagebuch&lt;/li>
-&lt;li>WG-Verwaltung: Einkaufsliste, Finanzen,&lt;/li>
-&lt;li>WG: Putzplan&lt;/li>
-&lt;li>Github-Clone&lt;/li>
-&lt;/ul></description></item><item><title>Web Applications WS2015/2016 - Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2015/wt1wa/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/schedule/</guid><description>&lt;p>Tentative - this will still be changed and adapted.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Topic&lt;/th>
- &lt;th style="text-align: left">Groups/Names&lt;/th>
- &lt;th style="text-align: left">Homework&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-10-08&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../#schedule">e-learning: Rails Startup&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&amp;ndash;&lt;/td>
- &lt;td style="text-align: left">&amp;ndash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-10-15&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../#schedule">e-learning: Rails Startup&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&amp;ndash;&lt;/td>
- &lt;td style="text-align: left">&amp;ndash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-10-22&lt;/td>
- &lt;td style="text-align: left">Introduction, Ruby, Presentation Topics&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;td style="text-align: left">Find Topic and Group for Rails Project (Moodle), &lt;a href="https://github.com/htw-imi-wt1wa-ws2015/ruby-learning">Ruby Koans&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-10-29&lt;/td>
- &lt;td style="text-align: left">Settlement of Presentation Topics&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week1">Homework 1&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Rails: Active Record and Associations&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-11-05&lt;/td>
- &lt;td style="text-align: left">Rails: Routing, Active Records Queries, Deployment, Migrations&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week2">Homework 2&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-11-12&lt;/td>
- &lt;td style="text-align: left">Rails: Integration Tests and CI Servers&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-11-19&lt;/td>
- &lt;td style="text-align: left">Rails: Routing, Patterns and MVC&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week3">Homework 3&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-11-26&lt;/td>
- &lt;td style="text-align: left">Rails: Feature Tests, Session Management in Rails&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week4">Homework 4&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">CSS and Responsive Design&lt;/td>
- &lt;td style="text-align: left">Matthias, Simon&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-12-03&lt;/td>
- &lt;td style="text-align: left">NodeJS&lt;/td>
- &lt;td style="text-align: left">Konrad, Joshua und Stefan&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week5">Homework 5 - Sprint 1&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">15:45-17:15&lt;/td>
- &lt;td style="text-align: left">AngularJS&lt;/td>
- &lt;td style="text-align: left">Konstantin, Sebastian, Markus&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-12-10&lt;/td>
- &lt;td style="text-align: left">AngularJS&lt;/td>
- &lt;td style="text-align: left">Katia, Ludwig&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week6">Homework 6 - Sprint 2&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">15:45-17:15&lt;/td>
- &lt;td style="text-align: left">JavaScript: Foundations and Manipulating the DOM&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">TBD&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">51&lt;/td>
- &lt;td style="text-align: left">Thu, 2015-12-17&lt;/td>
- &lt;td style="text-align: left">JavaScript, Ecma 6, AJAX&lt;/td>
- &lt;td style="text-align: left">Christina, Nadine, Tu&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week7">Homework 7 - Sprint 3&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Testing, TDD, BDD, UI-Testing&lt;/td>
- &lt;td style="text-align: left">Lars, Jessica&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">Thu, 2016-01-07&lt;/td>
- &lt;td style="text-align: left">Build/Release Process: Hosting &amp;amp; Deployment, Continuous Delivery&lt;/td>
- &lt;td style="text-align: left">Tim, Stefan K., Felix&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week8">Homework 8 - Sprint 4&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Build/Release Process: Gulp, Grunt, Yeoman&lt;/td>
- &lt;td style="text-align: left">Oliver&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">Thu, 2016-01-14&lt;/td>
- &lt;td style="text-align: left">Session Management, Cookies vs. JWT&lt;/td>
- &lt;td style="text-align: left">Max, Stefan N., Michel&lt;/td>
- &lt;td style="text-align: left">Homework 9 - Sprint 5&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Realtime, WebRTC, Websockets&lt;/td>
- &lt;td style="text-align: left">TBD&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">Thu, 2016-01-21&lt;/td>
- &lt;td style="text-align: left">Web Security &amp;amp; SSL&lt;/td>
- &lt;td style="text-align: left">Silvio, Maté&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week10">Homework 10 - Sprint 6&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Security &amp;amp; SSL, SSL-Zertifizierung&lt;/td>
- &lt;td style="text-align: left">TBD&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">Thu, 2016-01-28&lt;/td>
- &lt;td style="text-align: left">Persistence NOSQL&lt;/td>
- &lt;td style="text-align: left">Moritz, Arian&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../homework/week11">Homework 11 - Sprint 7&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Maps &amp;amp; Geographical Applications&lt;/td>
- &lt;td style="text-align: left">Gley , Ramin&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">Thu, 2016-02-04&lt;/td>
- &lt;td style="text-align: left">Final Project Presentations&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">15:45-19:00&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">Thu, 2016-02-11&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Final Reports Due (Sprint 7 and Presentations)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2015/wt1wa/</link><description>Recent content in WT1 Web Applications on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2015/wt1wa/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/rails-topics/</guid><description>&lt;h1 id="themen-für-rails-projekte"&gt;Themen für Rails-Projekte&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Shop&lt;/li&gt;
+&lt;li&gt;Terminmanagement für Gruppen, z.B. für Sportverein&lt;/li&gt;
+&lt;li&gt;Forensystem&lt;/li&gt;
+&lt;li&gt;CMS&lt;/li&gt;
+&lt;li&gt;Todo-App&lt;/li&gt;
+&lt;li&gt;Rezepte&lt;/li&gt;
+&lt;li&gt;Live-Chat&lt;/li&gt;
+&lt;li&gt;Twitter-Clone&lt;/li&gt;
+&lt;li&gt;Bug-Reporting&lt;/li&gt;
+&lt;li&gt;Wiki&lt;/li&gt;
+&lt;li&gt;(Fußball-)Tipp-Spiel&lt;/li&gt;
+&lt;li&gt;Trainingstagebuch&lt;/li&gt;
+&lt;li&gt;WG-Verwaltung: Einkaufsliste, Finanzen,&lt;/li&gt;
+&lt;li&gt;WG: Putzplan&lt;/li&gt;
+&lt;li&gt;Github-Clone&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Web Applications WS2015/2016 - Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2015/wt1wa/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2015/wt1wa/schedule/</guid><description>&lt;p&gt;Tentative - this will still be changed and adapted.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Groups/Names&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Homework&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;41&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-10-08&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../#schedule"&gt;e-learning: Rails Startup&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ndash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ndash;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-10-15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../#schedule"&gt;e-learning: Rails Startup&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ndash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ndash;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;43&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-10-22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Introduction, Ruby, Presentation Topics&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Find Topic and Group for Rails Project (Moodle), &lt;a href="https://github.com/htw-imi-wt1wa-ws2015/ruby-learning"&gt;Ruby Koans&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-10-29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Settlement of Presentation Topics&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week1"&gt;Homework 1&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails: Active Record and Associations&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;45&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-11-05&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails: Routing, Active Records Queries, Deployment, Migrations&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week2"&gt;Homework 2&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;46&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-11-12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails: Integration Tests and CI Servers&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-11-19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails: Routing, Patterns and MVC&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week3"&gt;Homework 3&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;48&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-11-26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails: Feature Tests, Session Management in Rails&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week4"&gt;Homework 4&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;CSS and Responsive Design&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Matthias, Simon&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;49&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-12-03&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;NodeJS&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Konrad, Joshua und Stefan&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week5"&gt;Homework 5 - Sprint 1&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15:45-17:15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;AngularJS&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Konstantin, Sebastian, Markus&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-12-10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;AngularJS&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Katia, Ludwig&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week6"&gt;Homework 6 - Sprint 2&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15:45-17:15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;JavaScript: Foundations and Manipulating the DOM&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;TBD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;51&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2015-12-17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;JavaScript, Ecma 6, AJAX&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Christina, Nadine, Tu&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week7"&gt;Homework 7 - Sprint 3&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Testing, TDD, BDD, UI-Testing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lars, Jessica&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2016-01-07&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Build/Release Process: Hosting &amp;amp; Deployment, Continuous Delivery&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tim, Stefan K., Felix&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week8"&gt;Homework 8 - Sprint 4&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Build/Release Process: Gulp, Grunt, Yeoman&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Oliver&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2016-01-14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Session Management, Cookies vs. JWT&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Max, Stefan N., Michel&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Homework 9 - Sprint 5&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Realtime, WebRTC, Websockets&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;TBD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2016-01-21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Security &amp;amp; SSL&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Silvio, Maté&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week10"&gt;Homework 10 - Sprint 6&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Security &amp;amp; SSL, SSL-Zertifizierung&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;TBD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2016-01-28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Persistence NOSQL&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Moritz, Arian&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../homework/week11"&gt;Homework 11 - Sprint 7&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Maps &amp;amp; Geographical Applications&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gley , Ramin&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2016-02-04&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Final Project Presentations&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15:45-19:00&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu, 2016-02-11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Final Reports Due (Sprint 7 and Presentations)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

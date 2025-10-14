@@ -1,224 +1,224 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2018/media-programming-rails/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Assignments</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/assignments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/assignments/</guid><description>&lt;h1 id="web-frameworks">Web frameworks&lt;/h1>
-&lt;p>While developing the test application with your chosen framework, consider the following aspects of your chosen framework:&lt;/p>
-&lt;ol>
-&lt;li>Routing and Architectural Patterns&lt;/li>
-&lt;li>How is HTML generated&lt;/li>
-&lt;li>Authentication&lt;/li>
-&lt;li>Persistency and Connectivity to Databases&lt;/li>
-&lt;li>Security&lt;/li>
-&lt;/ol>
-&lt;h1 id="github-repository">Github repository&lt;/h1>
-&lt;p>&lt;a href="https://github.com/htw-imi-m1/rails-todo-list-ss2018">https://github.com/htw-imi-m1/rails-todo-list-ss2018&lt;/a>&lt;/p>
-&lt;h1 id="thema-todo-liste">Thema: Todo-Liste&lt;/h1>
-&lt;h2 id="backlog">Backlog&lt;/h2>
-&lt;ol>
-&lt;li>As a user, I can create an Entry in the Todo List&lt;/li>
-&lt;li>As a user, I can delete an Entry&lt;/li>
-&lt;li>As a user, I can edit an Entry&lt;/li>
-&lt;li>As a user, I can mark an Entry as done&lt;/li>
-&lt;li>As a user, I can see a list of all Todo Entries.&lt;/li>
-&lt;li>As a user, I can filter all todo entries by 1. Category/Topic&lt;/li>
-&lt;li>As a user, I can mark an entry as important.&lt;/li>
-&lt;li>As a user, I can add a Category/Topic to an Todo 1. Entry&lt;/li>
-&lt;li>As a user, I can create a Category/Topic for Todo 1. Entries.&lt;/li>
-&lt;li>As a user, I can see Todos sorted by due date.&lt;/li>
-&lt;li>As a user, I can add a due date to a todo entry.&lt;/li>
-&lt;/ol></description></item><item><title>M1 Media Programming: Web Technology</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/web/</guid><description>&lt;h2 id="welcome">Welcome!&lt;/h2>
-&lt;p>This pages introduce you to the web application part of the &amp;ldquo;Epochenunterricht&amp;rdquo; in M1 Mediaprogramming.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2018/media-programming-rails/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Assignments</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/assignments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/assignments/</guid><description>&lt;h1 id="web-frameworks"&gt;Web frameworks&lt;/h1&gt;
+&lt;p&gt;While developing the test application with your chosen framework, consider the following aspects of your chosen framework:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Routing and Architectural Patterns&lt;/li&gt;
+&lt;li&gt;How is HTML generated&lt;/li&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Persistency and Connectivity to Databases&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="github-repository"&gt;Github repository&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/htw-imi-m1/rails-todo-list-ss2018"&gt;https://github.com/htw-imi-m1/rails-todo-list-ss2018&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="thema-todo-liste"&gt;Thema: Todo-Liste&lt;/h1&gt;
+&lt;h2 id="backlog"&gt;Backlog&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;As a user, I can create an Entry in the Todo List&lt;/li&gt;
+&lt;li&gt;As a user, I can delete an Entry&lt;/li&gt;
+&lt;li&gt;As a user, I can edit an Entry&lt;/li&gt;
+&lt;li&gt;As a user, I can mark an Entry as done&lt;/li&gt;
+&lt;li&gt;As a user, I can see a list of all Todo Entries.&lt;/li&gt;
+&lt;li&gt;As a user, I can filter all todo entries by 1. Category/Topic&lt;/li&gt;
+&lt;li&gt;As a user, I can mark an entry as important.&lt;/li&gt;
+&lt;li&gt;As a user, I can add a Category/Topic to an Todo 1. Entry&lt;/li&gt;
+&lt;li&gt;As a user, I can create a Category/Topic for Todo 1. Entries.&lt;/li&gt;
+&lt;li&gt;As a user, I can see Todos sorted by due date.&lt;/li&gt;
+&lt;li&gt;As a user, I can add a due date to a todo entry.&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>M1 Media Programming: Web Technology</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/web/</guid><description>&lt;h2 id="welcome"&gt;Welcome!&lt;/h2&gt;
+&lt;p&gt;This pages introduce you to the web application part of the &amp;ldquo;Epochenunterricht&amp;rdquo; in M1 Mediaprogramming.
 The Epochenunterricht consists of 3 x 5 laboratory sessions for the three study focuses Web Technology,
-Visual Computing and Game Technology respectively. Have a look at the &lt;a href="../overall-schedule">tentative overall schedule&lt;/a> to
-see how this breaks down.&lt;/p>
-&lt;h2 id="what-we-will-do">What we will do&lt;/h2>
-&lt;p>Within the five weeks of Web Technology, you will work on your own Web Application Project in a more or less
+Visual Computing and Game Technology respectively. Have a look at the &lt;a href="../overall-schedule"&gt;tentative overall schedule&lt;/a&gt; to
+see how this breaks down.&lt;/p&gt;
+&lt;h2 id="what-we-will-do"&gt;What we will do&lt;/h2&gt;
+&lt;p&gt;Within the five weeks of Web Technology, you will work on your own Web Application Project in a more or less
 agile manner. Less agile, because you will work on the user stories not in the order of business value, but
-in a technology driven order.&lt;/p></description></item><item><title>M1 Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/overall-schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/overall-schedule/</guid><description>&lt;!-- raw HTML omitted -->
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">JF&lt;/th>
- &lt;th style="text-align: left">Topic Area&lt;/th>
- &lt;th style="text-align: left">Lecturer&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-04-11&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/">Visual Computing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">Klaus Jung&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-04-18&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/">Visual Computing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-04-25&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/">Visual Computing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">Kai Barthel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-05-02&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/">Visual Computing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-05-09&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/">Visual Computing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-05-16&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">Tobias Lenz&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">20&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-05-23&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">Tobias Lenz&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">21&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-05-30&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">Tobias Lenz&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">22&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-06-06&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">Tobias Lenz&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">23&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-06-13&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">Tobias Lenz&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-06-20&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-06-27&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-04&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-11&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-18&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">29&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-25&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">TBD&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item><item><title>M1 Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/schedule/</guid><description>&lt;!-- raw HTML omitted -->
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Topic&lt;/th>
- &lt;th style="text-align: left">Assignment&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-06-20&lt;/td>
- &lt;td style="text-align: left">Project Start, Topics&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-04&lt;/td>
- &lt;td style="text-align: left">Which application to build? Features of Web Frameworks&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../assignments/#web-frameworks">Web Frameworks&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-11&lt;/td>
- &lt;td style="text-align: left">Security&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-18&lt;/td>
- &lt;td style="text-align: left">The Web Specialisation&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-07-25&lt;/td>
- &lt;td style="text-align: left">Presentations&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+in a technology driven order.&lt;/p&gt;</description></item><item><title>M1 Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/overall-schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/overall-schedule/</guid><description>&lt;!-- raw HTML omitted --&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;JF&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic Area&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecturer&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-04-11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/"&gt;Visual Computing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Klaus Jung&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-04-18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/"&gt;Visual Computing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-04-25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/"&gt;Visual Computing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Kai Barthel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-05-02&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/"&gt;Visual Computing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-05-09&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://home.htw-berlin.de/~jungk/mp_ss18/"&gt;Visual Computing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-05-16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tobias Lenz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-05-23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tobias Lenz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-05-30&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tobias Lenz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-06-06&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tobias Lenz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-06-13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tobias Lenz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-06-20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-06-27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-04&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;TBD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>M1 Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2018/media-programming-rails/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2018/media-programming-rails/schedule/</guid><description>&lt;!-- raw HTML omitted --&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Assignment&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-06-20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Project Start, Topics&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-04&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Which application to build? Features of Web Frameworks&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../assignments/#web-frameworks"&gt;Web Frameworks&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Security&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;The Web Specialisation&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-07-25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Presentations&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

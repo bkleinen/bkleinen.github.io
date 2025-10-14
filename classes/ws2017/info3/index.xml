@@ -1,314 +1,314 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2017/info3/</link><description>Recent content in B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2017/info3/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 3 Code Overview</title><link>https://bkleinen.github.io/classes/ws2017/info3/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2017/info3/code/</guid><description>&lt;p>All code examples can be found on the github organization &lt;a href="https://github.com/htw-imi-info3-archive">htw-imi-info3-archive&lt;/a> - please note that there&amp;rsquo;s also stuff form former semesters, this is the list of repositories &amp;ldquo;released&amp;rdquo; for this term WS2015/16:&lt;/p>
-&lt;p>None so far.&lt;/p></description></item><item><title>Info3 Schedule (tentative)</title><link>https://bkleinen.github.io/classes/ws2017/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2017/info3/schedule/</guid><description>&lt;!-- raw HTML omitted -->
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Lecture Topic&lt;/th>
- &lt;th style="text-align: left">Lab&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-10-10&lt;/td>
- &lt;td style="text-align: left">Intro&lt;/td>
- &lt;td style="text-align: left">Ruby Intro&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-01-startup">1 - Installation, Git and Ruby&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-10-11&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Source Code Management&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-10-17&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Intro to Info3&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-01-startup">1 - Installation, Git and Ruby&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-10-18&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">More Ruby, Pair Programming and Code Review (and some more practical git)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-10-24&lt;/td>
- &lt;td style="text-align: left">Process&lt;/td>
- &lt;td style="text-align: left">System Modelling and Architectural Design I&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-02-usecases-class">2 - Use Cases and Class Diagrams&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-10-25&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">System Modelling and Architectural Design II&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-10-31&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;em>&lt;strong>Reformationstag&lt;/strong>&lt;/em>&lt;/td>
- &lt;td style="text-align: left">(no lab)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-11-01&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Requirements Engineering&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-11-07&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">no lecture&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-11-08&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">no lecture&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-11-14&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Engineering and Software Development Processes&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-03-sequence-state">3 - Sequence Diagrams and State Machine Diagrams&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-11-15&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Design Patterns&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-11-22&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Testing&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-03-sequence-state">3 - Sequence Diagrams and State Machine Diagrams&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;!-- raw HTML omitted --> Fri, 2017-11-24&lt;!-- raw HTML omitted -->&lt;/td>
- &lt;td style="text-align: left">Architecture&lt;/td>
- &lt;td style="text-align: left">Agile Development, Agile Manifesto, Scrum&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-11-28&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Application Architectures&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-04-testing">4 - Testing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-11-29&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Rails I&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-12-05&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-04-testing">4 - Testing&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-12-06&lt;/td>
- &lt;td style="text-align: left">Practices&lt;/td>
- &lt;td style="text-align: left">Refactoring, Working with Legacy Code&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-12-13&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">SOLID Principles, Refactoring to Patterns&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-05-legacy">5 - Legacy Code - Refactoring to Patterns&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;!-- raw HTML omitted --> Fri, 2017-12-15&lt;!-- raw HTML omitted -->&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Software Processes&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">51&lt;/td>
- &lt;td style="text-align: left">Tue, 2017-12-19&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Clean Code (Doppelstunde)&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-05-legacy">5 - Legacy Code - Refactoring to Patterns&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2017-12-20&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Rails II, Models and Preparation for the Rails Project&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">Tue, 2018-01-02&lt;/td>
- &lt;td style="text-align: left">Practical&lt;/td>
- &lt;td style="text-align: left">Rails III, POEAA Revisited, Model View Controller&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-06-rails-1">6 - Rails First Steps&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-01-03&lt;/td>
- &lt;td style="text-align: left">Application&lt;/td>
- &lt;td style="text-align: left">ORM and Associations in Rails&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">Tue, 2018-01-09&lt;/td>
- &lt;td style="text-align: left">in Rails&lt;/td>
- &lt;td style="text-align: left">Internationalization and Localization&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-06-rails-1">6 - Rails First Steps&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-01-10&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">OO In Depth 1: Composition and Inheritance&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">Tue, 2018-01-16&lt;/td>
- &lt;td style="text-align: left">OO in Depth&lt;/td>
- &lt;td style="text-align: left">OO In Depth 2: Ruby Dynamic Typing, Duck Typing&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-07-rails-2">7 - Rails Associations and Internationalization&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-01-17&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Dependency Management, Build Management, Continuous Integration &amp;amp; Deployment&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">Tue, 2018-01-23&lt;/td>
- &lt;td style="text-align: left">Managing Delivery&lt;/td>
- &lt;td style="text-align: left">Software Engineering and Software Development Processes revisited&lt;/td>
- &lt;td style="text-align: left">Trial Exam and Extra Quizz for those who missed one&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-01-24&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Exam Preparation&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">Tue, 2018-01-30&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Exam&lt;/td>
- &lt;td style="text-align: left">Exam&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed, 2018-01-31&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">No Lecture (Prüfungszeit)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-02-02&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Showtime !&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2017/info3/</link><description>Recent content in B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2017/info3/index.xml" rel="self" type="application/rss+xml"/><item><title>Info 3 Code Overview</title><link>https://bkleinen.github.io/classes/ws2017/info3/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2017/info3/code/</guid><description>&lt;p&gt;All code examples can be found on the github organization &lt;a href="https://github.com/htw-imi-info3-archive"&gt;htw-imi-info3-archive&lt;/a&gt; - please note that there&amp;rsquo;s also stuff form former semesters, this is the list of repositories &amp;ldquo;released&amp;rdquo; for this term WS2015/16:&lt;/p&gt;
+&lt;p&gt;None so far.&lt;/p&gt;</description></item><item><title>Info3 Schedule (tentative)</title><link>https://bkleinen.github.io/classes/ws2017/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2017/info3/schedule/</guid><description>&lt;!-- raw HTML omitted --&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecture Topic&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lab&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;41&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-10-10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Intro&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Ruby Intro&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-01-startup"&gt;1 - Installation, Git and Ruby&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-10-11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Source Code Management&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-10-17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Intro to Info3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-01-startup"&gt;1 - Installation, Git and Ruby&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-10-18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;More Ruby, Pair Programming and Code Review (and some more practical git)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;43&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-10-24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Process&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;System Modelling and Architectural Design I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-02-usecases-class"&gt;2 - Use Cases and Class Diagrams&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-10-25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;System Modelling and Architectural Design II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-10-31&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;em&gt;&lt;strong&gt;Reformationstag&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(no lab)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-11-01&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Requirements Engineering&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;45&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-11-07&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no lecture&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-11-08&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no lecture&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;46&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-11-14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Engineering and Software Development Processes&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-03-sequence-state"&gt;3 - Sequence Diagrams and State Machine Diagrams&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-11-15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Design Patterns&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-11-22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Testing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-03-sequence-state"&gt;3 - Sequence Diagrams and State Machine Diagrams&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;!-- raw HTML omitted --&gt; Fri, 2017-11-24&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Architecture&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Agile Development, Agile Manifesto, Scrum&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;48&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-11-28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Application Architectures&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-04-testing"&gt;4 - Testing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-11-29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;49&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-12-05&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Patterns of Enterprise Application Architecture (POEAA)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-04-testing"&gt;4 - Testing&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-12-06&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Practices&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Refactoring, Working with Legacy Code&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-12-13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;SOLID Principles, Refactoring to Patterns&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-05-legacy"&gt;5 - Legacy Code - Refactoring to Patterns&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;!-- raw HTML omitted --&gt; Fri, 2017-12-15&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Processes&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;51&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2017-12-19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Clean Code (Doppelstunde)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-05-legacy"&gt;5 - Legacy Code - Refactoring to Patterns&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2017-12-20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails II, Models and Preparation for the Rails Project&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2018-01-02&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Practical&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Rails III, POEAA Revisited, Model View Controller&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-06-rails-1"&gt;6 - Rails First Steps&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-01-03&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Application&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;ORM and Associations in Rails&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2018-01-09&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;in Rails&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Internationalization and Localization&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-06-rails-1"&gt;6 - Rails First Steps&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-01-10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;OO In Depth 1: Composition and Inheritance&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2018-01-16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;OO in Depth&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;OO In Depth 2: Ruby Dynamic Typing, Duck Typing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-07-rails-2"&gt;7 - Rails Associations and Internationalization&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-01-17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Dependency Management, Build Management, Continuous Integration &amp;amp; Deployment&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2018-01-23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Managing Delivery&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Engineering and Software Development Processes revisited&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Trial Exam and Extra Quizz for those who missed one&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-01-24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam Preparation&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue, 2018-01-30&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed, 2018-01-31&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;No Lecture (Prüfungszeit)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-02-02&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Showtime !&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

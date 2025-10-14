@@ -1,310 +1,310 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2024/m1/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2024/m1/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 WS 2024/2025 Wednesday Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/schedule/</guid><description>&lt;p>Stand: 10.10.2024 -
-&lt;a href="https://bkleinen.github.io/classes/m1">M1 Schedule Overview&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2024/m1/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://bkleinen.github.io/classes/ws2024/m1/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 WS 2024/2025 Wednesday Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/schedule/</guid><description>&lt;p&gt;Stand: 10.10.2024 -
+&lt;a href="https://bkleinen.github.io/classes/m1"&gt;M1 Schedule Overview&lt;/a&gt;
 /
-&lt;a href="https://github.com/progwebtec/classes-module/blob/main/content/classes/ws2024/m1/schedule/index.md">Edit this page via github&lt;/a> (ask BK for rsepo permissions first)&lt;/p>
-&lt;p>Time and Room: See LSF (link in external links above)&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Topic Area&lt;/th>
- &lt;th style="text-align: left">Lecturer&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">40&lt;/td>
- &lt;td style="text-align: left">Wed 02/10/2024&lt;/td>
- &lt;td style="text-align: left">(erster Vorlesungstag)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">Wed 09/10/2024&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Klaus Jung&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">Wed 16/10/2024&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">Wed 23/10/2024&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Kai Barthel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">Wed 30/10/2024&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">Wed 06/11/2024&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">&lt;del>Wed 13/11/2024&lt;/del> Fri 15/11/2024 9:45 bis 11:15 Zoom&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">&lt;del>Wed 20/11/2024&lt;/del> Fri 22/11/2024 9:45 bis 11:15 Zoom&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">&lt;del>Wed 27/11/2024&lt;/del> Fri 29/11/2024 9:45 bis 11:15 Zoom&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">&lt;del>Wed 04/12/2024&lt;/del> Fri 06/12/2024 9:45 bis 11:15 Zoom&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">&lt;del>Wed 11/12/2024&lt;/del> Fri 13/12/2024 9:45 bis 11:15 Zoom&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">51&lt;/td>
- &lt;td style="text-align: left">Wed 18/12/2024&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">52&lt;/td>
- &lt;td style="text-align: left">Wed 25/12/2024&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">Wed 01/01/2025&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&amp;mdash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">Wed 08/01/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">Wed 15/01/2025&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">Wed 22/01/2025 (1.PZ)&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">Wed 29/01/2025 (1.PZ)&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">Wed 05/02/2025 (1.PZ)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item><item><title>M1 WS 2024/2025 Labs Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/main/</guid><description>&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Tentative Due Dates (will be fixed in class 1.11.)&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Topic Area&lt;/th>
- &lt;th style="text-align: left">Lab&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 11/10/2024&lt;/td>
- &lt;td style="text-align: left">Class Intro&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 18/10/2024&lt;/td>
- &lt;td style="text-align: left">IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td>
- &lt;td style="text-align: left">Kata&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 25/10/2024&lt;/td>
- &lt;td style="text-align: left">Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 01/11/2024&lt;/td>
- &lt;td style="text-align: left">Software Quality, Software Crafting, Clean Code&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">A_01: 7.11.&lt;/td>
- &lt;td style="text-align: left">Fri 08/11/2024&lt;/td>
- &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">A_03: 18.11. Project Selection&lt;/td>
- &lt;td style="text-align: left">Fri 15/11/2024&lt;/td>
- &lt;td style="text-align: left">Refactoring Exercise: 99 Bottles&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">A_02: 21.11.&lt;/td>
- &lt;td style="text-align: left">Fri 22/11/2024&lt;/td>
- &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 29/11/2024&lt;/td>
- &lt;td style="text-align: left">Contribute to an Open Source Project&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 06/12/2024&lt;/td>
- &lt;td style="text-align: left">Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">A_03: 12.12.&lt;/td>
- &lt;td style="text-align: left">Fri 13/12/2024&lt;/td>
- &lt;td style="text-align: left">Advanced Algorithms (TBD)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">51&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 20/12/2024&lt;/td>
- &lt;td style="text-align: left">Real-Life Stories / Software Development in the real world (TBD)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">52&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 27/12/2024&lt;/td>
- &lt;td style="text-align: left">Winterpause&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 03/01/2025&lt;/td>
- &lt;td style="text-align: left">Winterpause&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">A_04?&lt;/td>
- &lt;td style="text-align: left">Fri 10/01/2025&lt;/td>
- &lt;td style="text-align: left">Programming Paradigms - Functional Programming, Concurrency Patterns (TBD)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 17/01/2025&lt;/td>
- &lt;td style="text-align: left">TBD&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">A_05?&lt;/td>
- &lt;td style="text-align: left">Fri 24/01/2025&lt;/td>
- &lt;td style="text-align: left">1.PZ&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 31/01/2025&lt;/td>
- &lt;td style="text-align: left">Exam&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 07/02/2025&lt;/td>
- &lt;td style="text-align: left">Showtime&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>Prüfung 2. PZ geplant für den 31.03.2025.
-Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item></channel></rss>
+&lt;a href="https://github.com/progwebtec/classes-module/blob/main/content/classes/ws2024/m1/schedule/index.md"&gt;Edit this page via github&lt;/a&gt; (ask BK for rsepo permissions first)&lt;/p&gt;
+&lt;p&gt;Time and Room: See LSF (link in external links above)&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic Area&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecturer&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;40&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 02/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(erster Vorlesungstag)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;41&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 09/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Klaus Jung&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 16/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;43&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 23/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Kai Barthel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 30/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;45&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 06/11/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;46&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;del&gt;Wed 13/11/2024&lt;/del&gt; Fri 15/11/2024 9:45 bis 11:15 Zoom&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;del&gt;Wed 20/11/2024&lt;/del&gt; Fri 22/11/2024 9:45 bis 11:15 Zoom&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;48&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;del&gt;Wed 27/11/2024&lt;/del&gt; Fri 29/11/2024 9:45 bis 11:15 Zoom&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;49&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;del&gt;Wed 04/12/2024&lt;/del&gt; Fri 06/12/2024 9:45 bis 11:15 Zoom&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;del&gt;Wed 11/12/2024&lt;/del&gt; Fri 13/12/2024 9:45 bis 11:15 Zoom&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;51&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 18/12/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;52&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 25/12/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 01/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 08/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 15/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 22/01/2025 (1.PZ)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 29/01/2025 (1.PZ)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 05/02/2025 (1.PZ)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>M1 WS 2024/2025 Labs Schedule</title><link>https://bkleinen.github.io/classes/ws2024/m1/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2024/m1/main/</guid><description>&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Tentative Due Dates (will be fixed in class 1.11.)&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic Area&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lab&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;41&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 11/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Class Intro&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 18/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;IDEs, Automatic Testing, Patterns, Refactoring (OOD)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Kata&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;43&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 25/10/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Patterns of Enterprise Applications, Persistent Data, Docker, CI/CD, Server Administration&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 01/11/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Quality, Software Crafting, Clean Code&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;45&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;A_01: 7.11.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 08/11/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Refactoring Exercise: 99 Bottles&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;46&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;A_03: 18.11. Project Selection&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 15/11/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Refactoring Exercise: 99 Bottles&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;A_02: 21.11.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 22/11/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Contribute to an Open Source Project&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;48&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 29/11/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Contribute to an Open Source Project&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;49&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 06/12/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Architecture: Command Query Separation, Event Driven Architecture, Hexagonal Architecture&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;A_03: 12.12.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 13/12/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Advanced Algorithms (TBD)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;51&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 20/12/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Real-Life Stories / Software Development in the real world (TBD)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;52&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 27/12/2024&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Winterpause&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 03/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Winterpause&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;A_04?&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 10/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Programming Paradigms - Functional Programming, Concurrency Patterns (TBD)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 17/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;TBD&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;A_05?&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 24/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1.PZ&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 31/01/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 07/02/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Showtime&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Prüfung 2. PZ geplant für den 31.03.2025.
+Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p&gt;</description></item></channel></rss>

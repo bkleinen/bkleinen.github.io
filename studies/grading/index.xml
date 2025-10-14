@@ -1,60 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>General Information on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/studies/grading/</link><description>Recent content in General Information on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/studies/grading/index.xml" rel="self" type="application/rss+xml"/><item><title>Grading Scale</title><link>https://bkleinen.github.io/studies/grading/grading-scale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/studies/grading/grading-scale/</guid><description>&lt;p>This is the official grading scale according to the &lt;a href="https://www.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2013/04_13.pdf">RPO&lt;/a>. There are 110-120 percent possible on all courses I teach.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Percent&lt;/th>
- &lt;th style="text-align: left">Grade&lt;/th>
- &lt;th style="text-align: left">Percent&lt;/th>
- &lt;th style="text-align: left">Grade&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">95 ≤ p&lt;/td>
- &lt;td style="text-align: left">1,0&lt;/td>
- &lt;td style="text-align: left">65 ≤ p &amp;lt; 70&lt;/td>
- &lt;td style="text-align: left">3,0&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">90 ≤ p &amp;lt; 95&lt;/td>
- &lt;td style="text-align: left">1,3&lt;/td>
- &lt;td style="text-align: left">60 ≤ p &amp;lt; 65&lt;/td>
- &lt;td style="text-align: left">3,3&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">85 ≤ p &amp;lt; 90&lt;/td>
- &lt;td style="text-align: left">1,7&lt;/td>
- &lt;td style="text-align: left">55 ≤ p &amp;lt; 60&lt;/td>
- &lt;td style="text-align: left">3,7&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">80 ≤ p &amp;lt; 85&lt;/td>
- &lt;td style="text-align: left">2,0&lt;/td>
- &lt;td style="text-align: left">50 ≤ p &amp;lt; 55&lt;/td>
- &lt;td style="text-align: left">4,0&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">75 ≤ p &amp;lt; 80&lt;/td>
- &lt;td style="text-align: left">2,3&lt;/td>
- &lt;td style="text-align: left">0 ≤ p &amp;lt; 50&lt;/td>
- &lt;td style="text-align: left">5,0&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">70 ≤ p &amp;lt; 75&lt;/td>
- &lt;td style="text-align: left">2,7&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item><item><title>Guideline to Lab Reports and Assignments</title><link>https://bkleinen.github.io/studies/grading/guideline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/studies/grading/guideline/</guid><description>&lt;h1 id="general-info-about-lab-reports-and-grading">General Info about Lab Reports and Grading&lt;/h1>
-&lt;h2 id="what-to-hand-in">What to hand in&lt;/h2>
-&lt;p>The assignments will clearly state wether you need to hand in a LabReport as PDF, source code or both.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>if both PDF and source code have to be submitted, always upload the PDF report as a separate file.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>depending on the class, source code will be submitted using a zip file or via a shared git repo.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>in any case, &lt;strong>do not&lt;/strong> include the pdf in the source code. Upload it seperately to Moodle.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>General Information on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/studies/grading/</link><description>Recent content in General Information on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/studies/grading/index.xml" rel="self" type="application/rss+xml"/><item><title>Grading Scale</title><link>https://bkleinen.github.io/studies/grading/grading-scale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/studies/grading/grading-scale/</guid><description>&lt;p&gt;This is the official grading scale according to the &lt;a href="https://www.htw-berlin.de/fileadmin/HTW/Zentral/Rechtsstelle/Amtliche_Mitteilungsblaetter/2013/04_13.pdf"&gt;RPO&lt;/a&gt;. There are 110-120 percent possible on all courses I teach.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Percent&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Grade&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Percent&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Grade&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;95 ≤ p&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1,0&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;65 ≤ p &amp;lt; 70&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3,0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;90 ≤ p &amp;lt; 95&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1,3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;60 ≤ p &amp;lt; 65&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3,3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;85 ≤ p &amp;lt; 90&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1,7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;55 ≤ p &amp;lt; 60&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3,7&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;80 ≤ p &amp;lt; 85&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2,0&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50 ≤ p &amp;lt; 55&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4,0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;75 ≤ p &amp;lt; 80&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2,3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;0 ≤ p &amp;lt; 50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5,0&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;70 ≤ p &amp;lt; 75&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2,7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Guideline to Lab Reports and Assignments</title><link>https://bkleinen.github.io/studies/grading/guideline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/studies/grading/guideline/</guid><description>&lt;h1 id="general-info-about-lab-reports-and-grading"&gt;General Info about Lab Reports and Grading&lt;/h1&gt;
+&lt;h2 id="what-to-hand-in"&gt;What to hand in&lt;/h2&gt;
+&lt;p&gt;The assignments will clearly state wether you need to hand in a LabReport as PDF, source code or both.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;if both PDF and source code have to be submitted, always upload the PDF report as a separate file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;depending on the class, source code will be submitted using a zip file or via a shared git repo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;in any case, &lt;strong&gt;do not&lt;/strong&gt; include the pdf in the source code. Upload it seperately to Moodle.&lt;/p&gt;</description></item></channel></rss>

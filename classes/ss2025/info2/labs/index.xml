@@ -1,86 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatik 2 Summer 2025 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/</link><description>Recent content in B7 Informatik 2 Summer 2025 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/info2/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01: Implementing CRC Cards</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-01/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
-&lt;p>After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab.&lt;/p>
-&lt;p>I remember programming concepts concerning classes and objects:&lt;/p>
-&lt;ul>
-&lt;li>I know the difference between classes and objects.&lt;/li>
-&lt;li>I can instantiate an object.&lt;/li>
-&lt;/ul>
-&lt;p>I remember programming concepts concerning fields and variable types:&lt;/p></description></item><item><title>Lab 02: Histogram</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-02/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
-&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
-&lt;p>I can handle file-based IO with Java:&lt;/p>
-&lt;ul>
-&lt;li>I can read from a text file using a Reader, eg. BufferedReader.&lt;/li>
-&lt;li>I can write to a text file using a Writer, eg. BufferedWriter.&lt;/li>
-&lt;li>I close my streams after I finished reading or writing.&lt;/li>
-&lt;li>I can use try-with-resources to make sure that in the end, a resource is always closed.&lt;/li>
-&lt;/ul>
-&lt;p>I can handle exceptions:&lt;/p></description></item><item><title>Lab 03: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-03/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
-&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
-&lt;p>I can use the Socket API for TCP connections:&lt;/p>
-&lt;ul>
-&lt;li>I can create a server that listens for and accepts connections&lt;/li>
-&lt;li>I can create a client that makes a connection request to the server&lt;/li>
-&lt;li>I can send text from a client to a server via streams&lt;/li>
-&lt;li>I can send text from a server to a client via streams&lt;/li>
-&lt;li>I can use multithreading to simultaneously process tcp requests and input from the user&lt;/li>
-&lt;li>(if you do the &amp;ldquo;for the bored&amp;rdquo; part: I can use multithreading for the server to handle multiple connection requests)&lt;/li>
-&lt;/ul>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>Write down the code for the following questions and be able to explain what is happening.&lt;/p></description></item><item><title>Lab 04: Execution times</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-04/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
-&lt;p>After this lab you should be able to agree with each of the following statements.&lt;/p>
-&lt;p>I can evaluate the efficiency of algorithms:&lt;/p>
-&lt;ul>
-&lt;li>I understand the correlation between input and running time for different program structures&lt;/li>
-&lt;li>I can use big-o-notation to describe the running time of algorithms&lt;/li>
-&lt;li>I can calculate the running time of algorithms by adding up running times of different structures&lt;/li>
-&lt;li>I can compare running times based on their running time in big-o-notation&lt;/li>
-&lt;/ul>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Programs A and B are analyzed and are found to have worst-case running times no greater than $150 N \log N$ and $N^2$, respectively. Answer the following questions, if possible:&lt;/p></description></item><item><title>Lab 05: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>Source code scaffold for this exercise: 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B7 Informatik 2 Summer 2025 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/</link><description>Recent content in B7 Informatik 2 Summer 2025 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2025/info2/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 01: Implementing CRC Cards</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-01/</guid><description>&lt;h2 id="learning-goals"&gt;Learning Goals&lt;/h2&gt;
+&lt;p&gt;After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab.&lt;/p&gt;
+&lt;p&gt;I remember programming concepts concerning classes and objects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I know the difference between classes and objects.&lt;/li&gt;
+&lt;li&gt;I can instantiate an object.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I remember programming concepts concerning fields and variable types:&lt;/p&gt;</description></item><item><title>Lab 02: Histogram</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-02/</guid><description>&lt;h2 id="learning-goals"&gt;Learning Goals&lt;/h2&gt;
+&lt;p&gt;After this lab you should be able to agree with each of the following statements.&lt;/p&gt;
+&lt;p&gt;I can handle file-based IO with Java:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I can read from a text file using a Reader, eg. BufferedReader.&lt;/li&gt;
+&lt;li&gt;I can write to a text file using a Writer, eg. BufferedWriter.&lt;/li&gt;
+&lt;li&gt;I close my streams after I finished reading or writing.&lt;/li&gt;
+&lt;li&gt;I can use try-with-resources to make sure that in the end, a resource is always closed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I can handle exceptions:&lt;/p&gt;</description></item><item><title>Lab 03: Chatterbox</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-03/</guid><description>&lt;h2 id="learning-goals"&gt;Learning Goals&lt;/h2&gt;
+&lt;p&gt;After this lab you should be able to agree with each of the following statements.&lt;/p&gt;
+&lt;p&gt;I can use the Socket API for TCP connections:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I can create a server that listens for and accepts connections&lt;/li&gt;
+&lt;li&gt;I can create a client that makes a connection request to the server&lt;/li&gt;
+&lt;li&gt;I can send text from a client to a server via streams&lt;/li&gt;
+&lt;li&gt;I can send text from a server to a client via streams&lt;/li&gt;
+&lt;li&gt;I can use multithreading to simultaneously process tcp requests and input from the user&lt;/li&gt;
+&lt;li&gt;(if you do the &amp;ldquo;for the bored&amp;rdquo; part: I can use multithreading for the server to handle multiple connection requests)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;Write down the code for the following questions and be able to explain what is happening.&lt;/p&gt;</description></item><item><title>Lab 04: Execution times</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-04/</guid><description>&lt;h2 id="learning-goals"&gt;Learning Goals&lt;/h2&gt;
+&lt;p&gt;After this lab you should be able to agree with each of the following statements.&lt;/p&gt;
+&lt;p&gt;I can evaluate the efficiency of algorithms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I understand the correlation between input and running time for different program structures&lt;/li&gt;
+&lt;li&gt;I can use big-o-notation to describe the running time of algorithms&lt;/li&gt;
+&lt;li&gt;I can calculate the running time of algorithms by adding up running times of different structures&lt;/li&gt;
+&lt;li&gt;I can compare running times based on their running time in big-o-notation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P1.&lt;/strong&gt;&lt;/em&gt; Programs A and B are analyzed and are found to have worst-case running times no greater than $150 N \log N$ and $N^2$, respectively. Answer the following questions, if possible:&lt;/p&gt;</description></item><item><title>Lab 05: Reverse Polish Notation</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-05/</guid><description>&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;Source code scaffold for this exercise: 
  
  
  
  
- &lt;a href="https://github.com/htw-imi-info2/Lab07_ReversePolishNotation">https://github.com/htw-imi-info2/Lab07_ReversePolishNotation&lt;/a>
-&lt;/p>
-&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the &lt;a href="../lab-07-handout">hand out&lt;/a>.&lt;/p>
-&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is the order of precedence for the operators &amp;ldquo;+&amp;rdquo;, &amp;ldquo;-&amp;rdquo;, &amp;ldquo;*&amp;rdquo;, &amp;ldquo;/&amp;rdquo;, &amp;ldquo;^&amp;rdquo;? If we wanted to include &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo; in this order, where would each of them be?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?&lt;/p></description></item><item><title>Lab 06: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</guid><description>&lt;p>&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle">&lt;/p>
-&lt;p>Source code scaffold for this exercise: 
+ &lt;a href="https://github.com/htw-imi-info2/Lab07_ReversePolishNotation"&gt;https://github.com/htw-imi-info2/Lab07_ReversePolishNotation&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P1.&lt;/strong&gt;&lt;/em&gt; Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the &lt;a href="../lab-07-handout"&gt;hand out&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P2.&lt;/strong&gt;&lt;/em&gt; What is the order of precedence for the operators &amp;ldquo;+&amp;rdquo;, &amp;ldquo;-&amp;rdquo;, &amp;ldquo;*&amp;rdquo;, &amp;ldquo;/&amp;rdquo;, &amp;ldquo;^&amp;rdquo;? If we wanted to include &amp;ldquo;(&amp;rdquo; and &amp;ldquo;)&amp;rdquo; in this order, where would each of them be?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P3.&lt;/strong&gt;&lt;/em&gt; Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?&lt;/p&gt;</description></item><item><title>Lab 06: Recursive Triangles</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-06/</guid><description>&lt;p&gt;&lt;img src="../images/SierpinskiTriangle.png" alt="Sierpinski Triangle" title="Sierpinski Triangle"&gt;&lt;/p&gt;
+&lt;p&gt;Source code scaffold for this exercise: 
  
  
  
  
- &lt;a href="https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle">https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle&lt;/a>
-&lt;/p>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is the mathematical formula for finding the midpoint of a line segment that connects two Points?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p></description></item><item><title>Lab 07: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-07/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Make a chess board and mark how a Queen moves and threatens.&lt;/p>
-&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Define a matrix (two-dimensional array) of integers in Java. Write a method to put a &lt;em>-1&lt;/em> in every cell of the matrix.&lt;/p>
-&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
+ &lt;a href="https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle"&gt;https://github.com/htw-imi-info2/Lab08_SierpinskiTriangle&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P1.&lt;/strong&gt;&lt;/em&gt; What exactly is an equilateral triangle? Draft a class that draws a triangle. What data do you need to know in order to put a triangle at a particular position on the screen?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P2.&lt;/strong&gt;&lt;/em&gt; What is the mathematical formula for finding the midpoint of a line segment that connects two Points?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P3.&lt;/strong&gt;&lt;/em&gt; What is the resolution of your computer screen? How can you find out? What is the largest equilateral triangle that you can show on a screen with this resolution?&lt;/p&gt;</description></item><item><title>Lab 07: Eight Queens</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-07/</guid><description>&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P1.&lt;/strong&gt;&lt;/em&gt; Make a chess board and mark how a Queen moves and threatens.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P2.&lt;/strong&gt;&lt;/em&gt; Define a matrix (two-dimensional array) of integers in Java. Write a method to put a &lt;em&gt;-1&lt;/em&gt; in every cell of the matrix.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P3.&lt;/strong&gt;&lt;/em&gt; Given two cells in a matrix, (r1, c1) and (r2, c2). How can you determine if
 a) the cells are in the same row?
 b) the cells are in the same column?
 c) the cells are in the same ascending diagonal (lower left to upper right)?
-d) the cells are in the same descending diagonal (upper left to lower right)?&lt;/p></description></item><item><title>Lab 08: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> What is the difference between an NFA and an DFA?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> Which sorting algorithms have you learned about so far? Review their algorithms.&lt;/p>
-&lt;p>&lt;a href="https://www.geeksforgeeks.org/">Geeks for Geeks&lt;/a> has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. &lt;a href="https://www.geeksforgeeks.org/selection-sort/">Selection Sort&lt;/a>.&lt;/p>
-&lt;p>Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://youtu.be/ufIET8dMnus">Insertion Sort&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/alJswNJ4P3U">Merge Sort&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/uXBnyYuwPe8">Quick Sort&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/k72DtCnY4MU">Heap Sort&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="assignment-1-finite-automata">Assignment 1: Finite Automata&lt;/h2>
-&lt;p>This is to get some practice with Finite Automata.&lt;/p></description></item><item><title>Lab 10: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-10/</guid><description>&lt;p>&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack">
-Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695">Mags_cat&lt;/a>&lt;/p>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;p>&lt;em>&lt;strong>P1.&lt;/strong>&lt;/em> Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble&lt;/a>, if you have never played it before.&lt;/p>
-&lt;p>&lt;em>&lt;strong>P2.&lt;/strong>&lt;/em> What is a permutation?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P3.&lt;/strong>&lt;/em> What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P4.&lt;/strong>&lt;/em> How do you determine if two Strings are permutations of each other?&lt;/p>
-&lt;p>&lt;em>&lt;strong>P5.&lt;/strong>&lt;/em> For the bored: How can you generate all permutations of the characters in a String? See &lt;a href="https://www.youtube.com/watch?v=GCm7m5671Ps">Back to Back SWE &amp;ldquo;How To Permute A String - Generate All Permutations Of A String&amp;rdquo;&lt;/a> for a clear explanation of a backtracking solution. See &lt;a href="https://dl.acm.org/doi/10.1145/356689.356692">Sedgewick 1977&lt;/a> (available with VPN) for theoretical details on several different solutions. What if some of the letters are the same? Hint: Look at the &lt;a href="https://de.wikipedia.org/wiki/Multinomialkoeffizient">multinomial coefficient&lt;/a>.&lt;/p></description></item></channel></rss>
+d) the cells are in the same descending diagonal (upper left to lower right)?&lt;/p&gt;</description></item><item><title>Lab 08: Finite State Automata and Sorting Algorithms</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-08/</guid><description>&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P1.&lt;/strong&gt;&lt;/em&gt; What is the difference between an NFA and an DFA?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P2.&lt;/strong&gt;&lt;/em&gt; Which sorting algorithms have you learned about so far? Review their algorithms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.geeksforgeeks.org/"&gt;Geeks for Geeks&lt;/a&gt; has some helpful explanations, including nice videos. Useful for a quick reminder of the algorithms. Eg. &lt;a href="https://www.geeksforgeeks.org/selection-sort/"&gt;Selection Sort&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Really good more detailed explanations can be found at the Back to Back SWE YouTube Channel:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/ufIET8dMnus"&gt;Insertion Sort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/alJswNJ4P3U"&gt;Merge Sort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/uXBnyYuwPe8"&gt;Quick Sort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/k72DtCnY4MU"&gt;Heap Sort&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="assignment-1-finite-automata"&gt;Assignment 1: Finite Automata&lt;/h2&gt;
+&lt;p&gt;This is to get some practice with Finite Automata.&lt;/p&gt;</description></item><item><title>Lab 10: Scrabble Cheater - Basic Edition</title><link>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2025/info2/labs/assignment-10/</guid><description>&lt;p&gt;&lt;img src="./../images/scrabble_4468636695_2434bc60ff_b.jpg" alt="Scrabble" title="scrabble tile rack"&gt;
+Foto by &lt;a href="https://www.flickr.com/photos/mk1971/4468636695"&gt;Mags_cat&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P1.&lt;/strong&gt;&lt;/em&gt; Review the rules of &lt;a href="https://en.wikipedia.org/wiki/Scrabble"&gt;Scrabble&lt;/a&gt;, if you have never played it before.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P2.&lt;/strong&gt;&lt;/em&gt; What is a permutation?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P3.&lt;/strong&gt;&lt;/em&gt; What would a normalization function for different permutations of words look like? That is, &amp;ldquo;JAVA&amp;rdquo; and &amp;ldquo;VAJA&amp;rdquo; are permutations, what would a normalized permutation look like?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P4.&lt;/strong&gt;&lt;/em&gt; How do you determine if two Strings are permutations of each other?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;P5.&lt;/strong&gt;&lt;/em&gt; For the bored: How can you generate all permutations of the characters in a String? See &lt;a href="https://www.youtube.com/watch?v=GCm7m5671Ps"&gt;Back to Back SWE &amp;ldquo;How To Permute A String - Generate All Permutations Of A String&amp;rdquo;&lt;/a&gt; for a clear explanation of a backtracking solution. See &lt;a href="https://dl.acm.org/doi/10.1145/356689.356692"&gt;Sedgewick 1977&lt;/a&gt; (available with VPN) for theoretical details on several different solutions. What if some of the letters are the same? Hint: Look at the &lt;a href="https://de.wikipedia.org/wiki/Multinomialkoeffizient"&gt;multinomial coefficient&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -1,338 +1,338 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/info3/</link><description>Recent content in B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2023/info3/index.xml" rel="self" type="application/rss+xml"/><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ss2023/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/schedule/</guid><description>&lt;p>This schedule is, more than always, tentative.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Lecture Topic&lt;/th>
- &lt;th>&lt;/th>
- &lt;th style="text-align: left">Lab (Tue &amp;amp; Wed)&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">Tue 04/04/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 05/04/2023&lt;/td>
- &lt;td style="text-align: left">Introduction to Info3, Source Code Management&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">No Lab.&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">Tue 11/04/2023&lt;/td>
- &lt;td style="text-align: left">Source Code Management (GIT)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-01-startup">1 - Lab Startup&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 12/04/2023&lt;/td>
- &lt;td style="text-align: left">Introduction to Software Engineering and Software Development Processes&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">Tue 18/04/2023&lt;/td>
- &lt;td style="text-align: left">System Modeling, Architectural Design, Requirement Engineering&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-02-python">2 - Learning Python&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 19/04/2023&lt;/td>
- &lt;td style="text-align: left">UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">Tue 25/04/2023&lt;/td>
- &lt;td style="text-align: left">UML &amp;amp; System Modeling: Requirements, Product Owner Game&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-03-pythonproject">3 - Python Project&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 26/04/2023&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; no lecture &amp;ndash;&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">Tue 02/05/2023&lt;/td>
- &lt;td style="text-align: left">Software Processes II / Requirements Analysis&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-04-usecases-classdiagrams">4 - Use Cases and Class Diagrams Part I&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 03/05/2023&lt;/td>
- &lt;td style="text-align: left">Software Design Patterns (GOF)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">Tue 09/05/2023&lt;/td>
- &lt;td style="text-align: left">Clean Code Intro &amp;amp; Poster preparation&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-05-usecases-classdiagrams">5 - Use Cases and Class Diagrams Part II&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 10/05/2023&lt;/td>
- &lt;td style="text-align: left">Clean Code Poster Session&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">20&lt;/td>
- &lt;td style="text-align: left">Tue 16/05/2023&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../material/e-learning-reviews/">e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;strong>Himmelfahrt&lt;/strong>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 17/05/2023&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../material/e-learning-videos/">e-learning / Video Summary&lt;/a>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">21&lt;/td>
- &lt;td style="text-align: left">Tue 23/05/2023&lt;/td>
- &lt;td style="text-align: left">Agile Development, Scrum&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-06-sequence-diagrams">6 - Sequence Diagrams&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 24/05/2023&lt;/td>
- &lt;td style="text-align: left">Legacy Code &amp;amp; Refactoring&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">22&lt;/td>
- &lt;td style="text-align: left">Tue 30/05/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 31/05/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">23&lt;/td>
- &lt;td style="text-align: left">Tue 06/06/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 07/06/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Tue 13/06/2023&lt;/td>
- &lt;td style="text-align: left">Software Testing, TDD, Code Quality&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-07-testing">7 - Testing&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 14/06/2023&lt;/td>
- &lt;td style="text-align: left">SOLID Principles, Refactoring to Patterns&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Tue 20/06/2023&lt;/td>
- &lt;td style="text-align: left">OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-08-gilded-rose">8 - Gilded Rose&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 21/06/2023&lt;/td>
- &lt;td style="text-align: left">More on Design&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Tue 27/06/2023&lt;/td>
- &lt;td style="text-align: left">Application Architectures &amp;amp; System Models&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-09-state-machines">9 - State Machine Diagrams&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 28/06/2023&lt;/td>
- &lt;td style="text-align: left">Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Tue 04/07/2023&lt;/td>
- &lt;td style="text-align: left">More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-10-webapps-1">10 - Web Applications 1&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 05/07/2023&lt;/td>
- &lt;td style="text-align: left">Dependencies &amp;amp; how to test and handle them, Internationalization and Localization&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Tue 11/07/2023&lt;/td>
- &lt;td style="text-align: left">Continuous Integration &amp;amp; Deployment&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-11-webapps-2">11 - Web Applications 2&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 12/07/2023&lt;/td>
- &lt;td style="text-align: left">Probeklausur (vorr. WH-C 576/579)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">29&lt;/td>
- &lt;td style="text-align: left">Tue 18/07/2023&lt;/td>
- &lt;td style="text-align: left">TBD/Repetition (Exam Period Starts)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 19/07/2023&lt;/td>
- &lt;td style="text-align: left">&lt;strong>Exam PZ1&lt;/strong> (refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">30&lt;/td>
- &lt;td style="text-align: left">Tue 25/07/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 26/07/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Thu 27/07/2023&lt;/td>
- &lt;td style="text-align: left">15:00-16:00 Klausureinsicht in einem der 3 Labs, alternativ ab 9.8. in der &lt;a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen">Sprechstunde&lt;/a>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">31&lt;/td>
- &lt;td style="text-align: left">Tue 01/08/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Wed 02/08/2023&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 04/08/2023&lt;/td>
- &lt;td style="text-align: left">&lt;strong>&lt;a href="https://showtime.f4.htw-berlin.de/">10:00 Showtime in H001!&lt;/a>&lt;/strong>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h4 id="klausurtermine-lt-lsf-stand-2762023">Klausurtermine lt. LSF Stand 27.6.2023:&lt;/h4>
-&lt;p>PZ1: Mi.	15:45 bis 17:15	Einzel	am 19.07.2023&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/info3/</link><description>Recent content in B15 Informatik 3 (Info3) on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2023/info3/index.xml" rel="self" type="application/rss+xml"/><item><title>Schedule</title><link>https://bkleinen.github.io/classes/ss2023/info3/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/schedule/</guid><description>&lt;p&gt;This schedule is, more than always, tentative.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecture Topic&lt;/th&gt;
+ &lt;th&gt;&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lab (Tue &amp;amp; Wed)&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 04/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 05/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Introduction to Info3, Source Code Management&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;No Lab.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 11/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Source Code Management (GIT)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-01-startup"&gt;1 - Lab Startup&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 12/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Introduction to Software Engineering and Software Development Processes&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 18/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;System Modeling, Architectural Design, Requirement Engineering&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-02-python"&gt;2 - Learning Python&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 19/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;UML &amp;amp; System Modeling, Use Cases and User Stories&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 25/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;UML &amp;amp; System Modeling: Requirements, Product Owner Game&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-03-pythonproject"&gt;3 - Python Project&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 26/04/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;ndash; no lecture &amp;ndash;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 02/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Processes II / Requirements Analysis&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-04-usecases-classdiagrams"&gt;4 - Use Cases and Class Diagrams Part I&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 03/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Design Patterns (GOF)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 09/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Clean Code Intro &amp;amp; Poster preparation&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-05-usecases-classdiagrams"&gt;5 - Use Cases and Class Diagrams Part II&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 10/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Clean Code Poster Session&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 16/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../material/e-learning-reviews/"&gt;e-learning / Software Design Patterns (GOF) or Clean Code&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Himmelfahrt&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 17/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../material/e-learning-videos/"&gt;e-learning / Video Summary&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 23/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Agile Development, Scrum&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-06-sequence-diagrams"&gt;6 - Sequence Diagrams&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 24/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Legacy Code &amp;amp; Refactoring&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 30/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 31/05/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 06/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 07/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 13/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Software Testing, TDD, Code Quality&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-07-testing"&gt;7 - Testing&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 14/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;SOLID Principles, Refactoring to Patterns&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 20/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;OO In Depth: Composition and Inheritance , Dynamic Typing, Duck Typing&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-08-gilded-rose"&gt;8 - Gilded Rose&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 21/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;More on Design&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 27/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Application Architectures &amp;amp; System Models&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-09-state-machines"&gt;9 - State Machine Diagrams&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 28/06/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Applications Intro, Patterns of Enterprise Application Architecture (POEAA)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 04/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;More on Inheritance, Composition and Inheritance (Poodr Chapter 8)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-10-webapps-1"&gt;10 - Web Applications 1&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 05/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Dependencies &amp;amp; how to test and handle them, Internationalization and Localization&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 11/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Continuous Integration &amp;amp; Deployment&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-11-webapps-2"&gt;11 - Web Applications 2&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 12/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Probeklausur (vorr. WH-C 576/579)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 18/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;TBD/Repetition (Exam Period Starts)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 19/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;Exam PZ1&lt;/strong&gt; (refer to LSF for details and the definite time &amp;amp; date!!)&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;30&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 25/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 26/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 27/07/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15:00-16:00 Klausureinsicht in einem der 3 Labs, alternativ ab 9.8. in der &lt;a href="https://wiki.htw-berlin.de/confluence/display/fb4crskleinen/Office+Hours+Prof.+Kleinen"&gt;Sprechstunde&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;31&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Tue 01/08/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 02/08/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 04/08/2023&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="https://showtime.f4.htw-berlin.de/"&gt;10:00 Showtime in H001!&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id="klausurtermine-lt-lsf-stand-2762023"&gt;Klausurtermine lt. LSF Stand 27.6.2023:&lt;/h4&gt;
+&lt;p&gt;PZ1: Mi.	15:45 bis 17:15	Einzel	am 19.07.2023&lt;/p&gt;</description></item></channel></rss>

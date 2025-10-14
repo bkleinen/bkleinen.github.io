@@ -1,280 +1,280 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/</link><description>Recent content in Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 09:40:59 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p>Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p>
-&lt;p>Im Dokumentarfilm von Kyra Bartley: &amp;ldquo;Losing Lena&amp;rdquo; 2019, 26 Min.
-&lt;a href="https://www.imdb.com/de/title/tt11337268/">auf imdb&lt;/a> veröffentlicht auf
-&lt;a href="https://www.facebook.com/codelikeagirlau/videos/985614161797010/">Facebook Watch&lt;/a>
-wird gut deutlich, warum dies problematisch und diskriminierend ist.&lt;/p>
-&lt;p>In den letzten 10 Jahren sind einige Artikel veröffentlicht worden und wieder verschwunden, insbesondere kann ich die Seite, auf der sich &lt;a href="https://en.wikipedia.org/wiki/Lena_Fors%C3%A9n">Lena Forsén (Soderberg)&lt;/a> selbst
-gegen die Verwendung ihres Bildes ausspricht, nicht mehr finden. Daher nur diese wenigen Links zum Weiterlesen:&lt;/p></description></item><item><title>Code Highlighting</title><link>https://bkleinen.github.io/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://bkleinen.github.io/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout">Syntax Highlighting Tryout&lt;/h2>
-&lt;p>Notes:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>switch off javascript that adds bootstrap styles to tables in frontmatter:
-&lt;code>NoStripedTables: true&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>many styles available, they can either be set in config (see markup.toml) or
-with the setting &lt;code>noClasses=false&lt;/code> via stylesheets. see &lt;code>syntax-xxx.scss&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Hugo Doc&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Chroma Styles:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://xyproto.github.io/splash/docs/all.html">Chroma Style Gallery&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://xyproto.github.io/splash/docs/longer/all.html">Longer&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="example-from-page">Example from page:&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="hl">&lt;span class="lnt">199
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line hl">&lt;span class="cl">&lt;span class="c1">// ... code&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;hr>
-&lt;h3 id="without-anything">Without anything&lt;/h3>
-&lt;pre tabindex="0">&lt;code>$ ls -lart
-&lt;/code>&lt;/pre>&lt;hr>
-&lt;h3 id="bash">Bash&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">199
-&lt;/span>&lt;span class="lnt">200
-&lt;/span>&lt;span class="lnt">201
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">$ ls -lart
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">some output
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">199
-&lt;/span>&lt;span class="lnt">200
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># ls -lart&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">asdffs
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3>&lt;/h3>
-&lt;p>style = &amp;lsquo;monokai&amp;rsquo;&lt;/p></description></item><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>&lt;p>&lt;a href="https://mermaid.js.org/">Mermaid&lt;/a> renders diagrams from simple markdown code. It can be used&lt;/p>
-&lt;ul>
-&lt;li>via integrating the available js library (yarn add mermaid),&lt;/li>
-&lt;li>online via &lt;a href="https://mermaid.live/">Mermaid-Live&lt;/a>,&lt;/li>
-&lt;li>is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams">Github markdown files&lt;/a> (and others)&lt;/li>
-&lt;li>and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams">easily integrated into hugo&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
-&lt;/ul>
-&lt;p>Here are some examples taken from Mermaid Live:&lt;/p>
-&lt;pre class="mermaid">stateDiagram-v2
- [*] --> Still
- Still --> [*]
- Still --> Moving
- Moving --> Still
- Moving --> Crash
- Crash --> [*]
-&lt;/pre>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Material on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/</link><description>Recent content in Material on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 09:40:59 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/index.xml" rel="self" type="application/rss+xml"/><item><title>Losing Lena - "Techs Original Sin"</title><link>https://bkleinen.github.io/material/diversity/lena/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/diversity/lena/</guid><description>&lt;p&gt;Ein Ausschnitt eines Playboy-Centerfolds war(ist?) das meist verwendete Testbild in der Bildverarbeitung.&lt;/p&gt;
+&lt;p&gt;Im Dokumentarfilm von Kyra Bartley: &amp;ldquo;Losing Lena&amp;rdquo; 2019, 26 Min.
+&lt;a href="https://www.imdb.com/de/title/tt11337268/"&gt;auf imdb&lt;/a&gt; veröffentlicht auf
+&lt;a href="https://www.facebook.com/codelikeagirlau/videos/985614161797010/"&gt;Facebook Watch&lt;/a&gt;
+wird gut deutlich, warum dies problematisch und diskriminierend ist.&lt;/p&gt;
+&lt;p&gt;In den letzten 10 Jahren sind einige Artikel veröffentlicht worden und wieder verschwunden, insbesondere kann ich die Seite, auf der sich &lt;a href="https://en.wikipedia.org/wiki/Lena_Fors%C3%A9n"&gt;Lena Forsén (Soderberg)&lt;/a&gt; selbst
+gegen die Verwendung ihres Bildes ausspricht, nicht mehr finden. Daher nur diese wenigen Links zum Weiterlesen:&lt;/p&gt;</description></item><item><title>Code Highlighting</title><link>https://bkleinen.github.io/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://bkleinen.github.io/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout"&gt;Syntax Highlighting Tryout&lt;/h2&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;switch off javascript that adds bootstrap styles to tables in frontmatter:
+&lt;code&gt;NoStripedTables: true&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;many styles available, they can either be set in config (see markup.toml) or
+with the setting &lt;code&gt;noClasses=false&lt;/code&gt; via stylesheets. see &lt;code&gt;syntax-xxx.scss&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/content-management/syntax-highlighting/"&gt;Hugo Doc&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chroma Styles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://xyproto.github.io/splash/docs/all.html"&gt;Chroma Style Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://xyproto.github.io/splash/docs/longer/all.html"&gt;Longer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="example-from-page"&gt;Example from page:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="hl"&gt;&lt;span class="lnt"&gt;199
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span class="line hl"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;// ... code&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id="without-anything"&gt;Without anything&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$ ls -lart
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h3 id="bash"&gt;Bash&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;199
+&lt;/span&gt;&lt;span class="lnt"&gt;200
+&lt;/span&gt;&lt;span class="lnt"&gt;201
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ ls -lart
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;some output
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;199
+&lt;/span&gt;&lt;span class="lnt"&gt;200
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# ls -lart&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;asdffs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3&gt;&lt;/h3&gt;
+&lt;p&gt;style = &amp;lsquo;monokai&amp;rsquo;&lt;/p&gt;</description></item><item><title>About Mermaid</title><link>https://bkleinen.github.io/material/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/mermaid/</guid><description>&lt;p&gt;&lt;a href="https://mermaid.js.org/"&gt;Mermaid&lt;/a&gt; renders diagrams from simple markdown code. It can be used&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;via integrating the available js library (yarn add mermaid),&lt;/li&gt;
+&lt;li&gt;online via &lt;a href="https://mermaid.live/"&gt;Mermaid-Live&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;is available in &lt;a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams"&gt;Github markdown files&lt;/a&gt; (and others)&lt;/li&gt;
+&lt;li&gt;and can be &lt;a href="https://gohugo.io/content-management/diagrams/#mermaid-diagrams"&gt;easily integrated into hugo&lt;/a&gt;&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are some examples taken from Mermaid Live:&lt;/p&gt;
+&lt;pre class="mermaid"&gt;stateDiagram-v2
+ [*] --&gt; Still
+ Still --&gt; [*]
+ Still --&gt; Moving
+ Moving --&gt; Still
+ Moving --&gt; Crash
+ Crash --&gt; [*]
+&lt;/pre&gt;
 
-&lt;pre>&lt;code>flowchart TD
+&lt;pre&gt;&lt;code&gt;flowchart TD
  A[Christmas] --&amp;gt;|Get money| B(Go shopping)
  B --&amp;gt; C{Let me think}
  C --&amp;gt;|One| D[Laptop]
  C --&amp;gt;|Two| E[iPhone]
  C --&amp;gt;|Three| F[fa:fa-car Car]
-&lt;/code>&lt;/pre>
-&lt;pre class="mermaid">flowchart TD
- A[Christmas] -->|Get money| B(Go shopping)
- B --> C{Let me think}
- C -->|One| D[Laptop]
- C -->|Two| E[iPhone]
- C -->|Three| F[fa:fa-car Car]
-&lt;/pre>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class="mermaid"&gt;flowchart TD
+ A[Christmas] --&gt;|Get money| B(Go shopping)
+ B --&gt; C{Let me think}
+ C --&gt;|One| D[Laptop]
+ C --&gt;|Two| E[iPhone]
+ C --&gt;|Three| F[fa:fa-car Car]
+&lt;/pre&gt;
 
-&lt;pre class="mermaid">stateDiagram-v2
- [*] --> Still
- Still --> [*]
- Still --> Moving
- Moving --> Still
- Moving --> Crash
- Crash --> [*]
-&lt;/pre>
+&lt;pre class="mermaid"&gt;stateDiagram-v2
+ [*] --&gt; Still
+ Still --&gt; [*]
+ Still --&gt; Moving
+ Moving --&gt; Still
+ Moving --&gt; Crash
+ Crash --&gt; [*]
+&lt;/pre&gt;
 
-&lt;h1 id="flowchart-cheatsheet">Flowchart Cheatsheet&lt;/h1>
-&lt;pre class="mermaid">flowchart TD
- A[Start] --> B{Is it?}
- B -->|Yes| C[OK]
- C --> D[Rethink]
- D --> B
- B ---->|No| E[End]
- id1>This is the text in the box]
+&lt;h1 id="flowchart-cheatsheet"&gt;Flowchart Cheatsheet&lt;/h1&gt;
+&lt;pre class="mermaid"&gt;flowchart TD
+ A[Start] --&gt; B{Is it?}
+ B --&gt;|Yes| C[OK]
+ C --&gt; D[Rethink]
+ D --&gt; B
+ B ----&gt;|No| E[End]
+ id1&gt;This is the text in the box]
  id2{{This is the text in the box}}
-&lt;/pre>
+&lt;/pre&gt;
 
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>GIT Intro</title><link>https://bkleinen.github.io/material/git-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/git-intro/</guid><description>&lt;h2 id="source-code-management-mit-git">Source Code Management mit GIT&lt;/h2>
-&lt;p>Für Info2 hatte ich im letzten Semester eine GIT-Introduction aufgenomen:&lt;/p>
-&lt;p>(Zugänglich mit HTW-Login)&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part1/2980e3c60421ee9a96089108c12b21da">Part 1&lt;/a> - Basics and a simple git workflow: Repository anlegen, commit, push, pull, clone&lt;/li>
-&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part2/45cd6d8891579afd4889dba15a7a901e">Part 2&lt;/a> - committing the right files: git status, git add, index&lt;/li>
-&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part3/92013add95f331153835580f374c68a1">Part 3&lt;/a> - Stolpersteine: andere machen Änderungen! - merge conflicts, vi als editor&lt;/li>
-&lt;li>&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part4/0f299fb70d15ab9ff4d82b7865d8482d">Part 4&lt;/a> - Adding SSH Keys and copying Repos from Github to Gitlab&lt;/li>
-&lt;/ul>
-&lt;p>Seither habe ich gelernt, dass die Beispiele meiner commit messages nicht
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;themes/greenpage/layouts/_default/_markup/&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GIT Intro</title><link>https://bkleinen.github.io/material/git-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/git-intro/</guid><description>&lt;h2 id="source-code-management-mit-git"&gt;Source Code Management mit GIT&lt;/h2&gt;
+&lt;p&gt;Für Info2 hatte ich im letzten Semester eine GIT-Introduction aufgenomen:&lt;/p&gt;
+&lt;p&gt;(Zugänglich mit HTW-Login)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part1/2980e3c60421ee9a96089108c12b21da"&gt;Part 1&lt;/a&gt; - Basics and a simple git workflow: Repository anlegen, commit, push, pull, clone&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part2/45cd6d8891579afd4889dba15a7a901e"&gt;Part 2&lt;/a&gt; - committing the right files: git status, git add, index&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part3/92013add95f331153835580f374c68a1"&gt;Part 3&lt;/a&gt; - Stolpersteine: andere machen Änderungen! - merge conflicts, vi als editor&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mediathek.htw-berlin.de/video/git-intro-part4/0f299fb70d15ab9ff4d82b7865d8482d"&gt;Part 4&lt;/a&gt; - Adding SSH Keys and copying Repos from Github to Gitlab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seither habe ich gelernt, dass die Beispiele meiner commit messages nicht
 gut gewählt waren.
-&lt;a href="https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53">In diesem Gist&lt;/a>
-gibt es gute Hinweise dazu.&lt;/p></description></item><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/hugo/markdown/</guid><description>&lt;p>This is something in between a playground and a cheatsheet for hugo markdown.&lt;/p>
-&lt;h2 id="markdown-in-hugo">Markdown in Hugo&lt;/h2>
-&lt;p>&lt;a href="https://gohugo.io/getting-started/configuration-markup/">https://gohugo.io/getting-started/configuration-markup/&lt;/a>&lt;/p>
-&lt;ol>
-&lt;li>&lt;del>strikethrough&lt;/del>&lt;/li>
-&lt;li>
-&lt;pre tabindex="0">&lt;code class="language-strikethrough~~~" data-lang="strikethrough~~~">&lt;/code>&lt;/pre>&lt;/li>
-&lt;li>&lt;del>not strikethrough&lt;/del>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.markdownguide.org/tools/">https://www.markdownguide.org/tools/&lt;/a>&lt;/p>
-&lt;h2 id="ordered-lists">Ordered Lists&lt;/h2>
-&lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists">https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a>&lt;/p>
-&lt;ol>
-&lt;li>One
-&lt;ol>
-&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
-&lt;li>Numbering does not have to be correct in the source
-&lt;ol>
-&lt;li>But the first number matters&lt;/li>
-&lt;li>second 42 is not a 42&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Without a one it is not even recognized as a list
+&lt;a href="https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53"&gt;In diesem Gist&lt;/a&gt;
+gibt es gute Hinweise dazu.&lt;/p&gt;</description></item><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/hugo/markdown/</guid><description>&lt;p&gt;This is something in between a playground and a cheatsheet for hugo markdown.&lt;/p&gt;
+&lt;h2 id="markdown-in-hugo"&gt;Markdown in Hugo&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/getting-started/configuration-markup/"&gt;https://gohugo.io/getting-started/configuration-markup/&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;del&gt;strikethrough&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-strikethrough~~~" data-lang="strikethrough~~~"&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;not strikethrough&lt;/del&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://www.markdownguide.org/"&gt;https://www.markdownguide.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.markdownguide.org/tools/"&gt;https://www.markdownguide.org/tools/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="ordered-lists"&gt;Ordered Lists&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.markdownguide.org/basic-syntax#ordered-lists"&gt;https://www.markdownguide.org/basic-syntax#ordered-lists&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;One
+&lt;ol&gt;
+&lt;li&gt;Ident Sublists 4 Spaces or 1 Tab more&lt;/li&gt;
+&lt;li&gt;Numbering does not have to be correct in the source
+&lt;ol&gt;
+&lt;li&gt;But the first number matters&lt;/li&gt;
+&lt;li&gt;second 42 is not a 42&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Without a one it is not even recognized as a list
 42. But the first number matters
-42. second 42 is not a 43&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Two&lt;/li>
-&lt;/ol>
-&lt;h2 id="code-in-lists">Code in Lists&lt;/h2>
-&lt;ol>
-&lt;li>One
-&lt;ol>
-&lt;li>Ident Sublists 4 Spaces or 1 Tab more&lt;/li>
-&lt;li>Numbering does not have to be correct in the source
-&lt;ol>
-&lt;li>
-&lt;p>But the first number matters&lt;/p></description></item><item><title>Sorting Algorithms</title><link>https://bkleinen.github.io/material/algorithms/sorting-algorithms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/algorithms/sorting-algorithms/</guid><description>&lt;p>..&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Algorithm&lt;/th>
- &lt;th style="text-align: left">Description&lt;/th>
- &lt;th style="text-align: left">Invariant&lt;/th>
- &lt;th style="text-align: left">Plus&lt;/th>
- &lt;th style="text-align: left">O(n)&lt;/th>
- &lt;th style="text-align: left">Comparisions&lt;/th>
- &lt;th style="text-align: left">Swaps&lt;/th>
- &lt;th style="text-align: left">Stable&lt;/th>
- &lt;th style="text-align: left">adaptive&lt;/th>
- &lt;th style="text-align: left">space&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">Selection Sort&lt;/td>
- &lt;td style="text-align: left">select smallest from rest, append to already sorted on left&lt;/td>
- &lt;td style="text-align: left">a[1..i] in place&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">n&lt;/td>
- &lt;td style="text-align: left">not stable&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">Insertion Sort&lt;/td>
- &lt;td style="text-align: left">take card from unsorted pile (right), insert it into sorted pile&lt;/td>
- &lt;td style="text-align: left">a[1..i] sorted&lt;/td>
- &lt;td style="text-align: left">adaptable, simple -&amp;gt; ok for small n&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">stable&lt;/td>
- &lt;td style="text-align: left">yes&lt;/td>
- &lt;td style="text-align: left">O(1) extra&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">Shell Sort&lt;/td>
- &lt;td style="text-align: left">Insertion sort on every h-th element decreasing h down to 1&lt;/td>
- &lt;td style="text-align: left">each h-array is sorted&lt;/td>
- &lt;td style="text-align: left">adaptable, still simple&lt;/td>
- &lt;td style="text-align: left">n^(3/2)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">stable&lt;/td>
- &lt;td style="text-align: left">yes&lt;/td>
- &lt;td style="text-align: left">O(1) extra&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">Bubble Sort&lt;/td>
- &lt;td style="text-align: left">go up through array, compare two and swap if not in right order (up to 1..n)&lt;/td>
- &lt;td style="text-align: left">a[1..i] in place&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">n^2&lt;/td>
- &lt;td style="text-align: left">stable&lt;/td>
- &lt;td style="text-align: left">yes&lt;/td>
- &lt;td style="text-align: left">O(1) extra&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">Merge Sort&lt;/td>
- &lt;td style="text-align: left">split in two, sort rec, merge two parts.&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">predictable, works on linked lists&lt;/td>
- &lt;td style="text-align: left">n log n&lt;/td>
- &lt;td style="text-align: left">(0,5 to 1 )log n&lt;/td>
- &lt;td style="text-align: left">(1 to 1,5)log n&lt;/td>
- &lt;td style="text-align: left">stable&lt;/td>
- &lt;td style="text-align: left">no&lt;/td>
- &lt;td style="text-align: left">O(n) extra&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">Quick Sort&lt;/td>
- &lt;td style="text-align: left">go up through array, compare two and swap if not in right order (up to 1..n)&lt;/td>
- &lt;td style="text-align: left">a[1..k-1] &amp;lt; a[k] &amp;lt;= a[k+1..n]&lt;/td>
- &lt;td style="text-align: left">general purpose sort, but not stable&lt;/td>
- &lt;td style="text-align: left">n log n (n^2 worst)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">no&lt;/td>
- &lt;td style="text-align: left">no&lt;/td>
- &lt;td style="text-align: left">O(n·lg(n)) for some optimizatiosn&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">Bogo Sort&lt;/td>
- &lt;td style="text-align: left">randomly arrange array. If sorted, done.&lt;/td>
- &lt;td style="text-align: left">-&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">n!&lt;/td>
- &lt;td style="text-align: left">n * n!&lt;/td>
- &lt;td style="text-align: left">n*n!&lt;/td>
- &lt;td style="text-align: left">not stable&lt;/td>
- &lt;td style="text-align: left">no&lt;/td>
- &lt;td style="text-align: left">O(1)&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item><item><title>Troubleshooting</title><link>https://bkleinen.github.io/material/web-technology/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/web-technology/troubleshooting/</guid><description>&lt;h2 id="troubleshooting-steps-for-rails">Troubleshooting Steps for Rails&lt;/h2>
-&lt;p>The Rails Framework consists of a complex combination of various tools.
-There is no compilation step, everything is started from the command line.&lt;/p>
-&lt;p>As a consequence, things break at runtime, providing you with an informative
-stack trace and error message that help you find the problem.&lt;/p>
-&lt;p>You need to learn how to read those stack traces and error messages.&lt;/p>
-&lt;p>Here are some pointers how to do it:&lt;/p></description></item></channel></rss>
+42. second 42 is not a 43&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Two&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="code-in-lists"&gt;Code in Lists&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;One
+&lt;ol&gt;
+&lt;li&gt;Ident Sublists 4 Spaces or 1 Tab more&lt;/li&gt;
+&lt;li&gt;Numbering does not have to be correct in the source
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;But the first number matters&lt;/p&gt;</description></item><item><title>Sorting Algorithms</title><link>https://bkleinen.github.io/material/algorithms/sorting-algorithms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/algorithms/sorting-algorithms/</guid><description>&lt;p&gt;..&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Algorithm&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Description&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Invariant&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Plus&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;O(n)&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Comparisions&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Swaps&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Stable&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;adaptive&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;space&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Selection Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;select smallest from rest, append to already sorted on left&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;a[1..i] in place&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;not stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Insertion Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;take card from unsorted pile (right), insert it into sorted pile&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;a[1..i] sorted&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;adaptable, simple -&amp;gt; ok for small n&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;yes&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;O(1) extra&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Shell Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Insertion sort on every h-th element decreasing h down to 1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;each h-array is sorted&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;adaptable, still simple&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^(3/2)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;yes&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;O(1) extra&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Bubble Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;go up through array, compare two and swap if not in right order (up to 1..n)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;a[1..i] in place&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n^2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;yes&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;O(1) extra&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Merge Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;split in two, sort rec, merge two parts.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;predictable, works on linked lists&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n log n&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(0,5 to 1 )log n&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(1 to 1,5)log n&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;O(n) extra&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Quick Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;go up through array, compare two and swap if not in right order (up to 1..n)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;a[1..k-1] &amp;lt; a[k] &amp;lt;= a[k+1..n]&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;general purpose sort, but not stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n log n (n^2 worst)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;O(n·lg(n)) for some optimizatiosn&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;Bogo Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;randomly arrange array. If sorted, done.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;-&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n!&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n * n!&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;n*n!&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;not stable&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;O(1)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Troubleshooting</title><link>https://bkleinen.github.io/material/web-technology/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/material/web-technology/troubleshooting/</guid><description>&lt;h2 id="troubleshooting-steps-for-rails"&gt;Troubleshooting Steps for Rails&lt;/h2&gt;
+&lt;p&gt;The Rails Framework consists of a complex combination of various tools.
+There is no compilation step, everything is started from the command line.&lt;/p&gt;
+&lt;p&gt;As a consequence, things break at runtime, providing you with an informative
+stack trace and error message that help you find the problem.&lt;/p&gt;
+&lt;p&gt;You need to learn how to read those stack traces and error messages.&lt;/p&gt;
+&lt;p&gt;Here are some pointers how to do it:&lt;/p&gt;</description></item></channel></rss>

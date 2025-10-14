@@ -1,204 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/</link><description>Recent content in M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</guid><description>&lt;p>This schedule is, as always, tentative.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">JF&lt;/th>
- &lt;th style="text-align: left">Topic Area&lt;/th>
- &lt;th style="text-align: left">Lecturer&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">Wed 01/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">no class&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">Wed 08/04/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">Wed 15/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">Wed 22/04/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">Wed 29/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">Wed 06/05/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Barne Kleinen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">20&lt;/td>
- &lt;td style="text-align: left">Wed 13/05/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">21&lt;/td>
- &lt;td style="text-align: left">Wed 20/05/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">22&lt;/td>
- &lt;td style="text-align: left">Wed 27/05/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Kai Barthel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">23&lt;/td>
- &lt;td style="text-align: left">Wed 03/06/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Wed 10/06/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Wed 17/06/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Wed 24/06/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Wed 01/07/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Wed 08/07/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">29&lt;/td>
- &lt;td style="text-align: left">Wed 15/07/2020&lt;/td>
- &lt;td style="text-align: left">*&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item><item><title>M1 Assignments</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</guid><description>&lt;p>You will do quite a lot of web development in the lecture part of this class.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/</link><description>Recent content in M1 Media Programming: Web Technology on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2020/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule/</guid><description>&lt;p&gt;This schedule is, as always, tentative.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;JF&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic Area&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecturer&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 01/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;no class&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 08/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 15/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 22/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 29/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 06/05/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Barne Kleinen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 13/05/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 20/05/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 27/05/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Kai Barthel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 03/06/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 10/06/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 17/06/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 24/06/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 01/07/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 08/07/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 15/07/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;*&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>M1 Assignments</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/assignments/</guid><description>&lt;p&gt;You will do quite a lot of web development in the lecture part of this class.
 Thus, this lab is not about web technology or development, but rather introduces
 you to three other topics related to web development: Usability, publishing on the web
 and devops and agile.
 As we start off with the web part this term I&amp;rsquo;ve decided to try a new approach:
 Rather than working on toy-assignments within a week, I ask you to learn about the
-theory now, and apply them to any project later during the term.&lt;/p></description></item><item><title>M1 Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</guid><description>&lt;p>tentative.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Topic&lt;/th>
- &lt;th style="text-align: left">Assignment&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Wed 08/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Web Dev &amp;amp; Usability: Intro&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Wed 15/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Discount Usability&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Wed 22/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Static Web Site Publishing&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Wed 29/04/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Continuous Deployment and Agile Development&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">29&lt;/td>
- &lt;td style="text-align: left">Wed 06/05/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Individual Consultations&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item><item><title>M1 Web Technology Topics</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</guid><description>&lt;h1 id="discount-usability">Discount Usability&lt;/h1>
-&lt;p>The Nielsen Norman Group maintains a great web site with a wealth of information and material about Usability, User Centered Design and User Experience. Starting with &lt;a href="https://www.nngroup.com/videos/discount-usability-30-years/">Discount Usability 30 Years&lt;/a> read about either - or all - the three mentioned methods: simplified user testing with 5 users, early test of paper prototypes, and heuristic evaluation. Your goal is to learn enough about either one of this three methods to apply it within a project.&lt;/p></description></item></channel></rss>
+theory now, and apply them to any project later during the term.&lt;/p&gt;</description></item><item><title>M1 Web Technology Schedule</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/schedule-web/</guid><description>&lt;p&gt;tentative.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Assignment&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 08/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Dev &amp;amp; Usability: Intro&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 15/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Discount Usability&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 22/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Static Web Site Publishing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 29/04/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Continuous Deployment and Agile Development&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 06/05/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Individual Consultations&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>M1 Web Technology Topics</title><link>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2020/m1-web/topics/</guid><description>&lt;h1 id="discount-usability"&gt;Discount Usability&lt;/h1&gt;
+&lt;p&gt;The Nielsen Norman Group maintains a great web site with a wealth of information and material about Usability, User Centered Design and User Experience. Starting with &lt;a href="https://www.nngroup.com/videos/discount-usability-30-years/"&gt;Discount Usability 30 Years&lt;/a&gt; read about either - or all - the three mentioned methods: simplified user testing with 5 users, early test of paper prototypes, and heuristic evaluation. Your goal is to learn enough about either one of this three methods to apply it within a project.&lt;/p&gt;</description></item></channel></rss>

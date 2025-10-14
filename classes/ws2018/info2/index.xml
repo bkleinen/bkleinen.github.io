@@ -1,333 +1,333 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 WS 2018/19 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2018/info2/</link><description>Recent content in Info2 WS 2018/19 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2018/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 WS2018 Schedule</title><link>https://bkleinen.github.io/classes/ws2018/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change">Tentative Schedule - Lab Topics are subject to change!&lt;/h2>
-&lt;p>Lab Assignments not linked here have not been released for this term yet and
-might be changed.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Lecture&lt;/th>
- &lt;th style="text-align: left">&lt;/th>
- &lt;th style="text-align: left">Lecture Topic&lt;/th>
- &lt;th style="text-align: left">Lab&lt;/th>
- &lt;th style="text-align: left">Lab Topic&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">39&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-10-05&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Welcome Back, Overview, Designing Applications&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-01">Designing an Application, CRC Cards (Pre-Lab!)&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Toolbox: Java, Eclipse File I/O.&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">40&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-10-12&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Error Handling and Exceptions reviewed&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-02">Implementing CRC cards (Pre-Lab!)&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Networking in Java.&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-10-19&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Concurrency&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-03">Histogram&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Complexity of Algorithms, Binary Search&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-10-26&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../misc/collections/">e-learning: The Java Collection Framework&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../misc/collections/">e-learning&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../misc/collections/">e-learning: The Java Collection Framework&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-11-02&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Properties of Algorithms, Maximum Contiguous Subsequence Sum&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-04">Chatterbox&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Arrays, Lists and Stacks&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-11-09&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Queues, Priority Queues, Collections: Sets, Bags, Maps.&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-05">Execution Times&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Recursion&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-11-16&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Recursion&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-06">Reverse Polish Notation&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Sorting, Divide &amp;amp; Conquer, Maximum Contiguous Subsequence revisited&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-11-23&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Sorting Quicksort, Radix Sort&lt;/td>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-07">Recursive Triangles&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Sorting Continued&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-11-30&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Random numbers, Probabilistic Algorithms&lt;/td>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-08">Eight Queens&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Graphs, Graph Algorithms&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-12-07&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Searching, Nearest Neighbor, Branch and Bound&lt;/td>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-09">Probablistic Algorithms&lt;/a> (Pre-Lab!)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Trees, Heapsort, Sorting Algorithms Conclusion&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-12-14&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Hashs&lt;/td>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-10">Getting from A to B&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">String Searching and Pattern Matching&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">Fri, 2018-12-21&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Finite State Automata&lt;/td>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-11">Finite State Automata and Sorting&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">Finite State Automata&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">Fri, 2019-01-04&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Searching, Scanning and Parsing Algorithms&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Repetition; Questions&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">AVL Trees, Python Start&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">Fri, 2019-01-11&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">2nd Language (Phyton) + Repetition of Algorithms&lt;/td>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-12">Scrabble Cheater Basic Edition&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">2nd Language (Phyton) + Repetition of Algorithms&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">Fri, 2019-01-18&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Exam Preparation&lt;/td>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../labs/lab-13">Scrabble Cheater Deluxe&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">2nd Language (Phyton) + Repetition of Algorithms&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">Fri, 2019-01-25&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Repetition &amp;amp; Exam Preparation&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Trial Exam&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">2nd Language (Phyton) + Repetition of Algorithms&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">Fri, 2019-02-01&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">Exam&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">II&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">57&lt;/td>
- &lt;td style="text-align: left">Fri, 2019-02-08&lt;/td>
- &lt;td style="text-align: left">I&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-und-projekte-im-wintersemester-201819/">IMI SHOWTIME!!&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info2 WS 2018/19 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2018/info2/</link><description>Recent content in Info2 WS 2018/19 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2018/info2/index.xml" rel="self" type="application/rss+xml"/><item><title>Info2 WS2018 Schedule</title><link>https://bkleinen.github.io/classes/ws2018/info2/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2018/info2/schedule/</guid><description>&lt;h2 id="tentative-schedule---lab-topics-are-subject-to-change"&gt;Tentative Schedule - Lab Topics are subject to change!&lt;/h2&gt;
+&lt;p&gt;Lab Assignments not linked here have not been released for this term yet and
+might be changed.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecture&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecture Topic&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lab&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lab Topic&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;39&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-10-05&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Welcome Back, Overview, Designing Applications&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-01"&gt;Designing an Application, CRC Cards (Pre-Lab!)&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Toolbox: Java, Eclipse File I/O.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;40&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-10-12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Error Handling and Exceptions reviewed&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-02"&gt;Implementing CRC cards (Pre-Lab!)&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Networking in Java.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;41&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-10-19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Concurrency&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-03"&gt;Histogram&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Complexity of Algorithms, Binary Search&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-10-26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../misc/collections/"&gt;e-learning: The Java Collection Framework&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../misc/collections/"&gt;e-learning&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../misc/collections/"&gt;e-learning: The Java Collection Framework&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;43&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-11-02&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Properties of Algorithms, Maximum Contiguous Subsequence Sum&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-04"&gt;Chatterbox&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Arrays, Lists and Stacks&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-11-09&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Queues, Priority Queues, Collections: Sets, Bags, Maps.&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-05"&gt;Execution Times&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Recursion&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;45&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-11-16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Recursion&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-06"&gt;Reverse Polish Notation&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Sorting, Divide &amp;amp; Conquer, Maximum Contiguous Subsequence revisited&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;46&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-11-23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Sorting Quicksort, Radix Sort&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-07"&gt;Recursive Triangles&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Sorting Continued&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-11-30&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Random numbers, Probabilistic Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-08"&gt;Eight Queens&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Graphs, Graph Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;48&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-12-07&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Searching, Nearest Neighbor, Branch and Bound&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-09"&gt;Probablistic Algorithms&lt;/a&gt; (Pre-Lab!)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Trees, Heapsort, Sorting Algorithms Conclusion&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;49&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-12-14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Hashs&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-10"&gt;Getting from A to B&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;String Searching and Pattern Matching&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2018-12-21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Finite State Automata&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-11"&gt;Finite State Automata and Sorting&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Finite State Automata&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2019-01-04&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Searching, Scanning and Parsing Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Repetition; Questions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;AVL Trees, Python Start&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2019-01-11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2nd Language (Phyton) + Repetition of Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-12"&gt;Scrabble Cheater Basic Edition&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2nd Language (Phyton) + Repetition of Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2019-01-18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam Preparation&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../labs/lab-13"&gt;Scrabble Cheater Deluxe&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2nd Language (Phyton) + Repetition of Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2019-01-25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Repetition &amp;amp; Exam Preparation&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Trial Exam&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2nd Language (Phyton) + Repetition of Algorithms&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2019-02-01&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;II&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;57&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri, 2019-02-08&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;I&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-und-projekte-im-wintersemester-201819/"&gt;IMI SHOWTIME!!&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

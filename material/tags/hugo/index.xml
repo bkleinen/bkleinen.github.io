@@ -1,60 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/hugo/</link><description>Recent content in Hugo on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 09:40:59 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlighting</title><link>https://bkleinen.github.io/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://bkleinen.github.io/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout">Syntax Highlighting Tryout&lt;/h2>
-&lt;p>Notes:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>switch off javascript that adds bootstrap styles to tables in frontmatter:
-&lt;code>NoStripedTables: true&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>many styles available, they can either be set in config (see markup.toml) or
-with the setting &lt;code>noClasses=false&lt;/code> via stylesheets. see &lt;code>syntax-xxx.scss&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Hugo Doc&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Chroma Styles:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://xyproto.github.io/splash/docs/all.html">Chroma Style Gallery&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://xyproto.github.io/splash/docs/longer/all.html">Longer&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="example-from-page">Example from page:&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="hl">&lt;span class="lnt">199
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line hl">&lt;span class="cl">&lt;span class="c1">// ... code&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;hr>
-&lt;h3 id="without-anything">Without anything&lt;/h3>
-&lt;pre tabindex="0">&lt;code>$ ls -lart
-&lt;/code>&lt;/pre>&lt;hr>
-&lt;h3 id="bash">Bash&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">199
-&lt;/span>&lt;span class="lnt">200
-&lt;/span>&lt;span class="lnt">201
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">$ ls -lart
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">some output
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">199
-&lt;/span>&lt;span class="lnt">200
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># ls -lart&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">asdffs
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3>&lt;/h3>
-&lt;p>style = &amp;lsquo;monokai&amp;rsquo;&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/material/tags/hugo/</link><description>Recent content in Hugo on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 09:40:59 +0200</lastBuildDate><atom:link href="https://bkleinen.github.io/material/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlighting</title><link>https://bkleinen.github.io/material/hugo/code_highlighting/</link><pubDate>Sat, 23 Oct 2021 08:44:57 +0200</pubDate><guid>https://bkleinen.github.io/material/hugo/code_highlighting/</guid><description>&lt;h2 id="syntax-highlighting-tryout"&gt;Syntax Highlighting Tryout&lt;/h2&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;switch off javascript that adds bootstrap styles to tables in frontmatter:
+&lt;code&gt;NoStripedTables: true&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;many styles available, they can either be set in config (see markup.toml) or
+with the setting &lt;code&gt;noClasses=false&lt;/code&gt; via stylesheets. see &lt;code&gt;syntax-xxx.scss&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/content-management/syntax-highlighting/"&gt;Hugo Doc&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chroma Styles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://xyproto.github.io/splash/docs/all.html"&gt;Chroma Style Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://xyproto.github.io/splash/docs/longer/all.html"&gt;Longer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="example-from-page"&gt;Example from page:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="hl"&gt;&lt;span class="lnt"&gt;199
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span class="line hl"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;// ... code&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id="without-anything"&gt;Without anything&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$ ls -lart
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h3 id="bash"&gt;Bash&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;199
+&lt;/span&gt;&lt;span class="lnt"&gt;200
+&lt;/span&gt;&lt;span class="lnt"&gt;201
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ ls -lart
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;some output
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;199
+&lt;/span&gt;&lt;span class="lnt"&gt;200
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# ls -lart&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;asdffs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3&gt;&lt;/h3&gt;
+&lt;p&gt;style = &amp;lsquo;monokai&amp;rsquo;&lt;/p&gt;</description></item></channel></rss>

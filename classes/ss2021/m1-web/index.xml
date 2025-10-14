@@ -1,118 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/m1-web/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2021/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/m1-web/schedule/</guid><description>&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Topic Area&lt;/th>
- &lt;th style="text-align: left">Lecturer&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">Wed 07/04/2021&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Klaus Jung&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">Wed 14/04/2021&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">Wed 21/04/2021&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Kai Barthel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">Wed 28/04/2021&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">Wed 05/05/2021&lt;/td>
- &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">Wed 12/05/2021&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">20&lt;/td>
- &lt;td style="text-align: left">Wed 19/05/2021&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">21&lt;/td>
- &lt;td style="text-align: left">Wed 26/05/2021&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">22&lt;/td>
- &lt;td style="text-align: left">Wed 02/06/2021&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">23&lt;/td>
- &lt;td style="text-align: left">Wed 09/06/2021&lt;/td>
- &lt;td style="text-align: left">Web Technology&lt;/td>
- &lt;td style="text-align: left">Gefei Zhang&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Wed 16/06/2021&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Wed 23/06/2021&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Wed 30/06/2021&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Wed 07/07/2021&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Wed 14/07/2021&lt;/td>
- &lt;td style="text-align: left">Game Technology and Interactive Systems&lt;/td>
- &lt;td style="text-align: left">David Strippgen&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1 Media Programming on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2021/m1-web/</link><description>Recent content in M1 Media Programming on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2021/m1-web/index.xml" rel="self" type="application/rss+xml"/><item><title>M1 Labs Overall Schedule</title><link>https://bkleinen.github.io/classes/ss2021/m1-web/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2021/m1-web/schedule/</guid><description>&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Topic Area&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecturer&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 07/04/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Klaus Jung&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 14/04/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 21/04/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Kai Barthel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 28/04/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 05/05/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Visual Computing&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Nico Hezel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 12/05/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 19/05/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 26/05/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 02/06/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 09/06/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Web Technology&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Gefei Zhang&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 16/06/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 23/06/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 30/06/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 07/07/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Wed 14/07/2021&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Game Technology and Interactive Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David Strippgen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

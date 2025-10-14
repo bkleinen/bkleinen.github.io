@@ -1,299 +1,299 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications WS 2019/20 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/</link><description>Recent content in WT1 Web Applications WS 2019/20 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Applications WS2019/2020 - Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/schedule/</guid><description>&lt;p>Tentative - this will still be changed and adapted.&lt;/p>
-&lt;h1 id="tentative-schedule">Tentative Schedule&lt;/h1>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Week&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">What&lt;/th>
- &lt;th style="text-align: left">Who&lt;/th>
- &lt;th style="text-align: left">Homework / Due Tue 22:00 next week&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">41&lt;/td>
- &lt;td style="text-align: left">Thu 10/10/2019&lt;/td>
- &lt;td style="text-align: left">Class Intro&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;a href="../assignments/homework0">Homework 0&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">42&lt;/td>
- &lt;td style="text-align: left">Thu 17/10/2019&lt;/td>
- &lt;td style="text-align: left">User Story Mapping &amp;amp; First Project&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">43&lt;/td>
- &lt;td style="text-align: left">Thu 24/10/2019&lt;/td>
- &lt;td style="text-align: left">Paper Prototypes / Storyboards&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">44&lt;/td>
- &lt;td style="text-align: left">Thu 31/10/2019&lt;/td>
- &lt;td style="text-align: left">e-learning&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">45&lt;/td>
- &lt;td style="text-align: left">Thu 07/11/2019&lt;/td>
- &lt;td style="text-align: left">Patterns of Enterprise Application Architectures&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Continuous Deployment&lt;/td>
- &lt;td style="text-align: left">BK&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">46&lt;/td>
- &lt;td style="text-align: left">Thu 14/11/2019&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://www.eventbrite.de/e/world-usability-day-berlin-2019-designing-for-the-future-we-want-registrierung-77513275293">Gemeinsamer Besuch des World Usability Days - bitte anmelden!&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">47&lt;/td>
- &lt;td style="text-align: left">Thu 21/11/2019&lt;/td>
- &lt;td style="text-align: left">WebGL&lt;/td>
- &lt;td style="text-align: left">Chris, Florian W&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Docker&lt;/td>
- &lt;td style="text-align: left">Christian, Johann&lt;/td>
- &lt;td style="text-align: left">finish First Project&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">48&lt;/td>
- &lt;td style="text-align: left">Thu 28/11/2019&lt;/td>
- &lt;td style="text-align: left">(ausgefallen)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">49&lt;/td>
- &lt;td style="text-align: left">Thu 05/12/2019&lt;/td>
- &lt;td style="text-align: left">rescheduled to 23/01&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">50&lt;/td>
- &lt;td style="text-align: left">Thu 12/12/2019&lt;/td>
- &lt;td style="text-align: left">Presentations 1st Project&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">51&lt;/td>
- &lt;td style="text-align: left">Thu 19/12/2019&lt;/td>
- &lt;td style="text-align: left">Progressive WebApps&lt;/td>
- &lt;td style="text-align: left">Kevin&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Serverless Architectures&lt;/td>
- &lt;td style="text-align: left">David M, Eko&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">Thu 09/01/2020&lt;/td>
- &lt;td style="text-align: left">Realtime, WebRTC, Websockets&lt;/td>
- &lt;td style="text-align: left">Paul&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Microfrontents&lt;/td>
- &lt;td style="text-align: left">Markus, Florian S&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">Thu 16/01/2020&lt;/td>
- &lt;td style="text-align: left">Microservices: &lt;a href="https://martinfowler.com/microservices/">Microservices Guide&lt;/a>&lt;/td>
- &lt;td style="text-align: left">Simon&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Authentication and Authorization&lt;/td>
- &lt;td style="text-align: left">Lennard&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">Thu 23/01/2020&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">finish Second Project&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">Thu 30/01/2020&lt;/td>
- &lt;td style="text-align: left">Presentations 2nd Project&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h1 id="presentation-topic-list">Presentation Topic List&lt;/h1>
-&lt;ol>
-&lt;li>Intro to a Framework and Learning Pointers: React, AngularJS - HIGH LEVEL!&lt;/li>
-&lt;li>&lt;a href="https://martinfowler.com/articles/evodb.html#scenario">Evolutionary Database Design&lt;/a>, &lt;a href="https://martinfowler.com/data/">Data Management Guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://martinfowler.com/articles/serverless.html">Serverless Architectures&lt;/a>&lt;/li>
-&lt;li>Architectures: &lt;a href="https://martinfowler.com/bliki/PresentationDomainDataLayering.html">PresentationDomainDataLayering&lt;/a>&lt;/li>
-&lt;li>&lt;/li>
-&lt;li>&lt;a href="https://martinfowler.com/articles/micro-frontends.html">Micro Frontends&lt;/a>&lt;/li>
-&lt;li>Docker&lt;/li>
-&lt;li>Continuous Deployment&lt;/li>
-&lt;li>Testing, TDD, BDD, UI-Testing&lt;/li>
-&lt;li>Dependency Management&lt;/li>
-&lt;li>Web Security&lt;/li>
-&lt;li>Authentication and Authorization (in a Framework apart of Rails)&lt;/li>
-&lt;li>Realtime, WebRTC, Websockets&lt;/li>
-&lt;li>CSS and Responsive Design&lt;/li>
-&lt;li>Rails Architecture, Conventions, MVC and Active Record&lt;/li>
-&lt;li>JavaScript: Foundations and Manipulating the DOM&lt;/li>
-&lt;li>History of the Web&lt;/li>
-&lt;li>Progressive WebApps&lt;/li>
-&lt;/ol>
-&lt;h1 id="project-topics-apart-from-implementing-use-cases">Project Topics (Apart from implementing Use Cases)&lt;/h1>
-&lt;ol>
-&lt;li>Assessing and Setting up CI/CD&lt;/li>
-&lt;li>Implementing the Authorization/Authentication part&lt;/li>
-&lt;/ol>
-&lt;p>Authentication &amp;amp; Authorization | BK&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WT1 Web Applications WS 2019/20 on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/</link><description>Recent content in WT1 Web Applications WS 2019/20 on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Applications WS2019/2020 - Tentative Schedule</title><link>https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ws2019/m-wt1-webapplications/schedule/</guid><description>&lt;p&gt;Tentative - this will still be changed and adapted.&lt;/p&gt;
+&lt;h1 id="tentative-schedule"&gt;Tentative Schedule&lt;/h1&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Week&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;What&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Who&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Homework / Due Tue 22:00 next week&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;41&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 10/10/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Class Intro&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="../assignments/homework0"&gt;Homework 0&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;42&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 17/10/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;User Story Mapping &amp;amp; First Project&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;43&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 24/10/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Paper Prototypes / Storyboards&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;44&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 31/10/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;e-learning&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;45&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 07/11/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Patterns of Enterprise Application Architectures&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Continuous Deployment&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;BK&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;46&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 14/11/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://www.eventbrite.de/e/world-usability-day-berlin-2019-designing-for-the-future-we-want-registrierung-77513275293"&gt;Gemeinsamer Besuch des World Usability Days - bitte anmelden!&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;47&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 21/11/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;WebGL&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chris, Florian W&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Docker&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Christian, Johann&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;finish First Project&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;48&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 28/11/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;(ausgefallen)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;49&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 05/12/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;rescheduled to 23/01&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;50&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 12/12/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Presentations 1st Project&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;51&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 19/12/2019&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Progressive WebApps&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Kevin&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Serverless Architectures&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;David M, Eko&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 09/01/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Realtime, WebRTC, Websockets&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Paul&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Microfrontents&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Markus, Florian S&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 16/01/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Microservices: &lt;a href="https://martinfowler.com/microservices/"&gt;Microservices Guide&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Simon&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Authentication and Authorization&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lennard&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 23/01/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;finish Second Project&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 30/01/2020&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Presentations 2nd Project&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="presentation-topic-list"&gt;Presentation Topic List&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Intro to a Framework and Learning Pointers: React, AngularJS - HIGH LEVEL!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://martinfowler.com/articles/evodb.html#scenario"&gt;Evolutionary Database Design&lt;/a&gt;, &lt;a href="https://martinfowler.com/data/"&gt;Data Management Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://martinfowler.com/articles/serverless.html"&gt;Serverless Architectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Architectures: &lt;a href="https://martinfowler.com/bliki/PresentationDomainDataLayering.html"&gt;PresentationDomainDataLayering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://martinfowler.com/articles/micro-frontends.html"&gt;Micro Frontends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Continuous Deployment&lt;/li&gt;
+&lt;li&gt;Testing, TDD, BDD, UI-Testing&lt;/li&gt;
+&lt;li&gt;Dependency Management&lt;/li&gt;
+&lt;li&gt;Web Security&lt;/li&gt;
+&lt;li&gt;Authentication and Authorization (in a Framework apart of Rails)&lt;/li&gt;
+&lt;li&gt;Realtime, WebRTC, Websockets&lt;/li&gt;
+&lt;li&gt;CSS and Responsive Design&lt;/li&gt;
+&lt;li&gt;Rails Architecture, Conventions, MVC and Active Record&lt;/li&gt;
+&lt;li&gt;JavaScript: Foundations and Manipulating the DOM&lt;/li&gt;
+&lt;li&gt;History of the Web&lt;/li&gt;
+&lt;li&gt;Progressive WebApps&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="project-topics-apart-from-implementing-use-cases"&gt;Project Topics (Apart from implementing Use Cases)&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Assessing and Setting up CI/CD&lt;/li&gt;
+&lt;li&gt;Implementing the Authorization/Authentication part&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Authentication &amp;amp; Authorization | BK&lt;/p&gt;</description></item></channel></rss>

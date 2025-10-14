@@ -1,88 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/</link><description>Recent content in Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2023/info3/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>1 - Lab Startup</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-01-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-01-startup/</guid><description>&lt;p>&lt;img src="../images/workplace.jpg" alt="Workplace" title="workplace">
-&lt;!-- raw HTML omitted -->Nerd Workplace. Foto by &lt;a href="https://www.flickr.com/photos/slworking/8539204081/">slworking2&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>This Startup Lab is about installing the tools you need for Python Programming and getting some (more) hands-on experience with git, so start with that. If bored, move on to try python.&lt;/p>
-&lt;h3 id="which-computer-to-use">Which Computer to use?&lt;/h3>
-&lt;p>In my experience, all Students prefer to use their own computers, which is possible as all Software
-we&amp;rsquo;ll use and need is free to use (at least for Students).&lt;/p></description></item><item><title>2 - Learning Python</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-02-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-02-python/</guid><description>&lt;p>As always, you need to prepare a report together and each hand in this same report in moodle.&lt;/p>
-&lt;h2 id="part-1-python-learning-with-unit-tests">Part 1: Python Learning with Unit Tests&lt;/h2>
-&lt;p>Continue the collaborative work on the Python Learning Repository: &lt;a href="https://github.com/htw-imi-info3/python-learning">https://github.com/htw-imi-info3/python-learning&lt;/a>.&lt;/p>
-&lt;p>** note that you need write permissions for the repository! I&amp;rsquo;ll add everyone to the team on github in the labs. **&lt;/p>
-&lt;p>This part can be done together, but each person must have their own topic/file and each one must commit a new file to the repo and review two other files. However, you can (and should) help each other and discuss them in your group.&lt;/p></description></item><item><title>3 - Python Project</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-03-pythonproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-03-pythonproject/</guid><description>&lt;p>As always, you need to prepare a report together and each hand in this same report in moodle.&lt;/p>
-&lt;p>The Report should contain:&lt;/p>
-&lt;ul>
-&lt;li>names of all team members&lt;/li>
-&lt;li>a log of what you did&lt;/li>
-&lt;li>notes of commands used &amp;amp; learned&lt;/li>
-&lt;li>references to sources used&lt;/li>
-&lt;li>encountered issues and the solutions found or&lt;/li>
-&lt;li>why you gave up on something - see below&lt;/li>
-&lt;li>a brief overall reflection on the lab.
-This can be done together or individually.&lt;/li>
-&lt;/ul>
-&lt;h2 id="part-0-python-project-ideas-pitch-and-group-selection">Part 0: Python Project Ideas Pitch and Group Selection&lt;/h2>
-&lt;p>Bring your Project Ideas to the Lab. You can pitch your project ideas in the beginning of the lab and form teams based on interest just for this project.&lt;/p></description></item><item><title>4 - Use Cases and Class Diagrams Part I</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</guid><description>&lt;p>&lt;img src="../images/study-partner.jpg" alt="Table" title="pumpkins">
-&lt;!-- raw HTML omitted -->Foto by &lt;a href="https://unsplash.com/photos/SYTO3xs06fU">Marvin Meyer&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;h3 id="1-know-what-the-lab-is-about">1. Know what the lab is about&lt;/h3>
-&lt;p>In this exercise you will do the first part of working on a&lt;/p>
-&lt;ul>
-&lt;li>Use Case Diagram&lt;/li>
-&lt;li>Scenarios&lt;/li>
-&lt;li>A Class Diagram
-for an application called &amp;ldquo;StudyPartner&amp;rdquo;.&lt;/li>
-&lt;/ul>
-&lt;h4 id="2--study-partner-app">2. Study Partner App&lt;/h4>
-&lt;p>The Product Manager has asked you to design and develop the app for IMI:&lt;/p>
-&lt;p>&lt;strong>Study Partner&lt;/strong> is planned to be an application where IMI-Students can find and meet fellow IMI-Students for various kinds of joint study activities.&lt;/p></description></item><item><title>5 - Use Cases and Class Diagrams Part II</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</guid><description>&lt;p>This is part 2 - refer to &lt;a href="../lab-04-usecases">Part 1&lt;/a> for the assignment.&lt;/p>
-&lt;p>Don&amp;rsquo;t worry too much about the differentiation of Part 1 and 2, just add
-missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;/p>
-&lt;p>Depending on the reviews of Part1, additional guidance might be added here.&lt;/p>
-&lt;h2 id="results-submission">Results Submission&lt;/h2>
-&lt;ul>
-&lt;li>Hand in a lab report (including your diagrams)&lt;/li>
-&lt;/ul>
-&lt;p>More info on the &lt;a href="..">Labs&lt;/a> page.&lt;/p></description></item><item><title>6 - Sequence Diagrams</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-06-sequence-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-06-sequence-diagrams/</guid><description>&lt;p>&lt;img src="../images/sequence.jpg" alt="Launch Sequence">&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->Pelican launch sequence. &lt;a href="https://www.flickr.com/photos/69214385@N04/9172233502">Foto by Don McCullough &lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;ul>
-&lt;li>Read Martin Fowler&amp;rsquo;s Chapter about Sequence Diagrams from the book &amp;ldquo;UML Distilled&amp;rdquo; &lt;a href="https://www.informit.com/articles/article.aspx?p=169507">is available as a sample chapter online.&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="assignment">Assignment&lt;/h2>
-&lt;h3 id="part-1-sequence-diagrams-of-known-classes">Part 1: Sequence Diagrams of Known Classes&lt;/h3>
-&lt;p>As an introductionary exercise for Sequence Diagrams, pick one of the following example projects from Info1 and draw a sequence diagram for the main use case:&lt;/p></description></item><item><title>7 - Testing</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-07-testing/</guid><description>&lt;p>&lt;img src="../images/test-button.jpg" alt="Test Button">
-&lt;!-- raw HTML omitted -->Test Button in Car. &lt;a href="https://www.flickr.com/photos/cosmic_spanner/3766667411">Foto by Mike Roberts&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;h4 id="1-read-about-closed--and-open-box-tests">1. Read about Closed- and Open-Box Tests.&lt;/h4>
-&lt;p>I chose &amp;ldquo;Closed- and Open-Box Tests&amp;rdquo; as a more inclusive replacement for the terms &amp;ldquo;Black- and White-Box&amp;rdquo; Tests (&lt;a href="#why-i-replaced-the-terms">why?&lt;/a>). I could not find a general agreement on the best replacements, so I chose this terms as I think they are also even a better metaphor for the strategies to find test cases they describe:&lt;/p></description></item><item><title>8 - Gilded Rose</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-08-gilded-rose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-08-gilded-rose/</guid><description>&lt;p>&lt;a href="../images/The_Gilded_Rose.webp">&lt;img src="../images/The_Gilded_Rose.jpg" alt="The Gilded Rose">&lt;/a>&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->The Gilded Rose, Trade District, &lt;a href="https://wowpedia.fandom.com/wiki/Gilded_Rose">World of Warcraft.&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h1 id="the-gilded-rose-kata">The Gilded Rose Kata&lt;/h1>
-&lt;p>&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;h3 id="about-coding-katas">About Coding Katas&lt;/h3>
-&lt;p>The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata">Wikipedia:Kata&lt;/a>), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/">Dave Thomas in his blog&lt;/a>, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata">Kata-Log&lt;/a> for an example that can be browsed by topic and constraint.&lt;/p></description></item><item><title>9 - State Machine Diagrams</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-09-state-machines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-09-state-machines/</guid><description>&lt;p>&lt;img src="../images/turing-tape.jpg" alt="Tape of a fancy Turing Machine">&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;a href="https://en.wikipedia.org/wiki/Turing_machine_gallery">Tape of a fancy Turing Machine from Wikipedia&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>For an introduction to state machine diagrams, see &lt;a href="https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm">https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm&lt;/a>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>for the parser exercise, have a look at &lt;a href="https://en.wikipedia.org/wiki/Deterministic_finite_automaton">Finite Automata&lt;/a> - in their context of formal languages their typical event is reading a character from an input stream, and can be (and usually are) represented by state machine diagrams.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="part-1-state-machine-diagrams">Part 1: State Machine Diagrams&lt;/h3>
-&lt;ol>
-&lt;li>
-&lt;p>Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.&lt;/p></description></item><item><title>10 - Web Applications 1</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-10-webapps-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-10-webapps-1/</guid><description>&lt;h2 id="prelab">Prelab&lt;/h2>
-&lt;p>&lt;strong>P1.&lt;/strong> Make sure the &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/">scaffold app&lt;/a> is installed and running on your machine. Refer to the &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/blob/main/README.md">README.md&lt;/a> for instructions. &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/">https://github.com/htw-imi-info3/django_lab_scaffold/&lt;/a>&lt;/p>
-&lt;p>&lt;strong>P2.&lt;/strong> Startup the app, and create some testdata, using both the studybuddy_app app and the admin app.&lt;/p>
-&lt;p>&lt;strong>P3.&lt;/strong> Have a look at the sourcecode, especially the studybuddy_app part and the Meetup model. Can you make sense of the source code? Take notes of things that are unclear and questions.&lt;/p>
-&lt;p>&lt;strong>P4.&lt;/strong> How does rsvp (participate in meetup) work?&lt;/p></description></item><item><title>11 - Web Applications 2</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-11-webapps-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-11-webapps-2/</guid><description>&lt;h2 id="prelab">Prelab&lt;/h2>
-&lt;p>&lt;strong>P1.&lt;/strong> Bring your Application from last Week.&lt;/p>
-&lt;h2 id="assignment">Assignment&lt;/h2>
-&lt;h3 id="part-1-amend-the-page-structure">Part 1: Amend the Page Structure&lt;/h3>
-&lt;p>Change the index and home pages (Home and StudyBuddy in the navigation) if appropriate.&lt;/p>
-&lt;h3 id="part-2-make-your-model-editable">Part 2: Make your Model Editable&lt;/h3>
-&lt;p>Last Week, you&amp;rsquo;ve created a Detail View for your Model.
-make your model editable by adding the appropriate paths, views and last not least a template with a form for editing your model.&lt;/p>
-&lt;p>This exercise is about the basic mechanics of forms and handling form data/requests in the app.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/</link><description>Recent content in Info3 - Labs and Exercises on Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/classes/ss2023/info3/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>1 - Lab Startup</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-01-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-01-startup/</guid><description>&lt;p&gt;&lt;img src="../images/workplace.jpg" alt="Workplace" title="workplace"&gt;
+&lt;!-- raw HTML omitted --&gt;Nerd Workplace. Foto by &lt;a href="https://www.flickr.com/photos/slworking/8539204081/"&gt;slworking2&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;This Startup Lab is about installing the tools you need for Python Programming and getting some (more) hands-on experience with git, so start with that. If bored, move on to try python.&lt;/p&gt;
+&lt;h3 id="which-computer-to-use"&gt;Which Computer to use?&lt;/h3&gt;
+&lt;p&gt;In my experience, all Students prefer to use their own computers, which is possible as all Software
+we&amp;rsquo;ll use and need is free to use (at least for Students).&lt;/p&gt;</description></item><item><title>2 - Learning Python</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-02-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-02-python/</guid><description>&lt;p&gt;As always, you need to prepare a report together and each hand in this same report in moodle.&lt;/p&gt;
+&lt;h2 id="part-1-python-learning-with-unit-tests"&gt;Part 1: Python Learning with Unit Tests&lt;/h2&gt;
+&lt;p&gt;Continue the collaborative work on the Python Learning Repository: &lt;a href="https://github.com/htw-imi-info3/python-learning"&gt;https://github.com/htw-imi-info3/python-learning&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;** note that you need write permissions for the repository! I&amp;rsquo;ll add everyone to the team on github in the labs. **&lt;/p&gt;
+&lt;p&gt;This part can be done together, but each person must have their own topic/file and each one must commit a new file to the repo and review two other files. However, you can (and should) help each other and discuss them in your group.&lt;/p&gt;</description></item><item><title>3 - Python Project</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-03-pythonproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-03-pythonproject/</guid><description>&lt;p&gt;As always, you need to prepare a report together and each hand in this same report in moodle.&lt;/p&gt;
+&lt;p&gt;The Report should contain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;names of all team members&lt;/li&gt;
+&lt;li&gt;a log of what you did&lt;/li&gt;
+&lt;li&gt;notes of commands used &amp;amp; learned&lt;/li&gt;
+&lt;li&gt;references to sources used&lt;/li&gt;
+&lt;li&gt;encountered issues and the solutions found or&lt;/li&gt;
+&lt;li&gt;why you gave up on something - see below&lt;/li&gt;
+&lt;li&gt;a brief overall reflection on the lab.
+This can be done together or individually.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="part-0-python-project-ideas-pitch-and-group-selection"&gt;Part 0: Python Project Ideas Pitch and Group Selection&lt;/h2&gt;
+&lt;p&gt;Bring your Project Ideas to the Lab. You can pitch your project ideas in the beginning of the lab and form teams based on interest just for this project.&lt;/p&gt;</description></item><item><title>4 - Use Cases and Class Diagrams Part I</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-04-usecases-classdiagrams/</guid><description>&lt;p&gt;&lt;img src="../images/study-partner.jpg" alt="Table" title="pumpkins"&gt;
+&lt;!-- raw HTML omitted --&gt;Foto by &lt;a href="https://unsplash.com/photos/SYTO3xs06fU"&gt;Marvin Meyer&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;h3 id="1-know-what-the-lab-is-about"&gt;1. Know what the lab is about&lt;/h3&gt;
+&lt;p&gt;In this exercise you will do the first part of working on a&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Case Diagram&lt;/li&gt;
+&lt;li&gt;Scenarios&lt;/li&gt;
+&lt;li&gt;A Class Diagram
+for an application called &amp;ldquo;StudyPartner&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="2--study-partner-app"&gt;2. Study Partner App&lt;/h4&gt;
+&lt;p&gt;The Product Manager has asked you to design and develop the app for IMI:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Study Partner&lt;/strong&gt; is planned to be an application where IMI-Students can find and meet fellow IMI-Students for various kinds of joint study activities.&lt;/p&gt;</description></item><item><title>5 - Use Cases and Class Diagrams Part II</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-05-usecases-classdiagrams/</guid><description>&lt;p&gt;This is part 2 - refer to &lt;a href="../lab-04-usecases"&gt;Part 1&lt;/a&gt; for the assignment.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t worry too much about the differentiation of Part 1 and 2, just add
+missing parts and refine your design based on what you&amp;rsquo;ve learned.&lt;/p&gt;
+&lt;p&gt;Depending on the reviews of Part1, additional guidance might be added here.&lt;/p&gt;
+&lt;h2 id="results-submission"&gt;Results Submission&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hand in a lab report (including your diagrams)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More info on the &lt;a href=".."&gt;Labs&lt;/a&gt; page.&lt;/p&gt;</description></item><item><title>6 - Sequence Diagrams</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-06-sequence-diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-06-sequence-diagrams/</guid><description>&lt;p&gt;&lt;img src="../images/sequence.jpg" alt="Launch Sequence"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Pelican launch sequence. &lt;a href="https://www.flickr.com/photos/69214385@N04/9172233502"&gt;Foto by Don McCullough &lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Read Martin Fowler&amp;rsquo;s Chapter about Sequence Diagrams from the book &amp;ldquo;UML Distilled&amp;rdquo; &lt;a href="https://www.informit.com/articles/article.aspx?p=169507"&gt;is available as a sample chapter online.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="assignment"&gt;Assignment&lt;/h2&gt;
+&lt;h3 id="part-1-sequence-diagrams-of-known-classes"&gt;Part 1: Sequence Diagrams of Known Classes&lt;/h3&gt;
+&lt;p&gt;As an introductionary exercise for Sequence Diagrams, pick one of the following example projects from Info1 and draw a sequence diagram for the main use case:&lt;/p&gt;</description></item><item><title>7 - Testing</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-07-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-07-testing/</guid><description>&lt;p&gt;&lt;img src="../images/test-button.jpg" alt="Test Button"&gt;
+&lt;!-- raw HTML omitted --&gt;Test Button in Car. &lt;a href="https://www.flickr.com/photos/cosmic_spanner/3766667411"&gt;Foto by Mike Roberts&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;h4 id="1-read-about-closed--and-open-box-tests"&gt;1. Read about Closed- and Open-Box Tests.&lt;/h4&gt;
+&lt;p&gt;I chose &amp;ldquo;Closed- and Open-Box Tests&amp;rdquo; as a more inclusive replacement for the terms &amp;ldquo;Black- and White-Box&amp;rdquo; Tests (&lt;a href="#why-i-replaced-the-terms"&gt;why?&lt;/a&gt;). I could not find a general agreement on the best replacements, so I chose this terms as I think they are also even a better metaphor for the strategies to find test cases they describe:&lt;/p&gt;</description></item><item><title>8 - Gilded Rose</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-08-gilded-rose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-08-gilded-rose/</guid><description>&lt;p&gt;&lt;a href="../images/The_Gilded_Rose.webp"&gt;&lt;img src="../images/The_Gilded_Rose.jpg" alt="The Gilded Rose"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;The Gilded Rose, Trade District, &lt;a href="https://wowpedia.fandom.com/wiki/Gilded_Rose"&gt;World of Warcraft.&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h1 id="the-gilded-rose-kata"&gt;The Gilded Rose Kata&lt;/h1&gt;
+&lt;p&gt;&amp;ndash; Working with Legacy Code and Refactoring to Patterns &amp;ndash;&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;h3 id="about-coding-katas"&gt;About Coding Katas&lt;/h3&gt;
+&lt;p&gt;The Term &amp;lsquo;Kata&amp;rsquo; is a Metaphor taken from Martial Arts for a Pattern of Movements to Practice and Perfect those same Movements (&lt;a href="https://en.wikipedia.org/wiki/Kata"&gt;Wikipedia:Kata&lt;/a&gt;). According to (&lt;a href="https://en.wikipedia.org/wiki/Kata"&gt;Wikipedia:Kata&lt;/a&gt;), it was introduced as a practice to Software Craftsmanship by &lt;a href="http://codekata.com/"&gt;Dave Thomas in his blog&lt;/a&gt;, to practice developing software using techniques like TDD, Refactoring or the SOLID principles. There are several Code Kata Collections; see &lt;a href="https://kata-log.rocks/gilded-rose-kata"&gt;Kata-Log&lt;/a&gt; for an example that can be browsed by topic and constraint.&lt;/p&gt;</description></item><item><title>9 - State Machine Diagrams</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-09-state-machines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-09-state-machines/</guid><description>&lt;p&gt;&lt;img src="../images/turing-tape.jpg" alt="Tape of a fancy Turing Machine"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href="https://en.wikipedia.org/wiki/Turing_machine_gallery"&gt;Tape of a fancy Turing Machine from Wikipedia&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id="pre-lab"&gt;Pre-Lab&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For an introduction to state machine diagrams, see &lt;a href="https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm"&gt;https://www.agilemodeling.com/artifacts/stateMachineDiagram.htm&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;for the parser exercise, have a look at &lt;a href="https://en.wikipedia.org/wiki/Deterministic_finite_automaton"&gt;Finite Automata&lt;/a&gt; - in their context of formal languages their typical event is reading a character from an input stream, and can be (and usually are) represented by state machine diagrams.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="part-1-state-machine-diagrams"&gt;Part 1: State Machine Diagrams&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Model the modified goat/cabbage/wolf problem: The farmer is in Schöneweide and wants to get his goat, his cabbage and his wolf over to Oberschöneweide. Only one thing can fit in his boat at a time beside himself. He cannot leave the cabbage and the goat or the goat and the wolf alone on the same side of the river, for obvious reasons. Is it possible for him to get all three possessions across the Spree? Draw a State Machine Diagram modelling both solutions to this problem.&lt;/p&gt;</description></item><item><title>10 - Web Applications 1</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-10-webapps-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-10-webapps-1/</guid><description>&lt;h2 id="prelab"&gt;Prelab&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;P1.&lt;/strong&gt; Make sure the &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/"&gt;scaffold app&lt;/a&gt; is installed and running on your machine. Refer to the &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/blob/main/README.md"&gt;README.md&lt;/a&gt; for instructions. &lt;a href="https://github.com/htw-imi-info3/django_lab_scaffold/"&gt;https://github.com/htw-imi-info3/django_lab_scaffold/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;P2.&lt;/strong&gt; Startup the app, and create some testdata, using both the studybuddy_app app and the admin app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;P3.&lt;/strong&gt; Have a look at the sourcecode, especially the studybuddy_app part and the Meetup model. Can you make sense of the source code? Take notes of things that are unclear and questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;P4.&lt;/strong&gt; How does rsvp (participate in meetup) work?&lt;/p&gt;</description></item><item><title>11 - Web Applications 2</title><link>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-11-webapps-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/classes/ss2023/info3/labs/lab-11-webapps-2/</guid><description>&lt;h2 id="prelab"&gt;Prelab&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;P1.&lt;/strong&gt; Bring your Application from last Week.&lt;/p&gt;
+&lt;h2 id="assignment"&gt;Assignment&lt;/h2&gt;
+&lt;h3 id="part-1-amend-the-page-structure"&gt;Part 1: Amend the Page Structure&lt;/h3&gt;
+&lt;p&gt;Change the index and home pages (Home and StudyBuddy in the navigation) if appropriate.&lt;/p&gt;
+&lt;h3 id="part-2-make-your-model-editable"&gt;Part 2: Make your Model Editable&lt;/h3&gt;
+&lt;p&gt;Last Week, you&amp;rsquo;ve created a Detail View for your Model.
+make your model editable by adding the appropriate paths, views and last not least a template with a form for editing your model.&lt;/p&gt;
+&lt;p&gt;This exercise is about the basic mechanics of forms and handling form data/requests in the app.&lt;/p&gt;</description></item></channel></rss>
